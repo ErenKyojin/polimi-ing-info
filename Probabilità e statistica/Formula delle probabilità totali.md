@@ -20,4 +20,9 @@
 >Media (delle singole probabilità sui sottospazi) pesata con le probabilità degli scenari
 
 
-Tornando all'esemp
+Tornando all'esempio precedente, vogliamo capire la probabilità del risultato del lancio sapendo solo l'esito, ossia sapendo che il risultato è stato $2$, qual'è la probabilità della moneta:
+1. $P(E) = \dots = 0.25 = \frac{1}{4} > 0$
+2. $P(T|E) = \frac{P(T \cap E)}{P(E)} = 4(P(E|T)P(T)) = 4 \left( \frac{1}{6} \cdot\frac{1}{2} \right) = \frac{1}{3}$
+
+Quindi la probabilità che sia uscità testa se il risultato è stato due è un terzo. 
+[[Formula di Bayes]].
