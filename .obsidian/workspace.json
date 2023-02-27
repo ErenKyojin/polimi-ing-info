@@ -23,12 +23,8 @@
             "id": "125ad2f904e07bc5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e statistica/Formula di Bayes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -98,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Formula di Bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,9 +110,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Formula di Bayes.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -137,17 +131,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Probabilità e statistica/Formula di Bayes.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,11 +153,11 @@
   },
   "active": "125ad2f904e07bc5",
   "lastOpenFiles": [
+    "Analisi 2/serie di potenze.md",
+    "Probabilità e statistica/Formula di Bayes.md",
     "Probabilità e statistica/Untitled 1.md",
     "Probabilità e statistica/evento.md",
     "Analisi 2/conflict-files-obsidian-git.md",
-    "Analisi 2/serie di potenze.md",
-    "Probabilità e statistica/Formula di Bayes.md",
     "Probabilità e statistica/Formula delle probabilità totali.md",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
     "Probabilità e statistica/Canvas",

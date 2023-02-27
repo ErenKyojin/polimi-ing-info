@@ -1,7 +1,7 @@
-Particolari serie dove abbiamo gli $x^n$ moltiplicati per coefficienti
+Particolari [[serie]] dove abbiamo gli $x^n$ moltiplicati per coefficienti
 
 >[!def]
->Una serie di potenze è una serie di funzioni della forma
+>Una serie di potenze è una [[serie di funzioni]] della forma
 >$$ \sum_{n=0}^\infty  a_{n} (x - x_{0})^n = a_{0}+a_{1}(x-x_{0})+a_{2}(x-x_{0})^2+\dots + a_{n}(x-x_{0})^n+\dots$$
 >È una serie centrata in $x_{0}$ con $a_{n} \in \mathbb{R}$ detti coefficienti.
 
@@ -11,11 +11,11 @@ $$ \sum a_{n}(x-x_{0})  = a_{0}+ a_{1}\underbrace{ (x_{0}-x_{0})^1 }_{ 0 } + a_{
 Vogliamo cconoscere l'insieme di [[convergenza]] della generica
 $$ \sum_{n=0}^\infty a_{n}(x-x_{0})^n$$
 >[!oss]
->se $a_{n} = 1 \forall n$ l'insieme di convergenza semplice è $(x_{0}-1, x_{0}+1)$
+>se $a_{n} = 1 \forall n$ l'[[Analisi 1/Insiemi numerici/Insieme|insieme]] di [[convergenza semplice]] è $(x_{0}-1, x_{0}+1)$
 >Si tratta infatti di una traslata della [[serie geometrica]]
 
 
-Posso determinare l'insieme di convergenza della  generica serie di potenze senza avere informazioni sugli $a_{n}$?
+Posso determinare l'insieme di [[Analisi 2/convergenza|convergenza]] della  generica serie di potenze senza avere informazioni sugli $a_{n}$?
 L'insieme di convergenza dipende dalla rapidità di convergenza di $\sum a_{n}$
 
 >[!esempio]
@@ -34,7 +34,7 @@ $$ \begin{align}
 \int_{x_{0}}^x \! \sum_{n=0}^\infty a_{n}(t-x_{0})^n \, \mathrm{d}t  &=  \sum a_{n}\int_{x_{0}}^x \! (t-x_{0})^n\, \mathrm{d}t  \\
 &=\sum a_{n} \frac{(x-x_{0})^{n+1}}{n+1}
 \end{align}$$
-Che ha raggio di convergenza ancora $R$ infatti:
+Che ha [[raggio di convergenza]] ancora $R$ infatti:
 $$ \lim_{ n \to \infty }  \left| \frac{b_{n}}{b_{n+1}} \right| = \lim_{ n \to \infty } \left| \frac{a_{n}}{a_{n+1}} \cdot \frac{n+2}{n+1} \right| = \lim_{ n \to \infty }  \left( \frac{a_{n}}{a_{n+1}} \right) = R  $$
 ## Derivabilità termine a termine per una serie di potenze
 Data una serie di potenze $\sum a_{n}(x-x_{0})^n$ avente raggio di convergenza $0 < R \leq +\infty$ per ogni $x \in (x_{0}-R, x_{0}+R)$ vale la formula di derivazione termine a termine:
