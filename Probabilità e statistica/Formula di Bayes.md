@@ -6,5 +6,6 @@
 
 
 A cosa serve la formula di Bayes
-- $F_{1},F_{2},\dots,F_{n}$ sono possibili cause mu
-- 
+- $F_{1},F_{2},\dots,F_{n}$ sono possibili cause esaustive di un fenomeno di interesse. Ho una idea iniziale su $F_{1},F_{2,}\dots, F_{n}$ che traduco in termini di $P(F_{1}),P(F_{2}),\dots,P(F_{n})$. Ciascuna causa è plausibile per cui $P(F_{i}) > 0\quad\forall i$
+#todo 
+
