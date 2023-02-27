@@ -21,6 +21,4 @@ da questi assiomi derivano le [[regole di calcolo della probabilità]]
 >$\cancel{ P_{F^C}(A) = 1 - P_{F}(A) }$ se cambi $F$ hai un'altra legge di [[probabilità]]
 
 
-```
-A
-```
+

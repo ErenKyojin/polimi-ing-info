@@ -1,6 +1,6 @@
 {
-  "commitMessage": "vault backup: {{date}}",
-  "autoCommitMessage": "vault backup: {{date}}",
+  "commitMessage": "[{{hostname}}]: vault backup: {{date}}",
+  "autoCommitMessage": "[{{hostname}}] vault backup: {{numFiles}} on {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 10,
   "autoPushInterval": 0,
@@ -9,7 +9,7 @@
   "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
-  "listChangedFilesInMessageBody": false,
+  "listChangedFilesInMessageBody": true,
   "showStatusBar": true,
   "updateSubmodules": false,
   "syncMethod": "merge",

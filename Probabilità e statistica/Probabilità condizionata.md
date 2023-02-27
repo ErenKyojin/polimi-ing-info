@@ -19,3 +19,12 @@
 >  $$
 > P(E | F) := \frac{P(E \cap F)}{P(F)}
 > $$
+> Regola inversa, che chiamiamo **regola del prodotto**
+> $$
+> P(E \cap F) = P(E | F) P(F)
+>$$
+>Se $$\begin{align}
+>\bigcap_{i=1}^n A_{i} &=,\qquad n = 1,2,\dots \\
+>&= P\left(\bigcap_{i=1}^{n-1} A_{i} \cap A_{n}\right) P\left( \bigcap_{i=1}^{n-2} A_{i} \cap A_{n-1} \right)=  \\
+>&=P(A_{n}) 
+>\end{align}$$
