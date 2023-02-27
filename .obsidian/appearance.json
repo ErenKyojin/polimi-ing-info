@@ -1,3 +1,10 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "cssTheme": "Amo",
+  "enabledCssSnippets": [
+    "titles",
+    "lists",
+    "test",
+    "centerImg"
+  ]
 }

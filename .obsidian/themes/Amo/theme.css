@@ -11,7 +11,6 @@
 	--icon-color: #F5C33B;
 	--tab-text-color-active: #AE8209;
 	--tab-text-color-focused-active-current: #F5C33B;
-	--code-normal: #000000;
 }
 
 
@@ -26,7 +25,11 @@
 
 }
 
+code{
 
+	color: #000000;
+
+}
 
 .svg-icon
 {

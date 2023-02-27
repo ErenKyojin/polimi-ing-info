@@ -14,3 +14,13 @@
 
 da questi assiomi derivano le [[regole di calcolo della probabilità]]
 
+
+>[!oss]
+>$P_{F}(A \cup B) = P_{F}(A) + P_{F}(B) - P_{F}(A \cap B)$
+>$P_{F}(A^C) = 1 - P_{F}(A)$
+>$\cancel{ P_{F^C}(A) = 1 - P_{F}(A) }$ se cambi $F$ hai un'altra legge di [[probabilità]]
+
+
+```
+A
+```
