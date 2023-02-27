@@ -62,4 +62,34 @@ $$
 
 >[!warning]
 >attenzione $a \cancel{ \implies } b$ ne $b \implies a$
->Se $A,B$ sono indipendenti e $B,C$ sono indipendenti allora $A$ e $C$ sono indipendenti? 
+>Se $A,B$ sono indipendenti e $B,C$ sono indipendenti allora $A$ e $C$ sono indipendenti? No
+>Se $A,B,C$ sono indipendenti allora
+> $$\begin{align}
+>&P(A \cap B | C^C)=P(A)P(B) \\
+>&P(A \cap B| \underbrace{ B \cap C}_{ NO }) = P(A)P(B)
+>\end{align}
+>$$
+>B si è verificato
+
+
+## Indipendenza condizionale
+$A,B,F$ con $P(F) > 0$
+
+>[!def]
+>DIco che $A,B$ sono condizionalmente indipendenti dato $F$ se $A,B$ sono indipendenti rispetto alla [[probabilità condizionata]]. 
+> $$
+> P(F) = \left[ \frac{P(A\cap F)}{P(F)} \right] 
+>$$
+>Cioè $P(A \cap B | F) = P(A|F)P(B|F)$
+
+
+>[!oss]
+>Se $A,B$ sono indipendenti condizionalmente ad $F$ allora $A,B$ sono indipendenti? Non è detto
+
+Se $A,B$ sono indipendenti $\implies A,B$ condizionalmente indipendenti dato un $F$.
+Ma se la terna $A,B,F$ sono indipendenti valgono le implicazioni.
+
+
+
+>[!esempio]
+>
