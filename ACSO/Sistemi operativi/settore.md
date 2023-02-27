@@ -1,0 +1,1 @@
+Un settore è parte di una [[traccia]], corrsiponde ad un settore circolare del disco, contiene 512 Byte di dati insieme ad un preambolo e ad un sistema di correzione degli errori, tra settori si trova un GAP

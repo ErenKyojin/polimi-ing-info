@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"b57b1fba99833e51","x":-91,"y":-135,"width":250,"height":60,"type":"text","text":"$S$"},
+		{"id":"387518a8efdd7dab","x":-460,"y":-135,"width":250,"height":60,"type":"text","text":"$$u$$"},
+		{"id":"59c061828b5d81d7","x":-91,"y":-320,"width":250,"height":60,"type":"text","text":"$$d$$"},
+		{"id":"25a0f2be481765a3","x":260,"y":-135,"width":250,"height":60,"type":"text","text":"$$y$$"},
+		{"id":"5d61c14ab52a5cf4","x":-965,"y":-389,"width":325,"height":189,"type":"text","text":"$S$ sistema da controllare\n$U$ variabili di controllo\n$y$ Variabili di uscita\n$d$ disturbi\n$w$ comportamento desiderato delle variabili controllate"}
+	],
+	"edges":[
+		{"id":"d07426698d7b095a","fromNode":"387518a8efdd7dab","fromSide":"right","toNode":"b57b1fba99833e51","toSide":"left"},
+		{"id":"45b7639e89aed553","fromNode":"59c061828b5d81d7","fromSide":"bottom","toNode":"b57b1fba99833e51","toSide":"top"},
+		{"id":"a9c6f7a04e2e740c","fromNode":"b57b1fba99833e51","fromSide":"right","toNode":"25a0f2be481765a3","toSide":"left"}
+	]
+}

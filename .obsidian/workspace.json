@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "9b2eadd7869e132d",
+    "type": "split",
+    "children": [
+      {
+        "id": "788abaf2438143a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f2c2293d6af7e54",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9f5c6b3893e4dcb8",
+    "type": "split",
+    "children": [
+      {
+        "id": "1db73f2abdac6724",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b8307b5dc1882a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fd5a7104086bfe35",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "41c2995316669fe3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9c3eb73275ba1585",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecb8ddbbc9cbc07d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f14bef597613144",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e482e98321e71fe8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "96e8e0118cfdf7fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "281e7565f4b38890",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0b8307b5dc1882a6",
+  "lastOpenFiles": [
+    "Fisica",
+    "Elettrotecnica",
+    "Probabilità e statistica/Untitled.md",
+    "Probabilità e statistica/Spazio di probabilità.md",
+    "Probabilità e statistica/spazio campionario.md",
+    "Probabilità e statistica/regole di calcolo della probabilità.md",
+    "Probabilità e statistica/README.md",
+    "Probabilità e statistica/probabilità.md",
+    "Probabilità e statistica/evento.md",
+    "Probabilità e statistica/esperimento aleatorio.md",
+    "Probabilità e statistica/Dati.md",
+    "Probabilità e statistica/caso elementare.md",
+    "Probabilità e statistica",
+    "Untitled Folder",
+    "Analisi 2/vincolo di uguaglianza.md",
+    "Analisi 2/versore tangente.md",
+    "Analisi 2/Untitled 1.md",
+    "Analisi 2/Untitled.md",
+    "Analisi 2/Untitled.canvas",
+    "Analisi 2/teorema fondamentale del calcolo integrale.md",
+    "Analisi 2/Teorema di Weierstrass.md",
+    "Analisi 2/teorema di struttura.md",
+    "Analisi 2/Teorema di fermat.md",
+    "Analisi 2/spazio vettoriale.md",
+    "Analisi 2/soluzioni.md",
+    "Analisi 2/Sistemi differenziali lineari.md",
+    "Analisi 2/Sistemi.md",
+    "Analisi 2/serie trigonometrica.md",
+    "Analisi 2/serie geometrica.md",
+    "Analisi 2/serie esponenziale.md",
+    "Analisi 2/Pasted image 20221028114248.png",
+    "Analisi 2/Senza nome/Pasted image 20221202122849.png",
+    "Analisi 2/Senza nome/Pasted image 20221202120917.png",
+    "Analisi 2/Senza nome",
+    "Analisi 2/Excalidraw",
+    "Analisi 2/Esame",
+    "Analisi 2",
+    "Fondamenti di automatica/Segnali.canvas",
+    "Fondamenti di automatica/canvas/Controllo in anello aperto (AA).canvas",
+    "Fondamenti di automatica/canvas/Controllo in anello chiuso con compensazione.canvas",
+    "Fondamenti di automatica/canvas/Controllo in anello aperto con compensazione.canvas",
+    "Fondamenti di automatica/canvas/problema del controllo.canvas",
+    "Fondamenti di automatica/canvas/Controllo in anello chiuso.canvas",
+    "Fondamenti di automatica/canvas/Controllo in anello aperto.canvas",
+    "Fondamenti di automatica/canvas/Anello aperto con compensazione.canvas",
+    "Fondamenti di automatica/canvas/Untitled.canvas",
+    "Fondamenti di automatica/canvas",
+    "Fondamenti di automatica",
+    "Analisi 1/Successioni",
+    "Analisi 1/Desmos/desmos-graph-ff1636ae724d2b17f211204379a01814ac2b3599232b7459ffac50dafd44892c.svg",
+    "Analisi 1/Desmos/desmos-graph-fefb2f7265d86de86fbda6993abcd0046c9cf4d99ec91a9462909629f4528c0a.svg",
+    "Analisi 1/Desmos/desmos-graph-fe47723d7d37e32a47442b07019f10c8e82358995fcc3075421e600de87e09b8.svg",
+    "Analisi 1/Desmos/desmos-graph-fe2d2ec6454871311215161629efa54ca0e6c8000691e506bcf4a759cadce8ab.svg",
+    "Analisi 1/Desmos/desmos-graph-fe28177ef362d01b79c7cad27bf7392987849f6e5ea987f63a989ab3c443702a.svg",
+    "Analisi 1/Desmos/desmos-graph-fe26b40fc0de15ab923da476b20b59092316a0410856efd33619f725a125fd0f.svg",
+    "Analisi 1/Desmos/desmos-graph-fd57639ce59de4257c0314c98805c1bbe204bde9b19bdba458a2e2cedf75b0f0.svg"
+  ]
+}

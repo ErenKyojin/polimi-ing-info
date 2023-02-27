@@ -1,0 +1,1 @@
+Un versore è un vettore di lunghezza unitaria 1 $(\mathbf{v} \to \mathbf{v} /||\mathbf{v}||$ è il versore di $\mathbf{v}$$)$ 
