@@ -34,13 +34,4 @@ todo \\
 >Se $P(A_{1} \cap \dots \cap A_{n-1}) > 0$
 
 
->[!esempio] Applicazione
->Applicazione $\mathcal{E}$
-> ```tikz
->\begin{document}
->\begin{tikzpicture}
->\node at (0,0){$\textbullet$};
->\end{tikzpicture}
->\end{document}
->```
->
+[[Formula delle probabilità totali]]

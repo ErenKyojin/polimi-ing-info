@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"type":"text","text":"Lancio moneta","id":"5ab8deea023f472b","x":-120,"y":-200,"width":250,"height":60},
+		{"type":"text","text":"$T$","id":"c2978ce50823d668","x":217,"y":-311,"width":250,"height":60},
+		{"type":"text","text":"$C = T^C$","id":"bce2e7e2026648d3","x":213,"y":-60,"width":250,"height":60},
+		{"type":"text","text":"Lancia dado regolare","id":"05eea0e24a5278dc","x":584,"y":-311,"width":250,"height":60},
+		{"type":"text","text":"Lancio dado con un 1, due 2, tre 3","id":"fb84b959ca134cd5","x":580,"y":-58,"width":250,"height":60},
+		{"type":"text","text":"$P(E|T) = 1/6$","id":"ff0ca1046c22656e","x":960,"y":-310,"width":250,"height":60},
+		{"type":"text","text":"$P(E|T^C) = 2/6 = 1/3$","id":"3a5ec6c161a255af","x":960,"y":-58,"width":250,"height":60},
+		{"id":"eeeb92ac61b2c85c","x":1300,"y":-180,"width":250,"height":60,"type":"text","text":"P(E)"}
+	],
+	"edges":[
+		{"id":"747fd8fc5a5c9a8d","fromNode":"5ab8deea023f472b","fromSide":"right","toNode":"c2978ce50823d668","toSide":"left"},
+		{"id":"b3004e4b7621b113","fromNode":"5ab8deea023f472b","fromSide":"right","toNode":"bce2e7e2026648d3","toSide":"left"},
+		{"id":"41cc43bca322435a","fromNode":"c2978ce50823d668","fromSide":"right","toNode":"05eea0e24a5278dc","toSide":"left"},
+		{"id":"6d47922f74472480","fromNode":"bce2e7e2026648d3","fromSide":"right","toNode":"fb84b959ca134cd5","toSide":"left"},
+		{"id":"727d53e1bb6f395e","fromNode":"05eea0e24a5278dc","fromSide":"right","toNode":"ff0ca1046c22656e","toSide":"left"},
+		{"id":"61c3cf8fc60e3676","fromNode":"fb84b959ca134cd5","fromSide":"right","toNode":"3a5ec6c161a255af","toSide":"left"},
+		{"id":"12d99dfcc5347f2c","fromNode":"ff0ca1046c22656e","fromSide":"right","toNode":"eeeb92ac61b2c85c","toSide":"left"},
+		{"id":"abdd2dfda262d5d9","fromNode":"3a5ec6c161a255af","fromSide":"right","toNode":"eeeb92ac61b2c85c","toSide":"left"}
+	]
+}

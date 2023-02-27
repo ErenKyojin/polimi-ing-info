@@ -4,40 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f41fc34fd6a2b12d",
+        "id": "0b6735bff127d93e",
         "type": "tabs",
         "children": [
           {
-            "id": "85c08bc47a380cf2",
+            "id": "db2f98706e430768",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Probabilità condizionata.md",
+                "file": "Probabilità e statistica/Formula delle probabilità totali.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "7015bdfe546a3849"
-          }
-        ]
-      },
-      {
-        "id": "7c9b21a984e3868c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "30823f99b23253e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e statistica/Probabilità condizionata.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "7015bdfe546a3849"
+            }
           }
         ]
       }
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Probabilità condizionata.md",
+                "file": "Probabilità e statistica/Formula delle probabilità totali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Probabilità condizionata.md",
+                "file": "Probabilità e statistica/Formula delle probabilità totali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Probabilità condizionata.md"
+                "file": "Probabilità e statistica/Formula delle probabilità totali.md"
               }
             }
           }
@@ -166,13 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "85c08bc47a380cf2",
+  "active": "db2f98706e430768",
   "lastOpenFiles": [
+    "Probabilità e statistica/Canvas/Probabilità totali.canvas",
+    "Probabilità e statistica/Formula delle probabilità totali.md",
+    "Probabilità e statistica/Canvas",
+    "Probabilità e statistica/Probabilità condizionata.md",
     "Probabilità e statistica/Spazio di probabilità.md",
     "Probabilità e statistica/Untitled.md",
     "Probabilità e statistica/Untitled 1.md",
     "README.md",
-    "Probabilità e statistica/Probabilità condizionata.md",
     "Probabilità e statistica/probabilità.md",
     "Probabilità e statistica/caso elementare.md",
     "Fisica",
@@ -197,8 +180,6 @@
     "Analisi 2/soluzioni.md",
     "Analisi 2/Sistemi differenziali lineari.md",
     "Analisi 2/Sistemi.md",
-    "Analisi 2/serie trigonometrica.md",
-    "Analisi 2/serie geometrica.md",
     "Analisi 2/Pasted image 20221028114248.png",
     "Analisi 2/Senza nome/Pasted image 20221202122849.png",
     "Analisi 2/Senza nome/Pasted image 20221202120917.png",
@@ -214,9 +195,7 @@
     "Fondamenti di automatica/canvas/Controllo in anello chiuso.canvas",
     "Fondamenti di automatica/canvas/Controllo in anello aperto.canvas",
     "Fondamenti di automatica/canvas/Anello aperto con compensazione.canvas",
-    "Fondamenti di automatica/canvas/Untitled.canvas",
     "Fondamenti di automatica/canvas",
-    "Fondamenti di automatica",
     "Analisi 1/Desmos/desmos-graph-ff1636ae724d2b17f211204379a01814ac2b3599232b7459ffac50dafd44892c.svg",
     "Analisi 1/Desmos/desmos-graph-fefb2f7265d86de86fbda6993abcd0046c9cf4d99ec91a9462909629f4528c0a.svg",
     "Analisi 1/Desmos/desmos-graph-fe47723d7d37e32a47442b07019f10c8e82358995fcc3075421e600de87e09b8.svg",
