@@ -20,16 +20,46 @@ In questo caso $E,F$ sono detti indipendenti
 
 
 
-1. Se $E,F$ sono indipendenti allora $$
-P(E \cup F) = P(E) + P(F) - P(E)P(F) 
-$$
-2. Simmetria nella definizione
-3. Questa definizione vale anche se $P(E) = 0$ o $P(F)=0$
+> [!oss]
+> 1. Se $E,F$ sono indipendenti allora $$
+> P(E \cup F) = P(E) + P(F) - P(E)P(F) 
+> $$
+> 2. Simmetria nella definizione
+> 3. Questa definizione vale anche se $P(E) = 0$ o $P(F)=0$
+> 
+> 4. $E,F$ sono indipendenti, $E,F^C$? Sí, infatti: $$
+> \begin{align}
+> P(E \cap F^C) &= P(E) - P(E \cap F) = P(E) - P(E)P(F) = \\
+> &= P(E)[1 - P(F)] = P(E)P(F^C)
+> \end{align}$$
+> Cioè $E,F$ indipendenti $\iff E^C,F^C \iff E^C,F \text{ ind} \iff F^C,E \text{ ind}$ 
+> 5. Se $E,F$ sono indipendenti e $P(F) > 0, P(E) > 0$, allora 
+>    $$
+> P(E | F) = \frac{P(E \cap F)}{P(F)} = \frac{P(E)\cancel{ P(F) }}{\cancel{ P(F) }} = P(E)
+> $$
+> allora
+> $$
+> P(F|E) = \frac{P(E|F)P(F)}{P(E)} = \frac{P(E)\cancel{ P(F) }}{\cancel{ P(E) }} = P(F)
+> $$
+> quindi
+> $$
+> P(E \cap F) = P(F | E)P(E) = P(F)P(E)
+> $$
+> Quindi $E,F$ con $P(E) > 0, P(F)>0$ sono indipendenti $\iff$ $P(E|F) = P(E) \iff P(F|E) = P(F)$
 
-4. $E,F$ sono indipendenti, $E,F^C$? Sí, infatti: $$
+
+
+Se abbiamo tre eventi $A,B,C$ quando questi sono indipendenti?
+1. Sono indipendenti a coppie:
+   $$
 \begin{align}
-P(E \cap F^C) &= P(E) - P(E \cap F) = P(E) - P(E)P(F) = \\
-&= P(E)[1 - P(F)] = P(E)P(F^C)
-\end{align}$$
-Cioè $E,F$ indipendenti $\iff E^C,F^C \iff E^C,F \text{ ind} \iff F^C,E \text{ ind}$ 
-5. Se $E,F$
+P(A \cap B) = P(A)P(B) \\
+P(B \cap C) = P(B)P(C) \\
+P(A \cap C) = P(A)P(C)
+\end{align}
+$$
+2. $P(A \cap B \cap C) = P(A)P(B)P(C)$
+
+>[!warning]
+>attenzione $a \cancel{ \implies } b$ ne $b \implies a$
+>Se $A,B$ sono indipendenti e $B,C$ sono indipendenti allora $A$ e $C$ sono indipendenti? 
