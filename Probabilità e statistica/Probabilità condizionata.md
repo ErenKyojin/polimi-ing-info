@@ -26,5 +26,21 @@
 >Se $$\begin{align}
 >\bigcap_{i=1}^n A_{i} &=,\qquad n = 1,2,\dots \\
 >&= P\left(\bigcap_{i=1}^{n-1} A_{i} \cap A_{n}\right) P\left( \bigcap_{i=1}^{n-2} A_{i} \cap A_{n-1} \right)=  \\
->&=P(A_{n}) 
+>&=P\left( A_{n}|\bigcap_{i=1}^{n-1}A_{i} \right) P(A_{n-1}| \bigcap _{i=1}^{n-2}A_{i}) P\left( \bigcap \right)   = \\
+todo \\
+>&=P(A_{n}| A_{1} \cap A_{2} \cap \dots \cap A_{n-1}) = \\
+>&=P(A_{1} \cap A_{2} \cap \dots \cap A_{n-1} \cap A_{n})
 >\end{align}$$
+>Se $P(A_{1} \cap \dots \cap A_{n-1}) > 0$
+
+
+>[!esempio] Applicazione
+>Applicazione $\mathcal{E}$
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}
+>\node at (0,0){$\textbullet$};
+>\end{tikzpicture}
+>\end{document}
+>```
+>
