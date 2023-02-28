@@ -59,4 +59,14 @@ Negli automi a pila possiamo scrivere piú di un elemento in pila ad ogni mossa,
 >Calcolo del successore di un numero codificato in decimali.
 >
 >- $M$ copia tutte le cifre di $n$ su $T$ alla destra di $Z_{0}$, cosi facendo sposta la testina di $T_{2}$ dello stesso numero di posizioni
->- $M$ sca
+>- $M$ scandisce le cifre di $T_{1}$ da destra a sinistram scrive in $T_{2}$ da destra a sinistra modificando opportunamente le cifre (i 9 diventano 0, la prim cifre diversa da 9 diventa la cifra successiva, le altre copiate uguali)
+>- $M$ ricopia $T_{2}$ sul nastro di uscita
+>
+> #### Notazione
+> - $: qualsiasi cifra decimale
+> - \_: blank
+> - \#: qualsiasi cirfa $\neq 9$
+> - \^: il successore della cirfa denotata da # 
+>  - <Input,T1,T2,Scrittura>
+
+
