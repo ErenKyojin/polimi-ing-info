@@ -94,3 +94,15 @@ Quindi la classe dei linguaggi riconosciuti dagli automi a pila $LP$ non è [[Ch
 
 >[!oss]
 >Questo non significa che non è mai possibile l'unione di linguaggi riconosciuti da automi a pila
+
+>[!oss]
+>$\mathcal{L}(AF) \subset \mathcal{L}(AP)$
+>Si dimostra prima $\subseteq$ e poi che $\neq$, e si aggiunge poi una pila stupida a qualsiasi tipo di automa a stati finiti, ossia una pila che aggiunge e rimuove ad ogni passaggio, questo rende inalterato il FSA, per dimostrare che non è uguale è semplice
+
+>[!oss]
+>Il fatto che una classe sia sottoinsieme di un altra non implica che la seconda abbia piú proprietà
+
+### Chiusura rispetto a $\neg$?
+Come per i FSA, bisogna avere una fuzione di transizione totale e non parziale, dobbiamo arrivare in fondo ad ogni stringa.
+
+Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (Si possono eliminare)
