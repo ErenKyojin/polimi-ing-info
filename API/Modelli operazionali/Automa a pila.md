@@ -23,12 +23,12 @@ $\tau(x)$ è la stringa che si trova nel nastro di scrittura dopo aver scandito 
 >[!esempio]
 >Riconoscimento della stringa $a^nb^n$
 >```mermaid
+>graph LR
 >q0
 >```
 >
-
-```
-```
+>
+>
 
 Possiamo sfruttare la pila per leggere le stringhe di tipo $a^nb^n$, 
 
