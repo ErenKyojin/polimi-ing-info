@@ -36,9 +36,27 @@ Quindi:
 - Stato iniziale $q_{0}$
 - Stringa di ingresso $x$ dalla $0$ esima cella del nastro, seguita da blank
 
+
+### Configurazione finale
+-Stato di accettazione $F \subseteq Q$
+- Per comodità: $\delta,[\eta] (\mathbf{q},\dots)=\perp \forall q \in F$
+- La macchina si ferma quando $\delta,[\eta],(q,\dots) = \perp$
+- La stringa $x$ di ingresso viene accettata se e solo se:
+	- Dopo un numero finito di mosse la macchina si ferma (Si trova in una configurazione $\delta,[\eta],(q,\dots)= \perp$)
+	- Lo stato $q$ in cui si trova quando si ferma $\in F$
+- La stringa $x$ di ingresso **non** è accettata se avviene uno dei seguenti:
+	- La macchina si ferma in uno stato $\ni F$
+	- La macchina non si forma
+
 ----
 >[!Esempio]
 >Automa che riconosce $\left\{ a^nb^nc^n | n > 0 \right\}$
 >Slide 88 #todo 
 
 Negli automi a pila possiamo scrivere piú di un elemento in pila ad ogni mossa, per replicare questo comportamento sfruttiamo epsilon mosse
+
+>[!esempio]
+>Calcolo del successore di un numero codificato in decimali.
+>
+>- $M$ copia tutte le cifre di $n$ su $T$ alla destra di $Z_{0}$, cosi facendo sposta la testina di $T_{2}$ dello stesso numero di posizioni
+>- $M$ sca
