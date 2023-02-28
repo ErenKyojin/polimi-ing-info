@@ -20,6 +20,21 @@
             }
           },
           {
+            "id": "5629d22db084c783",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "API/Canvas/Automa a pila.canvas",
+                "viewState": {
+                  "x": 208.73866554624976,
+                  "y": -158.64893021142012,
+                  "zoom": -0.03430153300125068
+                }
+              }
+            }
+          },
+          {
             "id": "7bba6f31af99ed21",
             "type": "leaf",
             "state": {
@@ -31,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
+                "file": "API/Canvas/Automa a pila.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
+                "file": "API/Canvas/Automa a pila.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md"
+                "file": "API/Canvas/Automa a pila.canvas"
               }
             }
           }
@@ -159,8 +175,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b50235a5008d2e5",
+  "active": "5629d22db084c783",
   "lastOpenFiles": [
+    "API/Modelli operazionali/Automa a pila.md",
+    "API/Canvas/MT a k-nastri.canvas",
+    "API/Modelli operazionali/Macchine di Turing.md",
     "API/Configurazione.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
     "Probabilità e statistica/evento.md",
@@ -184,9 +203,6 @@
     "Elettrotecnica/regime sinusoidale.md",
     "Elettrotecnica/Regime multifrequenziale.md",
     "Elettrotecnica/pulsazione di risonanza.md",
-    "Elettrotecnica/potenza.md",
-    "Elettrotecnica/partitore di tensione.md",
-    "Elettrotecnica/partitore di corrente.md",
     "Elettrotecnica/Immagini/test.css",
     "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
     "Elettrotecnica/Immagini/Pasted image 20220830190156.png",
@@ -215,7 +231,6 @@
     "Fondamenti di automatica/canvas/Controllo in anello aperto con compensazione.canvas",
     "Fondamenti di automatica/canvas/problema del controllo.canvas",
     "Fondamenti di automatica/canvas/Controllo in anello chiuso.canvas",
-    "Fondamenti di automatica/canvas/Controllo in anello aperto.canvas",
-    "Fondamenti di automatica/canvas/Anello aperto con compensazione.canvas"
+    "Fondamenti di automatica/canvas/Controllo in anello aperto.canvas"
   ]
 }

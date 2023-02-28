@@ -105,4 +105,5 @@ Quindi la classe dei linguaggi riconosciuti dagli automi a pila $LP$ non è [[Ch
 ### Chiusura rispetto a $\neg$?
 Come per i FSA, bisogna avere una fuzione di transizione totale e non parziale, dobbiamo arrivare in fondo ad ogni stringa.
 
-Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (Si possono eliminare)
+Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (Si possono eliminare), inoltre dobbiamo anche eliminare epsilon mosse alla fine, altrimenti se una stringa venisse accettata anche il suo complemento verrebbe accettato.
+
