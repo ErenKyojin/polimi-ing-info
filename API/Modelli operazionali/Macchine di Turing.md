@@ -74,4 +74,16 @@ Negli automi a pila possiamo scrivere piú di un elemento in pila ad ogni mossa,
 Le macchine di turing possono simulare altre macchine di turing in modo molto semplice, quindi sono chiuse per unione ed intersezione.
 
 ### Simulazione in serie
-Simulo prima una macchina e poi l'altra, è adatta per l'intersezione, infatti la prima macchina puó, andare in loop, accettare, o rifiutare, e tutti questi casi son
+Simulo prima una macchina e poi l'altra, è adatta per l'intersezione, infatti la prima macchina puó, andare in loop, accettare, o rifiutare, e tutti questi casi sono adatti per l'intersezione (non per l'unione, se andasse in loop non potremmo verificare la secondo macchina)
+
+# Macchina di turing a nastro singolo
+Macchina di turing "originale", è molto semplice, facile da studiare ma complessa da utilizzare.
+
+![[MT nastro singolo.canvas]]
+Il nastro unico funge da ingresso, da memoria, e da uscita.
+Comandi:
+- R
+- L
+- S
+
+Si ferma quando la funzoine di transizione la ferma, e il risultato dipende dallo stato a cui si ferma.

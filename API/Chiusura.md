@@ -23,5 +23,5 @@ AFD | APD | MTD
 --- | --- | ---
 $\cup$ | $\cancel{ \cup }$ | $\cup$
 $\cap$ | $\cancel{ \cap }$ | $\cap$
-$\neg$ | $\neg$ | $\neg$
+$\neg$ | $\neg$ | $\cancel{ \neg }$
 

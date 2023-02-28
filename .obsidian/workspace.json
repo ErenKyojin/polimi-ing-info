@@ -174,8 +174,9 @@
   },
   "active": "5629d22db084c783",
   "lastOpenFiles": [
-    "API/Chiusura.md",
+    "API/Canvas/MT nastro singolo.canvas",
     "API/Modelli operazionali/Macchine di Turing.md",
+    "API/Chiusura.md",
     "API/Canvas/MT a k-nastri.canvas",
     "API/Canvas/Automa a pila.canvas",
     "API/Modelli operazionali/Automa a pila.md",
@@ -201,7 +202,6 @@
     "Elettrotecnica/regime stazionario.md",
     "Elettrotecnica/regime sinusoidale.md",
     "Elettrotecnica/Regime multifrequenziale.md",
-    "Elettrotecnica/pulsazione di risonanza.md",
     "Elettrotecnica/Immagini/test.css",
     "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
     "Elettrotecnica/Immagini/Pasted image 20220830190156.png",
@@ -228,7 +228,6 @@
     "Fondamenti di automatica/canvas/Controllo in anello aperto (AA).canvas",
     "Fondamenti di automatica/canvas/Controllo in anello chiuso con compensazione.canvas",
     "Fondamenti di automatica/canvas/Controllo in anello aperto con compensazione.canvas",
-    "Fondamenti di automatica/canvas/problema del controllo.canvas",
-    "Fondamenti di automatica/canvas/Controllo in anello chiuso.canvas"
+    "Fondamenti di automatica/canvas/problema del controllo.canvas"
   ]
 }
