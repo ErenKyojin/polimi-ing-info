@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "07ea29acea212ab4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/Modelli operazionali/Modelli non deterministici.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7bba6f31af99ed21",
             "type": "leaf",
             "state": {
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "API/Modelli operazionali/Modelli non deterministici.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "API/Modelli operazionali/Modelli non deterministici.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md"
+                "file": "API/Modelli operazionali/Modelli non deterministici.md"
               }
             }
           }
@@ -172,16 +184,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5629d22db084c783",
+  "active": "07ea29acea212ab4",
   "lastOpenFiles": [
-    "API/Canvas/MT nastro singolo.canvas",
     "API/Modelli operazionali/Macchine di Turing.md",
+    "API/Modelli operazionali/Automa a stati finiti.md",
+    "API/Modelli operazionali/Automa a pila.md",
+    "API/Modelli operazionali/funzione di transizione.md",
+    "API/Modelli operazionali/Modelli non deterministici.md",
+    "API/Canvas/MT nastro singolo.canvas",
     "API/Chiusura.md",
     "API/Canvas/MT a k-nastri.canvas",
     "API/Canvas/Automa a pila.canvas",
-    "API/Modelli operazionali/Automa a pila.md",
     "API/Configurazione.md",
-    "API/Modelli operazionali/Automa a stati finiti.md",
     "Probabilità e statistica/evento.md",
     "Probabilità e statistica/Eventi indipendenti.md",
     "Elettrotecnica/Valore efficace.md",
@@ -201,7 +215,6 @@
     "Elettrotecnica/resistenza.md",
     "Elettrotecnica/regime stazionario.md",
     "Elettrotecnica/regime sinusoidale.md",
-    "Elettrotecnica/Regime multifrequenziale.md",
     "Elettrotecnica/Immagini/test.css",
     "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
     "Elettrotecnica/Immagini/Pasted image 20220830190156.png",

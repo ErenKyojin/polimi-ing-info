@@ -1,4 +1,4 @@
-Detti anche FSA, sono macchine con un insieme finito di stati:
+Detti anche FSA, sono macchine deterministiche con un insieme finito di stati:
 {Acceso, Spento}, {1,2,3,4,...,k}, {on,off}
 
 Che si possono cosí rappresentare:
