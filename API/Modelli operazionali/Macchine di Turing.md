@@ -56,7 +56,7 @@ Quindi:
 Negli automi a pila possiamo scrivere piú di un elemento in pila ad ogni mossa, per replicare questo comportamento sfruttiamo epsilon mosse
 
 >[!esempio]
->Calcolo del successore di un numero codificato in decimali.
+>Calcolo del successore di un numero codificato in decimali. S91
 >
 >- $M$ copia tutte le cifre di $n$ su $T$ alla destra di $Z_{0}$, cosi facendo sposta la testina di $T_{2}$ dello stesso numero di posizioni
 >- $M$ scandisce le cifre di $T_{1}$ da destra a sinistram scrive in $T_{2}$ da destra a sinistra modificando opportunamente le cifre (i 9 diventano 0, la prim cifre diversa da 9 diventa la cifra successiva, le altre copiate uguali)
