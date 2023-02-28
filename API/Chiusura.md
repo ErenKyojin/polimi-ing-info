@@ -15,3 +15,13 @@ REG chiusa rispetto alle operazioni insiemistiche, alla concatenazione, la $*$, 
 
 Vediamo la costruzione di alcune operazioni:
 - [[Intersezione]]
+
+
+# Automi
+
+AFD | APD | MTD
+--- | --- | ---
+$\cup$ | $\cancel{ \cup }$ | $\cup$
+$\cap$ | $\cancel{ \cap }$ | $\cap$
+$\neg$ | $\neg$ | $\neg$
+

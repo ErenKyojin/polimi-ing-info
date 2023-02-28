@@ -174,10 +174,11 @@
   },
   "active": "5629d22db084c783",
   "lastOpenFiles": [
+    "API/Chiusura.md",
+    "API/Modelli operazionali/Macchine di Turing.md",
     "API/Canvas/MT a k-nastri.canvas",
     "API/Canvas/Automa a pila.canvas",
     "API/Modelli operazionali/Automa a pila.md",
-    "API/Modelli operazionali/Macchine di Turing.md",
     "API/Configurazione.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
     "Probabilità e statistica/evento.md",
@@ -228,7 +229,6 @@
     "Fondamenti di automatica/canvas/Controllo in anello chiuso con compensazione.canvas",
     "Fondamenti di automatica/canvas/Controllo in anello aperto con compensazione.canvas",
     "Fondamenti di automatica/canvas/problema del controllo.canvas",
-    "Fondamenti di automatica/canvas/Controllo in anello chiuso.canvas",
-    "Fondamenti di automatica/canvas/Controllo in anello aperto.canvas"
+    "Fondamenti di automatica/canvas/Controllo in anello chiuso.canvas"
   ]
 }

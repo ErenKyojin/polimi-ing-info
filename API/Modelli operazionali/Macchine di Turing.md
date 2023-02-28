@@ -70,3 +70,8 @@ Negli automi a pila possiamo scrivere piú di un elemento in pila ad ogni mossa,
 >  - <Input,T1,T2,Scrittura>
 
 
+## [[Chiusura]]
+Le macchine di turing possono simulare altre macchine di turing in modo molto semplice, quindi sono chiuse per unione ed intersezione.
+
+### Simulazione in serie
+Simulo prima una macchina e poi l'altra, è adatta per l'intersezione, infatti la prima macchina puó, andare in loop, accettare, o rifiutare, e tutti questi casi son
