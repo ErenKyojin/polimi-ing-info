@@ -35,3 +35,10 @@ Quindi:
 - Testine nella posizione 0 di ogni nastro
 - Stato iniziale $q_{0}$
 - Stringa di ingresso $x$ dalla $0$ esima cella del nastro, seguita da blank
+
+----
+>[!Esempio]
+>Automa che riconosce $\left\{ a^nb^nc^n | n > 0 \right\}$
+>Slide 88 #todo 
+
+Negli automi a pila possiamo scrivere piú di un elemento in pila ad ogni mossa, per replicare questo comportamento sfruttiamo epsilon mosse
