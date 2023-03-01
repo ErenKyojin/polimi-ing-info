@@ -59,11 +59,14 @@ Un tipo notevole di automi FSA, sono gli automi traduttori
 >A = (Q,I,\delta,q_{0},F)
 >$$
 >
->- Q: insieme finito non vuoto, gli elementi di Q sono detti stati
->- I: Insieme finito non vuoto detto alfabeto, costituito da simboli
+>- $Q$: insieme finito non vuoto, gli elementi di Q sono detti stati
+>- $I$: Insieme finito non vuoto detto alfabeto, costituito da simboli
 >- $q_{0}$: elemento di q, (che c'è perforza in quanto $Q$ non vuoto), stato iniziale
->- $F$ insieme degli stati finali, sottoinsieme di $Q$, puó essere vuoto, sottoinsieme generico, o tutto $Q$. La computazione non termina per lo stato finale, non è l'automa a decidere se la computazione finisca
->- 
+>- $F$ insieme degli stati finali, sottoinsieme di $Q$, puó essere vuoto, sottoinsieme generico, o tutto $Q$. La computazione non termina nello lo stato finale, non è l'automa a decidere se la computazione finisca.
+>- $\delta$: funzione $Q\times I \to Q$, prende uno stato e una lettera e butta fuori uno stato ($q \xrightarrow{a}q'$)
+>  
+> Automa è completo se per ogni combinazione stato lettera c'è uno stato risultato.
+> Sono deterministici, il comportamento è prevedibile in anticipo.
 
 
 # Traduttori
