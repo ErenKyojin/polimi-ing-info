@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e832c0b85f0f2060",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "60f4c639435b5247"
-          },
-          {
             "id": "849fa05776441fe2",
             "type": "leaf",
             "state": {
@@ -30,27 +17,27 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "a8b36b305676019c"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "6b10e7a4a809c14a",
+        "id": "13556e5635db933b",
         "type": "tabs",
         "children": [
           {
-            "id": "e6615a05a3a0cc8c",
+            "id": "7caa6c594724ec3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
+                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md",
                 "mode": "preview",
                 "source": false
               }
             },
-            "group": "60f4c639435b5247"
+            "group": "a8b36b305676019c"
           }
         ]
       }
