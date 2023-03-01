@@ -36,3 +36,35 @@ radici di $D(s)$ sono poli della trasformata di Laplace
 	- I casi complessi non li trattiamo
 - Si antitrasformano gli addendi e si somma
 
+> [!esempio]
+> 
+> $$
+> V(s) = \frac{2}{(s-1)^2(s+2)}\quad v(t)?
+> $$
+> $$
+> V(s) = \frac{\alpha}{(s-1)} + \frac{\beta}{(s-1)^2} + \frac{\gamma}{(s+2)}
+> $$
+> $\alpha(s-1)(s+2)+\beta(s+2)+\gamma(s+1)^2 = 2$
+> 
+> $s = 1 \implies \beta(1 + 2)=2 \implies \beta = \frac{2}{3}$
+> $s=2 \implies \gamma(-2-1)^2 = 2 \implies \gamma = \frac{2}{9}$
+> $s = 0 \text{ a caso, finiti i fattori}\implies \begin{cases}s=0\\ \beta=\frac{2}{3}\\\gamma=\frac{2}{9}\end{cases} \implies \alpha =-\frac{2}{9}$
+> $$
+> \begin{align}
+> 
+> V(s) = &-\frac{\frac{2}{9}}{s-1} + &&\frac{\frac{2}{3}}{(s-1)^2} + &\frac{\frac{2}{9}}{(s+2)} \\
+> & &&\mathcal{L}^-1 \\
+> \bigg(&-\frac{2}{9}e^t + &&\frac{2}{3}te^t + &\frac{2}{4}e^{-2t}\bigg)\text{sca}(t)
+> \end{align}$$
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[->] (0,0) -- (0,1);
+\draw[->] (-1,0)-- (4,0);
+\draw[red](-1,0) -- (0,0);
+\draw[red] (0,0) -- (0,1);
+\draw[red] (0,1) -- (1,1.5);
+\end{tikzpicture}
+\end{document}
+```
