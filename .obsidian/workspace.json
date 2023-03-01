@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md",
+                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md",
+                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
                 "mode": "preview",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ritardati",
+                "query": "ritardato",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md",
+                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md",
+                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md"
+                "file": "Fondamenti di automatica/Trasformata di Laplace.md"
               }
             }
           }
@@ -167,10 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd5a7104086bfe35",
+  "active": "849fa05776441fe2",
   "lastOpenFiles": [
-    "Fondamenti di automatica/trasformate di laplace notevoli.md",
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
+    "Fondamenti di automatica/trasformate di laplace notevoli.md",
     "Fondamenti di automatica/Trasformata di Laplace.md",
     "Fondamenti di automatica/Segnali e trasformate.md",
     "Fondamenti di automatica/Trasformata di Fourier.md",
