@@ -17,4 +17,7 @@ Cioè come una costante piú un'infinità  numerabile di sinusoidi di frequenza 
 $v_{0},v_{k},\varphi_{k}$ coefficienti di Fourier.
 
 
-# [[Trasformata di Fourier]]
+![[Trasformata di Fourier]]
+
+
+![[Trasformata di Laplace]]
