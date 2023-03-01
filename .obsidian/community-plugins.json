@@ -2,5 +2,7 @@
   "obsidian-latex-suite",
   "obsidian-desmos",
   "obsidian-git",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "obsidian-latex",
+  "obsidian-mathjax-wikilinks"
 ]

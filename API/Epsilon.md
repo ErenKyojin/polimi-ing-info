@@ -1,0 +1,1 @@
+Con $\varepsilon$ si intende la [[stringa]] di [[GAL/dimensione|dimensione]] 0
