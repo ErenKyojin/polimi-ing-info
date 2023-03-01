@@ -19,8 +19,21 @@
               }
             },
             "group": "60f4c639435b5247"
+          },
+          {
+            "id": "849fa05776441fe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "6b10e7a4a809c14a",
@@ -85,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
+                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
+                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md"
+                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md"
               }
             }
           }
@@ -167,10 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e832c0b85f0f2060",
+  "active": "849fa05776441fe2",
   "lastOpenFiles": [
-    "Fondamenti di automatica/Trasformata di Laplace.md",
     "Fondamenti di automatica/trasformate di laplace notevoli.md",
+    "Fondamenti di automatica/Antitrasformazione di Laplace.md",
+    "Fondamenti di automatica/Trasformata di Laplace.md",
     "Fondamenti di automatica/Segnali e trasformate.md",
     "Fondamenti di automatica/Trasformata di Fourier.md",
     "Analisi 2/Serie di Fourier.md",
@@ -198,7 +211,6 @@
     "Probabilità e statistica/evento.md",
     "Probabilità e statistica/Eventi indipendenti.md",
     "Elettrotecnica/Valore efficace.md",
-    "Elettrotecnica/trasferitore ideale di potenza.md",
     "Elettrotecnica/Immagini/test.css",
     "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
     "Elettrotecnica/Immagini/Pasted image 20220830190156.png",
