@@ -18,7 +18,20 @@
 >&\text{Se } E \in \Omega, P(E) = \sum p^{\sum_{i=1}^na_{i}}(1-p)^{\sum_{i=1}^n a_{i}} \\
 > &\implies E_{k} = \{ \text{ successi }=k\} k = 0,1,\dots,n \\
 >&P(E_{k}) = \sum_{(a_{1},\dots,a_{n}):\sum a_{i}=k} \dots \\
-> &= # 
+> &= \# \left\{ a_{1},\dots,a_{n} : \sum a_{i} = k \right\}p^k (1-p)^{n-l} 
 >\end{align}
 >$$
+>Si tratta solo di contare l'[[Analisi 1/Insiemi numerici/Insieme|insieme]] dei $k$ indici estratti dalle prove, ossia $\begin{pmatrix} n \\ k\end{pmatrix}$
+> $$
+> P(E_{k}) = \begin{pmatrix}
+>n \\
+>k
+>\end{pmatrix}p^k (1-p)^{n-k}\qquad \forall k = 0,1,\dots,n
+>$$
+>Dove $E_{k}$ è il numero di successi $= k$, ed è un esempio di eventi che si configura come affermazione su un numero casuale (in quato il suo valore è $w$), affermazione che si vuole probabilizzare
+> $$
+> \Omega \to x : \Omega \to \mathbb{R}\quad e\quad E=\left\{ x \in I \right\} 
+>$$
+>Dove $I$ è un'intervallo, $E_{k} = \left\{ x \in {k} \right\}$, in questo caso intervallo con estremi coincidenti $=k$
+
 
