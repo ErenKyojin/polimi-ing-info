@@ -63,3 +63,14 @@ Visualizzamo meglio gli automi a stati finiti:
 
 ![[FSA.canvas]]
 Possiamo aggiungere un ulteriore nastro detto pila, che funzionerà da memoria, questo tipo di automi si chiama [[Automa a pila]]
+
+
+# Automa a stati finiti non deterministico
+
+```mermaid
+graph LR
+	q1 -->|a| q2
+	q1 -->|a| q3
+```
+Formalmente $\delta(q_{1},a) = \left\{ q_{2},q_{3} \right\}$
+$\delta : Q \times I \to \mathcal{P}(Q)$

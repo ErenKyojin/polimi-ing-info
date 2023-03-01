@@ -186,11 +186,11 @@
   },
   "active": "07ea29acea212ab4",
   "lastOpenFiles": [
-    "API/Modelli operazionali/Macchine di Turing.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
+    "API/Modelli operazionali/Modelli non deterministici.md",
+    "API/Modelli operazionali/Macchine di Turing.md",
     "API/Modelli operazionali/Automa a pila.md",
     "API/Modelli operazionali/funzione di transizione.md",
-    "API/Modelli operazionali/Modelli non deterministici.md",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Chiusura.md",
     "API/Canvas/MT a k-nastri.canvas",
