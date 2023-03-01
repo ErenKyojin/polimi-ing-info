@@ -21,3 +21,16 @@ $v_{0},v_{k},\varphi_{k}$ coefficienti di Fourier.
 
 
 ![[Trasformata di Laplace]]
+
+Quindi gli ingredienti di un segnale:
+- Trasformabile secondo $\mathcal{F}$, seni e rette
+- Trasformabile secondo $\mathcal{L}$, 
+  - esponenziali convergenti  ($\alpha < 0, \omega = 0$)
+  - esponenziali divergenti ($\alpha > 0, \omega = 0$)
+  - esponenziali sinusoidali convergenti ($\alpha < 0, w \neq 0$)
+  - esponenziali sinusoidali diveergenti ($\alpha > 0, \omega  \neq 0$)
+  - Seni e rette (come $\mathcal{F}$) ($\alpha = 0, o$)
+    
+
+>[!oss]
+>Trasformabile secondo $\mathcal{F} \implies$ trasformabile secondo $\mathcal{L}$

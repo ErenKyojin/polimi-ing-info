@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
+                "file": "Fondamenti di automatica/Segnali e trasformate.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,8 +32,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
-                "mode": "source",
+                "file": "Fondamenti di automatica/Segnali e trasformate.md",
+                "mode": "preview",
                 "source": false
               }
             },
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
+                "file": "Fondamenti di automatica/Segnali e trasformate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
+                "file": "Fondamenti di automatica/Segnali e trasformate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Trasformata di Laplace.md"
+                "file": "Fondamenti di automatica/Segnali e trasformate.md"
               }
             }
           }
@@ -166,10 +166,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e832c0b85f0f2060",
+  "active": "e6615a05a3a0cc8c",
   "lastOpenFiles": [
-    "Fondamenti di automatica/Segnali e trasformate.md",
     "Fondamenti di automatica/Trasformata di Laplace.md",
+    "Fondamenti di automatica/Segnali e trasformate.md",
     "Fondamenti di automatica/Trasformata di Fourier.md",
     "Analisi 2/Serie di Fourier.md",
     "Fondamenti di automatica/Segnali.canvas",
