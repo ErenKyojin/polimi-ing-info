@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "API/Modelli operazionali/Automa a stati finiti.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "API/Modelli operazionali/Automa a stati finiti.md",
                 "mode": "preview",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vettore",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "API/Modelli operazionali/Automa a stati finiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "API/Modelli operazionali/Automa a stati finiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md"
+                "file": "API/Modelli operazionali/Automa a stati finiti.md"
               }
             }
           }
@@ -166,8 +167,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "849fa05776441fe2",
+  "active": "fd5a7104086bfe35",
   "lastOpenFiles": [
+    "API/Modelli operazionali/Macchine di Turing.md",
     "API/Modelli operazionali/funzione di transizione.md",
     "API/Modelli operazionali/Automa a pila.md",
     "Fondamenti di automatica/Trasformata di Laplace.md",
@@ -186,7 +188,6 @@
     "Probabilità e statistica/Prove di Bernoulli.md",
     "Probabilità e statistica/Indipendenza nella modellizzazione.md",
     "Probabilità e statistica/Formula di Bayes.md",
-    "API/Modelli operazionali/Macchine di Turing.md",
     "Probabilità e statistica/Funzione di ripartizione.md",
     "API/Modelli operazionali/Modelli non deterministici.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
