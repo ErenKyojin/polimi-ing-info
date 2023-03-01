@@ -129,7 +129,7 @@ Deve essere $\bar{x} = A\bar{x} + b\bar{u}$
 $$
 \implies (I - A) \bar{x} = b\bar{u}
 $$
-Se $I - A$ non è singolare, ossia se $A$ non ha autovalori in $1$, $\exists! \bar{x} = (I-A)^{-1}b\bar{u}$ altrimenti o $\cancel{ \exists } \bar{x}$ o $\exists \infty \bar{x}$
+Se $I - A$ non è singolare, ossia se $A$ non ha [[Autovalori e Autovettori|autovalori]] in $1$, $\exists! \bar{x} = (I-A)^{-1}b\bar{u}$ altrimenti o $\cancel{ \exists } \bar{x}$ o $\exists \infty \bar{x}$
 
 
 $$

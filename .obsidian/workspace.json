@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md",
+                "file": "Fondamenti di automatica/Equilibrio.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md",
+                "file": "Fondamenti di automatica/Equilibrio.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md",
+                "file": "Fondamenti di automatica/Equilibrio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md",
+                "file": "Fondamenti di automatica/Equilibrio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md"
+                "file": "Fondamenti di automatica/Equilibrio.md"
               }
             }
           }
@@ -166,8 +166,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e832c0b85f0f2060",
+  "active": "e6615a05a3a0cc8c",
   "lastOpenFiles": [
+    "Fondamenti di automatica/Formula di lagrange.md",
     "Probabilità e statistica/Variabile aleatoria.md",
     "Probabilità e statistica/Prove di Bernoulli.md",
     "Probabilità e statistica/Indipendenza nella modellizzazione.md",
@@ -196,7 +197,6 @@
     "Elettrotecnica/Sovrapposizione degli effetti.md",
     "Elettrotecnica/Serie.md",
     "Elettrotecnica/risposta in frequenza.md",
-    "Elettrotecnica/Rifasamento.md",
     "Elettrotecnica/Immagini/test.css",
     "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
     "Elettrotecnica/Immagini/Pasted image 20220830190156.png",
