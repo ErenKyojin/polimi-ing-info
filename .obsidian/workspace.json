@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli operazionali/Automa a stati finiti.md",
+                "file": "API/Linguaggio.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli operazionali/Automa a stati finiti.md",
+                "file": "API/Linguaggio.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Epsilon.md",
+                "file": "API/Linguaggio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Epsilon.md",
+                "file": "API/Linguaggio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Epsilon.md"
+                "file": "API/Linguaggio.md"
               }
             }
           }
@@ -154,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,8 +167,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e482e98321e71fe8",
+  "active": "849fa05776441fe2",
   "lastOpenFiles": [
+    "API/Linguaggio.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
     "API/Epsilon.md",
     "API/Modelli operazionali/Macchine di Turing.md",
@@ -197,7 +199,6 @@
     "API/Canvas/Automa a pila.canvas",
     "API/Configurazione.md",
     "Probabilità e statistica/evento.md",
-    "Probabilità e statistica/Eventi indipendenti.md",
     "Elettrotecnica/Immagini/test.css",
     "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
     "Elettrotecnica/Immagini/Pasted image 20220830190156.png",
