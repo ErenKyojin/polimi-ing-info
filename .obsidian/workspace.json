@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "a03bd169f726a701",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilità e statistica/Prove di Bernoulli.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7bba6f31af99ed21",
             "type": "leaf",
             "state": {
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Indipendenza nella modellizzazione.md",
+                "file": "Probabilità e statistica/Prove di Bernoulli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Indipendenza nella modellizzazione.md",
+                "file": "Probabilità e statistica/Prove di Bernoulli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Indipendenza nella modellizzazione.md"
+                "file": "Probabilità e statistica/Prove di Bernoulli.md"
               }
             }
           }
@@ -195,8 +207,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "058af540e8781543",
+  "active": "a03bd169f726a701",
   "lastOpenFiles": [
+    "Probabilità e statistica/Indipendenza nella modellizzazione.md",
     "Probabilità e statistica/Prove di Bernoulli.md",
     "Probabilità e statistica/Formula di Bayes.md",
     "API/Modelli operazionali/Modelli non deterministici.md",
@@ -225,7 +238,6 @@
     "Elettrotecnica/Rifasamento.md",
     "Elettrotecnica/Richiami.md",
     "Elettrotecnica/resistore.md",
-    "Elettrotecnica/resistenza.md",
     "Elettrotecnica/Immagini/test.css",
     "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
     "Elettrotecnica/Immagini/Pasted image 20220830190156.png",
