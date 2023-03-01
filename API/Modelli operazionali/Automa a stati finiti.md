@@ -67,6 +67,15 @@ Un tipo notevole di automi FSA, sono gli automi traduttori
 >  
 > Automa è completo se per ogni combinazione stato lettera c'è uno stato risultato.
 > Sono deterministici, il comportamento è prevedibile in anticipo.
+> Gli automi sono in [[GAL/relazione di equivalenza]]
+
+# FAS come accettori di linguaggio
+Problemi di:
+- -> **Analisi**, hai l'automa, dammi il linguaggio accettato
+- -> **Sintesi**, hai un linguaggio, costruisci un automa che lo accetta
+
+**Automa minimo del linguaggio**: automa che riconosce un linguaggio col minor numero di stati
+
 
 
 # Traduttori
