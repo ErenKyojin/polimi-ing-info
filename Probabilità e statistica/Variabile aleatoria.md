@@ -33,7 +33,16 @@ Notazione$\{w : x(w) \in I\} = "x \in I"$
 > $$\begin{align}
 >&\left\{ x = a \right\} =\bigcap_{n=1}^\infty \left\{ a-\frac{1}{n} < x \leq a \right\} =\lim_{ n \to \infty } \left\{ a-\frac{1}{n} < x \leq a \right\}  \\
 >&P(x=a) = P('') = P\left( \lim_{ n \to \infty } \left\{ a - \frac{1}{n} < x \leq a \right\}  \right) \\
->&= \lim_{ n \to \infty } \left[ F_{x}(a) - F_{x}\left( a-\frac{1}{n} \right) \right] = F_{x}(a) - F_{x}(a^-) \\
->&=
+>&= \lim_{ n \to \infty } \left[ F_{x}(a) - F_{x}\left( a-\frac{1}{n} \right) \right] = F_{x}(a) - F_{x}(a^-) 
+>.
 >\end{align}$$
 
+
+Riepilogo $$
+\begin{align}
+(\Omega, \mathcal{F},P  ) \\
+P : \Omega \to \mathbb{R} \\
+\text{certi assiomi}
+\end{align} \implies
+\mathbb{R} x \text{ probabilizzabile}
+$$

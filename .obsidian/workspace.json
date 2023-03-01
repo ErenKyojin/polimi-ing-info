@@ -11,8 +11,12 @@
             "id": "e832c0b85f0f2060",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Probabilità e statistica/Variabile aleatoria.md",
+                "mode": "source",
+                "source": false
+              }
             },
             "group": "60f4c639435b5247"
           }
@@ -101,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Probabilità e statistica/Variabile aleatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Probabilità e statistica/Variabile aleatoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Probabilità e statistica/Variabile aleatoria.md"
+              }
             }
           }
         ],
