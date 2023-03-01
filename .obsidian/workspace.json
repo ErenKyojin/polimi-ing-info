@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
+                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
+                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
                 "mode": "preview",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hospital",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
+                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Trasformata di Laplace.md",
+                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Trasformata di Laplace.md"
+                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md"
               }
             }
           }
@@ -167,10 +167,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd5a7104086bfe35",
+  "active": "e832c0b85f0f2060",
   "lastOpenFiles": [
-    "Fondamenti di automatica/Segnali e trasformate.md",
     "Fondamenti di automatica/Trasformata di Laplace.md",
+    "Fondamenti di automatica/trasformate di laplace notevoli.md",
+    "Fondamenti di automatica/Segnali e trasformate.md",
     "Fondamenti di automatica/Trasformata di Fourier.md",
     "Analisi 2/Serie di Fourier.md",
     "Fondamenti di automatica/Segnali.canvas",
@@ -198,7 +199,6 @@
     "Probabilità e statistica/Eventi indipendenti.md",
     "Elettrotecnica/Valore efficace.md",
     "Elettrotecnica/trasferitore ideale di potenza.md",
-    "Elettrotecnica/transitorio.md",
     "Elettrotecnica/Immagini/test.css",
     "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
     "Elettrotecnica/Immagini/Pasted image 20220830190156.png",

@@ -117,6 +117,21 @@ $$
 \mathcal{L}\left[ \int _{a}^t \!v(t) \, \mathrm{d}t  \right]= \frac{1}{s}\mathcal{L}[v(t)]
 $$
 4. TDL del segnale ritardato $v(t-\tau)$ $\tau > 0$
-   $$
-\mathcal{L}[v(t-\tau)] = \int _{0}^{\infty} \!v(t-\tau)e^{-st} \, \mathrm{d}x \xrightarrow{\text{cambio variabili}} \int _{-\tau}^\infty \!v(x)e^{-s(x+\tau)} \, \mathrm{d}x 
+   $$\begin{align}
+
+\mathcal{L}[v(t-\tau)] &= \int _{0}^{\infty} \!v(t-\tau)e^{-st} \, \mathrm{d}x \xrightarrow{\text{cambio variabili}} \int _{-\tau}^\infty \!v(x)e^{-s(x+\tau)} \, \mathrm{d}x = \\
+&=\int _{-\tau}^\infty \!v(x)e^{-s(x+\tau)} \, \mathrm{d}x = e^{-st} \fbox{$\int _{0}^\infty \!v(x)e^{-sx}$} \, \mathrm{d}x = \\
+&= e^{-s\tau}\fbox{$\mathcal{L}[v(t)]$}
+\end{align}
 $$
+5. Teorema del valore iniziale 
+   $$
+V(s) = \mathcal{L}[v(t)] \implies v(0) = \lim_{ s \to \infty } sV(s)
+$$
+6. Teorema del valore finale
+   $$
+V(s) = \mathcal{L}[v(t)], \quad \exists \lim_{ t \to \infty } v(t)
+$$
+
+[[trasformate di laplace notevoli]]
+
