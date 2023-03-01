@@ -11,12 +11,8 @@
             "id": "e832c0b85f0f2060",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             },
             "group": "60f4c639435b5247"
           }
@@ -105,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -144,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -168,11 +160,11 @@
   },
   "active": "e832c0b85f0f2060",
   "lastOpenFiles": [
+    "Probabilità e statistica/Variabile aleatoria.md",
     "Probabilità e statistica/Prove di Bernoulli.md",
     "Probabilità e statistica/Indipendenza nella modellizzazione.md",
     "Probabilità e statistica/Formula di Bayes.md",
     "API/Modelli operazionali/Macchine di Turing.md",
-    "Probabilità e statistica/Variabile aleatoria.md",
     "Probabilità e statistica/Funzione di ripartizione.md",
     "API/Modelli operazionali/Modelli non deterministici.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
