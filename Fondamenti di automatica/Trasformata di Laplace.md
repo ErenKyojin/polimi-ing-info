@@ -24,6 +24,12 @@ $$
 >```
 >In rosso alpha col percorso di percorrenza
 
+>[!oss]
+>
+>$$
+>\int _{0}^{\infty} \! \fbox{FILL}e^{-st} \, \mathrm{d}x 
+>$$
+
 ## Esempi notevoli di TDL
 
 > [!Esempio]
@@ -97,9 +103,20 @@ Se la parte reale di $a - s$ è positiva non diverge, quindi deve essere negativ
 	$$
 	\mathcal{L}[\alpha v_{1}(t) + \beta v_{2}(t)] = \alpha \mathcal{L}[v_{1}(t)] + \beta \mathcal{L}[v_{2}(t)]
 	$$
-2. Trasformata di Laplace della derivata
+2. Trasformata di Laplace della [[derivata]]
    $$\mathcal{L}\left[ \frac{d}{dt} v(t) \right] = \int _{0}^{\infty} \color{blue}\frac{d}{dt}v(t) \color{red}{e^{-st}} \,\color{blue} dt  $$
    In blu abbiamo $dG$ ed in rosso $dF = -se^{-st}dt$ con $g = V(t)$
    $$
-= \left[ e^{-st} v)t\right] 
+= \left[ e^{-st} v)t\right]_{0}^{\infty} + s \fcolorbox{red}{}{$\int _{0}^\infty \!v(t)e^{-st} \, \mathrm{d}t$} = s\fcolorbox{red}{}{$R[v(t)]$} - v(0)
+$$
+   Se occorre $v(0^-)$ (se non esiste $v(0)$)
+   $v \to \dot{v}$ ifferenziabile $\frac{d}{dt}$
+   $\mathcal{L}[\dot{v}] \to \mathcal{L}[v]$ algebrico
+3. DI conseguenza
+   $$
+\mathcal{L}\left[ \int _{a}^t \!v(t) \, \mathrm{d}t  \right]= \frac{1}{s}\mathcal{L}[v(t)]
+$$
+4. TDL del segnale ritardato $v(t-\tau)$ $\tau > 0$
+   $$
+\mathcal{L}[v(t-\tau)] = \int _{0}^{\infty} \!v(t-\tau)e^{-st} \, \mathrm{d}x \xrightarrow{\text{cambio variabili}} \int _{-\tau}^\infty \!v(x)e^{-s(x+\tau)} \, \mathrm{d}x 
 $$
