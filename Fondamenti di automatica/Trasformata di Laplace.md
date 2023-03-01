@@ -83,5 +83,23 @@ v(t) = e^at\quad t \geq 0, \quad\text{equivalentemente}\quad v(t) = e^{at}\text{
 $$
 
 $$
-\mathcal{L}[v(t)] = \mathcal{L}[e^{at}\text{sca}(t)]= \int _{0}^{\infty} \, dx 
+\begin{align}
+
+\mathcal{L}[v(t)] &= \mathcal{L}[e^{at}\text{sca}(t)]= \int _{0}^{\infty} e^{at}e^{-st} \, dt = \int _{0}^\infty e^{(a-s)t}\, dt   \\
+&= \left[ \frac{e^{(a-s)t}}{a-s} \right]^{\infty}_{0} = \left( 0-\frac{1}{a-s} \right) = \frac{1}{s-a}
+\end{align}
+$$
+Se la parte reale di $a - s$ è positiva non diverge, quindi deve essere negativa, $Re(s) > a$ <- ascissa di [[Analisi 1/Successioni/Convergenza|convergenza]] 
+
+## Proprietà della trasfomata di Laplace
+
+1. è un operatore lineare:
+	$$
+	\mathcal{L}[\alpha v_{1}(t) + \beta v_{2}(t)] = \alpha \mathcal{L}[v_{1}(t)] + \beta \mathcal{L}[v_{2}(t)]
+	$$
+2. Trasformata di Laplace della derivata
+   $$\mathcal{L}\left[ \frac{d}{dt} v(t) \right] = \int _{0}^{\infty} \color{blue}\frac{d}{dt}v(t) \color{red}{e^{-st}} \,\color{blue} dt  $$
+   In blu abbiamo $dG$ ed in rosso $dF = -se^{-st}dt$ con $g = V(t)$
+   $$
+= \left[ e^{-st} v)t\right] 
 $$
