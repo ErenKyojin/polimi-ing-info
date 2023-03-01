@@ -57,14 +57,27 @@ radici di $D(s)$ sono poli della trasformata di Laplace
 > \bigg(&-\frac{2}{9}e^t + &&\frac{2}{3}te^t + &\frac{2}{4}e^{-2t}\bigg)\text{sca}(t)
 > \end{align}$$
 
-```tikz
-\begin{document}
-\begin{tikzpicture}
-\draw[->] (0,0) -- (0,1);
-\draw[->] (-1,0)-- (4,0);
-\draw[red](-1,0) -- (0,0);
-\draw[red] (0,0) -- (0,1);
-\draw[red] (0,1) -- (1,1.5);
-\end{tikzpicture}
-\end{document}
-```
+> [!esempio]
+> ```tikz
+> \begin{document}
+> \begin{tikzpicture}
+> \draw[->] (0,0) -- (0,2)node[left]{$v(t)$};
+> \draw[->] (-1,0)-- (4,0)node[below right]{t};
+> \draw[red](-1,0) -- (0,0);
+> \draw[red] (0,0) -- (0,1);
+> \draw[red] (0,1) -- (1,1.5);
+> \draw[red] (1,1.5) -- (1,0);
+> \draw[red] (1,0) -- (4,0);
+> \node[below] at (0,0){$0$};
+> \node[below] at (.5,0){$1$};
+> \node[below] at (1,0){$2$};
+> \node[left] at (0,1){$2$};
+> \node[left] at (0,1.5){$3$};
+> \end{tikzpicture}
+> \end{document}
+> ```
+> Esprimo $v(t)$ come somma di scalini, rampe, parabole, cioè segnali **canonici** (= con trasformata di Laplace del tipo $\frac{k}{s^n}$ ) eventualmente ritardati.
+> 
+> Inizialmente scalino piu rampa, poi sottraiamo scalino e rampa per farlo tornare a 0, essendo nulli i segnali prima di t = 0, possiamo spostarli $v(t) =2sca(t) + 0.5 ram(t) -3sca(t-2) -0.5ram(t-2)$
+> 
+> $$V(s) = \frac{2}{s} + \frac{0.5}{s^2} - \frac{3}{2}e^{-2s} - \frac{0}{5}s^2e^{-2s}$$
