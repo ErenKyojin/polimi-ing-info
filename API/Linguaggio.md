@@ -37,6 +37,10 @@
 >[!def]
 >**Linguaggio**: $L$ sottoinsieme di $A^*$: $L \subseteq A^*$
 
+>[!def]
+>Un linguaggio è detto **regolare** se viene riconosciuto da un [[automa a stati finiti]]
+>$ab^na$ regolare
+>$a^nb^n$ irregolare 
 
 
 # Operazioni tra linguaggi
@@ -72,3 +76,4 @@ $$
 >- $z = \det(A)$?
 
 
+[[Epsilon|$\varepsilon$]] in un linguaggio se e solo se $q_{0}$ è stato iniziale e finale
