@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Equilibrio.md",
+                "file": "Fondamenti di automatica/Segnali e trasformate.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,8 +32,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Equilibrio.md",
-                "mode": "preview",
+                "file": "Fondamenti di automatica/Segnali e trasformate.md",
+                "mode": "source",
                 "source": false
               }
             },
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Equilibrio.md",
+                "file": "Fondamenti di automatica/Segnali e trasformate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Equilibrio.md",
+                "file": "Fondamenti di automatica/Segnali e trasformate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Equilibrio.md"
+                "file": "Fondamenti di automatica/Segnali e trasformate.md"
               }
             }
           }
@@ -166,8 +166,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e6615a05a3a0cc8c",
+  "active": "e832c0b85f0f2060",
   "lastOpenFiles": [
+    "Fondamenti di automatica/Segnali.canvas",
+    "Fondamenti di automatica/sistemi dinamici LTI.md",
+    "Fondamenti di automatica/strategia di controllo.md",
+    "Fondamenti di automatica/tabella di Routh.md",
+    "Fondamenti di automatica/Equilibrio.md",
     "Fondamenti di automatica/Formula di lagrange.md",
     "Probabilità e statistica/Variabile aleatoria.md",
     "Probabilità e statistica/Prove di Bernoulli.md",
@@ -192,11 +197,6 @@
     "Elettrotecnica/traferro.md",
     "Elettrotecnica/teorema di tellegen.md",
     "Elettrotecnica/teorema di Millman.md",
-    "Elettrotecnica/Teorema di Boucherot.md",
-    "Elettrotecnica/tensione.md",
-    "Elettrotecnica/Sovrapposizione degli effetti.md",
-    "Elettrotecnica/Serie.md",
-    "Elettrotecnica/risposta in frequenza.md",
     "Elettrotecnica/Immagini/test.css",
     "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
     "Elettrotecnica/Immagini/Pasted image 20220830190156.png",
@@ -219,7 +219,6 @@
     "Analisi 2/Senza nome",
     "Analisi 2/Excalidraw",
     "Analisi 2/Esame",
-    "Fondamenti di automatica/Segnali.canvas",
     "Fondamenti di automatica/canvas/Controllo in anello aperto (AA).canvas",
     "Fondamenti di automatica/canvas/Controllo in anello chiuso con compensazione.canvas",
     "Fondamenti di automatica/canvas/Controllo in anello aperto con compensazione.canvas",

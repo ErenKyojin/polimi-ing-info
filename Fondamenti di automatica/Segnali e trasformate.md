@@ -3,8 +3,13 @@ D LTI a TC
 ![[Segnali.canvas]]
 D | F | dom
 --- | --- | -- 
- dominio delle trasformate | $u(t) \xrightarrow{\text{legame algebrico}} y(t) \downarrow$ | $s,U,Y \in \mathbb{C}$
+ [[Analisi 1/Funzioni/dominio\|dominio]] delle trasformate | $u(t) \xrightarrow{\text{legame algebrico}} y(t) \downarrow$ | $s,U,Y \in \mathbb{C}$
 Dominio del tempo | $\uparrow$ $u(t) \xrightarrow{\text{legame differenziale / integrale}} y_{(F)}(t)$ | $t \in \mathbb{R}; u,y \in \mathbb{R}$ |
 
 
 
+# [[Serie di Fourier]]
+Dato un segnale $v(t)$ periodico di periodo $T$, ossia vale che $v(t+T) = v(t)$ per ogni $t$, lo si può esprimere con la sua serie di Fourier:
+$$
+v(t) = v_{0} + \sum_{k=1}^\infty v(k) \sin(k\omega_{0} t + \varphi k)\quad \omega_{0}
+$$

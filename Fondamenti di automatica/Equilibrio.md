@@ -164,7 +164,7 @@ $$
 &\fbox{$x(k) = \fcolorbox{blue}{}{$A^kx_{0}$} + \fcolorbox{red}{}{$\sum_{l = 0}^{k-1} A^{k-l-1} bu(l)$}$}
 \end{align}
 $$
-**Quella riquadrata si dice formula di lagrange a tempo determinato per lo stato**
+**Quella riquadrata si dice [[formula di lagrange]] a tempo determinato per lo stato**
 
 In blu movimento libero delo stato
 In rosso movimento forzato dello stato
@@ -173,7 +173,7 @@ In rosso movimento forzato dello stato
 - Il movimento libero dipende linearmente da $x(0)$ e non dipende da $u(k)$
 - Il movimento forzato dipende linearmente da $u(k)$ e non dipende da $x(0)$
   
-  Vale cioè il principio di sovrapposizione degli effetti
+  Vale cioè il principio di [[sovrapposizione degli effetti]]
 
 Movimento dell'uscita (Formula di Lagrange)
 
