@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli operazionali/Automa a stati finiti.md",
+                "file": "Probabilità e statistica/Eventi indipendenti.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli operazionali/Automa a stati finiti.md",
+                "file": "Probabilità e statistica/Eventi indipendenti.md",
                 "mode": "preview",
                 "source": false
               }
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Modelli operazionali/Automa a stati finiti.md",
+                "file": "Probabilità e statistica/Eventi indipendenti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Modelli operazionali/Automa a stati finiti.md",
+                "file": "Probabilità e statistica/Eventi indipendenti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Modelli operazionali/Automa a stati finiti.md"
+                "file": "Probabilità e statistica/Eventi indipendenti.md"
               }
             }
           }
@@ -169,10 +168,10 @@
   },
   "active": "849fa05776441fe2",
   "lastOpenFiles": [
+    "API/Modelli operazionali/Automa a stati finiti.md",
     "API/Modelli operazionali/Automa a pila.md",
     "ACSO/Architettura/De morgan.md",
     "API/Chiusura.md",
-    "API/Modelli operazionali/Automa a stati finiti.md",
     "API/Modelli operazionali/Modelli non deterministici.md",
     "API/determinismo.md",
     "API/Linguaggio.md",
