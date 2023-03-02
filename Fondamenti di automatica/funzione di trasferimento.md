@@ -119,5 +119,52 @@ Riassumendo
 >$$
 >Calcoliamo la FdT $G(s)$
 > $$
-G(s) = \frac{1}{\det(S\mathbb{1}-A)} 
+>G(s) = c\frac{1}{\det(S\mathbb{1}-A)} A\mathbf{b} = \begin{bmatrix}
+>2  & 1
+>\end{bmatrix} \begin{bmatrix}
+>s-1 & 1 \\
+>-3 & s-4
+>\end{bmatrix} \begin{bmatrix}
+>1 \\
+>0
+>\end{bmatrix} =
+>$$
+>$$
+\begin{align}
+> &=\frac{1}{(s-1)(s-4)+3} \begin{bmatrix}
+2 & 1
+\end{bmatrix} \begin{bmatrix}
+s-4 & -1  \\
+3 & s-1
+\end{bmatrix} \begin{bmatrix}
+1 \\
+0
+\end{bmatrix} \\
+ &= \frac{1}{s^2-5s +7} \begin{bmatrix}
+2 & 1
+\end{bmatrix}\begin{bmatrix}
+s-4 \\
+3
+\end{bmatrix} = \frac{2s-5}{s^2 - 5s + 7}
+\end{align}
+>$$
+>$\CVD$
+
+Dato il SD a TC con ingresso $u$, uscita $y$ e stato $x$
+$$
+A = \begin{bmatrix}
+-2 & 0 \\
+-1 & -1
+\end{bmatrix}, b = \begin{bmatrix}
+2 \\
+1
+\end{bmatrix},
+c = \begin{bmatrix}
+1 & 0
+\end{bmatrix}, d =0
+$$
+Calcolare il movimento di $y$ prodotto da $x(0) = \begin{bmatrix}2\\0\end{bmatrix}$ e $u(t) = \sca(t)$
+Ora possiamo fare tutto attraverso la [[trasformata di Laplace]]
+$$
+Y(s) = c(s\mathbb{1} - A)^{-1}x(0) + G
 $$

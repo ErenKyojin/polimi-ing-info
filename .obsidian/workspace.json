@@ -167,8 +167,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b36e64ef4f777c2b",
+  "active": "0b8307b5dc1882a6",
   "lastOpenFiles": [
+    "preamble.sty",
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Fondamenti di automatica/funzione di trasferimento.md",
     "Fondamenti di automatica/criteri di stabilità.md",
@@ -195,7 +196,6 @@
     "API/Modelli operazionali/funzione di transizione.md",
     "Fondamenti di automatica/Trasformata di Laplace.md",
     "Fondamenti di automatica/trasformate di laplace notevoli.md",
-    "Fondamenti di automatica/Segnali e trasformate.md",
     "Fondamenti di automatica/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
