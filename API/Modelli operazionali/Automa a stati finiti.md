@@ -123,3 +123,24 @@ $\mathcal{L}(AFN) \supseteq \mathcal{L}(AFD)$ ma vale anche $\mathcal{L}(AFN) \s
 >Insieme $Q$: $n$ elementi
 >$\mathcal{P}(Q)$: $2^n$ insieme delle combinazioni di $Q$
 >Se $Q$ è finito $\mathcal{P}(Q)$ è finito
+
+
+A cosa servono?
+- $A_{ND} = (Q_{N},I,\delta_{N},q_{0N},F_{N})$
+- $A_{D} = (Q_{D},I,\delta_{D},q_{0D},F_{d})$
+- $Q_{D} = \mathcal{P}(Q_{N})$
+- $\delta_{D}(q_{d},i) = \bigcup_{q_{N} \in q_{D}} \delta_{N}(q_{N},i)$
+- $F_{D} = \left\{ Q' \subseteq Q | Q' \cap F_{N} \neq \varnothing \right\}$
+
+
+```mermaid
+graph TB
+subgraph ND
+	q0 -->|a| q1((q1))-->|b| q1
+	q0 -->|a| q2 -->|a| q3 -->|b| q2
+end
+subgraph D
+dq0["{q0}"] --> dq1["{q?}"] 
+end
+```
+#todo foto
