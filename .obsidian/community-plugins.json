@@ -4,5 +4,6 @@
   "obsidian-tikzjax",
   "obsidian-latex",
   "obsidian-mathjax-wikilinks",
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian"
 ]
