@@ -17,27 +17,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "c29756e71a8347d4"
-          }
-        ]
-      },
-      {
-        "id": "5573d7ad6bf67204",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f61c7e780916ffb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "c29756e71a8347d4"
+            }
           }
         ]
       }
@@ -89,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -154,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {

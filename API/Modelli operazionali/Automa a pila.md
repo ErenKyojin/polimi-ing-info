@@ -108,11 +108,31 @@ Come per i FSA, bisogna avere una fuzione di transizione totale e non parziale, 
 Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (Si possono eliminare), inoltre dobbiamo anche eliminare epsilon mosse alla fine, altrimenti se una stringa venisse accettata anche il suo complemento verrebbe accettato.
 
 # Automi a pila non deterministici
-Nascono non deterministici di natura, aggiungiamo noi il determinismo:
+Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]]:
+
+```mermaid
+graph TB
+	subgraph det
+	q1 -->|i,A/alpha| q2
+	q1 -->|eps,A/alpha| q3
+	end
+	subgraph notdet
+	vq1[q1] -->|i,A/alpha| vq2[q2]
+	vq1 -->|i,A/beta| vq3[q3]
+	end
+```
 
 $\delta : Q \times (I \cap \left\{ \varepsilon \right\}) \times \Gamma \to \mathcal{P}_{F}(Q\times \Gamma^*)$
 
 - L'indice $F$ sta per finito
 - L'APND accetta $x$ se esiste una sequenza
 - $c_{0} \vdash^* \left< q,\varepsilon,\gamma \right>, q \in F$
-- 
+- $\vdash$ non è univoca!
+
+
+>[!oss]
+>Gli automi a pila non deterministici possono riconoscere un [[linguaggio]] non riconoscibile dagli automi a pila deterministici, quindi sono piú potenti.
+>
+>Hanno la chiusura rispetto all'[[unione]]
+>
+>Non hanno la [[chiusura]] rispetto all'[[intersezione]]
