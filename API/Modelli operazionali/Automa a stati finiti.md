@@ -115,6 +115,15 @@ graph LR
 	q3 --->|b| q6
 ```
 $$\delta(q_{1},a) = \left\{ q_{2},q_{3} \right\}, \delta(q_{2},b) = \left\{ q_{4},q_{5} \right\}, \delta(q_{3},b) = \left\{ q_{6},q_{5} \right\}  $$
+quindi
+$$
+\begin{flalign}
+
+&\delta^*(q_{1},ab)=\left\{ q_{4},q_{5},q_{6} \right\}  \\
+&\delta^*(q,\varepsilon) = \left\{ q \right\}  \\
+&\delta^*(q,y.i) = \bigcup \delta(q',i)\qquad q' \in \delta(q,y)
+\end{flalign}
+$$
 
 ## Quando accetta un FSA ND
 Accettiamo se nell'insieme dello stato a cui arriviamo c'è almeno uno stato finale, formalmente:

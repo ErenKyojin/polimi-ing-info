@@ -114,7 +114,7 @@ Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]]:
 graph TB
 	subgraph det
 	q1 -->|i,A/alpha| q2
-	q1 -->|eps,A/alpha| q3
+	q1 -->|eps,A/beta| q3
 	end
 	subgraph notdet
 	vq1[q1] -->|i,A/alpha| vq2[q2]
