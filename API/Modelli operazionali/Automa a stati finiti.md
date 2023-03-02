@@ -110,4 +110,6 @@ Accettiamo se nell'insieme dello stato a cui arriviamo c'è almeno uno stato fin
 $$
 x \in L \leftrightarrow  \delta^*(q_{0},x) \cap F \neq \varnothing
 $$
-Questa è però una convenzione, possono essercene diverse.
+Questa è però una convenzione, possono essercene diverse (ad esempio $\delta^*(q_{0},x) \subseteq F$).
+
+Come si naviga un FAS non deterministico? Andiamo avanti salvando stati precedenti in modo da poter tornare indietro
