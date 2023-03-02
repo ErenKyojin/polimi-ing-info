@@ -35,7 +35,7 @@ Possiamo sfruttare la pila per leggere le stringhe di tipo $a^nb^n$,
 
 # Automa traduttore a pila
 ![[Pasted image 20230223095250.png]]
-
+4
 
 >[!def]
 >Automa traduttore a pila: $<Q,I,\Gamma, \delta, q_{0},Z_{0},F[, O, \eta]>$
@@ -146,3 +146,5 @@ Si dimostra:
 - $\subseteq$
 - $\neq$
 
+Vediamo invece il termine di una computazione in un APN, abbiamo due casi:
+- $c_{0} \vdash$
