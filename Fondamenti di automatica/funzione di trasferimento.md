@@ -64,7 +64,7 @@ $$
 \Delta_{n1}(s)  & \dots & \Delta_{nn}(s)
 \end{bmatrix}
 $$
-[[Polinomio caratteristico]] di $A$ al denominatore, quindi il grado è n, mentre gli elementi della matrice sono determinanti di una matrice di dimensione $(n-1)\times(n-1)$ quindi il grado è $n-1$
+[[Polinomio caratteristico]] di $A$ al denominatore, quindi il grado è n, mentre gli elementi della matrice sono determinanti di una matrice di [[GAL/Dimensione|dimensione]] $(n-1)\times(n-1)$ quindi il grado è $n-1$
 
 
 2.
@@ -84,4 +84,40 @@ rispettivamente $1\times n$, $n\times n$, $n\times 1$, otteniamo quindi un polin
    $$\large
 G(s)=\underbrace{ c(s\mathbb{1} -A)^{-1}b }_{ \frac{\bar{N}(s)}{D(S)} } + d = 
 $$
-con $D(s)$ PC di A grado $n$
+con $D(s)$ PC di A con grado $n$, $\tilde{N}$ polinomio di grado $\leq n-1$
+Quindi se e solo se $d=0$
+$$
+G(s) = \frac{\tilde{N}}{D}
+$$
+altrimenti
+$$
+G(s) =  \frac{\tilde{N}(s)}{D(s)} + d = \frac{\tilde{N}(s) + dD(s)}{D(s)} = \frac{N(s)}{D(s)} 
+$$
+Con grado del numeratore uguale al grado del denominatore. 
+
+Riassumendo
+
+1. $G(s)$ è razionale fratta
+2. I suoi poli sono autovalori di $A$ (e non tutti gli autovalori lo sono se radici del numeratore)
+3. grado numeratore = grado denominatore $\iff d \neq 0$ altrimenti il grado del numeratore è strettamente minore del grado del numerator
+
+>[!oss] Le radici del numeratore si dicono **zeri** della FdT
+
+
+>[!esempio]
+>Dato il SD LTI a TL SISO descritto nello spazio di tato che
+> $$
+>A = \begin{bmatrix}
+1 & -1 \\
+3 & 4
+\end{bmatrix}, b = \begin{bmatrix}
+1 \\
+0 
+\end{bmatrix}, c = \begin{bmatrix}
+2 & 1
+\end{bmatrix}, d=0
+>$$
+>Calcoliamo la FdT $G(s)$
+> $$
+G(s) = \frac{1}{\det(S\mathbb{1}-A)} 
+$$
