@@ -111,3 +111,15 @@ $$
 x \in L \leftrightarrow  \delta^*(q_{0},x) \cap F \neq \varnothing
 $$
 Questa è però una convenzione, possono essercene diverse (ad esempio $\delta^*(q_{0},x) \subseteq F$).
+
+
+$\mathcal{L}(AFN) \supseteq \mathcal{L}(AFD)$ ma vale anche $\mathcal{L}(AFN) \subseteq \mathcal{L}(AFD)$ infatti posso simulare un automa non deterministico con uno deterministico, quindi $\mathcal{L}(AFN) = \mathcal{L}(AFD)$
+
+
+>[!esempio]
+>AFN con insieme di stati Q
+>Possiamo simularlo tenendo traccia dell'insieme di stati in cui è quell'automa.
+>
+>Insieme $Q$: $n$ elementi
+>$\mathcal{P}(Q)$: $2^n$ insieme delle combinazioni di $Q$
+>Se $Q$ è finito $\mathcal{P}(Q)$ è finito

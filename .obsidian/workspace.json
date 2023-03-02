@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
+                "file": "API/Modelli operazionali/Automa a stati finiti.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
+                "file": "API/Modelli operazionali/Automa a stati finiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
+                "file": "API/Modelli operazionali/Automa a stati finiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md"
+                "file": "API/Modelli operazionali/Automa a stati finiti.md"
               }
             }
           }
@@ -149,8 +148,8 @@
   },
   "active": "849fa05776441fe2",
   "lastOpenFiles": [
-    "ACSO/Architettura/De morgan.md",
     "API/Modelli operazionali/Automa a pila.md",
+    "ACSO/Architettura/De morgan.md",
     "API/Chiusura.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
     "API/Modelli operazionali/Modelli non deterministici.md",
