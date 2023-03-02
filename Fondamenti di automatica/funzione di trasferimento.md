@@ -171,7 +171,7 @@ s-4 \\
 > 
 > Y(s) &= c(s\mathbb{1} - A)^{-1}x(0) + G(s)U(s) = \\
 > &= c(s\mathbb{1} -A)^{-1}x(0) + c(s\mathbb{1}-A)^{-1}bU(s) + dU(s)= \\
-> &=c(s\mathbb{1}-A)^{-1}(x(0) + bU(s)) + dU(s) = \\>&=\begin{bmatrix}
+> &=c(s\mathbb{1}-A)^{-1}(x(0) + bU(s)) + dU(s) = \\&=\begin{bmatrix}
 >1 & 0
 >\end{bmatrix} \begin{bmatrix}
 >s + 2 & 0 \\
@@ -182,7 +182,28 @@ s-4 \\
 >\end{bmatrix} + \begin{bmatrix}
 >2 \\
 >1
->\end{bmatrix} \frac{1}{5}\right) 
+>\end{bmatrix} \frac{1}{5}\right)  = \\
+>&=\frac{1}{4}\begin{bmatrix}
+s+1 & 0
+\end{bmatrix}\begin{bmatrix}
+>2+\frac{2}{5} \\
+\frac{1}{5}
+>\end{bmatrix} = \frac{1}{4} (s+1) 2 \frac{s+1}{s} = \frac{2(s+1)^2}{s(s+1)(s+2)} = \\
+> &= \frac{2(s+1)}{s(s+2)}
 >
 > \end{align}
 > $$
+> Antitrasformazione di Laplace con Heaviside
+> $$
+> \begin{align}
+>
+>Y(s) = \frac{2s+2}{s(s+2)} = \frac{\alpha}{s} + \frac{\beta}{s+2} \\
+>\alpha (s+2) + \beta s = 2s +2
+\end{align}
+>$$
+>quindi $s = 0, 2\alpha = 2, \alpha = 1$ e $s=-2, -2\beta = -2, \beta=1$
+>$$\begin{align}
+>Y(s) = \frac{1}{s} + \frac{1}{s+2} \\
+>\downarrow \\
+>
+>\end{align}$$
