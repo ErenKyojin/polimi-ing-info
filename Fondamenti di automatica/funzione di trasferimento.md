@@ -150,21 +150,39 @@ s-4 \\
 >$$
 >$\CVD$
 
-Dato il SD a TC con ingresso $u$, uscita $y$ e stato $x$
-$$
-A = \begin{bmatrix}
--2 & 0 \\
--1 & -1
-\end{bmatrix}, b = \begin{bmatrix}
-2 \\
-1
-\end{bmatrix},
-c = \begin{bmatrix}
-1 & 0
-\end{bmatrix}, d =0
-$$
-Calcolare il movimento di $y$ prodotto da $x(0) = \begin{bmatrix}2\\0\end{bmatrix}$ e $u(t) = \sca(t)$
-Ora possiamo fare tutto attraverso la [[trasformata di Laplace]]
-$$
-Y(s) = c(s\mathbb{1} - A)^{-1}x(0) + G
-$$
+> [!esempio]
+> Dato il SD a TC con ingresso $u$, uscita $y$ e stato $x$
+> $$
+> A = \begin{bmatrix}
+> -2 & 0 \\
+> -1 & -1
+> \end{bmatrix}, b = \begin{bmatrix}
+> 2 \\
+> 1
+> \end{bmatrix},
+> c = \begin{bmatrix}
+> 1 & 0
+> \end{bmatrix}, d =0
+> $$
+> Calcolare il movimento di $y$ prodotto da $x(0) = \begin{bmatrix}2\\0\end{bmatrix}$ e $u(t) = \sca(t)$
+> Ora possiamo fare tutto attraverso la [[trasformata di Laplace]]
+> $$
+> \begin{align}
+> 
+> Y(s) &= c(s\mathbb{1} - A)^{-1}x(0) + G(s)U(s) = \\
+> &= c(s\mathbb{1} -A)^{-1}x(0) + c(s\mathbb{1}-A)^{-1}bU(s) + dU(s)= \\
+> &=c(s\mathbb{1}-A)^{-1}(x(0) + bU(s)) + dU(s) = \\>&=\begin{bmatrix}
+>1 & 0
+>\end{bmatrix} \begin{bmatrix}
+>s + 2 & 0 \\
+>-1 & s+1
+>\end{bmatrix}^{-1} \left( \begin{bmatrix}
+>2 \\
+>0
+>\end{bmatrix} + \begin{bmatrix}
+>2 \\
+>1
+>\end{bmatrix} \frac{1}{5}\right) 
+>
+> \end{align}
+> $$
