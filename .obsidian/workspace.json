@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
+                "file": "Fisica/fattore di ragguaglio.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
+                "file": "Fisica/fattore di ragguaglio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
+                "file": "Fisica/fattore di ragguaglio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Grandezza fisica.md"
+                "file": "Fisica/fattore di ragguaglio.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "b36e64ef4f777c2b",
   "lastOpenFiles": [
-    "API/Modelli operazionali/Automa a stati finiti.md",
     "Fisica/Grandezza fisica.md",
+    "Fisica/fattore di ragguaglio.md",
+    "API/Modelli operazionali/Automa a stati finiti.md",
     "API/Modelli operazionali/Automa a pila.md",
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Probabilità e statistica/Formula di Bayes.md",
@@ -188,7 +189,6 @@
     "Fondamenti di automatica/Equilibrio.md",
     "Fondamenti di automatica/Formula di lagrange.md",
     "Probabilità e statistica/Variabile aleatoria.md",
-    "Probabilità e statistica/Prove di Bernoulli.md",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
     "API/Canvas/Automa a pila.canvas",
