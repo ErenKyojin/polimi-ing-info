@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Formula di Bayes.md",
+                "file": "API/Modelli operazionali/Automa a pila.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Formula di Bayes.md",
+                "file": "API/Modelli operazionali/Automa a pila.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Formula di Bayes.md",
+                "file": "API/Modelli operazionali/Automa a pila.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Formula di Bayes.md"
+                "file": "API/Modelli operazionali/Automa a pila.md"
               }
             }
           }
@@ -149,6 +149,8 @@
   },
   "active": "849fa05776441fe2",
   "lastOpenFiles": [
+    "Fondamenti di automatica/Antitrasformazione di Laplace.md",
+    "Probabilità e statistica/Formula di Bayes.md",
     "Probabilità e statistica/Eventi indipendenti.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
     "API/Modelli operazionali/Automa a pila.md",
@@ -161,7 +163,6 @@
     "API/Modelli operazionali/Macchine di Turing.md",
     "API/Modelli operazionali/funzione di transizione.md",
     "Fondamenti di automatica/Trasformata di Laplace.md",
-    "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Fondamenti di automatica/trasformate di laplace notevoli.md",
     "Fondamenti di automatica/Segnali e trasformate.md",
     "Fondamenti di automatica/Trasformata di Fourier.md",
@@ -175,7 +176,6 @@
     "Probabilità e statistica/Variabile aleatoria.md",
     "Probabilità e statistica/Prove di Bernoulli.md",
     "Probabilità e statistica/Indipendenza nella modellizzazione.md",
-    "Probabilità e statistica/Formula di Bayes.md",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
     "API/Canvas/Automa a pila.canvas",
