@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Legge fisica.md",
+                "file": "Fondamenti di automatica/criteri di stabilità.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Legge fisica.md",
+                "file": "Fondamenti di automatica/criteri di stabilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Legge fisica.md",
+                "file": "Fondamenti di automatica/criteri di stabilità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Legge fisica.md"
+                "file": "Fondamenti di automatica/criteri di stabilità.md"
               }
             }
           }
@@ -147,10 +147,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b36e64ef4f777c2b",
+  "active": "0b8307b5dc1882a6",
   "lastOpenFiles": [
-    "Fisica/fattore di ragguaglio.md",
     "Fisica/Legge fisica.md",
+    "Fisica/fattore di ragguaglio.md",
     "Fisica/Indice di stato fisico.md",
     "Fisica/Grandezza fisica.md",
     "Fisica/Grandez.md",
