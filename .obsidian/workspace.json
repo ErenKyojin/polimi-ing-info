@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Eventi indipendenti.md",
+                "file": "Probabilità e statistica/Formula di Bayes.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Eventi indipendenti.md",
+                "file": "Probabilità e statistica/Formula di Bayes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Eventi indipendenti.md",
+                "file": "Probabilità e statistica/Formula di Bayes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Eventi indipendenti.md"
+                "file": "Probabilità e statistica/Formula di Bayes.md"
               }
             }
           }
@@ -150,6 +149,7 @@
   },
   "active": "849fa05776441fe2",
   "lastOpenFiles": [
+    "Probabilità e statistica/Eventi indipendenti.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
     "API/Modelli operazionali/Automa a pila.md",
     "ACSO/Architettura/De morgan.md",
@@ -176,7 +176,6 @@
     "Probabilità e statistica/Prove di Bernoulli.md",
     "Probabilità e statistica/Indipendenza nella modellizzazione.md",
     "Probabilità e statistica/Formula di Bayes.md",
-    "Probabilità e statistica/Funzione di ripartizione.md",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
     "API/Canvas/Automa a pila.canvas",
