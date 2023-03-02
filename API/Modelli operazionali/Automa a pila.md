@@ -136,3 +136,10 @@ $\delta : Q \times (I \cap \left\{ \varepsilon \right\}) \times \Gamma \to \math
 >Hanno la chiusura rispetto all'[[unione]]
 >
 >Non hanno la [[chiusura]] rispetto all'[[intersezione]]
+
+$$
+\mathcal{L}(APD) \subset \mathcal{L}(APN)
+$$
+Si dimostra:
+- $\subseteq$
+- $\neq$

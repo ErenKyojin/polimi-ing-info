@@ -9,5 +9,6 @@
     "MCL Multi Column"
   ],
   "interfaceFontFamily": "Inter",
-  "textFontFamily": "Atkinson Hyperlegible"
+  "textFontFamily": "Atkinson Hyperlegible",
+  "monospaceFontFamily": "Anonymous Pro"
 }
