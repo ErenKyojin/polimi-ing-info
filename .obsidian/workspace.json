@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "849fa05776441fe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API/Modelli operazionali/Automa a stati finiti.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b36e64ef4f777c2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1a28e45dac6d513",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/Misura.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7287dacc4a2079cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/Indice di stato fisico.md",
+                "file": "Fisica/Legge fisica.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "grandez",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Misura.md",
+                "file": "Fisica/Legge fisica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Misura.md",
+                "file": "Fisica/Legge fisica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Misura.md"
+                "file": "Fisica/Legge fisica.md"
               }
             }
           }
@@ -184,16 +147,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b1a28e45dac6d513",
+  "active": "b36e64ef4f777c2b",
   "lastOpenFiles": [
-    "Fisica/Indice di stato fisico.md",
-    "Fisica/Misura.md",
-    "templates/Basic.md",
-    "Fisica/Grandezza fisica.md",
-    "templates",
-    "Fisica/Grandez.md",
     "Fisica/fattore di ragguaglio.md",
+    "Fisica/Legge fisica.md",
+    "Fisica/Indice di stato fisico.md",
+    "Fisica/Grandezza fisica.md",
+    "Fisica/Grandez.md",
+    "templates/Untitled.md",
+    "templates/Basic.md",
+    "Fisica/Leggi fisiche.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
+    "templates",
     "API/Modelli operazionali/Automa a pila.md",
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Probabilità e statistica/Formula di Bayes.md",
@@ -212,8 +177,6 @@
     "Fondamenti di automatica/Trasformata di Fourier.md",
     "Analisi 2/Serie di Fourier.md",
     "Fondamenti di automatica/Segnali.canvas",
-    "Fondamenti di automatica/sistemi dinamici LTI.md",
-    "Fondamenti di automatica/strategia di controllo.md",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
     "API/Canvas/Automa a pila.canvas",
