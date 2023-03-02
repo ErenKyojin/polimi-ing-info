@@ -108,7 +108,7 @@ Come per i FSA, bisogna avere una fuzione di transizione totale e non parziale, 
 Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (Si possono eliminare), inoltre dobbiamo anche eliminare epsilon mosse alla fine, altrimenti se una stringa venisse accettata anche il suo complemento verrebbe accettato.
 
 # Automi a pila non deterministici
-Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]]:
+Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]], possiamo quindi semplicemente rimuoverlo
 
 ```mermaid
 graph TB
@@ -122,7 +122,7 @@ graph TB
 	end
 ```
 
-$\delta : Q \times (I \cap \left\{ \varepsilon \right\}) \times \Gamma \to \mathcal{P}_{F}(Q\times \Gamma^*)$
+$$\delta : Q \times (I \cap \left\{ \varepsilon \right\}) \times \Gamma \to \mathcal{P}_{F}(Q\times \Gamma^*)$$
 
 - L'indice $F$ sta per finito
 - L'APND accetta $x$ se esiste una sequenza
