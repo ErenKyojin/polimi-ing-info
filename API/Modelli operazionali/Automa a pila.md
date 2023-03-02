@@ -147,4 +147,7 @@ Si dimostra:
 - $\neq$
 
 Vediamo invece il termine di una computazione in un APN, abbiamo due casi:
-- $c_{0} \vdash$
+- $c_{0} \vdash \left< q_{1},\varepsilon,\gamma_{1} \right>$
+- $c_{0}\vdash^*\left< q_{2},\varepsilon,\gamma_{2} \right>$
+- $q_{1}\in F, q_{2} \cancel{ \in } F$
+In questo caso $x$ è accettata, ma non solo, anche scambiando $F$ con $Q-F$ inseme degli stati non finali, $x$ continua ad essere accettata. Scambi
