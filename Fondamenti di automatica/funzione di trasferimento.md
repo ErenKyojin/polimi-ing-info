@@ -205,5 +205,5 @@ s+1 & 0
 >$$\begin{align}
 >Y(s) = \frac{1}{s} + \frac{1}{s+2} \\
 >\downarrow \\
->
+>y(t) = \sca(t) + e^{-2t}\sca(t) = (1+e^{-2t})\sca(t)
 >\end{align}$$
