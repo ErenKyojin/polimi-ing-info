@@ -132,6 +132,37 @@ x \in L \leftrightarrow  \delta^*(q_{0},x) \cap F \neq \varnothing
 $$
 Questa è però una convenzione, possono essercene diverse (ad esempio $\delta^*(q_{0},x) \subseteq F$).
 
+## Relazione tra FSN e FSA
+
+```mermaid
+graph LR
+	subgraph I
+	q1
+	end
+	subgraph a
+	q2
+	q3
+	end
+	subgraph b
+	q4
+	q5
+	q6
+	end
+	q1 -->|a|q2
+	q1 -->|a|q3
+	q2 -->|b|q4
+	q2 -->|b|q5
+	q3 -->|b|q5
+	q3 -->|b|q6
+```
+Pratendo da $q_{1}$ e leggendo ab l'automa si trova in uno stato dell'insieme $\left\{ q_{4},q_{5},q_{6} \right\}$
+
+>[!def]
+>Ridefiniamo stato per essere l'insieme dei possibili stati in cui sis può trivare l'automa ND durante il suo funzionament
+
+- Dato un FSA ND ne costruiamo auomaticamente uno equivalente deterministico, quindi non sono piú efficaci a differenza degli automi a pila
+
+
 
 $\mathcal{L}(AFN) \supseteq \mathcal{L}(AFD)$ ma vale anche $\mathcal{L}(AFN) \subseteq \mathcal{L}(AFD)$ infatti posso simulare un automa non deterministico con uno deterministico, quindi $\mathcal{L}(AFN) = \mathcal{L}(AFD)$
 
