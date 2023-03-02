@@ -2,8 +2,8 @@
 ![[Automa a pila.canvas]]
 
 
-Diamo la possiblità agli [[Automa a stati finiti|FAS]] di scrivere in nastri di scrittura e di leggere da nastri di lettura, quindi potranno fare mosse in funzione di:
-- Simbolo letto dal nastro di lettura
+Possiamo vedere l'input e l'output dei [[Automa a stati finiti|FAS]] come due nastri, di scrittura e di lettura, aggiungiamo a questo quindi potranno fare mosse in funzione di:
+- Simbolo letto dal nastro di lettura (potrebbe anche non leggere)
 - Simbolo letto dalla pila
 - Stato dell'organo di controllo:
 	- Cambia stato
@@ -40,7 +40,7 @@ Possiamo sfruttare la pila per leggere le stringhe di tipo $a^nb^n$,
 >[!def]
 >Automa traduttore a pila: $<Q,I,\Gamma, \delta, q_{0},Z_{0},F[, O, \eta]>$
 >
->$Q, i,q_{0}$ ed $F[O]$ come per gli [[Automa a stati finiti|FSA]]
+>$Q, i,q_{0}$ ed $F[O]$ come per gli [[Automa a stati finiti|FSA]] [traduttori]
 >$\Gamma$ alfabeto di pila
 >$Z_{0}$ simbolo iniziale di pila
 >$\delta: Q \times (I \cup \left\{ \varepsilon \right\})\times \Gamma \to Q \times \Gamma^*$, osserviamo che $\delta$ è parziale
