@@ -29,7 +29,7 @@ graph TB
 >>```
 
 
-Quindi un automa a stato finito è costituito da:
+Quindi un automa a stati finiti è costituito da:
 - un insieme finito di stati $Q = \left\{ q_{1},q_{2},\dots,q_{n} \right\}$
 - un insieme finito ([[Linguaggio|alfabeto]]) di ingressi 
 - una [[funzione di transizione]] (parziale) $\gamma:Q \times I \to Q$
@@ -103,7 +103,18 @@ $\delta : Q \times I \to \mathcal{P}(Q)$
 Praticamente l'automa è in q1, legge 'a' e decide se andare in q2 o in q3, sono un sovrainsieme dei FSA deterministici, se l'automa non legge niente rimaniamo nello stesso stato, se dobbiamo leggere una stringa $x$ chiadiamo $y$ la prima parte della stringa e $i$ l'ultimo carattere
 
 $\delta^*(q,x) = \delta^*(q,y.i)$
-#
+
+In questo tipo di FSA, qual'è la formalizzazione della sequenza di mosse? consideriamo il seguente automa:
+```mermaid
+graph LR
+	q1 -->|a| q2
+	q1 -->|a| q3
+	q2 --->|b| q4
+	q2 --->|b| q5
+	q3 --->|b| q5
+	q3 --->|b| q6
+```
+$$\delta(q_{1},a) = \left\{ q_{2},q_{3} \right\}, \delta(q_{2},b) = \left\{ q_{4},q_{5} \right\}, \delta(q_{3},b) = \left\{ q_{6},q_{5} \right\}  $$
 
 ## Quando accetta un FSA ND
 Accettiamo se nell'insieme dello stato a cui arriviamo c'è almeno uno stato finale, formalmente:

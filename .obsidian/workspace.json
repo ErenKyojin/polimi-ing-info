@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
+                "file": "API/Modelli operazionali/Automa a stati finiti.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
+                "file": "API/Modelli operazionali/Automa a stati finiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
+                "file": "API/Modelli operazionali/Automa a stati finiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md"
+                "file": "API/Modelli operazionali/Automa a stati finiti.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   },
   "active": "849fa05776441fe2",
   "lastOpenFiles": [
+    "API/Modelli operazionali/Automa a pila.md",
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Probabilità e statistica/Formula di Bayes.md",
     "Probabilità e statistica/Eventi indipendenti.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
-    "API/Modelli operazionali/Automa a pila.md",
     "ACSO/Architettura/De morgan.md",
     "API/Chiusura.md",
     "API/Modelli operazionali/Modelli non deterministici.md",
