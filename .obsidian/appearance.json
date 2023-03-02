@@ -7,5 +7,7 @@
     "test",
     "centerImg",
     "MCL Multi Column"
-  ]
+  ],
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Atkinson Hyperlegible"
 }

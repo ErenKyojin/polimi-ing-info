@@ -17,27 +17,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "a8b36b305676019c"
-          }
-        ]
-      },
-      {
-        "id": "13556e5635db933b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7caa6c594724ec3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API/Modelli operazionali/Automa a stati finiti.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "a8b36b305676019c"
+            }
           }
         ]
       }
@@ -169,6 +149,8 @@
   },
   "active": "849fa05776441fe2",
   "lastOpenFiles": [
+    "API/Modelli operazionali/Modelli non deterministici.md",
+    "API/determinismo.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
     "API/Linguaggio.md",
     "API/Epsilon.md",
@@ -192,13 +174,11 @@
     "Probabilità e statistica/Indipendenza nella modellizzazione.md",
     "Probabilità e statistica/Formula di Bayes.md",
     "Probabilità e statistica/Funzione di ripartizione.md",
-    "API/Modelli operazionali/Modelli non deterministici.md",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Chiusura.md",
     "API/Canvas/MT a k-nastri.canvas",
     "API/Canvas/Automa a pila.canvas",
     "API/Configurazione.md",
-    "Probabilità e statistica/evento.md",
     "Elettrotecnica/Immagini/test.css",
     "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
     "Elettrotecnica/Immagini/Pasted image 20220830190156.png",

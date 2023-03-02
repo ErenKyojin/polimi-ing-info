@@ -35,4 +35,3 @@ case(c)
 
 
 ![[Automa a stati finiti#Automa a stati finiti non deterministico]]
-
