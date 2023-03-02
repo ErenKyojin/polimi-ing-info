@@ -17,27 +17,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "62365924ec4d2598"
-          }
-        ]
-      },
-      {
-        "id": "9e258d16789d8eff",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "429d67f305214379",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e statistica/Eventi indipendenti.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "62365924ec4d2598"
+            }
           }
         ]
       }
@@ -89,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -154,7 +135,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
