@@ -50,3 +50,38 @@ $$
 ## Interpretazione  della FdT
 
 $\mathcal{L}[$uscita forzata di $u(t)] = G(s)\cdot \mathcal{L}[u(t)]$
+
+# Calcolo e aspetto di una FdT
+$$
+G(s) = c(s\mathbb{1}-A)^{-1}b + d
+$$
+com'è fatta?
+1.
+$$
+(s\mathbb{1}-A)^{-1} = \frac{1}{\det(s\mathbb{1}-A)} \begin{bmatrix}
+\Delta_{11}(s) & \dots & \Delta_{1n}(s) \\
+\vdots &  & \vdots \\
+\Delta_{n1}(s)  & \dots & \Delta_{nn}(s)
+\end{bmatrix}
+$$
+[[Polinomio caratteristico]] di $A$ al denominatore, quindi il grado è n, mentre gli elementi della matrice sono determinanti di una matrice di dimensione $(n-1)\times(n-1)$ quindi il grado è $n-1$
+
+
+2.
+$$
+c(s\mathbb{1}-A)^{-1}b =\frac{1}{\det(s\mathbb{1}-A)}\begin{bmatrix}
+c_{1} & \dots & c_{n}
+\end{bmatrix}
+\left\{ \Delta_{ij}(s) \right\} \begin{bmatrix}
+b_{1} \\
+\vdots \\
+b_{n}
+\end{bmatrix}
+$$
+rispettivamente $1\times n$, $n\times n$, $n\times 1$, otteniamo quindi un polinomio in $s$ di grado al piú $n-1$.
+
+3. 
+   $$\large
+G(s)=\underbrace{ c(s\mathbb{1} -A)^{-1}b }_{ \frac{\bar{N}(s)}{D(S)} } + d = 
+$$
+con $D(s)$ PC di A grado $n$
