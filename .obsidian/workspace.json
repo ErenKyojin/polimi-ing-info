@@ -17,7 +17,27 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "c29756e71a8347d4"
+          }
+        ]
+      },
+      {
+        "id": "5573d7ad6bf67204",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f61c7e780916ffb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/Modelli operazionali/Automa a stati finiti.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "c29756e71a8347d4"
           }
         ]
       }
@@ -147,7 +167,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "849fa05776441fe2",
+  "active": "f61c7e780916ffb6",
   "lastOpenFiles": [
     "API/Modelli operazionali/Modelli non deterministici.md",
     "API/determinismo.md",

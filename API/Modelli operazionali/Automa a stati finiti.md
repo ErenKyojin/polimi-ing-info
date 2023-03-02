@@ -103,3 +103,11 @@ $\delta : Q \times I \to \mathcal{P}(Q)$
 Praticamente l'automa è in q1, legge 'a' e decide se andare in q2 o in q3, sono un sovrainsieme dei FSA deterministici, se l'automa non legge niente rimaniamo nello stesso stato, se dobbiamo leggere una stringa $x$ chiadiamo $y$ la prima parte della stringa e $i$ l'ultimo carattere
 
 $\delta^*(q,x) = \delta^*(q,y.i)$
+#
+
+## Quando accetta un FSA ND
+Accettiamo se nell'insieme dello stato a cui arriviamo c'è almeno uno stato finale, formalmente:
+$$
+x \in L \leftrightarrow  \delta^*(q_{0},x) \cap F \neq \varnothing
+$$
+Questa è però una convenzione, possono essercene diverse.
