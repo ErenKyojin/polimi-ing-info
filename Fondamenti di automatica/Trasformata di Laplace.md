@@ -1,3 +1,6 @@
+---
+aliases: TdL, trasformate di Laplace
+---
 ## Definizione
 
 Dato un segnale $v(t)$ definito per $t \geq 0$ (o nullo per $t < 0$), se ne definisce la trasforrmata di Laplace (TDL) come:

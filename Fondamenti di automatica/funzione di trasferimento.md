@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: FdT, Funzione di trasferimento
 creation date: 2023-03-02 17:33
 modification date: 2023-03-02 17:33
 ---
@@ -207,3 +207,5 @@ s+1 & 0
 >\downarrow \\
 >y(t) = \sca(t) + e^{-2t}\sca(t) = (1+e^{-2t})\sca(t)
 >\end{align}$$
+>
+>
