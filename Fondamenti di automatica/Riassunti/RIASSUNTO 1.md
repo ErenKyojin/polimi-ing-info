@@ -40,6 +40,36 @@
 >$$
 >Applichiamo $P(t)$ ...
 >
-
-
+>$$T(s) = G_{TP}(s) P(s) = \frac{\underbrace{ \frac{1}{G} }_{ \mu }}{1 + s\underbrace{ \frac{C}{G} }_{ \tau }} \frac{\bar{P}}{s} = \frac{\frac{\mu}{1+s\tau}\bar{P}}{s}$$
+>Sfruttando Heaviside$\implies T(s) = \frac{\mu P}{s} = \frac{\mu \tau \bar{P}}{1 + s \tau}$ 
+> $$
+> \begin{align}
+> \mathcal{L}^{-1} & \downarrow & \downarrow \\
+> \mu  & \bar{P}\sca(t) & \mu \bar{P} e^{-t/\tau}\sca(t)
+>\end{align}
+>$$
+>$\implies T(t) = \mu \bar{P}(1 -e^{-t/\tau})\sca(t)$
+>
+>Aspetto della risposta:
+>$T(0)=0$
+>$T(\infty) = \mu \bar{P} = \frac{1}{G}\bar{P}$
+>
+>Verifico e calcolo con TVI/TVF
+> $$\begin{align}
+>T(0^+) = \lim_{ s \to \infty } s(T_{0}) = \lim_{ s \to \infty } s \frac{\mu \bar{P}}{s(1+s\tau)} = 0 \\
+>T(\infty) = \lim_{ s \to 0 } sT(s) = \lim_{ s \to \infty } \frac{\mu \bar{P}}{1 + s\tau} = \mu \bar{P} \\
+> \mathcal{L}[\dot{T}] = s\mathcal{L}[t] -T(u) = \frac{M\bar{P}}{1 + s\tau}  \\
+>T
+>\end{align}
+>$$
+>
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}[scale = 2]
+>\draw[->](0,0) -- (5,0);
+>\draw[->] (0,0) --(0,2);
+>\draw[ red ] (0,1) -- (10,1);
+>\end{tikzpicture}
+>\end{document}
+>```
 
