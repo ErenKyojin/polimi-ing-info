@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ae4730b384e3580c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilità e statistica/Modello discreto binomiale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "funzione di ripartizione",
+                "query": "binomiale",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Funzione di ripartizione.md",
+                "file": "Probabilità e statistica/Modello discreto binomiale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Funzione di ripartizione.md",
+                "file": "Probabilità e statistica/Modello discreto binomiale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Funzione di ripartizione.md"
+                "file": "Probabilità e statistica/Modello discreto binomiale.md"
               }
             }
           }
@@ -148,8 +161,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9644187ea4883e48",
+  "active": "ae4730b384e3580c",
   "lastOpenFiles": [
+    "Probabilità e statistica/Funzione di ripartizione.md",
+    "Probabilità e statistica/Modello discreto binomiale.md",
     "Fondamenti di automatica/Riassunti/RIASSUNTO 1.md",
     "Fondamenti di automatica/funzione di trasferimento.md",
     "Fondamenti di automatica/Trasformata di Laplace.md",
@@ -177,8 +192,6 @@
     "API/Linguaggio.md",
     "API/Epsilon.md",
     "API/Modelli operazionali/Macchine di Turing.md",
-    "API/Modelli operazionali/funzione di transizione.md",
-    "Fondamenti di automatica/trasformate di laplace notevoli.md",
     "Fondamenti di automatica/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
