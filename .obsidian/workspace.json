@@ -29,10 +29,30 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "a6e560e4cbff2028"
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "f495af9d192ac87a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7367f317c84ed81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilità e statistica/Modello discreto binomiale.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "a6e560e4cbff2028"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +181,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ae4730b384e3580c",
+  "active": "d7367f317c84ed81",
   "lastOpenFiles": [
     "Probabilità e statistica/Funzione di ripartizione.md",
     "Probabilità e statistica/Modello discreto binomiale.md",
