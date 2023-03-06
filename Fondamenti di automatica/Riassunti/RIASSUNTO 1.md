@@ -68,8 +68,18 @@
 >\begin{tikzpicture}[scale = 2]
 >\draw[->](0,0) -- (5,0);
 >\draw[->] (0,0) --(0,2);
->\draw[ red ] (0,1) -- (10,1);
+>\draw[ red ] (0,1) -- (5,1);
+>\draw[dashed] (2,0) node[below,blue]{$\tau$} -- (2,1);
+>\draw[blue] (0,0) -- (2.5,1.25);
+>\draw[blue] (0,0) -- (0.5, 0.15) -- (1, 0.35) -- (2, 0.8) -- (2.5,0.9) -- (3.5, 1) -- (4,1);
 >\end{tikzpicture}
 >\end{document}
 >```
+>
+>- **Modellazione**: Mondo fisico --|nozioni di fisica|--> sistemi dinamici (processi)
+>- **Implementazione**: [[Sistemi dinamici]] (controllori) --|nozioni di tecnologia|--> mondo fisico
+>  Ma per passare da modellazione a implementazione non c'è dipendenza con fisica e tecnologia
 
+
+>  
+>  
