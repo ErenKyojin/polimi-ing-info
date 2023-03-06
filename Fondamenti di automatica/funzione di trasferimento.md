@@ -193,7 +193,7 @@ s+1 & 0
 >
 > \end{align}
 > $$
-> Antitrasformazione di Laplace con Heaviside
+> [[Antitrasformazione di Laplace]] con Heaviside
 > $$
 > \begin{align}
 >
