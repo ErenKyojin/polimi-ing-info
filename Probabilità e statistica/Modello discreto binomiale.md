@@ -50,8 +50,10 @@ $$
 \draw(2.75,0) -- (2.75,6.5);
 \draw(3.25,0) -- (3.25,3.5);
 \draw(3.75,0) -- (3.75,1);
-\draw(4.25,0) -- (4.25,0.2)
+\draw(4.25,0.) -- (4.25,0.3);
+\draw(0.25,0) -- (0.25,0.3);
 \end{tikzpicture}
 \end{document}
 ```
 FdR di $X$
+P = 0.2 è simmetrica con P = 0.8, P = 0.5 simmetrica con se stessa
