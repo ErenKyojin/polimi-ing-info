@@ -1,6 +1,6 @@
 Sia $H$ un [[sottospazi vettoriali|sottospazio vettoriale]] di $\mathbb{K}^n$ e sia $\mathbf{v}_{0} \in \mathbb{K}^n$. L'insieme
 $$ L:= \mathbf{v}_{0} + H = \left\{ \mathbf{v}_{0} + \mathbf{v} \in \mathbb{K}^n : \mathbf{v} \in H \right\} $$
-è detto sottospazio affine di $\mathbb{K}^n$ il sottospazio $H$ è chiamato sottospazio direttore o giacitura di $L$. Da un punto di vista geometrico possiamo pensare a $\mathbf{v}_{0}$ come al [[vettori|vettore]] delle coordinate di un punto che viene traslato secondo tutti i vettori di $H$.
+è detto sottospazio affine di $\mathbb{K}^n$ il sottospazio $H$ è chiamato sottospazio direttore o giacitura di $L$. Da un punto di vista geometrico possiamo pensare a $\mathbf{v}_{0}$ come al [[GAL/vettori|vettore]] delle coordinate di un punto che viene traslato secondo tutti i vettori di $H$.
 Osserviamo che se $A \in M_{\mathbb{K}(m,n)}$ e $\mathbf{b} \in \mathbb{K}^n$ allora le soluzioni, se esistono, del sistema $A \cdot \mathbf{x} = \mathbf{b}$ formano un sottospazio affine di $\mathbb{K}^n$, infatti per il teorema di rappresentazione delle soluzioni di un sistema lineare si ha che:
 $$ S = \left\{ \mathbf{v} \in \mathbb{K}^n : A \mathbf{v} = \mathbf{b} \right\}   = \mathbf{v}_{0} + \ker(A)$$
 Dove $\mathbf{v}_{0}$ è una soluzione particolare di $A\mathbf{x} = \mathbf{b}$. Quindi il $\ker(A)$ è la giacitura del sottospazio affine $S$. 

@@ -26,7 +26,7 @@ Vogliamo definire una struttura algebrica che descriva la struttura dell'insieme
 >   
 >   (dalla 5 alla 8 $\forall t, s \in \mathbb{K}, \forall \mathbf{u},\mathbf{v} \in V$)
 >   
->   Gli elementi di uno spazio vettoriale sono detti **[[vettori]]**
+>   Gli elementi di uno spazio vettoriale sono detti **[[GAL/vettori]]**
 
 >[!esempio] Esempi di spazi vettoriali
 >1. L'insieme dei vettori liberi $V$ dello spazio euclideo è spazio vettoriale su $\mathbb{R}$
