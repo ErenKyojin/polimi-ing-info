@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/chilogrammi.md",
+                "file": "Fisica/Grandezza fisica.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/chilogrammi.md",
+                "file": "Fisica/Grandezza fisica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/chilogrammi.md",
+                "file": "Fisica/Grandezza fisica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/chilogrammi.md"
+                "file": "Fisica/Grandezza fisica.md"
               }
             }
           }
@@ -149,8 +149,8 @@
   },
   "active": "d7367f317c84ed81",
   "lastOpenFiles": [
-    "Fisica/Grandezza fisica.md",
     "Fisica/chilogrammi.md",
+    "Fisica/Grandezza fisica.md",
     "Fisica/fattore di ragguaglio.md",
     "Fisica/Indice di stato fisico.md",
     "Fisica/metri.md",
