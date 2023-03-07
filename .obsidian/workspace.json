@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2b1f662de18c4f37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Newfile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
+                "file": "templates/Newfile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
+                "file": "templates/Newfile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Grandezza fisica.md"
+                "file": "templates/Newfile.md"
               }
             }
           }
@@ -148,11 +160,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d7367f317c84ed81",
+  "active": "2b1f662de18c4f37",
   "lastOpenFiles": [
+    "Fisica/Grandezza fisica.md",
+    "templates/Newfile.md",
     "Fisica/accelerazione.md",
     "Fisica/Velocità.md",
-    "Fisica/Grandezza fisica.md",
     "Fisica/Legge fisica.md",
     "Fisica/Indice di stato fisico.md",
     "Fisica/metri.md",
@@ -171,7 +184,6 @@
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Fondamenti di automatica/criteri di stabilità.md",
     "Fisica/Grandez.md",
-    "templates/Untitled.md",
     "templates/Basic.md",
     "Fisica/Leggi fisiche.md",
     "API/Modelli operazionali/Automa a stati finiti.md",

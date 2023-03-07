@@ -1,0 +1,1 @@
+[[<% tp.file.create_new(template: Basic ⎮ string, filename?: untitled, open_new: boolean = true, folder?: app.vault.getAbstractFilePath %>]]
