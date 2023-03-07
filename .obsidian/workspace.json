@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -162,12 +163,12 @@
   },
   "active": "2b1f662de18c4f37",
   "lastOpenFiles": [
-    "Fisica/Grandezza fisica.md",
+    "Fisica/Indice di stato fisico.md",
     "templates/Newfile.md",
+    "Fisica/Grandezza fisica.md",
     "Fisica/accelerazione.md",
     "Fisica/Velocità.md",
     "Fisica/Legge fisica.md",
-    "Fisica/Indice di stato fisico.md",
     "Fisica/metri.md",
     "Fisica/chilogrammi.md",
     "Fisica/fattore di ragguaglio.md",

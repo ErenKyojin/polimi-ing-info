@@ -6,7 +6,8 @@
     "lists",
     "test",
     "centerImg",
-    "MCL Multi Column"
+    "MCL Multi Column",
+    "templater"
   ],
   "interfaceFontFamily": "Inter",
   "textFontFamily": "Atkinson Hyperlegible",
