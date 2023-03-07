@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
+                "file": "Fisica/Legge fisica.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
+                "file": "Fisica/Legge fisica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
+                "file": "Fisica/Legge fisica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Grandezza fisica.md"
+                "file": "Fisica/Legge fisica.md"
               }
             }
           }
@@ -150,8 +149,8 @@
   },
   "active": "d7367f317c84ed81",
   "lastOpenFiles": [
-    "GAL/Vettori.md",
     "Fisica/Grandezza fisica.md",
+    "GAL/Vettori.md",
     "GAL/vettori.md",
     "Fisica/steradianti.md",
     "Fisica/radianti.md",
