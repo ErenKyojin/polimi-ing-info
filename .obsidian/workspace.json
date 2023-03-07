@@ -11,24 +11,6 @@
             "id": "d7367f317c84ed81",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Settings/templates/Newfile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "8ead8edd0fafa4e8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "11006986aa907f26",
-            "type": "leaf",
-            "state": {
               "type": "empty",
               "state": {}
             }
@@ -99,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Settings/templates/Newfile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Settings/templates/Newfile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Settings/templates/Newfile.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,10 +141,19 @@
   },
   "active": "d7367f317c84ed81",
   "lastOpenFiles": [
+    "Settings/templates/cazo.md",
+    "Settings/templates/Basic.md",
+    "Settings/templates/Newfile.md",
     "Settings/templates/Untitled.md",
+    "Settings/templates/sdaga.md",
+    "Settings/templates/sdafa.md",
+    "Settings/templates/asddas.md",
+    "Settings/templates/adsgd.md",
+    "Settings/templates/sad.md",
+    "Settings/templates/Banana 1.md",
+    "Settings/templates/dsa.md",
     "Settings/templates/Untitled 2.md",
     "Settings/templates/Untitled 1.md",
-    "Settings/templates/Newfile.md",
     "Settings/templates/banana.md",
     "Fisica/banana.md",
     "Fisica/chilogrammi.md",
@@ -186,17 +172,8 @@
     "Fisica/metri.md",
     "Fisica/fattore di ragguaglio.md",
     "Fisica/Secondi.md",
-    "Fisica/secondi.md",
-    "Probabilità e statistica/Modello discreto binomiale.md",
-    "Probabilità e statistica/Variabile aleatoria Geometrica.md",
-    "Probabilità e statistica/Funzione di ripartizione.md",
-    "Fondamenti di automatica/Riassunti/RIASSUNTO 1.md",
-    "Fondamenti di automatica/funzione di trasferimento.md",
-    "Fondamenti di automatica/Trasformata di Laplace.md",
     "Fondamenti di automatica/Riassunti",
     "preamble.sty",
-    "Fondamenti di automatica/Antitrasformazione di Laplace.md",
-    "Fondamenti di automatica/criteri di stabilità.md",
     "Settings/templates",
     "Fondamenti di automatica/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",

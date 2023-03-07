@@ -1,4 +1,36 @@
-<%tp.file.create_new(tp.file.find_tfile('Basic'),)%>
+[[<%*
+(await tp.file.create_new(tp.file.find_tfile("Basic"), await tp.system.prompt(), true)).basename%> ]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
