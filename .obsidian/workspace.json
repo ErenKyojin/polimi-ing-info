@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/metri.md",
+                "file": "Fisica/chilogrammi.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/metri.md",
+                "file": "Fisica/chilogrammi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/metri.md",
+                "file": "Fisica/chilogrammi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/metri.md"
+                "file": "Fisica/chilogrammi.md"
               }
             }
           }
@@ -150,11 +149,13 @@
   },
   "active": "d7367f317c84ed81",
   "lastOpenFiles": [
-    "Fisica/secondi.md",
-    "Fisica/metri.md",
     "Fisica/Grandezza fisica.md",
-    "Fisica/Indice di stato fisico.md",
+    "Fisica/chilogrammi.md",
     "Fisica/fattore di ragguaglio.md",
+    "Fisica/Indice di stato fisico.md",
+    "Fisica/metri.md",
+    "Fisica/Secondi.md",
+    "Fisica/secondi.md",
     "Probabilità e statistica/Modello discreto binomiale.md",
     "Probabilità e statistica/Variabile aleatoria Geometrica.md",
     "Probabilità e statistica/Funzione di ripartizione.md",
@@ -177,7 +178,6 @@
     "Probabilità e statistica/Eventi indipendenti.md",
     "ACSO/Architettura/De morgan.md",
     "API/Chiusura.md",
-    "API/Modelli operazionali/Modelli non deterministici.md",
     "Fondamenti di automatica/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
