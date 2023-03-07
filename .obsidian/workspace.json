@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -149,11 +150,14 @@
   },
   "active": "d7367f317c84ed81",
   "lastOpenFiles": [
-    "Fisica/chilogrammi.md",
+    "Fisica/accelerazione.md",
+    "Fisica/Velocità.md",
     "Fisica/Grandezza fisica.md",
-    "Fisica/fattore di ragguaglio.md",
+    "Fisica/Legge fisica.md",
     "Fisica/Indice di stato fisico.md",
     "Fisica/metri.md",
+    "Fisica/chilogrammi.md",
+    "Fisica/fattore di ragguaglio.md",
     "Fisica/Secondi.md",
     "Fisica/secondi.md",
     "Probabilità e statistica/Modello discreto binomiale.md",
@@ -166,7 +170,6 @@
     "preamble.sty",
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Fondamenti di automatica/criteri di stabilità.md",
-    "Fisica/Legge fisica.md",
     "Fisica/Grandez.md",
     "templates/Untitled.md",
     "templates/Basic.md",
@@ -175,9 +178,6 @@
     "templates",
     "API/Modelli operazionali/Automa a pila.md",
     "Probabilità e statistica/Formula di Bayes.md",
-    "Probabilità e statistica/Eventi indipendenti.md",
-    "ACSO/Architettura/De morgan.md",
-    "API/Chiusura.md",
     "Fondamenti di automatica/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
