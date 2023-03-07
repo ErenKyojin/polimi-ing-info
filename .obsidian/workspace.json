@@ -13,10 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/chilogrammi.md",
+                "file": "Settings/templates/Newfile.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8ead8edd0fafa4e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11006986aa907f26",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/chilogrammi.md",
+                "file": "Settings/templates/Newfile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/chilogrammi.md",
+                "file": "Settings/templates/Newfile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/chilogrammi.md"
+                "file": "Settings/templates/Newfile.md"
               }
             }
           }
@@ -150,9 +164,13 @@
   },
   "active": "d7367f317c84ed81",
   "lastOpenFiles": [
-    "Settings/templates/Newfile.md",
     "Settings/templates/Untitled.md",
+    "Settings/templates/Untitled 2.md",
+    "Settings/templates/Untitled 1.md",
+    "Settings/templates/Newfile.md",
     "Settings/templates/banana.md",
+    "Fisica/banana.md",
+    "Fisica/chilogrammi.md",
     "Settings/scripts/package.json",
     "Settings/scripts/Untitled.md",
     "Settings/scripts/currfolder.js",
@@ -166,7 +184,6 @@
     "Fisica/Velocità.md",
     "Fisica/Legge fisica.md",
     "Fisica/metri.md",
-    "Fisica/chilogrammi.md",
     "Fisica/fattore di ragguaglio.md",
     "Fisica/Secondi.md",
     "Fisica/secondi.md",
@@ -180,9 +197,6 @@
     "preamble.sty",
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Fondamenti di automatica/criteri di stabilità.md",
-    "Fisica/Grandez.md",
-    "Settings/templates/Basic.md",
-    "Fisica/Leggi fisiche.md",
     "Settings/templates",
     "Fondamenti di automatica/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",

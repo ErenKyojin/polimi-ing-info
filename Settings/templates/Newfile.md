@@ -1,3 +1,6 @@
-<%tp.file.create_new("Basic", "banana", true)%>
+<%tp.file.create_new(tp.file.find_tfile('Basic'),)%>
+
+
+
 
 

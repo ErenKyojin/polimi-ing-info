@@ -6,5 +6,14 @@
       ],
       "key": "R"
     }
+  ],
+  "templater-obsidian:Settings/templates/Newfile.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "N"
+    }
   ]
 }
