@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -98,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Settings/templates/Newfile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Settings/templates/Newfile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -135,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Settings/templates/Newfile.md"
+              }
             }
           }
         ],
@@ -156,12 +161,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0b8307b5dc1882a6",
+  "active": "2b1f662de18c4f37",
   "lastOpenFiles": [
+    "Settings/templates/Untitled.md",
+    "Settings/scripts/package.json",
+    "Settings/scripts/Untitled.md",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
     "Settings/templates/Newfile.md",
-    "Settings/scripts/Untitled.md",
     "Settings/scripts",
     "Settings",
     "templates/Untitled.md",
@@ -188,7 +195,6 @@
     "Fisica/Grandez.md",
     "Settings/templates/Basic.md",
     "Fisica/Leggi fisiche.md",
-    "API/Modelli operazionali/Automa a stati finiti.md",
     "Settings/templates",
     "Fondamenti di automatica/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",
@@ -207,8 +213,6 @@
     "Elettrotecnica/Immagini/Pasted image 20220830162052.png",
     "Elettrotecnica/Immagini",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
-    "Probabilità e statistica/Canvas",
-    "Fisica",
     "Analisi 2/Untitled.canvas",
     "Fondamenti di automatica/canvas/Controllo in anello aperto (AA).canvas",
     "Fondamenti di automatica/canvas/Controllo in anello chiuso con compensazione.canvas",
