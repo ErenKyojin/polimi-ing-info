@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria Geometrica.md",
+                "file": "Fisica/Grandezza fisica.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria Geometrica.md",
+                "file": "Fisica/Grandezza fisica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria Geometrica.md",
+                "file": "Fisica/Grandezza fisica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria Geometrica.md"
+                "file": "Fisica/Grandezza fisica.md"
               }
             }
           }
@@ -162,6 +163,8 @@
   },
   "active": "c37ca8d256629a61",
   "lastOpenFiles": [
+    "Fisica/Indice di stato fisico.md",
+    "Fisica/fattore di ragguaglio.md",
     "Probabilità e statistica/Modello discreto binomiale.md",
     "Probabilità e statistica/Variabile aleatoria Geometrica.md",
     "Probabilità e statistica/Funzione di ripartizione.md",
@@ -173,8 +176,6 @@
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Fondamenti di automatica/criteri di stabilità.md",
     "Fisica/Legge fisica.md",
-    "Fisica/fattore di ragguaglio.md",
-    "Fisica/Indice di stato fisico.md",
     "Fisica/Grandezza fisica.md",
     "Fisica/Grandez.md",
     "templates/Untitled.md",
