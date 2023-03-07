@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b1f662de18c4f37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Settings/templates/Newfile.md",
+                "file": "Fisica/chilogrammi.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Settings/templates/Newfile.md",
+                "file": "Fisica/chilogrammi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Settings/templates/Newfile.md",
+                "file": "Fisica/chilogrammi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Settings/templates/Newfile.md"
+                "file": "Fisica/chilogrammi.md"
               }
             }
           }
@@ -148,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,14 +148,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2b1f662de18c4f37",
+  "active": "d7367f317c84ed81",
   "lastOpenFiles": [
+    "Settings/templates/Newfile.md",
     "Settings/templates/Untitled.md",
+    "Settings/templates/banana.md",
     "Settings/scripts/package.json",
     "Settings/scripts/Untitled.md",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
-    "Settings/templates/Newfile.md",
     "Settings/scripts",
     "Settings",
     "templates/Untitled.md",
