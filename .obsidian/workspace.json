@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Newfile.md",
+                "file": "Settings/templates/Newfile.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -99,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/Newfile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/Newfile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "templates/Newfile.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -161,10 +156,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2b1f662de18c4f37",
+  "active": "0b8307b5dc1882a6",
   "lastOpenFiles": [
+    "Settings/scripts/currfolder",
+    "Settings/templates/Newfile.md",
+    "Settings/scripts/Untitled.md",
+    "Settings/scripts",
+    "Settings",
+    "templates/Untitled.md",
     "Fisica/Indice di stato fisico.md",
-    "templates/Newfile.md",
     "Fisica/Grandezza fisica.md",
     "Fisica/accelerazione.md",
     "Fisica/Velocità.md",
@@ -185,12 +185,10 @@
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Fondamenti di automatica/criteri di stabilità.md",
     "Fisica/Grandez.md",
-    "templates/Basic.md",
+    "Settings/templates/Basic.md",
     "Fisica/Leggi fisiche.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
-    "templates",
-    "API/Modelli operazionali/Automa a pila.md",
-    "Probabilità e statistica/Formula di Bayes.md",
+    "Settings/templates",
     "Fondamenti di automatica/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
@@ -211,8 +209,6 @@
     "Probabilità e statistica/Canvas",
     "Fisica",
     "Elettrotecnica",
-    "Probabilità e statistica",
-    "Untitled Folder",
     "Analisi 2/Untitled.canvas",
     "Fondamenti di automatica/canvas/Controllo in anello aperto (AA).canvas",
     "Fondamenti di automatica/canvas/Controllo in anello chiuso con compensazione.canvas",
