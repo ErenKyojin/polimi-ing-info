@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Velocità.md",
+                "file": "Fisica/steradianti.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Velocità.md",
+                "file": "Fisica/steradianti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Velocità.md",
+                "file": "Fisica/steradianti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Velocità.md"
+                "file": "Fisica/steradianti.md"
               }
             }
           }
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,13 +150,21 @@
   },
   "active": "d7367f317c84ed81",
   "lastOpenFiles": [
+    "Fisica/Grandezza fisica.md",
+    "Fisica/radianti.md",
+    "Fisica/lavoro.md",
+    "Fisica/forza.md",
+    "Fisica/steradianti.md",
+    "Fisica/fattore di ragguaglio.md",
+    "Fisica/chilogrammi.md",
+    "Fisica/accelerazione.md",
+    "Fisica/Velocità.md",
+    "Fisica/Secondi.md",
+    "Fisica/adsGDs.md",
     "Settings/templates/Basic template.md",
     "Settings/templates/Newfile.md",
-    "Fisica/adsGDs.md",
-    "Fisica/Velocità.md",
     "Fondamenti di automatica/trasformate di laplace notevoli.md",
     "Fisica/ASdlkmdsf.md",
-    "Fisica/Secondi.md",
     "Fisica/metri.md",
     "Settings/templates/cazo.md",
     "Settings/templates/Untitled.md",
@@ -167,19 +176,11 @@
     "Settings/templates/Banana 1.md",
     "Settings/templates/dsa.md",
     "Settings/templates/Untitled 2.md",
-    "Settings/templates/Untitled 1.md",
-    "Settings/templates/banana.md",
-    "Fisica/banana.md",
-    "Fisica/chilogrammi.md",
     "Settings/scripts/package.json",
-    "Settings/scripts/Untitled.md",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
     "Settings/scripts",
     "Settings",
-    "templates/Untitled.md",
-    "Fisica/Indice di stato fisico.md",
-    "Fisica/Grandezza fisica.md",
     "Fondamenti di automatica/Riassunti",
     "preamble.sty",
     "Settings/templates",

@@ -1,6 +1,6 @@
 {
   "newFileLocation": "current",
   "legacyEditor": false,
-  "vimMode": false,
+  "vimMode": true,
   "alwaysUpdateLinks": true
 }
