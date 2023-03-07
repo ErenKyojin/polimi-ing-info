@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/ASdlkmdsf.md",
+                "file": "Fisica/Velocità.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/ASdlkmdsf.md",
+                "file": "Fisica/Velocità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/ASdlkmdsf.md",
+                "file": "Fisica/Velocità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/ASdlkmdsf.md"
+                "file": "Fisica/Velocità.md"
               }
             }
           }
@@ -149,12 +149,14 @@
   },
   "active": "d7367f317c84ed81",
   "lastOpenFiles": [
-    "Fisica/Secondi.md",
-    "Fisica/ASdlkmdsf.md",
-    "Fisica/Velocità.md",
-    "Fisica/metri.md",
-    "Settings/templates/Newfile.md",
     "Settings/templates/Basic template.md",
+    "Settings/templates/Newfile.md",
+    "Fisica/adsGDs.md",
+    "Fisica/Velocità.md",
+    "Fondamenti di automatica/trasformate di laplace notevoli.md",
+    "Fisica/ASdlkmdsf.md",
+    "Fisica/Secondi.md",
+    "Fisica/metri.md",
     "Settings/templates/cazo.md",
     "Settings/templates/Untitled.md",
     "Settings/templates/sdaga.md",
@@ -178,8 +180,6 @@
     "templates/Untitled.md",
     "Fisica/Indice di stato fisico.md",
     "Fisica/Grandezza fisica.md",
-    "Fisica/accelerazione.md",
-    "Fisica/Legge fisica.md",
     "Fondamenti di automatica/Riassunti",
     "preamble.sty",
     "Settings/templates",
