@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Modello discreto binomiale.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c37ca8d256629a61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/Grandezza fisica.md",
+                "file": "Fisica/metri.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
+                "file": "Fisica/metri.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Grandezza fisica.md",
+                "file": "Fisica/metri.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Grandezza fisica.md"
+                "file": "Fisica/metri.md"
               }
             }
           }
@@ -161,8 +148,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c37ca8d256629a61",
+  "active": "d7367f317c84ed81",
   "lastOpenFiles": [
+    "Fisica/secondi.md",
+    "Fisica/metri.md",
+    "Fisica/Grandezza fisica.md",
     "Fisica/Indice di stato fisico.md",
     "Fisica/fattore di ragguaglio.md",
     "Probabilità e statistica/Modello discreto binomiale.md",
@@ -176,7 +166,6 @@
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Fondamenti di automatica/criteri di stabilità.md",
     "Fisica/Legge fisica.md",
-    "Fisica/Grandezza fisica.md",
     "Fisica/Grandez.md",
     "templates/Untitled.md",
     "templates/Basic.md",
@@ -189,9 +178,6 @@
     "ACSO/Architettura/De morgan.md",
     "API/Chiusura.md",
     "API/Modelli operazionali/Modelli non deterministici.md",
-    "API/determinismo.md",
-    "API/Linguaggio.md",
-    "API/Epsilon.md",
     "Fondamenti di automatica/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
