@@ -11,8 +11,12 @@
             "id": "d7367f317c84ed81",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md"
+              }
             }
           }
         ],
@@ -135,11 +143,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "d7367f317c84ed81",
   "lastOpenFiles": [
+    "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
     "Fisica/Grandezza fisica.md",
     "GAL/Vettori.md",
     "GAL/vettori.md",
@@ -165,7 +175,6 @@
     "Settings/templates/asddas.md",
     "Settings/templates/adsgd.md",
     "Settings/templates/sad.md",
-    "Settings/templates/Banana 1.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
