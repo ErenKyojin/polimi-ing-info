@@ -23,4 +23,33 @@ $f_{y}(y) = P(Y = y) = P(X \in \left\{ x_{k} \in S:g(x_{k}) = y \right\})$
 $$
 = \sum_{x_{k}:g(x_{k}) =y}f_{x}(x_{k})
 $$
- - $E(y)$ valore atteso
+ - $E(y)$ valore atteso?
+ $$
+\sum_{x_{k} \in S}g(x_{k})f_{x}(x_{k})
+$$
+Se $\sum_{x_{k} \in S} |g(x_{k})|f_{x}(x_{k}) < \infty$ allora $E(y)$ esiste ed è dato da
+ $$
+E(y) = \sum_{x_{k} \in S} g(x_{k}) f_{x}(x)
+$$
+
+Torniamo a $Y = 6x - 5$ con $X \sim \Bi\left( 10, \frac{1}{6} \right)$
+$$
+\begin{align}
+&6 \to a \\
+&-5 \to b \\
+&\implies y = aX + b
+\end{align} \qquad a,b \in \mathbb{R}
+$$
+$f_{y}\quad f_{ax+b}$
+se $a = 0$ allora $y = b \implies f_{y}(b) = 1$
+Se $a \neq 0$
+$$
+f_{y}(y) = \sum_{x_{k} \in S_{x} : ax_{k} + b =y} f_{x} = \sum_{x_{k}=(y-b)/a}f_{x}(x_{k}) = f_{x}\left( \frac{y-b}{a} \right)
+$$
+$$\begin{align}
+
+f_{ax+b}(y) = f_{x}\left( \frac{y-b}{a} \right) \quad \forall y (a  \neq 0) \\
+\end{align}
+$$
+- $E(y) = E(ax + b)$
+	-  Se $a = 0$, $E(b) = \sum_{y}yf_{y}(y) = b$
