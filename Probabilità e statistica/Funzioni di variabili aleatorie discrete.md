@@ -99,3 +99,15 @@ Proseguiamo con le proprietà di $E(x)$
 	$P(x \geq 0) = 1$ e $E(x) = 0$ allora $P(x = 0) = 1$
 - $P(a \leq x \leq b) = 1$ allora 
   $$\sum_{x} af_{x}(x)\leq E(x) = \sum_{x}xf_{x}(x) \leq \sum_{x} b f_{x}(x)$$
+  ossia
+  $$
+a \sum \underbrace{ f_{x}(x) }_{ 1 } \leq E(x) \leq b \sum_{x} \underbrace{ f_{x}(x) }_{ 1 }
+$$
+Ossia se $x$ è compreso tra a e b anche la media lo è, $E(x)$ non esce dal supporto di $X$
+
+>[!warning]
+>non significa che E assume un valore sul supporto
+
+- $y = g(x)\quad w = h(x)$
+$E(y + w)$ Se $E(y),E(w)$ esistono allora anche $y + w$ ja valore atteso e $E(y + w) = E(y) + E(w)$
+- Se $P(y \leq w) = 1$ allora $P(y - w \leq 0)= 1$ allora $E(y -w) \leq 0$ allora $E(y - w) = E(y) - E(w) \leq 0$ cioè $E(y) \leq E(w)$
