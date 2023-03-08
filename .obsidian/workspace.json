@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
+                "file": "API/Modelli operazionali/Automa a pila.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
+                "file": "API/Modelli operazionali/Automa a pila.md",
                 "mode": "preview",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
+                "file": "API/Modelli operazionali/Automa a pila.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
+                "file": "API/Modelli operazionali/Automa a pila.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md"
+                "file": "API/Modelli operazionali/Automa a pila.md"
               }
             }
           }
@@ -169,6 +169,11 @@
   },
   "active": "d998859f6bea86e8",
   "lastOpenFiles": [
+    "API/sequenza di mosse.md",
+    "API/Intersezione.md",
+    "API/funzione parziale.md",
+    "API/Epsilon.md",
+    "API/determinismo.md",
     "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
     "Fisica/Grandezza fisica.md",
     "GAL/Vettori.md",
@@ -190,11 +195,6 @@
     "Fisica/metri.md",
     "Settings/templates/cazo.md",
     "Settings/templates/Untitled.md",
-    "Settings/templates/sdaga.md",
-    "Settings/templates/sdafa.md",
-    "Settings/templates/asddas.md",
-    "Settings/templates/adsgd.md",
-    "Settings/templates/sad.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
