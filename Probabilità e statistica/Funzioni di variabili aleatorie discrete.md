@@ -53,3 +53,30 @@ f_{ax+b}(y) = f_{x}\left( \frac{y-b}{a} \right) \quad \forall y (a  \neq 0) \\
 $$
 - $E(y) = E(ax + b)$
 	-  Se $a = 0$, $E(b) = \sum_{y}yf_{y}(y) = b$
+	- Se $a \neq 0$: passo 1, esiste $E(ax + b)$
+$$
+\begin{align}
+\sum_{x_{k}} |ax_{k} + b|f_{x}(x_{k}) \leq \sum_{x_{k}}(|a| |x_{k}| + |b|) f_{x}(x) \\
+= \sum_{x_{k}} |a| |x_{k}| f_{x}(x_{k} ) + \sum_{x_{k}} | b|f_{x}(x_{k}) \\
+= |a|\sum_{x_{k}} |x_{k}|f_{x}(x_{k}) + |b|\sum_{x_{k}}f_{x}(x_{k})
+\end{align}
+$$
+Riassunto se $E(x)$ esiste, anche $E(ax + b)$ esiste ed è data da
+$$
+\begin{align}
+\sum_{x_{k}} (ax_{k} + b)f_{x})x_{k} = \sum_{x_{k}}ax_{k} f_{x}(x_{k})+ b \sum_{x_{k}} f_{x}(x_{k}) \\
+= \sum_{x_{k}} a_{x_{k}}f_{x}(x_{k}) + b \sum_{x_{k}}f_{x}(x_{k}) \\
+= a \sum_{x_{k}} x_{k}f_{x}(x_{k}) + b
+\end{align}
+$$
+cioè $E(ax + b) = aE(x) + b$
+- $E(x)$ è un operatore lineare
+- $E(b) = b$ coerenza del valore 
+
+$x \sim \Bi\left( 10, \frac{1}{6} \right), y = 6x -5$
+$E(y) = 6E(x) - 5 = 6 \cdot 10 \frac{1}{6} - 5 = 5$ euro
+
+Pago $12.5$ euro per partecipare
+Vinco $y = 3x^2 - 12.5$
+$E(y) = 3E(x^2) - 12.5$
+$E(x^2) = \sum_{k = 0}^{10} K$
