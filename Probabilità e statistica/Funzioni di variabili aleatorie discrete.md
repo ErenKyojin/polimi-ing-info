@@ -79,4 +79,23 @@ $E(y) = 6E(x) - 5 = 6 \cdot 10 \frac{1}{6} - 5 = 5$ euro
 Pago $12.5$ euro per partecipare
 Vinco $y = 3x^2 - 12.5$
 $E(y) = 3E(x^2) - 12.5$
-$E(x^2) = \sum_{k = 0}^{10} K$
+$$E(x^2) = \sum_{k = 0}^{10} k^2 \begin{pmatrix}10\\k\end{pmatrix} \left( \frac{1}{6} \right)^k \left( \frac{5}{6} \right)^{10-k} = \frac{150}{36}$$
+Mediamente vinciamo
+$E(y) = 3 \times \frac{150}{36} - 12.5 = 0$
+Questo gioco è a somma zero, mediamente si rimane con gli stessi soldi nel lungo periodo.
+
+Proseguiamo con le proprietà di $E(x)$
+- $E(ax + b) = aE(x) + b$
+- $E(b)=b \forall b \in \mathbb{R}$
+- $P(x \geq 0) = 1$ allora $E(x) \geq 0$, $E(x)$ operatore positivo
+  $$E(x) = \sum_{x}x f_{x}(x) \geq \sum_{x}0f_{x}(x) = 0$$
+	- Viceversa se $P(x \geq 0) = 1$ e $E(x) = 0$ allora $0 = \sum xf_{x}(x) \implies$
+	  poichè ogni addendo $\geq 0$ $x f_{x}(x) = 0$
+	  $$\begin{cases}f_{x}(x) = 0 \\
+	x = 0\end{cases}$$
+	$\implies$ unica possibilità è $f_{x}(0) = 1$
+	Se $p(x = 0) = 1$ allora $E(x) = 0$
+	viceversa se
+	$P(x \geq 0) = 1$ e $E(x) = 0$ allora $P(x = 0) = 1$
+- $P(a \leq x \leq b) = 1$ allora 
+  $$\sum_{x} af_{x}(x)\leq E(x) = \sum_{x}xf_{x}(x) \leq \sum_{x} b f_{x}(x)$$
