@@ -106,8 +106,32 @@ graph TB
 	n0 --> c13
 	c11 --> c21
 	c11 --> c22
-	c21 --> c31
+	c21 --> c31((c31))
 	c21 --> c32
 	c32 -.-> n1((.))
+	c22 --> n2[.]
+	c12 --> c23
+	c23 --> n3((.))
+	n3 -.-> n5((.))
+	c23 --> n4((.))
+	c13 --> c24
+	c24 -.-> n6((.))
+	c13 --> c25 -.-> n7((.))
+	c13 --> c26
+	c26 --> ckj[ckj]
+	c26 --> cim(cim)
 	
 ```
+```mermaid
+graph LR
+	Ca[C di accettazione]
+	Ch((C di halt))
+	
+```
+E le linee tratteggate computazioni non terminate
+
+
+Una stringa $x$ è accettata da una macchina di Turing non deterministica se e solo se esiste una computazione della MND che termina in uno stato di accettazione.
+
+La domanda è, puó una macchina di Turing deterministica stabilire se una sua sorella non deterministica accetta $x$. Ossia accettare $x$ se e solo se la non deterministica la accettta?
+Per farlo dobbiamo percorrere l'albero delle computazioni non deterministiche per stabilire se esiste in esso un cammino che termina con uno stato di accettazione, è un normale e ben noto problema di visita di alberi per il quale esistono algoritmi appositi, dobbiamo quindi determinare
