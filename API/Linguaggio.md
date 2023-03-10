@@ -60,7 +60,7 @@ $L_{1}.L_{2} = \left\{ x.y | x \in L_{1}, y \in L_{2} \right\}$
 >$L^2 = \left\{ abaaba, ababb, abaa, bbaba, bbbb, bba, aaba, abb, aa \right\}$
 - **Unione**, quando l'asterisco si riferisce ad un linguaggio e non ad una alfabeto si ha che:
 $$L^* =\bigcup_{n=0}^\infty L^n$$
-Ossia l'insieme di tutte le potenze del linguaggio, inclusa la stringa nulla ($n=0$)
+Ossia l'insieme di tutte le potenze del linguaggio, inclusa la [[stringa]] nulla ($n=0$)
 
 - $L^+$ o anche $A^+$ per un alfabeto, si esclude la stringa nulla ($n=1$), quindi
   $$
@@ -108,4 +108,25 @@ Consiste di utte le stringhe costituit e da soli simboli terminali derivabili da
 >Generalizziamo con:
 >$L(G_{2}) = \left\{ \text{a}^n\text{b}^n | n >0 \right\}$
 >Se sostituiamo $\text{S} \to \text{{ab}}$ con $\text{S} \to \varepsilon$ otteniamo
->$L*$
+>$L(G_{2}) = \left\{ \text{a}^n\text{b}^n | n \geq 0 \right\}$
+
+>[!esempio] Esempio 3
+>$S \to aACD, A \to aAC, A \to \varepsilon$
+>$CD \to BDDc, CB \to BC, B \to b, D \to \varepsilon$
+>
+>Alcune derivazioni:
+>- $\text{S} \implies \text{aACD} \implies \text{aCD} \implies \text{aBDc}$
+>- $\text{ S } \implies \text{ aACD } \to \text{ aCD } \to \text{ aC }? \qquad\text{ No}$
+>- $\text{ S } \implies \text{ aACD } \implies \text{ aaACCDD } \implies \text{ aaCCD } \implies \text{ aaCBDc } \implies \text{ aaCbDc } \qquad\text{no}$
+>- $\text{S} \implies \text{ aACD }\implies \text{ aaACCD} \implies \text{aaCCD} \implies \text{aaCBDc} \implies \text{aaBCDc} \implies$ 
+>  $\text{aaBBDcc} \implies \text{aaBBcc} \implies^2 \text{ aabbcc }$
+>
+>Di che linguaggio si tratta?
+
+Sorgono spontanee alcune domande:
+- oltre ai divertimenti con $\left\{ a^nb^n \right\}$, ci sono vere utilità?
+- Quali linguaggi è possiible ottenere
+
+
+
+
