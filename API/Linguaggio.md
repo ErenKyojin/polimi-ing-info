@@ -79,7 +79,7 @@ $$
 [[Epsilon|$\varepsilon$]] in un linguaggio se e solo se $q_{0}$ è stato iniziale e finale
 
 
-# Linguaggio generato da una grammatica
+# Linguaggio generato da una [[Grammatiche|grammatica]]
 $$
 L(G) = \left\{ x \in V_{T}^* | S \implies^* x \right\} 
 $$
@@ -95,5 +95,17 @@ Consiste di utte le stringhe costituit e da soli simboli terminali derivabili da
 >- $\text{S} \implies \text{aA} \implies \text{aaS} \implies \text{aabB} \implies \text{aabbS} \implies \text{aabb0}$
 >  
 >Generalizzando
->$L(G_{1})= \left\{ \text{aa}, \text{bb} \right\}^**$
+>$L(G_{1})= \left\{ \text{aa}, \text{bb} \right\}^*.0$
 
+
+>[!esempio] Esempio 2
+>$G_{2} = (\left\{ \text{S} \right\}, \left\{ \text{a,b} \right\}, \left\{ \text{S} \to \text{aSb}, \text{S} \to \text{ab} \right\})$ abbreviazione per $\text{S} \to \text{aSb},\text{S} \to \text{ab}$
+>Alcune derivazioni
+>- $\text{S} \implies \text{ab}$
+>- $\text{S} \implies \text{aSb} \implies \text{aabb}$
+>- $\text{S} \implies \text{aSb} \implies \text{aaSbb} \implies aaabbb$
+>
+>Generalizziamo con:
+>$L(G_{2}) = \left\{ \text{a}^n\text{b}^n | n >0 \right\}$
+>Se sostituiamo $\text{S} \to \text{{ab}}$ con $\text{S} \to \varepsilon$ otteniamo
+>$L*$
