@@ -88,3 +88,26 @@ Comandi:
 
 Si ferma quando la funzoine di transizione la ferma, e il risultato dipende dallo stato a cui si ferma.
 Per memorizzare una grande quantità di informazioni si lavora espandendosi ai lati dell'ingresso, creando dei nastri "virtuali", ed in effetti è cosí che si dimostra, usando dei limitatori per imitare la configurazione di un $k$-nastri. Emulazione.
+
+
+# Macchina di Turing non deteriministica
+$$
+\delta, [\eta] : Q \times I \times \Gamma^k \to \mathcal{P}(Q \times \Gamma \times \left\{ R,L,S \right\}^{k+1} [\times O \times \left\{ R,S \right\} ]  )
+$$
+È necessario l'indice F?
+Configurazioni, transizioni, sequenze di transizioni e accettazione sono definite come al solito.
+Infine chiediamoci se il non determinismo aumenta la potenza delle macchine di Turing.
+
+```mermaid
+graph TB
+	c0 --> n0((.))
+	n0 --> c11
+	n0 --> c12
+	n0 --> c13
+	c11 --> c21
+	c11 --> c22
+	c21 --> c31
+	c21 --> c32
+	c32 -.-> n1((.))
+	
+```
