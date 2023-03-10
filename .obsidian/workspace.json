@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Grammatiche.md",
+                "file": "API/Linguaggio.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Grammatiche.md",
+                "file": "API/Linguaggio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Grammatiche.md",
+                "file": "API/Linguaggio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Grammatiche.md"
+                "file": "API/Linguaggio.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "72bc5ff036a0c9f3",
   "lastOpenFiles": [
-    "API/problema.md",
     "API/Modelli descrittivi.md",
+    "API/Grammatiche.md",
+    "API/problema.md",
     "API/Linguaggio.md",
     "API/sequenza di mosse.md",
     "API/Stato.md",
@@ -173,7 +174,6 @@
     "API/push.md",
     "API/pop.md",
     "API/insieme.md",
-    "API/Grammatiche.md",
     "API/determinismo.md",
     "API/Modelli operazionali/Macchine di Turing.md",
     "API/Modelli operazionali/Automa a stati finiti.md",

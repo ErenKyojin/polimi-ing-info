@@ -55,4 +55,12 @@ elemento particolare di $V_{N}$ detto assioma o simbolo iniziale
 $\alpha \implies \beta, \alpha \in V^+, \beta \in V^*$
 Se e solo se
 $\alpha = \alpha_{1}\alpha_{2}\alpha_{3}, \beta = \alpha_{1},\beta_{2}, \alpha_{3}, a_{2} \to \beta_{2} \in P$
-$\alpha_{2}$ s
+$\alpha_{2}$ si riscrive come $\beta_{2}$ nel contesto $(\alpha_{1}, \alpha_{3})$
+
+Rispetto alla grammatica precedente
+
+aaBAS => aacCdS
+
+Definiamo poi come al solito la [[Chiusura]] riflessiva e transitiva di $\implies : \implies^*$
+
+

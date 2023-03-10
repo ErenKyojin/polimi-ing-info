@@ -77,3 +77,23 @@ $$
 
 
 [[Epsilon|$\varepsilon$]] in un linguaggio se e solo se $q_{0}$ è stato iniziale e finale
+
+
+# Linguaggio generato da una grammatica
+$$
+L(G) = \left\{ x \in V_{T}^* | S \implies^* x \right\} 
+$$
+Consiste di utte le stringhe costituit e da soli simboli terminali derivabili da $S$
+
+>[!esempio] Esempio 1
+>$G_{1} = (\left\{ S \right\}, \left\{ a,b \right\}, \left\{ S \to aSb | ab \right\},S)$ abbreviazione per $S \to aSb, S \to ab$
+>
+>Alcune derivazioni:
+>- $\text{S} \implies \text{0}$
+>- $\text{S} \implies \text{aA} \implies \text{aaS} \implies \text{aa0}$
+>- $\text{S} \implies \text{bB} \implies \text{bbS} \implies \text{bb0}$
+>- $\text{S} \implies \text{aA} \implies \text{aaS} \implies \text{aabB} \implies \text{aabbS} \implies \text{aabb0}$
+>  
+>Generalizzando
+>$L(G_{1})= \left\{ \text{aa}, \text{bb} \right\}^**$
+
