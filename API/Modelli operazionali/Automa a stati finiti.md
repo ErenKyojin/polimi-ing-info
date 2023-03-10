@@ -1,3 +1,7 @@
+---
+aliases: FSA
+---
+
 Detti anche FSA, sono macchine deterministiche con un insieme finito di stati:
 {Acceso, Spento}, {1,2,3,4,...,k}, {on,off}
 
@@ -195,3 +199,13 @@ dq0["{q0}"] --> dq1["{q?}"]
 end
 ```
 #todo foto
+
+
+## A cosa serve un automa a stati finiti deterministico?
+Puó essere piú semplice progettarlo e ricavarne, attraverso un algoritmo, l'equivalente deterministico.
+
+>[!Esempio]
+>Da un AND a 5 stati ne ricaiamo nel peggiore dei casi uno con $2^5$ stati
+
+
+
