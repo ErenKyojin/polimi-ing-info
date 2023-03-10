@@ -33,5 +33,26 @@ Le varie riscritture possono presentare alternativo, un soggetto puó essere un 
 > G = (V_{N},V_{T}, P,S)
 >$$
 >con:
->- $V_{N}$ alfabeto o vocabolario nonter
+>- $V_{N}$ alfabeto o vocabolario nonterminale
+>- $V_{T}$ alfabeto o vocabolario
+>- $V = V_{N} \cup V_{T}$
+>- $S \in V_{N}$ elemento particolare di $V_{N}$ detto assioma o simbolo iniziale
+>- $P \subseteq V_{N}^+ \times V^*$ [[Analisi 1/Insiemi numerici/Insieme|insieme]] delle regole di riscrittura o produzioni
+>Scriveremo per comodità $\alpha \to \beta$ al posto di $(\alpha,\beta)$
 
+
+
+>[!esempio]
+>$V_{N} = \left\{ S,A,B,C \right\}$
+>$V_{T} = \left\{ a,b,c,d \right\}$
+>$S$
+>$P = \left\{ S \to AB, BA \to cCd, CBS \to ab, A\to \varepsilon \right\}$
+
+elemento particolare di $V_{N}$ detto assioma o simbolo iniziale
+
+
+## Relazione di derivazione immediata
+$\alpha \implies \beta, \alpha \in V^+, \beta \in V^*$
+Se e solo se
+$\alpha = \alpha_{1}\alpha_{2}\alpha_{3}, \beta = \alpha_{1},\beta_{2}, \alpha_{3}, a_{2} \to \beta_{2} \in P$
+$\alpha_{2}$ s
