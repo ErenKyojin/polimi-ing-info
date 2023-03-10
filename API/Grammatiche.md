@@ -51,7 +51,7 @@ Le varie riscritture possono presentare alternativo, un soggetto puó essere un 
 elemento particolare di $V_{N}$ detto assioma o simbolo iniziale
 
 
-## Relazione di derivazione immediata
+## [[Relazione]] di derivazione immediata
 $\alpha \implies \beta, \alpha \in V^+, \beta \in V^*$
 Se e solo se
 $\alpha = \alpha_{1}\alpha_{2}\alpha_{3}, \beta = \alpha_{1},\beta_{2}, \alpha_{3}, a_{2} \to \beta_{2} \in P$
@@ -64,3 +64,18 @@ aaBAS => aacCdS
 Definiamo poi come al solito la [[Chiusura]] riflessiva e transitiva di $\implies : \implies^*$
 
 
+![[Linguaggio#Linguaggio generato da una Grammatiche grammatica]]
+
+Sorgono spontanee alcune domande:
+- oltre ai divertimenti con $\left\{ a^nb^n \right\}$, ci sono vere utilità?
+- Quali linguaggi è possible ottenere con le grammatiche?
+- Che relazioni ci sono tra grammatiche e automi (o tra linguaggi generati e riconosciuti)?
+
+Sono sicuramente utili per la definizione della sintassi dei linguaggi di programmazioni, applicazioni duali rispetto a quelle degli automi
+
+# Classi di grammatiche
+
+
+### Grammatiche non contestuali
+Ogni produzione ha la forma $\alpha \to \beta$ con $|\alpha| = 1$, con $\alpha$  elemento di $V_{N}$.
+Non contestuale perchè la riscrittura di $\alpha$ non dipende dal contesto in cui si trova, sono di fatto la stessa cosa della BNF usata per definire la sitassi dei linguaggi di programmazione

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Linguaggio.md",
+                "file": "API/Grammatiche.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Linguaggio.md",
+                "file": "API/Grammatiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Linguaggio.md",
+                "file": "API/Grammatiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Linguaggio.md"
+                "file": "API/Grammatiche.md"
               }
             }
           }
@@ -164,9 +164,9 @@
   "active": "72bc5ff036a0c9f3",
   "lastOpenFiles": [
     "API/Modelli descrittivi.md",
+    "API/Linguaggio.md",
     "API/Grammatiche.md",
     "API/problema.md",
-    "API/Linguaggio.md",
     "API/sequenza di mosse.md",
     "API/Stato.md",
     "API/Unione.md",

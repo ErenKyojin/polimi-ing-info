@@ -123,9 +123,7 @@ Consiste di utte le stringhe costituit e da soli simboli terminali derivabili da
 >
 >Di che linguaggio si tratta?
 
-Sorgono spontanee alcune domande:
-- oltre ai divertimenti con $\left\{ a^nb^n \right\}$, ci sono vere utilità?
-- Quali linguaggi è possiible ottenere
+
 
 
 
