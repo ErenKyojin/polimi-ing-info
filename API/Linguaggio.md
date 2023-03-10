@@ -1,3 +1,7 @@
+---
+alias: linguaggi
+---
+
 ## Elementi di un linguaggio
 
 - **Alfabeto**, coincide matematicamente con il vocabolario, è un [[insieme]] **finito** di simboli

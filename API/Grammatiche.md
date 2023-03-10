@@ -98,15 +98,11 @@ Ogni produzione hal a forma $\alpha \to \beta$, dove $|\alpha| \leq |\beta|$. Pe
 
 Le grammatiche regolari sono monotone, quelle non contestuali non lo generalmente sono perchè si possono avere produzioni del tipo $A \to \varepsilon$, ma si possono eliminare senza troppe difficoltà.
 
-[[gerarchia di Chomsky]]
-```tikz
-\begin{document}
-\begin{tikzpicture}
-\draw (0,0) circle(6);
-\draw (1,0) circle(4.5);
-\draw(2,0) circle(3);
-\draw(3,0) circle(1.5);
-\node at (-5.2,1){tipo 1};
-\end{tikzpicture}
-\end{document}
-```
+![[gerarchia di Chomsky]]
+
+# Relazioni tra grammatiche e automi
+$G$ regolari ($GR$) equivalenti agli automi a stati finiti:
+- Dato un [[Automa a stati finiti|FSA]] $A$, poniamo $V_{N} = Q, V_{T} = I, S = q_{0}$ e per ogni $\delta(q,i) = q'$ poniamo $q \to iq'$
+  Inoltre se $q' \in F$ aggiungiamo $q \to i$
+- È intuitivo (attraverso l'induzione) che
+  $$  $$
