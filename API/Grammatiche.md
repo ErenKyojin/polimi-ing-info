@@ -78,4 +78,35 @@ Sono sicuramente utili per la definizione della sintassi dei linguaggi di progra
 
 ### Grammatiche non contestuali
 Ogni produzione ha la forma $\alpha \to \beta$ con $|\alpha| = 1$, con $\alpha$  elemento di $V_{N}$.
-Non contestuale perchè la riscrittura di $\alpha$ non dipende dal contesto in cui si trova, sono di fatto la stessa cosa della BNF usata per definire la sitassi dei linguaggi di programmazione
+Non contestuale perchè la riscrittura di $\alpha$ non dipende dal contesto in cui si trova, sono di fatto la stessa cosa della BNF usata per definire la sitassi dei linguaggi di programmazione.
+Le $G_{1}$ e $G_{2}$ precedenti sono non contestuali, non è così invece la $G_{3}$
+
+### Grammatiche regolari
+Ogni produzione ha la forma $\alpha \to \beta$ dove
+$$
+|\alpha| = 1, \beta \in V_{T}.V_{N} \cup V_{T}
+$$
+Le grammatiche regolari sono anche non contestuali, ma non viceversa.
+	la $G_{1}$ è regolare, $G_{2}$
+
+Per la stringa vuota si deve ammettere anche $S \to \varepsilon$
+
+### Grammatiche monotone
+Ogni produzione hal a forma $\alpha \to \beta$, dove $|\alpha| \leq |\beta|$. Per la stringa vuota si deve ammettere $S \to \varepsilon$, però $S$ non deve apparire in parti destre di produzioni
+
+---
+
+Le grammatiche regolari sono monotone, quelle non contestuali non lo generalmente sono perchè si possono avere produzioni del tipo $A \to \varepsilon$, ma si possono eliminare senza troppe difficoltà.
+
+[[gerarchia di Chomsky]]
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) circle(6);
+\draw (1,0) circle(4.5);
+\draw(2,0) circle(3);
+\draw(3,0) circle(1.5);
+\node at (-5.2,1){tipo 1};
+\end{tikzpicture}
+\end{document}
+```
