@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "binomiale",
+                "query": "hamilton",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,7 +185,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "41ac37ca6d8598ec",
+  "active": "fd5a7104086bfe35",
   "lastOpenFiles": [
     "Fondamenti di automatica/trasformate di laplace notevoli.md",
     "Fondamenti di automatica/Rangiungibilità.md",
@@ -220,7 +221,7 @@
     "Fondamenti di automatica/Riassunti",
     "preamble.sty",
     "Settings/templates",
-    "Fondamenti di automatica/Segnali.canvas",
+    "Fondamenti di automatica/canvas/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
     "API/Canvas/Automa a pila.canvas",
