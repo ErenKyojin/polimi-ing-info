@@ -105,4 +105,14 @@ $G$ regolari ($GR$) equivalenti agli automi a stati finiti:
 - Dato un [[Automa a stati finiti|FSA]] $A$, poniamo $V_{N} = Q, V_{T} = I, S = q_{0}$ e per ogni $\delta(q,i) = q'$ poniamo $q \to iq'$
   Inoltre se $q' \in F$ aggiungiamo $q \to i$
 - È intuitivo (attraverso l'induzione) che
-  $$  $$
+$$ \delta^*(q,x) = q' \iff q \implies^* xq' $$
+Viceversa data una GR poniamo $Q = V_{N} \cup \left\{ q_{F} \right\}, I = V_{T}, q_{0} = S, F = \left\{ q_{F} \right\}$ e:
+- per ogni $\text{ A } \to \text{ Bc }$ poniamo $\delta(A,b) = C$
+- per ogni $A \to b$ poniamo $\delta(A,b) = q_{F}$
+
+Il FSA ottenuto è non deterministico
+
+
+## Grammatiche non contestuali equivalenti ad automi a pila non deterministici
+
+Giustificazione intuitiva, consideriamo la grammatica:
