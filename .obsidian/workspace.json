@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "41ac37ca6d8598ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di automatica/Rangiungibilità.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
+                "file": "Fondamenti di automatica/Rangiungibilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
+                "file": "Fondamenti di automatica/Rangiungibilità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md"
+                "file": "Fondamenti di automatica/Rangiungibilità.md"
               }
             }
           }
@@ -172,8 +184,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7db362588896fa28",
+  "active": "41ac37ca6d8598ec",
   "lastOpenFiles": [
+    "Fondamenti di automatica/trasformate di laplace notevoli.md",
+    "Fondamenti di automatica/Rangiungibilità.md",
     "Fondamenti di automatica/sistemi dinamici LTI.md",
     "API/gerarchia di Chomsky.md",
     "API/Grammatiche.md",
@@ -198,8 +212,6 @@
     "Fisica/Grandezza fisica.md",
     "GAL/Vettori.md",
     "GAL/vettori.md",
-    "Fisica/steradianti.md",
-    "Fisica/radianti.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
