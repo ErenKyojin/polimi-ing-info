@@ -17,3 +17,8 @@ $$
 Un sistema dinemico è completamente osservabile (0) se nessuno stato è non osservabile
 
 # Criterio di osservabilità
+$$
+M_{0} = \begin{bmatrix}
+c^T & Ac^T & A^2c^T  & \dots & A^{n-1}c^T 
+\end{bmatrix}
+$$
