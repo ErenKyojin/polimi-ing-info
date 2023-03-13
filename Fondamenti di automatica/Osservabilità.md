@@ -23,4 +23,4 @@ c^T & Ac^T & A^2c^T  & \dots & A^{n-1}c^T
 \end{bmatrix}
 $$
 
-P
+#todo cancellazione

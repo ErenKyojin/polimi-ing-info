@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Osservabilità.md",
+                "file": "Fondamenti di automatica/funzione di trasferimento.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Funzione di trasfer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Osservabilità.md",
+                "file": "Fondamenti di automatica/funzione di trasferimento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Osservabilità.md",
+                "file": "Fondamenti di automatica/funzione di trasferimento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Osservabilità.md"
+                "file": "Fondamenti di automatica/funzione di trasferimento.md"
               }
             }
           }
@@ -199,8 +199,8 @@
   },
   "active": "064e108b8f16444a",
   "lastOpenFiles": [
-    "Fondamenti di automatica/Rangiungibilità.md",
     "Fondamenti di automatica/Osservabilità.md",
+    "Fondamenti di automatica/Rangiungibilità.md",
     "Fondamenti di automatica/trasformate di laplace notevoli.md",
     "Fondamenti di automatica/sistemi dinamici LTI.md",
     "API/gerarchia di Chomsky.md",

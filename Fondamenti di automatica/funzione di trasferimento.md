@@ -207,5 +207,16 @@ s+1 & 0
 >\downarrow \\
 >y(t) = \sca(t) + e^{-2t}\sca(t) = (1+e^{-2t})\sca(t)
 >\end{align}$$
->
->
+
+
+
+>[!oss]
+>La FDT rappresenta le parti raggiungibili e osservabili del sistema
+>Gli autvoalori delle parti non raggiungibili e o non osservabili del sistema nel calcolo della FdT sono cancellati
+
+>[!def]
+>Una cencellazione è critica se avviene al di fuori della regione di asintotica stabilità, quindi se l'autovalore cancellato ha parte realo $\geq 0$ in TC o $|.|$ TD
+
+
+Conseguenze:
+$A,b,c,d$ e $G(s)$ sono rappresentazioni di un sistema dinamico equivalente a meno di una trasformazione
