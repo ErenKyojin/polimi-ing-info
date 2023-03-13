@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/gerarchia di Chomsky.md",
+                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/gerarchia di Chomsky.md",
+                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/gerarchia di Chomsky.md",
+                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/gerarchia di Chomsky.md"
+                "file": "Fondamenti di automatica/trasformate di laplace notevoli.md"
               }
             }
           }
@@ -175,10 +174,11 @@
   },
   "active": "7db362588896fa28",
   "lastOpenFiles": [
+    "Fondamenti di automatica/sistemi dinamici LTI.md",
+    "API/gerarchia di Chomsky.md",
     "API/Grammatiche.md",
     "conflict-files-obsidian-git.md",
     "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
-    "API/gerarchia di Chomsky.md",
     "API/Linguaggio.md",
     "API/Modelli descrittivi.md",
     "API/problema.md",
@@ -200,7 +200,6 @@
     "GAL/vettori.md",
     "Fisica/steradianti.md",
     "Fisica/radianti.md",
-    "Fisica/lavoro.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
