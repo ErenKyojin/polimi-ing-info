@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7db362588896fa28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/gerarchia di Chomsky.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Grammatiche.md",
+                "file": "API/gerarchia di Chomsky.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Grammatiche.md",
+                "file": "API/gerarchia di Chomsky.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Grammatiche.md"
+                "file": "API/gerarchia di Chomsky.md"
               }
             }
           }
@@ -161,10 +173,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "72bc5ff036a0c9f3",
+  "active": "7db362588896fa28",
   "lastOpenFiles": [
-    "API/gerarchia di Chomsky.md",
     "API/Grammatiche.md",
+    "conflict-files-obsidian-git.md",
+    "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
+    "API/gerarchia di Chomsky.md",
     "API/Linguaggio.md",
     "API/Modelli descrittivi.md",
     "API/problema.md",
@@ -187,8 +201,6 @@
     "Fisica/steradianti.md",
     "Fisica/radianti.md",
     "Fisica/lavoro.md",
-    "Fisica/forza.md",
-    "Fisica/fattore di ragguaglio.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
