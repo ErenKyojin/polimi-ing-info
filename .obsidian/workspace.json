@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "064e108b8f16444a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di automatica/Osservabilità.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hamilton",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Rangiungibilità.md",
+                "file": "Fondamenti di automatica/Osservabilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Rangiungibilità.md",
+                "file": "Fondamenti di automatica/Osservabilità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Rangiungibilità.md"
+                "file": "Fondamenti di automatica/Osservabilità.md"
               }
             }
           }
@@ -185,10 +197,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fd5a7104086bfe35",
+  "active": "064e108b8f16444a",
   "lastOpenFiles": [
-    "Fondamenti di automatica/trasformate di laplace notevoli.md",
     "Fondamenti di automatica/Rangiungibilità.md",
+    "Fondamenti di automatica/Osservabilità.md",
+    "Fondamenti di automatica/trasformate di laplace notevoli.md",
     "Fondamenti di automatica/sistemi dinamici LTI.md",
     "API/gerarchia di Chomsky.md",
     "API/Grammatiche.md",
@@ -212,7 +225,6 @@
     "Fisica/Legge fisica.md",
     "Fisica/Grandezza fisica.md",
     "GAL/Vettori.md",
-    "GAL/vettori.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",

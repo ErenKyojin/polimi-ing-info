@@ -13,7 +13,7 @@ $$
 Un sistema si dice completamente raggiungibile se ogni stato è raggiungibile
 
 >[!question]
->Cine deternubi se un sistema dinamico è o meno raggiungibile
+>Come determino se un sistema dinamico è o meno raggiungibile
 >- Teorema di Cayley - Hamilton: Ogni matirce annulla il suo [[polinomio caratteristico]]
 >$$\begin{align}
 >&p(s) = \det(sI - A) = S^n + \beta_{1} s^{n-1} + \dots + \beta_{n} \\
@@ -47,7 +47,53 @@ Un sistema si dice completamente raggiungibile se ogni stato è raggiungibile
 >{Z}_{n-1}(t)
 >\end{bmatrix}
 >$$
->(Essendo un sistema [[SISO]]) deve essere una matrice $n\times n$ per una matrice $n \times 1$
+>(Essendo un sistema [[SISO]]) deve essere una matrice $n\times n$ per una [[matrice]] $n \times 1$
 >
 >
-> $x(t) = M_{R}Z(t)$ con $Z(t)$ che contiene l'ingresso
+> $x(t) = M_{R}Z(t)$ con $Z(t)$ che contiene l'ingresso. 
+> 
+> 
+> 
+> 
+
+
+ 
+Supponiamo di voler portare lo [[stato]] da $0$ a $\bar{x}$, perchè questo sia possibile deve esistere una certa $\bar{Z}$ tale che $M_{R}\bar{Z}(t) = \bar{x}$
+Quindi dire che ciò è possibile qualunque sia $\bar{x}$ equivale a dire $M_{R}$ non è singolare, ovvero
+$$
+\text{Sistema } R \iff M_{R} \text{ non singolare}
+$$
+
+
+>[!esempio] Esempio 1
+> $$
+> \begin{cases}
+> \dot{x}_{1} = - x_{1} + u \\
+> \dot{x}_{2} = -x_{2} + i
+>\end{cases}
+>$$
+>Evidentemente se $x(0) = 0$ si avrà $x_{1}(t) = x_{2}(t) \forall u(t)$
+>$\implies \forall$ stato con $x_{1} \neq x_{2}$ non è raggiungibile
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}
+>\draw[->] (-2,0) -- (2,0) node[below]{$x_1$};
+>\draw[->](0,-2) -- (0,2) node[left]{$x_{2}$};
+>\draw[red, thick, ->] (-2,-2) -- (2,2);
+>\draw[red, thick, ->] (2,2) -- (-2,-2);
+;>\end{tikzpicture}
+>\end{document}
+>```
+>Verifico col criterio
+> $$
+> A = \begin{bmatrix}
+>-1 0 \\
+>0 -1
+>\end{bmatrix}\quad \begin{bmatrix}
+> 
+>\end{bmatrix}
+>$$
+
+
+
+
