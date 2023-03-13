@@ -219,4 +219,8 @@ s+1 & 0
 
 
 Conseguenze:
-$A,b,c,d$ e $G(s)$ sono rappresentazioni di un sistema dinamico equivalente a meno di una trasformazione
+1. $A,b,c,d$ e $G(s)$ sono rappresentazioni di un sistema dinamico equivalente a meno di una trasformazione di similarità se nel calcolo di $G(s)$ non si hanno cancellazioni e equivalentemente se il SD è [[Raggiungibilità|raggiungibile]] e [[Osservabilità|osservabile]]
+
+2. Poichè i poli di $G(s)$ sono gli autovalori della parte [[Raggiungibilità|raggiungibile]] e [[Osservabilità|osservabile]] del sistema dinamico perchè si possa studiare la stabilità (anche asintotica) del sistema dinamico usando la FdT occore ch nel suo calcolo non si abbiano cancellazioni critiche
+
+

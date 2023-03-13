@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: osservabile, osservabili,
 creation date: 2023-03-13 11:21
 modification date: 2023-03-13 11:21
 ---
