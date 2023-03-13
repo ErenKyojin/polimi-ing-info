@@ -41,7 +41,33 @@ $$
 \dot{x}_{2} \\
 \vdots \\
 \dot{x}_{n}
-\end{bmatrix} = \begin{bmatrix}
-0 & 1 & 0 \dots 
+\end{bmatrix} = \underbrace{ \begin{bmatrix}
+0 & 1 & 0  & \dots & 0 \\
+\vdots  & 0 & 1 & \dots & 0\\
+0  & 0 &\dots  &0  &1 \\
+-a_{n}  & -a_{n-1} & \dots & \dots & -a_{1}
+\end{bmatrix} }_{ A } \begin{bmatrix}
+x_{1} \\
+x_{2} \\
+\vdots \\
+x_{n}
 \end{bmatrix}
+$$
+
+$$A = \left[ \begin{array}{c|c}
+\mathbf{0} & \mathbb{1} \\
+\hline -a_{n} & \mathbf{a}\\
+
+\end{array} \right] $$
+-  $$
+U \to \fbox{$\frac{1}{D}$} \to \fbox{N} \to Y
+$$
+$$\begin{align}
+
+Y(s) =   N(s)X(s) &= (b_{1}s^{n-1} + b_{2}s^{n-2} + \dots + b_{n}) X(s) \\
+\text{termini} &= b_{1}s^{n-1}X(s) \xrightarrow{\mathcal{L}^{-1}} \frac{b_{1} d^{n-1}x(t)}{dt^{n-1}} = b_{1}x_{n}(t) \\
+&=b_{2}s^{n-2} X(s)\longrightarrow{ \dots b_{2}x_{n-1}(t)} \\
+&=\vdots \\
+&= b_{n}(X_{s}) \longrightarrow \dots b_{1}n_{1}(t)
+\end{align}
 $$
