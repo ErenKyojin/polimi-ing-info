@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f0e679a9ea418050",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di automatica/Sistemi interconessi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -146,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Realizzazione.md",
+                "file": "Fondamenti di automatica/Sistemi interconessi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Realizzazione.md",
+                "file": "Fondamenti di automatica/Sistemi interconessi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Realizzazione.md"
+                "file": "Fondamenti di automatica/Sistemi interconessi.md"
               }
             }
           }
@@ -208,16 +220,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "57260bc8ade0be30",
+  "active": "f0e679a9ea418050",
   "lastOpenFiles": [
-    "Fondamenti di automatica/funzione di trasferimento.md",
+    "API/gerarchia di Chomsky.md",
+    "Fondamenti di automatica/Sistemi interconessi.md",
     "Fondamenti di automatica/Realizzazione.md",
+    "Fondamenti di automatica/funzione di trasferimento.md",
     "Fondamenti di automatica/Raggiungibilità.md",
     "Fondamenti di automatica/Problema del controllo.md",
     "Fondamenti di automatica/Osservabilità.md",
     "Fondamenti di automatica/trasformate di laplace notevoli.md",
     "Fondamenti di automatica/sistemi dinamici LTI.md",
-    "API/gerarchia di Chomsky.md",
     "API/Grammatiche.md",
     "conflict-files-obsidian-git.md",
     "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
@@ -235,7 +248,6 @@
     "API/determinismo.md",
     "API/Modelli operazionali/Macchine di Turing.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
-    "API/funzione parziale.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
