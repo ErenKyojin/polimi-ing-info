@@ -15,6 +15,33 @@ Ci limitiamo al caso di realizzazione minima (dimensione di $A$ pari al grado de
 ### Premessa
 Se in $G(s)$ grado numeratore = grado denominatore
 $$
-G(s) = d + \frac{N(s)}{G(s)}
+G(s) = d + \frac{N(s)}{D(s)}
 $$
-con grado $N <$ grado $$
+con grado $N <$ grado $D$: ci basta quindi trattare questo caso.
+
+Come detto vediamo un modo di operare:
+$$
+\begin{align}
+G(s) = \frac{b_{1}s^{n-1} +b_{2}s^{n-2} + \ldots + b_{n} }{s^n + a_{1}s^{n-1} + a_{2}s^{n-2}+\ldots+a_{n}} = \frac{N(s)}{D(s)} \\
+ U\to \fbox{$\frac{N(s)}{D(s)}$}\to Y \implies U \to \fbox{$\frac{1}{D(s)}$} \to \fbox{$N(s)$} \to Y
+\end{align}
+$$
+
+- $\frac{x(s)}{u(s)} = \frac{1}{D(s)} \implies x(s)D(s) = U(s)$
+  $$
+\begin{align}
+&s^nX(s) + a_{1}s^{n-1} X(s)  + \dots +a_{n} X(s) =U(s) \\
+&\downarrow \\
+&\frac{d^n}{dt^n} a(t) + a_1 \frac{d^{n-1}}{dt^{n-1}}a(t)  + \dots + a_{n} \frac{d}{dt} a(t) = u(t)
+\end{align}
+$$ 
+$$
+\begin{bmatrix}
+\dot{x}_{1} \\
+\dot{x}_{2} \\
+\vdots \\
+\dot{x}_{n}
+\end{bmatrix} = \begin{bmatrix}
+0 & 1 & 0 \dots 
+\end{bmatrix}
+$$
