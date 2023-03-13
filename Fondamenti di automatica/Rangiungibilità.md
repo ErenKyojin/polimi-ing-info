@@ -14,7 +14,7 @@ Un sistema si dice completamente raggiungibile se ogni stato è raggiungibile
 
 >[!question]
 >Cine deternubi se un sistema dinamico è o meno raggiungibile
->- Teorema di Cayley - Hamilton: Ogni matirce annulla il suo polinomio caratteristico
+>- Teorema di Cayley - Hamilton: Ogni matirce annulla il suo [[polinomio caratteristico]]
 >$$\begin{align}
 >&p(s) = \det(sI - A) = S^n + \beta_{1} s^{n-1} + \dots + \beta_{n} \\
 >&p(A) = A^n + \beta_{1}a^{n-1} + \dots + \beta_{n}I = 0
@@ -25,9 +25,29 @@ Un sistema si dice completamente raggiungibile se ogni stato è raggiungibile
 >Di conseguenza, partenda da $x(0) = 0$ si avrà che:
 > $$\begin{align}
 >
-> x(t) = \underbrace{ \int_{0}^t \!e^{A(t-\tau)} }_{ I + \frac{A(t-\tau + A^{2}(t-\tau)^2)}{2!} + \dots }u(\tau) \, \mathrm{d}\tau  \\
->= \int _{0}^t \!\sum_{l=0}^{n-1} \gamma_{l}(t-\tau) A^l \, \mathrm{d}x 
+> x(t) &=  \int_{0}^t \!\fcolorbox{red}{}{$e^{A(t-\tau)}$} u(\tau) \, \mathrm{d}\tau  \\
+>&= \int _{0}^t \!\sum_{l=0}^{n-1}U \gamma_{l}(t-\tau) A^l \, \mathrm{d}\tau =   \sum_{l=0}^{n-1}A^lb \int _{0}^t \!\gamma_{l}(t-\tau)u(t) \, \mathrm{d}\tau 
 \end{align}
 >$$
-
-
+>
+>con in rosso $= { I + \frac{A(t-\tau + A^{2}(t-\tau)^2)}{2!} + \dots }$
+>
+>Ovvero
+> $$
+>x(t) = \sum_{l=0}^{n-1}A^lb Z_{l}(t)
+>$$
+> o ancora
+> $$
+>x(t) = \begin{bmatrix}
+>b & Ab & A^2b & \dots  & A^{n-1}b
+>\end{bmatrix} \begin{bmatrix}
+>Z_{0}(t) \\
+>Z_{1}(t) \\
+> \vdots \\
+>{Z}_{n-1}(t)
+>\end{bmatrix}
+>$$
+>(Essendo un sistema [[SISO]]) deve essere una matrice $n\times n$ per una matrice $n \times 1$
+>
+>
+> $x(t) = M_{R}Z(t)$ con $Z(t)$ che contiene l'ingresso
