@@ -87,10 +87,10 @@ $$
 $$
 L(G) = \left\{ x \in V_{T}^* | S \implies^* x \right\} 
 $$
-Consiste di utte le stringhe costituit e da soli simboli terminali derivabili da $S$
+Consiste di tutte le stringhe costituite da soli simboli terminali derivabili da $S$
 
 >[!esempio] Esempio 1
->$G_{1} = (\left\{ S \right\}, \left\{ a,b \right\}, \left\{ S \to aSb | ab \right\},S)$ abbreviazione per $S \to aSb, S \to ab$
+>$G_{1} = (\left\{ S, A, B \right\}, \left\{ a,b,0 \right\}, \left\{ S \to aA, A \to aS, S \to bB, B \to bS, S \to 0 \right\},S)$ 
 >
 >Alcune derivazioni:
 >- $\text{S} \implies \text{0}$

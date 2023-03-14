@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli generativi/Grammatiche.md",
+                "file": "API/Linguaggio.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Modelli generativi/Grammatiche.md",
+                "file": "API/Linguaggio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Modelli generativi/Grammatiche.md",
+                "file": "API/Linguaggio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Modelli generativi/Grammatiche.md"
+                "file": "API/Linguaggio.md"
               }
             }
           }
@@ -162,8 +162,8 @@
   },
   "active": "02daaa779ddfab41",
   "lastOpenFiles": [
-    "API/Modelli generativi/Modelli generativi.md",
     "API/Modelli generativi/Grammatiche.md",
+    "API/Modelli generativi/Modelli generativi.md",
     "API/Modelli operazionali/Modelli operazionali.md",
     "API/insieme.md",
     "API/Modelli generativi",

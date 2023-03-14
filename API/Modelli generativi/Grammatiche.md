@@ -59,7 +59,7 @@ Se e solo se
 $\alpha = \alpha_{1}\alpha_{2}\alpha_{3}, \beta = \alpha_{1}\beta_{2}\alpha_{3},\quad a_{2} \to \beta_{2} \in P$
 $\alpha_{2}$ si riscrive come $\beta_{2}$ nel contesto $(\alpha_{1}, \alpha_{3})$
 
-Rispetto alla grammatica precedente
+Rispetto alla grammatica precedente abbiamo per la stringa aaBAS tre possibili deriazioni
 
  aaBAS => aacCdS
 oppure
@@ -70,8 +70,10 @@ oppure
 >La freccia singola $\to$ indica una produzione
 >La freccia doppia $\implies$ indica la relazione di derivazione 
 
-Definiamo poi come al solito la [[Chiusura]] riflessiva e transitiva di $\implies : \implies^*$
+Definiamo poi come al solito la [[Chiusura]] riflessiva e transitiva di $\implies : \Longrightarrow^*$
 
+$\eta \Longrightarrow^* \theta$
+Partendo da eta, attraverso un qualsiasi numero di produzioni arrivo a theta
 
 ![[Linguaggio#Linguaggio generato da una Grammatiche grammatica]]
 
