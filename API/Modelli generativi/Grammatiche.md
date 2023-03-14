@@ -43,7 +43,7 @@ Le varie riscritture possono presentare alternativo, un soggetto puó essere un 
 >[!oss]
 >$$P \subseteq V_{N}^+ \times V^*$$
 >$(\alpha,\beta)$ con $\alpha \in V_{N}^+$ e $\beta \in V^*$
->Ossia le parti sinistre $\alpha$ sono stringhe di caratteri non terminali senza l'elemento vuoto, mentre beta è una stringa qualunque.
+>Ossia le parti sinistre $\alpha$ sono stringhe di caratteri non terminali senza l'elemento vuoto, mentre $\beta$ è una stringa qualunque.
 
 >[!esempio]
 >$V_{N} = \left\{ S,A,B,C \right\}$
@@ -51,18 +51,24 @@ Le varie riscritture possono presentare alternativo, un soggetto puó essere un 
 >$S$
 >$P = \left\{ S \to AB, BA \to cCd, CBS \to ab, A\to \varepsilon \right\}$
 
-elemento particolare di $V_{N}$ detto assioma o simbolo iniziale
-
 
 ## [[Relazione]] di derivazione immediata
-$\alpha \implies \beta, \alpha \in V^+, \beta \in V^*$
+$$\alpha \implies \beta, \alpha \in V^+, \beta \in V^*$$
+(alpha deriva beta)
 Se e solo se
-$\alpha = \alpha_{1}\alpha_{2}\alpha_{3}, \beta = \alpha_{1},\beta_{2}, \alpha_{3}, a_{2} \to \beta_{2} \in P$
+$\alpha = \alpha_{1}\alpha_{2}\alpha_{3}, \beta = \alpha_{1}\beta_{2}\alpha_{3},\quad a_{2} \to \beta_{2} \in P$
 $\alpha_{2}$ si riscrive come $\beta_{2}$ nel contesto $(\alpha_{1}, \alpha_{3})$
 
 Rispetto alla grammatica precedente
 
-aaBAS => aacCdS
+ aaBAS => aacCdS
+oppure
+ aaBAS => aaBAAB
+oppure
+ aaBAS => aaBS
+>[!oss]
+>La freccia singola $\to$ indica una produzione
+>La freccia doppia $\implies$ indica la relazione di derivazione 
 
 Definiamo poi come al solito la [[Chiusura]] riflessiva e transitiva di $\implies : \implies^*$
 
