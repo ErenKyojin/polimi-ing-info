@@ -13,8 +13,8 @@ Relazioni tra [[Grammatiche]] e [[linguaggio|linguaggi]]:
 \draw(3,0) circle(1.5);
 \node at (-5.2,1){tipo 0};
 \node at (-2.8, .8){tipo 1};
-\node at (-.3,.6){tipo 3};
-\node at (2.2,.4){tipo 4};
+\node at (-.3,.6){tipo 2};
+\node at (2.2,.4){tipo 3};
 \end{tikzpicture}
 \end{document}
 ```
