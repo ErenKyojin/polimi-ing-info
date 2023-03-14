@@ -3,7 +3,7 @@ aliases: grammatica
 creation date: 2023-03-10 14:19
 modification date: 2023-03-10 14:19
 ---
-La grammatica è un modello generativo, produce (o genera) stringhe. Generalmente parlando si puó definire come un insieme di regole per costruire frasi di un [[linguaggio]], si applica in qualsiasi nozione di linguaggio nel senso piú lato.
+La grammatica è un [[Modelli generativi|modello generativo]], produce (o genera) stringhe. Generalmente parlando si puó definire come un insieme di regole per costruire frasi di un [[linguaggio]], si applica in qualsiasi nozione di [[linguaggio]] nel senso piú lato.
 In modo sostanzialmente simile ai normali meccanismi linguistici, una grammatica formale genera stringhe di un linguaggio attraverso un processo di riscrittura.
 
 
@@ -33,14 +33,17 @@ Le varie riscritture possono presentare alternativo, un soggetto puó essere un 
 > G = (V_{N},V_{T}, P,S)
 >$$
 >con:
->- $V_{N}$ alfabeto o vocabolario nonterminale
->- $V_{T}$ alfabeto o vocabolario
+>- $V_{N}$ **alfabeto** o **vocabolario nonterminale**, serve per impostare il linguaggio ma verranno eliminati successivamente
+>- $V_{T}$ **alfabeto** o **vocabolario terminale**, comporrà le frasi
 >- $V = V_{N} \cup V_{T}$
->- $S \in V_{N}$ elemento particolare di $V_{N}$ detto assioma o simbolo iniziale
->- $P \subseteq V_{N}^+ \times V^*$ [[Analisi 1/Insiemi numerici/Insieme|insieme]] delle regole di riscrittura o produzioni
+>- $S \in V_{N}$ elemento particolare di $V_{N}$ detto **assioma** o **simbolo iniziale**
+>- $P \subseteq V_{N}^+ \times V^*$ [[Analisi 1/Insiemi numerici/Insieme|insieme]] delle regole di **riscrittura** o **produzioni**
 >Scriveremo per comodità $\alpha \to \beta$ al posto di $(\alpha,\beta)$
 
-
+>[!oss]
+>$$P \subseteq V_{N}^+ \times V^*$$
+>$(\alpha,\beta)$ con $\alpha \in V_{N}^+$ e $\beta \in V^*$
+>Ossia le parti sinistre $\alpha$ sono stringhe di caratteri non terminali senza l'elemento vuoto, mentre beta è una stringa qualunque.
 
 >[!esempio]
 >$V_{N} = \left\{ S,A,B,C \right\}$
