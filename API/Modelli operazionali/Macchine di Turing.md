@@ -94,44 +94,52 @@ Per memorizzare una grande quantità di informazioni si lavora espandendosi ai l
 $$
 \delta, [\eta] : Q \times I \times \Gamma^k \to \mathcal{P}(Q \times \Gamma \times \left\{ R,L,S \right\}^{k+1} [\times O \times \left\{ R,S \right\} ]  )
 $$
-È necessario l'indice F?
+È necessario l'indice F (della configurazione finale)?
 Configurazioni, transizioni, sequenze di transizioni e accettazione sono definite come al solito.
 Infine chiediamoci se il non [[determinismo]] aumenta la potenza delle macchine di Turing.
 
-```mermaid
-graph TB
-	c0 --> n0((.))
-	n0 --> c11
-	n0 --> c12
-	n0 --> c13
-	c11 --> c21
-	c11 --> c22
-	c21 --> c31((c31))
-	c21 --> c32
-	c32 -.-> n1((.))
-	c22 --> n2[.]
-	c12 --> c23
-	c23 --> n3((.))
-	n3 -.-> n5((.))
-	c23 --> n4((.))
-	c13 --> c24
-	c24 -.-> n6((.))
-	c13 --> c25 -.-> n7((.))
-	c13 --> c26
-	c26 --> ckj[ckj]
-	c26 --> cim(cim)
-	
-```
-```mermaid
-graph LR
-	Ca[C di accettazione]
-	Ch((C di halt))
-	
-```
+> [!esempio] Albero delle computazioni
+> ```mermaid
+> graph TB
+> 	c0 --> n0((.))
+> 	n0 --> c11
+> 	n0 --> c12
+> 	n0 --> c13
+> 	c11 --> c21
+> 	c11 --> c22
+> 	c21 --> c31((c31))
+> 	c21 --> c32
+> 	c32 -.-> n1((.))
+> 	c22 --> n2[.]
+> 	c12 --> c23
+> 	c23 --> n3((.))
+> 	n3 -.-> n5((.))
+> 	c23 --> n4((.))
+> 	c13 --> c24
+> 	c24 -.-> n6((.))
+> 	c13 --> c25 -.-> n7((.))
+> 	c13 --> c26
+> 	c26 --> ckj[ckj]
+> 	c26 --> cim(cim)
+> 	
+> ```
+> ```mermaid
+> graph LR
+> 	Ca[C di accettazione]
+> 	Ch((C di halt))
+> 	
+> ```
+
 E le linee tratteggate computazioni non terminate
 
+>[!oss]
+>L'albero di computazione di una macchina di turing (deterministica e non) puó: non fermarsi, fermarsi o accettare.
+>
+>Se la macchina è deterministica l'albero sarà lineare
+>Se la macchina è deterministica l'albero sarà ramificato
 
 Una stringa $x$ è accettata da una macchina di Turing non deterministica se e solo se esiste una computazione della MND che termina in uno [[stato]] di accettazione.
+Quindi dobbiamo analizzare l'albero e trovare uno stato di accettazione
 
 La domanda è, puó una macchina di Turing deterministica stabilire se una sua sorella non deterministica accetta $x$. Ossia accettare $x$ se e solo se la non deterministica la accettta?
 Per farlo dobbiamo percorrere l'albero delle computazioni non deterministiche per stabilire se esiste in esso un cammino che termina con uno stato di accettazione, è un normale e ben noto problema di visita di alberi per il quale esistono algoritmi appositi, dobbiamo quindi implementare un algoritmo di visita di alberi attraverso maccchina di turing.
