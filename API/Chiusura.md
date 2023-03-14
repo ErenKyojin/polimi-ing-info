@@ -19,9 +19,17 @@ Vediamo la costruzione di alcune operazioni:
 
 # Automi
 
+#### Deterministici
 AFD | APD | MTD |
 --- | --- | --- | ---
  $\cup$ | $\cancel{ \cup }$ | $\cup$ | $\cup$
 $\cap$ | $\cancel{ \cap }$ | $\cap$ | $\cancel{ \cap }$
 $\neg$ | $\neg$ | $\cancel{ \neg }$ | $\neg$
+
+#### Non deterministici
+AFND | APND 
+--- | ---
+$\cup$ | $\cup$
+$\cap$ | $\cancel{ \cap }$
+$\neg$ | $\cancel{ \neg }$
 

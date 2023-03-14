@@ -5,7 +5,7 @@ Ultimo automa che vedremo, introdotto alla fine della prima metà del '900 da Al
 
 ![[MT a k-nastri.canvas]]
 
-È una generalizzazione dell'automa a pila, su ogni nastro (infinito) c'è una testina, quindi puó lavorare su **elementi che non sono in cima alla pila**, puó leggere e scrivere in qualsiasi punto del nastro. 
+È una generalizzazione dell'[[automa a pila]], su ogni nastro (infinito) c'è una testina, quindi puó lavorare su **elementi che non sono in cima alla pila**, puó leggere e scrivere in qualsiasi punto del nastro. 
 
 - Movimenti della testina
 	- S - STOP
@@ -21,7 +21,7 @@ con $\Gamma$ alfabeto di pila, notare che sono tanti quanti i nastri di memoria,
 $k+1$ Movimenti in quanto c'è anche il nastro in ingresso.
 
 >[!oss]
->$S$ sul nastro di ingresso è una epsilon mossa, inoltre posso leggere piú volte il contenuto del nastro di ingresso.
+>$S$ sul nastro di ingresso è una [[epsilon]] mossa, inoltre posso leggere piú volte il contenuto del nastro di ingresso.
 
 Quindi:
 - L'[[Automa a stati finiti]] può solo avanzare sull'ingresso
@@ -96,7 +96,7 @@ $$
 $$
 È necessario l'indice F?
 Configurazioni, transizioni, sequenze di transizioni e accettazione sono definite come al solito.
-Infine chiediamoci se il non determinismo aumenta la potenza delle macchine di Turing.
+Infine chiediamoci se il non [[determinismo]] aumenta la potenza delle macchine di Turing.
 
 ```mermaid
 graph TB
@@ -131,7 +131,7 @@ graph LR
 E le linee tratteggate computazioni non terminate
 
 
-Una stringa $x$ è accettata da una macchina di Turing non deterministica se e solo se esiste una computazione della MND che termina in uno stato di accettazione.
+Una stringa $x$ è accettata da una macchina di Turing non deterministica se e solo se esiste una computazione della MND che termina in uno [[stato]] di accettazione.
 
 La domanda è, puó una macchina di Turing deterministica stabilire se una sua sorella non deterministica accetta $x$. Ossia accettare $x$ se e solo se la non deterministica la accettta?
 Per farlo dobbiamo percorrere l'albero delle computazioni non deterministiche per stabilire se esiste in esso un cammino che termina con uno stato di accettazione, è un normale e ben noto problema di visita di alberi per il quale esistono algoritmi appositi, dobbiamo quindi implementare un algoritmo di visita di alberi attraverso maccchina di turing.

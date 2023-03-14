@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Chiusura.md",
+                "file": "API/Modelli operazionali/Macchine di Turing.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Chiusura.md",
+                "file": "API/Modelli operazionali/Macchine di Turing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Chiusura.md",
+                "file": "API/Modelli operazionali/Macchine di Turing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Chiusura.md"
+                "file": "API/Modelli operazionali/Macchine di Turing.md"
               }
             }
           }
@@ -162,6 +162,11 @@
   },
   "active": "02daaa779ddfab41",
   "lastOpenFiles": [
+    "API/Chiusura.md",
+    "API/Modelli operazionali/Macchine di Turing.md",
+    "API/Modelli operazionali/Automa a stati finiti.md",
+    "API/Modelli operazionali/Modelli non deterministici.md",
+    "API/Modelli operazionali/funzione di transizione.md",
     "Probabilità e statistica/Disuguaglanza di Chebychev.md",
     "Probabilità e statistica/Eventi indipendenti.md",
     "Fondamenti di automatica/Realizzazione.md",
@@ -183,11 +188,6 @@
     "API/Stato.md",
     "API/Unione.md",
     "API/stringa.md",
-    "API/Untitled.md",
-    "API/push.md",
-    "API/pop.md",
-    "API/insieme.md",
-    "API/determinismo.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
