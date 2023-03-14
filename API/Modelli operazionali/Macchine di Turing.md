@@ -147,3 +147,4 @@ Per farlo dobbiamo percorrere l'albero delle computazioni non deterministiche pe
 In realtà un problema sorge se vi sono nell'albero computazioni che non terminano, ad esempio un algoritmo di visita in profondità in preordine sinistro potrebbe infilarsi in un cammino infinito senza scoprire che in un altro punto dell'albero ne esist euno finito che porta all'accettazione. Si risolve facilmente adottanto un palgoritmo di vista in ampiezza; usa una struttura a coda invece di una a pila per accumulare i vari nodi da esaminare.
 
 
+
