@@ -82,7 +82,7 @@ Sorgono spontanee alcune domande:
 - Quali linguaggi è possible ottenere con le grammatiche?
 - Che relazioni ci sono tra grammatiche e automi (o tra linguaggi generati e riconosciuti)?
 
-Sono sicuramente utili per la definizione della sintassi dei linguaggi di programmazioni, applicazioni duali rispetto a quelle degli automi
+Sono sicuramente utili per la definizione (e la compilazione!!) della sintassi dei linguaggi di programmazioni, applicazioni duali rispetto a quelle degli automi
 
 # Classi di grammatiche
 
@@ -91,6 +91,8 @@ Sono sicuramente utili per la definizione della sintassi dei linguaggi di progra
 Ogni produzione ha la forma $\alpha \to \beta$ con $|\alpha| = 1$, con $\alpha$  elemento di $V_{N}$.
 Non contestuale perchè la riscrittura di $\alpha$ non dipende dal contesto in cui si trova, sono di fatto la stessa cosa della BNF usata per definire la sitassi dei linguaggi di programmazione.
 Le $G_{1}$ e $G_{2}$ precedenti sono non contestuali, non è così invece la $G_{3}$
+
+>[!oss] Una grammatica non contestuale ha sempre un solo elemento a sinistra delle produzioni
 
 ### Grammatiche regolari
 Ogni produzione ha la forma $\alpha \to \beta$ dove
