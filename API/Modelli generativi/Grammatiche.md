@@ -105,7 +105,10 @@ Le grammatiche regolari sono anche non contestuali, ma non viceversa.
 Per la stringa vuota si deve ammettere anche $S \to \varepsilon$
 
 ### Grammatiche monotone
-Ogni produzione hal a forma $\alpha \to \beta$, dove $|\alpha| \leq |\beta|$. Per la stringa vuota si deve ammettere $S \to \varepsilon$, però $S$ non deve apparire in parti destre di produzioni
+Ogni produzione hal a forma $\alpha \to \beta$, dove $|\alpha| \leq |\beta|$. 
+Le regolari sono monotone.
+
+Le non contestuali non lo sono generalmente a causa delle produzioni: $A\to \varepsilon$, si deve ammettere $S \to \varepsilon$, però $S$ non deve apparire in parti destre di produzioni
 
 ---
 
