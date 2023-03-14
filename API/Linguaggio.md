@@ -99,7 +99,7 @@ Consiste di tutte le stringhe costituite da soli simboli terminali derivabili da
 >- $\text{S} \implies \text{aA} \implies \text{aaS} \implies \text{aabB} \implies \text{aabbS} \implies \text{aabb0}$
 >  
 >Generalizzando
->$L(G_{1})= \left\{ \text{aa}, \text{bb} \right\}^*.0$
+>$L(G_{1})= \left\{ \text{aa}, \text{bb} \right\}^*.0$, un numero qualsiasi di coppie di a e di coppie di b terminate da uno zero
 
 
 >[!esempio] Esempio 2
@@ -126,7 +126,7 @@ Consiste di tutte le stringhe costituite da soli simboli terminali derivabili da
 >  $\text{aaBBDcc} \implies \text{aaBBcc} \implies^2 \text{ aabbcc }$
 >
 >Di che linguaggio si tratta?
-
+>$\left\{ A,B,C,D \right\}, \left\{ a,b,c \right\}$ sono gl
 
 
 
