@@ -126,7 +126,8 @@ Consiste di tutte le stringhe costituite da soli simboli terminali derivabili da
 >  $\text{aaBBDcc} \implies \text{aaBBcc} \implies^2 \text{ aabbcc }$
 >
 >Di che linguaggio si tratta?
->$\left\{ A,B,C,D \right\}, \left\{ a,b,c \right\}$ sono gl
+>$\left\{ A,B,C,D \right\}, \left\{ a,b,c \right\}$ sono gli alfabeti terminali e non terminali.
+>Si tratta di $a^nb^nc^n$ con $n \geq 1$
 
 
 
