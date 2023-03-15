@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Risposta espnenziale.md",
+                "file": "Fondamenti di automatica/Risposta esponenziale.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Risposta espnenziale.md",
+                "file": "Fondamenti di automatica/Risposta esponenziale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Risposta espnenziale.md",
+                "file": "Fondamenti di automatica/Risposta esponenziale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Risposta espnenziale.md"
+                "file": "Fondamenti di automatica/Risposta esponenziale.md"
               }
             }
           }
@@ -199,7 +199,7 @@
   "active": "200713b3ec0e9377",
   "lastOpenFiles": [
     "Fondamenti di automatica/Sistemi interconessi.md",
-    "Fondamenti di automatica/Risposta espnenziale.md",
+    "Fondamenti di automatica/Risposta esponenziale.md",
     "Fondamenti di automatica/Realizzazione.md",
     "Fondamenti di automatica/Raggiungibilità.md",
     "Fondamenti di automatica/Sistemi dinamici.md",
