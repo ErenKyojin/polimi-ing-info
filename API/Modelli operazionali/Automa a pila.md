@@ -122,13 +122,13 @@ Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (S
 >	q0 --->|"b,B|BB"| q0
 >```
 
->[!esercizio]
+>[!esercizio]-
 >Progettare un APD che riconosca:
 >$\mathcal{L} = \left\{ a^nb^ma^n | n,m \geq 0 \right\} \ni \varepsilon$. Il fastidio è dall'uguale, che ci rende complicato gestire i casi limite:
 >$\mathcal{L} = \varepsilon + b^+ + (aa)^+ + a^nb^mb^n$, rispettivamente con $m=n=0; n=0,m\neq 0; n \neq 0, m=0;n,m \neq 0$
 >
 >```mermaid
->graph LR
+>graph TB
 >	I --> q0
 >	q0((q0)) -->|"a,Z0|Z0,A"| q2
 >	q0 -->|"b,Z0|Z0"| q1((q1))
@@ -143,6 +143,28 @@ Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (S
 >	q5 -->|"a,A|eps"|q6((q6))
 >```
 >
+
+>[!esercizio]-
+> $\mathcal{L} = \left\{ a^ib^jc^k | i + k = j;\ i,j,k \geq 0\right\} = \left\{ a^ib^ib^kc^k | i,k \geq 0 \right\}$
+>```mermaid
+>graph TB
+>	I --> q0((q0))
+>	q0 --> |"a,Z0|Z0,A"| q1
+>	q1 -->|"a,A|AA"| q1
+>	q1 -->|"b,A|eps"| q2
+>	q2 -->|"b,A|eps"| q2
+>	q2 -->|"eps,Z0|Z0"| q3
+>	q3((q3)) -->|"b,Z0|Z0,B"| q4
+>	q4 -->|"b,B|BB"| q4
+>	q4 -->|"c,B|eps"| q5
+>	q5 -->|"c,B|eps"| q5
+>	q5 -->|"eps,Z0|Z0"| q6((q6))
+>	q0 -->|"b,Z0|Z0,B"| q4
+>```
+
+>[!esercizio]
+>Scrivere APD che riconosca le espressioni vuote, ben parametrizzate con un solo tipo di parentesi
+>(((() ()) ) )
 
 # Automi a pila non deterministici
 Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]], possiamo quindi semplicemente rimuoverlo
