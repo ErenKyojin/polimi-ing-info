@@ -142,5 +142,40 @@ Il fatto che almeno uno dei due sistemi sia strettamente proprio è condizione s
 
 Equazione connesione (caso retroazione negativa)
 $$
+y = y_{a}\quad u_{r} = y_{a}\quad u_{a} = u - y_{r}
+$$
 
+$$
+\begin{align}
+\dot{x}_{a} &= A_{a}x_{a} + b_{a}u_{a} = A_{a}x_{a} + b_{a}U - b_{a}y_{r} = A_{a}x_{a} - b_{a}c_{r}x_{r} + b_{a}u \\
+\dot{x}_{r} &= A_{r}x_{r} + b_{r}u_{r} = A_{r}x_{r} + b_{r}(c_{a} x_{a} + d_{a}u_{a} ) = A_{r}x_{r} + b_{r}c_{a}x_{a} +b_{r}d_{a}(u - c_{r}x_{r}) \\
+&=b_{r}c_{a}x_{a} +(A_{r}-b_{r} d_{a}c_{r}) + b_{r}d_{a}u \\
+y &= y_{a} = c_{a}x_{a} + d_{a}u_{a} = c_{a}x_{a} - d_{a}c_{r}x_{r} + d_{2}u
+\end{align}$$
+
+
+cioè:
+$$
+\begin{align}
+
+\begin{bmatrix}
+\dot{x}_{a} \\
+\dot{x}_{r}
+\end{bmatrix} &= \begin{bmatrix}
+A_{a} & -b_{a}c_{r}  \\
+b_{r}c_{a} & A_{r}-b_{r}d_{a}c_{r}
+\end{bmatrix} \begin{bmatrix}
+x_{a} \\
+x_{r}
+\end{bmatrix} + \begin{bmatrix}
+b_{a} \\
+b_{r}d_{a}
+\end{bmatrix}u \\
+y &= \begin{bmatrix}
+c_{a}  & -d_{a}c_{r}
+\end{bmatrix}\begin{bmatrix}
+x_{a} \\
+x_{r}
+\end{bmatrix} + d_{a}u
+\end{align}
 $$
