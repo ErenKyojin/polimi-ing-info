@@ -76,21 +76,24 @@ Le macchine di turing possono simulare altre macchine di turing in modo molto se
 ### Simulazione in serie
 Simulo prima una macchina e poi l'altra, è adatta per l'intersezione, infatti la prima macchina puó, andare in loop, accettare, o rifiutare, e tutti questi casi sono adatti per l'intersezione (non per l'unione, se andasse in loop non potremmo verificare la secondo macchina)
 
+## Mosse di una macchina di turing
+```mermaid
+graph LR
+	q ------>|"a,d,...,blnk|D,eps,...,A,(L,R,S,...,L)|0" | q'
+```
+Prima lettura dei vari nastri, poi scrittura sui nastri e movimento delle testine, prima input, poi i k nastri, e poi eventualmente l'output
 # Macchina di turing a nastro singolo
 Macchina di turing "originale", è molto semplice, facile da studiare ma complessa da utilizzare.
 
 ![[MT nastro singolo.canvas]]
 Il nastro unico funge da ingresso, da memoria, e da uscita.
 Comandi:
-- R
-- L
-- S
+- RIGHT - R
+- LEFT - L
+- STOP - S
 
 Si ferma quando la funzoine di transizione la ferma, e il risultato dipende dallo stato a cui si ferma.
 Per memorizzare una grande quantità di informazioni si lavora espandendosi ai lati dell'ingresso, creando dei nastri "virtuali", ed in effetti è cosí che si dimostra, usando dei limitatori per imitare la configurazione di un $k$-nastri. Emulazione.
-
->[!esercizio]
->
 
 # Macchina di Turing non deteriministica
 $$
