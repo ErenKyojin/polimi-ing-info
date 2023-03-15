@@ -124,7 +124,23 @@ Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (S
 
 >[!esercizio]
 >Progettare un APD che riconosca:
->$\mathcal{L} = \left\{ a^nb^ma^n | n,m \geq 0 \right\} \ni \varepsilon$
+>$\mathcal{L} = \left\{ a^nb^ma^n | n,m \geq 0 \right\} \ni \varepsilon$. Il fastidio è dall'uguale, che ci rende complicato gestire i casi limite:
+>$\mathcal{L} = \varepsilon + b^+ + (aa)^+ + a^nb^mb^n$, rispettivamente con $m=n=0; n=0,m\neq 0; n \neq 0, m=0;n,m \neq 0$
+>
+>```mermaid
+>graph LR
+>	q0((q0)) -->|"a,Z0|Z0,A"| q2
+>	q0 -->|"b,Z0|Z0"| q1((q1))
+>	q1 -->|"b,Z0|Z0"| q1
+>	q2 -->|"a,A|AA"| q3
+>	q3 -->|"a,A|AA"| q2
+>	q2 -->|"b,A|A"| q4
+>	q4 -->|"b,A|A"| q4
+>	q4 -->|"a,A|eps"| q5
+>	q5 -->|"a,A|eps"|q5
+>	q5 -->|"a,A|eps"|q6((q6))
+>```
+>
 
 # Automi a pila non deterministici
 Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]], possiamo quindi semplicemente rimuoverlo
