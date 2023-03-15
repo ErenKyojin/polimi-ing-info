@@ -82,6 +82,12 @@ graph LR
 	q ------>|"a,d,...,blnk|D,eps,...,A,(L,R,S,...,L)|0" | q'
 ```
 Prima lettura dei vari nastri, poi scrittura sui nastri e movimento delle testine, prima input, poi i k nastri, e poi eventualmente l'output
+
+>[!esercizio]
+>Progettare un MT a 1 nastro che accetti il linguaggio:
+>$\mathcal{L} = \left\{ a^{(2^n)} | n \geq 0 \right\} = \left\{ a,aa,aaaa,a^8, a^{16},\dots \right\}$
+>  Ossia dobbiamo riconoscere le potenze di due in base 1
+
 # Macchina di turing a nastro singolo
 Macchina di turing "originale", è molto semplice, facile da studiare ma complessa da utilizzare.
 
