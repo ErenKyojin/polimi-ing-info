@@ -111,6 +111,20 @@ Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (S
 >Progettare un APD che riconosca:
 >$\mathcal{L} = \left\{ w \in \left\{ a,b \right\}^* | \#_{a}(w) = \#_{b}(w)\right\}$ una stringa di a e b con lo stesso numero di $a$ e $b$.
 >
+>```mermaid
+>graph LR
+>	q0 --->|"eps,Z0|Z0"| q1
+>	q1 --->|"a1,Z0|Z0,A"| q0
+>	q1 --->|"b1,Z0|Z0B"| q0
+>	q0 --->|"a,A|AA"|q0
+>	q0 --->|"b,A|eps"| q0
+>	q0 --->|"a,b|eps"| q0
+>	q0 --->|"b,B|BB"| q0
+>```
+
+>[!esercizio]
+>Progettare un APD che riconosca:
+>$\mathcal{L} = \left\{ a^nb^ma^n | n,m \geq 0 \right\} \ni \varepsilon$
 
 # Automi a pila non deterministici
 Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]], possiamo quindi semplicemente rimuoverlo
