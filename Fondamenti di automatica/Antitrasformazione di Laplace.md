@@ -81,3 +81,4 @@ radici di $D(s)$ sono poli della trasformata di Laplace
 > Inizialmente scalino piu rampa, poi sottraiamo scalino e rampa per farlo tornare a 0, essendo nulli i segnali prima di t = 0, possiamo spostarli $v(t) =2sca(t) + 0.5 ram(t) -3sca(t-2) -0.5ram(t-2)$
 > 
 > $$V(s) = \frac{2}{s} + \frac{0.5}{s^2} - \frac{3}{2}e^{-2s} - \frac{0}{5}s^2e^{-2s}$$
+

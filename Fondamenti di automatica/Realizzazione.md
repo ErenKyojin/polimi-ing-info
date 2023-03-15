@@ -71,3 +71,12 @@ Y(s) =   N(s)X(s) &= (b_{1}s^{n-1} + b_{2}s^{n-2} + \dots + b_{n}) X(s) \\
 &= b_{n}(X_{s}) \longrightarrow \dots b_{1}n_{1}(t)
 \end{align}
 $$
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+
+\end{tikzpicture}
+\end{document}
+```
