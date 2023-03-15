@@ -1,9 +1,9 @@
 ---
-aliases: <% tp.file.cursor(0) %>
+aliases: 
 creation date: 2023-03-15 09:32
 modification date: 2023-03-15 09:32
 ---
-<% tp.file.cursor(1) %>
+
 
 
 
@@ -13,10 +13,18 @@ $$
 
 ```tikz
 \usepackage{pgfplots}
+
+\pgfmathdeclarefunction{gauss}{2}{%
+  \pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
+}
+
 \begin{document}
 \begin{tikzpicture}
-\begin{axis}
-\addplot{gauss(0,0.5)};
+\begin{axis}[samples=50, smooth, mark = none, domain=-4:4, axis lines = left]
+\addplot[blue]{gauss(0,1)};
+\addlegend
+\addplot[red]{gauss(-1,0.5)};
+\addplot[green]{gauss(0,2)};
 \end{axis}
 \end{tikzpicture}
 \end{document}
