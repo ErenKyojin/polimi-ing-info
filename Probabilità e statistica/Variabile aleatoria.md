@@ -66,4 +66,15 @@ $$
 > $\quad p = p (y =1) = p(x \geq c) = 1 - F_{u(a,b)}(a) = \frac{b - c}{}$
 
 
-Metodo della [[funzione di ripartizione]]
+### Metodo della [[funzione di ripartizione]]
+$x \sim f_{x}$ assolutamente continua
+$g : \mathbb{R} \to \mathbb{R}$ regolare "quanto basta" ossia:
+- continua a tratti
+- limite di $f$ continua a tratti
+$y = g(x)$ è una variabile aleatore e ha $F_{y}$...
+$$
+F_{Y}(y) = P(Y \leq y) = P(g(x) \leq y) = P(x \in \left\{ x : g(x)\dots \right\} )
+$$
+$Y$ è assolutamente continua?
+se $\int \!  f_{x}(0)\, \mathrm{d}x$ è derivabile q.o. rispetto a $y$ allora $y$ è assolutamente continua con densità
+$f_{Y}(y) = F_{Y}'(y)$
