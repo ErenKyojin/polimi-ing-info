@@ -170,12 +170,27 @@ Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (S
 > ```tikz
 >\begin{document}
 >\begin{tikzpicture}
->\draw[->] (0,0) -- (0,8);
+>\draw[->] (0,0) -- (0,4);
 >\draw[->] (0,0) -- (8,0);
->\draw[->] (0,0) -- (1,1) -- (2,2) -- (3,1) -- (4,2) -- (5,1) -- (6,0); 
+>\draw[->,blue] (0,0) -- (1,1)node{$\bullet$} -- (2,2) node{$\bullet$} -- (3,1) node{$\bullet$}-- (4,2) node{$\bullet$}-- (5,1)node{$\bullet$} -- (6,0)node{$\bullet$}; 
+>\draw[->,yellow] (0,0) -- (1,1) -- (2,0) -- (3,2) -- (4,2) -- (5,1) -- (6, 0) -- (7,-1); 
+>
 >\end{tikzpicture}
 >\end{document}
->``` 
+>```
+>Corrisponde a (()()) 
+>
+>```mermaid
+>graph TB
+>	i --> q0
+>	q0 -->|"),B|eps"| q1((q1))
+>	q1 -->|"(,Z0| Z0, B"| q0
+>	q0 -->|"(,B|BA)"| q0
+>	q0 -->|"(,A|AA"| q0
+>	q0 -->|"),A|eps"| q0
+>	q0 -->|"(Z0| Z0B"| q0
+>```
+>Per accettare la stringa epsilon semplicemente mandiamo l'input in q1 e possiamo eliminare il caso di parentesi aperta con Z0
 
 # Automi a pila non deterministici
 Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]], possiamo quindi semplicemente rimuoverlo
