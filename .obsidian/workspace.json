@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0239720221f1454d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/Logica.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md",
+                "file": "API/Logica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md",
+                "file": "API/Logica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Variabile aleatoria.md"
+                "file": "API/Logica.md"
               }
             }
           }
@@ -160,8 +172,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "02daaa779ddfab41",
+  "active": "0239720221f1454d",
   "lastOpenFiles": [
+    "Probabilità e statistica/Variabile aleatoria.md",
+    "API/Logica.md",
     "Probabilità e statistica/caso elementare.md",
     "API/Modelli generativi/Grammatiche.md",
     "API/gerarchia di Chomsky.md",
@@ -187,8 +201,6 @@
     "Fondamenti di automatica/Osservabilità.md",
     "Fondamenti di automatica/sistemi dinamici LTI.md",
     "conflict-files-obsidian-git.md",
-    "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
-    "API/Modelli descrittivi.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
