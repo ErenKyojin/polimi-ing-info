@@ -163,8 +163,19 @@ Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (S
 >```
 
 >[!esercizio]
->Scrivere APD che riconosca le espressioni vuote, ben parametrizzate con un solo tipo di parentesi
->(((() ()) ) )
+>Scrivere APD che riconosca le espressioni vuote, ben parametrizzate con un solo tipo di parentesi (linguaggio di Dyck)
+>
+>Tutte le stringhe ben parentesizzate, incrementando il conto di uno quando ne apriamo una e decrementando quando ne chiudiamo, partono da 0 e arrivano a 0, rimanendo nel primo quadrante
+>
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}
+>\draw[->] (0,0) -- (0,8);
+>\draw[->] (0,0) -- (8,0);
+>\draw[->] (0,0) -- (1,1) -- (2,2) -- (3,1) -- (4,2) -- (5,1) -- (6,0); 
+>\end{tikzpicture}
+>\end{document}
+>``` 
 
 # Automi a pila non deterministici
 Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]], possiamo quindi semplicemente rimuoverlo
