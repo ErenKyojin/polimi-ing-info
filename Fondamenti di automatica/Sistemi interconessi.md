@@ -96,4 +96,28 @@ A_{1} & 0 \\
 0 & A_{2}
 \end{bmatrix}
 $$
+#todo
 # blocchi in retroazione o feedback
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}[scale = 2]
+\draw(0,0) to (1,0) to [generic, name = a] (3,0) to (4,0);
+\draw (3,0) to (3,-1) to [generic,name = r] (1,-1) to (1,-1) to (1,0);
+\node[left] at (0,0){$U$};
+\node[right] at (4,0){$y$};
+\node at (r){$G_r$};
+\node at (a){$G_a$};
+\draw (3.5,-.5) -- (3.75,.5);
+\end{tikzpicture}
+\end{document}
+```
+
+$a$ andata
+$r$ ritorno
+$G(s) = \frac{Y(s)}{U(s)}$
+Quindi $G_{a}U - G_{a}G_{r}Y = Y \implies \frac{Y}{U} = G(s) = \frac{G_{a}(s)}{1 + G_{a}(s)G_{r}(s)} = \frac{\text{andata}}{1 + \text{ anello}}$
+
+FdT d'anello $L(s) := G_{a}(s)G_{r}(s)$
+
+(L di loop)
