@@ -107,6 +107,11 @@ Come per i FSA, bisogna avere una fuzione di transizione totale e non parziale, 
 
 Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (Si possono eliminare), inoltre dobbiamo anche eliminare epsilon mosse alla fine, altrimenti se una stringa venisse accettata anche il suo complemento verrebbe accettato.
 
+>[!esempio] Esercizio
+>Progettare un APD che riconosca:
+>$\mathcal{L} = \left\{ w \in \left\{ a,b \right\}^* | \#_{a}(w) = \#_{b}(w)\right\}$ una stringa di a e b con lo stesso numero di $a$ e $b$.
+>
+
 # Automi a pila non deterministici
 Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]], possiamo quindi semplicemente rimuoverlo
 

@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elettrotecnica/risposta in frequenza.md",
+                "file": "API/Modelli operazionali/Automa a pila.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elettrotecnica/risposta in frequenza.md",
+                "file": "API/Modelli operazionali/Automa a pila.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elettrotecnica/risposta in frequenza.md",
+                "file": "API/Modelli operazionali/Automa a pila.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elettrotecnica/risposta in frequenza.md"
+                "file": "API/Modelli operazionali/Automa a pila.md"
               }
             }
           }
@@ -210,8 +210,11 @@
   },
   "active": "0f26d572800bf061",
   "lastOpenFiles": [
-    "Fondamenti di automatica/Risposta sinusoidale.md",
+    "API/Epsilon.md",
+    "API/Modelli operazionali/Automa a pila.md",
+    "API/gerarchia di Chomsky.md",
     "Elettrotecnica/risposta in frequenza.md",
+    "Fondamenti di automatica/Risposta sinusoidale.md",
     "Analisi 2/principio di sovrapposizione.md",
     "Fondamenti di automatica/Risposta esponenziale.md",
     "Fondamenti di automatica/Sistemi interconessi.md",
@@ -225,7 +228,6 @@
     "API/Logica.md",
     "Probabilità e statistica/caso elementare.md",
     "API/Modelli generativi/Grammatiche.md",
-    "API/gerarchia di Chomsky.md",
     "API/Linguaggio.md",
     "API/Modelli generativi/Modelli generativi.md",
     "API/Modelli operazionali/Modelli operazionali.md",
@@ -235,8 +237,6 @@
     "API/Chiusura.md",
     "API/Modelli operazionali/Macchine di Turing.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
-    "API/Modelli operazionali/Modelli non deterministici.md",
-    "API/Modelli operazionali/funzione di transizione.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
