@@ -89,7 +89,22 @@ Prima lettura dei vari nastri, poi scrittura sui nastri e movimento delle testin
 >  Ossia dobbiamo riconoscere le potenze di due in base 1
 > 1: divido per due
 > 2: raddopiio e confronto
->Smart 3: converto in base 2 e controllo se  è in ($1.0^*$)
+>Smart 3: converto in base 2 e controllo se  è in ($0^*.1$ (controlliamo l'inverso in quanto piú comodo))
+>
+>```mermaid
+>graph TB
+>	I --> q0
+>	q0 --->|"a,z0|z0,(s,r)"| q1
+>	q1 --->|"a,0|1,(s,l)"| q2
+>	q1 --->|"a,1|0,(s,r)"| q1
+>	q1 --->|"a,eps|1,(s,l)"| q2
+>	q2 --->|"a,0|0,(s,l)"| q2
+>	q2 --->|"a,1|1,(s,l)"|q2
+>	q2 --->|"a,z0|z0,(r,s)"| q0
+>	q0 --->|"blnk,z0|z0,(s,r)"| q3
+>	q3 --->|"blnk,0|0,(s,r)"| q3
+>	q3 --->|| q4
+>```
 
 # Macchina di turing a nastro singolo
 Macchina di turing "originale", è molto semplice, facile da studiare ma complessa da utilizzare.
