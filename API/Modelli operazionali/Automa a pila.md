@@ -107,7 +107,7 @@ Come per i FSA, bisogna avere una fuzione di transizione totale e non parziale, 
 
 Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (Si possono eliminare), inoltre dobbiamo anche eliminare epsilon mosse alla fine, altrimenti se una stringa venisse accettata anche il suo complemento verrebbe accettato.
 
->[!esempio] Esercizio
+>[!Esercizio]- 
 >Progettare un APD che riconosca:
 >$\mathcal{L} = \left\{ w \in \left\{ a,b \right\}^* | \#_{a}(w) = \#_{b}(w)\right\}$ una stringa di a e b con lo stesso numero di $a$ e $b$.
 >
@@ -162,7 +162,7 @@ Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (S
 >	q0 -->|"b,Z0|Z0,B"| q4
 >```
 
->[!esercizio]
+>[!esercizio]-
 >Scrivere APD che riconosca le espressioni vuote, ben parametrizzate con un solo tipo di parentesi (linguaggio di Dyck)
 >
 >Tutte le stringhe ben parentesizzate, incrementando il conto di uno quando ne apriamo una e decrementando quando ne chiudiamo, partono da 0 e arrivano a 0, rimanendo nel primo quadrante
@@ -170,15 +170,16 @@ Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (S
 > ```tikz
 >\begin{document}
 >\begin{tikzpicture}
->\draw[->] (0,0) -- (0,4);
+>\draw[->] (0,-1) -- (0,4);
 >\draw[->] (0,0) -- (8,0);
 >\draw[->,blue] (0,0) -- (1,1)node{$\bullet$} -- (2,2) node{$\bullet$} -- (3,1) node{$\bullet$}-- (4,2) node{$\bullet$}-- (5,1)node{$\bullet$} -- (6,0)node{$\bullet$}; 
->\draw[->,yellow] (0,0) -- (1,1) -- (2,0) -- (3,2) -- (4,2) -- (5,1) -- (6, 0) -- (7,-1); 
+>\draw[->,yellow] (0,0) -- (1,1)node{$\bullet$} -- (2,0)node{$\bullet$} -- (3,1)node{$\bullet$} -- (4,0)node{$\bullet$} -- (5,-1)node{$\bullet$}; 
 >
 >\end{tikzpicture}
 >\end{document}
 >```
->Corrisponde a (()()) 
+>Il grafico in blu corrisponde a `( ( ) ( ) )` 
+>Quello in giallo corrisponde a `( ) ( ) )`
 >
 >```mermaid
 >graph TB

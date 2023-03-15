@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
+                "file": "API/Modelli operazionali/Macchine di Turing.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
+                "file": "API/Modelli operazionali/Macchine di Turing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md",
+                "file": "API/Modelli operazionali/Macchine di Turing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Modelli operazionali/Automa a pila.md"
+                "file": "API/Modelli operazionali/Macchine di Turing.md"
               }
             }
           }
@@ -210,8 +210,8 @@
   },
   "active": "0f26d572800bf061",
   "lastOpenFiles": [
-    "API/Epsilon.md",
     "API/Modelli operazionali/Automa a pila.md",
+    "API/Epsilon.md",
     "API/gerarchia di Chomsky.md",
     "Elettrotecnica/risposta in frequenza.md",
     "Fondamenti di automatica/Risposta sinusoidale.md",

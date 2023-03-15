@@ -89,6 +89,7 @@ Comandi:
 Si ferma quando la funzoine di transizione la ferma, e il risultato dipende dallo stato a cui si ferma.
 Per memorizzare una grande quantità di informazioni si lavora espandendosi ai lati dell'ingresso, creando dei nastri "virtuali", ed in effetti è cosí che si dimostra, usando dei limitatori per imitare la configurazione di un $k$-nastri. Emulazione.
 
+>[!eser]
 
 # Macchina di Turing non deteriministica
 $$
