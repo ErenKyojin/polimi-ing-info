@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Risposta sinusoidale.md",
+                "file": "Elettrotecnica/risposta in frequenza.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Risposta sinusoidale.md",
+                "file": "Elettrotecnica/risposta in frequenza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Risposta sinusoidale.md",
+                "file": "Elettrotecnica/risposta in frequenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Risposta sinusoidale.md"
+                "file": "Elettrotecnica/risposta in frequenza.md"
               }
             }
           }
@@ -210,8 +210,9 @@
   },
   "active": "0f26d572800bf061",
   "lastOpenFiles": [
-    "Analisi 2/principio di sovrapposizione.md",
     "Fondamenti di automatica/Risposta sinusoidale.md",
+    "Elettrotecnica/risposta in frequenza.md",
+    "Analisi 2/principio di sovrapposizione.md",
     "Fondamenti di automatica/Risposta esponenziale.md",
     "Fondamenti di automatica/Sistemi interconessi.md",
     "Fondamenti di automatica/Realizzazione.md",
@@ -236,7 +237,6 @@
     "API/Modelli operazionali/Automa a stati finiti.md",
     "API/Modelli operazionali/Modelli non deterministici.md",
     "API/Modelli operazionali/funzione di transizione.md",
-    "Probabilità e statistica/Disuguaglanza di Chebychev.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",

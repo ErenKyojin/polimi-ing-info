@@ -66,3 +66,24 @@ y(t) &= \frac{U}{2j}(\underbrace{ M e^{j\varphi} }_{ G(j\omega) } e^{j\omega t} 
 \end{align}$$
 
 
+Il risultato è il teorema fondamentale della [[risposta in frequenza]]:
+
+>[!teorema]
+>Dato il SD LTI a TC (SISO):
+> $$\begin{cases}
+> \dot{x} = Ax + bu \\
+> y = cx + du
+>\end{cases}
+>$$
+>Detta $G(s)$ la sua [[funzione di trasferimento|FdT]]
+>E applicatogli l'ingresso $u(t) = U\sin(\omega t)\quad t \geq 0$
+>Allora:
+>1. Se $\pm j\omega$ non sono autovalori di $A$ allora esiste uno ed un solo stato iniziale $x(0)$ tale che $$y(t) = |G(j\omega)|U \sin (\omega t + \arg(G(j\omega))\qquad t \geq 0$$
+>   >[!oss] anche per [[sistemi]] instabili!
+>
+>2. Se **inoltre** il sistema è asintoticamente stabile allora $\forall x(0)$:
+>   $$
+> y(t) \to |G(j \omega)|U \sin(\omega t + \arg(G(j\omega )))\qquad t \to \infty
+>$$
+>
+
