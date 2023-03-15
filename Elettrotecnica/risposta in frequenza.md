@@ -15,7 +15,7 @@ $$G(j 20) = \frac{1}{1 + 2j} \implies \begin{cases}
 \arg^o = \arctan^o(2) = -63,5^o)
 \end{cases}$$
 
-## Rappresentazioni della Risposta in frequenza di una FdT $G(s)$
+## Rappresentazioni della Risposta in frequenza di una [[funzione di trasferimento|FdT]] $G(s)$
 
 
 ### 1. Diagramma polare
@@ -38,16 +38,31 @@ $$G(j 20) = \frac{1}{1 + 2j} \implies \begin{cases}
 Piani complessi
 
 ### 2. Diagramma cartesiani o di Bode
-Diagramma di bode del modulo DBM
+1. Diagramma di bode del [[modulo]] DBM
 ```tikz
 \begin{document}
 \begin{tikzpicture}[scale = 2]
-\draw[->,thick] (0,0) -- (5,0);
-\node[below] at (0.25,0){1} node[below] at (1.25,0){10} node[below] at(2.25,0){100} node[below] at (3.25,0){1000};
+\draw[->,thick] (0,0) -- (5,0) node[above]{$\omega$};
+\node[below] at (0.25,0){1} node[below] at (1.25,0){10} node[below] at(2.25,0){100} node[below] at (3.25,0){1000} node[below] at (4.25,0){10000};
 \end{tikzpicture}
 \end{document}
 ```
 
+Si tratta di un asse [[logaritmo]], pari distanza significa pari rapporto
 >[!def]
->$x|_{dB} := 20 \log_{10}|a|$
->$100|_{dB} = 40;\quad 0.1|_{dB} = -20$
+>$x|_{dB} := 20 \log_{10}|x|$
+>$100|_{dB} = 40;\quad 0.1|_{dB} = -20,$
+
+2. Diagramma di bode della fase DBF
+	uguale ma con l'argomento sull'asse y
+
+
+
+#### Tracciamento dei diagrammi di Bode (asintotici)
+Per tracciare diagrammi di Bode asintotici scriviamo la [[funzione di trasferimento|FdT]] $G(s)$ della cui risposta in frequenza vogliamo i diagrammi di bode nela forma:
+$$\large G(s)= \frac{\fcolorbox{red}{}{ $ \mu $}}{s^{\fcolorbox{yellow}{}{ $ g $}}} \frac{(1+s\tau_{1})(1 + s\tau_{2})\dots}{(1+s\tau_{1})(1 + s\tau_{2})\dots}$$
+- $\mu$ è detto guadagno della fdt
+- $g$ è detto tipo della FdT
+- Zeri $\mathbb{R}$ non nell'origine
+- Poli $\mathbb{R}$ non nell'origine
+- $t,\tau$ costanti di tempo di poli e zeri
