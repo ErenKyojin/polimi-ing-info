@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Logica.md",
+                "file": "Probabilità e statistica/Variabile aleatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Logica.md",
+                "file": "Probabilità e statistica/Variabile aleatoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Logica.md"
+                "file": "Probabilità e statistica/Variabile aleatoria.md"
               }
             }
           }
@@ -172,10 +172,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0239720221f1454d",
+  "active": "02daaa779ddfab41",
   "lastOpenFiles": [
-    "Probabilità e statistica/Variabile aleatoria.md",
     "API/Logica.md",
+    "Probabilità e statistica/Variabile aleatoria.md",
     "Probabilità e statistica/caso elementare.md",
     "API/Modelli generativi/Grammatiche.md",
     "API/gerarchia di Chomsky.md",

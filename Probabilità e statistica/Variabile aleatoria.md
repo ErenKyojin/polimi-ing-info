@@ -64,3 +64,6 @@ $$
 > $y = g(x)$
 > $y \sim \text{Be}(p)$ e $p^k(1-p)^{1-k}\quad k = 0,1$
 > $\quad p = p (y =1) = p(x \geq c) = 1 - F_{u(a,b)}(a) = \frac{b - c}{}$
+
+
+Metodo della [[funzione di ripartizione]]
