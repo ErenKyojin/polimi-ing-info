@@ -72,7 +72,7 @@ Ma possono esserci tra $N_{1}$ e $D_{2}$
 $Y = Y_{1} + Y_{2} = G_{1}U_{1} + G_{2}U_{2} = (G_{1} + G_{2})U \implies G(s) = G_{1}(s) + G_{2}(s)$
 
 scrivendo $G_{i} = \frac{N_{i}}{D_{i}} \implies G = \frac{N_{1}}{D_{1}} + \frac{N_{2}}{D_{2}} = \frac{N_{1}D_{1} + N_{2}D_{2}}{D_{1}D_{2}}$
-Autovalori del sistema complessivo = $\left\{ \text{poli di }G_{1} \right\} \cup \left\{ \text{poli di }G_{2} \right\}$
+[[Autovalori e Autovettori|Autovalori]] del sistema complessivo = $\left\{ \text{poli di }G_{1} \right\} \cup \left\{ \text{poli di }G_{2} \right\}$
 - $G_{1}$ e $G_{2}$ AS $\iff$ $G$ ASpoli di g1 
 - Possono nascere parti nascoste
 
@@ -108,7 +108,7 @@ $$
 \node[right] at (4,0){$y$};
 \node at (r){$G_r$};
 \node at (a){$G_a$};
-\draw (3.5,-.5) -- (3.75,.5);
+\draw[blue] (3.5,-.2) -- (3.75,.2) node[above]{taglio};
 \end{tikzpicture}
 \end{document}
 ```
@@ -118,6 +118,29 @@ $r$ ritorno
 $G(s) = \frac{Y(s)}{U(s)}$
 Quindi $G_{a}U - G_{a}G_{r}Y = Y \implies \frac{Y}{U} = G(s) = \frac{G_{a}(s)}{1 + G_{a}(s)G_{r}(s)} = \frac{\text{andata}}{1 + \text{ anello}}$
 
-FdT d'anello $L(s) := G_{a}(s)G_{r}(s)$
+[[funzione di trasferimento|FdT]] d'anello $L(s) := G_{a}(s)G_{r}(s)$
 
 (L di loop)
+
+Posto $G_{a} = \frac{N_{a}}{D_{a}}$ e $G_{r} = \frac{N_{r}}{D_{r}}$
+$$\begin{align}
+G &= \frac{N_{a} / D_{a}}{D_1 + \frac{N_{a}N_{r}}{D_{a}D_{r}}}= \frac{\cancel{ D_{a} }D_{r} N_{a} / \cancel{ D_{a} }}{D_{a}D_{r} + N_{a}N_{r}} =\\
+&= \frac{N_{a}D_{r}}{D_{a}D_{r} + N_{a}N_{r}}
+\end{align}$$
+Non è una cancellazione perchè non sono un numeratore ed un denominatore ma sono lo stesso polinomio che compare due volte.
+
+Quindi:
+$$
+\left\{ \text{Poli di $G_{a}$ e di $G_{r}$} \right\} \xleftrightarrow{\quad?\quad}  \left\{ \text{autovalori del sistema complessivo} \right\}  
+$$
+Quindi l'AS di $G_{2}$ e $Gr$ non occore per quello del sistema complessivo e possono nascere parti nascoste.
+
+
+## Nello spazio di stato
+$$G_{b} : (A_{a},b_{a},c_{a},d_{a})\qquad G_{r} : (A_{r},b_{r},c_{r},d_{r})$$
+Il fatto che almeno uno dei due sistemi sia strettamente proprio è condizione sufficiente perchè l'anello sia ben posto, cioè le sue equazioni ammettano soluzioni.
+
+Equazione connesione (caso retroazione negativa)
+$$
+
+$$
