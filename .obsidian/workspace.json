@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli generativi/Grammatiche.md",
+                "file": "Probabilità e statistica/Variabile aleatoria.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Modelli generativi/Grammatiche.md",
+                "file": "Probabilità e statistica/Variabile aleatoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Modelli generativi/Grammatiche.md",
+                "file": "Probabilità e statistica/Variabile aleatoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Modelli generativi/Grammatiche.md"
+                "file": "Probabilità e statistica/Variabile aleatoria.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "02daaa779ddfab41",
   "lastOpenFiles": [
-    "API/gerarchia di Chomsky.md",
+    "Probabilità e statistica/caso elementare.md",
     "API/Modelli generativi/Grammatiche.md",
+    "API/gerarchia di Chomsky.md",
     "API/Linguaggio.md",
     "API/Modelli generativi/Modelli generativi.md",
     "API/Modelli operazionali/Modelli operazionali.md",
@@ -188,7 +189,6 @@
     "conflict-files-obsidian-git.md",
     "Probabilità e statistica/Funzioni di variabili aleatorie discrete.md",
     "API/Modelli descrittivi.md",
-    "API/problema.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",

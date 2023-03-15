@@ -46,3 +46,21 @@ P : \Omega \to \mathbb{R} \\
 \end{align} \implies
 \mathbb{R} x \text{ probabilizzabile}
 $$
+# Variabili aleatorie assolutamente continue
+#todo
+
+## Funzioni di variabili aleatorie assolutamente continue
+
+>[!esempio]
+> $x$ variabile aleatoria assolutamente continua, carica batterica di un campione di liquidio da un bacino di lavorazione alimentare, $u(a,b)$
+> $c$ limite massimo di legge
+> 
+> se $x \geq c$ blocco la produzione e pulisco il bacino
+> se $x < c$ la produzione continua
+>
+> il nostro evento di interesse è $\left\{ x \geq c \right\} \iff y = \mathbb{1}(x) = \begin{cases}0\\1\quad x \geq c\end{cases}$
+> 
+> $y \sim$ modello probabilistico
+> $y = g(x)$
+> $y \sim \text{Be}(p)$ e $p^k(1-p)^{1-k}\quad k = 0,1$
+> $\quad p = p (y =1) = p(x \geq c) = 1 - F_{u(a,b)}(a) = b - c$
