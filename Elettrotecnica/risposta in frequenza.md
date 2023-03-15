@@ -60,9 +60,29 @@ Si tratta di un asse [[logaritmo]], pari distanza significa pari rapporto
 
 #### Tracciamento dei diagrammi di Bode (asintotici)
 Per tracciare diagrammi di Bode asintotici scriviamo la [[funzione di trasferimento|FdT]] $G(s)$ della cui risposta in frequenza vogliamo i diagrammi di bode nela forma:
-$$\large G(s)= \frac{\fcolorbox{red}{}{ $ \mu $}}{s^{\fcolorbox{yellow}{}{ $ g $}}} \frac{(1+s\tau_{1})(1 + s\tau_{2})\dots}{(1+s\tau_{1})(1 + s\tau_{2})\dots}$$
+$$\large G(s)= \frac{\fcolorbox{red}{}{ $ \mu $}}{s^{\fcolorbox{yellow}{}{ $ g $}}} \frac{\fcolorbox{purple}{}{ $ (1+s\tau_{1})(1 + s\tau_{2})\dots $}}{\fcolorbox{pink}{}{ $ (1+s\tau_{1})(1 + s\tau_{2})\dots $}} \frac{\left( 1 + \frac{2\xi}{\sigma_{n}}s + \frac{1}{\sigma_{n}^2}s^2 \right)\dots}{\left( 1 + \frac{2\xi}{\omega_{n}} s + \frac{1}{\omega_{n}^2}s^2\right)\dots}$$
 - $\mu$ è detto guadagno della fdt
 - $g$ è detto tipo della FdT
-- Zeri $\mathbb{R}$ non nell'origine
-- Poli $\mathbb{R}$ non nell'origine
+- Zeri $\mathbb{R}$ non nell'origine (in viola)
+- Poli $\mathbb{R}$ non nell'origine (in rosa)
 - $t,\tau$ costanti di tempo di poli e zeri
+- La seconda vale 1 per $S = 0$
+- Coppie di zeri $\mathbb{C}$ coniugati num
+- Coppie di poli $\mathbb{C}$ coniugati den
+- $\omega, \sigma$: frequenze naturali
+- $\xi, I$ frequenze di smorzamento
+
+>[!esempio]
+> $$
+> G(s) = \frac{s+2)(s^2 - 3s + 2}{s^3 + 4s^2 + s}
+>$$
+>Ai fini dei diagrammi di Bode:
+> $$
+> G(s) = \frac{2(1 + 0,5s)(s-1)(s-2)}{s(s^2 + 4s + 1)} = \frac{2(1 + 0.5s)(-1)(1 - s)(-2)(1 - 0.5s)}{(s-s_{1})(s-s_{2})}
+>$$
+>Con $s_{1,2} = -2 \mp \sqrt{ 3 }$
+>quindi:
+> $$
+> \frac{""}{S(-s_{1})\left( 1-\frac{s}{s_{1}} \right)(-s_{2})\left( 1 - \frac{s}{s_{2}} \right)} = \frac{2(-1)(-2)}{(-s_{1})}
+>$$
+
