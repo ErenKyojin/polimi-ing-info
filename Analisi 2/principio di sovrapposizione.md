@@ -1,3 +1,6 @@
+---
+aliases: PSE
+---
 # Principio di sovrapposizione
 >[!def]
 >Sia $a : J \subset \mathbb{R}$ continua su $J$, l'applicazione lineare
