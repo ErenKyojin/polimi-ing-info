@@ -129,11 +129,13 @@ Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (S
 >
 >```mermaid
 >graph LR
+>	I --> q0
 >	q0((q0)) -->|"a,Z0|Z0,A"| q2
 >	q0 -->|"b,Z0|Z0"| q1((q1))
 >	q1 -->|"b,Z0|Z0"| q1
 >	q2 -->|"a,A|AA"| q3
->	q3 -->|"a,A|AA"| q2
+>	q3((q3)) -->|"a,A|AA"| q2
+>	q3 -->|"b,A|A"| q4
 >	q2 -->|"b,A|A"| q4
 >	q4 -->|"b,A|A"| q4
 >	q4 -->|"a,A|eps"| q5
