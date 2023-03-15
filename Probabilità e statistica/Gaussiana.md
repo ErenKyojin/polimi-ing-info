@@ -19,12 +19,14 @@ $$
 }
 
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[scale=1.5]
 \begin{axis}[samples=50, smooth, mark = none, domain=-4:4, axis lines = left]
-\addplot[blue]{gauss(0,1)};
-\addlegend
-\addplot[red]{gauss(-1,0.5)};
-\addplot[green]{gauss(0,2)};
+\addplot[blue,thick]{gauss(0,1)};
+\addlegendentry{N(0,1)};
+\addplot[red,thick,dashed]{gauss(-1,0.5)};
+\addlegendentry{N(-1,0.5)};
+\addplot[green,thick,dashed]{gauss(0,2)};
+\addlegendentry{N(0,2)}
 \end{axis}
 \end{tikzpicture}
 \end{document}
