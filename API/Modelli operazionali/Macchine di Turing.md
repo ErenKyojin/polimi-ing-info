@@ -87,6 +87,9 @@ Prima lettura dei vari nastri, poi scrittura sui nastri e movimento delle testin
 >Progettare un MT a 1 nastro che accetti il linguaggio:
 >$\mathcal{L} = \left\{ a^{(2^n)} | n \geq 0 \right\} = \left\{ a,aa,aaaa,a^8, a^{16},\dots \right\}$
 >  Ossia dobbiamo riconoscere le potenze di due in base 1
+> 1: divido per due
+> 2: raddopiio e confronto
+>Smart 3: converto in base 2 e controllo se  è in ($1.0^*$)
 
 # Macchina di turing a nastro singolo
 Macchina di turing "originale", è molto semplice, facile da studiare ma complessa da utilizzare.
