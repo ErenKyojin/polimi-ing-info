@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Gaussiana.md",
+                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Gaussiana.md",
+                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Gaussiana.md",
+                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Gaussiana.md"
+                "file": "Fondamenti di automatica/Antitrasformazione di Laplace.md"
               }
             }
           }
@@ -186,8 +186,8 @@
   },
   "active": "22f7935d8f0e9c3b",
   "lastOpenFiles": [
-    "Probabilità e statistica/Variabile aleatoria.md",
     "Probabilità e statistica/Gaussiana.md",
+    "Probabilità e statistica/Variabile aleatoria.md",
     "API/Logica.md",
     "Probabilità e statistica/caso elementare.md",
     "API/Modelli generativi/Grammatiche.md",

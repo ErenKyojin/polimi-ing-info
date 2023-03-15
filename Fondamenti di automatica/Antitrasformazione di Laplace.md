@@ -1,5 +1,5 @@
 Antitrasformazione di laplace secondo Heaviside
-Il metodo si applica a trasformate di Laplace razionali fratte, cioè
+Il metodo si applica a [[Trasformata di Laplace|trasformate di Laplace]] razionali fratte, cioè
 $$
 V(s) = \frac{N(s)}{D(s)}
 $$
