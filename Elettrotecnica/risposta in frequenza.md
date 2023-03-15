@@ -23,10 +23,31 @@ $$G(j 20) = \frac{1}{1 + 2j} \implies \begin{cases}
 \usepackage{pgfplots}
 \begin{document}
 \begin{tikzpicture}
-\begin{axis}
+\begin{axis}[axis lines = left, smooth, samples = 50]
+
 \end{axis}
-\begin{axis}
+\draw[->, red] (0,0) -- (0,5);
+\end{tikzpicture}
+\begin{tikzpicture}
+\begin{axis}[axis lines = left, smooth, samples = 50]
 \end{axis}
+\node at (3,3){spirale};
 \end{tikzpicture}
 \end{document}
 ```
+Piani complessi
+
+### 2. Diagramma cartesiani o di Bode
+Diagramma di bode del modulo DBM
+```tikz
+\begin{document}
+\begin{tikzpicture}[scale = 2]
+\draw[->,thick] (0,0) -- (5,0);
+\node[below] at (0.25,0){1} node[below] at (1.25,0){10} node[below] at(2.25,0){100} node[below] at (3.25,0){1000};
+\end{tikzpicture}
+\end{document}
+```
+
+>[!def]
+>$x|_{dB} := 20 \log_{10}|a|$
+>$100|_{dB} = 40;\quad 0.1|_{dB} = -20$
