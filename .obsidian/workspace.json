@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/accelerazione scalare istantanea.md",
+                "file": "Fisica/moto.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/accelerazione scalare istantanea.md",
+                "file": "Fisica/moto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/accelerazione scalare istantanea.md",
+                "file": "Fisica/moto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/accelerazione scalare istantanea.md"
+                "file": "Fisica/moto.md"
               }
             }
           }
@@ -174,9 +174,9 @@
   },
   "active": "9ff0e980f62f82d3",
   "lastOpenFiles": [
-    "Fisica/Accelerazione scalare media.md",
     "Fisica/accelerazione scalare istantanea.md",
     "Fisica/velocità scalare istantanea.md",
+    "Fisica/Accelerazione scalare media.md",
     "Fisica/Velocità.md",
     "Fisica/Velocità scalare media.md",
     "Fisica/moto.md",
