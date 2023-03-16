@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f495af9d192ac87a",
+        "id": "8803ac7fde3b117b",
         "type": "tabs",
         "children": [
           {
-            "id": "7cab0833e7c1303b",
+            "id": "4be37d9716c95914",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/velocità scalare istantanea.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ff0e980f62f82d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/velocità vettoriale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b8bb50791594bad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/moto.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0239720221f1454d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API/Logica.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/moto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/moto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Fisica/moto.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -184,16 +139,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5b8bb50791594bad",
+  "active": "4be37d9716c95914",
   "lastOpenFiles": [
-    "Analisi 2/coordinate polari.md",
+    "Fisica/velocità scalare istantanea.md",
+    "Fisica/velocità vettoriale.md",
     "Fisica/moto.md",
+    "Analisi 2/coordinate polari.md",
     "Fisica/Punto materiale.md",
     "Fisica/Accelerazione vettoriale.md",
-    "Fisica/velocità vettoriale.md",
     "Fisica/accelerazione scalare istantanea.md",
     "Fisica/Accelerazione scalare media.md",
-    "Fisica/velocità scalare istantanea.md",
     "Fisica/Velocità scalare media.md",
     "Fisica/Cinematica.md",
     "Fisica/Velocità.md",
