@@ -79,7 +79,24 @@ Quindi $V[\min \left\{ x.2 \right\}]= 278.55$
 
 # 4
 $x = \#$ capi confeionati in una settimana
+1
 $E[x] = 5, E[x^2]=30$
 $$
-p(2 \leq x \leq 8) = \mathbb{P}
+p(2 \leq x \leq 8) = \mathbb{P} (2 E[x] \leq x - E[x] \leq 8E[x] ) = P(3 \leq x - E[x] \leq 3) = 1 - P(|x - E[x]|) \geq 1 - \frac{V[x]}{3^2} = \frac{4}{9}
+$$
+
+2. $E[x]$, $V = \frac{5}{n + 1}$ $n = \#$operai assunti
+$\mathbb{P}(2 \leq x \leq 8) \geq 1 - \frac{V[x]}{9} = 1- \frac{5}{(u-1)9} \geq 0.8 \implies \frac{5}{(u - 1)9} \geq 0.2 \implies u \geq = 1.778$ 
+
+
+# 5
+$x$ variabile aleatoria discreta con densità $f_{x}(k)=0,3^{|k|} 0,4^{1 - |k|} \mathbb{1}_{\left\{ -1,0,1 \right\}}(k)$
+
+$x \in \left\{ -1,0,1 \right\}$
+$$
+f_{x}(k) =\begin{cases}
+0,3&\text{se }k = -1 \\
+0,4 &\text{se } k = 0 \\
+0,3 &\text{se } k = 1
+\end{cases}
 $$
