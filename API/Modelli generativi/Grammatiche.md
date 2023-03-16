@@ -162,3 +162,13 @@ $G$ deve generare tutte le stringhe del tipo $x\$X$, $x \in V_{T}^*$ con $X$ cop
 L'obiettivo è ricavare da $\text{ x }\$\text{ X } \Longrightarrow^* \text{x}$ se e solo $\text{x}$ è accettata da $M$.
 Vogliamo quindi simulare ogni mossa di M mediante una derivazione immediata di $G$.
 
+Rappresentando una configurazione generica:
+
+```tikz
+\usetikzlibrary{automata}
+\begin{document}
+\begin{tikzpicture}
+\node[state] {q0};
+\end{tikzpicture}
+\end{document}
+```
