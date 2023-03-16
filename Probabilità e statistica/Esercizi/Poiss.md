@@ -21,4 +21,34 @@ Prob di vincere un solo concorso
 $P(x = 1) \approx P(Z = 1) = e^{-\lambda}\lambda = e^{-\lambda}\lambda = e^{ -\lambda }\lambda=e^{ -1.44 }1.44$   
 
 
-1. 
+1. vinco almeno un premio
+   $$P(x \geq 1) = P(z \geq 1) = 1 - P(z =0) = 1 - e^{ -\lambda } = 1 - e^{-1.44}$$
+2. vinco 30 premi
+   $$P(x = 30) = P(z = 30) = \frac{e^{-\lambda}\lambda^{30}}{30} = e^{1.44} \frac{1.44^{30}}{30}$$
+3.  $E[x] = up = 180 \cdot 0,008 = \lambda = 1.44$
+
+# 4
+$X = \#$ torte richieste in un giorno
+costo di produzione: $10$
+prezzo di vendità: $24$
+
+Densità di profitto giornaliero?
+$k = \#$ torte prodotte
+$y(k) = 24\min\left\{ k,x \right\} - 10k$ profitto giornaliero in un giorno in cui ho prodotto $k$ torte
+
+$$
+p_{x}(x) = \begin{cases}
+0.10\quad&\text{x = 0} \\
+0.18 &\text{x = 1}\\
+0.30 &\text{x = 2}\\
+0.25 &\text{x=3}\\
+0.17 &\text{x = 4}
+\end{cases}
+$$
+Vediamo una richiesta di due torte
+
+$y_{2} = \min\left\{ 2,x \right\}24 - 20 \in \left\{ -20, +4, +28 \right\}$
+$$p_{y_{2}}(y)=\begin{cases} 
+P_{x}(0)\quad y = -20 \\
+P_{x}(1) 
+\end{cases}$$
