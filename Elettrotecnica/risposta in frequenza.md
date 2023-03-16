@@ -238,12 +238,49 @@ $\omega \to 0 \implies \Re \to 1, \Im \to 0$
 $|G_{d}(j\omega)|_{\dB} \to 0$
 $\angle G_{d}(j\omega) \to 0$
 
+$$
+G_{d}(s) = \frac{1}{\omega_{n}^2}(s - s_{1})(s-s_{2})
+$$
 
 ```tikz
 \begin{document}
 \begin{tikzpicture}
 \draw[->](0,0) -- (10,0) node[below]{$\Re$};
-\draw[->](5,0) --
+\draw[->](5,-5) -- (5,5) node[right]{$\Im$};
+\node at (1,2)(s1){$\bullet$};
+\node at (1,-2)(s2){$\bullet$};
+\node at (5,0)(c){};
+\node at (5,3)(jw){};
+\node at (s1)[above]{$S_1$};
+\node at (s2)[above]{$S_2$};
+\node at (jw)[right]{$j\omega$ generico};
+\draw (c.center) -- (s1.center);
+\draw (c.center) -- (s2.center);
+\draw[red,->] (s1.center) -- (jw.center);
+\draw[red,->] (s2.center) -- (jw.center);
+\end{tikzpicture}
+\end{document}
+```
+la distanza tra il centro e le radici è $\omega_n$
+$|G_{d}| \to \infty$ come $\omega ^2$ e 
+$\angle G_{d} \to 180$
+
+>[!oss]
+> $|j\omega - s_{2}|$ è monotona crescente
+> $|j\omega - s_{1}|$ ha un minimo
+>
+>piú s1 ed s2 sono vicini all'asse immaginario piú tale minimo è pronunciato
+
+```tikz
+\usetikzlibrary{decorations.pathreplacing}
+\begin{document}
+\begin{tikzpicture}
+\node at (5,2){DBM};
+\draw[->] (0,0) node[left]{$0 dB$} -- (10,0)node[right]{$\omega$};
+%\draw[blue,thick] (0,.5) -- (10,-.5) node[right]{$g>1$};
+\draw[red,thick] (0,.01) -- (5,.01) -- (10, 10);
+\node at (5,0)(c){|};
+\node[below] at (c){$1/|T|$};
 \end{tikzpicture}
 \end{document}
 ```
