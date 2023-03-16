@@ -171,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,6 +186,8 @@
   },
   "active": "5b8bb50791594bad",
   "lastOpenFiles": [
+    "Analisi 2/coordinate polari.md",
+    "Fisica/moto.md",
     "Fisica/Punto materiale.md",
     "Fisica/Accelerazione vettoriale.md",
     "Fisica/velocità vettoriale.md",
@@ -195,7 +196,6 @@
     "Fisica/velocità scalare istantanea.md",
     "Fisica/Velocità scalare media.md",
     "Fisica/Cinematica.md",
-    "Fisica/moto.md",
     "Fisica/Velocità.md",
     "Fisica/ascissa curvilinea.md",
     "Fisica/Legge oraria.md",
@@ -213,7 +213,6 @@
     "Probabilità e statistica/Esercizi",
     "API/Modelli descrittivi.md",
     "API/Modelli operazionali/Automa a pila.md",
-    "API/Epsilon.md",
     "API/Modelli generativi",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
