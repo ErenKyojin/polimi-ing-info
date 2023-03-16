@@ -11,8 +11,12 @@
             "id": "4be37d9716c95914",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Elettrotecnica/risposta in frequenza.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Bode",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Elettrotecnica/risposta in frequenza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Elettrotecnica/risposta in frequenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Elettrotecnica/risposta in frequenza.md"
+              }
             }
           }
         ],
@@ -141,6 +149,8 @@
   },
   "active": "4be37d9716c95914",
   "lastOpenFiles": [
+    "Probabilità e statistica/Esercizi/PESe3.md",
+    "Elettrotecnica/risposta in frequenza.md",
     "Fisica/velocità scalare istantanea.md",
     "Fisica/velocità vettoriale.md",
     "Fisica/moto.md",
@@ -164,10 +174,8 @@
     "Settings/templates/Basic template.md",
     "Settings/templates/Newfile.md",
     "API/Modelli operazionali/Macchine di Turing.md",
-    "Probabilità e statistica/Esercizi/3.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli descrittivi.md",
-    "API/Modelli operazionali/Automa a pila.md",
     "API/Modelli generativi",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",

@@ -86,3 +86,12 @@ $$\large G(s)= \frac{\fcolorbox{red}{}{ $ \mu $}}{s^{\fcolorbox{yellow}{}{ $ g $
 > \frac{\text{""}}{S(-s_{1})\left( 1-\frac{s}{s_{1}} \right)(-s_{2})\left( 1 - \frac{s}{s_{2}} \right)} = \frac{2(-1)(-2)}{(-s_{1})(-s_{2})} \frac{1}{s} \frac{1 + 0.5s)(1-s)(1-0.5s}{\left( 1-\frac{s}{s_{1}} \right)\left( 1-\frac{s}{s_{2}} \right)}
 >$$
 
+
+Quindi ogni funzione di trasferimento razionale fratta si puó esprimere come prodotto di termini del tipo
+$$
+\begin{array}{cc}
+
+G_{a}(s) = \mu & G_{c}(s) = 1 + sT \\
+G_{b}(s) = \frac{1}{s^y} & G_{d}(s) = 1 + 2 \frac{s}{\omega}
+\end{array}
+$$
