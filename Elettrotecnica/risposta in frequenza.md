@@ -141,16 +141,17 @@ $|G_{b}(j\omega)| = \frac{1}{\omega^g} \implies -20 g \log_{10} \omega$
 $\angle G_{b}(j\omega) = - g \cdot 90$
 
 ```tikz
-\usetikzlibrary{decorations.pathreplacing,calligraphy}
+\usetikzlibrary{decorations.pathreplacing}
 \begin{document}
 \begin{tikzpicture}
 \node at (5,2){DBM};
 \draw[->] (0,0) -- (10,0)node[right]{$\omega$};
-\draw[blue,thick] (0,.5) -- (10,-.5) node[right]{$|\mu|>1$};
+\draw[blue,thick] (0,.5) -- (10,-.5) node[right]{$g>1$};
+\draw[red,thick] (0,-.5) -- (10,.5) node[right]{$g=-2$};
 \node[above] at (5,0){1};
 \node[above] at (2,0){0.1};
 \node[above] at (8,0){10};
-\draw [decorate, decoration = {calligraphic brace}] (2,0) -- (5);
+\draw [decorate, decoration = {brace,mirror}] (2,0) -- (5,0);
 \end{tikzpicture}
 \end{document}
 ```
@@ -158,3 +159,43 @@ $\angle G_{b}(j\omega) = - g \cdot 90$
 Tra 0.1 ed 1 e tra 1 e 10 ci è una decade
 
 La pendenza è $-20 g \dB/\text{decade }$, si dice "pendenza-$g$"
+
+BBF orizzonatale al valore $-g \cdot90$
+
+
+
+# $G_{C}$
+$G_{c}(s) = 1 + sT$
+$G_{c}(j\omega ) = 1 + j\omega T$
+
+### APPROSSIMAZIONE
+QUando $|\omega T| \gg 1$
+$G_{c}(j\omega) \approx j\omega T$
+
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[->,red] (0,0) -- (0,3)node[right]{$j\omega T, T > 0$};
+\draw[->,blue] (0,0) -- (0,-3)node[right]{$j\omega T, T < 0$};
+\end{tikzpicture}
+\end{document}
+```
+Quando $\omega T \ll 1$
+$G()$ #todo foto
+
+```tikz
+\usetikzlibrary{decorations.pathreplacing}
+\begin{document}
+\begin{tikzpicture}
+\node at (5,2){DBM};
+\draw[->] (0,0) -- (10,0)node[right]{$\omega$};
+%\draw[blue,thick] (0,.5) -- (10,-.5) node[right]{$g>1$};
+\draw[red,thick] (0,.01) -- (5,.01) node[right]{$g=-2$};
+\node at (5,0)(c){|};
+\node[below] at (c){$1/|T|$};
+\end{tikzpicture}
+\end{document}
+```
+
+
