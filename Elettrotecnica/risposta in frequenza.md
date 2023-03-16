@@ -305,3 +305,4 @@ con $\xi=0 \implies s_{1},s_{2} \exists \implies$ asintoto verticale su $\omega 
 ```
 IN base al valore di $\xi$ il cambio di fase è piú repentino
 
+[[Metodo di tracciamento]]
