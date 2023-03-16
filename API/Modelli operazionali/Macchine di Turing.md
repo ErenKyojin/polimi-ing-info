@@ -94,6 +94,16 @@ Prima lettura dei vari nastri, poi scrittura sui nastri e movimento delle testin
 >```mermaid
 >graph TB
 >	I --> q0
+>	subgraph Controllo
+>	q3
+>	q4
+>	q5
+>	end
+>	subgraph Lettura
+>	q0
+>	q1
+>	q2
+>	end
 >	q0 --->|"a,z0|z0,(s,r)"| q1
 >	q1 --->|"a,0|1,(s,l)"| q2
 >	q1 --->|"a,1|0,(s,r)"| q1
@@ -103,8 +113,18 @@ Prima lettura dei vari nastri, poi scrittura sui nastri e movimento delle testin
 >	q2 --->|"a,z0|z0,(r,s)"| q0
 >	q0 --->|"blnk,z0|z0,(s,r)"| q3
 >	q3 --->|"blnk,0|0,(s,r)"| q3
->	q3 --->|| q4
+>	q3 --->|"blnk,1|1,(s,r)"| q4
+>	q4 --->|"blnk,blnk|blnk,(s,s)"| q5
 >```
+>
+>Controlliamo la lunghezza delle due fasi, per l'input:
+> $3n + 2 \sum_{i=1}^n \log_{2}(i) = \log\left( \prod_{i=1}^n i\right) = 3n + 2 \log_{2}(n!)$
+> $\leq n \log_{2}(n) = o(n^{1+\varepsilon})$, è una funzione poco piú che lineare, inoltre è una stima estremamente negativa, la sommatoria all'inizio tiene in considerazione la sfortuna di dover fare tutti i riporti ad ogni passaggio, ma in realtà succede solo quando il numero rappresentato è $2^{n}-1$ e passiamo a $2^n$. In media il numero di riporti che dobbiamo fare ad ogni passaggio è 1.
+> 
+
+>[!warning]
+>Oss, non ci sono epsilon mosse sulle macchine di turing
+
 
 # Macchina di turing a nastro singolo
 Macchina di turing "originale", è molto semplice, facile da studiare ma complessa da utilizzare.
