@@ -111,10 +111,11 @@ $G_{a}(s) = \mu \implies G_{a}(j\omega ) = \mu$
 $|G_{a}(j\omega)|_{dB} = 20 \log_{10}|\mu|$
 $\angle G(j\omega) = \begin{cases}0 &\mu > 0 \\ -180 & \mu < 0\end{cases}$
 
-DBM
+
 ```tikz
 \begin{document}
 \begin{tikzpicture}
+\node at (5,2){DBM};
 \draw[->] (0,0) -- (10,0)node[right]{$\omega$};
 \draw[red] (0,.5) -- (10,.5) node[right]{$|\mu|>1$};
 \draw[blue] (0,-.5) -- (10,-.5) node[right]{$|\mu|>1$};
@@ -136,15 +137,24 @@ DBF
 
 # $G_{b}$
 
-$|G_{b}(j\omega)| = \frac{1}{\omega^g} \implies 20 g \log_{10} \omega$
+$|G_{b}(j\omega)| = \frac{1}{\omega^g} \implies -20 g \log_{10} \omega$
 $\angle G_{b}(j\omega) = - g \cdot 90$
 
 ```tikz
+\usetikzlibrary{decorations.pathreplacing,calligraphy}
 \begin{document}
 \begin{tikzpicture}
+\node at (5,2){DBM};
 \draw[->] (0,0) -- (10,0)node[right]{$\omega$};
-\draw[red] (0,.5) -- (10,.5) node[right]{$|\mu|>1$};
-\draw[blue] (0,-.5) -- (10,-.5) node[right]{$|\mu|>1$};
+\draw[blue,thick] (0,.5) -- (10,-.5) node[right]{$|\mu|>1$};
+\node[above] at (5,0){1};
+\node[above] at (2,0){0.1};
+\node[above] at (8,0){10};
+\draw [decorate, decoration = {calligraphic brace}] (2,0) -- (5);
 \end{tikzpicture}
 \end{document}
 ```
+
+Tra 0.1 ed 1 e tra 1 e 10 ci è una decade
+
+La pendenza è $-20 g \dB/\text{decade }$, si dice "pendenza-$g$"
