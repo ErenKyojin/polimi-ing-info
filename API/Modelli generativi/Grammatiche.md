@@ -194,8 +194,7 @@ Se è definita
 $\forall B$ dell'alfabeto di $M$
 
 
-in questo modo se e solo se $x\$ \alpha B qAC\beta \implies x\$\alpha BA'q'C\beta$
-Aggiungo infine produzioni
+
 ```tikz
 \usetikzlibrary{automata,chains,shapes}
 \begin{document}
@@ -224,8 +223,8 @@ $\quad\rightarrow\quad$
 	\node[on chain = 1, tmtape,draw=none]{$\ldots$};
 	\node[on chain = 1, tmtape]{$\alpha$};
 	\node[on chain = 1, tmtape]{B};
-	\node[on chain = 1, tmtape](input){A};
-	\node[on chain = 1, tmtape]{C};
+	\node[on chain = 1, tmtape]{A'};
+	\node[on chain = 1, tmtape](input){C};
 	\node[on chain = 1, tmtape]{$\beta$};
 	\node[on chain = 1, tmtape,draw = none]{\ldots};
 \end{scope}
@@ -234,3 +233,6 @@ $\quad\rightarrow\quad$
 \end{tikzpicture}
 \end{document}
 ```
+in questo modo se e solo se $x\$ \alpha B qAC\beta \implies x\$\alpha BA'q'C\beta$
+Aggiungo infine produzioni che permettano a $G$ di derivare da $x\$\alpha Bq_{F}AC\beta$ la sola $x$ se e solo se M giunge a una nuova configurazione di accettazione $\alpha Bq_{F}AC\beta$ cancellando tutto ció che si trova a destra di $, questi incluso.
+
