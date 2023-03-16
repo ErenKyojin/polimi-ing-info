@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/moto.md",
+                "file": "Fisica/velocità vettoriale.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/moto.md",
+                "file": "Fisica/velocità vettoriale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/moto.md",
+                "file": "Fisica/velocità vettoriale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/moto.md"
+                "file": "Fisica/velocità vettoriale.md"
               }
             }
           }
@@ -174,12 +174,14 @@
   },
   "active": "9ff0e980f62f82d3",
   "lastOpenFiles": [
+    "Fisica/Cinematica.md",
+    "Fisica/velocità vettoriale.md",
+    "Fisica/moto.md",
     "Fisica/accelerazione scalare istantanea.md",
     "Fisica/velocità scalare istantanea.md",
     "Fisica/Accelerazione scalare media.md",
     "Fisica/Velocità.md",
     "Fisica/Velocità scalare media.md",
-    "Fisica/moto.md",
     "Fisica/ascissa curvilinea.md",
     "Fisica/Legge oraria.md",
     "Fisica/fattore di ragguaglio.md",
@@ -189,7 +191,6 @@
     "Fondamenti di automatica/Sistemi interconessi.md",
     "Probabilità e statistica/Variabile aleatoria.md",
     "Fisica/Traiettoria.md",
-    "Fisica/Cinematica.md",
     "Settings/templates/Basic template.md",
     "Settings/templates/Newfile.md",
     "Fisica/Punto materiale.md",
@@ -200,7 +201,6 @@
     "API/Modelli operazionali/Automa a pila.md",
     "API/Epsilon.md",
     "API/gerarchia di Chomsky.md",
-    "Elettrotecnica/risposta in frequenza.md",
     "API/Modelli generativi",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
