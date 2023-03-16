@@ -2,5 +2,6 @@
   "newFileLocation": "current",
   "legacyEditor": false,
   "vimMode": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "autoPairMarkdown": false
 }
