@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "API/Modelli generativi/Grammatiche.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "API/Modelli generativi/Grammatiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "API/Modelli generativi/Grammatiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md"
+                "file": "API/Modelli generativi/Grammatiche.md"
               }
             }
           }
@@ -210,6 +210,7 @@
   },
   "active": "0f26d572800bf061",
   "lastOpenFiles": [
+    "API/Modelli operazionali/Macchine di Turing.md",
     "API/Modelli operazionali/Automa a pila.md",
     "API/Epsilon.md",
     "API/gerarchia di Chomsky.md",
@@ -235,7 +236,6 @@
     "API/Modelli generativi",
     "API/Ciclo.md",
     "API/Chiusura.md",
-    "API/Modelli operazionali/Macchine di Turing.md",
     "API/Modelli operazionali/Automa a stati finiti.md",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
