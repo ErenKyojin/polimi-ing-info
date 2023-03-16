@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Esercizi/3.md",
+                "file": "API/Modelli generativi/Grammatiche.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Esercizi/3.md",
+                "file": "API/Modelli generativi/Grammatiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Esercizi/3.md",
+                "file": "API/Modelli generativi/Grammatiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Esercizi/3.md"
+                "file": "API/Modelli generativi/Grammatiche.md"
               }
             }
           }
@@ -222,11 +222,11 @@
   },
   "active": "a59464fcb6e9ae99",
   "lastOpenFiles": [
-    "API/Logica.md",
+    "API/Modelli operazionali/Macchine di Turing.md",
     "Probabilità e statistica/Esercizi/3.md",
+    "API/Logica.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli descrittivi.md",
-    "API/Modelli operazionali/Macchine di Turing.md",
     "API/Modelli generativi/Grammatiche.md",
     "API/Modelli operazionali/Automa a pila.md",
     "API/Epsilon.md",

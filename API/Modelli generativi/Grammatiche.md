@@ -214,7 +214,7 @@ $\forall B$ dell'alfabeto di $M$
 \node at (2,-5) [draw, minimum size = 50mm, rounded corners](qbox){q};
 \draw[->] (qbox.north) -- (input);
 \end{tikzpicture}
-$\quad\rightarrow\quad$
+$\longrightarrow$
 \begin{tikzpicture}
 
 \tikzstyle{tmtape}=[draw,minimum size = 0.7cm]
