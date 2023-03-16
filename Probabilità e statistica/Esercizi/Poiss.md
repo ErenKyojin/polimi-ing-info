@@ -27,7 +27,7 @@ $P(x = 1) \approx P(Z = 1) = e^{-\lambda}\lambda = e^{-\lambda}\lambda = e^{ -\l
    $$P(x = 30) = P(z = 30) = \frac{e^{-\lambda}\lambda^{30}}{30} = e^{1.44} \frac{1.44^{30}}{30}$$
 3.  $E[x] = up = 180 \cdot 0,008 = \lambda = 1.44$
 
-# 4
+# 3
 $X = \#$ torte richieste in un giorno
 costo di produzione: $10$
 prezzo di vendità: $24$
@@ -66,4 +66,20 @@ Quando:
 
 
 $V[Y_{2}]= V[\min\left\{ x,2 \right\}24 - 20] = 24^2 V[\min{x,2}]$
-$V[\min{x,2}] = E[()]$
+$V[\min{x,2}] = E[(\min\left\{ x,2 \right\})^2] - E^2[min\left\{ x,2 \right\}]$
+
+$$E[\min \left\{ x,2 \right\}] = \sum_{x=0}^4\min\left\{ x,2 \right\} p_{x}(x) = 0 \cdot p_{x}(0) + 1p_{x}\left( 1 \right) +  \sum_{x = 2}^4 = 0 + 0.18 + 2(0.3 + 0.25 + 0.17) = 1.58$$
+
+formula generale:
+$E[g(x)] = \sum_{x}g(x)p_{x}(x)$
+
+$E[(\min\left\{ x,2 \right\})^2] = \sum_{x = 0}^4(\min\left\{ x,2 \right\})^2 p_{x}(x) = 0^2p_{x}(0) + 1^2 p_{x}(1) + \sum_{x=2}^4 2^2p_{x}(x) = 2.98$
+
+Quindi $V[\min \left\{ x.2 \right\}]= 278.55$
+
+# 4
+$x = \#$ capi confeionati in una settimana
+$E[x] = 5, E[x^2]=30$
+$$
+p(2 \leq x \leq 8) = \mathbb{P}
+$$
