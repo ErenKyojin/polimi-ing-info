@@ -49,6 +49,21 @@ Vediamo una richiesta di due torte
 
 $y_{2} = \min\left\{ 2,x \right\}24 - 20 \in \left\{ -20, +4, +28 \right\}$
 $$p_{y_{2}}(y)=\begin{cases} 
-P_{x}(0)\quad y = -20 \\
-P_{x}(1) 
+P_{x}(0)\quad &y = -20 \\
+P_{x}(1) & y = 4 \\
+\mathbb{P}_{x}(x \in \left\{ 2,3,4 \right\} ) = \sum_{x = 2}^4 P_{x}(x) & y = 28
 \end{cases}$$
+$\max \left\{  E[x]\right\}$
+$$
+E[y_{k}] = E[\min\left\{ X,k \right\}24 - 10k ] = 24E[\min\left\{ X_{k} \right\} ] - 10 k = \sum_{x = 0}^4 \min\left\{ x,k \right\} p_{x}(x) - 10k
+$$
+Quando:
+- $k=0 \implies 24\cdot0 \sum P_{x}(x) - 10 \cdot 0 = 0$
+- $k = 1 \implies 24 \cdot 0p_{x}(0) + 24 \sum_{x = 1}^4 1 \cdot p_{x}(1) = 0 + 24(0.18+ 0.30 + 0.25 + 0.17) - 10 = 11.12$
+- $k = 2 \implies 24 \cdot 0 + 24 \cdot 0 R(0) + 24 p_{x}(1) + 24 \sum_{x=2}^4 2 p_{x}(2) = 0 + 24 \cdot0.18 + 24\cdot 2 (0.3 + 0.25 + 0.27) - 20 = 17.92$
+- $k = 3 \dots = 17.52$
+- $k=4 \dots = 11.12$
+
+
+$V[Y_{2}]= V[\min\left\{ x,2 \right\}24 - 20] = 24^2 V[\min{x,2}]$
+$V[\min{x,2}] = E[()]$
