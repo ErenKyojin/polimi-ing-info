@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Accelerazione scalare media.md",
+                "file": "Fisica/accelerazione scalare istantanea.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Accelerazione scalare media.md",
+                "file": "Fisica/accelerazione scalare istantanea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Accelerazione scalare media.md",
+                "file": "Fisica/accelerazione scalare istantanea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Accelerazione scalare media.md"
+                "file": "Fisica/accelerazione scalare istantanea.md"
               }
             }
           }
@@ -174,8 +174,9 @@
   },
   "active": "9ff0e980f62f82d3",
   "lastOpenFiles": [
-    "Fisica/velocità scalare istantanea.md",
     "Fisica/Accelerazione scalare media.md",
+    "Fisica/accelerazione scalare istantanea.md",
+    "Fisica/velocità scalare istantanea.md",
     "Fisica/Velocità.md",
     "Fisica/Velocità scalare media.md",
     "Fisica/moto.md",
@@ -200,7 +201,6 @@
     "API/Epsilon.md",
     "API/gerarchia di Chomsky.md",
     "Elettrotecnica/risposta in frequenza.md",
-    "Fondamenti di automatica/Risposta sinusoidale.md",
     "API/Modelli generativi",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
