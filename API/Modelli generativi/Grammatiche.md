@@ -165,10 +165,22 @@ Vogliamo quindi simulare ogni mossa di M mediante una derivazione immediata di $
 Rappresentando una configurazione generica:
 
 ```tikz
-\usetikzlibrary{automata}
+\usetikzlibrary{automata,chains,shapes}
 \begin{document}
 \begin{tikzpicture}
-\node[state] {q0};
+
+\tikzstyle{tmtape}=[draw,minimum size = 0.7cm]
+
+\begin{scope}[start chain = 1 going right, node distance = -0.15mm]
+	\node[on chain = 1, tmtape,draw=none]{$\ldots$};
+	\node[on chain = 1, tmtape]{$\alpha$};
+	\node[on chain = 1, tmtape]{B};
+	\node[on chain = 1, tmtape]{A};
+	\node[on chain = 1, tmtape]{C};
+	\node[on chain = 1, tmtape]{$\beta$};
+	\node[on chain = 1, tmtape,draw = none]{\ldots};
+\end{scope}
+\node[rounded corners, draw = black, thick](fsbox){};
 \end{tikzpicture}
 \end{document}
 ```
