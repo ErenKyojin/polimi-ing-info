@@ -92,6 +92,59 @@ $$
 \begin{array}{cc}
 
 G_{a}(s) = \mu & G_{c}(s) = 1 + sT \\
-G_{b}(s) = \frac{1}{s^y} & G_{d}(s) = 1 + 2 \frac{s}{\omega}
+G_{b}(s) = \frac{1}{s^y} & G_{d}(s) = 1 + 2 \frac{\xi s}{\omega +} + \frac{1}{\omega _{m^2}}s 
 \end{array}
 $$
+Quindi detti $G(s)$ i fattori che compongono la FdT $G(s)$
+$$
+\begin{align}
+
+&G(s) = \Pi G_{i}(s) \\
+&\implies |G| = \Pi |G_{i}| \implies |G|_{dB} = \sum |G_{i}|_{dB} \\
+\angle G = \sum \angle G
+\end{align}
+$$
+Vediamo percio come tracciare i DBM e DBF asintotici di $G_{a,b,c,d}$
+
+# $G_{a}$
+$G_{a}(s) = \mu \implies G_{a}(j\omega ) = \mu$
+$|G_{a}(j\omega)|_{dB} = 20 \log_{10}|\mu|$
+$\angle G(j\omega) = \begin{cases}0 &\mu > 0 \\ -180 & \mu < 0\end{cases}$
+
+DBM
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[->] (0,0) -- (10,0)node[right]{$\omega$};
+\draw[red] (0,.5) -- (10,.5) node[right]{$|\mu|>1$};
+\draw[blue] (0,-.5) -- (10,-.5) node[right]{$|\mu|>1$};
+\end{tikzpicture}
+\end{document}
+```
+
+
+DBF
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[->,red] (0,0) node[left,above]{0} -- (10,0)node[right]{$\omega$};
+\draw[blue](0,-.5) node[left, above]{-180} -- (10,-.5);
+\end{tikzpicture}
+\end{document}
+```
+
+
+# $G_{b}$
+
+$|G_{b}(j\omega)| = \frac{1}{\omega^g} \implies 20 g \log_{10} \omega$
+$\angle G_{b}(j\omega) = - g \cdot 90$
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[->] (0,0) -- (10,0)node[right]{$\omega$};
+\draw[red] (0,.5) -- (10,.5) node[right]{$|\mu|>1$};
+\draw[blue] (0,-.5) -- (10,-.5) node[right]{$|\mu|>1$};
+\end{tikzpicture}
+\end{document}
+```
