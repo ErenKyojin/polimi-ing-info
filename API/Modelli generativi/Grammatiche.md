@@ -156,4 +156,9 @@ Se il contenuto del nastro diventa l'assioma $S$, $x$ viene accettata, cioè $\l
 ### Da G a MT
 Il problema piú grande del simulare una macchina di Turing con una grammatica è l'assenza in quest'ultima di un ingresso.
 
-Data una MT M costruiamo una grammatica che gene
+Data una MT M costruiamo una grammatica che generi $L(M)$:
+
+$G$ deve generare tutte le stringhe del tipo $x\$X$, $x \in V_{T}^*$ con $X$ copia di $x$ con caratteri non terminali (aba -> aba$ABA), G lavora su X per simulare M ma puó manipolare solo non terminali.
+L'obiettivo è ricavare da $\text{ x }\$\text{ X } \Longrightarrow^* \text{x}$ se e solo $\text{x}$ è accettata da $M$.
+Vogliamo quindi simulare ogni mossa di M mediante una derivazione immediata di $G$.
+
