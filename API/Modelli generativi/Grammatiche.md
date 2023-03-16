@@ -132,3 +132,28 @@ Il FSA ottenuto è non deterministico
 ## Grammatiche non contestuali equivalenti ad automi a pila non deterministici
 
 Giustificazione intuitiva, consideriamo la grammatica:
+
+
+## Grammatiche equivalenti alle macchine di Turing
+
+
+### Da MT a G
+Data $G$ costruiamo una macchina di turing a nastro singolo non deterministica $M$ che accetti $L(G)$.
+- La stringa $x$ è posta nel nastro di ingresso
+- Il nastro viene scandito alla ricerca di una parte destra $\beta$ di qualche produzione $\alpha \to \beta$ di P.
+- Se ne trova una, quando lo fa, viene sostituita dalla corrispondente parte sinistra $\alpha$
+- Quindi $\gamma \implies \delta \iff c = \left< q, \delta \right> \vdash^* \left< q, \gamma \right>$, ossia seguiamo la derivazione da destra verso sinistra
+
+Se il contenuto del nastro diventa l'assioma $S$, $x$ viene accettata, cioè $\left< q_{0},x \right> \vdash^* \left< q_{F},S \right>$, altrimenti questa sequenza di mosse non porta all'accettazione
+
+
+>[!oss]
+>In caso di grammatiche monotone si utilizza solo la memoria occupata inizialmente da $x$ a pparte il caso della stringa vuota
+
+
+è essenziale che se $x \cancel{ \in } L(G)$, $M$ potrebbe tentare infinite sztrade, alcune anche non terminali senza poter concludere che $x \in L(G)$ e neanchè il contrario, la definizione di accettazione richiede che $M$ giunga in configurazione di accettazione $\iff x \in L$, ma non richiede che $M$ termini la computazione se $x \cancel{ \in } L$
+
+### Da G a MT
+Il problema piú grande del simulare una macchina di Turing con una grammatica è l'assenza in quest'ultima di un ingresso.
+
+Data una MT M costruiamo una grammatica che gene
