@@ -175,12 +175,62 @@ Rappresentando una configurazione generica:
 	\node[on chain = 1, tmtape,draw=none]{$\ldots$};
 	\node[on chain = 1, tmtape]{$\alpha$};
 	\node[on chain = 1, tmtape]{B};
-	\node[on chain = 1, tmtape]{A};
+	\node[on chain = 1, tmtape](input){A};
 	\node[on chain = 1, tmtape]{C};
 	\node[on chain = 1, tmtape]{$\beta$};
 	\node[on chain = 1, tmtape,draw = none]{\ldots};
 \end{scope}
-\node[rounded corners, draw = black, thick](fsbox){};
+\node at (2,-5) [draw, minimum size = 50mm, rounded corners](qbox){q};
+\draw[->] (qbox.north) -- (input);
+\end{tikzpicture}
+\end{document}
+```
+Mediante la stringa $\$\alpha BqAC\beta$ 
+Se è definita
+- $\delta(q,A) = \left< q',A',R \right>$ si definisce in $G$ la produzione $qA \to A'q'$
+- $\delta(q,A) = \left< q',A,S \right>$ si definisce in $G$ la produzione $qA \to q'A'$
+- $\delta(q,A) = \left< q',A',L \right>$ si definisce in $G$ la produzione $BqA \to q'BA'$
+
+$\forall B$ dell'alfabeto di $M$
+
+
+in questo modo se e solo se $x\$ \alpha B qAC\beta \implies x\$\alpha BA'q'C\beta$
+Aggiungo infine produzioni
+```tikz
+\usetikzlibrary{automata,chains,shapes}
+\begin{document}
+\begin{tikzpicture}
+
+\tikzstyle{tmtape}=[draw,minimum size = 0.7cm]
+
+\begin{scope}[start chain = 1 going right, node distance = -0.15mm]
+	\node[on chain = 1, tmtape,draw=none]{$\ldots$};
+	\node[on chain = 1, tmtape]{$\alpha$};
+	\node[on chain = 1, tmtape]{B};
+	\node[on chain = 1, tmtape](input){A};
+	\node[on chain = 1, tmtape]{C};
+	\node[on chain = 1, tmtape]{$\beta$};
+	\node[on chain = 1, tmtape,draw = none]{\ldots};
+\end{scope}
+\node at (2,-5) [draw, minimum size = 50mm, rounded corners](qbox){q};
+\draw[->] (qbox.north) -- (input);
+\end{tikzpicture}
+$\quad\rightarrow\quad$
+\begin{tikzpicture}
+
+\tikzstyle{tmtape}=[draw,minimum size = 0.7cm]
+
+\begin{scope}[start chain = 1 going right, node distance = -0.15mm]
+	\node[on chain = 1, tmtape,draw=none]{$\ldots$};
+	\node[on chain = 1, tmtape]{$\alpha$};
+	\node[on chain = 1, tmtape]{B};
+	\node[on chain = 1, tmtape](input){A};
+	\node[on chain = 1, tmtape]{C};
+	\node[on chain = 1, tmtape]{$\beta$};
+	\node[on chain = 1, tmtape,draw = none]{\ldots};
+\end{scope}
+\node at (2,-5) [draw, minimum size = 50mm, rounded corners](qbox){q'};
+\draw[->] (qbox.north) -- (input);
 \end{tikzpicture}
 \end{document}
 ```
