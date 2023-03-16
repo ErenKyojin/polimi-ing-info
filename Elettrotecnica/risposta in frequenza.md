@@ -169,7 +169,7 @@ $G_{c}(s) = 1 + sT$
 $G_{c}(j\omega ) = 1 + j\omega T$
 
 ### APPROSSIMAZIONE
-QUando $|\omega T| \gg 1$
+- QUando $|\omega T| \gg 1$
 $G_{c}(j\omega) \approx j\omega T$
 
 
@@ -177,13 +177,25 @@ $G_{c}(j\omega) \approx j\omega T$
 \begin{document}
 \begin{tikzpicture}
 \draw[->,red] (0,0) -- (0,3)node[right]{$j\omega T, T > 0$};
+\draw[->] (0,0) -- (.3,0)node{1};
 \draw[->,blue] (0,0) -- (0,-3)node[right]{$j\omega T, T < 0$};
 \end{tikzpicture}
 \end{document}
 ```
-Quando $\omega T \ll 1$
-$G()$ #todo foto
+$|G_{c}(j\omega)| \approx |\omega T|$
+$\angle G_{c}(j\omega) = \begin{cases}90 &T > 0\\-90 &T < 0\end{cases}$
 
+- Quando $\omega T \ll 1$
+$G_{c}(j\omega) \approx 1$ #todo foto
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[->] (0,0) -- (5,0);
+\draw[->] (5,0) -- (5,.5);
+\draw[->] (5,0) -- (5,-.5);
+\end{tikzpicture}
+\end{document}
+```
 ```tikz
 \usetikzlibrary{decorations.pathreplacing}
 \begin{document}
@@ -191,7 +203,7 @@ $G()$ #todo foto
 \node at (5,2){DBM};
 \draw[->] (0,0) -- (10,0)node[right]{$\omega$};
 %\draw[blue,thick] (0,.5) -- (10,-.5) node[right]{$g>1$};
-\draw[red,thick] (0,.01) -- (5,.01) node[right]{$g=-2$};
+\draw[red,thick] (0,.01) -- (5,.01) -- (10, 5);
 \node at (5,0)(c){|};
 \node[below] at (c){$1/|T|$};
 \end{tikzpicture}
@@ -199,3 +211,39 @@ $G()$ #todo foto
 ```
 
 
+idealmente quello rosso, ma realmente c'è un errore che vale massimo $3 \dB$
+
+-----
+```tikz
+\usetikzlibrary{decorations.pathreplacing}
+\begin{document}
+\begin{tikzpicture}
+\node at (5,2){DBF};
+\draw[->] (0,0) -- (10,0)node[right]{$\omega$};
+%\draw[blue,thick] (0,.5) -- (10,-.5) node[right]{$g>1$};
+\draw[red,thick] (0,.01) -- (5,.01) -- (5, 1) -- (10,1) node[right]{T > 0};
+\draw[blue,thick] (0,-.01) -- (5,-.01) -- (5, -1) -- (10,-1) node[right]{T < 0};
+\node at (5,0)(c){|};
+\node[below] at (c){$1/|T|$};
+\end{tikzpicture}
+\end{document}
+```
+realmente è un arcotangente,
+
+# $G_{d}$
+$G_{d}(j\omega) = 1 + \frac{2s}{\omega_{s}}j\omega + \frac{1}{\omega_{s}^2}(j\omega)^2 = 1 - \frac{\omega^2}{\omega^2} = 1 - \frac{\omega^2}{\omega_{s}^2} + j 2 \frac{\xi \omega}{\omega_{s}}$
+
+$\omega \to 0 \implies \Re \to 1, \Im \to 0$
+
+$|G_{d}(j\omega)|_{\dB} \to 0$
+$\angle G_{d}(j\omega) \to 0$
+
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[->](0,0) -- (10,0) node[below]{$\Re$};
+\draw[->](5,0) --
+\end{tikzpicture}
+\end{document}
+```
