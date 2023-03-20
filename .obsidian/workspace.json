@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Valore atteso.md",
+                "file": "Probabilità e statistica/Varianza.md",
                 "mode": "source",
                 "source": false
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Valore atteso.md",
+                "file": "Probabilità e statistica/Varianza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Valore atteso.md",
+                "file": "Probabilità e statistica/Varianza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -202,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Valore atteso.md"
+                "file": "Probabilità e statistica/Varianza.md"
               }
             }
           }
@@ -227,8 +227,9 @@
   },
   "active": "9a29f18b7dd72360",
   "lastOpenFiles": [
-    "Probabilità e statistica/Funzione di ripartizione.md",
     "Probabilità e statistica/Valore atteso.md",
+    "Probabilità e statistica/Varianza.md",
+    "Probabilità e statistica/Funzione di ripartizione.md",
     "Probabilità e statistica/Disuguaglanza di Chebychev.md",
     "Probabilità e statistica/esperimento aleatorio.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
@@ -258,7 +259,6 @@
     "Fisica/Accelerazione scalare media.md",
     "Fisica/Velocità scalare media.md",
     "Fisica/Cinematica.md",
-    "Fisica/Velocità.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli generativi",
     "Settings/scripts/package.json",
