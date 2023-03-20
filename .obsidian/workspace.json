@@ -35,9 +35,11 @@
             "id": "18cf8a5d0a82c8d2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-20 10.42.16.excalidraw.md"
+                "file": "Fondamenti di automatica/Esercizi/ES3.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -120,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-20 10.42.16.excalidraw.md",
+                "file": "Fondamenti di automatica/Esercizi/ES3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-20 10.42.16.excalidraw.md",
+                "file": "Fondamenti di automatica/Esercizi/ES3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -160,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-20 10.42.16.excalidraw.md"
+                "file": "Fondamenti di automatica/Esercizi/ES3.md"
               }
             }
           }
@@ -185,9 +187,9 @@
   },
   "active": "18cf8a5d0a82c8d2",
   "lastOpenFiles": [
+    "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 10.42.16.excalidraw.md",
     "Pasted Image 20230320104231_717.jpg",
     "Fondamenti di automatica/Esercizi/ES3.md",
-    "Excalidraw/Drawing 2023-03-20 10.42.16.excalidraw.md",
     "Excalidraw",
     "Elettrotecnica/Metodo di tracciamento.md",
     "Fondamenti di automatica/Esercizi",
@@ -234,7 +236,6 @@
     "Elettrotecnica/Immagini/Pasted image 20220830181329.png",
     "Elettrotecnica/Immagini/Pasted image 20220830175258.png",
     "Elettrotecnica/Immagini/Pasted image 20220830174751.png",
-    "Elettrotecnica/Immagini/Pasted image 20220830162052.png",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
     "Analisi 2/Untitled.canvas",
     "Fondamenti di automatica/canvas/Controllo in anello aperto (AA).canvas",
