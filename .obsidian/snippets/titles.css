@@ -50,6 +50,8 @@ h1::after
 
 .inline-title:hover
 {
-
-	transition: transform 2s;
+	transform: scale(1.2,1.2);
+	text-shadow: 1px 1px 5px #fec44e;
+	transition: transform 2s, text-shadow 2s;
 }
+

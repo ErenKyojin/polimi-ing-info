@@ -3,3 +3,4 @@
 >  $$
 > F_{x}(t) := P(x \leq t)\quad \forall t \in \mathbb{R}
 > $$
+

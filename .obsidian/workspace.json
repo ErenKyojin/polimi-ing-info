@@ -57,8 +57,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Disuguaglanza di Chebychev.md",
-                "mode": "preview",
+                "file": "Probabilità e statistica/Funzione di ripartizione.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -150,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Disuguaglanza di Chebychev.md",
+                "file": "Probabilità e statistica/Funzione di ripartizione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Disuguaglanza di Chebychev.md",
+                "file": "Probabilità e statistica/Funzione di ripartizione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -190,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Disuguaglanza di Chebychev.md"
+                "file": "Probabilità e statistica/Funzione di ripartizione.md"
               }
             }
           }
@@ -199,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,6 +216,7 @@
   },
   "active": "5ba9ef50a84a3060",
   "lastOpenFiles": [
+    "Probabilità e statistica/Disuguaglanza di Chebychev.md",
     "Probabilità e statistica/esperimento aleatorio.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
@@ -247,7 +248,6 @@
     "Fisica/Velocità.md",
     "Fisica/ascissa curvilinea.md",
     "Fisica/Legge oraria.md",
-    "Fisica/fattore di ragguaglio.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli generativi",
     "Settings/scripts/package.json",
