@@ -9,6 +9,12 @@ G(s) = \frac{100(1-s)\left( 1 + \frac{s}{5} \right)}{s^2\left( 1 - \frac{s}{10} 
 $$
 $\mu = 100$
 $g = 2$
-$$\implies | \frac{\mu}{(j\omega)^g}| \text{ ha pendenza }-2, \text{ taglia l'}$$
+$$\implies \left| \frac{\mu}{(j\omega)^g} \right| \text{ ha pendenza }-2, \text{ taglia l'asse $0\dB$ per $\frac{100}{\omega^2} = 1 \implies \omega=10$}$$
 
-
+Frequenze d'angolo di poli e zeri non nell'origine:
+$$\begin{align}
+&\omega = 1 \quad 1 \text{z a DX } (\Re> 0)\\
+&\omega=5\quad 1 \text{z a SX} \\
+&\omega= 10 \quad 1\text{p a DX}\\
+&\omega = 100 \quad2\text{p a SX}
+\end{align}$$

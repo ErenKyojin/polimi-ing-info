@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "18cf8a5d0a82c8d2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-03-20 10.42.16.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "31be8f2c4080d414",
             "type": "leaf",
             "state": {
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES3.md",
+                "file": "Excalidraw/Drawing 2023-03-20 10.42.16.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES3.md",
+                "file": "Excalidraw/Drawing 2023-03-20 10.42.16.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES3.md"
+                "file": "Excalidraw/Drawing 2023-03-20 10.42.16.excalidraw.md"
               }
             }
           }
@@ -169,13 +179,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8261de30f3e6ee72",
+  "active": "18cf8a5d0a82c8d2",
   "lastOpenFiles": [
-    "Elettrotecnica/Metodo di tracciamento.md",
+    "Pasted Image 20230320104231_717.jpg",
     "Fondamenti di automatica/Esercizi/ES3.md",
+    "Excalidraw/Drawing 2023-03-20 10.42.16.excalidraw.md",
+    "Excalidraw",
+    "Elettrotecnica/Metodo di tracciamento.md",
     "Fondamenti di automatica/Esercizi",
     "Elettrotecnica/risposta in frequenza.md",
     "Probabilità e statistica/Esercizi/PESe3.md",
@@ -199,8 +213,6 @@
     "Fondamenti di automatica/Sistemi interconessi.md",
     "Probabilità e statistica/Variabile aleatoria.md",
     "Fisica/Traiettoria.md",
-    "Settings/templates/Basic template.md",
-    "Settings/templates/Newfile.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli generativi",
     "Settings/scripts/package.json",
@@ -209,7 +221,6 @@
     "Settings/scripts",
     "Settings",
     "Fondamenti di automatica/Riassunti",
-    "preamble.sty",
     "Fondamenti di automatica/canvas/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
