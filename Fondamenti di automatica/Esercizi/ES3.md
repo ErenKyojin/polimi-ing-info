@@ -91,3 +91,8 @@ $\omega = 50\quad 2P \sx$
 L'unica $|G(j\omega)| = 0$ è per $\omega \approx 100$, calcolando precisamente
 $|G(j\omega )|\text{con} \omega=100 =0,63$
 
+3.
+$\angle G(j100)$
+
+4.
+$\angle G(j10) -180 + 2\cdot 79 + 45 - 26 - 2\cdot11 = -25^o$

@@ -23,9 +23,21 @@
             "id": "31be8f2c4080d414",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di automatica/Esercizi/ES3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6df8163b0dc901ef",
+            "type": "leaf",
+            "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/es3-ex4.excalidraw.md"
+                "file": "Excalidraw/Drawing 2023-03-20 12.37.41.excalidraw.md"
               }
             }
           },
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/es3-ex4.excalidraw.md",
+                "file": "Fondamenti di automatica/Esercizi/ES3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/es3-ex4.excalidraw.md",
+                "file": "Fondamenti di automatica/Esercizi/ES3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/es3-ex4.excalidraw.md"
+                "file": "Fondamenti di automatica/Esercizi/ES3.md"
               }
             }
           }
@@ -172,16 +184,18 @@
   },
   "active": "31be8f2c4080d414",
   "lastOpenFiles": [
-    "Fondamenti di automatica/Esercizi/ES3.md",
     "Elettrotecnica/Metodo di tracciamento.md",
+    "Fondamenti di automatica/Esercizi/ES3.md",
+    "Excalidraw/Drawing 2023-03-20 12.37.41.excalidraw.md",
     "Excalidraw/es3-ex4.excalidraw.md",
+    "Pasted Image 20230320104231_717.jpg",
+    "Fondamenti di automatica/Esercizi/Untitled.md",
     "Excalidraw/Drawing 2023-03-20 11.34.11.excalidraw.md",
     "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 11.22.11.excalidraw.md",
     "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 10.42.16.excalidraw.md",
     "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 11.09.20.excalidraw.md",
     "Pasted Image 20230320113426_622.png",
     "Pasted Image 20230320110935_358.jpg",
-    "Pasted Image 20230320104231_717.jpg",
     "Excalidraw",
     "Fondamenti di automatica/Esercizi",
     "Elettrotecnica/risposta in frequenza.md",
@@ -200,9 +214,6 @@
     "Fisica/ascissa curvilinea.md",
     "Fisica/Legge oraria.md",
     "Fisica/fattore di ragguaglio.md",
-    "API/Modelli generativi/Grammatiche.md",
-    "API/Logica.md",
-    "Fondamenti di automatica/Risposta esponenziale.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli generativi",
     "Settings/scripts/package.json",
