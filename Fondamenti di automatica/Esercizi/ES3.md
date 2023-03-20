@@ -96,3 +96,21 @@ $\angle G(j100)$
 
 4.
 $\angle G(j10) -180 + 2\cdot 79 + 45 - 26 - 2\cdot11 = -25^o$
+
+
+# 5
+
+dato lo schema a blocchi
+
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+\draw (-1,0) to [generic,name = G](3,0) to [generic](5,0) to (6,0);
+\draw (5,0) to (5,-2) to (0,-2) to (0,0);
+\end{tikzpicture}
+\end{document}
+```
+
+
