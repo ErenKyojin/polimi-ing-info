@@ -1,6 +1,6 @@
 h1, .markdown-rendered h1, .HyperMD-header-1
 {
-	color: #ffc06d;
+	color: #F9F871;
 	text-decoration: underline;
 	padding-left: 4px;
 	
@@ -9,25 +9,33 @@ h1, .markdown-rendered h1, .HyperMD-header-1
 
 h2, .markdown-rendered h2, .HyperMD-header-2
 {
-	color: #ffbe8f;
+	color: #FDB653;
 	text-decoration: underline;
 }
 
 h3, .markdown-rendered h3, .HyperMD-header-3
 {
-	color: #ffc1b3;
+	color: #E87753;
 	text-decoration: underline;
 }
 
 h4 .markdown-rendered h4, .HyperMD-header-4
 {
-	color: #F6E6C2;
+	color: #BB435B;
 	text-decoration: underline;
 }
 
+
+h5 .markdown-rendered h5, .HyperMD-header-5
+{
+	color: #7C205C;
+	text-decoration: underline;
+}
+
+
 .inline-title
 {
-	color: #FEC44E;
+	color: #F9F871;
 	text-transform: uppercase;
 	margin: auto;
 	width: 70%;
