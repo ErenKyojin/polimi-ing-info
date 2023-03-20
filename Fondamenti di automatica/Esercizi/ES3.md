@@ -64,3 +64,22 @@ Voglio calcolare $\angle (1 + j\omega_{1}T)$ con $\omega_{1} < \frac{1}{T}$
 e $\angle^o(1 + j\omega_{2}T)$ con $\omega_{2}> \frac{1}{T}$
 
 Metto i $45^o$ alla F dove voglio la fase e leggo il contributo di fase in corrispondenza della $F$ d'angolo
+
+
+# 4
+Data la FdT
+$$
+G(s) = \frac{25\left( 1 + \frac{s}{2} \right)^2\left( 1-\frac{s}{20} \right)}{s^2\left( 1-\frac{s}{10} \right)\left( 1 + \frac{s}{50} \right)^2}
+$$
+$\mu = 25$
+$g = 2$
+$\omega =2\quad2Z \sx$
+$\omega = 10\quad 1P \dx$
+$\omega = 20\quad 1Z \dx$
+$\omega = 50\quad 2P \sx$
+
+
+1. DBM e DBF asintotici
+2. Qual è/ quali sono la/le $\omega$ tali che $|G(j\omega)| = 1$?
+3. Se e ne sono, quanto vale $\angle^o G(j\omega)$ in corrispondenza?
+4. $\angle^o G(j10)$?
