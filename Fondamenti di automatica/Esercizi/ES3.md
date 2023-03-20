@@ -83,3 +83,8 @@ $\omega = 50\quad 2P \sx$
 2. Qual è/ quali sono la/le $\omega$ tali che $|G(j\omega)| = 1$?
 3. Se e ne sono, quanto vale $\angle^o G(j\omega)$ in corrispondenza?
 4. $\angle^o G(j10)$?
+
+1.
+![[es3-ex4.excalidraw]]
+
+L'unica $|G(j\omega)|$

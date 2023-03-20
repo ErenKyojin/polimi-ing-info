@@ -37,12 +37,12 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-20 12.12.10.excalidraw.md"
+                "file": "Excalidraw/es3-ex4.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-20 12.12.10.excalidraw.md",
+                "file": "Fondamenti di automatica/Esercizi/ES3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-20 12.12.10.excalidraw.md",
+                "file": "Fondamenti di automatica/Esercizi/ES3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-03-20 12.12.10.excalidraw.md"
+                "file": "Fondamenti di automatica/Esercizi/ES3.md"
               }
             }
           }
@@ -172,13 +172,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0e3a4a3edb74998b",
+  "active": "31be8f2c4080d414",
   "lastOpenFiles": [
+    "Excalidraw/es3-ex4.excalidraw.md",
+    "Elettrotecnica/Metodo di tracciamento.md",
     "Fondamenti di automatica/Esercizi/ES3.md",
-    "Excalidraw/Drawing 2023-03-20 12.12.10.excalidraw.md",
     "Excalidraw/Drawing 2023-03-20 11.34.11.excalidraw.md",
     "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 11.22.11.excalidraw.md",
-    "Elettrotecnica/Metodo di tracciamento.md",
     "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 10.42.16.excalidraw.md",
     "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 11.09.20.excalidraw.md",
     "Pasted Image 20230320113426_622.png",
