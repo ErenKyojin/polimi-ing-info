@@ -30,4 +30,8 @@ $$
 
 $\mu = -1$
 $g = 1$
-$\implies \left| \frac{\mu}{j\omega^g} \right|$
+$\implies \left| \frac{\mu}{j\omega^g} \right| = \left| -\frac{1}{i\omega} \right|$ 
+frequenze d'angolo
+$0,3,1 \implies 1z \sx, 1z \dx, 3p \sx$
+
+
