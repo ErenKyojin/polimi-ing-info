@@ -88,6 +88,30 @@
             }
           },
           {
+            "id": "f3bafa694ce25bbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilità e statistica/Momenti.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0715157f960cf204",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilità e statistica/Funzione di rischio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6df8163b0dc901ef",
             "type": "leaf",
             "state": {
@@ -108,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -174,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Gaussiana.md",
+                "file": "Probabilità e statistica/Funzione di rischio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Gaussiana.md",
+                "file": "Probabilità e statistica/Funzione di rischio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -214,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Gaussiana.md"
+                "file": "Probabilità e statistica/Funzione di rischio.md"
               }
             }
           }
@@ -237,8 +261,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7940ae6f6b8644f3",
+  "active": "0715157f960cf204",
   "lastOpenFiles": [
+    "Probabilità e statistica/Momenti.md",
+    "Probabilità e statistica/Funzione di rischio.md",
+    "Probabilità e statistica/Gaussiana.md",
     "Probabilità e statistica/Standardizzazione.md",
     "Probabilità e statistica/Disuguaglanza di Chebychev.md",
     "Probabilità e statistica/Varianza.md",
@@ -268,9 +295,6 @@
     "Analisi 2/coordinate polari.md",
     "Fisica/Punto materiale.md",
     "Fisica/Accelerazione vettoriale.md",
-    "Fisica/accelerazione scalare istantanea.md",
-    "Fisica/Accelerazione scalare media.md",
-    "Fisica/Velocità scalare media.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli generativi",
     "Settings/scripts/package.json",
