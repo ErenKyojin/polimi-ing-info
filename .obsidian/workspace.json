@@ -69,7 +69,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Varianza.md",
+                "file": "Probabilità e statistica/Disuguaglanza di Chebychev.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7940ae6f6b8644f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilità e statistica/Gaussiana.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +108,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -162,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Varianza.md",
+                "file": "Probabilità e statistica/Gaussiana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Varianza.md",
+                "file": "Probabilità e statistica/Gaussiana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -202,7 +214,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Varianza.md"
+                "file": "Probabilità e statistica/Gaussiana.md"
               }
             }
           }
@@ -225,12 +237,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a29f18b7dd72360",
+  "active": "7940ae6f6b8644f3",
   "lastOpenFiles": [
-    "Probabilità e statistica/Valore atteso.md",
-    "Probabilità e statistica/Varianza.md",
-    "Probabilità e statistica/Funzione di ripartizione.md",
+    "Probabilità e statistica/Standardizzazione.md",
     "Probabilità e statistica/Disuguaglanza di Chebychev.md",
+    "Probabilità e statistica/Varianza.md",
+    "Probabilità e statistica/Valore atteso.md",
+    "Probabilità e statistica/Funzione di ripartizione.md",
     "Probabilità e statistica/esperimento aleatorio.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
@@ -258,7 +271,6 @@
     "Fisica/accelerazione scalare istantanea.md",
     "Fisica/Accelerazione scalare media.md",
     "Fisica/Velocità scalare media.md",
-    "Fisica/Cinematica.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli generativi",
     "Settings/scripts/package.json",

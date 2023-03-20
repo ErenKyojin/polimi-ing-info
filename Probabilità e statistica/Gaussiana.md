@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: densità gaussiana
 creation date: 2023-03-15 09:32
 modification date: 2023-03-15 09:32
 ---
@@ -32,3 +32,5 @@ $$
 \end{document}
 ```
 
+>[!def]
+>UNa [[variabile aleatoria]] assolutamente continua $X$ con densità
