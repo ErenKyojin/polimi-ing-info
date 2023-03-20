@@ -12,3 +12,4 @@ Se $\sigma^2 \approx 0$.
 se $\sigma^2$ è grande Chebychev dice che $P(|X - \mu|> \varepsilon) \leq 1$ 
 
 
+2

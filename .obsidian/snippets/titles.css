@@ -48,4 +48,8 @@ h1::after
 	border: 2px;
 }
 
+.inline-title:hover
+{
 
+	transition: transform 2s;
+}
