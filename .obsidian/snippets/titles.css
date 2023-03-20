@@ -2,7 +2,7 @@ h1, .markdown-rendered h1, .HyperMD-header-1
 {
 	color: #F9F871;
 	text-decoration: underline;
-	padding-left: 4px;
+	padding: 40px;
 	
 }
 
@@ -32,10 +32,14 @@ h5 .markdown-rendered h5, .HyperMD-header-5
 	text-decoration: underline;
 }
 
+h1::after
+{
+	color: red;
+}
 
 .inline-title
 {
-	color: #F9F871;
+	color: #FEC44E;
 	text-transform: uppercase;
 	margin: auto;
 	width: 70%;

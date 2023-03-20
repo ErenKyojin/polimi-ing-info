@@ -26,8 +26,6 @@ $\frac{1}{s^g} \to -g 90$
    - Polo dx -> fase aumenta di 90
 
 
-# A
+# A sdads
 ## B
-### C
-#### D
-##### E
+
