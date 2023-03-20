@@ -87,4 +87,7 @@ $\omega = 50\quad 2P \sx$
 1.
 ![[es3-ex4.excalidraw]]
 
-L'unica $|G(j\omega)|$
+2.
+L'unica $|G(j\omega)| = 0$ è per $\omega \approx 100$, calcolando precisamente
+$|G(j\omega )|\text{con} \omega=100 =0,63$
+

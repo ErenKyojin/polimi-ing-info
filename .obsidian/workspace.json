@@ -23,11 +23,9 @@
             "id": "31be8f2c4080d414",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES3.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/es3-ex4.excalidraw.md"
               }
             }
           },
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES3.md",
+                "file": "Excalidraw/es3-ex4.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES3.md",
+                "file": "Excalidraw/es3-ex4.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -148,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES3.md"
+                "file": "Excalidraw/es3-ex4.excalidraw.md"
               }
             }
           }
@@ -174,9 +172,9 @@
   },
   "active": "31be8f2c4080d414",
   "lastOpenFiles": [
-    "Excalidraw/es3-ex4.excalidraw.md",
-    "Elettrotecnica/Metodo di tracciamento.md",
     "Fondamenti di automatica/Esercizi/ES3.md",
+    "Elettrotecnica/Metodo di tracciamento.md",
+    "Excalidraw/es3-ex4.excalidraw.md",
     "Excalidraw/Drawing 2023-03-20 11.34.11.excalidraw.md",
     "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 11.22.11.excalidraw.md",
     "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 10.42.16.excalidraw.md",
