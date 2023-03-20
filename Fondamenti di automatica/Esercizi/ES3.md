@@ -35,3 +35,18 @@ frequenze d'angolo
 $0,3,1 \implies 1z \sx, 1z \dx, 3p \sx$
 
 
+>[!oss]
+>La retta ha pendenza iniziale $-g$
+
+
+# 3
+Data la funzione di tasferimento $G(s)$ :
+$$G(s) = \frac{100s^2}{(1+s)^2 \left( 1 + \frac{s}{20} \right)^2}$$
+1. Diagrammi di bode asintotici
+2. Calcolare $\angle^o  G(j2)$ usando il 
+
+
+- $\mu = 1$
+- $g = 0$
+- $\omega = -1$
+- $\omega = -20$
