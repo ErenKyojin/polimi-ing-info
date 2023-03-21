@@ -47,3 +47,16 @@ $a(x)$, $w = aab$, $a(0), a(1),b(2)$, monadica in quanto ha un solo argomento, i
 
 $\forall(x)$ significa per ogni posizione nella parola
 $\exists x$ significa che esiste una posizione nella parola
+
+
+valgono le classiche abbreviazioni
+- $\phi_{1} \cap \phi_{2} := \neg(\neg \varphi_{1} \cup \neg\varphi_{2})$
+- $\varphi_{1} \to \varphi_{2} := \neg\varphi_{1} \cup \neg\varphi_{2}$
+- $\forall x(\varphi) := \neg Ex(\neg \varphi)$
+- $x = y := \neg(x < y) \cap \neg( y < x)$
+- $x \leq y := \neg(y < x)$
+- costante 0: $x = 0 := \neg \exists y(y < x)$
+- successore $\text{succ}(x,y) :=  x < y, \neg \exists z : (x < z \cap z < y)$
+- costanti 1, 2, 3 come successori di 0, 1, 2
+- 
+
