@@ -131,11 +131,11 @@ Ammettiamo quindi formule del tipo $\exists x(\varphi)$ dove $x$ è una variabil
 > ```tikz
 > \usetikzlibrary{automata, arrows.meta,positioning}
 > \begin{document}
-> \begin{tikzpicture}[scale = 2]
+> \begin{tikzpicture}[scale = 2,every node/.style={scale=1.5}, node distance = 3cm]
 > \node(q0)[state,initial, initial left, initial text = {}]{$q0$};
 > \node (q1) [state, right = of q0]{$q1$};
 > \node (q2) [state,accepting, below left = of q1]{$q2$};
-> \path [-stealth, thick]
+> \path [-stealth, thick,scale = 2]
 >  (q0) edge [loop above] node{c}()
 >  (q0) edge node[above] {b}(q1)
 >  (q0) edge node[right]{a}(q2)
@@ -145,4 +145,12 @@ Ammettiamo quindi formule del tipo $\exists x(\varphi)$ dove $x$ è una variabil
 > \end{tikzpicture}
 > \end{document}
 > ```
-> 
+
+
+# Logica per proprietà dei programmi
+
+{Precondizione PRE}
+Programma o frammento di programma
+{Postocndizione POST}
+
+Se vale PRE prima dell'esecuzione di P si vuole che P sia tale da far valere POST dopo la sua esecuzione
