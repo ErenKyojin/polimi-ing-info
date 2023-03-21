@@ -150,8 +150,9 @@
   },
   "active": "b464bd908dd49231",
   "lastOpenFiles": [
-    "API/semantica.md",
+    "API/Linguaggio.md",
     "API/Logica.md",
+    "API/semantica.md",
     "API/Ciclo.md",
     "Probabilità e statistica/Densità esponenziale.md",
     "Probabilità e statistica/Funzione di rischio.md",
@@ -181,7 +182,6 @@
     "Elettrotecnica/risposta in frequenza.md",
     "Probabilità e statistica/Esercizi/PESe3.md",
     "Fisica/velocità scalare istantanea.md",
-    "Fisica/velocità vettoriale.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli generativi",
     "Settings/scripts/package.json",

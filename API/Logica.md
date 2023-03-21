@@ -10,8 +10,8 @@ Vedremo la logica per descrivere [[Linguaggio|linguaggi]] formali e per specific
 Questo tipo di logica ci permette di descrivere parole su un alfabeto $I$
 $$\varphi::= a(x) | x < y | \neg \varphi | \varphi \cup \varphi | \exists x(\varphi) $$
 - $a \in I$, introduciamo una lettera predicativa per ongi simbolo dell'alfabeto
-- $<$ corrisponde alla relazione di minore
-- il [[Analisi 1/Funzioni/dominio|dominio]] delle variabili è un sottoinsieme finito di [[numeri naturali]] $[0,\dots,n-1]$, posizioni dei caratteri nella parola
+- $<$ corrisponde alla [[relazione]] di minore
+- il [[Analisi 1/Funzioni/dominio|dominio]] delle [[variabili]] è un sottoinsieme finito di [[numeri naturali]] $[0,\dots,n-1]$, posizioni dei caratteri nella parola
 
 
 - $\varphi_{1} \cap \varphi_{2} := \neg(\neg \varphi_{1} \cup \neg \varphi_{2})$
@@ -43,7 +43,7 @@ $w \in I$
 $w \vDash \varphi$
 $\vDash$ [[semantica]]
 
-$a(x)$, $w = aab$, $a(0), a(1),b(2)$, monadica in quanto ha un solo argomento, in questo caso la posizione all'interno della stringa.
+$a(x)$, $w = aab$, $a(0), a(1),b(2)$, monadica in quanto ha un solo argomento, in questo caso la posizione all'interno della [[stringa]].
 
 $\forall(x)$ significa per ogni posizione nella parola
 $\exists x$ significa che esiste una posizione nella parola
@@ -58,5 +58,13 @@ valgono le classiche abbreviazioni
 - costante 0: $x = 0 := \neg \exists y(y < x)$
 - successore $\text{succ}(x,y) :=  x < y, \neg \exists z : (x < z \cap z < y)$
 - costanti 1, 2, 3 come successori di 0, 1, 2
-- 
+
+
+>[!esempio]
+>formula che è soddisfatta da tutte le parole in cui ogni $a$ è seguita da una $b$
+> $$
+> \forall x(a(x) \to \exists y(\text{succ}(x,y) \cap b(y)))
+>$$
+
+Un [[linguaggio]] sono tutte le **parole** che soddisfano una formula
 
