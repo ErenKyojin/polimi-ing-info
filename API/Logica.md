@@ -127,13 +127,22 @@ Ammettiamo quindi formule del tipo $\exists x(\varphi)$ dove $x$ è una variabil
 
 ## Da FSA a MSO
 
-```tikz
-\usetikzlibrary{automata, arrows.meta,positioning}
-\begin{document}
-\begin{tikzpicture}[scale = 2]
-\node(q0)[state,initial, initial left]{$q0$};
-\node (q1) [state, right = of q0]{$q1$};
-\node (q2) [state,accepting, below left = of q1]{$q2$};
-\end{tikzpicture}
-\end{document}
-```
+> [!esempio]
+> ```tikz
+> \usetikzlibrary{automata, arrows.meta,positioning}
+> \begin{document}
+> \begin{tikzpicture}[scale = 2]
+> \node(q0)[state,initial, initial left, initial text = {}]{$q0$};
+> \node (q1) [state, right = of q0]{$q1$};
+> \node (q2) [state,accepting, below left = of q1]{$q2$};
+> \path [-stealth, thick]
+>  (q0) edge [loop above] node{c}()
+>  (q0) edge node[above] {b}(q1)
+>  (q0) edge node[right]{a}(q2)
+>  (q1) edge node[below]{a}(q2)
+>  (q2) edge [loop below]node{a}()
+>  (q2) edge [bend left] node[left]{c}(q0);
+> \end{tikzpicture}
+> \end{document}
+> ```
+> 
