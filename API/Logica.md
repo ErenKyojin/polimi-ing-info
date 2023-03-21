@@ -106,4 +106,4 @@ Non abbiamo chiusura rispetto a $^*$:
 >Abbiamo che $L_{p} = L_{p_{2}}^*$
 
 
-MFO definisce i cosidetti linguaggi **star free** o **aperiodici**, definibili tramite unione, intersezione, complemento e concatenazione di linguaggi finiti
+MFO definisce i cosidetti linguaggi **star free** o **aperiodici**, definibili tramite unione, intersezione, complemento e concatenazione di linguaggi finiti, linguaggi utili per la verifica dei programmi.
