@@ -37,7 +37,7 @@ $$
 foral
 $$
 
-## Logica monadica MFO
+# Logica monadica MFO
 
 $w \in I$
 $w \vDash \varphi$
@@ -58,7 +58,8 @@ valgono le classiche abbreviazioni
 - costante 0: $x = 0 := \neg \exists y(y < x)$
 - successore $\text{succ}(x,y) :=  x < y, \neg \exists z : (x < z \cap z < y)$
 - costanti 1, 2, 3 come successori di 0, 1, 2
-
+- $y = x + 1$ 
+- #todo
 
 >[!esempio]
 >formula che è soddisfatta da tutte le parole in cui ogni $a$ è seguita da una $b$
@@ -66,5 +67,27 @@ valgono le classiche abbreviazioni
 > \forall x(a(x) \to \exists y(\text{succ}(x,y) \cap b(y)))
 >$$
 
-Un [[linguaggio]] sono tutte le **parole** che soddisfano una formula
+Un [[linguaggio]] sono tutte le **parole** che soddisfano una formula.
 
+Con una formula chiusa non ci serve una valutazione:
+
+## [[Linguaggio]] di una formula chiusa
+$$L(\varphi) = \left\{ w \in I^* | w \vDash \varphi\right\}$$
+
+>[!oss]
+>La stringa vuota [[epsilon]] non puó soddisfare $q$, esistenziali, quindi soddisfa solo quantificazioni universali.
+
+
+
+## Proprietà di MFO
+
+Che linguaggi definisce questa logica? Si tratta di linguaggi molto deboli
+
+I linguaggi esprimibili mediante MFO sono chiusi rispetto a [[unione]], [[intersezione]] e [[complemento]] (basta usare or, and e not)
+
+>[!esempio]
+>$L(\varphi) : L(\varphi_{3}) = L(\varphi_{1}) \cap L(\varphi_{2}) \iff \varphi_{3} = \varphi_{1} \land \varphi_{2}$
+>analogo per unione (and)
+
+
+In MFO non si puó esprimere il linguaggio $L_{P}$ fatto di tutte e sole le parole di lungheza 

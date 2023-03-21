@@ -10,6 +10,6 @@ Siano $w \in I^*$ e $V_{1}$ l'insieme delle variabili; un assegnamento è una fu
 - $w,v_{1} \vDash \neg \varphi$ se e soo se $w,v_{1} \vDash \varphi$
 - $w,v_{1} \vDash \varphi_{1} \cup \varphi_{2}$ se e solo se $w,v_{1} \vDash \varphi_{1}$ o $w,v_{1} \vDash \varphi_{2}$
 - $w,v_{1} \vDash \exists x(\varphi)$ se e solo se $|w| > 0$ ed esiste $i \in [0,\dots,|w|-1]$ tale che $w,v_{1}[i/x] \vDash \varphi$
-  dove $v_{1}[i/x]$ è come $v_{1}$ ma assegna ad $x$ il valore $i$
+  dove $v_{1}[i/x]$ è come $v_{1}$ ma assegna ad $x$ il valore $i$, questo per la [[stringa]] [[epsilon]]
 
 
