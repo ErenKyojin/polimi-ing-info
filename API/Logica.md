@@ -151,6 +151,27 @@ Ammettiamo quindi formule del tipo $\exists x(\varphi)$ dove $x$ è una variabil
 
 {Precondizione PRE}
 Programma o frammento di programma
-{Postocndizione POST}
+{Postcondizione POST}
 
 Se vale PRE prima dell'esecuzione di P si vuole che P sia tale da far valere POST dopo la sua esecuzione
+
+>[!esempio]
+>Ordinamento di un array di $n$ elementi senza ripetizioni
+>$\left\{ \neg i,j (1 \leq i \leq n  \land 1 \leq j \leq n \land i \neq j \land a[i] = a[j] = a[j]) \right\}$
+>ORD
+>$\left\{ \forall i(1 \leq i < n \to a[i] \leq a[i + 1])  \right\}$
+>è una specifica adeugata, pensiamo all'analogia specifica = ocontratto
+>```c
+>for(int i = 1; i <= n, i++)
+>	a[i] = i;
+>```
+>Rispetta il contratto, ma butta via tutti gli elementi dell'array, il problema è nel contratto.
+>$\left\{ \neg i,j (1 \leq i \leq n  \land 1 \leq j \leq n \land i \neq j \land a[i] = a[j] = a[j]) \right\}$
+>ORD
+>$\{ \forall i(1 \leq i < n \to a[i] \leq a[i + 1])  \land$
+>$\forall i(1 \leq i \leq n \to \exists j(1 \leq j \leq n \land a[i] = b[j])) \land$
+>$\forall j(1 \leq j \leq n \to \exists i(1 \leq i \leq n \land a[i] = b[j] ))\}$
+
+
+
+
