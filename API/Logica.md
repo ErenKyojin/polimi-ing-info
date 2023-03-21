@@ -107,3 +107,8 @@ Non abbiamo chiusura rispetto a $^*$:
 
 
 MFO definisce i cosidetti linguaggi **star free** o **aperiodici**, definibili tramite unione, intersezione, complemento e concatenazione di linguaggi finiti, linguaggi utili per la verifica dei programmi.
+
+# Logica monaica del secondo ordine (MSO)
+Per ottenere lo stesso potere espressivo degli FSA serve permettere di quantificare su predicati monadici
+- Logica del primo ordine, quantificazioni su posizioni:
+- Logica del secondo ordine, quantificazioni su insiemi di posizioni, dove un insieme di posizioni è codificato da un prediato monadico $P(x)$ vuol  dire che $x$ è una posizione per cui vale $P(x)$
