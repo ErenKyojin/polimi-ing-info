@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eaa4d5585643ad9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/problema.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Logica.md",
+                "file": "API/problema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Logica.md",
+                "file": "API/problema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Logica.md"
+                "file": "API/problema.md"
               }
             }
           }
@@ -148,10 +161,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b464bd908dd49231",
+  "active": "eaa4d5585643ad9b",
   "lastOpenFiles": [
-    "API/semantica.md",
+    "API/Teoria del calcolo.md",
+    "API/problema.md",
     "API/Logica.md",
+    "API/semantica.md",
     "API/Linguaggio.md",
     "API/Ciclo.md",
     "Probabilità e statistica/Densità esponenziale.md",
@@ -180,8 +195,6 @@
     "Excalidraw",
     "Fondamenti di automatica/Esercizi",
     "Elettrotecnica/risposta in frequenza.md",
-    "Probabilità e statistica/Esercizi/PESe3.md",
-    "Fisica/velocità scalare istantanea.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli generativi",
     "Settings/scripts/package.json",
