@@ -50,7 +50,7 @@ $\exists x$ significa che esiste una posizione nella parola
 
 
 valgono le classiche abbreviazioni
-- $\phi_{1} \cap \phi_{2} := \neg(\neg \varphi_{1} \cup \neg\varphi_{2})$
+- $\varphi_{1} \cap \varphi_{2} := \neg(\neg \varphi_{1} \cup \neg\varphi_{2})$
 - $\varphi_{1} \to \varphi_{2} := \neg\varphi_{1} \cup \neg\varphi_{2}$
 - $\forall x(\varphi) := \neg Ex(\neg \varphi)$
 - $x = y := \neg(x < y) \cap \neg( y < x)$
@@ -90,4 +90,12 @@ I linguaggi esprimibili mediante MFO sono chiusi rispetto a [[unione]], [[inters
 >analogo per unione (and)
 
 
-In MFO non si puó esprimere il linguaggio $L_{P}$ fatto di tutte e sole le parole di lungheza 
+In MFO non si puó esprimere il linguaggio $L_{P}$ fatto di tutte e sole le parole di lunghezza pari con $I = \left\{ a \right\}$ (alfabeto unario).
+
+MFO è strettamente meno potente degli FSA, data una formula MFO costruire un FSA equivalente è sempre possibile e $L_{P}$ puó sempre essere riconosciuto tramite FSA
+
+>[!esempio]
+>$L_{p_{a}}= \left\{ aa, aaaa, aaaaaa, \dots \right\}$
+>$I = \left\{ a,b \right\}$
+>$$\forall x(a(x) \implies \exists y(\text{succ}(x,y) \land b(y))) \land \forall x (b(x) \implies \exists y(\text{succ})(x,y) \land a(y))$$
+
