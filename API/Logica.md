@@ -95,7 +95,15 @@ In MFO non si puó esprimere il linguaggio $L_{P}$ fatto di tutte e sole le paro
 MFO è strettamente meno potente degli FSA, data una formula MFO costruire un FSA equivalente è sempre possibile e $L_{P}$ puó sempre essere riconosciuto tramite FSA
 
 >[!esempio]
->$L_{p_{a}}= \left\{ aa, aaaa, aaaaaa, \dots \right\}$
+>$L_{pari}= \left\{ aa, aaaa, aaaaaa, \dots \right\}$
 >$I = \left\{ a,b \right\}$
->$$\forall x(a(x) \implies \exists y(\text{succ}(x,y) \land b(y))) \land \forall x (b(x) \implies \exists y(\text{succ})(x,y) \land a(y))$$
+>$$\forall x(a(x) \implies \exists y(\text{succ}(x,y) \land b(y))) \land \forall x (b(x) \implies \exists y(\text{succ})(x,y) \land a(y)) \land a(0)$$
+>$\qquad\land \exists x (b(x) \land \text{last}(x))$
 
+Non abbiamo chiusura rispetto a $^*$:
+>[!dim]
+>$a(0) \land a(1) \land \text{last}(1)$ definisce il linguaggio $L_{p_{2}}$ fatto della sola parola $\left\{ aa \right\}$ di lunghezza 2
+>Abbiamo che $L_{p} = L_{p_{2}}^*$
+
+
+MFO definisce i cosidetti linguaggi **star free** o **aperiodici**, definibili tramite unione, intersezione, complemento e concatenazione di linguaggi finiti
