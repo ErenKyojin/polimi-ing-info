@@ -111,4 +111,14 @@ MFO definisce i cosidetti linguaggi **star free** o **aperiodici**, definibili t
 # Logica monaica del secondo ordine (MSO)
 Per ottenere lo stesso potere espressivo degli FSA serve permettere di quantificare su predicati monadici
 - Logica del primo ordine, quantificazioni su posizioni:
-- Logica del secondo ordine, quantificazioni su insiemi di posizioni, dove un insieme di posizioni è codificato da un prediato monadico $P(x)$ vuol  dire che $x$ è una posizione per cui vale $P(x)$
+- Logica del secondo ordine, quantificazioni su insiemi di posizioni, dove un insieme di posizioni è codificato da un prediato monadico: $P(x)$ vuol  dire che $x$ è una posizione per cui vale $P(x)$
+
+Ammettiamo quindi formule del tipo $\exists x(\varphi)$ dove $x$ è una variabile il cui dominio è l'insieme dei predicati monadici, per convenzione usiamo le lettere maiuscole per indicare variabili con dominio l'insieme dei predicati monadici e lettere minuscole per indicare variabili sulle posizioni.
+
+- minuscole per variabili del primo ordine
+- maiuscle per variabili del secondo ordine
+
+[[semantica#Semantica MSO]]
+
+Con questa logica possiamo dunque scrivere la formula per il linguaggio $L_{pari}$
+$\exists P(\forall x (\neg P(0) \land (\neg P(x+1)) \land a(x) \land (las)))$
