@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilità e statistica/Densità esponenziale.md",
+                "file": "API/semantica.md",
                 "mode": "source",
                 "source": false
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilità e statistica/Densità esponenziale.md",
+                "file": "API/semantica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilità e statistica/Densità esponenziale.md",
+                "file": "API/semantica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -250,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilità e statistica/Densità esponenziale.md"
+                "file": "API/semantica.md"
               }
             }
           }
@@ -275,8 +275,11 @@
   },
   "active": "b464bd908dd49231",
   "lastOpenFiles": [
-    "Probabilità e statistica/Funzione di rischio.md",
+    "API/Logica.md",
+    "API/semantica.md",
+    "API/Ciclo.md",
     "Probabilità e statistica/Densità esponenziale.md",
+    "Probabilità e statistica/Funzione di rischio.md",
     "Probabilità e statistica/Momenti.md",
     "Probabilità e statistica/Gaussiana.md",
     "Probabilità e statistica/Standardizzazione.md",
@@ -304,9 +307,6 @@
     "Probabilità e statistica/Esercizi/PESe3.md",
     "Fisica/velocità scalare istantanea.md",
     "Fisica/velocità vettoriale.md",
-    "Fisica/moto.md",
-    "Analisi 2/coordinate polari.md",
-    "Fisica/Punto materiale.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli generativi",
     "Settings/scripts/package.json",

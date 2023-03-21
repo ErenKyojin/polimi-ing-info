@@ -36,3 +36,14 @@ Formula che è soddisfatta da tutte le parola in cui ogni $a$ è seguita da una 
 $$
 foral
 $$
+
+## Logica monadica MFO
+
+$w \in I$
+$w \vDash \varphi$
+$\vDash$ [[semantica]]
+
+$a(x)$, $w = aab$, $a(0), a(1),b(2)$, monadica in quanto ha un solo argomento, in questo caso la posizione all'interno della stringa.
+
+$\forall(x)$ significa per ogni posizione nella parola
+$\exists x$ significa che esiste una posizione nella parola
