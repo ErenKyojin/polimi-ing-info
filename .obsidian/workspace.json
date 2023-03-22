@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "75dad3e73e0a54a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/media teorica.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/problema.md",
+                "file": "API/media teorica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/problema.md",
+                "file": "API/media teorica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/problema.md"
+                "file": "API/media teorica.md"
               }
             }
           }
@@ -161,10 +173,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eaa4d5585643ad9b",
+  "active": "75dad3e73e0a54a0",
   "lastOpenFiles": [
-    "API/Teoria del calcolo.md",
+    "API/Media campionaria.md",
+    "API/media teorica.md",
     "API/problema.md",
+    "API/Teoria del calcolo.md",
     "API/Logica.md",
     "API/semantica.md",
     "API/Linguaggio.md",
@@ -191,10 +205,8 @@
     "Excalidraw/Drawing 2023-03-20 11.34.11.excalidraw.md",
     "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 11.22.11.excalidraw.md",
     "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 10.42.16.excalidraw.md",
-    "Fondamenti di automatica/Esercizi/Drawing 2023-03-20 11.09.20.excalidraw.md",
     "Excalidraw",
     "Fondamenti di automatica/Esercizi",
-    "Elettrotecnica/risposta in frequenza.md",
     "Probabilità e statistica/Esercizi",
     "API/Modelli generativi",
     "Settings/scripts/package.json",
