@@ -159,10 +159,19 @@ Dato lo schema a blocchi
 \usepackage{circuitikz}
 \begin{document}
 \begin{tikzpicture}
-\draw (0,0) to [generic] (2,0) to [generic](4,0);
-\draw (0,0) to (1,1) to [generic] (3,1) to (4,0);
-\draw(0,0) 
+\draw (0,0) to [generic,name = G2] (2,0) to [generic,name = G4](4,0);
+\draw (0,0) to (1,1) to [generic,name = G3] (3,1) to (4,0);
+\draw(4.5,0) to (4.5,-1) to [generic,name = G5] (-.2,-1) to (-.2,0);
+\draw(-2,0)node[left]{$u$} to [generic,name = G1] (0,0);
+\draw(4,0) to (6,0) node[right]{$y$};
+\node at (G1){$G_1$};
+\node at (G2){$G_2$};
+\node at (G3){$G_3$};
+\node at (G4){$G_4$};
+\node at (G5){$G_5$};
 \end{tikzpicture}
 \end{document}
 ```
+1. Esprimere la FdT $G(s) = \frac{Y(s)}{u(s)}$ in funzione di $G_{1}(s)\dots G_{5}(s)$
+2. Dire se lo stato asintotico di qualcuno dei blocchi $G_{1}(s)\dots G_{5}(s)$ è necessario e o sufficiente per quello del sistema compelssivo
 
