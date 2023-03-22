@@ -48,7 +48,19 @@ $$\begin{align}
 ## Proprietà di $X \sim \Gamma(\alpha,\lambda)$
 1. Di scala
 
-Se $x \sim \Gamma(\alpha,1), c > 0$ e $Y = cX$ allora $m_{Y}(t) = m_{X}(ct) = (\frac{\lambda}{\lambda-ct})^\alpha =$
+Se $x \sim \Gamma(\alpha,1), c > 0$ e $Y = cX$ allora $m_{Y}(t) = m_{X}(ct) = \left( \frac{\lambda}{\lambda-ct} \right)^\alpha = \left( \frac{\lambda/c}{\lambda/c - t} \right)^\alpha$
 se $\lambda-ct > 0 \iff t < \frac{\lambda}{c}$
 
+$\implies m_{cx}(t) = \left( \frac{\lambda/c}{\lambda / c - t} \right)^\alpha$ se $t < \frac{\lambda}{c}$
+$\implies$ $cX \sim \Gamma\left( \alpha, \frac{\lambda}{c} \right)$
 
+2. D
+$X_{1} \sim \Gamma(\alpha_{1},\lambda),\dots,x_{n} \sim \Gamma(\alpha_{n},\lambda)$ indipendente
+$\implies m_{\sum x_{j}}(t) = \left( \frac{\lambda}{\lambda-t} \right)^{\alpha_{1}}\dots\left( \frac{\lambda}{\lambda-t} \right)^{\alpha_{n}} = \left( \frac{\lambda}{\lambda-t} \right)^{\sum\alpha_{j}} = \text{ fgm } \Gamma\left( \sum \alpha_{n} \right)\quad \text{se } t < \lambda$
+
+
+Caso praticolare di $X \sim \Gamma(\alpha,\lambda)$
+2. $X \sim \Gamma(n,\lambda)$ è detta variabile aleatoria di Erlang
+3. Se $X \sim P\left( \frac{m}{2},\lambda \right)\quad m = 1,2,\dots$
+   $X$ è detta variabile aleatoria di Chi quadrato con $m$ gradi di libertà:
+   $X \sim \chi^2(m)$
