@@ -152,3 +152,17 @@ s + 1 & 0 \\
 0 \\
 1
 \end{bmatrix}$$
+...
+# 9
+Dato lo schema a blocchi
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) to [generic] (2,0) to [generic](4,0);
+\draw (0,0) to (1,1) to [generic] (3,1) to (4,0);
+\draw(0,0) 
+\end{tikzpicture}
+\end{document}
+```
+
