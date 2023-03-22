@@ -13,7 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES4.md",
+                "file": "Probabilità e statistica/Densità di somma.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bca76579efa21c84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probabilità e statistica/media teorica.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36f7d81943b2cf18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/funzione parziale.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9621ea72e696ced",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/Esercitazioni/ES4.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -72,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stabilità",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +126,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES4.md",
+                "file": "API/Esercitazioni/ES4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES4.md",
+                "file": "API/Esercitazioni/ES4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES4.md"
+                "file": "API/Esercitazioni/ES4.md"
               }
             }
           }
@@ -173,10 +209,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "76663bdd344748b6",
+  "active": "c9621ea72e696ced",
   "lastOpenFiles": [
-    "GAL/Autovalori e Autovettori.md",
+    "API/funzione parziale.md",
+    "API/Esercitazioni/ES4.md",
+    "API/Esercitazioni",
+    "API/insieme.md",
+    "API/Intersezione.md",
+    "API/Linguaggio.md",
+    "API/Logica.md",
+    "API/Modelli descrittivi.md",
+    "API/riproducibilità.md",
+    "Probabilità e statistica/Media campionaria.md",
+    "Probabilità e statistica/media teorica.md",
+    "Probabilità e statistica/Densità di somma.md",
+    "Probabilità e statistica/Densità gamma.md",
     "Fondamenti di automatica/Esercizi/ES4.md",
+    "GAL/Autovalori e Autovettori.md",
     "Fondamenti di automatica/funzione di trasferimento.md",
     "Fondamenti di automatica/Stabilità.md",
     "Fondamenti di automatica/criteri di stabilità.md",
@@ -184,23 +233,11 @@
     "Fondamenti di automatica/criterio di Routh.md",
     "Fondamenti di automatica/tabella di Routh.md",
     "Fondamenti di automatica/Esercizi/ES3.md",
-    "API/Densità gamma.md",
-    "API/riproducibilità.md",
-    "API/Densità di somma.md",
-    "API/media teorica.md",
-    "API/Media campionaria.md",
     "API/problema.md",
     "API/Teoria del calcolo.md",
-    "API/Logica.md",
     "API/semantica.md",
-    "API/Linguaggio.md",
     "API/Ciclo.md",
     "Probabilità e statistica/Densità esponenziale.md",
-    "Probabilità e statistica/Funzione di rischio.md",
-    "Probabilità e statistica/Momenti.md",
-    "Probabilità e statistica/Gaussiana.md",
-    "Probabilità e statistica/Standardizzazione.md",
-    "Probabilità e statistica/Disuguaglanza di Chebychev.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
     "Settings/Allegati/Pasted Image 20230320113426_622.png",
@@ -213,7 +250,6 @@
     "Settings/scripts/currfolder.js",
     "Settings/scripts/currfolder",
     "Settings/scripts",
-    "Settings",
     "Fondamenti di automatica/canvas/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
