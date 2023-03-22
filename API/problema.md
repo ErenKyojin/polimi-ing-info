@@ -16,7 +16,8 @@ con $\tau$ traduzione, ossia una funzione da $L_{1}$ a $L_{2}$ [[Linguaggio|ling
 
 Protocolli di compressione, protocolli autocorrettori, [[compilazione]] da [[Linguaggio|linguaggi]] a oggetti, traduzione italiano -> inglese
 
-
-
-
+# Definizione formale
+Cosa intendiamo con problema?
+I due problemi visti fino ad ora possiamo riassumerli in un unico problema
+$$z \in L_{\tau}=\left\{ x \$ y | y = \tau(x) \right\} $$
 
