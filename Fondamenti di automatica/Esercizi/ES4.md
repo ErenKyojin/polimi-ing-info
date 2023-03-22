@@ -114,4 +114,30 @@ $$
 2. $AS/S/I$
 3. FDT
 4. R?0?
-5. $y(t)$ per $x(t) = \begin{bmatrix}0\\2\end{bmatrix}$, $Re$
+5. $y(t)$ per $x(t) = \begin{bmatrix}0\\2\end{bmatrix}$, $u(t) = \sca(t)$
+---
+1. Si, $d = 0$
+2. $A$ triangolare inferiore => autovalori $-1$ e $-2$ con $\Re < 0 \implies$sistema AS
+3. $G(s) = c(s\mathbb{1} - A)^{-1}b + d =$
+   $$\begin{align}
+&=\begin{bmatrix}
+0 & 2
+\end{bmatrix}\begin{bmatrix}
+s + 1 & 0 \\
+-1 & s+2
+\end{bmatrix}^{-1}
+\begin{bmatrix}
+1 \\
+0
+\end{bmatrix} = \\
+&=\frac{1}{(s+1)(s+2)}\begin{bmatrix}
+0 & 2
+\end{bmatrix}\begin{bmatrix}
+/ & / \\
+1 & /
+\end{bmatrix}\begin{bmatrix}
+1 \\
+0
+\end{bmatrix} = \frac{2}{(s+1)(s+2)}
+\end{align} $$
+(non dobbiamo neanche considerare gli altri valori per gli zeri nei vettori)
