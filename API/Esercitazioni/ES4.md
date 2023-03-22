@@ -98,3 +98,15 @@ $$
 \end{document}
 ```
 
+[Simulatore di macchine di turing](https://www.turingmachinesimulator.com)
+
+# 5
+
+Disegnare una macchina di turing a 1 nastro che implementa:
+$f : \left\{ a,b \right\}^* \to \left\{ a,b \right\}^*, w \mapsto w,w^R$
+(anche 0 nastri)
+
+---
+Vediamo un po' di non determinismo
+# 6
+$\mathcal{L} = \left( ab + aba \right)^$
