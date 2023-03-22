@@ -42,20 +42,30 @@ Disegno una macchina di turing a 1 nastro che ha in inuput due naturali e stampa
 ```tikz
 \usetikzlibrary{automata, arrows.meta, positioning}
 \begin{document}
-\begin{tikzpicture}[every node/.style={scale=1.5}, node distance = 3cm]
-\node(q0)[state,initial]{$q0$};
-\node(q1)[state, right = of q0]{$q1$};
-\node(q2)[state,right=of q1]{$q2$};
-\node(q3)[state,right=of q2]{$q3$};
-\node(q4)[state,below = of q1]{$q4$};
+\begin{tikzpicture}[every node/.style={scale=1.5}, node distance = 3cm,scale = 2]
+\node(q0)[state,initial]{$q_0$};
+\node(q1)[state, right = of q0]{$q_1$};
+\node(q2)[state,right=of q1]{$q_2$};
+\node(q3)[state,right=of q2]{$q_3$};
+\node(q4)[state,below = of q1,accepting]{$q_f$};
 \path[->] (q0) edge node[above]{$*\_|\_(r,s)$} (q1)
 	(q1) edge node[below] {$1,\_|\_,(s,l)$}(q2)
-	(q2) edge node {}(q3)
-	(q3) edge[bend right] node {}(q1)
-	(q1) edge node {}(q4)
-	(q0) edge node {}(q4)
-	(q0) edge[loop above] node{} (q0)
-	(q2) edge[loop below] node{} (q2);
+	(q2) edge node[below] {$1,z_0|z_0,(s,r)$}(q3)
+	(q3) edge[bend right] node[above] {$1,\_|\_,(s,s)$}(q1)
+	(q1) edge node[right] {$\_,\_|\_,(s,s)$}(q4)
+	(q0) edge[bend right] node[left] {$*,z_0|z_0,(s,s)$}(q4)
+	(q0) edge[loop above] node[above]{$1,z_0|z_0,(s,r)$} node[above = 1cm]{$1,\_|1,(r,r)$}(q0)
+	(q2) edge[loop below] node{$1,1|1,(s,;)$} (q2)
+	(q3) edge[loop below] node{$1,1|1,(s,r)$} (q3);
 \end{tikzpicture}
 \end{document}
 ```
+
+>[!note]
+>Provare a modificarla per stampare errore in caso di stringa non valida
+
+# 4
+Disegnare una macchina di turing a nastro singolo che riconosca
+$$
+\mathcal{L} = \left\{ a^{2^n} | n \geq 0 \right\} 
+$$
