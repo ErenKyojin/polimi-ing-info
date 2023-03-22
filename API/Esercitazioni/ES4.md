@@ -25,7 +25,7 @@ k = 3
 		(q0)
 		(q0) edge[loop below] node[below left]{$a,z0,z0,z0|z0,z0,z0(s,r,r,r)$}
 		node[below = 1cm, left]{$b,z0,z0,z0|z0,z0,z0(s,r,r,r)$}
-		node[below = 2cm,left]{$c,z0,z0,z0|z0,z0,z0(s,r,r,r)$}(q0)
+		node[below = 1.6cm,left]{$c,z0,z0,z0|z0,z0,z0(s,r,r,r)$}(q0)
 		(q1) edge[loop above] node[above]{$bc,x,x,x|x,x,x,(s,l,l,l)$} (q1);
 \end{tikzpicture}
 \end{document}
@@ -77,7 +77,7 @@ $$
 \usetikzlibrary{automata, arrows.meta, positioning}
 \begin{document}
 \begin{tikzpicture}[every node/.style={scale=1.5},node distance=3cm,auto]
-\node(q0)[state,initial]{$q_0$};
+\node(q0)[state,initial, initial text = {}]{$q_0$};
 \node(q1)[state, right = of q0]{$q_1$};
 \node(q2)[state, right = of q1]{$q_2$};
 \node(q3)[state, below = of q2]{$q_3$};
@@ -85,15 +85,15 @@ $$
 \node(qf)[state,below = of q1, accepting]{$q_f$};
 \path[->] (q0) edge node{$a|a,(r)$} (q1)
 		(q1) edge node{$a|*,(r)$} (q2)
-		(q2) edge[bend left] node{$\_|\_,(l)$} (q3)
-		(q2) edge node{} (q4)
-		(q1) edge node{} (qf)
-		(q3) edge[bend left] node{} (q2)
-		(q4) edge[bend right=100] node{}(q0)
-		(q2) edge[loop above] node{}(q2)
-		(q1) edge[loop above] node{}(q1)
-		(q4) edge[loop right] node{}(q4)
-		(q3) edge[loop below] node{}(q3);
+		(q2) edge[bend left] node{$a|a,(r)$} (q3)
+		(q2) edge node{$\_|\_,(l)$} (q4)
+		(q1) edge node{$\_,|\_.(s)$} (qf)
+		(q3) edge[bend left] node{$a|*,(r)$} (q2)
+		(q4) edge[bend right=100] node{$\_|\_,(r)$}(q0)
+		(q2) edge[loop above] node{$*|*,(r)$}(q2)
+		(q1) edge[loop above] node{$*|*,(r)$}(q1)
+		(q4) edge[loop right] node{$a|a,(l)$} node[below right]{$*|*,(l)$}(q4)
+		(q3) edge[loop below] node{$*|*,(r)$}(q3);
 \end{tikzpicture}
 \end{document}
 ```
