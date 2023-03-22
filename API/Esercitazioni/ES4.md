@@ -167,10 +167,10 @@ Esempi di stringhe in $\mathcal{L}$ sono $\varepsilon, ab, aba, abab, ababa.abaa
 \end{document}
 ```
 # 7
-$\mathcal{L}1 = \left\{ a^nb^n | n \geq 1 \right\} \cup \left\{ a^n b^{2n} | n \geq 1\right\}$
-$\mathcal{L}2 = \left\{ *a^nb^n | n \geq 1\right\} \cup \left\{ \$ a^nb^{2n}| n \geq 1 \right\}$
-$\mathcal{L}_{3} = \left\{ a^n*b^n | n \geq 1 \right\} \cup \left\{ a^n\$b^2n |n \geq 1 \right\}$
-$\mathcal{L}_{4} = \left\{ a^nb^n* | n \geq 1 \right\} \cup \left\{ a^nb^{2n}\$ | n \geq 1 \right\}$
+$\mathcal{L}1 = \left\{ a^nb^n | n \geq 1 \right\} \cup \left\{ a^n b^{2n} | n \geq 1\right\}$ -> APND
+$\mathcal{L}2 = \left\{ *a^nb^n | n \geq 1\right\} \cup \left\{ \$ a^nb^{2n}| n \geq 1 \right\}$ -> APD
+$\mathcal{L}_{3} = \left\{ a^n*b^n | n \geq 1 \right\} \cup \left\{ a^n\$b^2n |n \geq 1 \right\}$ -> APD
+$\mathcal{L}_{4} = \left\{ a^nb^n* | n \geq 1 \right\} \cup \left\{ a^nb^{2n}\$ | n \geq 1 \right\}$ -> APND
 
 Questi linguaggi NON sono riconoscibili dagli automi a pila, il primo essendo la memoria distruttiva non puó riconoscere entrambi i tipi di linguaggi, col non determinismo si può ovviare al problema
 
@@ -180,8 +180,32 @@ Questi linguaggi NON sono riconoscibili dagli automi a pila, il primo essendo la
 \begin{document}
 \begin{tikzpicture}
 \node(q0)[state,initial]{$q_0$};
-\node(q1)[state,right above = of  ]{$a^nb^n$};
-\node(q2)[state]
+\node(q1)[state, above right = of q0]{$a^nb^n$};
+\node(q2)[state, below right= of q0]{$a^{n}b^{2n}$};
 \end{tikzpicture}
 \end{document}
 ```
+
+....
+
+# 8
+$\mathcal{L}_{1} = \left\{ a^ib^ic^* i \geq 0 \right\} \cap \left\{ a^*b^j c^j |j \geq 0 \right\} = \left\{ a^nb^nc^n | n \geq 0 \right\}$
+non è riconoscibile da un automa a pila non determinitico, serve la macchina di turing
+
+Se $\mathcal{L}$ è regolare e $\mathcal{M}$ riconosciuto da un Automa a pila (non deterministico) come è fatto $\mathcal{L} \cap \mathcal{M}$?
+Basta un automa a pila (eventualmente non deterministico)
+
+
+Consideriamo $\mathcal{L} = a^+(bb)^+$ e $M = \left\{ a^nb^{3n} | n \geq 0 \right\}$
+```tikz
+\usetikzlibrary{automata, arrows.meta, positioning}
+\begin{document}
+\begin{tikzpicture}
+
+\end{tikzpicture}
+\end{document}
+```
+L'intersezione è 
+$$
+|a^2n|
+$$
