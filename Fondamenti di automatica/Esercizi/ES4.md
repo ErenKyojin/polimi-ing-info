@@ -50,7 +50,7 @@ $$\begin{align}
 \end{bmatrix}x(k-1) + \begin{bmatrix}
 0.5 \\
 1 
-\end{bmatrix}v(k-1) \\
+\end{bmatrix}u(k-1) \\
 &y(k) = \begin{bmatrix}
 2 & 1
 \end{bmatrix}x(k) + u(k)
@@ -74,7 +74,7 @@ u(k) = \sca(k) + 3\sca(k)
 $$
 $$
 \begin{align}
-\begin{array}{ccc} \\
+\begin{array}{c|ccc} \\
 k & 0 & 1 & 2 \\
 \hline\sca(t) & 1 & 1 & 1 \\
 3\sca(t) & 0 & 3 & 6 \\
@@ -87,4 +87,31 @@ Quindi
 	- $x(0) = \begin{bmatrix}1\\0\end{bmatrix}$
 	- $y(0) = cx(0) + du(0) = \begin{bmatrix}2 & 1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} + 1 = 3$
 - $k = 1$
-	- $x(1) = $
+	- $x(1) = \begin{bmatrix}-0.5\\3\end{bmatrix}$
+	- $y(1) = 6$
+- $k=2$
+	- $x(2) = \begin{bmatrix}4\\0\end{bmatrix}$
+	- $y(2) = 15$
+
+$\CVD$
+# 8
+dato
+$$
+\begin{cases}
+\dot{x} = \begin{bmatrix}
+-1 & 0 \\
+1 & -2
+\end{bmatrix}x + \begin{bmatrix}
+1 \\
+0
+\end{bmatrix}u \\
+y = \begin{bmatrix}
+0 & 2
+\end{bmatrix}x
+\end{cases}
+$$
+1. SP?
+2. $AS/S/I$
+3. FDT
+4. R?0?
+5. $y(t)$ per $x(t) = \begin{bmatrix}0\\2\end{bmatrix}$, $Re$
