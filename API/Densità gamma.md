@@ -64,3 +64,11 @@ Caso praticolare di $X \sim \Gamma(\alpha,\lambda)$
 3. Se $X \sim P\left( \frac{m}{2},\lambda \right)\quad m = 1,2,\dots$
    $X$ è detta variabile aleatoria di Chi quadrato con $m$ gradi di libertà:
    $X \sim \chi^2(m)$
+
+
+- $E(\chi^2(m)) = E\left( \Gamma\left( \frac{\frac{m}{2},1}{2} \right) \right) = \frac{m}{2 }/ \frac{1}{2} = m$
+- $v_{a}(\chi^2(m)) = \var(''\ '')=\frac{m}{2} / \left( \frac{1}{2} \right)^2= 2m$
+$$
+\chi_{1} \sim \chi_{1}^2 ,\dots, \chi_{n} \sim \chi^2_{1} \text{ indip }
+$$
+$\implies \sum_{j=1}^m P\left( \frac{1}{2}, \frac{1}{2} \right) \sim P\left( \frac{m}{2}, \frac{1}{2} \right) = \chi^2_{m}$
