@@ -109,4 +109,28 @@ $f : \left\{ a,b \right\}^* \to \left\{ a,b \right\}^*, w \mapsto w,w^R$
 ---
 Vediamo un po' di non determinismo
 # 6
-$\mathcal{L} = \left( ab + aba \right)^$
+$\mathcal{L} = \left( ab + aba \right)^*$
+
+Esempi di stringhe in $\mathcal{L}$ sono $\varepsilon, ab, aba, abab, ababa.abaab,\dots$
+
+```tikz
+\usetikzlibrary{automata, arrows.meta, positioning}
+\begin{document}
+\begin{tikzpicture}[every node/.style={scale=1.2}, node distance = 4cm,auto]
+\node(1)[state,initial,accepting]{$1$};
+\node(2)[state, right = of 1]{$2$};
+\node(3)[state, below right = of 1]{$3$};
+\node(4)[state, left = of 3]{$4$};
+\node(f)[state, below right = of 3]{$f$};
+\path[->] (1) edge[bend left] node{a} (2)
+		(1) edge[bend left] node{a} (3)
+		(1) edge[bend left=50] node{a} (f)
+		(2) edge[bend left] node{b} (1)
+		(2) edge[bend left] node{a} (f)
+		(3) edge[bend left] node{b} (4)
+		(3) edge[bend right] node{a} (f)
+		(4) edge[bend left] node{a}(1)
+		(4) edge[bend right] node{b} (f);
+\end{tikzpicture}
+\end{document}
+```
