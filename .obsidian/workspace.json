@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "parti nascoste",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,8 +175,9 @@
   },
   "active": "76663bdd344748b6",
   "lastOpenFiles": [
-    "Fondamenti di automatica/funzione di trasferimento.md",
+    "Fondamenti di automatica/Sistemi interconessi.md",
     "Fondamenti di automatica/Esercizi/ES4.md",
+    "Fondamenti di automatica/funzione di trasferimento.md",
     "Fondamenti di automatica/criterio di Routh.md",
     "Fondamenti di automatica/tabella di Routh.md",
     "Fondamenti di automatica/criteri di stabilità.md",
@@ -200,7 +201,6 @@
     "Probabilità e statistica/Standardizzazione.md",
     "Probabilità e statistica/Disuguaglanza di Chebychev.md",
     "Probabilità e statistica/Varianza.md",
-    "Probabilità e statistica/Valore atteso.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
     "Settings/Allegati/Pasted Image 20230320113426_622.png",
