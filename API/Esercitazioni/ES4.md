@@ -121,16 +121,39 @@ Esempi di stringhe in $\mathcal{L}$ sono $\varepsilon, ab, aba, abab, ababa.abaa
 \node(2)[state, right = of 1]{$2$};
 \node(3)[state, below right = of 1]{$3$};
 \node(4)[state, left = of 3]{$4$};
-\node(f)[state, below right = of 3]{$f$};
+\node(f)[state, below right = of 3]{$P$};
 \path[->] (1) edge[bend left] node{a} (2)
 		(1) edge[bend left] node{a} (3)
-		(1) edge[bend left=50] node{a} (f)
+		(1) edge[bend left=50,thick] node{a} (f)
 		(2) edge[bend left] node{b} (1)
 		(2) edge[bend left] node{a} (f)
 		(3) edge[bend left] node{b} (4)
 		(3) edge[bend right] node{a} (f)
 		(4) edge[bend left] node{a}(1)
-		(4) edge[bend right] node{b} (f);
+		(4) edge[bend right] node{b} (f)
+		(f) edge[loop below]node{a,b}(f);
+\end{tikzpicture}
+\end{document}
+```
+è non deterministico, la stessa stringa puó portarmi in piú posti, consideriamo come accettata una stringa che abbia almeno un percorso che finisce su uno stato di accettazione. P è il pozzo
+
+```tikz
+\usetikzlibrary{automata, arrows.meta, positioning}
+\begin{document}
+\begin{tikzpicture}[auto]
+\node(1)[state,initial]{$\{1\}$};
+\node(23)[state,right = of 1]{$\{2,3\}$};
+\node(14)[state,right = of 23]{$\{1,4\}$};
+\node(123)[state, right = of 14]{$\{1,2,3\}$};
+\node(23P)[state,right = of 123]{$\{2,3,P\}$};
+\node(14p)[state, below = of 123]{$\{1,4,P\}$};
+\node(123p)[state,below = of 14p]{$\{1,2,3,P\}$};
+\node(P)[state,below = of 1]{$\{P\}$};
+\path[->] (1) edge node{a} (23)
+		(23) edge node{b} (14)
+		(14) edge node {a} (123)
+		(123) edge node{a} (23P);
+		(23P())
 \end{tikzpicture}
 \end{document}
 ```
