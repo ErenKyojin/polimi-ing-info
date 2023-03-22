@@ -152,8 +152,36 @@ Esempi di stringhe in $\mathcal{L}$ sono $\varepsilon, ab, aba, abab, ababa.abaa
 \path[->] (1) edge node{a} (23)
 		(23) edge node{b} (14)
 		(14) edge node {a} (123)
-		(123) edge node{a} (23P);
-		(23P())
+		(123) edge node{a} (23P)
+		(23P) edge node{a} (P)
+		(1) edge node{b} (P)
+		(23) edge node{a} (P)
+		(14) edge node{b} (P)
+		(123) edge node{b}(14p)
+		(14p) edge node{b}(P)
+		(14p) edge node{a}(123p)
+		(123p) edge[bend left] node{b} (14p)
+		(123p) edge node {a}(23P)
+		;
+\end{tikzpicture}
+\end{document}
+```
+# 7
+$\mathcal{L}1 = \left\{ a^nb^n | n \geq 1 \right\} \cup \left\{ a^n b^{2n} | n \geq 1\right\}$
+$\mathcal{L}2 = \left\{ *a^nb^n | n \geq 1\right\} \cup \left\{ \$ a^nb^{2n}| n \geq 1 \right\}$
+$\mathcal{L}_{3} = \left\{ a^n*b^n | n \geq 1 \right\} \cup \left\{ a^n\$b^2n |n \geq 1 \right\}$
+$\mathcal{L}_{4} = \left\{ a^nb^n* | n \geq 1 \right\} \cup \left\{ a^nb^{2n}\$ | n \geq 1 \right\}$
+
+Questi linguaggi NON sono riconoscibili dagli automi a pila, il primo essendo la memoria distruttiva non puó riconoscere entrambi i tipi di linguaggi, col non determinismo si può ovviare al problema
+
+
+```tikz
+\usetikzlibrary{automata, arrows.meta, positioning}
+\begin{document}
+\begin{tikzpicture}
+\node(q0)[state,initial]{$q_0$};
+\node(q1)[state,right above = of  ]{$a^nb^n$};
+\node(q2)[state]
 \end{tikzpicture}
 \end{document}
 ```
