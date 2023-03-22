@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "parti nascoste",
+                "query": "stabilità",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,13 +175,13 @@
   },
   "active": "76663bdd344748b6",
   "lastOpenFiles": [
-    "Fondamenti di automatica/Sistemi interconessi.md",
+    "Fondamenti di automatica/criteri di stabilità.md",
+    "Fondamenti di automatica/Stabilità.md",
     "Fondamenti di automatica/Esercizi/ES4.md",
+    "Fondamenti di automatica/Sistemi interconessi.md",
     "Fondamenti di automatica/funzione di trasferimento.md",
     "Fondamenti di automatica/criterio di Routh.md",
     "Fondamenti di automatica/tabella di Routh.md",
-    "Fondamenti di automatica/criteri di stabilità.md",
-    "Fondamenti di automatica/Stabilità.md",
     "Fondamenti di automatica/Esercizi/ES3.md",
     "API/Densità gamma.md",
     "API/riproducibilità.md",

@@ -44,17 +44,47 @@ $\CVD$
 # 7
 Dato il sistema dinamico lineare tempo invariante a tempo discreto [[siso]]
 $$\begin{align}
-x(k) = \begin{bmatrix}
+&x(k) = \begin{bmatrix}
 -1 & 0.5 \\
 2 & -1 
 \end{bmatrix}x(k-1) + \begin{bmatrix}
 0.5 \\
 1 
 \end{bmatrix}v(k-1) \\
-y(k) = \begin{bmatrix}
+&y(k) = \begin{bmatrix}
 2 & 1
 \end{bmatrix}x(k) + u(k)
 \end{align}$$
 1. è strettamente proprio
 2. As/S/I
-3. Primi tre va;pri di $y$
+3. Primi tre valori di $y$ (essendo a tempo discreto $k = 0,1,2$) prodotti da $x(0) = \begin{bmatrix}1\\0\end{bmatrix}$ e $u(k) = \sca(k) + 3\text{ram}(k)$
+
+Ricordando che
+$$\sca(k) = \begin{cases}
+1 & k\geq0 \\
+0 & k < 0
+\end{cases}\qquad
+\text{ram}(k) = k\sca(t)$$
+---
+1. **No**, $u$ compare nell'equazione di uscita.
+2. Con un sistema del secondo ordine conviene calcolare gli autovalori, $(-1-\lambda)^2 - 1 = 0 \implies\lambda^2 -2\lambda =0 \implies \lambda_{1,2} = 0,-2 \implies$ sistema instabile (Conta il modulo essendo a tempo discreto)
+3. Esprimiamo $u$, abbiamo
+   $$
+u(k) = \sca(k) + 3\sca(k)
+$$
+$$
+\begin{align}
+\begin{array}{ccc} \\
+k & 0 & 1 & 2 \\
+\hline\sca(t) & 1 & 1 & 1 \\
+3\sca(t) & 0 & 3 & 6 \\
+\hline u(k) & 1 & 4 & 7
+\end{array}
+\end{align}
+$$
+Quindi 
+- $k = 0$
+	- $x(0) = \begin{bmatrix}1\\0\end{bmatrix}$
+	- $y(0) = cx(0) + du(0) = \begin{bmatrix}2 & 1\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix} + 1 = 3$
+- $k = 1$
+	- $x(1) = $
