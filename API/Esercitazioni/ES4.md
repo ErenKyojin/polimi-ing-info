@@ -69,3 +69,20 @@ Disegnare una macchina di turing a nastro singolo che riconosca
 $$
 \mathcal{L} = \left\{ a^{2^n} | n \geq 0 \right\} 
 $$
+
+>[!danger] 
+>A nastro singolo diverso da a 1 nastro
+
+```tikz
+\usetikzlibrary{automata, arrows.meta, positioning}
+\begin{document}
+\begin{tikzpicture}[every node/.style={scale=1.5},node distance=3cm]
+\node(q0)[state]{$q_0$};
+\node(q1)[state, right = of q0]{$q_1$};
+\node(q2)[state, right = of q1]{$q_2$};
+\node(q3)[state, below = of q2]{$q_3$};
+\node(q4)[state, right = of q2]{$q_4$};
+\path[->] (q0)
+\end{tikzpicture}
+\end{document}
+```
