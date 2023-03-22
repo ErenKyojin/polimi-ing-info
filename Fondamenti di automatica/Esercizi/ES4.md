@@ -67,7 +67,7 @@ $$\sca(k) = \begin{cases}
 \text{ram}(k) = k\sca(t)$$
 ---
 1. **No**, $u$ compare nell'equazione di uscita.
-2. Con un sistema del secondo ordine conviene calcolare gli autovalori, $(-1-\lambda)^2 - 1 = 0 \implies\lambda^2 -2\lambda =0 \implies \lambda_{1,2} = 0,-2 \implies$ sistema instabile (Conta il modulo essendo a tempo discreto)
+2. Con un sistema del secondo ordine conviene calcolare gli [[Autovalori e Autovettori|autovalori]], $(-1-\lambda)^2 - 1 = 0 \implies\lambda^2 -2\lambda =0 \implies \lambda_{1,2} = 0,-2 \implies$ sistema instabile (Conta il modulo essendo a tempo discreto)
 3. Esprimiamo $u$, abbiamo
    $$
 u(k) = \sca(k) + 3\sca(k)
@@ -141,3 +141,14 @@ s + 1 & 0 \\
 \end{bmatrix} = \frac{2}{(s+1)(s+2)}
 \end{align} $$
 (non dobbiamo neanche considerare gli altri valori per gli zeri nei vettori)
+4. ?
+5. calcolo il ML con $e^{At}$ e il MF con $G(s)$
+	1. [[Autovalori e Autovettori|Autovalori]] di $A: S_{1} =-1,S_{2} = -2$
+	2. [[Autovalori e Autovettori|Autovettori]]:
+	   $$\begin{bmatrix}
+1 \\
+1
+\end{bmatrix}\qquad\begin{bmatrix}
+0 \\
+1
+\end{bmatrix}$$
