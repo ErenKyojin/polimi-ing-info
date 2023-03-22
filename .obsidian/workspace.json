@@ -53,7 +53,8 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "f58b53c885e6dc90"
           },
           {
             "id": "94097517fc9308d6",
@@ -81,6 +82,25 @@
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "2d7dc3d6fd0658a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4236cd3dead344d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/Esercitazioni/ES4.md",
+                "mode": "preview",
+                "source": false
+              }
+            },
+            "group": "f58b53c885e6dc90"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,10 +230,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c9621ea72e696ced",
+  "active": "4236cd3dead344d9",
   "lastOpenFiles": [
-    "API/complemento.md",
+    "API/Modelli operazionali/Macchine di Turing.md",
     "API/Esercitazioni/ES4.md",
+    "API/complemento.md",
     "API/funzione parziale.md",
     "API/Esercitazioni",
     "API/insieme.md",
@@ -237,7 +259,6 @@
     "API/problema.md",
     "API/Teoria del calcolo.md",
     "API/semantica.md",
-    "API/Ciclo.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
     "Settings/Allegati/Pasted Image 20230320113426_622.png",

@@ -36,5 +36,26 @@ k = 3
 
 
 
+# 3
+Disegno una macchina di turing a 1 nastro che ha in inuput due naturali e stampa in output il loro prodott, tutto in base 1, i naturali sono separati da un *.
 
-$\cancel{ b }$
+```tikz
+\usetikzlibrary{automata, arrows.meta, positioning}
+\begin{document}
+\begin{tikzpicture}[every node/.style={scale=1.5}, node distance = 3cm]
+\node(q0)[state,initial]{$q0$};
+\node(q1)[state, right = of q0]{$q1$};
+\node(q2)[state,right=of q1]{$q2$};
+\node(q3)[state,right=of q2]{$q3$};
+\node(q4)[state,below = of q1]{$q4$};
+\path[->] (q0) edge node[above]{$*\_|\_(r,s)$} (q1)
+	(q1) edge node[below] {$1,\_|\_,(s,l)$}(q2)
+	(q2) edge node {}(q3)
+	(q3) edge[bend right] node {}(q1)
+	(q1) edge node {}(q4)
+	(q0) edge node {}(q4)
+	(q0) edge[loop above] node{} (q0)
+	(q2) edge[loop below] node{} (q2);
+\end{tikzpicture}
+\end{document}
+```
