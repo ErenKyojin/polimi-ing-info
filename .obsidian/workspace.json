@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8803ac7fde3b117b",
+        "id": "9883bf6cefea8ef4",
         "type": "tabs",
         "children": [
           {
-            "id": "76663bdd344748b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e statistica/Densità di somma.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bca76579efa21c84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilità e statistica/media teorica.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36f7d81943b2cf18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API/funzione parziale.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9621ea72e696ced",
+            "id": "b635cf672b2043d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "94097517fc9308d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fondamenti di automatica/criterio di Routh.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7a915a8dd0de2039",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fondamenti di automatica/tabella di Routh.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -211,10 +149,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c9621ea72e696ced",
+  "active": "b635cf672b2043d0",
   "lastOpenFiles": [
-    "Fisica/accelerazione angolare.md",
+    "Fisica/moto armonico.md",
     "Fisica/moto.md",
+    "Fondamenti di automatica/tabella di Routh.md",
+    "Fondamenti di automatica/criterio di Routh.md",
+    "Fisica/Moto rettilineo.md",
+    "Fisica/moto circolare.md",
+    "Fisica/accelerazione angolare.md",
     "Fisica/velocità angolare.md",
     "Fisica/Legge oraria.md",
     "Fisica/Punto materiale.md",
@@ -235,11 +178,6 @@
     "API/Esercitazioni",
     "API/insieme.md",
     "API/Intersezione.md",
-    "API/Linguaggio.md",
-    "API/Logica.md",
-    "API/Modelli descrittivi.md",
-    "Probabilità e statistica/Media campionaria.md",
-    "Probabilità e statistica/media teorica.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
     "Settings/Allegati/Pasted Image 20230320113426_622.png",
