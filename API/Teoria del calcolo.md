@@ -90,5 +90,20 @@ Funzione identità
 | ------ | ------------- | ------- | ------- |
 | **q0** | $(q_{0},0,L)$ | $\perp$ | $\perp$ |
 | **q1** | $\perp$       | $\perp$ | $\perp$        |
-Funzione identità, infatti se non legge 0 all'inizio termina, se legge 0 all'inizio scrive 0, si sposta a sinistra e termina leggendo blank
+Funzione identità, infatti se non legge 0 all'inizio termina, se legge 0 all'inizio scrive 0, si sposta a sinistra e termina leggendo blank (sul nastro troviamo una stringa identica), osservare che non si va mai in q1
 ...
+
+Abbiamo quindi la nostra enumerazione algoritmica $E : \left\{ \text{ MT } \right\} \leftrightarrow \mathbb{N}$
+
+$E$ è algoritmica o effettiva, possiamo scrivere un programma (ossia una MT) tale che, dato $n$, costruisce la macchina di turing $n$-esima, e che data una tabella ci fornisca il numero della macchina di Turing $E(M)$.
+
+$E(M)$ è detto numero di Goedel di M, ed $E$ è detta Goedelizzazione
+
+Quindi, riassumendo
+- Problema: calcolo di una funzione $f : \mathbb{N} \to \mathbb{N}$
+- $f_{y}$ funzione calcolata dalla $y$-esima macchina di Turing
+
+>[!oss]
+>$f_{y}(x)=\perp$ se e solo se $M_{y}$ non si ferma quando riceve in ingresso $x$
+
+
