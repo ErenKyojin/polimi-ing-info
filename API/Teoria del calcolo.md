@@ -107,3 +107,32 @@ Quindi, riassumendo
 >$f_{y}(x)=\perp$ se e solo se $M_{y}$ non si ferma quando riceve in ingresso $x$
 
 
+## Macchina di Turing universale (MTU)
+Esiste una macchina di Turing universale che calcola la funzione $g(y,x) = f_{y}(x)$.
+Ad essere precisi la MTU così definita non appartiene a $\left\{ M_{y} \right\}$ perchè $f_{y}$ è funzione di una variabile mentre $g$ è funzione di due variabili
+
+>[!oss]
+>Non ci deve sorprendere che possiamo simulare una qualsiasi macchina di Turing con un'altra macchina di Turing, è l'equivalente di eseguire un programma su un computer.
+
+
+
+Noi sappiamo che $\mathbb{N} \times \mathbb{N} \leftrightarrow \mathbb{N}$
+
+>[!esempio]
+>$$d(x,y) = \frac{x+y)(x+y+1}{2} + x$$
+>
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}
+>\draw[->] (0,0) -- (5.5,0);
+>\draw[->] (0,0) -- (0,4.5);
+>\draw[step=.5] (0,0) grid (5,4);
+>\path[thick,red] [->] (0,0.5) edge (.5,0) 
+>		(.5,0) edge (0,1)
+>		(0,1) edge (1,0)
+>		(1,0) edge (0,1.5)
+>		(0,1.5) edge (1.5,0);
+>\end{tikzpicture}
+>\end{document}
+>```
+
