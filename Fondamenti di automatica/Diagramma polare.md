@@ -80,3 +80,28 @@ Lo si puó dedurre dai diagrammi di bode:
 - l'andamento del modulo mi da la distanza dall'origine
 - l'andamento della fase mi da la distanza dell'argomento
 
+>[!esempio]-
+>$G(s) = \frac{1}{1+s}$
+>
+>DBM sopram
+>DBF sotto
+> ```tikz
+> \usepackage{amsfonts}
+>\begin{document}
+>\begin{tikzpicture}
+>\draw (0,0) -- (2,0) -- (3,-1);
+>\draw(0,-2) -- (2,-2) -- (2,-3) -- (3,-3);
+>\draw[thin,dashed] (2,-4) -- (2,1);
+>\end{tikzpicture}
+>\begin{tikzpicture}
+>\draw(0,0) -- (5,0);
+>\end{tikzpicture}
+>\begin{tikzpicture}[auto]
+>\draw[->] (0,0) -- (0,5)node{$\mathbb{I}$};
+>\draw[->] (0,0) -- (5,0)node{$\mathbb{R}$};
+>\draw[red] (0,0) arc (-180:0:2);
+>\end{tikzpicture}
+>\end{document}
+>```
+
+
