@@ -48,7 +48,7 @@ Una macchina di turing è identificata univocamente dalla tabella della sua funz
 $$\delta : Q \times A \to Q \times A \times \left\{ L,R,S \right\} \cup \left\{ \perp \right\}$$
 Ordiniamo per numero di stati, inoltre scegliamo un ordinamento arbitrario delle tuple, ade sempio quello lessicografico.
 
->[!oss] $\perp$
+>[!oss] $\perp$ significa indefinito, ossia non ci sono frecce
 
 In generale, quante sono le $f : D \to R$? Sono $|R|^{|D|}$
 
@@ -56,3 +56,32 @@ In generale, quante sono le $f : D \to R$? Sono $|R|^{|D|}$
 >Con $|Q| = 1, |A|=3, (3\cdot3 + 1)^{1 \cdot 3} = 1000$ macchine di Turing ad un solo stato
 >
 >Mettiamo in ordine queste macchine di Turing: $\left\{ M_{0}, M_{1}, \dots, M_{999} \right\}$
+T999
+
+### $|Q| = 1$
+ | MT0 | 0       | 1       | -       |
+ | --- | ------- | ------- | ------- |
+ | **q0**  | $\perp$ | $\perp$ | $\perp$ |
+
+Funzione identità $f(x) = x$
+
+| MT1    | 0       | 1       | -       |
+| ------ | ------- | ------- | ------- |
+| **q0** | $(q_{0},0,L)$ | $\perp$ | $\perp$ |
+
+| MT2    | 0             | 1       | -       |
+| ------ | ------------- | ------- | ------- |
+| **q0** | $(q_{0},0,R)$ | $\perp$ | $\perp$ | 
+
+...
+
+| MT999  | 0             | 1             | -   |
+| ------ | ------------- | ------------- | --- |
+| **q0** | $(q_{0},1,S)$ | $(q_{0},1,S)$ | $(q_{0},1,S)$    |
+
+### Q = 2
+| MT1000  | 0       | 1       | -       |
+| ------- | ------- | ------- | ------- |
+| q0      | $\perp$ | $\perp$ | $\perp$ |
+| $q_{1}$ | $\perp$ | $\perp$ | $\perp$ | 
+
