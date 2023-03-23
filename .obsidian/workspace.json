@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Esercitazioni/ES4.md",
+                "file": "API/Teoria del calcolo.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Esercitazioni/ES4.md",
+                "file": "API/Teoria del calcolo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Esercitazioni/ES4.md",
+                "file": "API/Teoria del calcolo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Esercitazioni/ES4.md"
+                "file": "API/Teoria del calcolo.md"
               }
             }
           }
@@ -200,18 +200,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
-      "canvas:Create new canvas": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "c9621ea72e696ced",
   "lastOpenFiles": [
-    "API/Esercitazioni/www.turingmachinesimulator.com.md",
+    "Probabilità e statistica/riproducibilità.md",
+    "API/Teoria del calcolo.md",
+    "API/Chiusura.md",
+    "API/Modelli operazionali/funzione di transizione.md",
     "API/Esercitazioni/ES4.md",
+    "API/Esercitazioni/www.turingmachinesimulator.com.md",
     "API/Modelli operazionali/Macchine di Turing.md",
     "API/complemento.md",
     "API/funzione parziale.md",
@@ -221,7 +227,6 @@
     "API/Linguaggio.md",
     "API/Logica.md",
     "API/Modelli descrittivi.md",
-    "API/riproducibilità.md",
     "Probabilità e statistica/Media campionaria.md",
     "Probabilità e statistica/media teorica.md",
     "Probabilità e statistica/Densità di somma.md",
@@ -234,9 +239,6 @@
     "Fondamenti di automatica/Sistemi interconessi.md",
     "Fondamenti di automatica/criterio di Routh.md",
     "Fondamenti di automatica/tabella di Routh.md",
-    "Fondamenti di automatica/Esercizi/ES3.md",
-    "API/problema.md",
-    "API/Teoria del calcolo.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
     "Settings/Allegati/Pasted Image 20230320113426_622.png",
