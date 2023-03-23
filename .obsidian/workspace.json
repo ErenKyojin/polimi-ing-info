@@ -217,7 +217,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -236,7 +236,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "69f8a91199f6ca27",
+  "active": "e482e98321e71fe8",
   "lastOpenFiles": [
     "Fisica/Cinematica/Punto materiale.md",
     "Fisica/Cinematica/velocità angolare.md",
