@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,13 +211,15 @@
   },
   "active": "c9621ea72e696ced",
   "lastOpenFiles": [
+    "API/Modelli operazionali/Macchine di Turing.md",
+    "API/problema.md",
+    "API/gerarchia di Chomsky.md",
     "API/Teoria del calcolo.md",
     "Probabilità e statistica/riproducibilità.md",
     "API/Chiusura.md",
     "API/Modelli operazionali/funzione di transizione.md",
     "API/Esercitazioni/ES4.md",
     "API/Esercitazioni/www.turingmachinesimulator.com.md",
-    "API/Modelli operazionali/Macchine di Turing.md",
     "API/complemento.md",
     "API/funzione parziale.md",
     "API/Esercitazioni",
@@ -237,8 +238,6 @@
     "Fondamenti di automatica/Stabilità.md",
     "Fondamenti di automatica/criteri di stabilità.md",
     "Fondamenti di automatica/Sistemi interconessi.md",
-    "Fondamenti di automatica/criterio di Routh.md",
-    "Fondamenti di automatica/tabella di Routh.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
     "Settings/Allegati/Pasted Image 20230320113426_622.png",
