@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/velocità angolare.md",
+                "file": "Fisica/moto.md",
                 "mode": "source",
                 "source": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/velocità angolare.md",
+                "file": "Fisica/moto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/velocità angolare.md",
+                "file": "Fisica/moto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/velocità angolare.md"
+                "file": "Fisica/moto.md"
               }
             }
           }
@@ -213,8 +213,8 @@
   },
   "active": "c9621ea72e696ced",
   "lastOpenFiles": [
-    "Fisica/moto.md",
     "Fisica/velocità angolare.md",
+    "Fisica/moto.md",
     "Fisica/Legge oraria.md",
     "Fisica/Punto materiale.md",
     "Fisica/radianti.md",
