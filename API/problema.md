@@ -27,18 +27,3 @@ Viceversa se ho un tipo di macchina che sa risolvere il problema $x \in \mathcal
 - Fissato un certo $x$ enumero tutte le possibili stringe $y$ sull'alfabeto di uscita e per ognuna domando alla macchina se $x\$y \in L$,
 - Prima o poi se $\tau(x)$ è definito troverò quella per cui la macchina risponde positivamente. Procedimento lungo in quanto bruteforce; ma, almeno al momento, non ci interessa l'efficienza.
 
-In quanto ai modelli sembra che la [[potenza]] espressiva massima trovata siano le [[macchine di Turing]] e le [[grammatiche]] generali, da cui:
-
->[!teorema] Tesi di Curch (e Turing)
->Non esiste meccanismo di calcolo automatico superiore alla macchina di Turing o di formalismi a lei corrispondenti, ne algoritmi per risolvere problemi non risolvibili da una macchina di Turing
-
-$\lambda$calcolo è un modello basato su funzioni ricorsive
-
-A questo punto, per studiare i problemi risolvibili dobbiamo definire un modello, in modo che sia il piú semplice possibile
-
-## Modello di studio
-Macchina di turing a nastro singolo con:
-- **ALFABETO**: $A = \left\{ 0,1,\_ \right\}$
-- **PROBLEMA**: calcolo di una funzione $f : N \to \mathbb{N}$
-- **STATI FINALI**: tutti e soli quelli che fermano la macchina (non serve definire l'insieme $I$)
-- 

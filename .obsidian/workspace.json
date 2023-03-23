@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/problema.md",
+                "file": "API/Teoria del calcolo.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/problema.md",
+                "file": "API/Teoria del calcolo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/problema.md",
+                "file": "API/Teoria del calcolo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/problema.md"
+                "file": "API/Teoria del calcolo.md"
               }
             }
           }
@@ -211,8 +211,8 @@
   },
   "active": "c9621ea72e696ced",
   "lastOpenFiles": [
-    "API/Modelli operazionali/Macchine di Turing.md",
     "API/problema.md",
+    "API/Modelli operazionali/Macchine di Turing.md",
     "API/gerarchia di Chomsky.md",
     "API/Teoria del calcolo.md",
     "Probabilità e statistica/riproducibilità.md",
