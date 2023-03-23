@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/moto.md",
+                "file": "Fisica/Cinematica/accelerazione angolare.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e644a554f8ec1746",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/moto.md",
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/moto.md",
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/moto.md"
+                "file": "Fisica/Dinamica/Dinamica.md"
               }
             }
           }
@@ -149,21 +162,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b635cf672b2043d0",
+  "active": "e644a554f8ec1746",
   "lastOpenFiles": [
-    "Fisica/moto armonico.md",
-    "Fisica/moto.md",
+    "Fisica/Dinamica/massa.md",
+    "Fisica/Dinamica/Dinamica.md",
+    "Fisica/Cinematica/accelerazione angolare.md",
+    "Fisica/Dinamica",
+    "Fisica/Cinematica/moto.md",
+    "Fisica/Cinematica",
+    "Fisica/Cinematica/moto armonico.md",
     "Fondamenti di automatica/tabella di Routh.md",
     "Fondamenti di automatica/criterio di Routh.md",
-    "Fisica/Moto rettilineo.md",
-    "Fisica/moto circolare.md",
-    "Fisica/accelerazione angolare.md",
-    "Fisica/velocità angolare.md",
-    "Fisica/Legge oraria.md",
-    "Fisica/Punto materiale.md",
-    "Fisica/radianti.md",
-    "Fisica/Legge fisica.md",
-    "Fisica/chilogrammi.md",
+    "Fisica/Cinematica/Moto rettilineo.md",
+    "Fisica/Cinematica/moto circolare.md",
+    "Fisica/Cinematica/velocità angolare.md",
+    "Fisica/Cinematica/Legge oraria.md",
+    "Fisica/Cinematica/Punto materiale.md",
+    "Fisica/Cinematica/radianti.md",
+    "Fisica/Cinematica/Legge fisica.md",
+    "Fisica/Cinematica/chilogrammi.md",
     "API/Modelli operazionali/Macchine di Turing.md",
     "API/Teoria del calcolo.md",
     "API/problema.md",
@@ -176,8 +193,6 @@
     "API/complemento.md",
     "API/funzione parziale.md",
     "API/Esercitazioni",
-    "API/insieme.md",
-    "API/Intersezione.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
     "Settings/Allegati/Pasted Image 20230320113426_622.png",
@@ -188,8 +203,6 @@
     "API/Modelli generativi",
     "Settings/scripts/package.json",
     "Settings/scripts/currfolder.js",
-    "Settings/scripts/currfolder",
-    "Settings/scripts",
     "Fondamenti di automatica/canvas/Segnali.canvas",
     "API/Canvas/MT nastro singolo.canvas",
     "API/Canvas/MT a k-nastri.canvas",
