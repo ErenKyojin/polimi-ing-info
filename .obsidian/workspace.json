@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "Fisica/moto.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "Fisica/moto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md",
+                "file": "Fisica/moto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Modelli operazionali/Macchine di Turing.md"
+                "file": "Fisica/moto.md"
               }
             }
           }
@@ -212,9 +212,14 @@
   },
   "active": "c9621ea72e696ced",
   "lastOpenFiles": [
+    "Fisica/Punto materiale.md",
+    "Fisica/radianti.md",
+    "Fisica/Legge oraria.md",
+    "Fisica/Legge fisica.md",
+    "Fisica/chilogrammi.md",
+    "API/Modelli operazionali/Macchine di Turing.md",
     "API/Teoria del calcolo.md",
     "API/problema.md",
-    "API/Modelli operazionali/Macchine di Turing.md",
     "API/gerarchia di Chomsky.md",
     "Probabilità e statistica/riproducibilità.md",
     "API/Chiusura.md",
@@ -234,11 +239,6 @@
     "Probabilità e statistica/Densità di somma.md",
     "Probabilità e statistica/Densità gamma.md",
     "Fondamenti di automatica/Esercizi/ES4.md",
-    "GAL/Autovalori e Autovettori.md",
-    "Fondamenti di automatica/funzione di trasferimento.md",
-    "Fondamenti di automatica/Stabilità.md",
-    "Fondamenti di automatica/criteri di stabilità.md",
-    "Fondamenti di automatica/Sistemi interconessi.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
     "Settings/Allegati/Pasted Image 20230320113426_622.png",
