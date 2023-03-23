@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Teoria del calcolo.md",
+                "file": "API/problema.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Teoria del calcolo.md",
+                "file": "API/problema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Teoria del calcolo.md",
+                "file": "API/problema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Teoria del calcolo.md"
+                "file": "API/problema.md"
               }
             }
           }
@@ -212,8 +212,8 @@
   },
   "active": "c9621ea72e696ced",
   "lastOpenFiles": [
-    "Probabilità e statistica/riproducibilità.md",
     "API/Teoria del calcolo.md",
+    "Probabilità e statistica/riproducibilità.md",
     "API/Chiusura.md",
     "API/Modelli operazionali/funzione di transizione.md",
     "API/Esercitazioni/ES4.md",
