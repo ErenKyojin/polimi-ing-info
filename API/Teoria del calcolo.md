@@ -58,11 +58,10 @@ In generale, quante sono le $f : D \to R$? Sono $|R|^{|D|}$
 >Mettiamo in ordine queste macchine di Turing: $\left\{ M_{0}, M_{1}, \dots, M_{999} \right\}$
 T999
 
-### $|Q| = 1$
+### |Q| = 1
  | MT0 | 0       | 1       | -       |
  | --- | ------- | ------- | ------- |
  | **q0**  | $\perp$ | $\perp$ | $\perp$ |
-
 Funzione identità $f(x) = x$
 
 | MT1    | 0       | 1       | -       |
@@ -78,10 +77,18 @@ Funzione identità $f(x) = x$
 | MT999  | 0             | 1             | -   |
 | ------ | ------------- | ------------- | --- |
 | **q0** | $(q_{0},1,S)$ | $(q_{0},1,S)$ | $(q_{0},1,S)$    |
+(Funzione totalmente indefinita)
 
-### Q = 2
+### |Q| = 2
 | MT1000  | 0       | 1       | -       |
 | ------- | ------- | ------- | ------- |
-| q0      | $\perp$ | $\perp$ | $\perp$ |
-| $q_{1}$ | $\perp$ | $\perp$ | $\perp$ | 
+| **q0**      | $\perp$ | $\perp$ | $\perp$ |
+| **q1** | $\perp$ | $\perp$ | $\perp$ | 
+Funzione identità
 
+| MT1001 | 0             | 1       | -       |
+| ------ | ------------- | ------- | ------- |
+| **q0** | $(q_{0},0,L)$ | $\perp$ | $\perp$ |
+| **q1** | $\perp$       | $\perp$ | $\perp$        |
+Funzione identità, infatti se non legge 0 all'inizio termina, se legge 0 all'inizio scrive 0, si sposta a sinistra e termina leggendo blank
+...
