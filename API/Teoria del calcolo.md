@@ -123,7 +123,7 @@ Noi sappiamo che $\mathbb{N} \times \mathbb{N} \leftrightarrow \mathbb{N}$
 >
 > ```tikz
 >\begin{document}
->\begin{tikzpicture}
+>\begin{tikzpicture}[scale=1.5]
 >\draw[->] (0,0) -- (5.5,0);
 >\draw[->] (0,0) -- (0,4.5);
 >\draw[step=.5,ultra thin] (0,0) grid (5.2,4.1);
