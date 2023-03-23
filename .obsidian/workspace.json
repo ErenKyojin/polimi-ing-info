@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Diagramma polare.md",
+                "file": "Fondamenti di automatica/Esercizi/ES5.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Diagramma polare.md",
+                "file": "Fondamenti di automatica/Esercizi/ES5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Diagramma polare.md",
+                "file": "Fondamenti di automatica/Esercizi/ES5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -236,20 +236,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e482e98321e71fe8",
+  "active": "69f8a91199f6ca27",
   "lastOpenFiles": [
+    "Fondamenti di automatica/Esercizi/ES4.md",
+    "Fondamenti di automatica/Esercizi/ES5.md",
+    "Fondamenti di automatica/Diagramma polare.md",
     "Fisica/Cinematica/Punto materiale.md",
     "Fisica/Cinematica/velocità angolare.md",
     "Fisica/Cinematica/velocità scalare istantanea.md",
     "Fisica/Cinematica/Velocità scalare media.md",
-    "Fondamenti di automatica/Diagramma polare.md",
     "Fondamenti di automatica/Equilibrio.md",
     "Fondamenti di automatica/Linearizzazione.md",
     "Fondamenti di automatica/Formula di lagrange.md",
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
-    "Fondamenti di automatica/Esercizi/ES4.md",
     "Analisi 1/asintotico.md",
-    "Fondamenti di automatica/Esercizi/ES5.md",
     "Elettrotecnica/ammettenza.md",
     "Fisica/Cinematica/Legge fisica.md",
     "Fisica/Cinematica/accelerazione scalare istantanea.md",
