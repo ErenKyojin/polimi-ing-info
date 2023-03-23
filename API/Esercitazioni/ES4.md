@@ -197,15 +197,11 @@ Basta un automa a pila (eventualmente non deterministico)
 
 
 Consideriamo $\mathcal{L} = a^+(bb)^+$ e $M = \left\{ a^nb^{3n} | n \geq 0 \right\}$
-```tikz
-\usetikzlibrary{automata, arrows.meta, positioning}
-\begin{document}
-\begin{tikzpicture}
 
-\end{tikzpicture}
-\end{document}
-```
-L'intersezione è 
+L'intersezione $\mathcal{L} \cap M$è 
 $$
-|a^2n|
-$$
+\{a^{2n}b^{6n} | n > 0
+\}$$
+simulando in parallelo entrambe le transizioni dei due rispettivi automi otteniamo un automa non deterministico a pila che accetta questo linguaggio
+
+
