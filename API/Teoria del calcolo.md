@@ -126,13 +126,28 @@ Noi sappiamo che $\mathbb{N} \times \mathbb{N} \leftrightarrow \mathbb{N}$
 >\begin{tikzpicture}
 >\draw[->] (0,0) -- (5.5,0);
 >\draw[->] (0,0) -- (0,4.5);
->\draw[step=.5] (0,0) grid (5,4);
+>\draw[step=.5,ultra thin] (0,0) grid (5.2,4.1);
 >\path[thick,red] [->] (0,0.5) edge (.5,0) 
 >		(.5,0) edge (0,1)
 >		(0,1) edge (1,0)
 >		(1,0) edge (0,1.5)
->		(0,1.5) edge (1.5,0);
+>		(0,1.5) edge (1.5,0)
+>		(1.5,0) edge (0,2)
+>		(0,2) edge (2,0)
+>		(2,0) edge (0,2.5)
+>		(0,2.5) edge (2.5,0)
+>		(2.5,0) edge (0,3)
+>		(0,3) edge (3,0)
+>		;
 >\end{tikzpicture}
 >\end{document}
 >```
 
+Posiamo codificare $g(y,x)$ come una $g'(n) = g(d^{-1}(n))$
+
+Lo schema di una MTU che calcola $g'$:
+- Dato $n$ calcolo $d^{-1}(n) = (y,x)$
+- Costruisco la tabella di $M_{y}$ calcolando $E^{-1}(y)$ e la memorizzo nel nastro della MTU
+- In un altra porzione del nastro ne simulo la configurazione
+
+ALla fine la MTU lascia sul nastro $f_{y}(x)$ se termina il calcolo su x
