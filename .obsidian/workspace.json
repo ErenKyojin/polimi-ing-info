@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/moto.md",
+                "file": "Fisica/velocità angolare.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/moto.md",
+                "file": "Fisica/velocità angolare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/moto.md",
+                "file": "Fisica/velocità angolare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/moto.md"
+                "file": "Fisica/velocità angolare.md"
               }
             }
           }
@@ -212,8 +213,9 @@
   },
   "active": "c9621ea72e696ced",
   "lastOpenFiles": [
-    "Fisica/Legge oraria.md",
     "Fisica/moto.md",
+    "Fisica/velocità angolare.md",
+    "Fisica/Legge oraria.md",
     "Fisica/Punto materiale.md",
     "Fisica/radianti.md",
     "Fisica/Legge fisica.md",
@@ -238,7 +240,6 @@
     "Probabilità e statistica/Media campionaria.md",
     "Probabilità e statistica/media teorica.md",
     "Probabilità e statistica/Densità di somma.md",
-    "Probabilità e statistica/Densità gamma.md",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
     "Settings/Allegati/Pasted Image 20230320113426_622.png",
