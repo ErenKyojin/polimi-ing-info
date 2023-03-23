@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "120d9792ce944cd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Dinamica/Quantità di moto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/massa.md",
+                "file": "Fisica/Dinamica/Quantità di moto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/massa.md",
+                "file": "Fisica/Dinamica/Quantità di moto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/massa.md"
+                "file": "Fisica/Dinamica/Quantità di moto.md"
               }
             }
           }
@@ -163,10 +174,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e644a554f8ec1746",
+  "active": "120d9792ce944cd3",
   "lastOpenFiles": [
-    "Fisica/Dinamica/inerzia.md",
+    "Fisica/Cinematica/Punto materiale.md",
+    "Fisica/Cinematica/radianti.md",
+    "Fisica/Cinematica/steradianti.md",
+    "Fisica/Cinematica/velocità angolare.md",
+    "Fisica/Cinematica/velocità scalare istantanea.md",
+    "Fisica/Cinematica/Velocità scalare media.md",
+    "Fisica/Dinamica/Quantità di moto.md",
     "Fisica/Dinamica/massa.md",
+    "Fisica/Dinamica/inerzia.md",
     "Fisica/Dinamica/principio di relAtività.md",
     "Fisica/Dinamica/primo principio della dinamica.md",
     "Fisica/Dinamica/Dinamica.md",
@@ -180,19 +198,12 @@
     "Fondamenti di automatica/criterio di Routh.md",
     "Fisica/Cinematica/Moto rettilineo.md",
     "Fisica/Cinematica/moto circolare.md",
-    "Fisica/Cinematica/velocità angolare.md",
     "Fisica/Cinematica/Legge oraria.md",
-    "Fisica/Cinematica/Punto materiale.md",
-    "Fisica/Cinematica/radianti.md",
     "Fisica/Cinematica/Legge fisica.md",
     "Fisica/Cinematica/chilogrammi.md",
     "API/Modelli operazionali/Macchine di Turing.md",
     "API/Teoria del calcolo.md",
     "API/problema.md",
-    "API/gerarchia di Chomsky.md",
-    "Probabilità e statistica/riproducibilità.md",
-    "API/Chiusura.md",
-    "API/Modelli operazionali/funzione di transizione.md",
     "API/Esercitazioni",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
