@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2a6654dd8d1c6118",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Dinamica/Forza risultante.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Quantità di moto.md",
+                "file": "Fisica/Dinamica/Forza risultante.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Quantità di moto.md",
+                "file": "Fisica/Dinamica/Forza risultante.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Quantità di moto.md"
+                "file": "Fisica/Dinamica/Forza risultante.md"
               }
             }
           }
@@ -174,15 +186,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "120d9792ce944cd3",
+  "active": "2a6654dd8d1c6118",
   "lastOpenFiles": [
+    "Fisica/Dinamica/Quantità di moto.md",
+    "Fisica/Dinamica/Forza risultante.md",
     "Fisica/Cinematica/Punto materiale.md",
     "Fisica/Cinematica/radianti.md",
     "Fisica/Cinematica/steradianti.md",
     "Fisica/Cinematica/velocità angolare.md",
     "Fisica/Cinematica/velocità scalare istantanea.md",
     "Fisica/Cinematica/Velocità scalare media.md",
-    "Fisica/Dinamica/Quantità di moto.md",
     "Fisica/Dinamica/massa.md",
     "Fisica/Dinamica/inerzia.md",
     "Fisica/Dinamica/principio di relAtività.md",
@@ -203,7 +216,6 @@
     "Fisica/Cinematica/chilogrammi.md",
     "API/Modelli operazionali/Macchine di Turing.md",
     "API/Teoria del calcolo.md",
-    "API/problema.md",
     "API/Esercitazioni",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
