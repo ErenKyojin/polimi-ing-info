@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Dinamica.md",
+                "file": "Fisica/Dinamica/primo principio della dinamica.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Dinamica.md",
+                "file": "Fisica/Dinamica/primo principio della dinamica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Dinamica.md",
+                "file": "Fisica/Dinamica/primo principio della dinamica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Dinamica.md"
+                "file": "Fisica/Dinamica/primo principio della dinamica.md"
               }
             }
           }
@@ -164,8 +164,10 @@
   },
   "active": "e644a554f8ec1746",
   "lastOpenFiles": [
-    "Fisica/Dinamica/massa.md",
     "Fisica/Dinamica/Dinamica.md",
+    "Fisica/Dinamica/primo principio della dinamica.md",
+    "Fisica/Dinamica/sistema di riferimento inerziale.md",
+    "Fisica/Dinamica/massa.md",
     "Fisica/Cinematica/accelerazione angolare.md",
     "Fisica/Dinamica",
     "Fisica/Cinematica/moto.md",
@@ -190,8 +192,6 @@
     "API/Modelli operazionali/funzione di transizione.md",
     "API/Esercitazioni/ES4.md",
     "API/Esercitazioni/www.turingmachinesimulator.com.md",
-    "API/complemento.md",
-    "API/funzione parziale.md",
     "API/Esercitazioni",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
