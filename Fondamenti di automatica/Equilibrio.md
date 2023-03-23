@@ -118,7 +118,7 @@ x_{2}
 >\draw[thick,-{Circle}] (0,0) -- (0,2);
 >\draw (0,0) -- (0,-2);
 >\draw(0,-0.25) arc (90:270:-.3);
->\draw[thick,{Circle}] (4,0) -- (4,-2);
+>\draw[thick,-{Circle}] (4,0) -- (4,-2);
 >\end{tikzpicture}
 >\end{document}
 >```

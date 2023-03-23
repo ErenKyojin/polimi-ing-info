@@ -97,14 +97,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES5.md",
+                "file": "Fondamenti di automatica/Equilibrio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69f8a91199f6ca27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di automatica/Diagramma polare.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES5.md",
+                "file": "Fondamenti di automatica/Diagramma polare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES5.md",
+                "file": "Fondamenti di automatica/Diagramma polare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -203,19 +215,9 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "281e7565f4b38890",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES5.md"
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -234,9 +236,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "df0bd9ff141226e3",
+  "active": "69f8a91199f6ca27",
   "lastOpenFiles": [
+    "Fondamenti di automatica/Equilibrio.md",
+    "Fondamenti di automatica/Diagramma polare.md",
+    "Fondamenti di automatica/Linearizzazione.md",
+    "Fondamenti di automatica/Formula di lagrange.md",
+    "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Fondamenti di automatica/Esercizi/ES4.md",
+    "Analisi 1/asintotico.md",
+    "Fondamenti di automatica/Esercizi/ES5.md",
     "Elettrotecnica/ammettenza.md",
     "Fisica/Cinematica/Legge fisica.md",
     "Fisica/Cinematica/accelerazione scalare istantanea.md",
@@ -255,13 +264,6 @@
     "Fisica/Dinamica/terzo principio della dinamica.md",
     "Fisica/Dinamica/secondo principio della dinamica.md",
     "Fisica/Cinematica/radianti.md",
-    "Fisica/Dinamica/primo principio della dinamica.md",
-    "Fisica/Dinamica/principio di relatività.md",
-    "Fisica/Dinamica/massa.md",
-    "Analisi 2/principio di sovrapposizione.md",
-    "Fisica/Dinamica/Forza risultante.md",
-    "Fisica/Dinamica/Quantità di moto.md",
-    "Fisica/Cinematica/Punto materiale.md",
     "Fisica/Dinamica",
     "Fisica/Cinematica",
     "API/Esercitazioni",

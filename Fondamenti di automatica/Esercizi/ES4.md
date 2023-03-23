@@ -160,7 +160,7 @@ Dato lo schema a blocchi
 \begin{document}
 \begin{tikzpicture}
 \draw (0,0) to [generic,name = G2] (2,0) to [generic,name = G4](4,0);
-\draw (0,0) to[short, -*] (1,1) to [generic,name = G3] (3,1) to (4,0) to;
+\draw (0,0) to[short, -*] (1,1) to [generic,name = G3] (3,1) to (4,0);
 \draw(4.5,0) to (4.5,-1) to [generic,name = G5] (-.2,-1) to (-.2,0);
 \draw(-2,0)node[left]{$u$} to [generic,name = G1] (0,0);
 \draw(4,0) to (6,0) node[right]{$y$};
