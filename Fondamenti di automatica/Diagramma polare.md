@@ -62,3 +62,21 @@ Comportamento per $\omega \to 0$ se $G(0)$ è definito o asintoticamente per $\o
 \end{tikzpicture}
 \end{document}
 ```
+
+- comportamento per $\omega \to +\infty$
+	- $\#$ zeri = $\#$ poli 
+		=> $|G(j\omega)| \to \cost$
+		$\angle^o G(j\omega) \to$ multiplo intero di $180^o$ perchè $\#$ zeri + $\#$ poli è pari (0 incluso)
+		Arriviamo ai due $\mu$
+
+	- $\#$ poli > $\#$ zeri:
+		$|G(j\omega)| \to 0$
+		$\angle^o G(j\omega) \to$ multiplo intero di $90^o$  (0 incluso)
+		arriviamo nell'origine (con fase 90, quindi appoggiandomi su uno degli assi)
+
+
+## Aspetto qualitativo
+Lo si puó dedurre dai diagrammi di bode:
+- l'andamento del modulo mi da la distanza dall'origine
+- l'andamento della fase mi da la distanza dell'argomento
+
