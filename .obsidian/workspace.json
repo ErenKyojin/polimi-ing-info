@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/primo principio della dinamica.md",
+                "file": "Fisica/Dinamica/massa.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "massa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/primo principio della dinamica.md",
+                "file": "Fisica/Dinamica/massa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/primo principio della dinamica.md",
+                "file": "Fisica/Dinamica/massa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/primo principio della dinamica.md"
+                "file": "Fisica/Dinamica/massa.md"
               }
             }
           }
@@ -164,8 +165,9 @@
   },
   "active": "e644a554f8ec1746",
   "lastOpenFiles": [
-    "Fisica/Dinamica/Dinamica.md",
+    "Fisica/Dinamica/principio di relAtività.md",
     "Fisica/Dinamica/primo principio della dinamica.md",
+    "Fisica/Dinamica/Dinamica.md",
     "Fisica/Dinamica/sistema di riferimento inerziale.md",
     "Fisica/Dinamica/massa.md",
     "Fisica/Cinematica/accelerazione angolare.md",
@@ -191,7 +193,6 @@
     "API/Chiusura.md",
     "API/Modelli operazionali/funzione di transizione.md",
     "API/Esercitazioni/ES4.md",
-    "API/Esercitazioni/www.turingmachinesimulator.com.md",
     "API/Esercitazioni",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
     "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
