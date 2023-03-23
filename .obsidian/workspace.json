@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/forze elastiche.md",
+                "file": "Fisica/Dinamica/forze di attrito.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e842a10adae2bf7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Dinamica/Statica.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/forze elastiche.md",
+                "file": "Fisica/Dinamica/Statica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/forze elastiche.md",
+                "file": "Fisica/Dinamica/Statica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/forze elastiche.md"
+                "file": "Fisica/Dinamica/Statica.md"
               }
             }
           }
@@ -186,8 +198,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2a6654dd8d1c6118",
+  "active": "e842a10adae2bf7e",
   "lastOpenFiles": [
+    "Fisica/Dinamica/forze di attrito.md",
+    "Fisica/Dinamica/Statica.md",
     "Fisica/Dinamica/forza.md",
     "Fisica/Dinamica/forze elastiche.md",
     "Fisica/Dinamica/forza elettrostatica.md",
@@ -212,9 +226,7 @@
     "Fisica/Cinematica/Velocità scalare media.md",
     "Fisica/Dinamica/inerzia.md",
     "Fisica/Dinamica/sistema di riferimento inerziale.md",
-    "Fisica/Cinematica/accelerazione angolare.md",
     "Fisica/Dinamica",
-    "Fisica/Cinematica/moto.md",
     "Fisica/Cinematica",
     "API/Esercitazioni",
     "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
