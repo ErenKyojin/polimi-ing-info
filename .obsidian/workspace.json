@@ -107,12 +107,8 @@
             "id": "69f8a91199f6ca27",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES5.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -166,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 242.5
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -182,7 +178,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +194,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Esercizi/ES5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -215,13 +209,21 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "37a1e71b0a2ec27e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 240.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +240,8 @@
   },
   "active": "69f8a91199f6ca27",
   "lastOpenFiles": [
-    "Fondamenti di automatica/Esercizi/ES4.md",
     "Fondamenti di automatica/Esercizi/ES5.md",
+    "Fondamenti di automatica/Esercizi/ES4.md",
     "Fondamenti di automatica/Diagramma polare.md",
     "Fisica/Cinematica/Punto materiale.md",
     "Fisica/Cinematica/velocità angolare.md",
