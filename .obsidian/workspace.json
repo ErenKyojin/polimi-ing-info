@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Lavoro.md",
+                "file": "Elettrotecnica/potenza.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Lavoro.md",
+                "file": "Elettrotecnica/potenza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Lavoro.md",
+                "file": "Elettrotecnica/potenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Lavoro.md"
+                "file": "Elettrotecnica/potenza.md"
               }
             }
           },
@@ -184,9 +184,9 @@
   },
   "active": "3c5a3d38c72827da",
   "lastOpenFiles": [
+    "Fisica/Dinamica/Lavoro.md",
     "Fisica/Dinamica/piano inclinato.md",
     "Fisica/Dinamica/pendolo.md",
-    "Fisica/Dinamica/Lavoro.md",
     "Fisica/Dinamica/Joule.md",
     "Elettrotecnica/equazione differenziale.md",
     "Fisica/Cinematica/moto.md",

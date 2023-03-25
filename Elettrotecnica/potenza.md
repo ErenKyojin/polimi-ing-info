@@ -1,4 +1,16 @@
-# Potenza
+>[!def] Potenza di una [[forza]]
+>La potenza istantanea $W$ di una forza $\vec{F}$ è la [[derivata]] temporale del [[Fisica/Dinamica/Lavoro|lavoro]] compiuto dalla forza stessa
+>$$W = \frac{d\mathcal{L}}{dt} = \vec{F} \cdot \frac{d\vec{r}}{dt} = \vec{F} \cdot \vec{v}$$
+
+Le dimensioni sono $[W] = [F][v] = [L]^2 [M][T]^{-3}$ e l'unità di misura è il watt, pari ad 1 joule al secondo
+Associata al watt è un'unità di misura del **LAVORO** è il chilowatt-ora ($kWh$) con $1 \text{ kWh } = 3.6 \cdot 10^6 J$.
+Quindi il lavoro compiuto in un'ora da una forza della potenza di 1 $\text{kW}$
+
+>[!oss]
+>La potenza è la grandezza fisica con cui si misura la capacità di una macchina di compiere lav
+
+
+# Potenza da componenti
  - Potenza istantanea assorbita da un bipolo $P_a = vi$,
  - Potenza istantanea erogata da un bipolo $P_e = -P_a = -vi$
  - Potenza assorbita da un n-terminali $$P_a(t) = \sum_{k=1}^nv_k(t)i_k(t)$$

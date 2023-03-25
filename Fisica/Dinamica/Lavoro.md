@@ -83,4 +83,16 @@ modification date: 2023-03-25 17:06
 >[!oss]
 >In generale $\mathcal{L}$ non dipende solo da $A$ e $B$ ma anche che il lavoro elementare $d\mathcal{L}$ non è differenziale esatto e per distinguere questa sua natura inesatta andrebbe indicato piú propriamente con la notazione $\delta \mathcal{L}$
 
-Se sono note la dipendenza della posizione delle
+Se sono note la dipendenza dalla posizione delle componenti cartesiane di $\vec{F}$ e la legge oraria in coordinate cartesiane scriveremo:
+$$
+\mathcal{L} = \int _{\gamma} \!F(x,y,z)\mathrm{d}x + F_{y}(x,y,z)\mathrm{d}y + F_{z}(x,y,z) \, \mathrm{d}z \quad ;\quad \gamma : \begin{cases}
+x = x(t) \\
+y = y(t) \\
+z = z(t)
+\end{cases} 
+$$
+In alternativa avremo
+$\mathcal{L} = \int _{\gamma} \!F_{T}(s) \, \mathrm{d}s$
+
+
+[[potenza]]
