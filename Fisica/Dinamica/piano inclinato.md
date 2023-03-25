@@ -29,4 +29,17 @@ $$
 
 Quindi un corpo rimane fermo su di un piano inclinato scabro $\mu_{s}$ solo se l'angolo di inclinazione del piane $\beta$ è minore dell'angolo $\alpha = \arctan(\mu_{s})$
 
-Analisi delle forze in 
+## Analisi delle forze in campo e diagramma delle forze
+Poichè il piano è perfettamente liscio, trascuriamo le forze di attrito. Avremo quindi altre alla forza peso del corpo in moto, solo la reazione vincolare del piano, ortogonale alla superficie del piano stesso. Rappresentiamo in un disegno tte le forze agenti sul punto materiale comprese le reazioni vincolari.
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[draw = orange, fill = orange!60,ultra thick] (0,0) coordinate (O) -- (30:6)coordinate[pos=.45] (M) |- coordinate (B) (O);
+\draw[orange] (O) ++(.9,0) arc (0:30:0.8)node[pos=.];
+\end{tikzpicture}
+\end{document}
+```
+
+### Scelta del SDR
+Fissiamo un sistema di riferimento cartesiano opportuno
