@@ -37,12 +37,13 @@ Poichè il piano è perfettamente liscio, trascuriamo le forze di attrito. Avrem
 \begin{document}
 \begin{tikzpicture}[scale = 2, every node/.style={scale=1.5}]
 \draw[draw = orange, fill = orange!40,ultra thick,fill opacity = 0.1] (0,0) coordinate (O) -- (30:6)coordinate[pos=.45] (M) |- coordinate (B) (O);
-\draw[orange] (O) ++(.9,0) arc (0:30:0.8)node[pos=.4,left]{$\alpha$};
+\draw[orange,thick] (O) ++(.9,0) arc (0:33:0.8)node[pos=.4,left]{$\alpha$};
 \begin{scope}
 \draw[fill = blue, fill opacity = .1] (M) rectangle ++(1.5,.9);
-\draw[-{Stealth[scale = 2]}] (M) ++ (.75,.45) coordinate (MM) -- ++ (0, -1.3) node[right]{$\vec{W}_y$};
-\draw[-{Stealth[scale = 2]}] (MM) -- (2.5,1.8);
-\draw[-{Stealth[scale = 2]}] (MM) -- (MM) -- ++ (0, +1.3);
+\draw[-{Stealth[scale = 2]}] (M) ++ (.75,.45) coordinate (MM) -- ++ (0, -1.3) node[right]{$\vec{W}_y$}node[](wy){};
+\draw[-{Stealth[scale = 2]}] (MM) -- ++ (-.5,0) node[above](){$\vec{W}_x$} node[](wx){};
+\draw[-{Stealth[scale = 2]}] (MM) -- ++ (0, +1.3)node[above](R){$\vec{R}$};
+\draw[dashed] (wx.center) -- ++ (0, -1.3) -- (wy.center);
 \node[scale = .5] at (MM){$\bullet$};
 \end{scope}
 \end{tikzpicture}
