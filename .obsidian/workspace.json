@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/impulso.md",
+                "file": "Fisica/Dinamica/forze di attrito.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,7 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.5
+    "width": 243.5
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -169,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/impulso.md",
+                "file": "Fisica/Dinamica/forze di attrito.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/impulso.md",
+                "file": "Fisica/Dinamica/forze di attrito.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/impulso.md"
+                "file": "Fisica/Dinamica/forze di attrito.md"
               }
             }
           },
@@ -222,7 +222,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -243,6 +243,8 @@
   },
   "active": "b635cf672b2043d0",
   "lastOpenFiles": [
+    "Fisica/Dinamica/impulso.md",
+    "Fisica/Dinamica/Reazioni vincolari.md",
     "Fondamenti di automatica/Esercizi/ES5.md",
     "Fondamenti di automatica/Esercizi/ES4.md",
     "Fondamenti di automatica/Diagramma polare.md",
@@ -258,8 +260,6 @@
     "Elettrotecnica/ammettenza.md",
     "Fisica/Cinematica/Legge fisica.md",
     "Fisica/Cinematica/accelerazione scalare istantanea.md",
-    "Fisica/Dinamica/impulso.md",
-    "Fisica/Dinamica/Reazioni vincolari.md",
     "Fisica/Dinamica/forza.md",
     "Fisica/Dinamica/Statica.md",
     "Fisica/Dinamica/forze di attrito.md",

@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: reazione vincolare
 creation date: 2023-03-23 16:57
 modification date: 2023-03-23 16:57
 ---
