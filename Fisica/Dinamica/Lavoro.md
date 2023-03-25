@@ -114,4 +114,12 @@ Quindi il lavoro compiuto da una forza costante è indipendente dalla traiettori
 >>[!oss]
 >>Il lavoro compiuto dipende solo dalle quote dei punti $A$ e $B$ e risulta indipendente dalla traiettoria seguita (caduta libera, moto lungo piano inclinato)
 
->[!]
+>[!oss]
+>In base al teorema dell'energia cinetica si dimostra ora, in modo del tutto generale, che un corpo che ccade da una data altezza subendo solo ed esclusivamente il lavoro della forza peso giunge a terra con la stessa velocità indipendentemente dalla traiettoria da esso seguita.
+>Se supponiamo che il punto materiale abbia in $A$ velocità $v_{A}$ e in $B$ velocità $v_{B}$ in base al teorema dell'energia cinetica avremo:
+>$$ \begin{align}
+>\mathcal{L}_{A\to B} &= \frac{1}{2} mv_{B}^2 - \frac{1}{2}mv_{A}^2 \implies mg(y_{A} - y_{B}) = \frac{1}{2}mv_{B}^2 - \frac{1}{2}mv_{A}^2  \\
+>&\implies v_{B} = \sqrt{ v_{A}^2 + 2g(y_{A}-y_{B}) } \qquad \forall \gamma
+>\end{align} $$
+
+Possiamo quindi definire l'[[energia potenziale]] della forza peso
