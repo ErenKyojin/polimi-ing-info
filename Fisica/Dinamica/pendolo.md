@@ -22,10 +22,14 @@ un [[punto materiale]] di [[massa]] $m$ è vincolato ad un punto $O$ attraverso 
 \draw (O.center) -- ++ (3, -4)node[](m){};
 \draw (m) arc (-53:-127:5);
 \draw[fill=blue, thick] (m) circle (.25) node[right=.6cm,above =.25cm]{$m$};
+\draw (O) ++ (0,-1) arc (-90:-53:1);
 \node[below] at (Op){$O'$};
 
 \begin{scope}
-\draw[thick, -{Stealth}] (m);
+\draw[thick, -{Stealth}] (m.center) -- ++(0,2)node(T){};
+\draw[thick, -{Stealth}] (m.center) -- ++(0,-2)node(WN){};
+\draw[thick, -{Stealth}] (m.center) -- ++(-1,0)node(WT){};
+\draw[dashed] (WT) -- ++ (0,-2) -- (WN); 
 \end{scope}
 
 \end{tikzpicture}
