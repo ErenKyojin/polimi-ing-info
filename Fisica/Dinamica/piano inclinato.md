@@ -35,8 +35,8 @@ Poichè il piano è perfettamente liscio, trascuriamo le forze di attrito. Avrem
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw[draw = orange, fill = orange!60,ultra thick] (0,0) coordinate (O) -- (30:6)coordinate[pos=.45] (M) |- coordinate (B) (O);
-\draw[orange] (O) ++(.9,0) arc (0:30:0.8)node[pos=.];
+\draw[draw = orange, fill = orange!40!black,ultra thick] (0,0) coordinate (O) -- (30:6)coordinate[pos=.45] (M) |- coordinate (B) (O);
+\draw[orange] (O) ++(.9,0) arc (0:30:0.8)node[pos=.4,left]{$\theta$};
 \end{tikzpicture}
 \end{document}
 ```
