@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3c5a3d38c72827da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Dinamica/Lavoro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/pendolo.md",
+                "file": "Fisica/Dinamica/Lavoro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/pendolo.md",
+                "file": "Fisica/Dinamica/Lavoro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/pendolo.md"
+                "file": "Fisica/Dinamica/Lavoro.md"
               }
             }
           },
@@ -170,10 +182,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ca9d366e3df46c0a",
+  "active": "3c5a3d38c72827da",
   "lastOpenFiles": [
-    "Elettrotecnica/equazione differenziale.md",
     "Fisica/Dinamica/pendolo.md",
+    "Fisica/Dinamica/Lavoro.md",
+    "Elettrotecnica/equazione differenziale.md",
     "Fisica/Dinamica/piano inclinato.md",
     "Fisica/Cinematica/moto.md",
     "Fisica/Cinematica/moto uniformemente accelerato.md",
@@ -197,7 +210,6 @@
     "Fondamenti di automatica/Antitrasformazione di Laplace.md",
     "Analisi 1/asintotico.md",
     "Elettrotecnica/ammettenza.md",
-    "Fisica/Cinematica/Legge fisica.md",
     "Fisica/Dinamica",
     "Fisica/Cinematica",
     "API/Esercitazioni",

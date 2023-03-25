@@ -88,3 +88,4 @@ La soluzione diventa quindi $\theta(t) = \theta_{0} \sin (\omega t  + \pi/2) = \
 >Si noti che la tensione è massima quando il pendolo è verticale, nella posizione di equilibrio: in questo caso vaale $mg(1 + A)^2$, dovendo bilanciare l'intera forza peso ed assicurare anche la massima accelerazione centripeta poichè in questo punto del moto è massima la velocità
 
 >[!oss] Legge di isocronismo del pendolo
+>Il periodo di oscillazione risulta quindi essere: $T = \frac{2\pi}{\omega} = 2\pi \sqrt{ \frac{l}{g} }$, si noti che non dipende dalla massa $m$ del corpo ne dall'ampiezza $A$ delle oscillazioni (finchè sono piccole) ma solo dalla lunghezza del pendolo. Questo è il concetto di legge di isocronismo del pendolo
