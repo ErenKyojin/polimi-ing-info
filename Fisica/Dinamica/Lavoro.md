@@ -96,3 +96,22 @@ $\mathcal{L} = \int _{\gamma} \!F_{T}(s) \, \mathrm{d}s$
 
 
 [[potenza]]
+[[Energia cinetica]]
+## caso di una forza costante
+Consideriamo una forza $\vec{F}$ costante che agisce su un punto materiale di massa $m$, il lavoro compiuto da $\vec{F}$ quando il punto si sposta da $A$ a $B$ vale
+$$
+\mathcal{L}_{A \to B,\gamma} = \int _{A,\gamma}^B \!\vec{F}\cdot \, \mathrm{d}\vec{r} = \vec{F} \cdot \int _{A,\gamma}^B \! \, \mathrm{d}\vec{r} = \vec{F}(\vec{r}_{B}-\vec{r}_{A}) = \vec{F} \cdot \Delta \vec{r}(A,B),\quad\forall \gamma
+$$
+Quindi il lavoro compiuto da una forza costante è indipendente dalla traiettoria ma dipende solo dagli estremi $A$ e $B$, precisamente dal vettore spostamento $\Delta \vec{r} = \overrightarrow{AB}$
+
+>[!esempio] Forza peso
+>$\vec{W} = m\vec{g} = -mg\vec{u}_{y} = \vec{\cost}$
+>$$ \begin{align}
+>\mathcal{L}_{A\to B} &= \vec{F} \cdot \Delta \vec{r} = F_{x}\Delta x + F_{y}\Delta y = F_{y}\Delta y = \\
+>&= -mg(y_{B} - y_{A}) = +mg(y_{A} - y_{B})
+>\end{align} $$
+>
+>>[!oss]
+>>Il lavoro compiuto dipende solo dalle quote dei punti $A$ e $B$ e risulta indipendente dalla traiettoria seguita (caduta libera, moto lungo piano inclinato)
+
+>[!]

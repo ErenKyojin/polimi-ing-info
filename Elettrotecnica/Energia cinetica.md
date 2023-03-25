@@ -42,6 +42,7 @@ questa euqazione esprime il seguente:
 
 
 >[!oss]
->L'arbitrarietà della costante additiva $k$ introdotta nella definizione dell'energia cinetica non ha alcun effetto di rilevanza fisica 
+>L'arbitrarietà della costante additiva $k$ introdotta nella definizione dell'energia cinetica non ha alcun effetto di rilevanza fisica , il teorema dell'energia cinetica dice che il lavoro è una differenza tra due valori dell'energia cinetica, e dunque non dipende da $k$.
+>Visto che tale costante può essere inoltre scelta in modo arbitrario, fissiamola al valor nullo, quindi $E_{c} = \frac{1}{2}mv^2$. Anche se questa è la scelta piú comune, è comunque arbitraria.
 
 
