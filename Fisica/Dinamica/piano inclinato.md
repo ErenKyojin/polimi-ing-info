@@ -40,7 +40,9 @@ Poichè il piano è perfettamente liscio, trascuriamo le forze di attrito. Avrem
 \draw[orange] (O) ++(.9,0) arc (0:30:0.8)node[pos=.4,left]{$\alpha$};
 \begin{scope}
 \draw[fill = blue, fill opacity = .1] (M) rectangle ++(1.5,.9);
-\draw[-{Stealth[scale = 2]}] (M) ++ (.75,.45) coordinate (MM) -- ++ (0, -1.29) node[right]{$\vec{W}_y$};
+\draw[-{Stealth[scale = 2]}] (M) ++ (.75,.45) coordinate (MM) -- ++ (0, -1.3) node[right]{$\vec{W}_y$};
+\draw[-{Stealth[scale = 2]}] (MM) -- (2.5,1.8);
+\draw[-{Stealth[scale = 2]}] (MM) -- (MM) -- ++ (0, +1.3);
 \node[scale = .5] at (MM){$\bullet$};
 \end{scope}
 \end{tikzpicture}
