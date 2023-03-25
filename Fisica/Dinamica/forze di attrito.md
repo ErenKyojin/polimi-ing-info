@@ -29,12 +29,13 @@ Il coefficiente di proporzionalità $\mu_{s}$ è detto **coefficiente di attrito
 \usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}[scale = 1.5]
-\draw(-2.5,0) -- (2.5,0);
-\filldraw[color = white,fill = black!70,thick] (-1,0) -- (1,0) -- (1,1) -- (-1,1) -- (-1,0);
+\draw (-2.5,-.25) -- (-2.5,0) -- (2.5,0) -- (2.5,-.25);
+\filldraw[color = black,fill = black!70,thick] (-1,0) -- (1,0) -- (1,1) -- (-1,1) -- (-1,0);
 \node(c) at (0,.5){$\bullet$}; 
-\draw (c) -- 0,2
+\draw[-{Stealth[length = 2.5mm]}] (c.center) -- (0,2)node[left]{$\vec{R}_N$};
+\draw[-{Stealth[length = 2.5mm]}] (c.center) -- (2,.5)node[right]{$\vec{R}_T$};
+\draw[-{Stealth[length = 2.5mm]}] (c.center) -- (-2,.5)node[above]{$\vec{F}$};
+\draw[-{Stealth[length = 2.5mm]}] (c.center) -- (0,-1)node[below]{$\vec{W}$};
 \end{tikzpicture}
 \end{document}
 ```
-
-
