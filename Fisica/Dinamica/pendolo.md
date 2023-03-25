@@ -69,7 +69,15 @@ $$
 >
 >Della espressione di $\theta(t)$ ricaviamo $\frac{d\theta}{dt} = A\sqrt{ g / l  } \cos(\omega t + \varphi)$ e quindi:
 > $$\begin{align}
->  T(t) = mg\cos \theta + ml \left( \frac{d\theta}{dt}  \right)^2 = mg \left[ \cos \theta + \frac{l}{g} \left( \frac{d\theta}{dt}  \right)^2 \right] = mg\left\{ \cos[A\sin \omega t + \varphi] \right\} + A^2 \cos^2 (\omega t + \varphi) \\
+>  T(t) &= mg\cos \theta + ml \left( \frac{d\theta}{dt}  \right)^2 = mg \left[ \cos \theta + \frac{l}{g} \left( \frac{d\theta}{dt}  \right)^2 \right] = \\
+>&= mg\left\{ \cos[A\sin \omega t + \varphi] + A^2 \cos^2 (\omega t + \varphi)\right\}  \\
 >
 >\end{align}$$
 
+### Estremi relativi della velocità.
+La velocità massima della massa $m$ è $v(t) = l \frac{d\theta}{dt} = A\sqrt{ gl }\cos(\omega t + \varphi)$ dunque, sempre per piccole oscillazioni, presenta anch'essa un andamento di tipo armonico ma sfasato di $90^o$ rispetto a quello di $\theta(t)$. Quindi la velocità minima è ove $\theta(t)$ è massima, e cioè nei punti estremi della oscillazione, anche detti punti di inversione dell'oscillazione, e risulta massima quando $\theta(t)$ è minima, ossia quando $\theta(t)$ è nulla, ossia al passaggio di $m$ per la verticale.
+
+### Condizioni iniziali e determinazione delle costanti
+Analogamente a quanto fatto per il moto oscillatorio di un punto materiale vincolato ad una molla, dalle condizioni iniziali del moto si determinano i valori di $A$ e di $\varphi$.
+Ad esempio, se diciamo che il pendolo inizia ad oscillare quando viene spostato di un angolo $\theta_{0}$ dalla verticale, intendiamo che $\theta(t = 0)=\theta_{0}$ e che $v(t = 0) = v_{0}$. Ma in base all'espressione generale della soluzione, deve essere $\theta(t =0) = A\sin(\varphi)$ e quindi $\theta_{0} = A\sin(\varphi)$.
+Sempre in base all espressi
