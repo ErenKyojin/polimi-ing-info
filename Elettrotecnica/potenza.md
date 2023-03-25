@@ -7,8 +7,15 @@ Associata al watt è un'unità di misura del **LAVORO** è il chilowatt-ora ($kW
 Quindi il lavoro compiuto in un'ora da una forza della potenza di 1 $\text{kW}$
 
 >[!oss]
->La potenza è la grandezza fisica con cui si misura la capacità di una macchina di compiere lav
+>La potenza è la grandezza fisica con cui si misura la capacità di una macchina di compiere lavoro in un determinato tempo
 
+>[!oss]
+>Come diretta conseguenza della definizione di potenza istantanea si ha che se una macchina sviluppa una potenza istantanea $W(t)$, il lavoro che essa compie nell'intervallo di tempo $(t_{1},t_{2})$ si calcola come:
+>$$ \mathcal{L} = \int _{t_{1}}^{t_{2}} \!W(t) \, \mathrm{d}t  $$
+
+>[!oss]
+>Se complessivamente in un intervallo di tempo $\Delta t$ viene compiuto un lavoro $\mathcal{L}$ la potenza media vale per definizione
+>$$ W_{m} = \frac{\mathcal{L}}{\Delta t} $$
 
 # Potenza da componenti
  - Potenza istantanea assorbita da un bipolo $P_a = vi$,

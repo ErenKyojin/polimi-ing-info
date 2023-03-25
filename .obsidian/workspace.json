@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "75441b8e77cff07d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Elettrotecnica/Energia cinetica.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elettrotecnica/potenza.md",
+                "file": "Elettrotecnica/Energia cinetica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elettrotecnica/potenza.md",
+                "file": "Elettrotecnica/Energia cinetica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elettrotecnica/potenza.md"
+                "file": "Elettrotecnica/Energia cinetica.md"
               }
             }
           },
@@ -182,8 +194,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3c5a3d38c72827da",
+  "active": "75441b8e77cff07d",
   "lastOpenFiles": [
+    "Elettrotecnica/potenza.md",
+    "Elettrotecnica/Energia cinetica.md",
     "Fisica/Dinamica/Lavoro.md",
     "Fisica/Dinamica/piano inclinato.md",
     "Fisica/Dinamica/pendolo.md",
@@ -208,8 +222,6 @@
     "Fisica/Cinematica/Velocità scalare media.md",
     "Fondamenti di automatica/Linearizzazione.md",
     "Fondamenti di automatica/Formula di lagrange.md",
-    "Fondamenti di automatica/Antitrasformazione di Laplace.md",
-    "Analisi 1/asintotico.md",
     "Fisica/Dinamica",
     "Fisica/Cinematica",
     "API/Esercitazioni",
