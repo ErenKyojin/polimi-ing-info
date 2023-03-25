@@ -18,5 +18,17 @@ Vediamo in dettaglio l'attrito radente
 
 
 ## Attrito radente statico
-Consideriamo un corpo di massa $m$ avente una superficie $S$ appoggiata su una superfici
+Consideriamo un corpo di massa $m$ avente una superficie $S$ appoggiata su un piano orizzontale. Se applichiamo al corpo una forza $\vec{F}$ orizzontalmente si verifica che:
+- Se il modulo di $F$ della forza è inferiore ad un certo valore $F_{\text{max}}$ il corpo non si sposta, mentre se $F > F_{\text{max}}$ il corpo si sposta nella direzione di $\vec{F}$
+- Il valore limite per l'equilibrio $F_{\text{max}}$ risulta indipendente, almeno entro ampi limiti, dall'area della superficie di appoggio $S$
+- Variando invece il peso $W = mg = R_{N}$ del corpo (forza attiva verticale) e quindi la reazione vincolare normale del piano $F_{\text{max}}$ cresce proporzionalmente secondo la legge $F_{\text{max}} = \mu_{s} \cdot R_{N}$
 
+Il coefficiente di proporzionalità $\mu_{s}$ è detto **coefficiente di attrito statico**, è una caratteristica dei due mezzi posti in contatto e dipende fortemente dallo stato delle superfici (è minori piú sono lisce)
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) -- (5,0);
+\end{tikzpicture}
+\end{document}
+```
