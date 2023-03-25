@@ -57,4 +57,19 @@ T + W_{N} = ma_{N} &\implies T - mg\cos \theta = m \dfrac{v^2(\theta)}{l} =\dfra
 $$
 
 >[!oss]
->Si tratta di un sistema di due [[equazione differenziale|equazioni differenziali]] non lineari nelle due funzioni incognite $\theta(t)$ e
+>Si tratta di un sistema di due [[equazione differenziale|equazioni differenziali]] non lineari nelle due funzioni incognite $\theta(t)$ e $T(t)$. Una soluzione analitica in generale non c'è
+
+
+>[!oss]
+>Consideriamo la prima equazione, se ci limitiamo al caso di piccole oscillazioni del pendolo ($\ll 1 \rad$), essa emmette una soluzione analitica. Infatti abbiamo
+> $$ \sin \theta \approx \theta \implies \frac{d^2\theta}{dt^2} + \frac{g}{l}\theta = 0 \implies \theta(t) = A\sin(\omega t + \varphi)\quad ;\quad \omega = \sqrt{ g/l } $$
+
+>[!oss]
+>Consideriamo ora la seconda equazione. In quanto abbiamo già determinato $\theta(t)$ dalla prima è immediato determinare $T(t)$
+>
+>Della espressione di $\theta(t)$ ricaviamo $\frac{d\theta}{dt} = A\sqrt{ g / l  } \cos(\omega t + \varphi)$ e quindi:
+> $$\begin{align}
+>  T(t) = mg\cos \theta + ml \left( \frac{d\theta}{dt}  \right)^2 = mg \left[ \cos \theta + \frac{l}{g} \left( \frac{d\theta}{dt}  \right)^2 \right] = mg\left\{ \cos[A\sin \omega t + \varphi] \right\} + A^2 \cos^2 (\omega t + \varphi) \\
+>
+>\end{align}$$
+
