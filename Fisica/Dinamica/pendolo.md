@@ -14,13 +14,20 @@ un [[punto materiale]] di [[massa]] $m$ è vincolato ad un punto $O$ attraverso 
 >$$s(t) = \theta(t) \cdot l$$
 
 ```tikz
+\usetikzlibrary{arrows.meta}
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[scale = 1.5]
 \node (O) at (0,5){$\bullet$};
-\draw (O) node[above]{O} -- ++ (0,-5)node[](Op){};
-\draw (O) -- ++ (3, -4)node[](m){};
-\draw (m) arc (360:0:5);
+\draw[dashed] (O) node[above]{O} -- ++ (0,-5)node[](Op){};
+\draw (O.center) -- ++ (3, -4)node[](m){};
+\draw (m) arc (-53:-127:5);
+\draw[fill=blue, thick] (m) circle (.25) node[right=.6cm,above =.25cm]{$m$};
+\node[below] at (Op){$O'$};
+
+\begin{scope}
+\draw[thick, -{Stealth}] (m);
+\end{scope}
+
 \end{tikzpicture}
 \end{document}
 ```
-$a^2 + b^2 = 5^2$
