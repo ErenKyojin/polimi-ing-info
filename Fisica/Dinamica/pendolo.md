@@ -18,8 +18,9 @@ un [[punto materiale]] di [[massa]] $m$ è vincolato ad un punto $O$ attraverso 
 \begin{tikzpicture}
 \node (O) at (0,5){$\bullet$};
 \draw (O) node[above]{O} -- ++ (0,-5)node[](Op){};
-\draw (O) -- ++ (+2, -3);
+\draw (O) -- ++ (3, -4)node[](m){};
+\draw (m) arc (360:0:5);
 \end{tikzpicture}
 \end{document}
 ```
-
+$a^2 + b^2 = 5^2$
