@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/forze di attrito.md",
+                "file": "Fisica/Dinamica/piano inclinato.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/forze di attrito.md",
+                "file": "Fisica/Dinamica/piano inclinato.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/forze di attrito.md",
+                "file": "Fisica/Dinamica/piano inclinato.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/forze di attrito.md"
+                "file": "Fisica/Dinamica/piano inclinato.md"
               }
             }
           },
@@ -159,8 +159,9 @@
   },
   "active": "b635cf672b2043d0",
   "lastOpenFiles": [
-    "Fondamenti di automatica/Equilibrio.md",
     "Fisica/Dinamica/forze di attrito.md",
+    "Fisica/Dinamica/piano inclinato.md",
+    "Fondamenti di automatica/Equilibrio.md",
     "Fisica/Cinematica/accelerazione scalare istantanea.md",
     "Fisica/Dinamica/Reazioni vincolari.md",
     "Fisica/Dinamica/Statica.md",
@@ -184,7 +185,6 @@
     "Fisica/Dinamica/forze elastiche.md",
     "Fisica/Dinamica/forza elettrostatica.md",
     "Fisica/Dinamica/forza magnetica.md",
-    "Analisi 1/Insiemi numerici/Campo.md",
     "Fisica/Dinamica",
     "Fisica/Cinematica",
     "API/Esercitazioni",

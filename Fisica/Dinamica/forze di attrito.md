@@ -32,10 +32,17 @@ Il coefficiente di proporzionalità $\mu_{s}$ è detto **coefficiente di attrito
 \draw (-2.5,-.25) -- (-2.5,0) -- (2.5,0) -- (2.5,-.25);
 \filldraw[color = black,fill = black!70,thick] (-1,0) -- (1,0) -- (1,1) -- (-1,1) -- (-1,0);
 \node(c) at (0,.5){$\bullet$}; 
-\draw[-{Stealth[length = 2.5mm]}] (c.center) -- (0,2)node[left]{$\vec{R}_N$};
+\draw[-{Stealth[length = 2.5mm]}] (c.center) -- (0,1.5)node[left]{$\vec{R}_N$};
 \draw[-{Stealth[length = 2.5mm]}] (c.center) -- (2,.5)node[right]{$\vec{R}_T$};
 \draw[-{Stealth[length = 2.5mm]}] (c.center) -- (-2,.5)node[above]{$\vec{F}$};
-\draw[-{Stealth[length = 2.5mm]}] (c.center) -- (0,-1)node[below]{$\vec{W}$};
+\draw[-{Stealth[length = 2.5mm]}] (c.center) -- (0,-.5)node[below]{$\vec{W}$};
+\draw[dashed] (0,1.5) -- (2,1.5) -- (2,.5);
+\draw[-{Stealth[length = 2.5mm]}] (c.center) -- (2,1.5)node[above]{$\vec{R}$};
 \end{tikzpicture}
 \end{document}
 ```
+## Origine delle forze di attrito
+La superfice di contatto effettiva fra i due corpi non dipende dalla superficie di appoggio che è di norma molto maggiore della prima, ma dalla forza che tende ad avvicinare i corpi.
+Sulla sperfice di contatto effettiva avvengono infatti delle microfusioni tra i due corpi simili a legami chimici che si oppongono al vuoto
+
+Lo studio dell'attrito è fondamentale per lo studio del [[piano inclinato]]
