@@ -74,6 +74,32 @@ Scriviamo le equazioni scalari del moto
 $$
 \begin{cases}
 W_{x} = ma_{x} &\text{lungo direzione }x \\
-R + W_{y} = ma_{y}
+R + W_{y} = ma_{y} &\text{lungo direzione }y
 \end{cases}
 $$
+
+### Integrazione delle equazioni del moto
+Integriamo le equazioni del moto imponendo:
+- I vincoli cinematici lungo $y$, $a_{y} = 0$
+- Condizioni iniziali $\vec{x}_{0} = 0\quad ;\quad \vec{v}_{0} = 0$
+
+Il moto è unidimensionale lungo $x$:
+$$
+\begin{align}
+&v_{x}(t)=v_{0,x} + \int_{0}^t \!a(t')\, \mathrm{d}t'   = g\sin \alpha t\\
+&x(t) = x_{0} + \int _{0}^t \!v(t') \, \mathrm{d}t = \frac{1}{2}g\sin \alpha t^2
+\end{align}
+$$
+
+>[!oss]
+>Il moto è uniformemente accelerato ed il diagramma spazio-tempo è di tipo parabolico
+
+>[!oss]
+>Nota la lunghezza $L$ del piano inclinato possiamo determinare l'intervallo di tempo $t_{f}$ che il corpo impiega a percorrerlo e quindi la sua velocità finale $v_{f}$:
+> $$
+> L = \frac{h}{\sin \alpha} = \frac{1}{2}g\sin \alpha t^2_{f} \implies t_{f} = \sqrt{ \frac{2h}{g\sin^2 \alpha} }\qquad v_{f} = v(t_{f})= \sqrt{ 2gh }
+>$$
+
+>[!oss]
+>La velocità finale non dipende ne dalla massa ne dall'inglinazione, è la stessa di un peso in caduta libera dalla quota $h$.
+
