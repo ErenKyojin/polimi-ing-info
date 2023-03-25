@@ -129,7 +129,7 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -174,8 +174,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,8 +195,9 @@
   },
   "active": "75441b8e77cff07d",
   "lastOpenFiles": [
-    "Elettrotecnica/potenza.md",
+    "Fisica/Dinamica/forza.md",
     "Elettrotecnica/Energia cinetica.md",
+    "Elettrotecnica/potenza.md",
     "Fisica/Dinamica/Lavoro.md",
     "Fisica/Dinamica/piano inclinato.md",
     "Fisica/Dinamica/pendolo.md",
@@ -221,7 +221,6 @@
     "Fisica/Cinematica/velocità scalare istantanea.md",
     "Fisica/Cinematica/Velocità scalare media.md",
     "Fondamenti di automatica/Linearizzazione.md",
-    "Fondamenti di automatica/Formula di lagrange.md",
     "Fisica/Dinamica",
     "Fisica/Cinematica",
     "API/Esercitazioni",
