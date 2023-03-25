@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Joule.md",
+                "file": "Fisica/Dinamica/Lavoro.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Joule.md",
+                "file": "Fisica/Dinamica/Lavoro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Joule.md",
+                "file": "Fisica/Dinamica/Lavoro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Joule.md"
+                "file": "Fisica/Dinamica/Lavoro.md"
               }
             }
           },
@@ -184,8 +184,8 @@
   },
   "active": "3c5a3d38c72827da",
   "lastOpenFiles": [
-    "Fisica/Dinamica/Lavoro.md",
     "Fisica/Dinamica/Joule.md",
+    "Fisica/Dinamica/Lavoro.md",
     "Fisica/Dinamica/pendolo.md",
     "Elettrotecnica/equazione differenziale.md",
     "Fisica/Dinamica/piano inclinato.md",
