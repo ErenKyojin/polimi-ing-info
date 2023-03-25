@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/piano inclinato.md",
+                "file": "Fisica/Dinamica/forze di attrito.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
-    "collapsed": true
+    "width": 243.5
   },
   "right": {
     "id": "9c3eb73275ba1585",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/piano inclinato.md",
+                "file": "Fisica/Dinamica/forze di attrito.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/piano inclinato.md",
+                "file": "Fisica/Dinamica/forze di attrito.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/piano inclinato.md"
+                "file": "Fisica/Dinamica/forze di attrito.md"
               }
             }
           },
@@ -160,8 +159,8 @@
   },
   "active": "b635cf672b2043d0",
   "lastOpenFiles": [
-    "Fisica/Dinamica/forze di attrito.md",
     "Fisica/Dinamica/piano inclinato.md",
+    "Fisica/Dinamica/forze di attrito.md",
     "Fondamenti di automatica/Equilibrio.md",
     "Fisica/Cinematica/accelerazione scalare istantanea.md",
     "Fisica/Dinamica/Reazioni vincolari.md",

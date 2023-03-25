@@ -46,3 +46,18 @@ La superfice di contatto effettiva fra i due corpi non dipende dalla superficie 
 Sulla sperfice di contatto effettiva avvengono infatti delle microfusioni tra i due corpi simili a legami chimici che si oppongono al vuoto
 
 Lo studio dell'attrito è fondamentale per lo studio del [[piano inclinato]]
+
+## attrito randente dinamico
+Se un corpo si muove su una superfice piana, la forza di attrito $\vec{R}_{T}$ risulta proporzionale alla forza attiva normale al piano stesso ed indipendente dalla superficie di contatto e dalla velocità del corpo
+$$
+\fbox{$R_{T} = \mu_{d}\cdot R_{N}$}
+$$
+  
+Il coefficiente di proporzionalità $\mu_{d}$ è il coefficiente di attrito dinaimco
+
+>[!oss]
+>Si verifica che $\mu_{d} \leq \mu_{s}$
+
+>[!oss]
+>La forza necessaria per mantenere in moto un corpo vincendo le forze di attrito è sempre minore di quella necessaria per metterlo in moto
+
