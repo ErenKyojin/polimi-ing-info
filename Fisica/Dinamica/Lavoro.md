@@ -58,17 +58,22 @@ modification date: 2023-03-25 17:06
 >$$
 >
 > ```tikz
+> \usetikzlibrary{arrows.meta}
 >\begin{document}
->\begin{tikzpicture}[scale = 2]
+>\begin{tikzpicture}[scale = 2,auto, every node/.style = {scale = 1.5}]
 >
->\begin{scope}
+>\begin{scope}[-{Stealth[scale = 2]}]
 >\node (O) at (0,0,0){};
->\draw (O.center) node[below]{O} -- (2,0,0);
->\draw (O.center) -- (0,2,0);
->\draw (O.center) -- (0,0,2);
+>\draw (O.center) node[below]{O} -- (2,0,0) node[above]{$y$};
+>\draw (O.center) -- (0,2,0) node[right]{$z$};
+>\draw (O.center) -- (0,0,2) node[below]{$x$};
 >\end{scope}
 >
->\path 
+>\draw (.2,1.4,.2) to[in = 20, out = -70] (1.8,.7,.6) node[below]{$\gamma$};
+>\node[scale = .5] (A) at (.28,1.3,.25){$\bullet$};
+>\node[scale =.5] (B) at (.1.8.)
+>\node[above right] at (A) {$A$};
+>\node[above right] at (B){$B$};
 >\end{tikzpicture}
 >\end{document}
 >```
