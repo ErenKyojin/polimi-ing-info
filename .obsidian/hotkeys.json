@@ -15,5 +15,14 @@
       ],
       "key": "N"
     }
+  ],
+  "multi-column-markdown:insert-multi-column-region": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "M"
+    }
   ]
 }
