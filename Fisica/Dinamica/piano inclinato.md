@@ -6,11 +6,7 @@ modification date: 2023-03-25 12:06
 
 Se un corpo viene appoggiato su un [[piano]] inclinato di una angolo $\beta$, la [[forza peso]] si può scomporre in una [[forza]] normale ed una tangente alla superfice piana, che valgono
 
-```start-multi-column
-ID: ID_2wil
-Number of Columns: 2
-Largest Column: standard
-```
+
 $$
 \begin{align}
 
@@ -20,16 +16,15 @@ $$
 $$
 
 
---- column-end ---
 ```tikz
 \begin{document}
 \begin{tikzpicture}[scale = 2]
 \draw[thick](0,0) -- (0,1) -- (3,0) -- (0,0);
 \filldraw[thick,color = blue,fill = cyan!200](.2,.93) -- (.6,.8) -- (.75,1.2) -- (.35,1.33) -- (.2,.93);
 \node[red](c) at(.45,1.05){$\bullet$};
-\draw[->,thick,red] (c.center) -- (.75,.95);
+\draw[->,thick,red] (c.center) -- (.75,.93);
 \end{tikzpicture}
 \end{document}
 ```
-=== end-multi-column
 
+Quindi un corpo rimane fermo su di un piano inclinato scabro $\mu_{s}$ solo se l'angolo di inclinazione del piane $\beta$ è minore dell'angolo $\alpha = \arctan(\mu_{s})$
