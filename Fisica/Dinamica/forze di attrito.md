@@ -26,9 +26,15 @@ Consideriamo un corpo di massa $m$ avente una superficie $S$ appoggiata su un pi
 Il coefficiente di proporzionalità $\mu_{s}$ è detto **coefficiente di attrito statico**, è una caratteristica dei due mezzi posti in contatto e dipende fortemente dallo stato delle superfici (è minori piú sono lisce)
 
 ```tikz
+\usetikzlibrary{arrows.meta}
 \begin{document}
-\begin{tikzpicture}
-\draw (0,0) -- (5,0);
+\begin{tikzpicture}[scale = 1.5]
+\draw(-2.5,0) -- (2.5,0);
+\filldraw[color = white,fill = black!70,thick] (-1,0) -- (1,0) -- (1,1) -- (-1,1) -- (-1,0);
+\node(c) at (0,.5){$\bullet$}; 
+\draw (c) -- 0,2
 \end{tikzpicture}
 \end{document}
 ```
+
+
