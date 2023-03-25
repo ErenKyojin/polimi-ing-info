@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/forze di attrito.md",
+                "file": "Fisica/Dinamica/piano inclinato.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/forze di attrito.md",
+                "file": "Fisica/Dinamica/piano inclinato.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/forze di attrito.md",
+                "file": "Fisica/Dinamica/piano inclinato.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/forze di attrito.md"
+                "file": "Fisica/Dinamica/piano inclinato.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -159,8 +159,10 @@
   },
   "active": "b635cf672b2043d0",
   "lastOpenFiles": [
-    "Fisica/Dinamica/piano inclinato.md",
+    "Fisica/Cinematica/moto.md",
+    "Fisica/Cinematica/moto uniformemente accelerato.md",
     "Fisica/Dinamica/forze di attrito.md",
+    "Fisica/Dinamica/piano inclinato.md",
     "Fondamenti di automatica/Equilibrio.md",
     "Fisica/Cinematica/accelerazione scalare istantanea.md",
     "Fisica/Dinamica/Reazioni vincolari.md",
@@ -183,8 +185,6 @@
     "Fisica/Cinematica/Legge fisica.md",
     "Fisica/Dinamica/forza.md",
     "Fisica/Dinamica/forze elastiche.md",
-    "Fisica/Dinamica/forza elettrostatica.md",
-    "Fisica/Dinamica/forza magnetica.md",
     "Fisica/Dinamica",
     "Fisica/Cinematica",
     "API/Esercitazioni",

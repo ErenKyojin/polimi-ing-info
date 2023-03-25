@@ -29,3 +29,4 @@ $$
 
 Quindi un corpo rimane fermo su di un piano inclinato scabro $\mu_{s}$ solo se l'angolo di inclinazione del piane $\beta$ è minore dell'angolo $\alpha = \arctan(\mu_{s})$
 
+Analisi delle forze in 
