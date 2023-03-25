@@ -71,11 +71,16 @@ modification date: 2023-03-25 17:06
 >
 >\draw (.2,1.4,.2) to[in = 20, out = -70] (1.8,.7,.6) node[below]{$\gamma$};
 >\node[scale = .5] (A) at (.28,1.3,.25){$\bullet$};
->\node[scale =.5] (B) at (.1.8.)
+>\node[scale =.5] (B) at (1.8,.85,.6){$\bullet$};
 >\node[above right] at (A) {$A$};
 >\node[above right] at (B){$B$};
+>\draw[-{Stealth[scale = 2]}] (O) -- (A.center) node[midway,left]{$\vec{r}$};
 >\end{tikzpicture}
 >\end{document}
 >```
 >
 
+>[!oss]
+>In generale $\mathcal{L}$ non dipende solo da $A$ e $B$ ma anche che il lavoro elementare $d\mathcal{L}$ non è differenziale esatto e per distinguere questa sua natura inesatta andrebbe indicato piú propriamente con la notazione $\delta \mathcal{L}$
+
+Se sono note la dipendenza della posizione delle
