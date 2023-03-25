@@ -38,3 +38,6 @@ $$
 
 >{!oss}
 >Forze impulsive sono le [[reazioni vincolari]]
+
+>[!esempio]
+>Una palla che cadendo dall'alto colpisce il suolo rimbalzando mostra ad ogni rimbalzo una repentina variazione della quantità di moto (e inversione del segno della velocità). È l'impulso la causa

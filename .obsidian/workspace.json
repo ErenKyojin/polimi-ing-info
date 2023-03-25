@@ -11,8 +11,12 @@
             "id": "b635cf672b2043d0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Dinamica/impulso.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -165,6 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fisica/Dinamica/impulso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,6 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Fisica/Dinamica/impulso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -202,7 +208,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Fisica/Dinamica/impulso.md"
+              }
             }
           },
           {
