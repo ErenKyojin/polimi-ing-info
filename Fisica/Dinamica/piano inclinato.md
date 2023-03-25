@@ -38,17 +38,42 @@ Poichè il piano è perfettamente liscio, trascuriamo le forze di attrito. Avrem
 \begin{tikzpicture}[scale = 2, every node/.style={scale=1.5}]
 \draw[draw = orange, fill = orange!40,ultra thick,fill opacity = 0.1] (0,0) coordinate (O) -- (30:6)coordinate[pos=.45] (M) |- coordinate (B) (O);
 \draw[orange,thick] (O) ++(.9,0) arc (0:33:0.8)node[pos=.4,left]{$\alpha$};
-\begin{scope}
+
+\begin{scope}[rotate=30]
 \draw[fill = blue, fill opacity = .1] (M) rectangle ++(1.5,.9);
 \draw[-{Stealth[scale = 2]}] (M) ++ (.75,.45) coordinate (MM) -- ++ (0, -1.3) node[right]{$\vec{W}_y$}node[](wy){};
 \draw[-{Stealth[scale = 2]}] (MM) -- ++ (-.5,0) node[above](){$\vec{W}_x$} node[](wx){};
 \draw[-{Stealth[scale = 2]}] (MM) -- ++ (0, +1.3)node[above](R){$\vec{R}$};
-\draw[dashed] (wx.center) -- ++ (0, -1.3) -- (wy.center);
+\draw[dashed] (wx.center) -- ++ (0, -1.3) node(W){} -- (wy.center);
 \node[scale = .5] at (MM){$\bullet$};
+\draw[-{Stealth[scale = 2]}] (MM) -- (W.center) node[below right]{$\vec{W}$};
+\draw[-{Stealth}](0,3) -- (0,4)node[left]{$y$};
+\draw[-{Stealth}](0,3) -- (-1,3)node[below]{$x$};
 \end{scope}
+
+\node[orange] at (5,1){$h$};
+
 \end{tikzpicture}
 \end{document}
 ```
 
 ### Scelta del SDR
-Fissiamo un sistema di riferimento cartesiano opportuno
+Fissiamo un sistema di riferimento cartesiano opportuno come in figura
+
+
+### Equazioni del moto
+Scomponiamo tutte le forze lungo le direzioni ortogonali del nostro SdR. La forza peso lungo le direzioni $x$ ed $y$ avrà rispettivamente componenti
+$$
+\begin{cases}
+W_{x} = mg\sin(\alpha) \\
+W_{y} = -mg\cos(\alpha)
+\end{cases}
+$$
+
+Scriviamo le equazioni scalari del moto
+$$
+\begin{cases}
+W_{x} = ma_{x} &\text{lungo direzione }x \\
+R + W_{y} = ma_{y}
+\end{cases}
+$$
