@@ -3,13 +3,13 @@ aliases: pendoli
 creation date: 2023-03-25 15:31
 modification date: 2023-03-25 15:31
 ---
-un [[punto materiale]] di [[massa]] $m$ è vincolato ad un punto $O$ attraverso una fune ideale (inestensibile di lunghezza $l$ e di massa trascurabile)
+un [[punto materiale]] di [[massa]] $m$ è vincolato ad un punto $O$ attraverso una fune ideale (inestensibile di lunghezza $l$ e di [[massa]] trascurabile)
 
 >[!oss]
->La [[traiettoria]] del suo [[moto]] non puó che essere un arco di circonferenza di raggio $l$ sul quale prendiamo ascissa curvilinea $s$.
+>La [[traiettoria]] del suo [[moto]] non puó che essere un arco di circonferenza di raggio $l$ sul quale prendiamo [[ascissa curvilinea]] $s$.
 
 >[!oss]
->Trascuriamo la forza di attrito viscoso dell'aria e le altre forze di attrito.
+>Trascuriamo la forza di attrito viscoso dell'aria e le altre [[forze di attrito]].
 >Prendiamo come verso positivo della coordinata curvilinea il verso antiorario di percorrenza della traiettoria e fissiamo lo zero nel punto in cui la massa transita per la verticale, abbiamo quindi
 >$$s(t) = \theta(t) \cdot l$$
 
@@ -28,9 +28,9 @@ un [[punto materiale]] di [[massa]] $m$ è vincolato ad un punto $O$ attraverso 
 
 \begin{scope}[rotate = 37]
 \draw[thick, -{Stealth}] (m.center) -- ++(0,2)node(T){} node[right]{$\vec{T}$};
-\draw[thick, -{Stealth}] (m.center) -- ++(0,-2)node(WN){} node[right]{$\vec{W}_n$};
+\draw[thick, -{Stealth}] (m.center) -- ++(0,-1.25)node(WN){} node[right]{$\vec{W}_n$};
 \draw[thick, -{Stealth}] (m.center) -- ++(-1,0)node(WT){} node[above]{$\vec{W}_T$};
-\draw[dashed] (WT) -- ++ (0,-2) node(W){} -- (WN);
+\draw[dashed] (WT) -- ++ (0,-1.25) node(W){} -- (WN);
 \draw[thick,-{Stealth}] (m.center) -- (W.center) node[below]{$\vec{W} = m\vec{g}$};
 \draw (m) ++ (0,-.8) arc (-90:-117:.8) node[midway,below]{$\theta$};
 \end{scope}
@@ -38,3 +38,23 @@ un [[punto materiale]] di [[massa]] $m$ è vincolato ad un punto $O$ attraverso 
 \end{tikzpicture}
 \end{document}
 ```
+
+Prendiamo come verso positivo della coordinata curvilinea il verso antiorario di percorrenza della traiettoria e fissiamo lo zero nel punto in cui la massa transita per la verticale. Abbiamo allora $s(t) = \theta(t) \cdot l$.
+
+Scegliamo un [[sistema di riferimento cartesiano]] locale $T,N$ e scomponiamo lungo queste due direzioni le forze agenti su $m:$
+$$
+\begin{align}
+&W_{T} = -mg\sin \theta \\
+&W_{N} = -mg\cos \theta 
+\end{align}
+$$
+Le equazioni del moto lungo le direzioni tangente e normale alla [[traiettoria]] sono allora:
+$$
+\begin{cases}
+W_{T} = ma_{T} = m\dfrac{d^2s}{dt^2}= ml \dfrac{d^2\theta}{dt^2} &\implies \dfrac{d^2\theta}{dt^2} = -\dfrac{g}{l}\sin \theta \\
+T + W_{N} = ma_{N} &\implies T - mg\cos \theta = m \dfrac{v^2(\theta)}{l} =\dfrac{m}{l} \left( \dfrac{ds}{dt}  \right)^2 = ml\left( \dfrac{d\theta}{dt}  \right)^2
+\end{cases}
+$$
+
+>[!oss]
+>Si tratta di un sistema di due [[equazione differenziale|equazioni differenziali]] non lineari nelle due funzioni incognite $\theta(t)$ e
