@@ -80,4 +80,11 @@ La velocità massima della massa $m$ è $v(t) = l \frac{d\theta}{dt} = A\sqrt{ g
 ### Condizioni iniziali e determinazione delle costanti
 Analogamente a quanto fatto per il moto oscillatorio di un punto materiale vincolato ad una molla, dalle condizioni iniziali del moto si determinano i valori di $A$ e di $\varphi$.
 Ad esempio, se diciamo che il pendolo inizia ad oscillare quando viene spostato di un angolo $\theta_{0}$ dalla verticale, intendiamo che $\theta(t = 0)=\theta_{0}$ e che $v(t = 0) = v_{0}$. Ma in base all'espressione generale della soluzione, deve essere $\theta(t =0) = A\sin(\varphi)$ e quindi $\theta_{0} = A\sin(\varphi)$.
-Sempre in base all espressi
+Sempre in base all'espressione generale della velocità deve essere $v(t = 0) = A\sqrt{ gl } \cos(\varphi)$ e $A = 0$ va escluso in quanto risulterebbe in una soluzione identicamente nulla ad ogni istante e possiamo perciò concludere che $\delta_{0} = A\sin(\pi/2) = A$
+
+La soluzione diventa quindi $\theta(t) = \theta_{0} \sin (\omega t  + \pi/2) = \theta_{0} \cos(\omega t)$
+
+>[!oss]
+>Si noti che la tensione è massima quando il pendolo è verticale, nella posizione di equilibrio: in questo caso vaale $mg(1 + A)^2$, dovendo bilanciare l'intera forza peso ed assicurare anche la massima accelerazione centripeta poichè in questo punto del moto è massima la velocità
+
+>[!oss] Legge di isocronismo del pendolo
