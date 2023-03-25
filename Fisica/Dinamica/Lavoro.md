@@ -4,8 +4,8 @@ creation date: 2023-03-25 17:06
 modification date: 2023-03-25 17:06
 ---
 
->[!def] Lavoro elementare di una forza
->Si dice che una forza compie un lavoro quando il punto materiale al quale è applicata si sposta. Si definisce lavoro elementare $d\mathcal{L}$ di una forza $\vec{F}$ durante lo spostamente $d\vec{r}$ il prodotto scalare:
+>[!def] Lavoro elementare di una [[forza]]
+>Si dice che una forza compie un lavoro quando il [[punto materiale]] al quale è applicata si sposta. Si definisce lavoro elementare $d\mathcal{L}$ di una forza $\vec{F}$ durante lo spostamente $d\vec{r}$ il [[prodotto scalare]]:
 > $$
 > d\mathcal{L} = \vec{F} \cdot d\vec{r} = F\ dr\cos \theta
 >$$
@@ -27,20 +27,50 @@ modification date: 2023-03-25 17:06
 >$[d\mathcal{L}] = [F][dr] = [L]^2[M][T]^{-2}$
 >
 >#### Unità di Misura
->L'unità di misura nel sistema internazionale è il [[Joule]], pari ad un newton x un metro
+>L'unità di misura nel sistema internazionale è il [[Joule]], pari ad un newton x un [[metri|metro]]
 
 
 >[!oss]
 >Non è detto che sia la forza $\vec{F}$ a determinare lo spostamento $d\vec{r}$, se ad esempio $\theta > \pi / 2$, avremo $d\mathcal{L} < 0$ ossia la forza $\vec{F}$ si oppone allo spostamento, provocato da altre interazioni.
->In generale se $d\mathcal{L}< 0$ il lavoro elementare compito da $\vec{F}$ si dice lavoro resistente, viceverse se $d\mathcal{L} > 0$ si dice lavoro motore. Ad esempio le forze di attrito compiono sempre un lavoro resistente (negativo)
+>In generale se $d\mathcal{L}< 0$ il lavoro elementare compito da $\vec{F}$ si dice lavoro resistente, viceverse se $d\mathcal{L} > 0$ si dice lavoro motore. Ad esempio le [[forze di attrito]] compiono sempre un lavoro resistente (negativo)
 
 >[!oss]
 >Per calcolare il prodotto scalare possiamo scomporre la forza e lo spostamento in diversi modi:
->1. Nelle componenti parallela e normale alla traiettoria:
+>1. Nelle componenti parallela e normale alla [[traiettoria]]:
 >   $$ \vec{F} = F_{T} \hat{u}_{T} + F_{N}\hat{u}_{N}\quad ;\quad d\vec{r} = ds \hat{u}_{T} \implies d\mathcal{L} = F_{T}ds \quad \text{Il lavoro non dipende da }F_{N}!$$
 >
 >2. Nelle componenti cartesiane:
 > $$ \vec{F} = F_{x}\hat{u}_{x} + F_{y}\hat{u}_{y} + F_{z}\hat{u}_{z}\quad;\quad d\vec{r} = dx\hat{u}_{x} + dy\hat{u}_{y} + dz\hat{u}_{z} \implies d\mathcal{L} = F_{x}dx + F_{y}dy + F_{z}dz $$
 
 >[!oss]
->Il lavoro elemntare risulta nullo se la forza e lo spostamento sono ortogonali, come ad esempio nel caso del moto circolare unfirome, in cui l'unica forza è centripeta, ortogonale in ogni
+>Il lavoro elemntare risulta nullo se la forza e lo spostamento sono ortogonali, come ad esempio nel caso del [[moto circolare]] unfirome, in cui l'unica forza è centripeta, ortogonale in ogni punto alla traiettoria. Altrimenti il lavoro elemntare è positivo per angoli minori dell'angolo retto, negativo per angoli superiori all'angolo retto.
+
+>[!oss]
+>Se un certo numero $n$ di forze agiscono sul [[punto materiale]] $P$, il lavoro elemntare della [[forza risultante]] è la somma dei singoli lavori:
+> $$
+> d\mathcal{L} = \vec{F} \cdot d\vec{r} = \left( \sum_{i=1}^n \vec{F}_{i}\right) \cdot d\vec{r} = \sum_{i=1}^n (\vec{F}_{i} \cdot d\vec{r}) = \sum_{i=1}^n d\mathcal{L}_{i}
+>$$
+
+>[!def] lavoro di una forza lungo un cammino finito
+>Il lavoro $\mathcal{L}$ compiuto da una forza $\vec{F}$ nello spostamento dal punto $A$ al punto $B$ lungo la traiettoria $\gamma$ si definisce come l'**l'[[integrale]] di linea** del lavoro elementare lungo $\gamma$
+> $$
+> \mathcal{L} = \int _{A,\gamma}^B \!\vec{F} \cdot\, \mathrm{d}\vec{r} 
+>$$
+>
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}[scale = 2]
+>
+>\begin{scope}
+>\node (O) at (0,0,0){};
+>\draw (O.center) node[below]{O} -- (2,0,0);
+>\draw (O.center) -- (0,2,0);
+>\draw (O.center) -- (0,0,2);
+>\end{scope}
+>
+>\path 
+>\end{tikzpicture}
+>\end{document}
+>```
+>
+
