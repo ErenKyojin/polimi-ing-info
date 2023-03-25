@@ -25,6 +25,9 @@ $$
 \begin{document}
 \begin{tikzpicture}[scale = 2]
 \draw[thick](0,0) -- (0,1) -- (3,0) -- (0,0);
+\filldraw[thick,color = blue,fill = cyan](.2,.93) -- (.6,.8) -- (.75,1.2) -- (.35,1.33) -- (.2,.93);
+\node[red](c) at(.45,1.05){$\bullet$};
+\draw (c.center) -- ()
 \end{tikzpicture}
 \end{document}
 ```
