@@ -215,6 +215,16 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "ba85e8a886cdbd08",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Fondamenti di automatica/Esercizi/ES5.md"
+              }
+            }
           }
         ],
         "currentTab": 1
