@@ -64,4 +64,9 @@ $L = G - 1\implies$ numero di giri del DN di $G$ attorno all'origine = giri del 
 Conclusione
 
 Il numero di giniri antiorari del DN di $G$ attorno all'origine è
-= Numero di poli di $G$ circondati dal suo percorso di Nyquist in senso orario - Numero di zeri di $G$
+= Numero di poli di $G$ circondati dal suo percorso di Nyquist in senso orario - Numero di zeri di $G$ circondati dal suo percorso di Nyquist in senso orario
+
+
+
+= Il numero di giri antiorari del DN di $L(s)$ attorno al punto $-1$
+= d
