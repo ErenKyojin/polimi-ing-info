@@ -266,7 +266,10 @@ Sia $A$
 \usetikzlibrary{automata, arrows.meta, positioning}
 \begin{document}
 \begin{tikzpicture}[node distance = 2cm]
-\node[state,initial] at (0,0){$q0$};
+\node[state,initial] (q0) at (0,0){$q0$};
+\node[state, right = of q0, accepting] (q1){$q1$};
+\node[state, right = of q1] (q2){$q2$};
+\node[state, right = of q2] (q3){$q3$};
 \end{tikzpicture}
 \end{document}
 ```
