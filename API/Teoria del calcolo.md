@@ -175,4 +175,9 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 		  e sicuramente {Problemi risolvibili} $\subseteq$ {Problemi definibili}
 	- Quali:
 		 - Il prblema della terminazione del calcolo:
-			 - Cos
+			 - Costruisco un programma
+			 - Fornisco dei dati in ingresso
+			 - Posso determinare se terminerà o meno (andando in loop)
+			   
+			   Che possiamo riscrivere in termini di macchina di Turing come:
+			   data la funzione $g(y,x) = 1$ se $f_{y}(x)$
