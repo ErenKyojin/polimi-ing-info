@@ -451,10 +451,10 @@ Per il linguaggio 1 è simile a $a^nb^nc^n$, solo che $b$ e $c$ possono essere i
 3. Se avanzano b o c non segnate non accettiamo
 
 Produzioni:
-$S \to aSBC$
+$S \to aSBC | aBC$ 
 $BC \to CB$
 $CB \to BC$
 $B \to b$
-$$
+$C \to c$
 
 Commutativa
