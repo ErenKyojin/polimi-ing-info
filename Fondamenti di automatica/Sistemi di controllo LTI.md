@@ -12,6 +12,7 @@ modification date: 2023-03-29 10:36
 
 
 Mettendo tutto insieme
-$Y = \frac{Y}{w} \cdot w + \frac{Y}{D_{a}} \cdot D_{a} + \frac{Y}{D_{r}}\cdot D_{r} = T$
+$$Y = \frac{Y}{w} \cdot w + \frac{Y}{D_{a}} \cdot D_{a} + \frac{Y}{D_{r}}\cdot D_{r} = Tw + S\cdot D_{a} - TD_{r}$$
 
-
+Trasformate di laplace quindi segnali
+Funzioni di trasferimento
