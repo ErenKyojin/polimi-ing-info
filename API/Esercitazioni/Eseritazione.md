@@ -436,4 +436,5 @@ grammatica monotona di tipo due, autoa a pila deterministico
 ## 16
 Grammatica a potenza minima per
 $\mathcal{L}_{1} = \{ a^n w | w \in \{ b,c \}^*, \#_{b}(w) = \#_{c}(w) = n, n \geq 1 \}$
-$\mathcal{L}_{2} = \{  \}$
+$\mathcal{L}_{2} = \{ "\qquad ", \#_{b}(w) + \#_{c}(w) = n, n \geq 1 \}$
+$\mathcal{L}_{3} = \{ "\qquad", \#_{b}(w) + \ \}$
