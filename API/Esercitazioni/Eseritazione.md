@@ -415,3 +415,8 @@ $$\mathcal{L} = \left\{ ab^{n_{1}}ab^{n_{2}}\dots ab^k| k \geq 2, \forall 1 \leq
 ab abb abbb -> non appartiene al linguaggio
 ab abb abbb abb -> (diviso per leggibilià) appartiene al linguaggio
 ab abb abbb abb ab  -> appartiene al linguaggio
+
+noi vogliamo ottenere
+$S \to X ab^n Y ab^n Z$
+
+Con $X,Y,Z$ roba che attraverso produzioni diventerà $(ab^+)+$
