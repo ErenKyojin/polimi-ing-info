@@ -40,3 +40,10 @@ Si richiede tipicamente $e_{\infty} = 0$ o $|e_{\infty}| < tot$
 
 
 >[!esempio]
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}
+>\draw (0,0)node[left] -- (1,0) -- (3,2) -- (4,2)node[left]{$\Delta$};
+>\end{tikzpicture}
+>\end{document}
+>```
