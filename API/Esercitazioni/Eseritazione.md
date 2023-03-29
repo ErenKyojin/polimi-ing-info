@@ -208,4 +208,5 @@ simulando in parallelo entrambe le transizioni dei due rispettivi automi ottenia
 
 
 # 9
-$\mathcal{L} = \{ w.w | w \in \{ a,b \}^* \}$ non si puó con un APND, peró
+$\mathcal{L} = \{ w.w | w \in \{ a,b \}^* \}$ non si puó con un APND, peró $\mathcal{L}^C$ è riconosciuto da un APND
+
