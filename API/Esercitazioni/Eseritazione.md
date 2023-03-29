@@ -315,12 +315,15 @@ Se i non terminali diventavano stati gli stati saranno i non terminali, lo stato
 ```tikz
 \usetikzlibrary{automata, arrows.meta, positioning}
 \begin{document}
-\begin{tikzpicture}[node distance = 2cm]
+\begin{tikzpicture}[node distance = 2cm,auto]
 \node[state, initial](S) at (0,0){$S$};
 \node[state, right = of S] (B){$B$};
 \node[state, below = of S] (C){$C$};
 \node[state, below = of B] (A){$A$};
 \node[state, below left = of S](F){$F$};
+
+\path[-{Stealth}] (S) edge[loop above] node{$a$}
+				   ();
 \end{tikzpicture}
 \end{document}
 ```
