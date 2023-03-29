@@ -39,3 +39,5 @@ caso 1: $\Gamma$ circonda un polo $p$ di $G(s)$
 caso 2: $\Gamma$ circonda in senso orario uno zero $Z$ di $G(s)$ allora $\Delta$ compie un giro O attorno all'origine del piano $\mathbb{C}$
 
 caso 3: $\Gamma$ non circonda ne poli ne zeri di $G(s)$
+
+Quindi il numero di giri antiorario
