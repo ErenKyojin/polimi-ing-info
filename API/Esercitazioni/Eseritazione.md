@@ -336,8 +336,11 @@ Se i non terminali diventavano stati gli stati saranno i non terminali, lo stato
 \end{tikzpicture}
 \end{document}
 ```
+
 >[!oss]
->Per accettare dobbiamo aggiungere uno stato dove mandare S e C quando hanno terminato,
+>Per accettare dobbiamo aggiungere uno stato dove mandare S e C quando hanno terminato, lo manteniamo quindi non deterministico.
+
+
 ## 12
 Sia $\mathcal{L} = \{ a^nb^nc^n, n > 0 \}$
 
