@@ -13,6 +13,10 @@ modification date: 2023-03-29 11:30
 >\begin{tikzpicture}[scale = 2, every node/.style={scale = 1.5}]
 >\draw[-{Stealth[scale = 2]}] (-1, 0) -- (3,0) node[right]{$\mathbb{R}$};
 >\draw[-{Stealth[scale = 2]}] (0,-1) -- (0,2) node[right]{$\Im$};
+>\node[red] (O) at (0,0){$\bullet$};
+>\node[red] (O) at (0,1){$\bullet$};
+>\node[red] (O) at (0,-1){$\bullet$};
+>\
 >\end{tikzpicture}
 >\end{document}
 >```
