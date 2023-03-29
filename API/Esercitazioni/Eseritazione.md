@@ -303,3 +303,11 @@ $Q_{3} \to aQ_{2}$
 
 ## 11
 Sia $G = (V_{n} = \left\{ S,A,B,C \right\}, V_{T} = \left\{ a,b \right\}, P, S)$
+
+Produzioni P:
+$S \to a | aS | aC$
+$A \to bC | bB$
+$B \to aC | aB | bS | bA$
+$C \to a | aB$
+
+Se i non terminali diventavano stati gli stati saranno i non terminalim 
