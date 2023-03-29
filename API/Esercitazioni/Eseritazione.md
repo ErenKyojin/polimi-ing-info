@@ -292,3 +292,10 @@ $S \to aQ_{1}$
 $Q_{1} \to aQ_{2} | bS$
 $Q_{2} \to bQ_{3}$
 $Q_{3} \to aQ_{2}$
+
+Cosi è incompleto, vengono aggiunti caratteri non terminali ad ogni passaggio, quindi non genera niente:
+
+$S \to aQ_{1}$
+$Q_{1} \to aQ_{2} | bS$
+$Q_{2} \to bQ_{3}$
+$Q_{3} \to aQ_{2}$
