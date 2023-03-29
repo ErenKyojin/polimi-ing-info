@@ -37,3 +37,6 @@ Si richiede tipicamente $e_{\infty} = 0$ o $|e_{\infty}| < tot$
 
 >[!oss]
 >Si può estendere a ingressi canonici
+
+
+>[!esempio]
