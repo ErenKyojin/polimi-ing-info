@@ -246,14 +246,14 @@ con $|\alpha| + |\gamma| = |\beta|$
 			   edge[loop above] node[]{$b,X|XX$} node[above = 5mm]{$a,X|XX$} node[above = 10mm]{$b,Z0|Z0X$} node[above = 15mm]{$a,Z0|Z0X$} (q3)
 		  (q4) edge node[]{$\varepsilon,Z0|Z0$}(q5)
 			   edge[loop above]node[]{$b,X|\varepsilon$} node[above = 5mm]{$a,X|\varepsilon$} (q4)
-		  (q5) edge node[below left]{$ab,Z0|Z0$}node[below = 5mm]{$b,X|X$}  (q6)
+		  (q5) edge node[below left]{$a,Z0|Z0$}node[below = 5mm]{$b,X|X$}  (q6)
 			   edge[loop above]node[]{$a,Z0|Z0X$} node[above=5mm]{$b,Z0|Z0X$} node[above=10mm]{$a,X|XX$} node[above=15mm]{$b,X|XX$}(q5)
 		  (q6) edge node[]{$\varepsilon,Z0|Z0$}(q7)
 		       edge[loop above] node[]{$b,X|\varepsilon$} node[above=5mm]{$a,X|\varepsilon$}(q6)
 		  (q8) edge node[]{$\varepsilon,Z0|Z0$} (q9)
 		  (q8) edge[loop below] node[]{$a,X|\varepsilon$} node[below = 5mm]{$b,X|\varepsilon$} (q8)
 		  (q9) edge node[]{$a,Z0|Z0$} node[above=5mm]{$a,X|X$} (q6)
-		       edge[loop below] (q9)
+		       edge[loop below] node[]{$a,Z0|Z0X$} node[below=5mm]{$b,Z0|Z0X$} node[below=10mm]{$a,X|XX$} node[below=15mm]{$b,X|XX$}(q9)
 		  ;
 \end{tikzpicture}
 \end{document}
