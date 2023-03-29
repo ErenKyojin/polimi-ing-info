@@ -213,4 +213,7 @@ VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure 
 >Ipotesi: $k(y) = 1$ se $f_{y}$ è totale, ossia $f_{y}(x) \neq \perp, \forall x \in N$, altrimento $=0$ calcolabile e ovviamente totale per definizione.
 >Definisco allora $g(x) = w =$ indice della $x$-esima macchina di turing in $E$ che calcola una funzione totale.
 >Se $k$ è calcolabile e totale allora lo è anche $g$, calcolo quindi $k(0), k(1),\dots,$ e sia $w_{0}$ il primo valore tale che $k(w_{0}) = 1$ allora pongo $g(0) = w_{0}$, successivamente pongo $g(1) = w_{1}$ essendo $w_{1}$ il secondo valore tale che $k(w_{1}) = 1$.
->Il procedimento è algoritmico, inoltre essendo le funzioni
+>Il procedimento è algoritmico, inoltre essendo le funzioni totali infinite, $g(x)$ è certo definita per ogni $x$, quindi è totale.
+>
+>$g$ è anche strettamente monotona, passando da $x$ a $x+1$, $w_{x + 1 } > w_{x}$, quindi $g^{-1}$ è una funzione, pure strettamente monotona anche se non totale:
+>$g^{-1}(w)$ è definita solo
