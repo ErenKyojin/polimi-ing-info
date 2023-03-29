@@ -402,5 +402,7 @@ Osservando che se moltiplico o sommo due coppie di parentesi già ben parentesiz
 
 $S \to 0 | 1 | x | y | (S + S) | (S * S)$
 
-Formule ben formate 
-$\Im =$
+Si tratta di ormule ben formate 
+
+
+S
