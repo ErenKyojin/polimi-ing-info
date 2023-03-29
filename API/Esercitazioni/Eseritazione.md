@@ -365,4 +365,9 @@ Questo tipo di grammatiche sono gli automi a pila one turn, ossia che la pila cr
 Sia $G$ la grammatica
 $V_{N} = \{ S,X \}$ e $V_{T} = \{ a,b \}$
 
-Produzioni
+Produzioni:
+$S \to Sa | aS | bX | b$
+$SX \to XXSS | S$ <- questa produzione indica tipo 0
+$XS \to abba$
+
+Che tipo
