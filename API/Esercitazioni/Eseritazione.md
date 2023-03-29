@@ -393,4 +393,8 @@ Per trovarla costruiamo l'automa a stati finiti
 ```
 
 ## 14
-Scrivere una grammati
+Scrivere una grammatica $G$ a potenza minima che generi le espressioni algebriche ben parentesizzate contenenti $+, *, -$. Le costanti $0$ e $1$ e variabili $x$ e $y$
+
+$$
+(x)\qquad (x + 1) \qquad (((x + 1)))
+$$
