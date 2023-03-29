@@ -351,5 +351,7 @@ $B \to bB | b$
 
 Esiste una grammatica per $\mathcal{L}$ di tipo lineare, cioè con produzioni del tipo $A \to cB | Dc | f$?
 
-Si puó forzare il determinismo non avendo produzioni ch
-
+$A \to bCd$
+è uguale a
+$A \to bC$
+$$
