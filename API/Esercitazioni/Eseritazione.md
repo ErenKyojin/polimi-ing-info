@@ -383,7 +383,9 @@ Per trovarla costruiamo l'automa a stati finiti
 \usetikzlibrary{automata, arrows.meta, positioning}
 \begin{document}
 \begin{tikzpicture}
-\node[state](0,0)
+\node[state,initial](S) at (0,0){$S$};
+\node[state, right = of S] (A){$A$};
+\path[->] (S) edge[loop above] node
 \end{tikzpicture}
 \end{document}
 ```
