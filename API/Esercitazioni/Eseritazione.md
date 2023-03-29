@@ -404,5 +404,6 @@ $S \to 0 | 1 | x | y | (S + S) | (S * S)$
 
 Si tratta di ormule ben formate 
 
-
-S
+### EXTRA
+Adattiamolo ai linguaggi ben parentesizztte vuote (o linguaggi di Dyck)
+$S \to SS | (S)| ()$
