@@ -227,8 +227,7 @@ con $|\alpha| + |\gamma| = |\beta|$
 \node[state, right = of q0] (q3){$q3$};
 \node[state, below = of q0] (q1){$q1$};
 \node[state, right = of q1] (q2){$q2$};
-\node[state, right above] (q4){$q4$};
-\node[st]
+\node[state, above = of q3,right = 1cm, above = 1cm] (q4){$q4$};
 \end{tikzpicture}
 \end{document}
 ```
