@@ -43,11 +43,14 @@ Si richiede tipicamente $e_{\infty} = 0$ o $|e_{\infty}| < tot$
 > ```tikz
 >\begin{document}
 >\begin{tikzpicture}
->\draw (0,0)node[left]{$w_{0}$} -- (1,0) -- (3,2) -- (4,2)node[right]{$\Delta$};
->\draw[->](1,0) -- (1,2);
->\draw(1,0) -- (4,0);
+>\draw[red,thick] (0,0)node[left]{$w_{0}$} -- (1,0) -- (3,2) -- (4,2)node[right]{$\Delta$};
+>\draw[->] (1,0) -- (1,2) node[right]{$w(t)$};
+>\draw[->] (1,0) -- (4,0)node[below]{$t$};
 >\end{tikzpicture}
 >\end{document}
 >```
 >per $t \to \infty$ questo è indistinguibile da $w(t) = \Delta sca(t)$
+>
+>Ma dov'è $t = \infty$?
+>1. mi va bene 
 
