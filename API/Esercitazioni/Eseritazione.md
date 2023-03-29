@@ -244,8 +244,8 @@ con $|\alpha| + |\gamma| = |\beta|$
 		  (q3) edge node[below right]{$a,Z0|Z0$} node[below=5mm]{$a,X|X$}(q4)
 			   edge node[]{$b,Z0|Z0$} node[below]{$b,X|X$}(q8)
 			   edge[loop above] node[]{$b,X|XX$} node[above = 5mm]{$a,X|XX$} node[above = 10mm]{$b,Z0|Z0X$} node[above = 15mm]{$a,Z0|Z0X$} (q3)
-		  (q4) edge node[]{$$}(q5)
-			   edge[loop above] (q4)
+		  (q4) edge node[]{$\varepsilon,Z0|Z0$}(q5)
+			   edge[loop above]node[]{$b,X|\varepsilon$} node[above = 5mm]{a,X|\varepsil} (q4)
 		  (q5) edge (q6)
 			   edge[loop above] (q5)
 		  (q6) edge (q7)
@@ -253,7 +253,7 @@ con $|\alpha| + |\gamma| = |\beta|$
 		  (q8) edge (q9)
 		  (q8) edge[loop below] node[]{$a,X|\varepsilon$} node[below = 5mm]{$b,X|\varepsilon$} (q8)
 		  (q9) edge (q6)
-		       edge[loop below] (q9)
+		       edge[loop above] (q9)
 		  ;
 \end{tikzpicture}
 \end{document}
