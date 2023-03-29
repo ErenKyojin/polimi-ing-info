@@ -4,8 +4,9 @@
   "obsidian-tikzjax",
   "obsidian-latex",
   "obsidian-mathjax-wikilinks",
-  "obsidian-git",
   "templater-obsidian",
   "mathlinks",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "table-editor-obsidian",
+  "obsidian-git"
 ]

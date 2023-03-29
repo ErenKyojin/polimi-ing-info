@@ -47,3 +47,11 @@ aliases: PSE
 >[!esempio]
 >Sommando due forze otteniamo la somma degli effetti delle singole forze.
 >Moltiplicando una forza per una costante $k$ otteniamo il risultato per $k$ volte
+
+
+# FISICA
+Dato un insieme di cause tra loro indipendenti agenti contemporaneamente sul medesimo sistema, se il legame tra ciascuna causa ed l'effetto da essa prodotto e di tipo lineare allora l'effetto complessivo prodotto da tutte le cause è dato  dalla somma algebrica dei singoli effetti prodotti da ciascuna causa.
+Avremo quindi
+$$
+\vec{F} = \sum_{i=1}^N \vec{F}_{i} = \sum_{i=1}^N \frac{d\vec{p}_{i}}{dt} =\frac{\sum_{i=1}^Nd\vec{p}_{i}}{dt} = \frac{d\vec{p}}{dt}   
+$$
