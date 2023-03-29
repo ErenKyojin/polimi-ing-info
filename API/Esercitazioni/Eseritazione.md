@@ -249,7 +249,7 @@ con $|\alpha| + |\gamma| = |\beta|$
 		  (q5) edge node[below left]{$ab,Z0|Z0$}node[below = 5mm]{$b,X|X$}  (q6)
 			   edge[loop above]node[]{$a,Z0|Z0X$} (q5)
 		  (q6) edge node[]{$\varepsilon,Z0|Z0$}(q7)
-		       edge[loop above] (q6)
+		       edge[loop above] node[]{$b,X|$} node[above=5mm]{$a,X|\varepsilon$}(q6)
 		  (q8) edge (q9)
 		  (q8) edge[loop below] node[]{$a,X|\varepsilon$} node[below = 5mm]{$b,X|\varepsilon$} (q8)
 		  (q9) edge (q6)
