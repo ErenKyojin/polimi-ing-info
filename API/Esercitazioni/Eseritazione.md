@@ -400,4 +400,7 @@ $$
 $$
 Osservando che se moltiplico o sommo due coppie di parentesi già ben parentesizzate e le chiudo in un ulteriore parentesi ottengo un espressione ben parentesizzata, scriviamo le produzioni:
 
-$S \to (a) | 1 | (x) | (y) | (S + S) | (S * S)$
+$S \to 0 | 1 | x | y | (S + S) | (S * S)$
+
+Formule ben formate 
+$\Im =$
