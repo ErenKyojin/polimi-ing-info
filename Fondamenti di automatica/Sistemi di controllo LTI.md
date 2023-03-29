@@ -53,4 +53,12 @@ Si richiede tipicamente $e_{\infty} = 0$ o $|e_{\infty}| < tot$
 >
 >Ma dov'è $t = \infty$?
 >1. mi va bene 
+>   ```tikz
+>\begin{document}
+>\begin{tikzpicture}
+>\draw (0,0) -- (1,0) to (2,1) -- (3,1);
+>\draw[blue] (0,)
+>\end{tikzpicture}
+>\end{document}
+>```
 
