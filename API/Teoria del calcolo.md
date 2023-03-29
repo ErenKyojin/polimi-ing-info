@@ -172,4 +172,7 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 		  
 		  Il linguaggio è un sottoinsieme di $A^*$ che è un insieme numerabile quindi,
 		  l'insieme dei problemi definibili è pure numerabile come quello dei problemi risolvibili
-		  e sicuramente {Problemi risolvibili}
+		  e sicuramente {Problemi risolvibili} $\subseteq$ {Problemi definibili}
+	- Quali:
+		 - Il prblema della terminazione del calcolo:
+			 - Cos
