@@ -10,11 +10,13 @@ Prima di vedere il criterio dobbiamo studiare il [[diagramma di Nyquist]] di una
 
 Si consideri il sistema dinamico
 ```tikz
+\usetikzlibrar
 \begin{document}
 \begin{tikzpicture}
 \draw (-1,-.5) rectangle (1,.5);
 \node (o) at (0,0){$-WO$};
-\draw (1,.5) -- (1.5,.5) -- (1.5,-1) -- (1.)
+\draw[-{Stealth[scale = 2]}] (1,0) -- (1.5,0) -- (1.5,-1) -- (-1.5,-1) -- (-1.5,0) -- (-1,0);
 \end{tikzpicture}
 \end{document}
 ```
+
