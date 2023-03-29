@@ -419,8 +419,9 @@ abab -> appartiene al linguaggio
 
 noi vogliamo ottenere
 $S \to X ab^n Y ab^n Z$
-
 Con $X,Y,Z$ roba che attraverso produzioni diventerà $(ab^+)+$
 
+$S \longrightarrow \underbrace{ X }_{ A } \underbrace{ ab^n Y ab^n }_{ B } \underbrace{ Z }_{ A }$
+
+
 Proviamo a scrivere le produzioni:
-$S \to \underbrace{ X }_{ A } \underbrace{ ab^n Y ab^n }_{ B } \underbrace{ Z }_{ A }$
