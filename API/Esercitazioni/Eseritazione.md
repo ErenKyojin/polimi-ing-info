@@ -444,3 +444,4 @@ $\mathcal{L}_{2} : S \to aSb | aSc | ab | ac$
 $\mathcal{L}_{3} : S \to aSXX | aXX$
 $X \to b|c$
 
+Per il linguaggio 1 è simile a $a^nb^nc^n$, solo che $b$ e $c$ possono essere in qualsiasi posizione dopo le n a
