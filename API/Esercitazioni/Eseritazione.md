@@ -238,9 +238,9 @@ con $|\alpha| + |\gamma| = |\beta|$
 
 %Path
 \path[->] (q0) edge node[]{$\varepsilon,Z0|Z0$} (q1) 
-			   edge node[](q3)
-		  (q1) edge (q2)
-		  (q2) edge (q1)
+			   edge node[]{$\varepsilon,Z0|Z0$}(q3)
+		  (q1) edge[bend left] node[]{$a,Z0|Z0$} node[b] (q2)
+		  (q2) edge[bend left] (q1)
 		  (q3) edge (q4)
 			   edge (q8)
 			   edge[loop above] (q3)
