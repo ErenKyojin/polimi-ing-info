@@ -374,4 +374,5 @@ $XS \to abba$
 - Qual è un automa a potenza minimo che riconosce $\mathcal{L}(G)$?
 	- Non è la macchina di Turing, guardiamo il punto 3
 - Chi è $\mathcal{L}(G)$
-  Iniziamo osservando che 	  
+  Iniziamo osservando che le ultime due produzioni, e anche la terza di $S$ sono irraggiungibili.
+  Quindi il linguaggio è	  
