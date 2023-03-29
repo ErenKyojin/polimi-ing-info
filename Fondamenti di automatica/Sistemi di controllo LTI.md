@@ -79,4 +79,4 @@ Quando $w$ cambia $y$ deve inseguirla presto e bene, cioè per esempio senza osc
 $\implies$ la FdT $\frac{Y}{N}$ deve avere certe caratteristiche, per esempio poli ben smorzati
 
 4. Grado di stabilità (asintotica)
-   
+   Il sistema in AC deve essere abbastanza dal perdere la stabilità asintotica di vari a
