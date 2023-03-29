@@ -325,7 +325,9 @@ Se i non terminali diventavano stati gli stati saranno i non terminali, lo stato
 \path[-{Stealth}] (S) edge[loop above] node{$a$} (S)
 				      edge[bend right] node{$a$} (C)
 				      edge[bend right] node{$a$} (F)
-				      edge;
+				  (B) edge[bend right] node{$a$} (C)
+				      edge[bend right] node{$a$} (A)
+				      edge[loop above] node{$a$} (A);
 \end{tikzpicture}
 \end{document}
 ```
