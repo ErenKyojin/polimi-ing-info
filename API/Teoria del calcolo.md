@@ -162,4 +162,5 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 - Quante e quali sono lefunzioni $f_{y} : N \to N$
 	- Quante:
 	  $$ \left\{ f : N \to N \right\} \supseteq \left\{ f : N \to \left\{ 0,1 \right\}  \right\} \implies |\left\{ f:N \to N \right\} | \geq  |\left\{ f : N \to \left\{ 0,1 \right\}  \right\} | = \mathcal{P}(N) = 2^{\mathcal{N}0}$$
-	  D'altro canto l'insieme $\left\{ f_{y} : N \to N \right\}$
+	  D'altro canto l'insieme $\left\{ f_{y} : N \to N \right\}$ è per definizione numerabile
+	  
