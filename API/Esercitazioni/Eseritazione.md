@@ -238,8 +238,14 @@ con $|\alpha| + |\gamma| = |\beta|$
 
 %Path
 \path[->] (q0) edge (q1) 
-			edge (q3)
-			();
+			   edge (q3)
+		  (q1) edge (q2)
+		  (q2) edge (q1)
+		  (q3) edge (q4)
+			   edge (q8)
+			   edge[loop above] (q3)
+		  (q4) edge
+		  ;
 \end{tikzpicture}
 \end{document}
 ```
