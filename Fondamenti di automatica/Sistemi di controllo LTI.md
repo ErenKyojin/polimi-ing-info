@@ -79,7 +79,7 @@ Quando $w$ cambia $y$ deve inseguirla presto e bene, cioè per esempio senza osc
 $\implies$ la FdT $\frac{Y}{N}$ deve avere certe caratteristiche, per esempio poli ben smorzati
 
 4. Grado di stabilità (asintotica)
-   Il sistema in AC deve essere abbastanza lontano dal perdere la stabilità asintotica di variazioni di qualche suo paraetro
+   Il sistema in anello chiuso deve essere abbastanza lontano dal perdere la stabilità asintotica di variazioni di qualche suo paraetro
    N robustezza => margini di stbailità
 5. Modulazione del controllo
    a parità delle altre proprietà è preferibile il controllore che sollecita meno l'attuatore
