@@ -246,7 +246,7 @@ con $|\alpha| + |\gamma| = |\beta|$
 			   edge[loop above] node[]{$b,X|XX$} node[above = 5mm]{$a,X|XX$} node[above = 10mm]{$b,Z0|Z0X$} node[above = 15mm]{$a,Z0|Z0X$} (q3)
 		  (q4) edge node[]{$\varepsilon,Z0|Z0$}(q5)
 			   edge[loop above]node[]{$b,X|\varepsilon$} node[above = 5mm]{$a,X|\varepsilon$} (q4)
-		  (q5) edge node[]{$ab,Z0|Z0$}node[above]b  (q6)
+		  (q5) edge node[below left]{$ab,Z0|Z0$}node[below = .5mm]{$b,X|X$}  (q6)
 			   edge[loop below]node[]{$a,Z0|Z0X$} (q5)
 		  (q6) edge (q7)
 		       edge[loop above] (q6)
