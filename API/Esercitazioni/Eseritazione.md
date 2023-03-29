@@ -318,7 +318,9 @@ Se i non terminali diventavano stati gli stati saranno i non terminali, lo stato
 \begin{tikzpicture}[node distance = 2cm]
 \node[state, initial](S) at (0,0){$S$};
 \node[state, right = of S] (B){$B$};
-\node[state, below = of ]
+\node[state, below = of S] (C){$C$};
+\node[state, below = of B] (A){$A$};
+\node[state, below left = of S](F){$F$};
 \end{tikzpicture}
 \end{document}
 ```
