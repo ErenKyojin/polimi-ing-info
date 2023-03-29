@@ -83,3 +83,7 @@ $\implies$ la FdT $\frac{Y}{N}$ deve avere certe caratteristiche, per esempio po
    N robustezza => definiamo indicatori o margini di stbailità
 5. Modulazione del controllo
    a parità delle altre proprietà è preferibile il controllore che sollecita meno l'attuatore
+
+
+# Stabilità AS di sistemi retroazionati
+poichè lo stato non dipende dagli ingresso posso stuiare
