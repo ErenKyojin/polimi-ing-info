@@ -425,3 +425,8 @@ $S \longrightarrow \underbrace{ X }_{ A } \underbrace{ ab^n Y ab^n }_{ B } \unde
 
 
 Proviamo a scrivere le produzioni:
+$S \to B | AB | BA | ABA$
+$B \to aY$
+$Y \to bYb | bCb$
+$C \to a|Aa$
+$D \to vD$
