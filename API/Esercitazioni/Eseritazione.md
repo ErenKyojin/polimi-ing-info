@@ -293,9 +293,13 @@ $Q_{1} \to aQ_{2} | bS$
 $Q_{2} \to bQ_{3}$
 $Q_{3} \to aQ_{2}$
 
-Cosi è incompleto, vengono aggiunti caratteri non terminali ad ogni passaggio, quindi non genera niente:
+Cosi è incompleto, vengono aggiunti caratteri non terminali ad ogni passaggio, quindi non genera niente, queso perchè non abbiamo messo i casi terminali:
 
-$S \to aQ_{1}$
+$S \to aQ_{1} | a$
 $Q_{1} \to aQ_{2} | bS$
-$Q_{2} \to bQ_{3}$
+$Q_{2} \to bQ_{3} |b$
 $Q_{3} \to aQ_{2}$
+
+
+## 11
+Sia $G = (V_{n} = \left\{ S,A,B,C \right\}, V_{T} = \left\{ a,b \right\}, P, S)$
