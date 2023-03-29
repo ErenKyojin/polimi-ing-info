@@ -243,7 +243,7 @@ con $|\alpha| + |\gamma| = |\beta|$
 		  (q2) edge[bend left] node[]{$a,Z0|Z0$} node[below = .5cm]{$b,Z0|Z0$} (q1)
 		  (q3) edge node[below right]{$a,Z0|Z0$} node[below=5mm]{$a,X|X$}(q4)
 			   edge node[]{$b,Z0|Z0$} node[below]{$b,X|X$}(q8)
-			   edge[loop above] node[]{$b,X|XX$} node[above = 5mm]{$a,X|XX$} node[above]{$$} (q3)
+			   edge[loop above] node[]{$b,X|XX$} node[above = 5mm]{$a,X|XX$} node[above = 10mm]{$b,Z0|Z0X$} node[above = 15mm]{$a,Z0|Z0X$} (q3)
 		  (q4) edge (q5)
 			   edge[loop above] node[]{$a,X|\varepsilon$} node[]{$b,X|\varepsilon$}(q4)
 		  (q5) edge (q6)
