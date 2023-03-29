@@ -56,4 +56,7 @@ COnsideriamo un sistema retroazionato con FdT d'anello $L(s)$ e prendiamo
 $$
 G(s) = 1 + L(s)
 $$
-Allora $G = 1 + \frac{L_{n}}{L_{d}} = L_{n}+L_{d}$
+Allora $G = 1 + \frac{L_{n}}{L_{d}} = \frac{L_{n}+L_{d}}{L_{d}}$
+$\implies$ poli di $G(s)$ = poli dell'anello aperto chiuso radici di L_d
+$\implies$ zeri di $G(s)$ = poli dell'anello chiuso radici di L_u + L_d
+$L = G - 1\implies$ numero di giri del DN di $G atto$
