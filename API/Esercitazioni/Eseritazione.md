@@ -332,7 +332,13 @@ Se i non terminali diventavano stati gli stati saranno i non terminali, lo stato
 				  (A) edge[] node{$c$} (C)
 				      edge[bend right] node{$b$}(B)
 				  (C) edge[bend right] node{$a$}(B)
-				      edge[bend right] node{$a$}(F);
+				      edge[bend left] node{$a$}(F);
 \end{tikzpicture}
 \end{document}
 ```
+
+## 12
+Sia $\mathcal{L} = \{ a^nb^nc^n, n > 0 \}$
+
+C,F,
+$S \to aS_{1}a$
