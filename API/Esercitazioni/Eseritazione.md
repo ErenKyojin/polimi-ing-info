@@ -358,4 +358,5 @@ $\hat{C} \to Cd$
 
 ma la seconda è lineare, quindi piú potente.
 
-Questo tipo di grammatiche sono 
+Questo tipo di grammatiche sono gli automi a pila one turn, ossia che la pila cresce quanto vuole, ma fatta la prima pop non si possono fare piú push
+
