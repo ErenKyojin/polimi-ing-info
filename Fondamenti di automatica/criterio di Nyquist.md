@@ -20,11 +20,12 @@ Si consideri il sistema dinamico
 \end{document}
 ```
 - Si tracci il DN di L(s)
-- Sia $p_{0}$ o; numero di poli di $L(s)$ con parte reale positiva
+- Sia $p_{D}$ o; numero di poli di $L(s)$ con parte reale positiva
 - Sia $N$ il numero di giri del DN di $L(s)$ attorno al punto $-1$ contatoi con segno positivo se antiorari e negativo se orari; se il DN di $L(s)$ passa per il punto -1 si dice che $N$ non è ben definito
 
 criterio:
 $$
-tet
+\text{sistema in AC AS} \iff \text{N ben definito uguale a }p_{D}
 $$
-
+### caso non ben definito:
+N non ben definito $\iff$ il DN di $L(s)$ passa per -1 $\implies$ 
