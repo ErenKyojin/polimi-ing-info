@@ -461,3 +461,5 @@ Commutativa
 
 ## 17
 $\mathcal{L} = \{ a^{2^n} | n \geq 0 \}$
+
+basterebbe una grammatica di tipo 1, infatti basta una MT a nastro singolo
