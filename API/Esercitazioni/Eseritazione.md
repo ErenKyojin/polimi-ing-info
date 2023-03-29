@@ -330,7 +330,9 @@ Se i non terminali diventavano stati gli stati saranno i non terminali, lo stato
 				      edge[loop above] node{$a$} (A)
 				      edge[] node{$b$} (S)
 				  (A) edge[] node{$c$} (C)
-				      edge[bend right] node{$b$};
+				      edge[bend right] node{$b$}(B)
+				  (C) edge[bend right] node{$a$}(B)
+				      edge[bend right] node{$a$}(F);
 \end{tikzpicture}
 \end{document}
 ```
