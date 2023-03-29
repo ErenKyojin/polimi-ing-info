@@ -4,6 +4,7 @@ creation date: 2023-03-29 09:41
 modification date: 2023-03-29 09:41
 ---
 
+Stabilire se, dato un programam con un dato in ingresso andrà in loop  è un problema irrisolvibile algoritmicamente (ne vedremo molti altri, sono molte anche in termini qualitativi, le cose che il calcolatoren on p)
 
 >[!dim]
 >Per dimostrare cosa un calcolatore possa fare sfruttiamo una tecnica diagonale (usata anche nel teorema di cantor) pe rdimostrare che $\mathcal{N}_{0} < 2^{\mathcal{N_{0}}}$
