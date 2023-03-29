@@ -212,6 +212,6 @@ $\mathcal{L} = \{ w.w | w \in \{ a,b \}^* \}$ non si puó con un APND, peró $\m
 
 abbaba | abaaba
 
-| ab  | b   | aba | ab  | a   | aba |
-| --- | --- | --- | --- | --- | --- |
-| $\alpha$    |     |     |     |     |     |
+| ab       | b   | aba     | ab      | a   | aba |
+| -------- | --- | ------- | ------- | --- | --- |
+| $\alpha$ | $b$ | $\beta$ | $\beta$ | a   | gamma    | 
