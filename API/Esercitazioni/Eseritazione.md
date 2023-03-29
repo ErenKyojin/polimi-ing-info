@@ -259,3 +259,14 @@ con $|\alpha| + |\gamma| = |\beta|$
 \end{document}
 ```
 
+# GRAMMATICHE
+## 10 
+Sia $A$
+```tikz
+\usetikzlibrary{automata, arrows.meta, positioning}
+\begin{document}
+\begin{tikzpicture}[node distance = 2cm]
+\node[state,initial] at (0,0){$q0$};
+\end{tikzpicture}
+\end{document}
+```
