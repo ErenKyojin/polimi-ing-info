@@ -10,7 +10,7 @@ Prima di vedere il criterio dobbiamo studiare il [[diagramma di Nyquist]] di una
 
 Si consideri il sistema dinamico
 ```tikz
-\usetikzlibrar
+\usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
 \draw (-1,-.5) rectangle (1,.5);
@@ -19,4 +19,7 @@ Si consideri il sistema dinamico
 \end{tikzpicture}
 \end{document}
 ```
+- Si tracci il DN di L(s)
+- Sia $p_{0}$ o; numero di poli di $L(s)$ con parte reale positiva
+- Sia $N$ il numero di giri del DN di $L(s)
 
