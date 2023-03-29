@@ -51,3 +51,9 @@ compie attorno all'origine del uso piano $\mathbb{C}$ è uguale al numero di pol
 Prendiamo ora come $\Gamma$ il percorso di Nyquist di $G(s)$, ne consegue che
 $\implies\Gamma$ circonda il senso orario il semipiano destro
 $\implies \Delta$ è il diagramma di Nyquist di $G(s)$
+
+COnsideriamo un sistema retroazionato con FdT d'anello $L(s)$ e prendiamo
+$$
+G(s) = 1 + L(s)
+$$
+Allora $G = 1 + \frac{L_{n}}{L_{d}} = L_{n}+L_{d}$
