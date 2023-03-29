@@ -216,4 +216,8 @@ VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure 
 >Il procedimento è algoritmico, inoltre essendo le funzioni totali infinite, $g(x)$ è certo definita per ogni $x$, quindi è totale.
 >
 >$g$ è anche strettamente monotona, passando da $x$ a $x+1$, $w_{x + 1 } > w_{x}$, quindi $g^{-1}$ è una funzione, pure strettamente monotona anche se non totale:
->$g^{-1}(w)$ è definita solo
+>$g^{-1}(w)$ è definita solo se $w$ è l'indice di una macchina di Turing che calcola una funzione totale.
+>Definisco ora
+>1. $h(x) = f_{g(x)} + 1 = f_{w}(x) +1$
+>   $f_{w}$ è calcolabile e totale e quindi lo è anche $h$
+>2. $h = f_{w_{0}}$ per qualche $w_{0}$
