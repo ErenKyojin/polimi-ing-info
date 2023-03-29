@@ -222,8 +222,8 @@ con $|\alpha| + |\gamma| = |\beta|$
 ```tikz
 \usetikzlibrary{automata, arrows.meta, positioning}
 \begin{document}
-\begin{tikzpicture}
-\node[state] (q0) at (0,0){$q0$};
+\begin{tikzpicture}[node distance = 2cm]
+\node[state, initial] (q0) at (0,0){$q0$};
 \node[state, right = of q0] (q3){$q3$};
 \node[state, below = of q0] (q1){$q1$};
 \node[state, right = of q1] (q2){$q2$};
@@ -231,7 +231,7 @@ con $|\alpha| + |\gamma| = |\beta|$
 \node[state, right = of q4] (q5){$q5$};
 \node[state, below right = of q5] (q6){$q6$};
 \node[state, right = of q6,accepting] (q7){$q7$};
-\node[state, below right = of q1] (q8){$q8$};
+\node[state, below right = of q7] (q8){$q8$};
 \node[state, right = of q8] (q9){$q9$};
 \end{tikzpicture}
 \end{document}
