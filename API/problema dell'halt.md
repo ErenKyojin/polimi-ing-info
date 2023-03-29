@@ -23,5 +23,5 @@ Stabilire se, dato un programam con un dato in ingresso andrà in loop  è un pr
 >[!corollario]
 >La funzione $h'(x) = g(x,x)\quad\begin{align}=1\ \text{se}\ f_{x}(x) \neq \perp\\=0\ \text{se }f_{x}(x) = \perp\end{align}$ non è calcolabile
 >
->In realtà, rigorosamente parlando, si tratta
+>In realtà, rigorosamente parlando, si tratta piuttosto di un lemma che di un corollario, esso costituisce il cuore della dimostrazione del teorema precedente. Di per se l'enunciato non significa molto, è però importante menzionarlo per sottolineare che il suo enunciato non può essere ricavato come conseguenza immediata del teorema prece
 
