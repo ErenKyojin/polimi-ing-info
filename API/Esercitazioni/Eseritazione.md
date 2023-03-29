@@ -271,7 +271,7 @@ Sia $A$
 \node[state, right = of q1] (q2){$q2$};
 \node[state, right = of q2,accepting] (q3){$q3$};
 
-\path[-{St}] (q0) edge[bend left] node[]{$a$} (q1)
+\path[-{Stealth}] (q0) edge[bend left] node[]{$a$} (q1)
       (q1) edge[bend left] node[]{$b$} (q0)
            edge node[]{$a$} (q2)
       (q2) edge[bend left] node[]{$b$} (q3)
@@ -279,3 +279,8 @@ Sia $A$
 \end{tikzpicture}
 \end{document}
 ```
+Il linguaggio interpretato dall'automa è
+$$
+\mathcal{L}(A) = (\text{ab})^*\text{a}(\text{ab})^*
+$$
+Scriviamo una grammatica regolare
