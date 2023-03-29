@@ -229,7 +229,9 @@ con $|\alpha| + |\gamma| = |\beta|$
 \node[state, right = of q1] (q2){$q2$};
 \node[state, above right= of q3] (q4){$q4$};
 \node[state, right = of q4] (q5){$q5$};
-\node[state, below righ]
+\node[state, below right = of q5] (q6){$q6$};
+\node[state, right = of q6,accepting] (q7){$q7$};
+\node[state, below]
 \end{tikzpicture}
 \end{document}
 ```
