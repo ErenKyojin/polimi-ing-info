@@ -87,4 +87,8 @@ $\implies$ la FdT $\frac{Y}{N}$ deve avere certe caratteristiche, per esempio po
 
 # Stabilità AS di sistemi retroazionati
 poichè lo stato non dipende dagli ingresso posso studiare
-#todo Posto $L(s) = \frac{L(s)}{L_{d}(s)}$
+#todo Posto $L(s) = \frac{L_{n}(s)}{L_{d}(s)}$ con $L_{n}$ e $L_d$ polinomi per ora senza ritardi si ha
+
+$-Lq = q$
+$q + Lq = 0$
+$q + \frac{L_{n}}{L_{d}}q = 0 \implies$
