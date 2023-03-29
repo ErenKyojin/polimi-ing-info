@@ -221,3 +221,5 @@ VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure 
 >1. $h(x) = f_{g(x)} + 1 = f_{w}(x) +1$
 >   $f_{w}$ è calcolabile e totale e quindi lo è anche $h$
 >2. $h = f_{w_{0}}$ per qualche $w_{0}$
+>   siccome $h$ è totale $g^{-1}(w_{0}) \neq \perp$, poniamo $g^{-1}(w_{0}) = x_{0}$, quanto vale $h(x_{0})$?
+>   - $h(x_{0}) = f_{g(x_{0})}(x_{0}) + 1 = f_{w_{9}}(x)$
