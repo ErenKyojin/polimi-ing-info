@@ -60,3 +60,8 @@ Allora $G = 1 + \frac{L_{n}}{L_{d}} = \frac{L_{n}+L_{d}}{L_{d}}$
 $\implies$ poli di $G(s)$ = poli dell'anello aperto chiuso radici di $L_d$
 $\implies$ zeri di $G(s)$ = poli dell'anello chiuso radici di $L_u + L_d$
 $L = G - 1\implies$ numero di giri del DN di $G$ attorno all'origine = giri del DN di L attorno al punto $(-1,0)$
+
+Conclusione
+
+Il numero di giniri antiorari del DN di $G$ attorno all'origine è
+= Numero di poli di $G$ circondati dal suo percorso di Nyquist in senso orario - Numero di zeri di $G$
