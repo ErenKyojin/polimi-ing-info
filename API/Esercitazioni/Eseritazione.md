@@ -374,5 +374,16 @@ $XS \to abba$
 - Qual è un automa a potenza minimo che riconosce $\mathcal{L}(G)$?
 	- Non è la macchina di Turing, guardiamo il punto 3
 - Chi è $\mathcal{L}(G)$
- -  Iniziamo osservando che le ultime due produzioni, e anche la terza di $S$ sono irraggiungibili. Quindi il linguaggio generato è $a^*ba^*$, riconoscibile per il pumping lemma anche da un FSA, rispondendo alla domanda sopra.
-  
+  -  Iniziamo osservando che le ultime due produzioni, e anche la terza di $S$ sono irraggiungibili. Quindi il linguaggio generato è $a^*ba^*$, riconoscibile per il pumping lemma anche da un FSA, rispondendo alla domanda sopra.
+
+Una grammatica regolare che generi lo stesso linguaggio?
+Per trovarla costruiamo l'automa a stati finiti
+
+```tikz
+\usetikzlibrary{automata, arrows.meta, positioning}
+\begin{document}
+\begin{tikzpicture}
+\node[state](0,0)
+\end{tikzpicture}
+\end{document}
+```
