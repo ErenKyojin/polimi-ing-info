@@ -189,5 +189,7 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 
 
 >[!dim]
->Per dimostrare cosa un calcolatore possa fare sfruttiamo una tecnica diagonale (usata anche nel teorema di cantor) pe rdimostrare che $\mathcal{N}$
+>Per dimostrare cosa un calcolatore possa fare sfruttiamo una tecnica diagonale (usata anche nel teorema di cantor) pe rdimostrare che $\mathcal{N}_{0} < 2^{\mathcal{N_{0}}}$
+>
+>Ipotesi assurda: $g(y,x) = 1$ se $f_{y}(x) \neq \perp, g(y,x) = 0$ se $f_{y}(x) = \perp$ calcolabile. Allora anche $h(x)= 1$ se $g(x,x) = 0 (f_{x}(x)=\perp)$
 >
