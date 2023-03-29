@@ -21,5 +21,10 @@ Si consideri il sistema dinamico
 ```
 - Si tracci il DN di L(s)
 - Sia $p_{0}$ o; numero di poli di $L(s)$ con parte reale positiva
-- Sia $N$ il numero di giri del DN di $L(s)
+- Sia $N$ il numero di giri del DN di $L(s)$ attorno al punto $-1$ contatoi con segno positivo se antiorari e negativo se orari; se il DN di $L(s)$ passa per il punto -1 si dice che $N$ non è ben definito
+
+criterio:
+$$
+tet
+$$
 
