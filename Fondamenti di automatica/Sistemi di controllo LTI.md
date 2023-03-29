@@ -26,8 +26,9 @@ quindi tutto dipende da $L(s)$
 1. Sistema in anello chiuso asintoticamente stabile
 2. Precisione statica
    Con ingressi costanti e cioè 
-   $$ \begin{cases}
+   $$ \begin{rcases}
 u(t) = \bar{w} \\
 d_{a}(t) = \bar{d_{a}} \\
-d
-\end{cases} $$
+d_{r}(t) = 0
+\end{rcases} \to \exists \text{ finito } \lim_{ t \to \infty } e(t) = e_{\infty} $$
+con $e_{\infty}$ detto errore a regime o errore a transito
