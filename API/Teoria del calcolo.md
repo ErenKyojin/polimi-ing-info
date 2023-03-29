@@ -210,4 +210,6 @@ In certi casi potrei essere in grado di stabilire, fissato $x$, se $f_{y}(x) \ne
 VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure poitrei non decidere se $f_{y}(x) \neq \perp$ per un singolo $x$
 
 >[!dim]
->Ipotesi $k(y) = 1$ se $f_{y}$ è totale, ossia $f_{y}(x) \neq \perp, \forall x \in N$, altrimento $=0$ calcolabile e ovviamente totale per de
+>Ipotesi: $k(y) = 1$ se $f_{y}$ è totale, ossia $f_{y}(x) \neq \perp, \forall x \in N$, altrimento $=0$ calcolabile e ovviamente totale per definizione.
+>Definisco allora $g(x) = w =$ indice della $x$-esima macchina di turing in $E$ che calcola una funzione totale.
+>Se $k$ è calcolabile e totale allora lo è anche $g$, calcolo quindi $k(0)$
