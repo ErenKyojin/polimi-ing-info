@@ -76,4 +76,7 @@ Si richiede tipicamente $e_{\infty} = 0$ o $|e_{\infty}| < tot$
 
 3. Precisione dinamica
 Quando $w$ cambia $y$ deve inseguirla presto e bene, cioè per esempio senza oscillazione
-$\implies$ la FdT $\frac{Y}{N}$ deve essere parte caratteristiche, per esempio poli ben smorzati
+$\implies$ la FdT $\frac{Y}{N}$ deve avere certe caratteristiche, per esempio poli ben smorzati
+
+4. Grado di stabilità (asintotica)
+   
