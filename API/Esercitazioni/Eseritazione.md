@@ -356,4 +356,6 @@ $A \to bCd$
 $A \to bC$
 $\hat{C} \to Cd$
 
-ma la seconda è lineare, quindi piú potente
+ma la seconda è lineare, quindi piú potente.
+
+Questo tipo di grammatiche sono 
