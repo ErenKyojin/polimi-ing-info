@@ -180,4 +180,7 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 			 - Posso determinare se terminerà o meno (andando in loop)
 			   
 			   Che possiamo riscrivere in termini di macchina di Turing come:
-			   data la funzione $g(y,x) = 1$ se $f_{y}(x)$
+			   data la funzione $g(y,x) = 1$ se $f_{y}(x) \neq \perp, g(y,x) = 0$ se $f_{y}(x) = \perp$, esiste una macchina di Turing che calcola $g$?
+			   **NO*
+			   
+			   Questo risultato è molto importante, 
