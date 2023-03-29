@@ -75,4 +75,5 @@ Si richiede tipicamente $e_{\infty} = 0$ o $|e_{\infty}| < tot$
 >chiedere $e_{\infty} = 0$ per $w(t) = ram(t)$
 
 3. Precisione dinamica
-Quando $w$ cambia $y$ deve inseguirla presto e bene
+Quando $w$ cambia $y$ deve inseguirla presto e bene, cioè per esempio senza oscillazione
+$\implies$ la FdT $\frac{Y}{N}$ deve essere arte
