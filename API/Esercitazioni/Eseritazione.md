@@ -342,3 +342,9 @@ Sia $\mathcal{L} = \{ a^nb^nc^n, n > 0 \}$
 
 C,F,
 $S \to aS_{1}a$
+$S_{1} \to aS_{1}a | B$
+$B \to bB | b$
+
+Esiste una grammatica per $\mathcal{L}$ di tipo lineare, cioè con produzioni del tipo $A \to cB | Dc | f$?
+
+
