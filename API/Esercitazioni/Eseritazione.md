@@ -284,3 +284,10 @@ $$
 \mathcal{L}(A) = (\text{ab})^*\text{a}(\text{ab})^*
 $$
 Scriviamo una grammatica regolare
+
+$V_{N} = \left\{ S,Q_{1},Q_{2},Q_{3} \right\}\quad V_{t} = \left\{ a,b \right\}$
+
+P:
+$S \to aQ_{1}$
+$Q_{1} \to aQ_{2} | aS$
+$Q_{2} \to $
