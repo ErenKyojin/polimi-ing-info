@@ -382,12 +382,15 @@ Per trovarla costruiamo l'automa a stati finiti
 ```tikz
 \usetikzlibrary{automata, arrows.meta, positioning}
 \begin{document}
-\begin{tikzpicture}[auto, node distance = 2cm]
+\begin{tikzpicture}[auto, node distance = 4cm,scale = 2, every node/.style={scale = 1.5}]
 \node[state,initial](S) at (0,0){$S$};
 \node[state, right = of S,accepting] (A){$A$};
-\path[->] (S) edge[loop above] node{a} (S);
-			  edge[]node{b} (A);
+\path[->] (S) edge[loop above] node{a} (S)
+			  edge[]node{b} (A)
 		  (A) edge[loop above]node{a} (A);
 \end{tikzpicture}
 \end{document}
 ```
+
+## 14
+Scrivere una grammati
