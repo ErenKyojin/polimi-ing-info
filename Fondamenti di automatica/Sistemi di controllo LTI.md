@@ -24,5 +24,10 @@ quindi tutto dipende da $L(s)$
 
 ## Requisiti del controllo
 1. Sistema in anello chiuso asintoticamente stabile
-2. Precisione [[statica]]
+2. Precisione statica
    Con ingressi costanti e cioè 
+   $$ \begin{cases}
+u(t) = \bar{w} \\
+d_{a}(t) = \bar{d_{a}} \\
+d
+\end{cases} $$
