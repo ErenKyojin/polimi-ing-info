@@ -93,7 +93,7 @@ poichè lo stato non dipende dagli ingresso posso studiare
 \begin{document}
 \begin{tikzpicture}[scale = 2]
 \draw (0,0) rectangle (1.5,1);
-\node at (,0){$L$};
+\node at (.7,0.5){$L$};
 \draw[->] (1.5,0.5) -- (2, 0.5) node[above]{$q$}-- (2, -1) -- (-2,-1) -- (-2,0.5) -- (-0,0.5);
 \end{tikzpicture}
 \end{document}
@@ -104,3 +104,5 @@ $q + Lq = 0$
 $q + \frac{L_{n}}{L_{d}}q = 0 \implies \frac{L_{n} + L_{d}}{L_{d}}q =0$
 $\implies (L_{n} + L_{d})q = 0$
 $L_{n} + L_{d} = 0$ è l'equazione caratteristica del sistema in anello chiuso, le sue radici sono i poli di tale sistema
+
+Ci occorrono quindi criteri per studiare la stabilità
