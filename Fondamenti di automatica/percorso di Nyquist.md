@@ -17,7 +17,7 @@ modification date: 2023-03-29 11:30
 >\node[red] (A) at (0,1){$\bullet$};
 >\node[red] (B) at (0,-1){$\bullet$};
 >\draw[dashed, blue] (0,2) arc (90:-90:2);
->\draw[blue] (0,-2) -- (0,-1.1) arc (-90:90:.1) -- (0,-.1)  arc (-90:90.1);
+>\draw[blue] (0,-2) -- (0,-1.1) arc (-90:90:.1) -- (0,-.1)  arc (-90:90:.1) -- (0,.9) arc (-9);
 >\end{tikzpicture}
 >\end{document}
 >```
