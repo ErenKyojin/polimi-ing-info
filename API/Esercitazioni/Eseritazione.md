@@ -320,7 +320,7 @@ Se i non terminali diventavano stati gli stati saranno i non terminali, lo stato
 \node[state, right = of S] (B){$B$};
 \node[state, below = of S] (C){$C$};
 \node[state, below = of B] (A){$A$};
-\node[state, below left = of S](F){$F$};
+\node[state, below left = of S, accepting](F){$F$};
 
 \path[-{Stealth}] (S) edge[loop above] node{$a$} (S)
 				      edge[bend right] node{$a$} (C)
@@ -336,7 +336,8 @@ Se i non terminali diventavano stati gli stati saranno i non terminali, lo stato
 \end{tikzpicture}
 \end{document}
 ```
-
+>[!oss]
+>Per accettare dobbiamo aggiungere uno stato dove mandare S e C quando hanno terminato,
 ## 12
 Sia $\mathcal{L} = \{ a^nb^nc^n, n > 0 \}$
 
