@@ -160,3 +160,5 @@ La macchina di Turing è un modello molto astratto e semplice di un calcolate, i
 Quanti e quali sono i problemi risolvibili algoritmicamente:
 
 - Quante e quali sono lefunzioni $f_{y} : N \to N$
+	- Quante:
+	  $$ \left\{ f : N \to N \right\} \subseteq \left\{ f : N \to \left\{ 0,1 \right\}  \right\} \implies |\left\{ f:N \to N \right\} | \geq $$
