@@ -86,4 +86,5 @@ $\implies$ la FdT $\frac{Y}{N}$ deve avere certe caratteristiche, per esempio po
 
 
 # Stabilità AS di sistemi retroazionati
-poichè lo stato non dipende dagli ingresso posso stuiare
+poichè lo stato non dipende dagli ingresso posso studiare
+#todo Posto $L(s) = \frac{L(s)}{L_{d}(s)}$
