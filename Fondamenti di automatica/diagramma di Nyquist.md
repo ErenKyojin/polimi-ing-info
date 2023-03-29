@@ -23,3 +23,11 @@ Domanda, la curva $\Delta$ circonda o no l'origine del suo piano $\mathbb{C}$? o
 $$G(s) = \frac{\dots (s-z)\dots}{\dots(s-p)\dots} \implies \angle G(s) =\dots + \angle (s - z) \dots - \angle(s-p) \dots$$
 
 caso 1: $\Gamma$ circonda un polo $p$ di $G(s)$
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) circl
+\end{tikzpicture}
+\end{document}
+```
