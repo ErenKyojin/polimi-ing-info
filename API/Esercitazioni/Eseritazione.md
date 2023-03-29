@@ -458,3 +458,6 @@ $B \to b$
 $C \to c$
 
 Commutativa
+
+## 17
+$\mathcal{L} = \{ a^{2^n} | n \geq 0 \}$
