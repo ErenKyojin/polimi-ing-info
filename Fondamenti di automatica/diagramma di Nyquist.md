@@ -14,8 +14,10 @@ Studio di una $F$ complessa razinale fatta $G(s) di mkv$ copmlessa $s$ lungo una
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw (0,0) ellipse (2,3);
+\node at (0,0){\#todo};
 \end{tikzpicture}
 \end{document}
 ```
 Domanda, la curva $\Delta$ circonda o no l'origine del suo piano $\mathbb{C}$? ovvero siamo nel caso a (si) o nel caso b (no)
+
+$$G(s) = (\dots)$$
