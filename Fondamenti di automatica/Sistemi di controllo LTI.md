@@ -55,10 +55,13 @@ Si richiede tipicamente $e_{\infty} = 0$ o $|e_{\infty}| < tot$
 >1. mi va bene 
 >   ```tikz
 >\begin{document}
->\begin{tikzpicture}
+>\begin{tikzpicture}[scale = 2]
 >\draw (0,0) -- (1,0) -- (2,1) -- (3,1);
->\draw[blue] (0,0) -- (1,0) to[in = -100, out= 30] (2,1) -- (3,1);
+>\draw[blue] (0,0) -- (1,0) to[in = 200, out= 30] (2.2,1) -- (3,1);
 >\end{tikzpicture}
 >\end{document}
 >```
+>$e_{\infty} = 0$ per $w(t) = sca(t)$
+>
+>
 
