@@ -21,4 +21,4 @@ Stabilire se, dato un programam con un dato in ingresso andrà in loop  è un pr
 >
 
 >[!corollario]
->
+>La funzione $h'(x) = g(x,x)\quad\begin{align}=1\ \text{}f_{x}(x) \neq \perp\\\end{align}$
