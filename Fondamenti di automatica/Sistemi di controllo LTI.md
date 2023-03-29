@@ -80,4 +80,6 @@ $\implies$ la FdT $\frac{Y}{N}$ deve avere certe caratteristiche, per esempio po
 
 4. Grado di stabilità (asintotica)
    Il sistema in AC deve essere abbastanza lontano dal perdere la stabilità asintotica di variazioni di qualche suo paraetro
-   N robustezza => defini
+   N robustezza => margini di stbailità
+5. Modulazione del controllo
+   a parità delle altre proprietà è preferibile il controllore deve sollecitare meno l'attuatore
