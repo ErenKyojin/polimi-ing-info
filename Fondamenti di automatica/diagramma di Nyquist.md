@@ -20,4 +20,4 @@ Studio di una $F$ complessa razinale fatta $G(s) di mkv$ copmlessa $s$ lungo una
 ```
 Domanda, la curva $\Delta$ circonda o no l'origine del suo piano $\mathbb{C}$? ovvero siamo nel caso a (si) o nel caso b (no)
 
-$$G(s) = (\dots)$$
+$$G(s) = \frac{\dots (s-z)\dots}{\dots(s-\beta)\dots} \implies \angle G(s) =\dots + \angle (s - z) \dots - \angle(s-)$$
