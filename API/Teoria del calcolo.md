@@ -189,4 +189,5 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 
 
 >[!dim]
->Per dimostrare cosa un calcolatore possa fare sfruttiamo il teorema di cantor
+>Per dimostrare cosa un calcolatore possa fare sfruttiamo una tecnica diagonale (usata anche nel teorema di cantor) pe rdimostrare che $\mathcal{N}$
+>
