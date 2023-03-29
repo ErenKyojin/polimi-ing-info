@@ -206,3 +206,4 @@ simulando in parallelo entrambe le transizioni dei due rispettivi automi ottenia
 
 
 # 9
+
