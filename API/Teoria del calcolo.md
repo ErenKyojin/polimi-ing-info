@@ -196,6 +196,9 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 >Ci siamo posti sulla diagonale $y = x$ e abbiamo scambiato il si col no, poi abbiamo fatto si che il no diventasse una non terminazione
 >
 >Se $h$ è calcolabile allora essite $x_{0}$ tale che $h = f_{x_{0}}$. quindi ci chiediamo se $h(x_{0}) = 1$ o se $h(x_{0}) = \perp$
->Se $h(x_{0}) = f_{x_{0}}(x_{0}) = 1$, quindi $g(x_{0},x_{0}) = 0$, quindi $f_{x_{0}}(x_{0}) = \perp$ che è una contraddizione. Supponiamo il contrario $h(x_{0}) = f_{x_{0}}(x_{0}) = \perp$, ciò significa 
+>Se $h(x_{0}) = f_{x_{0}}(x_{0}) = 1$, quindi $g(x_{0},x_{0}) = 0$, quindi $f_{x_{0}}(x_{0}) = \perp$ che è una contraddizione. 
+>Supponiamo il contrario $h(x_{0}) = f_{x_{0}}(x_{0}) = \perp$, ciò significa $g(x_{0},x_{0}) = 1$ quindi $f_{x_{0}}(x_{0}) \neq \perp$ che è una contraddizione.
+>Abbiamo due contraddizioni quindi il teorema è dimostrato.
+>$$
 >
 >
