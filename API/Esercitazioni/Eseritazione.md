@@ -370,4 +370,6 @@ $S \to Sa | aS | bX | b$
 $SX \to XXSS | S$ <- questa produzione indica tipo 0
 $XS \to abba$
 
-Che tipo
+- Che tipo di grammatica è? non ristretta
+- Qual è un automa a potenza minimo che riconosce $\mathcal{L}(G)$?
+	- Non è la macchina du Turing
