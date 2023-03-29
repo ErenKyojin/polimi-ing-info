@@ -223,6 +223,8 @@ con $|\alpha| + |\gamma| = |\beta|$
 \usetikzlibrary{automata, arrows.meta, positioning}
 \begin{document}
 \begin{tikzpicture}[node distance = 2cm]
+
+%States
 \node[state, initial] (q0) at (0,0){$q0$};
 \node[state, right = of q0] (q3){$q3$};
 \node[state, below = of q0] (q1){$q1$};
@@ -231,8 +233,11 @@ con $|\alpha| + |\gamma| = |\beta|$
 \node[state, right = of q4] (q5){$q5$};
 \node[state, below right = of q5] (q6){$q6$};
 \node[state, right = of q6,accepting] (q7){$q7$};
-\node[state, below right = of q7] (q8){$q8$};
+\node[state, below right = of q3] (q8){$q8$};
 \node[state, right = of q8] (q9){$q9$};
+
+%Path
+\path[->] (q0) edge 
 \end{tikzpicture}
 \end{document}
 ```
