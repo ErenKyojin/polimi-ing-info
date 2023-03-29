@@ -207,4 +207,7 @@ Nel caso precedente invece mi interessava sapere se un certo programma con certi
 In certi casi potrei essere in grado di stabilire, fissato $x$, se $f_{y}(x) \neq \perp$, inoltre poterlo fare per tutti gli infiniti $x$ senza per questo poter rispondere alla domanda $f_{y}$ è una funzione totale>
 
 
-VIceversa potrei essere in grado ci concludere che $f_{y}$ non è tot
+VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure poitrei non decidere se $f_{y}(x) \neq \perp$ per un singolo $x$
+
+>[!dim]
+>Ipotesi $k(y) = 1$ se $f_{y}$ è totale, ossia $f_{y}(x) \neq \perp, \forall x \in N$, altrimento $=0$ calcolabile e ovviamente totale per de
