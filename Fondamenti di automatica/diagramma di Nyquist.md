@@ -10,3 +10,6 @@ modification date: 2023-03-29 11:30
 
 
 
+Studio di una $F$ complessa razinale fatta $G(s) di mkv$ copmlessa $s$ lungo una curva chiusa $\Gamma$
+
+Domanda, la curva $\Delta$ circonda o no l'origine del suo piano $\mathbb{C}$? ovvero siamo nel caso a o nel caso b
