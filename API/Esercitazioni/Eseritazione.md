@@ -407,3 +407,6 @@ Si tratta di ormule ben formate
 ### EXTRA
 Adattiamolo ai linguaggi ben parentesizztte vuote (o linguaggi di Dyck)
 $S \to SS | (S)| ()$
+
+## 15
+Grammatica a potenza minima per
