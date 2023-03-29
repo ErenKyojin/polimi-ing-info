@@ -310,4 +310,14 @@ $A \to bC | bB$
 $B \to aC | aB | bS | bA$
 $C \to a | aB$
 
-Se i non terminali diventavano stati gli stati saranno i non terminalim 
+Se i non terminali diventavano stati gli stati saranno i non terminali, lo stato iniziale è l'assioma
+
+```tikz
+\usetikzlibrary{automata, arrows.meta, positioning}
+\begin{document}
+\begin{tikzpicture}[node distance = 2cm]
+\node[state, initial](S) at (0,0){$S$};
+\node[state]
+\end{tikzpicture}
+\end{document}
+```
