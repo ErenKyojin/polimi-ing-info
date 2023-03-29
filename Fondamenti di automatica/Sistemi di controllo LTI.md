@@ -12,7 +12,11 @@ modification date: 2023-03-29 10:36
 
 
 Mettendo tutto insieme
-$$Y = \fcolorbox{yellow}{}{ $ \frac{Y}{w} $} \cdot \fcolorbox{purple}{}{ $ w $} + \fcolorbox{yellow}{}{ $ \frac{Y}{D_{a}} $} \cdot D_{a} + \fcolorbox{yellow}{}{ $ \frac{Y}{D_{r}} $}\cdot D_{r} = Tw + S\cdot D_{a} - TD_{r}$$
+$$Y = \fcolorbox{yellow}{}{ $ \frac{Y}{w} $} \cdot \fcolorbox{purple}{}{ $ w $} + \fcolorbox{yellow}{}{ $ \frac{Y}{D_{a}} $} \cdot \fcolorbox{purple}{}{ $ D_{a} $} + \fcolorbox{yellow}{}{ $ \frac{Y}{D_{r}} $}\cdot \fcolorbox{purple}{}{ $ D_{r} $} = Tw + S\cdot D_{a} - TD_{r}$$
 
 In viola, trasformate di laplace quindi segnali
 In giallo, funzioni di trasferimento quindi sistemi
+
+
+Lego questo alla rel $(w,d_{a},d_{r}) \to y$
+quindi tutto dipende da $L(s)$
