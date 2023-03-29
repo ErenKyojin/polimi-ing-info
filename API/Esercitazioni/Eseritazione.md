@@ -4,7 +4,7 @@ creation date: 2023-03-22 14:36
 modification date: 2023-03-22 14:36
 ---
 
-# 1
+## 1
 Costruire una macchina di turing a k nastri che riconosca $\mathcal{L} = \left\{ w \in \left\{ a,b,c \right\}^* | \#_{a}(w)=\#_{b}(w) = \#_{c}(w)\right\}$
 k = 3
 
@@ -36,7 +36,7 @@ k = 3
 
 
 
-# 3
+## 3
 Disegno una macchina di turing a 1 nastro che ha in inuput due naturali e stampa in output il loro prodott, tutto in base 1, i naturali sono separati da un *.
 
 ```tikz
@@ -64,7 +64,7 @@ Disegno una macchina di turing a 1 nastro che ha in inuput due naturali e stampa
 >[!note]
 >Provare a modificarla per stampare errore in caso di stringa non valida
 
-# 4
+## 4
 Disegnare una macchina di turing a nastro singolo che riconosca
 $$
 \mathcal{L} = \left\{ a^{2^n} | n \geq 0 \right\} 
@@ -100,7 +100,7 @@ $$
 
 [Simulatore di macchine di turing](https://www.turingmachinesimulator.com)
 
-# 5
+## 5
 
 Disegnare una macchina di turing a 1 nastro che implementa:
 $f : \left\{ a,b \right\}^* \to \left\{ a,b \right\}^*, w \mapsto w,w^R$
@@ -108,7 +108,7 @@ $f : \left\{ a,b \right\}^* \to \left\{ a,b \right\}^*, w \mapsto w,w^R$
 
 ---
 Vediamo un po' di non determinismo
-# 6
+## 6
 $\mathcal{L} = \left( ab + aba \right)^*$
 
 Esempi di stringhe in $\mathcal{L}$ sono $\varepsilon, ab, aba, abab, ababa.abaab,\dots$
@@ -166,7 +166,7 @@ Esempi di stringhe in $\mathcal{L}$ sono $\varepsilon, ab, aba, abab, ababa.abaa
 \end{tikzpicture}
 \end{document}
 ```
-# 7
+## 7
 $\mathcal{L}1 = \left\{ a^nb^n | n \geq 1 \right\} \cup \left\{ a^n b^{2n} | n \geq 1\right\}$ -> APND
 $\mathcal{L}2 = \left\{ *a^nb^n | n \geq 1\right\} \cup \left\{ \$ a^nb^{2n}| n \geq 1 \right\}$ -> APD
 $\mathcal{L}_{3} = \left\{ a^n*b^n | n \geq 1 \right\} \cup \left\{ a^n\$b^2n |n \geq 1 \right\}$ -> APD
@@ -188,7 +188,7 @@ Questi linguaggi NON sono riconoscibili dagli automi a pila, il primo essendo la
 
 ....
 
-# 8
+## 8
 $\mathcal{L}_{1} = \left\{ a^ib^ic^* i \geq 0 \right\} \cap \left\{ a^*b^j c^j |j \geq 0 \right\} = \left\{ a^nb^nc^n | n \geq 0 \right\}$
 non è riconoscibile da un automa a pila non determinitico, serve la macchina di turing
 
@@ -207,7 +207,7 @@ simulando in parallelo entrambe le transizioni dei due rispettivi automi ottenia
 -----
 
 
-# 9
+## 9
 $\mathcal{L} = \{ w.w | w \in \{ a,b \}^* \}$ non si puó con un APND, peró $\mathcal{L}^C$ è riconosciuto da un APND
 
 abbaba | abaaba
