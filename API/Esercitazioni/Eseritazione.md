@@ -398,3 +398,6 @@ Scrivere una grammatica $G$ a potenza minima che generi le espressioni algebrich
 $$
 (x)\qquad (x + 1) \qquad (((x + 1) * 1) + 0)\quad (((x * y) + (y + 1))*(1 + 0))
 $$
+Osservando che se moltiplico o sommo due coppie di parentesi già ben parentesizzate e le chiudo in un ulteriore parentesi ottengo un espressione ben parentesizzata, scriviamo le produzioni:
+
+$S \to (a) | (1$
