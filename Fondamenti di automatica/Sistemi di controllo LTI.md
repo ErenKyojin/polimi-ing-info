@@ -92,7 +92,9 @@ poichè lo stato non dipende dagli ingresso posso studiare
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw (0,0) rectangle (1.5,1) node{$L$};
+\draw (0,0) rectangle (1.5,1);
+\node at (0,0){$L$}
+\draw[-latex] (1.5,0) -- (2, 0) -- (2, -1) -- (-2,-1) -- (-2,0) -- (2,0);
 \end{tikzpicture}
 \end{document}
 ```
