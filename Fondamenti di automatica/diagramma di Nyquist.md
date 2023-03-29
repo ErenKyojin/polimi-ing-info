@@ -25,14 +25,17 @@ $$G(s) = \frac{\dots (s-z)\dots}{\dots(s-p)\dots} \implies \angle G(s) =\dots + 
 caso 1: $\Gamma$ circonda un polo $p$ di $G(s)$
 
 ```tikz
+\usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}[scale = 2]
 \draw[blue, ->,thick] (0,0) ellipse[x radius =1,y radius = 1.5];
 \draw[red, <-, thick] (4,0) ellipse[x radius = 1.5, y radius = 1];
 \node (p) at (0,0){$\bullet$};
 \node[below] at (p){$p$};
-\draw[->] (0.5,0) arc (-180:180:-.5); 
+\draw[-{Stealth[scale = 2]}] (0.5,0) arc (-180:180:-.5); 
 \end{tikzpicture}
 \end{document}
 ```
-caso 2: $\Gamma$ circonda in senso orario uno zero $Z$
+caso 2: $\Gamma$ circonda in senso orario uno zero $Z$ di $G(s)$ allora $\Delta$ compie un giro O attorno all'origine del piano $\mathbb{C}$
+
+caso 3: $\Gamma$ non circonda ne poli ne zeri di $G(s)$
