@@ -159,8 +159,10 @@ La macchina di Turing è un modello molto astratto e semplice di un calcolate, i
 
 Quanti e quali sono i problemi risolvibili algoritmicamente:
 
-- Quante e quali sono lefunzioni $f_{y} : N \to N$
+- Quante e quali sono le funzioni $f_{y} : N \to N$
 	- Quante:
 	  $$ \left\{ f : N \to N \right\} \supseteq \left\{ f : N \to \left\{ 0,1 \right\}  \right\} \implies |\left\{ f:N \to N \right\} | \geq  |\left\{ f : N \to \left\{ 0,1 \right\}  \right\} | = \mathcal{P}(N) = 2^{\mathcal{N}0}$$
-		  D'altro canto l'insieme $\left\{ f_{y} : N \to N \right\}$ è per definizione numerabile, quindi $E : \left\{ M_{y} \right\} \leftrightarrow N$ induce $E' : N \to \left\{ f_{y} \right\}$ non biunivoca (in molti casi $f_{y} = f_{z}$ con $z \neq y$) ma basta per affermare che
-		  $$ |\left\{ f_{y} : N \to N \right\} | = \mathcal{X} $$
+D'altro canto l'insieme $\left\{ f_{y} : N \to N \right\}$ è per definizione numerabile, quindi $E : \left\{ M_{y} \right\} \leftrightarrow N$ induce $E' : N \to \left\{ f_{y} \right\}$ non biunivoca (in molti casi $f_{y} = f_{z}$ con $z \neq y$) ma basta per affermare che
+		  $$ |\left\{ f_{y} : N \to N \right\} | = \mathcal{N}_{0} < 2^{\mathcal{N}_{0}} $$
+		  quindi la grand parte delle funzioni (quindi dei problemi non è calcolabile algoritmicamente)
+
