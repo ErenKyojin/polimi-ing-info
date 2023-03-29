@@ -196,4 +196,9 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 
 #### Vediamo un altro importante problema indecidibile:
 La funzione $k(y) = \begin{cases}1 &\text{se }f_{y} \text{ totale, ossia } f_{y}(x) \neq \perp \forall x \in N\\0 &\text{altrimenti}\end{cases}$  non è calcolabile.
-Dal punto di vista dell'impatto pratico, questo teorema è ancora piú significativo del problema dell'halt. Dato un p
+Dal punto di vista dell'impatto pratico, questo teorema è ancora piú significativo del problema dell'halt:
+Dato un programma voglio sapere se esso terminerà l'esecuzione per qualsiasi dato in ingresso o corre il rischio pre qualche dato di andare in loop.
+Nel caso precedente invece mi interessava sapere se un certo programma con certi dati avrebbe terinato o meno l'esecuzione.
+
+>[!oss]
+>È simile al problema precedente, ma la differenza 
