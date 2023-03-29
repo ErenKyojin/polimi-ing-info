@@ -40,4 +40,5 @@ caso 2: $\Gamma$ circonda in senso orario uno zero $Z$ di $G(s)$ allora $\Delta$
 
 caso 3: $\Gamma$ non circonda ne poli ne zeri di $G(s)$
 
-Quindi il numero di giri antiorario che l'immagine
+Quindi il numero di giri antiorario che l'immagine $\Delta$ della curva divisa $\Gamma$ attraverso la F $G(\bullet)$
+compie attorno all'origine del uso piano $\mathbb{C}$ è uguale al numero di poli di $G$ circondati de $\Gamma$ in senso orario meno il numero di
