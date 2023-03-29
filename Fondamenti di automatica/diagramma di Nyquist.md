@@ -69,4 +69,4 @@ Il numero di giniri antiorari del DN di $G$ attorno all'origine è
 
 
 = Il numero di giri antiorari del DN di $L(s)$ attorno al punto $-1$
-= numero di poli di $L(s)$ con parte reale positiva (circondati dal percorso di Nyquist,nel semipiano destro) - numero di 
+= numero di poli di $L(s)$ con parte reale positiva (circondati dal percorso di Nyquist,nel semipiano destro) - numero di poli dell'anello chiuso con pate reale positiva
