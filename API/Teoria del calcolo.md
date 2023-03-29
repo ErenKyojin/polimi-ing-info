@@ -184,4 +184,5 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 			   **NO*
 			   
 			   Questo risultato è molto importante, non possiamo sapere a priori se il programma andrà in loop con certi dati (ad esempio, non puó saperlo il compilatore e avvisai con un errore)
-		- Stabilire se un'espressione ben parentizzata è un pr
+		- Stabilire se un'espressione ben parentizzata è un problema risolvibile (decidibile)
+		- Stabilire se un programma andrà in loop (irrisolvibile)
