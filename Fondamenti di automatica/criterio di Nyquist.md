@@ -12,8 +12,9 @@ Si consideri il sistema dinamico
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw (1,.5) rectangle (2,1);
-\node (o) at (0,0){$-W$}
+\draw (-1,-.5) rectangle (1,.5);
+\node (o) at (0,0){$-WO$};
+\draw (1,.5) -- (1.5,.5) -- (1.5,-1) -- (1.)
 \end{tikzpicture}
 \end{document}
 ```
