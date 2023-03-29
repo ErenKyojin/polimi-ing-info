@@ -109,4 +109,6 @@ Ci occorrono quindi criteri per studiare la stabilità asintotica dell'anello **
 Perchè, siccome $L = RP$ se si trova una buona $L$ è immediato calcolare $R = L / P$
 
 
-Vediamo due di questi c
+Vediamo due di questi criteri:
+- [[criterio di Nyquist]]
+- 
