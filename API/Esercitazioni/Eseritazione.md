@@ -244,7 +244,12 @@ con $|\alpha| + |\gamma| = |\beta|$
 		  (q3) edge (q4)
 			   edge (q8)
 			   edge[loop above] (q3)
-		  (q4) edge
+		  (q4) edge (q5)
+			   edge[loop above] (q4)
+		  (q5) edge (q6)
+			   edge[loop above] (q5)
+		  (q6) edge (q7)
+		  
 		  ;
 \end{tikzpicture}
 \end{document}
