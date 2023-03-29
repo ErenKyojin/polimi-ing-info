@@ -174,7 +174,7 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 		  l'insieme dei problemi definibili è pure numerabile come quello dei problemi risolvibili
 		  e sicuramente {Problemi risolvibili} $\subseteq$ {Problemi definibili}
 	- Quali:
-		 - Il prblema della terminazione del calcolo:
+		 - Il problema della terminazione del calcolo:
 			 - Costruisco un programma
 			 - Fornisco dei dati in ingresso
 			 - Posso determinare se terminerà o meno (andando in loop)
@@ -183,4 +183,5 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 			   data la funzione $g(y,x) = 1$ se $f_{y}(x) \neq \perp, g(y,x) = 0$ se $f_{y}(x) = \perp$, esiste una macchina di Turing che calcola $g$?
 			   **NO*
 			   
-			   Questo risultato è molto importante, 
+			   Questo risultato è molto importante, non possiamo sapere a priori se il programma andrà in loop con certi dati (ad esempio, non puó saperlo il compilatore e avvisai con un errore)
+		- Stabilire se un'espressione ben parentizzata è un pr
