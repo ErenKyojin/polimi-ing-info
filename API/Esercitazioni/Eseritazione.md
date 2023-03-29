@@ -420,3 +420,6 @@ noi vogliamo ottenere
 $S \to X ab^n Y ab^n Z$
 
 Con $X,Y,Z$ roba che attraverso produzioni diventerà $(ab^+)+$
+
+Proviamo a scrivere le produzioni:
+$S \to X ab^n Y ab^n Z$
