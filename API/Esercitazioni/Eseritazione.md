@@ -396,5 +396,5 @@ Per trovarla costruiamo l'automa a stati finiti
 Scrivere una grammatica $G$ a potenza minima che generi le espressioni algebriche ben parentesizzate contenenti $+, *, -$. Le costanti $0$ e $1$ e variabili $x$ e $y$
 
 $$
-(x)\qquad (x + 1) \qquad (((x + 1)))
+(x)\qquad (x + 1) \qquad (((x + 1) * 1) + 0)\quad (((x * y) + (y + 1))*(1 + 0))
 $$
