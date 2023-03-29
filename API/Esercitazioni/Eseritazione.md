@@ -382,10 +382,12 @@ Per trovarla costruiamo l'automa a stati finiti
 ```tikz
 \usetikzlibrary{automata, arrows.meta, positioning}
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[auto, node distance = 2cm]
 \node[state,initial](S) at (0,0){$S$};
-\node[state, right = of S] (A){$A$};
-\path[->] (S) edge[loop above] node
+\node[state, right = of S,accepting] (A){$A$};
+\path[->] (S) edge[loop above] node{a} (S);
+			  edge[]node{b} (A);
+		  (A) edge[loop above]node{a} (A);
 \end{tikzpicture}
 \end{document}
 ```
