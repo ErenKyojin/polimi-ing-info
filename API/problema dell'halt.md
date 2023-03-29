@@ -1,0 +1,25 @@
+---
+aliases: 
+creation date: 2023-03-29 09:41
+modification date: 2023-03-29 09:41
+---
+
+
+>[!dim]
+>Per dimostrare cosa un calcolatore possa fare sfruttiamo una tecnica diagonale (usata anche nel teorema di cantor) pe rdimostrare che $\mathcal{N}_{0} < 2^{\mathcal{N_{0}}}$
+>
+>Ipotesi assurda: $g(y,x) = 1$ se $f_{y}(x) \neq \perp, g(y,x) = 0$ se $f_{y}(x) = \perp$ calcolabile. Allora anche $h(x)= 1$ se $g(x,x) = 0 (f_{x}(x)=\perp),\perp$ altrimenti $(f_{x}(x) \neq \perp)$ è calcolabile
+>
+>Ci siamo posti sulla diagonale $y = x$ e abbiamo scambiato il si col no, poi abbiamo fatto si che il no diventasse una non terminazione
+>
+>Se $h$ è calcolabile allora essite $x_{0}$ tale che $h = f_{x_{0}}$. quindi ci chiediamo se $h(x_{0}) = 1$ o se $h(x_{0}) = \perp$
+>Se $h(x_{0}) = f_{x_{0}}(x_{0}) = 1$, quindi $g(x_{0},x_{0}) = 0$, quindi $f_{x_{0}}(x_{0}) = \perp$ che è una contraddizione. 
+>Supponiamo il contrario $h(x_{0}) = f_{x_{0}}(x_{0}) = \perp$, ciò significa $g(x_{0},x_{0}) = 1$ quindi $f_{x_{0}}(x_{0}) \neq \perp$ che è una contraddizione.
+>Abbiamo due contraddizioni quindi il teorema è dimostrato.
+>$\CVD$
+>
+
+>[!corollario]
+
+
+
