@@ -410,4 +410,4 @@ $S \to SS | (S)| ()$
 
 ## 15
 Grammatica a potenza minima per
-$$\mathcal{L} = \left\{ ab^{n_{1}}ab^{n_{2}}\dots | k \geq 2, \forall 1 \leq i \leq k : n_{1} > 0 \right\} $$
+$$\mathcal{L} = \left\{ ab^{n_{1}}ab^{n_{2}}\dots | k \geq 2, \forall 1 \leq i \leq k : n_{1} > 0, \exists i,j \ tc\ 1 \leq i < j \leq k \quad e\ n_{1} = n_{2}\right\} $$
