@@ -156,3 +156,7 @@ ALla fine la MTU lascia sul nastro $f_{y}(x)$ se termina il calcolo su x.
 La macchina di Turing è un modello molto astratto e semplice di un calcolate, inoltre una macchina di Turing normale esegue sempre lo stesso algoritmo, mentre una macchina di turing universale ha programmi memorizzati:
 - y programma
 - x dati del programma
+
+Quanti e quali sono i problemi risolvibili algoritmicamente:
+
+- Quante e quali sono lefunzioni $f_{y} : N \to N$
