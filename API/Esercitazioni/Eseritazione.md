@@ -237,7 +237,9 @@ con $|\alpha| + |\gamma| = |\beta|$
 \node[state, right = of q8] (q9){$q9$};
 
 %Path
-\path[->] (q0) edge 
+\path[->] (q0) edge (q1) 
+			edge (q3)
+			();
 \end{tikzpicture}
 \end{document}
 ```
