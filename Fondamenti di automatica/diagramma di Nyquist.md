@@ -50,4 +50,4 @@ compie attorno all'origine del uso piano $\mathbb{C}$ è uguale al numero di pol
 
 Prendiamo ora come $\Gamma$ il percorso di Nyquist di $G(s)$, ne consegue che
 $\implies\Gamma$ circonda il senso orario il semipiano destro
-$\implies \Delta$ è
+$\implies \Delta$ è il diagramma di Nyquist di $G(s)$
