@@ -14,9 +14,15 @@ modification date: 2023-03-29 10:36
 Mettendo tutto insieme
 $$Y = \fcolorbox{yellow}{}{ $ \frac{Y}{w} $} \cdot \fcolorbox{purple}{}{ $ w $} + \fcolorbox{yellow}{}{ $ \frac{Y}{D_{a}} $} \cdot \fcolorbox{purple}{}{ $ D_{a} $} + \fcolorbox{yellow}{}{ $ \frac{Y}{D_{r}} $}\cdot \fcolorbox{purple}{}{ $ D_{r} $} = Tw + S\cdot D_{a} - TD_{r}$$
 
-In viola, trasformate di laplace quindi segnali
-In giallo, funzioni di trasferimento quindi sistemi
+In viola, [[Trasformata di Laplace|trasformate di laplace]] quindi segnali
+In giallo, funzioni di trasferimento quindi [[sistemi]]
 
 
 Lego questo alla rel $(w,d_{a},d_{r}) \to y$
 quindi tutto dipende da $L(s)$
+
+
+## Requisiti del controllo
+1. Sistema in anello chiuso asintoticamente stabile
+2. Precisione [[statica]]
+   Con ingressi costanti e cioè 
