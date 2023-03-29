@@ -8,3 +8,12 @@ Prima di vedere il criterio dobbiamo studiare il [[diagramma di Nyquist]] di una
 
 
 
+Si consideri il sistema dinamico
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw (1,.5) rectangle (2,1);
+\node (o) at (0,0){$-W$}
+\end{tikzpicture}
+\end{document}
+```
