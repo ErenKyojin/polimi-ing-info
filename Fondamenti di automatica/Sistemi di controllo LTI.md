@@ -105,4 +105,8 @@ $q + \frac{L_{n}}{L_{d}}q = 0 \implies \frac{L_{n} + L_{d}}{L_{d}}q =0$
 $\implies (L_{n} + L_{d})q = 0$
 $L_{n} + L_{d} = 0$ è l'equazione caratteristica del sistema in anello chiuso, le sue radici sono i poli di tale sistema
 
-Ci occorrono quindi criteri per studiare la stabilità
+Ci occorrono quindi criteri per studiare la stabilità asintotica dell'anello **chiuso**, osservando la FdT dell'anello **aperto**.
+Perchè, siccome $L = RP$ se si trova una buona $L$ è immediato calcolare $R = L / P$
+
+
+Vediamo due di questi c
