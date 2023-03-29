@@ -28,7 +28,9 @@ caso 1: $\Gamma$ circonda un polo $p$ di $G(s)$
 \begin{document}
 \begin{tikzpicture}[scale = 2]
 \draw[blue, ->,thick] (0,0) ellipse[x radius =1,y radius = 1.5];
-\draw[red, <-]
+\draw[red, <-, thick] (4,0) ellipse[x radius = 1.5, y radius = 1];
+\node (p) at (0,0){$\bullet$};
+\node[below] at (p){$p$};
 \end{tikzpicture}
 \end{document}
 ```
