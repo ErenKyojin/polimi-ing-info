@@ -169,3 +169,9 @@ Approfondiamo alcuni dei casi particolari di moto, con quindi particolari condiz
 ![[moto armonico]]
 
 
+Con forza costante si ha:
+![[moto uniformemente accelerato]]
+
+
+### Moto lungo un [[piano inclinato]]
+Un peso di massa $m$ si trova a muoversi su un [[piano inclinato]] liscio di un angolo $\alpha$ rispetto all'orizzontale e di altezza $h$. Il punto materiale è inizialmente fermo sulla somimtà del piano inclinato. Determinare la legge oraria del suo moto e la velocità finale con cui giunge al suolo.

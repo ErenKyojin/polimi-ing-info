@@ -1,3 +1,7 @@
+---
+aliases: equazioni differenziali
+---
+
 # Accenni alle equazioni differenziali
 Considerando solo le equazioni differenziali di nostro interesse, come nel [[circuito RC]]
 $$\frac{d}{dt}x(t)= \lambda\\x(t) + u(t)$$
