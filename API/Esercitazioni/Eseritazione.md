@@ -360,3 +360,9 @@ ma la seconda è lineare, quindi piú potente.
 
 Questo tipo di grammatiche sono gli automi a pila one turn, ossia che la pila cresce quanto vuole, ma fatta la prima pop non si possono fare piú push
 
+
+## 13
+Sia $G$ la grammatica
+$V_{N} = \{ S,X \}$ e $V_{T} = \{ a,b \}$
+
+Produzioni
