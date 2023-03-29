@@ -201,4 +201,10 @@ Dato un programma voglio sapere se esso terminerà l'esecuzione per qualsiasi da
 Nel caso precedente invece mi interessava sapere se un certo programma con certi dati avrebbe terinato o meno l'esecuzione.
 
 >[!oss]
->È simile al problema precedente, ma la differenza 
+>È simile al problema precedente, ma la differenza è che in questo caso abbiamo dato una quantificazione rispetto a tutti i possibili dati in ingresso
+
+
+In certi casi potrei essere in grado di stabilire, fissato $x$, se $f_{y}(x) \neq \perp$, inoltre poterlo fare per tutti gli infiniti $x$ senza per questo poter rispondere alla domanda $f_{y}$ è una funzione totale>
+
+
+VIceversa potrei essere in grado ci concludere che $f_{y}$ non è tot
