@@ -166,4 +166,8 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 		  $$ |\left\{ f_{y} : N \to N \right\} | = \mathcal{N}_{0} < 2^{\mathcal{N}_{0}} $$
 		  quindi la grand parte delle funzioni (quindi dei problemi non è calcolabile algoritmicamente).
 		  Ma è davvero cosí grave quanto sembra? Per definire i problemi usiamo una stringa di qualche linguaggio:
-			-
+		- $f(x) = x^2$
+		- $f(x) = \int \!g(z)  \, \mathrm{d}z$
+		- "il numero che moltiplicato per se stesso da $y$"
+		  
+		  Il linguaggio è un sottoinsieme di $A^$
