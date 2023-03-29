@@ -222,7 +222,7 @@ con $|\alpha| + |\gamma| = |\beta|$
 ```tikz
 \usetikzlibrary{automata, arrows.meta, positioning}
 \begin{document}
-\begin{tikzpicture}[node distance = 2cm]
+\begin{tikzpicture}[node distance = 2cm,auto]
 
 %States
 \node[state, initial] (q0) at (0,0){$q0$};
@@ -237,8 +237,8 @@ con $|\alpha| + |\gamma| = |\beta|$
 \node[state, right = of q8] (q9){$q9$};
 
 %Path
-\path[->] (q0) edge (q1) 
-			   edge (q3)
+\path[->] (q0) edge node[]{$\varepsilon,Z0|Z0$} (q1) 
+			   edge node[](q3)
 		  (q1) edge (q2)
 		  (q2) edge (q1)
 		  (q3) edge (q4)
@@ -249,7 +249,7 @@ con $|\alpha| + |\gamma| = |\beta|$
 		  (q5) edge (q6)
 			   edge[loop above] (q5)
 		  (q6) edge (q7)
-		       edge[loop above left] (q6)
+		       edge[loop above] (q6)
 		  (q8) edge (q9)
 		  (q8) edge[loop below] (q8)
 		  (q9) edge (q6)
