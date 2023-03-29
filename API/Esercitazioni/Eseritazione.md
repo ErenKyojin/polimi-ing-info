@@ -228,7 +228,7 @@ con $|\alpha| + |\gamma| = |\beta|$
 \node[state, initial] (q0) at (0,0){$q0$};
 \node[state, right = of q0] (q3){$q3$};
 \node[state, below = of q0] (q1){$q1$};
-\node[state, right = of q1] (q2){$q2$};
+\node[state, right = of q1, accepting] (q2){$q2$};
 \node[state, above right= of q3] (q4){$q4$};
 \node[state, right = of q4] (q5){$q5$};
 \node[state, below right = of q5] (q6){$q6$};
@@ -240,8 +240,8 @@ con $|\alpha| + |\gamma| = |\beta|$
 \path[->] (q0) edge node[]{$\varepsilon,Z0|Z0$} (q1) 
 			   edge node[]{$\varepsilon,Z0|Z0$}(q3)
 		  (q1) edge[bend left] node[]{$a,Z0|Z0$} node[below]{$b,Z0|Z0$} (q2)
-		  (q2) edge[bend left] node[]{$a,Z0|Z0$} node[below]{$b,Z0|Z0$} (q1)
-		  (q3) edge (q4)
+		  (q2) edge[bend left] node[]{$a,Z0|Z0$} node[below = .5cm]{$b,Z0|Z0$} (q1)
+		  (q3) edge node[]{$a,Z0|Z0$} node[above](q4)
 			   edge (q8)
 			   edge[loop above] (q3)
 		  (q4) edge (q5)
