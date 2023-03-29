@@ -170,4 +170,6 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 		- $f(x) = \int \!g(z)  \, \mathrm{d}z$
 		- "il numero che moltiplicato per se stesso da $y$"
 		  
-		  Il linguaggio è un sottoinsieme di $A^$
+		  Il linguaggio è un sottoinsieme di $A^*$ che è un insieme numerabile quindi,
+		  l'insieme dei problemi definibili è pure numerabile come quello dei problemi risolvibili
+		  e sicuramente {Problemi risolvibili}
