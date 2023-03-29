@@ -415,6 +415,7 @@ $$\mathcal{L} = \left\{ ab^{n_{1}}ab^{n_{2}}\dots ab^k| k \geq 2, \forall 1 \leq
 ab abb abbb -> non appartiene al linguaggio
 ab abb abbb abb -> (diviso per leggibilià) appartiene al linguaggio
 ab abb abbb abb ab  -> appartiene al linguaggio
+abab -> appartiene al linguaggio
 
 noi vogliamo ottenere
 $S \to X ab^n Y ab^n Z$
@@ -422,4 +423,4 @@ $S \to X ab^n Y ab^n Z$
 Con $X,Y,Z$ roba che attraverso produzioni diventerà $(ab^+)+$
 
 Proviamo a scrivere le produzioni:
-$S \to X ab^n Y ab^n Z$
+$S \to \underbrace{ X }_{ A } \underbrace{ ab^n Y ab^n }_{ B } \underbrace{ Z }_{ A }$
