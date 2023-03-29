@@ -89,10 +89,16 @@ $\implies$ la FdT $\frac{Y}{N}$ deve avere certe caratteristiche, per esempio po
 poichè lo stato non dipende dagli ingresso posso studiare
 #todo Posto $L(s) = \frac{L_{n}(s)}{L_{d}(s)}$ con $L_{n}$ e $L_d$ polinomi per ora senza ritardi si ha
 
-![[untit]]
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) rectangle (1.5,1) node{$L$};
+\end{tikzpicture}
+\end{document}
+```
 
 $-Lq = q$
 $q + Lq = 0$
 $q + \frac{L_{n}}{L_{d}}q = 0 \implies \frac{L_{n} + L_{d}}{L_{d}}q =0$
 $\implies (L_{n} + L_{d})q = 0$
-$L_{n} + L_{d} = 0$ è l'equazione caratteristica del sistema in anello chiuso
+$L_{n} + L_{d} = 0$ è l'equazione caratteristica del sistema in anello chiuso, le sue radici sono i poli di tale sistema
