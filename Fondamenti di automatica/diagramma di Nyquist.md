@@ -32,7 +32,7 @@ caso 1: $\Gamma$ circonda un polo $p$ di $G(s)$
 \draw[red, <-, thick] (4,0) ellipse[x radius = 1.5, y radius = 1];
 \node (p) at (0,0){$\bullet$};
 \node[below] at (p){$p$};
-\draw[-{Stealth[scale = 2]}] (0.5,0) arc (-180:180:-.5); 
+\draw[{Stealth[scale = 2]}-] (0.5,0) arc (-180:180:-.5); 
 \end{tikzpicture}
 \end{document}
 ```
