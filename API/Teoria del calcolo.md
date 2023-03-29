@@ -187,3 +187,7 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 		- Stabilire se un'espressione ben parentizzata è un problema risolvibile (decidibile)
 		- Stabilire se un programma andrà in loop (irrisolvibile) detto anche [[problema dell'halt]]
 
+
+
+>[!oss]
+>Se un problema è irrisolvibile può darsi che un suo caso particolare diventi risolvibile (vedremo essempi irrisolvibili per linguaggi qualsiasi, risolvibili per linguaggi regolari)
