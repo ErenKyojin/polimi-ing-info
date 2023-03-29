@@ -354,4 +354,6 @@ Esiste una grammatica per $\mathcal{L}$ di tipo lineare, cioè con produzioni de
 $A \to bCd$
 è uguale a
 $A \to bC$
-$$
+$\hat{C} \to Cd$
+
+ma la seconda è lineare, quindi piú potente
