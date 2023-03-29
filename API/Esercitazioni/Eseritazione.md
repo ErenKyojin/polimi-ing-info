@@ -223,7 +223,7 @@ con $|\alpha| + |\gamma| = |\beta|$
 \usetikzlibrary{automata, arrows.meta, positioning}
 \begin{document}
 \begin{tikzpicture}
-\node at ()
+\node at (0,0)
 \end{tikzpicture}
 \end{document}
 ```
