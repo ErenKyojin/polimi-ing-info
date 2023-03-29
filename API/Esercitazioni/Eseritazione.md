@@ -440,4 +440,6 @@ $\mathcal{L}_{2} = \{ "\qquad ", \#_{b}(w) + \#_{c}(w) = n, n \geq 1 \}$ anche p
 $\mathcal{L}_{3} = \{ "\qquad", \#_{b}(w) + \#_{c}(w) = 2n, n \geq 1 \}$ per questo basta un APD (due segni in pila ogni A, rimosso letta ogni B e C)
 
 $\mathcal{L}_{2} : S \to aSb | aSc | ab | ac$
-$\mathcal{L}_{3} : S \to a$
+
+$\mathcal{L}_{3} : S \to aSXX | aXX$
+$X \to b|c$
