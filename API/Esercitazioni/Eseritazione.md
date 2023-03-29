@@ -252,7 +252,7 @@ con $|\alpha| + |\gamma| = |\beta|$
 		       edge[loop above] node[]{$b,X|\varepsilon$} node[above=5mm]{$a,X|\varepsilon$}(q6)
 		  (q8) edge node[]{$\varepsilon,Z0|Z0$} (q9)
 		  (q8) edge[loop below] node[]{$a,X|\varepsilon$} node[below = 5mm]{$b,X|\varepsilon$} (q8)
-		  (q9) edge (q6)
+		  (q9) edge node[]{$a,Z0|Z0$} node[above=5mm]{$a,X|X$} (q6)
 		       edge[loop below] (q9)
 		  ;
 \end{tikzpicture}
