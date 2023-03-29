@@ -450,3 +450,11 @@ Per il linguaggio 1 è simile a $a^nb^nc^n$, solo che $b$ e $c$ possono essere i
 2. Leggiamo la prima $a$, facciamoci un segno cerchiamo una $b$ o una $c$, se la troviamo facciamo un segno, cerchiamo l'altra, se la troviamo facciamo un segno. Se non soddisfiamo uno di questi requisiti non accettiamo
 3. Se avanzano b o c non segnate non accettiamo
 
+Produzioni:
+$S \to aSBC$
+$BC \to CB$
+$CB \to BC$
+$B \to b$
+$$
+
+Commutativa
