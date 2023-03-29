@@ -215,4 +215,15 @@ abbaba | abaaba
 | ab       | b   | abaab      | a   | aba |
 | -------- | --- | -------------- | --- | --- |
 | $\alpha$ | $b$ | $\beta$   | a   | $\gamma$    | 
+
 con $|\alpha| + |\gamma| = |\beta|$
+
+
+```tikz
+\usetikzlibrary{automata, arrows.meta, positioning}
+\begin{document}
+\begin{tikzpicture}
+\node at ()
+\end{tikzpicture}
+\end{document}
+```
