@@ -194,3 +194,5 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 >
 >Se un problema è irrisolvibile una sua generalizzazione è necessariamente irrisolvibile, se un problema è risolvibile, può darsi che una sua generalizzazione diventi irrisolvibile mentre una sua particolarizzazione rimane certamente risolvibile.
 
+#### Vediamo un altro importante problema indecidibile:
+La funzione $k(y) = \begin{cases}=1\end{cases}$ se $f_{y}$
