@@ -224,6 +224,9 @@ con $|\alpha| + |\gamma| = |\beta|$
 \begin{document}
 \begin{tikzpicture}
 \node[state] (q0) at (0,0){$q0$};
+\node[state, right = of q0] (q3){q3};
+\node[state, below = of q0](q1){q1};
+\node[state, right = of q1] (q2){}
 \end{tikzpicture}
 \end{document}
 ```
