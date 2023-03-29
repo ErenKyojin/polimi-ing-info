@@ -31,4 +31,9 @@ u(t) = \bar{w} \\
 d_{a}(t) = \bar{d_{a}} \\
 d_{r}(t) = 0
 \end{rcases} \to \exists \text{ finito } \lim_{ t \to \infty } e(t) = e_{\infty} $$
-con $e_{\infty}$ detto errore a regime o errore a transito
+con $e_{\infty}$ detto errore a regime o errore a [[transitorio]] esaurito.
+
+Si richiede tipicamente $e_{\infty} = 0$ o $|e_{\infty}| < tot$
+
+>[!oss]
+>Si può estendere a ingressi canonici
