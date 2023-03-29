@@ -205,3 +205,4 @@ $$
 simulando in parallelo entrambe le transizioni dei due rispettivi automi otteniamo un automa non deterministico a pila che accetta questo linguaggio
 
 
+# 9
