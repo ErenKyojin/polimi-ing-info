@@ -150,4 +150,7 @@ Lo schema di una MTU che calcola $g'$:
 - Costruisco la tabella di $M_{y}$ calcolando $E^{-1}(y)$ e la memorizzo nel nastro della MTU
 - In un altra porzione del nastro ne simulo la configurazione
 
-ALla fine la MTU lascia sul nastro $f_{y}(x)$ se termina il calcolo su x
+ALla fine la MTU lascia sul nastro $f_{y}(x)$ se termina il calcolo su x.
+
+
+La macchina di Turing è un modello molto astratto e semplice di un calcolate, inoltre una macchina di Turing normale esegue sempre lo stesso algoritmo, mentre una 
