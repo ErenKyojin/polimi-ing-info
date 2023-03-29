@@ -27,7 +27,7 @@ caso 1: $\Gamma$ circonda un polo $p$ di $G(s)$
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw (0,0) circl
+\draw (0,0) arc (0:360:1:2);
 \end{tikzpicture}
 \end{document}
 ```
