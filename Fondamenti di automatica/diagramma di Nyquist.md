@@ -40,4 +40,4 @@ caso 2: $\Gamma$ circonda in senso orario uno zero $Z$ di $G(s)$ allora $\Delta$
 
 caso 3: $\Gamma$ non circonda ne poli ne zeri di $G(s)$
 
-Quindi il numero di giri antiorario
+Quindi il numero di giri antiorario che l'immagine
