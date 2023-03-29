@@ -373,4 +373,5 @@ $XS \to abba$
 - Che tipo di grammatica è? non ristretta
 - Qual è un automa a potenza minimo che riconosce $\mathcal{L}(G)$?
 	- Non è la macchina di Turing, guardiamo il punto 3
-	  
+- Chi è $\mathcal{L}(G)$
+  Iniziamo osservando che 	  
