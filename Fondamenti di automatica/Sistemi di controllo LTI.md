@@ -56,8 +56,8 @@ Si richiede tipicamente $e_{\infty} = 0$ o $|e_{\infty}| < tot$
 >   ```tikz
 >\begin{document}
 >\begin{tikzpicture}
->\draw (0,0) -- (1,0) to (2,1) -- (3,1);
->\draw[blue] (0,)
+>\draw (0,0) -- (1,0) -- (2,1) -- (3,1);
+>\draw[blue] (0,0) -- (1,0) to[in = -100, out= 30] (2,1) -- (3,1);
 >\end{tikzpicture}
 >\end{document}
 >```
