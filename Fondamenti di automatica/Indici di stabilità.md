@@ -17,7 +17,7 @@ $$
 \begin{tikzpicture}
 \draw[->](-2,0) -- (1,0);
 \draw[->](0,-2) -- (0,1);
-\draw[smooth,domain = -2:0,variable =\x] plot ({\x},{-\x*\x});
+\draw[smooth,domain = -3:0,variable =\x] plot ({\x},{-(\x+1)*(\x+1) + 1});
 \end{tikzpicture}
 \end{document}
 ```
