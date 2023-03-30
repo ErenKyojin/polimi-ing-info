@@ -34,12 +34,16 @@ Se $n = 2$
 ```tikz
 \begin{document}
 \begin{tikzpicture}[scale = 2,auto]
-\node
+\node (tx) at (1,0){$\bullet$};
+\node (ty) at (0,1){$\bullet$};
 \draw[->] (-1,0) -- (3,0)node{$x_1$};
 \draw[->] (0,-1) -- (0,2)node{$x_2$};
 \draw[] (-1,-1) -- (3,3);
+\draw (tx) to (1,1) to (ty);
+\draw[fill = red!]
 \end{tikzpicture}
 \end{document}
 ```
+
 
 
