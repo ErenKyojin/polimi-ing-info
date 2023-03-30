@@ -157,4 +157,6 @@ $$\begin{align}
 + &\int \dots \int_{\mathbb{R}^n} |x_{n}|f_{\mathbf{x}}(x_{1},\dots,x_{n}) \mathrm{d}x_{1} \dots \mathrm{d}x_{n} + \dots
 \end{align}$$
 
-$1^o$ addendo = $\int _{\mathbb{R}} \!|x_{1}| \, \mathrm{d}x$
+$1^o$ addendo = $$\int _{\mathbb{R}} \!|x_{1}| \, = \left\{  
+\int _{\mathbb{R}^{n-1}} \! f_{\mathbf{x}}(x_{1},x_{2},\dots,x_{n}) \, \mathrm{d}x_{2} ,\dots,\mathrm{d}x_{n}\right\} 
+ $$
