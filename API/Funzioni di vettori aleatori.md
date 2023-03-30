@@ -74,3 +74,6 @@ $\implies W \sim \exp\left( \sum_{i = 1}^n \lambda_{i} \right)$
 > con $\theta = 1 - \prod_{i = 1}^n(1 - p_{i})$ per definizione
 > $\implies P(W > t) = (1 - \theta)^t$
 > $\implies W \sim \text{Geom}\left( 1 - \prod_{i = 1}^n (1- p_{i}) \right)$
+
+
+$Y = \max \{x_{1},\dots,x_{n} \}$
