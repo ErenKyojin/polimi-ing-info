@@ -85,26 +85,28 @@ Proviamo ad applicarlo:
 >  Instabile?
 
 
-$L(s) = \frac{4}{s - 1} ( = -\frac{4}{1 - 5} \text{ come per d. Bode})$, $p_{D} = 1$ (anello aperto instabile)
-
- ```tikz
-  \begin{document}
-  \begin{tikzpicture}[scale = 2]
-  \draw[->,thick](-2,0) -- (3,0)node[below]{$\Re$};
-  \draw[->,thick](0,0) -- (0,2)node[right]{$\Im$};
-  \draw[<-,red,ultra thick] (0,0) arc (180:0:-.5);
-  \draw[<-,blue , ultra thick] (-1,0) arc (180:0:.5);
-  \node (4) at (-1,0){$\bullet$};
-  \node[above]at (4) {$4$};
-  \end{tikzpicture}
-  \end{document}
-  ```
-
-N ben definito e = $P_{D} \implies$ anello chiuso asintoticamente stabile
-
-Verifica:
-$$
-\frac{L}{1+l} = \frac{L_{n}}{L_{n} + L_{d}}=\frac{4}{s+5}\qquad \text{polo }
-$$
+> [!esempio]
+> $L(s) = \frac{4}{s - 1} ( = -\frac{4}{1 - 5} \text{ come per d. Bode})$, $p_{D} = 1$ (anello aperto instabile)
+> 
+>  ```tikz
+>   \begin{document}
+>   \begin{tikzpicture}[scale = 2]
+>   \draw[->,thick](-2,0) -- (3,0)node[below]{$\Re$};
+>   \draw[->,thick](0,0) -- (0,2)node[right]{$\Im$};
+>   \draw[<-,red,ultra thick] (0,0) arc (180:0:-.5);
+>   \draw[<-,blue , ultra thick] (-1,0) arc (180:0:.5);
+>   \node (4) at (-1,0){$\bullet$};
+>   \node[above]at (4) {$4$};
+>   \end{tikzpicture}
+>   \end{document}
+>   ```
+> 
+> N ben definito e = $P_{D} \implies$ anello chiuso asintoticamente stabile
+> 
+> Verifica:
+> $$
+> \frac{L}{1+l} = \frac{L_{n}}{L_{n} + L_{d}}=\frac{4}{s+3}\qquad \text{polo } = -3
+> $$
+> 
 
   
