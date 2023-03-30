@@ -1,10 +1,12 @@
 ---
-aliases: margini di stablità
+aliases: margini di stabilità
 creation date: 2023-03-30 18:02
 modification date: 2023-03-30 18:02
 ---
 
-<% tp.file.cursor(1) %>
+### MARGINE DI MODULO $M$
 
-
+$$
+M
+$$
 

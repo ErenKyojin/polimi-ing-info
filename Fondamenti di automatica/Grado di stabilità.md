@@ -18,8 +18,8 @@ L'ipotesi, quantomeno iniziale, è $p_{D} = 0$
 \end{document}
 ```
 
-Consideriamo due sistemi in AC con FdT d'anello aperto rispettivamente $L_{1}(s)$ e $L_{2}(s)$, con $p_{D}=0$ in ambo i casi $N = 0 \implies$ anello chiuso asintoticamente stabile
+Consideriamo due [[sistemi]] in AC con [[funzione di trasferimento|FdT]] d'anello aperto rispettivamente $L_{1}(s)$ e $L_{2}(s)$, con $p_{D}=0$ in ambo i casi $N = 0 \implies$ anello chiuso asintoticamente stabile
 
 Intuitivamente però il sistema con FdT d'AA, $L_{2}$ è piú vicino a perdere la [[stabilità]] asintotica
-Usiamo quest'ide per quantifcare il grado di stabilità con opportuni margini di stabilità
+Usiamo quest'ide per quantifcare il grado di stabilità (ovvero distanza del perderla) con opportuni [[Indici di stabilità|margini di stabilità]]
 
