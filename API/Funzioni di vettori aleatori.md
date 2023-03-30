@@ -146,5 +146,10 @@ $$
 
 $E(x_{1},\dots,x_{n})\qquad E\left( \prod_{i = 1}^n x_{i}\right)$
 
-### Preliminare disuguaglianza triangolare
-$| a + b| \leq | a| +$
+Ricordandoci la disuguaglianza triangoalre
+$| a + b| \leq | a| + |b|$
+
+Esistenza di $E\left( \sum_{j} x_{j} \right)$
+$$\begin{align}
+E\left[ |\sum_{j} x_{j}| \right] \leq E\left( \sum \right)
+\end{align}$$
