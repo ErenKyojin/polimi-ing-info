@@ -43,7 +43,11 @@ $$
 \draw[->,thick](0,0) -- (3,0);
 \draw[->,thick](0,0) -- (0,2);
 \draw[->,blue,ultra thick] (0,0) arc (180:0:.5);
-\draw[->,red , ultra]
+\draw[->,red , ultra thick] (1,0) arc (360:180:.5);
 \end{tikzpicture}
 \end{document}
 ```
+
+N = 0 DN di anello aperto non circolare -1
+
+N tale che $F$ = $P_{D} \implies$ anello chiuso asint stabile
