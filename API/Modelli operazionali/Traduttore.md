@@ -35,3 +35,7 @@ y = $\perp$ (termina a q1)
 >$\eta^*$ traduce una stringa (induttivamente)
 
 
+Si può passare da un trasduttore ad un FSA che ne riconosca il linguaggio generato algoritmicamente:
+- Si buttano gli ingressi
+- Si trasformano in transizioni le stringhe in uscita:
+	- Se una stringa è 
