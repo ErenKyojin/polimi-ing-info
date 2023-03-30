@@ -243,3 +243,7 @@ Una funzione $f : N \to N$ è calcolabile se e solo se esiste una macchina di Tu
 >$$ g(y,x) = \begin{cases}1\quad &\text{se }f_{y}(x) \neq 1\\0&se f_{y}(x) = 1\end{cases} $$
 >$g(3,8)$ calcolabile? SI, in quanto si tratta di una funzione costante, (è un valore di fatto)
 
+Esaminiamo casi meno banali ma istruttivi
+
+$f(x) = x$-esima cirfra dell'espansione decimale di $\pi$, $f$ è sicuramente calcolabile e conosciamo algoritmi in grado di farlo.
+Basandoci sulla possibilità di calcolare $f$
