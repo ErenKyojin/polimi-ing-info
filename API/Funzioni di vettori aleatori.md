@@ -54,4 +54,7 @@ $$
 ... se $x_{1}\dots,x_{n} \underset{ iid }{ \sim } f_{x}$ assolutamente continua
 $\implies W$ è v.a. assoluatamente ontinua con $$f_{W}(t) = \begin{cases}0&\text{su $t$ se $F_{X}$ non è derivabile}
 \end{cases}$$
-$F'_{W}(t) = -n[1 - F_{X}(t)]^{n-1}$
+$F'_{W}(t) = -n[1 - F_{X}(t)]^{n-1} (-1) f_{x}(t)$
+$$\implies f_{W}(t) = n(1 - F_{X}(t))^{n-1}f_{x(t)}$$
+
+- Se $x_{1},\dots,x_{n}\sim \exp(\lambda i)$ 
