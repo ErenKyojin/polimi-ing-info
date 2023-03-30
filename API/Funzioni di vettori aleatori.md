@@ -51,4 +51,5 @@ $1 - F_{x_{i}}(t)$ è l'affidabilità di $c_{i}$ al tempo $t$. Se $x_{1},\dots,x
 $$
 F_{W}(t) = 1 - \prod_{i = 1}^n\left[ 1 - F_{X}(t) \right] = 1 - \left[ 1 - F_{X}(t) \right] ^n
 $$
-... se m
+... se $x_{1}\dots,x_{n} \underset{ iid }{ \sim } f_{x}$ assolutamente continua
+$\implies W$ è v.a. assoluatamente ontinua con $f_{W}(t) = $
