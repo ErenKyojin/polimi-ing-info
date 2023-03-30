@@ -19,7 +19,7 @@ $$
 \draw[->](-2,0) -- (1,0);
 \draw[->](0,-2) -- (0,1);
 \draw[smooth,domain = -3:0,variable =\x,red] plot ({\x},{-(\x+1)*(\x+1) + 1});
-\draw[-{Bar}] (0,-.5) -- (-2.25,-.5);
+\draw[{Bar}-{Bar},thick,blue] (0,-.5) -- (-2.25,-.5) node[midway, below]{$\alpha$};
 \end{tikzpicture}
 \end{document}
 ```
@@ -79,3 +79,14 @@ L1 in rosso conduce ad AC AS, $\varphi_{m} > 0, k_{m} > 1$
 L2 in blu conduce ad AC non AS, $\varphi_{m} < 0$
 
 Se abbiamo $\varphi_{m} = 0$ e $k_{m} = 1$ si dice AC al limite di stabilità
+
+
+Casi particolari (cerco, $p_{D} = 0$)
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw
+\end{tikzpicture}
+\end{document}
+```
