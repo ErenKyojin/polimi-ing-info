@@ -23,3 +23,12 @@ detto $M_{L}$ il guadagno di $L(s)$ e $\phi_{m}$ il margine di fase
 $$\text{ Anello chiuso } AS \iff \begin{cases}M_{L} > 0\\ \varphi_{m} > 0\end{cases}$$
 
 
+#todo %%schema del controllore in retroazione%%
+
+Cosa c'è nei segnali di ingresso:
+$$
+\begin{align}
+w \\
+d
+\end{align}
+$$
