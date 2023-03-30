@@ -57,4 +57,5 @@ $\implies W$ è v.a. assoluatamente ontinua con $$f_{W}(t) = \begin{cases}0&\tex
 $F'_{W}(t) = -n[1 - F_{X}(t)]^{n-1} (-1) f_{x}(t)$
 $$\implies f_{W}(t) = n(1 - F_{X}(t))^{n-1}f_{x(t)}$$
 
-- Se $x_{1},\dots,x_{n}\sim \exp(\lambda i)$ 
+- Se $x_{1},\dots,x_{n}\sim \exp(\lambda i)\quad i = 1 : n$ 
+  $\implies F_{W}(t) = 1 - \prod_{i = 1}^n P(x_{i} > t)$ 
