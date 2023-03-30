@@ -90,7 +90,7 @@ F_{Y}(t) &= P(\max\{ x_{1},\dots,x_{n} \} \leq t) = P(x_{1} \leq t,\dots, x_{n }
 \draw[->] (0,-1) -- (0,2)node{$x_2$};
 \draw[] (-1,-1) -- (3,3);
 \draw (tx) to (1,1) to (ty);
-\draw[fill = red!30!black] (1,1) -- (-1,1) -- (-1,-2) -- (1,-2) -- (1,1); 
+\draw[fill = red!30!black, fill opacity = 0.5] (1,1) -- (-1,1) -- (-1,-2) -- (1,-2) -- (1,1); 
 \end{tikzpicture}
 \end{document}
 ```
@@ -105,4 +105,5 @@ $\implies F_{Y}(t) = \prod_{i = 1}^n F_{x_{i}}(t)$
 
 + + identicamente distribuite $\sim F_{x}$
 $$= F_{x}^n(t)$$
-- + assolutamente continua allora 
+- + assolutamente continua allora anche $Y$ è assolutamente continua con densità
+  $$ f_{y}(t) = nF_{x}^{n-1}(t) f_{x}(t) $$
