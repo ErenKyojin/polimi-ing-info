@@ -252,3 +252,14 @@ $$
 \{ f(0) = 3, f(1) = 1, f(2) = 4, f(3)=1, f(4)= 5, f(5)\neq 5 \}
 $$
 otteniamo $g(1)=1$
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) -- (4,0);
+\draw (0,0) -- (0,2);
+\end{tikzpicture}
+\end{document}
+```
+
+#todo
