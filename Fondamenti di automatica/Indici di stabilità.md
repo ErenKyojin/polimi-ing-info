@@ -10,14 +10,14 @@ $$
 M_{m}
 $$
 
-### MARGINE DI GUADAGNO $k_{m}$ 
+### MARGINE DI GUADAGNO $k_{m}$
 
 ```tikz
 \begin{document}
 \begin{tikzpicture}
 \draw[->](-2,0) -- (1,0);
 \draw[->](0,-2) -- (0,1);
-\draw[smooth,domain = -3:0,variable =\x] plot ({\x},{-(\x+1)*(\x+1) + 1});
+\draw[smooth,domain = -3:0,variable =\x,red] plot ({\x},{-(\x+1)*(\x+1) + 1});
 \end{tikzpicture}
 \end{document}
 ```
@@ -29,3 +29,16 @@ $\implies k_{m} := \frac{1}{\alpha}$
 
 Interpretazione AC AS a patto che il guadagno di L non aumenti di un fattore maggiore di $k_{m}$
 Se non c'è intersezione con $R^-\quad k_{m}= \infty$ 
+
+### MARGINE DI FASE $\varphi_{m}$
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[->] (0,0) -- 
+
+\draw[smooth, domain];
+
+\end{tikzpicture}
+\end{document}
+```
