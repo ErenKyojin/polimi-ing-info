@@ -59,24 +59,30 @@ Proviamo ad applicarlo:
 > polo -2
 > 
 
+> [!esempio]
+> 
+> 
+> $L(s) = \frac{4}{1 - S}$ e $p_{D} = 1$
+> 
+>  ```tikz
+>  \begin{document}
+>  \begin{tikzpicture}[scale = 2]
+>  \draw[->,thick](0,0) -- (3,0)node[below]{$\Re$};
+>  \draw[->,thick](0,0) -- (0,2)node[right]{$\Im$};
+>  \draw[<-,red,ultra thick] (0,0) arc (180:0:.5);
+>  \draw[<-,blue , ultra thick] (1,0) arc (360:180:.5);
+>  \node (4) at (1.5,0){$\bullet$};
+>  \node[above]at (4) {$4$};
+>  \end{tikzpicture}
+>  \end{document}
+>  ```
+> 
+> 
+> N ben definito ma $\neq P_{D} \implies$ AC non AS
+> 
+> Verifica $$\frac{1}{1 + L} = \frac{1}{1 + \frac{4}{1 - s}} = \frac{1 - s}{5 - s}$$
+> polo $+5$
+>  Instabile
 
 
-$L(s) = \frac{4}{1 - S}$ e $p_{D} = 1$
-
- ```tikz
- \begin{document}
- \begin{tikzpicture}[scale = 2]
- \draw[->,thick](0,0) -- (3,0)node[below]{$R$};
- \draw[->,thick](0,0) -- (0,2)node[right]{$I$};
- \draw[<-,red,ultra thick] (0,0) arc (180:0:.5);
- \draw[<-,blue , ultra thick] (1,0) arc (360:180:.5);
- \node (4) at (1.5,0){$\bullet$};
- \node[above]at (4) {$4$};
- \end{tikzpicture}
- \end{document}
- ```
-
-
-N ben definito ma $\neq P_{D} \implies$ AC non AS
-
-Verifica $$\frac{1}{1 + L} = \frac{1}{1 + \frac{4}{1 - s}} = \frac{1 - s}{}$$
+$L(s) = \frac{4}{s -}$
