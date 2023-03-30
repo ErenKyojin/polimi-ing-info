@@ -68,9 +68,9 @@ Interpretazione grafica:
 \node[above] at (mu){$1$};
 \draw[dashed,blue,thick] (-1,0) arc (180:270:1);
 \draw[smooth,domain = -2:0,variable =\x,red] plot ({\x},{-(2*\x+.5)*(\x+.5) + .25});
-\node (B) at (-.95,-.35){$\bullet$};
-\draw[pink] (0,0) -- (B);
-\draw[pink] (.5,0) arc (0:-160:.5);
-\draw[yellow, ultra thick] (-.5,0) arc (180:200:.5);
+\draw[smooth,domain = -3:0,variable =\x,blue] plot ({\x},{-(.5*\x+.5)*(\x+.5) + .25});
 \end{tikzpicture}
 \end{document}
+```
+L1 in rosso
+L2 i blu
