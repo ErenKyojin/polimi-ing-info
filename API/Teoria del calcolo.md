@@ -234,3 +234,4 @@ VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure 
 >[!oss]
 >Sapere che un problema è risolvibile non significa saperlo risolvere, un problema è risolvibile se esiste una MT che lo risolve. Formalmente una funzione $f : N \to N$ è calcolabile se esiste una MT che la calcola, ossia esiste $y \in N : \dots$
 
+- È vero che il numero di molecole dell'universo è $10^{{10^{10}}^{10}}$? è risolvibile ma non calcolabile
