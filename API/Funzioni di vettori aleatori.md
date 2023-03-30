@@ -33,9 +33,13 @@ $= 1 - P(x_{1} > t, x_{2} > t, \dots, x_{n} > t) = 1 - P(\mathbf{x} \in \{  \mat
 Se $n = 2$
 ```tikz
 \begin{document}
-\begin{tikzpicture}[scale = 2]
-\draw[->] (-1,0) -- (3,0);
-\draw[->] (0,-1) -- (0,2);
+\begin{tikzpicture}[scale = 2,auto]
+\node
+\draw[->] (-1,0) -- (3,0)node{$x_1$};
+\draw[->] (0,-1) -- (0,2)node{$x_2$};
+\draw[] (-1,-1) -- (3,3);
 \end{tikzpicture}
 \end{document}
 ```
+
+
