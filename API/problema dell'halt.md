@@ -7,7 +7,7 @@ modification date: 2023-03-29 09:41
 Stabilire se, dato un programam con un dato in ingresso andrà in loop  è un [[problema]] irrisolvibile algoritmicamente (ne vedremo molti altri, sono molte anche in termini qualitativi, le cose che il calcolatore non può fare)
 
 >[!dim]
->Per dimostrare cosa un calcolatore possa fare sfruttiamo una tecnica diagonale (usata anche nel teorema di cantor) pe rdimostrare che $\mathcal{N}_{0} < 2^{\mathcal{N_{0}}}$
+>Per dimostrare cosa un calcolatore possa fare sfruttiamo una tecnica diagonale (usata anche nel teorema di cantor, ossia prendere x = y) pe rdimostrare che $\mathcal{N}_{0} < 2^{\mathcal{N_{0}}}$
 >
 >Ipotesi assurda: $g(y,x) = 1$ se $f_{y}(x) \neq \perp, g(y,x) = 0$ se $f_{y}(x) = \perp$ calcolabile. Allora anche $h(x)= 1$ se $g(x,x) = 0 (f_{x}(x)=\perp),\perp$ altrimenti $(f_{x}(x) \neq \perp)$ è calcolabile
 >
