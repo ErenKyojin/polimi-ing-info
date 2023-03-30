@@ -140,10 +140,21 @@ DBM (-1 e -2) e DBF (da -90 a -180)
   \draw[->,thick](0,0) -- (0,2)node[right]{$\Im$};
   \node[red] at (0,0){$\bullet$};
   \draw[->,blue] (0,-1) -- (0,1);
-  \draw[dashed] (0,2) arc (90:)
+  \draw[dashed,blue] (0,2) arc (90:-90:2);
   \node (4) at (1.5,0){$\bullet$};
   \node[above]at (4) {$4$};
   \end{tikzpicture}
   \end{document}
  ```
- 
+  ```tikz
+  \begin{document}
+  \begin{tikzpicture}[scale = 2]
+  \draw[->,thick](0,0) -- (3,0)node[below]{$\Re$};
+  \draw[->,thick](0,0) -- (0,2)node[right]{$\Im$};
+  \draw[<-,red,ultra thick] (-0.5,0.5) arc (180:0:.5);
+  \draw[<-,blue , ultra thick] (1,0) arc (360:180:.5);
+  \node (4) at (1.5,0){$\bullet$};
+  \node[above]at (4) {$4$};
+  \end{tikzpicture}
+  \end{document}
+  ```
