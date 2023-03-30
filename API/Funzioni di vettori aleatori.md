@@ -100,4 +100,9 @@ $$
 f_{y}(t) = \frac{d\mathbf{F}(t_{1},t_{2}, ...,t_{n})}{dt} \qquad \forall t : F_{\mathbf{x}} \text{ deriabile in }\mathbf{t} = (\mathbf{t}..,t)
 $$
 
-$x$
+- $x_{1},\dots,x_{n}$ indipendenti
+$\implies F_{Y}(t) = \prod_{i = 1}^n F_{x_{i}}(t)$ 
+
++ + identicamente distribuite $\sim F_{x}$
+$$= F_{x}^n(t)$$
+- + assolutamente continua allora 
