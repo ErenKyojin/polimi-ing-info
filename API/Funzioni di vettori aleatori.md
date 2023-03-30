@@ -52,4 +52,6 @@ $$
 F_{W}(t) = 1 - \prod_{i = 1}^n\left[ 1 - F_{X}(t) \right] = 1 - \left[ 1 - F_{X}(t) \right] ^n
 $$
 ... se $x_{1}\dots,x_{n} \underset{ iid }{ \sim } f_{x}$ assolutamente continua
-$\implies W$ è v.a. assoluatamente ontinua con $f_{W}(t) = $
+$\implies W$ è v.a. assoluatamente ontinua con $$f_{W}(t) = \begin{cases}0&\text{su $t$ se $F_{X}$ non è derivabile}
+\end{cases}$$
+$F'_{W}(t) = -n[1 - F_{X}(t)]^{n-1}$
