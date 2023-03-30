@@ -115,4 +115,8 @@ p_{D} = 0
 $$
 *Nessun polo della funzione di trasferimento ha parte reale positiva*
 
-I
+In questo caso dev'essere $N = 0$
+
+Se $N < 0$ (L fa piú giri orari che antiorari attorno a -1) l'anello chiuso non può essere AS.
+
+
