@@ -47,4 +47,8 @@ Se $n = 2$
 se $x_{1},\dots,x_{n}$ sono indipendenti
 $$f_{W}(t) = 1 - \prod_{i = 1} P(x_{i} > t) = 1 - \prod_{i > 1}^n \left[ 1 - F_{x_{i}}(t) \right] $$
 
-$1 - F_{x_{i}}(t)$ è l'affidabilità di $c_{i}$ al tempo $t$. Se $x_{1},\dots,x_{n} $
+$1 - F_{x_{i}}(t)$ è l'affidabilità di $c_{i}$ al tempo $t$. Se $x_{1},\dots,x_{n} \underset{ iid }{ \sim } F_{x}$
+$$
+F_{W}(t) = 1 - \prod_{i = 1}^n\left[ 1 - F_{X}(t) \right] = 1 - \left[ 1 - F_{X}(t) \right] ^n
+$$
+... se m
