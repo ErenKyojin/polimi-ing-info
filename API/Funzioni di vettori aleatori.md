@@ -110,4 +110,6 @@ $$= F_{x}^n(t)$$
 
 -----
 
-$$\implies y  = x_{1} + \dots + x_{n}$$
+$$\begin{array}{rc}
+\implies& y  = x_{1} + \dots + x_{n}
+\end{array}$$
