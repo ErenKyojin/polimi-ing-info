@@ -114,5 +114,11 @@ $$\begin{array}{rc}
 \implies& y  = x_{1} + \dots + x_{n}
 \end{array}$$
 $$
- Y = \prod_{i = 1}^n x_{i}\qquad (x_{t}\text{})
+ Y = \prod_{i = 1}^n x_{i}\qquad (x_{i}\text{ non sono necessariamente indipendenti})
+$$
+
+Il nostro obiettivo è trovare il valore atteso di $Y$: $E(Y)$ con $Y = g(\mathbf{x})$
+dove
+$$
+g : \mathbb{R}^n \longrightarrow \mathbb{R}\quad o
 $$
