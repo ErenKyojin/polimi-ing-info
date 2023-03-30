@@ -141,4 +141,5 @@ $$
 
 >[!esempio]
 >Se $\mathbf{x} \sim f_{\mathbf{x}}$ assolutamente continua allora
->$$ E $$ 
+>$$ E(y) \exists \text{se }\int \dots \int _{\mathbb{R}^n} \! \, \mathrm{d}x \mathrm{d}x  $$ 
+
