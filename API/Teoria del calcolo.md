@@ -241,5 +241,5 @@ Una funzione $f : N \to N$ è calcolabile se e solo se esiste una macchina di Tu
 
 >[!esempio]
 >$$ g(y,x) = \begin{cases}1\quad &\text{se }f_{y}(x) \neq 1\\0&se f_{y}(x) = 1\end{cases} $$
->$g(3,8)$ calcolabile? SI, in quanto si tratta di una funzione costante,
+>$g(3,8)$ calcolabile? SI, in quanto si tratta di una funzione costante, (è un valore di fatto)
 
