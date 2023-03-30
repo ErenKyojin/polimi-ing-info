@@ -81,3 +81,16 @@ $$\begin{align}
 F_{Y}(t) &= P(\max\{ x_{1},\dots,x_{n} \} \leq t) = P(x_{1} \leq t,\dots, x_{n }\leq t) \\
 &=F_{\mathbf{x}}(t,t,\dots,t)
 \end{align}$$
+```tikz
+\begin{document}
+\begin{tikzpicture}[scale = 2,auto]
+\node (tx) at (1,0){$\bullet$};
+\node (ty) at (0,1){$\bullet$};
+\draw[->] (-1,0) -- (3,0)node{$x_1$};
+\draw[->] (0,-1) -- (0,2)node{$x_2$};
+\draw[] (-1,-1) -- (3,3);
+\draw (tx) to (1,1) to (ty);
+\draw[fill = red!30!black] (1,1) -- (-1,1) -- (-1,-2) -- (1,-2) -- (1,1); 
+\end{tikzpicture}
+\end{document}
+```
