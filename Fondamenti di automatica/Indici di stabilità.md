@@ -34,10 +34,10 @@ Se non c'è intersezione con $R^-\quad k_{m}= \infty$
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}
-\draw[->] (0,0) -- 
-
-\draw[smooth, domain];
+\begin{tikzpicture}[scale = 2]
+\draw[->] (-2,0) -- (1,0);
+\draw[->] (0,-2) -- (0,.5);
+\draw[dashed,blue] (-1,0) arc (180:270:1);
 
 \end{tikzpicture}
 \end{document}
