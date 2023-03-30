@@ -13,12 +13,13 @@ $$
 ### MARGINE DI GUADAGNO $k_{m}$
 
 ```tikz
+\usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
 \draw[->](-2,0) -- (1,0);
 \draw[->](0,-2) -- (0,1);
 \draw[smooth,domain = -3:0,variable =\x,red] plot ({\x},{-(\x+1)*(\x+1) + 1});
-\draw[] (0,-.5) -- (-2.25,-.5);
+\draw[-{Bar}] (0,-.5) -- (-2.25,-.5);
 \end{tikzpicture}
 \end{document}
 ```
