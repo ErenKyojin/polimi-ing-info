@@ -11,6 +11,7 @@
 	--icon-color: #F5C33B;
 	--tab-text-color-active: #AE8209;
 	--tab-text-color-focused-active-current: #F5C33B;
+	--italic-color: #888888;
 }
 
 
@@ -48,11 +49,4 @@
 
 	text-shadow: 2px 2px 4px #F5C33B;
 
-}
-
-.cm-em
-em
-{
-	color: #888888;
-	text-color: #888888;
 }
