@@ -238,3 +238,6 @@ VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure 
 - È vero che scacci giocato perfettamente è una patta? ""
 
 Una funzione $f : N \to N$ è calcolabile se e solo se esiste una macchina di Turing che la calcola, ossia esiste un valore $y \in N$ taleche $f_{y} = f$
+
+>[!esempio]
+>$$ g(y,x_} $$
