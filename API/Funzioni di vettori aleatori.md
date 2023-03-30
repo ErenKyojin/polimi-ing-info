@@ -160,3 +160,8 @@ $$\begin{align}
 $1^o$ addendo = $$\int _{\mathbb{R}} \!|x_{1}| \, = \left\{  
 \int _{\mathbb{R}^{n-1}} \! f_{\mathbf{x}}(x_{1},x_{2},\dots,x_{n}) \, \mathrm{d}x_{2} ,\dots,\mathrm{d}x_{n}\right\} 
  $$
+$\implies \sum_{j} x_{j}$ ammette medie $E$ se e solo se ogni $x_{j}$ ammette media e $E\left( \sum_{j =1}^n x_{j} \right) = \sum_{j}E(x_{j})$
+SEMPRE
+
+>[!oss]
+>$E\left( \sum_{j} \right)$ dipendeso
