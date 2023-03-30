@@ -164,4 +164,9 @@ $\implies \sum_{j} x_{j}$ ammette medie $E$ se e solo se ogni $x_{j}$ ammette me
 SEMPRE
 
 >[!oss]
->$E\left( \sum_{j} \right)$ dipendeso
+>$E\left( \sum_{j} \right)$ dipendesolo dalle marginali. Diverso è il discorso se ci interessa la varianza della somma, che in generale dipende dalla congiunta $f_{\mathbf{x}}$
+
+
+-----
+
+$E\left( \prod_{j =1}^n x_{j} \right) =$$
