@@ -169,4 +169,7 @@ SEMPRE
 
 -----
 
-$$E\left( \prod_{j =1}^n x_{j} \right) = \int \dots \int    \!x_{1}\dots x_{n} f_{\mathbf{x}} \, \mathrm{d}\mathbf{x} $$ 
+Continuo:
+$$E\left( \prod_{j =1}^n x_{j} \right) = \int \dots \int_{\mathbb{R}^n}    \!x_{1}\dots x_{n} f_{\mathbf{x}} \, \mathrm{d}\mathbf{x} $$ Discreto
+$$= \underset{ \{ x \}  }{ \sum \dots \sum } x_{1}\dots x_{n} f_{\mathbf{x}}(\mathbf{x})$$
+
