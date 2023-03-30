@@ -16,4 +16,8 @@ con $a > 0$
 
 $\rho (x,y) = -1 \iff \rho(y = aX + b) = 1$ con $a < 0$
 
-quindi se $\rho \approx 1$
+quindi se $\rho \approx 1$ regola del pollice $\rho \approx 0.7,0.8$
+
+quindi $y = aX$
+
+Se $\rho \approx 0$ i tuoi punti non riesci a descriverli sommariamente con nessuna retta
