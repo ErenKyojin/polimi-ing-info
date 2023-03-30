@@ -143,29 +143,8 @@ $$
 >Se $\mathbf{x} \sim f_{\mathbf{x}}$ assolutamente continua allora
 >$$ E(y) \exists \text{se }\int \dots \int _{\mathbb{R}^n} \! \, \mathrm{d}x \mathrm{d}x  $$ 
 
-```tikz
-\usetikzlibrary{animations}
-\begin{document}
-\begin{tikzpicture}[
-    animate/orbit/.style 2 args = {
-        myself:shift = {
-          along = {
-            (0,0) circle [radius=#1]
-          } sloped in #2s/10,
-          repeats }} ]
 
- \node :color = {0s = "orange",
-                 2s = "red",
-                 4s = "orange",
-                 repeats}
-       {Sun};
+$E(x_{1},\dots,x_{n})\qquad E\left( \prod_{i = 1}^n x_{i}\right)$
 
-  \begin{scope}[animate={orbit={2.5cm}{365}}]
-    \node {Earth};
-    \node [animate={orbit={1cm}{28}}] {Moon};
-  \end{scope}
-
-  \useasboundingbox (-3.8,-3.8) (3.8,3.8);
-\end{tikzpicture}
-\end{document}
-```
+### Preliminare disuguaglianza triangolare
+$| a + b| \leq | a| +$
