@@ -57,4 +57,20 @@ $\varphi_{m} = 180^o - |\varphi_{c}|$
 Se $L(j\omega)$ è tutto dentro il cerchio unitario diremo che $\varphi_{m}$ è definito oppure è infinito
 
 
-Interpretazione grafica
+Interpretazione grafica:
+
+```tikz
+\begin{document}
+\begin{tikzpicture}[scale = 2]
+\draw[->] (-2,0) -- (1,0);
+\draw[->] (0,-2) -- (0,.5);
+\node(mu) at (-1,0){$\bullet$};
+\node[above] at (mu){$1$};
+\draw[dashed,blue,thick] (-1,0) arc (180:270:1);
+\draw[smooth,domain = -2:0,variable =\x,red] plot ({\x},{-(2*\x+.5)*(\x+.5) + .25});
+\node (B) at (-.95,-.35){$\bullet$};
+\draw[pink] (0,0) -- (B);
+\draw[pink] (.5,0) arc (0:-160:.5);
+\draw[yellow, ultra thick] (-.5,0) arc (180:200:.5);
+\end{tikzpicture}
+\end{document}
