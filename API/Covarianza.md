@@ -10,7 +10,11 @@ Coefficiente di correlazione lineare
 >Se $x,y$ che hanno varianza $\var(x), \var(y)$
  >la $\cov(x,y)$ è il numero
 >$$ E[(x,\mu x)(y-\mu y)] - \begin{cases}
->\text{ dsg } \sum_{x}\sum_{y}(x-\mu_{x})(y - \mu_{y})f_{x,y}(,y)
+>\text{ dsg } \sum_{x}\sum_{y}(x-\mu_{x})(y - \mu_{y})f_{x,y}(,y) \\
+>\text{os cont } \iint_{\mathbb{R}^2}(x - \mu x)(y - mu) f_{x,y}(x,y) \mathrm{d}x\mathrm{d}y
 >\end{cases} $$
 
+
+## Proprietà
+1. $\cov(x,y)$
 
