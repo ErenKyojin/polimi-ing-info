@@ -231,3 +231,5 @@ VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure 
 >Contraddizione
 
 
+>[!oss]
+>Sapere che un problema è risolvibile non significa saperlo risolvere, un problema è risolvibile se esiste una MT che lo risolve. Formalmente una funzione $f : N \to N$ è calcolabile 
