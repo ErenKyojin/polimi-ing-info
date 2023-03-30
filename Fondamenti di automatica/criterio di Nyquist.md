@@ -109,4 +109,8 @@ Proviamo ad applicarlo:
 > $$
 > 
 
-  
+Caso particolare molto frequente è
+$$
+p_{D} = 0
+$$
+*Nessun polo della funzione di trasferimento ha parte reale positiva*
