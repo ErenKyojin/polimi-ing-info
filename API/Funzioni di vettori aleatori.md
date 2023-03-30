@@ -59,4 +59,5 @@ $$\implies f_{W}(t) = n(1 - F_{X}(t))^{n-1}f_{x(t)}$$
 
 - Se $x_{1},\dots,x_{n}\sim \exp(\lambda i)\quad i = 1 : n$ 
   $\implies F_{W}(t) = 1 - \prod_{i = 1}^n P(x_{i} > t)$ 
-  $$[P(x_{i} > t)] = \int _{t}^{+\infty} \!\lambda_{i} e^{\lambda _{i}s} \, \mathrm{d}s = e^{-\lambda_{i}} $$
+  $$\left[P(x_{i} > t) = \int _{t}^{+\infty} \!\lambda_{i} e^{\lambda _{i}s} \, \mathrm{d}s = e^{-\lambda_{i}t} \right]$$
+$$= 1 - \prod_{i = 1}^n e^{-\lambda_{i}t} = 1 - e^{-t}\sum_{i = 1}^n$$
