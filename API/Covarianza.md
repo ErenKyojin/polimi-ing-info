@@ -19,3 +19,4 @@ Coefficiente di correlazione lineare
 1. $\cov(x,y) = \cov(y,x)\quad ;\quad \cov \text{ è simmetrica}$
 2. $\cov(x,x) = \var(x)$
 3. $\cov(x,c) = E[(x-\mu x)(c - c)] = 0$ con $c$ costante
+4. $\cov(ax,by)= E[(ax - a\mu x)(by-b\mu y)]=E[]$
