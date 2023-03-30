@@ -37,8 +37,10 @@ Se non c'è intersezione con $R^-\quad k_{m}= \infty$
 \begin{tikzpicture}[scale = 2]
 \draw[->] (-2,0) -- (1,0);
 \draw[->] (0,-2) -- (0,.5);
-\draw[dashed,blue] (-1,0) arc (180:270:1);
-
+\node(mu) at (-1,0){$\bullet$};
+\node[above] at (mu){$1$};
+\draw[dashed,blue,thick] (-1,0) arc (180:270:1);
+\draw[smooth,domain = -3:0,variable =\x,red] plot ({\x},{-(\x+1)*(\x+1) + 1});
 \end{tikzpicture}
 \end{document}
 ```
