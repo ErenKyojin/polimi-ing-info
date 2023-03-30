@@ -51,3 +51,8 @@ $$
 N = 0 DN di anello aperto non circolare -1
 
 N tale che $F$ = $P_{D} \implies$ anello chiuso asint stabile
+
+Verifica $$\frac{L}{1+L} = \frac{1/S+1}{1 + 1 / s + 1} = \frac{1}{S +2}$$
+polo -2
+
+
