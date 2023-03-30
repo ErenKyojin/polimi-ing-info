@@ -67,4 +67,7 @@ $\implies W \sim \exp\left( \sum_{i = 1}^n \lambda_{i} \right)$
 >[!oss]
 >Se $x_{1},x_{2},\dots,x_{n} \underset{ ind }{ \sim } \text{Weibul}(\alpha,\lambda_{i})$  allora $W \sim \text{Weibull}\left( \alpha, \sum_{i = 1}^n \lambda_{i} \right)$
 >
->6. $x_{1},x_{2},\dots,x_{n} \underset{ ind }{ \sim } \text{Geom}$
+>6. $x_{1},x_{2},\dots,x_{n} \underset{ ind }{ \sim } \text{Geom}(P_{i})\quad i = 1 : n$
+>
+>Ricordando la proprietà $[P(x_{i} > t) = (1 - P_{i})^t\quad t = 1,2,\dots]$
+>$$ \implies P(W > t) = \prod_{i = 1}^n P(X_{i})$$
