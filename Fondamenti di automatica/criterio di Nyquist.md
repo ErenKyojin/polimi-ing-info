@@ -151,10 +151,11 @@ DBM (-1 e -2) e DBF (da -90 a -180)
   \begin{tikzpicture}[scale = 2]
   \draw[->,thick](0,0) -- (3,0)node[below]{$\Re$};
   \draw[->,thick](0,0) -- (0,2)node[right]{$\Im$};
-  \draw[<-,red,ultra thick] (-0.5,0.5) arc (180:0:.5);
-  \draw[<-,blue , ultra thick] (1,0) arc (360:180:.5);
+  \draw[->,blue,ultra thick] (-0.5,0.5) arc (180:270:.5);
+  \draw[->,red , ultra thick] (-.5,-0.5) arc (180:90:.5);
   \node (4) at (1.5,0){$\bullet$};
   \node[above]at (4) {$4$};
   \end{tikzpicture}
   \end{document}
   ```
+  
