@@ -15,7 +15,9 @@ $$
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw[smooth,domain = -2:0,variable = \x] plot {{\x},{\x*\x}};
+\draw[smooth,domain = -2:0,variable =\x] plot ({\x},{-\x*\x});
 \end{tikzpicture}
 \end{document}
 ```
+
+Supponiamo 
