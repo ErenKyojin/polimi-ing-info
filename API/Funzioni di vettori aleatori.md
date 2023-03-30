@@ -169,4 +169,4 @@ SEMPRE
 
 -----
 
-$E\left( \prod_{j =1}^n x_{j} \right) =$$
+$$E\left( \prod_{j =1}^n x_{j} \right) = \int \dots \int    \!x_{1}\dots x_{n} f_{\mathbf{x}} \, \mathrm{d}\mathbf{x} $$ 
