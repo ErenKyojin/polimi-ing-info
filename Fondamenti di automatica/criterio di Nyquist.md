@@ -33,26 +33,32 @@ Prima di vedere il criterio dobbiamo studiare il [[diagramma di Nyquist]] di una
 
 Proviamo ad applicarlo:
 
-$$
-L(s) = \frac{1}{s+1}\qquad p_{D}=0\ (\text{anello aperto non ha poli con }\Re>0)
-$$
+> [!esempio]
+> 
+> $$
+> L(s) = \frac{1}{s+1}\qquad p_{D}=0\ (\text{anello aperto non ha poli con }\Re>0)
+> $$
+> 
+> ```tikz
+> \begin{document}
+> \begin{tikzpicture}[scale = 2]
+> \draw[->,thick](0,0) -- (3,0)node[below]{$R$};
+> \draw[->,thick](0,0) -- (0,2)node[right]{$I$};
+> \draw[->,blue,ultra thick] (0,0) arc (180:0:.5);
+> \draw[->,red , ultra thick] (1,0) arc (360:180:.5);
+> \end{tikzpicture}
+> \end{document}
+> ```
+> 
+> N = 0 DN di anello aperto non circolare -1
+> 
+> N tale che $F$ = $P_{D} \implies$ anello chiuso asint stabile
+> 
+> Verifica $$\frac{L}{1+L} = \frac{1/S+1}{1 + 1 / s + 1} = \frac{1}{S +2}$$
+> polo -2
+> 
 
-```tikz
-\begin{document}
-\begin{tikzpicture}[scale = 2]
-\draw[->,thick](0,0) -- (3,0);
-\draw[->,thick](0,0) -- (0,2);
-\draw[->,blue,ultra thick] (0,0) arc (180:0:.5);
-\draw[->,red , ultra thick] (1,0) arc (360:180:.5);
-\end{tikzpicture}
-\end{document}
-```
-
-N = 0 DN di anello aperto non circolare -1
-
-N tale che $F$ = $P_{D} \implies$ anello chiuso asint stabile
-
-Verifica $$\frac{L}{1+L} = \frac{1/S+1}{1 + 1 / s + 1} = \frac{1}{S +2}$$
-polo -2
 
 
+$L(s) = \frac{4}{1 - S}$ e $p_{D} = 1$
+tikzpicture
