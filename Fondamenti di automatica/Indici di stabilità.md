@@ -40,9 +40,11 @@ Se non c'è intersezione con $R^-\quad k_{m}= \infty$
 \node(mu) at (-1,0){$\bullet$};
 \node[above] at (mu){$1$};
 \draw[dashed,blue,thick] (-1,0) arc (180:270:1);
-\draw[smooth,domain = -3:0,variable =\x,red] plot ({\x},{-(2*\x+.5)*(\x+.5) + .25});
-\node at (-.95,-.35){$\bullet$};
-\draw (0,0) -- ()
+\draw[smooth,domain = -2:0,variable =\x,red] plot ({\x},{-(2*\x+.5)*(\x+.5) + .25});
+\node (B) at (-.95,-.35){$\bullet$};
+\draw[pink] (0,0) -- (B);
 \end{tikzpicture}
 \end{document}
 ```
+
+Frequenza cirtica $\omega_{}$
