@@ -45,6 +45,6 @@ Se $n = 2$
 \end{document}
 ```
 se $x_{1},\dots,x_{n}$ sono indipendenti
-$f_{W}(t) = 1 - pro$
+$$f_{W}(t) = 1 - \prod_{i = 1} P(x_{i} > t) = 1 - \prod_{i > 1}^n \left[ 1 - F_{x_{i}}(t) \right] $$
 
-
+$1 - F_{x_{i}}(t)$ è l'affidabilità di $c_{i}$ al tempo $t$. Se $x_{1},\dots,x_{n} $
