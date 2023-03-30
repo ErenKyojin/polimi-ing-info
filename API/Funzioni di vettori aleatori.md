@@ -24,4 +24,6 @@ $Y = \max \{ x_{1},\dots,x_{n} \}$ può essere usato per modellizzare il tempo d
 Ipotesi: $\mathbf{x} = \begin{pmatrix}x_{1}\\\vdots \\ x_{n}\end{pmatrix} \sim F_{\mathbf{x}}$
 Studiamoli separatamente:
 
-### MINIMO $W $
+### MINIMO $W = \min\{ x_{1},\dots,x_{n} \}$
+Parto dalla funzione di ripartizione in un generico punto $P$.
+$F_{W}(t) = 1 - P(W > t) =$
