@@ -20,4 +20,6 @@ $$
 \end{document}
 ```
 
-Supponiamo 
+Supponiamo che $L(j\omega)$ intersechi il semiasse $\mathbb{R}$ cioè che $\exists$ finito $\omega_{w}$ tale che $\angle L(j\omega_{u}) = -180^o$
+
+$\alpha = $distanza tra l'intersezione di $L(j\omega)$ co
