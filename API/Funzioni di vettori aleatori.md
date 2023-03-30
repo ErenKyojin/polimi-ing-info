@@ -108,3 +108,6 @@ $$= F_{x}^n(t)$$
 - + assolutamente continua allora anche $Y$ è assolutamente continua con densità
   $$ f_{y}(t) = nF_{x}^{n-1}(t) f_{x}(t) $$
 
+-----
+
+$$\implies y  = x_{1} + \dots + x_{n}$$
