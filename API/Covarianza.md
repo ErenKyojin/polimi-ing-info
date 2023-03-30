@@ -29,5 +29,6 @@ Coefficiente di correlazione lineare
 
 ## Difetti della covarianza come misura
 
-$x =$ altezza in $m$
-$y =$
+$x =$ altezza in $m$ $\implies$ $\hat{x} =$altezza in $cm$
+$y =$ peso in $kg \implies \hat{y} =$ peso in $hg$
+
