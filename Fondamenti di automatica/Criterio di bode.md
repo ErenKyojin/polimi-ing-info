@@ -25,8 +25,8 @@ $$\text{ Anello chiuso } AS \iff \begin{cases}M_{L} > 0\\ \varphi_{m} > 0\end{ca
 
 #todo %%schema del controllore in retroazione%%
 
-| Cosa c'è nei segnali di ingresso | componenti canoniche </br> TDL del tipo $k/s^n$ | componenti armoniche </br> sinusoidi, rumore |
+| Cosa c'è nei segnali di ingresso | componenti canoniche </br> TDL del tipo $k/s^n$ | componenti armoniche </br> sinusoidi, rumore | rumore|
 |:--------------------------------:|:-----------------------------------------------:|:--------------------------------------------:|
 |               $w$                |             $\checkmark$ no impulso             |                 $\checkmark$                 |
 |             $d_{a}$              |                  $\checkmark$                   |                 $\checkmark$                 |
-|             $d_{r}$              |                        X                        | $\checkmark$                                             |
+|             $d_{r}$              |           X al piú sporadici impulsi            |                 $\checkmark$                 |
