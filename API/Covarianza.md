@@ -36,4 +36,4 @@ $\cov(\hat{x},\hat{y}) = cov(100x,10y) = 1000\cov(x,y)$
 covarianza non è ridotta rispetto a $c$ cambiamenti di scala $\implies$ riscalo
 $$ \cov\left( \frac{x-\mu_{x}}{\sigma_{x}} , \frac{y-\mu y}{\sigma_{y}}\right)= \frac{1}{\sigma_{x}\sigma_{y}}\left[ \cov(x_{\gamma}y - \mu_{y} )+ \cov(-\mu_{x}, y-\mu_{y}) \right]  = \frac{\cov(x+y)}{\sigma_{x}\sigma_{y}}$$
 
-$P(x,y)$ è detto coefficiente di correlazione lineare
+$P(x,y)$ è detto [[coefficiente di correlazione lineare]]
