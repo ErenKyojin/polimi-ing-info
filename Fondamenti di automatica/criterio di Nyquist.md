@@ -120,3 +120,6 @@ In questo caso dev'essere $N = 0$
 Se $N < 0$ (L fa piú giri orari che antiorari attorno a -1) l'anello chiuso non può essere AS.
 
 
+$$
+L(s) = \frac{1}{s(1 + s)}\qquad p_{D} = 0
+$$
