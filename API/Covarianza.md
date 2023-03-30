@@ -26,3 +26,8 @@ Coefficiente di correlazione lineare
    
 6. $E[(x-\mu x)(y - \mu y)] = E[xy - x\mu_{y} - \mu_{x}y + \mu_{x}\mu_{y}] = E(xy) - \mu_{y}E(x) - \cancel{ \mu_{x}E(y) } + \cancel{ \mu_{x}\mu_{y} }$
    quindi $\cov(x,y) = E(x,y) - E(x)E(y)$
+
+## Difetti della covarianza come misura
+
+$x =$ altezza in $m$
+$y =$
