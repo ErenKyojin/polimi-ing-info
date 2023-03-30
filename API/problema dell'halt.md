@@ -23,7 +23,16 @@ Stabilire se, dato un programam con un dato in ingresso andrà in loop  è un [[
 ```cpp
 #include G
 
-int h()
+int h(int x){
+	if( g(x,x) == 0) {
+		return 1;
+	}
+	else {
+		while(True);
+	}
+}
+
+//...
 ```
 
 
