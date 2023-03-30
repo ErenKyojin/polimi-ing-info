@@ -23,6 +23,7 @@ Stabilire se, dato un programam con un dato in ingresso andrà in loop  è un [[
 ```cpp
 #include G
 
+//Esempio di programma che calcola h data g
 int h(int x){
 	if( g(x,x) == 0) {
 		return 1;
