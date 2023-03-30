@@ -152,6 +152,6 @@ $| a + b| \leq | a| + |b|$
 Esistenza di $E\left( \sum_{j} x_{j} \right)$
 $$\begin{align}
 &E\left[ |\sum_{j} x_{j}| \right] \leq E\left( \sum_{j}|x_{j}| \right) = \\
-&\int \dots \int_{\mathbb{R}^n}  \! (|x_{1}| + \dots + |x_{n}|) \, \mathrm{d}x \dots \mathrm{d}x + \dots \\
-+ in
+&\int \dots \int_{\mathbb{R}^n}  \! (|x_{1}| + \dots + |x_{n}|) \, \mathrm{d}x_{1} \dots \mathrm{d}x_{n} = \\
++ &\int \dots \int_{\mathbb{R}^n} |x_{n}|f_{\mathbf{x}}(x_{1},\dots,x_{m})
 \end{align}$$
