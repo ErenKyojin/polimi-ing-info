@@ -47,4 +47,7 @@ Se non c'è intersezione con $R^-\quad k_{m}= \infty$
 \end{document}
 ```
 
-Frequenza cirtica $\omega_{}$
+Frequenza cirtica $\omega_{c}$ quella per cui $|L(j\omega_{c})| = 1$
+Fase critica $\varphi_{c} = \angle^o L(j\omega_{c})$
+Margine di fase
+$\varphi_{m} = 180^o - |\varphi|$
