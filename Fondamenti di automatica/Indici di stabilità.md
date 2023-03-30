@@ -73,4 +73,4 @@ Interpretazione grafica:
 \end{document}
 ```
 L1 in rosso conduce ad AC AS, $\varphi_{m} > 0, k_{m} > 1$
-L2 in blu conduce ad AC non AS, $$
+L2 in blu conduce ad AC non AS, $\varphi_{m} < 0$
