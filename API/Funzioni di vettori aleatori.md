@@ -128,4 +128,7 @@ $$
 d. quando $\mu_{y}$ esiste
 b. come lo calcolo?
 
-se $\mathbf{x} \sim F_{\mathbf{X}}$
+se $\mathbf{x} \sim F_{\mathbf{x}} \neq F_{x_{1}},\dots, F_{x_{n}}$
+
+Se $x \sim F_{x}$ è una variabile aleatoria $y = g(x)$ allora $E(y) = E(g(x))$ esiste se:
+- caso discreto: $g(x)$
