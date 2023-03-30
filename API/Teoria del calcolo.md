@@ -226,3 +226,5 @@ VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure 
 >   - $h = f_{w_{0}}$ implica $h(x_{0}) = f_{w_{0}}(x_{0})$
 >
 >Contraddizione
+
+
