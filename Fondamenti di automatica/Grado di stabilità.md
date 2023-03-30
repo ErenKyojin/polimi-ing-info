@@ -12,8 +12,10 @@ L'ipotesi, quantomeno iniziale, è $p_{D} = 0$
 \draw[->](-2,0) -- (2,0)node[below]{$\Re$};
 \draw[->](0,-2) -- (0,2)node[right]{$\Im$};
 \draw[red,thick,->] (-2,-2) arc (180:90:2);
-\draw plot[smooth] coordinates {(-2.2,-2) (-1.8,-.8) (-1,0)};
+\draw[blue,thick,->] plot[smooth] coordinates {(-2.2,-2) (-1.8,-.8) (-1,0)};
 \draw (-1,0) arc(180:0:.5);
+\node[red] at (-1.5,-2){$L_1(j\omega)$};
+\node[blue] at (1.5,1){$L_2(j\omega)$};
 \end{tikzpicture}
 \end{document}
 ```
