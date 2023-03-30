@@ -22,4 +22,6 @@ Coefficiente di correlazione lineare
 4. $\cov(ax,by)= E[(ax - a\mu x)(by-b\mu y)]=E[(x - \mu x)(y - \mu y)]ab = ab\ \cov(x,y)$
 5. $\cov(ax, by + W) = E[a(x-\mu x)(by + W - bE(y) - E(W))] = aE[(x-\mu x)(b(y-\mu Y) + (W - \mu W))]$
    $= ab\ \cov(x,y) + a\cov(x,w)$
-   Quindi $\cov(x,y)$ è un operatore bil
+   Quindi $\cov(x,y)$ è un operatore bilineare
+   
+6. $E[(x-\mu x)(y - \mu y)] = E[xy - x\mu_{y} - \mu_{x}y + \mu_{x}\mu_{y}] = E(xy) - \mu_{y}$
