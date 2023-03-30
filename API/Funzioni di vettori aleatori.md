@@ -40,10 +40,11 @@ Se $n = 2$
 \draw[->] (0,-1) -- (0,2)node{$x_2$};
 \draw[] (-1,-1) -- (3,3);
 \draw (tx) to (1,1) to (ty);
-\draw[fill = red!]
+\draw[fill = red!30!purple] (1,1) -- (1,3) -- (3,3) -- (3,1) -- (1,1); 
 \end{tikzpicture}
 \end{document}
 ```
-
+se $x_{1},\dots,x_{n}$ sono indipendenti
+$f_{W}(t) = 1 - pro$
 
 
