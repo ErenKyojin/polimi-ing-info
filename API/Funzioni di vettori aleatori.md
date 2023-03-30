@@ -64,3 +64,5 @@ $$= 1 - \prod_{i = 1}^n e^{-\lambda_{i}t} = 1 - e^{-t}\sum_{i = 1}^n \lambda_{i}
 $\implies P(W > t) = e^{-t\Lambda}$
 $\implies W \sim \exp\left( \sum_{i = 1}^n \lambda_{i} \right)$
 
+>[!oss]
+>Se $x_{1},x_{2},\dots,x_{n} \underset{ ind }{ \sim } \text{Weibul}(\alpha,\lambda_{i})$ 
