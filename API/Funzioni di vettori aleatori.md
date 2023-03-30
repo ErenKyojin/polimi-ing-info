@@ -26,4 +26,4 @@ Studiamoli separatamente:
 
 ### MINIMO $W = \min\{ x_{1},\dots,x_{n} \}$
 Parto dalla funzione di ripartizione in un generico punto $P$.
-$F_{W}(t) = 1 - P(W > t) =$
+$F_{W}(t) = 1 - P(W > t) = 1 - P(\min\{ x_{1},\dots,x_{n} \} > t)$
