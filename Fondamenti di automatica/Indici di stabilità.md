@@ -88,8 +88,9 @@ Casi particolari (cerco, $p_{D} = 0$)
 \begin{tikzpicture}
 \draw(-2,0) -- (1,0);
 \draw(0,-2) -- (0,.5);
-\draw[smooth, domain = -2:0, variable = \x] plot ({\x}, {\x * cos deg\x});
+\draw[smooth, domain = -2:0, variable = \x] plot ({\x}, {\x * cos deg (10*\x)});
 \end{tikzpicture}
 \end{document}
 ```
+
 
