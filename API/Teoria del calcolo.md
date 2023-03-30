@@ -249,5 +249,6 @@ $f(x) = x$-esima cirfra dell'espansione decimale di $\pi$, $f$ è sicuramente ca
 Basandoci sulla possibilità di calcolare $f$ investighiamo la calcolabilità di $g(x) = 1$ se in $\pi \exists$ esattamente $\times$ 5 consegutivi, = 0 altrimenti.
 calcolando la sequenza:
 $$
-\{ f(0) = 3, f(1) = 1, f(2) = 4, f(3)=1 \}
+\{ f(0) = 3, f(1) = 1, f(2) = 4, f(3)=1, f(4)= 5, f(5)\neq 5 \}
 $$
+otteniamo $g(1)=1$
