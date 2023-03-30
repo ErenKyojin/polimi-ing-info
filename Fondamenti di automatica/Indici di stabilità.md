@@ -43,6 +43,7 @@ Se non c'è intersezione con $R^-\quad k_{m}= \infty$
 \draw[smooth,domain = -2:0,variable =\x,red] plot ({\x},{-(2*\x+.5)*(\x+.5) + .25});
 \node (B) at (-.95,-.35){$\bullet$};
 \draw[pink] (0,0) -- (B);
+\draw[pink] (.5,0) arc (0)
 \end{tikzpicture}
 \end{document}
 ```
@@ -50,4 +51,6 @@ Se non c'è intersezione con $R^-\quad k_{m}= \infty$
 Frequenza cirtica $\omega_{c}$ quella per cui $|L(j\omega_{c})| = 1$
 Fase critica $\varphi_{c} = \angle^o L(j\omega_{c})$
 Margine di fase
-$\varphi_{m} = 180^o - |\varphi|$
+$\varphi_{m} = 180^o - |\varphi_{c}|$
+
+Se $L(j\omega)$ è tutto dentro il cerchio unitario diremo che $\varphi_{m}$ è definito oppure è infinito
