@@ -32,5 +32,6 @@ Coefficiente di correlazione lineare
 $x =$ altezza in $m$ $\implies$ $\hat{x} =$altezza in $cm$
 $y =$ peso in $kg \implies \hat{y} =$ peso in $hg$
 
-$\cov(\hat{x},\hat{y}) = cov(100x,10y) = 1000\cov(x,y)
-covarianza non è ridotta rispetto a $c$ cambiamenti di scala
+$\cov(\hat{x},\hat{y}) = cov(100x,10y) = 1000\cov(x,y)$
+covarianza non è ridotta rispetto a $c$ cambiamenti di scala $\implies$ riscalo
+$$ \cov\left( \frac{x-\mu_{x}}{\sigma_{x}} , \frac{y-\mu y}{\sigma_{y}}\right)= \frac{1}{\sigma_{x}\sigma_{y}}\left[ \cos(x) \right]  $$
