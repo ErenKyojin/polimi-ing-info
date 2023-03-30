@@ -15,14 +15,17 @@ $$
 ```tikz
 \begin{document}
 \begin{tikzpicture}
+\draw[->](-2,0) -- (1,0);
+\draw[->](0,-2) -- (0,1);
 \draw[smooth,domain = -2:0,variable =\x] plot ({\x},{-\x*\x});
 \end{tikzpicture}
 \end{document}
 ```
 
-Supponiamo che $L(j\omega)$ intersechi il semiasse $\mathbb{R}$ cioè che $\exists$ finito $\omega_{w}$ tale che $\angle L(j\omega_{u}) = -180^o$
+Supponiamo che $L(j\omega)$ intersechi il semiasse $\mathbb{R}^-$ cioè che $\exists$ finito $\omega_{w}$ tale che $\angle L(j\omega_{u}) = -180^o$
 
-$\alpha =$distanza tra l'intersezione di $L(j\omega)$ con $\mathbb{R}$ e $\Im$
-$\implies k_{\omega} := \frac{1}{\alpha}$
+$\alpha =$distanza tra l'intersezione di $L(j\omega)$ con $\mathbb{R}^-$ e $\Im$
+$\implies k_{m} := \frac{1}{\alpha}$
 
-Interpretazione AC AS a patto che il guadagno di L non aumenti di un fattore maggiore di $k$
+Interpretazione AC AS a patto che il guadagno di L non aumenti di un fattore maggiore di $k_{m}$
+Se non c'è intersezione con $R^-\quad k_{m}= \infty$ 
