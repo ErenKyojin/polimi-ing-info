@@ -22,4 +22,7 @@ $$
 
 Supponiamo che $L(j\omega)$ intersechi il semiasse $\mathbb{R}$ cioè che $\exists$ finito $\omega_{w}$ tale che $\angle L(j\omega_{u}) = -180^o$
 
-$\alpha = $distanza tra l'intersezione di $L(j\omega)$ co
+$\alpha =$distanza tra l'intersezione di $L(j\omega)$ con $\mathbb{R}$ e $\Im$
+$\implies k_{\omega} := \frac{1}{\alpha}$
+
+Interpretazione AC AS a patto che il guadagno di L non aumenti di un fattore maggiore di $k$
