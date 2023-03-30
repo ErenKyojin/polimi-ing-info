@@ -235,3 +235,6 @@ VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure 
 >Sapere che un problema è risolvibile non significa saperlo risolvere, un problema è risolvibile se esiste una MT che lo risolve. Formalmente una funzione $f : N \to N$ è calcolabile se esiste una MT che la calcola, ossia esiste $y \in N : \dots$
 
 - È vero che il numero di molecole dell'universo è $10^{{10^{10}}^{10}}$? è risolvibile ma non calcolabile
+- È vero che scacci giocato perfettamente è una patta? ""
+
+Una funzione $f : N \to N$ è calcolabile se e solo se esiste una macchina di Turing che la calcola, ossia esiste un valore $y \in N$
