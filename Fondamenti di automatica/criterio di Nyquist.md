@@ -82,7 +82,7 @@ Proviamo ad applicarlo:
 > 
 > Verifica $$\frac{1}{1 + L} = \frac{1}{1 + \frac{4}{1 - s}} = \frac{1 - s}{5 - s}$$
 > polo $+5$
->  Instabile
+>  Instabile?
 
 
-$L(s) = \frac{4}{s -}$
+$L(s) = \frac{4}{s - 1} ( = -\frac{4}{1 - 5} \text{ come per d. Bode})$, $p_{D} = 1$ (anello aperto instabile)
