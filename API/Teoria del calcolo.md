@@ -246,4 +246,8 @@ Una funzione $f : N \to N$ è calcolabile se e solo se esiste una macchina di Tu
 Esaminiamo casi meno banali ma istruttivi
 
 $f(x) = x$-esima cirfra dell'espansione decimale di $\pi$, $f$ è sicuramente calcolabile e conosciamo algoritmi in grado di farlo.
-Basandoci sulla possibilità di calcolare $f$
+Basandoci sulla possibilità di calcolare $f$ investighiamo la calcolabilità di $g(x) = 1$ se in $\pi \exists$ esattamente $\times$ 5 consegutivi, = 0 altrimenti.
+calcolando la sequenza:
+$$
+\{ f(0) = 3, f(1) = 1, f(2) = 4, f(3)=1 \}
+$$
