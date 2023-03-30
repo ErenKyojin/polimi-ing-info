@@ -86,7 +86,10 @@ Casi particolari (cerco, $p_{D} = 0$)
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw
+\draw(-2,0) -- (1,0);
+\draw(0,-2) -- (0,.5);
+\draw[smooth, domain = -2:0, variable = \x]
 \end{tikzpicture}
 \end{document}
 ```
+
