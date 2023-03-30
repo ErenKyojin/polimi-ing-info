@@ -113,3 +113,6 @@ $$= F_{x}^n(t)$$
 $$\begin{array}{rc}
 \implies& y  = x_{1} + \dots + x_{n}
 \end{array}$$
+$$
+ Y = \prod_{i = 1}^n x_{i}\qquad (x_{t}\text{})
+$$
