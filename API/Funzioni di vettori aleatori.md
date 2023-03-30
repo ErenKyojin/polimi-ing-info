@@ -71,4 +71,6 @@ $\implies W \sim \exp\left( \sum_{i = 1}^n \lambda_{i} \right)$
 >
 >Ricordando la proprietà $[P(x_{i} > t) = (1 - P_{i})^t\quad t = 1,2,\dots]$
 >$$ \implies P(W > t) = \prod_{i = 1}^n P(X_{i} > t) = \prod_{i = 1}^n (1 - p_{i})^t = \left[ \underbrace{ \prod_{i = 1}^n (1 - p_{i}) }_{ := 1 - \theta }\right]^t $$
-> con $$
+> con $\theta = 1 - \prod_{i = 1}^n(1 - p_{i})$
+> $\implies P(W > t) = (1 - \theta)^t$
+> $\implies W \sim \text{Geom}\left( 1 - \prod_{i = 1}^n (1- p_{i}) \right)$
