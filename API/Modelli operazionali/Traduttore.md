@@ -38,4 +38,5 @@ y = $\perp$ (termina a q1)
 Si può passare da un trasduttore ad un FSA che ne riconosca il linguaggio generato algoritmicamente:
 - Si buttano gli ingressi
 - Si trasformano in transizioni le stringhe in uscita:
-	- Se una stringa è 
+	- Se una stringa è vuota si perde la transizione
+	- Se una stringa è di piú caratteri si creano catene di transizioni
