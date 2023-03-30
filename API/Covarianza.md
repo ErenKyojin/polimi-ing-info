@@ -17,4 +17,4 @@ Coefficiente di correlazione lineare
 
 ## Proprietà
 1. $\cov(x,y) = \cov(y,x)\quad ;\quad \cov \text{ è simmetrica}$
-2. 
+2. $\cov(x,x) = \var(x)$
