@@ -77,3 +77,7 @@ $\implies W \sim \exp\left( \sum_{i = 1}^n \lambda_{i} \right)$
 
 
 $Y = \max \{x_{1},\dots,x_{n} \}$
+$$\begin{align}
+F_{Y}(t) &= P(\max\{ x_{1},\dots,x_{n} \} \leq t) = P(x_{1} \leq t,\dots, x_{n }\leq t) \\
+&=F_{\mathbf{x}}(t,t,\dots,t)
+\end{align}$$
