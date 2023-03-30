@@ -27,7 +27,7 @@ Coefficiente di correlazione lineare
 6. $E[(x-\mu x)(y - \mu y)] = E[xy - x\mu_{y} - \mu_{x}y + \mu_{x}\mu_{y}] = E(xy) - \mu_{y}E(x) - \cancel{ \mu_{x}E(y) } + \cancel{ \mu_{x}\mu_{y} }$
    quindi $\cov(x,y) = E(x,y) - E(x)E(y)$
 
-## Difetti della covarianza come misura
+## Difetti della covarianza come misura di interazione
 
 $x =$ altezza in $m$ $\implies$ $\hat{x} =$altezza in $cm$
 $y =$ peso in $kg \implies \hat{y} =$ peso in $hg$
@@ -36,4 +36,4 @@ $\cov(\hat{x},\hat{y}) = cov(100x,10y) = 1000\cov(x,y)$
 covarianza non è ridotta rispetto a $c$ cambiamenti di scala $\implies$ riscalo
 $$ \cov\left( \frac{x-\mu_{x}}{\sigma_{x}} , \frac{y-\mu y}{\sigma_{y}}\right)= \frac{1}{\sigma_{x}\sigma_{y}}\left[ \cov(x_{\gamma}y - \mu_{y} )+ \cov(-\mu_{x}, y-\mu_{y}) \right]  = \frac{\cov(x+y)}{\sigma_{x}\sigma_{y}}$$
 
-$P(x,y)$ è detto [[coefficiente di correlazione lineare]]
+$\rho(x,y)$ è detto [[coefficiente di correlazione lineare]]
