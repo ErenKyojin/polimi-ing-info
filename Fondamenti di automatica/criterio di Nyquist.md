@@ -90,11 +90,11 @@ $L(s) = \frac{4}{s - 1} ( = -\frac{4}{1 - 5} \text{ come per d. Bode})$, $p_{D} 
  ```tikz
   \begin{document}
   \begin{tikzpicture}[scale = 2]
-  \draw[->,thick](0,0) -- (3,0)node[below]{$\Re$};
+  \draw[->,thick](-2,0) -- (3,0)node[below]{$\Re$};
   \draw[->,thick](0,0) -- (0,2)node[right]{$\Im$};
-  \draw[<-,red,ultra thick] (0,0) arc (180:0:.5);
-  \draw[<-,blue , ultra thick] (1,0) arc (360:180:.5);
-  \node (4) at (1.5,0){$\bullet$};
+  \draw[<-,red,ultra thick] (0,0) arc (180:0:-.5);
+  \draw[->,blue , ultra thick] (-1,0) arc (180:0:.5);
+  \node (4) at (-1,0){$\bullet$};
   \node[above]at (4) {$4$};
   \end{tikzpicture}
   \end{document}
