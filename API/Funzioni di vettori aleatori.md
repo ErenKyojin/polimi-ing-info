@@ -21,4 +21,4 @@ Dato un sistema in serie quando si guasta? quando si guasta l'anello debole.
 
 $Y = \max \{ x_{1},\dots,x_{n} \}$ può essere usato per modellizzare il tempo di guasto di un sistema in parallelo.
 
-Ipotesi: $\mathbf{x} = $
+Ipotesi: $\mathbf{x} = \begin{pmatrix}x_{1}\\\vdots \\ x_{n}\end{pmatrix}$
