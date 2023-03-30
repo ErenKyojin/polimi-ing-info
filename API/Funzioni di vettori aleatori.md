@@ -28,4 +28,14 @@ Studiamoli separatamente:
 Parto dalla funzione di ripartizione in un generico punto $P$.
 $F_{W}(t) = 1 - P(W > t) = 1 - P(\min\{ x_{1},\dots,x_{n} \} > t)$
 il minimo è maggiore di $t$ se tutte sono maggiori di $t$, quindi
-$= 1 - P(x_{1} > t, x_{2} > t, \dots, x_{n} > t) = 1 - P(x)$
+$= 1 - P(x_{1} > t, x_{2} > t, \dots, x_{n} > t) = 1 - P(\mathbf{x} \in \{  \mathbf{x} : x_{1} > \mathbf{t}.., x_{n} > t \})$
+
+Se $n = 2$
+```tikz
+\begin{document}
+\begin{tikzpicture}[scale = 2]
+\draw[->] (-1,0) -- (3,0);
+\draw[->] (0,-1) -- (0,2);
+\end{tikzpicture}
+\end{document}
+```
