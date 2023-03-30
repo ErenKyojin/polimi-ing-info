@@ -19,7 +19,7 @@ Condizioni di applicabilità:
 2. || DBM di $L(s)$ taglia l'asse $0 \dB$ una e una sola volta dall'alto verso il basso
 
 Criterio:
-detto $\mu_{2}$ il guadagno di $L(s)$ e $\phi_{m}$ il margine di fase
+detto $M_{L}$ il guadagno di $L(s)$ e $\phi_{m}$ il margine di fase
 $$\text{ Anello chiuso } AS \iff \begin{cases}M_{L} > 0\\ \varphi_{m} > 0\end{cases}$$
 
 
