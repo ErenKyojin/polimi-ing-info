@@ -20,7 +20,7 @@ Prima di vedere il criterio dobbiamo studiare il [[diagramma di Nyquist]] di una
 > \end{tikzpicture}
 > \end{document}
 > ```
-> - Si tracci il DN di L(s)
+> - Si tracci il [[diagramma di Nyquist|DN]] di L(s)
 > - Sia $p_{D}$ o; numero di poli di $L(s)$ con parte reale positiva
 > - Sia $N$ il numero di giri del DN di $L(s)$ attorno al punto $-1$ contatoi con segno positivo se antiorari e negativo se orari; se il DN di $L(s)$ passa per il punto -1 si dice che $N$ non è ben definito
 > 

@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: DN
 creation date: 2023-03-29 11:30
 modification date: 2023-03-29 11:30
 ---
