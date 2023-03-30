@@ -114,3 +114,5 @@ $$
 p_{D} = 0
 $$
 *Nessun polo della funzione di trasferimento ha parte reale positiva*
+
+I
