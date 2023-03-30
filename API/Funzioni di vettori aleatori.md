@@ -90,7 +90,7 @@ F_{Y}(t) &= P(\max\{ x_{1},\dots,x_{n} \} \leq t) = P(x_{1} \leq t,\dots, x_{n }
 \draw[->] (0,-1) -- (0,2)node{$x_2$};
 \draw[] (-1,-1) -- (3,3);
 \draw (tx) to (1,1) to (ty);
-\draw[fill = red!30!black, fill opacity = 0.5] (1,1) -- (-1,1) -- (-1,-2) -- (1,-2) -- (1,1); 
+\draw[fill = red!30!black, fill opacity = 0.5] (1,1) -- (-1,1)[dashed] -- (-1,-2) -- (1,-2) -- (1,1); 
 \end{tikzpicture}
 \end{document}
 ```
