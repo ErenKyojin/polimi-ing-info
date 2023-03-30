@@ -61,4 +61,19 @@ Proviamo ad applicarlo:
 
 
 $L(s) = \frac{4}{1 - S}$ e $p_{D} = 1$
-tikzpicture
+
+ ```tikz
+ \begin{document}
+ \begin{tikzpicture}[scale = 2]
+ \draw[->,thick](0,0) -- (3,0)node[below]{$R$};
+ \draw[->,thick](0,0) -- (0,2)node[right]{$I$};
+ \draw[->,blue,ultra thick] (0,0) arc (180:0:.5);
+ \draw[->,red , ultra thick] (1,0) arc (360:180:.5);
+ \node (4) at (1.5,0){$\bullet$};
+ 
+ \end{tikzpicture}
+ \end{document}
+ ```
+
+
+
