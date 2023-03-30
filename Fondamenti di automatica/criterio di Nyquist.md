@@ -159,4 +159,5 @@ DBM (-1 e -2) e DBF (da -90 a -180)
   \end{tikzpicture}
   \end{document}
   ```
-  N = $P_{D} \implies A $
+  N = $P_{D} \implies$ AC, AS
+Verifico $$\frac{L}{1 + L} = \frac{1}{s^2 + s + 1}\qquad \text{ poli con }\Re < 0$$
