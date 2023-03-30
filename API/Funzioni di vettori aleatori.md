@@ -97,5 +97,7 @@ F_{Y}(t) &= P(\max\{ x_{1},\dots,x_{n} \} \leq t) = P(x_{1} \leq t,\dots, x_{n }
 $(x_{1},\dots,x_{n}) \sim f_{x}$ assolutamente continua quindi $Y$ èè assolutamente continuo
 
 $$
-f_{y}(t) = \frac{dF(t,\mathbf{t}..,)}{dt} 
+f_{y}(t) = \frac{d\mathbf{F}(t_{1},t_{2}, ...,t_{n})}{dt} \qquad \forall t : F_{\mathbf{x}} \text{ deriabile in }\mathbf{t} = (\mathbf{t}..,t)
 $$
+
+$x$
