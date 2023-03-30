@@ -240,4 +240,6 @@ VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure 
 Una funzione $f : N \to N$ è calcolabile se e solo se esiste una macchina di Turing che la calcola, ossia esiste un valore $y \in N$ taleche $f_{y} = f$
 
 >[!esempio]
->$$ g(y,x_} $$
+>$$ g(y,x) = \begin{cases}1\quad &\text{se }f_{y}(x) \neq 1\\0&se f_{y}(x) = 1\end{cases} $$
+>$g(3,8)$ calcolabile? SI, in quanto si tratta di una funzione costante,
+
