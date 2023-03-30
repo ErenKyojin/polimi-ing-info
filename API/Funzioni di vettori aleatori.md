@@ -75,7 +75,7 @@ $\implies W \sim \exp\left( \sum_{i = 1}^n \lambda_{i} \right)$
 > $\implies P(W > t) = (1 - \theta)^t$
 > $\implies W \sim \text{Geom}\left( 1 - \prod_{i = 1}^n (1- p_{i}) \right)$
 
-
+### MASSIMO
 $Y = \max \{x_{1},\dots,x_{n} \}$
 $$\begin{align}
 F_{Y}(t) &= P(\max\{ x_{1},\dots,x_{n} \} \leq t) = P(x_{1} \leq t,\dots, x_{n }\leq t) \\
@@ -107,3 +107,4 @@ $\implies F_{Y}(t) = \prod_{i = 1}^n F_{x_{i}}(t)$
 $$= F_{x}^n(t)$$
 - + assolutamente continua allora anche $Y$ è assolutamente continua con densità
   $$ f_{y}(t) = nF_{x}^{n-1}(t) f_{x}(t) $$
+
