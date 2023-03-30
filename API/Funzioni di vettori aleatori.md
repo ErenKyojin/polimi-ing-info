@@ -133,3 +133,12 @@ se $\mathbf{x} \sim F_{\mathbf{x}} \neq F_{x_{1}},\dots, F_{x_{n}}$
 Se $x \sim F_{x}$ è una variabile aleatoria $y = g(x)$ allora $E(y) = E(g(x))$ esiste se:
 - caso discreto: $\sum_{\{ x \}}g(x)f_{x}(x) = E(y)$ se $E(y)$ esiste, ed esiste se esiste $\sum_{\{ x \}}|g(x)|f_{x}(x) < \infty$
 - caso assolutamente continua: $\sum \longrightarrow \int$
+
+Se sono nel continuo assolutamente
+$$
+\int _{\mathbb{R}} \! \, \longrightarrow \int \dots \int _{\mathbb{R}^n}   
+$$
+
+>[!esempio]
+>Se $\mathbf{x} \sim f_{\mathbf{x}}$ assolutamente continua allora
+>$$ E $$ 
