@@ -144,6 +144,7 @@ $$
 >$$ E(y) \exists \text{se }\int \dots \int _{\mathbb{R}^n} \! \, \mathrm{d}x \mathrm{d}x  $$ 
 
 ```tikz
+\usetikzlibrary{animations}
 \begin{document}
 \begin{tikzpicture}[
     animate/orbit/.style 2 args = {
@@ -166,5 +167,5 @@ $$
 
   \useasboundingbox (-3.8,-3.8) (3.8,3.8);
 \end{tikzpicture}
-\document
+\end{document}
 ```
