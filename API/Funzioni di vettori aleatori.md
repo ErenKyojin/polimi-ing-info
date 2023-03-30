@@ -94,3 +94,8 @@ F_{Y}(t) &= P(\max\{ x_{1},\dots,x_{n} \} \leq t) = P(x_{1} \leq t,\dots, x_{n }
 \end{tikzpicture}
 \end{document}
 ```
+$(x_{1},\dots,x_{n}) \sim f_{x}$ assolutamente continua quindi $Y$ èè assolutamente continuo
+
+$$
+f_{y}(t) = \frac{dF(t,\mathbf{t}..,)}{dt} 
+$$
