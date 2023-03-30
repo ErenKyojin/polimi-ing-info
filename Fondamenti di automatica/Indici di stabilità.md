@@ -21,7 +21,7 @@ $$
 \end{tikzpicture}
 \end{document}
 ```
-
+In rosso L,
 Supponiamo che $L(j\omega)$ intersechi il semiasse $\mathbb{R}^-$ cioè che $\exists$ finito $\omega_{w}$ tale che $\angle L(j\omega_{u}) = -180^o$
 
 $\alpha =$distanza tra l'intersezione di $L(j\omega)$ con $\mathbb{R}^-$ e $\Im$
@@ -49,6 +49,7 @@ Se non c'è intersezione con $R^-\quad k_{m}= \infty$
 \end{document}
 ```
 
+
 Frequenza cirtica $\omega_{c}$ quella per cui $|L(j\omega_{c})| = 1$
 Fase critica $\varphi_{c} = \angle^o L(j\omega_{c})$ in rosa
 Margine di fase in giallo
@@ -74,3 +75,5 @@ Interpretazione grafica:
 ```
 L1 in rosso conduce ad AC AS, $\varphi_{m} > 0, k_{m} > 1$
 L2 in blu conduce ad AC non AS, $\varphi_{m} < 0$
+
+Se abbiamo $\varphi_{m} = 0$ e $k_{m} = 1$ si dice AC al limite di stabilità
