@@ -46,7 +46,7 @@ Proviamo ad applicarlo:
 > \draw[->,thick](0,0) -- (0,2)node[right]{$I$};
 > \draw[->,blue,ultra thick] (0,0) arc (180:0:.5);
 > \draw[->,red , ultra thick] (1,0) arc (360:180:.5);
-> \node
+> \node[above] at (1.5,0){$1$};
 > \end{tikzpicture}
 > \end{document}
 > ```
@@ -77,4 +77,6 @@ $L(s) = \frac{4}{1 - S}$ e $p_{D} = 1$
  ```
 
 
+N ben definito ma $\neq P_{D} \implies$ AC non AS
 
+Verifica $$\frac{1}{1 + L} = \frac{1}{1 + \frac{4}{1 - s}} = \frac{1 - s}{}$$
