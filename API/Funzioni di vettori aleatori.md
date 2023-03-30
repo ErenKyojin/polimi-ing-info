@@ -17,3 +17,8 @@ $f_{\mathbf{y}}(\mathbf{t}) = \partial^m \int \dots \int  \! f_{\mathbf{x}}(\mat
 $W = \min\{ x_{1},\dots,x_{n} \}$ è il tempo di guasto di un sistema in serie di $n$ componenti tale che $c_{1}$ ha tempo di guasto $x_{1}$ ,..., $c_{n}$ ha tempo di guasto $x_{n}$.
 
 Dato un sistema in serie quando si guasta? quando si guasta l'anello debole.
+
+
+$Y = \max \{ x_{1},\dots,x_{n} \}$ può essere usato per modellizzare il tempo di guasto di un sistema in parallelo.
+
+Ipotesi: $\mathbf{x} = $
