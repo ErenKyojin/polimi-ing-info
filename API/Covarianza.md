@@ -21,4 +21,4 @@ Coefficiente di correlazione lineare
 3. $\cov(x,c) = E[(x-\mu x)(c - c)] = 0$ con $c$ costante
 4. $\cov(ax,by)= E[(ax - a\mu x)(by-b\mu y)]=E[(x - \mu x)(y - \mu y)]ab = ab\ \cov(x,y)$
 5. $\cov(ax, by + W) = E[a(x-\mu x)(by + W - bE(y) - E(W))] = aE[(x-\mu x)(b(y-\mu Y) + (W - \mu W))]$
-   $= a$
+   $= ab \cov()$
