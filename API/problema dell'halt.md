@@ -20,6 +20,13 @@ Stabilire se, dato un programam con un dato in ingresso andrà in loop  è un [[
 >$\CVD$
 >
 
+```cpp
+#include G
+
+int h()
+```
+
+
 >[!corollario]
 >La funzione $h'(x) = g(x,x)\quad\begin{align}=1\ \text{se}\ f_{x}(x) \neq \perp\\=0\ \text{se }f_{x}(x) = \perp\end{align}$ non è calcolabile
 >
