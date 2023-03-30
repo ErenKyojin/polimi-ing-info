@@ -117,8 +117,15 @@ $$
  Y = \prod_{i = 1}^n x_{i}\qquad (x_{i}\text{ non sono necessariamente indipendenti})
 $$
 
+#### Obiettivo
 Il nostro obiettivo è trovare il valore atteso di $Y$: $E(Y)$ con $Y = g(\mathbf{x})$
 dove
 $$
-g : \mathbb{R}^n \longrightarrow \mathbb{R}\quad o
+g : \mathbb{R}^n \longrightarrow \mathbb{R}\quad \text{ ossia  }y \text{ variabile aleatoria}
 $$
+
+#### **Problema**
+d. quando $\mu_{y}$ esiste
+b. come lo calcolo?
+
+se $\mathbf{x} \sim F_{\mathbf{X}}$
