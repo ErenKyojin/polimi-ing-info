@@ -123,3 +123,11 @@ Se $N < 0$ (L fa piú giri orari che antiorari attorno a -1) l'anello chiuso non
 $$
 L(s) = \frac{1}{s(1 + s)}\qquad p_{D} = 0
 $$
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) -- (1,-1) -- (1.5,-2);
+\draw (0,-2) -- (1,-3) 
+\end{tikzpicture}
+\end{document}
+```
