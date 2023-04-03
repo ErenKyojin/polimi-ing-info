@@ -115,7 +115,7 @@ $$
 \draw[green,thick] (0,0) -- (3,0);
 
 
-\node[yellow, scale = 4] at (1.5,0){$\color{yellow}\bullet$};
+\draw[fill = yellow!40] (1.5,0) circle (.25);
 
 \node[yellow] (omec) at (0,0){$\bullet$};
 \draw[yellow] (0,0) -- ++ (0,-2);
