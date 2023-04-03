@@ -219,3 +219,15 @@ Traduzione sul DBM di L
 \end{document}
 ```
 
+
+## Mettendo tutto assieme
+
+```tikz
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}
+\draw[-{Stealth[scale = 2]}] (-5,0) -- (5,0);
+\end{tikzpicture}
+\end{document}
+```
+
