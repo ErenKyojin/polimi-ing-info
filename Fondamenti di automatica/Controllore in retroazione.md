@@ -198,4 +198,8 @@ $$ \frac{Y(j\omega)}{D_{a}(j\omega)} = |\mathcal{S}(\omega)| < \frac{\Delta_{a}}
 
 ### Vincolo sulla relazione di un disturbo in retroazione
 
+Un disturbo $d_{r}(t) = B\sin(\omega_{r}(t))$
 
+con $|B| < \bar{B}$
+e $\omega_{c} < \omega_{r_{1}} < \omega_{r} <\omega_{r_{2}} \leq \infty$
+Deve produrre su $y$ un effetto asintotico di ampizza non superiore a $\Delta_{}$
