@@ -73,7 +73,7 @@ Vediamo degli esempi:
 >[!esempio]
 >$$\begin{align}
 > &\text{FdT} = \frac{E(s)}{D_{r}(s)}  \\
-> & \frac{E}{D_{r}}
+> & \frac{E}{D_{r}} = \frac{W - Y}{D_{r}} = \frac{W}{D_{r}} - \frac{Y}{D_{r}}
 >\end{align}$$
 >
 
