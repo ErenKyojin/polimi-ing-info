@@ -147,3 +147,15 @@ $$
 >>Passano inalterate
 >>Compaiono attenuate
 
+
+
+Vincolo sulla velocità di risposta
+$\omega_{c_{1} min} < \omega _c (< \omega_{c_{1} max})$
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) -- (2,0)
+\end{tikzpicture}
+\end{document}
+```
