@@ -17,7 +17,9 @@ Schema:
 \draw (1,-.25) rectangle (1.5,.25) node[midway]{R};
 \draw (1.5,0) -- (2,0) node[midway, above]{$u$};
 \draw (2,-.25) rectangle (2.5,.25) node[midway]{P};
-\node at (3,0){$\bullet$};
+\node (da) at (3,0){$\bullet$};
+\draw[-latex] (2.5,0) -- (da.center);
+\draw[latex-] (da.center) -- ++ (0,0.5);
 \end{tikzpicture}
 \end{document}
 ```
