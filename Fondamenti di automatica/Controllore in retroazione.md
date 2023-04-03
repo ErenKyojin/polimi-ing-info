@@ -12,7 +12,7 @@ Schema:
 \begin{document}
 \begin{tikzpicture}[scale = 2]
 \node (t) at (.5,0){$\bullet$};
-\draw[-latex] (0,0) -- (t.center);
+\draw[-latex] (0,0) node[left]{$w$} -- (t.center);
 \draw[-latex] (t.center) -- (1,0);
 \draw (1,-.25) rectangle (1.5,.25) node[midway]{R};
 \draw (1.5,0) -- (2,0) node[midway, above]{$u$};
@@ -23,7 +23,8 @@ Schema:
 \draw[-latex] (da.center) -- ++ (1,0) node[above]{$y$};
 \draw (3.5,0) -- ++ (0,-.5) node(dr){$\bullet$};
 \draw[latex-] (dr.center) -- ++ (0.5,0) node[right]{$dr$};
-\draw[-latex] (dr.center) -- ()
+\draw[-latex] (dr.center) -| (t.center);
+\node[below left] (t) {$t$};
 \end{tikzpicture}
 \end{document}
 ```
