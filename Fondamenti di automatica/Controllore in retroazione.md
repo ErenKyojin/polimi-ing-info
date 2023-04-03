@@ -228,15 +228,15 @@ Traduzione sul DBM di L
 \begin{tikzpicture}
 \draw[-{Stealth[scale = 2]}] (-5,0) -- (5,0);
 
-\draw[blue, fill = blue, fill opacity = .2] (-3,-1.5) -- (-3,1.5) -- (-1,1.5) -- (-1,-1.5);
+\draw[blue, fill = blue, fill opacity = .2] (-4,-1.5) -- (-4,1.5) -- (-2,1.5) -- (-2,-1.5);
 
 \draw[blue, fill = blue, fill opacity = .2] (2,1.5) -- (2,-1.5) -- (4, -1.5) -- (4,1.5);
 
-\draw[smooth,green, thick] (-4, 2) to[out= 0, in = 90] (0,0) to[out = 270, in = 180] (4,-2) node[right]{$|L|$};
+\draw[smooth,green, thick] (-4, 2) to[out= 0, in = 135] (0,0) to[out = 270, in = 180] (4,-2) node[right]{$|L|$};
 \draw[blue, dashed] (2,1.5) -- ++ (0,1);
 \draw[blue, dashed] (4,1.5) -- ++ (0,1);
-\draw[blue, dashed] (-3,-1.5) -- ++ (0,-1);
-\draw[blue, dashed] (-1,-1.5) -- ++ (0,-1);
+\draw[blue, dashed] (-4,-1.5) -- ++ (0,-1);
+\draw[blue, dashed] (-2,-1.5) -- ++ (0,-1);
 
 \end{tikzpicture}
 \end{document}
