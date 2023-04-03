@@ -202,4 +202,6 @@ Un disturbo $d_{r}(t) = B\sin(\omega_{r}(t))$
 
 con $|B| < \bar{B}$
 e $\omega_{c} < \omega_{r_{1}} < \omega_{r} <\omega_{r_{2}} \leq \infty$
-Deve produrre su $y$ un effetto asintotico di ampizza non superiore a $\Delta_{}$
+Deve produrre su $y$ un effetto asintotico di ampizza non superiore a $\Delta r$
+
+Occore che $$| \frac{Y(j \omega)}{D_{r}(j\omega)} | < \frac{\Delta r}{\bar{B}}$$
