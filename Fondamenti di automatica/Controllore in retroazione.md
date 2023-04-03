@@ -181,4 +181,4 @@ $(1 - e^{-\omega_{c}(t)} )\sca(t)$
 	$$\frac{\text{max ampiezza accettata dall'effetto su }y}{\text{max ampiezza possibile di }d_{a}}$$
 	ossia.
 $$ \frac{Y(j\omega)}{D_{a}(j\omega)} = |\mathcal{S}(\omega)| < \frac{\Delta_{a}}{\bar{A}} \qquad \text{per }\omega_{a_{1}} < \omega < \omega_{a_{2}}$$
- Peró per $\omega \ll \omega_{c}$ 
+ Peró per $\omega \ll \omega_{c}$ abbiamo che $\mathcal{S} = \dfrac{1}{L}$  e quindi occorre $|L| > \frac{\bar{A}}{\Delta_{a}}$ 
