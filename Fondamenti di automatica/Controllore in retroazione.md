@@ -19,17 +19,15 @@ Schema:
 \draw (2,-.25) rectangle (2.5,.25) node[midway]{P};
 \node (da) at (3,0){$\bullet$};
 \draw[-latex] (2.5,0) -- (da.center);
-\draw[latex-] (da.center) -- ++ (0,0.5)node[midway,left]{$da$};
+\draw[latex-] (da.center) -- ++ (0,0.5)node[midway,left]{$d_a$};
 \draw[-latex] (da.center) -- ++ (1,0) node[above]{$y$};
 \draw (3.5,0) -- ++ (0,-.5) node(dr){$\bullet$};
-\draw[latex-] (dr.center) -- ++ (0.5,0) node[right]{$dr$};
+\draw[latex-] (dr.center) -- ++ (0.5,0) node[right]{$d_r$};
 \draw[-latex] (dr.center) -| (t.center);
 \node[below left =.1mm] at (t) {$t$};
 \end{tikzpicture}
 \end{document}
 ```
-
-#todo %%schema del controllore in retroazione%%
 
 | Cosa c'è nei segnali di ingresso | componenti canoniche </br> Trasformata di Laplace|TDL del tipo $k/s^n$ |  sinusoidi   | rumore |
 |:--------------------------------:|:-----------------------------------------------:|:------------:| ------ |
