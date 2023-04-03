@@ -104,13 +104,15 @@ $$
 \begin{tikzpicture}[scale = 3]
 \draw[-{Stealth[scale = 2]}] (-3,0) -- (3,0) node[below]{$\omega$};
 \draw[variable = \x, domain = -2.5:2.5,red,thick] plot ({\x}, {rad(-atan(\x))});
-\draw[blue, thick] (-3,0) -- (omec);
+\draw[blue, thick] (-3,0) -- (0,0);
+\draw[variable = \x, domain = 0:2.5,blue,thick] plot ({\x}, {rad(-atan(\x) -1)});
 \node[yellow] (omec) at (0,0){$\bullet$};
 \draw[yellow] (0,0) -- ++ (0,-2);
 \node[above right] at (omec){F critica $\omega_c$};
 \end{tikzpicture}
 \end{document}
 ```
+
 
 
 
