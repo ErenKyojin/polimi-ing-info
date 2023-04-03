@@ -59,9 +59,9 @@ e_{\infty} &= \lim_{ t \to \infty } \underbrace{ = }_{ TVF } \lim_{ s \to 0 }sE(
 &= \lim_{ s \to 0 } \left( \frac{W(s)}{W(s)}- \frac{Y(s)}{W(s)}  \right) = \lim_{ s \to 0 } (1 - T(s)) =  \\
  & = \lim_{ s \to 0 }  S(s) = \lim_{ s \to 0 } \frac{s^{g_{L}} / \mu_{L} }{1 + s^{g_{L}} / \mu_{L}} = \lim_{ s \to 0 } \frac{s^{g_{L}}}{s^{g_{L}} + \mu_{L}} = \\
 &= \begin{cases}
-1&\text{g < 0} \\
-\frac{1}{1 + \mu_{L}} \\
-0
+1&g_{L} < 0 \\
+\frac{1}{1 + \mu_{L}}  &g_{L} = 0\\
+0 &g_{L} > 0
 \end{cases}
 \end{align}$$
 
