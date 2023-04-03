@@ -232,8 +232,11 @@ Traduzione sul DBM di L
 
 \draw[blue, fill = blue, fill opacity = .2] (2,1.5) -- (2,-1.5) -- (4, -1.5) -- (4,1.5);
 
-\draw[smooth] (-4, 2) to (0,0) to (4,-2);
+\draw[smooth] (-4, 2) to[out= 0, in = 90] (0,0) to[out = 270, in = 180] (4,-2);
 \end{tikzpicture}
 \end{document}
 ```
 
+
+Occorre trovare per tentativi una FdT L(s) che
+- Rispetti i vincoli del PS su $\mu_{L}$ e/o $g_{L}$
