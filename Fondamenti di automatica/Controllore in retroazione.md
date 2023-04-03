@@ -8,7 +8,14 @@ modification date: 2023-03-30 18:47
 (SD LTI a TC SISO nelle ipotesi di Bode)
 
 Schema:
-
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node at (.5,0){$\bullet$};
+\node at ()
+\end{tikzpicture}
+\end{document}
+```
 
 #todo %%schema del controllore in retroazione%%
 
