@@ -233,6 +233,9 @@ Traduzione sul DBM di L
 \draw[blue, fill = blue, fill opacity = .2] (2,1.5) -- (2,-1.5) -- (4, -1.5) -- (4,1.5);
 
 \draw[smooth,green, thick] (-4, 2) to[out= 0, in = 90] (0,0) to[out = 270, in = 180] (4,-2) node[right]{$|L|$};
+\draw[blue, dashed] (2,1.5) -- ++ (0,1);
+\draw[blue,]
+
 \end{tikzpicture}
 \end{document}
 ```
@@ -241,4 +244,4 @@ Traduzione sul DBM di L
 Occorre trovare per tentativi una FdT L(s) che
 - Rispetti i vincoli del PS su $\mu_{L}$ e/o $g_{L}$
 - Rispetti i vincoli del PD come indicati sul foglio semilog
-- Cotnengua eventuali zeri di $$
+- Cotnengua eventuali zeri di $P(s)$ nel semipiano destro in modo che $R(s)$ non li cancelli
