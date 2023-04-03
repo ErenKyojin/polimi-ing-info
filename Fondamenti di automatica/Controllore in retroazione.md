@@ -53,5 +53,7 @@ Con sinusoidi e rumore componenti armoniche
 - Impongo i requisiti $|e_{\infty}|< tot$ o $e_{\infty} = 0$ e ottengo su gadagno e o tipo della [[funzione di trasferimento|FdT]] d'anello $L(s)$
 
 Caso $w(t) = \sca(t) : e_{\infty}?$
-$e_{\infty} = \lim_{ t \to \infty } \underbrace{ = }_{ TVF } \lim_{ s \to 0 }sE(s) = \lim_{ s \to 0 }$
+$$e_{\infty} = \lim_{ t \to \infty } \underbrace{ = }_{ TVF } \lim_{ s \to 0 }sE(s) = \lim_{ s \to 0 } \cancel{ s } \frac{1}{\cancel{ s }} \frac{E(s)}{W(s)}$$
+
 ### 2. Progetto dinamico (PD)
+
