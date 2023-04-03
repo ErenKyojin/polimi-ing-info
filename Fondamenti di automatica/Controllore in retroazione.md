@@ -111,7 +111,7 @@ $$
 \draw[blue, thick] (-3,0) -- (0,0);
 \draw[variable = \x, domain = 0:2.5,blue,thick] plot ({\x}, {rad(-atan(\x) -2)});
 
-\draw[variable = \x, domain = -2.5:0,green,thick] plot ({\x}, {rad(atan(\x))}) node[$$];
+\draw[variable = \x, domain = -2.5:0,green,thick] plot ({\x}, {rad(atan(\x))}) node[below left]{$|S| = |Y/D_r|$};
 \draw[green,thick] (0,0) -- (3,0);
 
 \node[yellow] (omec) at (0,0){$\bullet$};
