@@ -22,6 +22,7 @@ Schema:
 \draw[latex-] (da.center) -- ++ (0,0.5)node[midway,left]{$da$};
 \draw[-latex] (da.center) -- ++ (1,0) node[above]{$y$};
 \draw (3.5,0) -- ++ (0,-.5) node(dr){$\bullet$};
+\drwa (dr.center) -- ++ (0,.5) node[left]{$dr$};
 \end{tikzpicture}
 \end{document}
 ```
@@ -49,6 +50,6 @@ Con sinusoidi e rumore componenti armoniche
 - Assumo che il sistema in anello chiuso sia asintoticamente stabile (lo proveremo poi)
 - Considero le sole componenti canoniche di $w$ e di $d_{a}$
 - Esprimo $e_{\infty} := \lim_{ t \to \infty } e(t) = \lim_{ t \to \infty } (w(t)-y(t))$ col TVF
-- Impongo i requisiti $|e_{\infty}|< tot$ o $e$
+- Impongo i requisiti $|e_{\infty}|< tot$ o $e_{\infty} = 0$ e ottengo su gadagno e o tipo della [[funzione di trasferimento|FdT]] d'anello $L(s)$
 
 ### 2. Progetto dinamico (PD)
