@@ -114,6 +114,8 @@ $$
 \draw[variable = \x, domain = -2.5:0,green,thick] plot ({\x}, {rad(atan(\x))}) node[below left = 3cm]{$|S| = |Y/D_r|$};
 \draw[green,thick] (0,0) -- (3,0);
 
+\node[yellow, siz] at (1.5,0){$\bullet$};
+
 \node[yellow] (omec) at (0,0){$\bullet$};
 \draw[yellow] (0,0) -- ++ (0,-2);
 \node[above right] at (omec){F critica $\omega_c$};
@@ -131,13 +133,14 @@ $$
 >[!multi-column]
 >
 >
-> [!NOTE]
+>>[!NOTE]
 > >Copmonenti di segnali di
 > >$w$ = $|T|$ passano inalterate $|RF| \approx 1$
 > >$d_{a} = |S|$  compaiono attenuatee $|RF| \ll 1$
 > >$d_{r} = |T|$ passano inalterate
 > 
 >>[!Note]
+>>E a destra
 >>Compaiono attenuate
 >>Passano inalterate
 >>Compaiono attenuate
