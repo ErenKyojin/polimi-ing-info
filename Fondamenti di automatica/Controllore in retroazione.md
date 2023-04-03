@@ -78,7 +78,7 @@ Vediamo degli esempi:
 >
 
 >[!oss]
->Se $e_{\infty}$ è prodotto da piú cuse le condizioni risultanti su $\mu_{L}$ e o $g_{L}$ vanno imposte individualmente perchè a  
+>Se $e_{\infty}$ è prodotto da piú cuse le condizioni risultanti su $\mu_{L}$ e o $g_{L}$ vanno imposte individualmente perchè a priori non è noto quando le cause si presentano 
 
 ### 2. Progetto dinamico (PD)
 
