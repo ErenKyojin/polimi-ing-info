@@ -227,7 +227,7 @@ Traduzione sul DBM di L
 \begin{document}
 \begin{tikzpicture}
 
-\draw[-{Stealth[scale = 2]}] (-5,0)\node[above]{0 dB} -- (5,0) node[right]{$\omega$};
+\draw[-{Stealth[scale = 2]}] (-5,0)node[above]{0 dB} -- (5,0) node[right]{$\omega$};
 
 
 \draw[blue, fill = blue, fill opacity = .2] (-4,-1.5) -- (-4,1.5) -- (-2,1.5) -- (-2,-1.5);
