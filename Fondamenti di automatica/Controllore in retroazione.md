@@ -104,7 +104,9 @@ $$
 \begin{tikzpicture}[scale = 3]
 \draw[-{Stealth[scale = 2]}] (-3,0) -- (3,0);
 \draw[variable = \x, domain = -2.5:2.5,red,thick] plot ({\x}, {rad(-atan(\x))});
-\node
+\node[yellow] (omec) at (0,0){$\bullet$};
+\draw[yellow] (0,0) -- ++ (0,-2);
+\node at (omec){F critica};
 \end{tikzpicture}
 \end{document}
 ```
