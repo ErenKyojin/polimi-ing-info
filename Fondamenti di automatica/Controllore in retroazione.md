@@ -24,7 +24,7 @@ Schema:
 \draw (3.5,0) -- ++ (0,-.5) node(dr){$\bullet$};
 \draw[latex-] (dr.center) -- ++ (0.5,0) node[right]{$dr$};
 \draw[-latex] (dr.center) -| (t.center);
-\node[below left] (t) {$t$};
+\node[below left =.1mm] at (t) {$t$};
 \end{tikzpicture}
 \end{document}
 ```
