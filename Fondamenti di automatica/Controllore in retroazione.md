@@ -91,6 +91,18 @@ $$
 L &|L| \ll 1
 \end{cases} \\
 
-&\mathcal{S} = \frac{Y}{D_{a}} = \frac{1}{1 }
+&\mathcal{S} = \frac{Y}{D_{a}} = \frac{1}{1 + L} \approx \begin{cases}
+\frac{1}{L}  & |L| \gg 1\\
+1 &|L| \ll 1
+\end{cases}
 \end{align}
 $$
+
+```tikz
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}[scale = 2]
+\draw[-Steak] (-3,0) -- (3,0);
+\end{tikzpicture}
+\end{document}
+```
