@@ -10,10 +10,11 @@ modification date: 2023-03-30 18:47
 Schema:
 ```tikz
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[scale = 2]
 \node (t) at (.5,0){$\bullet$};
 \draw[-latex] (0,0) -- (t.center);
-\draw[-latex] (t.center) -- (0,1);
+\draw[-latex] (t.center) -- (1,0);
+\draw (1,-.25) rectangle (1,.25);
 \end{tikzpicture}
 \end{document}
 ```
