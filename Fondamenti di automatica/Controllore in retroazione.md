@@ -102,7 +102,9 @@ $$
 \usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}[scale = 2]
-\draw[-Steak] (-3,0) -- (3,0);
+\draw[-{Stealth[scale = 2]}] (-3,0) -- (3,0);
+\draw plot[variable = \x, domain = -2.5:2.5]{arctan(deg(\x))};
 \end{tikzpicture}
 \end{document}
 ```
+
