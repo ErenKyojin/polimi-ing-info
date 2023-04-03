@@ -27,7 +27,7 @@ Schema:
 
 #todo %%schema del controllore in retroazione%%
 
-| Cosa c'è nei segnali di ingresso | componenti canoniche </br> [[Trasformata di Laplace|TDL]] del tipo $k/s^n$ |  sinusoidi   | rumore |
+| Cosa c'è nei segnali di ingresso | componenti canoniche </br> Trasformata di Laplace|TDL del tipo $k/s^n$ |  sinusoidi   | rumore |
 |:--------------------------------:|:-----------------------------------------------:|:------------:| ------ |
 |               $w$                |             $\checkmark$ no [[impulso]]             | $\checkmark$ | X^[1]      |
 |             $d_{a}$              |                  $\checkmark$                   | $\checkmark$ |    X    |
@@ -45,6 +45,7 @@ Con sinusoidi e rumore componenti armoniche
 
 ### 1. Progetto statico (PS)
 
-Assumo che il sistema in anello chiuso sia asintoticamente stabile (lo proveremo poi)
-
+- Assumo che il sistema in anello chiuso sia asintoticamente stabile (lo proveremo poi)
+- Considero le sole componenti canoniche di $w$ e di $d_{a}$
+- Esprio $e_{\infty} := \lim_{ t \to \infty }$
 ### 2. Progetto dinamico (PD)
