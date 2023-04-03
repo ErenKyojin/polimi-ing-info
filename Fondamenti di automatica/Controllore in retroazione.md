@@ -157,7 +157,9 @@ $\omega_{c_{1} min} < \omega _c (< \omega_{c_{1} max})$
 \begin{tikzpicture}
 \draw[-latex,thick] (-5,0) -- (5,0)node[right]{$\omega$};
 \draw[red] (-4,1) -- (4,-1);
-\draw[blue] (-4.5,0) -- (0,0) -- (3.9,-1.1);
+\draw[blue] (-4.5,0) -- (-.1,0) -- (3.9,-1);
 \end{tikzpicture}
 \end{document}
 ```
+
+$w \to T(S)$
