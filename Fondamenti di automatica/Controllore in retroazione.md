@@ -14,7 +14,8 @@ Schema:
 \node (t) at (.5,0){$\bullet$};
 \draw[-latex] (0,0) -- (t.center);
 \draw[-latex] (t.center) -- (1,0);
-\draw (1,-.25) rectangle (1,.25);
+\draw (1,-.25) rectangle (1.5,.25) node[midway]{R};
+\draw (1.5,0) -- (2,0) node[midway, above]{$u$};
 \end{tikzpicture}
 \end{document}
 ```
