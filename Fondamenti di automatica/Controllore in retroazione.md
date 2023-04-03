@@ -178,4 +178,7 @@ $(1 - e^{-\omega_{c}(t)} )\sca(t)$
 	e $0 \leq \omega_{a_{1}} < \omega_{a} < \omega_{a_{2}} < \omega_{c}$
 	Deve produrre asintoticamente su $y(t)$ un effetto di ampiezza non superiore a $\Delta_{a}$
 	Per rispettare il vincolo occorre che nella banda $[\omega_{a_{1}}, \omega_{a_{2}}]$ del disturbo il modulo dello RF della FdT da $d_{a}(t)$ a $y(t)$ sia piú piccolo di
-	$$\text{max ampiezza accettata dall'effetto su }$$
+	$$\frac{\text{max ampiezza accettata dall'effetto su }y}{\text{max ampiezza possibile di }d_{a}}$$
+	ossia.
+$$ \frac{Y(j\omega)}{D_{a}(j\omega)} = |\mathcal{S}(\omega)| < \frac{\Delta_{a}}{\bar{A}} \qquad \text{per }\omega_{a_{1}} < \omega < \omega_{a_{2}}$$
+ 
