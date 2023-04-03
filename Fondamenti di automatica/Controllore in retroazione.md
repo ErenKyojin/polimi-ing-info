@@ -187,7 +187,8 @@ $$ \frac{Y(j\omega)}{D_{a}(j\omega)} = |\mathcal{S}(\omega)| < \frac{\Delta_{a}}
  \usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
-\draw (-5,0) -- (5,0);
+\draw[-{Stealth[scale = 2]}] (-5,0) node[above]{0 dB} -- (5,0) node[right]{$\omega$};
+\draw[blue] (-3,
 \end{tikzpicture}
 \end{document}
 ```
