@@ -73,9 +73,12 @@ Vediamo degli esempi:
 >[!esempio]
 >$$\begin{align}
 > &\text{FdT} = \frac{E(s)}{D_{r}(s)}  \\
-> & \frac{E}{D_{r}} = \frac{W - Y}{D_{r}} = \underbrace{ \frac{W}{D_{r}} }_{ = 0,\ w \text{ non dipende da }D_{r} } - \frac{Y}{D_{r}}
+> & \frac{E}{D_{r}} = \frac{W - Y}{D_{r}} = \underbrace{ \frac{W}{D_{r}} }_{ {= 0,\ w \text{ non dipende da }D_{r} } - \frac{Y}{D_{r}}}
 >\end{align}$$
 >
+
+>[!oss]
+>Se $e_{\infty}$ è prodotto da piú cuse le condizioni risultanti su $\mu_{L}$ e o $g_{L}$ vanno imposte individualmente perchè a  
 
 ### 2. Progetto dinamico (PD)
 
