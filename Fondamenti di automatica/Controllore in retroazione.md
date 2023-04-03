@@ -29,7 +29,7 @@ Schema:
 \end{document}
 ```
 
-| Cosa c'è nei segnali di ingresso | componenti canoniche </br> Trasformata di Laplace|TDL del tipo $k/s^n$ |  sinusoidi   | rumore |
+| Cosa c'è nei segnali di ingresso | componenti canoniche </br> TDL del tipo $k/s^n$ |  sinusoidi   | rumore |
 |:--------------------------------:|:-----------------------------------------------:|:------------:| ------ |
 |               $w$                |             $\checkmark$ no [[impulso]]             | $\checkmark$ | X^[1]      |
 |             $d_{a}$              |                  $\checkmark$                   | $\checkmark$ |    X    |
