@@ -11,8 +11,9 @@ Schema:
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\node at (.5,0){$\bullet$};
-\node at ()
+\node (t) at (.5,0){$\bullet$};
+\draw[-latex] (0,0) -- (t.center);
+\draw[-latex] (t.center) -- (0,1);
 \end{tikzpicture}
 \end{document}
 ```
