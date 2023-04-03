@@ -22,17 +22,3 @@ Criterio:
 detto $M_{L}$ il guadagno di $L(s)$ e $\phi_{m}$ il margine di fase
 $$\text{ Anello chiuso } AS \iff \begin{cases}M_{L} > 0\\ \varphi_{m} > 0\end{cases}$$
 
-
-#todo %%schema del controllore in retroazione%%
-
-| Cosa c'è nei segnali di ingresso | componenti canoniche </br> TDL del tipo $k/s^n$ |  sinusoidi   | rumore |
-|:--------------------------------:|:-----------------------------------------------:|:------------:| ------ |
-|               $w$                |             $\checkmark$ no impulso             | $\checkmark$ | X^[1]      |
-|             $d_{a}$              |                  $\checkmark$                   | $\checkmark$ |    X    |
-|             $d_{r}$              |           X al piú sporadici impulsi            | $\checkmark$ |     $\checkmark$   |
-
-Con sinusoidi e rumore componenti armoniche
-
----
-[^1]: modulo che non venga da un altra misura
-
