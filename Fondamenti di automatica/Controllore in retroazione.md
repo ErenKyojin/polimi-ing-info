@@ -102,7 +102,8 @@ $$
 \usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}[scale = 3]
-\node[above] at (-2.5,0){$|T = |Y/W| = |Y/D_r|$};
+\node[above] at (-2,0){$|T = |Y/W| = |Y/D_r|$};
+\node at (-2, -.25){$w = \omega_1 \sin(t)$};
 \draw[-{Stealth[scale = 2]}] (-3,0) -- (3,0) node[below]{$\omega$};
 \draw[variable = \x, domain = -2.5:2.5,red,thick] plot ({\x}, {rad(-atan(\x))});
 \draw[blue, thick] (-3,0) -- (0,0);
