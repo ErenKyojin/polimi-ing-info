@@ -16,6 +16,8 @@ Schema:
 \draw[-latex] (t.center) -- (1,0);
 \draw (1,-.25) rectangle (1.5,.25) node[midway]{R};
 \draw (1.5,0) -- (2,0) node[midway, above]{$u$};
+\draw (2,-.25) rectangle (2.5,.25) node[midway]{P};
+\node at (3,0){$\bullet$};
 \end{tikzpicture}
 \end{document}
 ```
