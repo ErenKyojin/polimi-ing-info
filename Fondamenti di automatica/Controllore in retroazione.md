@@ -128,7 +128,17 @@ $$
 
 
 
-Copmonenti di segnali di
-$w$ = $|T|$ passano inalterate $|RF| \approx 1$
-$d_{a} = |S|$  compaiono attenuatee $|RF| \ll 1$
-$d_{r} = |T|$ passano inalterate
+>[!multi-column]
+>
+>
+> [!NOTE]
+> >Copmonenti di segnali di
+> >$w$ = $|T|$ passano inalterate $|RF| \approx 1$
+> >$d_{a} = |S|$  compaiono attenuatee $|RF| \ll 1$
+> >$d_{r} = |T|$ passano inalterate
+> 
+>>[!Note]
+>>Compaiono attenuate
+>>Passano inalterate
+>>Compaiono attenuate
+
