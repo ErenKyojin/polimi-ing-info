@@ -115,7 +115,8 @@ $$
 \draw[green,thick] (0,0) -- (3,0);
 
 
-\draw[fill = yellow!40!transparent] (1.5,0) circle (.25);
+\draw[fill = yellow, fill opacity = .5] (1.5,0) circle (.1);
+\draw[fill = purple, fill opacity = .5] (1.5,-1) circle (.1);
 
 \node[yellow] (omec) at (0,0){$\bullet$};
 \draw[yellow] (0,0) -- ++ (0,-2);
