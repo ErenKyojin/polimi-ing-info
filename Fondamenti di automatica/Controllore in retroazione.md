@@ -205,4 +205,16 @@ e $\omega_{c} < \omega_{r_{1}} < \omega_{r} <\omega_{r_{2}} \leq \infty$
 Deve produrre su $y$ un effetto asintotico di ampizza non superiore a $\Delta r$
 
 Occore che $$| \frac{Y(j \omega)}{D_{r}(j\omega)} | < \frac{\Delta r}{\bar{B}}\qquad \text{per }\omega_{r_{1}} < \omega < \omega_{r_{2}}$$
-Ma per $\omega > \omega_{c}\quad T \approx C \implies$ $|L(j\omega)| < \frac{\Delta r}{\bar{B}}$ per 
+Ma per $\omega > \omega_{c}\quad T \approx C \implies$ occorre $|L(j\omega)| < \frac{\Delta r}{\bar{B}}$ per $\omega_{r_{1}} < \omega < \omega_{r_{2}}$
+
+Traduzione sul DBM di L
+
+```tikz
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}
+\draw[-{stealth[scale = 2]}] (-5,0) -- (5,0);
+\draw (2,1) -- (2,-1) --
+\end{tikzpicture}
+\end{document}
+```
