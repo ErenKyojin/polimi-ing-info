@@ -241,6 +241,7 @@ Traduzione sul DBM di L
 \node[scale = 2] (op) at (-1.5,0){[};
 \node[scale = 2] (cl) at ( 1.5,0){]};
 \node[below = 5mm] at (op) {$\omega_{c,min}$};
+\node[below = 5mm] at (cl) {$\omega_{c,max}$};
 
 \end{tikzpicture}
 \end{document}
