@@ -189,8 +189,11 @@ $$ \frac{Y(j\omega)}{D_{a}(j\omega)} = |\mathcal{S}(\omega)| < \frac{\Delta_{a}}
 \begin{tikzpicture}
 \draw[-{Stealth[scale = 2]}] (-5,0) node[above]{0 dB} -- (5,0) node[right]{$\omega$};
 \draw[blue, fill = blue, fill opacity = .2] (-3,-1.5) -- (-3,1.5) -- (-1,1.5) -- (-1,-1.5);
-\node[left] at (-1.5,0){$\omega_a$};
+\node[above left] at (-3,0){$\omega_{a_2}$};
+\node[above right] at (-1,0){$\omega_{a_1}$};
+\draw
 \end{tikzpicture}
 \end{document}
 ```
+
 
