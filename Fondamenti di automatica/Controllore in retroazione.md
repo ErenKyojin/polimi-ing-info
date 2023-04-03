@@ -19,7 +19,8 @@ Schema:
 \draw (2,-.25) rectangle (2.5,.25) node[midway]{P};
 \node (da) at (3,0){$\bullet$};
 \draw[-latex] (2.5,0) -- (da.center);
-\draw[latex-] (da.center) -- ++ (0,0.5);
+\draw[latex-] (da.center) -- ++ (0,0.5)node[midway,left]{$da$};
+\draw (da.center) -- ++ (1,0);
 \end{tikzpicture}
 \end{document}
 ```
@@ -40,3 +41,7 @@ Con sinusoidi e rumore componenti armoniche
 
 
 
+## Fasi del progetto
+
+1. Progetto statico (PS)
+2. Progetto dinamico (PD)
