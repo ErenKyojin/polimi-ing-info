@@ -22,7 +22,8 @@ Schema:
 \draw[latex-] (da.center) -- ++ (0,0.5)node[midway,left]{$da$};
 \draw[-latex] (da.center) -- ++ (1,0) node[above]{$y$};
 \draw (3.5,0) -- ++ (0,-.5) node(dr){$\bullet$};
-\drwa (dr.center) -- ++ (0,.5) node[left]{$dr$};
+\draw[latex-] (dr.center) -- ++ (0.5,0) node[right]{$dr$};
+\draw[-latex] (dr.center) -- ()
 \end{tikzpicture}
 \end{document}
 ```
