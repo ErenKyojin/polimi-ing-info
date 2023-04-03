@@ -57,7 +57,7 @@ $$\begin{align}
 e_{\infty} &= \lim_{ t \to \infty } \underbrace{ = }_{ TVF } \lim_{ s \to 0 }sE(s) = \lim_{ s \to 0 } \underbrace{ \cancel{ s } }_{ \text{teorema} } \underbrace{ \frac{1}{\cancel{ s }} }_{ W(s) } \frac{E(s)}{W(s)} = \\
 &=\lim_{ s \to \infty }  \frac{W(s) - Y(s)}{W(s)} =  \\
 &= \lim_{ s \to 0 } \left( \frac{W(s)}{W(s)}- \frac{Y(s)}{W(s)}  \right) = \lim_{ s \to 0 } (1 - T(s)) =  \\
- & = \lim_{ s \to 0 }  S(s)  
+ & = \lim_{ s \to 0 }  S(s) = \lim_{ s \to 0 } \frac{s^{g_{L}} / \mu_{L} }{1 + s^{g_{L}} / \mu_{}}
 \end{align}$$
 
 ### 2. Progetto dinamico (PD)
