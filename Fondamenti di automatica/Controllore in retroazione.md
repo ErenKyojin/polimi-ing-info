@@ -155,8 +155,9 @@ $\omega_{c_{1} min} < \omega _c (< \omega_{c_{1} max})$
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw[-latex,thick] (0,0) -- (5,0)node[right]{$\omega$};
-\draw (1,0) -- (3)
+\draw[-latex,thick] (-5,0) -- (5,0)node[right]{$\omega$};
+\draw[red] (-4,1) -- (4,-1);
+\draw[blue] (-4.5,0) -- (0,0) -- (3.9,-1.1);
 \end{tikzpicture}
 \end{document}
 ```
