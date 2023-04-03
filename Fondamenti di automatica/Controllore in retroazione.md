@@ -162,4 +162,8 @@ $\omega_{c_{1} min} < \omega _c (< \omega_{c_{1} max})$
 \end{document}
 ```
 
-$w \to T(S)$
+$$w \to \fcolorbox{}{}{ $ T(S)8 $} \to y$$
+$$w \to \fcolorbox{}{}{ $ \frac{1}{1+s/\omega c}  $}\to y$$
+
+$w = \sca(t)$
+$1 - e^{-\omega_{c}(t)} \sca(t)$
