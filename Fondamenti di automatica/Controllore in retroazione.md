@@ -52,6 +52,8 @@ Con sinusoidi e rumore componenti armoniche
 - Esprimo $e_{\infty} := \lim_{ t \to \infty } e(t) = \lim_{ t \to \infty } (w(t)-y(t))$ col TVF
 - Impongo i requisiti $|e_{\infty}|< tot$ o $e_{\infty} = 0$ e ottengo su gadagno e o tipo della [[funzione di trasferimento|FdT]] d'anello $L(s)$
 
+Vediamo degli esempi:
+
 Caso $w(t) = \sca(t) : e_{\infty}?$
 $$\begin{align}
 e_{\infty} &= \lim_{ t \to \infty } \underbrace{ = }_{ TVF } \lim_{ s \to 0 }sE(s) = \lim_{ s \to 0 } \underbrace{ \cancel{ s } }_{ \text{teorema} } \underbrace{ \frac{1}{\cancel{ s }} }_{ W(s) } \frac{E(s)}{W(s)} = \\
