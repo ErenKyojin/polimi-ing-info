@@ -47,5 +47,6 @@ Con sinusoidi e rumore componenti armoniche
 
 - Assumo che il sistema in anello chiuso sia asintoticamente stabile (lo proveremo poi)
 - Considero le sole componenti canoniche di $w$ e di $d_{a}$
-- Esprio $e_{\infty} := \lim_{ t \to \infty }$
+- Esprimo $e_{\infty} := \lim_{ t \to \infty } e(t) = \lim_{ t \to \infty } (w(t)-y(t))$ col TVF
+
 ### 2. Progetto dinamico (PD)
