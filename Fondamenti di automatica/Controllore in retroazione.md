@@ -247,4 +247,12 @@ Occorre trovare per tentativi una FdT L(s) che
 - Rispetti i vincoli del PS su $\mu_{L}$ e/o $g_{L}$
 - Rispetti i vincoli del PD come indicati sul foglio semilog
 - Cotnengua eventuali zeri di $P(s)$ nel semipiano destro in modo che $R(s)$ non li cancelli
-- Producta $\varphi_{m}$ adeguato e ab
+- Producta $\varphi_{m}$ adeguato e abbia $\mu_{L} > 0$
+- Abbia grado relativo almeno pari a quello di $P(s)$ altrimenti $R(s)$ viene con piú zeri che poli
+- Abbia meno zeri e poli possibile
+
+
+Fatto ció:
+$$
+\fbox{$R(s) = L(s) / P(s)$}
+$$
