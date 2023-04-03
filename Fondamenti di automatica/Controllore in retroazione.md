@@ -101,11 +101,13 @@ $$
 ```tikz
 \usetikzlibrary{arrows.meta}
 \begin{document}
-\begin{tikzpicture}[scale = 2]
+\begin{tikzpicture}[scale = 3]
 \draw[-{Stealth[scale = 2]}] (-3,0) -- (3,0);
-\draw[variable = \x, domain = -2.5:2.5] plot ({\x}, {tan(deg(\x))});
+\draw[variable = \x, domain = -2.5:2.5,red,thick] plot ({\x}, {rad(-atan(\x))});
+\node
 \end{tikzpicture}
 \end{document}
 ```
+
 
 
