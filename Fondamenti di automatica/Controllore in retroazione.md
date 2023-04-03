@@ -82,3 +82,9 @@ Vediamo degli esempi:
 
 ### 2. Progetto dinamico (PD)
 
+
+$$
+T = \frac{Y}{w} = - \frac{Y}{D_{r}}= \frac{L}{1 + L} \approx \begin{cases}
+1 &|L|
+\end{cases}
+$$
