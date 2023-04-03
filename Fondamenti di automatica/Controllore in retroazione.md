@@ -103,8 +103,9 @@ $$
 \begin{document}
 \begin{tikzpicture}[scale = 2]
 \draw[-{Stealth[scale = 2]}] (-3,0) -- (3,0);
-\draw[variable = \x, domain = -2.5:2.5] plot ({\x}, {arctan(\x)});
+\draw[variable = \x, domain = -2.5:2.5] plot ({\x}, {tan(deg(\x))});
 \end{tikzpicture}
 \end{document}
 ```
+
 
