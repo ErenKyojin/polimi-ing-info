@@ -145,7 +145,7 @@ $$
 >>E a destra
 >>Compaiono attenuate (azzurro dx)
 >>Passano inalterate (giallo dx)
->>Compaiono attenuate (azzurro sx)
+>>Compaiono attenuate (azzurro dx)
 
 
 
@@ -176,3 +176,5 @@ $(1 - e^{-\omega_{c}(t)} )\sca(t)$
 	$$ d_{a}(t) = A \sin(\omega_{a}(t)) $$
 	Con $|A| < \bar{A}$ 
 	e $0 \leq \omega_{a_{1}} < \omega_{a} < \omega_{a_{2}} < \omega_{c}$
+	Deve produrre asintoticamente su $y(t)$ un effetto di ampiezza non superiore a $\Delta_{a}$
+	
