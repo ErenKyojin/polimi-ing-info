@@ -129,6 +129,6 @@ $$
 
 
 Copmonenti di segnali di
-$\omega$ = $|T|$ passano inalterat compaiono attenuatee
-$d_{a} = |S|$
-$d_{r} = |T|$
+$w$ = $|T|$ passano inalterate $|RF| \approx 1$
+$d_{a} = |S|$  compaiono attenuatee $|RF| \ll 1$
+$d_{r} = |T|$ passano inalterate
