@@ -116,7 +116,7 @@ $$
 
 
 \draw[fill = yellow, fill opacity = .5] (1.5,0) circle (.1);
-\draw[fill = purple, fill opacity = .5] (1.5,-1) circle (.1);
+\draw[fill = , fill opacity = 1] (1.5,-1) circle (.1);
 
 \node[yellow] (omec) at (0,0){$\bullet$};
 \draw[yellow] (0,0) -- ++ (0,-2);
