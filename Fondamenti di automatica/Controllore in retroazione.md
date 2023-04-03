@@ -170,3 +170,8 @@ $(1 - e^{-\omega_{c}(t)} )\sca(t)$
 
 
 ### Traduzione sul DBM di $L$
+
+- Vincolo sulla reiezione di un disturbo in andata
+	Un disturbo $d_{a}(t)$ sinusoidale
+	$$ d_{a}(t) = A \sin(\omega_{a}(t)) $$
+	Con $|A| < $
