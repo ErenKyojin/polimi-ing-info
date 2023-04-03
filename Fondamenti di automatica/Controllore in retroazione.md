@@ -171,8 +171,9 @@ $(1 - e^{-\omega_{c}(t)} )\sca(t)$
 
 ### Traduzione sul DBM di $L$
 
-- Vincolo sulla reiezione di un disturbo in andata
-	Un disturbo $d_{a}(t)$ sinusoidale
+### Vincolo sulla reiezione di un disturbo in andata
+
+Un disturbo $d_{a}(t)$ sinusoidale
 	$$ d_{a}(t) = A \sin(\omega_{a}(t)) $$
 	Con $|A| < \bar{A}$ 
 	e $0 \leq \omega_{a_{1}} < \omega_{a} < \omega_{a_{2}} < \omega_{c}$
@@ -191,9 +192,10 @@ $$ \frac{Y(j\omega)}{D_{a}(j\omega)} = |\mathcal{S}(\omega)| < \frac{\Delta_{a}}
 \draw[blue, fill = blue, fill opacity = .2] (-3,-1.5) -- (-3,1.5) -- (-1,1.5) -- (-1,-1.5);
 \node[above left] at (-3,0){$\omega_{a_2}$};
 \node[above right] at (-1,0){$\omega_{a_1}$};
-\draw
 \end{tikzpicture}
 \end{document}
 ```
+
+### Vincolo sulla relazione di un disturbo in retroazione
 
 
