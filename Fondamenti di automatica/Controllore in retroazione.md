@@ -238,6 +238,10 @@ Traduzione sul DBM di L
 \draw[blue, dashed] (-4,-1.5) -- ++ (0,-1);
 \draw[blue, dashed] (-2,-1.5) -- ++ (0,-1);
 
+\node[scale = 2] (op) at (-1.5,0){[};
+\node[scale = 2] (cl) at ( 1.5,0){]};
+\node above c
+
 \end{tikzpicture}
 \end{document}
 ```
