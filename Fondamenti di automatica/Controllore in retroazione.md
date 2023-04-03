@@ -174,4 +174,5 @@ $(1 - e^{-\omega_{c}(t)} )\sca(t)$
 - Vincolo sulla reiezione di un disturbo in andata
 	Un disturbo $d_{a}(t)$ sinusoidale
 	$$ d_{a}(t) = A \sin(\omega_{a}(t)) $$
-	Con $|A| < $
+	Con $|A| < \bar{A}$ 
+	e $0 \leq \omega_{a_{1}} < \omega_{a} < \omega_{a_{2}} < \omega_{c}$
