@@ -84,7 +84,13 @@ Vediamo degli esempi:
 
 
 $$
-T = \frac{Y}{w} = - \frac{Y}{D_{r}}= \frac{L}{1 + L} \approx \begin{cases}
-1 &|L|
-\end{cases}
+\begin{align}
+
+&T = \frac{Y}{w} = - \frac{Y}{D_{r}}= \frac{L}{1 + L} \approx \begin{cases}
+1 &|L| \gg 1 \\
+L &|L| \ll 1
+\end{cases} \\
+
+&\mathcal{S} = \frac{Y}{D_{a}} = \frac{1}{1 }
+\end{align}
 $$
