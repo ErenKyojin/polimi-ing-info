@@ -240,7 +240,7 @@ Traduzione sul DBM di L
 
 \node[scale = 2] (op) at (-1.5,0){[};
 \node[scale = 2] (cl) at ( 1.5,0){]};
-\node above c
+\node[below = 5mm] at (op) {$\omega_{c,min}$};
 
 \end{tikzpicture}
 \end{document}
