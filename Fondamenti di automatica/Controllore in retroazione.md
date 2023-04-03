@@ -227,6 +227,12 @@ Traduzione sul DBM di L
 \begin{document}
 \begin{tikzpicture}
 \draw[-{Stealth[scale = 2]}] (-5,0) -- (5,0);
+
+\draw[blue, fill = blue, fill opacity = .2] (-3,-1.5) -- (-3,1.5) -- (-1,1.5) -- (-1,-1.5);
+
+\draw[blue, fill = blue, fill opacity = .2] (2,1.5) -- (2,-1.5) -- (4, -1.5) -- (4,1.5);
+
+\draw[smooth] (-4, 2) to (0,0) to (4,-2);
 \end{tikzpicture}
 \end{document}
 ```
