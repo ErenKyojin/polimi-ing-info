@@ -243,6 +243,9 @@ Traduzione sul DBM di L
 \node[below = 5mm] at (op) {$\omega_{c,min}$};
 \node[below = 5mm] at (cl) {$\omega_{c,max}$};
 
+\node at (-3,.5){Relaz $d_a$};
+\node at (3,.5){Relaz $d_r$};
+
 \end{tikzpicture}
 \end{document}
 ```
