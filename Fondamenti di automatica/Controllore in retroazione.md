@@ -195,7 +195,7 @@ $$ \frac{Y(j\omega)}{D_{a}(j\omega)} = |\mathcal{S}(\omega)| < \frac{\Delta_{a}}
 \end{tikzpicture}
 \end{document}
 ```
-
+Una L che passa sul rettangolo non ci piace
 ### Vincolo sulla relazione di un disturbo in retroazione
 
 Un disturbo $d_{r}(t) = B\sin(\omega_{r}(t))$
@@ -214,7 +214,8 @@ Traduzione sul DBM di L
 \begin{document}
 \begin{tikzpicture}
 \draw[-{stealth[scale = 2]}] (-5,0) -- (5,0);
-\draw (2,1) -- (2,-1) --
+\draw[blue, fill = blue, fill opacity = .2] (2,1.5) -- (2,-1.5) -- (4, -1.5) -- (4,1.5);
 \end{tikzpicture}
 \end{document}
 ```
+
