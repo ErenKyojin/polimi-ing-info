@@ -57,7 +57,10 @@ $$
 \draw[-{Stealth[scale = 2]}] (P1.center) -- ++ (2,.8,-.5) node[midway,below]{$\vec{s}_t$} node(Pst){};
 \draw[thin] (Pst.center) -- (P2.center);
 \draw[-{Stealth[scale = 2]}] (P1.center) -- ++ (.5,1.7,0) node[midway,left]{$\vec{s}_r$} node(Psr){};
+\draw[thin] (Psr.center) -- (P2.center);
 
+\node[below left] at (P1){$P_1$};
+\node[above right] at (P)
 
 \end{tikzpicture}
 \end{document}
