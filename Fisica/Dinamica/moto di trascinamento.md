@@ -31,10 +31,16 @@ $$
 \usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
+
+%%SdR principale
 \node (O) at (0,0,0){$\bullet$};
 \draw[-{Stealth[scale = 2]}](-1,0,0) -- (5,0,0) node[below]{$y$};
 \draw[-{Stealth[scale = 2]}](0,-1,0) -- (0,5,0) node[left]{$z$};
 \draw[-{Stealth[scale = 2]}](0,0,-1) -- (0,0,5) node[right]{$x$};
+
+% SdR 1
+\draw
+
 \end{tikzpicture}
 \end{document}
 ```
