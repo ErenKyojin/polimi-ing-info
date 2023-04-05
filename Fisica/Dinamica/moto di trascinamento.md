@@ -15,4 +15,4 @@ $\vec{s}_{t} = \overrightarrow{O_{1}'O_{2}'}$ detto spostamento di trascinamento
 
 Consideriamo un punto materiale che nello stesso intervallo di tempo si muova nel sistema fisso di uno spostamento assoluto
 $\vec{s}_{a} = \overrightarrow{P_{1}P_{2}}$
-Nel sistema mobile lo stesso punto materiale avrà compiuto uno spostamento rela
+Nel sistema mobile lo stesso punto materiale avrà compiuto uno spostamento relad
