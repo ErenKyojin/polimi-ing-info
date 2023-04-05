@@ -42,11 +42,14 @@ $$
 \node (Op) at (2,1,-1){$\bullet$};
 \draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (3,0,0)node[below]{$y_{1}'$};
 \draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (0,3,0)node[left]{$z_{1}'$};
-\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (0,0,3)node[right]{$x_{2}'$};
+\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (0,0,3)node[right]{$x_{1}'$};
 
 
 %SdR 2
-\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (2,.8,-.5) node(Os){};
+\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (2,.8,-.5) node[midway]{}node(Os){} node[below right]{$O'_2$};
+\draw[-{Stealth[scale = 2]}] (Os.center) -- ++ (3,0,0)node[below]{$y_{2}'$};
+\draw[-{Stealth[scale = 2]}] (Os.center) -- ++ (0,3,0)node[left]{$z_{2}'$};
+\draw[-{Stealth[scale = 2]}] (Os.center) -- ++ (0,0,3)node[right]{$x_{2}'$};
 
 \end{tikzpicture}
 \end{document}
