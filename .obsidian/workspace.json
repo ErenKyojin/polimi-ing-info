@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md",
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md",
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md",
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md"
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md"
               }
             }
           },
@@ -178,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +195,9 @@
   },
   "active": "67a095a8729de316",
   "lastOpenFiles": [
-    "Fisica/Cinematica/Moto relativo.md",
     "Fisica/Dinamica/moto di trascinamento.md",
+    "Fisica/Dinamica/legge di composizione della velocità.md",
+    "Fisica/Cinematica/Moto relativo.md",
     "Fisica/Dinamica/moto relativo.md",
     "Fisica/Dinamica/teorema di conservazione dell'energia.md",
     "Fisica/Dinamica/teorema di conservazione dell'energia meccanica.md",
@@ -222,7 +222,6 @@
     "Fondamenti di automatica/Realizzazione.md",
     "Fondamenti di automatica/Sistemi di controllo LTI.md",
     "Cp.canvas",
-    "Fondamenti di automatica/diagramma di Nyquist.md",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
     "Pasted image 20230330135642.png",
     "Untitled 1.canvas",
