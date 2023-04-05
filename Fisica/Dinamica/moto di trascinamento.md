@@ -56,7 +56,7 @@ $$
 \draw[-{Stealth[scale = 2]}] (P1.center) -- ++ (2.5,2.5,-.5) node[midway,above]{$\vec{s}_a$} node(P2){};
 \draw[-{Stealth[scale = 2]}] (P1.center) -- ++ (2,.8,-.5) node[midway,below]{$\vec{s}_t$} node(Pst){};
 \draw[thin] (Pst.center) -- (P2.center);
-\draw (P1.center) -- ++ (.5,1.7,)
+\draw[-{Stealth[scale = 2]}] (P1.center) -- ++ (.5,1.7,0) node[midway,left]{$\vec{s}_r$} node(Psr){};
 
 
 \end{tikzpicture}
