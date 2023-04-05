@@ -40,7 +40,7 @@ $$
 
 % SdR 1
 \node (Op) at (2,1,-1){\bullet};
-\draw[-{Stealth[scale = 2]}] (Op) -- ++ (3,0,0);
+\draw[-{Stealth[scale = 2]}] (2,1,-1) -- ++ (3,0,0);
 
 \end{tikzpicture}
 \end{document}
