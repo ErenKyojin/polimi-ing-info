@@ -19,6 +19,6 @@ Nel sistema mobile lo stesso punto materiale avrà compiuto uno spostamento rela
 $$
 \begin{align}
 \vec{s}_{r} &= \overrightarrow{O_{2}'P_{2}} - \overrightarrow{O_{1}'P_{1}} = (\overrightarrow{-O_{1}'O_{2}'} + \overrightarrow{O_{1}'P_{2}}) - \overrightarrow{O_{1}'P_{1}} = \\
-&= ( \overrightarrow{O_{1}'P_{2}'})
+&= ( \overrightarrow{O_{1}'P_{2}} - \overrightarrow{O_{1}'P_{1}}) - \overrightarrow{O_{1}'O_{2}'} = \vec{s}_{a} - \vec{s}_{t} 
 \end{align}
 $$
