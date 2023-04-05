@@ -14,5 +14,6 @@ Abbiamo visto che, in generale, la velocità di trascinamento varia da punto a p
 - $\vec{r}_{O'}\equiv\overrightarrow{OO'}$ vettore posizione assoluto dell'origine $O'$ del sistema mobile
 per i quali valgono, come diretta conseguenza della definizione, le relazioni:
 $$
-\vec{r}_{a} = \vec{r}_{r} + \vec{r}_{O'}
+\vec{r}_{a} = \vec{r}_{r} + \vec{r}_{O'}\quad;\quad d\vec{r}_{a} = d\vec{r}_{r} + d\vec{r}_{O'}\quad ;\quad \Delta \vec{r}_{a} = \Delta \vec{r}_{r} + \Delta \vec{r}_{O'}
 $$
+Osserviamo che mentre è evidente che la variazione del vettore posizione assoluto coincida con lo spostament
