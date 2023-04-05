@@ -30,5 +30,5 @@ $$
 Nel primo termine fra parentesi dell'ultima espressione riconosciamo la velocità relativa in coordinate cartesiane e quindi per la legge di composizione delle velocità i due termini restanti costituiscono la velocità di trascinamento, ove abbiamo definito con il simbolo $\vec{v}_{O'}$ la velocità dell'origine $O'$ del sistema mobile (la derivata del vettore posizione dell'origine del sistema mobile).
 Possiamo dunque scrivere la velocità relativa e quella di trascinamento come:
 $$
-\vec{v}_{r} = \left( \frac{dx'}{dt}\hat{u}_{x'} + \frac{dy'}{dt}\hat{u}_{y} +    \right)
+\vec{v}_{r} = \left( \frac{dx'}{dt}\hat{u}_{x'} + \frac{dy'}{dt}\hat{u}_{y'} + \frac{dz'}{dt}\hat{u}_{z'}     \right)\quad ;\quad \vec{v}_{t}=\vec{v}_{O'} + \left( x'\frac{d\hat{u}_{x'}}{dt}  + y'\frac{d\hat{u}_{y'}}{dt} + z'\frac{d\hat{u}_{z'}}{dt}  \right)
 $$
