@@ -39,8 +39,10 @@ $$
 \draw[-{Stealth[scale = 2]}](0,0,-1) -- (0,0,5) node[right]{$x$};
 
 % SdR 1
-\node (Op) at (2,1,-1){\bullet};
-\draw[-{Stealth[scale = 2]}] (2,1,-1) -- ++ (3,0,0);
+\node (Op) at (2,1,-1){$\bullet$};
+\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (3,0,0);
+\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (0,3,0);
+\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (0,0,3);
 
 \end{tikzpicture}
 \end{document}
