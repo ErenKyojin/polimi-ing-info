@@ -31,7 +31,9 @@ $$
 \usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
-\draw(0,0,0) -- (3,0,0) node[below]{}
+\draw[-{Stealth[scale = 2]}](-1,0,0) -- (5,0,0) node[below]{$y$};
+\draw[-{Stealth[scale = 2]}](0,-1,0) -- (0,5,0) node[left]{$z$};
+\draw[-{Stealth}[scale = ]]
 \end{tikzpicture}
 \end{document}
 ```
