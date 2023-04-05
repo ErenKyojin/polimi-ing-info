@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "ca62898cd36bc99b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5146b8a11addd28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67a095a8729de316",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di automatica/Controllore in retroazione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31f946e4d8cb9ae9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Cinematica/Moto relativo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e62575449db20da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di automatica/criterio di Nyquist.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7312dcf15e94bc1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di automatica/Grado di stabilità.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51a358344093cc61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di automatica/Indici di stabilità.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "76dce066478fd383",
+    "type": "split",
+    "children": [
+      {
+        "id": "aefa20faf552eb40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b276f1e55d5aea15",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8d248d27ec6ffce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "29f61e4a0dfff3d5",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "91714e1f9845590a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2abcb2c5e30cf92f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22120b36924554d0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Fisica/Cinematica/Moto relativo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "540b351f17ef6673",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Fisica/Cinematica/Moto relativo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "9d2bc52da7ff6bdd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9c098adaaabbab7d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Fisica/Cinematica/Moto relativo.md"
+              }
+            }
+          },
+          {
+            "id": "26a96da3225af1e4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "31f946e4d8cb9ae9",
+  "lastOpenFiles": [
+    "Fisica/Dinamica/teorema di conservazione dell'energia.md",
+    "Fisica/Dinamica/teorema di conservazione dell'energia meccanica.md",
+    "Fisica/Dinamica/moto relativo.md",
+    "Fisica/Dinamica/moto di trascinamento.md",
+    "Fisica/Dinamica/forze conservative.md",
+    "Fisica/Dinamica/energia meccanica.md",
+    "Fisica/Dinamica/campi vettoriali.md",
+    "Fisica/Dinamica/campi scalari.md",
+    "Fisica/Dinamica/campi di forze conservative.md",
+    "Fisica/Dinamica/Superfici equipotenziali.md",
+    "Fisica/Dinamica/Linee di forza.md",
+    "Fisica/Cinematica/moto armonico.md",
+    "Fisica/Cinematica/moto.md",
+    "Fisica/Cinematica/Moto relativo.md",
+    "Fondamenti di automatica/Controllore in retroazione.md",
+    "Fondamenti di automatica/funzione di trasferimento.md",
+    "Fondamenti di automatica/criteri di stabilità.md",
+    "Fondamenti di automatica/Criterio di bode.md",
+    "Fondamenti di automatica/Antitrasformazione di Laplace.md",
+    "Fondamenti di automatica/criterio di Nyquist.md",
+    "Fondamenti di automatica/Grado di stabilità.md",
+    "Fondamenti di automatica/Indici di stabilità.md",
+    "Fondamenti di automatica/Problema del controllo.md",
+    "Fondamenti di automatica/Realizzazione.md",
+    "Fondamenti di automatica/Sistemi di controllo LTI.md",
+    "Cp.canvas",
+    "Fondamenti di automatica/diagramma di Nyquist.md",
+    "Probabilità e statistica/Canvas/Probabilità totali.canvas",
+    "Pasted image 20230330135642.png",
+    "Untitled 1.canvas",
+    "Stabilità retroazione.canvas",
+    "Untitled.canvas",
+    "Pasted Image 20230327111947_463.png",
+    "Pasted Image 20230327111802_028.jpg"
+  ]
+}
