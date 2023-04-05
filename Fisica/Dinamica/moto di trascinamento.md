@@ -18,6 +18,6 @@ $\vec{s}_{a} = \overrightarrow{P_{1}P_{2}}$
 Nel sistema mobile lo stesso punto materiale avrà compiuto uno spostamento relativo pari a:
 $$
 \begin{align}
-\vec{s}_{r} = \overrightarrow{O_{2}''}
+\vec{s}_{r} = \overrightarrow{O_{2}'P_{2}} - \overrightarrow{O_{1}'P_{1}} = (\overrightarrow{-O_{1}'O_{2}'} + \overrightarrow{})
 \end{align}
 $$
