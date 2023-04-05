@@ -9,10 +9,10 @@ Dalla legge di composizione degli spostamenti in forma [[differenziale]], che è
 $$
 \fbox{$\vec{v}_{a} = \vec{v}_{r} + \vec{v}_{t}$}
 $$Avendo definito in questo modo le tre velocità in gioco:
-- $\vec{v}_{a} \equiv \dfrac{d\vec{s}_{a}}{dt}$ velocità assoluta
-- $\vec{v}_{r} = \dfrac{d\vec{s}_{r}}{dt}$ velocità relativa
-- $\vec{v}_{t} \equiv \dfrac{d\vec{s}_{t}}{dt}$ velocità di trascinamento
+- $\vec{v}_{a} \equiv \dfrac{d\vec{s}_{a}}{dt}$ [[velocità assoluta]]
+- $\vec{v}_{r} = \dfrac{d\vec{s}_{r}}{dt}$ [[velocità relativa]]
+- $\vec{v}_{t} \equiv \dfrac{d\vec{s}_{t}}{dt}$ [[velocità di trascinamento]]
 
 La velocità assoluta è la velocità del [[punto materiale]] nel sistema di riferimento assoluto.
-Quella relativa è la velocità misurata per lo stesso punto materiale nel sistema di riferimento relativo
-La velocità di trascinamento è la velocità che il punto dello spazio occupato dal nostro punto materiale ha, nel sistema relativo, rispetto a quello fisso, ossia la velocità che avrebbe se fosse
+
+

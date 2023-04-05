@@ -183,20 +183,23 @@
   "left-ribbon": {
     "hiddenItems": {
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "67a095a8729de316",
   "lastOpenFiles": [
-    "Fisica/Dinamica/moto di trascinamento.md",
+    "Fisica/Dinamica/velocità di trascinamento.md",
     "Fisica/Dinamica/legge di composizione della velocità.md",
+    "Fisica/Dinamica/velocità relativa.md",
+    "Fisica/Dinamica/velocità assoluta.md",
+    "Fisica/Dinamica/moto di trascinamento.md",
     "Fisica/Cinematica/Moto relativo.md",
     "Fisica/Dinamica/moto relativo.md",
     "Fisica/Dinamica/teorema di conservazione dell'energia.md",
@@ -218,9 +221,6 @@
     "Fondamenti di automatica/criterio di Nyquist.md",
     "Fondamenti di automatica/Grado di stabilità.md",
     "Fondamenti di automatica/Indici di stabilità.md",
-    "Fondamenti di automatica/Problema del controllo.md",
-    "Fondamenti di automatica/Realizzazione.md",
-    "Fondamenti di automatica/Sistemi di controllo LTI.md",
     "Cp.canvas",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
     "Pasted image 20230330135642.png",
