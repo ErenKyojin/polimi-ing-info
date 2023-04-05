@@ -9,7 +9,7 @@ Dalla legge di composizione degli spostamenti in forma differenziale, che è val
 $$
 \fbox{$\vec{v}_{a} = \vec{v}_{r} + \vec{v}_{t}$}
 $$Avendo definito in questo modo le tre velocità in gioco:
-- $\vec{v}_{a} \equiv \frac{d\vec{s}_{a}}{dt}$ velocità assoluta
-- $\vec{v}_{r} = \frac{d\vec{s}_{r}}{dt}$ velocità relativa
-- $\vec{v}_{t} \equiv \frac{d\vec{s}_{t}}{dt}$ velocità di trascinamento
+- $\vec{v}_{a} \equiv \dfrac{d\vec{s}_{a}}{dt}$ velocità assoluta
+- $\vec{v}_{r} = \dfrac{d\vec{s}_{r}}{dt}$ velocità relativa
+- $\vec{v}_{t} \equiv \dfrac{d\vec{s}_{t}}{dt}$ velocità di trascinamento
 
