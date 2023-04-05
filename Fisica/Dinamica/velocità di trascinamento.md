@@ -23,6 +23,7 @@ Osserviamo che mentre è evidente che la variazione del vettore posizione assolu
 Se allora esplicitiamo il calcolo della [[velocità assoluta]] come [[derivata]] del vettore posizione assoluto otteniamo:
 $$
 \begin{align}
-\vec{v}_{a} = \frac{d\vec{r}_{a}}{dt} = \frac{d(\vec{r}_{r})}{dt}  
+\vec{v}_{a} &= \frac{d\vec{r}_{a}}{dt} = \frac{d(\vec{r}_{r} + \vec{r}_{O'})}{dt} = \frac{d}{dt}(x'\hat{u}_{x'} + y'\hat{y}_{y} + z'\hat{u}_{z}) + \frac{d\vec{r}_{O'}}{dt} = \\
+&=  \left( \frac{dx'}{dt}\hat{u}_{x'} + \frac{dy}{dt}   \right)
 \end{align}
 $$
