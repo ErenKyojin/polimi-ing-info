@@ -71,4 +71,9 @@ Per spostare infinitesimi del sistema di riferimento, cioè se consideriamo un i
 $$
 \fbox{$d\vec{s}_{a} = d\vec{s}_{r} + d\vec{s}_{t}$}
 $$
-Dove $d\vec{s}_{t}$ rappresenta lo spostamento infinitesimo subito rispetto al sisstema fisso, dal punto del sistema mobile in cui si trova il punto materiale considerato. Al contrario che nel caso traslatorio, tale spostamento non è lo stesso per tutti i punti dello spazio e non si identifica perciò con lo spostamento subito dall'origine $O'$ del siste
+Dove $d\vec{s}_{t}$ rappresenta lo spostamento infinitesimo subito rispetto al sisstema fisso, dal punto del sistema mobile in cui si trova il punto materiale considerato. Al contrario che nel caso traslatorio, tale spostamento non è lo stesso per tutti i punti dello spazio e non si identifica perciò con lo spostamento subito dall'origine $O'$ del sistema mobile.
+Per rotazioni finite, al contrario, questa legge non si puó applicare: le rotazioni finite non sono descritte da vettori e non sono trasformazioni commutative
+
+
+## Moto di trascinamento rototraslatorio
+Caso piú generale, in cui il moto del sistema mobile rispetto al sistema fisso è un
