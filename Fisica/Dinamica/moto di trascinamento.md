@@ -65,3 +65,9 @@ $$
 \end{tikzpicture}
 \end{document}
 ```
+
+## Moto di trascinamento rotatorio puro
+Per spostare infinitesimi del sistema di riferimento, cioè se consideriamo un intervallo di tempo $t_{2}-t_{1}$ infinitesimo, vale ancora la stessa legge di composizione degli spostamenti, ma in forma differenziale
+$$
+\fbox{$d\vec{s}_{a} = d\vec{s}_{r} + d\vec{s}_{t}$}
+$$
