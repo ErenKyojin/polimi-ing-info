@@ -60,7 +60,7 @@ $$
 \draw[thin] (Psr.center) -- (P2.center);
 
 \node[below left] at (P1){$P_1$};
-\node[above right] at (P)
+\node[above right] at (P2){$P_2$};
 
 \end{tikzpicture}
 \end{document}
