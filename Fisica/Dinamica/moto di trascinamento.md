@@ -71,3 +71,4 @@ Per spostare infinitesimi del sistema di riferimento, cioè se consideriamo un i
 $$
 \fbox{$d\vec{s}_{a} = d\vec{s}_{r} + d\vec{s}_{t}$}
 $$
+Dove $d\vec{s}_{t}$ rappresenta lo spostamento infinitesimo subito rispetto al sisstema fisso, dal punto del sistema mobile in cui si trova il punto materiale considerato. Al contrario che nel caso traslatorio, tale spostamento non è lo stesso per tutti i punti dello spazio e non si identifica perciò con lo spostamento subito dall'origine $O'$ del siste
