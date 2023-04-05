@@ -44,6 +44,10 @@ $$
 \draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (0,3,0)node[left]{$z_{1}'$};
 \draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (0,0,3)node[right]{$x_{2}'$};
 
+
+%SdR 2
+\draw[-{Stealth[scale = 2]}]
+
 \end{tikzpicture}
 \end{document}
 ```
