@@ -46,12 +46,15 @@ $$
 
 
 %SdR 2
-\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (2,.8,-.5) node[midway]{}node(Os){} node[below right]{$O'_2$};
+\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (2,.8,-.5) node[midway,above]{$\vec{s}_t$}node(Os){} node[below right]{$O'_2$};
 \draw[-{Stealth[scale = 2]}] (Os.center) -- ++ (3,0,0)node[below]{$y_{2}'$};
 \draw[-{Stealth[scale = 2]}] (Os.center) -- ++ (0,3,0)node[left]{$z_{2}'$};
 \draw[-{Stealth[scale = 2]}] (Os.center) -- ++ (0,0,3)node[right]{$x_{2}'$};
 
+%Punti
+\node at ()
+
+
 \end{tikzpicture}
 \end{document}
 ```
-
