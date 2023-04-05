@@ -54,7 +54,8 @@ $$
 %Punti
 \node (P1) at (-1,2,1){$\bullet$};
 \draw[-{Stealth[scale = 2]}] (P1.center) -- ++ (2.5,2.5,-.5) node(P2){};
-\draw[-{Stealth[scale = 2]}] (P1.center) -- ++ (2,.8,-.5) node[midway,below]{$\vec{s}_t$};
+\draw[-{Stealth[scale = 2]}] (P1.center) -- ++ (2,.8,-.5) node[midway,below]{$\vec{s}_t$} node(Pst){};
+\draw (Pst.center) -- (P2.center);
 \end{tikzpicture}
 \end{document}
 ```
