@@ -40,10 +40,11 @@ $$
 
 % SdR 1
 \node (Op) at (2,1,-1){$\bullet$};
-\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (3,0,0);
-\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (0,3,0);
-\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (0,0,3);
+\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (3,0,0)node[below]{$y_{1}'$};
+\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (0,3,0)node[left]{$z_{1}'$};
+\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (0,0,3)node[right]{$x_{2}'$};
 
 \end{tikzpicture}
 \end{document}
 ```
+
