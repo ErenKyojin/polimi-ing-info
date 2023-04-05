@@ -52,8 +52,8 @@ $$
 \draw[-{Stealth[scale = 2]}] (Os.center) -- ++ (0,0,3)node[right]{$x_{2}'$};
 
 %Punti
-\node at ()
-
+\node (P2) at (-.5,2,1){$\bullet$};
+\draw (P2.center) -- ()
 
 \end{tikzpicture}
 \end{document}
