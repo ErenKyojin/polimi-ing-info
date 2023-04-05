@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Controllore in retroazione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "31f946e4d8cb9ae9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/Cinematica/Moto relativo.md",
+                "file": "Fisica/Dinamica/moto di trascinamento.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "91714e1f9845590a",
@@ -135,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Cinematica/Moto relativo.md",
+                "file": "Fisica/Dinamica/moto di trascinamento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Cinematica/Moto relativo.md",
+                "file": "Fisica/Dinamica/moto di trascinamento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Cinematica/Moto relativo.md"
+                "file": "Fisica/Dinamica/moto di trascinamento.md"
               }
             }
           },
@@ -208,12 +194,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "31f946e4d8cb9ae9",
+  "active": "67a095a8729de316",
   "lastOpenFiles": [
+    "Fisica/Cinematica/Moto relativo.md",
+    "Fisica/Dinamica/moto di trascinamento.md",
+    "Fisica/Dinamica/moto relativo.md",
     "Fisica/Dinamica/teorema di conservazione dell'energia.md",
     "Fisica/Dinamica/teorema di conservazione dell'energia meccanica.md",
-    "Fisica/Dinamica/moto relativo.md",
-    "Fisica/Dinamica/moto di trascinamento.md",
     "Fisica/Dinamica/forze conservative.md",
     "Fisica/Dinamica/energia meccanica.md",
     "Fisica/Dinamica/campi vettoriali.md",
@@ -223,7 +210,6 @@
     "Fisica/Dinamica/Linee di forza.md",
     "Fisica/Cinematica/moto armonico.md",
     "Fisica/Cinematica/moto.md",
-    "Fisica/Cinematica/Moto relativo.md",
     "Fondamenti di automatica/Controllore in retroazione.md",
     "Fondamenti di automatica/funzione di trasferimento.md",
     "Fondamenti di automatica/criteri di stabilità.md",
