@@ -46,7 +46,7 @@ $$
 
 
 %SdR 2
-\draw[-{Stealth[scale = 2]}]
+\draw[-{Stealth[scale = 2]}] (Op.center) -- ++ (2,.8,-.5) node(Os){};
 
 \end{tikzpicture}
 \end{document}
