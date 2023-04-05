@@ -22,3 +22,16 @@ $$
 &= ( \overrightarrow{O_{1}'P_{2}} - \overrightarrow{O_{1}'P_{1}}) - \overrightarrow{O_{1}'O_{2}'} = \vec{s}_{a} - \vec{s}_{t} 
 \end{align}
 $$
+In definitiva nel caso di moto di trascinamento traslatorio vale la legge di composizione:
+$$
+\fbox{$\vec{s}_{a} = \vec{s}_{r} + \vec{s}_{t}$}
+$$
+
+```tikz
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}
+\draw(0,0,0) -- (3,0,0) node[below]{}
+\end{tikzpicture}
+\end{document}
+```
