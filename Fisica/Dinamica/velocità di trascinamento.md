@@ -24,6 +24,7 @@ Se allora esplicitiamo il calcolo della [[velocità assoluta]] come [[derivata]]
 $$
 \begin{align}
 \vec{v}_{a} &= \frac{d\vec{r}_{a}}{dt} = \frac{d(\vec{r}_{r} + \vec{r}_{O'})}{dt} = \frac{d}{dt}(x'\hat{u}_{x'} + y'\hat{y}_{y} + z'\hat{u}_{z}) + \frac{d\vec{r}_{O'}}{dt} = \\
-&=  \left( \frac{dx'}{dt}\hat{u}_{x'} + \frac{dy'}{dt}\hat{u}_{y'} + \frac{dz'}{dt}\hat{u}_{z}     \right) + \left( x' \frac{d\hat{u}_{x'}}{dt}   + y'\frac{d\hat{u}_{y'}}{dt} + z' \frac{du}{dt} \right)
+&=  \left( \frac{dx'}{dt}\hat{u}_{x'} + \frac{dy'}{dt}\hat{u}_{y'} + \frac{dz'}{dt}\hat{u}_{z}     \right) + \left( x' \frac{d\hat{u}_{x'}}{dt}   + y'\frac{d\hat{u}_{y'}}{dt} + z' \frac{d\hat{u}_{z'}}{dt} \right) + \vec{v}_{O'}
 \end{align}
 $$
+Nel primo termine fra parentesi dell'ultima espressione riconosciamo la velocità relativa in coordinate cartesiane e quindi per la legge di composizione delle velocità i due termini restanti costituiscono la velocità di trascinamento, ove abbiamo definito con il 
