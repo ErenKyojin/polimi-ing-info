@@ -9,6 +9,13 @@ Vi sono vari tipi di costi per un programma:
 	- Costo di tempo
 		- Compilazione
 		- Esecuzione
-	- Costo di pazio
+	- Costo di spazio
+- Costo di sviluppo
+- ...
+- Altri tipi di valutazioni soggettive e oggettive
+
+
+In questo corso vediamo i costi piú semplici 
+
 
 
