@@ -17,6 +17,9 @@ Introdurremo poi anche l'accelerazione di trascinamento e l'accelerazione dell'o
 ### Calcolo dell'accelerazione assoluta
 Partendo dalla [[legge di composizione delle velocità]], con l'espressione cartesiana esplicita delel due componenti, per derivazione otteniamo:
 $$
-\vec{a}_{a} &= \frac{d\vec{v}_{a}}{dt} = \frac{d(\vec{v}_{r} + \vec{v}_{t})}{dt} = \frac{d}{dt} \left[ \left( \frac{dx'}{dt}\hat{u}_{x'} + \frac{dy'}{dt}\hat{u}_{y'} + \frac{dz'}{dt}\hat{u}_{z'}    \right) + \left( x'\frac{d\hat{u}_{x'}}{dt} + y\frac{d\hat{u}_{y'}} {dt}+ z'\frac{d\hat{u}_{z'}}{dt}    \right)+\frac{d\vec{r}_{O'}}{dt}  \right]   =
-&=
+\begin{align}
+
+\vec{a}_{a} &= \frac{d\vec{v}_{a}}{dt} = \frac{d(\vec{v}_{r}\! +\! \vec{v}_{t})}{dt} = \frac{d}{dt} \left[ \left( \frac{dx'}{dt}\hat{u}_{x'}\! +\! \frac{dy'}{dt}\hat{u}_{y'} + \frac{dz'}{dt}\hat{u}_{z'}    \right)\! +\! \left( x'\frac{d\hat{u}_{x'}}{dt} + y\frac{d\hat{u}_{y'}} {dt}+ z'\frac{d\hat{u}_{z'}}{dt}    \right)+\frac{d\vec{r}_{O'}}{dt}\!  \right]\!   = \\
+&=\left( \frac{d^}{dt}  \right)
+\end{align}
 $$
