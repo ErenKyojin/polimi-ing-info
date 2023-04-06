@@ -37,16 +37,23 @@ Nel caos di pura traslazione fra i due [[sistemi]] di riferimento, i versori del
 Sia ora $\vec{\omega}$ il vettore velocità angolare del sistema mobile all'istante di tempo considerato: ciascuno dei suoi versori cartesiani, allora, è soggetto alla stessa velocità angolare. Calcoliamo ora le derivate di questi versori: ciascuno dei tre sta descivendo in quell'istante di tempo, un moto di precessione intorno all'asse di rotazione
 
 È noto che, se un vettore $\vec{A}$ di modulo costante sta eseguendo un moo di precessione con velocità angolare $\vec{\omega}$ la sua derivata è pari al prodotto vettore:
-$$ \frac{d\vec{A}}{dt} = \vec{\omega} \times \vec{A}  $$
-```tikz
-\usetikzlibrary{arrows.meta}
-\begin{document}
-\begin{tikzpicture}
-\draw (0,0) circle (2 and 1);
-\draw[{Stealth[scale = 2]}-] (-2,0.2);
-\draw[-{Stealth[scale = 2]}] (0,-4) -- (0,.2)node[left]{$\vec{\omega}$};
-\draw[-{Stealth[scale = 2]}] (0,-3) -- (1.8,.4) node[left]{$\vec{A}$};
-\end{tikzpicture}
-\end{document}
-```
 
+> [!multi-column]
+>
+>
+>> $$ \frac{d\vec{A}}{dt} = \vec{\omega} \times \vec{A}  $$
+>
+>>[!note]
+>>```tikz
+>> \usetikzlibrary{arrows.meta}
+>>\begin{document}
+>>\begin{tikzpicture}
+>>\draw (0,0) circle (2 and 1);
+>> \draw[{Stealth[scale = 2]}-] (-2,0.2);
+>> \draw[-{Stealth[scale = 2]}] (0,-4) -- (0,.2)node[left]{$\vec{\omega}$};
+>> \draw[-{Stealth[scale = 2]}] (0,-3) -- (1.8,.4) node[left]{$\vec{A}$};
+>> \end{tikzpicture}
+>> \end{document}
+>> ```
+
+Questo sarà dunque vero
