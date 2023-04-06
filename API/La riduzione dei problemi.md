@@ -74,4 +74,6 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 >- Se il calcolo di $f_{x}(0)$ non termina e $f_{x}(1)$ è $\neq \perp$ come posso scoprirlo?
 >
 >Uso il seguente trucco (di tipo diagonale)
->- Simulo 1 passo del calcolo di $f_{x}(0)$
+>- Simulo 1 passo del calcolo di $f_{x}(0)$, se mi fermo ho chiuso positivamente
+>- Altrimenti simulo u npasso di $f_{x}(1)$
+>- Se ancora non mi sono fermato simulo 2 passi di $f_{x}(0)$, poi un passo di $f_{x}(2)$, 2 di $f_{x}(1)$, $3$ di $f_{x}(0$
