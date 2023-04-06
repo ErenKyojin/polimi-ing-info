@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md"
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md"
               }
             }
           },
@@ -178,10 +178,10 @@
   },
   "active": "f8d67f5583e4126f",
   "lastOpenFiles": [
-    "Fisica/Dinamica/legge di composizione della velocità.md",
-    "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
     "Fisica/Dinamica/velocità di trascinamento.md",
+    "Fisica/Dinamica/legge di composizione della velocità.md",
     "Fisica/Dinamica/moto di trascinamento.md",
+    "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
     "Fisica/Dinamica/moto relativo.md",
     "Fisica/Dinamica/pendolo.md",
     "Fisica/Dinamica/piano inclinato.md",

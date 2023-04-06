@@ -11,4 +11,8 @@ $$
 &\vec{a}_{r} \equiv \frac{d^2x'}{dt^2}\hat{u}_{x'} + \frac{d^2y'}{dt^2}\hat{u}_{y'} + \frac{d^2z'}{dt^2}\hat{u}_{z'}  &&\text{accelerazione relativa}
 \end{align}
 $$
-Introdurremo poi anche l'acc
+Introdurremo poi anche l'accelerazione di trascinamento e l'accelerazione dell'origine del sistema mobile
+
+
+### Calcolo dell'accelerazione assoluta
+Partendo dalla legge di composizione delle velocità
