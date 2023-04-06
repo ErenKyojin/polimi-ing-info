@@ -33,4 +33,4 @@ $$
 \vec{v}_{r} = \left( \frac{dx'}{dt}\hat{u}_{x'} + \frac{dy'}{dt}\hat{u}_{y'} + \frac{dz'}{dt}\hat{u}_{z'}     \right)\quad ;\quad \vec{v}_{t}=\vec{v}_{O'} + \left( x'\frac{d\hat{u}_{x'}}{dt}  + y'\frac{d\hat{u}_{y'}}{dt} + z'\frac{d\hat{u}_{z'}}{dt}  \right)
 $$
 
-Nel caos di pura traslazione fra i due [[sistemi]] di riferimento, i versori del sistema mobile non cambiano nel tempo, quindi il termine fra par
+Nel caos di pura traslazione fra i due [[sistemi]] di riferimento, i versori del sistema mobile non cambiano nel tempo, quindi il termine fra parentesi nell'espressione della velocità di trascinamento scompare, ed essa va a coincidere per tutti i punti dello spazio con le velocità dell'origine, come è del resto intuitivo. Se invece è presente anche un moto di trascinamento rotatorio il termine aggiuntivo, che non si annulla, 
