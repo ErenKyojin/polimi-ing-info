@@ -39,4 +39,5 @@ Se trovo una funzione $t$ calcolabile e totale tale che
 $$ y \in S \leftrightarrow  t(y) \in S' $$
 ne concludo che $x \in S'$ non è decidibile, altrimenti ne ricaverei la conseguenza (assurda) che anche $S$ è decidibile
 
-Decidibile -> 
+dimostrare decidibilità -> riduciamo a problema conosciuto risolvibile
+dimostrare indecidibilità ->
