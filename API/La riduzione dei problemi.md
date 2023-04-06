@@ -26,3 +26,9 @@ Abbiamo già usato questo meccanismo varie volte, dall'indecibilità del problem
 #### Formalmente
 Voglio risolvere $x \in S'$?
 So risolvere $y \in S$?
+
+Se trovo una funzione $t$ calcolabile e totale tale che
+$$ x \in S' \leftrightarrow t(x) \in S $$
+allora sono in grado di rispondere algoritmicamente alla domanda $x \in S'$?
+
+
