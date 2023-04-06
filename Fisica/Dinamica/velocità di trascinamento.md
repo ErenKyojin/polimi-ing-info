@@ -67,3 +67,12 @@ x' \frac{d\hat{u}_{x'}}{dt} + y'\frac{d\hat{u}_{y'}}{dt} + z' \frac{d\hat{u}_{z'
 $$
 in definitiva, la velocità di trascinamento vale: $\vec{v}_{t} = \vec{v}_{O'} + \vec{\omega} \times \vec{r}_{r}$
 
+### CASI PARTICOLARI
+
+1. moto traslatorio puro
+   $$ \vec{\omega} = 0 \implies \vec{v}_{t} = \vec{\omega} \times \vec{r}_{r} $$
+   quindi la veloci
+
+2. moto rotatiorio puro
+   $$ \vec{v}_{O'} = 0 \implies \vec{v}_{t} = \vec{\omega} \times \vec{r}_{r} $$
+   

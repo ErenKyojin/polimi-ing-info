@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3b44695fbc2d58a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Dinamica/moto di trascinamento.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -166,8 +178,9 @@
   },
   "active": "f8d67f5583e4126f",
   "lastOpenFiles": [
-    "Fisica/Dinamica/legge di composizione della velocità.md",
     "Fisica/Dinamica/moto di trascinamento.md",
+    "Fisica/Dinamica/legge di composizione della velocità.md",
+    "Fisica/Dinamica/velocità di trascinamento.md",
     "Fisica/Dinamica/moto relativo.md",
     "Fisica/Dinamica/pendolo.md",
     "Fisica/Dinamica/piano inclinato.md",
@@ -182,7 +195,6 @@
     "API/problema.md",
     "API/Teorema di rice.md",
     "API/complemento.md",
-    "Fisica/Dinamica/velocità di trascinamento.md",
     "snapshot.jpg",
     "Fisica/Dinamica/velocità assoluta.md",
     "Fisica/Dinamica/velocità relativa.md",
