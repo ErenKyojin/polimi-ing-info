@@ -40,10 +40,10 @@ Sia ora $\vec{\omega}$ il vettore velocità angolare del sistema mobile all'ista
 
 > [!multi-column]
 >
->
+>>[!-]
 >> $$ \frac{d\vec{A}}{dt} = \vec{\omega} \times \vec{A}  $$
 >
->>[!note]
+>>[!-]
 >>```tikz
 >> \usetikzlibrary{arrows.meta}
 >>\begin{document}
@@ -56,4 +56,5 @@ Sia ora $\vec{\omega}$ il vettore velocità angolare del sistema mobile all'ista
 >> \end{document}
 >> ```
 
-Questo sarà dunque vero
+Questo sarà dunque vero, nel nostro caso, per ciascuno dei tre versori del sistema mobile:
+$$ \frac{d\hat{u}_{x}}{dt}  $$
