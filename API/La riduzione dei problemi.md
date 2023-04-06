@@ -32,5 +32,7 @@ $$ x \in S' \leftrightarrow t(x) \in S $$
 allora sono in grado di rispondere algoritmicamente alla domanda $x \in S'$?
 
 ---
-
-Questa procdura puó
+Questa procdura può essere anche utilizzata al contrario:
+Posso risolvere $x \in S'$?
+So di non saper risolvere $y \in S$ ($S$ non è decidibile)
+Se trovo una funzione $t$ calcolabile e totale tale che
