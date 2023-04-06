@@ -57,4 +57,10 @@ Sia ora $\vec{\omega}$ il vettore velocità angolare del sistema mobile all'ista
 >> ```
 
 Questo sarà dunque vero, nel nostro caso, per ciascuno dei tre versori del sistema mobile:
-$$ \frac{d\hat{u}_{x}}{dt}  $$
+$$ \frac{d\hat{u}_{x'}}{dt} = \vec{\omega} \times \hat{u}_{x'}\quad ; \quad \frac{d\hat{u}_{y'}}{dt} = \vec{\omega} \times \hat{u}_{y'}\quad;\quad \frac{d\hat{u}_{z'}}{dt} = \omega \times \hat{u}_{z'}    $$
+Il termine fra parentesi, perciò, è pari a
+$$
+\begin{align}
+
+\end{align}
+$$
