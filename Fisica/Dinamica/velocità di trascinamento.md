@@ -41,7 +41,7 @@ $$ \frac{d\vec{A}}{dt} = \vec{\omega} \times \vec{A}  $$
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-
+\draw (0,0) circle (1,2);
 \end{tikzpicture}
 \end{document}
 ```
