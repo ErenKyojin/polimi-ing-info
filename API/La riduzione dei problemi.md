@@ -43,4 +43,4 @@ dimostrare decidibilità -> riduciamo a problema conosciuto risolvibile
 dimostrare indecidibilità -> mostriamo che è il ridotto di un problema indecidibile
 
 >[!esempio]
-Generico programma $P$
+>Generico programma $P$, è decidibile se durante l'esecuzione di un generico programma $P$ si acceda ad una variabile non inizializzata
