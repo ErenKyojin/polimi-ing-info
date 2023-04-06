@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Teorema di rice.md",
+                "file": "API/problema.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Teorema di rice.md",
+                "file": "API/problema.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Teorema di rice.md",
+                "file": "API/problema.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Teorema di rice.md"
+                "file": "API/problema.md"
               }
             }
           },
@@ -208,8 +208,8 @@
   },
   "active": "0bb7c11f221ce53a",
   "lastOpenFiles": [
-    "API/complemento.md",
     "API/Teorema di rice.md",
+    "API/complemento.md",
     "Fisica/Dinamica/velocità di trascinamento.md",
     "snapshot.jpg",
     "Fisica/Dinamica/legge di composizione della velocità.md",

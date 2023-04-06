@@ -27,3 +27,5 @@ Viceversa se ho un tipo di macchina che sa risolvere il problema $x \in \mathcal
 - Fissato un certo $x$ enumero tutte le possibili stringe $y$ sull'alfabeto di uscita e per ognuna domando alla macchina se $x\$y \in L$,
 - Prima o poi se $\tau(x)$ è definito troverò quella per cui la macchina risponde positivamente. Procedimento lungo in quanto bruteforce; ma, almeno al momento, non ci interessa l'efficienza.
 
+
+Teorema di rice -> ... -> dimostrazioni diagonali
