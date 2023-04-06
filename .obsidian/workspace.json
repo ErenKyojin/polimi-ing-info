@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
+                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,7 +91,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
+                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
+                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione della velocità.md"
+                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md"
               }
             }
           },
@@ -178,8 +178,9 @@
   },
   "active": "f8d67f5583e4126f",
   "lastOpenFiles": [
-    "Fisica/Dinamica/velocità di trascinamento.md",
     "Fisica/Dinamica/legge di composizione della velocità.md",
+    "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
+    "Fisica/Dinamica/velocità di trascinamento.md",
     "Fisica/Dinamica/moto di trascinamento.md",
     "Fisica/Dinamica/moto relativo.md",
     "Fisica/Dinamica/pendolo.md",
@@ -204,7 +205,6 @@
     "Fisica/Dinamica/forze conservative.md",
     "Fisica/Dinamica/energia meccanica.md",
     "Fisica/Dinamica/campi vettoriali.md",
-    "Fisica/Dinamica/campi scalari.md",
     "Cp.canvas",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
     "Pasted image 20230330135642.png",

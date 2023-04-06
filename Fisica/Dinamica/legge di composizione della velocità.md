@@ -16,4 +16,4 @@ $$Avendo definito in questo modo le tre velocità in gioco:
 
 ### Composizione delle accelerazioni
 
-[[legge di compo]]
+[[legge di composizione delle accelerazioni]]
