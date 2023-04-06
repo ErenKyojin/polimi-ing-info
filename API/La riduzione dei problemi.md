@@ -48,11 +48,14 @@ dimostrare indecidibilità -> mostriamo che è il ridotto di un problema indecid
 >Dato un generico $P^\land$ dove tutte le variabili sonoinizializzate costruisco $P$:
 >```c
 >{
->int x,y;
->P^;
->y = x;
+>	int x,y;
+>	P^;
+>	y = x;
 >}
 >```
->avendo cura di usare identificatori $x$ e $y$ che non sono usati in $P^\land$
->L'assegnamento $y := x$ prduce un accesso a $x$ che non è inizializzata
+>avendo cura di usare identificatori $x$ e $y$ che non sono usati in $P^\land$.
+>
+>L'assegnamento $y := x$ prduce un accesso a $x$ che non è inizializzato
+>...
 
+La stessa tecnica puó essere applicata per dimostrare l'indecib
