@@ -31,4 +31,6 @@ Se trovo una funzione $t$ calcolabile e totale tale che
 $$ x \in S' \leftrightarrow t(x) \in S $$
 allora sono in grado di rispondere algoritmicamente alla domanda $x \in S'$?
 
+---
 
+Questa procdura puó
