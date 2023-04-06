@@ -71,4 +71,7 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 >
 >*Schema di dimostrazione:*
 >- Se cerco di calcolare $f_{x}(0)$ e trovo che è $\neq \perp$ sono a posto
->- Se il calcolo di $f_{x}(0)$ non termina e $f_{x}(1)$ è $\neq \perp$ come posso scoprirlo? 
+>- Se il calcolo di $f_{x}(0)$ non termina e $f_{x}(1)$ è $\neq \perp$ come posso scoprirlo?
+>
+>Uso il seguente trucco (di tipo diagonale)
+>- Simulo 1 passo del calcolo di $f_{x}(0)$
