@@ -16,4 +16,9 @@ Abbiamo già usato questo meccanismo varie volte, dall'indecibilità del problem
 - Ho una MT $M_{Y}$, un intero $x$, un programma $C$, $P$ e un file di ingresso $f$
 - Costruisco un programma $C, P$ che simula $M_{y}$ e memorizzo $x$ in un file di ingresso $f$
 - $P$ termina il suo calcolo su $f$ se e solo se $g(y,x) \neq \perp$
-- Se sapessi decidere se $P$ termina il suo calcolo su $$
+- Se sapessi decidere se $P$ termina il suo calcolo su $f$ saprei risolvere nanche il problema dell'halt della MT
+
+
+>[!oss]
+>Avremm opotuto ridimostrare in modo diretto l'indecidibilità della terminazione dei programmi $C$ enumerando i programmi e applicando la stessa tecnica diagonale (con parecchi dettagli notazionali in piú)
+
