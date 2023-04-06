@@ -39,9 +39,11 @@ Sia ora $\vec{\omega}$ il vettore velocità angolare del sistema mobile all'ista
 È noto che, se un vettore $\vec{A}$ di modulo costante sta eseguendo un moo di precessione con velocità angolare $\vec{\omega}$ la sua derivata è pari al prodotto vettore:
 $$ \frac{d\vec{A}}{dt} = \vec{\omega} \times \vec{A}  $$
 ```tikz
+\usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
-\draw (0,0) circle (1,2);
+\draw (0,0) circle (2 and 1);
+\draw[-]
 \end{tikzpicture}
 \end{document}
 ```
