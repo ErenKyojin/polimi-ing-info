@@ -82,11 +82,13 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 
 
 ```tikz
+\usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
-\draw(0,0) -- (0,4);
-\draw(0,0) -- (4,0);
-\draw (0,0) grid (4,4);
+\draw[-{Stealth[scale = 2]}](0,0) -- (0,4);
+\draw[-{Stealth[scale = 2]}](0,0) -- (4,0);
+\draw (0,0) grid (3.8,3.8);
 \end{tikzpicture}
 \end{document}
 ```
+
