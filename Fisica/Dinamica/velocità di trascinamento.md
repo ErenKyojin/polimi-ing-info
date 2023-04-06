@@ -43,7 +43,8 @@ $$ \frac{d\vec{A}}{dt} = \vec{\omega} \times \vec{A}  $$
 \begin{document}
 \begin{tikzpicture}
 \draw (0,0) circle (2 and 1);
-\draw[-]
+\draw[{Stealth[scale = 2]}-] (-2,0.2);
+\draw[-{Stealth[scale = 2]}]
 \end{tikzpicture}
 \end{document}
 ```
