@@ -44,7 +44,8 @@ $$ \frac{d\vec{A}}{dt} = \vec{\omega} \times \vec{A}  $$
 \begin{tikzpicture}
 \draw (0,0) circle (2 and 1);
 \draw[{Stealth[scale = 2]}-] (-2,0.2);
-\draw[-{Stealth[scale = 2]}] (0,-4) -- (0,.2);
+\draw[-{Stealth[scale = 2]}] (0,-4) -- (0,.2)node[left]{$\vec{\omega}$};
+\draw[-{Stealth[scale = 2]}] (0,-3) -- (1.8,.4) node[left]{$\vec{A}$};
 \end{tikzpicture}
 \end{document}
 ```
