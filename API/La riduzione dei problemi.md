@@ -40,4 +40,7 @@ $$ y \in S \leftrightarrow  t(y) \in S' $$
 ne concludo che $x \in S'$ non è decidibile, altrimenti ne ricaverei la conseguenza (assurda) che anche $S$ è decidibile
 
 dimostrare decidibilità -> riduciamo a problema conosciuto risolvibile
-dimostrare indecidibilità ->
+dimostrare indecidibilità -> mostriamo che è il ridotto di un problema indecidibile
+
+>[!esempio]
+Generico programma $P$
