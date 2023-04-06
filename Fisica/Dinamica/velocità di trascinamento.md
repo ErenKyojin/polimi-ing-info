@@ -34,4 +34,6 @@ $$
 $$
 
 Nel caos di pura traslazione fra i due [[sistemi]] di riferimento, i versori del sistema mobile non cambiano nel tempo, quindi il termine fra parentesi nell'espressione della velocità di trascinamento scompare, ed essa va a coincidere per tutti i punti dello spazio con le velocità dell'origine, come è del resto intuitivo. Se invece è presente anche un moto di trascinamento rotatorio il termine aggiuntivo, che non si annulla, può essere riscritto in funzione della velocità angolare del sistema mobile.
-Sia ora $\vec{\omega}$ il vettore velocità angolare del sistema mobile all'istante di tempo considerato: ciascuno dei suoi versori cartesiani, allora, è soggetto alla stessa velocità angolare. Calcoliamo ora l
+Sia ora $\vec{\omega}$ il vettore velocità angolare del sistema mobile all'istante di tempo considerato: ciascuno dei suoi versori cartesiani, allora, è soggetto alla stessa velocità angolare. Calcoliamo ora le derivate di questi versori: ciascuno dei tre sta descivendo in quell'istante di tempo, un moto di precessione intorno all'asse di rotazione
+
+È noto
