@@ -82,14 +82,15 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 
 
 ```tikz
-\usetikzlibrary{arrows.meta}
-\begin{document}
-\begin{tikzpicture}
-\draw[-{Stealth[scale = 2]}](0,0) -- (0,4);
-\draw[-{Stealth[scale = 2]}](0,0) -- (4,0);
-\draw[step = 0.5, ultra thin] (0,0) grid (3.8,3.8);
-\draw[->] ()
-\end{tikzpicture}
-\end{document}
-```
+>\usetikzlibrary{arrows.meta}
+>\begin{document}
+>\begin{tikzpicture}
+>\draw[-{Stealth[scale = 2]}](0,0) -- (0,4);
+>\draw[-{Stealth[scale = 2]}](0,0) -- (4,0);
+>\draw[step = 0.5, ultra thin] (0,0) grid (3.8,3.8);
+>\draw[-{Stealth[scale = 1.5]}] (0,1) -- (1,0) -- (0,2) -- (2,0) -- (0,3) -- (3,0);
+>\end{tikzpicture}
+>\end{document}
+>```
+
 
