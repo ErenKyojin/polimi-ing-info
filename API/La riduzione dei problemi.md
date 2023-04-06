@@ -36,3 +36,7 @@ Questa procdura può essere anche utilizzata al contrario:
 Posso risolvere $x \in S'$?
 So di non saper risolvere $y \in S$ ($S$ non è decidibile)
 Se trovo una funzione $t$ calcolabile e totale tale che
+$$ y \in S \leftrightarrow  t(y) \in S' $$
+ne concludo che $x \in S'$ non è decidibile, altrimenti ne ricaverei la conseguenza (assurda) che anche $S$ è decidibile
+
+Decidibile -> 
