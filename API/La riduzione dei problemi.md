@@ -79,9 +79,9 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 >- Se ancora non mi sono fermato simulo 2 passi di $f_{x}(0)$, poi un passo di $f_{x}(2)$, 2 di $f_{x}(1)$, $3$ di $f_{x}(0)$ e cosi via.
 >
 >Cosí facendo se $\exists z | f_{x}(z) \neq \perp$, prima o poi lo trovo perchè prima o poi simulerò abbastanza passi del calcolo di $f_{x}(z)$ per farla arrestare (è un sistema simile a quello adottato da uno scheduler per i processi)  
-
-
-```tikz
+>
+>
+>```tikz
 >\usetikzlibrary{arrows.meta}
 >\begin{document}
 >\begin{tikzpicture}
@@ -93,4 +93,4 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 >\end{document}
 >```
 
-
+L'assenza di errori non solo non è decidibile ma non è neanche semidecidibile, otteniamo quindi un modo sistematico per dimostrare che un probema non è RE: dimostrare che lo è il suo complemento
