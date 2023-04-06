@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md",
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md",
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md",
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md"
+                "file": "Fisica/Dinamica/legge di composizione della velocità.md"
               }
             }
           },
@@ -244,6 +244,7 @@
   },
   "active": "f8d67f5583e4126f",
   "lastOpenFiles": [
+    "Fisica/Dinamica/moto di trascinamento.md",
     "Fisica/Dinamica/moto relativo.md",
     "Fisica/Dinamica/pendolo.md",
     "Fisica/Dinamica/piano inclinato.md",
@@ -263,7 +264,6 @@
     "Fisica/Dinamica/legge di composizione della velocità.md",
     "Fisica/Dinamica/velocità assoluta.md",
     "Fisica/Dinamica/velocità relativa.md",
-    "Fisica/Dinamica/moto di trascinamento.md",
     "Fisica/Cinematica/Moto relativo.md",
     "Fisica/Dinamica/teorema di conservazione dell'energia.md",
     "Fisica/Dinamica/teorema di conservazione dell'energia meccanica.md",
