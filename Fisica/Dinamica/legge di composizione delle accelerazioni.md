@@ -15,4 +15,4 @@ Introdurremo poi anche l'accelerazione di trascinamento e l'accelerazione dell'o
 
 
 ### Calcolo dell'accelerazione assoluta
-Partendo dalla legge di composizione delle velocità
+Partendo dalla [[legge di composizione delle velocità]], con l'espressione cartesiana esplicita delel due componenti, per derivazione otteniamo:

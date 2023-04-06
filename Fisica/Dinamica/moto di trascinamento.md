@@ -78,4 +78,4 @@ Per rotazioni finite, al contrario, questa legge non si puó applicare: le rotaz
 ## Moto di trascinamento rototraslatorio
 Caso piú generale, in cui il moto del sistema mobile rispetto al sistema fisso è una composizione di una rotazione di una traslazione. Come nel caso precedente per spostamenti infinitesimi vale ancora la legge di composizione degli spostamenti in forma differenziale mentre per spostamenti finiti non si puó dare una descrizione in termini di vettori
 
-![[legge di composizione della velocità]]
+![[legge di composizione delle velocità]]
