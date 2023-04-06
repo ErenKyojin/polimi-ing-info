@@ -20,5 +20,9 @@ Abbiamo già usato questo meccanismo varie volte, dall'indecibilità del problem
 
 
 >[!oss]
->Avremm opotuto ridimostrare in modo diretto l'indecidibilità della terminazione dei programmi $C$ enumerando i programmi e applicando la stessa tecnica diagonale (con parecchi dettagli notazionali in piú)
+>Avremmo potuto ridimostrare in modo diretto l'indecidibilità della terminazione dei programmi $C$ enumerando i programmi e applicando la stessa tecnica diagonale (con parecchi dettagli notazionali in piú)
 
+
+#### Formalmente
+Voglio risolvere $x \in S'$?
+So risolvere $y \in S$?
