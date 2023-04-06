@@ -46,11 +46,13 @@ dimostrare indecidibilità -> mostriamo che è il ridotto di un problema indecid
 >Generico programma $P$, è decidibile se durante l'esecuzione di un generico programma $P$ si acceda ad una variabile non inizializzata.
 >Supponiamo per assurdo che sia decidibile. Consideriamo il problema dell'halt e riduciamolo a questo problema come segue:
 >Dato un generico $P^\land$ dove tutte le variabili sonoinizializzate costruisco $P$:
->```
+>```c
 >{
 >int x,y;
 >P^;
 >y = x;
 >}
 >```
+>avendo cura di usare identificatori $x$ e $y$ che non sono usati in $P^\land$
+>L'assegnamento $y := x$ prduce un accesso a $x$ che non è inizializzata
 
