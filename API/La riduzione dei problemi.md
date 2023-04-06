@@ -58,4 +58,9 @@ dimostrare indecidibilità -> mostriamo che è il ridotto di un problema indecid
 >L'assegnamento $y := x$ prduce un accesso a $x$ che non è inizializzato
 >...
 
-La stessa tecnica puó essere applicata per dimostrare l'indecib
+La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte altre tipiche proprietà dei programmi durante la loro esecuzione:
+- Indici di array fuori dai limiti
+- Divisione per 0
+- Compatibilità dinamica tra tipi
+- ...
+- Tipici errori a run-time
