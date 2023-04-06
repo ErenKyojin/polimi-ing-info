@@ -8,11 +8,11 @@ Se ho un algoritmo per risolvere il [[problema]] $P$ posso sfruttarlo per risolv
 
 
 >[!esempio]
->Se so risolvere il problema della ricerca di un elemento in un insieme posso risolvere il problema dell'intersezione
+>Se so risolvere il problema della ricerca di un elemento in un insieme posso risolvere il problema dell'[[intersezione]]
 
 
 
-Abbiamo già usato questo meccanismo varie volte, dall'indecibilità del problema dell'halt della MT abbiamo concluso in generale l'indecidibilità del problema della terminazione del calcolo:
+Abbiamo già usato questo meccanismo varie volte, dall'indecibilità del [[problema dell'halt]] della MT abbiamo concluso in generale l'indecidibilità del problema della terminazione del calcolo:
 - Ho una MT $M_{Y}$, un intero $x$, un programma $C$, $P$ e un file di ingresso $f$
 - Costruisco un programma $C, P$ che simula $M_{y}$ e memorizzo $x$ in un file di ingresso $f$
 - $P$ termina il suo calcolo su $f$ se e solo se $g(y,x) \neq \perp$
@@ -27,7 +27,7 @@ Abbiamo già usato questo meccanismo varie volte, dall'indecibilità del problem
 Voglio risolvere $x \in S'$?
 So risolvere $y \in S$?
 
-Se trovo una funzione $t$ calcolabile e totale tale che
+Se trovo una [[Funzioni|funzione]] $t$ calcolabile e totale tale che
 $$ x \in S' \leftrightarrow t(x) \in S $$
 allora sono in grado di rispondere algoritmicamente alla domanda $x \in S'$?
 
@@ -44,7 +44,7 @@ dimostrare indecidibilità -> mostriamo che è il ridotto di un problema indecid
 
 >[!esempio]
 >Generico programma $P$, è decidibile se durante l'esecuzione di un generico programma $P$ si acceda ad una variabile non inizializzata.
->Supponiamo per assurdo che sia decidibile. Consideriamo il problema dell'halt e riduciamolo a questo problema come segue:
+>Supponiamo per assurdo che sia decidibile. Consideriamo il [[problema]] dell'halt e riduciamolo a questo problema come segue:
 >Dato un generico $P^\land$ dove tutte le variabili sonoinizializzate costruisco $P$:
 >```c
 >{
@@ -67,7 +67,7 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 
 
 >[!teorema]
->Il problema di stabilire se $\exists z | f_{x}(z) \neq \perp$ è semidecidibile $M_{x}$
+>Il problema di stabilire se $\exists z | f_{x}(z) \neq \perp$ è [[Ricorsivamente enumerabile|semidecidibile]] $M_{x}$
 >
 >*Schema di dimostrazione:*
 >- Se cerco di calcolare $f_{x}(0)$ e trovo che è $\neq \perp$ sono a posto
@@ -79,3 +79,14 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 >- Se ancora non mi sono fermato simulo 2 passi di $f_{x}(0)$, poi un passo di $f_{x}(2)$, 2 di $f_{x}(1)$, $3$ di $f_{x}(0)$ e cosi via.
 >
 >Cosí facendo se $\exists z | f_{x}(z) \neq \perp$, prima o poi lo trovo perchè prima o poi simulerò abbastanza passi del calcolo di $f_{x}(z)$ per farla arrestare (è un sistema simile a quello adottato da uno scheduler per i processi)  
+
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw(0,0) -- (0,4);
+\draw(0,0) -- (4,0);
+\draw (0,0) grid (4,4);
+\end{tikzpicture}
+\end{document}
+```
