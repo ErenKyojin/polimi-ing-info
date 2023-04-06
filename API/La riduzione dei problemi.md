@@ -13,4 +13,7 @@ Se ho un algoritmo per risolvere il [[problema]] $P$ posso sfruttarlo per risolv
 
 
 Abbiamo già usato questo meccanismo varie volte, dall'indecibilità del problema dell'halt della MT abbiamo concluso in generale l'indecidibilità del problema della terminazione del calcolo:
-- Ho una MT $M_{Y}$
+- Ho una MT $M_{Y}$, un intero $x$, un programma $C$, $P$ e un file di ingresso $f$
+- Costruisco un programma $C, P$ che simula $M_{y}$ e memorizzo $x$ in un file di ingresso $f$
+- $P$ termina il suo calcolo su $f$ se e solo se $g(y,x) \neq \perp$
+- Se sapessi decidere se $P$ termina il suo calcolo su $$
