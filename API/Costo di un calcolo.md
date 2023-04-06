@@ -19,3 +19,4 @@ In questo corso vediamo i costi piú semplici e oggettivi, [[memoria]] e tempo (
 
 
 
+Conseguenza fondamentale della [[tesi di Church]]: i problemi non dipendono dalla 
