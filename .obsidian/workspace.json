@@ -234,7 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 446.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,7 +249,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f8d67f5583e4126f",
+  "active": "22120b36924554d0",
   "lastOpenFiles": [
     "Fisica/Dinamica/legge di composizione della velocità.md",
     "Fisica/Dinamica/moto di trascinamento.md",
