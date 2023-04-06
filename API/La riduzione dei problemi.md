@@ -12,3 +12,5 @@ Se ho un algoritmo per risolvere il [[problema]] $P$ posso sfruttarlo per risolv
 
 
 
+Abbiamo già usato questo meccanismo varie volte, dall'indecibilità del problema dell'halt della MT abbiamo concluso in generale l'indecidibilità del problema della terminazione del calcolo:
+- Ho una MT $M_{Y}$
