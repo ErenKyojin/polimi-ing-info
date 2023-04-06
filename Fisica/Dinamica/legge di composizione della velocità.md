@@ -13,3 +13,7 @@ $$Avendo definito in questo modo le tre velocità in gioco:
 - $\vec{v}_{r} = \dfrac{d\vec{s}_{r}}{dt}$ [[velocità relativa]]
 - $\vec{v}_{t} \equiv \dfrac{d\vec{s}_{t}}{dt}$ [[velocità di trascinamento]]
 
+
+### Composizione delle accelerazioni
+
+[[legge di compo]]

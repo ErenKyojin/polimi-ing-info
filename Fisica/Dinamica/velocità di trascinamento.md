@@ -75,4 +75,6 @@ in definitiva, la velocità di trascinamento vale: $\vec{v}_{t} = \vec{v}_{O'} +
 
 2. moto rotatiorio puro
    $$ \vec{v}_{O'} = 0 \implies \vec{v}_{t} = \vec{\omega} \times \vec{r}_{r} $$
-   quindi la velocità di trascinam  
+   quindi la velocità di trascinamento varia a seconda del valore della posizione occupata dal punto materiale nel sistema di riferimento relativo, individuata dal vettore $\vec{r}_{r}$  
+
+
