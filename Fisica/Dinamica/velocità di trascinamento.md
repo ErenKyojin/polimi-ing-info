@@ -71,8 +71,8 @@ in definitiva, la velocità di trascinamento vale: $\vec{v}_{t} = \vec{v}_{O'} +
 
 1. moto traslatorio puro
    $$ \vec{\omega} = 0 \implies \vec{v}_{t} = \vec{\omega} \times \vec{r}_{r} $$
-   quindi la veloci
+   in tutti i punti dello spazio (banalmente)
 
 2. moto rotatiorio puro
    $$ \vec{v}_{O'} = 0 \implies \vec{v}_{t} = \vec{\omega} \times \vec{r}_{r} $$
-   
+   quindi la velocità di trascinam  
