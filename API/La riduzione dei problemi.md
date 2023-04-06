@@ -64,3 +64,10 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 - Compatibilità dinamica tra tipi
 - ...
 - Tipici errori a run-time
+
+
+>[!teorema]
+>Il problema di stabilire se $\exists z | f_{x}(z) \neq \perp$ è semidecidibile $M_{x}$
+>
+>*Schema di dimostrazione:*
+>- Se cerco
