@@ -4,7 +4,7 @@ creation date: 2023-04-06 09:51
 modification date: 2023-04-06 09:51
 ---
 
-Se ho un algoritmo per risolvere il [[problema]] $P$ posso sfruttarlo per risolvere il problema $P'$.
+Se ho un algoritmo per risolvere il [[problema]] $P$ posso sfruttarlo per risolvere il [[problema]] $P'$.
 
 
 >[!esempio]
@@ -76,4 +76,6 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 >Uso il seguente trucco (di tipo diagonale)
 >- Simulo 1 passo del calcolo di $f_{x}(0)$, se mi fermo ho chiuso positivamente
 >- Altrimenti simulo u npasso di $f_{x}(1)$
->- Se ancora non mi sono fermato simulo 2 passi di $f_{x}(0)$, poi un passo di $f_{x}(2)$, 2 di $f_{x}(1)$, $3$ di $f_{x}(0$
+>- Se ancora non mi sono fermato simulo 2 passi di $f_{x}(0)$, poi un passo di $f_{x}(2)$, 2 di $f_{x}(1)$, $3$ di $f_{x}(0)$ e cosi via.
+>
+>Cosí facendo se $\exists z | f_{x}(z) \neq \perp$, prima o poi lo trovo perchè prima o poi simulerò abbastanza passi del calcolo di $f_{x}(z)$ per farla arrestare (è un sistema simile a quello adottato da uno scheduler per i processi)  
