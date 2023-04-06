@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "5f7d1e3cd6ad45a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/La riduzione dei problemi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4e62575449db20da",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -146,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
+                "file": "API/La riduzione dei problemi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
+                "file": "API/La riduzione dei problemi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md"
+                "file": "API/La riduzione dei problemi.md"
               }
             }
           },
@@ -218,10 +230,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5706475201497b02",
+  "active": "5f7d1e3cd6ad45a9",
   "lastOpenFiles": [
-    "API/problema.md",
     "API/Ricorsivamente enumerabile.md",
+    "API/La riduzione dei problemi.md",
+    "API/problema.md",
     "API/Teorema di rice.md",
     "API/complemento.md",
     "Fisica/Dinamica/velocità di trascinamento.md",
@@ -246,7 +259,6 @@
     "Fondamenti di automatica/Controllore in retroazione.md",
     "Fondamenti di automatica/funzione di trasferimento.md",
     "Fondamenti di automatica/criteri di stabilità.md",
-    "Fondamenti di automatica/Criterio di bode.md",
     "Cp.canvas",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
     "Pasted image 20230330135642.png",
