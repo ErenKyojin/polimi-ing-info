@@ -65,4 +65,5 @@ x' \frac{d\hat{u}_{x'}}{dt} + y'\frac{d\hat{u}_{y'}}{dt} + z' \frac{d\hat{u}_{z'
 &= \vec{\omega} \times (x' \hat{u}_{x'} + y'\hat{u}_{y'} + z'\hat{u}_{z'}) = \vec{\omega} \times \vec{r}_{r}
 \end{align}
 $$
-in definitiva, la velocità di trascinamento vale: $\vec{v}_{t} = \vec{v}_{O'}$
+in definitiva, la velocità di trascinamento vale: $\vec{v}_{t} = \vec{v}_{O'} + \vec{\omega} \times \vec{r}_{r}$
+
