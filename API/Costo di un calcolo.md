@@ -24,3 +24,4 @@ Cominciamo da un analisi di complessità legata alle macchine di Turing (di tipo
 
 ![[Complessità temporale]]
 
+![[Complessità spaziale]]
