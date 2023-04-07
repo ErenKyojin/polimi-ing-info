@@ -141,4 +141,5 @@ $$
 $$
 Le forze reali sono la forza peso e la reazione vincolare, avremo quindi:
 $$ \vec{W} + \vec{R} - m(\vec{a}_{c} + \vec{a}_{l})=0 \implies m\vec{g} + \vec{R} - m[2\vec{\omega} \times \vec{v}_{r} + \vec{\omega} \times (\vec{\omega} \times \vec{r})]=0 $$
-Il primo terim
+Il primo terime fra parentesi è la **forza di Coriolis**, che si annulla se la  velocità relativa è zero (come nel nostro caso), o se è parallela all'asse di rotazione.
+Il secondo termine, dovuto all'accelerazione di trascinamento, prende il nome di **forza centrifuga** e vale in questo caso $\vec{F}_{t} = m \omega^2 $
