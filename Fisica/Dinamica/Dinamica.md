@@ -51,8 +51,12 @@ Sappiamo che in un [[sistema di riferimento inerziale]] il [[secondo principio d
 $$
 \vec{F} = m\vec{a}
 $$
-dove $\vec{a}$ rappresenta l'accelerazione assoluta, cioè riferita al sistema fisso, o meglio inerziale, del punto materiale soggetto alla [[forza]] $\vec{F}$.
-Ricordiamo tuttavia che un sistema solidale con la Terra non è inerziale, come non lo sono molti altri sistemi di riferimento comunemente usati. Sappiamo però dalla cinematica del [[moto relativo]] che l'accelerazione assoluta viene scomposta ([[legge di composizione delle accelerazioni]]):
+dove $\vec{a}$ rappresenta l'accelerazione assoluta, cioè riferita al sistema fisso, o meglio inerziale, del [[punto materiale]] soggetto alla [[forza]] $\vec{F}$.
+Ricordiamo tuttavia che un sistema solidale con la Terra non è inerziale, come non lo sono molti altri sistemi di riferimento comunemente usati. Sappiamo però dalla [[cinematica]] del [[moto relativo]] che l'accelerazione assoluta viene scomposta ([[legge di composizione delle accelerazioni]]):
 $$
-\vec{a}_{a} = \vec{a}_{r} + \vec{a}_{c}
+\vec{a}_{a} = \vec{a}_{r} + \vec{a}_{c} + \vec{a}_{t}
 $$
+con
+- $\vec{a}_{r}$ accelerazione relativa
+- $\vec{a}_{c}$ [[accelerazione di coriolis]]
+- $\vec{a}_{t}$ accelerazione di trascinamento
