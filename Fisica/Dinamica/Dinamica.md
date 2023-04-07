@@ -82,15 +82,14 @@ $$
 > ```tikz
 > \usetikzlibrary{arrows.meta}
 >\begin{document}
->\begin{tikzpicture}
+>\begin{tikzpicture}[scale = 1.5]
 >\draw[-{Stealth[scale = 2]}] (0,0) -- (0,5)node[below left]{$y$}; 
 >\draw[fill = cyan, fill opacity = 0.2] (1,1) -- (1,4) -- (3,4) -- (3,1) -- (1,1);
 >\draw[fill = white,thick] (2,2.5) circle (.2);
->\draw (2,2.3) -- (2,1.5);
->\draw(1.5,1.9) -- (2,2) -- (2.5,1.9);
+>\draw[thick] (2,2.3) -- (2,1.5);
+>\draw[thick] (1.5,1.9) -- (2,2) -- (2.5,1.9);
 >\draw(1.8, 1) -- (2,1.5) -- (2.2, 1);
 >\end{tikzpicture}
 >\end{document}
 >```
-
 
