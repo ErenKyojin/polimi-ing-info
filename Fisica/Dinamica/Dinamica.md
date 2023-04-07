@@ -67,3 +67,4 @@ con
 
 
 Questo ci porta a definire le ![[forze apparenti]]
+In un sistema non inerziale non vale neppure il principio d'inerzia, un corpo non soggetto ad interazioni si muove 

@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/forze apparenti.md",
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/forze apparenti.md",
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/forze apparenti.md",
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/forze apparenti.md"
+                "file": "Fisica/Dinamica/Dinamica.md"
               }
             }
           },
@@ -175,8 +175,8 @@
   },
   "active": "f8d67f5583e4126f",
   "lastOpenFiles": [
-    "Fisica/Dinamica/Dinamica.md",
     "Fisica/Dinamica/forze apparenti.md",
+    "Fisica/Dinamica/Dinamica.md",
     "Day Planners/Day Planner-20230407.md",
     "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
     "Fisica/Dinamica/accelerazione di Coriolis.md",
