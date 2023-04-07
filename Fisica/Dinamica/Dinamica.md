@@ -90,8 +90,9 @@ $$
 >\draw[thick] (1.5,1.9) -- (2,2) -- (2.5,1.9);
 >\draw[thick] (1.8, 1) -- (2,1.5) -- (2.2, 1);
 >\draw[-{Stealth[scale = 2]}] (2,1) -- (2,0)node[right]{$\vec{a}_{d}$};
->\node[scale = .5] (p) at (2.5,2){$\bullet$};
->\draw[-{Stealth[scale = 2]}] (p.center) -- ++ (0,-1.5);
+>\node[scale = .5] (p) at (2.8,2){$\bullet$};
+>\draw[-{Stealth[scale = 2]}] (p.center) -- ++ (0,-1.5) node[right]{$m\vec{g}$};
+>\draw[-{Stealth[scale = 2]}] (p.center) -- ++ (0,.5) node[right]{$\vec{R}$};
 >\end{tikzpicture}
 >\end{document}
 >```
