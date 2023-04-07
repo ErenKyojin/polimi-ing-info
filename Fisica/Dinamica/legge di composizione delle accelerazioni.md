@@ -33,5 +33,6 @@ $$ \begin{align}
 \end{align} $$
 La somma dei suddetti due termini coincidenti è detta [[accelerazione di Coriolis]], la somma degli ultimi due termini, invece, rappresenta l'accelerazione che il punto materiale avrebbe, rispetto al sistema fisso, se fosse fermo nel sistema mobile, là dove si trova all'istante considerato. Per questo motivo viene indicata come accelerazione di trascinamento
 $$
-\vec{a}_{t} = \left( x' \frac{d^2\hat{u}_{x'}}{dt^2} + y' \frac{d^2\hat{u}_{y'}}{dt}   \right)
+\vec{a}_{t} = \left( x' \frac{d^2\hat{u}_{x'}}{dt^2} + y' \frac{d^2\hat{u}_{y'}}{dt^2} + z' \frac{d^2\hat{u}_{z'}}{dt^2}    \right) + \frac{d^2\vec{r}_{O'}}{dt^2} 
 $$
+Di questa espressione, il secondo termine è la derivata della velocità dell'origine, e rappresenta perciò l'accelerazione dell'origine, che indicheremo come $\vec{a}_{O'}$, mentre il primo termine puó essere r
