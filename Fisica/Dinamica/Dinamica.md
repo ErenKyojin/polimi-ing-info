@@ -82,7 +82,7 @@ $$
 > ```tikz
 > \usetikzlibrary{arrows.meta}
 >\begin{document}
->\begin{tikzpicture}[scale = 1.5]
+>\begin{tikzpicture}[scale = 1.5, every node/.style={scale = 2}]
 >\draw[-{Stealth[scale = 2]}] (0,0) -- (0,5)node[below left]{$y$}; 
 >\draw[fill = cyan, fill opacity = 0.2] (1,1) -- (1,4) -- (3,4) -- (3,1) -- (1,1);
 >\draw[fill = white,thick] (2,2.5) circle (.2);
@@ -90,6 +90,7 @@ $$
 >\draw[thick] (1.5,1.9) -- (2,2) -- (2.5,1.9);
 >\draw[thick] (1.8, 1) -- (2,1.5) -- (2.2, 1);
 >\draw[-{Stealth[scale = 2]}] (2,1) -- (2,0)node[right]{$\vec{a}_{d}$};
+>\node at (2.5,1){$\bullet$};
 >\end{tikzpicture}
 >\end{document}
 >```
