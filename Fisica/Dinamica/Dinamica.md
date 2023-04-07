@@ -170,6 +170,7 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 \draw[-{Stealth},thick] (0,-2.5) -- (0,2.5) node[right]{$y$};
 \node (ome) at (-.5,-.5){$\bullet$};
 \draw (ome) circle (.3);
+\node at (-.3,.3){z};
 \node[below right = 1.25mm] at (ome){$\vec{\omega}$};
 \draw[-{Stealth},thick] (-1,-.3) arc (180:270:.7);
 \end{tikzpicture}
@@ -178,7 +179,7 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 
 %(b)
 \begin{tikzpicture}[scale = 1.2]
-
+\node at (.3,)
 \draw[fill = Peru] (0,0) circle (2);
 \draw (0,0) circle (.3);
 \draw[-{Stealth},thick] (0,0) -- ++ (.75,1.25) node[](P){$\bullet$} node[above]{$P$};
