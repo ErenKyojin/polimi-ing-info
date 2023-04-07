@@ -145,5 +145,8 @@ Il primo terime fra parentesi è la **forza di Coriolis**, che si annulla se la 
 Il secondo termine, dovuto all'accelerazione di trascinamento, prende il nome di **forza centrifuga** e vale in questo caso $\vec{F}_{t} = m \omega^2 r \hat{u}_{r}$. È diretta radialmente verso l'esterno (da cui il nome centrifuga) in verso opposto all'accelerazione di trascinamento, che è poi l'accelerazione centripeta del moto circolare.
 L'equazione di equilibrio diventa:
 $$
--mg\hat{u}_{z} + \vec{R} + m\omega^2 r\hat{u}_{r} = 0 \implies \vec{R} = mg\hat{u}_{z} - m\omega^2r\hat{u}_{r}
+-mg\hat{u}_{z} + \vec{R} + m\omega^2 r\hat{u}_{r} = 0 \implies \vec{R} = mg\hat{u}_{z} - m\omega^2r\hat{u}_{r} = \vec{R}_{N} + \vec{R}_{T}
 $$
+La reazione vincolare ha quindi una **componente normale** alla piattaforma, che bilancia la forza peso, ed una ad essa **tangente** che bilancia la forza centrifuga.
+
+Sup
