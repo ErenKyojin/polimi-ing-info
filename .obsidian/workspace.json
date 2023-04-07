@@ -27,13 +27,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day Planners/Day Planner-20230407.md",
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -119,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day Planners/Day Planner-20230407.md",
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day Planners/Day Planner-20230407.md"
+                "file": "Fisica/Dinamica/Dinamica.md"
               }
             }
           },
@@ -178,10 +179,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "34878c14b1142c37",
+  "active": "f8d67f5583e4126f",
   "lastOpenFiles": [
-    "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
     "Day Planners/Day Planner-20230407.md",
+    "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
     "Fisica/Dinamica/accelerazione di Coriolis.md",
     "Fisica/Dinamica/legge di composizione delle velocità.md",
     "Fisica/Dinamica/moto di trascinamento.md",

@@ -45,3 +45,5 @@ Il problema generale della dinamica del punto materiale consiste nella ricerca d
 
 
 
+# Dinamica in [[sistemi non inerziali]]
+
