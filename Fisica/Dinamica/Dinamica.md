@@ -116,7 +116,7 @@ Consideriamo un punto materiale $P$ di massa $m$ che sia vincolato ad una piatta
 \usepackage[svgnames]{xcolor}
 \usetikzlibrary{arrows.meta}
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[scale = 1.2]
 \draw[fill = Peru] (0,0) circle (2);
 \draw (0,0) circle (.3);
 \draw[-{Stealth},thick] (0,0) -- ++ (.75,1.25) node[](P){$\bullet$} node[above]{$P$};
@@ -125,7 +125,7 @@ Consideriamo un punto materiale $P$ di massa $m$ che sia vincolato ad una piatta
 \draw[-{Stealth},thick] (0,-2.5) -- (0,2.5) node[right]{$y$};
 \node (ome) at (-.5,-.5){$\bullet$};
 \draw (ome) circle (.3);
-\node[right]
+\node[below right = 1.25mm] at (ome){$\vec{\omega}$};
 \draw[-{Stealth},thick] (-1,-.3) arc (180:270:.7);
 \end{tikzpicture}
 \end{document}
