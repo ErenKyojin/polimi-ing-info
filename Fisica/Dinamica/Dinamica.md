@@ -72,4 +72,11 @@ $$
 \vec{F} = 0 \implies \vec{a}_{a} = 0\quad ;\quad\vec{a}_{r} = \vec{a}_{c} - \vec{a}_{t} \neq 0\quad \vec{a}_{r} = \frac{1}{m}\vec{F}_{app}
 $$
 
-[[mo]]
+## Sistemi notevoli
+
+### Sistema in moto traslatorio puro
+
+>[!esempio] ascensore in discesa accelerata.
+>Come sistema inerziale si puó escegliere un sistema solidale con la terra, come sistema mobile quello dell'ascensore, studiamo le forze che agiscono sul passeggero.
+>
+>tikzpicture
