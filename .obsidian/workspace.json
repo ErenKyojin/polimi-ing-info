@@ -46,7 +46,6 @@
       {
         "id": "aefa20faf552eb40",
         "type": "tabs",
-        "dimension": 53.85356454720617,
         "children": [
           {
             "id": "b276f1e55d5aea15",
@@ -55,6 +54,18 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "540b351f17ef6673",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Fisica/Dinamica/Dinamica.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -79,25 +90,6 @@
             "state": {
               "type": "starred",
               "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "020a5d795596be95",
-        "type": "tabs",
-        "dimension": 46.14643545279383,
-        "children": [
-          {
-            "id": "540b351f17ef6673",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Fisica/Dinamica/Dinamica.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
             }
           }
         ]
@@ -164,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 450.5
+    "width": 450.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,7 +172,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f8d67f5583e4126f",
+  "active": "b276f1e55d5aea15",
   "lastOpenFiles": [
     "Day Planners/Day Planner-20230407.md",
     "Fisica/Dinamica/legge di composizione delle accelerazioni.md",

@@ -47,3 +47,7 @@ Il problema generale della dinamica del punto materiale consiste nella ricerca d
 
 # Dinamica in [[sistemi non inerziali]]
 
+Sappiamo che in un [[sistema di riferimento inerziale]] il [[secondo principio della dinamica]] si scrive come
+$$
+\vec{F} = m\vec{a}
+$$
