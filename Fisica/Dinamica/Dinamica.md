@@ -106,3 +106,4 @@ $$
 >&\vec{a}_{r} = 0 \implies m\vec{a}_{r} = \vec{F} + \vec{F}_{t} = 0
 >\end{align} $$
 >La forza $\vec{F}$ è la somma della forza peso e della reazione vincolare, avremo quindi
+>$$ Fve $$

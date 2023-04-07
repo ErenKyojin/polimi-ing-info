@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day Planners/Day Planner-20230407.md",
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day Planners/Day Planner-20230407.md",
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day Planners/Day Planner-20230407.md",
+                "file": "Fisica/Dinamica/Dinamica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day Planners/Day Planner-20230407.md"
+                "file": "Fisica/Dinamica/Dinamica.md"
               }
             }
           },
@@ -150,6 +150,20 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "93c4ea74fa38e186",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "374b345d461f1bda",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
               "state": {}
             }
           }
@@ -175,9 +189,9 @@
   },
   "active": "f8d67f5583e4126f",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20230407.md",
     "Fisica/Dinamica/Dinamica.md",
     "Fisica/Dinamica/forze apparenti.md",
-    "Day Planners/Day Planner-20230407.md",
     "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
     "Fisica/Dinamica/accelerazione di Coriolis.md",
     "Fisica/Dinamica/legge di composizione delle velocità.md",
