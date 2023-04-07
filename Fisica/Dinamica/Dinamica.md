@@ -105,4 +105,4 @@ $$
 >&\vec{v}_{r} = 0 \implies \vec{a}_{c} = 2\vec{\omega} \times \vec{v}_{r} =0 \\
 >&\vec{a}_{r} = 0 \implies m\vec{a}_{r} = \vec{F} + \vec{F}_{t} = 0
 >\end{align} $$
->La forza $\vec{F}$ è la somma della forza peso e della reazione 
+>La forza $\vec{F}$ è la somma della forza peso e della reazione vincolare, avremo quindi
