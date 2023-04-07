@@ -98,5 +98,10 @@ $$
 >```
 >
 >Ascensore in discesa accelerata. Come sistema inerziale si puó scegliere un sistema solidale con la terra, come sistema mobile quello dell'ascensore. Studiamo le forze che agiscono su un passeggero.
->L'accelerazione di trascinamente è la stessa per tutti i punti del sistema (essendo un moto traslator)
-
+>L'accelerazione di trascinamente è la stessa per tutti i punti del sistema (essendo un moto traslatorio) e vale per ipotesi:
+>$\vec{a}_{t} = -a_{d}\hat{u}_{y}$
+>Il passeggero è fermo rispetto alla cabina quindi:
+>$$ \begin{align} \\
+>&\vec{v}_{r} = 0 \implies \vec{a}_{c} = 2\vec{\omega} \times \vec{v}_{r} =0 \\
+>&\vec{a}_{r} = 0 \implies m\vec{a}_{r} = \vec{F}
+>\end{align} $$
