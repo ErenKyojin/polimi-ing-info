@@ -112,5 +112,10 @@ $$
 ### Sistema in moto rotatorio puro
 Consideriamo un punto materiale $P$ di massa $m$ che sia vincolato ad una piattaforma rotante con velocità angolare costante. Siano $r$ la distanza di $P$ dall'asse di rotazione e $\vec{\omega}$ il vettore velocità angolare (costante). La legge di composizione della velocità si scrive in questo caso:
 $$
-\vec{v}_{r} = 0 \implies \vec{v}_{a} = \vec{v}_{t} = \vec{\omega} \times vve
+\vec{v}_{r} = 0 \implies \vec{v}_{a} = \vec{v}_{t} = \vec{\omega} \times \vec{r}_{r} = \vec{\omega} \times \vec{r}
 $$
+Il punto $P$ si muove di moto circolare uniforme per un osservatore inerziale, metnre rispetto al sistema rotante solidale con la piattaforma è fermo. Avremo quindi:
+$$
+\vec{a}_{r} = 0 \implies \vec{F} + \vec{F}_{app} = \vec{F} + \vec{F}_{t} + \vec{F}_{c} = 0
+$$
+Le forze reali sono la forza peso
