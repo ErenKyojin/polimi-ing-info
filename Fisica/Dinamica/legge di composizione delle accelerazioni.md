@@ -48,5 +48,4 @@ In conlusione l'accelerazione assoluta può essere scomposta nei termini
 $$
 \fbox{$\vec{a}_{a} = \vec{a}_{r} + \vec{a}_{c} + \vec{a}_{t}$}
 $$
-con
-- $\vec{a}_{t} = a_{O'} + \vec{\omega} \times$
+con $\vec{a}_{t} = a_{O'} + \vec{\omega} \times (\vec{\omega} \times \vec{r}_{r}) + \frac{d\vec{\omega}}{dt} \times \vec{r}_{r} = \vec{a}_{O'} + \vec{\omega} \times (\vec{\omega} \times \vec{r}_{r}) + \vec{\alpha} \times \vec{r}_{r}$
