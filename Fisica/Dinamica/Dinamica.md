@@ -153,7 +153,7 @@ Supponiamo che ad un certo istante di tempo il punto materiale $P$ si stacchi da
 - Per un osservatore inerziale il punto $P$ fugge lungo la tangente alla traiettoria circolare con una velocità $v = \omega r$ muovendosi di moto rettilineo uniforme sulle piattaforma (la reazione vincolare bilancia la forza peso e la risultante delel forze reali è nulla)
 - Per un osservatore solidale con la piattaforma il punto si muove in maniera piú complessa, sotto l'azion della forza centrifuga e della forza di Coriolis (mentre le forze reali si annullano). La traiettoria sarà curvilinea, diretta verso l'esterno (a causa della forza centrifuga) e in direzione opposta a quella del moto della piattaforma per effetto della forza di Coriolis.
 
-In figura è schematizzato il moto del punto materiale $P$ a partire dall'istante in cui si stacca dalla piattaforma, nel riferimento inerziale $(a)$ e nel sistema solidale con la piattaforma
+In figura è schematizzato il moto del punto materiale $P$ a partire dall'istante in cui si stacca dalla piattaforma, nel riferimento inerziale $(a)$ e nel sistema solidale con la piattaforma (b)
 
 ```tikz
 \usepackage[svgnames]{xcolor}
@@ -185,7 +185,7 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 \draw[-{Stealth},thick] (0,0) -- ++ (.75,1.25) node[](P){$\bullet$} node[above]{$P$};
 \draw[-{Stealth},thick] (P.center) to[out = 90, in = 170] (1.75,1.55);
 \draw[-{Stealth},thick,red] (P.center) -- ++ (1,1.6) node[right]{$\vec{F} = -m\vec{a}_l$};
-\draw[-{S}]
+\draw[-{Stealth},thick,green] (P.center) -- ++ (1,-0.6)node[]{$\vec{F$};
 \draw[-{Stealth},thick] (-2.5,0) -- (2.5,0) node[below]{$x$};
 \draw[-{Stealth},thick] (0,-2.5) -- (0,2.5) node[right]{$y$};
 
