@@ -110,6 +110,7 @@ $$
 >È come se all'interno dell'ascensore l'accelerazione di gravità fosse diminuita al valore $g - a_{d}$ per effetto della discesa accelerata. Se risulta $a_{d} = g$ il passeggero ha la sensazione di essere privo di peso; la forza in grado di contrastare la sensazione di peso è una **forza apparente**
 
 ### Sistema in moto rotatorio puro
-Consideriamo un punto materiale $P$ di massa
-
-
+Consideriamo un punto materiale $P$ di massa $m$ che sia vincolato ad una piattaforma rotante con velocità angolare costante. Siano $r$ la distanza di $P$ dall'asse di rotazione e $\vec{\omega}$ il vettore velocità angolare (costante). La legge di composizione della velocità si scrive in questo caso:
+$$
+\vec{v}_{r} = 0 \implies \vec{v}_{a} = \vec{v}_{t} = \vec{\omega} \times vve
+$$
