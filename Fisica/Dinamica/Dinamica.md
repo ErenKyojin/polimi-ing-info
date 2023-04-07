@@ -51,3 +51,5 @@ Sappiamo che in un [[sistema di riferimento inerziale]] il [[secondo principio d
 $$
 \vec{F} = m\vec{a}
 $$
+dove $\vec{a}$ rappresenta l'accelerazione assoluta, cioè riferita al sistema fisso, o meglio inerziale, del punto materiale soggetto alla [[forza]] $\vec{F}$.
+Ricordiamo tuttavia che un sistema solidale con la Terra non è inerziale, 

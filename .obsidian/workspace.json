@@ -92,7 +92,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,7 +173,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b276f1e55d5aea15",
+  "active": "540b351f17ef6673",
   "lastOpenFiles": [
     "Day Planners/Day Planner-20230407.md",
     "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
