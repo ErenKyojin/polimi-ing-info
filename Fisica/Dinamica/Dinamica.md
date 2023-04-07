@@ -184,7 +184,8 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 \draw (0,0) circle (.3);
 \draw[-{Stealth},thick] (0,0) -- ++ (.75,1.25) node[](P){$\bullet$} node[above]{$P$};
 \draw[-{Stealth},thick] (P.center) to[out = 90, in = 170] (1.75,1.55);
-\draw[-{Stealth},thick,green] (P.center) -- ++ (1,)
+\draw[-{Stealth},thick,red] (P.center) -- ++ (1,1.6) node[right]{$\vec{F} = -m\vec{a}_l$};
+\draw[-{S}]
 \draw[-{Stealth},thick] (-2.5,0) -- (2.5,0) node[below]{$x$};
 \draw[-{Stealth},thick] (0,-2.5) -- (0,2.5) node[right]{$y$};
 
