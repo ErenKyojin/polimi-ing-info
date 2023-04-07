@@ -96,4 +96,7 @@ $$
 >\end{tikzpicture}
 >\end{document}
 >```
+>
+>Ascensore in discesa accelerata. Come sistema inerziale si puó scegliere un sistema solidale con la terra, come sistema mobile quello dell'ascensore. Studiamo le forze che agiscono su un passeggero.
+>L'accelerazione di trascinamente è la stessa per tutti i punti del sistema (essendo un moto traslator)
 
