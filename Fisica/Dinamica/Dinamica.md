@@ -79,4 +79,13 @@ $$
 >[!esempio] ascensore in discesa accelerata.
 >Come sistema inerziale si puó escegliere un sistema solidale con la terra, come sistema mobile quello dell'ascensore, studiamo le forze che agiscono sul passeggero.
 >
->tikzpicture
+> ```tikz
+> \usetikzlibrary{arrows.meta}
+>\begin{document}
+>\begin{tikzpicture}
+>\draw[-{Stealth[scale = 2]}] (0,0) -- (0,5)node[below left]{$y$}; 
+>\draw ()
+>\end{tikzpicture}
+>\end{document}
+>```
+
