@@ -179,8 +179,8 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 
 %(b)
 \begin{tikzpicture}[scale = 1.2]
-\node at (.3,)
 \draw[fill = Peru] (0,0) circle (2);
+\node at (-.3,.3){z};
 \draw (0,0) circle (.3);
 \draw[-{Stealth},thick] (0,0) -- ++ (.75,1.25) node[](P){$\bullet$} node[above]{$P$};
 \draw[-{Stealth},thick] (P.center) -- ++ (-1.25,.75) node[above]{$\vec{v}_a$};
@@ -191,3 +191,4 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 
 \end{document}
 ```
+#todo animazione :3
