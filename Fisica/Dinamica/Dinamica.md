@@ -154,3 +154,25 @@ Supponiamo che ad un certo istante di tempo il punto materiale $P$ si stacchi da
 - Per un osservatore solidale con la piattaforma il punto si muove in maniera piú complessa, sotto l'azion della forza centrifuga e della forza di Coriolis (mentre le forze reali si annullano). La traiettoria sarà curvilinea, diretta verso l'esterno (a causa della forza centrifuga) e in direzione opposta a quella del moto della piattaforma per effetto della forza di Coriolis.
 
 In figura è schematizzato il moto del punto materiale $P$ a partire dall'istante in cui si stacca dalla piattaforma, nel riferimento inerziale $(a)$ e nel sistema solidale con la piattaforma
+
+```tikz
+\usepackage[svgnames]{xcolor}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}[scale = 1.2]
+\draw[fill = Peru] (0,0) circle (2);
+\draw (0,0) circle (.3);
+\draw[-{Stealth},thick] (0,0) -- ++ (.75,1.25) node[](P){$\bullet$} node[above]{$P$};
+\draw[-{Stealth},thick] (P.center) -- ++ (-1.25,.75) node[above]{$\vec{v}_a$};
+\draw[-{Stealth},thick] (-2.5,0) -- (2.5,0) node[below]{$x$};
+\draw[-{Stealth},thick] (0,-2.5) -- (0,2.5) node[right]{$y$};
+\node (ome) at (-.5,-.5){$\bullet$};
+\draw (ome) circle (.3);
+\node[below right = 1.25mm] at (ome){$\vec{\omega}$};
+\draw[-{Stealth},thick] (-1,-.3) arc (180:270:.7);
+\end{tikzpicture}
+\hspace{5cm}
+\begin{tikzpicture}
+\e
+\end{document}
+```
