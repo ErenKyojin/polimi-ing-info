@@ -41,6 +41,12 @@ $$
 &x' \frac{d^2\hat{u}_{x'}}{dt^2} + y'\frac{d^2\hat{u}_{y'}}{dt^2}   + z' \frac{d^2\hat{u}_{z'}}{dt^2} = x' \frac{d}{dt}\left( \frac{d\hat{u}_{x'}}{dt}  \right) + y' \frac{d}{dt} \left( \frac{d\hat{u}_{y'}}{dt}  \right) + z' \frac{d}{dt}\left( \frac{d\hat{u}_{z'}}{dt}  \right) = \\
 = & x' \frac{d}{dt}(\omega \times \hat{u}_{x'}) + y'\frac{d}{dt}(\omega \times \hat{u}_{z'}) + z'\frac{d}{dt}(\vec{\omega} \times \hat{u}_{z'})  = \\
 =& \frac{d\vec{\omega}}{dt} \times (x'\hat{u}_{x'} + y'\hat{u}_{y'} + z'\hat{u}_{z'}) + \vec{\omega}\times \left( x'\frac{d\hat{u}_{x'} }{dt} + y'\frac{d\hat{u}_{y'}}{dt}  + z'\frac{d\hat{u}_{z'}}{dt}   \right)= \\
-=& \frac{d\vec{\omega}}{dt}\times \vec{r}_{r}     
+=& \frac{d\vec{\omega}}{dt}\times \vec{r}_{r} + \vec{\omega} \times (\vec{\omega} \times \vec{r}_{r})     
 \end{align}
 $$
+In conlusione l'accelerazione assoluta può essere scomposta nei termini
+$$
+\fbox{$\vec{a}_{a} = \vec{a}_{r} + \vec{a}_{c} + \vec{a}_{t}$}
+$$
+con
+- $$
