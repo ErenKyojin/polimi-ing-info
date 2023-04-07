@@ -8,6 +8,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "34878c14b1142c37",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Day Planners/Day Planner-20230407.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "f8d67f5583e4126f",
             "type": "leaf",
             "state": {
@@ -79,7 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
+                "file": "Day Planners/Day Planner-20230407.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -105,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
+                "file": "Day Planners/Day Planner-20230407.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md"
+                "file": "Day Planners/Day Planner-20230407.md"
               }
             }
           },
@@ -164,10 +178,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f8d67f5583e4126f",
+  "active": "34878c14b1142c37",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20230407.md",
     "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
+    "Day Planners/Day Planner-20230407.md",
     "Fisica/Dinamica/accelerazione di Coriolis.md",
     "Fisica/Dinamica/legge di composizione delle velocità.md",
     "Fisica/Dinamica/moto di trascinamento.md",

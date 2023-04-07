@@ -49,3 +49,5 @@ $$
 \fbox{$\vec{a}_{a} = \vec{a}_{r} + \vec{a}_{c} + \vec{a}_{t}$}
 $$
 con $\vec{a}_{t} = a_{O'} + \vec{\omega} \times (\vec{\omega} \times \vec{r}_{r}) + \frac{d\vec{\omega}}{dt} \times \vec{r}_{r} = \vec{a}_{O'} + \vec{\omega} \times (\vec{\omega} \times \vec{r}_{r}) + \vec{\alpha} \times \vec{r}_{r}$
+e avondo indicato nell'ultimo passaggio l'accelerazione angolare di rotazione del sistema di riferimento relativo come la derivata della velocità angolare
+
