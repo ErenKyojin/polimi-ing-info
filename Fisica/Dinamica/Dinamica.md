@@ -153,4 +153,4 @@ Supponiamo che ad un certo istante di tempo il punto materiale $P$ si stacchi da
 - Per un osservatore inerziale il punto $P$ fugge lungo la tangente alla traiettoria circolare con una velocità $v = \omega r$ muovendosi di moto rettilineo uniforme sulle piattaforma (la reazione vincolare bilancia la forza peso e la risultante delel forze reali è nulla)
 - Per un osservatore solidale con la piattaforma il punto si muove in maniera piú complessa, sotto l'azion della forza centrifuga e della forza di Coriolis (mentre le forze reali si annullano). La traiettoria sarà curvilinea, diretta verso l'esterno (a causa della forza centrifuga) e in direzione opposta a quella del moto della piattaforma per effetto della forza di Coriolis.
 
-In figura è s
+In figura è schematizzato il moto del punto materiale $P$ a partire dall'istante in cui si stacca dalla piattaforma, nel riferimento inerziale $(a)$ e nel sistema solidale con la piattaforma
