@@ -139,4 +139,6 @@ Il punto $P$ si muove di moto circolare uniforme per un osservatore inerziale, m
 $$
 \vec{a}_{r} = 0 \implies \vec{F} + \vec{F}_{app} = \vec{F} + \vec{F}_{t} + \vec{F}_{c} = 0
 $$
-Le forze reali sono la forza peso
+Le forze reali sono la forza peso e la reazione vincolare, avremo quindi:
+$$ \vec{W} + \vec{R} - m(\vec{a}_{c} + \vec{a}_{l})=0 \implies m\vec{g} + \vec{R} - m[2\vec{\omega} \times \vec{v}_{r} + \vec{\omega} \times (\vec{\omega} \times \vec{r})]=0 $$
+Il primo terim
