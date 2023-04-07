@@ -21,6 +21,8 @@ $$
 
 \vec{a}_{a} &= \frac{d\vec{v}_{a}}{dt} = \frac{d(\vec{v}_{r}\! +\! \vec{v}_{t})}{dt} = \frac{d}{dt} \left[ \left( \frac{dx'}{dt}\hat{u}_{x'}\! +\! \frac{dy'}{dt}\hat{u}_{y'} + \frac{dz'}{dt}\hat{u}_{z'}    \right)\! +\! \left( x'\frac{d\hat{u}_{x'}}{dt} + y\frac{d\hat{u}_{y'}} {dt}+ z'\frac{d\hat{u}_{z'}}{dt}    \right)+\frac{d\vec{r}_{O'}}{dt}\!  \right]\!   = \\
 &=\left( \frac{d^2x'}{dt^2}\hat{u}_{x'} + \frac{d^2y'}{dt^2}\hat{u}_{y'} + \frac{d^2z'}{dt^2}\hat{u}_{z'}    \right) + \left( \frac{dx'}{dt} \frac{d\hat{u}_{x'}}{dt} + \frac{dy'}{dt}\frac{d\hat{u}_{y}}{dt} + \frac{dz'}{dt}\frac{d\hat{u}_{z'}}{dt}       \right) + \\
-&+ \left( \frac{dx'}{dt}\frac{d\hat{u}_{x'}}{dt} + \frac{dy'}{dt}\frac{d\hat{u}_{y'}}{dt} + \frac{dz'}{dt}\frac{d\hat{u}_{z'}}{dt}       \right) + \left( x' \frac{d^2\hat{u}_{x'}}{dt^2} + y' \frac{d^2\hat{u}_{y'}}{dt^2} + z'\frac{d^2\hat{u}_{z'}}{dt^2}   \right) + \frac{d^2\vec{r}_{O'}}{dt} 
+&+ \left( \frac{dx'}{dt}\frac{d\hat{u}_{x'}}{dt} + \frac{dy'}{dt}\frac{d\hat{u}_{y'}}{dt} + \frac{dz'}{dt}\frac{d\hat{u}_{z'}}{dt}       \right) + \left( x' \frac{d^2\hat{u}_{x'}}{dt^2} + y' \frac{d^2\hat{u}_{y'}}{dt^2} + z'\frac{d^2\hat{u}_{z'}}{dt^2}   \right) + \frac{d^2\vec{r}_{O'}}{dt^2} 
 \end{align}
 $$
+
+Nel primo termine abbiamo l'accelerazione relativa, secondo e terzo sono uguali e sono
