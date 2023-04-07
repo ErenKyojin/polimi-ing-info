@@ -52,4 +52,7 @@ $$
 \vec{F} = m\vec{a}
 $$
 dove $\vec{a}$ rappresenta l'accelerazione assoluta, cioè riferita al sistema fisso, o meglio inerziale, del punto materiale soggetto alla [[forza]] $\vec{F}$.
-Ricordiamo tuttavia che un sistema solidale con la Terra non è inerziale, 
+Ricordiamo tuttavia che un sistema solidale con la Terra non è inerziale, come non lo sono molti altri sistemi di riferimento comunemente usati. Sappiamo però dalla cinematica del [[moto relativo]] che l'accelerazione assoluta viene scomposta ([[legge di composizione delle accelerazioni]]):
+$$
+\vec{a}_{a} = \vec{a}_{r} + \vec{a}_{c}
+$$
