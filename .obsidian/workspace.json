@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Dinamica.md",
+                "file": "Fisica/Dinamica/forze apparenti.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Dinamica.md",
+                "file": "Fisica/Dinamica/forze apparenti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Dinamica.md",
+                "file": "Fisica/Dinamica/forze apparenti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Dinamica.md"
+                "file": "Fisica/Dinamica/forze apparenti.md"
               }
             }
           },
@@ -173,8 +173,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "540b351f17ef6673",
+  "active": "f8d67f5583e4126f",
   "lastOpenFiles": [
+    "Fisica/Dinamica/Dinamica.md",
+    "Fisica/Dinamica/forze apparenti.md",
     "Day Planners/Day Planner-20230407.md",
     "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
     "Fisica/Dinamica/accelerazione di Coriolis.md",
@@ -201,8 +203,6 @@
     "Fisica/Dinamica/velocità relativa.md",
     "Fisica/Cinematica/Moto relativo.md",
     "Fisica/Dinamica/teorema di conservazione dell'energia.md",
-    "Fisica/Dinamica/teorema di conservazione dell'energia meccanica.md",
-    "Fisica/Dinamica/forze conservative.md",
     "Cp.canvas",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
     "Pasted image 20230330135642.png",

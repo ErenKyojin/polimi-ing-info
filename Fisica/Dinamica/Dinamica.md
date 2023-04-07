@@ -64,3 +64,6 @@ con
 >[!oss]
 >L'accelerazione relativa misurata in un sistema di riferimento non inerziale non coincide con l'accelerazione assoluta riferita al sistema inerziale. Poichè la forza $\vec{F}$ è la stessa in enrambi i sistemi di riferimento, nel sistema non inerziale non puó valere il secondo principio della dinamica:
 >$$ \vec{F} = m\vec{a}_{a} \neq m\vec{a}_{r} $$
+
+
+Questo ci porta a definire le ![[forze apparenti]]
