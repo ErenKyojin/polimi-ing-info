@@ -159,6 +159,8 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 \usepackage[svgnames]{xcolor}
 \usetikzlibrary{arrows.meta}
 \begin{document}
+
+%(a)
 \begin{tikzpicture}[scale = 1.2]
 \draw[fill = Peru] (0,0) circle (2);
 \draw (0,0) circle (.3);
@@ -171,8 +173,20 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 \node[below right = 1.25mm] at (ome){$\vec{\omega}$};
 \draw[-{Stealth},thick] (-1,-.3) arc (180:270:.7);
 \end{tikzpicture}
+
 \hspace{5cm}
-\begin{tikzpicture}
-\e
+
+%(b)
+\begin{tikzpicture}[scale = 1.2]
+
+\draw[fill = Peru] (0,0) circle (2);
+\draw (0,0) circle (.3);
+\draw[-{Stealth},thick] (0,0) -- ++ (.75,1.25) node[](P){$\bullet$} node[above]{$P$};
+\draw[-{Stealth},thick] (P.center) -- ++ (-1.25,.75) node[above]{$\vec{v}_a$};
+\draw[-{Stealth},thick] (-2.5,0) -- (2.5,0) node[below]{$x$};
+\draw[-{Stealth},thick] (0,-2.5) -- (0,2.5) node[right]{$y$};
+
+\end{tikzpicture}
+
 \end{document}
 ```
