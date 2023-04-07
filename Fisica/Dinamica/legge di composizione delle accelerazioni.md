@@ -31,4 +31,7 @@ $$ \begin{align}
 &\frac{dx'}{dt} \frac{d\hat{u}_{x'}}{dt} + \frac{dy'}{dt} \frac{d\hat{u}_{y'}}{dt} + \frac{dz'}{dt} \frac{d\hat{u}_{z'}}{dt} = \frac{dx'}{dt} \vec{\omega} \times \hat{u}_{x'} + \frac{dy'}{dt} \vec{\omega} \times \hat{u}_{y'} + \frac{dz'}{dt} \vec{\omega} \times \hat{u}_{z'} = \\
 &=         \vec{\omega} \times \left( \frac{dx'}{dt}\hat{u}_{x'} + \frac{dy'}{dt}\hat{u}_{y'} + \frac{dz'}{dt}\hat{u}_{z'}    \right) = \vec{\omega} \times \vec{v}_{r}
 \end{align} $$
-La somma dei suddetti due termini coincidenti è detta [[accelerazione di Coriolis]], la somma degli ultimi due termini, invece, rappresenta l'accelerazione che il punto materiale avrebbe.
+La somma dei suddetti due termini coincidenti è detta [[accelerazione di Coriolis]], la somma degli ultimi due termini, invece, rappresenta l'accelerazione che il punto materiale avrebbe, rispetto al sistema fisso, se fosse fermo nel sistema mobile, là dove si trova all'istante considerato. Per questo motivo viene indicata come accelerazione di trascinamento
+$$
+\vec{a}_{t} = \left( x' \frac{d^2\hat{u}_{x'}}{dt^2} + y' \frac{d^2\hat{u}_{y'}}{dt}   \right)
+$$
