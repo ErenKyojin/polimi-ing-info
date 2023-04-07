@@ -86,7 +86,8 @@ $$
 >\draw[-{Stealth[scale = 2]}] (0,0) -- (0,5)node[below left]{$y$}; 
 >\draw[fill = cyan, fill opacity = 0.2] (1,1) -- (1,4) -- (3,4) -- (3,1) -- (1,1);
 >\draw[fill = white,thick] (2,2.5) circle (.2);
->\draw (2,2.3) -- ()
+>\draw (2,2.3) -- (2,1.5);
+>\draw(1.2,1.9) -- (2,1.5) -- (2.8,1.4);
 >\end{tikzpicture}
 >\end{document}
 >```
