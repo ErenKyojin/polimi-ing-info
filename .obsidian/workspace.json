@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md",
+                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +92,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day Planners/Day Planner-20230407.md",
+                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day Planners/Day Planner-20230407.md",
+                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day Planners/Day Planner-20230407.md"
+                "file": "Fisica/Dinamica/legge di composizione delle accelerazioni.md"
               }
             }
           },
@@ -176,14 +177,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "22120b36924554d0",
+  "active": "3b44695fbc2d58a1",
   "lastOpenFiles": [
-    "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
-    "Day Planners/Day Planner-20230407.md",
-    "Day Planners",
     "Fisica/Dinamica/legge di composizione delle velocità.md",
-    "Fisica/Dinamica/velocità di trascinamento.md",
     "Fisica/Dinamica/moto di trascinamento.md",
+    "Day Planners/Day Planner-20230407.md",
+    "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
+    "Day Planners",
+    "Fisica/Dinamica/velocità di trascinamento.md",
     "Fisica/Dinamica/moto relativo.md",
     "Fisica/Dinamica/pendolo.md",
     "Fisica/Dinamica/piano inclinato.md",

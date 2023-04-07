@@ -1,4 +1,4 @@
----
+	---
 aliases: 
 creation date: 2023-04-06 14:59
 modification date: 2023-04-06 14:59
@@ -26,4 +26,4 @@ $$
 $$
 
 Nel primo termine abbiamo l'accelerazione relativa, 
-secondo e terzo termine sono uguali tra loro e sono funzioni della [[velocità angolare]] del sistema mobile. considerando le proprietà del moto di precessione dei versori
+secondo e terzo termine sono uguali tra loro e sono funzioni della [[velocità angolare]] del sistema mobile. considerando le proprietà del moto di precessione dei versori.
