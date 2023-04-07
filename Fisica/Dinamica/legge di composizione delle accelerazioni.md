@@ -35,4 +35,9 @@ La somma dei suddetti due termini coincidenti è detta [[accelerazione di Coriol
 $$
 \vec{a}_{t} = \left( x' \frac{d^2\hat{u}_{x'}}{dt^2} + y' \frac{d^2\hat{u}_{y'}}{dt^2} + z' \frac{d^2\hat{u}_{z'}}{dt^2}    \right) + \frac{d^2\vec{r}_{O'}}{dt^2} 
 $$
-Di questa espressione, il secondo termine è la derivata della velocità dell'origine, e rappresenta perciò l'accelerazione dell'origine, che indicheremo come $\vec{a}_{O'}$, mentre il primo termine puó essere r
+Di questa espressione, il secondo termine è la derivata della velocità dell'origine, e rappresenta perciò l'accelerazione dell'origine, che indicheremo come $\vec{a}_{O'}$, mentre il primo termine puó essere riscritto come segue:
+$$
+\begin{align}
+x' \frac{d^2\hat{u}_{x'}}{dt^2} + y' 
+\end{align}
+$$
