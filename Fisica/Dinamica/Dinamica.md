@@ -164,7 +164,7 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 \begin{tikzpicture}[scale = 1.2]
 \draw[fill = Peru] (0,0) circle (2);
 \draw (0,0) circle (.3);
-\draw[-{Stealth},thick] (0,0) -- ++ (.75,1.25) node[](P){$\bullet$} node[above]{$P$};
+\draw[-{Stealth},thick] (0,0) -- ++ (.75,1.25) node[](P){$\bullet$} node[above]{$P$} node[midway,right];
 \draw[-{Stealth},thick] (P.center) -- ++ (-1.25,.75) node[above]{$\vec{v}_a$};
 \draw[-{Stealth},thick] (-2.5,0) -- (2.5,0) node[below]{$x$};
 \draw[-{Stealth},thick] (0,-2.5) -- (0,2.5) node[right]{$y$};
@@ -180,14 +180,14 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 %(b)
 \begin{tikzpicture}[scale = 1.2]
 \draw[fill = Peru] (0,0) circle (2);
-\node at (-.3,.3){z};
+\node at (-.3,.3){$z'$};
 \draw (0,0) circle (.3);
 \draw[-{Stealth},thick] (0,0) -- ++ (.75,1.25) node[](P){$\bullet$} node[above]{$P$};
 \draw[-{Stealth},thick] (P.center) to[out = 90, in = 170] (1.75,1.55);
 \draw[-{Stealth},thick,red] (P.center) -- ++ (1,1.6) node[right]{$\vec{F} = -m\vec{a}_l$};
-\draw[-{Stealth},thick,green] (P.center) -- ++ (1,-0.6)node[]{$\vec{F$};
-\draw[-{Stealth},thick] (-2.5,0) -- (2.5,0) node[below]{$x$};
-\draw[-{Stealth},thick] (0,-2.5) -- (0,2.5) node[right]{$y$};
+\draw[-{Stealth},thick,green] (P.center) -- ++ (1,-0.6)node[]{$\vec{F}_c = -m\vec{a}_c$};
+\draw[-{Stealth},thick] (-2.5,0) -- (2.5,0) node[below]{$x'$};
+\draw[-{Stealth},thick] (0,-2.5) -- (0,2.5) node[right]{$y'$};
 
 \end{tikzpicture}
 
