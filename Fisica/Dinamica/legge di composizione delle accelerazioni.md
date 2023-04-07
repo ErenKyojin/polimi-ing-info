@@ -49,4 +49,4 @@ $$
 \fbox{$\vec{a}_{a} = \vec{a}_{r} + \vec{a}_{c} + \vec{a}_{t}$}
 $$
 con
-- $$
+- $\vec{a}_{t} = a_{O'} + \vec{\omega} \times$
