@@ -107,5 +107,5 @@ $$
 >\end{align} $$
 >La forza $\vec{F}$ è la somma della forza peso e della reazione vincolare, avremo quindi
 >$$ \vec{F} = (-mg + R)\hat{u}_{y}\quad ; \quad \vec{F}_{t} = -m\vec{a}_{t} = +ma_{d}\hat{u}_{y} \implies R=m(g-a_{d}) $$
->È come se all'interno dell'ascensore l'accelerazione di 
+>È come se all'interno dell'ascensore l'accelerazione di gravità fosse diminuita
 
