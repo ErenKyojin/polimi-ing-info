@@ -88,7 +88,8 @@ $$
 >\draw[fill = white,thick] (2,2.5) circle (.2);
 >\draw[thick] (2,2.3) -- (2,1.5);
 >\draw[thick] (1.5,1.9) -- (2,2) -- (2.5,1.9);
->\draw(1.8, 1) -- (2,1.5) -- (2.2, 1);
+>\draw[thick] (1.8, 1) -- (2,1.5) -- (2.2, 1);
+>\draw[-{Stealth[scale = 2]}] (2,1) -- (2,0)node[right]{$\vec{a}_{d}$};
 >\end{tikzpicture}
 >\end{document}
 >```
