@@ -67,4 +67,9 @@ con
 
 
 Questo ci porta a definire le ![[forze apparenti]]
-In un sistema non inerziale non vale neppure il principio d'inerzia, un corpo non soggetto ad interazioni si muove 
+In un sistema non inerziale non vale neppure il principio d'inerzia, un corpo non soggetto ad interazioni si muove in generale di moto accelerato, infatti:
+$$
+\vec{F} = 0 \implies \vec{a}_{a} = 0\quad ;\quad\vec{a}_{r} = \vec{a}_{c} - \vec{a}_{t} \neq 0\quad \vec{a}_{r} = \frac{1}{m}\vec{F}_{app}
+$$
+
+[[mo]]
