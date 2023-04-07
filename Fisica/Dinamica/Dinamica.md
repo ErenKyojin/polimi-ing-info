@@ -124,7 +124,8 @@ Consideriamo un punto materiale $P$ di massa $m$ che sia vincolato ad una piatta
 \draw[-{Stealth},thick] (-2.5,0) -- (2.5,0) node[below]{$x$};
 \draw[-{Stealth},thick] (0,-2.5) -- (0,2.5) node[right]{$y$};
 \node (ome) at (-.5,-.5){$\bullet$};
-\draw (ome)
+\draw (ome) circle (.3);
+\draw[-{Stealth},thick] (-1,-.3) arc ;
 \end{tikzpicture}
 \end{document}
 ```
