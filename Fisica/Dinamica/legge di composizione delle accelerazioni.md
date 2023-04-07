@@ -28,6 +28,6 @@ $$
 Nel primo termine abbiamo l'accelerazione relativa, 
 secondo e terzo termine sono uguali tra loro e sono funzioni della [[velocità angolare]] del sistema mobile, considerando le proprietà del moto di precessione dei versori, cioè: 
 $$ \begin{align}
-\frac{dx'}{dt} \frac{d\hat{u}_{x'}}{dt} + \frac{dy'}{dt} \frac{d\hat{u}_{y'}}{dt} + \frac{dz'}{dt} \frac{d\hat{u}_{z'}}{dt} = \frac{dx'}{dt} \vec{\omega} \times \hat{u}_{x'} + \frac{dy'}{dt} \vec{\omega} \times \hat{u}_{y'} + \frac{dz'}{dt} \vec{\omega} \times \hat{u}_{z'} = \\
-=         
+&\frac{dx'}{dt} \frac{d\hat{u}_{x'}}{dt} + \frac{dy'}{dt} \frac{d\hat{u}_{y'}}{dt} + \frac{dz'}{dt} \frac{d\hat{u}_{z'}}{dt} = \frac{dx'}{dt} \vec{\omega} \times \hat{u}_{x'} + \frac{dy'}{dt} \vec{\omega} \times \hat{u}_{y'} + \frac{dz'}{dt} \vec{\omega} \times \hat{u}_{z'} = \\
+&=         \vec{\omega} \times \left( \frac{dx'}{dt}\hat{u}_{x'} + \frac{dy'}{dt}\hat{u}_{y'} + \frac{dz'}{dt}    \right)
 \end{align} $$
