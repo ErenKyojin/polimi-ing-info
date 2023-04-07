@@ -107,5 +107,9 @@ $$
 >\end{align} $$
 >La forza $\vec{F}$ è la somma della forza peso e della reazione vincolare, avremo quindi
 >$$ \vec{F} = (-mg + R)\hat{u}_{y}\quad ; \quad \vec{F}_{t} = -m\vec{a}_{t} = +ma_{d}\hat{u}_{y} \implies R=m(g-a_{d}) $$
->È come se all'interno dell'ascensore l'accelerazione di gravità fosse diminuita al valore $g - a_{d}$ per effetto della discesa accelerata. Se risulta $a_{d} = g$ il passeggero ha la sensazione di essere privo di peso; la forza in grado di contrastare 
+>È come se all'interno dell'ascensore l'accelerazione di gravità fosse diminuita al valore $g - a_{d}$ per effetto della discesa accelerata. Se risulta $a_{d} = g$ il passeggero ha la sensazione di essere privo di peso; la forza in grado di contrastare la sensazione di peso è una **forza apparente**
+
+### Sistema in moto rotatorio puro
+Consideriamo un punto materiale $P$ di massa
+
 
