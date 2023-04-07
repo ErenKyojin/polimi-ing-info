@@ -3,5 +3,6 @@
   "legacyEditor": false,
   "vimMode": true,
   "alwaysUpdateLinks": true,
-  "autoPairMarkdown": false
+  "autoPairMarkdown": false,
+  "attachmentFolderPath": "Settings/Allegati"
 }
