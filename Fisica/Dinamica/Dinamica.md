@@ -149,4 +149,5 @@ $$
 $$
 La reazione vincolare ha quindi una **componente normale** alla piattaforma, che bilancia la forza peso, ed una ad essa **tangente** che bilancia la forza centrifuga.
 
-Sup
+Supponiamo che ad un certo istante di tempo il punto materiale $P$ si stacchi dalla piattaformaL non abbiamo piú alcuna reazione vincolare tangente (supponendo per semplicità che la superficie della piattaforma sia priva di attrito) la velocità relativa non è piú vincolata a zero. Si avrà che:
+- Per un os
