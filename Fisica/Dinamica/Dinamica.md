@@ -84,7 +84,7 @@ $$
 >\begin{document}
 >\begin{tikzpicture}
 >\draw[-{Stealth[scale = 2]}] (0,0) -- (0,5)node[below left]{$y$}; 
->\draw ()
+>\draw[fill = cyan, fill opacity = 0.2] (1,1) -- (1,4) -- (4,4) -- (4,1) -- (1,1);
 >\end{tikzpicture}
 >\end{document}
 >```
