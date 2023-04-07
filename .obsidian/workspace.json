@@ -27,13 +27,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Dinamica.md",
+                "file": "Day Planners/Day Planner-20230407.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +173,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "34878c14b1142c37",
+  "active": "f8d67f5583e4126f",
   "lastOpenFiles": [
     "Fisica/Dinamica/Dinamica.md",
     "Fisica/Dinamica/forze apparenti.md",
