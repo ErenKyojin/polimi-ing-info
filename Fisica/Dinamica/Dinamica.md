@@ -113,11 +113,11 @@ $$
 Consideriamo un punto materiale $P$ di massa $m$ che sia vincolato ad una piattaforma rotante con velocità angolare costante.
 
 ```tikz
-\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
 \usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
-\draw[fill = apricot] (0,0) circle (2);
+\draw[fill = Apricot] (0,0) circle (2);
 \draw[-{Stealth},thick] (-2.5,0) -- (2.5,0);
 \draw[-{Stealth},thick] (0,-2.5) -- (0,2.5);
 \end{tikzpicture}
