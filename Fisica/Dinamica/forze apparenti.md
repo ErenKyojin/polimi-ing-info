@@ -10,3 +10,10 @@ Che si puó ricondurre alla forma classica del secondo pincipio introducendo le 
 
 $$\vec{F}_{c} = -m\vec{a}_{c}\quad;\quad \vec{F}_{t} = -m\vec{a}_{t}\quad ;\quad \vec{F}_{app} = \vec{F}_{c} + \vec{F}_{t}$$
 $$ \implies \fbox{$\vec{F} + \vec{F}_{c} + \vec{F}_{t} = \vec{F} + \vec{F}_{app} = m\vec{a}_{r}$} $$
+
+>[!oss]
+>Le forze apparenti non corrispondono ad una interazione tra corpi, e quindi non rispettano la terza legge della dinamica. sono percepite solo da un osservatore non inerziale
+
+
+>[!esempio]
+>
