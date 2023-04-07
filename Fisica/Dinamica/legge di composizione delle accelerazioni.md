@@ -39,7 +39,7 @@ Di questa espressione, il secondo termine è la derivata della velocità dell'or
 $$
 \begin{align}
 &x' \frac{d^2\hat{u}_{x'}}{dt^2} + y'\frac{d^2\hat{u}_{y'}}{dt^2}   + z' \frac{d^2\hat{u}_{z'}}{dt^2} = x' \frac{d}{dt}\left( \frac{d\hat{u}_{x'}}{dt}  \right) + y' \frac{d}{dt} \left( \frac{d\hat{u}_{y'}}{dt}  \right) + z' \frac{d}{dt}\left( \frac{d\hat{u}_{z'}}{dt}  \right) = \\
-&=  x' \frac{d}{dt}(\omega \times \hat{u}_{x'}) + y'\frac{d}{dt}(\omega \times \hat{u}_{z'}) + z'\frac{d}{dt}(\vec{\omega} \times \hat{u}_{z'})  = \\
-&=  
+= & x' \frac{d}{dt}(\omega \times \hat{u}_{x'}) + y'\frac{d}{dt}(\omega \times \hat{u}_{z'}) + z'\frac{d}{dt}(\vec{\omega} \times \hat{u}_{z'})  = \\
+=&  
 \end{align}
 $$
