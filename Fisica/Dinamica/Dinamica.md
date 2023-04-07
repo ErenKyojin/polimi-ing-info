@@ -117,7 +117,7 @@ Consideriamo un punto materiale $P$ di massa $m$ che sia vincolato ad una piatta
 \usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
-\draw[fill = Apricot] (0,0) circle (2);
+\draw[fill = red] (0,0) circle (2);
 \draw[-{Stealth},thick] (-2.5,0) -- (2.5,0);
 \draw[-{Stealth},thick] (0,-2.5) -- (0,2.5);
 \end{tikzpicture}
