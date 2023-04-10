@@ -38,7 +38,7 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una [[d
 >```
 
 >[!esempio] moto piano non circolare
->Conviene utilizzare le coordinate polari del piano, e scomporre la velocità secondo le componenti
+>Conviene utilizzare le [[coordinate polari]] del piano, e scomporre la velocità secondo le componenti
 >$$ v_{r} = \frac{dr}{dt}\quad;\quad v_{\theta} = r \frac{d\theta}{dt} = r\omega   $$
 >Il momento angolare rispetto all'origine vale quindi:
 >$$ \begin{align}
@@ -67,4 +67,5 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una [[d
 >\end{document}
 >```
 >Consideriamo un riferimento inerziale ed un punto materiale $P$ in moto in esso. Ricordiamo che la [[seconda equazione cardinale della dinamica]] afferma che:
->In ogni istante la derivata temporale del momento angolare
+>In ogni istante la [[derivata]] temporale del momento angolare di un punto materiale $P$ è pari al momento della risultante delle forze applicate a $P$ rispetto allo stesso polo $O$.
+>$$ \fbox{$\tau$} $$
