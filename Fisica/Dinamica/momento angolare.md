@@ -54,7 +54,8 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 >\draw[-{Stealth[scale = 1.3]}] (-.5,0) -- (5,0) node[below]{$x$};
 >\draw[-{Stealth[scale = 1.3]}] (0,-.5) -- (0,5)node[left]{$y$};
 >\node[below left] at (0,0) {$O$};
->\draw[-{Stealth[scale = 1.3]}] (0,0) -- ++ (1.5,2);
+>\draw[-{Stealth[scale = 1.3]},thick] (0,0) -- ++ (2,3)node[midway,above]{$\vec{r}$} node(r){};
+>\draw (r.center)
 >\end{tikzpicture}
 >\end{document}
 >```
