@@ -67,4 +67,8 @@ $$
 Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la [[velocità relativa]] sia diretta verticalmente, come l'accelerazione di gravità effettiva (perturbata dall'accelerazione di trascinamento), cosa che avrebbe in assenza della [[forza]] di Coriolis. SI noti che:
 
 >[!oss]
->La forza di Coriolis ha direzione perpendicolare alla verticale
+>La forza di Coriolis ha direzione perpendicolare alla verticale, oltre che all'asse di rotazione della Terra (risulta quindi ortogonale al piano mediano passante per $P$) ed è diretta verso oriente in entrambi gli emisferi.
+>Quindi la direzione di caduta dei gravi risulta spostata verso est rispetto alla verticale.
+
+>[!oss]
+>Il suo modulo vale circa $F_{c} =$
