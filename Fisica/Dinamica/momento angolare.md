@@ -29,7 +29,7 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 >\begin{tikzpicture}
 >\node (O) at (0,0,0){};
 >\draw (0,0,0) circle (2 and 1);
->\draw (O) 
+>\draw[thick,-{Stealth[scale = 1.3]}] (O.center) -- ++ (0,2,0) node[]{$\omega$}; 
 >\end{tikzpicture}
 >\end{document}
 >```
