@@ -61,7 +61,7 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 >\draw[-{Stealth[scale = 1.3]},thick] (r.center) -- ++ (1,1.5)node[above]{$\vec{v}$};
 >\draw (r.center) -- ++ (0,1.5) -- ++ (1,0) -- ++ (0,-1.5);
 >\end{scope} 
->\draw[smooth] (.2,1) to (2,3) to (4,3) to (4.5,4);
+>\draw[smooth] (.2,1) to[out = 90, in =180] (2,3) to[out = -20, in = 200] (4,3) to[out = ] (4.5,4);
 >\end{tikzpicture}
 >\end{document}
 >```
