@@ -17,8 +17,8 @@ Si tratta di una delle caratteristiche principali dei campi di forze centrali:
 
 >[!oss]
 >Non è vera, in generale, l'implicazione inversa. Se infatti il momento angolare è costante, avremo certamente che il momento della forza risultante si annulla, ma ciò puó corrispondere a due situazioni differenti:
->1. $\vec{F}(\vec{r}) \parallel \vec{r} \implies$ il punto materiale $P$ si muove effettivamente in un campo di forze centrali di centro di forza $O$
->2. Il punto materiale $P$ non è soggetto ad alcuna interazione e quindi si muove di moto rettilineo uniforme
+>1. $\vec{F}(\vec{r}) \parallel \vec{r} \implies$ il punto materiale $P$ si muove effettivamente in un [[GAL/campo|campo]] di forze centrali di centro di forza $O$
+>2. Il punto materiale $P$ non è soggetto ad alcuna interazione e quindi si muove di [[moto rettilineo]] uniforme
 
 ## [[Energia potenziale]]
 
