@@ -9,7 +9,7 @@ Dati un vettore applicato $\vec{a}$ ed un punto $O$, detto polo, si dice momento
 $$
 \vec{M}_{O} = \vec{r} \times \vec{a}
 $$
-dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$. Come conseguenza della definizione, il momento è ortogonale al piano individuato da $\vec{a}$ e da $O$ ed ha per modulo $M_{O} = r \cdot a \cdot \sin \alpha = d \cdot a$ dove $\alpha$ è l'angolo compreso tra $\vec{r}$ e $\vec{a}$, $d$ è la distanza della retta di applicazione di $\vec{a}$ dal polo $O$.
+dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$. Come conseguenza della definizione, il momento è ortogonale al [[piano]] individuato da $\vec{a}$ e da $O$ ed ha per [[modulo]] $M_{O} = r \cdot a \cdot \sin \alpha = d \cdot a$ dove $\alpha$ è l'angolo compreso tra $\vec{r}$ e $\vec{a}$, $d$ è la distanza della retta di applicazione di $\vec{a}$ dal polo $O$.
 
 ```tikz
 \usetikzlibrary{arrows.meta}
@@ -33,7 +33,7 @@ dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$
 ```
 
 >[!oss]
->Se trasliamo il vettore applicato $\vec{a}$ lungo la sua retta di applicazione, il momento rispeto allo stesso polo $O$ non cambia:
+>Se trasliamo il vettore applicato $\vec{a}$ lungo la sua [[retta]] di applicazione, il momento rispeto allo stesso polo $O$ non cambia:
 >$$\begin{align}
 > &\vec{M}_{O}' = \vec{r}_{2} \times \vec{a} = (\vec{r}_{1} + \vec{r}_{12}) \times \vec{a} = \\
 > &= \vec{r}_{1} \times \vec{a} + \vec{r}_{12} \times \vec{a} = \vec{r}_{1} \times \vec{a} = \vec{M}_{O}
@@ -41,4 +41,6 @@ dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$
 >Essendo $\vec{r}_{12} \parallel \vec{a} \implies \vec{r}_{12} \times \vec{a} = 0$
 
 
-
+## Momento di una forza
+Dati una [[forza]] $\vec{F}$ ed un polo $O$ si definisce momento $\vec{\tau}$ della forza $\vec{F}$ rispetto ad $O$ il vettore:
+$\tau$
