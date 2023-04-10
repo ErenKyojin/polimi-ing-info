@@ -29,4 +29,4 @@ $$ v^2 = \vec{v} \cdot \vec{v} = \vec{v}_{r}^2 + \vec{v}_{\theta}^2 = \left( \fr
 Sostituendo questa espressione in quella dell'[[energia meccanica]] otteniamo:
 $$ E = E_{p}(r) + \frac{1}{2}m\left( \frac{dr}{dt}  \right)^2 + \frac{1}{2}mr^2\left( \frac{d\theta}{dt}  \right)^2 $$
 Consideriamo ora il momento angolare del punto materiale rispetto al centro di forza del campo
-$$ \vec{L}= m $$
+$$ \vec{L}= m \vec{r} \times \vec{v} = m(\vec{r} \times v) $$
