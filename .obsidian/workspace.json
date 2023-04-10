@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -171,7 +172,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f8d67f5583e4126f",
+  "active": "540b351f17ef6673",
   "lastOpenFiles": [
     "Fisica/Dinamica/moto di trascinamento.md",
     "Fisica/Dinamica/rotazione della terra.md",
