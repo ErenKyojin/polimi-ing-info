@@ -41,6 +41,7 @@ $$
 \draw[thick, -{Stealth}] (p.center) -- ++ (1,0)node[above right]{$\vec{a}_t$};
 \draw[thick, -{Stealth}] (p.center) -- (-1.3,.75)node[above]{$\vec{g}_o$} node (g0){};
 \draw (g0.center) -- ++ (-1,0) node(g){} -- (ma.center);
+\draw[thick, -{Stealth}] (p.center) -- (g.center) node[below]{$\vec{g}$};
 \end{tikzpicture}
 \end{document}
 ```
