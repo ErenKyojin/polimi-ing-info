@@ -12,5 +12,5 @@ L'accelerazione assoluta di un grave in caduta libera è dovuta alla sola [[forz
 $$ \vec{a}_{a} = \vec{g}_{o} = \frac{1}{m}\vec{F}_{\text{grav}}(m,M_{T}) = -\frac{\gamma M_{T}}{R_{T}^2}\hat{u}_{r} $$
 diretta verso il centro della Terra.
 
-Per un osservatore solidale con la Terra, lo stesso grave subisce un accelerazione rel
+Per un osservatore solidale con la Terra, lo stesso grave subisce un accelerazione relativa
 
