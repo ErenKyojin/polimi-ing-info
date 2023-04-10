@@ -10,7 +10,9 @@ $$
 \vec{F}(\vec{r}) \parallel \vec{r} \implies \frac{d\vec{L}}{dt} = \vec{r} \times \vec{F} = 0 \implies \vec{L} = \cost 
 $$
 e quindi il moto è piano
-Si tratta di una delle caratteristiche principali delle 
+Si tratta di una delle caratteristiche principali dei campi di forze centrali:
+
+>[!proposizione]
 
 
 
