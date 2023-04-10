@@ -21,4 +21,5 @@ Si tratta di una delle caratteristiche principali dei campi di [[forza|forze]] c
 >2. Il punto materiale $P$ non è soggetto ad alcuna interazione e quindi si muove di [[moto rettilineo]] uniforme
 
 ## [[Energia potenziale]] centrifuga in un campo di forze centrali
-L'energia meccanica di un punto materiale $P$ di massa $m$ che si muove con velocità scalare $v$ in un campo di forze centrali e si trova a distanza $r$ dal centro delle forze $E = E_{p}(r) + \dfrac{1}{2}mv^2$
+L'energia meccanica di un punto materiale $P$ di massa $m$ che si muove con velocità scalare $v$ in un campo di forze centrali e si trova a distanza $r$ dal centro delle forze $E = E_{p}(r) + \dfrac{1}{2}mv^2$.
+Poichè il punto si muove in un campo di forze centrali, il moto è piano (il [[momento angolare]] si conserva, ed in particolare la sua direzione resta costante). Scriviamo allora la [[velocità vettoriale]]
