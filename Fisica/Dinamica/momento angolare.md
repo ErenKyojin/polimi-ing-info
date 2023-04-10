@@ -32,7 +32,7 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 >\draw[thick,-{Stealth[scale = 1.3]}] (O.center) -- ++ (0,2,0) node[below right]{$\vec{\omega}$};
 >\draw[thick,-{Stealth[scale = 1.3]}] (O.center) -- ++(2,0,2)node[midway, above]{$\vec{r}$}node(P){};
 >\draw[thick,-{Stealth[scale = 1.3]}] (P.center) -- ++ (1,0,-3) node[above left]{$\vec{p}$};
->\draw
+>\draw (-1,0,1) arc (180:90:0);
 >\end{tikzpicture}
 >\end{document}
 >```
