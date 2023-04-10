@@ -80,4 +80,4 @@ Caso piú generale, in cui il moto del sistema mobile rispetto al sistema fisso 
 
 ![[legge di composizione delle velocità]]
 
-[[]]
+[[rotazione della terra]]

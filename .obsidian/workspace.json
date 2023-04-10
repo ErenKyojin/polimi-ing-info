@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md",
+                "file": "Fisica/Dinamica/rotazione della terra.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md",
+                "file": "Fisica/Dinamica/rotazione della terra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md",
+                "file": "Fisica/Dinamica/rotazione della terra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/moto di trascinamento.md"
+                "file": "Fisica/Dinamica/rotazione della terra.md"
               }
             }
           },
@@ -173,6 +173,8 @@
   },
   "active": "f8d67f5583e4126f",
   "lastOpenFiles": [
+    "Fisica/Dinamica/moto di trascinamento.md",
+    "Fisica/Dinamica/rotazione della terra.md",
     "Fisica/Dinamica/forze apparenti.md",
     "Day Planners/Day Planner-20230410.md",
     "Fisica/Dinamica/Dinamica.md",
@@ -182,7 +184,6 @@
     "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
     "Fisica/Dinamica/accelerazione di Coriolis.md",
     "Fisica/Dinamica/legge di composizione delle velocità.md",
-    "Fisica/Dinamica/moto di trascinamento.md",
     "Day Planners",
     "Fisica/Dinamica/velocità di trascinamento.md",
     "Fisica/Dinamica/moto relativo.md",
@@ -200,7 +201,6 @@
     "API/Teorema di rice.md",
     "API/complemento.md",
     "snapshot.jpg",
-    "Fisica/Dinamica/velocità assoluta.md",
     "Cp.canvas",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
     "Pasted image 20230330135642.png",
