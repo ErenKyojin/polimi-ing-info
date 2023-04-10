@@ -16,7 +16,8 @@ Si tratta di una delle caratteristiche principali dei campi di forze centrali:
 >In un campo di forze centrali il momento angolare rispetto al centro di una forza si conserva.
 
 >[!oss]
->Non è vera, in genera
+>Non è vera, in generale, l'implicazione inversa. Se infatti il momento angolare è costante, avremo certamente che il momento della forza risultante si annulla, ma ciò puó corrispondere a due situazioni differenti:
+>1. $\vec{F}(\vec{r}) \parallel \vec{r} \implies$ il punto materiale $P$
 
 
 
