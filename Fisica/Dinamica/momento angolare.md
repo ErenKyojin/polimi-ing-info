@@ -14,4 +14,5 @@ dove $\vec{r}$ è il vettore che va da $O$ a $P$
 
 
 # Momento angolare a planarità del moto
-Osserviamo che, per le proprietà del prodotto vettore, il momento angolare risulta sempre ortogonale al piano individuato dal vettore $\vec{p}$ (ovvero da $\vec{v}$, ad esso parallelo) e dal punto $O$. In generale tale piano non è fisso durante il moto del punto materiale, ma è, per così dire, u
+Osserviamo che, per le proprietà del prodotto vettore, il momento angolare risulta sempre ortogonale al piano individuato dal vettore $\vec{p}$ (ovvero da $\vec{v}$, ad esso parallelo) e dal punto $O$. In generale tale piano non è fisso durante il moto del punto materiale, ma è, per così dire, un piano locale, diverso in punti diversi della traiettoria del moto. Ne consegue che, sempre in generalem la direzione del momento angolare di un punto materiale rispetto ad un dato polo $O$ varia nel tempo.
+Vi sono casi però
