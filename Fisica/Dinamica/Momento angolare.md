@@ -9,7 +9,7 @@ Dati un vettore applicato $\vec{a}$ ed un punto $O$, detto polo, si dice momento
 $$
 \vec{M}_{O} = \vec{r} \times \vec{a}
 $$
-dove $\vec{r}$  
+dove $\vec{r}$ è il vettore che va da $O$ al punto 
 
 
 
