@@ -14,4 +14,4 @@ diretta verso il centro della Terra.
 
 Per un osservatore solidale con la Terra, lo stesso grave subisce un accelerazione relativa
 $$\vec{a}_{r} = \vec{a}_{a} - \vec{a}_{c} - \vec{a}_{t}$$
-Vediamo 
+Vediamo alora al
