@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day Planners/Day Planner-20230410.md",
+                "file": "Fisica/Dinamica/Forze centrali.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day Planners/Day Planner-20230410.md",
+                "file": "Fisica/Dinamica/Forze centrali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day Planners/Day Planner-20230410.md",
+                "file": "Fisica/Dinamica/Forze centrali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day Planners/Day Planner-20230410.md"
+                "file": "Fisica/Dinamica/Forze centrali.md"
               }
             }
           },
@@ -173,11 +173,11 @@
   },
   "active": "c4bc65890bd0bc23",
   "lastOpenFiles": [
+    "Day Planners/Day Planner-20230410.md",
     "Day Planners/Day Planner-20230409.md",
     "Fisica/Dinamica/momento angolare.md",
     "Fisica/Dinamica/Momento.md",
     "Fisica/Dinamica/Seconda equazione cardinale della dinamica.md",
-    "Day Planners/Day Planner-20230410.md",
     "Fisica/Dinamica/Forze centrali.md",
     "Fisica/Dinamica/rotazione della terra.md",
     "Fisica/Dinamica/moto di trascinamento.md",

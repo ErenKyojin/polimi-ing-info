@@ -3,7 +3,7 @@
   "mode": 0,
   "mermaid": true,
   "notesToDates": [],
-  "completePastItems": false,
+  "completePastItems": true,
   "circularProgress": true,
   "nowAndNextInStatusBar": false,
   "showTaskNotification": false,
