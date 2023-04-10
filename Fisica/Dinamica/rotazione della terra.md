@@ -71,4 +71,4 @@ Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la [[
 >Quindi la direzione di caduta dei gravi risulta spostata verso est rispetto alla verticale.
 
 >[!oss]
->Il modulo della forza di Coriolis vale circa $F_{c} = 2m\omega v$
+>Il modulo della forza di Coriolis vale circa $F_{c} = 2m\omega v_{r}\cos(\lambda)$ (l'angolo tra i vettori $\vec{\omega}$ e $\vec{v}_{r}$ è $\pi / 2 \pm \lambda$) dove il segno $+$ vale per l'emisfero boreale ed il segno $-$ per quello australe, da cui $\sin(\pi / 2 \pm \lambda) =$
