@@ -64,4 +64,4 @@ La forza di coriolis è una forza apparente in grado di produrre un'accelerazion
 $$
 \vec{F}_{c} = -m\vec{a}_{c} = -m_{2}\vec{\omega} \times \vec{v}_{r}
 $$
-Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la velocità relativa sia diretta verticalmente, come l'accelerazione di gravità effettiva (perturbata dall'accelerazione)
+Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la velocità relativa sia diretta verticalmente, come l'accelerazione di gravità effettiva (perturbata dall'accelerazione di trascinamento), cosa che avrebbe fa
