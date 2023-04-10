@@ -40,7 +40,7 @@ $$
 \draw[thick, -{Stealth[scale = 1]}] (p.center) -- ++ (-1,0)node[above left]{$-\vec{a}_t$} node(ma){};
 \draw[thick, -{Stealth}] (p.center) -- ++ (1,0)node[above right]{$\vec{a}_t$};
 \draw[thick, -{Stealth}] (p.center) -- (-1.3,.75)node[above]{$\vec{g}_o$} node (g0){};
-\draw (g0) -- ++ (-1,0) node(g) -- (a.center);
+\draw (g0.center) -- ++ (-1,0) node(g){} -- (ma.center);
 \end{tikzpicture}
 \end{document}
 ```
