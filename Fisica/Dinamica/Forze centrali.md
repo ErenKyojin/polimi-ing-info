@@ -32,4 +32,6 @@ Consideriamo ora il momento angolare del punto materiale rispetto al centro di f
 $$ \vec{L}= m \vec{r} \times \vec{v} = m(\vec{r} \times v_{r}\hat{u}_{r} + \vec{r} \times v_{\theta}\hat{u}_{\theta}) = mrv_{\theta}\hat{u}_{r} \times \hat{u}_{\theta} = mr^2 \frac{d\theta}{dt}\hat{u}_{z} $$
 
 >[!oss]
->Osserviamo che l'ultimo termine nell'espressione dell'energia meccanica può essere riscritto in funzione del modulo del momento angolare, che è anche una costante del moto. Tale termine energetico prende il nome di energia potenziale centrifuga del punto materiale $P$ nel campo di forze
+>Osserviamo che l'ultimo termine nell'espressione dell'energia meccanica può essere riscritto in funzione del modulo del momento angolare, che è anche una costante del moto. Tale termine energetico prende il nome di energia potenziale centrifuga del punto materiale $P$ nel campo di forze centrali
+>$$ \frac{1}{2}mr^2\left( \frac{d\theta}{dt}  \right)^2 = \frac{L^2}{2mr^2} = E_{p} $$
+>Poichè infatti questo termine non dipende esplicitamente dal modulo della velocità scalare, ma solo dalla distanza $r$, come l'energia potenziale, può ess
