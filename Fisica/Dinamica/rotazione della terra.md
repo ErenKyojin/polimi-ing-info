@@ -80,4 +80,4 @@ Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la [[
 > - Gli anticicloni ruotano in senso orario *(rispettivamente antiorario)*
 
 >[!oss]
->L'origine della forza di Coriolis risiede nella differente velocità di trascinamento dei diversi punti della traiettoria del corpo
+>L'origine della forza di Coriolis risiede nella differente [[velocità di trascinamento]] dei diversi punti della traiettoria del corpo
