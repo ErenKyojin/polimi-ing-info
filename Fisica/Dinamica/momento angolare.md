@@ -71,4 +71,6 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una [[d
 >$$ \fbox{$\vec{\tau} = \frac{d\vec{L}}{dt}$} $$
 >Osserviamo che $\vec{\tau} = 0 \implies \frac{d\vec{L}}{dt} = 0 \implies \vec{L} = \cost$ in modulo, direzione e verso.
 >
->Dunque, dalla seconda equazione cardinale segue che se il momento delle forze applicate ad un punto materiale $P$ rispetto ad un certo polo $O$ è nullo, allora il momento angolare di $P$ rispetto a $O$ è costante, ed il moto di $P$ 
+>Dunque, dalla seconda equazione cardinale segue che se il momento delle forze applicate ad un punto materiale $P$ rispetto ad un certo polo $O$ è nullo, allora il momento angolare di $P$ rispetto a $O$ è costante, ed il moto di $P$ è piano.
+
+
