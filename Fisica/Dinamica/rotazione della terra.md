@@ -53,6 +53,8 @@ $$
 >La variazione indotta dall'accelerazione di trascinamento è comunque abbastanza piccola infatti
 > $$|\vec{a}_{t}| \leq \omega^2 R_{T} \approx 3.3 \cdot 10^{-2} m \cdot s^{-2} \ll 9.81 m\cdot s^{-2} = |\vec{g}_{0}|$$
 
+>[!oss]
+>Lo stesso termine centrifugo, sposta la verticale rispetto alla congiungente con il centro della Terra
 
 ### Corpo in caduta
 Se un grave non è fermo al suolo, ma sta cadendo, la sua velocità relativa al sistema "Terra" non è nulla
