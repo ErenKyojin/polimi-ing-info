@@ -22,7 +22,7 @@ dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$
 \draw[-{Stealth},thick] (r.center)  -- ++ (2,1.5)node[midway,above left]{$\vec{a}$};
 \draw (2.75,0) arc (0:40:.75) node[below right]{$\alpha$};
 \draw (r.center) -- ++ (2.5,1.875);
-\draw (O.center) -- ++ (0,-1.1) node[left]{$d$} -- ++ (2,0);
+\draw (r.center) -- ++ (-2.5,)
 
 
 \end{tikzpicture}
