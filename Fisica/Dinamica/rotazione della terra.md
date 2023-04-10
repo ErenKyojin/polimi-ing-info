@@ -27,15 +27,17 @@ $$
 \vec{g} = \vec{a}_{r} = \vec{a}_{a} - \vec{a}_{t} = \vec{g}_{0} - \omega^2R_{T}\cos (\lambda)\hat{u}_{N} 
 $$
 ```tikz
+\
+
 \begin{document}
 \begin{tikzpicture}
 \draw[fill = orange!50!black] (0,0) circle (3);
 \draw[-latex] (0,-4) -- (0,4) node[below right]{$z$};
 \draw[-stealth] (0,0) -- (0,1)node[right]{$\vec{\omega}$};
 \draw (0,0) -- (-3,0) node[midway,below]{$R_T$};
-\draw (0,0) -- (-2.6,1.5);
+\draw (0,0) -- (-2.6,1.5) node (p){};
 \draw (-.5,0) arc (180:150:.5)node[left]{$\lambda$};
-\draw[thick,]
+\draw[thick] (p.center) -- ++ (-.5,0);
 \end{tikzpicture}
 \end{document}
 ```
