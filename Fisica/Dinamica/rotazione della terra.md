@@ -19,5 +19,6 @@ Vediamo alora le conseguenze in alcuni casi importanti:
 ### Grave fermo
 Se il grave è fermo nel sistema relativo, l'[[accelerazione di coriolis]] si annulla (come nel caso del punto materiale vincolato alla piattaforma rotante), mentre l'accelerazione di trascinamento è:
 $$
-\vec{a}_{t} = \vec{\omega} \times (\vec{\omega} \times \vec{r}_{r} ) = +\omega
+\vec{a}_{t} = \vec{\omega} \times (\vec{\omega} \times \vec{r}_{r} ) = +\omega^2R_{T}\cos(\lambda)\hat{u}_{N}
 $$
+Dove abbiamo indicato con $R_{T}$ il raggio della terra, con $\hat{u}_{N}$ il versore uscente da $P$ diretto perpendicolarmente verso l'asse di rotazione $z$ e con $\lambda$ la latitudine del punto
