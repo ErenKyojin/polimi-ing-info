@@ -71,4 +71,4 @@ Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la [[
 >Quindi la direzione di caduta dei gravi risulta spostata verso est rispetto alla verticale.
 
 >[!oss]
->Il suo modulo vale circa $F_{c} =$
+>Il modulo della forza di Coriolis vale circa $F_{c} = 2m\omega v$
