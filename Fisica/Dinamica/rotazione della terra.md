@@ -8,7 +8,9 @@ Un [[moto di trascinamento]] qualunque può sempre essere scomposto in un moto d
 
 Assumiamo come sistema relativo un sistema di riferimento con origine nel centro della Terra e solidale ad essa, cioè in moto rotatorio puro con la Terra, mentre come sistema assoluto approssimateivamente inerziale assumiamo un sistema con origine sempre nel centro della terra ma che non partecipa al suo moto di rotazione (partecipa invece al moto di rivoluzione intorno al Sola, al moto del Sistema Solare rintorno al centro della via Lattea, ... che sono piú lenti del primo e possono essere trascurati)
 
-L'accelerazione assoluta di un grave in caduta libera è dovuta alla sola forza gravitazionale:
-$$ \vec{a}_{a} = \vec{g}_{o} = \frac{1}{m}\vec{F}_{\text{grav}}(m,M_{T}) = -\frac{\gamma M_{T}}{R_{T}^} $$
+L'accelerazione assoluta di un grave in caduta libera è dovuta alla sola [[forza gravitazionale]]:
+$$ \vec{a}_{a} = \vec{g}_{o} = \frac{1}{m}\vec{F}_{\text{grav}}(m,M_{T}) = -\frac{\gamma M_{T}}{R_{T}^2}\hat{u}_{r} $$
+diretta verso il centro della Terra.
 
+Per un osservatore solidale con la Terra, lo stesso grave subisce un accelerazione rel
 
