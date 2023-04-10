@@ -26,7 +26,8 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 > ```tikz
 >\begin{document}
 >\begin{tikzpicture}
->
+>\draw (0,0) circle (1 and 2);
 >\end{tikzpicture}
 >\end{document}
 >```
+
