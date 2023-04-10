@@ -17,4 +17,7 @@ $$\vec{a}_{r} = \vec{a}_{a} - \vec{a}_{c} - \vec{a}_{t}$$
 Vediamo alora le conseguenze in alcuni casi importanti:
 
 ### Grave fermo
-Se il grave è fermo nel sistema relativo, l'accelerazione di coriolis si annulla (come nel caso del punto)
+Se il grave è fermo nel sistema relativo, l'[[accelerazione di coriolis]] si annulla (come nel caso del punto materiale vincolato alla piattaforma rotante), mentre l'accelerazione di trascinamento è:
+$$
+\vec{a}_{t} = \vec{\omega} \times (\vec{\omega} \times \vec{r}_{r} ) = +\omega
+$$
