@@ -25,4 +25,6 @@ L'energia meccanica di un punto materiale $P$ di massa $m$ che si muove con velo
 Poichè il punto si muove in un campo di forze centrali, il moto è piano (il [[momento angolare]] si conserva, ed in particolare la sua [[direzione]] resta costante). Scriviamo allora la [[velocità vettoriale]] di $P$ in un sistema di coordinate polari nel piano del moto e con origine nel centro di forza del campo:
 $$ \vec{v} = \frac{dr}{dt}\hat{u}_{r} + r\frac{d\theta}{dt}   $$
 Dunque il quadrato della velocità scalare è
-$$ v^2 = \vec{v} \cdot \vec{v} = v $$
+$$ v^2 = \vec{v} \cdot \vec{v} = \vec{v}_{r}^2 + \vec{v}_{\theta}^2 = \left( \frac{dr}{dt}  \right)^2 + r^2\left( \frac{d\theta}{dt}  \right)^2 $$
+Sostituendo questa espressione in quella dell'[[energia meccanica]] otteniamo:
+$$ E = E_{p}(r) + \frac{1}{2}m\left( \frac{dr}{dt}  \right) $$
