@@ -24,9 +24,12 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 >$$ \vec{L} = m\vec{r} \times \vec{v}= mr^2\vec{\omega}$$
 >
 > ```tikz
+> \usetikzlibrary{arrows.meta}
 >\begin{document}
 >\begin{tikzpicture}
->\draw (0,0) circle (1 and 2);
+>\node (O) at (0,0,0){};
+>\draw (0,0,0) circle (2 and 1);
+>\draw (O) 
 >\end{tikzpicture}
 >\end{document}
 >```
