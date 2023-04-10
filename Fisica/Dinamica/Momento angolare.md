@@ -43,4 +43,9 @@ dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$
 
 ## Momento di una forza
 Dati una [[forza]] $\vec{F}$ ed un polo $O$ si definisce momento $\vec{\tau}$ della forza $\vec{F}$ rispetto ad $O$ il vettore:
-$\tau$
+$$\vec{\tau}_{O} = \vec{r} \times \vec{F}$$
+dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{F}$. Le dimensioni del momento di forza sono:
+$$
+[\tau] = [r][F] = [L]^2 [M][T]^{-2}
+$$
+E si misura in $N$
