@@ -4,7 +4,7 @@ creation date: 2023-04-10 18:19
 modification date: 2023-04-10 18:19
 ---
 
-Dati un punto materiale $P$, avente quantità di moto $\vec{p}$ ed un polo $O$ si definisce momento della quantità di moto o momento angolare $\vec{L}_{O}$ di $P$ rispetto ad $O$ il vettore
+Dati un [[punto materiale]] $P$, avente [[quantità di moto]] $\vec{p}$ ed un polo $O$ si definisce momento della quantità di [[moto]] o momento angolare $\vec{L}_{O}$ di $P$ rispetto ad $O$ il vettore
 $\vec{L}_{O} = \vec{r} \times \vec{p}$ 
 dove $\vec{r}$ è il vettore che va da $O$ a $P$
 
@@ -66,5 +66,5 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 >\end{tikzpicture}
 >\end{document}
 >```
->Consideriamo un riferimento inerziale ed un punto materiale $P$ in moto in esso. Ricordiamo che la seconda equazione cardinale della dinamica afferma che:
+>Consideriamo un riferimento inerziale ed un punto materiale $P$ in moto in esso. Ricordiamo che la [[seconda equazione cardinale della dinamica]] afferma che:
 >In ogni istante la derivata temporale del momento angolare
