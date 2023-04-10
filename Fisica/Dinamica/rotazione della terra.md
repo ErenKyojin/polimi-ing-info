@@ -55,7 +55,7 @@ $$
 
 >[!oss]
 >Lo stesso termine centrifugo, sposta la verticale rispetto alla congiungente con il centro della Terra, nell'emisfero boreale la direzione di $\vec{g}$ punta lievemente verso sud mentre nell'emisfero australe punta lievemente verso nord.
->Ai poli l'effetto è nullo in quanto è nullo anche il etmrine centrifugo
+>Ai poli l'effetto è nullo in quanto è nullo il termine centrifugo
 
 ### Corpo in caduta
 Se un grave non è fermo al suolo, ma sta cadendo, la sua velocità relativa al sistema "Terra" non è nulla
