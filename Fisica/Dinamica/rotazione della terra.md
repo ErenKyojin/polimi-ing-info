@@ -72,3 +72,6 @@ Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la [[
 
 >[!oss]
 >Il modulo della forza di Coriolis vale circa $F_{c} = 2m\omega v_{r}\cos(\lambda)$ (l'angolo tra i vettori $\vec{\omega}$ e $\vec{v}_{r}$ è $\pi / 2 \pm \lambda$) dove il segno $+$ vale per l'emisfero boreale ed il segno $-$ per quello australe, da cui $\sin(\pi / 2 \pm \lambda) = \cos(\lambda)$. Esso dipende oltre che dalla velocità relativa del grave anche dalla latitudine. In particolare è, a parità di altre condizioni, massimo all'equatore e nullo ai poli
+
+>[!oss]
+>Per quanto riguarda il caso della Terra, la forza di Coriolis ha una grande influenza sui moti dei venti e delle orrenti d'
