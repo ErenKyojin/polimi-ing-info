@@ -48,9 +48,11 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 >\end{align} $$
 >essendo $\vec{r} \times \hat{u}_{r} = 0$
 > ```tikz
+> \usetikzlibrary{arrows.meta}
 >\begin{document}
 >\begin{tikzpicture}
->
+>\draw[-{Stealth[scale = 1.3]}] (-.5,0) -- (5,0) node[below]{$x$};
+>\draw[-{Stealth[scale = 1.3]}] (0,-.5) -- (0,5)node[left]{$y$};
 >\end{tikzpicture}
 >\end{document}
 >```
