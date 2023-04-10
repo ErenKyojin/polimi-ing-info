@@ -15,11 +15,12 @@ dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$
 \usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
-\draw (-1,0) -- (4,0);
+\draw (-1,0) -- (5,0);
 \draw[-{Stealth},thick] (0,0) node(O){} -- (0,2) node[right]{$\vec{M}$};
 \node[above left] at (O){$O$};
 \draw[-{Stealth},thick] (O.center) -- ++ (2,0) node(r){} node[midway,above]{$\vec{r}$};
-\draw (r.center)  -- ++ (2,1.5)
+\draw[-{Stealth},thick] (r.center)  -- ++ (2,1.5);
+\draw (r.center) -- ++ (2.5,1.87);
 \end{tikzpicture}
 \end{document}
 ```
