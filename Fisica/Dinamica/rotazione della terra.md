@@ -60,8 +60,11 @@ $$
 ### Corpo in caduta
 Se un grave non è fermo al suolo, ma sta cadendo, la sua [[velocità relativa]] al sistema "Terra" non è nulla, perciò avremo un'accelerazione di Coriolis diversa da 0.
 Per semplicità consideriamo ora solo gli effetti dell'accelerazione di Coriolis, sapendo che gli vanno sommati all'accelerazione di trascinamento.
-La forza di coriolis è una forza apparente in grado di produrre un'accelerazione uguale ed opposta all'accelerazione di Coriolis.
+La forza di coriolis è una forza apparente in grado di produrre un'accelerazione uguale ed opposta all'[[accelerazione di Coriolis]].
 $$
 \vec{F}_{c} = -m\vec{a}_{c} = -m_{2}\vec{\omega} \times \vec{v}_{r}
 $$
-Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la velocità relativa sia diretta verticalmente, come l'accelerazione di gravità effettiva (perturbata dall'accelerazione di trascinamento), cosa che avrebbe fa
+Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la [[velocità relativa]] sia diretta verticalmente, come l'accelerazione di gravità effettiva (perturbata dall'accelerazione di trascinamento), cosa che avrebbe in assenza della [[forza]] di Coriolis. SI noti che:
+
+>[!oss]
+>La forza di Coriolis ha direzione perpendicolare alla verticale
