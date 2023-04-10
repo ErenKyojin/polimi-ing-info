@@ -8,6 +8,8 @@ Consideriamo un sistema di riferimento inerziale, ed un punto materiale $P$ in m
 $$
 \frac{d\vec{L}_{O}}{dt} = \frac{d}{dt}(\vec{r} \times \vec{p}) = \frac{d\vec{r}}{dt} \times \vec{p} + \vec{r} \times \frac{d\vec{p}}{dt} = \vec{v} \times \vec{p} + \vec{r} \times \vec{F} = \vec{r} \times \vec{F} = \vec{\tau}_{O} 
 $$
-essendo $\vec{v} \parallel \vec{p} \implies \vec{v} \times \vec{p} = 0$
+essendo $\vec{v} \parallel \vec{p} \implies \vec{v} \times \vec{p} = 0$.
 
+Dimostriamo così dimostrato la seconda equazione cardinale della dinamica del punto materiale:
+In un sistema di riferimento
 
