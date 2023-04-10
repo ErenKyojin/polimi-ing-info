@@ -32,6 +32,8 @@ $$
 \draw[fill = orange!50!black] (0,0) circle (3);
 \draw[-latex] (0,-4) -- (0,4);
 \draw[-stealth] (0,0) -- (0,1)node[right]{$\vec{\omega}$};
+\draw (0,0) -- (-3,0);
+\draw (0,0) -- ()
 \end{tikzpicture}
 \end{document}
 ```
