@@ -17,7 +17,7 @@ dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$
 \begin{tikzpicture}
 \draw (-1,0) -- (4,0);
 \draw[-{Stealth}] (0,0) node(O){} -- (0,2) node[right]{$\vec{M}$};
-
+\node[above left] at (O){$O$};
 \end{tikzpicture}
 \end{document}
 ```
