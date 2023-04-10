@@ -29,7 +29,9 @@ $$
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw[] (0,0) circle (3);
+\draw[fill = orange!50!black] (0,0) circle (3);
+\draw[-latex] (0,-4) -- (0,4);
+\draw[-stealth] (0,0) -- (0,1);
 \end{tikzpicture}
 \end{document}
 ```
