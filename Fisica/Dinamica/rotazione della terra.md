@@ -17,11 +17,11 @@ $$\vec{a}_{r} = \vec{a}_{a} - \vec{a}_{c} - \vec{a}_{t}$$
 Vediamo alora le conseguenze in alcuni casi importanti:
 
 ### Grave fermo
-Se il grave è fermo nel sistema relativo, l'[[accelerazione di coriolis]] si annulla (come nel caso del punto materiale vincolato alla piattaforma rotante), mentre l'accelerazione di trascinamento è:
+Se il grave è fermo nel sistema relativo, l'[[accelerazione di coriolis]] si annulla (come nel caso del [[punto materiale]] vincolato alla piattaforma rotante), mentre l'accelerazione di trascinamento è:
 $$
 \vec{a}_{t} = \vec{\omega} \times (\vec{\omega} \times \vec{r}_{r} ) = +\omega^2R_{T}\cos(\lambda)\hat{u}_{N}
 $$
-Dove abbiamo indicato con $R_{T}$ il raggio della terra, con $\hat{u}_{N}$ il versore uscente da $P$ diretto perpendicolarmente verso l'asse di rotazione $z$ e con $\lambda$ la latitudine del punto $P$, ossia l'angolo che la congiungente con il centro della Terra forma con il piano equatoriale. L'accelerazione di trasinamento $\vec{a}_{t}$ dunque è diretta verso l'interno della Terra e dipende, in modulo, dalla latitudine: è nulla ai poli e massima all'equatore.
+Dove abbiamo indicato con $R_{T}$ il raggio della terra, con $\hat{u}_{N}$ il [[versore]] uscente da $P$ diretto perpendicolarmente verso l'asse di rotazione $z$ e con $\lambda$ la latitudine del punto $P$, ossia l'angolo che la congiungente con il centro della Terra forma con il [[piano]] equatoriale. L'accelerazione di trasinamento $\vec{a}_{t}$ dunque è diretta verso l'interno della Terra e dipende, in modulo, dalla latitudine: è nulla ai poli e massima all'equatore.
 L'accelerazione effettiva di gravità vale quindi
 $$
 \vec{g} = \vec{a}_{r} = \vec{a}_{a} - \vec{a}_{t} = \vec{g}_{0} - \omega^2R_{T}\cos (\lambda)\hat{u}_{N} 
@@ -54,8 +54,9 @@ $$
 > $$|\vec{a}_{t}| \leq \omega^2 R_{T} \approx 3.3 \cdot 10^{-2} m \cdot s^{-2} \ll 9.81 m\cdot s^{-2} = |\vec{g}_{0}|$$
 
 >[!oss]
->Lo stesso termine centrifugo, sposta la verticale rispetto alla congiungente con il centro della Terra, nell'emisfero boreale la direzione di $\vec{g}$ punta lievemente verso sud mentre nell'emisfero australe punta lievemente verso nord.
+>Lo stesso termine centrifugo, sposta la verticale rispetto alla congiungente con il centro della Terra, nell'emisfero boreale la [[direzione]] di $\vec{g}$ punta lievemente verso sud mentre nell'emisfero australe punta lievemente verso nord.
 >Ai poli l'effetto è nullo in quanto è nullo il termine centrifugo
 
 ### Corpo in caduta
-Se un grave non è fermo al suolo, ma sta cadendo, la sua velocità relativa al sistema "Terra" non è nulla
+Se un grave non è fermo al suolo, ma sta cadendo, la sua [[velocità relativa]] al sistema "Terra" non è nulla, perciò avremo un'accelerazione di Coriolis diversa da 0.
+Per semplicità consideriamo ora solo gli effetti dell'acceler
