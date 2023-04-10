@@ -23,8 +23,8 @@ dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$
 \draw (2.75,0) arc (0:40:.75) node[below right]{$\alpha$};
 \draw (r.center) -- ++ (2.5,1.875);
 
-\begin{scope}[rotate = 30]
-\draw (O.center) -- ++ (0,-1) node[below]{$d$} -- ++ (2,0);
+\begin{scope}[rotate = 35]
+\draw (O.center) -- ++ (0,-1.2) node[left]{$d$} -- ++ (2,0);
 \end{scope}
 
 \end{tikzpicture}
