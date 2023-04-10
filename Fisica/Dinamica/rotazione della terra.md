@@ -26,3 +26,10 @@ L'accelerazione effettiva di gravità vale quindi
 $$
 \vec{g} = \vec{a}_{r} = \vec{a}_{a} - \vec{a}_{t} = \vec{g}_{0} - \omega^2R_{T}\cos (\lambda)\hat{u}_{N} 
 $$
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[] (0,0) circle (3);
+\end{tikzpicture}
+\end{document}
+```
