@@ -76,6 +76,8 @@ Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la [[
 >[!oss]
 >Per quanto riguarda il caso della Terra, la forza di Coriolis ha una grande influenza sui moti dei venti e delle correnti d'acqua, in particolare nell'emisfero boreale (*rispettivamente australe*):
 > - La sponda destra (*rispettivamente sinistra*) dei fiumi è piú erosa della sponda sinistra (*rispettivamente destra*)
-> - I cicloni ruotano in senso antiorario *(rispettivamente antiorario)*
-> - Gli anticicloni ruotano in senso orario *(rispetti*
+> - I cicloni ruotano in senso antiorario *(rispettivamente orario)*
+> - Gli anticicloni ruotano in senso orario *(rispettivamente antiorario)*
 
+>[!oss]
+>L'origine della forza di Coriolis risiede nella differente velocità di trascinamento dei diversi punti della traiettoria del corpo
