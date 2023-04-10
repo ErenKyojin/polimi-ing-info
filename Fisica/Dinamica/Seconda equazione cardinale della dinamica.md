@@ -11,5 +11,9 @@ $$
 essendo $\vec{v} \parallel \vec{p} \implies \vec{v} \times \vec{p} = 0$.
 
 Dimostriamo così dimostrato la seconda equazione cardinale della dinamica del punto materiale:
-In un sistema di riferimento inerziale, la derivata temporale del momento angolare di un punto materiale $P$ rispett
+In un sistema di riferimento inerziale, la derivata temporale del momento angolare di un punto materiale $P$ rispetto ad un dato polo fisso $O$ è pari al momento della risultante delle forze applicate a $P$ rispetto al medesimo polo $O$
+$$
+\fbox{$\vec{\tau}_{O} = \frac{d\vec{L}_{O}}{dt}$}
+$$
+
 
