@@ -51,4 +51,4 @@ $$
 
 >[!oss]
 >La variazione indotta dall'accelerazione di trascinamento è comunque abbastanza piccola infatti
-> $$|\vec{a}_{t}| \leq \omega^2 R_{T} \approx 3.3 \cdot 1$$
+> $$|\vec{a}_{t}| \leq \omega^2 R_{T} \approx 3.3 \cdot 10^{-2} m \cdot s^{-2} \ll 9.81 m\cdot s^{-2} = |\vec{g}_{0}|$$
