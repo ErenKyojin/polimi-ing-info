@@ -11,6 +11,17 @@ $$
 $$
 dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$. Come conseguenza della definizione, il momento è ortogonale al piano individuato da $\vec{a}$ e da $O$ ed ha per modulo $M_{O} = r \cdot a \cdot \sin \alpha = d \cdot a$ dove $\alpha$ è l'angolo compreso tra $\vec{r}$ e $\vec{a}$, $d$ è la distanza della retta di applicazione di $\vec{a}$ dal polo $O$.
 
+```tikz
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}
+\draw (-1,0) -- (4,0);
+\draw (-1,0)
+\end{tikzpicture}
+\end{document}
+```
+
 >[!oss]
 >Se trasliamo il vettore applicato $\vec{a}$ lungo la sua retta di applicazione, il momento rispeto allo stesso polo $O$ non cambia
->
+
+
