@@ -46,4 +46,5 @@ $$
 \end{document}
 ```
 
-
+>[!oss]
+>il termine **centrifugo** dovuto all'accelerazione di trascinamento riduce il valore dell'accelerazione di gravità di un fattor
