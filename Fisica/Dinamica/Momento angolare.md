@@ -18,7 +18,8 @@ dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$
 \draw (-1,0) -- (4,0);
 \draw[-{Stealth},thick] (0,0) node(O){} -- (0,2) node[right]{$\vec{M}$};
 \node[above left] at (O){$O$};
-\draw[-{Stealth},thick] (O.center) -- ++ (1.5,0) -- ++ (2,1.5);
+\draw[-{Stealth},thick] (O.center) -- ++ (2,0) node(r){} node[midway,above]{$\vec{r}$};
+\draw (r.center)  -- ++ (2,1.5)
 \end{tikzpicture}
 \end{document}
 ```
