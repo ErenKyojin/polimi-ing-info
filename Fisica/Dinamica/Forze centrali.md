@@ -9,7 +9,8 @@ In un campo di forze centrali avremo sempre
 $$
 \vec{F}(\vec{r}) \parallel \vec{r} \implies \frac{d\vec{L}}{dt} = \vec{r} \times \vec{F} = 0 \implies \vec{L} = \cost 
 $$
-e quindi 
+e quindi il moto è piano
+Si tratta di una delle caratteristiche principali delle 
 
 
 
