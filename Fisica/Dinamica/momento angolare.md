@@ -22,4 +22,11 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 >[!esempio] Moto circolare
 >Consideriamo il moto lungo una circonferenza di raggio $r$ e centro $O$: il momento angolare di $P$ rispetto al centro $O$ vale
 >$$ \vec{L} = m\vec{r} \times \vec{v}= mr^2\vec{\omega}$$
- 
+>
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}
+>
+>\end{tikzpicture}
+>\end{document}
+>```
