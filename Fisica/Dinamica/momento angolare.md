@@ -68,4 +68,7 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una [[d
 >```
 >Consideriamo un riferimento inerziale ed un punto materiale $P$ in moto in esso. Ricordiamo che la [[seconda equazione cardinale della dinamica]] afferma che:
 >In ogni istante la [[derivata]] temporale del momento angolare di un punto materiale $P$ è pari al momento della risultante delle forze applicate a $P$ rispetto allo stesso polo $O$.
->$$ \fbox{$\tau$} $$
+>$$ \fbox{$\vec{\tau} = \frac{d\vec{L}}{dt}$} $$
+>Osserviamo che $\vec{\tau} = 0 \implies \frac{d\vec{L}}{dt} = 0 \implies \vec{L} = \cost$ in modulo, direzione e verso.
+>
+>Dunque, dalla seconda equazione cardinale segue
