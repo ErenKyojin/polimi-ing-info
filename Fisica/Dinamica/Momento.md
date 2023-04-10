@@ -51,5 +51,10 @@ $$
 E si misura in $N \cdot m$ nel sistema di misura internazionale
 
 
-## Momento della quantità di moto
+# Momento della quantità di moto
 Dati un punto materiale $P$, avente quantità di moto $\vec{p}$ ed un polo $O$ si definisce momento della quantità di moto o momento angolare $\vec{L}_{O}$ di $P$ rispetto ad $O$ il vettore
+$\vec{L}_{O} = \vec{r} \times \vec{p}$ 
+dove $\vec{r}$ è il vettore che va da $O$ a $P$
+
+
+![[Seconda equazione cardinale della dinamica]] per un singolo punto materiale

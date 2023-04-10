@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Momento.md",
+                "file": "Fisica/Dinamica/Seconda equazione cardinale della dinamica.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Momento.md",
+                "file": "Fisica/Dinamica/Seconda equazione cardinale della dinamica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Momento.md",
+                "file": "Fisica/Dinamica/Seconda equazione cardinale della dinamica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Momento.md"
+                "file": "Fisica/Dinamica/Seconda equazione cardinale della dinamica.md"
               }
             }
           },
@@ -199,8 +199,9 @@
   },
   "active": "c4bc65890bd0bc23",
   "lastOpenFiles": [
-    "Fisica/Dinamica/Forze centrali.md",
     "Fisica/Dinamica/Momento.md",
+    "Fisica/Dinamica/Seconda equazione cardinale della dinamica.md",
+    "Fisica/Dinamica/Forze centrali.md",
     "Fisica/Dinamica/rotazione della terra.md",
     "Fisica/Dinamica/moto di trascinamento.md",
     "Fisica/Dinamica/forze apparenti.md",
@@ -225,7 +226,6 @@
     "API/Complessità temporale.md",
     "API/La riduzione dei problemi.md",
     "API/Ricorsivamente enumerabile.md",
-    "API/problema.md",
     "snapshot.jpg",
     "Cp.canvas",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
