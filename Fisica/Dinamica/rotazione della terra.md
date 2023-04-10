@@ -14,4 +14,7 @@ diretta verso il centro della Terra.
 
 Per un osservatore solidale con la Terra, lo stesso grave subisce un accelerazione relativa
 $$\vec{a}_{r} = \vec{a}_{a} - \vec{a}_{c} - \vec{a}_{t}$$
-Vediamo alora al
+Vediamo alora le conseguenze in alcuni casi importanti:
+
+### Grave fermo
+Se il grave è fermo nel sistema relativo, l'accelerazione di coriolis
