@@ -34,4 +34,7 @@ dove $\vec{r}$ è il vettore che va da $O$ al punto di applicazione di $\vec{a}$
 
 >[!oss]
 >Se trasliamo il vettore applicato $\vec{a}$ lungo la sua retta di applicazione, il momento rispeto allo stesso polo $O$ non cambia:
->$$ $$
+>$$\begin{align}
+> \vec{M}_{O}' = \vec{r}_{2} \times \vec{a} = (\vec{r}_{1} + \vec{r}_{12}) \times \vec{a} = \\
+
+>\end{align} $$
