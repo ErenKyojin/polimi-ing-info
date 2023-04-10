@@ -62,5 +62,6 @@ Se un grave non è fermo al suolo, ma sta cadendo, la sua [[velocità relativa]]
 Per semplicità consideriamo ora solo gli effetti dell'accelerazione di Coriolis, sapendo che gli vanno sommati all'accelerazione di trascinamento.
 La forza di coriolis è una forza apparente in grado di produrre un'accelerazione uguale ed opposta all'accelerazione di Coriolis.
 $$
-\vec{F}_{c} = -ma
+\vec{F}_{c} = -m\vec{a}_{c} = -m_{2}\vec{\omega} \times \vec{v}_{r}
 $$
+Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la velocità relativa sia diretta vert
