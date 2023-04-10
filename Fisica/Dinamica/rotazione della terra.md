@@ -39,6 +39,7 @@ $$
 \draw (-.5,0) arc (180:150:.5)node[left]{$\lambda$};
 \draw[thick, -{Stealth[scale = 1]}] (p.center) -- ++ (-1,0)node[above left]{$-\vec{a}_t$};
 \draw[thick, -{Stealth}] (p.center) -- ++ (1,0)node[above right]{$\vec{a}_t$};
+\draw[thick, -{Stealth}] (p.center) -- ()
 \end{tikzpicture}
 \end{document}
 ```
