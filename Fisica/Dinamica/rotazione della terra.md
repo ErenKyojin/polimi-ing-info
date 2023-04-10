@@ -47,4 +47,8 @@ $$
 ```
 
 >[!oss]
->il termine **centrifugo** dovuto all'accelerazione di trascinamento riduce il valore dell'accelerazione di gravità di un fattor
+>il termine **centrifugo** dovuto all'accelerazione di trascinamento riduce il valore dell'accelerazione di gravità di un fattore che dipende dalla latitudine
+
+>[!oss]
+>La variazione indotta dall'accelerazione di trascinamento è comunque abbastanza piccola infatti
+> $$|\vec{a}_{t}| \leq \omega^2 R_{T} \approx 3.3 \cdot 1$$
