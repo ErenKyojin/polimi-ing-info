@@ -54,7 +54,8 @@ $$
 > $$|\vec{a}_{t}| \leq \omega^2 R_{T} \approx 3.3 \cdot 10^{-2} m \cdot s^{-2} \ll 9.81 m\cdot s^{-2} = |\vec{g}_{0}|$$
 
 >[!oss]
->Lo stesso termine centrifugo, sposta la verticale rispetto alla congiungente con il centro della Terra
+>Lo stesso termine centrifugo, sposta la verticale rispetto alla congiungente con il centro della Terra, nell'emisfero boreale la direzione di $\vec{g}$ punta lievemente verso sud mentre nell'emisfero australe punta lievemente verso nord.
+>Ai poli l'effetto è nullo in quanto è nullo anche il etmrine centrifugo
 
 ### Corpo in caduta
 Se un grave non è fermo al suolo, ma sta cadendo, la sua velocità relativa al sistema "Terra" non è nulla
