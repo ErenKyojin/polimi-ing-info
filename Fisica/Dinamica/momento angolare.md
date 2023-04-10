@@ -38,4 +38,6 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 >```
 
 >[!esempio] moto piano non circolare
->Conviene utilizzare le coordinate polari del piano, e scomporre la velo
+>Conviene utilizzare le coordinate polari del piano, e scomporre la velocità secondo le componenti
+>$$ v_{r} = \frac{dr}{dt}\quad;\quad v_{\theta} = r \frac{d\theta}{dt} = r\omega   $$
+>Il momento angolare 
