@@ -33,7 +33,8 @@ $$
 \draw[-latex] (0,-4) -- (0,4);
 \draw[-stealth] (0,0) -- (0,1)node[right]{$\vec{\omega}$};
 \draw (0,0) -- (-3,0);
-\draw (0,0) -- ()
+\draw (0,0) -- (-2.6,1.5);
+\draw (-.5,0) arc (180:150:.5)node[right]{$\$};
 \end{tikzpicture}
 \end{document}
 ```
