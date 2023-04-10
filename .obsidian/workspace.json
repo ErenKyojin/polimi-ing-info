@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f8d67f5583e4126f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/Dinamica/rotazione della terra.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2416871e9ea4146",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/Dinamica/Forze centrali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c4bc65890bd0bc23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Day Planners/Day Planner-20230410.md",
+                "file": "Fisica/Dinamica/Momento.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +48,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day Planners/Day Planner-20230410.md",
+                "file": "Fisica/Dinamica/Momento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -85,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "momento",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -123,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day Planners/Day Planner-20230410.md",
+                "file": "Fisica/Dinamica/Momento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day Planners/Day Planner-20230410.md"
+                "file": "Fisica/Dinamica/Momento.md"
               }
             }
           },
@@ -199,13 +174,13 @@
   },
   "active": "c4bc65890bd0bc23",
   "lastOpenFiles": [
-    "Fisica/Dinamica/Seconda equazione cardinale della dinamica.md",
-    "Fisica/Dinamica/Momento.md",
+    "Day Planners/Day Planner-20230410.md",
     "Fisica/Dinamica/Forze centrali.md",
     "Fisica/Dinamica/rotazione della terra.md",
+    "Fisica/Dinamica/Seconda equazione cardinale della dinamica.md",
+    "Fisica/Dinamica/Momento.md",
     "Fisica/Dinamica/moto di trascinamento.md",
     "Fisica/Dinamica/forze apparenti.md",
-    "Day Planners/Day Planner-20230410.md",
     "Fisica/Dinamica/Dinamica.md",
     "Day Planners/Day Planner-20230407.md",
     "Day Planners/Day Planner-20230409.md",
