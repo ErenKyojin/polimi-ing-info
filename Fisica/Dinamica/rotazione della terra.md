@@ -17,4 +17,4 @@ $$\vec{a}_{r} = \vec{a}_{a} - \vec{a}_{c} - \vec{a}_{t}$$
 Vediamo alora le conseguenze in alcuni casi importanti:
 
 ### Grave fermo
-Se il grave è fermo nel sistema relativo, l'accelerazione di coriolis
+Se il grave è fermo nel sistema relativo, l'accelerazione di coriolis si annulla (come nel caso del punto)
