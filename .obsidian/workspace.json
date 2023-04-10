@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,7 +172,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c4bc65890bd0bc23",
+  "active": "540b351f17ef6673",
   "lastOpenFiles": [
     "Fisica/Dinamica/Momento.md",
     "Fisica/Dinamica/momento angolare.md",

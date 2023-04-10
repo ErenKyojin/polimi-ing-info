@@ -62,7 +62,9 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 >\draw (r.center) -- ++ (0,1.5) -- ++ (1,0) -- ++ (0,-1.5);
 >\end{scope} 
 >\draw[smooth] (.2,1) to[out = 90, in =180] (2,3) to[out = -20, in = 200] (4,3) to[out = 20, in = 270] (4.5,4);
->\draw (1,0) arc (0:60:1) node[midway,right]{$\theta$};
+>\draw (1,0) arc (0:55:1) node[midway,right]{$\theta$};
 >\end{tikzpicture}
 >\end{document}
 >```
+>Consideriamo un riferimento inerziale ed un punto materiale $P$ in moto in esso. Ricordiamo che la seconda equazione cardinale della dinamica afferma che:
+>In ogni istante la derivata temporale del momento angolare
