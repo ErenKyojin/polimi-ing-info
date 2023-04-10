@@ -43,5 +43,6 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una dir
 >Il momento angolare rispetto all'origine vale quindi:
 >$$ \begin{align}
 >\vec{L} &= m\vec{r}\times \vec{v} = m\vec{r} \times (v_{r}\hat{u}_{r} + v_{\theta}\hat{u}_{\theta}) = \\
-> &= m[v_{r}\vec{r} \times \hat{u}_{r} + v_{\theta}\vec{r} \times \hat{u}]
+> &= m[v_{r}\vec{r} \times \hat{u}_{r} + v_{\theta}\vec{r} \times \hat{u}_{\theta}] = mv\theta \vec{r} \times \hat{u}_{\theta} = \\
+> &=mr \frac{d\theta}{dt} r (\hat{u}_{r} \times \hat{u}_{\theta}) = mr^2 \omega \hat{u}_{}
 >\end{align} $$
