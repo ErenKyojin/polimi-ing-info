@@ -35,6 +35,5 @@ Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 >>   $$ g_{s}(x) = x \text{ se } c_{s}(x) = 1, \text{ altrimenti }g_{s}(x)=k $$
 >>   $g_{s}$ è totale per definizione, calcolabile e $I_{g_{S}} = S$
 >>   quindi $S$ è ricorsivamente enumerabile
->>   
->>   (Dimostrazione non costruttiva, non sappiamo se $S \neq \varnothing$, ne sappiamo calcolare $g_{s}$, tuttavia ci basta sapere che esiste $g_{s}$ se $S \neq \varnothing$)
+>>   *(Dimostrazione non costruttiva, non sappiamo se $S \neq \varnothing$, ne sappiamo calcolare $g_{s}$, tuttavia ci basta sapere che esiste $g_{s}$ se $S \neq \varnothing$)*
 
