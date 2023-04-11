@@ -13,6 +13,12 @@ modification date: 2023-04-11 12:36
 >>Sia $u \in \mathbb{N}$, definiamo una macchina di turing che effettui la seguent eprocedura sul valore in ingresso $x$
 >>1. Si calcoli $z = f_{u}(u)$
 >>2. Se e quando il calcolo di $z$ termina, si calcoli $f_{z}(x)$
+>>
+>>La procedura è effettiva, quindi esiste una macchina di turing per essa:
+>>possiamo costruirle e poi cercare (per confronto) il suo indice $g(u)$ per ogni possibile $u$, usando la solita enumerazione $E$.
+>>
+>>>[!oss]
+>>>$g$ è totale, esiste per ogni $u$
 
 
 
