@@ -56,7 +56,8 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \begin{document}
 \begin{tikzpicture}
 \draw[-{Stealth[scale = 1.25]}] (-.5,0) -- (5,0);
-\draw[-{S}]
+\draw[-{Stealth[scale = 1.25]}] (0,-3) -- (0,3);
+\node
 \end{tikzpicture}
 \end{document}
 ```
