@@ -4,7 +4,9 @@ creation date: 2023-04-11 12:36
 modification date: 2023-04-11 12:36
 ---
 
-<% tp.file.cursor(1) %>
+>[!teorema]
+>Sia $t$ una funzione totale e calcolabile, è sempre possibile trovare un numero naturale $p$ tale che
+>$$f_{p}$$
 
 
 
