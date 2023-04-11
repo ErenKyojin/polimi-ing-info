@@ -17,7 +17,7 @@ linguaggi riconosciuti dalle MT
 
 ## Enunciati importanti
 Dato un insieme $S$ con le seguenti caratteristiche:
-- Se $i \in S$ allora $f_{i}$ è totale (funzione calcolata dalla i e)
+- Se $i \in S$ allora $f_{i}$ è totale (funzione calcolata dalla i-esima macchina di turing)
 - Se $f$ totale e calcolabile allora $\exists i \in S | f_{i} - f$
 
 $S$ non è ricorsivamente enumerabile.
