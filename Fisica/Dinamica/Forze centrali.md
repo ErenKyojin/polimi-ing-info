@@ -69,7 +69,7 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 %graphs
 \draw[green,ultra thick, domain = .4:4.5, smooth, variable = \x] plot ({\x}, {1/\x});
 \draw[red, ultra thick, domain = .7:4.5, smooth, variable = \x] plot ({\x},{-2/(\x) - .5});
-\draw[blue, ultra thick] (.25,2.5) to[out = 270, in = 100] (.5,-1) to[out = 280, in = 190] (.8,-1.5) to[out = 0, in = 200] (1.75,-1);
+\draw[blue, ultra thick] (.25,2.5) to[out = 270, in = 100] (.5,-1) to[out = 280, in = 190] (.8,-1.5) to[out = 0, in = 200] (1.75,-1) to[] (4.5,-.8);
 \end{tikzpicture}
 \end{document}
 ```
