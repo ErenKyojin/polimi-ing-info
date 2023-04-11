@@ -42,3 +42,9 @@ S è $RE$ se e solo se
 
 
 Da qui il legame con i linguaggi riconosciuti dalle macchine di turing
+
+---
+Esistono insiemi semidecidibili che non sono decidibili:
+- $K = \{  x | f_{x}(x) \neq \perp \}$ è semidecidibile perchè $K = D_{h}$ con $h(x) = f_{x}(x)$
+- Sappiamo però anche che
+  
