@@ -24,4 +24,6 @@ $S$ non è ricorsivamente enumerabile.
 
 Questo significa che non esiste un formalismo in grado di definire tutte e sole le funzioni calcolabili totali.
 
-Siano $S$ ed il suo complemento 
+Siano $S$ ed il suo complemento ricorsivamente enumerabili
+$S$ RE -> $S = \{ g_{S}(0), g_{S}(1), g_{S}(2),\dots \}$
+$\neg S$ RE -> $\neg S = \{ g_{\neg S}(0), g_{\neg S}(1),  \}$
