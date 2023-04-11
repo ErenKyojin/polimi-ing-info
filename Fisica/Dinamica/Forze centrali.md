@@ -91,4 +91,4 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \end{document}
 ```
 Osserviamo che l'energia potenziale efficace sarà positiva per valori bassi di $r$, poichè in questo caso predonima il contributo centrifugo, inversamente proporzionale al quadrato di $r$, e negativa per valori alti di $r$, dove predonima il contributo attrattivo, inversamente proporzionale a $r$ (per $r \to \infty$ tenderà a zero, poichè entrambi i contributi tendono ad annullarsi).
-Il valore limite che separa la zona 
+Il valore limite che separa la zona a valori positivi da quela a valori negativi è: $r_{z} = \frac{L^2}{2 \text{ Km }}$. Nella ona a valori negativi è presente il punto di minima energia potenziale efficace, in corrispondenza della distanza doppia di quella per cui l'energia si annulla: $r_{mi}$
