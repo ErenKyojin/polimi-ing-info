@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Teorema di Kleene.md",
+                "file": "API/Teorema di Kleene del punto fisso.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Teorema di Kleene.md",
+                "file": "API/Teorema di Kleene del punto fisso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Teorema di Kleene.md",
+                "file": "API/Teorema di Kleene del punto fisso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Teorema di Kleene.md"
+                "file": "API/Teorema di Kleene del punto fisso.md"
               }
             }
           },
@@ -208,7 +208,7 @@
   "active": "c6ba1e062d56bbc1",
   "lastOpenFiles": [
     "API/Ricorsivamente enumerabile.md",
-    "API/Teorema di Kleene.md",
+    "API/Teorema di Kleene del punto fisso.md",
     "API/Ricorsivo.md",
     "API/Teoria del calcolo.md",
     "Untitled.md",
