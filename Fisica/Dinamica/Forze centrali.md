@@ -54,7 +54,7 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 ```tikz
 \usetikzlibrary{arrows.meta}
 \begin{document}
-\begin{tikzpicture}[scale = 1.5]
+\begin{tikzpicture}[scale = 1.5, every node/.style={scale = 1.5}]
 
 %Axis
 \draw[-{Stealth[scale = 1.25]}] (-.5,0) -- (5,0) node[below]{$r$};
@@ -65,6 +65,7 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \node (E2) at (0,1.25){$\bullet$};
 \node (E1) at (0,-1){$\bullet$};
 \node (Epmin) at (0,-1.5){$\bullet$};
+\node ()
 
 %graphs
 \draw[green,ultra thick, domain = .4:4.5, smooth, variable = \x] plot ({\x}, {1/\x});
