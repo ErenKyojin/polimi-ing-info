@@ -26,6 +26,9 @@ modification date: 2023-04-11 12:36
 >>Dunque sia $v$ l'indice della MT che calcola $t(g(.))$ cioè
 >> $$ f_{V}(x) = t(g(x)) $$
 >> usiamo $v$ al posto di $u$ nella costruzione precedente $(a)$:
->> otteniamo $f_{g(V)} = f_{f_{V}(v)}$
+>> otteniamo $f_{g(V)} = f_{f_{V}(V)} = t(g(V))$ è definito.
+>> Ma $f_{f_{V}(V)}= f_{g(v)}$, questo significa che
+>> $$ f_{g(v)} = f_{t(g(v))} $$
+>> e $g(v)$ è il punto fisso $p$ di $t$
 
 
