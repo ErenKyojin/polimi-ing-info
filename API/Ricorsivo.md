@@ -36,4 +36,7 @@ Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 >>   $g_{s}$ è totale per definizione, calcolabile e $I_{g_{S}} = S$
 >>   quindi $S$ è ricorsivamente enumerabile
 >>   *(Dimostrazione non costruttiva, non sappiamo se $S \neq \varnothing$, ne sappiamo calcolare $g_{s}$, tuttavia ci basta sapere che esiste $g_{s}$ se $S \neq \varnothing$)*
-
+>>
+>>2. $S$ ricorsive $\iff S$ e $\neg S$ sono ricorsivamente enumerabili
+>>   - $S$
+>>
