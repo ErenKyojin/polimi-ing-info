@@ -14,6 +14,6 @@ Ricordando la [[Funzione caratteristica]] di un insieme
 > Un insieme $S$ è ricorsivo o decidibile se e solo se la sua funzione caratteristica è calcolabile
 
 Dato l'insieme dei numeri naturali, è un insieme ricorsivo?
-Si! è una programma / macchina di turing che scrive sempre 1 a prescindere dall'input.
+Si! È calcolabile attraverso un programma / una macchina di turing che scrive sempre 1 a prescindere dall'input. 
 
 Piú complicato è il concetto di [[Ricorsivamente enumerabile]]

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Ricorsivo.md",
+                "file": "API/Ricorsivamente enumerabile.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Ricorsivo.md",
+                "file": "API/Ricorsivamente enumerabile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Ricorsivo.md",
+                "file": "API/Ricorsivamente enumerabile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Ricorsivo.md"
+                "file": "API/Ricorsivamente enumerabile.md"
               }
             }
           },
@@ -186,8 +186,8 @@
   },
   "active": "00e9f02710ea8a9b",
   "lastOpenFiles": [
-    "API/Funzione caratteristica.md",
     "API/Ricorsivo.md",
+    "API/Funzione caratteristica.md",
     "API/Ricorsivamente enumerabile.md",
     "API/Teoria del calcolo.md",
     "API/Teorema di rice.md",
