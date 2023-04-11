@@ -31,3 +31,7 @@ Possiamo fare adesso un altro tentativo per rimuovere le scomode funzioni non to
 Estendiamo una funzione, ad esempio arricchendo $\mathbb{N}$ con il nuovo valore $\perp$, oppure attribuendo a $f$ un valore convenzionale quando $f$ è indefinita. Matematicamente l'operazione è sensata, ma il trucco non funziona. Non esiste una funzione totale e calcolabile che sia un'estensione della funzione calcolabile ma non totale $g(x) = \text{se }f_{x}(x)\neq \perp$ allora $f_{x}(x) + 1$ altrimento $\perp$.
 
 Posso sempre prendere una funzione parziale e farla diventare totale, ma potrei perderne la calcolabilità
+
+---
+
+S è $RE$ se e so
