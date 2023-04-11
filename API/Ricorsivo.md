@@ -14,4 +14,4 @@ Ricordando la [[Funzione caratteristica]] di un insieme
 > Un insieme $S$ è ricorsivo o decidibile se e solo se la sua funzione caratteristica è calcolabile
 
 
-Piú comp
+Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
