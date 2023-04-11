@@ -55,11 +55,16 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
-\draw[-{Stealth[scale = 1.25]}] (-.5,0) -- (5,0);
+
+%Axis
+\draw[-{Stealth[scale = 1.25]}] (-.5,0) -- (5,0) node[below]{$r$};
 \draw[-{Stealth[scale = 1.25]}] (0,-3) -- (0,3);
+
+%nodes
+\node (O) at (0,0){};
 \node (E2) at (0,1.25){$\bullet$};
 \node (E1) at (0,-1){$\bullet$};
-\node (E)
+\node (Epmin) at (0,-1.5){$\bullet$};
 \end{tikzpicture}
 \end{document}
 ```
