@@ -267,4 +267,5 @@ otteniamo $g(1)=1$
 Consideriamo la seguente modifica di $g$:
 $$ h(x) - 1 \text{ se in } \pi \exists \text{ almeno }x \ 5 \text{ consecutivi, }0 \text{ altrimenti}$$
 ovviamente se $g(x) - 1$ anche $h(x) - 1$
-Oss
+Osserviamo però che se per qualche $x h(x) = 1$, allora $h(y)=1 \forall y \leq x$, quindi il grafico di $h$ è a scalino
+$h(x) = 1 \forall x$
