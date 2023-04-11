@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,7 +185,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "00e9f02710ea8a9b",
+  "active": "540b351f17ef6673",
   "lastOpenFiles": [
     "API/Teoria del calcolo.md",
     "API/decidibilità.md",
