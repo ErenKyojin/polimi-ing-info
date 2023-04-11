@@ -65,6 +65,9 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \node (E2) at (0,1.25){$\bullet$};
 \node (E1) at (0,-1){$\bullet$};
 \node (Epmin) at (0,-1.5){$\bullet$};
+
+%graphs
+\draw[green,ultra thick, domain = 1:4.5] plot ();z
 \end{tikzpicture}
 \end{document}
 ```
