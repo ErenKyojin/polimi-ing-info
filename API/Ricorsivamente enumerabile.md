@@ -49,7 +49,9 @@ Da qui il legame con i linguaggi riconosciuti dalle macchine di turing
 \begin{tikzpicture}
 \draw (0,0) circle (2 and 1);
 \draw (-1,0) circle (4 and 2);
-\draw 
+\draw (-3,0) circle (6 and 3);
+\node at (0,0){R};
+\node at (-3,0){RE};
 \end{tikzpicture}
 \end{document}
 ```
