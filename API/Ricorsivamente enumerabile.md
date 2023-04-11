@@ -23,3 +23,5 @@ Dato un insieme $S$ con le seguenti caratteristiche:
 $S$ non è ricorsivamente enumerabile.
 
 Questo significa che non esiste un formalismo in grado di definire tutte e sole le funzioni calcolabili totali.
+
+Siano $S$ ed il suo complemento 
