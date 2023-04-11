@@ -51,8 +51,8 @@ Da qui il legame con i linguaggi riconosciuti dalle macchine di turing
 \draw (0,0) circle (2 and 1);
 \draw (-1,0) circle (4 and 2);
 \draw (-3,0) circle (6 and 3);
-\node at (0,0){R};
-\node at (-3,0){RE};
+\node at (0,0){insiemi R};
+\node at (-3,0){insiemi RE};
 \node at (-6,0){$\mathcal{P}(\mathbb{N})$};
 \end{tikzpicture}
 \end{document}
@@ -63,4 +63,8 @@ Esistono insiemi semidecidibili che non sono decidibili:
 - Sappiamo però anche che
   $c_{K}(x)$ ($1$ se $f_{x}(x) \neq \perp$, $0$ altrimenti)
 
-Conclusione
+Conclusione:
+i contenimenti sono tutti stretti
+
+>[!corollario]
+>Gli insiemi RE (linguaggi riconosciuti dalle MT) non sono chiusi rispetto al complemento
