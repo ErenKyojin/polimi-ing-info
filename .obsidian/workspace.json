@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "00e9f02710ea8a9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/decidibilità.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Teoria del calcolo.md",
+                "file": "API/decidibilità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Teoria del calcolo.md",
+                "file": "API/decidibilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Teoria del calcolo.md"
+                "file": "API/decidibilità.md"
               }
             }
           },
@@ -171,10 +184,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c4bc65890bd0bc23",
+  "active": "00e9f02710ea8a9b",
   "lastOpenFiles": [
-    "API/Teorema di rice.md",
     "API/Teoria del calcolo.md",
+    "API/decidibilità.md",
+    "API/Teorema di rice.md",
     "API/stringa.md",
     "API/Stato.md",
     "API/sequenza di mosse.md",
@@ -198,7 +212,6 @@
     "Fisica/Dinamica/Forze centrali.md",
     "Day Planners/Day Planner-20230411.md",
     "Day Planners/Day Planner-20230410.md",
-    "Day Planners/Day Planner-20230409.md",
     "Day Planners",
     "snapshot.jpg",
     "Cp.canvas",
