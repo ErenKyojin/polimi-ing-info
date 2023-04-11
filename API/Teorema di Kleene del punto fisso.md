@@ -22,6 +22,10 @@ modification date: 2023-04-11 12:36
 >>
 >>Otteniamo quindi la funzione $f_{g(u)}(x) = \text{se} f_{u}(u) \neq \perp \implies f_{f_{u}(u)}(x)$ altrimenti $\perp$
 >>
->>Sappiamo che $g$ è totale, inoltre se m
+>>Sappiamo che $g$ è totale, inoltre se $t$ è una funzione totale e calcolabile, lo è anche la composizione $t(g(.))$
+>>Dunque sia $v$ l'indice della MT che calcola $t(g(.))$ cioè
+>> $$ f_{V}(x) = t(g(x)) $$
+>> usiamo $v$ al posto di $u$ nella costruzione precedente $(a)$:
+>> otteniamo $f_{g(V)} = f_{f_{V}(v)}$
 
 
