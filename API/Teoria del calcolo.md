@@ -265,4 +265,6 @@ otteniamo $g(1)=1$
 #todo 
 
 Consideriamo la seguente modifica di $g$:
-$$ h(x) - 1 \text{}$$
+$$ h(x) - 1 \text{ se in } \pi \exists \text{ almeno }x \ 5 \text{ consecutivi, }0 \text{ altrimenti}$$
+ovviamente se $g(x) - 1$ anche $h(x) - 1$
+Oss
