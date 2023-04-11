@@ -262,4 +262,7 @@ otteniamo $g(1)=1$
 \end{document}
 ```
 
-#todo
+#todo 
+
+Consideriamo la seguente modifica di $g$:
+$$ h(x) - 1 \text{}$$
