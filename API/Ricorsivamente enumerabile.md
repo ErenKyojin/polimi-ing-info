@@ -68,3 +68,4 @@ i contenimenti sono tutti stretti
 
 >[!corollario]
 >Gli insiemi RE (linguaggi riconosciuti dalle MT) non sono chiusi rispetto al complemento
+
