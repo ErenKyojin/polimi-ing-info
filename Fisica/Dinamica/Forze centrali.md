@@ -50,4 +50,13 @@ $$
 E_{P}(r) = - \frac{k}{r}
 $$
 L'energia potenziale efficace sarà dunque
-$$ E_{P}^{eff}(r) = -k $$
+$$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
+```tikz
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}
+\draw[-{Stealth[scale = 1.25]}] (-.5,0) -- (5,0);
+\draw[-{S}]
+\end{tikzpicture}
+\end{document}
+```
