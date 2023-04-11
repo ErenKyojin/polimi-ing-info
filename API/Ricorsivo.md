@@ -29,5 +29,8 @@ Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 >
 >>[!dim]
 >>1. Se $S$ è vuoto è RE per definizione!
->>   Possiamo quindi assumere $S n$
+>>   Possiamo quindi assumere $S \neq \varnothing$ e indichiamo con $c_{s}$ la sua funzione caratteristica:
+>>   $$ \exists k \in S  \text{ cioè } c_{s}(k) = 1$$
+>>   definiamo la funzione
+>>   $$ g_{s}(x) = x \text{ se } c_{s}(x) = 1, \text{ altrimenti } $$
 
