@@ -19,7 +19,15 @@ Si! È calcolabile attraverso un programma / una macchina di turing che scrive s
 Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 
 >[!teorema]
->Se $S$ è ricorsivo è anche [[Ricorsivamente enumerabile]]
->$S$ è ricorsivo se e solo se $S$ stesso ed il suo complemento $\neg S = N - S$ sono ricorsivamente enumerabili.
+>1. Se $S$ è ricorsivo è anche [[Ricorsivamente enumerabile]]
+>2. $S$ è ricorsivo se e solo se $S$ stesso ed il suo complemento $\neg S = N - S$ sono ricorsivamente enumerabili.
 >
->Quindi due semidecidibilità fanno una decidibilità, qua
+>Quindi due semidecidibilità fanno una decidibilità, quando rispondere No equivale a rispondere si.
+>
+>>[!corollario]
+>>Gli insiemi decidibili sono chiusi rispetto al complemento
+>
+>>[!dim]
+>>1. Se $S$ è vuoto è RE per definizione!
+>>   Possiamo quindi assumere $S n$
+
