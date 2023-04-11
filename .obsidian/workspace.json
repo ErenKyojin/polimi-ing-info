@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
+                "file": "API/Funzione caratteristica.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
+                "file": "API/Funzione caratteristica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
+                "file": "API/Funzione caratteristica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md"
+                "file": "API/Funzione caratteristica.md"
               }
             }
           },
