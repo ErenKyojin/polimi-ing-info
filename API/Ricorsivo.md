@@ -13,5 +13,6 @@ Ricordando la [[Funzione caratteristica]] di un insieme
 > [!def]
 > Un insieme $S$ è ricorsivo o decidibile se e solo se la sua funzione caratteristica è calcolabile
 
+Dato l'insieme dei numeri naturali
 
 Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
