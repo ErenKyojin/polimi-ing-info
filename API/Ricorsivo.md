@@ -12,5 +12,6 @@ Ricordando la [[Funzione caratteristica]] di un insieme
 
 > [!def]
 > Un insieme $S$ è ricorsivo o decidibile se e solo se la sua funzione caratteristica è calcolabile
-> 
-> 
+
+
+Piú comp

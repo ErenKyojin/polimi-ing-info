@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
+                "file": "API/Ricorsivo.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
+                "file": "API/Ricorsivo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
+                "file": "API/Ricorsivo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md"
+                "file": "API/Ricorsivo.md"
               }
             }
           },
@@ -186,6 +186,7 @@
   },
   "active": "00e9f02710ea8a9b",
   "lastOpenFiles": [
+    "API/Ricorsivamente enumerabile.md",
     "API/Ricorsivo.md",
     "API/Funzione caratteristica.md",
     "API/Teoria del calcolo.md",
@@ -194,7 +195,6 @@
     "API/Stato.md",
     "API/sequenza di mosse.md",
     "API/semantica.md",
-    "API/Ricorsivamente enumerabile.md",
     "API/push.md",
     "API/problema dell'halt.md",
     "API/problema.md",
