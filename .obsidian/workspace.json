@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Costo di un calcolo.md",
+                "file": "API/Complessità temporale.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Costo di un calcolo.md",
+                "file": "API/Complessità temporale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Costo di un calcolo.md",
+                "file": "API/Complessità temporale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Costo di un calcolo.md"
+                "file": "API/Complessità temporale.md"
               }
             }
           },
@@ -173,6 +173,8 @@
   },
   "active": "c4bc65890bd0bc23",
   "lastOpenFiles": [
+    "API/Configurazione.md",
+    "API/Costo di un calcolo.md",
     "API/determinismo.md",
     "API/funzione parziale.md",
     "API/semantica.md",
@@ -198,8 +200,6 @@
     "Day Planners",
     "Fisica/Dinamica/velocità di trascinamento.md",
     "Fisica/Dinamica/moto relativo.md",
-    "Fisica/Dinamica/pendolo.md",
-    "Fisica/Dinamica/piano inclinato.md",
     "snapshot.jpg",
     "Cp.canvas",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
