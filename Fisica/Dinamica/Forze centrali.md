@@ -65,6 +65,9 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \node (E2) at (0,1.25){$\bullet$};
 \node (E1) at (0,-1){$\bullet$};
 \node (Epmin) at (0,-1.5){$\bullet$};
+\node[below left] at (O){$O$};
+\node[left] at (E2) {E_2};
+\node[left] at (E1) {E_1};
 \node at (2,-2){$E_p(r)$};
 \node at (2,1){$E_p^{(centr)}(r)$};
 
