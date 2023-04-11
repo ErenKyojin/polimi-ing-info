@@ -18,4 +18,7 @@ linguaggi riconosciuti dalle MT
 ## Enunciati importanti
 Dato un insieme $S$ con le seguenti caratteristiche:
 - Se $i \in S$ allora $f_{i}$ è totale
-- Se $f$ totale e calcolabile allora $\exists i$
+- Se $f$ totale e calcolabile allora $\exists i \in S | f_{i} - f$
+- S non è ricorsivamente enumerabile
+
+Questo significa: non esiste un formalismo in grado di definire tutte e sole le funzioni calcolabili totali.

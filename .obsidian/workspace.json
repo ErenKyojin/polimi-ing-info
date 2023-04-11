@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Ricorsivamente enumerabile.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -181,11 +181,11 @@
   },
   "active": "00e9f02710ea8a9b",
   "lastOpenFiles": [
+    "API/Ricorsivamente enumerabile.md",
     "API/Ricorsivo.md",
     "Day Planners/2023-04-11.md",
     "API/Teoria del calcolo.md",
     "Settings/Canvas",
-    "API/Ricorsivamente enumerabile.md",
     "API/Funzione caratteristica.md",
     "API/Teorema di rice.md",
     "API/stringa.md",
@@ -210,12 +210,12 @@
     "Fisica/Dinamica/Forze centrali.md",
     "Day Planners",
     "snapshot.jpg",
-    "Cp.canvas",
+    "Settings/Canvas/Cp.canvas",
     "Probabilità e statistica/Canvas/Probabilità totali.canvas",
     "Pasted image 20230330135642.png",
-    "Untitled 1.canvas",
-    "Stabilità retroazione.canvas",
-    "Untitled.canvas",
+    "Settings/Allegati/Untitled 1.canvas",
+    "Settings/Canvas/Stabilità retroazione.canvas",
+    "Settings/Canvas/Untitled.canvas",
     "Pasted Image 20230327111947_463.png",
     "Pasted Image 20230327111802_028.jpg"
   ]
