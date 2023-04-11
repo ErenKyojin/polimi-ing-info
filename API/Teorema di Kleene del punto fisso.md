@@ -21,6 +21,7 @@ modification date: 2023-04-11 12:36
 >>>$g$ è totale, esiste per ogni $u$, e calcolabile.
 >>
 >>Otteniamo quindi la funzione $f_{g(u)}(x) = \text{se} f_{u}(u) \neq \perp \implies f_{f_{u}(u)}(x)$ altrimenti $\perp$
-
+>>
+>>Sappiamo che $g$ è totale, inoltre se m
 
 
