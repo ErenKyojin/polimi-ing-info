@@ -34,4 +34,7 @@ Posso sempre prendere una funzione parziale e farla diventare totale, ma potrei 
 
 ---
 
-S è $RE$ se e so
+S è $RE$ se e solo se
+- $S$ $D_{h}$ con $h$ calcolabile e parziale $S\quad \{ x | h(x) \neq \perp \}$
+  *detto dominio di definizione o controimmagine di $h$* 
+- $\iff S$ $I_{g}$ con $h$
