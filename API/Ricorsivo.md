@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: Decidibile, decidibilità
 creation date: 2023-04-11 11:29
 modification date: 2023-04-11 11:29
 ---
@@ -10,5 +10,7 @@ Problema = Insieme $S \subseteq \mathbb{N} : x \in S$?
 
 Ricordando la [[Funzione caratteristica]] di un insieme
 
-Un insieme $S$ è ricorsivo o decidi
-
+> [!def]
+> Un insieme $S$ è ricorsivo o decidibile se e solo se la sua funzione caratteristica è calcolabile
+> 
+> 
