@@ -20,7 +20,7 @@
   "logPomodoroDuration": true,
   "logPomodoroTasks": true,
   "fancyStatusBar": false,
-  "whiteNoise": true,
+  "whiteNoise": false,
   "showActiveNoteInTimer": false,
   "allowExtendedPomodoro": false,
   "betterIndicator": false,
