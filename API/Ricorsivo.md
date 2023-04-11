@@ -34,4 +34,5 @@ Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 >>   definiamo la funzione
 >>   $$ g_{s}(x) = x \text{ se } c_{s}(x) = 1, \text{ altrimenti }g_{s}(x)=k $$
 >>   $g_{s}$ è totale per definizione, calcolabile e $I_{g_{S}} = S$
+>>   quindi $S$ è ricorsivamente enumerabile
 >>   
