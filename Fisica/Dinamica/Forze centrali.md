@@ -54,7 +54,7 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 ```tikz
 \usetikzlibrary{arrows.meta}
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[scale = 1.5]
 
 %Axis
 \draw[-{Stealth[scale = 1.25]}] (-.5,0) -- (5,0) node[below]{$r$};
@@ -69,7 +69,7 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 %graphs
 \draw[green,ultra thick, domain = .4:4.5, smooth, variable = \x] plot ({\x}, {1/\x});
 \draw[red, ultra thick, domain = .7:4.5, smooth, variable = \x] plot ({\x},{-2/(\x) - .5});
-\draw[blue, ultra thick] (.25,2.5) to[out = 270, in = 100] (.5,-1) to[out = 280, in = 190] (.8,-1.5) to[out = 0, in = 200] (1.75,-1.2) to[out = 10] (4.5,-.8);
+\draw[blue, ultra thick] (.25,2.5) to[out = 270, in = 100] (.5,-1) to[out = 280, in = 190] (.8,-1.5) to[out = 0, in = 200] (1.75,-1.2) to[out = 20, in = 180] (4.5,-.75);
 \end{tikzpicture}
 \end{document}
 ```
