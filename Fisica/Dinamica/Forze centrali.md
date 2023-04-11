@@ -41,4 +41,4 @@ $$ \vec{L}= m \vec{r} \times \vec{v} = m(\vec{r} \times v_{r}\hat{u}_{r} + \vec{
 ## Energia potenziale efficace in un campo di forze centrali
 Definiamo un'energia potenziale efficace del campo di forze centrale, come la somma dell'energia potenziale della forza del campo e dell'energia potenziale centrifuga:
 $$ E_{P}^{(eff)} \equiv E_{P} + E_{P}^{(\mathit{centr})} = E_{P}(r) + \frac{L^2}{2mr^2} $$
-Si può mostrare 
+Si può mostrare che l'energia potenziale efficace rappresenta l'energia potenziale totale del punto materiale in un sistema di riferimento (non inerziale) avente origine nel centro di forza e in moto rotatorio con il punto materiale stesso. In tale
