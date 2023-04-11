@@ -28,4 +28,4 @@ Questo significa che non esiste un formalismo in grado di definire tutte e sole 
 
 Possiamo fare adesso un altro tentativo per rimuovere le scomode funzioni non totali (algoritmi in loop)
 
-Estendiamo una funzione, ad esempio arricchendo $\mathbb{N}$ con il nuovo valore $\perp$
+Estendiamo una funzione, ad esempio arricchendo $\mathbb{N}$ con il nuovo valore $\perp$, oppure attribuendo a $f$ un valore convenzionale quando $f$ è indefinita. Matematicamente l'operazione è sensata, ma il trucco non funziona. Non esiste una funzione totale e calcolabile che sia un'estensione della funzione calcolabile ma non totale $g(x) = te$
