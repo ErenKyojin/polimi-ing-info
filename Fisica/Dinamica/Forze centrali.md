@@ -38,4 +38,6 @@ $$ \vec{L}= m \vec{r} \times \vec{v} = m(\vec{r} \times v_{r}\hat{u}_{r} + \vec{
 >Il suo effetto è lo stesso che avrebbe una forza repulsiva (centrifuga appunto)
 
 
-###
+## Energia potenziale efficace in un campo di forze centrali
+Definiamo un'energia potenziale efficace del campo di forze centrale, come la somma dell'energia potenziale della forza del campo e dell'energia potenziale centrifuga:
+$$ E_{P} $$
