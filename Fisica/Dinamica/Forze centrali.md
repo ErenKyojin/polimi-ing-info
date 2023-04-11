@@ -45,4 +45,9 @@ Si può mostrare che l'energia potenziale efficace rappresenta l'energia potenzi
 In un campo di forze centrali attrattivo, l'energia potenziale del campo è sempre negativa, (come per il campo gravitazionale). L'energia potenziale efficace, invece, può essere negativa, positiva o nulla a seconda che predomini il termine dovuto alla forza del campo o il termine centrifugo (che è sempre positivo), o infine i due termini si bilancino esattamente.
 Le condizioni iniziali del moto stabiliscono il valore del momento angolare, quindi l'andamento dell'energia potenziale efficace al variare della distanza $r$, e l'energia totale del punto materiale $P$, che si conserva durante il moto. Il tipo di traiettoria che si ottiene dipende da queste due condizioni.
 
-Consideriamo ora il caso di un campo di forze centrali attrattivo la cui energia potenziale dipenda dall'inverso della distanza dal centro di forza, come nel caso del campo gravitazionale percepito da una massa $m$ in presenza di una massa $M \gg m$ o, come nel caso 
+Consideriamo ora il caso di un campo di forze centrali attrattivo la cui energia potenziale dipenda dall'inverso della distanza dal centro di forza, come nel caso del campo gravitazionale percepito da una massa $m$ in presenza di una massa $M \gg m$, o come nel caso del campo elettrostatico percepito da una partecella carica leggera in presenza di una seconda particella di carica opposta molto piú pesante:
+$$
+E_{P}(r) = - \frac{k}{r}
+$$
+L'energia potenziale efficace sarà dunque
+$$ E_{P}^{eff}(r) = -k $$
