@@ -71,6 +71,7 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \node at (2,-2){$E_p(r)$};
 \node at (2,1){$E_p^{(centr)}(r)$};
 \node[left] at (Epmin) {$E^{(eff)}_{p,\min}$};
+\node[above] at (0.3,3) {$E_p^{}$}
 
 %graphs
 \draw[green,ultra thick, domain = .4:4.5, smooth, variable = \x] plot ({\x}, {1/\x});
@@ -84,6 +85,7 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \draw[<->] (E2.south) -- ++ (.3,0)node[midway,below]{$r_0$};
 \draw[<->] (O.south) -- ++ (.35,0)node[midway,below]{$r_z$};
 \draw[<->] (Epmin.south) -- ++ (.5,0) node[midway,below]{$r_{per}$};
+
 
 \end{tikzpicture}
 \end{document}
