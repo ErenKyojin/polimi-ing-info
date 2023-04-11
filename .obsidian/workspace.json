@@ -149,22 +149,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          }
-        ]
-      },
-      {
-        "id": "93c4ea74fa38e186",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "374b345d461f1bda",
+            "id": "652955cc135c1230",
             "type": "leaf",
             "state": {
-              "type": "timeline",
+              "type": "workbench-items",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -181,10 +176,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-flexible-pomo:Start Pomodoro": false
     }
   },
-  "active": "b276f1e55d5aea15",
+  "active": "652955cc135c1230",
   "lastOpenFiles": [
     "Settings/Canvas",
     "API/Ricorsivamente enumerabile.md",
