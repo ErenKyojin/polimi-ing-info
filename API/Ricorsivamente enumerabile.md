@@ -15,3 +15,7 @@ Spiegando in termini piú intuitivi anche l'attributo semidecidibile: se $x \in 
 
 linguaggi riconosciuti dalle MT
 
+## Enunciati importanti
+Dato un insieme $S$ con le seguenti caratteristiche:
+- Se $i \in S$ allora $f_{i}$ è totale
+- Se $f$ totale e calcolabile allora $\exists i$

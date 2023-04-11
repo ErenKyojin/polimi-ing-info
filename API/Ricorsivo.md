@@ -44,3 +44,5 @@ Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 >>     - $c_{\neg S}(x) (= 0 \text{ se }x \in S, c_{S}(x) = 1 \text{ se } x \notin S)$ calcolabile ->
 >>     - $\neg S$ ricorsivo $\to \neg S$ ricorsivamente enumerabile
 >>   Viceversa:
+
+
