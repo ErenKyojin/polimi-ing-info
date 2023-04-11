@@ -57,7 +57,9 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \begin{tikzpicture}
 \draw[-{Stealth[scale = 1.25]}] (-.5,0) -- (5,0);
 \draw[-{Stealth[scale = 1.25]}] (0,-3) -- (0,3);
-\node
+\node (E2) at (0,1.25){$\bullet$};
+\node (E1) at (0,-1){$\bullet$};
+\node (E)
 \end{tikzpicture}
 \end{document}
 ```
