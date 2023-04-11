@@ -81,7 +81,8 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \draw (Epmin.center) -- ++ (.75,0) node{$\bullet$} -- ++ (0,1.5) node[below right]{$r_{\min}$};
 \draw (E2.center) -- ++ (.25,0) node{$\bullet$};
 \draw[<->] (E2.south) -- ++ (.3,0)node[midway,below]{$r_0$};
-\draw[<->] (O.so
+\draw[<->] (O.south) -- ++ (.35,0)node[midway,below]{$r_z$};
+\draw[<->] (Epmin) -- ++ (1,0);
 
 \end{tikzpicture}
 \end{document}
