@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,7 +184,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "00e9f02710ea8a9b",
+  "active": "b276f1e55d5aea15",
   "lastOpenFiles": [
     "API/Funzione caratteristica.md",
     "API/decidibilità.md",
