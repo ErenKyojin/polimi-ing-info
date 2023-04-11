@@ -37,4 +37,8 @@ Posso sempre prendere una funzione parziale e farla diventare totale, ma potrei 
 S è $RE$ se e solo se
 - $S$ $D_{h}$ con $h$ calcolabile e parziale $S\quad \{ x | h(x) \neq \perp \}$
   *detto dominio di definizione o controimmagine di $h$* 
-- $\iff S$ $I_{g}$ con $h$
+- $\iff S$ $I_{g}$ con $g$ calcolabile e parziale $S = \{ g(y) | y \in \mathbb{N} \}$
+  *detto in altro modo: $S$ è RE se la sua funzione semi caratteristia è calcaolabile*
+
+
+Da qui il legame con i linguaggi riconosciuti dalle macchine di turing
