@@ -43,6 +43,21 @@ Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 >>     - $c_{s}(x) (=1 \text{ se 1 }x \in S, c_{s}(x) =0 \text{ se } x \notin S)$ calcolabile ->
 >>     - $c_{\neg S}(x) (= 0 \text{ se }x \in S, c_{S}(x) = 1 \text{ se } x \notin S)$ calcolabile ->
 >>     - $\neg S$ ricorsivo $\to \neg S$ ricorsivamente enumerabile
+>>   
 >>   Viceversa:
-
-
+>>   
+>>
+>>
+> >Siano $S$ ed il suo complemento ricorsivamente enumerabili
+> >
+> > 
+> > - $S$ RE -> $S = \{ g_{S}(0), g_{S}(1), g_{S}(2),\dots \}$
+> > - $\neg S$ RE -> $\neg S = \{ g_{\neg S}(0), g_{\neg S}(1), g_{\neg S}(2),\dots \}$
+> > 
+> > Inoltre $S \cup \neg S = \mathbb{N}, S \cap \neg S = \varnothing$
+> > 
+> > Quindi $\forall x \in \mathbb{N}$, $x$ appartiene ad una e una sola delle due enumerazioni
+> > 
+> > Se costruisco l'enumerazione
+> > $\{ g_{S}(0), g_{\neg S}(0), g_{S}(1), g_{\neg S}(1), g_{S}(2),\dots \}$
+> > Sono sicuro di trovarvi qualsiasi $x$: a quel punto se trovo $x$ in un posto dispari concludo $x \in S$, se lo trovo in un posto pari $x \in \neg S$, so quindi calcolare $c_{S}(CVD)$

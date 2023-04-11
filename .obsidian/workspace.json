@@ -44,7 +44,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +74,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Teoria del calcolo.md",
+                "file": "API/Ricorsivamente enumerabile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Teoria del calcolo.md",
+                "file": "API/Ricorsivamente enumerabile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Teoria del calcolo.md"
+                "file": "API/Ricorsivamente enumerabile.md"
               }
             }
           },
@@ -191,12 +192,12 @@
       "obsidian-flexible-pomo:Start Pomodoro": false
     }
   },
-  "active": "c4bc65890bd0bc23",
+  "active": "00e9f02710ea8a9b",
   "lastOpenFiles": [
-    "API/Ricorsivamente enumerabile.md",
     "API/Ricorsivo.md",
-    "Untitled.md",
+    "API/Ricorsivamente enumerabile.md",
     "API/Teoria del calcolo.md",
+    "Untitled.md",
     "Day Planners/2023-04-11.md",
     "Settings/Canvas",
     "API/Funzione caratteristica.md",
