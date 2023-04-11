@@ -65,7 +65,8 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \node (E2) at (0,1.25){$\bullet$};
 \node (E1) at (0,-1){$\bullet$};
 \node (Epmin) at (0,-1.5){$\bullet$};
-\node ()
+\node at (2,-2){$E_p(r)$};
+\node at (2,1){$E_p^{centr}(r)$};
 
 %graphs
 \draw[green,ultra thick, domain = .4:4.5, smooth, variable = \x] plot ({\x}, {1/\x});
