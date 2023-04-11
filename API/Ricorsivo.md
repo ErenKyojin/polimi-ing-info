@@ -40,5 +40,6 @@ Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 >>2. $S$ ricorsive $\iff S$ e $\neg S$ sono ricorsivamente enumerabili
 >>   - $S$ ricorsivo implica $S$ ricorsivamente enumerabile *(dimostrato nel punto 1)*
 >>   - $S$ ricorsivo $\to$
->>     $c_{s}(x) (=1 \text{ se 1 1})$
+>>     $c_{s}(x) (=1 \text{ se 1 }x \in S, c_{s}(x) =0 \text{ se } x \in S)$ calcolabile ->
+>>     $c_{\neg S}(x) (= 0 \text{ se }x \in S, c_{S}(x) = 1 \text{ se }$
 >>
