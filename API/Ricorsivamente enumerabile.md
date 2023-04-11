@@ -45,6 +45,7 @@ Da qui il legame con i linguaggi riconosciuti dalle macchine di turing
 
 ---
 ```tikz
+\usepackage{amsfonts}
 \begin{document}
 \begin{tikzpicture}
 \draw (0,0) circle (2 and 1);
@@ -52,6 +53,7 @@ Da qui il legame con i linguaggi riconosciuti dalle macchine di turing
 \draw (-3,0) circle (6 and 3);
 \node at (0,0){R};
 \node at (-3,0){RE};
+\node at (-6,0){$\mathcal{P}(\mathbb{N})$};
 \end{tikzpicture}
 \end{document}
 ```
