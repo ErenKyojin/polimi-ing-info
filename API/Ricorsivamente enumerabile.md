@@ -1,0 +1,37 @@
+---
+aliases: semidecidibile, insiemi RE
+creation date: 2023-04-06 09:44
+modification date: 2023-04-06 09:44
+---
+
+>[!def]
+>un insieme $S$ è **ricorsivamente enumerabile** se e solo se:
+>- $S$ è l'insieme vuoto
+>- $S$ è l'insieme immagine di una funzione totale e calcolabile:
+>	- $S = I_{g_{S}(y)}=\{I_{g_{S}(y)} | y \in N\}$ cioè $S = \{ g_{S}(0), g_{S}(1),\dots, \}$ da qui il termine ricorsivamente enumerabile
+
+
+Spiegando in termini piú intuitivi anche l'attributo semidecidibile: se $x \in S$, enumerando gli elementi di $S$ prima o poi trovo $x$ e sono in grado di ottenere una risposta positiva alla domanda, ma se $x \not\in S$?
+
+linguaggi riconosciuti dalle MT
+
+## Enunciati importanti
+Dato un insieme $S$ con le seguenti caratteristiche:
+- Se $i \in S$ allora $f_{i}$ è totale (funzione calcolata dalla i-esima macchina di turing)
+- Se $f$ totale e calcolabile allora $\exists i \in S | f_{i} - f$
+
+$S$ non è ricorsivamente enumerabile.
+
+Questo significa che non esiste un formalismo in grado di definire tutte e sole le funzioni calcolabili totali.
+
+Siano $S$ ed il suo complemento ricorsivamente enumerabili
+- $S$ RE -> $S = \{ g_{S}(0), g_{S}(1), g_{S}(2),\dots \}$
+- $\neg S$ RE -> $\neg S = \{ g_{\neg S}(0), g_{\neg S}(1), g_{\neg S}(2),\dots \}$
+
+Inoltre $S \cup \neg S = \mathbb{N}, S \cap \neg S = \varnothing$
+
+Quindi $\forall x \in \mathbb{N}$, $x$ appartiene ad una e una sola delle due enumerazioni
+
+Se costruisco l'enumerazione
+$\{ g_{S}(0), g_{\neg S}(0), g_{S}(1), g_{\neg S}(1), g_{S}(2),\dots \}$
+	Sono sicuro di trovarvi qualsiasi $x$: a quel punto se trovo m
