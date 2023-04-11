@@ -34,4 +34,4 @@ Quindi $\forall x \in \mathbb{N}$, $x$ appartiene ad una e una sola delle due en
 
 Se costruisco l'enumerazione
 $\{ g_{S}(0), g_{\neg S}(0), g_{S}(1), g_{\neg S}(1), g_{S}(2),\dots \}$
-	Sono sicuro di trovarvi qualsiasi $x$: a quel punto se trovo m
+Sono sicuro di trovarvi qualsiasi $x$: a quel punto se trovo $x$ in un posto dispari concludo $x \in S$, se lo trovo in un posto pari $x \in \neg S$, so quindi calcolare $c_{S}(CVD)$
