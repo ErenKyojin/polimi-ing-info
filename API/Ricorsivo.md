@@ -17,3 +17,9 @@ Dato l'insieme dei numeri naturali, è un insieme ricorsivo?
 Si! È calcolabile attraverso un programma / una macchina di turing che scrive sempre 1 a prescindere dall'input. 
 
 Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
+
+>[!teorema]
+>Se $S$ è ricorsivo è anche [[Ricorsivamente enumerabile]]
+>$S$ è ricorsivo se e solo se $S$ stesso ed il suo complemento $\neg S = N - S$ sono ricorsivamente enumerabili.
+>
+>Quindi due semidecidibilità fanno una decidibilità, qua
