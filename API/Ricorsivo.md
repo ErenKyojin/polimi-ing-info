@@ -38,5 +38,7 @@ Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 >>   *(Dimostrazione non costruttiva, non sappiamo se $S \neq \varnothing$, ne sappiamo calcolare $g_{s}$, tuttavia ci basta sapere che esiste $g_{s}$ se $S \neq \varnothing$)*
 >>
 >>2. $S$ ricorsive $\iff S$ e $\neg S$ sono ricorsivamente enumerabili
->>   - $S$
+>>   - $S$ ricorsivo implica $S$ ricorsivamente enumerabile *(dimostrato nel punto 1)*
+>>   - $S$ ricorsivo $\to$
+>>     $c_{s}(x) (=1 \text{ se 1 1})$
 >>
