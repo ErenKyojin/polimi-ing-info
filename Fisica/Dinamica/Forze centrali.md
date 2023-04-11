@@ -90,4 +90,5 @@ $$ E_{P}^{eff}(r) = -\frac{k}{r} + \frac{L^2}{2mr^2} $$
 \end{tikzpicture}
 \end{document}
 ```
-Osserviamo che l'energia potenziale efficace sarà positiva per valori bassi di $r$, poic
+Osserviamo che l'energia potenziale efficace sarà positiva per valori bassi di $r$, poichè in questo caso predonima il contributo centrifugo, inversamente proporzionale al quadrato di $r$, e negativa per valori alti di $r$, dove predonima il contributo attrattivo, inversamente proporzionale a $r$ (per $r \to \infty$ tenderà a zero, poichè entrambi i contributi tendono ad annullarsi).
+Il valore limite che separa la zona 
