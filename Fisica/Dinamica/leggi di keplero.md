@@ -27,7 +27,7 @@ $$ \frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\theta}{dt} = \frac{1}{2} \frac{L}{m} =
 \draw (0,0) circle (4 and 2);
 \node[scale = 3,color = yellow] (F) at (-2,0){$\bullet$};
 \node[above = 2mm] at (F){$S$};
-\draw[] (F.center) -- ++ (-1.22,1.22) arc (160:200:4 and 2); 
+\draw[] (F.center) -- ++ (-1.22,1.22) arc (147:203:4 and 2); 
 \end{tikzpicture}
 \end{document}
 ```
