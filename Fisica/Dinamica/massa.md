@@ -49,4 +49,4 @@ La massa è una grandezza estensiva e non locale, riguarda tutto il corpo e non 
 Se due corpi di massa $m_{1}$ e $m_{2}$ vengono uniti a formarne uno solo, la massa $m_{3}$ del corpo risultante è la somma delle singole masse $m_{3} = m_{1} + m_{2}$
 
 
-# Massa inerziale e massa gravitazionale
+# massa gravitazionale
