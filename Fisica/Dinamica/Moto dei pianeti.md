@@ -14,4 +14,6 @@ Osserviamo che:
    Si noti che dovendo essere $E_{1} \geq E_{p,\min}^{\text{(eff)}} = -(G^2M^2m^3 )/(2L^2)$ risulta $(G^2M^2m^2) / (E|E_{1}|) \geq L^2 / m$.
    L'argomento della radice nelle precedenti formule è positivo e quindi entrambe lo soluzioni sono accettabili.
 4. Se in particolare, lenergia totale negativa coincide con l'energia potenziale efficace minima, la traiettoria è una circonferenza, ed infatti le distanze corrispondenti al perielio e all'afelio vanno a coincidere perchè la radice si annulla, ed entrambe valgono proprio $r_{\min}$
-5. Se l'energia totale è positiva $(E = E_{2} > 0)$, il punto materiale $P$ è libero di sfuggire alle forze del campo, e la traiettoria è un'iperbole; il massimo avvicinamento consentito al centro delle forze si determina imponendo vel
+5. Se l'energia totale è positiva $(E = E_{2} > 0)$, il punto materiale $P$ è libero di sfuggire alle forze del campo, e la traiettoria è un'iperbole; il massimo avvicinamento consentito al centro delle forze si determina imponendo velocità radiale nulle e quindi uguaglianza fra l'energia potenziale e l'energia totale. Si ottiene il valore
+   $$ r_{0} = \sqrt{ \left( \frac{GMm}{2E_{2}} \right)^2 + \frac{L^2}{2mE_{2}} } - \frac{Gmm}{2E_{2}}\quad \text{ con }E_{2} > 0 $$
+   (l)
