@@ -51,4 +51,4 @@ Se due corpi di massa $m_{1}$ e $m_{2}$ vengono uniti a formarne uno solo, la ma
 
 # massa gravitazionale
 Come conseguenza della legge di gravitazione universale abbiamo che ogni corpo possiede la capacità di attrarre i corpi circostanti con un'intensità direttamente proporzionale alla propria massa.
-In base alla legge di gravitazione, dunque, si può 
+In base alla legge di gravitazione, dunque, si può dare 
