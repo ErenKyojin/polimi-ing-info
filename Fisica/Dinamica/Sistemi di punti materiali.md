@@ -53,3 +53,5 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 >>Più in generale, se si annulla la componente della risultante delle forze esterne lungo un dato asse, allora si conserva la componente della quantità di moto totale lungo quell'asse e viceversa:
 >> $$ F_{z}^{(E)} = 0 \implies p_{z} = \cost $$
 
+>[!oss]
+>Notiamo infine che, in base al teorema dell'impulso, la quan
