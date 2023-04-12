@@ -25,7 +25,8 @@ $$ \frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\theta}{dt} = \frac{1}{2} \frac{L}{m} =
 \begin{document}
 \begin{tikzpicture}
 \draw (0,0) circle (4 and 2);
-\node[scale = 3,color = yellow] at (-2,0){$\bullet$};
+\node[scale = 3,color = yellow] (F) at (-2,0){$\bullet$};
+\node[above = 2mm] at (F){$S$};
 \end{tikzpicture}
 \end{document}
 ```
