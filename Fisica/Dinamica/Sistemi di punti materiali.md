@@ -29,6 +29,7 @@ Dove con $\vec{F}_{i,j}$ abbiamo indicato la forza (interna) esercitata sull'$i$
 
 ## Quantità di moto, prima equazione cardinale della dinamica dei sistemi e teorema dell'[[impulso]]
 
-[[Quantità di moto#Quantità di moto in un sistema di punti materiali]]
+![[Quantità di moto#Quantità di moto in un sistema di punti materiali]]
 
-osserviamo che in base
+osserviamo che in base alla seconda legge della dinamica di Newton, il moto di ciascun punto obbedisce all'equazione
+$$ \vec{F}_{i} = \vec{F}_{i}^{(I)} + \vec{F}_{i}^{E} = m_{i}\vec{a}_{i} = \frac{d\vec{p}_{i}}{dt} \qquad \forall i  $$
