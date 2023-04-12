@@ -95,18 +95,20 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di 
 >Per un sistema isolato si conservano sia la [[quantità di moto]] sia il [[momento]] angolare
 
 >[!def] Seconda euqazione cardinale rispetto ad un polo mobile
->Consideriamo ora un polo $\text{O}$ che si muove con velocità $\vec{v}_{\text{O}}$ in un sistema di riferimento inerziale.
+>Consideriamo ora un polo $\text{O}$ che si muove con velocità $\vec{v}_{\text{O}}$ in un [[sistema di riferimento inerziale]].
 >Il momento angolare di $P$ rispetto a $\text{O}$ vale:
 >$$ \vec{L}_{\text{O}} = \vec{r} \times \vec{p}\quad \vec{r} = \vec{r}_{P} - \vec{r}_{O} \implies \vec{v} = \frac{d\vec{r}}{dt} = \frac{d\vec{r}_{P}}{dt} - \frac{d\vec{r}_{O}}{dt} = \vec{v}_{P} - \vec{v}_{O}   $$
 >$$ \frac{d\vec{L}_{\text{O}}}{dt} = \frac{d\vec{r}}{dt} \times \vec{p} + \vec{r} \times \vec{F} = (\vec{v}_{P} - \vec{v}_{\text{O}}) \times \vec{p} + \vec{\tau} = -\vec{v}_{\text{O}} \times \vec{p} + \vec{\tau}  $$
 >Essendo $\vec{v}_{P} \parallel \vec{p} \implies \vec{v}_{p} \times \vec{p} = 0$.
->In conclusione, la seconda equazione cardinale della dinamica rispetto ad un polo mobile con velocità $\vec{v}_{\text{O}}$ diventa, per un singolo punto materiale:
+>In conclusione, la [[seconda equazione cardinale della dinamica]] rispetto ad un polo mobile con velocità $\vec{v}_{\text{O}}$ diventa, per un singolo punto materiale:
 >$$ \fbox{$\frac{d\vec{L}_{O}}{dt} + \vec{v}_{\text{O}} \times \vec{p} = \vec{\tau}$} $$
->Per un sistema di punti materiali tale equazione varrà per ciascun punto del sistema. Sommando su tutti i punti, otteniamo banalmente
+>Per un [[Sistemi di punti materiali|sistema di punti materiali]] tale equazione varrà per ciascun punto del sistema. Sommando su tutti i punti, otteniamo banalmente
 >$$ \fbox{$\frac{d\vec{L}_{\text{O}}}{dt} + \vec{v}_{\text{O}} \times \vec{p} = \vec{\tau}^{(E)}$} $$
 >con ovvio significato dei simboli utilizzati per le grandezze totali del sistema
 
 
 >[!oss]
->Se il polo mobile coincide 
+>Se il polo mobile coincide con il centro di massa del sistema di punti materiali $(O = CM)$
+>$$ \vec{v}_{CM} \times \vec{p} = \vec{v}_{CM} \times M \vec{v}_{CM} = 0 \implies \frac{d\vec{L}_{CM}}{dt} = \vec{\tau}_{CM}^{(E)}  $$
+>Il centro di massa è un polo mobile ma gode di proprietà particolari
 
