@@ -99,4 +99,8 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di 
 >Il momento angolare di $P$ rispetto a $\text{O}$ vale:
 >$$ \vec{L}_{\text{O}} = \vec{r} \times \vec{p}\quad \vec{r} = \vec{r}_{P} - \vec{r}_{O} \implies \vec{v} = \frac{d\vec{r}}{dt} = \frac{d\vec{r}_{P}}{dt} - \frac{d\vec{r}_{O}}{dt} = \vec{v}_{P} - \vec{v}_{O}   $$
 >$$ \frac{d\vec{L}_{\text{O}}}{dt} = \frac{d\vec{r}}{dt} \times \vec{p} + \vec{r} \times \vec{F} = (\vec{v}_{P} - \vec{v}_{\text{O}}) \times \vec{p} + \vec{\tau} = -\vec{v}_{\text{O}} \times \vec{p} + \vec{\tau}  $$
->Essendo $\vec{v}_{P} \parallel \vec{p} \implies \vec{v}_{p} \times \vec{p} = 0$
+>Essendo $\vec{v}_{P} \parallel \vec{p} \implies \vec{v}_{p} \times \vec{p} = 0$.
+>In conclusione, la seconda equazione cardinale della dinamica rispetto ad un polo mobile con velocità $\vec{v}_{\text{O}}$ diventa, per un singolo punto materiale:
+>$$ \fbox{$\frac{d\vec{L}_{O}}{dt} + \vec{v}_{\text{O}} \times \vec{p} = \vec{\tau}$} $$
+>Per un sistema di punti materiali tale euqaz
+
