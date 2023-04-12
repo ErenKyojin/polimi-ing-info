@@ -50,5 +50,5 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 > $$ \fbox{$\vec{F}^{(E)} = 0 \implies \vec{p} = \cost$} $$
 >
 >>[!corollario]
->>Più in generale 
+>>Più in generale, se si annulla la componente 
 
