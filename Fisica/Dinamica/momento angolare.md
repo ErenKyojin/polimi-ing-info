@@ -82,4 +82,5 @@ $$\begin{align}
 &= \sum_{i = 1}^{n-1}\sum_{j = i + 1}^n (\vec{r}_{i} \times \vec{F}_{ij} - \vec{r}_{j} \times \vec{F}_{ij}) = \\
 &= \sum_{i = 1}^{n-1} \sum_{j = i + 1}^{n} [(\vec{r}_{i} - \vec{r}_{j}) \times \vec{F}_{ij}] = 0
 \end{align}$$
-in quanto il vettore $\vec{r}_{i} - \vec{r}_{j}$ ed il vettore $\vec{F}_{ij}$ sono tra loro paralleli
+in quanto il vettore $\vec{r}_{i} - \vec{r}_{j}$ ed il vettore $\vec{F}_{ij}$ sono tra loro paralleli.
+Le forze interne, infatti in base al terzo principio di Newton, sono a due a due uguali in modulo e direzione e contrarie in verso, ed hanno anche la stessa retta d'azione
