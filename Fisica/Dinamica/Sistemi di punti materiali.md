@@ -20,4 +20,5 @@ $$ \vec{F}_{i}^{(I)} = \underset{ j \neq i }{ \sum_{j=1}^n } \vec{F}_{ij} $$
 Dove con $\vec{F}_{i,j}$ abbiamo indicato la forza (interna) esercitata sull'$i$-esimo punto dal $j$-esimo punto.
 
 >[!proposizione]
->Per la terza legge della dinamica di Nw
+>Per la terza legge della dinamica di Newton avremo che $\vec{F}_{ji} = -\vec{F}_{ij}$ e quindi la risultante di tutte le forze interne è nulla:
+> $$ \vec{F}^{(I)} \equiv \sum_{i = 1}^n \vec{F}_{i}^{(I)} = \sum_{i = 1}^n \underset{  }{ \sum_{j = 1} } $$
