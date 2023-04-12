@@ -131,7 +131,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -220,7 +221,7 @@
       "obsidian-flexible-pomo:Start Pomodoro": false
     }
   },
-  "active": "e8ab5caa68a9fa0d",
+  "active": "540b351f17ef6673",
   "lastOpenFiles": [
     "Fisica/Dinamica/Sistemi di punti materiali.md",
     "Fisica/Dinamica/forze esterne.md",

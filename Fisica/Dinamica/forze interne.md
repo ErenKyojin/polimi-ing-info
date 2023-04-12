@@ -3,8 +3,8 @@ aliases:
 creation date: 2023-04-12 15:05
 modification date: 2023-04-12 15:05
 ---
-in un sistema di punti materiali
 >[!def]
+>in un [[Sistemi di punti materiali|sistema di punti materiali]] si definisco forze interne le forze che agiscono
 
 
 
