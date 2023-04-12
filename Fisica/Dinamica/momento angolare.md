@@ -81,7 +81,7 @@ Per ciascun punto materiale del sistema vale la seconda equazione cardinale vist
 $$ \frac{d\vec{L}_{i}}{dt} = \vec{\tau}_{i}  $$
 Sommando sull'indice $i$ tale equazione otteniamo:
 $$ \sum_{i=1}^n \frac{d\vec{L}_{i}}{dt} = \frac{d\vec{L}}{dt} = \sum_{i = 1}^n \vec{\tau}_{i} = \vec{\tau}   $$
-Tenendo conto, inoltre, che il momento risultante delle forze agenti sul sitema è pari al momento risultante delle sole forze esterne risulta
+Tenendo conto, inoltre, che il momento risultante delle forze agenti sul sitema è pari al [[momento]] risultante delle sole [[forze esterne]] risulta
 $$ \fbox{$\frac{d\vec{L}}{dt} = \vec{\tau}^{(E)}$} $$
 Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di punti materiali]] ed afferma che:
 
@@ -110,5 +110,5 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di 
 >[!oss]
 >Se il polo mobile coincide con il centro di massa del sistema di punti materiali $(O = CM)$
 >$$ \vec{v}_{CM} \times \vec{p} = \vec{v}_{CM} \times M \vec{v}_{CM} = 0 \implies \frac{d\vec{L}_{CM}}{dt} = \vec{\tau}_{CM}^{(E)}  $$
->Il centro di massa è un polo mobile ma gode di proprietà particolari
+>Il [[centro di massa]] è un polo mobile ma gode di proprietà particolari
 
