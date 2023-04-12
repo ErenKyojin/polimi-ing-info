@@ -86,4 +86,8 @@ $$ \fbox{$\frac{d\vec{L}}{dt} = \vec{\tau}^{(E)}$} $$
 Tale equazione prende il nome di seconda equazione cardinale per i sistemi di punti materiali ed afferma che:
 
 >[!quote] .
->La derivata temporale del momento della quantità di moto di un sistema di punti rispetto ad un dato polo fisso è uguale al momento risu
+>La derivata temporale del momento della quantità di moto di un sistema di punti rispetto ad un dato polo fisso è uguale al momento risultante, rispetto allo stesso polo, delle forze esterne applicate al sistema
+
+
+>[!oss]
+>Un sistema è isolato se si annullano
