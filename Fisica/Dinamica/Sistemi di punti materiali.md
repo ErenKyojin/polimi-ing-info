@@ -38,4 +38,8 @@ $$ \vec{F}^{(E)} = \sum_{i = 1}^n \vec{F}_i = \sum_{i = 1}^n \frac{d\vec{p}_{i}}
 Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei sistemi**
 
 >[!teorema]
->In un sistema di riferimento inerziale, la risultante delle forze e
+>In un sistema di riferimento inerziale, la risultante delle forze esterne applicate ad un sistema di punti materiali è pari alla derivata temporale della quantità di moto totale del sistema
+> $$ \fbox{$\vec{F}^{(E)} = \frac{d\vec{p}}{dt}$} $$
+
+
+![[teorema dell'impulso]]

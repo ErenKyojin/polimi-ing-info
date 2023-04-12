@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
+                "file": "Fisica/Dinamica/teorema dell'impulso.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
+                "file": "Fisica/Dinamica/teorema dell'impulso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
+                "file": "Fisica/Dinamica/teorema dell'impulso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md"
+                "file": "Fisica/Dinamica/teorema dell'impulso.md"
               }
             }
           },
@@ -222,8 +222,9 @@
   },
   "active": "e8ab5caa68a9fa0d",
   "lastOpenFiles": [
-    "Fisica/Dinamica/Quantità di moto.md",
     "Fisica/Dinamica/Sistemi di punti materiali.md",
+    "Fisica/Dinamica/teorema dell'impulso.md",
+    "Fisica/Dinamica/Quantità di moto.md",
     "Fisica/Dinamica/Orbita geostazionaria.md",
     "Fisica/Dinamica/leggi di keplero.md",
     "Fisica/Dinamica/Velocità di fuga.md",
@@ -248,7 +249,6 @@
     "API/Stato.md",
     "API/sequenza di mosse.md",
     "API/semantica.md",
-    "API/push.md",
     "Day Planners",
     "snapshot.jpg",
     "Settings/Canvas/Cp.canvas",
