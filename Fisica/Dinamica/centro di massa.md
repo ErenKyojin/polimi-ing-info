@@ -16,4 +16,7 @@ $$ \vec{v}_{CM} \equiv \frac{d\vec{r}_{CM}}{dt} = \frac{\sum_{i = 1}^n m_{i}\vec
 >[!oss]
 >La [[quantità di moto]] totale è pari al prodotto della massa totale per la velocità del centro di massa.
 >Derivando ancora rispetto al tempo e tenendo conto della prima equazione cardinale si ottiene:
-> $$ \vec{F}^{(E)} = dd $$
+> $$ \vec{F}^{(E)} = \frac{d\vec{p}}{dt} = M \cdot \vec{a}_{CM}  $$
+
+Possiamo quindi enunciare il seguente
+>[!teorema] Teorema del centro di massa
