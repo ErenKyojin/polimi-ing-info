@@ -80,5 +80,5 @@ Sommando sull'indice $i$ i momenti risultanti delle forze interne otteniamo:
 $$\begin{align}
  \vec{\tau}^{(I)} &= \sum_{i = 1}^n \vec{\tau}_{i}^{(I)} = \sum_{i = 1}^n \vec{r} \times \vec{F}_{i}^{(I)} = \sum_{i = 1}^n \underset{ j \neq i }{ \sum_{j = 1}^n } \vec{r}_{i} \times \vec{F}_{ij} = \\
 &= \sum_{i = 1}^{n-1}\sum_{j = i + 1}^n (\vec{r}_{i} \times \vec{F}_{ij} - \vec{r}_{j} \times \vec{F}_{ij}) = \\
-&=
+&= \sum_{i = 1}^{n-1} \sum_{j = i + 1}^{n} [(\vec{r}_{i} - \vec{r}_{j}) \times \vec{F}_{ij}]
 \end{align}$$
