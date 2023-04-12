@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/forza gravitazionale.md",
+                "file": "Fisica/Dinamica/Moto dei pianeti.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/forza gravitazionale.md",
+                "file": "Fisica/Dinamica/Moto dei pianeti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/forza gravitazionale.md",
+                "file": "Fisica/Dinamica/Moto dei pianeti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/forza gravitazionale.md"
+                "file": "Fisica/Dinamica/Moto dei pianeti.md"
               }
             }
           },
@@ -183,9 +183,9 @@
   },
   "active": "c4bc65890bd0bc23",
   "lastOpenFiles": [
-    "Fisica/Dinamica/Moto dei pianeti.md",
-    "Fisica/Dinamica/forza gravitazionale.md",
     "Fisica/Dinamica/Energia potenziale.md",
+    "Fisica/Dinamica/forza gravitazionale.md",
+    "Fisica/Dinamica/Moto dei pianeti.md",
     "Fisica/Dinamica/legge di gravitazione universale.md",
     "Fisica/Dinamica/massa.md",
     "API/Teoria del calcolo.md",

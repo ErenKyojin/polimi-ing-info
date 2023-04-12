@@ -18,3 +18,5 @@ La forza gravitazionale generata da una massa puntiforme $M$ è una forza centra
 $$ E_{p}(r) = E_{p}(r) - E_{p}(\infty) = \mathcal{L}_{r\to \infty} = \int _{r}^{\infty} \!-G \frac{Mm}{r^2}\hat{u}_{r} \cdot \, \mathrm{d}\vec{r} =\int _{r}^\infty \!-G \frac{Mm}{r^2} \, \mathrm{d}r = -G \frac{Mm}{r}  $$
 In base alla scelta fatta per il riferimento, l'energia optenziale gravitazionale risulta sempre negativa: infatti la forza è attrattiva, quindi compie lavoro positivo per avvicinare le due masse e lavoro negativo per allontanarle.
 
+Questo concetto è utile per il [[Moto dei pianeti]]
+
