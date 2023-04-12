@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Moto dei pianeti.md",
+                "file": "Fisica/Dinamica/leggi di keplero.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Moto dei pianeti.md",
+                "file": "Fisica/Dinamica/leggi di keplero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Moto dei pianeti.md",
+                "file": "Fisica/Dinamica/leggi di keplero.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Moto dei pianeti.md"
+                "file": "Fisica/Dinamica/leggi di keplero.md"
               }
             }
           },
@@ -183,9 +183,10 @@
   },
   "active": "c4bc65890bd0bc23",
   "lastOpenFiles": [
+    "Fisica/Dinamica/Moto dei pianeti.md",
+    "Fisica/Dinamica/leggi di keplero.md",
     "Fisica/Dinamica/Energia potenziale.md",
     "Fisica/Dinamica/forza gravitazionale.md",
-    "Fisica/Dinamica/Moto dei pianeti.md",
     "Fisica/Dinamica/legge di gravitazione universale.md",
     "Fisica/Dinamica/massa.md",
     "API/Teoria del calcolo.md",
@@ -209,7 +210,6 @@
     "API/Logica.md",
     "API/Linguaggio.md",
     "API/La riduzione dei problemi.md",
-    "API/Intersezione.md",
     "Day Planners",
     "snapshot.jpg",
     "Settings/Canvas/Cp.canvas",

@@ -19,4 +19,4 @@ Osserviamo che:
    (l'altra soluzione va scartata in quanto negativa).
 6. Se infine l'energia totale della particella è nulla, avremo chee ssa possiede l'energia minima necessaria per sfuggire al campo, e la sua traiettoria risulta parabolica. Il punto di massimo avvicinamento è a distanza $r_{z}$, ove l'energia potenziale efficace si annulla, e quindi coincide con l'energia totale
 
-Lo studio dei moti dei pianeti in un sistema eliocentrico[[leggi di keplero]]
+Lo studio dei moti dei pianeti in un sistema eliocentrico ebbe la sua prima formulazione accurata con le [[leggi di keplero]]
