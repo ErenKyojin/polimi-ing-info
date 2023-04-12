@@ -26,54 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Untitled.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00e9f02710ea8a9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API/Ricorsivamente enumerabile.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6ba1e062d56bbc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/Dinamica/Forze centrali.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85163319339429cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API/Ricorsivo.md",
+                "file": "Fisica/Dinamica/Moto dei pianeti.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +62,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Untitled.md",
+                "file": "Fisica/Dinamica/forza gravitazionale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Untitled.md",
+                "file": "Fisica/Dinamica/forza gravitazionale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Untitled.md"
+                "file": "Fisica/Dinamica/forza gravitazionale.md"
               }
             }
           },
@@ -221,10 +181,10 @@
       "obsidian-flexible-pomo:Start Pomodoro": false
     }
   },
-  "active": "3376126b21196b40",
+  "active": "c4bc65890bd0bc23",
   "lastOpenFiles": [
+    "Fisica/Dinamica/Moto dei pianeti.md",
     "Fisica/Dinamica/forza gravitazionale.md",
-    "Fisica/Dinamica/Untitled.md",
     "Fisica/Dinamica/Energia potenziale.md",
     "Fisica/Dinamica/legge di gravitazione universale.md",
     "Fisica/Dinamica/massa.md",
