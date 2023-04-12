@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Forze centrali.md",
+                "file": "API/Teoria del calcolo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Forze centrali.md",
+                "file": "API/Teoria del calcolo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Forze centrali.md"
+                "file": "API/Teoria del calcolo.md"
               }
             }
           },
