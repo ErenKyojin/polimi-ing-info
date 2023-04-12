@@ -28,4 +28,7 @@ Dove con $\vec{F}_{i,j}$ abbiamo indicato la forza (interna) esercitata sull'$i$
 >$$ \vec{F} \equiv \sum_{i = 1}^n \vec{F}_{i} = \sum_{i = 1}^n \vec{F}_{i}^{(I)} + \sum_{i=1}^n \vec{F}_{i}^{(E)} = \sum_{i = 1}^n \vec{F}_{i}^{(E)} = \vec{F}^(E)$$
 
 ## [[Quantità di moto]], prima equazione cardinale della dinamica dei sistemi e teorema dell'[[impulso]]
->[!def]
+
+>[!def] Quantità di moto di un sistema di $n$ punti materiali
+>La
+>
