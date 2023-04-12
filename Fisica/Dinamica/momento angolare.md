@@ -89,4 +89,4 @@ Abbiamo quindi dimostrato la seguente proprietà:
 
 >[!propietà]
 >In un SdR inerziale, il momento risultante delle forze agenti su un sistema è pari al momento risultante delle sole forze esterne rispetto allo stesso polo:
->$$ \vec{\tau} = \sum_{i = 1}^n \vec{\tau}_{i} $$
+>$$ \vec{\tau} = \sum_{i = 1}^n \vec{\tau}_{i} = \vec{\tau}^{(I)} + \vec{\tau}^{(E)} = \vec{\tau}^{(E)} = \sum $$
