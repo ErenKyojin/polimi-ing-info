@@ -10,7 +10,9 @@ modification date: 2023-04-12 10:16
 
 
 >[!oss]
->La forza gravitazionale non richiede contatto fra i due corpi interagenti, ma agisce a distanza; anzi
+>La forza gravitazionale non richiede contatto fra i due corpi interagenti, ma agisce a distanza; anzi, ha raggio d'azione infinito.
+
+
 
 
 
