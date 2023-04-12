@@ -10,4 +10,4 @@ $$ E_{p,i} = -G \frac{M_{T}m}{R_{T}}\quad \quad E_{c,i} = \frac{1}{2}mv^2_{i} \i
 $$ E_{i} = 0 \implies v_{i} = v_{\text{fuga}} = \sqrt{ \frac{2GM_{T}}{R_{T}} }$$
 
 >[!Oss]
->La velocità di fuga è la stessa in tutte le direzioni, essendo stata ricavata da un'equazione scalare. Tuttavia nel nostro calcolo abbiamo implicitamente assunto un SdR inerzial
+>La velocità di fuga è la stessa in tutte le direzioni, essendo stata ricavata da un'equazione scalare. Tuttavia nel nostro calcolo abbiamo implicitamente assunto un SdR inerziale (in quiete rispetto alla Terra, con origine nel centro del pianeta), ma dovendo lanciare un corpo dalla superficie terrestre è significativo determinare con quale velocità rispetto alla superficie terrestre debba essere effettuato il lancio.
