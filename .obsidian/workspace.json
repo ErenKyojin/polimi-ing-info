@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
+                "file": "Fisica/Dinamica/Momento.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
+                "file": "Fisica/Dinamica/Momento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
+                "file": "Fisica/Dinamica/Momento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md"
+                "file": "Fisica/Dinamica/Momento.md"
               }
             }
           },
@@ -222,8 +222,8 @@
   },
   "active": "e8ab5caa68a9fa0d",
   "lastOpenFiles": [
-    "Fisica/Dinamica/momento angolare.md",
     "Fisica/Dinamica/Sistemi di punti materiali.md",
+    "Fisica/Dinamica/momento angolare.md",
     "Fisica/Dinamica/centro di massa.md",
     "Fisica/Dinamica/Orbita geostazionaria.md",
     "Fisica/Dinamica/teorema dell'impulso.md",
