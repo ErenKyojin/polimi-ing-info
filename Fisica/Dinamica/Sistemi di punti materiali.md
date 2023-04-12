@@ -13,5 +13,5 @@ La dinamica dei sistemi si occupa invece di determinare le proprietà del moto d
 Indicheremo le forze agenti sul punto $i$-esimo del sistema come
 [[forze interne]]
 [[forze esterne]]
-
+E la risultante delle forze agenti sull'$i$-esimo punto come
 

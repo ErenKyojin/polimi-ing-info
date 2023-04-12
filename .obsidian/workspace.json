@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/forze esterne.md",
+                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/forze esterne.md",
+                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/forze esterne.md",
+                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/forze esterne.md"
+                "file": "Fisica/Dinamica/Sistemi di punti materiali.md"
               }
             }
           },
@@ -223,9 +223,9 @@
   },
   "active": "e8ab5caa68a9fa0d",
   "lastOpenFiles": [
+    "Fisica/Dinamica/forze esterne.md",
     "Fisica/Dinamica/Sistemi di punti materiali.md",
     "Fisica/Dinamica/forze interne.md",
-    "Fisica/Dinamica/forze esterne.md",
     "Fisica/Dinamica/Orbita geostazionaria.md",
     "Fisica/Dinamica/Velocità di fuga.md",
     "Fisica/Dinamica/leggi di keplero.md",
