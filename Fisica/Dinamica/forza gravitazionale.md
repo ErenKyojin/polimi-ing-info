@@ -16,6 +16,9 @@ con
 >[!oss]
 >per corpi di dimensione non trascurabile la forza gravitazionale è la stessa che si avrebbe se la massa fosse concentrata nel baricentro del corpo
 
-Possiamo cosí esprimere la [[legge di gravitazione universale]] di Newton, inoltre studiarne l'
+Possiamo cosí esprimere la [[legge di gravitazione universale]] di Newton, inoltre studiarne l'[[Energia potenziale#Energia potenziale forza gravitazionale gravitazionale|energia potenziale gravitazionale]]
+
+
+
 
 
