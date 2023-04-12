@@ -12,4 +12,4 @@ Osserviamo che:
    Il perielio e l'afelio si trovano alle distanze $r_{\text{per,af}} - 2GMm^2r_{\text{per,af}} + L^2 = 0 \implies$
    $$ \implies r_{\text{per}} = \frac{GMm}{2|E_{1}|} - \sqrt{ \left( \frac{GMm}{2E_{1}} \right)^2 - \frac{L^2}{2m |E_{1}|}}\quad ;\quad r_{\text{af}} = \frac{GMm}{2|E_{1}|} + \sqrt{ \left( \frac{GMm}{2E_{1}} \right)^2 - \frac{L^2}{2m|E_{1}|} } $$
    Si noti che dovendo essere $E_{1} \geq E_{p,\min}^{\text{(eff)}} = -(G^2M^2m^3 )/(2L^2)$ risulta $(G^2M^2m^2) / (E|E_{1}|) \geq L^2 / m$.
-   L'argomento della radice 
+   L'argomento della radice nelle precedenti formule è positivo e quindi entrambe lo soluzioni sono accettabili
