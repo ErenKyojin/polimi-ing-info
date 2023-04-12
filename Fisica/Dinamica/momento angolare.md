@@ -94,5 +94,6 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di 
 >$$ \vec{F}^{(E)} = 0 \cancel{ \implies } \vec{\tau}^{(E)} = 0 $$
 >Per un sistema isolato si conservano sia la [[quantità di moto]] sia il [[momento]] angolare
 
->[!def] Seconda euq
+>[!def] Seconda euqazione cardinale rispetto ad un polo mobile
+>Consideriamo ora un polo $\text{O}$ che si muove con velo
 >
