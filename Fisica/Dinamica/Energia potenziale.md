@@ -14,5 +14,5 @@ con $y_{Q}$ quota della posizione $Q$ rispetto ad una quota di riferimento arbit
 >[]
 
 ## Energia potenziale [[forza gravitazionale|gravitazionale]]
-La forza gravitazionale generata da una massa puntiforme $M$ è una forza centrale e quindi conservativa; per introdurre la sua energia potenziale basta calcolare il lavoro compiuto dalla forza gravitazionale per spostare una massa $m$ da una distanza
-
+La forza gravitazionale generata da una massa puntiforme $M$ è una forza centrale e quindi conservativa; per introdurre la sua energia potenziale basta calcolare il lavoro compiuto dalla forza gravitazionale per spostare una massa $m$ da una distanza $r$ dalla massa che genera il campo ad un punto a distanza infinita, che prendiamo come stato di riferimento (ad energia potenziale nulla)
+$$ E_{p}(r) = E_{p}(r) - E_{p}(r) $$
