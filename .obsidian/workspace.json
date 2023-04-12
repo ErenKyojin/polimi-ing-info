@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/legge di gravitazione universale.md",
+                "file": "Fisica/Dinamica/massa.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/legge di gravitazione universale.md",
+                "file": "Fisica/Dinamica/massa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/legge di gravitazione universale.md",
+                "file": "Fisica/Dinamica/massa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/legge di gravitazione universale.md"
+                "file": "Fisica/Dinamica/massa.md"
               }
             }
           },
@@ -208,9 +208,9 @@
   },
   "active": "c4bc65890bd0bc23",
   "lastOpenFiles": [
-    "Fisica/Dinamica/massa.md",
     "Fisica/Dinamica/legge di gravitazione universale.md",
     "Fisica/Dinamica/forza gravitazionale.md",
+    "Fisica/Dinamica/massa.md",
     "API/Teoria del calcolo.md",
     "API/Teorema di Kleene del punto fisso.md",
     "API/Ricorsivamente enumerabile.md",
