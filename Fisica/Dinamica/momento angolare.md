@@ -74,19 +74,3 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una [[d
 >Dunque, dalla seconda equazione cardinale segue che se il momento delle forze applicate ad un punto materiale $P$ rispetto ad un certo polo $O$ è nullo, allora il momento angolare di $P$ rispetto a $O$ è costante, ed il moto di $P$ è piano.
 
 ## momento angolare per [[Sistemi di punti materiali]]
-Indichiamo con il simbolo $\vec{\tau}_{i}$ il momento risultante delle forze agenti sull $i$-esimo punto rispetto ad un dato polo $\text{O}$ (omettiamo il pedice $\text{O}$, assumendo ovunque il medesimo polo $\text{O}$, fisso in un sistema di riferimento inerziale); tale momento può essere scomposto nel risultante dei momenti delle forze interne e di quelle esterne, sempre rispetto al medesimo polo:
-$$ \vec{\tau}_{i}= \vec{\tau}_{i}^{(I)} + \vec{\tau}_{i}^{(E)} $$
-Sommando sull'indice $i$ i momenti risultanti delle forze interne otteniamo:
-$$\begin{align}
- \vec{\tau}^{(I)} &= \sum_{i = 1}^n \vec{\tau}_{i}^{(I)} = \sum_{i = 1}^n \vec{r} \times \vec{F}_{i}^{(I)} = \sum_{i = 1}^n \underset{ j \neq i }{ \sum_{j = 1}^n } \vec{r}_{i} \times \vec{F}_{ij} = \\
-&= \sum_{i = 1}^{n-1}\sum_{j = i + 1}^n (\vec{r}_{i} \times \vec{F}_{ij} - \vec{r}_{j} \times \vec{F}_{ij}) = \\
-&= \sum_{i = 1}^{n-1} \sum_{j = i + 1}^{n} [(\vec{r}_{i} - \vec{r}_{j}) \times \vec{F}_{ij}] = 0
-\end{align}$$
-in quanto il vettore $\vec{r}_{i} - \vec{r}_{j}$ ed il vettore $\vec{F}_{ij}$ sono tra loro paralleli.
-Le forze interne, infatti in base al terzo principio di Newton, sono a due a due uguali in modulo e direzione e contrarie in verso, ed hanno anche la stessa retta d'azione, quindi i rispettivi momenti si annullano a due a due: $\vec{r}_{i} \times \vec{F}_{ij} = -\vec{r}_{j} \times \vec{F}_{ji}$
-
-Abbiamo quindi dimostrato la seguente proprietà:
-
->[!propietà]
->In un SdR inerziale, il momento risultante delle forze agenti su un sistema è pari al momento risultante delle sole forze esterne rispetto allo stesso polo:
->$$ \vec{\tau} = \sum_{i = 1}^n \vec{\tau}_{i} = \vec{\tau}^{(I)} + \vec{\tau}^{(E)} = \vec{\tau}^{(E)} = \sum_{i = 1}^{n} \vec{\tau}_{i}^{(E)} $$
