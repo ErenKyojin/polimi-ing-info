@@ -24,7 +24,8 @@ $$ \frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\theta}{dt} = \frac{1}{2} \frac{L}{m} =
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw (0,0) circle (2 and 1);
+\draw (0,0) circle (4 and 2);
+\node[scale = 3,color = yellow] at (-2,0){$\bullet$};
 \end{tikzpicture}
 \end{document}
 ```
