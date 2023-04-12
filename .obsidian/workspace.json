@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "3376126b21196b40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Dinamica/Untitled.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "00e9f02710ea8a9b",
             "type": "leaf",
             "state": {
@@ -59,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/forza gravitazionale.md",
+                "file": "Fisica/Dinamica/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -117,7 +131,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -137,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/forza gravitazionale.md",
+                "file": "Fisica/Dinamica/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/forza gravitazionale.md"
+                "file": "Fisica/Dinamica/Untitled.md"
               }
             }
           },
@@ -206,10 +221,11 @@
       "obsidian-flexible-pomo:Start Pomodoro": false
     }
   },
-  "active": "c4bc65890bd0bc23",
+  "active": "3376126b21196b40",
   "lastOpenFiles": [
-    "Fisica/Dinamica/Energia potenziale.md",
     "Fisica/Dinamica/forza gravitazionale.md",
+    "Fisica/Dinamica/Untitled.md",
+    "Fisica/Dinamica/Energia potenziale.md",
     "Fisica/Dinamica/legge di gravitazione universale.md",
     "Fisica/Dinamica/massa.md",
     "API/Teoria del calcolo.md",
@@ -234,7 +250,6 @@
     "API/Linguaggio.md",
     "API/La riduzione dei problemi.md",
     "API/Intersezione.md",
-    "API/Costo di un calcolo.md",
     "Day Planners",
     "snapshot.jpg",
     "Settings/Canvas/Cp.canvas",
