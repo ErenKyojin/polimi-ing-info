@@ -97,4 +97,5 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di 
 >[!def] Seconda euqazione cardinale rispetto ad un polo mobile
 >Consideriamo ora un polo $\text{O}$ che si muove con velocità $\vec{v}_{\text{O}}$ in un sistema di riferimento inerziale.
 >Il momento angolare di $P$ rispetto a $\text{O}$ vale:
->$$ \vec{L}_{\text{O}} = \vec{r} \times \vec{p}\quad \vec{r} = \vec{r}_{P} - \vec{r}_{O}$$
+>$$ \vec{L}_{\text{O}} = \vec{r} \times \vec{p}\quad \vec{r} = \vec{r}_{P} - \vec{r}_{O} \implies \vec{v} = \frac{d\vec{r}}{dt} = \frac{d\vec{r}_{P}}{dt} - \frac{d\vec{r}_{O}}{dt} = \vec{v}_{P} - \vec{v}_{O}   $$
+>$$ \frac{d\vec{L}_{\text{O}}}{dt}  $$
