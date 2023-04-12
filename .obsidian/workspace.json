@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Teoria del calcolo.md",
+                "file": "Fisica/Dinamica/forza gravitazionale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Teoria del calcolo.md",
+                "file": "Fisica/Dinamica/forza gravitazionale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Teoria del calcolo.md",
+                "file": "Fisica/Dinamica/forza gravitazionale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Teoria del calcolo.md"
+                "file": "Fisica/Dinamica/forza gravitazionale.md"
               }
             }
           },
@@ -207,12 +206,12 @@
       "obsidian-flexible-pomo:Start Pomodoro": false
     }
   },
-  "active": "652955cc135c1230",
+  "active": "c4bc65890bd0bc23",
   "lastOpenFiles": [
+    "API/Teoria del calcolo.md",
     "API/Teorema di Kleene del punto fisso.md",
     "API/Ricorsivamente enumerabile.md",
     "API/Ricorsivo.md",
-    "API/Teoria del calcolo.md",
     "Untitled.md",
     "Day Planners/2023-04-11.md",
     "Settings/Canvas",
