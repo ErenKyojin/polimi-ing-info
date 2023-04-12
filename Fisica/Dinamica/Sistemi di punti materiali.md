@@ -43,3 +43,6 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 
 
 ![[teorema dell'impulso]]
+
+####
+>[!to]
