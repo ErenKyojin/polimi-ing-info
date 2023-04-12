@@ -30,5 +30,6 @@ Dove con $\vec{F}_{i,j}$ abbiamo indicato la forza (interna) esercitata sull'$i$
 ## [[Quantità di moto]], prima equazione cardinale della dinamica dei sistemi e teorema dell'[[impulso]]
 
 >[!def] Quantità di moto di un sistema di $n$ punti materiali
->La
+>La quantità di moto totale del sistema è per definizione la somma delle quantità di moto dei singoli punti materiali:
+> $$ \vec{p} \equiv \sum_{i = 1}^n \vec{p}_{i} $$
 >
