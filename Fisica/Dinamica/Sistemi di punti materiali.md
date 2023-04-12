@@ -58,3 +58,6 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 
 ## Centro di massa e teorema del centro di massa
 ![[centro di massa]]
+
+
+## Momento angolare, 

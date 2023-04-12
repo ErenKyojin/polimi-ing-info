@@ -28,4 +28,5 @@ Possiamo quindi enunciare il seguente
 >Tale moto fornisce tuttavia solo delle informazioni medie sul sistema
 
 >[!oss]
->Dal teorema del centro di massa discende immediatamente un'importante proprietà: se il sistema è isolato le forze esterne sono nulle e quindi il 
+>Dal teorema del centro di massa discende immediatamente un'importante proprietà: se il sistema è isolato le forze esterne sono nulle e quindi il CM si muove di moto rettilineo uniforme oppure è in quiete in un sistema di riferimento inerziale.
+

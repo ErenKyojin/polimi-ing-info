@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/centro di massa.md",
+                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/centro di massa.md",
+                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/centro di massa.md",
+                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/centro di massa.md"
+                "file": "Fisica/Dinamica/Sistemi di punti materiali.md"
               }
             }
           },
@@ -221,10 +221,10 @@
       "obsidian-flexible-pomo:Start Pomodoro": false
     }
   },
-  "active": "540b351f17ef6673",
+  "active": "e8ab5caa68a9fa0d",
   "lastOpenFiles": [
-    "Fisica/Dinamica/Orbita geostazionaria.md",
     "Fisica/Dinamica/centro di massa.md",
+    "Fisica/Dinamica/Orbita geostazionaria.md",
     "Fisica/Dinamica/Sistemi di punti materiali.md",
     "Fisica/Dinamica/teorema dell'impulso.md",
     "Fisica/Dinamica/Quantità di moto.md",
