@@ -62,4 +62,5 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 
 ## Momento angolare, [[seconda equazione cardinale della dinamica]] dei sistemi
 
-![[Momento]]
+![[Momento#momento nei Sistemi di punti materiali]]
+
