@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "8fba285c08161de6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Dinamica/Orbita geostazionaria.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "3376126b21196b40",
             "type": "leaf",
             "state": {
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Velocità di fuga.md",
+                "file": "Fisica/Dinamica/Orbita geostazionaria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Velocità di fuga.md",
+                "file": "Fisica/Dinamica/Orbita geostazionaria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Velocità di fuga.md"
+                "file": "Fisica/Dinamica/Orbita geostazionaria.md"
               }
             }
           },
@@ -195,13 +208,14 @@
       "obsidian-flexible-pomo:Start Pomodoro": false
     }
   },
-  "active": "0feec0202f8a7f7f",
+  "active": "8fba285c08161de6",
   "lastOpenFiles": [
-    "Day Planners/2023-04-12.md",
+    "Fisica/Dinamica/Velocità di fuga.md",
     "Fisica/Dinamica/leggi di keplero.md",
+    "Fisica/Dinamica/Orbita geostazionaria.md",
+    "Day Planners/2023-04-12.md",
     "Fisica/Dinamica/Moto dei pianeti.md",
     "Fisica/Dinamica/Energia potenziale.md",
-    "Fisica/Dinamica/Velocità di fuga.md",
     "Fisica/Dinamica/forza gravitazionale.md",
     "Fisica/Dinamica/legge di gravitazione universale.md",
     "Fisica/Dinamica/massa.md",
@@ -223,7 +237,6 @@
     "API/problema.md",
     "API/pop.md",
     "API/Modelli descrittivi.md",
-    "API/Logica.md",
     "Day Planners",
     "snapshot.jpg",
     "Settings/Canvas/Cp.canvas",
