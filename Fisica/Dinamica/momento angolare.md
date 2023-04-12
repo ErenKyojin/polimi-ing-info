@@ -1,4 +1,4 @@
----
+i---
 aliases: 
 creation date: 2023-04-10 18:19
 modification date: 2023-04-10 18:19
@@ -83,13 +83,16 @@ Sommando sull'indice $i$ tale equazione otteniamo:
 $$ \sum_{i=1}^n \frac{d\vec{L}_{i}}{dt} = \frac{d\vec{L}}{dt} = \sum_{i = 1}^n \vec{\tau}_{i} = \vec{\tau}   $$
 Tenendo conto, inoltre, che il momento risultante delle forze agenti sul sitema è pari al momento risultante delle sole forze esterne risulta
 $$ \fbox{$\frac{d\vec{L}}{dt} = \vec{\tau}^{(E)}$} $$
-Tale equazione prende il nome di seconda equazione cardinale per i sistemi di punti materiali ed afferma che:
+Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di punti materiali]] ed afferma che:
 
 >[!quote] .
 >La derivata temporale del momento della quantità di moto di un sistema di punti rispetto ad un dato polo fisso è uguale al momento risultante, rispetto allo stesso polo, delle forze esterne applicate al sistema
 
 
 >[!oss]
->Un sistema è isolato se si annullano sia la risultante delle forze esterne, sia il momento risultante delle forze esterne. In generale il fatto che la risultante delle forze esterne sia nulla non implica che si annulli anche il momento risultante delle forze esterne:
+>Un sistema è isolato se si annullano sia la risultante delle forze esterne, sia il momento risultante delle forze esterne. In generale il fatto che la risultante delle [[forze esterne]] sia nulla non implica che si annulli anche il momento risultante delle forze esterne:
 >$$ \vec{F}^{(E)} = 0 \cancel{ \implies } \vec{\tau}^{(E)} = 0 $$
->Per un sistema isolato s
+>Per un sistema isolato si conservano sia la [[quantità di moto]] sia il [[momento]] angolare
+
+>[!def] Seconda euq
+>
