@@ -6,6 +6,7 @@ modification date: 2023-04-12 15:04
 
 ## Sistemi di particelle, [[forze interne]] e [[forze esterne]]
 
-Un sistema di punti è costituito da un insieme di $n$ punti materiali soggetti ad interazioni reciproche e con il mondo esterno
+Un sistema di punti è costituito da un insieme di $n$ punti materiali soggetti ad interazioni reciproche e con il mondo esterno.
+Il problema generale della dinamica consiste nel determinare la legge oraria per ciascuno di tali punti (anche generalmente se nei)
 
 
