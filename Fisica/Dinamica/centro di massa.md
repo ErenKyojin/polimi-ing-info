@@ -19,4 +19,6 @@ $$ \vec{v}_{CM} \equiv \frac{d\vec{r}_{CM}}{dt} = \frac{\sum_{i = 1}^n m_{i}\vec
 > $$ \vec{F}^{(E)} = \frac{d\vec{p}}{dt} = M \cdot \vec{a}_{CM}  $$
 
 Possiamo quindi enunciare il seguente
+
 >[!teorema] Teorema del centro di massa
+>In un sistema di riferimento inerziale, il centro di
