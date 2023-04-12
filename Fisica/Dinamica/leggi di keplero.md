@@ -18,4 +18,13 @@ ma
 $$dA = \frac{1}{2} r \cdot (r d\theta) = \frac{1}{2}r^2 d\theta$$
 Possiamo approssimare l'areola $dA$ a quella di un riangolo che ha per altezza $r$ e per base l'arco di cerchio $r d \theta$.
 Allora abbiamo che la velocità areolare risulta
-$$ \frac{dA}{dt} = 1  $$
+$$ \frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\theta}{dt} = \frac{1}{2} \frac{L}{m} = \cost   $$
+(Seconda legge di Keplero per il moto dei pianeti: il vettore posizione spazza aree uguali in tempi uguali)
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) circle (2 and 1);
+\end{tikzpicture}
+\end{document}
+```
