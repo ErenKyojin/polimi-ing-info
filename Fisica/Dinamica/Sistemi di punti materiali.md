@@ -24,4 +24,5 @@ Dove con $\vec{F}_{i,j}$ abbiamo indicato la forza (interna) esercitata sull'$i$
 > $$ \vec{F}^{(I)} \equiv \sum_{i = 1}^n \vec{F}_{i}^{(I)} = \sum_{i = 1}^n \underset{ j \neq i }{ \sum_{j = 1}^n } \vec{F}_{ij} = \underset{ j \neq i }{ \sum_{\text{coppie }ij} } (\vec{F}_{ij} + \vec{F}_{ji} = 0)$$
 
 >[!oss]
->Di conseguenza, la somma di tutte
+>Di conseguenza, la somma di tutte le forze agenti sul sistema è pari alla risultante delle sole forze esterne:
+>$$ \vec{F} \equiv \sum_{i = 1}^n \vec{F}_{i} = \sum_{i = 1}^n \vec{F}_{i}^{(I)} + \sum_{i=1}^n \vec{F}_{i}^{(E)} = \sum_{i = 1}^n \vec{F}_{i}^{(E)} = \vec{F}^(E)$$
