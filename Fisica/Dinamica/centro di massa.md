@@ -24,4 +24,8 @@ Possiamo quindi enunciare il seguente
 >In un sistema di riferimento inerziale, il centro di massa di un sistema di punti materiali si muove come un punto materiale di massa pari alla massa totale del sistema e soggetto alla risultante delle forze esterne applicate al sistema
 
 >[!oss]
->L'utilità del CM si comprende immediatamente alla luce del suddetto teorema, infatti il moto del CM, al contrario del moto dell$
+>L'utilità del CM si comprende immediatamente alla luce del suddetto teorema, infatti il moto del CM, al contrario del moto dell'$i$-esimo punto del sistema, dipende solo dalla risultante delle forze esterne, non dalla configurazione di tali forze e neppure dalle forze interne.
+>Tale moto fornisce tuttavia solo delle informazioni medie sul sistema
+
+>[!oss]
+>Dal teorema del centro di massa discende immediatamente un'importante proprietà: se il sistema è isolato le forze esterne sono nulle e quindi il 
