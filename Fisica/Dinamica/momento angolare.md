@@ -90,4 +90,6 @@ Tale equazione prende il nome di seconda equazione cardinale per i sistemi di pu
 
 
 >[!oss]
->Un sistema è isolato se si annullano
+>Un sistema è isolato se si annullano sia la risultante delle forze esterne, sia il momento risultante delle forze esterne. In generale il fatto che la risultante delle forze esterne sia nulla non implica che si annulli anche il momento risultante delle forze esterne:
+>$$ \vec{F}^{(E)} = 0 \cancel{ \implies } \vec{\tau}^{(E)} = 0 $$
+>Per un sistema isolato s
