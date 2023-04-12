@@ -27,9 +27,8 @@ Dove con $\vec{F}_{i,j}$ abbiamo indicato la forza (interna) esercitata sull'$i$
 >Di conseguenza, la somma di tutte le forze agenti sul sistema è pari alla risultante delle sole [[forze esterne]]:
 >$$ \vec{F} \equiv \sum_{i = 1}^n \vec{F}_{i} = \sum_{i = 1}^n \vec{F}_{i}^{(I)} + \sum_{i=1}^n \vec{F}_{i}^{(E)} = \sum_{i = 1}^n \vec{F}_{i}^{(E)} = \vec{F}^(E)$$
 
-## [[Quantità di moto]], prima equazione cardinale della dinamica dei sistemi e teorema dell'[[impulso]]
+## Quantità di moto, prima equazione cardinale della dinamica dei sistemi e teorema dell'[[impulso]]
 
->[!def] Quantità di moto di un sistema di $n$ punti materiali
->La quantità di moto totale del sistema è per definizione la somma delle quantità di moto dei singoli punti materiali:
-> $$ \vec{p} \equiv \sum_{i = 1}^n \vec{p}_{i} $$
->
+[[Quantità di moto#Quantità di moto in un sistema di punti materiali]]
+
+osserviamo che in base

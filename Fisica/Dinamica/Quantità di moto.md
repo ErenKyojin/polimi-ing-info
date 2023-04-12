@@ -42,3 +42,9 @@ $$
 In un sistema inerziale un punto materiale non soggetto ad interazioni si muove con velocità costante e quindi ha anche quantità di moto costante, essendo costante la sua massa.
 Se invece la quantità di moto di un punto materiale varia, significa che esso è soggetto ad interazioni
 
+## Quantità di moto in un sistema di punti materiali
+>[!def] Quantità di moto di un sistema di $n$ punti materiali
+>La quantità di moto totale del sistema è per definizione la somma delle quantità di moto dei singoli punti materiali:
+> $$ \vec{p} \equiv \sum_{i = 1}^n \vec{p}_{i} $$
+
+
