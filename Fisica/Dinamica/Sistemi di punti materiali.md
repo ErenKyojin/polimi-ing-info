@@ -65,3 +65,7 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 ![[Momento#momento nei Sistemi di punti materiali]]
 
 ![[momento angolare#momento angolare per Sistemi di punti materiali]]
+
+
+
+![[Energia cinetica#energia cinetica in un sistema di punti materiali]]

@@ -46,3 +46,4 @@ questa euqazione esprime il seguente:
 >Visto che tale costante può essere inoltre scelta in modo arbitrario, fissiamola al valor nullo, quindi $E_{c} = \frac{1}{2}mv^2$. Anche se questa è la scelta piú comune, è comunque arbitraria.
 
 
+# energia cinetica in un s[[Sistemi di punti materiali|istema di punti materiali]]

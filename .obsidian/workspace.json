@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/momento angolare.md",
+                "file": "Elettrotecnica/Energia cinetica.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/momento angolare.md",
+                "file": "Elettrotecnica/Energia cinetica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/momento angolare.md",
+                "file": "Elettrotecnica/Energia cinetica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/momento angolare.md"
+                "file": "Elettrotecnica/Energia cinetica.md"
               }
             }
           },
@@ -223,8 +223,9 @@
   },
   "active": "e8ab5caa68a9fa0d",
   "lastOpenFiles": [
-    "Fisica/Dinamica/momento angolare.md",
     "Fisica/Dinamica/Sistemi di punti materiali.md",
+    "Elettrotecnica/Energia cinetica.md",
+    "Fisica/Dinamica/momento angolare.md",
     "Fisica/Dinamica/Momento.md",
     "Fisica/Dinamica/centro di massa.md",
     "Fisica/Dinamica/Orbita geostazionaria.md",
@@ -249,7 +250,6 @@
     "Day Planners/2023-04-11.md",
     "Settings/Canvas",
     "API/Funzione caratteristica.md",
-    "API/stringa.md",
     "Day Planners",
     "snapshot.jpg",
     "Settings/Canvas/Cp.canvas",
