@@ -40,4 +40,6 @@ dove $m$ è la [[massa]] del pianeta.
 
 Sostituendo l'espressione di $k$ per il sistema sole-pianeta, cioè $k = GM_{s}m$, dove $M_{S}$ è la massa del Sole, otteniamo
 $$ T^2 = \frac{4\pi^2}{GM_{S}}R^3 $$
-Si noti che la costante di proporzionalità tra il 
+Si noti che la costante di proporzionalità tra ilcubo del raggio dell'orbita ed il quadrato del tempo di rivoluzione è la stessa per tutte le orbite.
+
+Le dimostrazioni della prima e della terza legge nel caso
