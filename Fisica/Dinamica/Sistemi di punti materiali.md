@@ -44,5 +44,7 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 
 ![[teorema dell'impulso]]
 
-####
->[!to]
+### Principio di conservazione della quantità di moto
+>[!teorema]
+>In un sistema di riferimento inerziale, un sistema di punti materiali isolato oppure soggetto ad un sistema di forze esterne con risultante nulla conserva la quantità di moto totale.
+> $$ \fbox{$\vec{F}^{(E)} = 0 \implies \vec{p} = \cost$} $$
