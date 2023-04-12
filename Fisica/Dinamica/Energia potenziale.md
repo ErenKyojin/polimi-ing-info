@@ -13,5 +13,6 @@ con $y_{Q}$ quota della posizione $Q$ rispetto ad una quota di riferimento arbit
 
 >[]
 
+## Energia potenziale [[forza gravitazionale|gravitazionale]]
 
 

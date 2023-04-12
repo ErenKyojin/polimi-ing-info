@@ -16,3 +16,4 @@ Conseguenza diretta della legge di gravitazione univerale è la [[massa#massa gr
 
 
 
+
