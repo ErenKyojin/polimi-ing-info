@@ -11,5 +11,7 @@ Il problema generale della dinamica consiste nel determinare la legge oraria per
 La dinamica dei sistemi si occupa invece di determinare le proprietà del moto del sistema nel suo complessi.
 
 Indicheremo le forze agenti sul punto $i$-esimo del sistema come
+[[forze interne]]
+[[forze esterne]]
 
 
