@@ -50,8 +50,13 @@
             "id": "e8ab5caa68a9fa0d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Dinamica/momento angolare.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Fisica/Dinamica/momento angolare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,6 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fisica/Dinamica/momento angolare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +179,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Fisica/Dinamica/momento angolare.md"
+              }
             }
           },
           {
