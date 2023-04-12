@@ -12,4 +12,5 @@ L'astronomo Johannes Kepler formulò le 3 leggi empiriche sulla cinematica del m
 
 Le leggi di keplero possono essere dedotte dalla teoria della dinamica del moto sotto l'azione di una forza cenrale che dipende dall'inverso del quadrato della distanza.
 
-La seconda legge risulta particolarmente semplice da dimostrare, ossia si può facilmente dimostrare che la velocità areolare $dA/d$
+La seconda legge risulta particolarmente semplice da dimostrare, ossia si può facilmente dimostrare che la velocità areolare $dA/dt$, ossia l'area spazzata dal vettore posizione nell'unità di tempo, è costante.
+$$ \vec{L} = $$
