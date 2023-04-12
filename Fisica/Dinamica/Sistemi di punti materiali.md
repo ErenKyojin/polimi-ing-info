@@ -34,4 +34,4 @@ Dove con $\vec{F}_{i,j}$ abbiamo indicato la forza (interna) esercitata sull'$i$
 osserviamo che in base alla seconda legge della dinamica di Newton, il moto di ciascun punto obbedisce all'equazione
 $$ \vec{F}_{i} = \vec{F}_{i}^{(I)} + \vec{F}_{i}^{E} = m_{i}\vec{a}_{i} = \frac{d\vec{p}_{i}}{dt} \qquad \forall i  $$
 Sommando sull'indice $i$ tutte queste equazioni si ottiene:
-$$ \vec{F}^{(E)} = \sum_{i = 1}^n \vec{F}_i $$
+$$ \vec{F}^{(E)} = \sum_{i = 1}^n \vec{F}_i = \sum_{i = 1}^n \frac{d\vec{p}_{i}}{dt} = \frac{d}{dt}  $$
