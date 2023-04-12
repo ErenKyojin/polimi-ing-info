@@ -54,4 +54,4 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 >> $$ F_{z}^{(E)} = 0 \implies p_{z} = \cost $$
 
 >[!oss]
->Notiamo infine che, in base al teorema dell'impulso, la quan
+>Notiamo infine che, in base al teorema dell'impulso, la quantità d
