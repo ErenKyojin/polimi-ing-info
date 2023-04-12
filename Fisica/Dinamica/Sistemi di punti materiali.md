@@ -17,3 +17,5 @@ E la risultante delle forze agenti sull'$i$-esimo punto come
 $$\vec{F}_{i} = \vec{F}_{i}^{(I)} + \vec{F}_{i}^{(E)}$$
 Le forze interne sono quelle dovute alle interazioni con gli altri $n-1$ punti del sistema:
 $$ \vec{F}_{i}^{(I)} = \sum_{j=1}^n \vec{F}_{ij} $$
+Dove con $\vec{F}_{i,j}$ abbiamo indicato la forza (interna) esercitata sull'$i$-esimo punto dal $j$-esimo punto.
+
