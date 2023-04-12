@@ -12,4 +12,4 @@ L'astronomo Johannes Kepler formulò le 3 leggi empiriche sulla cinematica del m
 
 Le leggi di keplero possono essere dedotte dalla teoria della dinamica del moto sotto l'azione di una forza cenrale che dipende dall'inverso del quadrato della distanza.
 
-La sec
+La seconda legge risulta particolarmente semplice da dimostrare, ossia si può facil
