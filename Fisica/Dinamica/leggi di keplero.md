@@ -4,13 +4,13 @@ creation date: 2023-04-12 11:40
 modification date: 2023-04-12 11:40
 ---
 
-L'astronomo Johannes Kepler formulò le 3 leggi empiriche sulla cinematica del moto dei pianeti
+L'astronomo Johannes Kepler formulò le 3 leggi empiriche sulla [[cinematica]] del [[moto dei pianeti]]
 
 1. Ogni pianeta descrive un'orbita ellittica ed il Sole occupa uno dei due fuochi dell'ellissi.
 2. Il vettore posizione di ogni pianeta rispetto al Sole descrive aree uguali in tempi uguali
 3. Il quadrato del tempo di rivoluzione di ciascun pianeta è proporzionale al cubo del semiasse maggiore della sua orbita $T^2 \propto a^3$
 
-Le leggi di keplero possono essere dedotte dalla teoria della dinamica del moto sotto l'azione di una forza cenrale che dipende dall'inverso del quadrato della distanza.
+Le leggi di keplero possono essere dedotte dalla teoria della dinamica del [[moto]] sotto l'azione di una [[forza]] cenrale che dipende dall'inverso del quadrato della distanza.
 
 La seconda legge risulta particolarmente semplice da dimostrare, ossia si può facilmente dimostrare che la velocità areolare $dA/dt$, ossia l'area spazzata dal vettore posizione nell'unità di tempo, è costante.
 $$ \vec{L} =mr^2\vec{\omega} = \vec{\cost} \implies r^2 \frac{d\theta}{dt} = \cost  $$
@@ -35,4 +35,7 @@ $$ \frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\theta}{dt} = \frac{1}{2} \frac{L}{m} =
 *L'area in rosso è equivalente*
 
 Per quanto riguarda la terza legge, consideriamo il caso particolare di un orbita circolare di raggio $R.$ allora dalla prima equazione cardinale abbiamo:
-$$ \vec{F} = m\vec{a}_{N} = m\vec{a}_{C} \implies - \frac{k}{R^2}\hat{u}_{r} = -m\omega^2R\hat{u}_{r} \implies \frac{k}{R^3}= m \frac{4\pi^2}{T} \implies $$
+$$ \vec{F} = m\vec{a}_{N} = m\vec{a}_{C} \implies - \frac{k}{R^2}\hat{u}_{r} = -m\omega^2R\hat{u}_{r} \implies \frac{k}{R^3}= m \frac{4\pi^2}{T} \implies T^2 = \frac{4\pi^2m}{k}R^3 $$
+dove $m$ è la [[massa]] del pianeta.
+
+Sostituendo l'espressione di $k$ per il sistema sole-pianeta, cioè $k = GM_{s}m$, dove $M_{S}$ è la massa delsolee
