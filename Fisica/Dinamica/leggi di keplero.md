@@ -15,4 +15,7 @@ Le leggi di keplero possono essere dedotte dalla teoria della dinamica del moto 
 La seconda legge risulta particolarmente semplice da dimostrare, ossia si può facilmente dimostrare che la velocità areolare $dA/dt$, ossia l'area spazzata dal vettore posizione nell'unità di tempo, è costante.
 $$ \vec{L} =mr^2\vec{\omega} = \vec{\cost} \implies r^2 \frac{d\theta}{dt} = \cost  $$
 ma
-$$dA = \frac{1}{2} r \cdot$$
+$$dA = \frac{1}{2} r \cdot (r d\theta) = \frac{1}{2}r^2 d\theta$$
+Possiamo approssimare l'areola $dA$ a quella di un riangolo che ha per altezza $r$ e per base l'arco di cerchio $r d \theta$.
+Allora abbiamo che la velocità areolare risulta
+$$ \frac{dA}{dt} = 1  $$
