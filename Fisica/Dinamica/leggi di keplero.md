@@ -33,3 +33,6 @@ $$ \frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\theta}{dt} = \frac{1}{2} \frac{L}{m} =
 \end{document}
 ```
 *L'area in rosso è equivalente*
+
+Per quanto riguarda la terza legge, consideriamo il caso particolare di un orbita circolare di raggio $R.$ allora dalla prima equazione cardinale abbiamo:
+$$ \vec{F} = m\vec{a}_{N} = m\vec{a}_{C} \implies - \frac{k}{R^2}\hat{u}_{r} = -m\omega^2R\hat{u}_{r} \implies \frac{k}{R^3}= m \frac{4\pi^2}{T} \implies $$
