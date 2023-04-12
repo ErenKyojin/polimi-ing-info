@@ -74,5 +74,6 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una [[d
 >Dunque, dalla seconda equazione cardinale segue che se il momento delle forze applicate ad un punto materiale $P$ rispetto ad un certo polo $O$ è nullo, allora il momento angolare di $P$ rispetto a $O$ è costante, ed il moto di $P$ è piano.
 
 ## momento angolare per [[Sistemi di punti materiali]]
-Indichiamo con il simbolo $\vec{\tau}_{i}$ il momento risultante delle forze agenti sull $i$-esimo punto rispetto ad un dato polo $\text{O}$ 
+Indichiamo con il simbolo $\vec{\tau}_{i}$ il momento risultante delle forze agenti sull $i$-esimo punto rispetto ad un dato polo $\text{O}$ (omettiamo il pedice $\text{O}$, assumendo ovunque il medesimo polo $\text{O}$, fisso in un sistema di riferimento inerziale); tale momento può essere scomposto nel risultante dei momenti delle forze interne e di quelle esterne, sempre rispetto al medesimo polo:
+$$ \vec{\tau}_{i} $$
 
