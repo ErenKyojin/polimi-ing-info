@@ -21,4 +21,7 @@ $$ \vec{v}_{CM} \equiv \frac{d\vec{r}_{CM}}{dt} = \frac{\sum_{i = 1}^n m_{i}\vec
 Possiamo quindi enunciare il seguente
 
 >[!teorema] Teorema del centro di massa
->In un sistema di riferimento inerziale, il centro di
+>In un sistema di riferimento inerziale, il centro di massa di un sistema di punti materiali si muove come un punto materiale di massa pari alla massa totale del sistema e soggetto alla risultante delle forze esterne applicate al sistema
+
+>[!oss]
+>L'utilità del CM si comprende immediatamente alla luce del suddetto teorema, infatti il moto del CM, al contrario del moto dell$
