@@ -28,7 +28,7 @@ $$ \frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\theta}{dt} = \frac{1}{2} \frac{L}{m} =
 \node[scale = 3,color = yellow] (F) at (-2,0){$\bullet$};
 \node[above = 2mm] at (F){$S$};
 \draw[fill = red] (F.center) -- ++ (-1.22,1.22) arc (143.2:215.8:4 and 2) -- (F.center);
-\draw[fill = red] (F.center) -- ++ 
+\draw[fill = red] (F.center) -- ++ (5.4,1) arc (20:-20:);
 \end{tikzpicture}
 \end{document}
 ```
