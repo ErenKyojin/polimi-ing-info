@@ -52,4 +52,6 @@ Se due corpi di massa $m_{1}$ e $m_{2}$ vengono uniti a formarne uno solo, la ma
 # massa gravitazionale
 Come conseguenza della legge di gravitazione universale abbiamo che ogni corpo possiede la capacità di attrarre i corpi circostanti con un'intensità direttamente proporzionale alla propria massa.
 In base alla legge di gravitazione, dunque, si può dare una definizione di massa alternativa a uqella data in dinamica: la grandezza caratteristica di un corpo che ne risulta viene detta massa gravitazionale, indicata con $m_{g}$.
-Sperimentalmente si verifica che sulla terra tutti i gravi cadono con la stessa accelerazione g
+Sperimentalmente si verifica che sulla terra tutti i gravi cadono con la stessa accelerazione di gravità $g$, quindi il rapporto tra la loro massa gravitazionale (che influenza la forza di attrazione verso la terra), e la loro massa inerziale, che influenza l'accelerazione $g$, è una costante.
+
+Raffinati esperimenti hanno permesso di stabilire che, in tutti i fenomeni osservati finora, esiste una rigorosa 
