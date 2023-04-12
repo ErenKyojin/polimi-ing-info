@@ -84,4 +84,9 @@ $$\begin{align}
 \end{align}$$
 in quanto il vettore $\vec{r}_{i} - \vec{r}_{j}$ ed il vettore $\vec{F}_{ij}$ sono tra loro paralleli.
 Le forze interne, infatti in base al terzo principio di Newton, sono a due a due uguali in modulo e direzione e contrarie in verso, ed hanno anche la stessa retta d'azione, quindi i rispettivi momenti si annullano a due a due: $\vec{r}_{i} \times \vec{F}_{ij} = -\vec{r}_{j} \times \vec{F}_{ji}$
-Abbiamo quindi dimostrato la seguente proprietà
+
+Abbiamo quindi dimostrato la seguente proprietà:
+
+>[!propietà]
+>In un SdR inerziale, il momento risultante delle forze agenti su un sistema è pari al momento risultante delle sole forze esterne rispetto allo stesso polo:
+>$$ \vec{\tau} = \sum_{} $$
