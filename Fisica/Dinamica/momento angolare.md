@@ -95,5 +95,6 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di 
 >Per un sistema isolato si conservano sia la [[quantità di moto]] sia il [[momento]] angolare
 
 >[!def] Seconda euqazione cardinale rispetto ad un polo mobile
->Consideriamo ora un polo $\text{O}$ che si muove con velo
->
+>Consideriamo ora un polo $\text{O}$ che si muove con velocità $\vec{v}_{\text{O}}$ in un sistema di riferimento inerziale.
+>Il momento angolare di $P$ rispetto a $\text{O}$ vale:
+>$$ \vec{L}_{\text{O}} = \vec{r} \times \vec{p}\quad \vec{r} = \vec{r}_{P} - \vec{r}_{O}$$
