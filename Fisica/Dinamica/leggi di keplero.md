@@ -38,4 +38,6 @@ Per quanto riguarda la terza legge, consideriamo il caso particolare di un orbit
 $$ \vec{F} = m\vec{a}_{N} = m\vec{a}_{C} \implies - \frac{k}{R^2}\hat{u}_{r} = -m\omega^2R\hat{u}_{r} \implies \frac{k}{R^3}= m \frac{4\pi^2}{T} \implies T^2 = \frac{4\pi^2m}{k}R^3 $$
 dove $m$ è la [[massa]] del pianeta.
 
-Sostituendo l'espressione di $k$ per il sistema sole-pianeta, cioè $k = GM_{s}m$, dove $M_{S}$ è la massa delsolee
+Sostituendo l'espressione di $k$ per il sistema sole-pianeta, cioè $k = GM_{s}m$, dove $M_{S}$ è la massa del Sole, otteniamo
+$$ T^2 = \frac{4\pi^2}{GM_{S}}R^3 $$
+Si noti che la costante di proporzionalità tra il 
