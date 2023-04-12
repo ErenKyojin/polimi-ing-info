@@ -82,4 +82,8 @@ $$ \frac{d\vec{L}_{i}}{dt} = \vec{\tau}_{i}  $$
 Sommando sull'indice $i$ tale equazione otteniamo:
 $$ \sum_{i=1}^n \frac{d\vec{L}_{i}}{dt} = \frac{d\vec{L}}{dt} = \sum_{i = 1}^n \vec{\tau}_{i} = \vec{\tau}   $$
 Tenendo conto, inoltre, che il momento risultante delle forze agenti sul sitema è pari al momento risultante delle sole forze esterne risulta
-$$ \fbox{$\frac{d\vec{L}}{dt} = \tau v$} $$
+$$ \fbox{$\frac{d\vec{L}}{dt} = \vec{\tau}^{(E)}$} $$
+Tale equazione prende il nome di seconda equazione cardinale per i sistemi di punti materiali ed afferma che:
+
+>[!quote] .
+>La derivata temporale del momento della quantità di moto di un sistema di punti rispetto ad un dato polo fisso è uguale al momento risu
