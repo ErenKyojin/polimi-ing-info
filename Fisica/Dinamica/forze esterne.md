@@ -1,10 +1,12 @@
 ---
-aliases: <% tp.file.cursor(0) %>
+aliases: 
 creation date: 2023-04-12 15:05
 modification date: 2023-04-12 15:05
 ---
 
-<% tp.file.cursor(1) %>
+>[!def]
+>in un [[Sistemi di punti materiali|sistema di punti materiali]] si definisco forze interne le forze dovute a interazioni con altri sistemi, in particolare si indicano le forze agenti sul punto $i$-esimo del sistema come:
+> $$ \vec{F}_{i}^{(I)} $$
 
 
 
