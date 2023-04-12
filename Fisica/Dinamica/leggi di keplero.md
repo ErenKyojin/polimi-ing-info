@@ -27,9 +27,9 @@ $$ \frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\theta}{dt} = \frac{1}{2} \frac{L}{m} =
 \draw (0,0) circle (4 and 2);
 \node[scale = 3,color = yellow] (F) at (-2,0){$\bullet$};
 \node[above = 2mm] at (F){$S$};
-\draw[fill = red, fill opacity = 20] (F.center) -- ++ (-1.22,1.22) arc (143.2:215.8:4 and 2) -- (F.center);
-\draw[fill = red] (F.center) -- ++ (5.4,1) arc (30:-30:4 and 2);
+\draw[fill = red, fill opacity = 0.2] (F.center) -- ++ (-1.2,1.2) arc (143.2:215.8:4 and 2) -- (F.center);
+\draw[fill = red, fill opacity = 0.2] (F.center) -- ++ (5.45,1) arc (30:-30:4 and 2) -- (F.center);
 \end{tikzpicture}
 \end{document}
 ```
-L'area in rosso è equivalente
+*L'area in rosso è equivalente*
