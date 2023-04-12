@@ -10,5 +10,5 @@ $$ \vec{r}_{CM} = \sum_{i = 1}^n  \frac{m_{i}}{M}\vec{r}_{i} = \frac{\sum_{i = 1
 con $M = \displaystyle\sum_{i = 1}^n m_{i}$ massa totale del sistema
 
 >[!teorema] Teorema del centro di massa
->
+>Nota la risultante delle forze esterne, senza bisogno di conoscere le singole interazioni interne ed esterne, possiamo ricavare il moto del CM grazia alla prima equazione cardinale
 
