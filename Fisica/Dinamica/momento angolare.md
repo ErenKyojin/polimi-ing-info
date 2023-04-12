@@ -102,5 +102,11 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di 
 >Essendo $\vec{v}_{P} \parallel \vec{p} \implies \vec{v}_{p} \times \vec{p} = 0$.
 >In conclusione, la seconda equazione cardinale della dinamica rispetto ad un polo mobile con velocità $\vec{v}_{\text{O}}$ diventa, per un singolo punto materiale:
 >$$ \fbox{$\frac{d\vec{L}_{O}}{dt} + \vec{v}_{\text{O}} \times \vec{p} = \vec{\tau}$} $$
->Per un sistema di punti materiali tale euqaz
+>Per un sistema di punti materiali tale equazione varrà per ciascun punto del sistema. Sommando su tutti i punti, otteniamo banalmente
+>$$ \fbox{$\frac{d\vec{L}_{\text{O}}}{dt} + \vec{v}_{\text{O}} \times \vec{p} = \vec{\tau}^{(E)}$} $$
+>con ovvio significato dei simboli utilizzati per le grandezze totali del sistema
+
+
+>[!oss]
+>Se il polo mobile coincide 
 
