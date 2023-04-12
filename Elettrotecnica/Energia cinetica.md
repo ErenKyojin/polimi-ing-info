@@ -48,4 +48,5 @@ questa euqazione esprime il seguente:
 
 # energia cinetica in un [[sistemi di punti materiali|sistema di punti materiali]]
 
-Si definisce energia cinetica di un sistema di punti materiali in un dato SdR la somma delle energia cinetiche di tutti i punti rispetto allo stesso siste
+Si definisce energia cinetica di un sistema di punti materiali in un dato SdR la somma delle energia cinetiche di tutti i punti rispetto allo stesso sistema di riferimento
+$$ E_{c} = \sum_{i = 1}^n \frac{1}{2}m_{i}v_{i}^2 $$
