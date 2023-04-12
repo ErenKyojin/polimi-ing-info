@@ -77,4 +77,6 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una [[d
 Indichiamo con il simbolo $\vec{\tau}_{i}$ il momento risultante delle forze agenti sull $i$-esimo punto rispetto ad un dato polo $\text{O}$ (omettiamo il pedice $\text{O}$, assumendo ovunque il medesimo polo $\text{O}$, fisso in un sistema di riferimento inerziale); tale momento può essere scomposto nel risultante dei momenti delle forze interne e di quelle esterne, sempre rispetto al medesimo polo:
 $$ \vec{\tau}_{i}= \vec{\tau}_{i}^{(I)} + \vec{\tau}_{i}^{(E)} $$
 Sommando sull'indice $i$ i momenti risultanti delle forze interne otteniamo:
-$$ \vec{\tau}^{(I)} = \sum_{i = 1}^n \vec{\tau}_{i}^{(I)} = \sum_{i = 1}^n \vec{r} $$
+$$\begin{align}
+ \vec{\tau}^{(I)} = \sum_{i = 1}^n \vec{\tau}_{i}^{(I)} = \sum_{i = 1}^n \vec{r} \times \vec{F}_{i}^{(I)} = \sum_{i = 1}^n \underset{ j \neq i }{ \sum_{j = 1}^n } \vec{r}_{i} \times \vec{F}_{ij} =
+\end{align}$$
