@@ -60,4 +60,4 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 ![[centro di massa]]
 
 
-## Momento angolare, 
+## Momento angolare, [[seconda equazione cardinale della dinamica]] dei sistemi
