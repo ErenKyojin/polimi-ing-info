@@ -45,4 +45,5 @@ abbiamo quindi dimostrato il seguente:
 
 >[!oss]
 >Il centro di massa, dunque, descrive le proprietà globali del sistema per quanto riguarda la quantità di moto totale e la risultante delle forze esterne, ma non per quanto riguarda il momento angolare e l'energia cinetica. Infatti:
->$$ \vec{p} = M \cdot \vec{v}_{CM}\qquad \vec{F}^{(E)} = \frac{d\vec{p}}{dt}  $$
+>$$ \vec{p} = M \cdot \vec{v}_{CM}\qquad \vec{F}^{(E)} = \frac{d\vec{p}}{dt} = M \cdot \vec{a}_{CM} $$
+>$$ \vec{L}_{O} = \vec{L}_{O}^{(CM)} + \vec{L}'' $$
