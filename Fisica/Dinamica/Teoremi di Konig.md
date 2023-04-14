@@ -14,5 +14,6 @@ $$ \begin{align}
 &=\sum_{i = 1}^n \vec{r}_{i} \times m_{i}\vec{v}_{i}' + \sum_{i  =1}^n\vec{r}_{i}' \times m_{i}\vec{v}_{CM} +\sum_{i = 1}^n\vec{r}_{CM} \times m_{i}\vec{v}_{i}' + \sum_{i = 1}^n \vec{r}_{CM} \times m_{i}\vec{v}_{CM}
 \end{align}$$
 Osserviamo ora che:
-- $\sum_{i = 1}^n \vec{r}_{i}' \times m_{i}\vec{v}_{i} ' = \vec{L}_{O'}' = \vec{L}_{CM}'$ trovandosi l'origine $O'$ del SdR C nel CM
-- $\sum_{i = 1}^n \vec{r}_{i}' \times m_{i}\vec{v}_{CM} = \left( \displaysty\sum_{i = 1}^n \frac{m_{i}}{M} \right)$
+- $\displaystyle\sum_{i = 1}^n \vec{r}_{i}' \times m_{i}\vec{v}_{i} ' = \vec{L}_{O'}' = \vec{L}_{CM}'$ trovandosi l'origine $O'$ del SdR C nel CM
+- $\displaystyle\sum_{i = 1}^n \vec{r}_{i}' \times m_{i}\vec{v}_{CM} = \left( \displaystyle\sum_{i = 1}^n \frac{m_{i}}{M} \right) \times M\vec{v}_{CM} = \vec{r}_{CM}'$
+- 
