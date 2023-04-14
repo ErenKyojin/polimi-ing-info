@@ -41,4 +41,5 @@ abbiamo quindi dimostrato il seguente:
 
 >[!teorema] Secondo teorema di Konig
 >L'energia cinetica di un sistema di punti materiali rispetto ad un riferimento inerziale è pari alla somma dell'energia cinetica del centro di massa e dell'energia cinetica del sistema di punti rispetto al centro di massa (cioè nel sistema di riferimento $C$).
->$$ E_{c} = \frac{1}{2}Mv_{CM}^2 + \sum_{i = 1}^n \frac{1}{2} $$
+>$$ E_{c} = \frac{1}{2}Mv_{CM}^2 + \sum_{i = 1}^n \frac{1}{2}m_{i}v_{i}'^2 = E_{c}^{(CM)} + E_{C}'$$
+
