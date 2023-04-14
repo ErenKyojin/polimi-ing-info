@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/forza.md",
+                "file": "Fisica/Dinamica/massa.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "motivation/MOTIVAZIONE.md",
+                "file": "Fisica/Dinamica/massa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "motivation/MOTIVAZIONE.md",
+                "file": "Fisica/Dinamica/massa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "motivation/MOTIVAZIONE.md"
+                "file": "Fisica/Dinamica/massa.md"
               }
             }
           },
@@ -170,8 +169,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0b8307b5dc1882a6",
+  "active": "004837bc301800b8",
   "lastOpenFiles": [
+    "Fisica/Dinamica/leggi di keplero.md",
+    "Fisica/Dinamica/Linee di forza.md",
+    "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
+    "Fisica/Dinamica/Lavoro.md",
+    "Fisica/Dinamica/Joule.md",
+    "Fisica/Dinamica/inerzia.md",
+    "Fisica/Dinamica/impulso.md",
+    "Fisica/Dinamica/forze interne.md",
+    "Fisica/Dinamica/forze esterne.md",
+    "Fisica/Dinamica/forze elastiche.md",
+    "Fisica/Dinamica/forze di attrito.md",
+    "Fisica/Dinamica/forze conservative.md",
+    "Fisica/Dinamica/Forze centrali.md",
+    "motivation/MOTIVAZIONE.md",
     "snapshot.jpg",
     "Settings/Canvas/Untitled.canvas",
     "Settings/Canvas/Stabilità retroazione.canvas",
@@ -184,25 +197,12 @@
     "Fisica/Dinamica/teorema dell'impulso.md",
     "Fisica/Dinamica/rotazione della terra.md",
     "Fisica/Dinamica/momento angolare.md",
-    "Fisica/Dinamica/leggi di keplero.md",
     "Fisica/Dinamica/legge di gravitazione universale.md",
     "Fisica/Dinamica/legge di composizione delle velocità.md",
-    "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
-    "Fisica/Dinamica/forze interne.md",
-    "Fisica/Dinamica/forze esterne.md",
     "Fisica/Dinamica/forze apparenti.md",
     "Fisica/Dinamica/centro di massa.md",
     "Fisica/Dinamica/accelerazione di Coriolis.md",
     "Fisica/Dinamica/Velocità di fuga.md",
-    "Fisica/Dinamica/Sistemi di punti materiali.md",
-    "Fisica/Dinamica/Seconda equazione cardinale della dinamica.md",
-    "Fisica/Dinamica/Orbita geostazionaria.md",
-    "Fisica/Dinamica/Moto dei pianeti.md",
-    "Fisica/Dinamica/Momento.md",
-    "Fisica/Dinamica/Forze centrali.md",
-    "API/Teorema di rice.md",
-    "API/Teorema di Kleene del punto fisso.md",
-    "API/Ricorsivo.md",
     "motivation",
     "Untitled.canvas",
     "Untitled 1.canvas",
@@ -226,7 +226,6 @@
     "API/Canvas/MT nastro singolo.canvas",
     "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
     "Elettrotecnica/Immagini/Pasted image 20220830190156.png",
-    "Elettrotecnica/Immagini/Pasted image 20220830184532.png",
-    "Elettrotecnica/Immagini/Pasted image 20220830182705.png"
+    "Elettrotecnica/Immagini/Pasted image 20220830184532.png"
   ]
 }
