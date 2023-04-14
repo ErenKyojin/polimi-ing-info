@@ -44,4 +44,5 @@ abbiamo quindi dimostrato il seguente:
 >$$ E_{c} = \frac{1}{2}Mv_{CM}^2 + \sum_{i = 1}^n \frac{1}{2}m_{i}v_{i}'^2 = E_{c}^{(CM)} + E_{C}'$$
 
 >[!oss]
->Il centro di 
+>Il centro di massa, dunque, descrive le proprietà globali del sistema per quanto riguarda la quantità di moto totale e la risultante delle forze esterne, ma non per quanto riguarda il momento angolare e l'energia cinetica. Infatti:
+>$$ \vec{p} = M \cdot \vec{v}_{CM}\qquad \vec{F}^{(E)} = \frac{d\vec{p}}{dt}  $$
