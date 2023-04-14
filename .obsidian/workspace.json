@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
+                "file": "Fisica/Dinamica/energia meccanica.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
+                "file": "Fisica/Dinamica/energia meccanica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md",
+                "file": "Fisica/Dinamica/energia meccanica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/Sistemi di punti materiali.md"
+                "file": "Fisica/Dinamica/energia meccanica.md"
               }
             }
           },
@@ -184,6 +184,7 @@
   },
   "active": "55143440dfef2625",
   "lastOpenFiles": [
+    "Fisica/Dinamica/Sistemi di punti materiali.md",
     "Fisica/Dinamica/Teoremi di Konig.md",
     "Fisica/Dinamica/forze interne.md",
     "Fisica/Dinamica/massa.md",
@@ -215,7 +216,6 @@
     "Fisica/Dinamica/legge di gravitazione universale.md",
     "Fisica/Dinamica/legge di composizione delle velocità.md",
     "Fisica/Dinamica/forze apparenti.md",
-    "Fisica/Dinamica/centro di massa.md",
     "motivation",
     "Untitled.canvas",
     "Untitled 1.canvas",

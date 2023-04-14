@@ -11,5 +11,6 @@ modification date: 2023-03-26 18:14
 Si dimostra valere un risultato estremamente importante, ossia il [[teorema di conservazione dell'energia meccanica]]
 
 
+## Conservazione dell'energia meccanica nei sistemi
 
 
