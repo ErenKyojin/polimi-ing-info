@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Teorema di Kleene del punto fisso.md",
+                "file": "Fisica/Dinamica/energia meccanica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Teorema di Kleene del punto fisso.md",
+                "file": "Fisica/Dinamica/energia meccanica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Teorema di Kleene del punto fisso.md"
+                "file": "Fisica/Dinamica/energia meccanica.md"
               }
             }
           },
@@ -182,8 +182,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "65100a6877f4feb3",
+  "active": "55143440dfef2625",
   "lastOpenFiles": [
+    "API/Teorema di Kleene del punto fisso.md",
     "Fondamenti di automatica/Controllore in retroazione.md",
     "Fisica/Dinamica/energia meccanica.md",
     "Fisica/Dinamica/Sistemi di punti materiali.md",
@@ -215,7 +216,6 @@
     "Fisica/Dinamica/teorema dell'impulso.md",
     "Fisica/Dinamica/rotazione della terra.md",
     "Fisica/Dinamica/momento angolare.md",
-    "Fisica/Dinamica/legge di gravitazione universale.md",
     "motivation",
     "Untitled.canvas",
     "Untitled 1.canvas",
