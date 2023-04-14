@@ -19,3 +19,8 @@ $$ \mathcal{L}_{A_{i} \to B_{i},\gamma_{i}} = \int _{A_{i},\gamma_{i}}^{B_{i}} \
 dove $\vec{F}_{i} = \vec{F}_{i}^{(I)} + \vec{F}_{i}^{(E)}$ è la risultante delle [[forze interne]] ed esterne applicate al punti $i$-esimo. Sommando sull'indice $i$ si ottiene:
 $$ \mathcal{L}_{A \to B,\gamma} \triangleq \sum_{i = 1}^n \mathcal{L}_{A_{i} \to B_{i},\gamma_{i}}\! =\! \sum_{i=1}^n \Delta E_{c,i}(A_{i},B_{i})\! =\! \sum_{i = 1}^n E_{c,i}(B_{i}) - \sum_{i = 1}^n E_{c,i}(A_{i})\! =\! E_{c}(B) - E_{c}(A)\! =\! \Delta E_{c}(A,B)$$
 avendo ricordato la definizione di energia cinetica totale del sistema, data in precedenza.
+
+Concludiamo quindi che anche per i sistemi di punti materiali vale il seguente:
+
+>[!teorema] Teorema dell'energia cinetica
+>Se un sistema di punti passa da una configurazione $A$ ad una configurazione $B$, il lavoro compiuto da tutte 
