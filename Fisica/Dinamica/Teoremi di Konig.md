@@ -22,4 +22,4 @@ Osserviamo ora che:
 Abbiamo dimostrato il seguente teorema:
 
 >[!teorema] Primo teorema di Konig
->Il momento angolare di un sistema di punti material
+>Il momento angolare di un sistema di punti materiali in un riferimento inerziale è pari
