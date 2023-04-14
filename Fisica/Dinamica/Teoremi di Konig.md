@@ -16,5 +16,5 @@ $$ \begin{align}
 Osserviamo ora che:
 - $\displaystyle\sum_{i = 1}^n \vec{r}_{i}' \times m_{i}\vec{v}_{i} ' = \vec{L}_{O'}' = \vec{L}_{CM}'$ trovandosi l'origine $O'$ del SdR C nel CM
 - $\displaystyle\sum_{i = 1}^n \vec{r}_{i}' \times m_{i}\vec{v}_{CM} = \left( \displaystyle\sum_{i = 1}^n \frac{m_{i}}{M} \right) \times M\vec{v}_{CM} = \vec{r}_{CM}' \times \vec{v}_{CM} = 0$ essendo $\vec{r}_{CM}' = 0$ nel SdR C
-- $\displaystyle \sum_{i = 1}^n \vec{r}_{CM} \times m_{i}\vec{v}_{i}' = M\vec{r}_{CM} \times \sum_{i = 1}^n \dfrac{m_{i}}{M}$
-- 
+- $\displaystyle \sum_{i = 1}^n \vec{r}_{CM} \times m_{i}\vec{v}_{i}' = M\vec{r}_{CM} \times \sum_{i = 1}^n \dfrac{m_{i}}{M}\vec{v}_{i}' = M\vec{r}_{CM} \times \vec{v}_{CM}' = 0$, essendo $\vec{v}_{CM}' = 0$ nel SdR C
+- $$
