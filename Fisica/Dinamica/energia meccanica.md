@@ -15,5 +15,5 @@ Si dimostra valere un risultato estremamente importante, ossia il [[teorema di c
 
 ### Teorema dell'energia cinetica per i  sistemi
 Per ciascuno dei punti del sistema vale il teorema delle [[forza|forze]] vive o dell'[[energia cinetica]]
-$$ \mathcal{L}_{A_{i} \to B_{i},}$$
+$$ \mathcal{L}_{A_{i} \to B_{i},\gamma_{i}} = \int _{A_{i},\gamma_{i}}^{B_{i}} \!\vec{F}_{i} \, \cdot\mathrm{d}\vec{r} = \Delta E_{c,i}(A_{i},B_{i}) $$
 
