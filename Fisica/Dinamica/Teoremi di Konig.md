@@ -13,5 +13,6 @@ $$ \begin{align}
 \vec{L} &= \sum_{i = 1}^n \vec{r}_{i} \times m_{i}\vec{v}_{i} = \sum^n_{i = 1}(\vec{r}_{i} + \vec{r}_{CM}) \times m_{i}(\vec{v}_{i}' + \vec{v}_{CM}) =  \\
 &=\sum_{i = 1}^n \vec{r}_{i} \times m_{i}\vec{v}_{i}' + \sum_{i  =1}^n\vec{r}_{i}' \times m_{i}\vec{v}_{CM} +\sum_{i = 1}^n\vec{r}_{CM} \times m_{i}\vec{v}_{i}' + \sum_{i = 1}^n \vec{r}_{CM} \times m_{i}\vec{v}_{CM}
 \end{align}$$
-
+Osserviamo ora che:
+- $\displaystile\sum_{i = 1}^n \vec{r}_{i}' \times m_{i}\vec{v}_{i} ' = \vec{L}_{O'}' = \vec{L}_{CM}'$
 
