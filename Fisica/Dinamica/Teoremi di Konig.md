@@ -22,4 +22,5 @@ Osserviamo ora che:
 Abbiamo dimostrato il seguente teorema:
 
 >[!teorema] Primo teorema di Konig
->Il momento angolare di un sistema di punti materiali in un riferimento inerziale è pari
+>Il momento angolare di un sistema di punti materiali in un riferimento inerziale è pari alla somma del momento angolare del centro di massa e del momento angolare del sistema rispetto al centro di massa (cioè nel sistema di riferimento C)
+>$$ \vec{L}_{O} $$
