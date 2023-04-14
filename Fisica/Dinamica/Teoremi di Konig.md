@@ -49,4 +49,4 @@ abbiamo quindi dimostrato il seguente:
 >E si può dimostrare che
 >$$ \vec{L}_{O} = \vec{L}_{O}^{(CM)} + \vec{L}_{CM}'\qquad E_{c} = E_{c}^{(CM)} + E_{c}' $$
 
-Nelle precedenti equazioni $\vec{L}_{O}^{(CM)} = \vec{r}_{CM} \times M \vec{v}_{CM}$ e $E_{c}^{(CM)} = \frac{1}{2}Mv_{CM}^2$ sono ,rispettivamente
+Nelle precedenti equazioni $\vec{L}_{O}^{(CM)} = \vec{r}_{CM} \times M \vec{v}_{CM}$ e $E_{c}^{(CM)} = \frac{1}{2}Mv_{CM}^2$ sono, rispettivamente, il momento angolare e l'energia cinetica del centro di massa nel sistema di riferimento considerato, mentre $L$
