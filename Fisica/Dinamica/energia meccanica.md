@@ -28,3 +28,5 @@ Concludiamo quindi che anche per i sistemi di punti materiali vale il seguente:
 
 
 ## Energia potenziale interne
+Consideriamo un sistema di due punti materiali interagenti fra di loro e con l'esterno:
+$$ \vec{F}_{1} = \vec{F}_{12} + \vec{F}_{1}^{(E)}\qquad \vec{F}_{2} = \vec{F}_{21} + \vec{F}_{2}^{(E)}\qquad \vec{F}_{21} = -F $$
