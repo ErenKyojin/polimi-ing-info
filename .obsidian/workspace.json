@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Controllore in retroazione.md",
+                "file": "API/Teorema di Kleene del punto fisso.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/energia meccanica.md",
+                "file": "API/Teorema di Kleene del punto fisso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/energia meccanica.md",
+                "file": "API/Teorema di Kleene del punto fisso.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/energia meccanica.md"
+                "file": "API/Teorema di Kleene del punto fisso.md"
               }
             }
           },
@@ -182,8 +182,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "55143440dfef2625",
+  "active": "65100a6877f4feb3",
   "lastOpenFiles": [
+    "Fondamenti di automatica/Controllore in retroazione.md",
+    "Fisica/Dinamica/energia meccanica.md",
     "Fisica/Dinamica/Sistemi di punti materiali.md",
     "Fisica/Dinamica/Teoremi di Konig.md",
     "Fisica/Dinamica/forze interne.md",
@@ -214,8 +216,6 @@
     "Fisica/Dinamica/rotazione della terra.md",
     "Fisica/Dinamica/momento angolare.md",
     "Fisica/Dinamica/legge di gravitazione universale.md",
-    "Fisica/Dinamica/legge di composizione delle velocità.md",
-    "Fisica/Dinamica/forze apparenti.md",
     "motivation",
     "Untitled.canvas",
     "Untitled 1.canvas",
