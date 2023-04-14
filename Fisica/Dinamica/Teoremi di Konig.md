@@ -4,6 +4,8 @@ creation date: 2023-04-14 10:34
 modification date: 2023-04-14 10:34
 ---
 
+## Primo teorema di Konig
+
 Consideriamo un SdR solidale con il [[centro di massa]], con l'origine in esso e con orientazione fissa rispetto ad un sistema inerziale (un tale SdR è detto SdR C), il suo [[moto di trascinamento]]  è traslatorio puro.
 Le leggi di composizione del vettore posizione e del vettore velocità per l'$i$-esimo punto sono:
 $$ \vec{r}_{i} = \vec{r}_{i}' + \vec{r}_{CM}\qquad \vec{v}_{i} = \vec{v}_{i}' + \vec{v}_{CM}$$
@@ -23,4 +25,8 @@ Abbiamo dimostrato il seguente teorema:
 
 >[!teorema] Primo teorema di Konig
 >Il momento angolare di un sistema di punti materiali in un riferimento inerziale è pari alla somma del momento angolare del centro di massa e del momento angolare del sistema rispetto al centro di massa (cioè nel sistema di riferimento C)
->$$ \vec{L}_{O} $$
+>$$ \vec{L}_{O} = \vec{L}_{O}^{(CM)} + \vec{L}_{CM}' $$
+
+
+## Secondo teorema di Konig
+In modo analogo possiamo 
