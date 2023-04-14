@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/massa.md",
+                "file": "Fisica/Dinamica/forze interne.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55143440dfef2625",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica/Dinamica/Teoremi di Konig.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/massa.md",
+                "file": "Fisica/Dinamica/Teoremi di Konig.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/massa.md",
+                "file": "Fisica/Dinamica/Teoremi di Konig.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/massa.md"
+                "file": "Fisica/Dinamica/Teoremi di Konig.md"
               }
             }
           },
@@ -169,8 +182,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "004837bc301800b8",
+  "active": "55143440dfef2625",
   "lastOpenFiles": [
+    "Fisica/Dinamica/forze interne.md",
+    "Fisica/Dinamica/Teoremi di Konig.md",
+    "Fisica/Dinamica/massa.md",
     "Fisica/Dinamica/leggi di keplero.md",
     "Fisica/Dinamica/Linee di forza.md",
     "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
@@ -178,7 +194,6 @@
     "Fisica/Dinamica/Joule.md",
     "Fisica/Dinamica/inerzia.md",
     "Fisica/Dinamica/impulso.md",
-    "Fisica/Dinamica/forze interne.md",
     "Fisica/Dinamica/forze esterne.md",
     "Fisica/Dinamica/forze elastiche.md",
     "Fisica/Dinamica/forze di attrito.md",
@@ -201,8 +216,6 @@
     "Fisica/Dinamica/legge di composizione delle velocità.md",
     "Fisica/Dinamica/forze apparenti.md",
     "Fisica/Dinamica/centro di massa.md",
-    "Fisica/Dinamica/accelerazione di Coriolis.md",
-    "Fisica/Dinamica/Velocità di fuga.md",
     "motivation",
     "Untitled.canvas",
     "Untitled 1.canvas",
