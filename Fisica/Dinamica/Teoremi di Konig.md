@@ -33,5 +33,5 @@ In modo analogo possiamo calcolare l'energia cinetica del sistema nel riferiment
 $$ \begin{align}
 E_{c}  & = \sum_{i = 1}^n \frac{1}{2}m_{i}v_{i}^2 = \sum_{i = 1}^n \frac{1}{2}m_{i}\vec{v}_{i} \cdot \vec{v}_{i} = \sum_{i = 1}^n \frac{1}{2}m_{i}(\vec{v}_{i}' + \vec{v}_{CM}) \cdot (\vec{v}_{i}' + \vec{v}_{CM})
  \\
-&= \sum_{i = 1}^n \frac{1}{2 } m_{i}\left( v_{i}'^2 + v_{CM}^2 + 2\vec{v}_{i}' \cdot \vec{v}_{CM}  \right) = \sum_{i = 1}^n \frac{1}{2}m_{i}v_{i}'^2 + \frac{1}{2 }
+&= \sum_{i = 1}^n \frac{1}{2 } m_{i}\left( v_{i}'^2 + v_{CM}^2 + 2\vec{v}_{i}' \cdot \vec{v}_{CM}  \right) = \sum_{i = 1}^n \frac{1}{2}m_{i}v_{i}'^2 + \frac{1}{2}Mv^2_{CM} + \vec{v}_{CM} \cdot \sum_{i = 1}^n m_{i}\vec{v}_{i}'
 \end{align} $$
