@@ -37,4 +37,7 @@ $$\mathcal{L}^{(I)} = \mathcal{L}_{1,2}^{(I)} = \int _{A}^{B} \!\vec{F}_{12} \cd
 Se le forze interne sono conservative avremo
 $$ \mathcal{L}_{1,2}^{(I)} = \int _{A}^B \!\vec{F}_{12} \cdot \mathrm{d}\vec{r}_{12} = E_{p_{12}}(A) - E_{p_{12}}(B)  $$
 Più in generale, in un sistema di $n$ punti materiali, il lavoro compiuto dalle forze interne è una sommatoria (doppia) del tipo
-$$ \mathcal{L}^{(I)} - \underset{ j > i }{ \sum_{i,j} } \mathcal{L}_{ij}^{(I)} = \underset{j > i}{\sum_{i,j}} \int _{A}^B \vec{F}_{ij} \cdot  \! \, \mathrm{d}x  $$
+$$ \mathcal{L}^{(I)} - \underset{ j > i }{ \sum_{i,j} } \mathcal{L}_{ij}^{(I)} = \underset{j > i}{\sum_{i,j}} \int _{A}^B  \! \vec{F}_{ij} \cdot \, \mathrm{d}\vec{r}_{ij}  $$
+
+>[!oss]
+>Per un sistema
