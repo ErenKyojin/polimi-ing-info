@@ -48,4 +48,5 @@ abbiamo quindi dimostrato il seguente:
 >$$ \vec{p} = M \cdot \vec{v}_{CM}\qquad \vec{F}^{(E)} = \frac{d\vec{p}}{dt} = M \cdot \vec{a}_{CM} $$
 >E si può dimostrare che
 >$$ \vec{L}_{O} = \vec{L}_{O}^{(CM)} + \vec{L}_{CM}'\qquad E_{c} = E_{c}^{(CM)} + E_{c}' $$
->Nelle precedenti quazioni
+
+Nelle precedenti equazioni $\vec{L}_{O}^{(CM)} = \vec{r}_{CM} \times M \vec{v}_{CM}$ e $E_{c}^{(CM)} = \frac{1}{2}Mv_{CM}^2$ sono ,rispettivamente
