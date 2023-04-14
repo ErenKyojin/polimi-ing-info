@@ -35,4 +35,6 @@ $$ L\! \equiv\! \mathcal{L}_{1} + \mathcal{L}_{2}\! =\!\!\! \int _{A}^B \!\!\!\!
 Il lavoro compiuto dalle forze interne è:
 $$\mathcal{L}^{(I)} = \mathcal{L}_{1,2}^{(I)} = \int _{A}^{B} \!\vec{F}_{12} \cdot (\mathrm{d}\vec{r}_{1} - \mathrm{d}\vec{r}_{2}) = \int _{A}^B \!\vec{F}_{12} \cdot \, \mathrm{d}\vec{r}_{12} $$
 Se le forze interne sono conservative avremo
-$$ \mathcal{L}_{1,2}^{(I)} = \int _{A}^B \!\vec{F}_{12} \cdot \mathrm{d}\vec{r}_{12}   $$
+$$ \mathcal{L}_{1,2}^{(I)} = \int _{A}^B \!\vec{F}_{12} \cdot \mathrm{d}\vec{r}_{12} = E_{p_{12}}(A) - E_{p_{12}}(B)  $$
+Più in generale, in un sistema di $n$ punti materiali, il lavoro compiuto dalle forze interne è una sommatoria (doppia) del tipo
+$$ \mathcal{L}^{(I)} - s $$
