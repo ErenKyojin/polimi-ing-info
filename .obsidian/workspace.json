@@ -1,93 +1,52 @@
 {
   "main": {
-    "id": "ca62898cd36bc99b",
+    "id": "9b2eadd7869e132d",
     "type": "split",
     "children": [
       {
-        "id": "c5146b8a11addd28",
+        "id": "86f4037fd29ab4ea",
         "type": "tabs",
         "children": [
           {
-            "id": "c4bc65890bd0bc23",
+            "id": "004837bc301800b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/leggi di keplero.md",
+                "file": "Fisica/Dinamica/forza.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "0feec0202f8a7f7f",
+            "id": "65100a6877f4feb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/Velocità di fuga.md",
+                "file": "Fondamenti di automatica/Controllore in retroazione.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8fba285c08161de6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/Dinamica/Orbita geostazionaria.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e8ab5caa68a9fa0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Elettrotecnica/Energia cinetica.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3376126b21196b40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fisica/Dinamica/Moto dei pianeti.md",
-                "mode": "source",
-                "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "76dce066478fd383",
+    "id": "9f5c6b3893e4dcb8",
     "type": "split",
     "children": [
       {
-        "id": "aefa20faf552eb40",
+        "id": "1db73f2abdac6724",
         "type": "tabs",
         "children": [
           {
-            "id": "b276f1e55d5aea15",
+            "id": "0b8307b5dc1882a6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -97,24 +56,12 @@
             }
           },
           {
-            "id": "540b351f17ef6673",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Elettrotecnica/Energia cinetica.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "d8d248d27ec6ffce",
+            "id": "fd5a7104086bfe35",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "massa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -124,35 +71,34 @@
             }
           },
           {
-            "id": "29f61e4a0dfff3d5",
+            "id": "41c2995316669fe3",
             "type": "leaf",
             "state": {
               "type": "starred",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 243.5
   },
   "right": {
-    "id": "91714e1f9845590a",
+    "id": "9c3eb73275ba1585",
     "type": "split",
     "children": [
       {
-        "id": "2abcb2c5e30cf92f",
+        "id": "ecb8ddbbc9cbc07d",
         "type": "tabs",
         "children": [
           {
-            "id": "22120b36924554d0",
+            "id": "2f14bef597613144",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elettrotecnica/Energia cinetica.md",
+                "file": "motivation/MOTIVAZIONE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +110,19 @@
             }
           },
           {
-            "id": "9d2bc52da7ff6bdd",
+            "id": "e482e98321e71fe8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "motivation/MOTIVAZIONE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "96e8e0118cfdf7fc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -175,90 +133,100 @@
             }
           },
           {
-            "id": "9c098adaaabbab7d",
+            "id": "37a1e71b0a2ec27e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elettrotecnica/Energia cinetica.md"
+                "file": "motivation/MOTIVAZIONE.md"
               }
             }
           },
           {
-            "id": "26a96da3225af1e4",
+            "id": "0043ce218182ffec",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "652955cc135c1230",
-            "type": "leaf",
-            "state": {
-              "type": "workbench-items",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 559.5
+    "width": 240.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-flexible-pomo:Start Pomodoro": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e8ab5caa68a9fa0d",
+  "active": "0b8307b5dc1882a6",
   "lastOpenFiles": [
-    "Fisica/Dinamica/Sistemi di punti materiali.md",
-    "Elettrotecnica/Energia cinetica.md",
-    "Fisica/Dinamica/momento angolare.md",
-    "Fisica/Dinamica/Momento.md",
-    "Fisica/Dinamica/centro di massa.md",
-    "Fisica/Dinamica/Orbita geostazionaria.md",
-    "Fisica/Dinamica/teorema dell'impulso.md",
-    "Fisica/Dinamica/Quantità di moto.md",
-    "Fisica/Dinamica/leggi di keplero.md",
-    "Fisica/Dinamica/Velocità di fuga.md",
-    "API/Teorema di rice.md",
-    "Fisica/Dinamica/forze esterne.md",
-    "Fisica/Dinamica/forze interne.md",
-    "Day Planners/2023-04-12.md",
-    "Fisica/Dinamica/Moto dei pianeti.md",
-    "Fisica/Dinamica/Energia potenziale.md",
-    "Fisica/Dinamica/forza gravitazionale.md",
-    "Fisica/Dinamica/legge di gravitazione universale.md",
-    "Fisica/Dinamica/massa.md",
-    "API/Teoria del calcolo.md",
-    "API/Teorema di Kleene del punto fisso.md",
-    "API/Ricorsivamente enumerabile.md",
-    "API/Ricorsivo.md",
-    "Untitled.md",
-    "Day Planners/2023-04-11.md",
-    "Settings/Canvas",
-    "API/Funzione caratteristica.md",
-    "Day Planners",
     "snapshot.jpg",
-    "Settings/Canvas/Cp.canvas",
-    "Probabilità e statistica/Canvas/Probabilità totali.canvas",
-    "Pasted image 20230330135642.png",
-    "Settings/Allegati/Untitled 1.canvas",
-    "Settings/Canvas/Stabilità retroazione.canvas",
     "Settings/Canvas/Untitled.canvas",
+    "Settings/Canvas/Stabilità retroazione.canvas",
+    "Settings/Canvas/Cp.canvas",
+    "Settings/Canvas",
+    "Settings/Allegati/Untitled 1.canvas",
+    "Fisica/Dinamica/velocità relativa.md",
+    "Fisica/Dinamica/velocità di trascinamento.md",
+    "Fisica/Dinamica/velocità assoluta.md",
+    "Fisica/Dinamica/teorema dell'impulso.md",
+    "Fisica/Dinamica/rotazione della terra.md",
+    "Fisica/Dinamica/momento angolare.md",
+    "Fisica/Dinamica/leggi di keplero.md",
+    "Fisica/Dinamica/legge di gravitazione universale.md",
+    "Fisica/Dinamica/legge di composizione delle velocità.md",
+    "Fisica/Dinamica/legge di composizione delle accelerazioni.md",
+    "Fisica/Dinamica/forze interne.md",
+    "Fisica/Dinamica/forze esterne.md",
+    "Fisica/Dinamica/forze apparenti.md",
+    "Fisica/Dinamica/centro di massa.md",
+    "Fisica/Dinamica/accelerazione di Coriolis.md",
+    "Fisica/Dinamica/Velocità di fuga.md",
+    "Fisica/Dinamica/Sistemi di punti materiali.md",
+    "Fisica/Dinamica/Seconda equazione cardinale della dinamica.md",
+    "Fisica/Dinamica/Orbita geostazionaria.md",
+    "Fisica/Dinamica/Moto dei pianeti.md",
+    "Fisica/Dinamica/Momento.md",
+    "Fisica/Dinamica/Forze centrali.md",
+    "API/Teorema di rice.md",
+    "API/Teorema di Kleene del punto fisso.md",
+    "API/Ricorsivo.md",
+    "motivation",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Stabilità retroazione.canvas",
+    "Pasted image 20230330135642.png",
     "Pasted Image 20230327111947_463.png",
-    "Pasted Image 20230327111802_028.jpg"
+    "Pasted Image 20230327111802_028.jpg",
+    "Cp.canvas",
+    "Logica e algebra",
+    "Fisica/Dinamica",
+    "Fisica/Cinematica",
+    "API/Esercitazioni",
+    "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
+    "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
+    "Settings/Allegati/Pasted Image 20230320113426_622.png",
+    "Settings/Allegati",
+    "Excalidraw",
+    "Fondamenti di automatica/Esercizi",
+    "Probabilità e statistica/Esercizi",
+    "Fondamenti di automatica/canvas/Segnali.canvas",
+    "API/Canvas/MT nastro singolo.canvas",
+    "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
+    "Elettrotecnica/Immagini/Pasted image 20220830190156.png",
+    "Elettrotecnica/Immagini/Pasted image 20220830184532.png",
+    "Elettrotecnica/Immagini/Pasted image 20220830182705.png"
   ]
 }
