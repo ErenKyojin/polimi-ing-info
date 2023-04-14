@@ -11,6 +11,9 @@ modification date: 2023-03-26 18:14
 Si dimostra valere un risultato estremamente importante, ossia il [[teorema di conservazione dell'energia meccanica]]
 
 
-## Conservazione dell'energia meccanica nei sistemi
+## Conservazione dell'energia meccanica nei [[sistemi di punti materiali]]
 
+### Teorema dell'energia cinetica per i  sistemi
+Per ciascuno dei punti del sistema vale il teorema delle [[forza|forze]] vive o dell'[[energia cinetica]]
+$$ \mathcal{L}_{A_{i} \to B_{i},}$$
 
