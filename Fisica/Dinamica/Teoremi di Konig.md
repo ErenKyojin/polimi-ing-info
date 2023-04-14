@@ -29,4 +29,7 @@ Abbiamo dimostrato il seguente teorema:
 
 
 ## Secondo teorema di Konig
-In modo analogo possiamo 
+In modo analogo possiamo calcolare l'energia cinetica del sistema nel riferimento inerziale
+$$ \begin{align}
+E_{c}  & = \sum
+\end{align} $$
