@@ -45,4 +45,4 @@ int h(int x){
 >
 >In realtà, rigorosamente parlando, si tratta piuttosto di un lemma che di un corollario, esso costituisce il cuore della dimostrazione del teorema precedente. Di per se l'enunciato non significa molto, è però importante menzionarlo per sottolineare che il suo enunciato non può essere ricavato come conseguenza immediata del teorema precedent.e
 
-Non possiamo calcolare quindi in alcun modo se un programma termini o meno sotto ogni circostanz
+Non possiamo calcolare quindi in alcun modo se un programma termini o meno sotto ogni circostanza
