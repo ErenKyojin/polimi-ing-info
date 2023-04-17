@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/energia meccanica.md",
+                "file": "Fisica/Dinamica/forze di attrito.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/energia meccanica.md",
+                "file": "Fisica/Dinamica/forze di attrito.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/energia meccanica.md",
+                "file": "Fisica/Dinamica/forze di attrito.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/energia meccanica.md"
+                "file": "Fisica/Dinamica/forze di attrito.md"
               }
             }
           },
@@ -188,9 +188,9 @@
   },
   "active": "55143440dfef2625",
   "lastOpenFiles": [
+    "Fisica/Dinamica/energia meccanica.md",
     "API/Teorema di Kleene del punto fisso.md",
     "Fondamenti di automatica/Controllore in retroazione.md",
-    "Fisica/Dinamica/energia meccanica.md",
     "Fisica/Dinamica/Sistemi di punti materiali.md",
     "Fisica/Dinamica/Teoremi di Konig.md",
     "Fisica/Dinamica/forze interne.md",
