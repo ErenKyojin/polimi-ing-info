@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fisica/Dinamica/forze interne.md",
+                "file": "API/Configurazione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fisica/Dinamica/forze interne.md",
+                "file": "API/Configurazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fisica/Dinamica/forze interne.md",
+                "file": "API/Configurazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fisica/Dinamica/forze interne.md"
+                "file": "API/Configurazione.md"
               }
             }
           },
@@ -187,6 +187,8 @@
   },
   "active": "004837bc301800b8",
   "lastOpenFiles": [
+    "API/stringa.md",
+    "Fisica/Dinamica/forze interne.md",
     "API/problema dell'halt.md",
     "API/push.md",
     "API/Complessità spaziale.md",
@@ -196,7 +198,6 @@
     "Fondamenti di automatica/Controllore in retroazione.md",
     "Fisica/Dinamica/Sistemi di punti materiali.md",
     "Fisica/Dinamica/Teoremi di Konig.md",
-    "Fisica/Dinamica/forze interne.md",
     "Fisica/Dinamica/massa.md",
     "Fisica/Dinamica/leggi di keplero.md",
     "Fisica/Dinamica/Linee di forza.md",
@@ -218,7 +219,6 @@
     "Settings/Allegati/Untitled 1.canvas",
     "Fisica/Dinamica/velocità relativa.md",
     "Fisica/Dinamica/velocità di trascinamento.md",
-    "Fisica/Dinamica/velocità assoluta.md",
     "motivation",
     "Untitled.canvas",
     "Untitled 1.canvas",
