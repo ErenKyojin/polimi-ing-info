@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/Configurazione.md",
+                "file": "API/Ricorsivamente enumerabile.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Configurazione.md",
+                "file": "API/Ricorsivamente enumerabile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Configurazione.md",
+                "file": "API/Ricorsivamente enumerabile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Configurazione.md"
+                "file": "API/Ricorsivamente enumerabile.md"
               }
             }
           },
@@ -187,10 +187,15 @@
   },
   "active": "004837bc301800b8",
   "lastOpenFiles": [
-    "API/stringa.md",
-    "Fisica/Dinamica/forze interne.md",
     "API/problema dell'halt.md",
     "API/push.md",
+    "API/pop.md",
+    "API/Modelli generativi/Grammatiche.md",
+    "API/Modelli generativi/Modelli generativi.md",
+    "API/Funzione caratteristica.md",
+    "API/Configurazione.md",
+    "API/stringa.md",
+    "Fisica/Dinamica/forze interne.md",
     "API/Complessità spaziale.md",
     "Fisica/Dinamica/forze di attrito.md",
     "Fisica/Dinamica/energia meccanica.md",
@@ -208,17 +213,12 @@
     "Fisica/Dinamica/impulso.md",
     "Fisica/Dinamica/forze esterne.md",
     "Fisica/Dinamica/forze elastiche.md",
-    "Fisica/Dinamica/forze conservative.md",
-    "Fisica/Dinamica/Forze centrali.md",
-    "motivation/MOTIVAZIONE.md",
     "snapshot.jpg",
     "Settings/Canvas/Untitled.canvas",
     "Settings/Canvas/Stabilità retroazione.canvas",
     "Settings/Canvas/Cp.canvas",
     "Settings/Canvas",
     "Settings/Allegati/Untitled 1.canvas",
-    "Fisica/Dinamica/velocità relativa.md",
-    "Fisica/Dinamica/velocità di trascinamento.md",
     "motivation",
     "Untitled.canvas",
     "Untitled 1.canvas",
