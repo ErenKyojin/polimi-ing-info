@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/problema dell'halt.md",
+                "file": "Fisica/Dinamica/forze interne.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/problema dell'halt.md",
+                "file": "Fisica/Dinamica/forze interne.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/problema dell'halt.md"
+                "file": "Fisica/Dinamica/forze interne.md"
               }
             }
           },
@@ -186,8 +185,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "55143440dfef2625",
+  "active": "004837bc301800b8",
   "lastOpenFiles": [
+    "API/problema dell'halt.md",
     "API/push.md",
     "API/Complessità spaziale.md",
     "Fisica/Dinamica/forze di attrito.md",
@@ -219,7 +219,6 @@
     "Fisica/Dinamica/velocità relativa.md",
     "Fisica/Dinamica/velocità di trascinamento.md",
     "Fisica/Dinamica/velocità assoluta.md",
-    "Fisica/Dinamica/teorema dell'impulso.md",
     "motivation",
     "Untitled.canvas",
     "Untitled 1.canvas",
