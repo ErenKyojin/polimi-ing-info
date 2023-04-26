@@ -519,3 +519,6 @@ $\lim_{ n \to \infty } \dfrac{g(n)}{f(n)} = \lim_{ n \to \infty }\left( \frac{e}
 Non vale la stessa cosa che nei logaritmi, la base importa per gli esponenziali
 
 #### 3. $f(n) = n^n\qquad g(n) = e^n$
+$g$ maggiore per tutti gli $n$ maggiori di $2$, quindi:
+$g(n) = O(n^n)$
+$\lim_{ n \to \infty } \frac{n^n}{e^n} = +\infty$
