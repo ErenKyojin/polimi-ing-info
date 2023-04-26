@@ -6,7 +6,10 @@ modification date: 2023-04-26 10:39
 
 Ibrido significa un pezzo a TC ed un pezzo a TD.
 
-
+indichiamo con \* tempo discreto.
+| TD (k intero) | TC (t reale) |
+| ------------- | ------------ |
+|               |              |
 
 
 
