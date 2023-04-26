@@ -540,4 +540,5 @@ $$ \lim_{ n \to \infty } \frac{n^{10}2^n}{(5/ 2)^n}= \lim_{ _n  \to \infty } \fr
 
 ## Complessità in una macchina di Turing
 
-Se in una mossa sposto mille nastri i
+- Se in una mossa sposto mille nastri il tempo è uguale a spostarne uno in una mossa
+- L'input in una macchina a nastro singolo occupa tutta la memoria, qualsiasi porzion
