@@ -82,5 +82,7 @@ Motivazioni: $A^*$ e $B^*$ possono essere difficili da calcolare e come per il M
 
 L'idea è quindi di sostituire approssimativamente la derivata temporale con il rapporto incrementale.
 
+#todo 
 
+Metodo di eulero esplicito
 
