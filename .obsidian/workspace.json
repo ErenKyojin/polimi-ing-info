@@ -105,7 +105,7 @@
               "state": {
                 "file": "Logica e algebra/Algebra/Relazioni.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -130,7 +130,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,7 +151,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a093c0bb80f33fe",
+  "active": "dbb2b98954a5b4e4",
   "lastOpenFiles": [
     "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra",
