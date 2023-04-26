@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bc7dc0b436ea1441",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fondamenti di automatica/Untitled.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Schemi a blocchi.md",
+                "file": "Fondamenti di automatica/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Schemi a blocchi.md",
+                "file": "Fondamenti di automatica/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Schemi a blocchi.md"
+                "file": "Fondamenti di automatica/Untitled.md"
               }
             }
           }
@@ -151,10 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bafc455fe630b44c",
+  "active": "bc7dc0b436ea1441",
   "lastOpenFiles": [
-    "Fondamenti di automatica/Stabilità.md",
     "Fondamenti di automatica/Schemi a blocchi.md",
+    "Fondamenti di automatica/Untitled.md",
+    "Fondamenti di automatica/Stabilità.md",
     "Fondamenti di automatica/Trasformate zeta notevoli.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
     "Logica e algebra/Algebra/grafo di incidenza.md",
