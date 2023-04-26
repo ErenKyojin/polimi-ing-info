@@ -553,5 +553,6 @@ In memoria avremo la codifica binaria, ossia $S(m) = \Theta(\log_{2}(n))$
 Consideriamo invece il tempo, piú complesso, dividendo le due fasi. Il peggior caso del controllo è dover leggerlo tutto, ossia $\Theta(\log(n))$. Per la prima fase invece facciamo sicuramente tre tansizioni fisse, piú un numero di autoanelli per i riporti.
 
 All'inizio un riporto, poi tra due e 8 due riporti, poi 3 riporti... quindi:
-$$ T(m) \leq \log(m) + \sum_{i = 1}^m (3 + 2\log(i)) = \log(m) + 3m +2\log\left( \prod \right) $$
+$$ T(m) \leq \log(m) + \sum_{i = 1}^m (3 + 2\log(i)) = \log(m) + 3m +2\log\left( \prod_{i=1}^m i \right)=\log(m) + 3m + 2\log(m!) $$
+$$  $$
 con $\log(i)$ numero memorizzato in memoria.
