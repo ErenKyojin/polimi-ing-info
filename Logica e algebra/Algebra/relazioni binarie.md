@@ -83,4 +83,4 @@ $$
 Si può effettuare il prodotto di matrici e si ottiene la matrice $\begin{bmatrix}1 & 1\\2 & 0\\0 & 0\end{bmatrix}$ che, con la solita convenzione di porre uguale ad $1$ tutti gli elementi maggiori di $0$, è proprio la matrice di incidenza di $R \cdot T$, infatti l'elemento di posto $(i,k)$ di questa matrice è diverso da $0$ se e solo se esiste un $j$ tale che l'elemento di posto $(i,j)$ di $M_{R}$ e l'elemento di posto $(j,k)$ di $M_{T}$ siano entrambi non nulli.
 Notiamo anche che la presenza di un $t > 1$ nel osto $(i,k)$ della matrice implica che ci sono $t$ diversi elementi dell'insieme $A_{2}$ che possono servire da collegamento nel prodotto.
 In questo esempio abbiamo $2$ nel posto $(2,1)$ perchè possiamo arrivare ad $h$ da $b$ attraverso due percorsi diversi $x,z$:
-$$ b\ R\ x $$
+$$ b\ R\ x \quad\text{ e }\quad x\ T\ h\qquad,\qquad b\ R\ z\quad \text{e}\quad z\ T\ h $$
