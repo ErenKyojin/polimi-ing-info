@@ -13,3 +13,4 @@ Se $n = 1$, il prodotto cartesiano si riduce ad $A_{1}$.
 Si chiama relazione $R$ ($n$-aria o di arità $n$) fra gli $n$ insiemi $A_{1},A_{2},\dots,A_{n}$ un qualsiasi sottoinsieme di $A_{1} \times A_{2} \times \dots A_{n}$.
 
 Siano $R \subseteq A_{1} \times A_{2} \times \dots A_{n}$ e $T \subseteq A_{1} \times A_{2} \times \dots A_{n}$ due relazioni fra gli $n$ insiemi $A_{1},A_{2},\dots,A_{n}$. Dalle definizioni insiemistiche si ha:
+- $R \subseteq T$ sse per ogni $(a_{1},a_{2},\dots,a_{n}) \in R$ si ha $(a_{1},a_{2},\dots,a_{n})$
