@@ -31,12 +31,13 @@ Noi progettiamo $R(s)$ pensando allo schema a TC
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw[->] (0,0) -- ++ (1,0) node[]{$\bullet$} -- ++ (1,0);
+\draw[->] (0,0) node[left]{$w(t)$} -- ++ (1,0) node[scale = .3]{$\bullet$} -- ++ (1,0);
 \draw(2,-.5) rectangle (3,.5)node[midway]{$R(s)$};
 \draw[->] (3,0) -- ++ (1,0) node[midway,above]{$u(t)$};
 \draw[] (4,-0.5) rectangle (5,.5)node[midway]{$P(s)$};
 \draw[->] (5,0) -- ++ (1,0) node[right]{$y(t)$};
-\draw[] (5.5,0) -- ++ (0,-1) -- ++ (-4.5,0) ;
+\draw[->] (5.5,0) -- ++ (0,-1) -- ++ (-4.5,0) -- ++ (0,1);
 \end{tikzpicture}
 \end{document}
 ```
+che è appunto tutto a TCe poi dobbiamo ottenere $R^$
