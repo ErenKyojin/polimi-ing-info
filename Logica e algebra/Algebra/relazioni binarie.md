@@ -22,5 +22,5 @@ Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, A_{3} = \{ h,k \}, R = \{ (a,
 $T = \{ (x,h),(z,h),(w,k) \}$
 Calcoliamo $R \cdot T$, si ha:
 - $(a,h) \in R \cdot T$ in quanto esiste $x$ tale che $(a,x) \in R$ e $(x,h) \in T$
-- $(a,k) \in R \cdot T$ in quanto esiste $w$ tale che $(a,w) \in R$ e $(w,h) \in T$
-- $(b,h) \in R \cdot T$ in quanto esiste $x$ tale che $(a,w) \in R$ e $(w,h) \in T$
+- $(a,k) \in R \cdot T$ in quanto esiste $w$ tale che $(a,w) \in R$ e $(w,k) \in T$
+- $(b,h) \in R \cdot T$ in quanto esiste $x$ tale che $(b,x) \in R$ e $(x,h) \in T$
