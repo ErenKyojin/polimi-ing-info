@@ -92,4 +92,5 @@ Il prodotto di rileazioni gode delle seguenti proprietà:
   Ossia che $(a_{1},a_{4}) \in (R\cdot T)\cdot S$ implica $(a_{1},a_{4} )\in R \cdot (T\cdot S)$.
   Per definizione $(a_{1},a_{4}) \in (R\cdot T)\cdot S$ implica che esiste un $a_{3}$ tale che $(a_{1},a_{3} \in R\cdot T)$ e $(a_{3},a_{4} \in S)$.
   Ancora per definizione $(a_{1},a_{3}) \in R \cdot T$ implica che esiste un $a_{2}$ tale che $(a_{1},a_{2} \in R)$ e $(a_{2},a_{3} )\in T$
-  Ora $(a_{2},a_{3}) \in T$
+  Ora $(a_{2},a_{3}) \in T$ e $(a_{3},a_{4}) \in S$ implicano $(a_{2},a_{4}) \in T \cdot S$ e questa con $(a_{1},a_{2}) \in R$ implica $(a_{1},a_{4}) \in R \cdot (T\cdot S)$
+  Analogamente si dimostra che $R\cdot(T\cdot S) \subseteq (R\cdot T)\cdot S$ cioè che $(a_{1},a_{4}) \in R\cdot(T\cdot S)$
