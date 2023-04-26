@@ -12,4 +12,4 @@ modification date: 2023-04-26 15:11
 - $n = O(n)\qquad c =1, n_{0}=1$
 - $2n = O(n)\quad c = \frac{1}{2},n_{0}=1$
 - $n = O(n^2)\quad c = 1. n_{0}=1$
-- $10$
+- $10^{100} = O(n^2)\quad c=1, n_{0} = 10^{100}$
