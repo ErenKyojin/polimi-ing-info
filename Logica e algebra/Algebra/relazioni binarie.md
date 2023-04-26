@@ -18,4 +18,7 @@ Siano ora date le relazioni $R \subseteq A_{1} \times A_{2}$ e $T \subseteq A_{2
 $$ R \cdot T = \{ (a_{1},a_{3}) | \exists a_{2} : (a_{1},a_{2}) \in R \text{ e } (a_{2},a_{3}) \in T \} $$
 (per come sono definite le relazioni $R$ e $T$, $(a_{1},a_{2}) \in R$ e $(a_{2},a_{3}) \in T$ implicano $a_{1} \in A_{1}, a_{2} \in A_{2}, a_{3} \in A_{3}$) 
 
-Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, A_{3} = \{ h,k \}, R = \{ (a,x),(a_{2) \}$
+Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, A_{3} = \{ h,k \}, R = \{ (a,x),(a,w),(b,x),(b,y),(b,z) \}$
+$T = \{ (x,h),(z,h),(w,k) \}$
+Calcoliamo $R \cdot T$, si ha:
+- $(a,h) \in R \cdot T$ in quanto esiste $$
