@@ -515,4 +515,5 @@ La base non cambia l'efficenza del logaritmo!!
 $f(n) = O(g(n))$
 
 È vero che $g(n) = O(f(n))?$
-$\lim_{ n \to \infty } \frac{g(n)}{f}$
+$\lim_{ n \to \infty } \dfrac{g(n)}{f(n)} = \lim_{ n \to \infty }\left( \frac{e}{2} \right)^n = +\infty$
+Non vale la stessa cosa che nei logaritmi, la base importa per gli esponenziali
