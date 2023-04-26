@@ -496,6 +496,10 @@ $f(n)$ è il tempo/spazio richiesto nel caso pessimo da un input di Lunghezza (b
 
 esempio
 $f(n) = n(n-1)+3$
-Non siamo interessati a valori specifici di $n$, ma a valori "limite": introduciamo quindi [[O grande]], [[Theta grande]], Nell'esempio precedente
+Non siamo interessati a valori specifici di $n$, ma a valori "limite": introduciamo quindi [[O grande]], [[Theta grande]], [[Omega grande]].Nell'esempio precedente
 
 $$ f(n) = n(n-1)+3 = \Theta(n^2) $$
+
+$3n = O(n)$
+$n^+ \neq O(n^3)$
+$\forall \varepsilon > 0: n $

@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9a7310bf0af4b548",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algoritmi e principi dell'informatica/Omega grande.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46c6ca0e3165e55c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algoritmi e principi dell'informatica/Esercitazioni/Eseritazione.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Theta grande.md",
+                "file": "Algoritmi e principi dell'informatica/Esercitazioni/Eseritazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Theta grande.md",
+                "file": "Algoritmi e principi dell'informatica/Esercitazioni/Eseritazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Theta grande.md"
+                "file": "Algoritmi e principi dell'informatica/Esercitazioni/Eseritazione.md"
               }
             }
           }
@@ -151,14 +178,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f76f7dacb17d0a64",
+  "active": "46c6ca0e3165e55c",
   "lastOpenFiles": [
+    "Algoritmi e principi dell'informatica/Omega grande.md",
+    "Algoritmi e principi dell'informatica/Theta grande.md",
     "Algoritmi e principi dell'informatica/O grande.md",
     "Algoritmi e principi dell'informatica/Complessità spaziale.md",
     "Algoritmi e principi dell'informatica/Algoritmi galattici.md",
     "Algoritmi e principi dell'informatica/Esercitazioni/Eseritazione.md",
     "Analisi 1/o piccolo.md",
-    "Algoritmi e principi dell'informatica/Theta grande.md",
     "Fondamenti di automatica/Schema di controllo ibrido.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Fondamenti di automatica/Schemi a blocchi.md",
