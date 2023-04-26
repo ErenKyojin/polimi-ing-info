@@ -490,3 +490,6 @@ Stampo si solo se ho piú simboli del numero in input.
 Quante operazioni?
 $n(n - 2) + \cost$
 complessità quadratica, non sembra tanto grande, ma perchè stiamo lavorando in base uno. In base due si ha, al posto di $n$, $2^n$.
+
+$f : \mathbb{N} \to \mathbb{R} \circ (\mathbb{N})$
+$f(n)$ è il tempo/spazio richiesto nel caso p
