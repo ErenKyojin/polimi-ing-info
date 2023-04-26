@@ -486,3 +486,7 @@ L'input lo codifico in base 1
 - Se termino l'input sul secondo aggiungo un singolo in memoria e ripeto
 
 Stampo si solo se ho piú simboli del numero in input.
+
+Quante operazioni?
+$n(n - 2) + \cost$
+complessità quadratica
