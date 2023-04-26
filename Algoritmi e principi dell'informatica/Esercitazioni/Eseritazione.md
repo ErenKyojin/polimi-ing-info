@@ -545,4 +545,6 @@ $$ \lim_{ n \to \infty } \frac{n^{10}2^n}{(5/ 2)^n}= \lim_{ _n  \to \infty } \fr
 - In una macchina a k-nastri invece è possibile considerarla o meno
 
 consideriamo $\{ a^{(2^n)} | n \geq 0 \}$
-Se l'input $w$ è tc $|w| = m$
+Se l'input $w$ è tc $|w| = m$.
+
+La macchina di Turing l'abbiamo già vista in passato, è composta da una fase di conversione in base due e da una fase di controllo. 
