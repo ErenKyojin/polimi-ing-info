@@ -80,5 +80,5 @@ Quindi
 #### 2. Discretizzazione approssimata
 Motivazioni: $A^*$ e $B^*$ possono essere difficili da calcolare e come per il MF la discretizzazione precedenet no è esatta:
 
-L'idea è quindi di sostituire approssimativamente la d
+L'idea è quindi di sostituire approssimativamente la derivata temporale con il rapporto incrementale
 
