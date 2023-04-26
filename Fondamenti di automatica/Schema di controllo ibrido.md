@@ -27,4 +27,11 @@ Ipotesi:
 - S&H sincroni
 - $T_{s}$ costante
 
-[Problema]]
+Noi progettiamo $R(s)$ pensando allo schema a TC
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[->] (0,0) -- ++ 9
+\end{tikzpicture}
+\end{document}
+```
