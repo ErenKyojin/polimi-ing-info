@@ -545,4 +545,4 @@ $$ \lim_{ n \to \infty } \frac{n^{10}2^n}{(5/ 2)^n}= \lim_{ _n  \to \infty } \fr
 - In una macchina a k-nastri invece è possibile considerarla o meno
 
 consideriamo $\{ a^{(2^n)} | n \geq 0 \}$
-Se l'input $w$ 
+Se l'input $w$ è tc $|w| = m$
