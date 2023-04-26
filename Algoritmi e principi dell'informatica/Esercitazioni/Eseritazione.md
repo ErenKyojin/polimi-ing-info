@@ -467,3 +467,4 @@ basterebbe una grammatica di tipo 1, infatti basta una MT a nastro singolo
 ...
 
 ## 18
+Descrivere una MT a nastro singolo che dice se un numero è primo o no. Analizzare la complessità.
