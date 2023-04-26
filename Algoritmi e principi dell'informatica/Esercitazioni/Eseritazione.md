@@ -550,4 +550,4 @@ Se l'input $w$ è tc $|w| = m$.
 La macchina di Turing l'abbiamo già vista in passato, è composta da una fase di conversione in base due e da una fase di controllo. 
 
 In memoria avremo la codifica binaria, ossia $S(m) = \Theta(\log_{2}(n))$
-Consideriamo invece il tempo, piú complesso, dividendo le due fasi. Il peggior caso del controllo è dover leggerlo tutto, ossia $\Theta()\log(n)$
+Consideriamo invece il tempo, piú complesso, dividendo le due fasi. Il peggior caso del controllo è dover leggerlo tutto, ossia $\Theta(\log(n))$. Per la prima fase invece facciamo sicuramente tre tansizioni fisse, piú un numero di autoanelli
