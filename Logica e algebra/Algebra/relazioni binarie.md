@@ -19,7 +19,11 @@ Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, R = \{ (a,x),(a,w),(b,x),(b,y
 \begin{tikzpicture}
 \node (a) at (0,0){$\bullet$};
 \node (b) at (0,-1){$\bullet$};
-\node (c) at (0,-2){$}
+\node (c) at (0,-2){$\bullet$};
+\node (x) at (3,0){$\bullet$};
+\node (y) at (3,-1){$\bullet$};
+\node (z) at (3,-2){$\bullet$};
+\node (w) at (3,-3){$\bullet$};
 \end{tikzpicture}
 \end{document}
 ```
