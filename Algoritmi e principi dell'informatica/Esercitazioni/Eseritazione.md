@@ -527,4 +527,5 @@ Ma $g(n) \neq \theta (f(n))$
 
 #### 4. $f(n) = n!\qquad g(n) = e^n$
 $$n! > \left(\frac{n}{2}\right)^{n/2}$$
-#### 5. $f(n) =$
+#### 5. $f(n) = n\log(n)\quad g(n) = \log(n!)$
+$$g(n) = \log(n!) < \log(n^n) = n \log(n)$$
