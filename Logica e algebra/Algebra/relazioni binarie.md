@@ -23,3 +23,4 @@ $T = \{ (x,h),(z,h),(w,k) \}$
 Calcoliamo $R \cdot T$, si ha:
 - $(a,h) \in R \cdot T$ in quanto esiste $x$ tale che $(a,x) \in R$ e $(x,h) \in T$
 - $(a,k) \in R \cdot T$ in quanto esiste $w$ tale che $(a,w) \in R$ e $(w,h) \in T$
+- $(b,h) \in R \cdot T$ in quanto esiste $x$ tale che $(a,w) \in R$
