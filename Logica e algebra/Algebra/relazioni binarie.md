@@ -46,14 +46,16 @@ Usando i grafici delle due relazioni (sovrapponendo i vertici du gual nome) abbi
  \node (w) at (3,-3){$\bullet$};
  \node[right] at (w){$w$};
  \node (h) at (6,-.5){$\bullet$};
+ \node[right] at (h){$h$};
  \node (k) at (6,-2.5){$\bullet$};
- 
+ \node[right] at (k){$k$};
  %arrows
  \draw[-{Stealth}] (a.center) -- (x.center);
  \draw[-{Stealth}] (a.center) -- (w.center);
  \draw[-{Stealth}] (b.center) -- (x.center);
  \draw[-{Stealth}] (b.center) -- (y.center);
  \draw[-{Stealth}] (b.center) -- (z.center);
+ \draw[-{Stealth}] ()
  \end{tikzpicture}
  \end{document}
  ```
