@@ -87,4 +87,6 @@ $$ b\ R\ x \quad\text{ e }\quad x\ T\ h\qquad,\qquad b\ R\ z\quad \text{e}\quad 
 
 Il prodotto di rileazioni gode delle seguenti proprietà:
 - associativo:
-  Per ogni $R,T,S$ tali che $R \subseteq A_{1} \times A_{2}, T \subseteq A_{2} \times A_{3}$
+  Per ogni $R,T,S$ tali che $R \subseteq A_{1} \times A_{2}, T \subseteq A_{2} \times A_{3}, S \subseteq A_{3} \times A_{4}$ si ha
+  $$ (R \cdot T) \cdot S = R \cdot (T\cdot S) $$
+  Ossia che $(a_{1},a_{4}) \in (R\cdot T)\cdot S \implies$
