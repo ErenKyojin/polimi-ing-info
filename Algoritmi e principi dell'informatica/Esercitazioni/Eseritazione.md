@@ -560,3 +560,6 @@ $|n| = 16 \to 85 \approx c\cdot16 \cdot \log_{2}(16)=64 \implies c \approx 0.80$
 $64 \to 327 \approx c \cdot 64 \cdot 8 \implies c \approx 0.64$
 $256 \to 1289  \approx c \cdot 256 \cdot 16 \implies c \approx 0.31$
 $1024 \to \approx c \cdot 1024 \cdot 64 \implies c \approx$ 
+
+Quindi ricapitolando
+$S(m) = \Theta(\log(m))$
