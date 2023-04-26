@@ -80,4 +80,4 @@ M_{R} = \begin{bmatrix}
 0 & 1
 \end{bmatrix}
 $$
-Si può effettuare
+Si può effettuare il prodotto di matrici e si ottiene la matrice $\begin{bmatrix}1 & 1\\2 & 0\\0 & 0\end{bmatrix}$ che, con la solita convenzione di porre uguale ad $1$ tutti gli elementi maggiori di $0$, è proprio por
