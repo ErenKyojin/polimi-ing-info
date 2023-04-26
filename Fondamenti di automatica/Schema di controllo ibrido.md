@@ -45,3 +45,11 @@ che è appunto tutto a TCe poi dobbiamo ottenere $R^*(z)$ e implementare lo sche
 1. Scelta di $T_{S}$
 2. $\{ R(s), T_{s} \} \to R^*(z)$ (discretizzazione)
 3. La presenza di S&H ha qualche effetto dinamico? se si, come tenerne conto
+
+
+### Discretizzazione
+Dati
+$$ \begin{rcases}
+R(s) \\
+T_{s}
+\end{rcases} \to $$
