@@ -582,4 +582,4 @@ Progettare una MT a nastro singolo che riconosca $\{ a^nb^nc^n | n > 0 \}$ nel t
 aaabbbccc -> a'aab'bbc'cc -> a'a'a'b'b'b'c'c'c' -> accettato
 
 Prima di tutto scansiono da sinistra a destra e viceversa per un analisi "strutturale". 
-$$2n + \dfrac{2}{3}2n + 1 + \left( \frac{2}{3}n + 2 + 1 \right)$$
+$$\underbrace{ 2m + \dfrac{2}{3}2m + 1 + \left( \frac{2}{3}m + 2 + 1 \right) +  }_{ \displaystyle\frac{1}{2}m }$$
