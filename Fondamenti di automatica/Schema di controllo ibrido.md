@@ -70,4 +70,5 @@ Quindi
 >Preserva le caratteristiche di stabilità
 
 >[!oss]
->Infatti se $A^* = e^{ AT_{s} }$
+>Infatti se $A^* = e^{ AT_{s} }$ se $\lambda$ è autovalore di $A$, $e^{ \lambda T_{s} }$ è autovalore di $A^*$
+>$\implies \Re(\lambda) =$
