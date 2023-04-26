@@ -480,7 +480,9 @@ per ogni 1 < i = floor(sqrt(n))
 }
 ```
 
-L'input lo cidifico in base 1
+L'input lo codifico in base 1
 - carico due simboli in memoria
 - leggo l'input e ogni volta mi sposto in memoria su uno dei due simboli
 - Se termino l'input sul secondo aggiungo un singolo in memoria e ripeto
+
+Stampo si solo se ho piú simboli del numero in input.
