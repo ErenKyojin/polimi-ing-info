@@ -21,5 +21,6 @@ Siano $R \subseteq A_{1} \times A_{2} \times \dots A_{n}$ e $T \subseteq A_{1} \
 
 Come è noto dalle nozioni sulla teoria degl insiemi, le definizioni di intersezione e unione si possono estendere ad una famiglia arbitraria di relazioni fra gli $n$ insiemi $A_{1},A_{2},\dots,A_{n}$. Pertanto se consideriamo una famiglia di relazioni $\{ R_{i} | i \in I \}$ fra $A_{1},A_{2},\dots,A_{n}$ dove l'indice $i$ varia in un qualsiasi insieme $I$, usiamo le seguenti notazioni
 $$ \begin{align}
-\bigcap_{i \in I} R_{i} =
+\bigcap_{i \in I} R_{i} &= \{ (a_{1},a_{2},\dots,a_{n}) | \forall i \in I (a_{1},a_{2},\dots,a_{n}) \in R_{i}  \} \\
+\bigcup_{i \in I} R_{i} &= \{ (a_{1},a_{2},\dots,a_{n}) | \exists i \in \}
 \end{align} $$
