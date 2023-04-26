@@ -52,4 +52,5 @@ Dati
 $$ \begin{rcases}
 R(s) \\
 T_{s}
-\end{rcases} \to $$
+\end{rcases} \to R^* (z)$$
+1. Discretizzazione "Esatta"
