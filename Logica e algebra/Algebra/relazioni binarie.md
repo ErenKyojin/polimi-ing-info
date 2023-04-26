@@ -12,7 +12,7 @@ Nel caso in cui gli insiemi $A_{1}$ e $A_{2}$ con cui lavoriamo contengano un nu
 
 ![[matrice di incidenza]]
 
-Osserviamo che, date le matrici di incidenza $M_{R}$ e $M_{T}$ di due relazioni binarie $R,T \subseteq A_{1} \times A_{2}$ si possono immediatamente ottenere la matrice di incidenza di $R \cap T$ (facendo il prodotto elemento per elemento di $M_{R}$ con $M_{T}$) e quella di $R \cup T$ (facendo la somma di $M_{R}$ con $M_{T}$ e ponendo uguale ad $1$ tutti gli elementi della somma maggiore di $0$).
+Osserviamo che, date le [[matrici]] di incidenza $M_{R}$ e $M_{T}$ di due relazioni binarie $R,T \subseteq A_{1} \times A_{2}$ si possono immediatamente ottenere la [[matrice di incidenza]] di $R \cap T$ (facendo il prodotto elemento per elemento di $M_{R}$ con $M_{T}$) e quella di $R \cup T$ (facendo la somma di $M_{R}$ con $M_{T}$ e ponendo uguale ad $1$ tutti gli elementi della somma maggiore di $0$).
 
 Siano ora date le relazioni $R \subseteq A_{1} \times A_{2}$ e $T \subseteq A_{2} \times A_{3}$. Si chiama prodotto delle due relazioni la relazione $R \cdot T \subseteq A_{1} \times A_{3}$ così definita:
 $$ R \cdot T = \{ (a_{1},a_{3}) | \exists a_{2} : (a_{1},a_{2}) \in R \text{ e } (a_{2},a_{3}) \in T \} $$
@@ -80,7 +80,7 @@ M_{R} = \begin{bmatrix}
 0 & 1
 \end{bmatrix}
 $$
-Si può effettuare il prodotto di matrici e si ottiene la matrice $\begin{bmatrix}1 & 1\\2 & 0\\0 & 0\end{bmatrix}$ che, con la solita convenzione di porre uguale ad $1$ tutti gli elementi maggiori di $0$, è proprio la matrice di incidenza di $R \cdot T$, infatti l'elemento di posto $(i,k)$ di questa matrice è diverso da $0$ se e solo se esiste un $j$ tale che l'elemento di posto $(i,j)$ di $M_{R}$ e l'elemento di posto $(j,k)$ di $M_{T}$ siano entrambi non nulli.
+Si può effettuare il prodotto di matrici e si ottiene la matrice $\begin{bmatrix}1 & 1\\2 & 0\\0 & 0\end{bmatrix}$ che, con la solita convenzione di porre uguale ad $1$ tutti gli elementi maggiori di $0$, è proprio la [[matrice di incidenza]] di $R \cdot T$, infatti l'elemento di posto $(i,k)$ di questa matrice è diverso da $0$ se e solo se esiste un $j$ tale che l'elemento di posto $(i,j)$ di $M_{R}$ e l'elemento di posto $(j,k)$ di $M_{T}$ siano entrambi non nulli.
 Notiamo anche che la presenza di un $t > 1$ nel osto $(i,k)$ della matrice implica che ci sono $t$ diversi elementi dell'insieme $A_{2}$ che possono servire da collegamento nel prodotto.
 In questo esempio abbiamo $2$ nel posto $(2,1)$ perchè possiamo arrivare ad $h$ da $b$ attraverso due percorsi diversi $x,z$:
 $$ b\ R\ x \quad\text{ e }\quad x\ T\ h\qquad,\qquad b\ R\ z\quad \text{e}\quad z\ T\ h $$
@@ -94,7 +94,7 @@ Il prodotto di rileazioni gode delle seguenti proprietà:
   Ancora per definizione $(a_{1},a_{3}) \in R \cdot T$ implica che esiste un $a_{2}$ tale che $(a_{1},a_{2} \in R)$ e $(a_{2},a_{3} )\in T$
   Ora $(a_{2},a_{3}) \in T$ e $(a_{3},a_{4}) \in S$ implicano $(a_{2},a_{4}) \in T \cdot S$ e questa con $(a_{1},a_{2}) \in R$ implica $(a_{1},a_{4}) \in R \cdot (T\cdot S)$
   Analogamente si dimostra che $R\cdot(T\cdot S) \subseteq (R\cdot T)\cdot S$ cioè che $(a_{1},a_{4}) \in R\cdot(T\cdot S)$ implica $(a_{1},a_{4}) \in (R\cdot T)\cdot S$
-- Compatibile con l'inclusione:
+- Compatibile con l'[[inclusione]]:
   se $R \subseteq T \subseteq A_{1} \times A_{2}, S \subseteq A_{2} \times A_{3}, V \subseteq A_{4}\times A_{1}$ si ha
    $R \cdot S \subseteq T \cdot S$ e $V \cdot R \subseteq V \cdot T$.
   Da questo si deduce anche che se $R \subseteq T \subseteq A_{1} \times A_{2}, S \subseteq U \subseteq A_{2} \times A_{3}$ si ha
@@ -105,4 +105,4 @@ Il prodotto di relazioni non è commutativo, date $R \subseteq A_{1} \times A_{2
 Se $R \cdot T = T \cdot R$ le relazioni $T$ ed $R$ si dicono **PERMUTABILI**.
 
 Si dice **Relazione inversa** di $R \subseteq A_{1} \times A_{2}$ la relazione $R^{-1} \subseteq A_{2} \times A_{1}$ definita da $R^{-1} = \{ (a_{2},a_{1}) | (a_{1},a_{2}) \in R \}$
-Nel caso in cui
+Nel caso in cui $A_{1},A_{2}$ siano finiti, il [[grafo di incidenza]] di $R^{-1}$ si ottiene
