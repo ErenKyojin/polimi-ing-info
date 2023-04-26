@@ -511,4 +511,8 @@ Confrontare
 Theta? $\log_{3}(n) = \dfrac{\log_{2}(n)}{\log_{2}(3)} \implies \frac{\lim_{ n \to \infty }f(n)}{g(n)} = \log_{2}(3) \implies \log_{3}(n) = \Theta(\log_{2}(n))$
 La base non cambia l'efficenza del logaritmo!!
 
-#### 2. $f(n) = $
+#### 2. $f(n) = 2^n \quad g(n) = e^n$
+$f(n) = O(g(n))$
+
+È vero che $g(n) = O(f(n))?$
+$\lim_{ n \to \infty } \frac{g(n)}{f}$
