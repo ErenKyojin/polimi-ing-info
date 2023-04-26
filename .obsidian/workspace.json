@@ -26,7 +26,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Settings/Canvas/Untitled 1.canvas",
+                "file": "Settings/Canvas/Schema di controllo ibrido.canvas",
                 "viewState": {
                   "x": 0,
                   "y": 0,
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Settings/Canvas/Untitled 1.canvas",
+                "file": "Settings/Canvas/Schema di controllo ibrido.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Settings/Canvas/Untitled 1.canvas",
+                "file": "Settings/Canvas/Schema di controllo ibrido.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Settings/Canvas/Untitled 1.canvas"
+                "file": "Settings/Canvas/Schema di controllo ibrido.canvas"
               }
             }
           }
@@ -170,7 +170,7 @@
   "active": "bc7dc0b436ea1441",
   "lastOpenFiles": [
     "Fondamenti di automatica/Schema di controllo ibrido.md",
-    "Settings/Canvas/Untitled 1.canvas",
+    "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Fondamenti di automatica/Schemi a blocchi.md",
     "Fondamenti di automatica/Stabilità.md",
     "Fondamenti di automatica/Trasformate zeta notevoli.md",

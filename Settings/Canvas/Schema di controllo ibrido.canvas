@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"214f5b7e4cffc240","x":-345,"y":-196,"width":85,"height":60,"type":"text","text":"$P^* (z)$"},
+		{"id":"cb1e84eae7c6f99f","x":-140,"y":-196,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"2244d1bf48c8f21e","fromNode":"214f5b7e4cffc240","fromSide":"right","toNode":"cb1e84eae7c6f99f","toSide":"left"}
+	]
+}
