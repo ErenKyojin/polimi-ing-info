@@ -16,4 +16,5 @@ Siano $R \subseteq A_{1} \times A_{2} \times \dots A_{n}$ e $T \subseteq A_{1} \
 - $R \subseteq T$ sse per ogni $(a_{1},a_{2},\dots,a_{n}) \in R$ si ha $(a_{1},a_{2},\dots,a_{n}) \in T$
 - $R = T$ sse $R \subseteq T$ e $T \subseteq R$
 - $R \subset T$ sse $R \subseteq T$ ed esiste almeno una $n$-upla $(a_{1}',a_{2}',\dots,a_{n}') \in T$ tale che $(a_{1}',a_{2}',\dots,a_{n}') \notin R$
-- $R \cap T = $
+- $R \cap T = \{ (a_{1},a_{2},\dots,a_{n}) | (a_{1},a_{2},\dots,a_{n}) \in R\text{ e } (a_{1},a_{2},\dots,a_{n})\in T \}$
+- $R \cup T = \{ (a_{1},a_{2},\dots,a_{n}) | \}$
