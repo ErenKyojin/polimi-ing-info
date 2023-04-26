@@ -20,3 +20,5 @@ $H$: Holder
 $S$: Sampler
 
 Quindi campionatore ideale $\implies y*(k) = y(kT_{s})$
+
+Mantenitore di ordine zero (ZOH, Zero Order H) 
