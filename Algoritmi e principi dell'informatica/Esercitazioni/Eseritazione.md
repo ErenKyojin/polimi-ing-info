@@ -466,6 +466,7 @@ basterebbe una grammatica di tipo 1, infatti basta una MT a nastro singolo
 
 ...
 
+
 ## 18
 Descrivere una MT a nastro singolo che dice se un numero è primo o no. Analizzarne la complessità.
 
@@ -536,3 +537,4 @@ $\log(n!) = \Theta(n \log(n))$
 
 #### 6. $f(n)=n^{10}2^n\qquad g(n)= \left( \dfrac{5}{2} \right)^n$
 $$ \lim_{ n \to \infty } \frac{n^{10}2^n}{(5/ 2)^n}= \lim_{ _n  \to \infty } \frac{n^{10}}{\left( \frac{5}{4} \right)^n}=0  $$
+# Complessità
