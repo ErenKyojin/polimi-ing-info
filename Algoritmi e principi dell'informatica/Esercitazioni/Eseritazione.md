@@ -548,3 +548,5 @@ consideriamo $\{ a^{(2^n)} | n \geq 0 \}$
 Se l'input $w$ è tc $|w| = m$.
 
 La macchina di Turing l'abbiamo già vista in passato, è composta da una fase di conversione in base due e da una fase di controllo. 
+
+In memoria avremo la codifica binaria, ossia $S(m) = \Theta(\log_{2}(n))$
