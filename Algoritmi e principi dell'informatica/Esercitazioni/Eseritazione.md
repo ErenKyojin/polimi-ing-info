@@ -534,4 +534,5 @@ $$ n! > \left( \frac{n}{2} \right)^{n/2}\quad \log(n!) > \frac{1}{2}n\log\left( 
 quindi
 $\log(n!) = \Theta(n \log(n))$
 
-#### 6. $f(n)=n^{10}2^n\qquad g(n)= \left( \frac{5}{2} \right)^n$
+#### 6. $f(n)=n^{10}2^n\qquad g(n)= \left( \dfrac{5}{2} \right)^n$
+$$ \lim_{ n \to \infty } \frac{n^{10}2^n}{(5/ 2)^n}= \lim_{ _n  \to \infty }  $$
