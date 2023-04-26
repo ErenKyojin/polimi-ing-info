@@ -13,7 +13,10 @@ indichiamo con \* tempo discreto.
 
 %%% #todo migliorare %%
 
-$T_{s}$ tempo o passi di campionamento (sampling time)
-
 ![[Schema di controllo ibrido.canvas]]
-$T_{}$
+
+$T_{s}$ tempo o passi di campionamento (sampling time)
+$H$: Holder
+$S$: Sampler
+
+Quindi campionatore ideale $\implies y*(k) = y(kT_{s})$
