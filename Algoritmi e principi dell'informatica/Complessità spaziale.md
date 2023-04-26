@@ -12,4 +12,5 @@ $k$ numero di nastri della [[Macchine di Turing|macchina di Turing]]
 >[!oss]
 >$\dfrac{S_{M}(x)}{k} \leq T_{M}(x)$ per ogni $x$ con $T_{M}$ [[Complessità temporale]] di $x$
 
-Se $f,g$ crescenti, $f = O(g)$
+Se $f,g$ crescenti, $f = O(g)$ sse
+$$ \lim_{ n \to \infty } \frac{f(n)}{g(n)} < +\infty $$
