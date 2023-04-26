@@ -55,7 +55,9 @@ Usando i grafici delle due relazioni (sovrapponendo i vertici du gual nome) abbi
  \draw[-{Stealth}] (b.center) -- (x.center);
  \draw[-{Stealth}] (b.center) -- (y.center);
  \draw[-{Stealth}] (b.center) -- (z.center);
- \draw[-{Stealth}] ()
+ \draw[-{Stealth},dashed] (z.center) -- (h.center);
+ \draw[-{Stealth},dashed] (x.center) -- (h.center);
+ \draw[-{Stealth},dashed] (w.center) -- (k.center);
  \end{tikzpicture}
  \end{document}
  ```
