@@ -84,3 +84,7 @@ Si può effettuare il prodotto di matrici e si ottiene la matrice $\begin{bmatri
 Notiamo anche che la presenza di un $t > 1$ nel osto $(i,k)$ della matrice implica che ci sono $t$ diversi elementi dell'insieme $A_{2}$ che possono servire da collegamento nel prodotto.
 In questo esempio abbiamo $2$ nel posto $(2,1)$ perchè possiamo arrivare ad $h$ da $b$ attraverso due percorsi diversi $x,z$:
 $$ b\ R\ x \quad\text{ e }\quad x\ T\ h\qquad,\qquad b\ R\ z\quad \text{e}\quad z\ T\ h $$
+
+Il prodotto di rileazioni gode delle seguenti proprietà:
+- associativo:
+  Per ogni $R,T,S$ tali che $R \subseteq A_{1} \times A_{2}, T \subseteq A_{2} \times A_{3}$
