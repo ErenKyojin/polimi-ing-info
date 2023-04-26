@@ -539,3 +539,5 @@ $\log(n!) = \Theta(n \log(n))$
 $$ \lim_{ n \to \infty } \frac{n^{10}2^n}{(5/ 2)^n}= \lim_{ _n  \to \infty } \frac{n^{10}}{\left( \frac{5}{4} \right)^n}=0  $$
 
 ## Complessità in una macchina di Turing
+
+Se in una mossa sposto mille nastri i
