@@ -14,6 +14,7 @@ M_{R} = \begin{bmatrix}
 0 & 0 & 0 & 0
 \end{bmatrix}
 $$
+Osserviamo che, date le matrici di incidenza $M_{R}$ e $M_{T}$ di due relazioni binarie $R,T \subseteq A_{1} \times A_{2}$ si possono immediatamente ottenere la matrice di incidenza di $R \cap T$ (facendo il prodotto elemento per elemento di $M_{R}$ con $M_{T}$) e quella di $R \cap T$
 
 
 
