@@ -38,7 +38,7 @@ $$G(j 20) = \frac{1}{1 + 2j} \implies \begin{cases}
 Piani complessi
 
 ### 2. Diagramma cartesiani o di Bode
-1. Diagramma di bode del [[modulo]] DBM
+1. Diagramma di bode del [[Modulo]] DBM
 ```tikz
 \begin{document}
 \begin{tikzpicture}[scale = 2]

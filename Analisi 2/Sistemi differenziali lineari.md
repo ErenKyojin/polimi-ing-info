@@ -99,14 +99,14 @@ Il problema di Cauchy nei sistemi differenziali lineari assume un carattere più
 
 
 ## Risoluzione esplicita di alcuni sistemi omogenei
-1. $A \in M_{n,n} \mathbb{R}$ [[diagonalizzabilità|diagonalizzazione]] reale
+1. $A \in M_{n,n} \mathbb{R}$ [[Analisi 2/diagonalizzabilità|diagonalizzazione]] reale
 2. $A \in M_{2,2} \mathbb{R}$ con autovalori complessi coniugati
 
 
 ### 1. Integrale generale del sistema omogeneo
-dato un sistema omogeneo $\mathbf{y}'(t) = A\mathbf{y}(t)$ con $A$ [[diagonalizzabilità|diagonalizzabile]], si scrive
+dato un sistema omogeneo $\mathbf{y}'(t) = A\mathbf{y}(t)$ con $A$ [[Analisi 2/diagonalizzabilità|diagonalizzabile]], si scrive
 $$ y_{o}(t) = e^{At} \cdot \mathbf{c} \qquad \mathbf{c} \in \mathbb{R}^n$$
-Verifichiamo che questa forma coincida con quella del primo teorema della [[diagonalizzabilità]]
+Verifichiamo che questa forma coincida con quella del primo teorema della [[Analisi 2/diagonalizzabilità]]
 
 $$ \begin{align}
 y_{o}(t) &= e^{At} \cdot \mathbf{c} = S \cdot e^{\Lambda t}\cdot \underbrace{ S^{-1} \cdot \mathbf{c} }_{ = \mathbf{c}\text{ nuova cost} } \\

@@ -5,7 +5,7 @@
 Che è convergente per ogni A
 
 
-Se A è [[diagonalizzabilità|diagonalizzabile]], come si calcola $e^A$?
+Se A è [[Analisi 2/diagonalizzabilità|diagonalizzabile]], come si calcola $e^A$?
 $$ A = S \Lambda S^{-1} $$
 Con $\Lambda$ Diagnoale ed $S = (\mathbf{v}_{1} | \dots | \mathbf{v_{n}})$ autovettori.
 Quindi 

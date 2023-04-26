@@ -25,7 +25,7 @@ $\mathbb C = \{(a,b); a,b \in \mathbb R\}$
 - opposto: $(a,b) \rightarrow (-a,-b)$
 - Se $(a,b) \neq (0,0) \Rightarrow (a,b)^{-1} = \left(\frac{a}{a^2+b^2},\frac{-b}{a^2+b^2}\right)$
 
-$\Rightarrow \mathbb C$ è un [[Campo]]
+$\Rightarrow \mathbb C$ è un [[Analisi 1/Insiemi numerici/Campo]]
 
 
 $\mathbb C_0 \subset \mathbb C\ |\ \mathbb C_0 = \{(a,0);a \in \mathbb R\} \equiv \mathbb R$

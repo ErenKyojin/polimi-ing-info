@@ -3,7 +3,7 @@ aliases: raggiungibile, raggiungibili
 creation date: 2023-03-13 10:48
 modification date: 2023-03-13 10:48
 ---
-Uno [[stato]] $\bar{x}$ so doce raggiungibile da zero se $\exists \bar{u}(t)$ tale che
+Uno [[Stato]] $\bar{x}$ so doce raggiungibile da zero se $\exists \bar{u}(t)$ tale che
 $$\begin{rcases}
 
 x(0) = 0 \\
@@ -58,7 +58,7 @@ Un sistema si dice completamente raggiungibile se ogni stato è raggiungibile
 
 
  
-Supponiamo di voler portare lo [[stato]] da $0$ a $\bar{x}$, perchè questo sia possibile deve esistere una certa $\bar{Z}$ tale che $M_{R}\bar{Z}(t) = \bar{x}$
+Supponiamo di voler portare lo [[Stato]] da $0$ a $\bar{x}$, perchè questo sia possibile deve esistere una certa $\bar{Z}$ tale che $M_{R}\bar{Z}(t) = \bar{x}$
 Quindi dire che ciò è possibile qualunque sia $\bar{x}$ equivale a dire $M_{R}$ non è singolare, ovvero
 $$
 \text{Sistema } R \iff M_{R} \text{ non singolare}

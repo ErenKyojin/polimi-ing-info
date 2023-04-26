@@ -1,7 +1,7 @@
 # Numeri razionali
-Facciamo il [[Insieme|prodotto cartesiano]]  $\mathbb Z \times(\mathbb Z \setminus 0) = \{(r,s);r,s \in \mathbb Z; s \neq 0\}$ 
+Facciamo il [[Analisi 1/Insiemi numerici/Insieme|prodotto cartesiano]]  $\mathbb Z \times(\mathbb Z \setminus 0) = \{(r,s);r,s \in \mathbb Z; s \neq 0\}$ 
 
-Attraverso la [[Relazione di equivalenza]]
+Attraverso la [[Analisi 1/Insiemi numerici/Relazione di equivalenza]]
 $(r,s) \equiv (r',s')\quad\quad r\cdot s' = r'\cdot s$
 $(r,s) \rightarrow \frac{r}{s}$
 
@@ -47,7 +47,7 @@ Un #campo con queste 9 proprietà è detto #campo numerico
 $a = \frac{m}{n},\quad b=\frac{r}{s}$
 $$\begin{flalign}a \leq b \Leftrightarrow m\cdot s\leq r \cdot n \\
 a \lt b \Leftrightarrow m\cdot s \lt r\cdot n\end{flalign}$$
-Avendo una relazione d'ordine definita $\mathbb Q$ è un [[Campo]]
+Avendo una relazione d'ordine definita $\mathbb Q$ è un [[Analisi 1/Insiemi numerici/Campo]]
 
 ## Teoremi riguardanti $\mathbb Q$
 - Proprietà di archimede:

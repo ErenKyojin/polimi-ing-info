@@ -1,5 +1,5 @@
 # Scomposizione di polinomi
-## Nel [[Campo]] dei [[numeri reali]] $\mathbb R$
+## Nel [[Analisi 1/Insiemi numerici/Campo]] dei [[numeri reali]] $\mathbb R$
 $$ax^2+bx+c=0 \qquad \Leftrightarrow \qquad x^2+\frac bax+\frac{c}{a} = 0$$
 $$
 \begin{flalign}

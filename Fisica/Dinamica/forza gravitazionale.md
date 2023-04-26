@@ -4,7 +4,7 @@ creation date: 2023-03-23 16:23
 modification date: 2023-03-23 16:23
 ---
 
-Ogni punto materiale attrae ogni altro punto materiale con una [[forza]] diretta come la congiungente dei due punti e di [[modulo]] pari a
+Ogni punto materiale attrae ogni altro punto materiale con una [[forza]] diretta come la congiungente dei due punti e di [[Modulo]] pari a
 $$
 F = \gamma\frac{ m_{1}m_{2}}{r_{12}^2}
 $$

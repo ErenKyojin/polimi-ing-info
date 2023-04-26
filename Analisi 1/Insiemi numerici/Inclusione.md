@@ -1,5 +1,5 @@
 # Inclusione
-Se sappiamo che ogni elemento dell'[[Insieme]] $A$ è anche elemento di $B$ possiamo scrivere che $A$ è contenuto in $B$:
+Se sappiamo che ogni elemento dell'[[Analisi 1/Insiemi numerici/Insieme]] $A$ è anche elemento di $B$ possiamo scrivere che $A$ è contenuto in $B$:
 $$A \subseteq B$$
 Questo segno non esclude che $A = B$, quindi possiamo scrivere l'[[Uguaglianza]] come 
 "$A \subseteq B$ e $B \subseteq A$".

@@ -79,7 +79,7 @@ Tutti questi teoremi si basano sui teoremi equivalenti delle successioni e sulla
 
 >[!teorema] Teorema di continuità delle funzioni elementari
 >Le seguenti funzioni elementari sono continue in tutti i punti del proprio insieme di definizione:
->1. Potenze a esponente [[numeri interi|intero]], [[numeri razionali|razionale]], o [[numeri reali|reale]].
+>1. Potenze a esponente [[numeri interi|intero]], [[Analisi 1/Insiemi numerici/numeri razionali|razionale]], o [[numeri reali|reale]].
 >2. [[Funzioni notevoli|Funzioni esponenziali]].
 >3. [[Logaritmo|Funzioni logaritmiche]]
 >4. [[Funzioni triogonometriche]] elementari

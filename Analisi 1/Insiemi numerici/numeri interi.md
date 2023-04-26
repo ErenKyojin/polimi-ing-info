@@ -1,7 +1,7 @@
 # Numeri interi
-Usando il prodotto cartesiano degli [[Insieme|Insiemi]] calcoliamo $\mathbb N \times \mathbb N = \{(n,m) : n,m \in \mathbb N\}$
+Usando il prodotto cartesiano degli [[Analisi 1/Insiemi numerici/Insieme|Insiemi]] calcoliamo $\mathbb N \times \mathbb N = \{(n,m) : n,m \in \mathbb N\}$
 
-Usando poi le [[Relazione di equivalenza|Relazioni di equivalenza]]
+Usando poi le [[Analisi 1/Insiemi numerici/Relazione di equivalenza|Relazioni di equivalenza]]
 $(n,m) \equiv (n',m')\quad$ se $\quad m + n' = m' + n$
 
 Rispettano questa relazione le seguenti classi:

@@ -30,7 +30,7 @@ Ogni insieme $X$ ha due *sottoinsiemi banali* che sono lo stesso $X$ e il sottoi
 # Insiemi numerici
 - $\mathbb{N}$ è l'insieme dei *[[numeri naturali]]* 
 - $\mathbb{Z}$ è l'insieme dei *[[numeri interi]]*
-- $\mathbb{Q}$ è l'insieme dei *[[numeri razionali]]*
+- $\mathbb{Q}$ è l'insieme dei *[[Analisi 1/Insiemi numerici/numeri razionali]]*
 - $\mathbb{R}$ è l'insieme dei *[[numeri reali]]*
 - $\mathbb{C}$ è l'insieme dei *[[numeri complessi]]*
 

@@ -19,7 +19,7 @@ Ogni interazione è descritta formalmente attraverso una [[grandezza fisica]] ve
 ![[terzo principio della dinamica]]
 
 
-## [[Problema]] della dinamica del punto materiale
+## [[problema]] della dinamica del punto materiale
 Il problema generale della dinamica del punto materiale consiste nella ricerca della [[legge oraria]] di un [[punto materiale]] di massa $m$ che si muove sotto l'azione della risultate $\vec{F}$ delle forze ad esso applicate.
 
 >[!success]

@@ -21,7 +21,7 @@ quindi
 $$
 (s\mathbb{1} - A)X(s) = x(0) + bU(s)
 $$
-$\mathbb{1}$ [[matrice]] identità della stessa [[GAL/dimensione|dimensione]] di $A$
+$\mathbb{1}$ [[matrice]] identità della stessa [[Geometria e algebra lineare/Dimensione|dimensione]] di $A$
 
 Per qualsiasi $s \cancel{ \in }$ {[[Autovalori e Autovettori|autovalori]] di A}:
 $$
@@ -64,7 +64,7 @@ $$
 \Delta_{n1}(s)  & \dots & \Delta_{nn}(s)
 \end{bmatrix}
 $$
-[[Polinomio caratteristico]] di $A$ al denominatore, quindi il grado è n, mentre gli elementi della matrice sono determinanti di una matrice di [[GAL/Dimensione|dimensione]] $(n-1)\times(n-1)$ quindi il grado è $n-1$
+[[Polinomio caratteristico]] di $A$ al denominatore, quindi il grado è n, mentre gli elementi della matrice sono determinanti di una matrice di [[Geometria e algebra lineare/Dimensione|dimensione]] $(n-1)\times(n-1)$ quindi il grado è $n-1$
 
 
 2.

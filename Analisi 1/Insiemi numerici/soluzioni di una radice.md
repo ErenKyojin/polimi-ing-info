@@ -1,10 +1,10 @@
 # Soluzioni di una radice
 
-#### Nel [[Campo]] dei [[numeri reali]] $\mathbb R$ 
+#### Nel [[Analisi 1/Insiemi numerici/Campo]] dei [[numeri reali]] $\mathbb R$ 
 se $x > 0, n \geq\ \exists!\ y>o\ |\ y^n=x \rightarrow \text{può valere solo per un campo ordinato}$
 $\Longrightarrow y =\sqrt[n]{x}$
 
-#### Nel [[Campo]] dei [[numeri complessi]] $\mathbb C$
+#### Nel [[Analisi 1/Insiemi numerici/Campo]] dei [[numeri complessi]] $\mathbb C$
 > [!Teo] Relazione fondamentale dell'algebra
 Dato $z \in \mathbb C, z \neq 0 \text{ si dice radice ennesima di } z \text{ ogni } w \in \mathbb C\ |\ w^n = z$
 >

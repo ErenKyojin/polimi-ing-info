@@ -78,7 +78,7 @@ $$
 \vec{a} = \vec{a}_{T} + \vec{a}_{N} \qquad \vec{a}_{T} = \frac{dv}{dt}\hat{u}_{T}\qquad\vec{a}_{N} = \frac{v^2}{\rho}\hat{u}_{N} 
 $$
 >[!oss] Significato della scomposizione in componenti tangenziale e normale
->La componente tangente dell'accelerazione rende conto della variabile del [[modulo]] della velocità, mentre la componente normale dipende dalla variazione in [[direzione]] della [[velocità vettoriale]]
+>La componente tangente dell'accelerazione rende conto della variabile del [[Modulo]] della velocità, mentre la componente normale dipende dalla variazione in [[direzione]] della [[velocità vettoriale]]
 
 >[!oss] Alcuni importanti tipi di moto
 >

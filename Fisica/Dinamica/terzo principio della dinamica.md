@@ -10,7 +10,7 @@ $$
 si può quindi enunciare il seguente:
 
 >[!def] Terzo principio della dinamica newtoniana
->Nell'interazione tra due corpi la [[forza]] che il primo esercita sul secondo è ugual in [[modulo]], ha la stessa [[direzione]] ed è opposta in verso rispetto a quella che il secondo esercita sul primo
+>Nell'interazione tra due corpi la [[forza]] che il primo esercita sul secondo è ugual in [[Modulo]], ha la stessa [[direzione]] ed è opposta in verso rispetto a quella che il secondo esercita sul primo
 
 
 

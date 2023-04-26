@@ -62,7 +62,7 @@ Infine ci sono altre due grandezze annoverate tra le fondamentali nel SI. Sono l
 
 
 Le grandezze fisiche fondamentali si dicono scalari, in quanto possono essere descritte unicamente da uno [[scalare]].
-Per altre grandezze, oltre ad associare un numero reale detto [[modulo]] bisogna associare direzione e verso, sono le cosí dette grandezze [[Vettori|vettoriali]].  Esempi di queste grandezze sono velocità, accelerazione, forza etc.
+Per altre grandezze, oltre ad associare un numero reale detto [[Modulo]] bisogna associare direzione e verso, sono le cosí dette grandezze [[Geometria e algebra lineare/Vettori|vettoriali]].  Esempi di queste grandezze sono velocità, accelerazione, forza etc.
 
 ---
 
