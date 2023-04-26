@@ -517,3 +517,5 @@ $f(n) = O(g(n))$
 È vero che $g(n) = O(f(n))?$
 $\lim_{ n \to \infty } \dfrac{g(n)}{f(n)} = \lim_{ n \to \infty }\left( \frac{e}{2} \right)^n = +\infty$
 Non vale la stessa cosa che nei logaritmi, la base importa per gli esponenziali
+
+#### 3. $f(n) = n^n\qquad g(n) = e^n$
