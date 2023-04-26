@@ -78,4 +78,7 @@ Quindi
 
 
 #### 2. Discretizzazione approssimata
-Motivazioni: $$
+Motivazioni: $A^*$ e $B^*$ possono essere difficili da calcolare e come per il MF la discretizzazione precedenet no è esatta:
+
+L'idea è quindi di sostituire approssimativamente la d
+
