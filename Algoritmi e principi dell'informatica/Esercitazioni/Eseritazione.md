@@ -508,3 +508,4 @@ $$\lim_{ n \to \infty } \frac{n\log(n)}{n^{1 + \varepsilon}} = \lim_{  n \to \in
 Confrontare
 1. $f(n) = \log_{2}(n)\quad g(n) = \log_{3}(n)$
    $$ \log_{3}(n) = O(\log_{2}(n)) $$
+Theta? $\log_{3}(n) = \dfrac{\log_{2}(n)}{\log_{2}(3)} \implies l$
