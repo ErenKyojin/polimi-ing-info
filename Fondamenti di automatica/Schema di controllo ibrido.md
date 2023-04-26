@@ -15,3 +15,5 @@ indichiamo con \* tempo discreto.
 
 $T_{s}$ tempo o passi di campionamento (sampling time)
 
+![[Schema di controllo ibrido.canvas]]
+$T_{}$

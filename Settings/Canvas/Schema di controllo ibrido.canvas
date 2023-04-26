@@ -1,5 +1,7 @@
 {
 	"nodes":[
+		{"id":"d0018fab16f25d4f","x":-680,"y":-216,"width":500,"height":296,"color":"5","type":"group","label":"TD"},
+		{"id":"47222a902dcfdc31","x":-40,"y":-216,"width":310,"height":296,"color":"1","type":"group","label":"TC"},
 		{"id":"214f5b7e4cffc240","x":-345,"y":-196,"width":85,"height":60,"type":"text","text":"$P^* (z)$"},
 		{"id":"cb1e84eae7c6f99f","x":-140,"y":-196,"width":60,"height":60,"type":"text","text":"H"},
 		{"type":"text","text":"$\\bullet$","id":"299be8ac9c6edc30","x":-660,"y":-196,"width":50,"height":60},
