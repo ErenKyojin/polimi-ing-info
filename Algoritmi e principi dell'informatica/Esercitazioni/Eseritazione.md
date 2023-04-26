@@ -570,4 +570,5 @@ In realtà metà delle volte modifico solo un bit e non tutto il numero (quando 
 Metà della metà delle volte modifico solo due bit (...01).
 Metà della metà della metà delle volte modifico solo due bit (...011).
 Modifico tutti gli $m$ bit solo $\dfrac{1}{\log_{2}(m)}$ volte
-Il costo di tutti i riporti
+Il costo di tutti i riporti è:
+$$ \frac{m}{2} \cdot 1 + \frac{m}{2^2} \cdot 2 + \frac{m}{2^3}*3 + \dots + \frac{m}{2^{\log_{2}m}}\cdot \log $$
