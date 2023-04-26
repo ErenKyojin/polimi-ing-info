@@ -470,6 +470,11 @@ basterebbe una grammatica di tipo 1, infatti basta una MT a nastro singolo
 Descrivere una MT a nastro singolo che dice se un numero è primo o no. Analizzarne la complessità.
 
 ```clike
-n = input()
-per ogni 1 < 
+n = input();
+per ogni 1 < i = floor(sqrt(n))
+{
+	if n % i = 0:
+		stampo no
+	if n 
+}
 ```
