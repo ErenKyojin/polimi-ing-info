@@ -534,4 +534,4 @@ $$ n! > \left( \frac{n}{2} \right)^{n/2}\quad \log(n!) > \frac{1}{2}n\log\left( 
 quindi
 $\log(n!) = \Theta(n \log(n))$
 
-#### 6. $f()$
+#### 6. $f(n)=n^{10}2^n\qquad g(n)= \left( \frac{5}{2} \right)^n$
