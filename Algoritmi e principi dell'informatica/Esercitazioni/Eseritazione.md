@@ -565,4 +565,4 @@ Quindi ricapitolando
 $S(m) = \Theta(\log(m))$
 $T(m) = O(m\log(m))$
 
-Per $t(m)$ ho $\leq$, quindi non posso sapere se è anche Theta grande, abbiamo approssimato di fare sempre il massimo numero di riporti (uguali al numeri di cifre)
+Per $t(m)$ ho $\leq$, quindi non posso sapere se è anche Theta grande, abbiamo approssimato di fare sempre il massimo numero di riporti (uguali al numeri di cifre). In realtà metà delle volte modifico solo un bit e non tutto il numero.
