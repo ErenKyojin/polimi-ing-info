@@ -68,4 +68,10 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 
 
 
-![[Energia cinetica#energia cinetica in un sistema di punti materiali]]
+![[Energia cinetica#energia cinetica in un sistemi di punti materiali sistema di punti materiali]]
+
+# Teoremi di Konig
+
+![[Teoremi di Konig]]
+
+![[energia meccanica]]
