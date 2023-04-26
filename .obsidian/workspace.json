@@ -24,12 +24,14 @@
             "id": "bc7dc0b436ea1441",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Fondamenti di automatica/Schema di controllo ibrido.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Settings/Canvas/Schema di controllo ibrido.canvas",
+                "viewState": {
+                  "x": -205,
+                  "y": -68,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Schema di controllo ibrido.md",
+                "file": "Settings/Canvas/Schema di controllo ibrido.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Schema di controllo ibrido.md",
+                "file": "Settings/Canvas/Schema di controllo ibrido.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Schema di controllo ibrido.md"
+                "file": "Settings/Canvas/Schema di controllo ibrido.canvas"
               }
             }
           }
@@ -167,9 +169,9 @@
   },
   "active": "bc7dc0b436ea1441",
   "lastOpenFiles": [
+    "Fondamenti di automatica/Schema di controllo ibrido.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Fondamenti di automatica/Schemi a blocchi.md",
-    "Fondamenti di automatica/Schema di controllo ibrido.md",
     "Fondamenti di automatica/Stabilità.md",
     "Fondamenti di automatica/Trasformate zeta notevoli.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
