@@ -522,3 +522,7 @@ Non vale la stessa cosa che nei logaritmi, la base importa per gli esponenziali
 $g$ maggiore per tutti gli $n$ maggiori di $2$, quindi:
 $g(n) = O(n^n)$
 $\lim_{ n \to \infty } \frac{n^n}{e^n} = +\infty$
+
+Ma $g(n) \neq \theta (f(n))$
+
+#### 4. $f(n) = n!\qquad g(n) = e^n$
