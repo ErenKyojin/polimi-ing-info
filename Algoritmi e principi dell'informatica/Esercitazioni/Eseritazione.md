@@ -502,4 +502,5 @@ $$ f(n) = n(n-1)+3 = \Theta(n^2) $$
 
 $3n = O(n)$
 $n^+ \neq O(n^3)$
-$\forall \varepsilon > 0: n $
+$\forall \varepsilon > 0: n \log(n) = O(n^{1 + \varepsilon})$
+$$\lim_{ n \to \infty } \frac{n\log(n)}{n^{1 + \varepsilon}} = \lim_{  n \to \infty } \log \frac{n}{n} = 0$$
