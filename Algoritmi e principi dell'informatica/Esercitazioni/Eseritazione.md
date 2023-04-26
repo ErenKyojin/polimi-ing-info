@@ -544,3 +544,5 @@ $$ \lim_{ n \to \infty } \frac{n^{10}2^n}{(5/ 2)^n}= \lim_{ _n  \to \infty } \fr
 - In una macchina a nastro singolo, qualsiasi porzione di input venga letta, si considera la memoria occupata totale da esso
 - In una macchina a k-nastri invece è possibile considerarla o meno
 
+consideriamo $\{ a^{(2^n)} | n \geq 0 \}$
+Se l'input $w$ 
