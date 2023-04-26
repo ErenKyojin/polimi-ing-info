@@ -530,4 +530,8 @@ $$n! > \left(\frac{n}{2}\right)^{n/2}$$
 #### 5. $f(n) = n\log(n)\quad g(n) = \log(n!)$
 $$g(n) = \log(n!) < \log(n^n) = n \log(n)$$
 quindi
-$$ n! > \left( \frac{n}{2} \right)^{n/2}\quad \log(n!) > \frac{1}{2}n\log\left( \frac{n}{2} \right) =\frac{1}{2}n\log(n) -\frac{1}{2}n\log() $$
+$$ n! > \left( \frac{n}{2} \right)^{n/2}\quad \log(n!) > \frac{1}{2}n\log\left( \frac{n}{2} \right) =\frac{1}{2}n\log(n) -\frac{1}{2}n\log(2) $$
+quindi
+$\log(n!) = \Theta(n \log(n))$
+
+#### 6. $f()$
