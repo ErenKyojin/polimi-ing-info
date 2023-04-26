@@ -506,7 +506,9 @@ $\forall \varepsilon > 0: n \log(n) = O(n^{1 + \varepsilon})$
 $$\lim_{ n \to \infty } \frac{n\log(n)}{n^{1 + \varepsilon}} = \lim_{  n \to \infty } \log \frac{n}{n} = 0$$
 ## 19
 Confrontare
-1. $f(n) = \log_{2}(n)\quad g(n) = \log_{3}(n)$
+#### 1. $f(n) = \log_{2}(n)\quad g(n) = \log_{3}(n)$
    $$ \log_{3}(n) = O(\log_{2}(n)) $$
 Theta? $\log_{3}(n) = \dfrac{\log_{2}(n)}{\log_{2}(3)} \implies \frac{\lim_{ n \to \infty }f(n)}{g(n)} = \log_{2}(3) \implies \log_{3}(n) = \Theta(\log_{2}(n))$
 La base non cambia l'efficenza del logaritmo!!
+
+#### 2. $f(n) = $
