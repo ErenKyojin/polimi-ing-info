@@ -43,4 +43,5 @@ Noi progettiamo $R(s)$ pensando allo schema a TC
 che è appunto tutto a TCe poi dobbiamo ottenere $R^*(z)$ e implementare lo schema ibrido con S&H da prima scegliendo anche $T_{S}$:
 
 1. Scelta di $T_{S}$
-2. $\{ R(s), T_{s} \} \to R^*(z)$
+2. $\{ R(s), T_{s} \} \to R^*(z)$ (discretizzazione)
+3. La presenza di S&H ha qualche effetto dinamico? se si, come tenerne conto
