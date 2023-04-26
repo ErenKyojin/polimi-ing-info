@@ -54,3 +54,5 @@ R(s) \\
 T_{s}
 \end{rcases} \to R^* (z)$$
 1. Discretizzazione "Esatta"
+   L'idea è far evolvere il SD a TC per un intervallo di tempo di lunghezza $T_{s}$ e interpretare il risultato come l'evoluzione del sistema dinamico a tempo discreto lungo un passo
+   $$  $$
