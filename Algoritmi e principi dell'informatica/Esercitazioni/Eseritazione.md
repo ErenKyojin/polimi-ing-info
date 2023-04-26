@@ -526,3 +526,4 @@ $\lim_{ n \to \infty } \frac{n^n}{e^n} = +\infty$
 Ma $g(n) \neq \theta (f(n))$
 
 #### 4. $f(n) = n!\qquad g(n) = e^n$
+$n! > (\frac{n}{2})^{n/}$
