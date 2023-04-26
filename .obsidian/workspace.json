@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fondamenti di automatica/Untitled.md",
+                "file": "Fondamenti di automatica/Schema di controllo ibrido.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Untitled.md",
+                "file": "Fondamenti di automatica/Schema di controllo ibrido.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Untitled.md",
+                "file": "Fondamenti di automatica/Schema di controllo ibrido.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Untitled.md"
+                "file": "Fondamenti di automatica/Schema di controllo ibrido.md"
               }
             }
           }
@@ -168,7 +168,7 @@
   "active": "bc7dc0b436ea1441",
   "lastOpenFiles": [
     "Fondamenti di automatica/Schemi a blocchi.md",
-    "Fondamenti di automatica/Untitled.md",
+    "Fondamenti di automatica/Schema di controllo ibrido.md",
     "Fondamenti di automatica/Stabilità.md",
     "Fondamenti di automatica/Trasformate zeta notevoli.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
