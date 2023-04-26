@@ -39,19 +39,22 @@ Usando i grafici delle due relazioni (sovrapponendo i vertici du gual nome) abbi
  \node[left] at (c){$c$};
  \node (x) at (3,0){$\bullet$};
  \node[right] at (x){$x$};
-> \node (y) at (3,-1){$\bullet$};
-> \node[right] at (y){$y$};
-> \node (z) at (3,-2){$\bullet$};
-> \node[right] at (z){$z$};
-> \node (w) at (3,-3){$\bullet$};
-> \node[right] at (w){$w$};
-> 
-> %arrows
-> \draw[-{Stealth}] (a.center) -- (x.center);
-> \draw[-{Stealth}] (a.center) -- (w.center);
-> \draw[-{Stealth}] (b.center) -- (x.center);
-> \draw[-{Stealth}] (b.center) -- (y.center);
-> \draw[-{Stealth}] (b.center) -- (z.center);
-> \end{tikzpicture}
-> \end{document}
-> ```
+ \node (y) at (3,-1){$\bullet$};
+ \node[right] at (y){$y$};
+ \node (z) at (3,-2){$\bullet$};
+ \node[right] at (z){$z$};
+ \node (w) at (3,-3){$\bullet$};
+ \node[right] at (w){$w$};
+ \node (h) at (6,-.5){$\bullet$};
+ \node (k) at (6,-2.5){$\bullet$};
+ 
+ %arrows
+ \draw[-{Stealth}] (a.center) -- (x.center);
+ \draw[-{Stealth}] (a.center) -- (w.center);
+ \draw[-{Stealth}] (b.center) -- (x.center);
+ \draw[-{Stealth}] (b.center) -- (y.center);
+ \draw[-{Stealth}] (b.center) -- (z.center);
+ \end{tikzpicture}
+ \end{document}
+ ```
+ 
