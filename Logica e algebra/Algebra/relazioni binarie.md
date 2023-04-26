@@ -17,6 +17,9 @@ Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, R = \{ (a,x),(a,w),(b,x),(b,y
 ```tikz
 \begin{document}
 \begin{tikzpicture}
+\usetikzlibrary{arrows.meta}
+
+%nodes
 \node (a) at (0,0){$\bullet$};
 \node[left] at (a){$a$};
 \node (b) at (0,-1){$\bullet$};
@@ -30,6 +33,10 @@ Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, R = \{ (a,x),(a,w),(b,x),(b,y
 \node (z) at (3,-2){$\bullet$};
 \node[right] at (z){$z$};
 \node (w) at (3,-3){$\bullet$};
+\node[right] at (w){$w$};
+
+%arrows
+\draw[-{Stealth}] (a.center) 
 \end{tikzpicture}
 \end{document}
 ```
