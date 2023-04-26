@@ -22,3 +22,7 @@ $S$: Sampler
 Quindi campionatore ideale $\implies y*(k) = y(kT_{s})$
 
 Mantenitore di ordine zero (ZOH, Zero Order Holder) $\implies$ $u(t) = u*(k)$ per $kT_{S} \leq t < (k + 1)T_{s}$
+
+Ipotesi:
+- S&H sincroni
+- $T_{s}$ costante
