@@ -31,7 +31,8 @@ Noi progettiamo $R(s)$ pensando allo schema a TC
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw[->] (0,0) -- ++ 9
+\draw[->] (0,0) -- ++ (1,0) node[]{$\bullet$} -- ++ (1,0);
+\draw(2,-.5) rectangle (3,.5)node[midway]{$R(s)$} --;
 \end{tikzpicture}
 \end{document}
 ```
