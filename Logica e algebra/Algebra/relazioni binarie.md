@@ -36,7 +36,11 @@ Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, R = \{ (a,x),(a,w),(b,x),(b,y
 \node[right] at (w){$w$};
 
 %arrows
-\draw[-{Stealth}] (a.center) 
+\draw[-{Stealth}] (a.center) -- (x.center);
+\draw[-{Stealth}] (a.center) -- (w.center);
+\draw[-{Stealth}] (b.center) -- (x.center);
+\draw[-{Stealth}] (b.center) -- (y.center);
+\draw[-{Stealth}] (b.center) -- (z/)
 \end{tikzpicture}
 \end{document}
 ```
