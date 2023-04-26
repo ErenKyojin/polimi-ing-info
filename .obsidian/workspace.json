@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Complessità spaziale.md",
+                "file": "Algoritmi e principi dell'informatica/Theta grande.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Complessità spaziale.md",
+                "file": "Algoritmi e principi dell'informatica/Theta grande.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Complessità spaziale.md",
+                "file": "Algoritmi e principi dell'informatica/Theta grande.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Complessità spaziale.md"
+                "file": "Algoritmi e principi dell'informatica/Theta grande.md"
               }
             }
           }
@@ -153,12 +153,12 @@
   },
   "active": "f76f7dacb17d0a64",
   "lastOpenFiles": [
-    "Algoritmi e principi dell'informatica/Algoritmi galattici.md",
+    "Algoritmi e principi dell'informatica/O grande.md",
     "Algoritmi e principi dell'informatica/Complessità spaziale.md",
-    "Algoritmi e principi dell'informatica/Esercitazioni/O grande.md",
+    "Algoritmi e principi dell'informatica/Algoritmi galattici.md",
     "Algoritmi e principi dell'informatica/Esercitazioni/Eseritazione.md",
     "Analisi 1/o piccolo.md",
-    "Algoritmi e principi dell'informatica/Esercitazioni/Theta grande.md",
+    "Algoritmi e principi dell'informatica/Theta grande.md",
     "Fondamenti di automatica/Schema di controllo ibrido.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Fondamenti di automatica/Schemi a blocchi.md",
