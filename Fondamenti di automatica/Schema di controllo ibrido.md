@@ -26,3 +26,5 @@ Mantenitore di ordine zero (ZOH, Zero Order Holder) $\implies$ $u(t) = u*(k)$ pe
 Ipotesi:
 - S&H sincroni
 - $T_{s}$ costante
+
+[Problema]]
