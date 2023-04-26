@@ -591,4 +591,4 @@ aaaaabbbbbccccc -> a'aa'aa\*b'bb'bb\*c'cc'cc\* -> a'a'a'aa\*b'b'b'bb\*c'c'c'cc\*
 Un FSA ha complessità sempre lineare, ci metterà sempre $n + 1$ mosse ad accettare una stringa di lunghezza $n$.
 Anche la memoria è costante
 
-Un automa a pila
+Un automa a pila ha complessità spaziale costante per il numero di transizioni effettuate (complessità temporale)
