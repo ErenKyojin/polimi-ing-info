@@ -75,3 +75,7 @@ Quindi
 
 >[!oss]
 >La discretizzazione non è invece...?
+
+
+#### 2. Discretizzazione approssimata
+Motivazioni: $$
