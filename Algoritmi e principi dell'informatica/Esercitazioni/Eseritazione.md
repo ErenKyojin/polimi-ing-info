@@ -473,8 +473,14 @@ Descrivere una MT a nastro singolo che dice se un numero è primo o no. Analizza
 n = input();
 per ogni 1 < i = floor(sqrt(n))
 {
-	if n % i = 0:
-		stampo no
-	if n 
+	if n % i = 0
+		stampo no;
+	if n % i != 0
+		i++;
 }
 ```
+
+L'input lo cidifico in base 1
+- carico due simboli in memoria
+- leggo l'input e ogni volta mi sposto in memoria su uno dei due simboli
+- Se termino l'input sul secondo 
