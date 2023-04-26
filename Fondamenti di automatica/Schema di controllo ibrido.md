@@ -58,5 +58,8 @@ T_{s}
    Quindi 
    - $R(s) \to (A,b,c,d)\qquad \forall$ realizzazione minima
    - $x_{R}(T_{s}) = e^{ AT_{s} } x_{R}(0) + \int _{0}^{T_{s}} \! e^{ A(T_{s} - \tau) }be(\tau)\, \mathrm{d}\tau \approx e^{AT_{s}}x_{R}(0) + (\int _{0}^{T_{s}} \!e^{ A(T_{s} - \tau) } b\mathrm{d}\tau) e(0)$
-     $$ \begin{align}&x_{R}^* \approx A^*x_{R}^*(0) + b^*e^*(0) \\ &x_{R}^*(k)
+     $$ \begin{align}&x_{R}^* \approx A^*x_{R}^*(0) + b^*e^*(0) \\ &\begin{cases}
+  x_{R}^*(k) = A^*x_{R}^*(k -1)+b^*e^*(k - 1) \\
+u^*(k) = cx_{R}^*(k) + de^*(k)
+\end{cases}
   \end{align} $$
