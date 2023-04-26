@@ -24,12 +24,14 @@
             "id": "bc7dc0b436ea1441",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Fondamenti di automatica/Schema di controllo ibrido.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Settings/Canvas/Untitled 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fondamenti di automatica/Schema di controllo ibrido.md",
+                "file": "Settings/Canvas/Untitled 1.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fondamenti di automatica/Schema di controllo ibrido.md",
+                "file": "Settings/Canvas/Untitled 1.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fondamenti di automatica/Schema di controllo ibrido.md"
+                "file": "Settings/Canvas/Untitled 1.canvas"
               }
             }
           }
@@ -167,8 +169,9 @@
   },
   "active": "bc7dc0b436ea1441",
   "lastOpenFiles": [
-    "Fondamenti di automatica/Schemi a blocchi.md",
     "Fondamenti di automatica/Schema di controllo ibrido.md",
+    "Settings/Canvas/Untitled 1.canvas",
+    "Fondamenti di automatica/Schemi a blocchi.md",
     "Fondamenti di automatica/Stabilità.md",
     "Fondamenti di automatica/Trasformate zeta notevoli.md",
     "Logica e algebra/Algebra/relazioni binarie.md",

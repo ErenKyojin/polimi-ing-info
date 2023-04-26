@@ -12,3 +12,6 @@ indichiamo con \* tempo discreto.
 | $w^*(k) \to\bullet\to R^*(x)\to u^*(k)$               | $u(t) \to \fbox{ $ P(s) $} \to y(t)$      | 
 
 %%% #todo migliorare %%
+
+$T_{s}$ tempo o passi di campionamento (sampling time)
+
