@@ -9,5 +9,7 @@ Se $R$ è una relazione binaria la notazione $a_{1}\ R\ a_{2}$ ha lo stesso sign
 Nel caso in cui gli insiemi $A_{1}$ e $A_{2}$ con cui lavoriamo contengano un numero finito di elementi (che indicheremo rispettivamente con $|A_{1}|$ e $|A_{2}|$ tali quantità), una relazione $R \subseteq A_{1} \times A_{2}$ potrà essere utilmente rappresentata attraverso:
 
 ## Grafo di incidenza
-Un grafo orientato è una coppia di insiemi $(V,E)$, $V$ è l'insieme dei vertici, $E$ è l'insieme degl
+Un grafo orientato è una coppia di insiemi $(V,E)$, $V$ è l'insieme dei vertici, $E$ è l'insieme degli archi, ogni arco può essere pensato come una coppia di vertici, il primo elemento della coppia si dice vertice iniziale dell'arco, il secondo vertice finale.
+Un grafo si può disegnare rappresentando i suoi vertici come punti ed i suoi archi come frecce dal vertice iniziale al vertice finale.
+In particolare se partiamo da una relazione $R \subseteq A_{1}$
 
