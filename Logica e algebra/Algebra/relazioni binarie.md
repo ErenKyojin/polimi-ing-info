@@ -13,4 +13,13 @@ Un grafo orientato è una coppia di insiemi $(V,E)$, $V$ è l'insieme dei vertic
 Un grafo si può disegnare rappresentando i suoi vertici come punti ed i suoi archi come frecce dal vertice iniziale al vertice finale.
 In particolare se partiamo da una relazione $R \subseteq A_{1} \times A_{2}$ si dice il grafo di incidenza di $R$ il frafo il cui insieme di vertici è $A_{1} \cup A_{2}$ e il cui insieme di archi è $R$
 
-Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, R = \{ (a,x),(a,w),() \}$
+Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, R = \{ (a,x),(a,w),(b,x),(b,y),(b,z) \}$ il grafo di incidenza di $R$ è
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node (a) at (0,0){$\bullet$};
+\node (b) at (0,-1){$\bullet$};
+\node (c) at (0,-2){$}
+\end{tikzpicture}
+\end{document}
+```
