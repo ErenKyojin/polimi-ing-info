@@ -34,7 +34,10 @@ Noi progettiamo $R(s)$ pensando allo schema a TC
 \draw[->] (0,0) -- ++ (1,0) node[]{$\bullet$} -- ++ (1,0);
 \draw(2,-.5) rectangle (3,.5)node[midway]{$R(s)$};
 \draw[->] (3,0) -- ++ (1,0) node[midway,above]{$u(t)$};
-\draw[->] (4,-0.5) rectangle (5,.5)node[];
+\draw[] (4,-0.5) rectangle (5,.5)node[midway]{$P(s)$};
+\draw[->] (5,0) -- ++ (1,0) node[right]{$y(t)$};
+\draw[] (5.5,0) -- ++ (0,-1);
+\draw
 \end{tikzpicture}
 \end{document}
 ```
