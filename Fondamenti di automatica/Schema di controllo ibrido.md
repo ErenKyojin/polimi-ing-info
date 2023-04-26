@@ -9,7 +9,6 @@ Ibrido significa un pezzo a TC ed un pezzo a TD.
 indichiamo con \* tempo discreto.
 | TD (k intero) | TC (t reale) |
 | ------------- | ------------ |
-| $w^*(k) \to\bullet\to R^*(x)\to u^*$               | $u(t) \to \fbox{ $ P(s) $} \to y(t)$      | 
+| $w^*(k) \to\bullet\to R^*(x)\to u^*(k)$               | $u(t) \to \fbox{ $ P(s) $} \to y(t)$      | 
 
-
-
+%%% #todo migliorare %%
