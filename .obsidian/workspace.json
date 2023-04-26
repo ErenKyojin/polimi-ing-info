@@ -86,7 +86,7 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -125,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 586.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -141,7 +141,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c4a9ef59f749559",
+  "active": "4f3e5567f8ddd91c",
   "lastOpenFiles": [
     "GAL/Untitled",
     "Logica e algebra"
