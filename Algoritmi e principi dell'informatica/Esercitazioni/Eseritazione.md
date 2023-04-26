@@ -587,3 +587,5 @@ $\displaystyle= 2m + \frac{m}{3}\left( \frac{4}{3}m + 1 \right) = \Theta(m^2)$
 Possiamo fare di meglio
 Segnamo un carattere e saltiamo quello successivo, se finiamo sempre su un simbolo segnato allora ripetiamo coi caratteri non segnati fino a quando non li abbiamo segnati tutti
 aaaaabbbbbccccc -> a'aa'aa\*b'bb'bb\*c'cc'cc\* -> a'a'a'aa\*b'b'b'bb\*c'c'c'cc\* -> a'a'a'a'a\*b'b'b'b'b\*c'c'c'c'c\*
+
+Un FSA ha complessità
