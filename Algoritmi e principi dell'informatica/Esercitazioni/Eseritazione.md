@@ -569,4 +569,5 @@ Per $t(m)$ ho $\leq$, quindi non posso sapere se è anche Theta grande, abbiamo 
 In realtà metà delle volte modifico solo un bit e non tutto il numero (quando il contatore termina con ..0).
 Metà della metà delle volte modifico solo due bit (...01).
 Metà della metà della metà delle volte modifico solo due bit (...011).
-Modifico tutti gli $m$ bit
+Modifico tutti gli $m$ bit solo $\dfrac{1}{\log_{2}(m)}$ volte
+Il costo di tutti i riporti
