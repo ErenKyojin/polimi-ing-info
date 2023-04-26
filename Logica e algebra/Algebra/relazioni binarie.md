@@ -21,4 +21,5 @@ $$ R \cdot T = \{ (a_{1},a_{3}) | \exists a_{2} : (a_{1},a_{2}) \in R \text{ e }
 Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, A_{3} = \{ h,k \}, R = \{ (a,x),(a,w),(b,x),(b,y),(b,z) \}$
 $T = \{ (x,h),(z,h),(w,k) \}$
 Calcoliamo $R \cdot T$, si ha:
-- $(a,h) \in R \cdot T$ in quanto esiste $$
+- $(a,h) \in R \cdot T$ in quanto esiste $x$ tale che $(a,x) \in R$ e $(x,h) \in T$
+- $(a,k) \in R \cdot T$ in quanto esiste $w$ tale che $(a,w) \in R$ e $(w,h) \in T$
