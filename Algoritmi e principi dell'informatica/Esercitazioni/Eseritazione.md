@@ -576,3 +576,5 @@ $$\begin{align}
 &\sum_{i = 1}^{\log_{2}(m)} \frac{m}{2^i}\cdot i = m \sum_{i =1}^{\log_{2}(m)} \frac{i}{2^i} \leq m \cdot \int _{1}^\infty \frac{\!x}{2^x} \, \mathrm{d}x \leq 2 \cdot m = \Theta(m)
 
 \end{align} $$
+## 20
+Progettare una MT a nastro singolo che riconosca $\{ a^nb^nc^n | n > 0 \}$ nel tempo (asintotico) piú piccolo che si riesca.
