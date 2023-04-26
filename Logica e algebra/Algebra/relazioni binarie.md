@@ -99,4 +99,6 @@ Il prodotto di rileazioni gode delle seguenti proprietà:
    $R \cdot S \subseteq T \cdot S$ e $V \cdot R \subseteq V \cdot T$.
   Da questo si deduce anche che se $R \subseteq T \subseteq A_{1} \times A_{2}, S \subseteq U \subseteq A_{2} \times A_{3}$ si ha
    $R \cdot S \subseteq T \cdot U$.
-  Si osservi che se $R \subset T \subseteq A_{1} \times A_{2}, S \subseteq A_{2} \times A_{3}$ possiamo solo concludere che $R \cdot S \subseteq T \cdot S$ e non che $R \cdot S \subset T$; allo stesso modo se $R \subset T \subseteq A_{1} \times A_{2}, V \subseteq A_{4} \times A_{1}$ possiamo solo concludere che $V \cdot R \subseteq V \cdot T$
+  Si osservi che se $R \subset T \subseteq A_{1} \times A_{2}, S \subseteq A_{2} \times A_{3}$ possiamo solo concludere che $R \cdot S \subseteq T \cdot S$ e non che $R \cdot S \subset T$; allo stesso modo se $R \subset T \subseteq A_{1} \times A_{2}, V \subseteq A_{4} \times A_{1}$ possiamo solo concludere che $V \cdot R \subseteq V \cdot T$ e se $R \subset T \subseteq A_{1} \times A_{2}$, $S \subset U \subseteq A_{2} \times A_{3}$ possiamo slo conludere che $R \cdot S \subseteq T \cdot U$
+
+Il prodotto di relazioni non è commutativo, date $R \subseteq A_{1} \times A_{2}$ e $T \subseteq A_{2} \times A_{3}$, $R$
