@@ -24,3 +24,34 @@ Calcoliamo $R \cdot T$, si ha:
 - $(a,h) \in R \cdot T$ in quanto esiste $x$ tale che $(a,x) \in R$ e $(x,h) \in T$
 - $(a,k) \in R \cdot T$ in quanto esiste $w$ tale che $(a,w) \in R$ e $(w,k) \in T$
 - $(b,h) \in R \cdot T$ in quanto esiste $x$ tale che $(b,x) \in R$ e $(x,h) \in T$
+Usando i grafici delle due relazioni (sovrapponendo i vertici du gual nome) abbiamo il seguente diagramma
+ ```tikz
+ \begin{document}
+ \begin{tikzpicture}
+ \usetikzlibrary{arrows.meta}
+ 
+ %nodes
+ \node (a) at (0,0){$\bullet$};
+ \node[left] at (a){$a$};
+ \node (b) at (0,-1){$\bullet$};
+ \node[left] at (b){$b$};
+ \node (c) at (0,-2){$\bullet$};
+ \node[left] at (c){$c$};
+ \node (x) at (3,0){$\bullet$};
+ \node[right] at (x){$x$};
+> \node (y) at (3,-1){$\bullet$};
+> \node[right] at (y){$y$};
+> \node (z) at (3,-2){$\bullet$};
+> \node[right] at (z){$z$};
+> \node (w) at (3,-3){$\bullet$};
+> \node[right] at (w){$w$};
+> 
+> %arrows
+> \draw[-{Stealth}] (a.center) -- (x.center);
+> \draw[-{Stealth}] (a.center) -- (w.center);
+> \draw[-{Stealth}] (b.center) -- (x.center);
+> \draw[-{Stealth}] (b.center) -- (y.center);
+> \draw[-{Stealth}] (b.center) -- (z.center);
+> \end{tikzpicture}
+> \end{document}
+> ```
