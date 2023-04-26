@@ -563,3 +563,6 @@ $1024 \to \approx c \cdot 1024 \cdot 64 \implies c \approx$
 
 Quindi ricapitolando
 $S(m) = \Theta(\log(m))$
+$T(m) = O(m\log(m))$
+
+Per $t(m)$ ho $\leq$, quindi non posso sapere se è anche Theta grande, io ho approssimato
