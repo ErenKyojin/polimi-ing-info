@@ -66,4 +66,18 @@ $$ R \cdot T = \{ (a_{1},a_{3}) | \exists a_{2} : (a_{1},a_{2}) \in R \text{ e }
 >Con le frecce continue rappresentanti la relazione $R$ e quelle tratteggiate la relazione $T$..
 
 
-Risulta che un coppia di vertici appartiene alla relazione $R \cdot T$ se e solo se si può andare dal primo elemento della coppia al secondo percorrendo prima un arco a t
+Risulta che un coppia di vertici appartiene alla relazione $R \cdot T$ se e solo se si può andare dal primo elemento della coppia al secondo percorrendo prima un arco a tratto continuo e poi un arco tratteggiato (relazione T).
+Se consideriamo invece le matrici di incidenza abbiamo
+$$
+M_{R} = \begin{bmatrix}
+1 & 0 & 0 & 1 \\
+1 & 1 & 1 & 0 \\
+0 & 0 & 0 & 0
+\end{bmatrix},\qquad M_{T} = \begin{bmatrix}
+1 & 0 \\
+0 & 0 \\
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+$$
+Si può effettuare
