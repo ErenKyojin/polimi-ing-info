@@ -18,47 +18,52 @@ Siano ora date le relazioni $R \subseteq A_{1} \times A_{2}$ e $T \subseteq A_{2
 $$ R \cdot T = \{ (a_{1},a_{3}) | \exists a_{2} : (a_{1},a_{2}) \in R \text{ e } (a_{2},a_{3}) \in T \} $$
 (per come sono definite le relazioni $R$ e $T$, $(a_{1},a_{2}) \in R$ e $(a_{2},a_{3}) \in T$ implicano $a_{1} \in A_{1}, a_{2} \in A_{2}, a_{3} \in A_{3}$) 
 
-Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, A_{3} = \{ h,k \}, R = \{ (a,x),(a,w),(b,x),(b,y),(b,z) \}$
-$T = \{ (x,h),(z,h),(w,k) \}$
-Calcoliamo $R \cdot T$, si ha:
-- $(a,h) \in R \cdot T$ in quanto esiste $x$ tale che $(a,x) \in R$ e $(x,h) \in T$
-- $(a,k) \in R \cdot T$ in quanto esiste $w$ tale che $(a,w) \in R$ e $(w,k) \in T$
-- $(b,h) \in R \cdot T$ in quanto esiste $x$ tale che $(b,x) \in R$ e $(x,h) \in T$
-Usando i grafici delle due relazioni (sovrapponendo i vertici du gual nome) abbiamo il seguente diagramma
- ```tikz
- \begin{document}
- \begin{tikzpicture}
- \usetikzlibrary{arrows.meta}
- 
- %nodes
- \node (a) at (0,0){$\bullet$};
- \node[left] at (a){$a$};
- \node (b) at (0,-1){$\bullet$};
- \node[left] at (b){$b$};
- \node (c) at (0,-2){$\bullet$};
- \node[left] at (c){$c$};
- \node (x) at (3,0){$\bullet$};
- \node[right] at (x){$x$};
- \node (y) at (3,-1){$\bullet$};
- \node[right] at (y){$y$};
- \node (z) at (3,-2){$\bullet$};
- \node[right] at (z){$z$};
- \node (w) at (3,-3){$\bullet$};
- \node[right] at (w){$w$};
- \node (h) at (6,-.5){$\bullet$};
- \node[right] at (h){$h$};
- \node (k) at (6,-2.5){$\bullet$};
- \node[right] at (k){$k$};
- %arrows
- \draw[-{Stealth}] (a.center) -- (x.center);
- \draw[-{Stealth}] (a.center) -- (w.center);
- \draw[-{Stealth}] (b.center) -- (x.center);
- \draw[-{Stealth}] (b.center) -- (y.center);
- \draw[-{Stealth}] (b.center) -- (z.center);
- \draw[-{Stealth},dashed] (z.center) -- (h.center);
- \draw[-{Stealth},dashed] (x.center) -- (h.center);
- \draw[-{Stealth},dashed] (w.center) -- (k.center);
- \end{tikzpicture}
- \end{document}
- ```
- 
+> [!esempio]
+> Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, A_{3} = \{ h,k \}, R = \{ (a,x),(a,w),(b,x),(b,y),(b,z) \}$
+> $T = \{ (x,h),(z,h),(w,k) \}$
+> Calcoliamo $R \cdot T$, si ha:
+> - $(a,h) \in R \cdot T$ in quanto esiste $x$ tale che $(a,x) \in R$ e $(x,h) \in T$
+> - $(a,k) \in R \cdot T$ in quanto esiste $w$ tale che $(a,w) \in R$ e $(w,k) \in T$
+> - $(b,h) \in R \cdot T$ in quanto esiste $x$ tale che $(b,x) \in R$ e $(x,h) \in T$
+> Usando i grafici delle due relazioni (sovrapponendo i vertici du gual nome) abbiamo il seguente diagramma
+>  ```tikz
+>  \begin{document}
+>  \begin{tikzpicture}
+>  \usetikzlibrary{arrows.meta}
+>  
+>  %nodes
+>  \node (a) at (0,0){$\bullet$};
+>  \node[left] at (a){$a$};
+>  \node (b) at (0,-1){$\bullet$};
+>  \node[left] at (b){$b$};
+>  \node (c) at (0,-2){$\bullet$};
+>  \node[left] at (c){$c$};
+>  \node (x) at (3,0){$\bullet$};
+>  \node[right] at (x){$x$};
+>  \node (y) at (3,-1){$\bullet$};
+>  \node[right] at (y){$y$};
+>  \node (z) at (3,-2){$\bullet$};
+>  \node[right] at (z){$z$};
+>  \node (w) at (3,-3){$\bullet$};
+>  \node[right] at (w){$w$};
+>  \node (h) at (6,-.5){$\bullet$};
+>  \node[right] at (h){$h$};
+>  \node (k) at (6,-2.5){$\bullet$};
+>  \node[right] at (k){$k$};
+>  %arrows
+>  \draw[-{Stealth}] (a.center) -- (x.center);
+>  \draw[-{Stealth}] (a.center) -- (w.center);
+>  \draw[-{Stealth}] (b.center) -- (x.center);
+>  \draw[-{Stealth}] (b.center) -- (y.center);
+>  \draw[-{Stealth}] (b.center) -- (z.center);
+>  \draw[-{Stealth},dashed] (z.center) -- (h.center);
+>  \draw[-{Stealth},dashed] (x.center) -- (h.center);
+>  \draw[-{Stealth},dashed] (w.center) -- (k.center);
+>  \end{tikzpicture}
+>  \end{document}
+>  ```
+>
+>Con le frecce continue rappresentanti la relazione $R$ e quelle tratteggiate la relazione $T$..
+
+
+Risulta che un coppia di vertici appartiene alla relazione $R \cdot T$ se e solo se si può andare dal primo elemento della coppia al secondo percorrendo prima un arco a t
