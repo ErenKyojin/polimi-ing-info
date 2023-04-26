@@ -90,4 +90,6 @@ Il prodotto di rileazioni gode delle seguenti proprietà:
   Per ogni $R,T,S$ tali che $R \subseteq A_{1} \times A_{2}, T \subseteq A_{2} \times A_{3}, S \subseteq A_{3} \times A_{4}$ si ha
   $$ (R \cdot T) \cdot S = R \cdot (T\cdot S) $$
   Ossia che $(a_{1},a_{4}) \in (R\cdot T)\cdot S$ implica $(a_{1},a_{4} )\in R \cdot (T\cdot S)$.
-  Per definizione $(a_{1},a_{4}) \in (R\cdot T)\cdot S$ implica che esiste un $a_{3}$ tale che $(a_{1},a_{3} \in R\cdot T)$ e 
+  Per definizione $(a_{1},a_{4}) \in (R\cdot T)\cdot S$ implica che esiste un $a_{3}$ tale che $(a_{1},a_{3} \in R\cdot T)$ e $(a_{3},a_{4} \in S)$.
+  Ancora per definizione $(a_{1},a_{3}) \in R \cdot T$ implica che esiste un $a_{2}$ tale che $(a_{1},a_{2} \in R)$ e $(a_{2},a_{3} )\in T$
+  Ora $(a_{2},a_{3}) \in T$
