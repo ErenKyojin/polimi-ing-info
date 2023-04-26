@@ -82,7 +82,5 @@ Motivazioni: $A^*$ e $B^*$ possono essere difficili da calcolare e come per il M
 
 L'idea è quindi di sostituire approssimativamente la derivata temporale con il rapporto incrementale.
 
-#todo 
-
 Metodo di eulero esplicito o delle differenze in avanti:
 $$ R^*(z) = R\left( \frac{z-1}{T_{s}} \right) $$
