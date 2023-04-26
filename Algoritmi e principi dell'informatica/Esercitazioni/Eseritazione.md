@@ -504,3 +504,6 @@ $3n = O(n)$
 $n^4 \neq O(n^3)$
 $\forall \varepsilon > 0: n \log(n) = O(n^{1 + \varepsilon})$
 $$\lim_{ n \to \infty } \frac{n\log(n)}{n^{1 + \varepsilon}} = \lim_{  n \to \infty } \log \frac{n}{n} = 0$$
+## 19
+Confrontare
+1. $f(n) = \log$
