@@ -583,3 +583,4 @@ aaabbbccc -> a'aab'bbc'cc -> a'a'a'b'b'b'c'c'c' -> accettato
 
 Prima di tutto scansiono da sinistra a destra e viceversa per un analisi "strutturale". 
 $$\underbrace{ 2m + \dfrac{2}{3}2m + 1 + \left( \frac{2}{3}m + 2 + 1 \right) +  }_{ \displaystyle\frac{1}{2}m }$$
+$\displaystyle= 2m + \frac{m}{3}\left( \frac{4}{3}m + 1 \right) = \Theta(m^2)$
