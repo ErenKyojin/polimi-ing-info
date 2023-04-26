@@ -54,8 +54,8 @@ R(s) \\
 T_{s}
 \end{rcases} \to R^* (z)$$
 #### 1. Discretizzazione "Esatta"
-   L'idea è far evolvere il SD a TC per un intervallo di tempo di lunghezza $T_{s}$ e interpretare il risultato come l'evoluzione del sistema dinamico a tempo discreto lungo un passo $$ t += T_{s} \iff k++$$
-   Quindi 
+L'idea è far evolvere il SD a TC per un intervallo di tempo di lunghezza $T_{s}$ e interpretare il risultato come l'evoluzione del sistema dinamico a tempo discreto lungo un passo $$ t += T_{s} \iff k++$$
+Quindi 
    - $R(s) \to (A,b,c,d)\qquad \forall$ realizzazione minima
    - $x_{R}(T_{s}) = e^{ AT_{s} } x_{R}(0) + \int _{0}^{T_{s}} \! e^{ A(T_{s} - \tau) }be(\tau)\, \mathrm{d}\tau \approx e^{AT_{s}}x_{R}(0) + (\int _{0}^{T_{s}} \!e^{ A(T_{s} - \tau) } b\mathrm{d}\tau) e(0)$
      $$ \begin{align}&x_{R}^* \approx A^*x_{R}^*(0) + b^*e^*(0) \\ &\begin{cases}
@@ -66,4 +66,8 @@ T_{s}
     - $R^*(z) = c(Z I - A^*)^{-1}b^* + d$
 
 >[!oss]
->Quanto al ML questa discretizzazione
+>Quanto al ML questa discretizzazione è esatta per davvero?
+>Preserva le caratteristiche di stabilità
+
+>[!oss]
+>Infatti se $A^* = e^{ AT_{s} }$
