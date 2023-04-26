@@ -125,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -142,7 +141,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8a093c0bb80f33fe",
+  "active": "1c4a9ef59f749559",
   "lastOpenFiles": [
     "GAL/Untitled",
     "Logica e algebra"
