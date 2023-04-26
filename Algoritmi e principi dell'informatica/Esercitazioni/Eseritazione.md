@@ -489,4 +489,4 @@ Stampo si solo se ho piú simboli del numero in input.
 
 Quante operazioni?
 $n(n - 2) + \cost$
-complessità quadratica
+complessità quadratica, non tanto grande.
