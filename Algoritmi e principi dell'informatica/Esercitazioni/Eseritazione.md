@@ -565,7 +565,7 @@ Quindi ricapitolando
 $S(m) = \Theta(\log(m))$
 $T(m) = O(m\log(m))$
 
-Per $t(m)$ ho $\leq$, quindi non posso sapere se è anche Theta grande, abbiamo approssimato di fare sempre il massimo numero di riporti (uguali al numeri di cifre). 
+Per $T(m)$ ho $\leq$, quindi non posso sapere se è anche Theta grande, abbiamo approssimato di fare sempre il massimo numero di riporti (uguali al numeri di cifre). 
 In realtà metà delle volte modifico solo un bit e non tutto il numero (quando il contatore termina con ..0).
 Metà della metà delle volte modifico solo due bit (...01).
 Metà della metà della metà delle volte modifico solo due bit (...011).
@@ -573,6 +573,6 @@ Modifico tutti gli $m$ bit solo $\dfrac{1}{\log_{2}(m)}$ volte
 Il costo di tutti i riporti è:
 $$\begin{align}
  &\frac{m}{2} \cdot 1 + \frac{m}{2^2} \cdot 2 + \frac{m}{2^3}*3 + \dots + \frac{m}{2^{\log_{2}m}}\cdot \log_{2}(m) = \\ \\
-&\sum_{i = 1}^{\log_{2}(m)} \frac{m}{2^i}\cdot i = m \sum_{i =1}^{\log_{2}(m)} \frac{i}{2^i} \leq m \cdot \int  \! \, \mathrm{d}x 
+&\sum_{i = 1}^{\log_{2}(m)} \frac{m}{2^i}\cdot i = m \sum_{i =1}^{\log_{2}(m)} \frac{i}{2^i} \leq m \cdot \int _{1}^\infty \frac{\!x}{2^x} \, \mathrm{d}x \leq 2 \cdot m = \Theta(m)
 
 \end{align} $$
