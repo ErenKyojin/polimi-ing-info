@@ -559,10 +559,10 @@ con $\log(i)$ numero memorizzato in memoria.
 $|n| = 16 \to 85 \approx c\cdot16 \cdot \log_{2}(16)=64 \implies c \approx 0.80$
 $64 \to 327 \approx c \cdot 64 \cdot 8 \implies c \approx 0.64$
 $256 \to 1289  \approx c \cdot 256 \cdot 16 \implies c \approx 0.31$
-$1024 \to \approx c \cdot 1024 \cdot 64 \implies c \approx$ 
+$1024 \to 5131 \approx c \cdot 1024 \cdot 64 \implies c \approx$ 
 
 Quindi ricapitolando
 $S(m) = \Theta(\log(m))$
 $T(m) = O(m\log(m))$
 
-Per $t(m)$ ho $\leq$, quindi non posso sapere se è anche Theta grande, io ho approssimato
+Per $t(m)$ ho $\leq$, quindi non posso sapere se è anche Theta grande, abbiamo approssimato di fare sempre il massimo numero di riporti (uguali al numeri di cifre)
