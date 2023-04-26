@@ -506,4 +506,5 @@ $\forall \varepsilon > 0: n \log(n) = O(n^{1 + \varepsilon})$
 $$\lim_{ n \to \infty } \frac{n\log(n)}{n^{1 + \varepsilon}} = \lim_{  n \to \infty } \log \frac{n}{n} = 0$$
 ## 19
 Confrontare
-1. $f(n) = \log$
+1. $f(n) = \log_{2}(n)\quad g(n) = \log_{3}(n)$
+   $$ \log_{3}(n) = O(\log_{2}(n)) $$
