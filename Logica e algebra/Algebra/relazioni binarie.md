@@ -89,4 +89,5 @@ Il prodotto di rileazioni gode delle seguenti proprietà:
 - associativo:
   Per ogni $R,T,S$ tali che $R \subseteq A_{1} \times A_{2}, T \subseteq A_{2} \times A_{3}, S \subseteq A_{3} \times A_{4}$ si ha
   $$ (R \cdot T) \cdot S = R \cdot (T\cdot S) $$
-  Ossia che $(a_{1},a_{4}) \in (R\cdot T)\cdot S \implies$
+  Ossia che $(a_{1},a_{4}) \in (R\cdot T)\cdot S$ implica $(a_{1},a_{4} )\in R \cdot (T\cdot S)$.
+  Per definizione $(a_{1},a_{4}) \in (R\cdot T)\cdot S$ implica che esiste un $a_{3}$ tale che $(a_{1},a_{3} \in R\cdot T)$ e 
