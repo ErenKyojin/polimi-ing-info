@@ -11,12 +11,14 @@
             "id": "0b40b0a415c2332a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Settings/Canvas/Untitled 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -86,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
+                "file": "Settings/Canvas/Untitled 1.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
+                "file": "Settings/Canvas/Untitled 1.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md"
+                "file": "Settings/Canvas/Untitled 1.canvas"
               }
             }
           }
@@ -151,9 +153,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c4a9ef59f749559",
+  "active": "0b40b0a415c2332a",
   "lastOpenFiles": [
     "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
+    "Settings/Canvas/Untitled 1.canvas",
     "Algoritmi e principi dell'informatica/Omega grande.md",
     "Algoritmi e principi dell'informatica/Esercitazioni/Eseritazione.md",
     "Algoritmi e principi dell'informatica/Theta grande.md",
