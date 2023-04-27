@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/relazioni binarie.md",
+                "file": "Logica e algebra/Algebra/P chiusura.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/relazioni binarie.md",
+                "file": "Logica e algebra/Algebra/P chiusura.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/relazioni binarie.md",
+                "file": "Logica e algebra/Algebra/P chiusura.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/relazioni binarie.md",
+                "file": "Logica e algebra/Algebra/P chiusura.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Algebra/relazioni binarie.md"
+                "file": "Logica e algebra/Algebra/P chiusura.md"
               }
             }
           },
@@ -184,8 +184,9 @@
   },
   "active": "55143440dfef2625",
   "lastOpenFiles": [
-    "Logica e algebra/Algebra/relazione identica.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
+    "Logica e algebra/Algebra/P chiusura.md",
+    "Logica e algebra/Algebra/relazione identica.md",
     "Logica e algebra/Algebra/relazione inversa.md",
     "Logica e algebra/Algebra/Relazioni permutabili.md",
     "API/Ricorsivamente enumerabile.md",
@@ -213,7 +214,6 @@
     "Geometria e algebra lineare/rango.md",
     "Geometria e algebra lineare/quadriche.md",
     "Geometria e algebra lineare/proiezione ortogonale.md",
-    "Geometria e algebra lineare/prodotto vettoriale.md",
     "Geometria e algebra lineare/preamble.sty",
     "Geometria e algebra lineare",
     "Algoritmi e principi dell'informatica/Canvas/MT nastro singolo.canvas",
