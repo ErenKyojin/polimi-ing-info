@@ -198,3 +198,5 @@ Per quanto riguarda le operazioni di intersezione, unione, prodotto, passaggio a
 |   Simmetrica   |   Simmetrica   |     Sì     |     Sì     |     No      |    Sì    |
 | Antisimmetrica | Antisimmetrica |     Sì     |     No     |     No      |    Sì    |
 |   Transitiva   |   Transitiva   |     Sì     |     No     |     No      |    Sì    |
+
+Consideriamo ora un insieme $P$ di proprietà di cui le relazioni binarie possono godere. Sia $R \subseteq A \times A$ una relazione binaria su $A$, chiamiamo chiusura di $R$ rispetto a $P$ o $P$-chiusura di $R$ una relazione $T \subseteq A \times A$
