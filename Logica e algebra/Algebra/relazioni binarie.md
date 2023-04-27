@@ -131,4 +131,4 @@ Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà
   - $I_{A}$ e $\omega_{A}$ sono seriali
 - **Proprietà riflessiva**: si dice che una relazione $R$ gode della proprietà riflessiva (o semplicemente è riflessiva) se per ogni $a \in A$ si ha $(a,a) \in R$.
   Si può provare facilmente che una relazione è riflessiva se e solo se $I_{A} \subseteq R$
-  - In termini di grafo
+  - In termini di grafo 
