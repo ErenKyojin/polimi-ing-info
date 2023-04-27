@@ -194,4 +194,6 @@ Per quanto riguarda le operazioni di intersezione, unione, prodotto, passaggio a
 |    $R$     |    $T$     | $R \cap T$ | $R \cup T$ | $R \cdot T$ | $R^{-1}$ |
 |:----------:|:----------:|:----------:|:----------:|:-----------:|:--------:|
 |  Seriale   |  Seriale   |     No     |     Sì     |     Sì      |    No    |
-| Rifllesiva | Riflessiva |            |            |             |          |
+| Rifllesiva | Riflessiva |     Sì     |     Sì     |     Sì      |    Sì    |
+| Simmetrica | Simmetrica |     Sì     |     Sì     |     No      |    Sì    |
+| Antisimmetrica           |            |            |            |             |          |

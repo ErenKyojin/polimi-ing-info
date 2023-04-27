@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +182,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "96e8e0118cfdf7fc",
+  "active": "55143440dfef2625",
   "lastOpenFiles": [
     "Logica e algebra/Algebra/relazione identica.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
