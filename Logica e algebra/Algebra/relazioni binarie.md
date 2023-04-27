@@ -176,4 +176,6 @@ Conseguenze di queste proprietà:
 > - Se $R$ e $T$ sono transitive $R \cup T$ in generale non è transitiva, basta prendere $A = \{ a,b,c \}, R = \{ (a,b) \}, T = \{ (b,c) \}$ 
 > - Se $R$ e $T$ sono transitive $R \cdot T$ in generale non è transitiva: basta prendere $A = \{ a,b,c,d \}, R = \{ (a,b),(c,d) \}, T = \{ (b,c),(d,d) \} R$ e $T$ sono transitive ma $R \cdot T = \{ (a,c),(c,d) \}$ non è transitiva 
 > - Se $R$ e $T$ sono transitive e permutabili anche $R \cdot T$ è transitiva
-> 
+
+
+Riassumendo, per quanto riguarda le inclusion
