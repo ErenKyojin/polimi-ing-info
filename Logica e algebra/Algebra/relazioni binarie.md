@@ -113,4 +113,6 @@ Possiamo quindi definire [[Relazioni permutabili]], [[relazione inversa]] e [[re
 
 Considerando di seguito il caso particolare in cui gli insiemi $A_{1}$ e $A_{2}$ coincidono, ci occupiamo quindi delle relazioni $R \subseteq A_{I} \times A_{I}$, che chiamiamo relazioni binarie su $A_{I}$ (in seguito elimineremo l'indice $I$).
 Tra le relazioni binarie su $A$ ci sono la relazione vuota, indicata con $\varnothing$, la relazione identica su $A$, indicata con $I_{A}$ e la relazione $A \times A$, detta relazione universale su $A$ ed indicata con $\omega_{A}$.
-Data una relazione binaria $R$ su $A$, in virtù della definizione di prodotto e della propr
+Data una relazione binaria $R$ su $A$, in virtù della definizione di prodotto e delle proprietà associative del prodotto, possiamo definire le potenze ad esponente positivo di $R$ ponendo
+$$ R^m = R \cdot R \cdot \dots \cdot R\quad (m \text{ volte}) $$
+Per convenzione poniamo anche $R^0 = I_{A}$
