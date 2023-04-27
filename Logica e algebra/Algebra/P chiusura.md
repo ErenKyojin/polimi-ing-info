@@ -45,4 +45,8 @@ Le stesse considerazioni fatte per provare che in genere non esiste la chiusura 
 
 Escludendo queste due proprietà, consideriamo:
 - $P = \{ \text{riflessività, simmetria} \}$
-- $P = \{ \text{rifl} \}$
+- $P = \{ \text{riflessività, transitività} \}$
+- $P = \{ \text{simmetria, transitività} \}$
+- $P = \{ \text{simmetria, riflessività, transitività} \}$
+
+Per tutti questi $P$ esistono le $P$-chiusure di una relazione $R \subseteq A \times A$ perchè $\omega_{A}$ gode delle proprietà $P$ e contiene $R$, l'
