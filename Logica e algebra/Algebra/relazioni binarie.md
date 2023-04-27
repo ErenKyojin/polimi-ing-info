@@ -206,4 +206,4 @@ Consideriamo ora un insieme $P$ di proprietà di cui le relazioni binarie posson
 3. Se $S \subseteq A \times A$ è una relazione che gode di tutte le proprietà in $P$ e contiene $R$ allora contiene anche $T$
 In altre parole la $P$-chiusura di $R$, se esiste, è la minima relazione che contiene $R$ e ha tutte le proprietà di $P$
 
-La $P$ chiusura di $R$ se esiste è unica, su
+La $P$ chiusura di $R$ se esiste è unica, supponiamo infatti che $T$ ed $S$ siano due $P$-chiusure di $R$; dovendo soddisfare la (1) e la (2) entrambe contengono $R$ e godono di tutte le proprietà in $P$, ma allora per la (3)
