@@ -51,24 +51,6 @@
     "type": "split",
     "children": [
       {
-        "id": "a10452d1cf8699a7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e482e98321e71fe8",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Logica e algebra/Algebra/relazioni binarie.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "1db73f2abdac6724",
         "type": "tabs",
         "children": [
@@ -79,6 +61,18 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e482e98321e71fe8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Logica e algebra/Algebra/relazioni binarie.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -105,7 +99,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -165,7 +160,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -185,7 +181,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "55143440dfef2625",
+  "active": "96e8e0118cfdf7fc",
   "lastOpenFiles": [
     "Logica e algebra/Algebra/relazione identica.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
