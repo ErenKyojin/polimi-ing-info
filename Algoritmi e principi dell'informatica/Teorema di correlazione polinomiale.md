@@ -32,4 +32,5 @@ La memoria della RAM simula la memoria della MT:
 - Si aggiornano nel [[blocco]] 0 i valori delle posizioni delle $k$ testine
 
 Una mossa di [[Macchine di Turing|MT]] richiede $h \cdot k$ mosse di RAM:
-- A criterio di [[Costo di un calcolo|costo]]
+- A criterio di costo costante $T_{R}$ è $\Theta(T_{M})$
+- A criterio di costo logaritmico $T_{R}$ è $\Theta(T_{M}\log(T_{M}))$, un ac
