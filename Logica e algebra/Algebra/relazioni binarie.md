@@ -109,4 +109,6 @@ Possiamo quindi definire [[Relazioni permutabili]], [[relazione inversa]] e [[re
 
 
 
-#
+# Relazioni binarie su un insieme $A$
+
+Considerando di seguito il caso particolare in cui gli

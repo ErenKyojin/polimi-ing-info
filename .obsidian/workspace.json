@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/relazione identica.md",
+                "file": "Logica e algebra/Algebra/relazioni binarie.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/relazione identica.md",
+                "file": "Logica e algebra/Algebra/relazioni binarie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/relazione identica.md",
+                "file": "Logica e algebra/Algebra/relazioni binarie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Algebra/relazione identica.md"
+                "file": "Logica e algebra/Algebra/relazioni binarie.md"
               }
             }
           },
@@ -161,8 +161,8 @@
   },
   "active": "55143440dfef2625",
   "lastOpenFiles": [
-    "Logica e algebra/Algebra/relazioni binarie.md",
     "Logica e algebra/Algebra/relazione identica.md",
+    "Logica e algebra/Algebra/relazioni binarie.md",
     "Logica e algebra/Algebra/relazione inversa.md",
     "Logica e algebra/Algebra/Relazioni permutabili.md",
     "API/Ricorsivamente enumerabile.md",
