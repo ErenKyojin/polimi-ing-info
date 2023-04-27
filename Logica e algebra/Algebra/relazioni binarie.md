@@ -154,4 +154,8 @@ Siano $R,T$ relazioni binarie su $A$, osserviamo che:
 - Se $R$ e $T$ sono seriali anche $R \cdot T$ è seriale
 - Anche se $R$ e $T$ sono seriali, $R \cap T$ in generale non è seriale: basta prendere $A = \{ a,b \}, R = \{ (a,b), (b,b) \}, T = \{ (a,a), (b,a) \}$
 - Anche se $R$ è seriale, $R^{-1}$ in generale non è seriale, basta prendere $A = \{ a,b \}, R = \{ (a,b),(b,b) \}$
-- Se $R$ è riflessiva anche ogni relazione che contien
+- Se $R$ è riflessiva anche ogni relazione che contiene $R$ (e quindi anche $R \cup T$) è riflessiva
+- Se $R$ è riflessiva anche $R^{-1}$ è riflessiva
+- Se $R$ e $T$ sono riflessive anche $R \cdot T$ è riflessiva
+- Se $R$ e $T$ sono riflessive anche $R \cap T$ è riflessiva
+- Se $R$ è simmetrica, anche $R^{-1}$
