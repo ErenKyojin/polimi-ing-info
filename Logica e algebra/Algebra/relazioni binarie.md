@@ -158,4 +158,6 @@ Siano $R,T$ relazioni binarie su $A$, osserviamo che:
 - Se $R$ è riflessiva anche $R^{-1}$ è riflessiva
 - Se $R$ e $T$ sono riflessive anche $R \cdot T$ è riflessiva
 - Se $R$ e $T$ sono riflessive anche $R \cap T$ è riflessiva
-- Se $R$ è simmetrica, anche $R^{-1}$
+- Se $R$ è simmetrica, anche $R^{-1}$ è simmetrica
+- Anche se $R$ e $T$ sono simmetriche $R \cdot T$ in generale non è simmetrica: basta prendere $A = \{ a,b,c \}, R = \{ (a,b),(b,a) \}, T = \{ (b,c),(c,b) \}$, $R$ e $T$ sono simmetriche
+- 
