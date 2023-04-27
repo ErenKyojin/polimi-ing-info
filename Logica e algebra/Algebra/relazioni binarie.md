@@ -169,4 +169,5 @@ Siano $R,T$ relazioni binarie su $A$, osserviamo che:
 - Anche se $R$ e $T$ sono antisimmetriche, $R \cdot T$ in generale non è antisimmetrica, basta prendere $A = \{ a,b,c \}, R = \{ (a,b),(c,b) \}, T = \{ (b,a),(b,c) \}, R$ e $T$ sono antisimmetriche ma $R \cdot T = \{ (a,a),(a,c),(c,a),(c,c) \}$ non è antisimmetrica 
 - Se $R$ è transitiva anche $R^{-1}$ è transitiva
 - Se $R$ e $T$ sono transitive anche $R \cap T$ è transitiva
-- Se $R$ e $T$ sono transitiva $R \cap T$ in generale non è transitiva: basta prn
+- Se $R$ e $T$ sono transitiva $R \cap T$ in generale non è transitiva, basta prendere $A = \{ a,b,c \}, R = \{ (a,b),(c,b) \}, T = \{ (b,a),(b,c) \}$, $R$ e $T$ sono antisimmetriche ma $R \cdot T = \{ (a,a),(a,c),(c,a),(c,c) \}$ non è antisimmetrica
+- Se $$
