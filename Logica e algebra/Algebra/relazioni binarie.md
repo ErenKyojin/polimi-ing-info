@@ -164,4 +164,6 @@ Siano $R,T$ relazioni binarie su $A$, osserviamo che:
 - Anche se $R$ e $T$ sono simmetriche $R \cdot T$ in generale non è simmetrica: basta prendere $A = \{ a,b,c \}, R = \{ (a,b),(b,a) \}, T = \{ (b,c),(c,b) \}$, $R$ e $T$ sono simmetriche, ma $R \cdot T = \{ a,c \}$ non è simmetrica
 - Se $R$ e $T$ sono simmetriche, $R \cdot T$ è simmetrica se e solo se $R$ e $T$ sono permutabili
 - Se $R$ è antisimmetrica anche ogni relazione contenuta in $R$ (e quindi anche $R \cap T$) è antisimmetrica
-- Se $R$ è antisimmetri
+- Se $R$ è antisimmetriche anche $R^{-1}$ è antisimmetrica
+- Anche se $R$ e $T$ sono antisimmetriche, $R \cup T$ in generale non è antisimmetrica, basta prendere $A = \{ a,b \}, R = \{ (a,b) \}, T = \{ (b,a) \}$
+- 
