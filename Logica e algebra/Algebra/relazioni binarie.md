@@ -153,5 +153,5 @@ Siano $R,T$ relazioni binarie su $A$, osserviamo che:
 - se $R$ è seriale anche ogni relazione che contiene $R$ (quindi $R \cup T$) è seriale
 - Se $R$ e $T$ sono seriali anche $R \cdot T$ è seriale
 - Anche se $R$ e $T$ sono seriali, $R \cap T$ in generale non è seriale: basta prendere $A = \{ a,b \}, R = \{ (a,b), (b,b) \}, T = \{ (a,a), (b,a) \}$
-
-  
+- Anche se $R$ è seriale, $R^{-1}$ in generale non è seriale, basta prendere $A = \{ a,b \}, R = \{ (a,b),(b,b) \}$
+- Se $R$ è riflessiva anche ogni relazione che contien
