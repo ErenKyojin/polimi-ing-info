@@ -8,4 +8,16 @@ Non un vero [[linguaggio]] di programmazione, ma simile, è facile da tradurre i
 
 - Assegnamento: `i:= j`
 	- Assegnamento multiplo: `i := j := e`
-	- Come scrivere `j := e`, ``
+	- Come scrivere `j := e`, `i := e`
+- while, for, if-then-else come in c
+- `//` commenti
+- Blocchi dati da indentazione
+
+
+>[!Multi-column]
+>
+>>[!pseudo]
+>>```
+>
+>>[!c]
+
