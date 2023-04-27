@@ -12,7 +12,8 @@ In altre parole la $P$-chiusura di $R$, se esiste, è la minima relazione che co
 
 La $P$ chiusura di $R$ se esiste è unica, supponiamo infatti che $T$ ed $S$ siano due $P$-chiusure di $R$; dovendo soddisfare la (1) e la (2) entrambe contengono $R$ e godono di tutte le proprietà in $P$, ma allora per la (3) si ha $T \subseteq S$ e $S \subseteq T$, quindi $T = S$
 
-La $P$ chiusura di $R$ può coincidere con $R$ quando $
+La $P$ chiusura di $R$ può coincidere con $R$ quando si perde una proprietà di $R$ qualsiasi relazione si tolga.
+
 
 
 
