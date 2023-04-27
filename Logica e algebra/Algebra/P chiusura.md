@@ -20,4 +20,6 @@ Osserviamo che se
 
 Possiamo garantire che esiste la $P$-chiusura di $R$.
 
+Possiamo allora concludere che esistono la chiusura
+
 
