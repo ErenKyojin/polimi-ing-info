@@ -116,3 +116,5 @@ Tra le relazioni binarie su $A$ ci sono la relazione vuota, indicata con $\varno
 Data una relazione binaria $R$ su $A$, in virtù della definizione di prodotto e delle proprietà associative del prodotto, possiamo definire le potenze ad esponente positivo di $R$ ponendo
 $$ R^m = R \cdot R \cdot \dots \cdot R\quad (m \text{ volte}) $$
 Per convenzione poniamo anche $R^0 = I_{A}$
+Per la proprietà associativa del prodotto e per il fatto che $I_{A} \cdot R = R \cdot I_{A} = R$ per ogni $R \subseteq A \times A$ continuano a sussistere, per esponenti interi non negativi, le proprietà formali delle potenze:
+- $R^m \cdot R^n = R^{m + n} = R^n \cdot R^m$
