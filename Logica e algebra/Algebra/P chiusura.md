@@ -41,4 +41,4 @@ In generale il procedimento di unire nuove potenze di $R$ finisce quando non si 
 
 
 Cosa succede se consideriamo $P$ come costituito da almeno due proprietà?
-Le stesse considerazioni fatte per provare che in genere non esiste la chiusura 
+Le stesse considerazioni fatte per provare che in genere non esiste la chiusura antisimmetrica di una relazione si possono usare anche quando $P$ non è costituito da una sola proprietà ma contiene la proprietà antisimmetrica. Analogamente le considerazioni sulla non esistenza della chiusura seriale si possono usare q
