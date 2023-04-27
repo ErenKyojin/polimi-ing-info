@@ -135,4 +135,4 @@ Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà
   - In termini di matrice di incidenza una relazione è riflessiva se e solo se la diagonale principale è tutta fatta di $1$.
   - $I_{A}$ e $\omega_{A}$ sono relazioni riflessive
 - **Proprietà simmetrica**: si dice che una relazione $R$ gode della proprietà simmetrice (o che è semplicemente simmetrica) se per ogni $a_{1},a_{2} \in A, (a_{1},a_{2}) \in R$. Si può provare facilmente che una relazione è simmetrica se e solo se $R^{-1} \subseteq R$.
-	- In termini di grafo di incidenza
+	- In termini di grafo di incidenza una relazione è simmetrica se e solo se ogni arco ha la doppia freccia (notare che gli autoanelli si possono sempre considerare com)
