@@ -125,3 +125,4 @@ Poichè abbiamo parlato di relazione inversa potrebbe venir spontaneo definire $
 Le relazioni binarie su un insieme $A$ finite, possono essere facilmente rappresentate col grafo e con la matrice di incidenza (che sarà una matrice quadrata). Nel grafo di incidenza l'insieme dei vertici è $A (= A \cup A)$ e quindi tra gli archi ci possono essere degli autoaenlli basati su un vertice $a$, per indicare che $(a,a) \in R$, e delle frecce bidirezionali fra due vertici $a_{1}$ e $a_{2}$ per indicare che entrambe le coppie $(a_{1},a_{2})$ e $(a_{2},a_{1})$ stanno in $R$.
 Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà, per le applicazioni successive, consideriamo le seguenti:
 
+- **proprietà seriale**: si dice che una relazione $R$ gode della proprietà seriale (o semplicemenete 
