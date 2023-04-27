@@ -15,7 +15,6 @@ La $P$ chiusura di $R$ se esiste è unica, supponiamo infatti che $T$ ed $S$ sia
 La $P$ chiusura di $R$ può coincidere con $R$ quando si perde una proprietà di $R$ qualsiasi relazione si tolga.
 
 Osserviamo che se
-- Esiste almeno una relazione che gode di tutte le proprietà in $P$ e che contiene $R$ e l'intereszione di relazioni che godono di tutte le proprietà
-
+- Esiste almeno una relazione che gode di tutte le proprietà in $P$ e che contiene $R$ e l'intereszione di relazioni che godono di tutte le proprietà in $P$ gode di tutte le proprietà in 
 
 
