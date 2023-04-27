@@ -120,4 +120,4 @@ Per la proprietà associativa del prodotto e per il fatto che $I_{A} \cdot R = R
 - $R^m \cdot R^n = R^{m + n} = R^n \cdot R^m$
 - $(R^m)^n = R^{m\cdot n}$
 
-Poichè abbiamo parlato di relazione inversa potrebbe venir spontaneo definire $R^m\ (m < 0)$ come $R^m = R^{-1} \cdot R^{-1} \cdot \ldots \cdot R^{-1}$ ($$)
+Poichè abbiamo parlato di relazione inversa potrebbe venir spontaneo definire $R^m\ (m < 0)$ come $R^m = R^{-1} \cdot R^{-1} \cdot \ldots \cdot R^{-1}$ ($m$ volte), va però notato che essendo in generale $R \cdot R^{-1} \neq I_{A}$ e $R^{-1}\cdot R \neq I_{A}$, la proprietà $R^m \cdot R^n = R^n \cdot R^m = R^{m \cdo+ n}$
