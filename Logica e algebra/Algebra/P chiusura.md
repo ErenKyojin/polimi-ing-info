@@ -56,6 +56,7 @@ Vediamo allora di costruire queste $P$ chiusure:
 - La chiusura riflessiva e transitiva di $R$ è la relazione $\displaystyle \bigcup_{n \geq 0}R^n$
 - La chiusura simmetrica e transitiva di $R$ è la relazione $\displaystyle\bigcup_{n > 0} (R \cup R^{-1})^n$
 - La chiusura riflessiva, simmetrica e transitiva di $R$ è la relazione $\displaystyle\bigcup_{n > 0}(R \cup I_{A} \cup R^{-1})^{n}$
->[!dim]
+>[!dim]-
 >#todo
+
 
