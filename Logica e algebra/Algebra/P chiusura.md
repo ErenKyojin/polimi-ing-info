@@ -49,4 +49,7 @@ Escludendo queste due proprietà, consideriamo:
 - $P = \{ \text{simmetria, transitività} \}$
 - $P = \{ \text{simmetria, riflessività, transitività} \}$
 
-Per tutti questi $P$ esistono le $P$-chiusure di una relazione $R \subseteq A \times A$ perchè $\omega_{A}$ gode delle proprietà $P$ e contiene $R$, l'
+Per tutti questi $P$ esistono le $P$-chiusure di una relazione $R \subseteq A \times A$ perchè $\omega_{A}$ gode delle proprietà $P$ e contiene $R$, l'intersezione di relazioni che hanno le proprietà di $P$ è una relazione che gode delle proprietà $P$ e come già visto questo basta a garantire l'esistenza della $P$-chiusura di $R$.
+
+Vediamo allora di costruire queste $P$ chiusure:
+- La chiusura riflessiva e simmetrica di $R$ è la relazione $R \cup I$
