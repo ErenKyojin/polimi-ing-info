@@ -72,5 +72,9 @@ Per simulare una mossa della RAM la MT impiega al piú $\Theta(T_{R})$, ed una m
 
 >[!danger]
 >Attenzione al parametro di dimensioni dei datiL
-> - u
+> - lunghezza della stringa in ingresso (valore assoluto)
+> - valore del dato (n)
+> - Numero di elementi di una tabella, nodi di un grafo, righe di una matrice
+> 
+>La ricerca binaria implementata con una MT viola il teorema di correlazione polinomiale? Attenzione! riconoscimento di un linguaggio => dati non già in memoria => ompl
 
