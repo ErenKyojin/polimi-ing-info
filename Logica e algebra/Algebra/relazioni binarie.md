@@ -118,3 +118,4 @@ $$ R^m = R \cdot R \cdot \dots \cdot R\quad (m \text{ volte}) $$
 Per convenzione poniamo anche $R^0 = I_{A}$
 Per la proprietà associativa del prodotto e per il fatto che $I_{A} \cdot R = R \cdot I_{A} = R$ per ogni $R \subseteq A \times A$ continuano a sussistere, per esponenti interi non negativi, le proprietà formali delle potenze:
 - $R^m \cdot R^n = R^{m + n} = R^n \cdot R^m$
+- $(R^m)^n = R^{m\cdot n}$
