@@ -37,3 +37,9 @@ Una mossa di [[Macchine di Turing|MT]] richiede $h \cdot k$ mosse di RAM:
 - A criterio di costo logaritmico $T_{R}$ è $\Theta(T_{M}\log(T_{M}))$, un accesso indiretto a $i$ costa $\log(i)$
 
 ## Da RAM a MT
+
+![[MT to RAM.canvas]]
+
+>[!oss]
+>Le varie celle RAM sono tenute in ordine, inizialmente il nastro è vuoto e $i_{j}$ e M[$i_j$] sono rappresentati in codifica binaria
+
