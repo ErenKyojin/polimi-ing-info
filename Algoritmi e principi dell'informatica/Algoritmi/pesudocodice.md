@@ -27,5 +27,13 @@ Non un vero [[linguaggio]] di programmazione, ma simile, è facile da tradurre i
 >>[!c]
 >>```c
 >>while(i > 0 and A[i] > key)
+>>{
+>>	A[i + 1] := A[i];
+>>	i := i - 1;
+>>}
+>>A[i + 1] := key
 >>```
 
+- Le variabili sono locali alla procedura
+- Agli elementi dell'array si accede come C, ed il primo elemento può avere indice diverso da 0
+- 
