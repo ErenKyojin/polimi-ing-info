@@ -173,4 +173,4 @@ Siano $R,T$ relazioni binarie su $A$, osserviamo che:
 - Se $R$ è transitiva anche $R^{-1}$ è transitiva
 - Se $R$ e $T$ sono transitive anche $R \cap T$ è transitiva
 - Se $R$ e $T$ sono transitive $R \cup T$ in generale non è transitiva, basta prendere $A = \{ a,b,c \}, R = \{ (a,b) \}, T = \{ (b,c) \}$ 
-- Se $R$ e $T$ sono transitive $R \cdot T$ in generale non è transitiva: basta prendere $A = \{ a,b,c,d \}, R = \{ (a,b),(c,d) \}, T = \{ (b,c),(d,d) \} R$ e $T$ sono transitive ma $R \cdot T = \{ (a,c),(c,d) \}$
+- Se $R$ e $T$ sono transitive $R \cdot T$ in generale non è transitiva: basta prendere $A = \{ a,b,c,d \}, R = \{ (a,b),(c,d) \}, T = \{ (b,c),(d,d) \} R$ e $T$ sono transitive ma $R \cdot T = \{ (a,c),(c,d) \}$ non è transiti
