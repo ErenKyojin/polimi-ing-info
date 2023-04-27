@@ -45,4 +45,8 @@ Una mossa di [[Macchine di Turing|MT]] richiede $h \cdot k$ mosse di RAM:
 
 Inoltre vi è un nastro contenente M[0] ed un nastro di servizio
 
-### Una mossa della RAM sim
+### Una mossa della RAM simulata dalla MT
+#### LOAD h
+Si cerca il valore $h$ nel nastro principale e si copia la parte accanto M$[h]$ in M$[0]$
+
+#### S
