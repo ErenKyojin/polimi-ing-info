@@ -179,6 +179,9 @@ Conseguenze di queste proprietà:
 
 
 Riassumendo, per quanto riguarda le inclusioni le proprietà si conservano in accordo alla seguente tabella, se $T \subset R \subset S$
-| $T$ | $R$ | $S$ |
-| --- | --- | --- |
-|     |     |     |
+| $T$ |    $R$     | $S$ |
+|:---:|:----------:|:---:|
+| no  |  Seriale   | Si  |
+| No  | Riflessiva | Si  |
+| No  | Simmetrica | No  |
+| Sì  | Antisimmetrica           |     |
