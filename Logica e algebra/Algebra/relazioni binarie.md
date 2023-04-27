@@ -126,4 +126,4 @@ Le relazioni binarie su un insieme $A$ finite, possono essere facilmente rappres
 Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà, per le applicazioni successive, consideriamo le seguenti:
 
 - **proprietà seriale**: si dice che una relazione $R$ gode della proprietà seriale (o semplicemenete è seriale) se per ogni $a \in A$ esiste (almeno) un $a_{I} \in A$ tale che $(a,a_{I}) \in R$.
-  In termini di grafo di incidenza una relazione è seriale
+  In termini di [[grafo di incidenza]] una relazione è seriale se e solo se per ogni vertice parte almeno un arco
