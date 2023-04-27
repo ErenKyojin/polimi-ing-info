@@ -31,4 +31,5 @@ Vogliamo ora dare un metodo per costruire la chiusura riflessiva, la chiusura si
 - La chiusura simmetrica di $R$ è la relazione $R \cup R^{-1}$
 - La chiusura transitiva di $R$ è la relazione $\displaystyle\bigcup_{n > 0}R^n$ (ovviamente $n$ è un intero)
 Verifichiamo come esempio l'ultima di queste affermazioni, dobbiamo provare che la relazione $T = \bigcup_{n > 0} R^n$
-
+1. Contiene $R$ (immediato)
+2. 
