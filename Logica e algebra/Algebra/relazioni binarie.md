@@ -152,6 +152,6 @@ Conseguenze di queste proprietà:
 Siano $R,T$ relazioni binarie su $A$, osserviamo che:
 - se $R$ è seriale anche ogni relazione che contiene $R$ (quindi $R \cup T$) è seriale
 - Se $R$ e $T$ sono seriali anche $R \cdot T$ è seriale
-- Anche 
+- Anche se $R$ e $T$ sono seriali, $R \cap T$ in generale non è seriale: basta prendere $A = {a,b}$
 
   
