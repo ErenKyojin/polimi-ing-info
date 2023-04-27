@@ -22,3 +22,4 @@ La memoria della RAM simula la memoria della MT:
 
 ![[RAM to MT.canvas]]
 ### Una mossa della macchina di Turing simulata dalla RAM
+Si esamina il contenuto del blocco 0 (k + 1 accessi, c(k + 1) )
