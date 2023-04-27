@@ -139,5 +139,6 @@ Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà
 	- In termini di matrice di incidenza una relazione è simmetrica se e solo se la matrice d'incidenza coincide con la propria trasposta (quindi è una matrice simmetrica)
 	- $\varnothing,I_{A}$ e $\omega_{A}$ sono relazioni simmetriche
 - **Proprietà antisimmetrica**: si dice che una relazione $R$ gode della proprietà antisimmetrica (o semplicemente è antisimmetrica) se per ogni $a_{1},a_{2} \in A$, $(a_{1},a_{2}) \in R$ implicano $a_{1} = a_{2}$. Si può facilmente provare che una relazione è antisimmetrica se e solo se $R \cap R^{-1} \subseteq I_{A}$.
-	- In termini di grafo di incidenza una relazione è antisimmetrica se e solo se i soli archi
+	- In termini di grafo di incidenza una relazione è antisimmetrica se e solo se i soli archi con doppia freccia sono gli autoanelli
+	- In termini di grafo di incidenza una rela
   
