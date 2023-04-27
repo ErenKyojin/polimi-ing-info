@@ -18,6 +18,6 @@ Osserviamo che se
 - Esiste almeno una relazione che gode di tutte le proprietà in $P$ e che contiene $R$
 - l'intereszione di relazioni che godono di tutte le proprietà in $P$ gode ancora di tutte quelle proprietà 
 
-
+Possiamo garantire che esiste la $P$-chiusura di $R$.
 
 
