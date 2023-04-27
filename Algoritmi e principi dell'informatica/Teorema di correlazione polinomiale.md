@@ -66,3 +66,5 @@ Simulare una mossa di RAM può richiedere alla macchina di turing un numero di m
 >- Ogni cella $i_{j}$-esima esiste nel nastro se e solo se la RAM ha eseguito almeno una store su di essa.
 >- La store è costata alla RAM l($i_{j}$) + l(M$[i_{j}]$) quindi
 >- Per riempire $r$ celle di lunghezza complessiva $\sum_{j = 1,\dots,r}$ l($i_{j}$) + l(M$[i_{j}]$) alla RAM occorre un tempo $(\leq T_{R})$ almeno proporzionale allo stesso valore
+
+Per simulare una mossa della RAM la MT impiega al piú $\Theta(T_{R})$, ed una mossa di RAM costa almeno 1, se la RAM ha complessità $T_{R}$ esegue al piú $T_{R}$ mosse, quindi la simulazione complets della RAM da parte della MT costa
