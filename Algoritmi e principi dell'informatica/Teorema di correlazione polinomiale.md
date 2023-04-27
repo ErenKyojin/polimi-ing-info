@@ -61,4 +61,5 @@ Si cerca il valore $h$ nel nastro principale e si copia la parte accanto M$[h]$ 
 Simulare una mossa di RAM può richiedere alla macchina di turing un numero di mosse maggiorabile da $c \cdot$ lunghezza del nastro principale
 
 >[!lemma]
->La lunghezza del nastro principale è limitata superiormente da una funzione $\Theta$
+>La lunghezza del nastro principale è limitata superiormente da una funzione $\Theta(T_{R})$
+>- ogni cella $i_{j}$-esima della RAM richiede nel nastro l($i_{j}$) +  
