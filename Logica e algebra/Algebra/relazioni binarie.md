@@ -138,4 +138,4 @@ Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà
 	- In termini di grafo di incidenza una relazione è simmetrica se e solo se ogni arco ha la doppia freccia (notare che gli autoanelli si possono sempre considerare come archi con doppia freccia)
 	- In termini di matrice di incidenza una relazione è simmetrica se e solo se la matrice d'incidenza coincide con la propria trasposta (quindi è una matrice simmetrica)
 	- $\varnothing,I_{A}$ e $\omega_{A}$ sono relazioni simmetriche
-- 
+- **Proprietà antisimmetrica**: si dice che una relazione $R$ gode della proprietà antisimmetrica (o semplice)
