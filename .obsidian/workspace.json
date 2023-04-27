@@ -110,8 +110,8 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -156,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b40b0a415c2332a",
+  "active": "4f3e5567f8ddd91c",
   "lastOpenFiles": [
     "Settings/Canvas/RAM to MT.canvas",
     "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
