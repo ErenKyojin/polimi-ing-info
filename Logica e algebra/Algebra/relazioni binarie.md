@@ -203,4 +203,4 @@ Consideriamo ora un insieme $P$ di proprietà di cui le relazioni binarie posson
 1. $R \subseteq T$
 2. $T$ gode di tutte le proprietà in $P$
 3. Se $S \subseteq A \times A$ è una relazione che gode di tutte le proprietà in $P$ e contiene $R$ allora contiene anche $T$
-In altre parole la $P$-chiusura di $R$, se esiste, è la minima relazione
+In altre parole la $P$-chiusura di $R$, se esiste, è la minima relazione che contiene $R$ e ha tutte le proprietà di $P$
