@@ -16,8 +16,8 @@ Grazie a questo risultato si è adottata l'analogia:
 - classe dei problemi trattabili in partica = classe dei problemi risolvibili in tempo polinomiale con modelli deterministici **P**
 - In **P** sono inclusi i problemi di complessità $n^{1000}$, ma l'esperienza ci conferma che i problemi di interesse applicativo hanno un grado accettabile
 
-## Correlazione temporale tra MT e RAM
-##
+# Correlazione temporale tra MT e RAM
+## Da RAM a MT
 La memoria della RAM simula la memoria della MT:
 1 cella RAM per ogni cella di nastro di MT, però, invece di usare i blocchi di [[memoria]] per simulare ogni nastro, associamo un blocco di $k$-celle ad ogni $k$-pla di celle prese per ogni posizione di nastro piú un blocco di base
 
@@ -36,5 +36,4 @@ Una mossa di [[Macchine di Turing|MT]] richiede $h \cdot k$ mosse di RAM:
 - A criterio di costo costante $T_{R}$ è $\Theta(T_{M})$
 - A criterio di costo logaritmico $T_{R}$ è $\Theta(T_{M}\log(T_{M}))$, un accesso indiretto a $i$ costa $\log(i)$
 
-
-Simulare una mossa di RAM 
+## Da RAM a MT
