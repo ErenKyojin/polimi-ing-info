@@ -18,7 +18,28 @@
                 "backlinks": true,
                 "source": false
               }
-            }
+            },
+            "group": "89a24dff419721c8"
+          }
+        ]
+      },
+      {
+        "id": "4099c64cb01eec3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "324c2e3a7aa6f72c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logica e algebra/Algebra/relazioni binarie.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              }
+            },
+            "group": "89a24dff419721c8"
           }
         ]
       }
@@ -29,6 +50,24 @@
     "id": "9f5c6b3893e4dcb8",
     "type": "split",
     "children": [
+      {
+        "id": "a10452d1cf8699a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e482e98321e71fe8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Logica e algebra/Algebra/relazioni binarie.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      },
       {
         "id": "1db73f2abdac6724",
         "type": "tabs",
@@ -98,18 +137,6 @@
             }
           },
           {
-            "id": "e482e98321e71fe8",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Logica e algebra/Algebra/relazioni binarie.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "96e8e0118cfdf7fc",
             "type": "leaf",
             "state": {
@@ -138,12 +165,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 240.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,7 +186,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "55143440dfef2625",
+  "active": "324c2e3a7aa6f72c",
   "lastOpenFiles": [
     "Logica e algebra/Algebra/relazione identica.md",
     "Logica e algebra/Algebra/relazioni binarie.md",

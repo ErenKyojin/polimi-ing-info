@@ -149,28 +149,31 @@ Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà
 
 Conseguenze di queste proprietà:
 
-Siano $R,T$ relazioni binarie su $A$, osserviamo che:
-- se $R$ è seriale anche ogni relazione che contiene $R$ (quindi $R \cup T$) è seriale
-- Se $R$ e $T$ sono seriali anche $R \cdot T$ è seriale
-- Anche se $R$ e $T$ sono seriali, $R \cap T$ in generale non è seriale: basta prendere $A = \{ a,b \}, R = \{ (a,b), (b,b) \}, T = \{ (a,a), (b,a) \}$
-- Anche se $R$ è seriale, $R^{-1}$ in generale non è seriale, basta prendere $A = \{ a,b \}, R = \{ (a,b),(b,b) \}$
-- Se $R$ è riflessiva anche ogni relazione che contiene $R$ (e quindi anche $R \cup T$) è riflessiva
-- Se $R$ è riflessiva anche $R^{-1}$ è riflessiva
-- Se $R$ e $T$ sono riflessive anche $R \cdot T$ è riflessiva
-- Se $R$ e $T$ sono riflessive anche $R \cap T$ è riflessiva
-- Se $R$ è simmetrica, anche $R^{-1}$ è simmetrica
-- Se $R$ e $T$ sono simmetriche anche $R \cap T$ è simmetrica
-- Se $R$ e $T$ sono simmetriche anche $R \cup T$ è simmetrica
-- Anche se $R$ e $T$ sono simmetriche $R \cdot T$ in generale non è simmetrica: basta prendere $A = \{ a,b,c \}, R = \{ (a,b),(b,a) \}, T = \{ (b,c),(c,b) \}$, $R$ e $T$ sono simmetriche, ma $R \cdot T = \{ a,c \}$ non è simmetrica
-- Se $R$ e $T$ sono simmetriche, $R \cdot T$ è simmetrica se e solo se $R$ e $T$ sono permutabili
-- Se $R$ è antisimmetrica anche ogni relazione contenuta in $R$ (e quindi anche $R \cap T$) è antisimmetrica
-- Se $R$ è antisimmetriche anche $R^{-1}$ è antisimmetrica
-- Anche se $R$ e $T$ sono antisimmetriche, $R \cup T$ in generale non è antisimmetrica, basta prendere $A = \{ a,b \}, R = \{ (a,b) \}, T = \{ (b,a) \}$
-- Anche se $R$ e $T$ sono antisimmetriche, $R \cdot T$ in generale non è antisimmetrica, basta prendere $A = \{ a,b,c \}, R = \{ (a,b),(c,b) \}, T = \{ (b,a),(b,c) \}, R$ e $T$ sono antisimmetriche ma $R \cdot T = \{ (a,a),(a,c),(c,a),(c,c) \}$ non è antisimmetrica 
-- Se $R$ è transitiva anche $R^{-1}$ è transitiva
-- Se $R$ e $T$ sono transitive anche $R \cap T$ è transitiva
-- Se $R$ e $T$ sono transitiva $R \cap T$ in generale non è transitiva, basta prendere $A = \{ a,b,c \}, R = \{ (a,b),(c,b) \}, T = \{ (b,a),(b,c) \}$, $R$ e $T$ sono antisimmetriche ma $R \cdot T = \{ (a,a),(a,c),(c,a),(c,c) \}$ non è antisimmetrica
-- Se $R$ è transitiva anche $R^{-1}$ è transitiva
-- Se $R$ e $T$ sono transitive anche $R \cap T$ è transitiva
-- Se $R$ e $T$ sono transitive $R \cup T$ in generale non è transitiva, basta prendere $A = \{ a,b,c \}, R = \{ (a,b) \}, T = \{ (b,c) \}$ 
-- Se $R$ e $T$ sono transitive $R \cdot T$ in generale non è transitiva: basta prendere $A = \{ a,b,c,d \}, R = \{ (a,b),(c,d) \}, T = \{ (b,c),(d,d) \} R$ e $T$ sono transitive ma $R \cdot T = \{ (a,c),(c,d) \}$ non è transitiva 
+> [!conseguenze]-
+> Siano $R,T$ relazioni binarie su $A$, osserviamo che:
+> - se $R$ è seriale anche ogni relazione che contiene $R$ (quindi $R \cup T$) è seriale
+> - Se $R$ e $T$ sono seriali anche $R \cdot T$ è seriale
+> - Anche se $R$ e $T$ sono seriali, $R \cap T$ in generale non è seriale: basta prendere $A = \{ a,b \}, R = \{ (a,b), (b,b) \}, T = \{ (a,a), (b,a) \}$
+> - Anche se $R$ è seriale, $R^{-1}$ in generale non è seriale, basta prendere $A = \{ a,b \}, R = \{ (a,b),(b,b) \}$
+> - Se $R$ è riflessiva anche ogni relazione che contiene $R$ (e quindi anche $R \cup T$) è riflessiva
+> - Se $R$ è riflessiva anche $R^{-1}$ è riflessiva
+> - Se $R$ e $T$ sono riflessive anche $R \cdot T$ è riflessiva
+> - Se $R$ e $T$ sono riflessive anche $R \cap T$ è riflessiva
+> - Se $R$ è simmetrica, anche $R^{-1}$ è simmetrica
+> - Se $R$ e $T$ sono simmetriche anche $R \cap T$ è simmetrica
+> - Se $R$ e $T$ sono simmetriche anche $R \cup T$ è simmetrica
+> - Anche se $R$ e $T$ sono simmetriche $R \cdot T$ in generale non è simmetrica: basta prendere $A = \{ a,b,c \}, R = \{ (a,b),(b,a) \}, T = \{ (b,c),(c,b) \}$, $R$ e $T$ sono simmetriche, ma $R \cdot T = \{ a,c \}$ non è simmetrica
+> - Se $R$ e $T$ sono simmetriche, $R \cdot T$ è simmetrica se e solo se $R$ e $T$ sono permutabili
+> - Se $R$ è antisimmetrica anche ogni relazione contenuta in $R$ (e quindi anche $R \cap T$) è antisimmetrica
+> - Se $R$ è antisimmetriche anche $R^{-1}$ è antisimmetrica
+> - Anche se $R$ e $T$ sono antisimmetriche, $R \cup T$ in generale non è antisimmetrica, basta prendere $A = \{ a,b \}, R = \{ (a,b) \}, T = \{ (b,a) \}$
+> - Anche se $R$ e $T$ sono antisimmetriche, $R \cdot T$ in generale non è antisimmetrica, basta prendere $A = \{ a,b,c \}, R = \{ (a,b),(c,b) \}, T = \{ (b,a),(b,c) \}, R$ e $T$ sono antisimmetriche ma $R \cdot T = \{ (a,a),(a,c),(c,a),(c,c) \}$ non è antisimmetrica 
+> - Se $R$ è transitiva anche $R^{-1}$ è transitiva
+> - Se $R$ e $T$ sono transitive anche $R \cap T$ è transitiva
+> - Se $R$ e $T$ sono transitiva $R \cap T$ in generale non è transitiva, basta prendere $A = \{ a,b,c \}, R = \{ (a,b),(c,b) \}, T = \{ (b,a),(b,c) \}$, $R$ e $T$ sono antisimmetriche ma $R \cdot T = \{ (a,a),(a,c),(c,a),(c,c) \}$ non è antisimmetrica
+> - Se $R$ è transitiva anche $R^{-1}$ è transitiva
+> - Se $R$ e $T$ sono transitive anche $R \cap T$ è transitiva
+> - Se $R$ e $T$ sono transitive $R \cup T$ in generale non è transitiva, basta prendere $A = \{ a,b,c \}, R = \{ (a,b) \}, T = \{ (b,c) \}$ 
+> - Se $R$ e $T$ sono transitive $R \cdot T$ in generale non è transitiva: basta prendere $A = \{ a,b,c,d \}, R = \{ (a,b),(c,d) \}, T = \{ (b,c),(d,d) \} R$ e $T$ sono transitive ma $R \cdot T = \{ (a,c),(c,d) \}$ non è transitiva 
+> - Se $R$ e $T$ sono transitive e permutabili anche $R \cdot T$ è transitiva
+> 
