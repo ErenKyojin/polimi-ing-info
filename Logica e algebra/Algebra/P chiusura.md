@@ -27,5 +27,8 @@ In generale invece non esiste la chisura seriale di una relazione $R$, basta con
 In generale non esiste neppure la chiusura antisimmetrica di una relazione $R$, infatti se $R$ non è antisimmetrica, nessuna relazione che contenga $R$ può essere antisimmetrica.
 
 Vogliamo ora dare un metodo per costruire la chiusura riflessiva, la chiusura simmetrica e la chiusura transitiva di $R$.
-- La chiusura riflessiva di $R$ è la relazio
+- La chiusura riflessiva di $R$ è la relazione $R \cup I_{A}$
+- La chiusura simmetrica di $R$ è la relazione $R \cup R^{-1}$
+- La chiusura transitiva di $R$ è la relazione $\displaystyle\bigcup_{n > 0}R^n$ (ovviamente $n$ è un intero)
+Verifichiamo come e
 
