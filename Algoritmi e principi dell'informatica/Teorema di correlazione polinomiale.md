@@ -41,5 +41,8 @@ Una mossa di [[Macchine di Turing|MT]] richiede $h \cdot k$ mosse di RAM:
 ![[MT to RAM.canvas]]
 
 >[!oss]
->Le varie celle RAM sono tenute in ordine, inizialmente il nastro è vuoto e $i_{j}$ e M[$i_j$] sono rappresentati in codifica binaria
+>Le varie celle RAM sono tenute in ordine, inizialmente il nastro (in ogni istante ci sono solo celle che hanno ricevuto una store) è vuoto e $i_{j}$ e M[$i_j$] sono rappresentati in codifica binaria
 
+Inoltre vi è un nastro contenente M[0] ed un nastro di servizio
+
+### Una mossa della RAM sim
