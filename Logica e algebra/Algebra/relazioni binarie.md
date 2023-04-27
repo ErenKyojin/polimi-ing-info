@@ -147,7 +147,11 @@ Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà
 	- n termini di matrice di incidenza una relazione è transitiva se e solo se tutte le volte che sia l'elemento di posto $(i,k)$ sia l'elemnto di posto $(k,j)$ sono 1 anche l'elemento di posto $(i,j)$ è $1$.
 	- $\varnothing,I_{A}$ e $\omega_{A}$ sono relazioni transitive
 
+Conseguenze di queste proprietà:
+
 Siano $R,T$ relazioni binarie su $A$, osserviamo che:
-- se $R$ è seriale anche ogni relazione che contiene $R$ (qui)
+- se $R$ è seriale anche ogni relazione che contiene $R$ (quindi $R \cup T$) è seriale
+- Se $R$ e $T$ sono seriali anche $R \cdot T$ è seriale
+- Anche 
 
   
