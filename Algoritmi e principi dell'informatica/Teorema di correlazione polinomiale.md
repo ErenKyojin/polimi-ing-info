@@ -13,4 +13,5 @@ Grazie a questo teorema possiamo parlare di **classe dei problemi risolvibili in
 
 
 Grazie a questo risultato si è adottata l'analogia:
-- classe dei problem
+- classe dei problemi trattabili in partica = classe dei problemi risolvibili in tempo polinomiale con modelli deterministici **P**
+- In **P** sono inclusi i problemi di 
