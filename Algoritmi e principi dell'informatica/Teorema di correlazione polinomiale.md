@@ -17,3 +17,5 @@ Grazie a questo risultato si è adottata l'analogia:
 - In **P** sono inclusi i problemi di complessità $n^{1000}$, ma l'esperienza ci conferma che i problemi di interesse applicativo hanno un grado accettabile
 
 ## Correlazione temporale tra MT e RAM
+La memoria della RAM simula la memoria della MT:
+1 cella RAM per ogni cella di nastro di MT, però, invece di usare i blocchi di memoria per simulare ogni nastro, associamo un blocco di $k$-celle ad ogni $k$-pla di celle prese per ogni posizione di nastro + un blocco di base
