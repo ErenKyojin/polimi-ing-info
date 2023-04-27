@@ -20,3 +20,5 @@ Grazie a questo risultato si è adottata l'analogia:
 La memoria della RAM simula la memoria della MT:
 1 cella RAM per ogni cella di nastro di MT, però, invece di usare i blocchi di memoria per simulare ogni nastro, associamo un blocco di $k$-celle ad ogni $k$-pla di celle prese per ogni posizione di nastro + un blocco di base
 
+![[RAM to MT.canvas]]
+Una mossa della macchina di TUring

@@ -30,6 +30,24 @@
     "type": "split",
     "children": [
       {
+        "id": "ab290676b22cda89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dbb2b98954a5b4e4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "99f6abb0ada7b909",
         "type": "tabs",
         "children": [
@@ -98,18 +116,6 @@
             }
           },
           {
-            "id": "dbb2b98954a5b4e4",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
             "id": "a7f3e61b3a32c0a3",
             "type": "leaf",
             "state": {
@@ -130,8 +136,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
