@@ -101,6 +101,7 @@ Il prodotto di rileazioni gode delle seguenti proprietà:
    $R \cdot S \subseteq T \cdot U$.
   Si osservi che se $R \subset T \subseteq A_{1} \times A_{2}, S \subseteq A_{2} \times A_{3}$ possiamo solo concludere che $R \cdot S \subseteq T \cdot S$ e non che $R \cdot S \subset T$; allo stesso modo se $R \subset T \subseteq A_{1} \times A_{2}, V \subseteq A_{4} \times A_{1}$ possiamo solo concludere che $V \cdot R \subseteq V \cdot T$ e se $R \subset T \subseteq A_{1} \times A_{2}$, $S \subset U \subseteq A_{2} \times A_{3}$ possiamo slo conludere che $R \cdot S \subseteq T \cdot U$
 
+Possiamo quindi definire [[Relazioni permutabili]], [[relazione inversa]] e [[relazione identica]]
 Il prodotto di relazioni non è commutativo, date $R \subseteq A_{1} \times A_{2}$ e $T \subseteq A_{2} \times A_{3}$, $R \cdot T$ è sempre definito mentre $T \cdot R$ è definito solo se gli insiemi $A_{1}$ e $A_{3}$ coincidono ed in tal caso $R \cdot T \subseteq A_{1} \times A_{1}$ e gli insiemi $A_{1}$ e $A_{2}$ coincidono, ma anche in questo caso generalmente $R \cdot T \neq T \cdot R$. Basta considerare $A_{1} = \{ a,b \}, R = \{ (a,b) \}, T = \{ (b,b) \}$: si ha $R \cdot T = \{ (a,b) \}$ e $T \cdot R = \varnothing$.
 Se $R \cdot T = T \cdot R$ le relazioni $T$ ed $R$ si dicono **PERMUTABILI**.
 
@@ -114,3 +115,4 @@ ed analogamente considerata la relazione identica su $A_{1}, I_{A_{2}} = \{ (a_{
 In generale si ha però che
 $R \cdot R^{-1} \neq I_{A_{1}}$ e $R^{-1} \cdot R \neq I_{A_{2}}$.
 
+#
