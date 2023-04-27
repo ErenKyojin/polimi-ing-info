@@ -11,8 +11,13 @@
             "id": "55143440dfef2625",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Logica e algebra/Algebra/relazioni binarie.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Logica e algebra/Algebra/relazioni binarie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Logica e algebra/Algebra/relazioni binarie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Logica e algebra/Algebra/relazioni binarie.md"
+              }
             }
           },
           {
@@ -150,8 +159,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0b8307b5dc1882a6",
+  "active": "55143440dfef2625",
   "lastOpenFiles": [
+    "API/Ricorsivamente enumerabile.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",
@@ -199,7 +209,6 @@
     "Settings/Canvas/Untitled.canvas",
     "Settings/Canvas/Stabilità retroazione.canvas",
     "Settings/Canvas/Cp.canvas",
-    "Settings/Allegati/Untitled 1.canvas",
     "Pasted image 20230330135642.png",
     "Pasted Image 20230327111947_463.png",
     "Pasted Image 20230327111802_028.jpg",
