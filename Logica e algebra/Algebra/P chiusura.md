@@ -32,4 +32,4 @@ Vogliamo ora dare un metodo per costruire la chiusura riflessiva, la chiusura si
 - La chiusura transitiva di $R$ è la relazione $\displaystyle\bigcup_{n > 0}R^n$ (ovviamente $n$ è un intero)
 Verifichiamo come esempio l'ultima di queste affermazioni, dobbiamo provare che la relazione $T = \bigcup_{n > 0} R^n$
 1. Contiene $R$ (immediato)
-2. 
+2. È transitiva, infatti se $(a_{1},a_{2}) \in T$ e $(a_{2},a_{3}) \in T$ esistono due interi $m,n > 0$ tali che $(a_{1},a_{2}) \in R^n$ e $(a_{2},a_{3}) \in R^m$
