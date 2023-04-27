@@ -22,4 +22,10 @@ La memoria della RAM simula la memoria della MT:
 
 ![[RAM to MT.canvas]]
 ### Una mossa della macchina di Turing simulata dalla RAM
-Si esamina il contenuto del blocco 0 (k + 1 accessi, c(k + 1) )
+#### Lettura
+- Si esamina il contenuto del blocco 0 (k + 1 accessi, c(k + 1) mosse)
+- Si fanno k accessi indiretti in k blocchi per esaminare il contenuto delle celle in corrispondenza delle testine
+
+#### Scrittura
+- Si modifica lo stato
+- Si aggiornano mediante STORE indiretti i contenuti delle celle che corrispondono alla 
