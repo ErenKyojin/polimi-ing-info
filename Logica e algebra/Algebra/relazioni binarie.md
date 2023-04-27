@@ -101,12 +101,11 @@ Il prodotto di rileazioni gode delle seguenti proprietà:
    $R \cdot S \subseteq T \cdot U$.
   Si osservi che se $R \subset T \subseteq A_{1} \times A_{2}, S \subseteq A_{2} \times A_{3}$ possiamo solo concludere che $R \cdot S \subseteq T \cdot S$ e non che $R \cdot S \subset T$; allo stesso modo se $R \subset T \subseteq A_{1} \times A_{2}, V \subseteq A_{4} \times A_{1}$ possiamo solo concludere che $V \cdot R \subseteq V \cdot T$ e se $R \subset T \subseteq A_{1} \times A_{2}$, $S \subset U \subseteq A_{2} \times A_{3}$ possiamo slo conludere che $R \cdot S \subseteq T \cdot U$
 
-Possiamo quindi definire [[Relazioni permutabili]], [[relazione inversa]] e [[relazione identica]]
 Il prodotto di relazioni non è commutativo, date $R \subseteq A_{1} \times A_{2}$ e $T \subseteq A_{2} \times A_{3}$, $R \cdot T$ è sempre definito mentre $T \cdot R$ è definito solo se gli insiemi $A_{1}$ e $A_{3}$ coincidono ed in tal caso $R \cdot T \subseteq A_{1} \times A_{1}$ e gli insiemi $A_{1}$ e $A_{2}$ coincidono, ma anche in questo caso generalmente $R \cdot T \neq T \cdot R$. Basta considerare $A_{1} = \{ a,b \}, R = \{ (a,b) \}, T = \{ (b,b) \}$: si ha $R \cdot T = \{ (a,b) \}$ e $T \cdot R = \varnothing$.
-Se $R \cdot T = T \cdot R$ le relazioni $T$ ed $R$ si dicono **PERMUTABILI**.
 
-Si dice **Relazione inversa** di $R \subseteq A_{1} \times A_{2}$ la relazione $R^{-1} \subseteq A_{2} \times A_{1}$ definita da $R^{-1} = \{ (a_{2},a_{1}) | (a_{1},a_{2}) \in R \}$
-Nel caso in cui $A_{1},A_{2}$ siano finiti, il [[grafo di incidenza]] di $R^{-1}$ si ottiene da quello di $R$ invertendo la direzione delle frecce, la matrice di incidenza di $R^{-1}$ è la [[trasposizione]] di quella di $R$
+Possiamo quindi definire [[Relazioni permutabili]], [[relazione inversa]] e [[relazione identica]]
+
+
 
 Si dice **Relazione identica** su $A_{1}$ la relazione $I_{A_{1}} = \{ (a_{1},a_{1}) | a_{1} \in A_{1} \}$, osserviamo che si ha
 $$ I_{A_{1}} \cdot R = R\qquad \text{ per ogni }R \subseteq A_{1} \times A_{2} $$
