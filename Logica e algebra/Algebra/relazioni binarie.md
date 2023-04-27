@@ -141,4 +141,7 @@ Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà
 - **Proprietà antisimmetrica**: si dice che una relazione $R$ gode della proprietà antisimmetrica (o semplicemente è antisimmetrica) se per ogni $a_{1},a_{2} \in A$, $(a_{1},a_{2}) \in R$ implicano $a_{1} = a_{2}$. Si può facilmente provare che una relazione è antisimmetrica se e solo se $R \cap R^{-1} \subseteq I_{A}$.
 	- In termini di grafo di incidenza una relazione è antisimmetrica se e solo se i soli archi con doppia freccia sono gli autoanelli
 	- In termini di matrice di incidenza una relazione è antisimmetrica se e solo se la somma della matrice d'incidenza con la sua trasposta non ha alcun 2 fuori dalla diagonale principale, ion altri termini se e solo se ogni volta che nel posto $(i,k)$ con $i \neq k$ c'è $1$, l'elemento di posto $(k,i)$ è $0$.
+	- $\varnothing$ e $I_{A}$ sono relazioni antisimmetriche
+- **Proprietà transitiva**
+	- Si dice che una relazione $R$ gode della proprietà transitiva (o semplicementre è transitiva) se per ogni $a_{1},a_{2},a_{3} \in A$ e $$
   
