@@ -122,4 +122,4 @@ Per la proprietà associativa del prodotto e per il fatto che $I_{A} \cdot R = R
 
 Poichè abbiamo parlato di relazione inversa potrebbe venir spontaneo definire $R^m\ (m < 0)$ come $R^m = R^{-1} \cdot R^{-1} \cdot \ldots \cdot R^{-1}$ ($m$ volte), va però notato che essendo in generale $R \cdot R^{-1} \neq I_{A}$ e $R^{-1}\cdot R \neq I_{A}$, la proprietà $R^m \cdot R^n = R^n \cdot R^m = R^{m + n}$ non vale in generale per esponenti interi (cioè per esponenti anche negativi)
 
-Le relazioni binarie su un insieme $A$ finite, possono essere facilmente rappresentate col grafo e con la matrice di incidenza (che sarà una matrice quadrata). Nel grafo di incidenza l'insieme dei vertici è $A (= A \cup A) orr$
+Le relazioni binarie su un insieme $A$ finite, possono essere facilmente rappresentate col grafo e con la matrice di incidenza (che sarà una matrice quadrata). Nel grafo di incidenza l'insieme dei vertici è $A (= A \cup A)$ e quindi tra gli archi ci possono essere degli auto
