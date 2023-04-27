@@ -54,4 +54,11 @@ Si cerca il valore $h$ nel nastro principale e si copia la parte accanto M$[h]$ 
 - Se non si trova si crea un buco utilizzando il nastro di servizio. Si memorizza $h$ e si copia M$[0]$ nella parte accanto (M$[h]$), si ricopia la parte successiva dal nastro di servizio.
 - Se $h$ esiste già si copia M$[0]$ nella parte accanto ($M[h]$), ciò può richiedere l'uso del nastro di servizio se il numero di celle già occupate non è uguale a quelle di M$[0]$
 
-#### ADD
+#### ADD* h
+...
+
+
+Simulare una mossa di RAM può richiedere alla macchina di turing un numero di mosse maggiorabile da $c \cdot$ lunghezza del nastro principale
+
+>[!lemma]
+>La lunghezza del nastro principale è limitata superiormente da una funzione $\Theta$
