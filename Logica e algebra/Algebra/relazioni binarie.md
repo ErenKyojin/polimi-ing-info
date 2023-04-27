@@ -143,6 +143,6 @@ Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà
 	- In termini di matrice di incidenza una relazione è antisimmetrica se e solo se la somma della matrice d'incidenza con la sua trasposta non ha alcun 2 fuori dalla diagonale principale, ion altri termini se e solo se ogni volta che nel posto $(i,k)$ con $i \neq k$ c'è $1$, l'elemento di posto $(k,i)$ è $0$.
 	- $\varnothing$ e $I_{A}$ sono relazioni antisimmetriche
 - **Proprietà transitiva**: Si dice che una relazione $R$ gode della proprietà transitiva (o semplicementre è transitiva) se per ogni $a_{1},a_{2},a_{3} \in A$, $(a_{1},a_{2}) \in R$ e $(a_{2},a_{3})\in R$ implicano $(a_{1},a_{3}) \in R$. Si può facilmente provare che una relazione è transitiva se e solo se ogni $R^2 \subseteq R$.
-	- In termini di grafo di incidenza una relazione è transitiva
+	- In termini di grafo di incidenza una relazione è transitiva se e solo se, ongi volta che si può andare da un vertice $a_{1}$ ad un vertice $a_{2}$ seguendo due frecce consecutive, c'è un arco che collega $a_{1}$ ad $a_{2}$; in termini di matrice di incidenza una relazione è transitiva se e solo se tu
 
   
