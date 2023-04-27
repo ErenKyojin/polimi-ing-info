@@ -178,4 +178,7 @@ Conseguenze di queste proprietà:
 > - Se $R$ e $T$ sono transitive e permutabili anche $R \cdot T$ è transitiva
 
 
-Riassumendo, per quanto riguarda le inclusion
+Riassumendo, per quanto riguarda le inclusioni le proprietà si conservano in accordo alla seguente tabella, se $T \subset R \subset S$
+| $T$ | $R$ | $S$ |
+| --- | --- | --- |
+|     |     |     |
