@@ -22,5 +22,5 @@ Possiamo garantire che esiste la $P$-chiusura di $R$.
 
 Possiamo allora concludere che esistono la chiusura riflessiva, la chiusura simmetrica e la chiusura transitiva di una qualsiasi relazione $R$,
 
-In generale invece non esiste la chisura seriale di una relazione $R$, basta considerare $A = \{ a,b \}, R = \{ (a,b) \}$, per trovare una relazione seriale che contenga $R$ dobbiamo aggiungere ad $R$ un
+In generale invece non esiste la chisura seriale di una relazione $R$, basta considerare $A = \{ a,b \}, R = \{ (a,b) \}$, per trovare una relazione seriale che contenga $R$ dobbiamo aggiungere ad $R$ una coppia il cui primo elemento sia $b$, quindi $(b,a)$ o $(b,b)$. Nel primo caso otteniamo $T = \{ (a,b),(b,a) \}$, nel secondo $S = \{ (a,b),(b,b) \}$. Le relazioni $T$ ed $S$ sono entrambe seriali e contengono entrambe $R$, ma ne $T \subseteq $
 
