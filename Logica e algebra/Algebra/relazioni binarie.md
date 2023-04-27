@@ -191,9 +191,10 @@ Riassumendo, per quanto riguarda le inclusioni le proprietà si conservano in ac
 
 Per quanto riguarda le operazioni di intersezione, unione, prodotto, passaggio alla relazione inversa le proprietà si conservano in accordo alla seguente tabella
 
-|    $R$     |    $T$     | $R \cap T$ | $R \cup T$ | $R \cdot T$ | $R^{-1}$ |
-|:----------:|:----------:|:----------:|:----------:|:-----------:|:--------:|
-|  Seriale   |  Seriale   |     No     |     Sì     |     Sì      |    No    |
-| Rifllesiva | Riflessiva |     Sì     |     Sì     |     Sì      |    Sì    |
-| Simmetrica | Simmetrica |     Sì     |     Sì     |     No      |    Sì    |
-| Antisimmetrica           |            |            |            |             |          |
+|      $R$       |      $T$       | $R \cap T$ | $R \cup T$ | $R \cdot T$ | $R^{-1}$ |
+|:--------------:|:--------------:|:----------:|:----------:|:-----------:|:--------:|
+|    Seriale     |    Seriale     |     No     |     Sì     |     Sì      |    No    |
+|   Rifllesiva   |   Riflessiva   |     Sì     |     Sì     |     Sì      |    Sì    |
+|   Simmetrica   |   Simmetrica   |     Sì     |     Sì     |     No      |    Sì    |
+| Antisimmetrica | Antisimmetrica |     Sì     |     No     |     No      |    Sì    |
+|   Transitiva   |   Transitiva   |     Sì     |     No     |     No      |    Sì    |
