@@ -199,4 +199,8 @@ Per quanto riguarda le operazioni di intersezione, unione, prodotto, passaggio a
 | Antisimmetrica | Antisimmetrica |     Sì     |     No     |     No      |    Sì    |
 |   Transitiva   |   Transitiva   |     Sì     |     No     |     No      |    Sì    |
 
-Consideriamo ora un insieme $P$ di proprietà di cui le relazioni binarie possono godere. Sia $R \subseteq A \times A$ una relazione binaria su $A$, chiamiamo chiusura di $R$ rispetto a $P$ o $P$-chiusura di $R$ una relazione $T \subseteq A \times A$
+Consideriamo ora un insieme $P$ di proprietà di cui le relazioni binarie possono godere. Sia $R \subseteq A \times A$ una relazione binaria su $A$, chiamiamo chiusura di $R$ rispetto a $P$ o $P$-chiusura di $R$ una relazione $T \subseteq A \times A$ tale che:
+1. $R \subseteq T$
+2. $T$ gode di tutte le proprietà in $P$
+3. Se $S \subseteq A \times A$ è una relazione che gode di tutte le proprietà in $P$ e contiene $R$ allora contiene anche $T$
+In altre parole la $P$-chiusura di $R$, se esiste, è la minima relazione
