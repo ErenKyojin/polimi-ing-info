@@ -64,4 +64,5 @@ Simulare una mossa di RAM può richiedere alla macchina di turing un numero di m
 >La lunghezza del nastro principale è limitata superiormente da una funzione $\Theta(T_{R})$
 >- ogni cella $i_{j}$-esima della RAM richiede nel nastro l($i_{j}$) + l(M$[i_{j}]$)(+2) celle del nastro
 >- Ogni cella $i_{j}$-esima esiste nel nastro se e solo se la RAM ha eseguito almeno una store su di essa.
->- La store è costata alla RAM l($i_{j}$)
+>- La store è costata alla RAM l($i_{j}$) + l(M$[i_{j}]$) quindi
+>- Per riempire $r$ celle di lunghezza complessiva $\sum_{j = 1,\dots,r}$ l($i_{j}$) + l(M$[i_{j}]$) alla RAM occorre un tempo $(\leq T_{R})$ al
