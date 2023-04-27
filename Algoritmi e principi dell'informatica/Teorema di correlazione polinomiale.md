@@ -14,4 +14,6 @@ Grazie a questo teorema possiamo parlare di **classe dei problemi risolvibili in
 
 Grazie a questo risultato si è adottata l'analogia:
 - classe dei problemi trattabili in partica = classe dei problemi risolvibili in tempo polinomiale con modelli deterministici **P**
-- In **P** sono inclusi i problemi di 
+- In **P** sono inclusi i problemi di complessità $n^{1000}$, ma l'esperienza ci conferma che i problemi di interesse applicativo hanno un grado accettabile
+
+## Correlazione temporale tra MT e RAM
