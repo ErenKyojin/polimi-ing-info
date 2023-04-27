@@ -119,3 +119,5 @@ Per convenzione poniamo anche $R^0 = I_{A}$
 Per la proprietà associativa del prodotto e per il fatto che $I_{A} \cdot R = R \cdot I_{A} = R$ per ogni $R \subseteq A \times A$ continuano a sussistere, per esponenti interi non negativi, le proprietà formali delle potenze:
 - $R^m \cdot R^n = R^{m + n} = R^n \cdot R^m$
 - $(R^m)^n = R^{m\cdot n}$
+
+Poichè abbiamo parlato di relazione inversa potrebbe venir spontaneo definire $R^m\ (m < 0)$ come $R^m = R^{-1} \cdot R^{-1} \cdot \ldots \cdot R^{-1}$ ($$)
