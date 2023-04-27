@@ -166,4 +166,5 @@ Siano $R,T$ relazioni binarie su $A$, osserviamo che:
 - Se $R$ è antisimmetrica anche ogni relazione contenuta in $R$ (e quindi anche $R \cap T$) è antisimmetrica
 - Se $R$ è antisimmetriche anche $R^{-1}$ è antisimmetrica
 - Anche se $R$ e $T$ sono antisimmetriche, $R \cup T$ in generale non è antisimmetrica, basta prendere $A = \{ a,b \}, R = \{ (a,b) \}, T = \{ (b,a) \}$
-- 
+- Anche se $R$ e $T$ sono antisimmetriche, $R \cdot T$ in generale non è antisimmetrica, basta prendere
+- Se $R$ è transitiva anche $R^{-1}$ è transitiva
