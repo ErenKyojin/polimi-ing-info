@@ -37,4 +37,8 @@ Verifichiamo come esempio l'ultima di queste affermazioni, dobbiamo provare che 
 
 
 Notare bene che in genere non basta fare $R \cup R^2$ per trovare la chiusura transitiva di $R$, a tal proposito basta considerare $A = \{ a,b,c,d \}$, $R = \{ (a,b),(b,c),(c,d) \}$. Risulta $R^2 = \{ (a,c),(b,d) \}$ quindi $R \cup R^2 = \{ (a,b),(b,c),(c,d),(a,c),(b,d) \}$ non è transitiva. Per avere una relazione transitiva bisogna aggiungere ad $R$ la coppia $(a,d)$ che appartiene ad $R^3$. In questo caso quindi la chiusura transitiva di $R$ è $R \cup R^2 \cup R^3$ (le potenze successive di $R$ sono infatti vuote).
-In generale il procedimento di unire nuove potenze di $R$ finisce quando non si introducono
+In generale il procedimento di unire nuove potenze di $R$ finisce quando non si introducono nuovi 1.
+
+
+Cosa succede se consideriamo $P$ come costituito da almeno due proprietà?
+Le stesse considerazioni fatte per provare che in genere non esiste la chiusura 
