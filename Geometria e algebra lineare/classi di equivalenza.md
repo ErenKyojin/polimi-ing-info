@@ -8,8 +8,7 @@
 - Su cibsuderi l'insieme di tutti i triangoli del piano e sia $\rho$ la relazione di similitudine fra triangoli. Riferito il piano ad un sistema di coordinate cartesiane, sia $T$ il triangolo aventi vertici $O = (0,0), A = (1,0), B = (0,1);$ la $\rho$-classe di $T$ è l'insieme di tutti i triangoli isosceli e rettangoli
 - Sull'insieme $Z$ sia $\rho$ la relazione di congruenza modulo $2$, la $\rho$-classe di $0$ è l'insieme di tutti gli interi pari, la $\rho$-classe di 1 è l'insieme di tutti gli interi dispari. Cosa è la $\rho$-classe di 4?
 
-Si dice [[Partizione]] di $A$
-
+Si può quindi definire la [[Partizione]] di un insieme $A$.
 
 # Proprietà delle classi di equivalenza:
 
