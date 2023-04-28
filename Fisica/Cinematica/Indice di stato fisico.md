@@ -13,7 +13,7 @@
 >- energia
 >- temperatura
 
-L'unica differenza con le grandezze fisiche è l'assenza di una relazione d'ordine.
+L'unica differenza con le grandezze fisiche è l'assenza di una [[relazione d'ordine]].
 
 >[!oss]
 >Dalla definizione osserviamo che il valore assoluto della differenza di due indici di stato è sempre una [[Grandezza fisica]].

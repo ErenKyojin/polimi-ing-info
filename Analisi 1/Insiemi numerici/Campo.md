@@ -27,7 +27,7 @@ Tutti i campi hanno inoltre le seguenti proprietà:
 
 
 # Campo ordinato
-Un campo in cui è presente una relazione d'ordine si dice <u>campo ordinato</u>, campi ordinati sono:
+Un campo in cui è presente una [[relazione d'ordine]] si dice <u>campo ordinato</u>, campi ordinati sono:
 - $\mathbb Q$ - [[Analisi 1/Insiemi numerici/numeri razionali]]
 - $\mathbb R$ - [[numeri reali]]
 
