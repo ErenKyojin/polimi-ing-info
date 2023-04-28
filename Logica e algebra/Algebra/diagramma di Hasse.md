@@ -41,4 +41,7 @@ Osserviamo che:
 - Il minimo (massimo) se esiste è unico
 - Se un insieme parzialmente ordinato è finito ed ha un unico elemento minimale (massimale) questo è un minimo (massimo)
 
-Sia ora $B$ un sotto
+Sia ora $B$ un sottoinsieme dell'insieme parzialmente ordinato $A$.
+Diciamo **minorante** di $B$ (se esiste) un elemento $m \in A$ tale che per ogni $b \in B$ sia $m \leq b$
+Diciamo **maggiorante** di $B$ (se esiste) un elemento $m \in A$ tale che per ogni $b \in B$ sia $b \leq m$
+Chiamiamo estremo inferiore di $B$ e lo indichiamo con in
