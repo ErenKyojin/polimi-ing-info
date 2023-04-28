@@ -1,4 +1,4 @@
-Dato un insieme $A$, teniamo a mente il concetto di [[cardinalità]] di questo insieme, allora possiamo dare la seguente definizione:
+Dato un [[insieme]] $A$, teniamo a mente il concetto di [[cardinalità]] di questo [[insieme]], allora possiamo dare la seguente definizione:
 
 >[!def]
 >Diremo che uno spazio vettoriale $V$ ha dimensione $n < +\infty$ (indicando $\dim(V) = n$) se esiste un insieme di $n$ [[Geometria e algebra lineare/Vettori]] [[Dipendenza e indipendenza lineare|linearmente indipendenti]] ed ogni altro insieme linearmente indipendente ha cardinalità $\leq n$. Si dice che $V$ ha dimensione infinita se per ogni $m \in \mathbb{N}$ esiste un insieme linearmente indipendente di cardinalità $m$ 

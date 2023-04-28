@@ -1,6 +1,6 @@
 ### Distanza tra due punti
 Dati $A = \begin{bmatrix}x_{A} & y_{A} & z_{A}\end{bmatrix}^T$ e $B = \begin{bmatrix}x_{B} & y_{B} & z_{B}\end{bmatrix}$
-allora $\dist(A,B) = \|\overrightarrow{AB}\| = \sqrt{ (x_{A}-x_{B})^2 + (y_{A}-y_{B})^2 + (z_{A}-z_{B})^2 }$. La sfera di centro $C =\begin{bmatrix}x_{0}&t_{0}&z_{0}\end{bmatrix}^T$ e raggio $r$ è l'insieme dei punti $P = \begin{bmatrix}x & y & z\end{bmatrix}^T$ tali che $\|\overrightarrow{PC}\|=r$ tali punti soddisfano l'equazione: $\sqrt{ (x-x_{0})^2 + (y-y_{0})^2 + (z-z_{0})^2 }=r$
+allora $\dist(A,B) = \|\overrightarrow{AB}\| = \sqrt{ (x_{A}-x_{B})^2 + (y_{A}-y_{B})^2 + (z_{A}-z_{B})^2 }$. La sfera di centro $C =\begin{bmatrix}x_{0}&t_{0}&z_{0}\end{bmatrix}^T$ e raggio $r$ è l'[[insieme]] dei punti $P = \begin{bmatrix}x & y & z\end{bmatrix}^T$ tali che $\|\overrightarrow{PC}\|=r$ tali punti soddisfano l'equazione: $\sqrt{ (x-x_{0})^2 + (y-y_{0})^2 + (z-z_{0})^2 }=r$
 
 
 ### Distanza di un punto da un piano

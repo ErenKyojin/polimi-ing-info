@@ -5,7 +5,7 @@
 >[!esempio] Esempio 1, tempo di esecuzione di un programma
 > Vogliamo studiare il tempo di esecuzione di un programma, l'esperimento aleatorio in questo caso è l'avvio del programma e l'attesa che esso finisca, quali sono i possibili risultati?
 > $\omega = t$ tempo di esecuzione del programma
-> $\Omega = (0, +\infty)$ l'insieme dei tempi possibili di esecuzione
+> $\Omega = (0, +\infty)$ l'[[insieme]] dei tempi possibili di esecuzione
 > 
 > Se avessimo il caso `while(true)`?
 > $\Omega = (0, +\infty) \cup \left\{ +\infty \right\}$ aggiungiamo il punto di aggregazione.

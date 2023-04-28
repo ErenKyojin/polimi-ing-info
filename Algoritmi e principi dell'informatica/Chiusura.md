@@ -1,5 +1,5 @@
 >[!def]
->Il piú piccolo insieme che contiene $n$ e contiene l'operazione
+>Il piú piccolo [[insieme]] che contiene $n$ e contiene l'operazione
 
 
 I numeri naturali sono chiusi rispetto alla somma, non rispetto alla sottrazione => Si introducono i numeri interi che non sono peró chiusi rispetto alla divisione => numeri razionali =>...

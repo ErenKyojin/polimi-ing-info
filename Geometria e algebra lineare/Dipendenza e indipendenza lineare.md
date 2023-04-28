@@ -86,7 +86,7 @@ t_{d}
 >[!proposizione] Proposizione 2
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e siano $\mathbf{b}_{1},\dots,\mathbf{b}_{n}$ vettori fissati di $V$. allora $\mathcal{B} = {\mathbf{b}_{1},\dots,\mathbf{b}_{n}}$ è una [[Base]] se e solo se:
 >1. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è linearmente indipendente
->2. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è un insieme di generatori per $V$ ($\Span(\mathbf{b}_{1},\dots,\mathbf{b}_{n}) = V$)
+>2. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è un [[insieme]] di generatori per $V$ ($\Span(\mathbf{b}_{1},\dots,\mathbf{b}_{n}) = V$)
 >
 >>[!dim]
 

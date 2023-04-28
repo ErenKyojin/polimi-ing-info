@@ -1,7 +1,7 @@
 Fissato un sistema di riferimento nello spazio euclideo, ad ogni [[Geometria e algebra lineare/Vettori|vettore]] libero rimane associata la terna delle sue componenti. Vedremo che è possibile fare una operazione analoga in determinanti [[Spazi vettoriali]]
 
 >[!def]
->Sia $V$ uno spazio vettoriale su $\mathbb{K}$, un **insieme ordinato** $\mathbf{B} = \{\mathbf{b_{1}},\mathbf{b_{2}},\dots,\mathbf{b_{n}}\}$ di vettori $V$ si dice base di $V$ se ogni vettore di $V$ si scrive in uno ed un sol modo come [[Combinazioni lineari|combinazione lineare]] di $\mathbf{b_{1}},\dots,\mathbf{b_{n}}$: $\exists! t_{1},\dots,t_{n} \in \mathbb{K}$ t.c.
+>Sia $V$ uno spazio vettoriale su $\mathbb{K}$, un **[[insieme]] ordinato** $\mathbf{B} = \{\mathbf{b_{1}},\mathbf{b_{2}},\dots,\mathbf{b_{n}}\}$ di vettori $V$ si dice base di $V$ se ogni vettore di $V$ si scrive in uno ed un sol modo come [[Combinazioni lineari|combinazione lineare]] di $\mathbf{b_{1}},\dots,\mathbf{b_{n}}$: $\exists! t_{1},\dots,t_{n} \in \mathbb{K}$ t.c.
 > $$ \mathbf{v} = t_{1}\mathbf{b_{1}}+\dots+t_{n}\mathbf{b_{n}} $$
 
 

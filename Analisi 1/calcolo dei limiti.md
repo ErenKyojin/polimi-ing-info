@@ -78,7 +78,7 @@ Tutti questi teoremi si basano sui teoremi equivalenti delle successioni e sulla
 >>Ossia $\frac fg$ è continua in $x_0$
 
 >[!teorema] Teorema di continuità delle funzioni elementari
->Le seguenti funzioni elementari sono continue in tutti i punti del proprio insieme di definizione:
+>Le seguenti funzioni elementari sono continue in tutti i punti del proprio [[insieme]] di definizione:
 >1. Potenze a esponente [[numeri interi|intero]], [[Analisi 1/Insiemi numerici/numeri razionali|razionale]], o [[numeri reali|reale]].
 >2. [[Funzioni notevoli|Funzioni esponenziali]].
 >3. [[Logaritmo|Funzioni logaritmiche]]

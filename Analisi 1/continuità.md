@@ -7,11 +7,11 @@
 La continuità è utile per analizzare funzioni in cui una piccola variazione di $x$ implica una piccola variazione di $f(x)$
 
 Nei file di [[Limite]], e [[calcolo dei limiti]] abbiamo visto vari teoremi sulle funzioni continue:
-- Le funzioni elementari dell'analisi matematica sono continue nel loro insieme di definizione
+- Le funzioni elementari dell'analisi matematica sono continue nel loro [[insieme]] di definizione
 - Somma, prodotto e quoziente di funzione continue risultano in funzioni continue
 - Composizione di funzioni continue da funzioni continue
 
-Quindi tutte le funzioni che si possono ottenere con somma, prodotto, quoziente e composizione di funzioni elementari sono continue nel loro insieme di definizione. Possiamo quindi affermare ad occhio che funzioni come:
+Quindi tutte le funzioni che si possono ottenere con somma, prodotto, quoziente e composizione di funzioni elementari sono continue nel loro [[insieme]] di definizione. Possiamo quindi affermare ad occhio che funzioni come:
 $$e^{-x^2}\qquad\sqrt{\sin x}\qquad\log_a(1+(\tan x)^2)$$
 Questo rende più semplice il calcolo i di limiti come:
 $$\lim_{x\to\pi}\sqrt{\sin x} = \sqrt{\sin\pi} = 0$$

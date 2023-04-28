@@ -105,7 +105,7 @@ numero di blocchi = dim cache / dim blocco
 numero di set = dim cache / (n * dim blocco)
 </center>
 
-Ogni blocco di memoria è un unico insieme della cache di indirizzo:
+Ogni blocco di memoria è un unico [[insieme]] della cache di indirizzo:
  $$\text{ind set = ind blocco$_{mem}$ $\mod{(\text{num set})}$}$$
  L'indirizzo è assolutamente analogo a quello della cache ad indirizzamento diretto, ed in effetti:
 >[!oss]

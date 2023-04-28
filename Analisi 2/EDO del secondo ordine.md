@@ -62,7 +62,7 @@ Proprietà importante di $L$ è la linearità, ossia $L(c_{1}y_{1}+ c_{2}y_{2}) 
 
 ## Caso omogeneo
 $Ly = 0 \Leftrightarrow ay'' + by' + cy = 0$
-Quindi ogni combinazione lineare delle soluzioni è a sua volta soluzione, ossia l'insieme $S$ delle soluzioni forma uno [[spazio vettoriale]], di dimensione uguale all'ordine dell'equazione ([[teorema di struttura]]).
+Quindi ogni combinazione lineare delle soluzioni è a sua volta soluzione, ossia l'[[insieme]] $S$ delle soluzioni forma uno [[spazio vettoriale]], di dimensione uguale all'ordine dell'equazione ([[teorema di struttura]]).
 
 >[!esempio]
 >$$ y'' + 4y = 0 $$

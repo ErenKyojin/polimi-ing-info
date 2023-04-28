@@ -50,7 +50,7 @@ Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovar
 >$$ y'(t) = a(t)y(t) + b(t) $$
 >Con $a,b : J \subset \mathbb{R} \to \mathbb{R}$ continue
 >
->$J$ è il più grande insieme su cui $a,b$ sono definite, si chiama [[EDO omogenea associata]] la forma
+>$J$ è il più grande [[insieme]] su cui $a,b$ sono definite, si chiama [[EDO omogenea associata]] la forma
 >$$ y'(t) = a(t)y(t) $$
 >Quindi con $b(t) = 0$
 
