@@ -22,8 +22,8 @@ modification date: 2023-04-28 14:56
 >\node (2) at (4,0){2};
 >\node (4) at (6,2){2};
 >\node (12) at (4,4){2};
->\draw (3) -- (6) -- (2);
+>\draw (3) -- (6) -- (2) -- (4) -- (12) -- (6);
 >\end{tikzpicture}
 >\end{document}
 >```
-
+>È semplice disegnare il grafo di incidenza ed osservarne la complessità.
