@@ -29,4 +29,5 @@ modification date: 2023-04-28 14:56
 >È semplice disegnare il grafo di incidenza ed osservarne la complessità.
 >
 >Si consideri ora un insieme parzialmente ordinato $A$ (e indichiamo con $\leq$ la sua relazione d'ordine).
->Dic
+>Diciamo **minimo** di $A$ (se esiste) un $m \in A$ tale che per ogni $a \in A$ sia $m \leq a$
+>
