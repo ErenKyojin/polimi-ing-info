@@ -46,4 +46,6 @@ Se consideriamo il sottoinsieme $B = \{ 2,3 \}$ dell'insieme $A$ dell'esempio de
 Osserviamo che:
 - Se $B$ ha un minimo questo è un minorante di $B$ ed è $\inf(B)$
 - Se $B$ ha un massimo questo è un maggiorante di $B$ ed è $\sup(B)$
-- Se un minorante di $B$ appartien
+- Se un minorante di $B$ appartiene a $B$, allora è il minimo di $B$ ed è $\inf(B)$
+- Se un maggiorante di $B$ appartiene a $B$, allora è il massimo di $B$ ed è $\sup(B)$
+Un insieme parzialmente ordinato tale che per ogni sua coppia di elementi $a,b$ esistano $\inf\{ a,b \}$ e $\sup \{ a,b \}$ s
