@@ -16,7 +16,8 @@ Ipotizziamo $x \in \mathbb R$ e $D \subseteq \mathbb R$, allora una funzione che
 - $\mathcal f = \left\lbrace y \in \mathbb R : \exists x \in D, y = f(x)\right\rbrace$
 - $f(D)$
 
-In particolare con l'ultima si indica l
+In particolare con l'ultima si indica l'insieme $f(D) = \{ f(a) | a \in D \}$, inoltre si utilizza $f^{-1}(b)$ per indicare l'insieme $\{ a \in D | f(a) = b \}$.
+
 Ipotizziamo ora che esista un sottoinsieme  $T \subset D$
 $f \ |\ T \rightarrow \mathbb R \Longleftarrow$ Restrizione di $f$ a $T$, essendo $T$ un sottoinsieme di $D$, limitiamo la funzione in $T$
 
