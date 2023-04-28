@@ -1,4 +1,4 @@
-Vogliamo definire una struttura algebrica che descriva la struttura dell'insieme dei vettori liberi
+Vogliamo definire una struttura algebrica che descriva la struttura dell'[[insieme]] dei vettori liberi
 
 >[!def]
 >Dati un insieme $V$ ed un campo $\mathbb{K}$ si dice che $V$ è spazio vettoriale su $\mathbb{K}$ se $V$ ha: <div class="roman">

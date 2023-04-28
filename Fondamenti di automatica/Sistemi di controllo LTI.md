@@ -11,7 +11,7 @@ modification date: 2023-03-29 10:36
 >Infatti posso accoppiare i nodi diversamente
 
 
-Mettendo tutto insieme
+Mettendo tutto [[insieme]]
 $$Y = \fcolorbox{yellow}{}{ $ \frac{Y}{w} $} \cdot \fcolorbox{purple}{}{ $ w $} + \fcolorbox{yellow}{}{ $ \frac{Y}{D_{a}} $} \cdot \fcolorbox{purple}{}{ $ D_{a} $} + \fcolorbox{yellow}{}{ $ \frac{Y}{D_{r}} $}\cdot \fcolorbox{purple}{}{ $ D_{r} $} = Tw + S\cdot D_{a} - TD_{r}$$
 
 In viola, [[Trasformata di Laplace|trasformate di laplace]] quindi segnali

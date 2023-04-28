@@ -1,5 +1,5 @@
 # Uguaglianza
-Due insiemi sono uguali quando possiedono gli stessi elementi ossia:
+Due [[insieme|insiemi]] sono uguali quando possiedono gli stessi elementi ossia:
 
 >[!def]
 >$$A = B \text{ significa}$$

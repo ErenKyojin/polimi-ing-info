@@ -1,6 +1,6 @@
 # Soluzioni
 >[!def]
->Si chiama **integrale generale** l'insieme di tutte le soluzioni.
+>Si chiama **integrale generale** l'[[insieme]] di tutte le soluzioni.
 >Si chiama **soluzione particolare** una specifica soluzione.
 
 

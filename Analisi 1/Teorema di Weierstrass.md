@@ -10,7 +10,7 @@ Importante proprietà delle funzioni [[continuità|continue]] su un intervallo
 >>Iniziamo quindi con un osservazione sul concetto di estremo superiore:
 >>$E_1, E_2$ due sottoinsiemi non vuoti di $\mathbb R$
 >>$$\sup(E_1 \cup E_2) = \max(\sup E_1, \sup E_2)$$
->>Questa proprietà è vera per insiemi sia limitati che illimitati, in queso caso si pone $\sup E_n = +\infty$.
+>>Questa proprietà è vera per [[insieme|insiemi]] sia limitati che illimitati, in queso caso si pone $\sup E_n = +\infty$.
 >>Consideriamo ora
 >>$$f : I \to \mathbb R \text{ con } I = I_1 \cup I_2$$
 >>Con $I, I_1, I_2$ intervalli. Utilizzando l'osservazione fatta in precedenza agli insiemi $E_i = \left\lbrace f(x) : x \in I_i \right\rbrace$

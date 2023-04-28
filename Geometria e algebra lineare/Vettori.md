@@ -68,7 +68,7 @@ Da tutte queste definizioni possiamo tradurre l'[[Assioma delle parallele]] per 
 >Un vettore libero è una grandezza dotata di modulo, direzione, e verso. Si perde però l'informazione sul punto di applicazione.
 >I vettori liberi in realtà si possono definire come una [[Geometria e algebra lineare/relazione di equivalenza|classe di equivalenza]] dei vettori applicati, infatti due vettori applicati $\vec{AB}$ si definiscono equivalenti se hanno stesso modulo, direzione e verso.
 >
->Quindi un vettore libero è un insieme di vettori applicati equivalenti, e li indicheremo con $\mathbf{v}$, mentre l'insieme dei vettori liberi sarà $\mathbf{V}$
+>Quindi un vettore libero è un [[insieme]] di vettori applicati equivalenti, e li indicheremo con $\mathbf{v}$, mentre l'insieme dei vettori liberi sarà $\mathbf{V}$
 
 
 

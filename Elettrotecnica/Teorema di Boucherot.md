@@ -1,7 +1,7 @@
 # Teorema di bucherot
 L'estensione nel #dominio dei fasori del [[teorema di tellegen]], notiamo che la relazione $\mathbf{\bar v}^T\mathbf{\bar\imath} = 0$ non generalizza il teorema (In questo modo <u>non</u> si descrive la potenza complessa $\hat A_k$ del k-esimo nodo non essendo semplicemente $\bar v_k \bar\imath_k$).
 
-Potremmo allora pensare di utilizzare il vetore $\mathbf{\bar\imath^*}$ che effettivamente rappresenta un insieme di correnti compatibili con il grafo del circuito. Possiamo infatti scrivere la generica KCL al nodo j-esimo:
+Potremmo allora pensare di utilizzare il vetore $\mathbf{\bar\imath^*}$ che effettivamente rappresenta un [[insieme]] di correnti compatibili con il grafo del circuito. Possiamo infatti scrivere la generica KCL al nodo j-esimo:
 $$\sum_{h=1}^{N_j}\alpha_h\bar\imath_h = \sum_{h=1}^{N_j}\alpha_hRe\{\bar\imath_h\} + j\sum_{h=1}^{N_j}\alpha_hIm\{\bar\imath_h\} = 0$$
 Con:
 - $N_j$ numero di lati che entrano nel nodo j-esimo

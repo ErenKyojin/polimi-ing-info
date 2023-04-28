@@ -22,7 +22,7 @@ A questo punto, per studiare i problemi risolvibili dobbiamo definire un modello
 Macchina di turing a nastro singolo con:
 - **ALFABETO**: $A = \left\{ 0,1,\_ \right\}$
 - **PROBLEMA**: calcolo di una funzione $f : \mathbb{N} \to \mathbb{N}$
-- **STATI FINALI**: tutti e soli quelli che fermano la macchina (non serve definire l'insieme $I$)
+- **STATI FINALI**: tutti e soli quelli che fermano la macchina (non serve definire l'[[insieme]] $I$)
 	- Una macchina di Turing generica ha sia stati di accettazione che di non accettazione che fermano la macchina
 	- per non perdere generalità quando una macchina si fermerebbe in uno stato di non accettazione mandiamo in loop la macchina con un pozzo
 
