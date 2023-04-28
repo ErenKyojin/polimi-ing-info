@@ -22,3 +22,23 @@ Se $R$ è una relazione d'ordine su $A$ si usa per convenzione scrivere $a \leq 
 >Data una relazione $R$ non esiste in genere una relazione d'ordine che contenga $R$ perchè se $R$ non è antisimmetrica tutte le relazioni che contengono $R$ non sono antisimmetriche. Ci si potrebbe allora chiedere se una relazione antisimmetrica $R$ possa sempre essere contenuta in una relazione d'ordine. Poichè una relazione d'ordine è riflessiva e transitiva, se esistesse una relazione d'ordine contenente $R$, questa conterrebbe la [[chiusura]] riflessiva e transitiva di $R$. Se tale chiusura non risulta antisimmetria è anche una relazione d'ordine e quindi abbiamo trovato una relazione d'ordine che contiene $R$ (che è tra l'altro la minima relazione d'ordine che contiene $R$)
 
 Quando si lavora con relazioni d'ordine $\leq$ su un insieme finito $A$, si utilizza spesso una versione semplificata del [[grafo di incidenza]] di $\leq$, detto [[diagramma di Hasse]]
+
+Si consideri ora un insieme parzialmente ordinato $A$ (e indichiamo con $\leq$ la sua relazione d'ordine).
+- Diciamo **minimo** di $A$ (se esiste) un $m \in A$ tale che per ogni $a \in A$ sia $m \leq a$
+- Diciamo **massimo** di $A$ (se esiste) un $m \in A$ tale che per ogni $a \in A$ sia $a \leq m$
+- Diciamo **elemento minimale** di $A$ (se esiste) un $m \in A$ tale che $a \in A$ e $a \leq m$ implichino $a = m$ in altre parole per ogni $a \in A$ si ha o $a$ non confrontabile con $m$ o $m \leq a$)
+- Diciamo **elemento massimale** di $A$ (se esiste) un $m \in A$ tale che $a \in A$ ed $m \leq a$ implichino $a = m$ (in altre parole per ogni $a \in A$ si ha o $a$ non confrontabile con $m$ o $a \leq m$)
+
+L'[[insiemi parzialmente ordinati|insieme parzialmente ordinato]] del primo esempio di diagramma di Hasse ha 12 come massimo e 2, 3 come elementi minimali.
+
+Osserviamo che:
+- Il minimo (massimo) se esiste è unico
+- Se un insieme parzialmente ordinato è finito ed ha un unico elemento minimale (massimale) questo è un minimo (massimo)
+
+Sia ora $B$ un sottoinsieme dell'insieme parzialmente ordinato $A$.
+Diciamo **minorante** di $B$ (se esiste) un elemento $m \in A$ tale che per ogni $b \in B$ sia $m \leq b$
+Diciamo **maggiorante** di $B$ (se esiste) un elemento $m \in A$ tale che per ogni $b \in B$ sia $b \leq m$
+Chiamiamo **estremo inferiore** di $B$ e lo indichiamo con $\inf(B)$ il massimo, se esiste, dei minoranti di $B$
+Chiamiamo **estremo superiore** di $B$ e lo indichiamo con $\sup(B)$ il minimo, se esiste, dei maggioranti di $B$.
+
+Se consideriamo il sottoinsieme $B = \{ 2,3 \}$ dell'insieme $A$ dell'esempio del [[diagramma di Hasse]] non esisto
