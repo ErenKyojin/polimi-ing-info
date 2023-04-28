@@ -1,7 +1,6 @@
 
 >[!def] Classi di equivalenza
->Sia $\mathfrak{R}$ una relazione di equivalenza in $A, \forall a \in A$ la calsse di equivalenza di $a$ è $\mathfrak{P}$
->$$[a] = \lbrace b \in A : b \sim a\rbrace$$
+>Data una relazione di equivalenza $\rho$ su un insieme $A$, per ogni $a \in A$, chiamiamo **classe di equivalenza**
 
 
 # Proprietà delle classi di equivalenza:
