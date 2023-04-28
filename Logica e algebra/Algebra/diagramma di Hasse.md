@@ -9,7 +9,8 @@ modification date: 2023-04-28 14:56
 >Si ottiene a partire dal grafo di incidenza utilizzando alcune convenzioni:
 > - Non si rappresentano gli autoanelli (su ogni vertice ce n'è uno)
 > - Non si mette la freccia sugli archi (ogni arco ha una sola freccia), si assume che ogni arco vada dal vertice piú in basso verso quello piú in alto.
-> - Se c'è un arco che va dal verti $a$ a$b$
+> - Se c'è un arco che va dal vertice $a$ al vertice $b$ ed uno che va dal vertice $b$ al vertice $c$, si evita di disegnare l'arco (sicuramente presente nel grafo per la transitività della [[Relazioni|relazione]]) che va dal vertice $a$ al vertice $c$.
 
-
+>[!esempio]
+>$ $
 
