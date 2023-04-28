@@ -48,4 +48,4 @@ Osserviamo che:
 - Se $B$ ha un massimo questo è un maggiorante di $B$ ed è $\sup(B)$
 - Se un minorante di $B$ appartiene a $B$, allora è il minimo di $B$ ed è $\inf(B)$
 - Se un maggiorante di $B$ appartiene a $B$, allora è il massimo di $B$ ed è $\sup(B)$
-Un insieme parzialmente ordinato tale che per ogni sua coppia di elementi $a,b$ esistano $\inf\{ a,b \}$ e $\sup \{ a,b \}$ s
+Un insieme parzialmente ordinato tale che per ogni sua coppia di elementi $a,b$ esistano $\inf\{ a,b \}$ e $\sup \{ a,b \}$ si dice [[reticolo]]
