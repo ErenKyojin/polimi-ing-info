@@ -60,4 +60,4 @@ Vediamo allora di costruire queste $P$ chiusure:
 >#todo
 
 
-Dati $A = \{ a,b,c,d \}$ e $R = \{ (a,a),(a,b),(b,d),(c,) \}$
+Dati $A = \{ a,b,c,d \}$ e $R = \{ (a,a),(a,b),(b,d),(c,d) \}$ costruire la chiusura transitiva di $R$. Risulta $R^2 = \{ (a,a),(a,b),(a,d) \}$ e $R^3 = R^2 = \{ (a,a),(a,b),(a,d) \}$, quindi la chiusura transitiva di $R$ è la relazione $\{ (a,a),(a,b),(b,d),(c,d),(a,d) \}$ (le potenze di esponente maggiore di)
