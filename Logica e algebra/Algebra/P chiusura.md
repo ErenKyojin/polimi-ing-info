@@ -60,4 +60,11 @@ Vediamo allora di costruire queste $P$ chiusure:
 >#todo
 
 
-Dati $A = \{ a,b,c,d \}$ e $R = \{ (a,a),(a,b),(b,d),(c,d) \}$ costruire la chiusura transitiva di $R$. Risulta $R^2 = \{ (a,a),(a,b),(a,d) \}$ e $R^3 = R^2 = \{ (a,a),(a,b),(a,d) \}$, quindi la chiusura transitiva di $R$ è la relazione $\{ (a,a),(a,b),(b,d),(c,d),(a,d) \}$ (le potenze di esponente maggiore di)
+Dati $A = \{ a,b,c,d \}$ e $R = \{ (a,a),(a,b),(b,d),(c,d) \}$ costruire la chiusura transitiva di $R$. Risulta $R^2 = \{ (a,a),(a,b),(a,d) \}$ e $R^3 = R^2 = \{ (a,a),(a,b),(a,d) \}$, quindi la chiusura transitiva di $R$ è la relazione $\{ (a,a),(a,b),(b,d),(c,d),(a,d) \}$ (le potenze di esponente maggiore di $2$ non possono infatti aggiungere nuove coppie in questo caso).
+Il tutto poteva facilmente essere ottenuto con considerazioni sulla matrice di incidenza di $R$.
+Si ha $$M_{R} = \begin{bmatrix}
+1 & 1 & 0 & 0 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 0 & 0
+\end{bmatrix} \implies M_{R^2}$$
