@@ -31,3 +31,4 @@ Una relazionedi equivalenza divide un insieme in [[classi di equivalenza]]
 >
 >$$\Rightarrow [(3,2)] = \left[\frac{3}{2}\right] = \frac{3}{2} = \left\lbrace\frac{6}{4}, \frac{-6}{-4}, \frac{9}{6},...\right\rbrace$$
 
+Osserviamo che la chiusura ri
