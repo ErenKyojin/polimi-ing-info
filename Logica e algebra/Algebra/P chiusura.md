@@ -85,4 +85,7 @@ $$ M_{R^3} = (M_{R})^3 = \begin{bmatrix}
 0 & 0 & 0 & 0 \\
 0 & 0 & 0 & 0
 \end{bmatrix} \text{ si ottiene }M_{R \cup R^2 \cup R^3} = M_{R \cup R^2} = M_{R \cup R^2 \cup R^3 \cup R^4 \cup \dots} $$
-Calcoliamo la chiusura simmetrica e transi
+Calcoliamo la chiusura simmetrica e transitiva di $R$. Si ha
+$$ R \cup R^{-1} = \{ (a,a),(a,b),(b,d),(c,d),(b,a),(d,b),(d,c) \} $$
+da cui
+$$ (R \cup R^{-1})^2 = \{ (a,a),(a,b),(a,d),(b,b),(b,c) \} $$
