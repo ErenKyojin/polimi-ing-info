@@ -5,6 +5,7 @@ Alias: funzione
 >[!def]
 >Una [[Relazioni|relazione]] $f \subseteq A \times B$ tale che per ogni $a \in A$ esiste uno ed un solo $b \in B$ tale che $(a,b) \in f$ si dice **funzione** (o **applicazione**) da $A$ a $B$
 
+Si usa la notazione $f : A \to B$ e l'unico elemento $b$ associato ad $a$ dalla relazione $f$ si indica con $f(a)$ e chiamato imma
 
 Ipotizziamo $x \in \mathbb R$ e $D \subseteq \mathbb R$, allora una funzione che da $x$ manda ad $y$ si può indicare come:
 
