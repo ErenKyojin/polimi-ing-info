@@ -14,4 +14,4 @@ modification date: 2023-04-28 13:13
 
 
 Osserviamo che data una [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]] $\rho$  su un insieme $A$, le $\rho$-classi di $A$ sono una partizione di $A$. Tale patizione si dice partizione indotta da $\rho$.
-Viceversa data una partizione di $A$ è sempre possibile definire una relazione d'equivalenza kmrho
+Viceversa data una partizione di $A$ è sempre possibile definire una relazione d'equivalenza $\rho$ che induca su $A$ la partizione data. L'insieme delle $\rho$-classi di $A$ si dice insieme quoziente di $A$ rispetto a $\rho$ e si indica con $A / \rho$. Quindi $A / \rho = \{ \rho_{A} | a \in A \}$
