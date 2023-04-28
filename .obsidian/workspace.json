@@ -185,10 +185,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f14bef597613144",
+  "active": "0bc8565c7d011c80",
   "lastOpenFiles": [
-    "Logica e algebra/Algebra/Relazioni.md",
+    "Logica e algebra/Algebra/relazioni binarie.md",
+    "Logica e algebra/Algebra/grafo di incidenza.md",
     "Logica e algebra/Algebra/relazione d'ordine.md",
+    "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra/insiemi parzialmente ordinati.md",
     "Geometria e algebra lineare/relazione di equivalenza.md",
     "Logica e algebra/Algebra/insieme quoziente.md",
@@ -207,7 +209,6 @@
     "Algoritmi e principi dell'informatica/insieme.md",
     "Analisi 1/Teorema degli zeri.md",
     "Logica e algebra/Algebra/P chiusura.md",
-    "Logica e algebra/Algebra/relazioni binarie.md",
     "Logica e algebra/Algebra/relazione identica.md",
     "Logica e algebra/Algebra/relazione inversa.md",
     "Logica e algebra/Algebra/Relazioni permutabili.md",
@@ -215,7 +216,6 @@
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",
-    "Logica e algebra/Algebra/matrice di incidenza.md",
     "Logica e algebra/Algebra",
     "Geometria e algebra lineare/preamble.sty",
     "Geometria e algebra lineare",
