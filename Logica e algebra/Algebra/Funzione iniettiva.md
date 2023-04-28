@@ -19,4 +19,6 @@ Rappresentando la relazione $f$ tramite il suo [[grafo di incidenza]] (se possib
 - Il prodotto di due funzioni iniettive è una funzione iniettiva
 - Se il prodotto $f \cdot g$ delle funzioni $f$ e $g$ è iniettivo allora $f$ è iniettiva
 
-La funzione $g$ può essere non iniettiva anche se $f \cdot g$ è iniettiva, basta infatti considerar il seguente esempio: $A = \{ a \}, B = \{ b_{1},b_{2} \}, C = \{ c \}, f(a) = b_{1}, g(b_{1}) =$
+La funzione $g$ può essere non iniettiva anche se $f \cdot g$ è iniettiva, basta infatti considerar il seguente esempio: $A = \{ a \}, B = \{ b_{1},b_{2} \}, C = \{ c \}, f(a) = b_{1}, g(b_{1}) = g(b_{2}) = c$ in questo caso $f \cdot g$ è chiaramente iniettiva, ma $g$ non lo è.
+
+Il prodotto $f \cdot g$ di due funzioni può non essere iniettivo anche se $f$ è iniettiva, basta infatti considerare il seguente esempio: $A = \{ a_{1},a_{2} \},B$
