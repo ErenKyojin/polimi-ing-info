@@ -204,8 +204,8 @@ La fibra di $\mathcal{L}$ sopra $\mathbf{w}$ è $\mathcal{L}^{-1}(\mathbf{w}) = 
 
 ## Iniettività e suriettività
 >[!def]
->Dati due insiemi $A$ e $B$ diremo che una funzione $f : A \to B$ è **iniettiva** se $\forall a_{1},a_{2} \in A : f(a_{1})=f(a_{2}) \implies a_{1}=a_{2}$.
->Diremo che una funzione $f:A \to B$ è **suriettiva** se $\forall b \in B\ \exists a \in A : f(a) = b$. Diremo che $f : A \to B$ è **invertibile** se esiste $f^{-1}: B \to A$ t.c.
+>Dati due insiemi $A$ e $B$ diremo che una funzione $f : A \to B$ è **[[Funzione iniettiva|iniettiva]]** se $\forall a_{1},a_{2} \in A : f(a_{1})=f(a_{2}) \implies a_{1}=a_{2}$.
+>Diremo che una funzione $f:A \to B$ è **[[Funzione suriettiva|suriettiva]]** se $\forall b \in B\ \exists a \in A : f(a) = b$. Diremo che $f : A \to B$ è **invertibile** se esiste $f^{-1}: B \to A$ t.c.
 > $$ \begin{align}
 >&\forall a \in A &f^{-1}(f(a))=a \\
 &\forall b \in B &f(f^{-1}(b))=b

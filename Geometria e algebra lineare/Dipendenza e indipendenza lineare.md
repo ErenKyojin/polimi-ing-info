@@ -72,7 +72,7 @@ t_{1} \\
 t_{d}
 \end{bmatrix} \mapsto t_{1}\mathbf{v}_{1} + \dots + t_{d}\mathbf{v}_{d}
 >\end{align}$$
->è iniettiva $\iff \left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d} \right\}$ sono linearmente indipendenti
+>è [[Funzione iniettiva|iniettiva]] $\iff \left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d} \right\}$ sono linearmente indipendenti
 >
 >>[!dim]
 >>Poichè $\mathcal{P}$ è lineare allora per il criterio di iniettività delle funzioni lineare, $\mathcal{P}$ è iniettiva se e solo se $\text{Ker}(\mathcal{P}) = \left\{ \mathbf{0} \right\}$. Poichè $\mathcal{P}([t_{1}\ \dots\ t_{d}]) = \mathbf{0}$ $\iff$

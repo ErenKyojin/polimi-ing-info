@@ -13,7 +13,7 @@ Il punto $A$, corrispondente a $x=0$, è l'origine delle coordinate. Quindi
 
 
 >[!TlDr]
->C'è una corrispondenza biunivoca tra l'insieme $\mathbb{R}$ dei numeri reali e i punti della retta $AB$. Questa corrispondenza associa a un numero reale $x$ l'unico punto $P = P(x)$ della retta $AB$ tale che:
+>C'è una corrispondenza [[Funzione biunivoca|biunivoca]] tra l'insieme $\mathbb{R}$ dei numeri reali e i punti della retta $AB$. Questa corrispondenza associa a un numero reale $x$ l'unico punto $P = P(x)$ della retta $AB$ tale che:
 >1. La distanza di $P$ da $A$ è:
 > $$ \frac{\overline{AP}}{\overline{AB}}=|x| $$
 > 2. $P$ giace sulla semiretta uscente da $A$ e passante per $B$, se $x > 0$; $P$ giace sulla semiretta uscente da $A$ che non passa per $B$ se $x>0$ 

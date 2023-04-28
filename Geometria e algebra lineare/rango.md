@@ -220,9 +220,9 @@ In generale $\Row(A) \neq \Col(A)$, consideriamo ad esempio il caso $A \in M_{\m
 # Rango di un'[[Applicazioni lineari|applicazione lineare]]
 Sia $A \in M_{\mathbb{K}(n,n)}$ e consideriamo : $\mathcal{L}_{A} : \mathbb{K}^n \to \mathbb{K}^m (\mathbf{v} \mapsto A \mathbf{v})$
 Allora:
-1. $\mathcal{L}_{A}$ è iniettiva se e solo se $r(A) = n$, quindi se $\ker(A) = \ker(\mathcal{L}_{A})=\left\{ \mathbf{0} \right\}$
-2. $\mathcal{L}_{A}$ è suriettiva se e solo se $r(A) = m$ quindi se $\Im(\mathcal{L}_{A}) = \Col(A) = \mathbb{K}^m$
-3. $\mathcal{L}_{A}$ è biettiva se e solo se $r(A) = m = n$ quindi se $\mathcal{L}_{A}$ è [[Applicazioni lineari#Isomorfismi|isomorfismo]]
+1. $\mathcal{L}_{A}$ è [[Funzione iniettiva|iniettiva]] se e solo se $r(A) = n$, quindi se $\ker(A) = \ker(\mathcal{L}_{A})=\left\{ \mathbf{0} \right\}$
+2. $\mathcal{L}_{A}$ è [[Funzione suriettiva|suriettiva]] se e solo se $r(A) = m$ quindi se $\Im(\mathcal{L}_{A}) = \Col(A) = \mathbb{K}^m$
+3. $\mathcal{L}_{A}$ è [[Funzione biunivoca|biettiva]] se e solo se $r(A) = m = n$ quindi se $\mathcal{L}_{A}$ è [[Applicazioni lineari#Isomorfismi|isomorfismo]]
 
 >[!teorema] Teorema di Rappresentazione
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ t.c. $\dim(V) = n$
