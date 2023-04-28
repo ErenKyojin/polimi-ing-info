@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/Funzione iniettiva.md",
+                "file": "Logica e algebra/Algebra/Funzione suriettiva.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -88,7 +88,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/Funzione iniettiva.md",
+                "file": "Logica e algebra/Algebra/Funzione suriettiva.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/Funzione iniettiva.md",
+                "file": "Logica e algebra/Algebra/Funzione suriettiva.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Algebra/Funzione iniettiva.md"
+                "file": "Logica e algebra/Algebra/Funzione suriettiva.md"
               }
             }
           },
@@ -198,11 +198,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e482e98321e71fe8",
+  "active": "0bc8565c7d011c80",
   "lastOpenFiles": [
-    "Analisi 1/Funzioni/Funzioni.md",
     "Logica e algebra/Algebra/Funzione iniettiva.md",
     "Logica e algebra/Algebra/Funzione suriettiva.md",
+    "Analisi 1/Funzioni/Funzioni.md",
     "Logica e algebra/Algebra/Funzione biunivoca.md",
     "Logica e algebra/Algebra/insieme quoziente.md",
     "Logica e algebra/Algebra/Relazioni.md",
