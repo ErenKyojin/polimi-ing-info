@@ -27,3 +27,6 @@ $$ \begin{align}
 Le operazioni fra relazioni godono ovviamente delle proprietà ben note per le operazioni insiemistiche.
 
 ![[relazioni binarie]]
+
+
+### [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]] 

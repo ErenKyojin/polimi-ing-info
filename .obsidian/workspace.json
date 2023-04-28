@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/Relazioni.md",
+                "file": "Geometria e algebra lineare/relazione di equivalenza.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/Relazioni.md",
+                "file": "Geometria e algebra lineare/relazione di equivalenza.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -83,7 +83,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/Relazioni.md",
+                "file": "Geometria e algebra lineare/relazione di equivalenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,7 +112,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -132,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/Relazioni.md",
+                "file": "Geometria e algebra lineare/relazione di equivalenza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Algebra/Relazioni.md"
+                "file": "Geometria e algebra lineare/relazione di equivalenza.md"
               }
             }
           },
@@ -196,6 +197,7 @@
   },
   "active": "55143440dfef2625",
   "lastOpenFiles": [
+    "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra/P chiusura.md",
     "Logica e algebra/Algebra/Untitled.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
@@ -208,7 +210,6 @@
     "Settings/Canvas/MT to RAM.canvas",
     "Logica e algebra/Algebra/matrice di incidenza.md",
     "Logica e algebra/Algebra/grafo di incidenza.md",
-    "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra",
     "Geometria e algebra lineare/vettori.md",
     "Geometria e algebra lineare/versore.md",
