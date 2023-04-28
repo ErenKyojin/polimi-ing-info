@@ -18,3 +18,5 @@ Alcuni testi non la richiedono, ma in tal caso risulta essere una relazione d'or
 
 Se $R$ è una relazione d'ordine su $A$ si usa per convenzione scrivere $a \leq b$ o $b \geq a$ per dire che $(a,b) \in R$
 
+>[!oss]
+>Data una relazione $R$ non esiste in genere una relazione d'ordine che contenga $R$ perchè se $R$ non è antisimmetrica tutte le relazioni che contengono $R$ non sono antisimmetriche. Ci si potrebbe allora chiedere se una relazione antisimmetrica $R$ possa sempre essere contenuta in una relazione d'ordine. Poichè una relazione d'ordine è riflessiva e transitiva, se esistesse una relazione d'or
