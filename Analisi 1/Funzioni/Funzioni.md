@@ -1,7 +1,9 @@
 ---
 Alias: funzione
 ---
-# Funzioni 
+
+>[!def]
+>Una [[Relazioni|relazione]] $f \subseteq A \times B$ tale che per ogni $a \in A$
 
 Ipotizziamo $x \in \mathbb R$ e $D \subseteq \mathbb R$, allora una funzione che da $x$ manda ad $y$ si può indicare come:
 
@@ -12,7 +14,7 @@ Ipotizziamo $x \in \mathbb R$ e $D \subseteq \mathbb R$, allora una funzione che
 - $\mathcal f = \left\lbrace y \in \mathbb R : \exists x \in D, y = f(x)\right\rbrace$
 - $f(D)$
 
-Ipotizziamo ora che esista un sotto[[Algoritmi e principi dell'informatica/insieme]] $T \subset D$
+Ipotizziamo ora che esista un sottoinsieme  $T \subset D$
 $f \ |\ T \rightarrow \mathbb R \Longleftarrow$ Restrizione di $f$ a $T$, essendo $T$ un sottoinsieme di $D$, limitiamo la funzione in $T$
 
 Ipotizziamo ora che esista $D_f \subset D_g$ e definiamo
