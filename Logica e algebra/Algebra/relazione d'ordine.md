@@ -10,3 +10,6 @@ modification date: 2023-04-28 14:27
 
 tramite la relazione d'ordine si definiscono gli [[insiemi parzialmente ordinati]]
 
+>[!esempio]
+>- la [[Relazioni|relazione]] $\leq$ è una relazione d'ordine totale su tutti gli insiemi numerici $\mathbb{N},\mathbb{Z},\mathbb{Q}, \mathbb{R}$
+>- 
