@@ -41,4 +41,9 @@ Diciamo **maggiorante** di $B$ (se esiste) un elemento $m \in A$ tale che per og
 Chiamiamo **estremo inferiore** di $B$ e lo indichiamo con $\inf(B)$ il massimo, se esiste, dei minoranti di $B$
 Chiamiamo **estremo superiore** di $B$ e lo indichiamo con $\sup(B)$ il minimo, se esiste, dei maggioranti di $B$.
 
-Se consideriamo il sottoinsieme $B = \{ 2,3 \}$ dell'insieme $A$ dell'esempio del [[diagramma di Hasse]] non esisto
+Se consideriamo il sottoinsieme $B = \{ 2,3 \}$ dell'insieme $A$ dell'esempio del [[diagramma di Hasse]] non esistono minoranti di $B$ e quindi neppure $\inf(B)$; invece $6,12$ sono maggioranti di $B$ e $\sup(B) = 6$
+
+Osserviamo che:
+- Se $B$ ha un minimo questo è un minorante di $B$ ed è $\inf(B)$
+- Se $B$ ha un massimo questo è un maggiorante di $B$ ed è $\sup(B)$
+- Se un minorante di $B$ appartien
