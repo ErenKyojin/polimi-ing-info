@@ -17,7 +17,8 @@ modification date: 2023-04-28 14:56
 > ```tikz
 >\begin{document}
 >\begin{tikzpicture}
->\node at (0,0)
+>\node (3) at (0,0){3};
+>\node (6) at (2,2){7}
 >\end{tikzpicture}
 >\end{document}
 >```
