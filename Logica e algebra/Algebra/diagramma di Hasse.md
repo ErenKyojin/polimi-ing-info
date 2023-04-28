@@ -34,3 +34,4 @@ modification date: 2023-04-28 14:56
 >- Diciamo **elemento minimale** di $A$ (se esiste) un $m \in A$ tale che $a \in A$ e $a \leq m$ implichino $a = m$ (in altre parole per ogni $a \in A$ si ha o $a$ non confrontabile con $m$ o $m \leq a$)
 >- Diciamo **elemento massimale** di $A$ (se esiste) un $m \in A$ tale che $a \in A$ ed $m \leq a$ implichino $a = m$ (in altre parole per ogni $a \in A$ si ha o $a$ non confrontabile con $m$ o $a \leq m$)
 >
+>L'insieme
