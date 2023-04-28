@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "e49fbf84d35f1dc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geometria e algebra lineare/Applicazioni lineari.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2b0dcf0c28f60948",
             "type": "leaf",
             "state": {
@@ -186,8 +199,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f14bef597613144",
+  "active": "8561ce0ca289d1bf",
   "lastOpenFiles": [
+    "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
+    "Geometria e algebra lineare/insieme.md",
+    "Geometria e algebra lineare/Applicazioni lineari.md",
+    "Geometria e algebra lineare/Algoritmo di Gram-schmidt.md",
     "Algoritmi e principi dell'informatica/insieme.md",
     "Analisi 1/Teorema degli zeri.md",
     "Logica e algebra/Algebra/Partizione.md",
@@ -214,10 +231,6 @@
     "Geometria e algebra lineare/teorema di Rouchè Capelli.md",
     "Geometria e algebra lineare/sviluppi di Laplace.md",
     "Geometria e algebra lineare/spazio euclideo.md",
-    "Geometria e algebra lineare/sottospazi vettoriali.md",
-    "Geometria e algebra lineare/sottospazi affini.md",
-    "Geometria e algebra lineare/sistema di riferimento cartesiano.md",
-    "Geometria e algebra lineare/scalare.md",
     "Geometria e algebra lineare/preamble.sty",
     "Geometria e algebra lineare",
     "Algoritmi e principi dell'informatica/Canvas/MT nastro singolo.canvas",
