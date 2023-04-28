@@ -44,4 +44,5 @@ Osserviamo che:
 Sia ora $B$ un sottoinsieme dell'insieme parzialmente ordinato $A$.
 Diciamo **minorante** di $B$ (se esiste) un elemento $m \in A$ tale che per ogni $b \in B$ sia $m \leq b$
 Diciamo **maggiorante** di $B$ (se esiste) un elemento $m \in A$ tale che per ogni $b \in B$ sia $b \leq m$
-Chiamiamo estremo inferiore di $B$ e lo indichiamo con in
+Chiamiamo estremo inferiore di $B$ e lo indichiamo con $\inf(B)$ il massimo, se esiste, dei minoranti di $B$
+Chiamiamo
