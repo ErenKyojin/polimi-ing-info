@@ -88,4 +88,6 @@ $$ M_{R^3} = (M_{R})^3 = \begin{bmatrix}
 Calcoliamo la chiusura simmetrica e transitiva di $R$. Si ha
 $$ R \cup R^{-1} = \{ (a,a),(a,b),(b,d),(c,d),(b,a),(d,b),(d,c) \} $$
 da cui
-$$ (R \cup R^{-1})^2 = \{ (a,a),(a,b),(a,d),(b,b),(b,c) \} $$
+$$ (R \cup R^{-1})^2 = \{ (a,a),(a,b),(a,d),(b,b),(b,c),(c,b),(c,c) \} $$
+e
+$$ (R \cup R^{-1})^3 = \{ (a,a),() \} $$
