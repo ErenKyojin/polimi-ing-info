@@ -8,5 +8,8 @@ modification date: 2023-04-28 13:13
 > Si dice partizione di $A$ un insieme $\{ B_{i} | i \in I \}$ di sottoinsiemi di $A$ tale che sia $\displaystyle \bigcup_{i \in I} B_{i} = A$ e $B_{i} \cap B_{j} \neq \varnothing$ implichi $B_{i} = B_{j}$
 
 >[!esempio]
->- La suddivisione di $Z$ nei due sottoinsiemi degli interi
+>- La suddivisione di $Z$ nei due sottoinsiemi degli interi pari e degli interi dispari è una partizione di $Z$
+>- La suddivisione di tutti gli uomini nei sottoinisemi di coloro che sono coetanei è una partizione dell'insieme degli  uomini
+
+
 
