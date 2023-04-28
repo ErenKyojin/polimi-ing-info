@@ -27,11 +27,14 @@ modification date: 2023-04-28 14:56
 >\end{document}
 >```
 >È semplice disegnare il grafo di incidenza ed osservarne la complessità.
->
->Si consideri ora un insieme parzialmente ordinato $A$ (e indichiamo con $\leq$ la sua relazione d'ordine).
->- Diciamo **minimo** di $A$ (se esiste) un $m \in A$ tale che per ogni $a \in A$ sia $m \leq a$
->- Diciamo **massimo** di $A$ (se esiste) un $m \in A$ tale che per ogni $a \in A$ sia $a \leq m$
->- Diciamo **elemento minimale** di $A$ (se esiste) un $m \in A$ tale che $a \in A$ e $a \leq m$ implichino $a = m$ (in altre parole per ogni $a \in A$ si ha o $a$ non confrontabile con $m$ o $m \leq a$)
->- Diciamo **elemento massimale** di $A$ (se esiste) un $m \in A$ tale che $a \in A$ ed $m \leq a$ implichino $a = m$ (in altre parole per ogni $a \in A$ si ha o $a$ non confrontabile con $m$ o $a \leq m$)
->
->L'insieme
+
+
+Si consideri ora un insieme parzialmente ordinato $A$ (e indichiamo con $\leq$ la sua relazione d'ordine).
+- Diciamo **minimo** di $A$ (se esiste) un $m \in A$ tale che per ogni $a \in A$ sia $m \leq a$
+- Diciamo **massimo** di $A$ (se esiste) un $m \in A$ tale che per ogni $a \in A$ sia $a \leq m$
+- Diciamo **elemento minimale** di $A$ (se esiste) un $m \in A$ tale che $a \in A$ e $a \leq m$ implichino $a = m$ in altre parole per ogni $a \in A$ si ha o $a$ non confrontabile con $m$ o $m \leq a$)
+- Diciamo **elemento massimale** di $A$ (se esiste) un $m \in A$ tale che $a \in A$ ed $m \leq a$ implichino $a = m$ (in altre parole per ogni $a \in A$ si ha o $a$ non confrontabile con $m$ o $a \leq m$)
+
+L'insieme parzialmente ordinato di cui abbiamo sopra il diagramma di Hasse ha 12 come massimo e 2, 3 come elementi minimali.
+
+Osserviamo che
