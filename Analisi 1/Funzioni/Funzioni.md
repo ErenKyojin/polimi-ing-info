@@ -79,4 +79,5 @@ Siano ora $f : A \to B$ e $g : B \to C$ due funzioni, è facile provare che il p
 La funzione $f \cdot g$ appena definita viene detta prodotto delle due funzioni $f$ e $g$.
 Il prodotto di due funzioni è ovviamente associativo (essendo un prodotto di relazioni) ma in generale non è commutativo.
 Osserviamo inoltre che la [[relazione identica]] su $A, I_{A}$ è una funzione da $A$ ad $A$, che in questo contesto viene spesso indicata con $\imath_{A}$, si ha ovviamente che $\imath_{A} \cdot f = f = f \cdot \imath_{B}$.
-Osserviamo invece che la [[relazione inversa]] $f^{-1}$ di una funzione non è in generale una funzione, cerchiamo di capire invece quando lo è
+Osserviamo invece che la [[relazione inversa]] $f^{-1}$ di una funzione non è in generale una funzione, cerchiamo di capire invece quando lo è, a tal scopo introduciamo alcune definizioni
+

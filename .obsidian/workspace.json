@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "iniettiva",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -185,7 +185,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0bc8565c7d011c80",
+  "active": "fd5a7104086bfe35",
   "lastOpenFiles": [
     "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra/relazione d'ordine.md",
