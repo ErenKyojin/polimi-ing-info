@@ -13,3 +13,4 @@ modification date: 2023-04-28 13:13
 
 
 
+Osserviamo che data una [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]] $\rho$
