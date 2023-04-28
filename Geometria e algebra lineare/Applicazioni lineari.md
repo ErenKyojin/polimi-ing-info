@@ -49,7 +49,7 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ un'applicazione lineare. Allora diremo che
 >- $\forall \mathbf{v} \in V, \mathcal{L}(\mathbf{v})$ è l'**immagine** di $\mathbf{v}$ tramite $\mathcal{L}$
 >- $\forall U \subseteq V, \mathcal{L}(U) = \{\mathcal{L}(\mathbf{u}) : \mathbf{u} \in U\}$ è l'**immagine** di $U$
->- $\forall H \subseteq W, \mathcal{L}^{-1}(H) = \{\mathbf{v} \in V: \mathcal{L}(\mathbf{v}) \in H\}$ è la **controimmagine** di $H$. La controimmagine di un insieme puó essere l'insieme vuoto. 
+>- $\forall H \subseteq W, \mathcal{L}^{-1}(H) = \{\mathbf{v} \in V: \mathcal{L}(\mathbf{v}) \in H\}$ è la **controimmagine** di $H$. La controimmagine di un [[insieme]] puó essere l'insieme vuoto. 
 >Se $H = \{\mathbf{w}\}$ allora $L^{-1}(\mathbf{w})=\{\mathbf{v} \in V : \mathcal{L}(\mathbf{v})=\mathbf{w}\}$ si chiama   **fibra** di $\mathcal{L}$ su $\mathbf{w}$
 
 
