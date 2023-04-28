@@ -18,7 +18,11 @@ modification date: 2023-04-28 14:56
 >\begin{document}
 >\begin{tikzpicture}
 >\node (3) at (0,0){3};
->\node (6) at (2,2){7}
+>\node (6) at (2,2){6};
+>\node (2) at (4,0){2};
+>\node (4) at (6,2){2};
+>\node (12) at (4,4){2};
+>\draw (3) -- (6) -- (2);
 >\end{tikzpicture}
 >\end{document}
 >```
