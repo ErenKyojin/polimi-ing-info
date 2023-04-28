@@ -5,7 +5,8 @@
 >Denotata anche con $[a]_{\rho}$
 
 - Si consideri l'insieme $N$ e sia $\rho$ la relazione d'uguaglianza su $N$; la $\rho$-classe di un intero naturale $n$ è costituita solo dall'elemento $n$
-- Su cibsuderi l'insieme di tutti i triangoli del piano e sia $\rho$ la relazione di similitudine fra triangoli. Riferito il piano ad un sistem
+- Su cibsuderi l'insieme di tutti i triangoli del piano e sia $\rho$ la relazione di similitudine fra triangoli. Riferito il piano ad un sistema di coordinate cartesiane, sia $T$ il triangolo aventi vertici $O = (0,0), A = (1,0), B = (0,1);$ la $\rho$-classe di $T$ è l'insieme di tutti i triangoli isosceli e rettangoli
+- Sull'insieme $Z$ sia $\rho$ la relazione di
 
 
 # Proprietà delle classi di equivalenza:
