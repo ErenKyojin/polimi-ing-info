@@ -67,4 +67,16 @@ Si ha $$M_{R} = \begin{bmatrix}
 0 & 0 & 0 & 1 \\
 0 & 0 & 0 & 1 \\
 0 & 0 & 0 & 0
-\end{bmatrix} \implies M_{R^2}$$
+\end{bmatrix} \implies M_{R^2} = (M_{R})^2 = \begin{bmatrix}
+1 & 1 & 0 & 1 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 
+\end{bmatrix} \implies M_{R \cup R^2} = \begin{bmatrix}
+1 & 1 & 0 & 1 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 0 & 1 \\
+0 & 0 & 0 & 0
+\end{bmatrix}$$
+Poichè
+$$ M_{R^3} = (M_{}) $$
