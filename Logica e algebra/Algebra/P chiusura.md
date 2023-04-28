@@ -90,4 +90,5 @@ $$ R \cup R^{-1} = \{ (a,a),(a,b),(b,d),(c,d),(b,a),(d,b),(d,c) \} $$
 da cui
 $$ (R \cup R^{-1})^2 = \{ (a,a),(a,b),(a,d),(b,b),(b,c),(c,b),(c,c) \} $$
 e
-$$ (R \cup R^{-1})^3 = \{ (a,a),(a,b),(a,d),(a,c),(b,b),(b,c),(c,b),(c,) \} $$
+$$ (R \cup R^{-1})^3 = \{ (a,a),(a,b),(a,d),(a,c),(b,b),(b,c),(c,b),(c,c) \} $$
+Osseviamo il modo in cui queste chiusure si presentano, la prima è la chiusura riflessiva della chiusura simmetrica di $R$, la seconda è la chiusura riflessiva della chiusura transitiva di $R$, tuttavia avremmo ottenuto lo stesso risultato se avessimo fatto rispettivamente la chiusura simmetrica della chiusur
