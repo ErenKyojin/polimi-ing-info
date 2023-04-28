@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geometria e algebra lineare/relazione di equivalenza.md",
+                "file": "Geometria e algebra lineare/classi di equivalenza.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geometria e algebra lineare/relazione di equivalenza.md",
+                "file": "Geometria e algebra lineare/classi di equivalenza.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -83,7 +83,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Geometria e algebra lineare/relazione di equivalenza.md",
+                "file": "Geometria e algebra lineare/classi di equivalenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Geometria e algebra lineare/relazione di equivalenza.md",
+                "file": "Geometria e algebra lineare/classi di equivalenza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Geometria e algebra lineare/relazione di equivalenza.md"
+                "file": "Geometria e algebra lineare/classi di equivalenza.md"
               }
             }
           },
@@ -197,6 +197,7 @@
   },
   "active": "55143440dfef2625",
   "lastOpenFiles": [
+    "Geometria e algebra lineare/relazione di equivalenza.md",
     "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra/P chiusura.md",
     "Logica e algebra/Algebra/Untitled.md",
@@ -224,7 +225,6 @@
     "Geometria e algebra lineare/scalare.md",
     "Geometria e algebra lineare/retta.md",
     "Geometria e algebra lineare/relazione di funzione.md",
-    "Geometria e algebra lineare/relazione di equivalenza.md",
     "Geometria e algebra lineare/rango.md",
     "Geometria e algebra lineare/quadriche.md",
     "Geometria e algebra lineare/preamble.sty",

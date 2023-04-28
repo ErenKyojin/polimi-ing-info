@@ -5,7 +5,7 @@
 >- Simmetrica: $\forall a,b \in A$ se $a \sim b \Rightarrow b \sim a$
 >- Transitiva: $\forall a,b,c \in A$ se $a \sim b$ e $b \sim c \Rightarrow a \sim c$
 
-Una relazionedi equivalenza divide un insieme in [[classi di equivalenza]]
+Una relazione di equivalenza divide un insieme in [[classi di equivalenza]]
 
 >[!esempio] [[Geometria e algebra lineare/Numeri razionali]]
 >$A = \mathbb{Z} \times (\mathbb{Z} \setminus \lbrace 0 \rbrace)$ con $\mathbb{Z} = \lbrace ... -1, 0, 1, ... \rbrace$
@@ -31,4 +31,6 @@ Una relazionedi equivalenza divide un insieme in [[classi di equivalenza]]
 >
 >$$\Rightarrow [(3,2)] = \left[\frac{3}{2}\right] = \frac{3}{2} = \left\lbrace\frac{6}{4}, \frac{-6}{-4}, \frac{9}{6},...\right\rbrace$$
 
-Osserviamo che la [[chiusura]] riflessiva, simmetrica e transitiva di una [[relazione]] $R$ è una relazione d'equivalenza ed è la minima relazione di equivalenza che contiene $R$, tale che 
+Osserviamo che la [[chiusura]] riflessiva, simmetrica e transitiva di una [[relazione]] $R$ è una relazione d'equivalenza ed è la minima relazione di equivalenza che contiene $R$, tale relazione viene anche chiamata chiusura di equivalenza di $R$ o piú comunemente relazione di equivalenza generata da $R$.
+
+Nel seguito denoteremo le relazioni di equivalenza con le lettere minuscole dell'alfabeto greco
