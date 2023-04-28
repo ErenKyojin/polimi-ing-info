@@ -72,4 +72,6 @@ Dato il grafico di $y = f(x)$
 # funzioni come [[relazioni]]
 *(relativo al corso di Logica e Algebra)*
 
-Se $A$ e $B$ sono insieme finiti e si considera la rappresentazione di $f$ tramite il suo [[grafo di incidenza]], $f$ è una funzione se e solo se c'è uno ed un solo arco uscente da ogni vertice che rappresenta un elmento di $A$, se invece si rappresenta $f$ tramite la matrice di incidenza $f$ è una funzione se e solo se nella matrice di incidenza di $f$ c'è uno ed un solo $1$ su 
+Se $A$ e $B$ sono insieme finiti e si considera la rappresentazione di $f$ tramite il suo [[grafo di incidenza]], $f$ è una funzione se e solo se c'è uno ed un solo arco uscente da ogni vertice che rappresenta un elmento di $A$, se invece si rappresenta $f$ tramite la matrice di incidenza $f$ è una funzione se e solo se nella matrice di incidenza di $f$ c'è uno ed un solo $1$ su ogni riga.
+
+Siano ora $f : A \to B$ e $g : B \to C$ due funzioni, è facile provare che il prodotto di $f$ per $g$, pensate come relazioni, è una funzione $f \cdot g : A \to C$ definita da $f \cdot g (a) = g(f(a))$ per ogni $A$
