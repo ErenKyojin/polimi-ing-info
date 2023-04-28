@@ -60,3 +60,4 @@ Vediamo allora di costruire queste $P$ chiusure:
 >#todo
 
 
+Dati $A = \{ a,b,c,d \}$ e $R = \{ (a,a),(a,b),(b,d),(c,) \}$
