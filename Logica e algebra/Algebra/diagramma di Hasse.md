@@ -35,6 +35,10 @@ Si consideri ora un insieme parzialmente ordinato $A$ (e indichiamo con $\leq$ l
 - Diciamo **elemento minimale** di $A$ (se esiste) un $m \in A$ tale che $a \in A$ e $a \leq m$ implichino $a = m$ in altre parole per ogni $a \in A$ si ha o $a$ non confrontabile con $m$ o $m \leq a$)
 - Diciamo **elemento massimale** di $A$ (se esiste) un $m \in A$ tale che $a \in A$ ed $m \leq a$ implichino $a = m$ (in altre parole per ogni $a \in A$ si ha o $a$ non confrontabile con $m$ o $a \leq m$)
 
-L'insieme parzialmente ordinato di cui abbiamo sopra il diagramma di Hasse ha 12 come massimo e 2, 3 come elementi minimali.
+L'[[insiemi parzialmente ordinati|insieme parzialmente ordinato]] di cui abbiamo sopra il diagramma di Hasse ha 12 come massimo e 2, 3 come elementi minimali.
 
-Osserviamo che
+Osserviamo che:
+- Il minimo (massimo) se esiste è unico
+- Se un insieme parzialmente ordinato è finito ed ha un unico elemento minimale (massimale) questo è un minimo (massimo)
+
+Sia ora $B$ un sotto
