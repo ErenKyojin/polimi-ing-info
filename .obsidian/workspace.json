@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/Relazioni.md",
+                "file": "Logica e algebra/Algebra/relazione d'ordine.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d57dd70e5fda3aeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Geometria e algebra lineare/Relazione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -46,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/Relazioni.md",
+                "file": "Geometria e algebra lineare/Relazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/Relazioni.md",
+                "file": "Geometria e algebra lineare/Relazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Algebra/Relazioni.md"
+                "file": "Geometria e algebra lineare/Relazione.md"
               }
             }
           },
@@ -184,13 +198,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0b8307b5dc1882a6",
+  "active": "d57dd70e5fda3aeb",
   "lastOpenFiles": [
+    "Logica e algebra/Algebra/relazione d'ordine.md",
+    "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra/insieme quoziente.md",
     "Logica e algebra/Algebra/Partizione.md",
     "Geometria e algebra lineare/Applicazioni lineari.md",
     "Logica e algebra/Algebra/Untitled.md",
-    "Logica e algebra/Algebra/Relazioni.md",
     "Geometria e algebra lineare/insieme.md",
     "ACSO/Sistemi operativi/kernel.md",
     "Geometria e algebra lineare/Base.md",
@@ -215,7 +230,6 @@
     "Logica e algebra/Algebra",
     "Geometria e algebra lineare/vettori.md",
     "Geometria e algebra lineare/versore.md",
-    "Geometria e algebra lineare/trasformazione.md",
     "Geometria e algebra lineare/preamble.sty",
     "Geometria e algebra lineare",
     "Algoritmi e principi dell'informatica/Canvas/MT nastro singolo.canvas",
