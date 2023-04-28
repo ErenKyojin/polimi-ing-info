@@ -1,6 +1,6 @@
 
 >[!def] Classi di equivalenza
->Sia $\mathfrak{R}$ una relazione di equivalenza in $A, \forall a \in A$ la calsse di equivalenza di $a$ è
+>Sia $\mathfrak{R}$ una relazione di equivalenza in $A, \forall a \in A$ la calsse di equivalenza di $a$ è $\mathfrak{P}$
 >$$[a] = \lbrace b \in A : b \sim a\rbrace$$
 
 
