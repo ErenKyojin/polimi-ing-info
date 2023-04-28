@@ -40,7 +40,8 @@ Se $\forall x \in D_f\quad f(x) = g(x)$ g è un prolungamento di $f$ al [[domini
 $\exists$ inifiniti modi di prolungare una funzione.
 
 ## funzioni come [[relazioni]]
-Se $A$ e $B$ sono insieme finiti e si considera la rappresentazione di $f$ tramite il suo grafo di incidenza
+
+Se $A$ e $B$ sono insieme finiti e si considera la rappresentazione di $f$ tramite il suo [[grafo di incidenza]]
 
 ## Grafico della funzione
 
