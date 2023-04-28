@@ -40,4 +40,5 @@ Le operazioni fra relazioni godono ovviamente delle proprietà ben note per le o
 ### - [[relazioni binarie]]
 ### - [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]]
 ### - [[relazione d'ordine]]
+### - [[Funzioni]]
 

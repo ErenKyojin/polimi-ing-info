@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/relazione d'ordine.md",
+                "file": "Analisi 1/Funzioni/Funzioni.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -75,7 +75,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/relazione d'ordine.md",
+                "file": "Analisi 1/Funzioni/Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/relazione d'ordine.md",
+                "file": "Analisi 1/Funzioni/Funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Algebra/relazione d'ordine.md"
+                "file": "Analisi 1/Funzioni/Funzioni.md"
               }
             }
           },
@@ -187,12 +187,12 @@
   },
   "active": "0bc8565c7d011c80",
   "lastOpenFiles": [
-    "Logica e algebra/Algebra/reticolo.md",
+    "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra/relazione d'ordine.md",
+    "Logica e algebra/Algebra/reticolo.md",
     "Logica e algebra/Algebra/diagramma di Hasse.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
     "Logica e algebra/Algebra/grafo di incidenza.md",
-    "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra/insiemi parzialmente ordinati.md",
     "Geometria e algebra lineare/relazione di equivalenza.md",
     "Logica e algebra/Algebra/insieme quoziente.md",
