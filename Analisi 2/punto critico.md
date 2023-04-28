@@ -26,7 +26,7 @@
 \end{document}
 ```
 
-In pratica se cerco i punti estremavi di una funzione $f$ in un insieme $A$ aperto
+In pratica se cerco i punti estremavi di una funzione $f$ in un [[insieme]] $A$ aperto
 - Se $f$ è derivabile in tutto A: determino i punti critici di $f$ in $A$ e poi stabilisco quali sono massimo minimo e selle.
 - Se $f$ ha punti di non derivabilità li includo tra i candidati
 

@@ -21,7 +21,7 @@ Normalmente un processo è in esecuzione in modo U, se il processo corrente rich
 Un processo è in esecuzione in [[modo]] S quando il Sistema operativo è in esecuzione nel contesto di tale processo, o per una SYSCALL o per un [[Interrupt]].
 
 >[!DEF]
->Contesto di un processo si intende l'insieme di informazioni relative ad ogni processo che il Sistema operativo deve mantenere.
+>Contesto di un processo si intende l'[[insieme]] di informazioni relative ad ogni processo che il Sistema operativo deve mantenere.
 
 # Stato di un processo
 - Esecuzione: è il processo che utilizza il processore (processo corrente)

@@ -41,7 +41,7 @@ In generale il procedimento di unire nuove potenze di $R$ finisce quando non si 
 
 
 Cosa succede se consideriamo $P$ come costituito da almeno due proprietà?
-Le stesse considerazioni fatte per provare che in genere non esiste la chiusura antisimmetrica di una relazione si possono usare anche quando $P$ non è costituito da una sola proprietà ma contiene la proprietà antisimmetrica. Analogamente le considerazioni sulla non esistenza della chiusura seriale si possono usare quando $P$ contiene la proprietà seriale (a meno che non capiti che la presenza di altre proprietà porti la serialità ad essere riflessività come accade quando si considera l'insieme delle proprietà seriale, riflessiva e transitiva).
+Le stesse considerazioni fatte per provare che in genere non esiste la chiusura antisimmetrica di una relazione si possono usare anche quando $P$ non è costituito da una sola proprietà ma contiene la proprietà antisimmetrica. Analogamente le considerazioni sulla non esistenza della chiusura seriale si possono usare quando $P$ contiene la proprietà seriale (a meno che non capiti che la presenza di altre proprietà porti la serialità ad essere riflessività come accade quando si considera l'[[insieme]] delle proprietà seriale, riflessiva e transitiva).
 
 Escludendo queste due proprietà, consideriamo:
 - $P = \{ \text{riflessività, simmetria} \}$

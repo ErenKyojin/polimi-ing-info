@@ -1,5 +1,5 @@
 
-L'intuizione ci suggerisce che i punti di una retta siano ordinati, cosiche possiamo avere gli estremi $P$ e $Q$ come l'insieme dei punti della retta tra $P$ e $Q$.
+L'intuizione ci suggerisce che i punti di una retta siano ordinati, cosiche possiamo avere gli estremi $P$ e $Q$ come l'[[insieme]] dei punti della retta tra $P$ e $Q$.
 Consideriamo una retta $AB$, questa è l'unione di due semirette, la semiretta $A$ passante per B e la semiretta $B$ passante per $A$.
 
 Un punto $P$ su una delle semirette uscenti da $A$ è individuato dalla lunghezza $\overline{AP}$ del segmento di estremi $A$ e $P$.

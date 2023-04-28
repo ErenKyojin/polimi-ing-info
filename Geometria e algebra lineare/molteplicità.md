@@ -81,7 +81,7 @@ Diremo che l'intero positivo $m$ è la molteplicità algebrica di $\widetilde{\l
 > $$ N = g_{1} + \dots + g_{r} $$
 >
 >>[!dim] idea di dimostrazione
->>Siano $V_{1},\dots,V_{r}$ autospazi associati a $\lambda_{1},\dots,\lambda_{r}$. Siano inoltre $\mathcal{B}_{1},\dots,\mathcal{B}_{r}$ basi di $V_{1},\dots,V_{R}$. Allora $\mathcal{B} = \mathcal{B}_{1} \cup \mathcal{B}_{2} \cup\ldots \cup \mathcal{B}_{r}$ è un insieme linearmente indipendente
+>>Siano $V_{1},\dots,V_{r}$ autospazi associati a $\lambda_{1},\dots,\lambda_{r}$. Siano inoltre $\mathcal{B}_{1},\dots,\mathcal{B}_{r}$ basi di $V_{1},\dots,V_{R}$. Allora $\mathcal{B} = \mathcal{B}_{1} \cup \mathcal{B}_{2} \cup\ldots \cup \mathcal{B}_{r}$ è un [[insieme]] linearmente indipendente
 >>$\CVD$
 
 >[!oss]

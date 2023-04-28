@@ -5,7 +5,7 @@ Deifiniti dagli **assioni di peano**
 3. Due numeri con $n'$ uguale sono lo stesso numero naturale
 4. "zero" non è il successivo di nessun numero
 5. Postulato di induzione completa:
-    $\mathcal M$ è insieme se
+    $\mathcal M$ è [[insieme]] se
     - $0 \in \mathcal M$ 
     - se $n \in \mathcal M \Rightarrow n' \in \mathcal M$
 $\Rightarrow \mathcal M = \mathbb N$

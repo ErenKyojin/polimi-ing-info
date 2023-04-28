@@ -8,7 +8,7 @@ Concentriamoci su [[problema|problemi]] in modo tale che la risposta sia binaria
 Problema = [[Geometria e algebra lineare/insieme|Insieme]] $S \subseteq \mathbb{N} : x \in S$?
 (o calccolo di $f : \mathbb{N} \to \{ 0,1 \}$)
 
-Ricordando la [[Funzione caratteristica]] di un insieme
+Ricordando la [[Funzione caratteristica]] di un [[insieme]]
 
 > [!def]
 > Un insieme $S$ è ricorsivo o decidibile se e solo se la sua [[Funzioni|funzione]] caratteristica è calcolabile

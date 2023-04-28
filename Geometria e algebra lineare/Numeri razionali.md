@@ -22,4 +22,4 @@ $$
 >
 
 
-Un insieme che soddisfa queste proprietà è un [[Geometria e algebra lineare/campo]]
+Un [[insieme]] che soddisfa queste proprietà è un [[Geometria e algebra lineare/campo]]

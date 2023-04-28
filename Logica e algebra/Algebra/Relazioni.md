@@ -19,7 +19,7 @@ Siano $R \subseteq A_{1} \times A_{2} \times \dots A_{n}$ e $T \subseteq A_{1} \
 - $R \cap T = \{ (a_{1},a_{2},\dots,a_{n}) | (a_{1},a_{2},\dots,a_{n}) \in R\text{ e } (a_{1},a_{2},\dots,a_{n})\in T \}$
 - $R \cup T = \{ (a_{1},a_{2},\dots,a_{n}) | (a_{1},a_{2},\dots,a_{n}) \in R \text{ o } (a_{1},a_{2},\dots,a_{n}) \in T \}$
 
-Come è noto dalle nozioni sulla teoria degl insiemi, le definizioni di intersezione e unione si possono estendere ad una famiglia arbitraria di relazioni fra gli $n$ insiemi $A_{1},A_{2},\dots,A_{n}$. Pertanto se consideriamo una famiglia di relazioni $\{ R_{i} | i \in I \}$ fra $A_{1},A_{2},\dots,A_{n}$ dove l'indice $i$ varia in un qualsiasi insieme $I$, usiamo le seguenti notazioni
+Come è noto dalle nozioni sulla teoria degl insiemi, le definizioni di intersezione e unione si possono estendere ad una famiglia arbitraria di relazioni fra gli $n$ insiemi $A_{1},A_{2},\dots,A_{n}$. Pertanto se consideriamo una famiglia di relazioni $\{ R_{i} | i \in I \}$ fra $A_{1},A_{2},\dots,A_{n}$ dove l'indice $i$ varia in un qualsiasi [[insieme]] $I$, usiamo le seguenti notazioni
 $$ \begin{align}
 \bigcap_{i \in I} R_{i} &= \{ (a_{1},a_{2},\dots,a_{n}) | \forall i \in I\quad (a_{1},a_{2},\dots,a_{n}) \in R_{i}  \} \\
 \bigcup_{i \in I} R_{i} &= \{ (a_{1},a_{2},\dots,a_{n}) | \exists i \in I\quad (a_{1},a_{2},\dots,a_{n}) \in R_{i}\}
