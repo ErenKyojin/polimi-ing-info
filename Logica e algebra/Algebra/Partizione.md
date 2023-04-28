@@ -13,4 +13,5 @@ modification date: 2023-04-28 13:13
 
 
 
-Osserviamo che data una [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]] $\rho$  su un insieme $A$, le $\rho$-classi di $A$ sono una partizione di $A$. Tale patizione si dice partizione indotta da $r$
+Osserviamo che data una [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]] $\rho$  su un insieme $A$, le $\rho$-classi di $A$ sono una partizione di $A$. Tale patizione si dice partizione indotta da $\rho$.
+Viceversa data una partizione di $A$ è sempre possibile definire una relazione d'equivalenza kmrho
