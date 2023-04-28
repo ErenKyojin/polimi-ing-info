@@ -79,4 +79,10 @@ Si ha $$M_{R} = \begin{bmatrix}
 0 & 0 & 0 & 0
 \end{bmatrix}$$
 Poichè
-$$ M_{R^3} = (M_{}) $$
+$$ M_{R^3} = (M_{R})^3 = \begin{bmatrix}
+1 & 1 & 0 & 1 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0 \\
+0 & 0 & 0 & 0
+\end{bmatrix} \text{ si ottiene }M_{R \cup R^2 \cup R^3} = M_{R \cup R^2} = M_{R \cup R^2 \cup R^3 \cup R^4 \cup \dots} $$
+Calcoliamo la chiusura simmetrica e transi
