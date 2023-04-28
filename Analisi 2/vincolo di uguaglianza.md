@@ -1,5 +1,5 @@
 In questa sezione vogliamo determinare i massimi ed i minimi di una funzione $f(x,y)$ quando $(x,y)$ verifica una condizione aggiuntiva della forma $$F(x,y) = 0$$
-cioè il vincolo è espresso come insieme di livello nullo di una funzione $F(x,y)$
+cioè il vincolo è espresso come [[insieme]] di livello nullo di una funzione $F(x,y)$
 
 >[!esempio] Vincolo circonferenza $F(x,y) = x^2 + y^2 - R^2$
 

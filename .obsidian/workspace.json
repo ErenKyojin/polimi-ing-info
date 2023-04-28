@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geometria e algebra lineare/insieme.md",
+                "file": "Logica e algebra/Algebra/Partizione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Geometria e algebra lineare/insieme.md",
+                "file": "Logica e algebra/Algebra/Partizione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -118,7 +118,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -138,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Geometria e algebra lineare/insieme.md",
+                "file": "Logica e algebra/Algebra/Partizione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Geometria e algebra lineare/insieme.md"
+                "file": "Logica e algebra/Algebra/Partizione.md"
               }
             }
           },
@@ -198,13 +199,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8561ce0ca289d1bf",
+  "active": "e482e98321e71fe8",
   "lastOpenFiles": [
-    "ACSO/Sistemi operativi/kernel.md",
+    "Logica e algebra/Algebra/Partizione.md",
     "Geometria e algebra lineare/insieme.md",
+    "ACSO/Sistemi operativi/kernel.md",
     "Geometria e algebra lineare/Base.md",
     "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
-    "Logica e algebra/Algebra/Partizione.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
     "Geometria e algebra lineare/Applicazioni lineari.md",
     "Geometria e algebra lineare/Algoritmo di Gram-schmidt.md",
