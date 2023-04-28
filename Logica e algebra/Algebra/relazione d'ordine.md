@@ -13,4 +13,5 @@ tramite la relazione d'ordine si definiscono gli [[insiemi parzialmente ordinati
 >[!esempio]
 >- la [[Relazioni|relazione]] $\leq$ è una relazione d'ordine totale su tutti gli insiemi numerici $\mathbb{N},\mathbb{Z},\mathbb{Q}, \mathbb{R}$
 
-La proprietà riflessiva può sembrare una richiesta un po' forte in quanto richiedendo questa proprietà non sono chiamate relazioni d'ordine la relazione $<$ in $\mathbb{N},\mathbb{Z},\mathbb{Q},\mathbb{R}$ e l'inclusione forte $\subset$ di insiemi in $$
+La proprietà riflessiva può sembrare una richiesta un po' forte in quanto richiedendo questa proprietà non sono chiamate relazioni d'ordine la relazione $<$ in $\mathbb{N},\mathbb{Z},\mathbb{Q},\mathbb{R}$ e l'inclusione forte $\subset$ di insiemi in $\mathcal{P}(A)$.
+Alcuni testi non la richiedono, ma in tal caso risulta essere una relazione d'ordine la relazione vuota $\varnothing$ rispetto alla quale però tutte le coppie di elementi sarebbero formate da elementi non confrontabili, ed è quindi di piú complessa gestione 
