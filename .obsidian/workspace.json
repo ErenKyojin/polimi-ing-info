@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/Partizione.md",
+                "file": "Logica e algebra/Algebra/insieme quoziente.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/Partizione.md",
+                "file": "Logica e algebra/Algebra/insieme quoziente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/Partizione.md",
+                "file": "Logica e algebra/Algebra/insieme quoziente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Algebra/Partizione.md"
+                "file": "Logica e algebra/Algebra/insieme quoziente.md"
               }
             }
           },
@@ -199,9 +199,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e482e98321e71fe8",
+  "active": "8561ce0ca289d1bf",
   "lastOpenFiles": [
     "Logica e algebra/Algebra/Partizione.md",
+    "Logica e algebra/Algebra/insieme quoziente.md",
     "Geometria e algebra lineare/insieme.md",
     "ACSO/Sistemi operativi/kernel.md",
     "Geometria e algebra lineare/Base.md",
@@ -230,7 +231,6 @@
     "Geometria e algebra lineare/vettori.md",
     "Geometria e algebra lineare/versore.md",
     "Geometria e algebra lineare/trasformazione.md",
-    "Geometria e algebra lineare/teorema spettrale.md",
     "Geometria e algebra lineare/preamble.sty",
     "Geometria e algebra lineare",
     "Algoritmi e principi dell'informatica/Canvas/MT nastro singolo.canvas",
