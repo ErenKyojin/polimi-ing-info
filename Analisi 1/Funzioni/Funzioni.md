@@ -16,7 +16,7 @@ Ipotizziamo $x \in \mathbb R$ e $D \subseteq \mathbb R$, allora una funzione che
 - $\mathcal f = \left\lbrace y \in \mathbb R : \exists x \in D, y = f(x)\right\rbrace$
 - $f(D)$
 
-In particolare con l'ultima si indica l'insieme $f(D) = \{ f(a) | a \in D \}$, inoltre si utilizza $f^{-1}(b)$ per indicare l'insieme $\{ a \in D | f(a) = b \}$.
+In particolare con l'ultima si indica l'[[insieme]] $f(D) = \{ f(a) | a \in D \}$, inoltre si utilizza $f^{-1}(b)$ per indicare l'insieme $\{ a \in D | f(a) = b \}$.
 
 Ipotizziamo ora che esista un sottoinsieme  $T \subset D$
 $f \ |\ T \rightarrow \mathbb R \Longleftarrow$ Restrizione di $f$ a $T$, essendo $T$ un sottoinsieme di $D$, limitiamo la funzione in $T$
@@ -38,6 +38,9 @@ Se $\forall x \in D_f\quad f(x) = g(x)$ g è un prolungamento di $f$ al [[domini
 >$\Longrightarrow$ $g$ prolungamento di $f$
 
 $\exists$ inifiniti modi di prolungare una funzione.
+
+## funzioni come [[relazioni]]
+Se $A$ e $B$ sono insieme finiti e si considera la rappresentazione di $f$ tramite il suo grafo di incidenza
 
 ## Grafico della funzione
 
