@@ -198,10 +198,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f14bef597613144",
+  "active": "8561ce0ca289d1bf",
   "lastOpenFiles": [
-    "Logica e algebra/Algebra/Partizione.md",
+    "ACSO/Sistemi operativi/kernel.md",
     "Geometria e algebra lineare/insieme.md",
+    "Geometria e algebra lineare/Base.md",
+    "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
+    "Logica e algebra/Algebra/Partizione.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
     "Geometria e algebra lineare/Applicazioni lineari.md",
     "Geometria e algebra lineare/Algoritmo di Gram-schmidt.md",
@@ -227,9 +230,6 @@
     "Geometria e algebra lineare/versore.md",
     "Geometria e algebra lineare/trasformazione.md",
     "Geometria e algebra lineare/teorema spettrale.md",
-    "Geometria e algebra lineare/teorema di Rouchè Capelli.md",
-    "Geometria e algebra lineare/sviluppi di Laplace.md",
-    "Geometria e algebra lineare/spazio euclideo.md",
     "Geometria e algebra lineare/preamble.sty",
     "Geometria e algebra lineare",
     "Algoritmi e principi dell'informatica/Canvas/MT nastro singolo.canvas",

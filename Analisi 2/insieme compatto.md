@@ -1,1 +1,1 @@
-Insieme chiuso e limitato in $\mathbb{R}^2$
+[[Insieme]] chiuso e limitato in $\mathbb{R}^2$

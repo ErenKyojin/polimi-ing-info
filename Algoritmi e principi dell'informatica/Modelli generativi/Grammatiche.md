@@ -3,7 +3,7 @@ aliases: grammatica
 creation date: 2023-03-10 14:19
 modification date: 2023-03-10 14:19
 ---
-La grammatica è un [[Modelli generativi|modello generativo]], produce (o genera) stringhe. Generalmente parlando si puó definire come un insieme di regole per costruire frasi di un [[Linguaggio]], si applica in qualsiasi nozione di [[Linguaggio]] nel senso piú lato.
+La grammatica è un [[Modelli generativi|modello generativo]], produce (o genera) stringhe. Generalmente parlando si puó definire come un [[insieme]] di regole per costruire frasi di un [[Linguaggio]], si applica in qualsiasi nozione di [[Linguaggio]] nel senso piú lato.
 In modo sostanzialmente simile ai normali meccanismi linguistici, una grammatica formale genera stringhe di un linguaggio attraverso un processo di riscrittura.
 
 

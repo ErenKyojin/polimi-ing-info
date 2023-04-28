@@ -8,7 +8,7 @@ Se ho un algoritmo per risolvere il [[problema]] $P$ posso sfruttarlo per risolv
 
 
 >[!esempio]
->Se so risolvere il problema della ricerca di un elemento in un insieme posso risolvere il problema dell'[[Intersezione]]
+>Se so risolvere il problema della ricerca di un elemento in un [[insieme]] posso risolvere il problema dell'[[Intersezione]]
 
 
 

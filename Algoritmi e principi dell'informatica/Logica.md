@@ -111,7 +111,7 @@ MFO definisce i cosidetti linguaggi **star free** o **aperiodici**, definibili t
 # Logica monaica del secondo ordine (MSO)
 Per ottenere lo stesso potere espressivo degli [[Automa a stati finiti|FSA]] serve permettere di quantificare su predicati monadici
 - Logica del primo ordine, quantificazioni su posizioni:
-- Logica del secondo ordine, quantificazioni su insiemi di posizioni, dove un insieme di posizioni è codificato da un prediato monadico: $P(x)$ vuol  dire che $x$ è una posizione per cui vale $P(x)$
+- Logica del secondo ordine, quantificazioni su insiemi di posizioni, dove un [[insieme]] di posizioni è codificato da un prediato monadico: $P(x)$ vuol  dire che $x$ è una posizione per cui vale $P(x)$
 
 Ammettiamo quindi formule del tipo $\exists x(\varphi)$ dove $x$ è una variabile il cui dominio è l'[[Geometria e algebra lineare/insieme|insieme]] dei predicati monadici, per convenzione usiamo le lettere maiuscole per indicare variabili con [[Analisi 1/Funzioni/dominio|dominio]] l'[[Geometria e algebra lineare/insieme|insieme]] dei predicati monadici e lettere minuscole per indicare variabili sulle posizioni.
 
