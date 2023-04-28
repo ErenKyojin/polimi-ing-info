@@ -1,5 +1,5 @@
 ---
-aliases: <% tp.file.cursor(0) %>
+aliases: iniettiva, iniettività, iniettive
 creation date: 2023-04-28 15:46
 modification date: 2023-04-28 15:46
 ---
