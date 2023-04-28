@@ -5,7 +5,7 @@ Alias: funzione
 >[!def]
 >Una [[Relazioni|relazione]] $f \subseteq A \times B$ tale che per ogni $a \in A$ esiste uno ed un solo $b \in B$ tale che $(a,b) \in f$ si dice **funzione** (o **applicazione**) da $A$ a $B$
 
-Si usa la notazione $f : A \to B$ e l'unico elemento $b$ associato ad $a$ dalla relazione $f$ si indica con $f(a)$ e chiamato imma
+Si usa la notazione $f : A \to B$ e l'unico elemento $b$ associato ad $a$ dalla relazione $f$ si indica con $f(a)$ e chiamato immagine di $a$ mediante $f$, mentre l'elemento $a$ viene detto controimmagine di $b$. Sono utilizzate anche altre notazioni:
 
 Ipotizziamo $x \in \mathbb R$ e $D \subseteq \mathbb R$, allora una funzione che da $x$ manda ad $y$ si può indicare come:
 
@@ -16,6 +16,7 @@ Ipotizziamo $x \in \mathbb R$ e $D \subseteq \mathbb R$, allora una funzione che
 - $\mathcal f = \left\lbrace y \in \mathbb R : \exists x \in D, y = f(x)\right\rbrace$
 - $f(D)$
 
+In particolare con l'ultima si indica l
 Ipotizziamo ora che esista un sottoinsieme  $T \subset D$
 $f \ |\ T \rightarrow \mathbb R \Longleftarrow$ Restrizione di $f$ a $T$, essendo $T$ un sottoinsieme di $D$, limitiamo la funzione in $T$
 
