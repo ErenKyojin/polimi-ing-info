@@ -20,4 +20,4 @@
 > - Un insieme è infinito se e solo se può essere messo in corrispondenza biunivoca con un suo sottoinsieme proprio
 
 >[!def]
->Un insieme infinito ha la **potenza del numerabile se **
+>Un insieme infinito ha la **potenza del numerabile** se ha la stessa cardinalità di $\mathbb{N}$, ha la **potenza del continuo** se ha la stessa cardinalità di $\mathbb{R}$. Ricordiamo
