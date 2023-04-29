@@ -20,6 +20,6 @@ Sussistono i seguenti teorema:
 >Condizione necessaria e sufficiente affinchè $f$ ammetta inversa sinistra è che $f$ sia [[Funzione suriettiva|suriettiva]]  (la condizione sufficente utilizza il postulato della scelta)
 >
 >>[!dim]
->>Se $f$ ammette inversa sinistra $k$ allora $f$ è suriettiva in quanto $\imath_{B} = k \cdot f$ e $\imath_{B}$ è suriettiva. Viceversa se $f$ è suriettiva costruiamo una sua inversa sinistra come [[Relazioni|relazione]] contenuta nella relazione inversa di $f$. Infatti supponiamo di poter scegliere per ogni $b \in B$ nell'insieme delle controimmagini di $b$ un elemento $a_{b}$ e poniamo $k(b) = a_{b}$
+>>Se $f$ ammette inversa sinistra $k$ allora $f$ è suriettiva in quanto $\imath_{B} = k \cdot f$ e $\imath_{B}$ è suriettiva. Viceversa se $f$ è suriettiva costruiamo una sua inversa sinistra come [[Relazioni|relazione]] contenuta nella relazione inversa di $f$. Infatti supponiamo di poter scegliere per ogni $b \in B$ nell'insieme delle controimmagini di $b$ un elemento $a_{b}$ e poniamo $k(b) = a_{b}$. La $k$ è ovviamente una funzione ed è inversa sinistra perchè per ogni $b \in B$ si ha $k \cdot f(b) = f(k(b)) = f(a_{b}) = b$ cioè $k \cdot f = \imath_{B}$
 
 
