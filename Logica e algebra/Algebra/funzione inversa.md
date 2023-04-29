@@ -14,7 +14,7 @@ Sussistono i seguenti teorema:
 >Condizione necessaria e sufficiente affinchè $f$ ammetta inversa destra è che $f$ sia iniettiva.
 >
 >>[!dim]
->>Se $f$ ammette inversa destra $h$ allora $f$ è iniettiva in quanto $\imath_{A} =$
+>>Se $f$ ammette inversa destra $h$ allora $f$ è iniettiva in quanto $\imath_{A} = f \cdot h$
 
 
 
