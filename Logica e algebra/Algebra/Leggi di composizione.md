@@ -49,4 +49,5 @@ Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo 
 	- Se l'operazione $*$ è associativa ed $a$ ammette inverso sinistro $a^s$ ed inverso destro $a^d$ questi coincidono. Quindi se $*$ è associativa ed $a$ ammette inverso, questo è unico
 	- Se l'operazione $*$ è associativa ed $a$ ammette inverso, ogni equazione del tipo $a * x = b (b \in A)$ ammette uno ed una soluzione della forma $\bar{a} * b$
 	- Se l'operazione $*$ è associativa ed $a$ ammette inverso ogni equazione dle tipo $x * a = b (b \in A)$ ammette uno ed una soluzione della forma $b * \bar{a}$
-	- 
+	- Se l'operazione $*$ è associativa ed $a$ ammette inverso sinistro, $a * B = a * c$ implica $b = c$
+	- Se l'operazione $*$
