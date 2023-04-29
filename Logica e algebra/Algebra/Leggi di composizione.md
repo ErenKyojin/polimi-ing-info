@@ -19,7 +19,7 @@ Se $A$ è un insieme finito i risultati di una operazione binaria interna su $A$
 >- La differenza è un'operazione interna su $\mathbb{Z}$, ma non è un'operazione interna su $\mathbb{N}$ (perchè?)
 >- Il prodotto righe per colonne di [[matrici]] quadrate reai d'ordine $n$ è una legge di composizione interna binaria sull'insieme delle matrici quadrate reali di ordine $n$
 >- Dati $A = \{ a,b,c \}$ la seguente è un'operazione interna binaria su $A: a * a = b, a * b = c, a * c = a,b*a = a, b *b = b, b*c =c, c * a = b, c * b = a, c * c = a$ rappresentabile con la seguente tavola di copmosizione:
->  $$ \begin{array}{c|ccc}
+>  $$ \Large\begin{array}{c|ccc}
 > & a & b & c \\
 >\hline a & b & c & a \\
 >b & a & b & c \\
