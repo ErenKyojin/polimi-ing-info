@@ -4,3 +4,5 @@
 
 >[!def]
 >Diciamo che due insiemi $A$ e $B$ hanno la stessa cardinalità e scriviamo $|A| = |B|$ se esiste una corrispondenza biunivoca $f : A \to B$
+
+Diciamo che $A$ ha cardinalità inferiore a $B$ e scriviamo che $|A| \leq |B|$ se esiste un applicazione iniettiva da $A$ a $B$ (il che equivale a dire che )
