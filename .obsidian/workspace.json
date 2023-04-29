@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "funzioni inverse",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -185,7 +185,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fd5a7104086bfe35",
+  "active": "e482e98321e71fe8",
   "lastOpenFiles": [
     "Logica e algebra/Algebra/Funzione biunivoca.md",
     "Logica e algebra/Algebra/funzione inversa.md",
