@@ -19,4 +19,4 @@ Rappresentando la relazione $f$ tramite il suo [[grafo di incidenza]] (se possib
 - il prodotto di due funzioni suriettive è una funzione suriettiva
 - se il prodotto $f \cdot g$ delle funzioni $f$ e $g$ è suriettivo allora $g$ è suriettiva.
 
-La funzione $f$ può non
+La funzione $f$ può essere non suriettiva anche se $f \cdot g$ è suriettiva, basta infatti considerare il solito esempio:
