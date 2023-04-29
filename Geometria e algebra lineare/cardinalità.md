@@ -13,7 +13,11 @@
 > Diciamo che $A$ ha cardinalità strettamente inferiore a $B$ e scriviamo $|A| < |B|$ se $|A| \leq |B|$ m $|A| \neq |B|$ cioè se esiste una funzione iniettiva da $A$ a $B$ ma non esiste una funzione biunivoca da $A$ a $B$.
 
 > [!def]
-> Diciamo che l'insieme $A$ è finito ed ha cardinalità $n$ se ha la stessa cardinalità di $\{ 1,2,\dots,n \}$
+> Diciamo che l'insieme $A$ è **finito** ed ha cardinalità $n$ se ha la stessa cardinalità di $\{ 1,2,\dots,n \}$
 
-Diciamo che $A$ è infinito se non è finito, ovvero se non ha cardinalità $n$ per alcun $n$ intero positivo. Una caratterizzazione degli insiemi infiniti è la seguente:
-- Un insieme è infinito se e so
+> [!def]
+> Diciamo che $A$ è **infinito** se non è finito, ovvero se non ha cardinalità $n$ per alcun $n$ intero positivo. Una caratterizzazione degli insiemi infiniti è la seguente:
+> - Un insieme è infinito se e solo se può essere messo in corrispondenza biunivoca con un suo sottoinsieme proprio
+
+>[!def]
+>Un insieme infinito ha la **potenza del numerabile se **
