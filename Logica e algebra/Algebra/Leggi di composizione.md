@@ -14,4 +14,6 @@ modification date: 2023-04-29 15:44
 Se $A$ è un insieme finito i risultati di una operazione binaria interna su $A$ possono essere rappresentati tramite la tavola di composizione (detta spesso tavola di moltiplicazione) indicata di seguito con un esempio:
 
 >[!esempio]
->Il passaggio da un intero al suo opposto è una legge di composizione interna unaria in $\mathbb{Z}$ (perchè non lo è in $\mathbb{N}$)
+>- Il passaggio da un intero al suo opposto è una legge di composizione interna unaria in $\mathbb{Z}$ (perchè non lo è in $\mathbb{N}$?)
+>- La ordinaria somme è un'operazione interna binaria su $\mathbb{N}$, su $\mathbb{Z}$, su $\mathbb{Q}$,...
+>- La differenza è un'operazione interna su $\mathbb{Z}$, ma non è un'operazione interna su $N$
