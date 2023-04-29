@@ -47,4 +47,6 @@ Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo 
   Notiamo che se $a$ ammette inverso $\bar{a}$, l'inverso di $\bar{a}$ è $a$.
 	- Se l'operazione $*$ è associativa ed $a$ è invertibile, si possono definire in $A$ le potenze ad esponente intero di un qualunque $a \in A$. Abbiamo già visto come definirla se $n \geq 0$, se $n < 0$ poniamo $a^{(n)} = \bar{a} * \bar{a} * \dots \bar{a} (n$-volte). Continuano a sussistere le proprietà formali delle potenze
 	- Se l'operazione $*$ è associativa ed $a$ ammette inverso sinistro $a^s$ ed inverso destro $a^d$ questi coincidono. Quindi se $*$ è associativa ed $a$ ammette inverso, questo è unico
-	- Se l'operazione $*$ è associativa ed $a$ ammette inverso, ogni equazione del tipo $a *$
+	- Se l'operazione $*$ è associativa ed $a$ ammette inverso, ogni equazione del tipo $a * x = b (b \in A)$ ammette uno ed una soluzione della forma $\bar{a} * b$
+	- Se l'operazione $*$ è associativa ed $a$ ammette inverso ogni equazione dle tipo $x * a = b (b \in A)$ ammette uno ed una soluzione della forma $b * \bar{a}$
+	- 
