@@ -5,7 +5,7 @@ modification date: 2023-04-29 15:44
 ---
 
 > [!def]
-> Dati gli insiemi $A_{1},A_{2},\dots ,A_{n},A$ una funzione $\omega : A_{1} \times A_{2} \times \dots A_{n} \to A$ si dice **legge di composizione $n$-aria** (o di arità $n$) di $A_{1},A_{2},\dots,A_{n}$ a valori in $A$. Per ogni $(a_{1},a_{2},\dots,a_{n}) \in A_{1} \times A_{2} \times \dots \times A_{n}$ l'elemento $a = \omega(a_{1},a_{2},\dots,a_{n})$ (che esiste ed è unico) è detto il risultato della composizione $\omega$ della $n$-upla ($a_{1},a_{2},\dots,a_{n}$).
+> Dati gli [[insieme|insiemi]] $A_{1},A_{2},\dots ,A_{n},A$ una [[Funzioni|funzione]] $\omega : A_{1} \times A_{2} \times \dots A_{n} \to A$ si dice **legge di composizione $n$-aria** (o di arità $n$) di $A_{1},A_{2},\dots,A_{n}$ a valori in $A$. Per ogni $(a_{1},a_{2},\dots,a_{n}) \in A_{1} \times A_{2} \times \dots \times A_{n}$ l'elemento $a = \omega(a_{1},a_{2},\dots,a_{n})$ (che esiste ed è unico) è detto il risultato della composizione $\omega$ della $n$-upla ($a_{1},a_{2},\dots,a_{n}$).
 
 > [!def]
 > Se $A_{1} = A_{2} = \dots = A_{n} = A$ diremo che $\omega$ è una **legge di composizione** (o **operazione**) **interna $n$-aria** (o di arità $n$) su $A$.
@@ -16,4 +16,6 @@ Se $A$ è un insieme finito i risultati di una operazione binaria interna su $A$
 >[!esempio]
 >- Il passaggio da un intero al suo opposto è una legge di composizione interna unaria in $\mathbb{Z}$ (perchè non lo è in $\mathbb{N}$?)
 >- La ordinaria somme è un'operazione interna binaria su $\mathbb{N}$, su $\mathbb{Z}$, su $\mathbb{Q}$,...
->- La differenza è un'operazione interna su $\mathbb{Z}$, ma non è un'operazione interna su $N$
+>- La differenza è un'operazione interna su $\mathbb{Z}$, ma non è un'operazione interna su $\mathbb{N}$ (perchè?)
+>- Il prodotto righe per colonne di [[matrici]] quadrate reai d'ordine $n$ è una legge di composizione interna binaria sull'insieme delle matrici quadrate reali di ordine $n$
+>- Dati $A = \{ a,b,c \}$ la seguente è u
