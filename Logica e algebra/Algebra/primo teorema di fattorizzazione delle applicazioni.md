@@ -17,9 +17,11 @@ Siano $f : A \to B$ una funzione e $h_{\ker(f)} : A \to A / \ker(f)$ la proiezio
 
 \node (a) at (0,0) {A};
 \node (b) at (4,0) {B};
-\node (Aker) at (0,-2){$A / \ker (f)$};
+\node (aker) at (0,-2.5){$A / \ker (f)$};
 
-\draw[-latex] (a) -- (b)
+\draw[-latex] (a) -- (b) node[midway,above]{$f$};
+\draw[-latex] (a) -- (aker) node[midway,left]{$h_{\ker}$};
+\draw[-latex] (aker) -- (b);
 \end{tikzpicture}
 \end{document}
 ```
