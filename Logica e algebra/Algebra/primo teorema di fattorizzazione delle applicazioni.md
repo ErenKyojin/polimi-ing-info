@@ -35,5 +35,4 @@ Osserviamo che come conseguenza del teorema di fattorizzazione si ottiene che $f
 Inoltre il teorema dice che una qualsiasi funzione $f$ può essere pensata come il prodotto di una funzione suriettiva per una funzione iniettiva
 
 >[!oss]
->Nel corso di GAL la nozione di [[kernel]] di un applocazione lineare $f$ da uno [[spazio vettoriale]] $V$ ad uno spazio vettoriale $V'$
-
+>	Nel corso di GAL la nozione di [[kernel]] di un applicazione lineare $f$ da uno [[spazio vettoriale]] $V$ ad uno spazio vettoriale $V'$ . In tal caso il $\ker f$ è l'insieme delle controimmagini dello 0 di $V'$. La deifnizone può sembrare molto diversa ma possiamo notare che $(v_{1},v_{2}) \in \ker (f)$ sec
