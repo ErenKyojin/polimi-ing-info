@@ -31,5 +31,9 @@ Inoltre $g$ è iniettiva ed è biunivoca se e solo se $f$ è suriettiva.
 >Dire che un diagramma è commutativo significa che comunque comunque ci muoviamo lungo le direzioni permesse da quel diagramma, quando arriviamo allo stesso punto otteniamo lo stesso risultato
 
 
-Osserviamo che come conseguenza del teorema di fattorizzazione si ottiene che $f(A)$ è in corrispondenza biunivoca con $A / \ker(f)$
+Osserviamo che come conseguenza del teorema di fattorizzazione si ottiene che $f(A)$ è in corrispondenza biunivoca con $A / \ker(f)$.
+Inoltre il teorema dice che una qualsiasi funzione $f$ può essere pensata come il prodotto di una funzione suriettiva per una funzione iniettiva
+
+>[!oss]
+>Nel corso di GAL la nozione di [[kernel]]
 
