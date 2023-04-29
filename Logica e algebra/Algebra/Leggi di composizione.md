@@ -45,4 +45,4 @@ Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo 
 	Sulla tavola di composizione di $*$ se è possibile farla, si possono facilmente identificare zeri destri e sinistri
 - Se esiste in $A$ un elemento neutro rispetto all'operazione $*$, diciamo che $a \in A$ ammette inverso (è invertibile) rispetto all'operazione $*$ se esiste un $\bar{a} \in A$ tale che $\bar{a} * a = a * \bar{a} = e$. Se si ha solo $\bar{a} * a = e, \bar{a}$ si dice elemento inverso a sinistra di $a$, se invece si ha solo $a * \bar{a} = e$, $\bar{a}$ si dice inverso a destra di $a$.
   Notiamo che se $a$ ammette inverso $\bar{a}$, l'inverso di $\bar{a}$ è $a$.
-	- Se 
+	- Se l'operazione $*$ è associativa ed $a$ è invertibile, si possono definire in $A$ le potenze ad esponente intero di un qualunque $a \in A$. Abbiamo già visto come definirla se $n \geq 0$, se $n < 0$ poniamo $a^{(n)} = \bar{a} * \bar{a} * \dots \bar{a} (n$-volte). Continu 
