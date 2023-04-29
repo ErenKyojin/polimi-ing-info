@@ -26,5 +26,7 @@ Sussistono i seguenti teorema:
 >Se una funzione $f$ ammette inversa sinistra e destra queste coincidono
 >
 >>[!dim]
->>Siano $h,k$ funzioni tali che $f \cdot h = \imath_{A}$ e $k \cdot f = \imath_{B}$. Abbiamo allora $k = k \cdot \imath_{A} = k \cdot (f \cdot h)$
+>>Siano $h,k$ funzioni tali che $f \cdot h = \imath_{A}$ e $k \cdot f = \imath_{B}$. Abbiamo allora $k = k \cdot \imath_{A} = k \cdot (f \cdot h) = (k \cdot f) \cdot h = \imath_{B} \cdot h = h$
 
+>[!teorema]
+>Una funzione $f$ ammette funzione inversa (sinistra e destra) se e solo se è biunivoca, in tal caso l'inversa è unica e coincide con la re
