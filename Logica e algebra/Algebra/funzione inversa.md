@@ -37,4 +37,4 @@ Sussistono i seguenti teorema:
 Dalla costruizione delle inverse destre e sinistra indicata nella dimostrazione, segue che se $f$ ammette solo inversa sinistra o sole inversa destra queste non sono uniche
 
 >[!esempio]
->Siano $A = \{ a_{1},a_{2},a_{3} \}, B = \{ b_{1},b_{2},b_{3} \}$
+>Siano $A = \{ a_{1},a_{2},a_{3} \}, B = \{ b_{1},b_{2},b_{3},b_{4},b_{5} \}, f : A \to B$
