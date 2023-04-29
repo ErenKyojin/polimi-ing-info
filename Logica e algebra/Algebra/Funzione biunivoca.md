@@ -14,4 +14,8 @@ Rappresentando la $f$ tramite la sua [[matrice di incidenza]] (se possibile), si
 
 Rappresentando la $f$ tramite il suo [[grafo di incidenza]] (se possibile), si ha che $f$ è una funzione biunivoca se e solo se da ogni vertice che rappresenta un elemento di $A$ esce uno ed un solo arco e ad ogni vertice che rappresenta un elemento di $B$ arriva uno ed un solo arco
 
-È imm
+È immediato provare che
+- Il prodotto di due funzioni biunivoche è una funzione biunivoca
+- Se il prodotto $f \cdot g$ delle funzioni $f$ e $g$ è una funzione biunivoca allora $f$ è iniettiva e $g$ è suriettiva
+
+Osserviamo ora che la relazione inversa $f^{-1}$
