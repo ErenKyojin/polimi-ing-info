@@ -17,6 +17,9 @@ Sussistono i seguenti teorema:
 >>Se $f$ ammette inversa destra $h$ allora $f$ è iniettiva in quanto $\imath_{A} = f \cdot h$ e $\imath_{A}$ è iniettiva. Viceversa se $f$ è iniettiva costruiamo una sua inversa destra ampliando la drelazione inversa di $f$. Infatti per ogni $b \in B$, se $b$ ammette una contrimmagine, che indichiamo con $a_{b}$, poniamo $h(b) = a_{b}$, mentre se $b$ non ha controimmagini allora poniamo $h(b) = a$ per un fissato elemento di $a \in A$. La $h$ è ovviamente una funzione ed è inversa destra di $f$, infatti per ogni $x \in A$ si ha $f \cdot h(x) = h(f(x)) = x$, quindi $f \cdot h = \imath_{A}$
 
 >[!teorema]
->Condizione necessaria e sufficiente affinchè $f$ ammetta inversa sinistra è che $f$ sia [[Funzione suriettiva|suriettiva]] 
+>Condizione necessaria e sufficiente affinchè $f$ ammetta inversa sinistra è che $f$ sia [[Funzione suriettiva|suriettiva]]  (la condizione sufficente utilizza il postulato della scelta)
+>
+>>[!dim]
+>>Se
 
 
