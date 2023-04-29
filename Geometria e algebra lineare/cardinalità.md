@@ -20,4 +20,6 @@
 > - Un insieme è infinito se e solo se può essere messo in corrispondenza biunivoca con un suo sottoinsieme proprio
 
 >[!def]
->Un insieme infinito ha la **potenza del numerabile** se ha la stessa cardinalità di $\mathbb{N}$, ha la **potenza del continuo** se ha la stessa cardinalità di $\mathbb{R}$. Ricordiamo
+>Un insieme infinito ha la **potenza del numerabile** se ha la stessa cardinalità di $\mathbb{N}$, ha la **potenza del continuo** se ha la stessa cardinalità di $\mathbb{R}$. Ricordiamo che $\mathbb{Z}$ e $\mathbb{Q}$ sono numerabili.
+
+Esistono insiemi con cardinalità superiore alla potenza del continuo? La risposta è data dal [[Teorema di cantor]]

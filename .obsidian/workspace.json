@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Geometria e algebra lineare/cardinalità.md",
+                "file": "Logica e algebra/Algebra/Teorema di cantor.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -75,7 +75,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Geometria e algebra lineare/cardinalità.md",
+                "file": "Logica e algebra/Algebra/Teorema di cantor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Geometria e algebra lineare/cardinalità.md",
+                "file": "Logica e algebra/Algebra/Teorema di cantor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Geometria e algebra lineare/cardinalità.md"
+                "file": "Logica e algebra/Algebra/Teorema di cantor.md"
               }
             }
           },
@@ -185,8 +185,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e482e98321e71fe8",
+  "active": "0bc8565c7d011c80",
   "lastOpenFiles": [
+    "Geometria e algebra lineare/cardinalità.md",
+    "Logica e algebra/Algebra/Teorema di cantor.md",
     "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
     "Logica e algebra/Algebra/Relazioni permutabili.md",
@@ -196,7 +198,6 @@
     "Logica e algebra/Algebra/Funzione suriettiva.md",
     "Geometria e algebra lineare/Untitled.md",
     "Logica e algebra/Algebra/Cardinalità.md",
-    "Geometria e algebra lineare/cardinalità.md",
     "Analisi 1/Funzioni/Funzioni.md",
     "Geometria e algebra lineare/relazione di equivalenza.md",
     "Logica e algebra/Algebra/insieme quoziente.md",
@@ -212,7 +213,6 @@
     "Logica e algebra/Algebra/Partizione.md",
     "Geometria e algebra lineare/Applicazioni lineari.md",
     "Geometria e algebra lineare/insieme.md",
-    "ACSO/Sistemi operativi/kernel.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",
