@@ -28,5 +28,8 @@ Siano $f : A \to B$ una funzione e $h_{\ker(f)} : A \to A / \ker(f)$ la proiezio
 Inoltre $g$ è iniettiva ed è biunivoca se e solo se $f$ è suriettiva.
 
 >[!oss]
->Dire che un diagramma è commutativo significa che comunque 
+>Dire che un diagramma è commutativo significa che comunque comunque ci muoviamo lungo le direzioni permesse da quel diagramma, quando arriviamo allo stesso punto otteniamo lo stesso risultato
+
+
+Osserviamo ch
 
