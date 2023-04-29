@@ -43,4 +43,6 @@ Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo 
 - Esiste uno zero in $A$ rispetto all'operazione $*$ se esiste uno $z \in A$ tale che per ogni $a \in A$ risulta $z * a = a * z = z$. Se si ha solo $z * a = z$, per ogni $a \in A$, $z$ si dice zero a sinistra, se invece si ha solo $a * z =z$, per ogni $a \in A,z$ si dice zero a destra
 	- Se in $A$ esistono zero a destra e zero a sinistra rispetto all'operazione $*$, questi coincidono. Di conseguenza se $A$ ammette zero, tale zero è unico
 	Sulla tavola di composizione di $*$ se è possibile farla, si possono facilmente identificare zeri destri e sinistri
-- Se esiste in $A$ un elemento neutro rispetto all'operazione $*$, diciamo che $a \in A$ ammette inverso (è invertibile) rispetto all'operazione $*$ se esiste un $\bar{a} \in A$ tale che $\bar{a} * a = a * \bar{a} = e$. Se si ha solo $\bar{a} * a = e,$
+- Se esiste in $A$ un elemento neutro rispetto all'operazione $*$, diciamo che $a \in A$ ammette inverso (è invertibile) rispetto all'operazione $*$ se esiste un $\bar{a} \in A$ tale che $\bar{a} * a = a * \bar{a} = e$. Se si ha solo $\bar{a} * a = e, \bar{a}$ si dice elemento inverso a sinistra di $a$, se invece si ha solo $a * \bar{a} = e$, $\bar{a}$ si dice inverso a destra di $a$.
+  Notiamo che se $a$ ammette inverso $\bar{a}$, l'inverso di $\bar{a}$ è $a$.
+	- Se 
