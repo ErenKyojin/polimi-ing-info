@@ -9,6 +9,15 @@ modification date: 2023-04-29 15:05
 
 
 Questo teorema viene di solito enunciato cosi:
-Siano $f : A \to B$ una funzione e $h_{\ker(f)} : A \to A \frac{;}{}$
+Siano $f : A \to B$ una funzione e $h_{\ker(f)} : A \to A / \ker(f)$ la proiezione canonica di $A$ su $A / \ker(f)$. Allora esiste un unica funzione $g : A / \ker(f) \to B$ che rende commutativo il seguente diagramma
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node (a) at (0,0);
+\node (b) at (4,0) {B}
+\end{tikzpicture}
+\end{document}
+```
 
 
