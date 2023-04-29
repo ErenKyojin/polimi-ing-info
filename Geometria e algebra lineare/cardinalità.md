@@ -9,6 +9,11 @@
 > Diciamo che $A$ ha **cardinalità inferiore** a $B$ e scriviamo che $|A| \leq |B|$ se esiste un applicazione [[Funzione iniettiva|iniettiva]] da $A$ a $B$ (il che equivale a dire che $A$ è in corrispondenza biunivoca con un sottoinsieme di $B$)
 > 
 
-Diciamo che $A$ ha cardinalità strettamente inferiore a $B$ e scriviamo $|A| < |B|$ se $|A| \leq |B|$ m $|A| \neq |B|$ cioè se esiste una funzione iniettiva da $A$ a $B$ ma non esiste una funzione biunivoca da $A$ a $B$.
+> [!def]
+> Diciamo che $A$ ha cardinalità strettamente inferiore a $B$ e scriviamo $|A| < |B|$ se $|A| \leq |B|$ m $|A| \neq |B|$ cioè se esiste una funzione iniettiva da $A$ a $B$ ma non esiste una funzione biunivoca da $A$ a $B$.
 
-Diciamo che l'insieme $A$ è finito ed ha cardinalità $n$ se ha la ste
+> [!def]
+> Diciamo che l'insieme $A$ è finito ed ha cardinalità $n$ se ha la stessa cardinalità di $\{ 1,2,\dots,n \}$
+
+Diciamo che $A$ è infinito se non è finito, ovvero se non ha cardinalità $n$ per alcun $n$ intero positivo. Una caratterizzazione degli insiemi infiniti è la seguente:
+- Un insieme è infinito se e so
