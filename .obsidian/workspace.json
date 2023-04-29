@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "5574ddbfc91437a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logica e algebra/Algebra/Leggi di composizione.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "52a2a737e2be402e",
             "type": "leaf",
             "state": {
@@ -46,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/Teorema di cantor.md",
+                "file": "Logica e algebra/Algebra/Leggi di composizione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/Teorema di cantor.md",
+                "file": "Logica e algebra/Algebra/Leggi di composizione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Algebra/Teorema di cantor.md"
+                "file": "Logica e algebra/Algebra/Leggi di composizione.md"
               }
             }
           },
@@ -185,10 +199,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0bc8565c7d011c80",
+  "active": "5574ddbfc91437a3",
   "lastOpenFiles": [
-    "Geometria e algebra lineare/cardinalità.md",
     "Logica e algebra/Algebra/Teorema di cantor.md",
+    "Logica e algebra/Algebra/Leggi di composizione.md",
+    "Geometria e algebra lineare/cardinalità.md",
     "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
     "Logica e algebra/Algebra/Relazioni permutabili.md",
@@ -212,7 +227,6 @@
     "Geometria e algebra lineare/Relazione.md",
     "Logica e algebra/Algebra/Partizione.md",
     "Geometria e algebra lineare/Applicazioni lineari.md",
-    "Geometria e algebra lineare/insieme.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",
