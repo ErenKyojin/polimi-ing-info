@@ -25,3 +25,6 @@ Se $A$ è un insieme finito i risultati di una operazione binaria interna su $A$
 >b & a & b & c \\
 >c & b & a & a
 >\end{array} $$
+
+
+Introduciamo alcune proprietà delle operazioni binarie interne su $A$ 
