@@ -54,7 +54,7 @@ Siano $D \subseteq \mathbb{R}^2$ è una regione semplice $f : D \to \mathbb{R}$ 
 
 >[!oss]
 >Le regioni semplici per come le abbiamo definite sono chiuse e limitate, $f$ è continua, quindi per il [[teorema di Weierstrass]] $f$ è limitata su $D$
->- è possibile costruire una funzione limitata non continua non integrabile simile alla funzione di Dirichlet
+>- è possibile costruire una [[Funzioni|funzione]] limitata non continua non integrabile simile alla funzione di Dirichlet
 
 
 >[!oss]

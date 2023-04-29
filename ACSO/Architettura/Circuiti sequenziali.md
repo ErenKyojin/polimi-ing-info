@@ -8,7 +8,7 @@ Un circuito digitale sequenziale è dotato in ogni istante di:
 - ingressi
 - stato prossimo (determinato dagli ingressi e dallo stato presente)
 
-Le funzioni elementari per i circuiti sequenziali sono i 
+Le [[funzioni]] elementari per i circuiti sequenziali sono i 
 
 
 Un circuito digitale sequenziale è formato da:

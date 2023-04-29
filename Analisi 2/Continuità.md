@@ -5,7 +5,7 @@
 
 
 >[!oss]
->Tutte le funzioni elementari sono continue sul loro dominio di definizione $\implies$ dovremo verificare la continuità per definizione solo tramite le funzioni definite per casi
+>Tutte le [[funzioni]] elementari sono continue sul loro dominio di definizione $\implies$ dovremo verificare la continuità per definizione solo tramite le funzioni definite per casi
 
 
 

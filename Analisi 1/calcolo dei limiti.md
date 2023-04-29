@@ -24,7 +24,7 @@ Approfondiamo proprietà fondamentali dei limiti e della continuità, verrà spe
 >[!teorema] Teorema di permanenza del segno, seconda forma
 >Se per $x\to c$, $f(x)\to l$ e $f(x) \geq 0$ definitivamente per $x \to c$, allora $l \geq 0$
 
->[!teorema] Teorema di permanenza del segno per funzioni continue
+>[!teorema] Teorema di permanenza del segno per [[funzioni]] continue
 >Se $f$ è continua in $c$ e $f(c)>0$, allora $f(x)>0$ definitivamente per $x \to c$
 >
 

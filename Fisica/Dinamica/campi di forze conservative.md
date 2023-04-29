@@ -31,7 +31,7 @@ modification date: 2023-03-26 16:56
 >$$ \mathcal{L}_{A\to A} = \oint \mathrm{d}\mathcal{L} = 0 $$
 
 ### Condizione affinchè un campo sia conservativo
-Abbiamo già osservato che un campo è conservativo (quindi ammette energia potenziale(se e solo se il lavoro elementare può essere scritto come il differenziale di una funzione scalare, che è poi proprio l'[[energia potenziale]] cambiata di segno, cioè:
+Abbiamo già osservato che un campo è conservativo (quindi ammette energia potenziale(se e solo se il lavoro elementare può essere scritto come il differenziale di una [[Funzioni|funzione]] scalare, che è poi proprio l'[[energia potenziale]] cambiata di segno, cioè:
 $$
 d\mathcal{L} = F_{x}dx + F_{y}dy + F_{z}dz = -dE_{p}
 $$

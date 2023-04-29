@@ -24,7 +24,7 @@ Quindi l'insieme ordinato $\{\mathbf{b_{1},\dots,\mathbf{b_{n}}}\} \subseteq V$ 
 t_{n}
 \end{bmatrix} &\mapsto t_{1}\mathbf{b_{1}} + \ldots + t_{n}\mathbf{b_{n}}
  \end{align} $$
- Poichè $\mathbf{B}$ soddisfa le proprietà 1. e 2., $\mathcal{P}$ è [[Funzione suriettiva|suriettiva]] ed [[Funzione iniettiva|iniettiva]], quindi $\mathcal{P}$ ammette funzione inversa $\mathcal{P}^{-1}$ che indicheremo con $x_{\mathbf{B}} : V \to \mathbb{K}^n$. Tale funzione è lineare, essendo l'inversa di una funzione lineare, ed associa ad ogni vettore $\mathbf{v}$ la $n$-upla delle sue componenti rispetto alla base $\mathbf{B}$
+ Poichè $\mathbf{B}$ soddisfa le proprietà 1. e 2., $\mathcal{P}$ è [[Funzione suriettiva|suriettiva]] ed [[Funzione iniettiva|iniettiva]], quindi $\mathcal{P}$ ammette [[Funzioni|funzione]] inversa $\mathcal{P}^{-1}$ che indicheremo con $x_{\mathbf{B}} : V \to \mathbb{K}^n$. Tale funzione è lineare, essendo l'inversa di una funzione lineare, ed associa ad ogni vettore $\mathbf{v}$ la $n$-upla delle sue componenti rispetto alla base $\mathbf{B}$
 >$$ \begin{align}
 > x_{B} : &V \to \mathbb{K}^n \\
 > &\mathbf{v} \mapsto x_{\mathbf{B}}(\mathbf{v}) = \begin{bmatrix}
