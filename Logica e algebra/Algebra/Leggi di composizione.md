@@ -35,4 +35,6 @@ Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo 
   Infatti tale tavola risulterà simmetrica rispetto alla diagonale che parte dal vertice in alto a sinitra.
 - L'operazione $*$ è associativa se per ogni $a,a',a'' \in A$ si ha $a * (a' * a'') = (a*a') * a''$.
   Se l'operazione $*$ è assicuatuva possiamo definire le potenze ad esponenti positivi di un qualsiasi elmento $a \in A$, ponendo $a^{(n)} = a * a * \dots * a$ ($n$ volte) e le potenze godono delle proprietà formali $a^{(n)} * a^{(m)} = a^{(n + m)}, (a^{(n)})^{(m)}=a^{n \cdot m}$. (l'associatività non è necessaria per definire le potenze ma lo è per definirne le proprietà)
-- Esiste un elmentro neutro (identità) in $A$ rispetto all'operazione $*$ se esiste un $e \in A$ tale che per ogni $a \in A$ risulta $e * a = a * e = a$. Se si ha solo $e * a = a$, per ogni $a \in A$, $e$ si dice element
+- Esiste un elmentro neutro (identità) in $A$ rispetto all'operazione $*$ se esiste un $e \in A$ tale che per ogni $a \in A$ risulta $e * a = a * e = a$. Se si ha solo $e * a = a$, per ogni $a \in A$, $e$ si dice elemento neutro a sinistra, se invece si ha solo $a * e= a$, per ogni $a \in A$, $e$ si dice elemento neutro a destra
+	- Se esiste l'elemento neutro si può definire in $A$ la potenza ad esponente $0$ di un  qualunque $a \in A$, ponendo $a^{(0)} = e$
+	- Se in $A$ esistono elemento neutro a destra ed elemento neutro a sinistra rispetto all'operazione $*$ questi coincidono
