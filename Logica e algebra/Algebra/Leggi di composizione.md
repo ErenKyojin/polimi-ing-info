@@ -35,4 +35,4 @@ Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo 
   Infatti tale tavola risulterà simmetrica rispetto alla diagonale che parte dal vertice in alto a sinitra.
 - L'operazione $*$ è associativa se per ogni $a,a',a'' \in A$ si ha $a * (a' * a'') = (a*a') * a''$.
   Se l'operazione $*$ è assicuatuva possiamo definire le potenze ad esponenti positivi di un qualsiasi elmento $a \in A$, ponendo $a^{(n)} = a * a * \dots * a$ ($n$ volte) e le potenze godono delle proprietà formali $a^{(n)} * a^{(m)} = a^{(n + m)}, (a^{(n)})^{(m)}=a^{n \cdot m}$. (l'associatività non è necessaria per definire le potenze ma lo è per definirne le proprietà)
-- esiste
+- Esiste un elmentro neutro (identità) in $A$ rispetto all'operazione $*$ se esiste un $e \in A$ tale che per ogni $a \in A$ risulta $e * a = a * e = a$. Se si ha solo $e * a = a$, per ogni $a \in A$, $e$ si dice element
