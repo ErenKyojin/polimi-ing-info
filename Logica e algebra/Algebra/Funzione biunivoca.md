@@ -18,4 +18,4 @@ Rappresentando la $f$ tramite il suo [[grafo di incidenza]] (se possibile), si h
 - Il prodotto di due funzioni biunivoche è una funzione biunivoca
 - Se il prodotto $f \cdot g$ delle funzioni $f$ e $g$ è una funzione biunivoca allora $f$ è iniettiva e $g$ è suriettiva
 
-Osserviamo ora che la relazione inversa $f^{-1}$
+Osserviamo ora che la relazione inversa $f^{-1}$ di una funzione $f : A \to B$ è una funzione se e solo se $f$ è biunivoca ed in tal caso si ha $f \cdot f^{-1} = \imath_{A}$ e $f^{-1}$
