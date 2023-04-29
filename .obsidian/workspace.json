@@ -75,6 +75,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -123,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md"
+              }
             }
           },
           {
@@ -180,23 +184,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0b8307b5dc1882a6",
+  "active": "0bc8565c7d011c80",
   "lastOpenFiles": [
+    "Logica e algebra/Algebra/relazioni binarie.md",
+    "Logica e algebra/Algebra/Relazioni permutabili.md",
+    "Logica e algebra/Algebra/Funzione biunivoca.md",
+    "Logica e algebra/Algebra/Funzione iniettiva.md",
+    "Logica e algebra/Algebra/funzione inversa.md",
+    "Logica e algebra/Algebra/Funzione suriettiva.md",
+    "Geometria e algebra lineare/Untitled.md",
     "Logica e algebra/Algebra/Cardinalità.md",
     "Geometria e algebra lineare/cardinalità.md",
     "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
     "Analisi 1/Funzioni/Funzioni.md",
     "Geometria e algebra lineare/relazione di equivalenza.md",
-    "Logica e algebra/Algebra/funzione inversa.md",
-    "Logica e algebra/Algebra/Funzione biunivoca.md",
-    "Logica e algebra/Algebra/Funzione suriettiva.md",
     "Logica e algebra/Algebra/insieme quoziente.md",
-    "Logica e algebra/Algebra/Funzione iniettiva.md",
     "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra/relazione d'ordine.md",
     "Logica e algebra/Algebra/reticolo.md",
     "Logica e algebra/Algebra/diagramma di Hasse.md",
-    "Logica e algebra/Algebra/relazioni binarie.md",
     "Logica e algebra/Algebra/grafo di incidenza.md",
     "Logica e algebra/Algebra/insiemi parzialmente ordinati.md",
     "Geometria e algebra lineare/classi di equivalenza.md",
@@ -206,8 +212,6 @@
     "Geometria e algebra lineare/Applicazioni lineari.md",
     "Geometria e algebra lineare/insieme.md",
     "ACSO/Sistemi operativi/kernel.md",
-    "Geometria e algebra lineare/Base.md",
-    "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",
