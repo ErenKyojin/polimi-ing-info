@@ -11,4 +11,4 @@ modification date: 2023-04-28 12:51
 
 Per verificare che una [[Relazioni|relazione]] $f$ è una funzione suriettiva va anche verificata la condizione
 
-
+Rappresentando la relazione $f$ tramite la sua matrice di incidenza (se possibile) si ha che $f$ è una funzione suriettiva se e solo se ogni riga della matrice c'è uno ed un solo $1$ s
