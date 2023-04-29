@@ -27,4 +27,4 @@ Se $A$ è un insieme finito i risultati di una operazione binaria interna su $A$
 >\end{array} $$
 
 
-Introduciamo alcune proprietà delle operazioni binarie interne su $A$ 
+Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo attenzione sul genere di calcoli che la preenza di questa proprietà rendono leciti
