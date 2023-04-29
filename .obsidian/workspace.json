@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
+                "file": "Geometria e algebra lineare/cardinalità.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -75,7 +75,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
+                "file": "Geometria e algebra lineare/cardinalità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
+                "file": "Geometria e algebra lineare/cardinalità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md"
+                "file": "Geometria e algebra lineare/cardinalità.md"
               }
             }
           },
@@ -186,6 +186,7 @@
   },
   "active": "0bc8565c7d011c80",
   "lastOpenFiles": [
+    "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
     "Logica e algebra/Algebra/Relazioni permutabili.md",
     "Logica e algebra/Algebra/Funzione biunivoca.md",
@@ -195,7 +196,6 @@
     "Geometria e algebra lineare/Untitled.md",
     "Logica e algebra/Algebra/Cardinalità.md",
     "Geometria e algebra lineare/cardinalità.md",
-    "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
     "Analisi 1/Funzioni/Funzioni.md",
     "Geometria e algebra lineare/relazione di equivalenza.md",
     "Logica e algebra/Algebra/insieme quoziente.md",
