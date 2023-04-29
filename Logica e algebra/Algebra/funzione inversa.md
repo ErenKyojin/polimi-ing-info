@@ -29,4 +29,12 @@ Sussistono i seguenti teorema:
 >>Siano $h,k$ funzioni tali che $f \cdot h = \imath_{A}$ e $k \cdot f = \imath_{B}$. Abbiamo allora $k = k \cdot \imath_{A} = k \cdot (f \cdot h) = (k \cdot f) \cdot h = \imath_{B} \cdot h = h$
 
 >[!teorema]
->Una funzione $f$ ammette funzione inversa (sinistra e destra) se e solo se è biunivoca, in tal caso l'inversa è unica e coincide con la re
+>Una funzione $f$ ammette funzione inversa (sinistra e destra) se e solo se è biunivoca, in tal caso l'inversa è unica e coincide con la relazione inversa di $f$
+>
+>>[!dim]
+>>conseguenza immediata del teorema sopra
+
+Dalla costruizione delle inverse destre e sinistra indicata nella dimostrazione, segue che se $f$ ammette solo inversa sinistra o sole inversa destra queste non sono uniche
+
+>[!esempio]
+>Siano $A = \{ a_{1},a_{2},a_{3} \}, B = \{ b_{1},b_{2},b_{3} \}$
