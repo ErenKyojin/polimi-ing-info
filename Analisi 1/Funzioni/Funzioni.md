@@ -87,4 +87,6 @@ Osserviamo invece che la [[relazione inversa]] $f^{-1}$ di una funzione non è i
 
 
 ## Funzioni e [[relazione di equivalenza|relazioni di equivalenza]]
-Sia $f : A \to B$ una funzione. L'insieme $\{ f^{-1}(b) | b \in B \}$ deg;o oms
+Sia $f : A \to B$ una funzione. L'insieme $\{ f^{-1}(b) | b \in B \}$ degli insiemi delle controimmagini degli elementi di $B$ è una partizione di $A$ e quindi è l'insieme delle classi di equivalenza di una relazione di equivalenza su $A$  che chiamiamo $\ker(f)$.
+
+È facile notare che $\ker(f)$ è definita da $(a_{1},a_{2}) \in \ker(f)$ sse $f(a_{1}) = f(a_{2})$
