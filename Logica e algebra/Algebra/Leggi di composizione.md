@@ -33,4 +33,5 @@ Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo 
 - L'operazione $*$ è commutativa se per ogni $a,a' \in A$ si ha $a * a' = a' * a$
   La commutatività di $*$ appare evidente dalla sua tavola di composizione (se si può fare).
   Infatti tale tavola risulterà simmetrica rispetto alla diagonale che parte dal vertice in alto a sinitra.
-- L'operazione $*$ è associativa se per ogni $a,a',a'' \in A$ si ha $a * (a' * a'') = (a*a$
+- L'operazione $*$ è associativa se per ogni $a,a',a'' \in A$ si ha $a * (a' * a'') = (a*a') * a''$.
+  Se l'operazione $*$ è assicuatuva possiamo definire le potenze ad esponenti positivi di qu
