@@ -35,5 +35,5 @@ Osserviamo che come conseguenza del teorema di fattorizzazione si ottiene che $f
 Inoltre il teorema dice che una qualsiasi funzione $f$ può essere pensata come il prodotto di una funzione suriettiva per una funzione iniettiva
 
 >[!oss]
->Nel corso di GAL la nozione di [[kernel]]
+>Nel corso di GAL la nozione di [[kernel]] di un applocazione lineare $f$ da uno [[spazio vettoriale]] $V$ ad uno spazio vettoriale $V'$
 
