@@ -69,6 +69,13 @@
         "a": 1,
         "rgb": 14701233
       }
+    },
+    {
+      "query": "path:\"Logica e algebra/Algebra\"",
+      "color": {
+        "a": 1,
+        "rgb": 15171198
+      }
     }
   ],
   "collapse-display": false,
@@ -81,6 +88,6 @@
   "repelStrength": 10.3125,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.11465542845921511,
+  "scale": 0.16403703110804577,
   "close": false
 }
