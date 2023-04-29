@@ -75,7 +75,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -104,8 +103,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -125,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,9 +149,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md"
-              }
+              "state": {}
             }
           },
           {
@@ -185,10 +180,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0bc8565c7d011c80",
+  "active": "0b8307b5dc1882a6",
   "lastOpenFiles": [
-    "Analisi 1/Funzioni/Funzioni.md",
+    "Logica e algebra/Algebra/Cardinalità.md",
+    "Geometria e algebra lineare/cardinalità.md",
     "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
+    "Analisi 1/Funzioni/Funzioni.md",
     "Geometria e algebra lineare/relazione di equivalenza.md",
     "Logica e algebra/Algebra/funzione inversa.md",
     "Logica e algebra/Algebra/Funzione biunivoca.md",
@@ -211,8 +208,6 @@
     "ACSO/Sistemi operativi/kernel.md",
     "Geometria e algebra lineare/Base.md",
     "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
-    "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
-    "Geometria e algebra lineare/Algoritmo di Gram-schmidt.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",
