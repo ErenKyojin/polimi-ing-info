@@ -10,7 +10,7 @@ Allora si dice ascissa curvilinea $s$ di un generico punto della [[Traiettoria]]
 
 
 ## Andamento temporale dell'ascissa curvilinea
-Se si consoce la traiettoria, l'andamento temporale dell'ascissa curvilinea descritto dalla funzione
+Se si consoce la traiettoria, l'andamento temporale dell'ascissa curvilinea descritto dalla [[Funzioni|funzione]]
 $$s = s(t)$$
 descrive completamente il [[moto]] del [[Punto materiale]]. Questa legge che si rappresenta graficametne come un diagramma orario o un diagramma spazio tempo viene detta (impropriamente) [[Legge oraria]]
 

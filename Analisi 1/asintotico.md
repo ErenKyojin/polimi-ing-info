@@ -3,7 +3,7 @@
 
 # Funzioni
 >[!def]
->Si dice che due funzioni $f,g$ sono asintotiche per $x\to c$ se
+>Si dice che due [[funzioni]] $f,g$ sono asintotiche per $x\to c$ se
 >$$\lim_{x\to c}\frac{f(x)}{g(x)} = 1$$
 >E si scrive $f\sim g$ per $x \to c$
 

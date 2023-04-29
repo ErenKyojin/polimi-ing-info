@@ -244,7 +244,7 @@ Un'applicazione lineare invertibile  $\mathcal{L} : V \to W$ è detta isomorfism
 >>x_{1} \\ \vdots \\x_{n}
 >>\end{bmatrix}
 >>\end{align}$$
->>Definiamo $\mathcal{L} := \mathcal{P} \circ x_{\mathcal{B}}$. Osserviamo che $\mathcal{L}$ è lineare essendo la composizione di due funzioni lineari. Inoltre
+>>Definiamo $\mathcal{L} := \mathcal{P} \circ x_{\mathcal{B}}$. Osserviamo che $\mathcal{L}$ è lineare essendo la composizione di due [[funzioni]] lineari. Inoltre
 >> $$ \mathcal{L}(\mathbf{b}_{i}) = \mathcal{P} \circ x_{\mathcal{B}}(\mathbf{b}_{i}) = \mathbf{w}_{i} \quad \forall i = 1,\dots,n $$
 >> Allora per ogni $\mathbf{v} \in V$, ove $\mathbf{v} = x_{1}\mathbf{b}_{1} + \dots + x_{n}\mathbf{b}_{n}$ si ha:
 >> $$ \begin{align}

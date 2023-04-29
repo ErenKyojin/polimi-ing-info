@@ -1,4 +1,4 @@
-Fissato un sistema di riferimento nello [[spazio euclideo]] abbiamo visto che ad ogni punto possiamo associare in modo univoco le sue coordinate cosí come ad ogni vettore possiamo associare le sue componenti. Vogliamo determinare lunghezze di vettori ed  il coseno dell'angolo formato da due vettori in funzione delle coordinate dei vettori
+Fissato un sistema di riferimento nello [[spazio euclideo]] abbiamo visto che ad ogni punto possiamo associare in modo univoco le sue coordinate cosí come ad ogni vettore possiamo associare le sue componenti. Vogliamo determinare lunghezze di vettori ed  il coseno dell'angolo formato da due vettori in [[Funzioni|funzione]] delle coordinate dei vettori
 
 
 ## Angolo tra due vettori

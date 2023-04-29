@@ -53,7 +53,7 @@ Possiamo rappresentarlo cosí:
 >In questo caso il linguaggio accettato è 
 >L = {un numero pari di 1 ed un numero qualsiasi di 0}
 
-definiamo una [[sequenza di mosse]] induttivamente tramite $\delta$ (funzione di transizione)
+definiamo una [[sequenza di mosse]] induttivamente tramite $\delta$ ([[Funzioni|funzione]] di transizione)
 
 Un tipo notevole di automi FSA, sono gli automi traduttori
 

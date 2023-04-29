@@ -37,8 +37,13 @@
             "id": "53ba0fe043f968da",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Analisi 1/Funzioni/Funzioni.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           },
           {
@@ -84,6 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Analisi 1/Funzioni/Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,6 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Analisi 1/Funzioni/Funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Analisi 1/Funzioni/Funzioni.md"
+              }
             }
           },
           {
