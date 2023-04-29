@@ -86,4 +86,4 @@ Osserviamo invece che la [[relazione inversa]] $f^{-1}$ di una funzione non è i
 - [[Funzione biunivoca]] 
 
 
-## Funzioni e relazione d'equivalenza
+## Funzioni e relazione di equivalenza
