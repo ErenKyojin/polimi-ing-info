@@ -37,13 +37,8 @@
             "id": "53ba0fe043f968da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logica e algebra/Algebra/Funzione biunivoca.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -89,7 +84,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/Funzione biunivoca.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +133,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/Funzione biunivoca.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,9 +159,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Logica e algebra/Algebra/Funzione biunivoca.md"
-              }
+              "state": {}
             }
           },
           {
@@ -199,12 +190,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f14bef597613144",
+  "active": "53ba0fe043f968da",
   "lastOpenFiles": [
+    "Logica e algebra/Algebra/Funzione biunivoca.md",
     "Logica e algebra/Algebra/Funzione suriettiva.md",
     "Logica e algebra/Algebra/Funzione iniettiva.md",
     "Analisi 1/Funzioni/Funzioni.md",
-    "Logica e algebra/Algebra/Funzione biunivoca.md",
     "Logica e algebra/Algebra/insieme quoziente.md",
     "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra/relazione d'ordine.md",
