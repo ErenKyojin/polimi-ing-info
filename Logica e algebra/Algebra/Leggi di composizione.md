@@ -27,4 +27,7 @@ Se $A$ è un insieme finito i risultati di una operazione binaria interna su $A$
 >\end{array} $$
 
 
-Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo attenzione sul genere di calcoli che la preenza di questa proprietà rendono leciti
+Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo attenzione sul genere di calcoli che la preenza di questa proprietà rendono leciti.
+*Indichiamo di seguito con $*$ una generica operazione binaria interna su $A$*
+
+L'operazione $*$ è commutativa se per ogni $a,a' \in A$ si ha $a * a' = a' * a$
