@@ -84,3 +84,6 @@ Osserviamo invece che la [[relazione inversa]] $f^{-1}$ di una funzione non è i
 - [[Funzione iniettiva]]
 - [[Funzione suriettiva]]
 - [[Funzione biunivoca]] 
+
+
+## Funzioni e relazione d'equivalenza
