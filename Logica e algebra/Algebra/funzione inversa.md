@@ -14,7 +14,7 @@ Sussistono i seguenti teorema:
 >Condizione necessaria e sufficiente affinchè $f$ ammetta inversa destra è che $f$ sia iniettiva.
 >
 >>[!dim]
->>Se $f$ ammette inversa destra $h$ allora $f$ è iniettiva in quanto $\imath_{A} = f \cdot h$
+>>Se $f$ ammette inversa destra $h$ allora $f$ è iniettiva in quanto $\imath_{A} = f \cdot h$ e $\imath_{A}$ è iniettiva. Viceversa se $f$ è iniettiva costruiamo una sua inversa destra ampliando la drelazione inversa di $f$. Infatti per ogni $b \in B$, se $b$ ammette una contrimmagine, che indichiamo con $a_{b}$
 
 
 
