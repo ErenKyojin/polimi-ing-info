@@ -57,7 +57,7 @@ $$\tan(\theta) = \frac{\sin(\theta)}{\cos(\theta)}$$
 
 
 # Funzioni inverse
->[!Graph] Funzione inversa del seno - arcoseno
+>[!Graph] [[Funzione inversa]] del seno - arcoseno
 >$$\arcsin(x)$$
 >Dominio ristretto a $[-1;1]$ altrimenti non sarebbe più una funzione
 >

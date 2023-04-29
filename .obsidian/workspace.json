@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/Funzione biunivoca.md",
+                "file": "Logica e algebra/Algebra/funzione inversa.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -75,7 +75,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/Funzione biunivoca.md",
+                "file": "Logica e algebra/Algebra/funzione inversa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/Funzione biunivoca.md",
+                "file": "Logica e algebra/Algebra/funzione inversa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Algebra/Funzione biunivoca.md"
+                "file": "Logica e algebra/Algebra/funzione inversa.md"
               }
             }
           },
@@ -185,13 +185,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e482e98321e71fe8",
+  "active": "2f14bef597613144",
   "lastOpenFiles": [
+    "Logica e algebra/Algebra/Funzione biunivoca.md",
+    "Logica e algebra/Algebra/funzione inversa.md",
     "Logica e algebra/Algebra/Funzione suriettiva.md",
     "Logica e algebra/Algebra/insieme quoziente.md",
     "Logica e algebra/Algebra/Funzione iniettiva.md",
     "Analisi 1/Funzioni/Funzioni.md",
-    "Logica e algebra/Algebra/Funzione biunivoca.md",
     "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra/relazione d'ordine.md",
     "Logica e algebra/Algebra/reticolo.md",
@@ -212,7 +213,6 @@
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
     "Geometria e algebra lineare/Algoritmo di Gram-schmidt.md",
     "Algoritmi e principi dell'informatica/insieme.md",
-    "Analisi 1/Teorema degli zeri.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",
