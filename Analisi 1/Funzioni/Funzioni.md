@@ -90,4 +90,6 @@ Osserviamo invece che la [[relazione inversa]] $f^{-1}$ di una funzione non è i
 Sia $f : A \to B$ una funzione. L'insieme $\{ f^{-1}(b) | b \in B \}$ degli insiemi delle controimmagini degli elementi di $B$ è una partizione di $A$ e quindi è l'insieme delle classi di equivalenza di una relazione di equivalenza su $A$  che chiamiamo $\ker(f)$.
 
 È facile notare che $\ker(f)$ è definita da $(a_{1},a_{2}) \in \ker(f)$ sse $f(a_{1}) = f(a_{2})$
-Se consideriamo una relazione di equivalenza $\rho$ su $A$ esiste sempre una funzione suriettiva $h_{\rho} : A \to A / \rho$ tale che $\ker (h_{\rho})$
+Se consideriamo una relazione di equivalenza $\rho$ su $A$ esiste sempre una funzione suriettiva $h_{\rho} : A \to A / \rho$ tale che $\ker (h_{\rho}) = \rho$. La $h_{\rho}$ (detta anche **proiezione canonica** di $A$ sul suo insieme quoziente $A / \rho$) è definita ponendo $h_{\rho}(a) = \rho_{a}$.
+
+Il legame fra $f : A \to B$ e $h_{\ker(f)} : A \to A / \ker(f)$ è il
