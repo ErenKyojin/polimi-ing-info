@@ -20,10 +20,13 @@ Siano $f : A \to B$ una funzione e $h_{\ker(f)} : A \to A / \ker(f)$ la proiezio
 \node (aker) at (0,-2.5){$A / \ker (f)$};
 
 \draw[-latex] (a) -- (b) node[midway,above]{$f$};
-\draw[-latex] (a) -- (aker) node[midway,left]{$h_{\ker}$};
-\draw[-latex] (aker) -- (b);
+\draw[-latex] (a) -- (aker) node[midway,left]{$h_{\ker f}$};
+\draw[-latex] (aker) -- (b) node[midway,below]{$g$};
 \end{tikzpicture}
 \end{document}
 ```
+Inoltre $g$ è iniettiva ed è biunivoca se e solo se $f$ è suriettiva.
 
+>[!oss]
+>Dire che un diagramma è commutativo significa che comunque 
 
