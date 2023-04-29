@@ -51,4 +51,4 @@ Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo 
 	- Se l'operazione $*$ è associativa ed $a$ ammette inverso ogni equazione dle tipo $x * a = b (b \in A)$ ammette uno ed una soluzione della forma $b * \bar{a}$
 	- Se l'operazione $*$ è associativa ed $a$ ammette inverso sinistro, $a * B = a * c$ implica $b = c$
 	- Se l'operazione $*$ è associativa ed $a$ ammette inverso destro, $b * a = c * a$ implica $b = c$
-	- Se l'operazione $*$ è associativa ed $a_{1},a_{2}$ ammettono inversi $a$
+	- Se l'operazione $*$ è associativa ed $a_{1},a_{2}$ ammettono inversi $\bar{a}_{1},\bar{a}_{2}$ allora $a_{1} * a_{2}$ ammette inverso e questo inverso è $\bar{a}_{2} * \bar{a}_{1}$.
