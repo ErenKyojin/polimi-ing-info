@@ -34,4 +34,5 @@ Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo 
   La commutatività di $*$ appare evidente dalla sua tavola di composizione (se si può fare).
   Infatti tale tavola risulterà simmetrica rispetto alla diagonale che parte dal vertice in alto a sinitra.
 - L'operazione $*$ è associativa se per ogni $a,a',a'' \in A$ si ha $a * (a' * a'') = (a*a') * a''$.
-  Se l'operazione $*$ è assicuatuva possiamo definire le potenze ad esponenti positivi di un qualsiasi elmento $a \in A$, ponendo $a^{(n)} = a * a * \dots * a$ ($n$ volte) e le potenze godono delle proprietà formali $a^{(n)} * a^{(m)} = a^{(n + m)}, ($
+  Se l'operazione $*$ è assicuatuva possiamo definire le potenze ad esponenti positivi di un qualsiasi elmento $a \in A$, ponendo $a^{(n)} = a * a * \dots * a$ ($n$ volte) e le potenze godono delle proprietà formali $a^{(n)} * a^{(m)} = a^{(n + m)}, (a^{(n)})^{(m)}=a^{n \cdot m}$. (l'associatività non è necessaria per definire le potenze ma lo è per definirne le proprietà)
+- esiste
