@@ -1,4 +1,6 @@
-
+---
+aliases: relazioni di equivalenza
+---
 >[!def]
 >Una [[Relazioni|relazione]] $\mathfrak{R}$ è di equivalenza se gode delle seguenti proprietà:
 >- Riflessiva: $\forall a \in A\qquad a \sim a$
