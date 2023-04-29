@@ -14,7 +14,9 @@ modification date: 2023-04-29 15:30
  
 Il teorema sostanzialmente afferma che c'è una sequenza infinita di infiniti.
 
-Osserviamo che la cardinalità di $\mathbb{R}$ è la cardinalità dell'insieme delle parti di $\mathbb{N}$, non è noto se esistano insiemi con cardinalità compresa fra quella del numerabile e quella del continuo, e analogamente 
+Osserviamo che la cardinalità di $\mathbb{R}$ è la cardinalità dell'insieme delle parti di $\mathbb{N}$, non è noto se esistano insiemi con cardinalità compresa fra quella del numerabile e quella del continuo, e analogamente non è noto se, dato un insieme infinito $A$, esistano insieme con cardinalità compresa fra quella di $A$ e quella di $\mathcal{P}(A)$.
+
+L'ipotesi del continuo (generalizzata) assume che non ci siano insiemi di cardinalità compresa fra quella di $N$ e quella di $\mathcal{P}(N)$ (fra quella di un qualsiasi insieme infinito $A$ e que;;)
 
 
 
