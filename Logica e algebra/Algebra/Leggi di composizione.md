@@ -40,4 +40,4 @@ Introduciamo alcune proprietà delle operazioni binarie interne su $A$  ponendo 
 	- Se in $A$ esistono elemento neutro a destra ed elemento neutro a sinistra rispetto all'operazione $*$, questi coincidono
 	Di conseguenza se in $A$ esiste un elemento neutro questo è unico.
 	Sulla tavola di composizione di $*$ (se è possibile farla) si identificano facilmente gli eventuali elementi neutri destri e sinistri
-- Esiste uno zero in $A$ rispetto all'operazione $*$ se esiste uno $z \in A$ tale che per ogni $a \in A$ risulta $z * a = a * z = z$. Se si ha solo $z * a = z$, per ogni $a \in A$, 
+- Esiste uno zero in $A$ rispetto all'operazione $*$ se esiste uno $z \in A$ tale che per ogni $a \in A$ risulta $z * a = a * z = z$. Se si ha solo $z * a = z$, per ogni $a \in A$, $$
