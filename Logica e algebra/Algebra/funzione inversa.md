@@ -20,6 +20,6 @@ Sussistono i seguenti teorema:
 >Condizione necessaria e sufficiente affinchè $f$ ammetta inversa sinistra è che $f$ sia [[Funzione suriettiva|suriettiva]]  (la condizione sufficente utilizza il postulato della scelta)
 >
 >>[!dim]
->>Se
+>>Se $f$ ammette inversa sinistra $k$ allora $f$ è suriettiva in quanto $\imath_{B} = k$
 
 
