@@ -20,4 +20,6 @@ Rappresentando la relazione $f$ tramite il suo [[grafo di incidenza]] (se possib
 - se il prodotto $f \cdot g$ delle funzioni $f$ e $g$ è suriettivo allora $g$ è suriettiva.
 
 La funzione $f$ può essere non suriettiva anche se $f \cdot g$ è suriettiva, basta infatti considerare il solito esempio: $A = \{ a \}, B = \{ b_{1},b_{2} \}, C = \{ c \}, f(a) = b_{1}, g(b_{1}) = g(b_{2}) = c, f \cdot g$  è ovviamente suriettiva, ma $f$ no.
-Il prodotto $f \cdot g$ di due funzioni può non essere suriettivo anche se $g$ è suriettiva, basta infatti considerare l'esempio: $A = \{ a_{1},a_{2} \}, B = \{ b_{1},b_{2} \}, C = \{ c_{1},c_{2} \}, f(a_{1})=f(a_{2})=b_{2}, g(b_{1})=c_{1},g(b_{2})=c_{2}$ si ha allora $f \cdot g$
+Il prodotto $f \cdot g$ di due funzioni può non essere suriettivo anche se $g$ è suriettiva, basta infatti considerare l'esempio: $A = \{ a_{1},a_{2} \}, B = \{ b_{1},b_{2} \}, C = \{ c_{1},c_{2} \}, f(a_{1})=f(a_{2})=b_{2}, g(b_{1})=c_{1},g(b_{2})=c_{2}$ si ha allora $f \cdot g(a_{1})=f \cdot g(a_{2})= c_{2}$ quindi $f \cdot g$ non è suriettiva, ma $g$ lo è.
+
+
