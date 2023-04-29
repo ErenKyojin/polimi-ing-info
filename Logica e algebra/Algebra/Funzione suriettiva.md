@@ -16,4 +16,5 @@ Rappresentando la relazione $f$ tramite la sua [[matrice di incidenza]] (se poss
 Rappresentando la relazione $f$ tramite il suo [[grafo di incidenza]] (se possibile) si ha che $f$ è una funzione suriettiva se e solo se da ogni vertice che rappresenta un elemento di $B$ arriva almeno un arco.
 
 È immediato provare che:
-- il prodotto di due funzioni suriettive
+- il prodotto di due funzioni suriettive è una funzione suriettiva
+- il
