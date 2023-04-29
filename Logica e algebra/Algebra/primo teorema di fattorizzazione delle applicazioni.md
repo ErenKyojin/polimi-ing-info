@@ -14,8 +14,12 @@ Siano $f : A \to B$ una funzione e $h_{\ker(f)} : A \to A / \ker(f)$ la proiezio
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\node (a) at (0,0);
-\node (b) at (4,0) {B}
+
+\node (a) at (0,0) {A};
+\node (b) at (4,0) {B};
+\node (Aker) at (0,-2){$A / \ker (f)$};
+
+\draw[-latex] (a) -- (b)
 \end{tikzpicture}
 \end{document}
 ```
