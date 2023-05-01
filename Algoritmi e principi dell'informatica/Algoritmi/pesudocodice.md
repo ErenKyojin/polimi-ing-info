@@ -36,4 +36,4 @@ Non un vero [[linguaggio]] di programmazione, ma simile, è facile da tradurre i
 
 - Le variabili sono locali alla procedura
 - Agli elementi dell'array si accede come C, ed il primo elemento può avere indice diverso da 0
-- 
+- Esistono sottoarray
