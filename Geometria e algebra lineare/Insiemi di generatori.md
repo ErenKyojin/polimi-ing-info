@@ -49,7 +49,7 @@ t_{d}
 t_{d} 
 \end{bmatrix} \mapsto t_{1}\mathbf{v}_{1} + \dots+ t_{d}\mathbf{v}_{d}
 \end{align}$$
-Se $\mathbf{v}_{1},\dots,\mathbf{v}_{d}$ sono generatori, $\mathcal{P}$ è suriettiva ma non necessariamente iniettiva. Mentre $\mathbf{v}_{1},\dots,\mathbf{v}_{d}$ è una [[Base]] se e solo se $\mathcal{P}$ è iniettiva e suriettiva. Quindi se $\mathbf{v}_{1},\dots,\mathbf{v}_{d}$ sono una base allora sono generatore ma se sono generatori non è detto che siano una base.
+Se $\mathbf{v}_{1},\dots,\mathbf{v}_{d}$ sono generatori, $\mathcal{P}$ è [[Funzione suriettiva|suriettiva]] ma non necessariamente [[Funzione iniettiva|iniettiva]]. Mentre $\mathbf{v}_{1},\dots,\mathbf{v}_{d}$ è una [[Base]] se e solo se $\mathcal{P}$ è [[Funzione iniettiva|iniettiva]] e suriettiva. Quindi se $\mathbf{v}_{1},\dots,\mathbf{v}_{d}$ sono una base allora sono generatore ma se sono generatori non è detto che siano una base.
 
 
 >[!proposizione] proposizione 2

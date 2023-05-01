@@ -28,7 +28,7 @@ $$
 	\end{cases}
 $$
 
-Abbiamo un sistema di tre equazioni in quattro incognite, che ammette quindi infinite soluzioni, preferibile per ottenere un componente reciproco è l'insieme delle soluzioni
+Abbiamo un sistema di tre equazioni in quattro incognite, che ammette quindi infinite soluzioni, preferibile per ottenere un componente reciproco è l'[[insieme]] delle soluzioni
 
 $$
 	\begin{cases}

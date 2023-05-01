@@ -1,7 +1,7 @@
 Fissato un sistema di riferimento nello spazio euclideo, ad ogni [[Geometria e algebra lineare/Vettori|vettore]] libero rimane associata la terna delle sue componenti. Vedremo che è possibile fare una operazione analoga in determinanti [[Spazi vettoriali]]
 
 >[!def]
->Sia $V$ uno spazio vettoriale su $\mathbb{K}$, un **insieme ordinato** $\mathbf{B} = \{\mathbf{b_{1}},\mathbf{b_{2}},\dots,\mathbf{b_{n}}\}$ di vettori $V$ si dice base di $V$ se ogni vettore di $V$ si scrive in uno ed un sol modo come [[Combinazioni lineari|combinazione lineare]] di $\mathbf{b_{1}},\dots,\mathbf{b_{n}}$: $\exists! t_{1},\dots,t_{n} \in \mathbb{K}$ t.c.
+>Sia $V$ uno spazio vettoriale su $\mathbb{K}$, un **[[insieme]] ordinato** $\mathbf{B} = \{\mathbf{b_{1}},\mathbf{b_{2}},\dots,\mathbf{b_{n}}\}$ di vettori $V$ si dice base di $V$ se ogni vettore di $V$ si scrive in uno ed un sol modo come [[Combinazioni lineari|combinazione lineare]] di $\mathbf{b_{1}},\dots,\mathbf{b_{n}}$: $\exists! t_{1},\dots,t_{n} \in \mathbb{K}$ t.c.
 > $$ \mathbf{v} = t_{1}\mathbf{b_{1}}+\dots+t_{n}\mathbf{b_{n}} $$
 
 
@@ -24,7 +24,7 @@ Quindi l'insieme ordinato $\{\mathbf{b_{1},\dots,\mathbf{b_{n}}}\} \subseteq V$ 
 t_{n}
 \end{bmatrix} &\mapsto t_{1}\mathbf{b_{1}} + \ldots + t_{n}\mathbf{b_{n}}
  \end{align} $$
- Poichè $\mathbf{B}$ soddisfa le proprietà 1. e 2., $\mathcal{P}$ è suriettiva ed iniettiva, quindi $\mathcal{P}$ ammette funzione inversa $\mathcal{P}^{-1}$ che indicheremo con $x_{\mathbf{B}} : V \to \mathbb{K}^n$. Tale funzione è lineare, essendo l'inversa di una funzione lineare, ed associa ad ogni vettore $\mathbf{v}$ la $n$-upla delle sue componenti rispetto alla base $\mathbf{B}$
+ Poichè $\mathbf{B}$ soddisfa le proprietà 1. e 2., $\mathcal{P}$ è [[Funzione suriettiva|suriettiva]] ed [[Funzione iniettiva|iniettiva]], quindi $\mathcal{P}$ ammette [[Funzioni|funzione]] inversa $\mathcal{P}^{-1}$ che indicheremo con $x_{\mathbf{B}} : V \to \mathbb{K}^n$. Tale funzione è lineare, essendo l'inversa di una funzione lineare, ed associa ad ogni vettore $\mathbf{v}$ la $n$-upla delle sue componenti rispetto alla base $\mathbf{B}$
 >$$ \begin{align}
 > x_{B} : &V \to \mathbb{K}^n \\
 > &\mathbf{v} \mapsto x_{\mathbf{B}}(\mathbf{v}) = \begin{bmatrix}

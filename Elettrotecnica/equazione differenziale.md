@@ -6,7 +6,7 @@ aliases: equazioni differenziali
 Considerando solo le equazioni differenziali di nostro interesse, come nel [[circuito RC]]
 $$\frac{d}{dt}x(t)= \lambda\\x(t) + u(t)$$
 $$\frac{d}{dt}x(t) = \lambda\\x(t) + \sum_{n = 1}^ku_k(t)$$
-i risultati di questa equazione differenziale è la somma di una qualsiasi dell'insieme delle funzioni $x_{OA}(t;k,t_o)$ che risolvono l'equazione omogenea associata
+i risultati di questa equazione differenziale è la somma di una qualsiasi dell'[[insieme]] delle funzioni $x_{OA}(t;k,t_o)$ che risolvono l'equazione omogenea associata
 $$\frac{d}{dt}x_{OA}(t;k,t_0) = \lambda\\x_{OA}(t;k,t_0)$$
 con una funzione $x_{IP}(t)$ chiamata <u>integrale particolare</u> che risolve la prima
 

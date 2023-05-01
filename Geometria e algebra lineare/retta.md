@@ -1,5 +1,5 @@
 
-L'intuizione ci suggerisce che i punti di una retta siano ordinati, cosiche possiamo avere gli estremi $P$ e $Q$ come l'insieme dei punti della retta tra $P$ e $Q$.
+L'intuizione ci suggerisce che i punti di una retta siano ordinati, cosiche possiamo avere gli estremi $P$ e $Q$ come l'[[insieme]] dei punti della retta tra $P$ e $Q$.
 Consideriamo una retta $AB$, questa è l'unione di due semirette, la semiretta $A$ passante per B e la semiretta $B$ passante per $A$.
 
 Un punto $P$ su una delle semirette uscenti da $A$ è individuato dalla lunghezza $\overline{AP}$ del segmento di estremi $A$ e $P$.
@@ -13,7 +13,7 @@ Il punto $A$, corrispondente a $x=0$, è l'origine delle coordinate. Quindi
 
 
 >[!TlDr]
->C'è una corrispondenza biunivoca tra l'insieme $\mathbb{R}$ dei numeri reali e i punti della retta $AB$. Questa corrispondenza associa a un numero reale $x$ l'unico punto $P = P(x)$ della retta $AB$ tale che:
+>C'è una corrispondenza [[Funzione biunivoca|biunivoca]] tra l'insieme $\mathbb{R}$ dei numeri reali e i punti della retta $AB$. Questa corrispondenza associa a un numero reale $x$ l'unico punto $P = P(x)$ della retta $AB$ tale che:
 >1. La distanza di $P$ da $A$ è:
 > $$ \frac{\overline{AP}}{\overline{AB}}=|x| $$
 > 2. $P$ giace sulla semiretta uscente da $A$ e passante per $B$, se $x > 0$; $P$ giace sulla semiretta uscente da $A$ che non passa per $B$ se $x>0$ 

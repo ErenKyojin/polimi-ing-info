@@ -1,4 +1,4 @@
-Un file è una sequenza di byte che rappresenta un insieme di formazioni, ha un nome simbolico (ed univoco) all'interno della directory e degli attributi (tipo, locazione nel dispositivo, dimensione, protezione, proprietari). In linux ci sono diversi tipi di file:
+Un file è una sequenza di byte che rappresenta un [[insieme]] di formazioni, ha un nome simbolico (ed univoco) all'interno della directory e degli attributi (tipo, locazione nel dispositivo, dimensione, protezione, proprietari). In linux ci sono diversi tipi di file:
 - **File ordinario o normale**: dati o programmi
 - **Directory**: riferimenti ad altri file
 - **File speciale**: l'astrazione di un dispositivo periferico 

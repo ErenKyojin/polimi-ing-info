@@ -27,14 +27,14 @@ Tutti i campi hanno inoltre le seguenti proprietà:
 
 
 # Campo ordinato
-Un campo in cui è presente una relazione d'ordine si dice <u>campo ordinato</u>, campi ordinati sono:
+Un campo in cui è presente una [[relazione d'ordine]] si dice <u>campo ordinato</u>, campi ordinati sono:
 - $\mathbb Q$ - [[Analisi 1/Insiemi numerici/numeri razionali]]
 - $\mathbb R$ - [[numeri reali]]
 
 Ai quali si aggiunge come campo non ordinato
 - $\mathbb C$ - [[numeri complessi]]
  
-Proprietà di un insieme come campo ordinato:
+Proprietà di un [[insieme]] come campo ordinato:
 - $a > 0\quad -a < 0$ o se $a > b \Rightarrow a - b > 0$
 - $a > b \quad c > 0 \Rightarrow ac > bc$
 - $a \neq 0 \Rightarrow a^2 > 0$, in particolare $1 > 0$

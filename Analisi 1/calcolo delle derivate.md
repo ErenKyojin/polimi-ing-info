@@ -51,7 +51,7 @@ La relazione tra l'operazione di derivata e le principali operazioni già note o
 ### derivata di una funzione composta
 
 >[!teorema] Regola della catena
->Sia $g\circ f$ la composta di due funzioni $f$ e $g$. Se $f$ è derivabile in un punto $x$ e $g$ è derivabile in $y=f(x)$ allora $g \circ f$ è derivabile in $x$e vale la formula:
+>Sia $g\circ f$ la composta di due [[funzioni]] $f$ e $g$. Se $f$ è derivabile in un punto $x$ e $g$ è derivabile in $y=f(x)$ allora $g \circ f$ è derivabile in $x$e vale la formula:
 >$$\fbox{$(g\circ f)'(x) = g'(f(x))\cdot f'(x)$}$$
 
 La regola della catena può essere meglio apprezzate con la notazione di Leibniz $\frac{df}{dx}$ e $\frac{dg}{dx}$, infatti, ponendo $w = g(y)$ abbiamo:

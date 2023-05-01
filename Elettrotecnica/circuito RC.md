@@ -15,7 +15,7 @@ $$A_{eq}(t) + \frac{v_C(t)}{R_{eq}} + i_C(t) = A_{eq}(t) + \frac{v_C(t)}{R_{eq}}
 
 ==> la riscriviamo come
 $$\frac{d}{dt}v_C(t)=-\frac{1}{R_{eq}C}v_C(t)-\frac{A_{eq}(t)}{C}=\lambda\\v_c(t)+u(t)$$
-Questa equazione, che coinvolge la variabile di stato del condensatore $v_C(t)$, ed è quindi definita come <u>equazione di stato</u>, un'[[equazione differenziale]] ordinaria e lineare, la cui soluzione è quindi la famiglia di funzioni
+Questa equazione, che coinvolge la variabile di stato del condensatore $v_C(t)$, ed è quindi definita come <u>equazione di stato</u>, un'[[equazione differenziale]] ordinaria e lineare, la cui soluzione è quindi la famiglia di [[funzioni]]
 $$v_C(t;k,t_0)=ke^\left(-\frac{t-t_0}{R_{eq}C}\right)+E_q$$
 con $E_q$ l'integrale particolare.
 

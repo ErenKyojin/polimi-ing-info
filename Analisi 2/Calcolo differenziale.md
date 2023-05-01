@@ -96,7 +96,7 @@ f(1,2) &= 1   \\
 >$$\begin{align}
 > &\frac{ \partial f }{ \partial x }(x,y) = 2e^{2x-y} &\frac{ \partial f }{ \partial y}(x,y) = -e^{2x-y} 
 \end{align}$$
-Sono funzioni definite e continue in $\mathbb{R}^2$ quindi per il teorema del differenziale totale, $f$ è differenziabile in $\mathbb{R}^2$
+Sono [[funzioni]] definite e continue in $\mathbb{R}^2$ quindi per il teorema del differenziale totale, $f$ è differenziabile in $\mathbb{R}^2$
 
 c
 Ci sono due casi in cui è necessario ricorrere alla definizione: gli stessi utili per la derivabilità

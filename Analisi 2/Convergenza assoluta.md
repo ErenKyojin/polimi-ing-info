@@ -8,7 +8,7 @@
 >$$ \sum_{n=0}^{+\infty} x^n $$
 >
 >
->L'insieme convergente puntuale $E = (-1,1) = \{|x| < 1\}$, la convergenza in $E$ è anche assoluta:
+>L'[[insieme]] convergente puntuale $E = (-1,1) = \{|x| < 1\}$, la convergenza in $E$ è anche assoluta:
 >$\Rightarrow$ per $x \leq -1$ indeterminata
 >per $x \geq 1$ divergente
 >per x $\in E = (-1,1)$ somma $\frac{1}{1-x} = \sum_{n=0}^{+\infty} x^n$

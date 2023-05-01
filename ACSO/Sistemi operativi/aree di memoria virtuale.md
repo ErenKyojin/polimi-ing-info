@@ -34,7 +34,7 @@ Ogni VMA è delimitata da un NPV iniziale ed un NPV finale ed è composta da un 
 
 
 ## Crescita delle aree dati dinamiche
-Mentre la **stack** cresce automaticamente quando necessario, l'heap cresce tramite inocazione esplicita di alcuni [[kernel#Servizi di sistema|servizi di sistema]], per incrementare l'heap su linux si utilizza la funzione
+Mentre la **stack** cresce automaticamente quando necessario, l'heap cresce tramite inocazione esplicita di alcuni [[kernel#Servizi di sistema|servizi di sistema]], per incrementare l'heap su linux si utilizza la [[Funzioni|funzione]]
 ```c
 *void sbrk (int incremento)
 ```
@@ -154,4 +154,4 @@ Le pagine vengono allocate in base alle richieste d'accesso, quindi con un siste
 
 ## VMA dati dinamici (D)
 L'area cresce grazie al servizio `brk()`
-- `malloc` deve richiedere al sistema operativo di allocare nuovo spazio tramite l'invocazione del servizio di sistema `brk()` o `sbrk()` che sono funzioni di libreria che invocano lo stesso servizio
+- `malloc` deve richiedere al sistema operativo di allocare nuovo spazio tramite l'invocazione del servizio di sistema `brk()` o `sbrk()` che sono [[funzioni]] di libreria che invocano lo stesso servizio

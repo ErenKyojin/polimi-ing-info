@@ -22,7 +22,7 @@ Prima di occuparci di tecniche di integrazione complesse, partiamo con le basi d
 
 
 >[!oss]
->Quella fornita in questa tabella è **una** primitiva, per scrivere la soluzione di un integrale definito, essendo questo un insieme di funzioni, dobbiamo sempre aggiungere una costante, solitamente $c$, quindi ad esempio:
+>Quella fornita in questa tabella è **una** primitiva, per scrivere la soluzione di un integrale definito, essendo questo un [[insieme]] di [[funzioni]], dobbiamo sempre aggiungere una costante, solitamente $c$, quindi ad esempio:
 >$$\int \!x^2 \, \d x = \frac{x^3}{3} \fbox{$+c$}$$
 
 # regole elementari

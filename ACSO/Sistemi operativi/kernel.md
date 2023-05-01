@@ -36,7 +36,7 @@ Passiamo da modalità U a modalità S dopo la SYSCALL (maiuscola)
 >	
 >	check_preempt_curr(){
 >		//verifica se il task deve essere preempted per modifica
->		//insieme dei processi pronti nella runqueue
+>		//[[insieme]] dei processi pronti nella runqueue
 >		//se necessario invoca reached
 >	}
 >} //wakeup

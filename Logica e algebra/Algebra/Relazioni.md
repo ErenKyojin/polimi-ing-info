@@ -4,6 +4,17 @@ creation date: 2023-04-26 08:48
 modification date: 2023-04-26 08:48
 ---
 
+>[!def]
+>Dati due [[insieme|insiemi]] $A$ e $B$, una relazione da $A$ in $B$ è:
+>$$\mathfrak{R} \subseteq A \times B$$
+>Diciamo che $a \in A$ è in relazione $b \in B$ se $(a,b) \in \mathfrak{R}$
+>$$a \sim_\mathfrak{R} b\quad (a \sim b)$$
+>
+>Se $A = B$ allora $\mathfrak{R}$ è una relazione in $A$.
+
+
+Casi speciali di relazione sono [[Geometria e algebra lineare/relazione di equivalenza]] e [[relazione di funzione]]
+
 Ricordiamo la definizione di [[prodotto cartesiano]] degli $n$ insiemi $A_{1},A_{2},\dots,A_{n}$ l'[[Geometria e algebra lineare/insieme|insieme]]
 $$ A_{1} \times A_{2} \times \dots \times A_{n} = \left\{ (a_{1},a_{2},\dots,a_{n}) | a_{i} \in A_{i}, i = 1,2,\dots,n \right\}  $$
 
@@ -19,11 +30,15 @@ Siano $R \subseteq A_{1} \times A_{2} \times \dots A_{n}$ e $T \subseteq A_{1} \
 - $R \cap T = \{ (a_{1},a_{2},\dots,a_{n}) | (a_{1},a_{2},\dots,a_{n}) \in R\text{ e } (a_{1},a_{2},\dots,a_{n})\in T \}$
 - $R \cup T = \{ (a_{1},a_{2},\dots,a_{n}) | (a_{1},a_{2},\dots,a_{n}) \in R \text{ o } (a_{1},a_{2},\dots,a_{n}) \in T \}$
 
-Come è noto dalle nozioni sulla teoria degl insiemi, le definizioni di intersezione e unione si possono estendere ad una famiglia arbitraria di relazioni fra gli $n$ insiemi $A_{1},A_{2},\dots,A_{n}$. Pertanto se consideriamo una famiglia di relazioni $\{ R_{i} | i \in I \}$ fra $A_{1},A_{2},\dots,A_{n}$ dove l'indice $i$ varia in un qualsiasi insieme $I$, usiamo le seguenti notazioni
+Come è noto dalle nozioni sulla teoria degl insiemi, le definizioni di intersezione e unione si possono estendere ad una famiglia arbitraria di relazioni fra gli $n$ insiemi $A_{1},A_{2},\dots,A_{n}$. Pertanto se consideriamo una famiglia di relazioni $\{ R_{i} | i \in I \}$ fra $A_{1},A_{2},\dots,A_{n}$ dove l'indice $i$ varia in un qualsiasi [[insieme]] $I$, usiamo le seguenti notazioni
 $$ \begin{align}
 \bigcap_{i \in I} R_{i} &= \{ (a_{1},a_{2},\dots,a_{n}) | \forall i \in I\quad (a_{1},a_{2},\dots,a_{n}) \in R_{i}  \} \\
 \bigcup_{i \in I} R_{i} &= \{ (a_{1},a_{2},\dots,a_{n}) | \exists i \in I\quad (a_{1},a_{2},\dots,a_{n}) \in R_{i}\}
 \end{align} $$
 Le operazioni fra relazioni godono ovviamente delle proprietà ben note per le operazioni insiemistiche.
 
-![[relazioni binarie]]
+### - [[relazioni binarie]]
+### - [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]]
+### - [[relazione d'ordine]]
+### - [[Funzioni]]
+

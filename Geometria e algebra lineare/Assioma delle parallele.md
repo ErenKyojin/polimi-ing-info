@@ -11,7 +11,7 @@ Più genericamente
 >[!teorema] Assioma delle parallele - generale
 >Dati una retta $\mathbf{r}$ ed un punto $P$, esiste un'unica retta passante per $P$ che sia parallela a $\mathbf{r}$. Si dice che tale retta è ottenuta traslando $\mathbf{r}$ in $P$
 
-Il parallelismo è una relazione di equivalenza, infatti gode delle proprietà:
+Il parallelismo è una [[relazione di equivalenza]], infatti gode delle proprietà:
  - riflessiva: una retta è parallela a se stessa
  - simmetrica: se $\mathbf{r}$ è parallela a $\mathbf{s}$, allora $\mathbf{s}$ è parallela ad $\mathbf{r}$
  - transitiva: se $r_{1}$ ed $\mathbf{r}_{2}$ sono rette parallele ad $\mathbf{s}$. Allora $\mathbf{r}_{1} \parallel \mathbf{r}_{2}$ 

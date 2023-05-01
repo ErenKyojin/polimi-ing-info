@@ -1,5 +1,5 @@
 >[!def] Grandezza fisica (classe di grandezze fisiche)
->Quando possiamo individuare un insieme di enti tra i quali possiamo stabilire:
+>Quando possiamo individuare un [[insieme]] di enti tra i quali possiamo stabilire:
 >- una relazione d'ordine
 >- un'operazione di somma e differenza tra enti
 >- un'operazione di prodottoscalare tra enti

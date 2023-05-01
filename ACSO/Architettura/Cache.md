@@ -35,7 +35,7 @@ La cache è divisa in posizioni (o righe) dette entry e che contengono:
 Dato un indirizzo di un blocco nella memoria principale, qual è la sua posizione nella cache?
 >
 >>[!success]
->>Vogliamo sviluppare delle corrispondenze biunivoche che ci permettono di far corrispondere ad un [[memoria#Indirizzo di memoria|indirizzo di memoria]] di un blocco uno specifico indirizzo in cache di un altro blocco, possiamo farlo sviluppando diverse architetture
+>>Vogliamo sviluppare delle corrispondenze [[Funzione biunivoca|biunivoche]] che ci permettono di far corrispondere ad un [[memoria#Indirizzo di memoria|indirizzo di memoria]] di un blocco uno specifico indirizzo in cache di un altro blocco, possiamo farlo sviluppando diverse architetture
 
 
 ## - Cache a indirizzamento diretto
@@ -105,7 +105,7 @@ numero di blocchi = dim cache / dim blocco
 numero di set = dim cache / (n * dim blocco)
 </center>
 
-Ogni blocco di memoria è un unico insieme della cache di indirizzo:
+Ogni blocco di memoria è un unico [[insieme]] della cache di indirizzo:
  $$\text{ind set = ind blocco$_{mem}$ $\mod{(\text{num set})}$}$$
  L'indirizzo è assolutamente analogo a quello della cache ad indirizzamento diretto, ed in effetti:
 >[!oss]

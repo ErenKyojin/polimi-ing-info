@@ -1,4 +1,4 @@
-Affinchè il sistema operativo funzioni la pila usata durante il funzionamento del [[modo]] S deve essere diversa da quella usata durante il funzionamento del modo U
+Affinchè il sistema operativo [[funzioni]] la pila usata durante il funzionamento del [[modo]] S deve essere diversa da quella usata durante il funzionamento del modo U
 
 
 ## sPila e uPila

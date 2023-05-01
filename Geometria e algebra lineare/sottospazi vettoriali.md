@@ -30,7 +30,7 @@ Dimostriamo che $U$ è sottospazio vettoriale di $V$ <div class="roman">
 Se $V$ è spazio vettoriale su $\mathbb{K}$ e $H$ è un sottoinsieme di $V$ allora $H$ è sottospazio vettoriale di $V$ se e solo se $H \neq \varnothing$ e $\forall t_{1}t_{2} \in \mathbb{K}$ e $\forall \mathbf{v}_{1},\mathbf{v}_{2} \in H$ si ha $t_{1}\mathbf{v}_{1} + t_{2}\mathbf{v}_{2} \in H$
 
 ## Intersezione e somma di sottospazi vettoriali
-Osserviamo che se $H_{1}$ e $H_{2}$ sono sottospazi vettoriali di $V$ spazio vettoriale su $\mathbb{K}$ allora l'insieme:
+Osserviamo che se $H_{1}$ e $H_{2}$ sono sottospazi vettoriali di $V$ spazio vettoriale su $\mathbb{K}$ allora l'[[insieme]]:
 $$ H_{1} \cup H_{2} = \{\mathbf{u} \in V : \mathbf{u} \in H_{1} \text{ o } \mathbf{u} \in H_{2}\}$$
  Non è sottospazio vettoriale di $V$. Infatti, consideriamo:
 $$V = \mathbb{R}^2, H_{1} = \Span\underbrace{ \left(\begin{bmatrix}

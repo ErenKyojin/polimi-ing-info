@@ -31,7 +31,7 @@
 
 
 >[!oss]
->1. L'insieme degli autovalori di $A$ si dice lo spettro di $A$ e la decomposizione  $A =\lambda_{1}P_{1} + \dots + \lambda_{s}P_{s}$ si dice **decomposizione spettrale** di $A$
+>1. L'[[insieme]] degli autovalori di $A$ si dice lo spettro di $A$ e la decomposizione  $A =\lambda_{1}P_{1} + \dots + \lambda_{s}P_{s}$ si dice **decomposizione spettrale** di $A$
 >
 >2. Dalla proprietà 3. del precedente corollario si ha che, per ogni $A \in M_{\mathbb{R}(n,n)}$ simmetrica e per ogni intero $m > 0$, $A^m = \lambda_{1}^mP_{1} +\dots + \lambda_{s}^m P_{s}$ 
 >   

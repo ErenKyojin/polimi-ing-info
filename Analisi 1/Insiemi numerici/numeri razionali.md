@@ -43,7 +43,7 @@ Un #campo con queste 9 proprietà è detto #campo numerico
 >[!] oss
 >$\mathbb Z$ e $\mathbb N$ **<u>non</u>** sono campi numerici
 
-## Relazione d'ordine in $\mathbb Q$
+## [[Relazione d'ordine]] in $\mathbb Q$
 $a = \frac{m}{n},\quad b=\frac{r}{s}$
 $$\begin{flalign}a \leq b \Leftrightarrow m\cdot s\leq r \cdot n \\
 a \lt b \Leftrightarrow m\cdot s \lt r\cdot n\end{flalign}$$

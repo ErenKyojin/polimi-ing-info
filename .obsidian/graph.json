@@ -29,14 +29,14 @@
       }
     },
     {
-      "query": "path:API",
+      "query": "path:\"Algoritmi e principi dell'informatica\"",
       "color": {
         "a": 1,
         "rgb": 5431378
       }
     },
     {
-      "query": "path:GAL",
+      "query": "path:\"Geometria e algebra lineare\"",
       "color": {
         "a": 1,
         "rgb": 5431473
@@ -62,6 +62,20 @@
         "a": 1,
         "rgb": 11621088
       }
+    },
+    {
+      "query": "path:Fisica",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "path:\"Logica e algebra/Algebra\"",
+      "color": {
+        "a": 1,
+        "rgb": 15171198
+      }
     }
   ],
   "collapse-display": false,
@@ -74,6 +88,6 @@
   "repelStrength": 10.3125,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.06573957291930609,
+  "scale": 0.16403703110804563,
   "close": false
 }

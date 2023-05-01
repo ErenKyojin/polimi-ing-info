@@ -49,7 +49,7 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ un'applicazione lineare. Allora diremo che
 >- $\forall \mathbf{v} \in V, \mathcal{L}(\mathbf{v})$ è l'**immagine** di $\mathbf{v}$ tramite $\mathcal{L}$
 >- $\forall U \subseteq V, \mathcal{L}(U) = \{\mathcal{L}(\mathbf{u}) : \mathbf{u} \in U\}$ è l'**immagine** di $U$
->- $\forall H \subseteq W, \mathcal{L}^{-1}(H) = \{\mathbf{v} \in V: \mathcal{L}(\mathbf{v}) \in H\}$ è la **controimmagine** di $H$. La controimmagine di un insieme puó essere l'insieme vuoto. 
+>- $\forall H \subseteq W, \mathcal{L}^{-1}(H) = \{\mathbf{v} \in V: \mathcal{L}(\mathbf{v}) \in H\}$ è la **controimmagine** di $H$. La controimmagine di un [[insieme]] puó essere l'insieme vuoto. 
 >Se $H = \{\mathbf{w}\}$ allora $L^{-1}(\mathbf{w})=\{\mathbf{v} \in V : \mathcal{L}(\mathbf{v})=\mathbf{w}\}$ si chiama   **fibra** di $\mathcal{L}$ su $\mathbf{w}$
 
 
@@ -204,8 +204,8 @@ La fibra di $\mathcal{L}$ sopra $\mathbf{w}$ è $\mathcal{L}^{-1}(\mathbf{w}) = 
 
 ## Iniettività e suriettività
 >[!def]
->Dati due insiemi $A$ e $B$ diremo che una funzione $f : A \to B$ è **iniettiva** se $\forall a_{1},a_{2} \in A : f(a_{1})=f(a_{2}) \implies a_{1}=a_{2}$.
->Diremo che una funzione $f:A \to B$ è **suriettiva** se $\forall b \in B\ \exists a \in A : f(a) = b$. Diremo che $f : A \to B$ è **invertibile** se esiste $f^{-1}: B \to A$ t.c.
+>Dati due insiemi $A$ e $B$ diremo che una funzione $f : A \to B$ è **[[Funzione iniettiva|iniettiva]]** se $\forall a_{1},a_{2} \in A : f(a_{1})=f(a_{2}) \implies a_{1}=a_{2}$.
+>Diremo che una funzione $f:A \to B$ è **[[Funzione suriettiva|suriettiva]]** se $\forall b \in B\ \exists a \in A : f(a) = b$. Diremo che $f : A \to B$ è **invertibile** se esiste $f^{-1}: B \to A$ t.c.
 > $$ \begin{align}
 >&\forall a \in A &f^{-1}(f(a))=a \\
 &\forall b \in B &f(f^{-1}(b))=b
@@ -244,7 +244,7 @@ Un'applicazione lineare invertibile  $\mathcal{L} : V \to W$ è detta isomorfism
 >>x_{1} \\ \vdots \\x_{n}
 >>\end{bmatrix}
 >>\end{align}$$
->>Definiamo $\mathcal{L} := \mathcal{P} \circ x_{\mathcal{B}}$. Osserviamo che $\mathcal{L}$ è lineare essendo la composizione di due funzioni lineari. Inoltre
+>>Definiamo $\mathcal{L} := \mathcal{P} \circ x_{\mathcal{B}}$. Osserviamo che $\mathcal{L}$ è lineare essendo la composizione di due [[funzioni]] lineari. Inoltre
 >> $$ \mathcal{L}(\mathbf{b}_{i}) = \mathcal{P} \circ x_{\mathcal{B}}(\mathbf{b}_{i}) = \mathbf{w}_{i} \quad \forall i = 1,\dots,n $$
 >> Allora per ogni $\mathbf{v} \in V$, ove $\mathbf{v} = x_{1}\mathbf{b}_{1} + \dots + x_{n}\mathbf{b}_{n}$ si ha:
 >> $$ \begin{align}

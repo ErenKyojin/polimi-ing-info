@@ -24,7 +24,7 @@ Approfondiamo proprietà fondamentali dei limiti e della continuità, verrà spe
 >[!teorema] Teorema di permanenza del segno, seconda forma
 >Se per $x\to c$, $f(x)\to l$ e $f(x) \geq 0$ definitivamente per $x \to c$, allora $l \geq 0$
 
->[!teorema] Teorema di permanenza del segno per funzioni continue
+>[!teorema] Teorema di permanenza del segno per [[funzioni]] continue
 >Se $f$ è continua in $c$ e $f(c)>0$, allora $f(x)>0$ definitivamente per $x \to c$
 >
 
@@ -78,7 +78,7 @@ Tutti questi teoremi si basano sui teoremi equivalenti delle successioni e sulla
 >>Ossia $\frac fg$ è continua in $x_0$
 
 >[!teorema] Teorema di continuità delle funzioni elementari
->Le seguenti funzioni elementari sono continue in tutti i punti del proprio insieme di definizione:
+>Le seguenti funzioni elementari sono continue in tutti i punti del proprio [[insieme]] di definizione:
 >1. Potenze a esponente [[numeri interi|intero]], [[Analisi 1/Insiemi numerici/numeri razionali|razionale]], o [[numeri reali|reale]].
 >2. [[Funzioni notevoli|Funzioni esponenziali]].
 >3. [[Logaritmo|Funzioni logaritmiche]]

@@ -72,7 +72,7 @@ t_{1} \\
 t_{d}
 \end{bmatrix} \mapsto t_{1}\mathbf{v}_{1} + \dots + t_{d}\mathbf{v}_{d}
 >\end{align}$$
->è iniettiva $\iff \left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d} \right\}$ sono linearmente indipendenti
+>è [[Funzione iniettiva|iniettiva]] $\iff \left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d} \right\}$ sono linearmente indipendenti
 >
 >>[!dim]
 >>Poichè $\mathcal{P}$ è lineare allora per il criterio di iniettività delle funzioni lineare, $\mathcal{P}$ è iniettiva se e solo se $\text{Ker}(\mathcal{P}) = \left\{ \mathbf{0} \right\}$. Poichè $\mathcal{P}([t_{1}\ \dots\ t_{d}]) = \mathbf{0}$ $\iff$
@@ -86,7 +86,7 @@ t_{d}
 >[!proposizione] Proposizione 2
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e siano $\mathbf{b}_{1},\dots,\mathbf{b}_{n}$ vettori fissati di $V$. allora $\mathcal{B} = {\mathbf{b}_{1},\dots,\mathbf{b}_{n}}$ è una [[Base]] se e solo se:
 >1. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è linearmente indipendente
->2. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è un insieme di generatori per $V$ ($\Span(\mathbf{b}_{1},\dots,\mathbf{b}_{n}) = V$)
+>2. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è un [[insieme]] di generatori per $V$ ($\Span(\mathbf{b}_{1},\dots,\mathbf{b}_{n}) = V$)
 >
 >>[!dim]
 

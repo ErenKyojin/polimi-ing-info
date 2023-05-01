@@ -24,7 +24,7 @@ Se $$\forall a \in A \land \forall b \in B\quad\quad a\leq r\leq b$$
 - Se $\exists\ r \in \mathbb Q$: $r$ elemento separatore di $[A, B] \Rightarrow x = [A,B] = r$
 - Se $\nexists\ r \in \mathbb Q$: elemen to separatore di $x \in[A,B]\ x$ è irrazionale  
 
-$\mathbb R$ è l'insieme delle classi di equivalenza
+$\mathbb R$ è l'[[insieme]] delle classi di equivalenza
 
 $\mathbb R = \mathbb Q \cup \mathbb I$
 

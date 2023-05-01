@@ -6,7 +6,7 @@
 >>Questo teorema non sarà dimostrato utilizzando il teorema di monotonia per le successioni ma una dimostrazione analga a quest'ultimo.
 >>Supponiamo $f$ crescente in $(a,b)$. Sia $c \in (a,b)$
 >>$$\Lambda = \sup\{f(x) : x \in (a,c)\}$$
->>Notiamo che $\Lambda$ esiste finito per la proprietà dell'estremo superiore, in quanto $f(c)$ è un maggiorante dell' insieme $\{f(x) : x \in (a,c)\}$. Proviamo che
+>>Notiamo che $\Lambda$ esiste finito per la proprietà dell'estremo superiore, in quanto $f(c)$ è un maggiorante dell' [[insieme]] $\{f(x) : x \in (a,c)\}$. Proviamo che
 >>$$\lim_{x\to c^-}f(x) = \Lambda$$
 >>Consideriamo $x_n$ una qualsiasi successione in $(a,c)$ tale che $x_n\to c$ e proviamo che $f(x_n)\to\Lambda$ ossia che per ogni $\varepsilon > 0$ risulta definitivamente
 >>$$\Lambda - \varepsilon < f(x_n) < \Lambda + \varepsilon$$

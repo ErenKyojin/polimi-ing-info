@@ -121,7 +121,7 @@ Nel caso di esecuzione di un nuovo processo:
 
 
 ## Working set di ordine $k$
-Basato sulla località degli accessi, consiste nell'insieme delle pagine refernziate durante gli ultimi $k$ accessi in memoria, se $k$ è abbastanza grande, per il principio di località il set di un programma varia molto lentamente.
+Basato sulla località degli accessi, consiste nell'[[insieme]] delle pagine refernziate durante gli ultimi $k$ accessi in memoria, se $k$ è abbastanza grande, per il principio di località il set di un programma varia molto lentamente.
 Quindi mantenendo in memoria le pagine a cui abbiamo avuto accesso più di recente diminuiamo, per il principio di località, le possibilità di un page fault.
 
 Il numero di pagine $R$ residenti in memoria di ogni processo viene ottenuto da una stima del working set in configurazione con l'obiettivo di bilanciare page fault e numero di processi attivi:

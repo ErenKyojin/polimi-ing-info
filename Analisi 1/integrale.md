@@ -128,7 +128,7 @@ Se $f$ è un afunzione continua e $G$ è una sua primitiva, tutte le primitive d
 $$
 G(x)+c\qquad(c\in\mathbb{R})
 $$
-L'insieme di tutte le primitive prende il nome di **integrale indefinito** e si indica con il simbolo
+L'[[insieme]] di tutte le primitive prende il nome di **integrale indefinito** e si indica con il simbolo
 $$\int \!f(x) \, \d x $$
 Che ha un significato ben diverso da
 $$

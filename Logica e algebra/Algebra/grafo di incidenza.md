@@ -4,7 +4,7 @@ creation date: 2023-04-26 09:14
 modification date: 2023-04-26 09:14
 ---
 
-Un grafo orientato è una coppia di insiemi $(V,E)$, $V$ è l'insieme dei vertici, $E$ è l'insieme degli archi, ogni arco può essere pensato come una coppia di vertici, il primo elemento della coppia si dice vertice iniziale dell'arco, il secondo vertice finale.
+Un grafo orientato è una coppia di insiemi $(V,E)$, $V$ è l'[[insieme]] dei vertici, $E$ è l'[[insieme]] degli archi, ogni arco può essere pensato come una coppia di vertici, il primo elemento della coppia si dice vertice iniziale dell'arco, il secondo vertice finale.
 Un grafo si può disegnare rappresentando i suoi vertici come punti ed i suoi archi come frecce dal vertice iniziale al vertice finale.
 In particolare se partiamo da una relazione $R \subseteq A_{1} \times A_{2}$ si dice il grafo di incidenza di $R$ il frafo il cui insieme di vertici è $A_{1} \cup A_{2}$ e il cui insieme di archi è $R$
 

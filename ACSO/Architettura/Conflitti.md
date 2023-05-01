@@ -183,7 +183,7 @@ Oppure implementiamo la **predizione**. Si predice che il salto non venga esegui
 
 
 ### Pipeline ottimizzata
-Aggiungiamo delle nuove funzioni alla pipeline che possono accelerare le decisioni, vogliamo in particolare:
+Aggiungiamo delle nuove [[funzioni]] alla pipeline che possono accelerare le decisioni, vogliamo in particolare:
 - **Accelerare la decisione del salto nella pipeline**
 	Passiamo dal prenderla allo stadio MEM allo stadio ID, ossia vogliamo anticipare:
 	  - Il calcolo dell'indirizzo di destinazione

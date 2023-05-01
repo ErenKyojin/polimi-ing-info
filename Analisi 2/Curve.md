@@ -127,7 +127,7 @@ Possiamo dare una definizione informale di parametrizzazioni equivalenti come du
 
 >[!def]
 >due parametrizzazioni continue $\mathbf{r}(t) : I \to \mathbb{R}^3, \mathbf{v}(s) : J \to \mathbb{R}^3$
->si dicono equivalenti se esiste $\phi(s) : J \to I$ continua e **biunivoca** tale che:
+>si dicono equivalenti se esiste $\phi(s) : J \to I$ continua e **[[Funzione biunivoca|biunivoca]]** tale che:
 > $$ \mathbf{v} (s) = \mathbf{r}(\phi(s)) = \mathbf{r} \circ \phi(s) : J \to \mathbb{R}^3 $$
 
 Nell'esempio: 

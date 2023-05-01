@@ -84,6 +84,6 @@ Poichè il volume è base per altezza devo tener conto di come cambia la misura 
 - Se la trasformazione non è lineare approssimo con la derivata prima
 
 >[!oss]
->Condizione sulla trasformazione $\phi$ per poter fare il cambio di variabile nell'integrale $\phi$ di classe $C^1$ biunivoca tra aperti
+>Condizione sulla trasformazione $\phi$ per poter fare il cambio di variabile nell'integrale $\phi$ di classe $C^1$ [[Funzione biunivoca|biunivoca]] tra aperti
 >$\det J_{\phi(u,v)} \neq 0$ e limitato $\forall u,v$
 >

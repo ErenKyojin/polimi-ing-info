@@ -44,7 +44,7 @@ k \quad\text{se } k\geq0 \\
 -k\quad\text{se } k\lt0
 \end{cases}$$
 
-### Relazione d'ordine in $\mathbb Z$
+### [[Relazione d'ordine]] in $\mathbb Z$
 $m,n \in \mathbb Z$
 $$
 \begin{cases}

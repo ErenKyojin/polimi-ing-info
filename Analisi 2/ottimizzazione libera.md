@@ -21,7 +21,7 @@ Per l'ottimizzazione libera sono necessarie le [[derivate seconde]] e la [[matri
 
 
 >[!oss]
-> i punti di massimo appartengono all'insieme $A$ e possono essere interni o di frontiera
+> i punti di massimo appartengono all'[[insieme]] $A$ e possono essere interni o di frontiera
 >
 >Il valore di massimo assoluto è **unico** ma potrebbe essere assunto in più punti
 
@@ -41,6 +41,6 @@ Se voglio determinare
 
 
 >[!def] Ottimizzazione libera
->Con ottimizzazione libera si intende ottimizzazione su un insieme aperto, ossia si applica il [[teorema di fermat]] e non quello di [[teorema di weierstrass|weierstrass]]
+>Con ottimizzazione libera si intende ottimizzazione su un [[insieme]] aperto, ossia si applica il [[teorema di fermat]] e non quello di [[teorema di weierstrass|weierstrass]]
 >
 

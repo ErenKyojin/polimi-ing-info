@@ -8,7 +8,7 @@ Particolari [[serie]] dove abbiamo gli $x^n$ moltiplicati per coefficienti
 
 Se $x=x_{0}$
 $$ \sum a_{n}(x-x_{0})  = a_{0}+ a_{1}\underbrace{ (x_{0}-x_{0})^1 }_{ 0 } + a_{2}\underbrace{ (x_{0}-x_{0})^2 }_{ 0 } = a_{0}$$
-Vogliamo cconoscere l'insieme di [[convergenza]] della generica
+Vogliamo cconoscere l'[[insieme]] di [[convergenza]] della generica
 $$ \sum_{n=0}^\infty a_{n}(x-x_{0})^n$$
 >[!oss]
 >se $a_{n} = 1 \forall n$ l'[[Analisi 1/Insiemi numerici/Insieme|insieme]] di [[convergenza semplice]] è $(x_{0}-1, x_{0}+1)$

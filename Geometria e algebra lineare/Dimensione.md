@@ -1,4 +1,4 @@
-Dato un insieme $A$, teniamo a mente il concetto di [[cardinalità]] di questo insieme, allora possiamo dare la seguente definizione:
+Dato un [[insieme]] $A$, teniamo a mente il concetto di [[Geometria e algebra lineare/cardinalità]] di questo [[insieme]], allora possiamo dare la seguente definizione:
 
 >[!def]
 >Diremo che uno spazio vettoriale $V$ ha dimensione $n < +\infty$ (indicando $\dim(V) = n$) se esiste un insieme di $n$ [[Geometria e algebra lineare/Vettori]] [[Dipendenza e indipendenza lineare|linearmente indipendenti]] ed ogni altro insieme linearmente indipendente ha cardinalità $\leq n$. Si dice che $V$ ha dimensione infinita se per ogni $m \in \mathbb{N}$ esiste un insieme linearmente indipendente di cardinalità $m$ 
@@ -29,7 +29,7 @@ Dato un insieme $A$, teniamo a mente il concetto di [[cardinalità]] di questo i
 t_{m}
 \end{bmatrix} \mapsto t_{1}\mathbf{v}_{1} + \dots + t_{m}\mathbf{v}_{m}
 \end{align} $$
->>Sia $\{\mathbf{w}_{1},\dots,\mathbf{w}_{n}\} \subseteq V$ ove $n > m$ poichè $\mathcal{P}$ è suriettiva $\exists \mathbf{z}_{1},\dots,\mathbf{z}_{n} \in \mathbb{K}^m :$ $\mathcal{P}(\mathbf{z})_{i}= \mathbf{w}_{i}$.
+>>Sia $\{\mathbf{w}_{1},\dots,\mathbf{w}_{n}\} \subseteq V$ ove $n > m$ poichè $\mathcal{P}$ è [[Funzione suriettiva|suriettiva]] $\exists \mathbf{z}_{1},\dots,\mathbf{z}_{n} \in \mathbb{K}^m :$ $\mathcal{P}(\mathbf{z})_{i}= \mathbf{w}_{i}$.
 >>Per il primo caso esistono $t_{1},\dots,t_{n} \in \mathbb{K}$ non tutti nulla tali che $: t_{1}\mathbf{z}_{1} + \dots + t_{n}\mathbf{z}_{n} = \mathbf{0}$
 >>Quindi $\mathbf{0} = \mathcal{P}(t_{1}\mathbf{z}_{1} + \dots + t_{n}\mathbf{z}_{n}) = t_{1}\mathcal{P}(\mathbf{z}_{1})+\dots+t_{n}\mathcal{P}(\mathbf{z}_{n}) = t_{1}\mathbf{w}_{1}+\dots+t_{n}\mathbf{w}_{n}$
 >> 
@@ -129,7 +129,7 @@ t_{m}
 
 
 >[!proposizione] proposizione 5
->Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ lineare e iniettiva. Se $\dim(V)$ è finita e $H$ è sottospazio di $V$ allora $\dim(H) = \dim(\mathcal{L}(H))$
+>Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ lineare e [[Funzione iniettiva|iniettiva]]. Se $\dim(V)$ è finita e $H$ è sottospazio di $V$ allora $\dim(H) = \dim(\mathcal{L}(H))$
 >
 >>[!dim]
 >>Sia $\mathbf{v}_{1},\dots,\mathbf{v}_{d}$ una base di $H$. Allora $H = \Span\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d} \right\}$ e $\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d} \right\}$ è linearmente indipendente.

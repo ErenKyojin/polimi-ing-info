@@ -22,7 +22,7 @@ A questo punto, per studiare i problemi risolvibili dobbiamo definire un modello
 Macchina di turing a nastro singolo con:
 - **ALFABETO**: $A = \left\{ 0,1,\_ \right\}$
 - **PROBLEMA**: calcolo di una funzione $f : \mathbb{N} \to \mathbb{N}$
-- **STATI FINALI**: tutti e soli quelli che fermano la macchina (non serve definire l'insieme $I$)
+- **STATI FINALI**: tutti e soli quelli che fermano la macchina (non serve definire l'[[insieme]] $I$)
 	- Una macchina di Turing generica ha sia stati di accettazione che di non accettazione che fermano la macchina
 	- per non perdere generalità quando una macchina si fermerebbe in uno stato di non accettazione mandiamo in loop la macchina con un pozzo
 
@@ -162,7 +162,7 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 - Quante e quali sono le funzioni $f_{y} : N \to N$
 	- Quante:
 	  $$ \left\{ f : N \to N \right\} \supseteq \left\{ f : N \to \left\{ 0,1 \right\}  \right\} \implies |\left\{ f:N \to N \right\} | \geq  |\left\{ f : N \to \left\{ 0,1 \right\}  \right\} | = \mathcal{P}(N) = 2^{\mathcal{N}0}$$
-		D'altro canto l'insieme $\left\{ f_{y} : N \to N \right\}$ è per definizione numerabile, quindi $E : \left\{ M_{y} \right\} \leftrightarrow N$ induce $E' : N \to \left\{ f_{y} \right\}$ non biunivoca (in molti casi $f_{y} = f_{z}$ con $z \neq y$) ma basta per affermare che
+		D'altro canto l'insieme $\left\{ f_{y} : N \to N \right\}$ è per definizione numerabile, quindi $E : \left\{ M_{y} \right\} \leftrightarrow N$ induce $E' : N \to \left\{ f_{y} \right\}$ non [[Funzione biunivoca|biunivoca]] (in molti casi $f_{y} = f_{z}$ con $z \neq y$) ma basta per affermare che
 		  $$ |\left\{ f_{y} : N \to N \right\} | = \mathcal{N}_{0} < 2^{\mathcal{N}_{0}} $$
 		  quindi la grand parte delle funzioni (quindi dei problemi non è calcolabile algoritmicamente).
 		  Ma è davvero cosí grave quanto sembra? Per definire i problemi usiamo una stringa di qualche linguaggio:

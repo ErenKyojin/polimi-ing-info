@@ -179,7 +179,7 @@ La derivata seconda ha vari significati che ci permettono di analizzare più in 
 ### significato geometrico della derivata seconda
 Mentre la derivata prima indica la pendenza del grafico, la derivata seconda rappresenta quanto velocemente varia la pendenza stessa. ed è legata alla curvatura, ed in particolare modo con la concavità e la convessità.
 
-Per definire la convessità possiamo considerare una funzione $f : I \to \mathbb R$ con $I$ intervallo, si chiama epigrafico di $f$ l'insieme
+Per definire la convessità possiamo considerare una funzione $f : I \to \mathbb R$ con $I$ intervallo, si chiama epigrafico di $f$ l'[[insieme]]
 $$\text{epi} f = \{(x,y)\in\mathbb R^2 : x \in I \text{ e } y \geq f(x)\}$$
 In questo modo definiamo l'area "sopra" al grafico di una funzione, a questo punto possiamo dire che $f$ è convessa in $I$ se il suo epigrafico è un insieme convesso, ossia se per ogni coppia di punti $P_1,P_2 \in \text{epi}f$ il segmento che le congiunge è contenuto totalmente nell'$\text{epi}f$. Alternativamente si dice concava se $-f$ è convessa.
 

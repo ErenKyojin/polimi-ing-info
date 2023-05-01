@@ -4,7 +4,7 @@ $\Rightarrow$ tutte le funzioni iniettivi sono invertibili
 
 Se una funzione $f$ non è inverbile su tutto $D$, potrebbe comunque esserlo in una restrizione di $D$.
 
-Se $f : B \rightarrow \mathbb R$ è invertibile in D chiamiamo funzione inversa di f la legge che associa ad ogni $y$ di $f(D)$ la $x \in D |y=f(x)$
+Se $f : B \rightarrow \mathbb R$ è invertibile in D chiamiamo [[funzione inversa]] di f la legge che associa ad ogni $y$ di $f(D)$ la $x \in D |y=f(x)$
 
 
 ## Continuità e invertibiltà

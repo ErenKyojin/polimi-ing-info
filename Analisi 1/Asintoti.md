@@ -9,7 +9,7 @@ Ogni situazione di [[Limite]] finito, all'infinito, è un asintoto orizzontale
 
 
 # asintoto obliquo
-Se una funzione presenta un [[Limite]] infinito all'infinito, c'è la possibilità, ma non la certezza, che esista una retta obliqua a cui il grafico della funzione si avvicina [[definitivamente]], in questo caso si parla di asintoto obliquo
+Se una [[Funzioni|funzione]] presenta un [[Limite]] infinito all'infinito, c'è la possibilità, ma non la certezza, che esista una retta obliqua a cui il grafico della funzione si avvicina [[definitivamente]], in questo caso si parla di asintoto obliquo
 
 >[!def]
 >Una funzione $f(x)$ ha asintoto obliquo $y = mx+q$ con $m \neq 0, q \in \mathbb R$ per $x \to +\infty$ o $x \to -\infty$ se:

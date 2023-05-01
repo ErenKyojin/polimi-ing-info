@@ -8,7 +8,7 @@
 >\end{align} $$ 
 
 
-chiamiamo insieme o [[dominio]] di definizione il più grande insieme sul quale $f$ è definita.
+chiamiamo [[insieme]] o [[dominio]] di definizione il più grande insieme sul quale $f$ è definita.
 $$ grafico(f) = \{(x,y,z) \in \mathbb{R}^3 : (x,y) \in A, z = f(x)\} \subseteq \mathbb{R}^3$$
 Per ogni $k \in \mathbb{R}$ l'insieme di livello di $f$ al livello $k$ 
 $$ I_{k} = \{(x,y) \in A \subseteq \mathbb{R}^2 : f(x,y) = k\} $$
