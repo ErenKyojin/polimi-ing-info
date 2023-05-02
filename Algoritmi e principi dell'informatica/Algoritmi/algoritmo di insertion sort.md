@@ -30,15 +30,20 @@ for j := 2 to A.length
 > > 	A[i + 1] := key
 > > ```
 >
->>[!tip] costo | numero di volte
+>>[!tip] costo 
 >>```clike
->>c1 | n
->>c2 | n - 1
->>0 | n - 1
->>c4 | n - 1
->>c5 | sum_{j = 2}^n 
+>>c1 
+>>c2 
+>>0 
+>>c4 
+>>c5 
 >>c6
 >>c7
 >>c8
 >>```
 
+>[!oss] Numero di volte
+> c1: $n$
+> c2: $n-1$
+> c4: $n-1$
+> c5:
