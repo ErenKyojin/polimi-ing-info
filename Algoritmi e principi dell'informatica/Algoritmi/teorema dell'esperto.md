@@ -12,5 +12,7 @@ modification date: 2023-05-02 12:33
 > - Se $f(n)= \Theta(n^{\log_{b}(a)})$ allora $T(n) = \Theta(n^{\log_{b}(a)} \log(n))$
 > - Se $f(n) = \Omega(n^{\log_{b}(a + \varepsilon)})$ per qualche $\varepsilon > 0$ e $af(n / b) \leq cf(n)$ per qualche $c < 1$ e per tutti gli $n$ grandi a sufficienza allora $T(n) = \Theta(f(n))$
 
- Se $f(n)$ è una funzione
+ Se $f(n)$ è una funzione $\Theta(n^k)$ con $k$ qualche costante:
+ 1. Se $k < \log_{b}(a) \implies T(n)=\Theta(n^{\log_{b}(a)})$
+ 2. Se $k = \log_{b}(a) \implies$
 
