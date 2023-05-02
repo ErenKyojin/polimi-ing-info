@@ -26,5 +26,17 @@ L'idea alla base di Heapsort è che un array si può interpretare come un albero
 > 
 >>[!quote]
 >>Costruzione di un albero corrispondente ad un heap
+>
+>
+
 >[!oss]
+>L'albero sarà sempre completo ad eccezione del livello inferiore che potrebbe avere degli elementi mancanti verso destra:
+>
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}
+>\draw (0,0)
+>\end{tikzpicture}
+>\end{document}
+>```
 
