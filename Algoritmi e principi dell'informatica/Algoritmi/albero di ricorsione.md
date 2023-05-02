@@ -41,7 +41,10 @@ L'albero avrà questa forma:
 \draw (3, -2.5) -- (3, 0) node[midway, left]{$\log_{3 / 2}(n)$};
 \draw (-1.5,-1) -- (-1.5,0) node[midway, right]{$\log_3(n)$};
 \draw[dashed] (-1,-1) -- (-2.5,-2.5) -- (2.5,-2.5);
-\draw[dashed] (-2,-.2) -- (2,-.2)''
+\draw[dashed] (-1,-.2) -- (1,-.2);
+\draw[dashed] (-1,-.4) -- (1,-.4);
+\draw[dashed] (-1,-.6) -- (1,-.6); 
+\draw[dashed] (-1,-.8) -- (1,-.8);
 \end{tikzpicture}
 \end{document}
 ```
