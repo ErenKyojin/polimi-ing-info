@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/sostituzione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/sostituzione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/sostituzione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md"
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/sostituzione.md"
               }
             }
           }
@@ -167,8 +167,9 @@
   },
   "active": "016fcb315abdf0ef",
   "lastOpenFiles": [
-    "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
     "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/sostituzione.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
     "Algoritmi e principi dell'informatica/Algoritmi/albero di ricorsione.md",
     "Algoritmi e principi dell'informatica/Algoritmi/algoritmi divide et impera.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Merge.md",
@@ -192,7 +193,6 @@
     "Logica e algebra/Algebra/P chiusura.md",
     "Logica e algebra/Algebra/Leggi di composizione.md",
     "Logica e algebra/Algebra/Funzione suriettiva.md",
-    "Logica e algebra/Algebra/Funzione iniettiva.md",
     "Algoritmi e principi dell'informatica/Algoritmi",
     "Settings/Canvas/MT to RAM.canvas",
     "Settings/Canvas/RAM to MT.canvas",
