@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: Algoritmo divide et impera
 creation date: 2023-05-02 11:15
 modification date: 2023-05-02 11:15
 ---
@@ -13,7 +13,7 @@ Un algoritmo divide et impera ha le caratteristiche seguenti:
 Possiamo quindi esprimere $T(n)$ tramite la seguente equazione di ricorrenza
 $$ T(n) = \begin{cases}
 \Theta(1)\qquad &\text{se }n < c \\
-D(n) + aT(n)
+D(n) + aT(n / b) +  C(n) &\text{altrimenti }
 \end{cases} $$
 
 

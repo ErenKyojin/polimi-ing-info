@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/algoritmo divide et impera.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/algoritmo divide et impera.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/algoritmo divide et impera.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/algoritmo divide et impera.md"
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md"
               }
             }
           }
@@ -166,8 +166,8 @@
   },
   "active": "016fcb315abdf0ef",
   "lastOpenFiles": [
+    "Algoritmi e principi dell'informatica/Algoritmi/algoritmi divide et impera.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/algoritmo divide et impera.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Merge.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
     "Algoritmi e principi dell'informatica/Algoritmi/algoritmo di insertion sort.md",

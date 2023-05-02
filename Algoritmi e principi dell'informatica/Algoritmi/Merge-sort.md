@@ -29,4 +29,5 @@ Per ordinare un array `A = [A[1], A[2],...,A[n]]` usiamo `merge-sort(A, 1, A.len
 Merge-sort è un algoritmo ricorsivo
 
 ## Complessità
-Abbiamo una riccorrenza di un [[algoritmo divide et impera]]
+Abbiamo una riccorrenza tipica di un [[algoritmo divide et impera]], quindi abbiamo
+$D$
