@@ -16,4 +16,4 @@ for j := 2 to A.length
 	A[i + 1] := key
 ```
 
-
+L'algoritmo sopra riportato è l'[[algoritmo di insertion sort]]
