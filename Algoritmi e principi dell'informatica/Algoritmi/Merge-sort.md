@@ -68,5 +68,7 @@ graph TB
 Sum 1 = cn
 sum 2 = cn
 sum 3 = cn
+sum ...
+
 
 Quindi il totale è $\log_{2}(n) + cn$
