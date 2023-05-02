@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/albero di ricorsione.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/teorema dell'esperto.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/albero di ricorsione.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/teorema dell'esperto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/albero di ricorsione.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/teorema dell'esperto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/albero di ricorsione.md"
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/teorema dell'esperto.md"
               }
             }
           }
@@ -165,8 +165,8 @@
   },
   "active": "0b40b0a415c2332a",
   "lastOpenFiles": [
-    "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
     "Algoritmi e principi dell'informatica/Algoritmi/albero di ricorsione.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
     "Algoritmi e principi dell'informatica/Algoritmi/sostituzione.md",
     "Algoritmi e principi dell'informatica/Algoritmi/teorema dell'esperto.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
