@@ -13,6 +13,7 @@ modification date: 2023-05-02 11:40
 >- Sostituendo in $T(n)$ abbiamo $T(n) \leq 2c \lfloor n / 2 \rfloor \log_{2}(\lfloor n / 2 \rfloor) + n \leq cn \lfloor 2n \rfloor\log_{2}(n / 2) + n =$
 >  $= cn \log_{2}(n)-cn \log_{2}(n) + n = cn \log_{2}(n) + n \leq cn \log_{2}(n)$
 > 	 - basta che $c \geq 1$
-> - Dobbiamo inoltre mostrare che la disuguaglianza vale per $n = 1$
+> - Dobbiamo inoltre mostrare che la disuguaglianza vale per $n = 1$, supponiamo che sia $T(1) =1$, allora $T(1)=1 \leq c1 \log_{2}(1) = 0??$ NO
+> - Però $T(n) \leq cn \log_{2}(n)$ deve valere sol
 
 Supponiamo $T(n) = 2T(\lfloor \rfloor)$
