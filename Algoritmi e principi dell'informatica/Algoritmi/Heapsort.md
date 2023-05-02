@@ -49,7 +49,11 @@ L'idea alla base di Heapsort è che un array si può interpretare come un albero
 >\node (B12) at (-.625, -1.5){$\bullet$};
 >\node (B21) at (-.375,-1.5){$\bullet$};
 >
->\path (A) e
+>\path[-{Stealth[scale = 2]}] (A) edge (B) 
+>	(B) edge (A)
+>	(A) edge (C)
+>	(C) edge (A)
+>	A;
 >
 >\end{tikzpicture}
 >\end{document}
