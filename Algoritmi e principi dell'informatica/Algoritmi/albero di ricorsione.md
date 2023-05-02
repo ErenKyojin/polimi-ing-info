@@ -45,3 +45,5 @@ L'albero avrà questa forma:
 ```
 
 
+$T(n) = \Omega(n \log_{3}(n))$
+$T(n) = O(n \log_{3 / 2}n)$
