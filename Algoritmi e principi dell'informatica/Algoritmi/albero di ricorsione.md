@@ -29,5 +29,5 @@ graph TB
 	C --> C2(4n / 9)
 ```
 
-
-
+A sinistra il percorso piú corto, di lunghezza $\log_{3}(n)$
+A destra il percorso piú lungo, di lunghezza $\log_{3/2}$
