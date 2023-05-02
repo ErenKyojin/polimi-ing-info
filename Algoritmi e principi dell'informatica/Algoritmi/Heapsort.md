@@ -33,6 +33,7 @@ L'idea alla base di Heapsort è che un array si può interpretare come un albero
 >L'albero sarà sempre completo ad eccezione del livello inferiore che potrebbe avere degli elementi mancanti verso destra:
 >
 > ```tikz
+> \usetikzlibrary{arrows.meta}
 >\begin{document}
 >\begin{tikzpicture}[scale = 3]
 >
@@ -46,6 +47,8 @@ L'idea alla base di Heapsort è che un array si può interpretare come un albero
 >\node (B11) at (-.875,-1.5){$\bullet$};
 >\node (B12) at (-.625, -1.5){$\bullet$};
 >\node (B21) at (-.375,-1.5){$\bullet$};
+>
+>\path[-{Stealth}] (A.center) -- ()
 >\end{tikzpicture}
 >\end{document}
 >```
