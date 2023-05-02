@@ -58,9 +58,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "09f05d81bf1295c8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -89,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Algebra/Leggi di composizione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +146,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Algebra/Leggi di composizione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,9 +172,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Logica e algebra/Algebra/Leggi di composizione.md"
-              }
+              "state": {}
             }
           },
           {
@@ -199,8 +203,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5574ddbfc91437a3",
+  "active": "09f05d81bf1295c8",
   "lastOpenFiles": [
+    "Logica e algebra/Algebra/insieme quoziente.md",
     "Logica e algebra/Algebra/Teorema di cantor.md",
     "Logica e algebra/Algebra/Leggi di composizione.md",
     "Geometria e algebra lineare/cardinalità.md",
@@ -215,7 +220,6 @@
     "Logica e algebra/Algebra/Cardinalità.md",
     "Analisi 1/Funzioni/Funzioni.md",
     "Geometria e algebra lineare/relazione di equivalenza.md",
-    "Logica e algebra/Algebra/insieme quoziente.md",
     "Logica e algebra/Algebra/Relazioni.md",
     "Logica e algebra/Algebra/relazione d'ordine.md",
     "Logica e algebra/Algebra/reticolo.md",
