@@ -44,5 +44,9 @@ Possiamo risolvere la ricorrenza sfruttando l'[[albero di ricorsione]]:
 ```mermaid
 graph TB
 	A(cn)
-	A --
+	A -- B('cn / 2')
+	A -- C('cn / 2')
+	B -- BA('cn / 4')
+	B -- BB(cn / 4)
+	C -- CA
 ```
