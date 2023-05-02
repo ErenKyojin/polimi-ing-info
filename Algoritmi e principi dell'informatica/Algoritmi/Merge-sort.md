@@ -32,4 +32,4 @@ Merge-sort è un algoritmo [[ricorsivo]]
 Abbiamo una riccorrenza tipica di un [[algoritmi divide et impera|algoritmo divide et impera]], quindi abbiamo
 $D(n) = \Theta(1), a,b = 2, C(n) = \Theta(n)$
 
-In realtà non stiamo tenendo conto del caso in cui $n$ sia dispari, in cui si ha `T`
+In realtà non stiamo tenendo conto del caso in cui $n$ sia dispari, in cui si ha $T(n) = \lfloor T(n / 2) \rfloor + \lceil$\rceil$
