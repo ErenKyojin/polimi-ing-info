@@ -35,6 +35,7 @@ L'idea alla base di Heapsort è che un array si può interpretare come un albero
 > ```tikz
 >\begin{document}
 >\begin{tikzpicture}[scale = 3]
+>
 >\node (A) at (0,0){$\bullet$};
 >\node (B) at (-.5,-.5){$\bullet$};
 >\node (C) at (.5,-.5){$\bullet$};
@@ -42,8 +43,9 @@ L'idea alla base di Heapsort è che un array si può interpretare come un albero
 >\node (B2) at (-.25,-1){$\bullet$};
 >\node (C1) at (.25,-1){$\bullet$};
 >\node (C2) at (.75,-1){$\bullet$};
+>\node (B11) at (-.875,-1.5){$\bullet$};
+>\node (B12) at (-)
 >\end{tikzpicture}
->
 >\end{document}
 >```
 
