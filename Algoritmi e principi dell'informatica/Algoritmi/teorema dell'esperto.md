@@ -19,4 +19,9 @@ modification date: 2023-05-02 12:33
 
 Abbiamo un ulteriore risultato
 
-## Ricorrenze
+## Ricorrenze lineari di ordine costante
+Data la ricorrenza
+$$ T(n) = \begin{cases}
+\Theta(1) \qquad &\text{se } n \leq m \leq h \\
+\sum_{1 \leq i \leq h} a_{i}
+\end{cases} $$
