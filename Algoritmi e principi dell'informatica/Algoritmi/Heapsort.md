@@ -60,7 +60,17 @@ L'idea alla base di Heapsort è che un array si può interpretare come un albero
 >	(B2) edge (B)
 >	(B) edge (A)
 >	(A) edge (C)
->	(C);
+>	(C) edge (C1)
+>	(C1) edge (C)
+>	(C) edge (C2)
+>	(C2) edge (C)
+>	(C) edge (A)
+>	(A) edge (B)
+>	(B) edge (B1)
+>	(B1) edge (B1)
+>	(B11) edge (B1)
+>	(B1) edge (B12)
+>	(B12) edge (B1);
 >
 >\end{tikzpicture}
 >\end{document}
