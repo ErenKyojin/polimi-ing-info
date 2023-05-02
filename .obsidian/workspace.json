@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md"
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md"
               }
             }
           }
@@ -150,9 +150,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c4a9ef59f749559",
+  "active": "0b40b0a415c2332a",
   "lastOpenFiles": [
     "Algoritmi e principi dell'informatica/Algoritmi/pesudocodice.md",
+    "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
     "Logica e algebra/Algebra/reticolo.md",
     "Logica e algebra/Algebra/relazione inversa.md",
     "Logica e algebra/Algebra/relazione identica.md",
@@ -171,7 +172,6 @@
     "Logica e algebra/Algebra/Funzione iniettiva.md",
     "Logica e algebra/Algebra/Funzione biunivoca.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
-    "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
     "Algoritmi e principi dell'informatica/Algoritmi",
     "Settings/Canvas/MT to RAM.canvas",
     "Settings/Canvas/RAM to MT.canvas",
