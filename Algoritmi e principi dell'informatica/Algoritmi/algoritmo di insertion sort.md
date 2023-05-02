@@ -14,3 +14,8 @@ for j := 2 to A.length
 	A[i + 1] := key
 ```
 
+## Costo di esecuzione
+```clike
+for j := 2 to A.length
+	key := A[
+```
