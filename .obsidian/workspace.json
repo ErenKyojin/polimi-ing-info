@@ -92,7 +92,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -164,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "016fcb315abdf0ef",
+  "active": "dbb2b98954a5b4e4",
   "lastOpenFiles": [
     "Algoritmi e principi dell'informatica/Algoritmi/algoritmi divide et impera.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",

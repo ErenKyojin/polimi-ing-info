@@ -23,11 +23,11 @@ Per ordinare un array `A = [A[1], A[2],...,A[n]]` usiamo `merge-sort(A, 1, A.len
 >	è già ordinato
 >Altrimenti:
 >	1. Si divide l'array in due sottoarray
->	2. Si ordinano i due sottoarray riapplicando l'algoritmo
+>	2. Si ordinano i due sottoarray riapplicando l'[[algoritmo]]
 >	3. Si fondono (merge) i due sottoarray (che ora sono ordinati)
 
-Merge-sort è un algoritmo ricorsivo
+Merge-sort è un algoritmo [[ricorsivo]]
 
 ## Complessità
-Abbiamo una riccorrenza tipica di un [[algoritmo divide et impera]], quindi abbiamo
-$D$
+Abbiamo una riccorrenza tipica di un [[algoritmi divide et impera|algoritmo divide et impera]], quindi abbiamo
+$D(n) = \Theta(1), a,b = 2, C(n) = \Theta(n)$
