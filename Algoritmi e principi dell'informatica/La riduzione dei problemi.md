@@ -4,7 +4,7 @@ creation date: 2023-04-06 09:51
 modification date: 2023-04-06 09:51
 ---
 
-Se ho un algoritmo per risolvere il [[problema]] $P$ posso sfruttarlo per risolvere il [[problema]] $P'$.
+Se ho un [[algoritmo]] per risolvere il [[problema]] $P$ posso sfruttarlo per risolvere il [[problema]] $P'$.
 
 
 >[!esempio]

@@ -32,7 +32,7 @@ Per PFRA ci sono diversi tipi di pagine:
 ## Processo decisionale
 Prima di tutto dealloca le pagine non utilizzate da nessun processo (ref_count = 1) in ordine di NPF
 
-Se non è sufficiente, l'algoritmo utilizzato da PFRA si basa su principio LRU (least recently used), quindi dobbiamo:
+Se non è sufficiente, l'[[algoritmo]] utilizzato da PFRA si basa su principio LRU (least recently used), quindi dobbiamo:
 1. mantenere informazioni relative all'accesso delle pagine
 2. avere un algoritmo efficiente per scegliere le pagine meno usate
 

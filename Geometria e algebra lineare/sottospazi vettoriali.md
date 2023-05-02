@@ -163,7 +163,7 @@ $$ \begin{align}
 >$\implies \dim(H \cap K) = 0$
 
 
-## Algoritmo per determinare le basi di $H +V$ e $H \cap V$ conoscendo basi di $H$ e $K$
+## [[Algoritmo]] per determinare le basi di $H +V$ e $H \cap V$ conoscendo basi di $H$ e $K$
 Sia $H = \Span(\mathbf{h}_{1},\dots,\mathbf{h}_{t})$ e $K = \Span(\mathbf{k}_{1},\dots,\mathbf{k}_{s})$ ove $\left\{ \mathbf{h}_{1},\dots,\mathbf{h}_{t} \right\}$ e $\left\{ \mathbf{k}_{1},\dots,\mathbf{k}_{s} \right\} \subseteq \mathbb{K}^n$ linearmente indipendenti. Consideriamo la matrice le cui colonne sono le basi di $H$ e $K$:
  $$ A = \left[ \mathbf{h}_{1} | \dots | \mathbf{h}_{t} | \mathbf{k}_{1} | \dots | \mathbf{k}_{s} \right]  $$
  tramite [[Metodo di eliminazione di Gauss]] riduciamo a scala tale matrice:

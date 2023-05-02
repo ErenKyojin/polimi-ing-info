@@ -32,7 +32,7 @@ Macchina di turing a nastro singolo con:
 Le macchine di Turing sono **Algoritmicamente enumerabili**
 Enumerazione di un insieme S:
 $E : S \leftrightarrow \mathbb{N}$
-Enumerazione algoritmica: E può essere calcolata mediante un algoritmo, cioè mediante una MT
+Enumerazione algoritmica: E può essere calcolata mediante un [[algoritmo]], cioè mediante una MT
 
 >[!esempio]
 > Enumerazione algoritmica di $\left\{ a,b \right\}^*$

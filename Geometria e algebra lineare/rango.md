@@ -125,7 +125,7 @@ p_{r} \\
 
 
 >[!oss]
->La precedente dimostrazione ci fornisce un algoritmo per determinare una base di un sottospazio vettoriale di $\mathbb{K}^n$ generato da un certo numero di vettori $\mathbf{v}_{1},\dots,\mathbf{v}_{d} \in \mathbb{K}^n$. Sia $H = \Span(\mathbf{v}_{1},\dots,\mathbf{v}_{})$
+>La precedente dimostrazione ci fornisce un [[algoritmo]] per determinare una base di un sottospazio vettoriale di $\mathbb{K}^n$ generato da un certo numero di vettori $\mathbf{v}_{1},\dots,\mathbf{v}_{d} \in \mathbb{K}^n$. Sia $H = \Span(\mathbf{v}_{1},\dots,\mathbf{v}_{})$
 >definiamo:
 > $$ A = \begin{bmatrix}
 \mathbf{v}_{1}^T \\

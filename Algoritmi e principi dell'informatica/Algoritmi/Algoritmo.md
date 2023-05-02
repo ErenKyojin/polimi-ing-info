@@ -19,4 +19,4 @@ for j := 2 to A.length
 (L'algoritmo sopra riportato è l'[[algoritmo di insertion sort]])
 
 ## Modello di computazione
-Il modello di computazione utilizzato è la macchina RAM
+Il modello di computazione utilizzato è la [[macchina RAM]]
