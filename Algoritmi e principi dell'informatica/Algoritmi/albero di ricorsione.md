@@ -38,8 +38,10 @@ L'albero avrà questa forma:
 \begin{tikzpicture}[scale = 2]
 \draw (0,0) -- (-1,-1) -- (2.5,-2.5) -- (0,0);
 \draw[red, fill = red, fill opacity = 0.2] (0,0) -- (-1,-1) -- (1,-1) -- (0,0);
-\end{tikzpicture}
+\draw (3, -2.5) -- (3, 0) node[midway, left]{$\log_{3 / 2}(n)$};
 \draw ()
+\end{tikzpicture}
 \end{document}
 ```
+
 
