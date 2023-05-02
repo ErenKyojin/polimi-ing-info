@@ -21,12 +21,12 @@ Espandiamo
 
 ```mermaid
 graph TB
-	A --> B (cn)
-	A --> C (cn / 3)
-	B --> B1 ()
-	B --> B2
-	C --> C1
-	C --> C2
+	A(cn) --> B(cn / 3)
+	A --> C(2cn / 3)
+	B --> B1(n / 9)
+	B --> B2(2n / 9)
+	C --> C1(2n /9)
+	C --> C2(4n / 9)
 ```
 
 
