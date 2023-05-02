@@ -18,22 +18,27 @@ for j := 2 to A.length
 
 > [!multi-column]
 >
-> [!NOTE]
+>>[!NOTE]
 > > ```clike
 > > for j := 2 to A.length
 > > 	key := A[j]
-> > 	// omserosce A[j] nella sequenza A[1... j - 1]
+> > 	// ins A[j] in
 > > 	i := k - 1
 > > 	while i > 0 and A[i] > key
 > > 		A[i + 1] := A[i]
 > > 		i := i - 1
 > > 	A[i + 1] := key
 > > ```
-> 
+>
 >>[!costo]
->>```
+>>```clike
 >>c1
 >>c2
 >>0
->>c
+>>c4
+>>c5
+>>c6
+>>c7
+>>c8
 >>```
+
