@@ -19,4 +19,6 @@ modification date: 2023-05-02 11:40
 > - Per ciò basta prendere $c \geq 2$
 
 >[!esempio]
->$T(n) = 2T(\lfloor n \rfloor)$
+>$T(n) = 2T(\lfloor \sqrt{ n } \rfloor) + \log_{2}(n)$
+> - poniamo $m = \log_{2}(n)$, quindi $n = 2^m$, otteniamo
+> - $T(2^m)=2T()$
