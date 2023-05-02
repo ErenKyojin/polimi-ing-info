@@ -5,7 +5,9 @@ modification date: 2023-05-02 11:40
 ---
 
 >[!esempio]
->Cerchiamo 
+>Cerchiamo un limite superiore per la seguente $T(n):$
+>$$ T(n) = 2T(\lfloor n / 2\lfloor) + n $$
 
+Supponiamo $T(n)$
 
 
