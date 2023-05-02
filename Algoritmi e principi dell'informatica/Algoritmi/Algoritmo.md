@@ -16,4 +16,7 @@ for j := 2 to A.length
 	A[i + 1] := key
 ```
 
-L'algoritmo sopra riportato è l'[[algoritmo di insertion sort]]
+(L'algoritmo sopra riportato è l'[[algoritmo di insertion sort]])
+
+## Modello di computazione
+Il modello di computazione utilizzato è la macchina RAM
