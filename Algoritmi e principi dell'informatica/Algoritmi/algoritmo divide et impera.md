@@ -10,7 +10,11 @@ Un algoritmo divide et impera ha le caratteristiche seguenti:
 - Indichiamo con $D(n)$ il costo di dividere il problema, e $C(n)$ il costo di ricombinare i sottoproblemi
 - $T(n)$ è il costo del problema totale
 
-Possiamo quindi esprimere $T(n)$ tramite la seguente equazione
+Possiamo quindi esprimere $T(n)$ tramite la seguente equazione di ricorrenza
+$$ T(n) = \begin{cases}
+\Theta(1)\qquad &\text{se }n < c \\
+D(n) + aT(n)
+\end{cases} $$
 
 
 
