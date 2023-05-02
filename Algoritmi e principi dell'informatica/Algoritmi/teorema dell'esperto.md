@@ -28,4 +28,4 @@ $$ T(n) = \begin{cases}
 In cui poniamo $a= \sum a_{i}$
 allora abbiamo che
 - Se $a = 1 \implies T(n)= O(n ^{k + 1})$
-- 
+- Se $a \geq 2 \implies T(n) = O(a^nn^k)$
