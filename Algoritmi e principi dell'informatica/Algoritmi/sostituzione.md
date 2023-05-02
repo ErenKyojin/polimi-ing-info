@@ -21,4 +21,6 @@ modification date: 2023-05-02 11:40
 >[!esempio]
 >$T(n) = 2T(\lfloor \sqrt{ n } \rfloor) + \log_{2}(n)$
 > - poniamo $m = \log_{2}(n)$, quindi $n = 2^m$, otteniamo
-> - $T(2^m)=2T()$
+> - $T(2^m)=2T(2^{m/2}) + m$
+> - Ponendo $S(m) = T(2^m)$ abbiamo $S(m) = 2S(m / 2) + m$ quindi $S(m) = O(m \log_{2}(m))$
+> - Quindi sostituendo 
