@@ -34,8 +34,9 @@ L'idea alla base di Heapsort è che un array si può interpretare come un albero
 >
 > ```tikz
 >\begin{document}
->\begin{tikzpicture}
->\draw (0,0)
+>\begin{tikzpicture}[scale = 2]
+>\draw[->] (0,0) -- (-.2, -.2) -- (.2, -.2) -- (-.4, -.4) -- (.4,-.4) -- (.);
+>
 >\end{tikzpicture}
 >\end{document}
 >```
