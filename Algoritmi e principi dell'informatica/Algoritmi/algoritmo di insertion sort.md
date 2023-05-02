@@ -18,11 +18,11 @@ for j := 2 to A.length
 
 > [!multi-column]
 >
->>[!NOTE]
+>>[!faq] codice
 > > ```clike
 > > for j := 2 to A.length
 > > 	key := A[j]
-> > 	// ins A[j] in
+> > 	// ins A[j] in A[1....j-1]
 > > 	i := k - 1
 > > 	while i > 0 and A[i] > key
 > > 		A[i + 1] := A[i]
@@ -30,7 +30,7 @@ for j := 2 to A.length
 > > 	A[i + 1] := key
 > > ```
 >
->>[!costo]
+>>[!tip] costo
 >>```clike
 >>c1
 >>c2
@@ -41,4 +41,6 @@ for j := 2 to A.length
 >>c7
 >>c8
 >>```
+
+
 
