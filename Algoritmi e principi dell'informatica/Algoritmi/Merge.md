@@ -16,8 +16,14 @@ modification date: 2023-05-02 11:03
 > 	R[j] := A[q + j]
 > L[n1 + 1] := infty
 > R[n2 + 1] := infty
-> i : = 1
-> j L
+> i := 1
+> j := 1
+> for k := p to r
+> 	if L[i] = R[j]
+> 		A[k] := L[i]
+> 		i := i + 1
+> 	else A[k] := R[j]
+> 		j := j + 1
 > ```
 > 
 
