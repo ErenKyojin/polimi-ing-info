@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/algoritmo di insertion sort.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "016fcb315abdf0ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/algoritmo di insertion sort.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -98,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/algoritmo di insertion sort.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/algoritmo di insertion sort.md"
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md"
               }
             }
           }
@@ -150,11 +164,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b40b0a415c2332a",
+  "active": "016fcb315abdf0ef",
   "lastOpenFiles": [
     "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
-    "Algoritmi e principi dell'informatica/Macchina RAM.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
     "Algoritmi e principi dell'informatica/Algoritmi/algoritmo di insertion sort.md",
+    "Algoritmi e principi dell'informatica/Macchina RAM.md",
     "Algoritmi e principi dell'informatica/Algoritmi/pesudocodice.md",
     "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
     "Logica e algebra/Algebra/reticolo.md",
@@ -180,7 +195,6 @@
     "Algoritmi e principi dell'informatica/Omega grande.md",
     "Algoritmi e principi dell'informatica/Esercitazioni/Eseritazione.md",
     "Algoritmi e principi dell'informatica/Theta grande.md",
-    "Algoritmi e principi dell'informatica/O grande.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Logica e algebra/Algebra",
     "GAL/Untitled",

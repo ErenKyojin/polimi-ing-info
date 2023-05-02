@@ -49,4 +49,6 @@ for j := 2 to A.length
 > c5: $\sum_{j = 2}^n t_{j}$
 > c6: $\sum_{j = 2}^n (t_{j} - 1)$
 > c7: $\sum_{j = 2}^n (t_{j} - 1)$
-> 
+> c8: $n - 1$
+
+efficenza $n^2$
