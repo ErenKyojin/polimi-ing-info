@@ -31,16 +31,14 @@ for j := 2 to A.length
 > > ```
 >
 >>[!tip] costo | numero di volte
->>
+>>```clike
 >>c1 | n
 >>c2 | n - 1
 >>0 | n - 1
 >>c4 | n - 1
->>c5 |
+>>c5 | sum_{j = 2}^n 
 >>c6
 >>c7
 >>c8
->>
-
-
+>>```
 
