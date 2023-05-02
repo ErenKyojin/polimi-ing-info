@@ -33,4 +33,9 @@ Abbiamo una riccorrenza tipica di un [[algoritmi divide et impera|algoritmo divi
 $D(n) = \Theta(1), a,b = 2, C(n) = \Theta(n)$
 
 In realtà non stiamo tenendo conto del caso in cui $n$ sia dispari, in cui si ha $T(n) = \lfloor T(n / 2) \rfloor + \lceil T(n / 2)\rceil$
-Ma l'approssimazione non influisce sul comportamento asintotico
+Ma l'approssimazione non influisce sul comportamento asintotico.
+
+Ora dobbiamo risolvere la ricorrenza, partiamo dal fondo:
+
+$T(1) = \Theta(1)$ facciamo solo il controllo
+$T(n) = \Theta(1) + T(n / 2)$
