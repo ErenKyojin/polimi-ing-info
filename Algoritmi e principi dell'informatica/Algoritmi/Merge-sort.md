@@ -72,3 +72,7 @@ sum ...
 
 
 Quindi il totale è $\log_{2}(n) + cn$
+Quindi la compl$\Theta()$
+
+>[!oss]
+>Non c'è un caso ottimo ed un caso pessimo
