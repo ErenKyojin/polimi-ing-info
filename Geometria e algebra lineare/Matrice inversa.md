@@ -82,7 +82,7 @@ Per farlo abbiamo determinare alcune cose:
 > $$ (A^{-1})^{T} = (A^T){-1} \text{  infatti  } (A^{-1})^{T} \cdot A^{T} = (A \cdot A^{-1})^{T} = \mathbb{1}_{n} $$
 
 ## determinare l'inversa
-Vogliamo trovare un algoritmo per determinare l'inversa di una matrice quadrata $A \in M_{\mathbb{K}(n,n)}$ di rango $n$ .
+Vogliamo trovare un [[algoritmo]] per determinare l'inversa di una matrice quadrata $A \in M_{\mathbb{K}(n,n)}$ di rango $n$ .
 Nella dimostrazione del primio teorema della [[Matrice inversa]] abbiamo visto che è sufficiente risolvere $n$ sistemi lineari del tipo $A \mathbf{x} = \mathbf{e}_{i}$ con $\mathbf{e_{i}}=[0\quad \dots\quad 0\quad \underbrace{ 1 }_{ i\text{-esima} } \quad 0\quad\dots \quad 0 ]^T$.
 Per farlo sfruttiamo l'[[Algoritmo di Gauss-Jordan]]
 Per risolvere gli $n$-sistemi lineari: $A\mathbf{x} = \mathbf{e}_{i}\quad \forall i = 1, \dots, n$, contemporaneamente è sufficiente scrivere la matrice $[A| \mathbf{e}_{1}\ \mathbf{e}_{2}\ \dots\ \mathbf{e}_{n}] = [A|\mathbb{1}_{n}]$

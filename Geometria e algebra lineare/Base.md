@@ -84,7 +84,7 @@ Inoltre se $x_{1}\hat{\imath} + y_{1}\hat{\jmath}+ z_{1}\hat{k} = x_{2}\hat{\ima
 
 
 ## estrarre una base da un insieme di generatori
-Vediamo l'algoritmo con un esempio
+Vediamo l'[[algoritmo]] con un esempio
 $H = \Span\left( \begin{bmatrix}1 \\ 1\\ 1\end{bmatrix},\begin{bmatrix}2 \\2\\2\end{bmatrix},\begin{bmatrix}1\\0\\1\end{bmatrix} \right)$
 
 $$ A = \begin{bmatrix}

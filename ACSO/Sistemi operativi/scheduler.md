@@ -10,7 +10,7 @@ Considerà i seguenti parametri:
 
 
 # Preemption
-Gli algoritmi di scheduling si dividono in due categoria
+Gli [[Algoritmo|algoritmi]] di scheduling si dividono in due categoria
 - Non preemptive (run to completion):
 - Preemptive:
 

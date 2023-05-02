@@ -194,9 +194,9 @@ Una stringa $x$ è accettata da una macchina di Turing non deterministica se e s
 Quindi dobbiamo analizzare l'albero e trovare uno stato di accettazione
 
 La domanda è, puó una macchina di Turing deterministica stabilire se una sua sorella non deterministica accetta $x$. Ossia accettare $x$ se e solo se la non deterministica la accettta?
-Per farlo dobbiamo percorrere l'albero delle computazioni non deterministiche per stabilire se esiste in esso un cammino che termina con uno stato di accettazione, è un normale e ben noto problema di visita di alberi per il quale esistono algoritmi appositi, dobbiamo quindi implementare un algoritmo di visita di alberi attraverso maccchina di turing.
+Per farlo dobbiamo percorrere l'albero delle computazioni non deterministiche per stabilire se esiste in esso un cammino che termina con uno stato di accettazione, è un normale e ben noto problema di visita di alberi per il quale esistono algoritmi appositi, dobbiamo quindi implementare un [[algoritmo]] di visita di alberi attraverso maccchina di turing.
 
-In realtà un problema sorge se vi sono nell'albero computazioni che non terminano, ad esempio un algoritmo di visita in profondità in preordine sinistro potrebbe infilarsi in un cammino infinito senza scoprire che in un altro punto dell'albero ne esist euno finito che porta all'accettazione. Si risolve facilmente adottanto un palgoritmo di vista in ampiezza; usa una struttura a coda invece di una a pila per accumulare i vari nodi da esaminare.
+In realtà un problema sorge se vi sono nell'albero computazioni che non terminano, ad esempio un [[algoritmo]] di visita in profondità in preordine sinistro potrebbe infilarsi in un cammino infinito senza scoprire che in un altro punto dell'albero ne esist euno finito che porta all'accettazione. Si risolve facilmente adottanto un palgoritmo di vista in ampiezza; usa una struttura a coda invece di una a pila per accumulare i vari nodi da esaminare.
 
 ---
 Le macchine di Turing sono il modello ideale di calcolatore, per approfondire [[Teoria del calcolo]]

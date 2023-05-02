@@ -1,4 +1,4 @@
----
+	---
 aliases: 
 creation date: 2023-04-27 10:42
 modification date: 2023-04-27 10:42
@@ -36,4 +36,4 @@ Non un vero [[linguaggio]] di programmazione, ma simile, è facile da tradurre i
 
 - Le variabili sono locali alla procedura
 - Agli elementi dell'array si accede come C, ed il primo elemento può avere indice diverso da 0
-- 
+- Esistono sottoarray

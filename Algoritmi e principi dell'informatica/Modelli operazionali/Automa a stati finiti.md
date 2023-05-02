@@ -202,7 +202,7 @@ end
 
 
 ## A cosa serve un automa a stati finiti deterministico?
-Puó essere piú semplice progettarlo e ricavarne, attraverso un algoritmo, l'equivalente deterministico.
+Puó essere piú semplice progettarlo e ricavarne, attraverso un [[algoritmo]], l'equivalente deterministico.
 
 >[!Esempio]
 >Da un AND a 5 stati ne ricaiamo nel peggiore dei casi uno con $2^5$ stati
