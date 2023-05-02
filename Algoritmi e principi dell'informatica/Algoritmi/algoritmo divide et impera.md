@@ -6,7 +6,7 @@ modification date: 2023-05-02 11:15
 
 Un algoritmo divide et impera ha le caratteristiche seguenti:
 - Si divide il problema in sottoproblemi, ognuno di dimensione $1/b$ rispetto all'originale
-- Se
+- Se il sottoproblema ha dimensione $n$ piccola a sufficenza ($n < c$ con $c$ costante caratteristica del problema)
 
 
 
