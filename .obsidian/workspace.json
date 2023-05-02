@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md"
+                "file": "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md"
               }
             }
           }
@@ -163,13 +163,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c4a9ef59f749559",
+  "active": "0b40b0a415c2332a",
   "lastOpenFiles": [
-    "Algoritmi e principi dell'informatica/Algoritmi/sostituzione.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/albero di ricorsione.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/sostituzione.md",
     "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/albero di ricorsione.md",
     "Algoritmi e principi dell'informatica/Algoritmi/algoritmi divide et impera.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Merge.md",
     "Algoritmi e principi dell'informatica/Algoritmi/algoritmo di insertion sort.md",
