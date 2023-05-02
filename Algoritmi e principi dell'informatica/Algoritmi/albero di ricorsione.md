@@ -12,7 +12,21 @@ A partire dalla ricorrenza, sviluppiamo l'albero delle chiamate, indicando per o
 
 Prima chiamata
 ```mermaid
+graph TB
+	A --> B
+	A --> C
+```
 
+Espandiamo
+
+```mermaid
+graph TB
+	A --> B (cn)
+	A --> C (cn / 3)
+	B --> B1 ()
+	B --> B2
+	C --> C1
+	C --> C2
 ```
 
 
