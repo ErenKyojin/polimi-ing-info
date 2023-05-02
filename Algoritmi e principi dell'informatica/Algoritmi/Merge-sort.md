@@ -27,7 +27,3 @@ Per ordinare un array `A = [A[1], A[2],...,A[n]]` usiamo `merge-sort(A, 1, A.len
 >	3. Si fondono (merge) i due sottoarray (che ora sono ordinati)
 
 Merge-sort è un algoritmo ricorsivo
-
-
-## Complessità
-$T_{\text{ MERGE }}(n) = \Theta(n)$
