@@ -50,4 +50,7 @@ graph TB
 	B --> BB(cn / 4)
 	C --> CA(cn / 4)
 	C --> CB(cn / 4)
+	subgraph 1
+	A
+	end
 ```
