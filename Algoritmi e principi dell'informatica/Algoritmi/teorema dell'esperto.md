@@ -23,5 +23,9 @@ Abbiamo un ulteriore risultato
 Data la ricorrenza
 $$ T(n) = \begin{cases}
 \Theta(1) \qquad &\text{se } n \leq m \leq h \\
-\sum_{1 \leq i \leq h} a_{i}
+\sum_{1 \leq i \leq h} a_{i}T(n-1)+cn^k &\text{se } n > m
 \end{cases} $$
+In cui poniamo $a= \sum a_{i}$
+allora abbiamo che
+- Se $a = 1 \implies T(n)= O(n ^{k + 1})$
+- 
