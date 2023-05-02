@@ -17,5 +17,3 @@ modification date: 2023-05-02 11:40
 > - Però $T(n) \leq cn \log_{2}(n)$ deve valere solo da un certo $n_{0}$ in poi, che possiamo scegliere arbitrariamente; scegliamo $n_{0} = 2$, in questo caso se $T(1) = 1$ allora, dalla ricorrenza, $T(2) = 4, T(3) = 5$ e per $n > 3$ non dipende piú da $T(1)$
 > - Ci basta quindi determinare una costante $c$ tale che $T(2) - 4 \leq c_{2} \log_{2}(2)$ e $T(3) - 5 \leq c_{3} \log_{2}(3)$
 > - Per ciò basta prendere $c \geq 2$
-
-Supponiamo $T(n) = 2T(\lfloor \rfloor)$
