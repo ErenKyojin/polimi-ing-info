@@ -14,6 +14,6 @@ modification date: 2023-05-02 11:40
 >  $= cn \log_{2}(n)-cn \log_{2}(n) + n = cn \log_{2}(n) + n \leq cn \log_{2}(n)$
 > 	 - basta che $c \geq 1$
 > - Dobbiamo inoltre mostrare che la disuguaglianza vale per $n = 1$, supponiamo che sia $T(1) =1$, allora $T(1)=1 \leq c1 \log_{2}(1) = 0??$ NO
-> - Però $T(n) \leq cn \log_{2}(n)$ deve valere sol
+> - Però $T(n) \leq cn \log_{2}(n)$ deve valere solo da un certo $n_{0}$ in poi, che possiamo scegliere arbitrariamente; scegliamo $n_{0} = 2$, in questo caso se $T(1) = 1$ allora, dalla ricorrenza 
 
 Supponiamo $T(n) = 2T(\lfloor \rfloor)$
