@@ -18,7 +18,11 @@ modification date: 2023-05-02 10:57
 Per ordinare un array `A = [A[1], A[2],...,A[n]]` usiamo `merge-sort(A, 1, A.length)`
 
 >[!tldr]
->1. Se l'ar
->1. Si divide l'array in due sottoarray
->2. Si ordinano i due sottoarray riapplicando l'algoritmo
->3. Si fondono (merge) i due sottoarray (che ora sono ordinati)
+>Se l'array ha meno di due elementi
+>	è già ordinato
+>Altrimenti:
+>	1. Si divide l'array in due sottoarray
+>	2. Si ordinano i due sottoarray riapplicando l'algoritmo
+>	3. Si fondono (merge) i due sottoarray (che ora sono ordinati)
+
+Merge-sort è un algoritmo ricorsivo
