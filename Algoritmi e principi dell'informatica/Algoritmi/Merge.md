@@ -27,4 +27,5 @@ modification date: 2023-05-02 11:03
 > ```
 > 
 
+È abbastanza immediato che la complessità sia $n$
 
