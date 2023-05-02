@@ -14,5 +14,9 @@ modification date: 2023-05-02 12:33
 
  Se $f(n)$ è una funzione $\Theta(n^k)$ con $k$ qualche costante:
  1. Se $k < \log_{b}(a) \implies T(n)=\Theta(n^{\log_{b}(a)})$
- 2. Se $k = \log_{b}(a) \implies$
+ 2. Se $k = \log_{b}(a) \implies T(n) = \Theta(n^k \log(n))$
+ 3. Se $k < \log_{b}(a) \implies T(n) = \Theta(n^k)$
 
+Abbiamo un ulteriore risultato
+
+## Ricorrenze
