@@ -53,4 +53,15 @@ graph TB
 	subgraph 1
 	A
 	end
+	subgraph 2
+	B
+	C
+	end
+	subgraph 3
+	BA
+	BB
+	CA
+	CB
+	end
+	
 ```
