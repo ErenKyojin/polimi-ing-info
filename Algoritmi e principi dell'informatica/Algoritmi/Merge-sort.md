@@ -30,3 +30,4 @@ Merge-sort è un algoritmo ricorsivo
 
 
 ## Complessità
+$T_{\text{ MERGE }}(n) = \Theta(n)$
