@@ -75,11 +75,6 @@ L'idea alla base di Heapsort è che un array si può interpretare come un albero
 >	(B.center) edge (B2.center)
 >	(B2.center) edge (B21.center);
 >
->\begin{animateinline}
->	\multiframe{11}{rPos = 0 + 0.1}{
->	\begin{tikzpicture}
->		\node at (-0.6,-.1.5){$\$}
->	}
 >\end{tikzpicture}
 >\end{document}
 >```
