@@ -165,10 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dbb2b98954a5b4e4",
+  "active": "016fcb315abdf0ef",
   "lastOpenFiles": [
-    "Algoritmi e principi dell'informatica/Algoritmi/algoritmi divide et impera.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/albero di ricorsione.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/algoritmi divide et impera.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Merge.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
     "Algoritmi e principi dell'informatica/Algoritmi/algoritmo di insertion sort.md",
@@ -195,7 +196,6 @@
     "Algoritmi e principi dell'informatica/Algoritmi",
     "Settings/Canvas/MT to RAM.canvas",
     "Settings/Canvas/RAM to MT.canvas",
-    "Algoritmi e principi dell'informatica/Omega grande.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Logica e algebra/Algebra",
     "GAL/Untitled",

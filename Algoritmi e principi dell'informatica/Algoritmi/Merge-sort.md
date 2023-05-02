@@ -38,4 +38,6 @@ Ma l'approssimazione non influisce sul comportamento [[asintotico]].
 Ora dobbiamo risolvere la ricorrenza, partiamo dal fondo, $T(1) = \Theta(1)$ facciamo solo il controllo, quindi:
 $$T(n) = \Theta(1) + T(n / 2) + T (n / 2) + \Theta(n) = 2T(n / 2) + \Theta(n)$$
 
-Guardo u
+Possiamo risolvere la ricorrenza sfruttando l'[[albero di ricorsione]]:
+-Quando chiamo merge-sort ho un array A tale che $|A| = n$
+
