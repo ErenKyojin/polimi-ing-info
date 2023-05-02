@@ -23,4 +23,4 @@ modification date: 2023-05-02 11:40
 > - poniamo $m = \log_{2}(n)$, quindi $n = 2^m$, otteniamo
 > - $T(2^m)=2T(2^{m/2}) + m$
 > - Ponendo $S(m) = T(2^m)$ abbiamo $S(m) = 2S(m / 2) + m$ quindi $S(m) = O(m \log_{2}(m))$
-> - Quindi sostituendo 
+> - Quindi sostituendo all'inietro $T(n)=O(\log_{2}(n)\log_{2}\log_{2}(n))$
