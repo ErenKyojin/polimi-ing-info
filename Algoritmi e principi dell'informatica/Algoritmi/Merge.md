@@ -19,7 +19,7 @@ modification date: 2023-05-02 11:03
 > i := 1
 > j := 1
 > for k := p to r
-> 	if L[i] = R[j]
+> 	if L[i] <= R[j]
 > 		A[k] := L[i]
 > 		i := i + 1
 > 	else A[k] := R[j]
@@ -27,5 +27,5 @@ modification date: 2023-05-02 11:03
 > ```
 > 
 
-È abbastanza immediato che la complessità sia $n$
+È abbastanza immediato che la complessità sia $n$, ossia lineare
 
