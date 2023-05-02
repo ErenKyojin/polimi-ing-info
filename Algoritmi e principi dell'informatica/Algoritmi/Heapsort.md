@@ -11,7 +11,7 @@ L'idea alla base di Heapsort è che un array si può interpretare come un albero
 > [!multi-column]
 >  
 >
->> [!NOTE]
+>> [!Esempio]
 > >  | pos  | 1   | 2   | 3   | 4   |
 > >  | ---- | --- | --- | --- | --- |
 > >  | elem | 5   | 7   | 2   | 1    |
@@ -23,5 +23,8 @@ L'idea alla base di Heapsort è che un array si può interpretare come un albero
 > > 	A --> C(2)
 > > 	B --> D(1)
 > > ```
-
 > 
+>>[!quote]
+>>Costruzione di un albero corrispondente ad un heap
+>[!oss]
+
