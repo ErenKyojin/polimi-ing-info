@@ -40,6 +40,8 @@ L'albero avrà questa forma:
 \draw[red, fill = red, fill opacity = 0.2] (0,0) -- (-1,-1) -- (1,-1) -- (0,0);
 \draw (3, -2.5) -- (3, 0) node[midway, left]{$\log_{3 / 2}(n)$};
 \draw (-1.5,-1) -- (-1.5,0) node[midway, right]{$\log_3(n)$};
+\draw[dashed] (-1,-1) -- (-2.5,-2.5) -- (2.5,-2.5);
+\draw[dashed] (-2,-.2) -- (2,-.2)''
 \end{tikzpicture}
 \end{document}
 ```
