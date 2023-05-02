@@ -30,4 +30,13 @@ graph TB
 ```
 
 A sinistra il percorso piú corto, di lunghezza $\log_{3}(n)$
-A destra il percorso piú lungo, di lunghezza $\log_{3/2}$
+A destra il percorso piú lungo, di lunghezza $\log_{3/2}(n)$
+
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) -- (-1,-1) -- (3,-2.5)
+\end{tikzpicture}
+\end{document}
+```
