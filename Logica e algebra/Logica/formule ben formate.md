@@ -55,4 +55,9 @@ $v_{3}$ per cui $v_{3}(A) = 1, v_{3}(B)=0$
 
 Decidere se una f.b.f. è soddisfacibile richiede un procedimento semplice, ma costoso dal punto di vista delle complessità (tale [[problema]] è infatti NP-completo).
 
-I concetti di modello, soddisfacibilità e insoddisfacibilità si possono estendere ad un [[insieme]] $\Gamma$ di f.b.f.
+I concetti di modello, soddisfacibilità e insoddisfacibilità si possono estendere ad un [[insieme]] $\Gamma$ di f.b.f. :
+- Un modello per $\Gamma$ è una interpretazione che sia modello per ogni f.b.f. di $\Gamma$
+- $\Gamma$ è soddisfacibile se ammette un modello
+- $\Gamma$ è insoddisfacibile se nessuna interpretazione è un modello per $\Gamma$
+
+Una f.b.f. $\mathcal{A}$ è una **coseguenza semantica** di un insieme $\Gamma$ di f.b.f., e si scrive $\Gamma \vDash \mathcal{A}$, se ogni modello di $\Gamma$
