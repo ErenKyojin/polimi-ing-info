@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: sottoformula
 creation date: 2023-05-03 09:38
 modification date: 2023-05-03 09:38
 ---

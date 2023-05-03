@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Logica/albero di struttura.md",
+                "file": "Logica e algebra/Logica/proposizione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Logica/albero di struttura.md",
+                "file": "Logica e algebra/Logica/proposizione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Logica/albero di struttura.md",
+                "file": "Logica e algebra/Logica/proposizione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Logica/albero di struttura.md"
+                "file": "Logica e algebra/Logica/proposizione.md"
               }
             }
           },
@@ -160,14 +161,14 @@
   },
   "active": "9b260c1adeaf5667",
   "lastOpenFiles": [
-    "Logica e algebra/Logica/proposizione.md",
     "Logica e algebra/Logica/albero di struttura.md",
+    "Logica e algebra/Logica/connettivi.md",
+    "Logica e algebra/Logica/proposizione.md",
+    "Logica e algebra/Logica/sottoformule.md",
     "Logica e algebra/Algebra/Teorema di cantor.md",
     "Logica e algebra/Algebra/Leggi di composizione.md",
     "Logica e algebra/Algebra/Funzione iniettiva.md",
     "Logica e algebra/Algebra/insieme quoziente.md",
-    "Logica e algebra/Logica/sottoformule.md",
-    "Logica e algebra/Logica/connettivi.md",
     "Logica e algebra/Logica/formule ben formate.md",
     "Logica e algebra/Logica/Logica proposizionale.md",
     "Logica e algebra/Logica",

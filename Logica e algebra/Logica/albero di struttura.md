@@ -25,11 +25,14 @@ modification date: 2023-05-03 09:56
 > (B) edge (B1)
 > (C) edge (C1) edge (C2)
 > (B1) edge (B11) edge (B12)
-> (C21)
+> (C2) edge (C21) edge (C22)
 > ;
 >\end{tikzpicture}
 >\end{document}
 >```
+
+ogni albero di strutturo ha come radico l'ultimo connettivo utilizzato (connettivo principale), le foglia sono le lettere enunciative, i nodi interni i [[connettivi]].
+Ogni nodo inoltre può essere visto come la radice di un sottoalbero massimale che è l'albero di struttura di una [[sottoformule|sottoformula]], ed allo stesso modo ogni sottoformula ha come albero di struttura un sottoalbero massimale che ha come radice un nodo etichettato dal connettivo principale della sottoformula considerata.
 
 
 
