@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Logica/formule ben formate.md",
+                "file": "Logica e algebra/Logica/sottoformule.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Logica/formule ben formate.md",
+                "file": "Logica e algebra/Logica/sottoformule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Logica/formule ben formate.md",
+                "file": "Logica e algebra/Logica/sottoformule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Logica/formule ben formate.md"
+                "file": "Logica e algebra/Logica/sottoformule.md"
               }
             }
           },
@@ -214,9 +214,10 @@
   },
   "active": "09f05d81bf1295c8",
   "lastOpenFiles": [
-    "Logica e algebra/Logica/proposizione.md",
-    "Logica e algebra/Logica/formule ben formate.md",
     "Logica e algebra/Logica/connettivi.md",
+    "Logica e algebra/Logica/sottoformule.md",
+    "Logica e algebra/Logica/formule ben formate.md",
+    "Logica e algebra/Logica/proposizione.md",
     "Logica e algebra/Logica/Logica proposizionale.md",
     "Logica e algebra/Logica",
     "conflict-files-obsidian-git.md",
@@ -240,7 +241,6 @@
     "Logica e algebra/Algebra/Relazioni permutabili.md",
     "Logica e algebra/Algebra/Funzione biunivoca.md",
     "Logica e algebra/Algebra/Funzione iniettiva.md",
-    "Logica e algebra/Algebra/funzione inversa.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",

@@ -15,10 +15,8 @@ modification date: 2023-05-03 09:25
 Le lettere in stampatello indicano lettere enunciative, le lettere corsive indicano una f.b.f
 
 >[!esempio]
-> $((\sim(A \land B)) \iff(A \implies (B \lor A)))$ è una formula ben formata, ma contiene troppe parentesi
-
-
-
+> $((\sim(A \land B)) \iff(A \implies (B \lor A)))$ è una formula ben formata, ma contiene troppe parentesi, introduciamo quindi [[connettivi#precedenza]]
+> 
 
 
 
