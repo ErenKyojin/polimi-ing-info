@@ -20,7 +20,7 @@ Le lettere in stampatello indicano lettere enunciative, le lettere corsive indic
 
 
 
-Una [[formule ben formate|f.b.f.]] $\mathcal{A}$ si dice **soddisfacibile** se esiste almeno una interpretazione $v$ tale che $v(\mathcal{A}) = 1$, l'interpretazione $v$ si dice in tal caso modello di $\mathcal{A}$.
+Una [[formule ben formate|f.b.f.]] $\mathcal{A}$ si dice **soddisfacibile** se esiste almeno una [[interpretazione]] $v$ tale che $v(\mathcal{A}) = 1$, l'interpretazione $v$ si dice in tal caso modello di $\mathcal{A}$.
 
 Una f.b.f. $\mathcal{A}$ per cui ogni interpretazione è un modello si dice **tautologia** e si scrive $\vDash \mathcal{A}$.
 
@@ -38,4 +38,21 @@ A questo punto se vogliamo ottenere tutte le possibile interpretazioni della for
 | 1   | 0   | 0           | 1          | 1                 | 1                       | 1                                               |
 | 1   | 1   | 1           | 1          | 0                 | 1                       | 0                                               | 
 
-Più brevemente possiamo calcolare la tavola di 
+Più brevemente possiamo calcolare la tavola di verità della nostra formula, senza riscrivere tutte le sue [[sottoformule]], ma mettendo i valori di verità di ogni sottoformula sotto il suo connettivo principale (cioè sotto l'ultimo connettivo usato per costruire la sottoformula)
+
+| $\sim$ | $A$ | $\land$ | $B$ | $\iff$ | ($A$ | $\implies$ | ($B$ | $\lor$ | $A$)) |
+| ------ | --- | ------- | --- | :------: | ---- | ---------- | ---- | ------ | ----- |
+| 1      | 0   | 0       | 0   | 1      | 0    | 1          | 0    | 0      | 0     |
+| 1      | 0   | 0       | 1   | 1      | 0    | 1          | 1    | 1      | 0     |
+| 1      | 1   | 0       | 0   | 1      | 1    | 1          | 0    | 1      | 1     |
+| 0      | 1   | 1       | 1   | 0      | 1    | 1          | 1    | 1      | 1      |
+
+Le righe della tavola di verità sono tutte le possibile interpretazioni della formula e le righe che restituiscono il valore $1$ nella colonna del connettivo principale sono i modelli della formula.
+Sono allora modelli per la nostra formula le valutazioni:
+$v_{1}$ per cui $v_{1}(A) = v_{1}(B) = 0$
+$v_{2}$ per cui $v_{2}(A) = 0$, $v_{2}(B)=1$
+$v_{3}$ per cui $v_{3}(A) = 1, v_{3}(B)=0$
+
+Decidere se una f.b.f. è soddisfacibile richiede un procedimento semplice, ma costoso dal punto di vista delle complessità (tale [[problema]] è infatti NP-completo).
+
+I concetti di modello, soddisfacibilità e insoddisfacibilità si possono estendere ad un [[insieme]] $\Gamma$ di f.b.f.
