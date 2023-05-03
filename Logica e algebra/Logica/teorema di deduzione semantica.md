@@ -22,8 +22,11 @@ Sia $v$ un modello per $\Gamma$. Distinguiamo due casi.
 >>In entrambi i casi quindi $v$ è un modello per $\mathcal{B \implies A}$
 >>
 >>hp: $\Gamma \vDash \mathcal{B \implies A}$, th: $\Gamma \cup \{ \mathcal{B} \} \vDash \mathcal{A}$
->>Sia $v$ un modello per $\Gamma \cup \{ \mathcal{B } \}$ allora $v$ è 
+>>Sia $v$ un modello per $\Gamma \cup \{ \mathcal{B } \}$ allora $v$ è un modello per $\Gamma$ e per $\mathcal{B}$. Essendo un modello per $\Gamma$ dall'ipotesi si ha $v(\mathcal{B} \implies \mathcal{A})=1$ che assieme a $v(\mathcal{B})=1$ implica $v(\mathcal{A})=1$
 
+È interessante il legame fra deduzione semantica ed insoddisfacibilità, dato dal seguente teorema:
+
+>
 
 
 

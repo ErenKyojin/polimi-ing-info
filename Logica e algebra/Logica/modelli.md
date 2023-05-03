@@ -27,7 +27,7 @@ I concetti di modello, soddisfacibilità e insoddisfacibilità si possono estend
 - $\Gamma$ è insoddisfacibile se nessuna [[interpretazione]] è un modello per $\Gamma$
 
 Una f.b.f. $\mathcal{A}$ è una **coseguenza [[semantica]]** di un [[insieme]] $\Gamma$ di f.b.f., e si scrive $\Gamma \vDash \mathcal{A}$, se ogni modello di $\Gamma$ è un modello per $\mathcal{A}$.
-In particolare $\mathcal{A}$ è conseguenza semantica di $\mathcal{B}$ se ogni modello di $\mathcal{B}$ è modello di $\mathcal{A}$. Si ottiene quindi il [[teorema di riduzione semantica]]
+In particolare $\mathcal{A}$ è conseguenza semantica di $\mathcal{B}$ se ogni modello di $\mathcal{B}$ è modello di $\mathcal{A}$. Si ottiene quindi il [[teorema di deduzione semantica]]
 
 
 
