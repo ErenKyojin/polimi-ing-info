@@ -16,3 +16,4 @@ Per costruire le proposizioni usiamo un [[linguaggio]] il cui alfabeto è compos
 >Spesso si aggiungono alle lettere enunciativi altri due siboli $\perp$ e **T**
 
 Dobbiamo considerare le possibili sequenze di simboli che hanno una buona struttura (dette [[formule ben formate]], o f.b.f). 
+Per ogni formula inoltre possiamo definire l'[[albero di struttura]] della formula

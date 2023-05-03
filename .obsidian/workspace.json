@@ -4,76 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "86f4037fd29ab4ea",
+        "id": "8c7be1f17966f759",
         "type": "tabs",
         "children": [
           {
-            "id": "0bc8565c7d011c80",
+            "id": "9b260c1adeaf5667",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Algebra/Teorema di cantor.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5574ddbfc91437a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logica e algebra/Algebra/Leggi di composizione.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52a2a737e2be402e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logica e algebra/Algebra/Funzione iniettiva.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8561ce0ca289d1bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logica e algebra/Algebra/insieme quoziente.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "09f05d81bf1295c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logica e algebra/Logica/sottoformule.md",
+                "file": "Logica e algebra/Logica/albero di struttura.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +49,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Logica/sottoformule.md",
+                "file": "Logica e algebra/Logica/albero di struttura.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -131,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -152,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Logica/sottoformule.md",
+                "file": "Logica e algebra/Logica/albero di struttura.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Logica/sottoformule.md"
+                "file": "Logica e algebra/Logica/albero di struttura.md"
               }
             }
           },
@@ -212,12 +158,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "09f05d81bf1295c8",
+  "active": "9b260c1adeaf5667",
   "lastOpenFiles": [
-    "Logica e algebra/Logica/connettivi.md",
-    "Logica e algebra/Logica/sottoformule.md",
-    "Logica e algebra/Logica/formule ben formate.md",
     "Logica e algebra/Logica/proposizione.md",
+    "Logica e algebra/Logica/albero di struttura.md",
+    "Logica e algebra/Algebra/Teorema di cantor.md",
+    "Logica e algebra/Algebra/Leggi di composizione.md",
+    "Logica e algebra/Algebra/Funzione iniettiva.md",
+    "Logica e algebra/Algebra/insieme quoziente.md",
+    "Logica e algebra/Logica/sottoformule.md",
+    "Logica e algebra/Logica/connettivi.md",
+    "Logica e algebra/Logica/formule ben formate.md",
     "Logica e algebra/Logica/Logica proposizionale.md",
     "Logica e algebra/Logica",
     "conflict-files-obsidian-git.md",
@@ -232,15 +183,10 @@
     "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Grafi.md",
-    "Logica e algebra/Algebra/insieme quoziente.md",
-    "Logica e algebra/Algebra/Teorema di cantor.md",
-    "Logica e algebra/Algebra/Leggi di composizione.md",
     "Geometria e algebra lineare/cardinalità.md",
     "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
     "Logica e algebra/Algebra/relazioni binarie.md",
     "Logica e algebra/Algebra/Relazioni permutabili.md",
-    "Logica e algebra/Algebra/Funzione biunivoca.md",
-    "Logica e algebra/Algebra/Funzione iniettiva.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",
