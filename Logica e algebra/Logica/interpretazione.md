@@ -19,4 +19,3 @@ Fissare un interpretazione corrisponde a:
 - Passare dal valore di verità di $\mathcal{A}$ e $\mathcal{B}$ a quello di $\sim \mathcal{A}, \mathcal{A \land B}, \mathcal{A \lor B}, \mathcal{ A \implies B}, \mathcal{A \iff B}$ utilizzando le tavole di verità dei [[connettivi]]
 
 
-

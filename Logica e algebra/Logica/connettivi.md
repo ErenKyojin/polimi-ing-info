@@ -64,4 +64,3 @@ modification date: 2023-05-03 09:17
 > > | 1   | 0   | 0          |
 > > | 1   | 1   | 1           |
 
-Una [[formule ben formate|f.b.f,]]. si dice 
