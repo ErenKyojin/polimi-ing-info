@@ -23,3 +23,45 @@ modification date: 2023-05-03 09:17
 >Possiamo riscrivere la formula $((\sim(A \land B)) \iff (A \implies (B \lor A)))$ come
 >$$  \sim(A \lor B) \iff A \implies B \lor A $$, notare che abbiamo costituito questa formula mettendo insieme [[sottoformule]]. 
 
+## Tavole di verità
+
+
+>[!multi-column]
+> > | $A$ | $\sim A$ |
+> > | --- | -------- |
+> > | 0   | 1        |
+> > | 1   | 0        | 
+> 
+> 
+> > | $A$ | $B$ | $A \land B$ |
+> > | --- | --- | ----------- |
+> > | 0   | 0   | 0           |
+> > | 0   | 1   | 0           |
+> > | 1   | 0   | 0           |
+> > | 1   | 1   | 1           | 
+> 
+> 
+> > | $A$ | $B$ | $A \lor B$ |
+> > | --- | --- | ---------- |
+> > | 0   | 0   | 0          |
+> > | 0   | 1   | 1          |
+> > | 1   | 0   | 1          |
+> > | 1   | 1   | 1          | 
+> 
+> 
+> > | $A$ | $B$ | $A \implies B$ |
+> > | --- | --- | -------------- |
+> > | 0   | 0   | 1              |
+> > | 0   | 1   | 1              |
+> > | 1   | 0   | 0              |
+> > | 1   | 1   | 1              | 
+> 
+> 
+> > | $A$ | $B$ | $A \iff B$ |
+> > | --- | --- | ---------- |
+> > | 0   | 0   | 1          |
+> > | 0   | 1   | 0          |
+> > | 1   | 0   | 0          |
+> > | 1   | 1   | 1           |
+
+Una [[formule ben formate|f.b.f,]]. si dice 
