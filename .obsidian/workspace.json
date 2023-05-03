@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Logica/formule ben formate.md",
+                "file": "Logica e algebra/Logica/teorema di riduzione semantica.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Logica/formule ben formate.md",
+                "file": "Logica e algebra/Logica/teorema di riduzione semantica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Logica/formule ben formate.md",
+                "file": "Logica e algebra/Logica/teorema di riduzione semantica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Logica/formule ben formate.md"
+                "file": "Logica e algebra/Logica/teorema di riduzione semantica.md"
               }
             }
           },
@@ -161,9 +161,11 @@
   },
   "active": "9b260c1adeaf5667",
   "lastOpenFiles": [
-    "Logica e algebra/Logica/connettivi.md",
+    "Logica e algebra/Logica/modelli.md",
+    "Logica e algebra/Logica/teorema di riduzione semantica.md",
     "Logica e algebra/Logica/formule ben formate.md",
     "Logica e algebra/Logica/interpretazione.md",
+    "Logica e algebra/Logica/connettivi.md",
     "Logica e algebra/Logica/proposizione.md",
     "Logica e algebra/Logica/albero di struttura.md",
     "Logica e algebra/Logica/sottoformule.md",
@@ -186,8 +188,6 @@
     "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Grafi.md",
     "Geometria e algebra lineare/cardinalità.md",
-    "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
-    "Logica e algebra/Algebra/relazioni binarie.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",
