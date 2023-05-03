@@ -9,10 +9,24 @@ modification date: 2023-05-03 09:56
 >
 >```tikz
 >\begin{document}
->\begin{tikzpicture}
+>\begin{tikzpicture}[scale = 3]
 > \node (A) at (0,0){$\iff$};
 > \node (B) at (-0.5,-0.5){$\sim$};
-> 
+> \node (C) at (0.5,-.5){$\Rightarrow$};
+> \node (B1) at (-0.5,-1){$\land$};
+> \node (C1) at (0.25,-1){$A$};
+> \node (C2) at (0.75,-1){$\lor$};
+> \node (B11) at (-0.75,-1.5){$A$};
+> \node (B12) at (-0.25,-1.5){$B$};
+> \node (C21) at (0.5,-1.5){$A$};
+> \node (C22) at (1,-1.5){$B$};
+>
+>\path (A) edge (B) edge (C)
+> (B) edge (B1)
+> (C) edge (C1) edge (C2)
+> (B1) edge (B11) edge (B12)
+> (C21)
+> ;
 >\end{tikzpicture}
 >\end{document}
 >```
