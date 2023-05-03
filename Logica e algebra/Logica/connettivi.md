@@ -11,6 +11,11 @@ modification date: 2023-05-03 09:17
 > - Or $\lor$
 > - Implica $\implies$
 > - Se e solo se $\iff$
+> 
+> Per indicare l'ordine di applicazione dei connettivi si utilizzano parentesi
+
+
+
 
 
 

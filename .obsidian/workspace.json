@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Logica/connettivi.md",
+                "file": "Logica e algebra/Logica/formule ben formate.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Logica/connettivi.md",
+                "file": "Logica e algebra/Logica/formule ben formate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -131,7 +131,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Logica/connettivi.md",
+                "file": "Logica e algebra/Logica/formule ben formate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Logica/connettivi.md"
+                "file": "Logica e algebra/Logica/formule ben formate.md"
               }
             }
           },
@@ -214,6 +215,7 @@
   "active": "09f05d81bf1295c8",
   "lastOpenFiles": [
     "Logica e algebra/Logica/proposizione.md",
+    "Logica e algebra/Logica/formule ben formate.md",
     "Logica e algebra/Logica/connettivi.md",
     "Logica e algebra/Logica/Logica proposizionale.md",
     "Logica e algebra/Logica",
@@ -239,7 +241,6 @@
     "Logica e algebra/Algebra/Funzione biunivoca.md",
     "Logica e algebra/Algebra/Funzione iniettiva.md",
     "Logica e algebra/Algebra/funzione inversa.md",
-    "Logica e algebra/Algebra/Funzione suriettiva.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",
