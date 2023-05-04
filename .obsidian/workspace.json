@@ -98,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -178,7 +178,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2baabc8bdfa86e16",
+  "active": "fd5a7104086bfe35",
   "lastOpenFiles": [
     "Logica e algebra/Logica/modelli.md",
     "Logica e algebra/Logica/teorema di deduzione semantica.md",
