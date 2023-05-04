@@ -19,19 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2baabc8bdfa86e16",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
