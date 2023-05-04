@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2baabc8bdfa86e16",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,6 +86,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "5e13fcc4a0982c2b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -159,7 +178,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9b260c1adeaf5667",
+  "active": "2baabc8bdfa86e16",
   "lastOpenFiles": [
     "Logica e algebra/Logica/modelli.md",
     "Logica e algebra/Logica/teorema di deduzione semantica.md",
