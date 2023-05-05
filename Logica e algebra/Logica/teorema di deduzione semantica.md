@@ -29,4 +29,3 @@ Sia $v$ un modello per $\Gamma$. Distinguiamo due casi.
 >
 
 
-
