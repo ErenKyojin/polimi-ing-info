@@ -72,3 +72,7 @@ Le prime due affermazioni vengono solitamente chiamate (meta)teoremi di corrette
 
 > [!dim]
 > Accenniamo solo alla dimostrazione del teorema di correttezza:
+> È immediato verificare che gli schemi di assiomi della teoria sono tutti tautologie, inoltre il modus ponens ffa passare da tautologie a tautologie, pertanto possiamo dimostrare che ogni teorema di $L$ è una tautologia procedendo per induzione sul numero $n$ di formule della dimostrazione. Se $n = 1$, la dimostrazione consiste di una sola formula (il teorema) che può essere solo un assioma e quindi è una tautologia.
+> Per ipotesi di induzione supponiamo che ogni formula dimostrata con un numero di passi $m < n$ sia una tautologia. Sia $\mathcal{A}$ un teorema dimiostrato con $n$ passi. Se $\mathcal{A}$ è scritta, come $n$-esimo passo della dimostrazione, in quanto assioma è ovviamente una tautologia;  se invece è scritta perchè si è utilizzato il modus ponens su due formule precedenti, ognuna di queste, essendo stata dimostrata con un numero di passi inferiore ad $n$, è una tautologia per ipotesi di induzione ed $\mathcal{A}$ è una tautologia perchè il modus ponens fa passar e da tautologie a tautologie.
+
+I teoremi di correttezza e completezza ammettono anche una formulazione più forte che è quella del [[teorema di correttezza e completezza forte]] 
