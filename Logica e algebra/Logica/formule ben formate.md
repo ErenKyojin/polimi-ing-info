@@ -70,8 +70,19 @@ Ad ogni riga della tavolesi associa un termine costruito facendo l'and di ogni l
 > Una formula (in forma normale disgiuntiva) che ammette la tavola data come tavole di verità è:
 >  $$ (\sim A \land B \land \sim C) \lor (\sim \land A \land B \land C) \lor (A \land B \land \sim C) $$
 >  
->Possiamo quindi osservare che un qualsiasi f.b.f. annette una fomrula equivalente che usa solo i tre connettivi $\sim, \land, \lor$.
+>Possiamo quindi osservare che un qualsiasi f.b.f. annette una fomrula equivalente che usa solo i tre [[connettivi]] $\sim, \land, \lor$.
 
 Per trasformare una formula in modo da costruire una f.b.f. equivalente alla data e che sia "più semplice" perchè utilizza un numero minore di connettivi, o un numero minore di tipi di connettivi, si utilizzano le seguenti osservazioni:
 
-- Se in una formula $\mathcal{A}$ si sostituisce una sottoformula $\mathcal{B}$ con una formula $\mathcal{B}'$ equivalente a $\mathcal{B}$
+- Se in una formula $\mathcal{A}$ si sostituisce una sottoformula $\mathcal{B}$ con una formula $\mathcal{B}'$ equivalente a $\mathcal{B}$, si ottiene una formula $\mathcal{A}'$ equivalente ad $A$.
+- Se in una tautologia $\mathcal{A}$ si sostituisce ogni occorrenza di una stessa lettera enunciativa $A$ con la stessa formula $\mathcal{B}$ si ottiene ancora una tautologia
+
+E le seguenti equivalenze fondamentali:
+$$ \begin{align}
+\sim(\sim A) &\equiv A\qquad&A \lor A &\equiv A \\
+ A \land A &\equiv A & A \lor B&\equiv B  \lor A\\
+ (A \land B) \land C &\equiv A \land (B \land C) & (A \lor B) \lor C &\equiv A \lor (B \lor C) \\
+A \land (A \lor B) &\equiv A & A \lor (A \land B) &\equiv A \\
+A \land (B \lor C) &\equiv (A \land B) \lor (A \land C) &A &\equiv
+ 
+\end{align} $$
