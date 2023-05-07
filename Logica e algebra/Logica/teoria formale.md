@@ -21,6 +21,8 @@ Osserviamo che se $\Gamma |_{-H}\mathcal{A}$ allora:
 - esiste un insieme finito $\Gamma' \subseteq \Gamma$ tale che $\Gamma' |_{-H}\mathcal{A}$
 - per ogni insieme di f.b.f. $\Delta$ tale che $\Delta \supseteq \Gamma$ si ha $\Delta |_{-H} \mathcal{A}$
 
+
+## Teoria formale $L$
 Vogliamo a questo punto definire una teoria sostanzialmente basata sul [[linguaggio]] che abbiamo introdotto all'inizio, che chiamiamo teoria $L$, che permette di ottenere come teoremi tutte e sole le tautologie e permetta da dedurre da un insieme $\Gamma$ di formule tutte e sole le conseguenze semantiche di $\Gamma$.
 
 ### Simboli di L
@@ -54,6 +56,19 @@ A3. $(\sim \mathcal{A} \implies \sim \mathcal{B}) \implies ((\sim A \implies \ma
 >[!esempio]
 >$|_{-L} \mathcal{A} \implies \mathcal{A}$
 >Per dimostrarlo dobbiamot rovare una dimostrazione in $L$ che finisca con la formula $\mathcal{A} \implies \mathcal{A}$ e tale che le formule della sequenza o siano assiomi o siano ricavate da formule precedenti per Modus Ponens.
->1. $\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A})$ è lo schema di assiomi A1 dove $\mathcal{B}$
->2. $\mathcal{A} \implies ((\mathcal{A} \implies \mathcal{A}) \implies \mathcal{A})$
->3. $(\mathcal{A} \implies (( \mathcal{A} \implies \mathcal{A}) \implies \mathcal{A})) \implies ((\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A}))\implies (\mathcal{A} \implies \mathcal{A}))$
+>1. $\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A})$ è lo schema di assiomi A1 dove $\mathcal{B}$ è sostituito con $\mathcal{A}$
+>2. $\mathcal{A} \implies ((\mathcal{A} \implies \mathcal{A}) \implies \mathcal{A})$ è lo schema di assiomi A1 dove $\mathcal{B}$ è stato sotituito con $\mathcal{A} \implies \mathcal{A}$
+>3. $(\mathcal{A} \implies (( \mathcal{A} \implies \mathcal{A}) \implies \mathcal{A})) \implies ((\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A}))\implies (\mathcal{A} \implies \mathcal{A}))$ è lo schema di assiomi A2 dove $\mathcal{B}$ è stato sotituito con $\mathcal{A} \implies \mathcal{A}$ e $\mathcal{C}$ con $\mathcal{A}$
+>4. $(\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A})) \implies (\mathcal{A} \implies \mathcal{A})$ applicando Modus Ponens tra le formule 2 e 3
+>5. $\mathcal{A} \implies \mathcal{A}$ applicando Modus Ponens tra le formule 1 e la 4
+
+
+
+La teoria formale $L$ che abbiamo così presentato ha tre importanti caratteristiche:
+- È **corretta**, cioè tutti i suoi teoremi sono tautologie
+- È **completa**, cioè tutte le tautologie sono teoremi di $L$
+- È **decidibile**, cioè esiste un algoritmo (la tavole di verità) che con un numero finito di passi (con noto il limite superiore) permette di decidere se una data formula è o non è un teorema della teoria
+Le prime due affermazioni vengono solitamente chiamate (meta)teoremi di corretteza e completezza, il prefisso meta indica che sono teoremi sulla teoria che sono enunciati e non sono dimostrati utilizzando il linguaggio della teoria stessa.
+
+> [!dim]
+> Accenniamo solo alla dimostrazione del teorema di correttezza:
