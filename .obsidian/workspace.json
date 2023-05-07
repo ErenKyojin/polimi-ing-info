@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Logica/connettivi.md",
+                "file": "Logica e algebra/Logica/teoria formale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Logica/connettivi.md",
+                "file": "Logica e algebra/Logica/teoria formale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -86,8 +86,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Logica/connettivi.md",
+                "file": "Logica e algebra/Logica/teoria formale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Logica/connettivi.md"
+                "file": "Logica e algebra/Logica/teoria formale.md"
               }
             }
           },
@@ -169,33 +168,33 @@
   },
   "active": "9b260c1adeaf5667",
   "lastOpenFiles": [
-    "Logica e algebra/Logica/insiemi adeguati.md",
     "Logica e algebra/Logica/connettivi.md",
-    "Logica e algebra/Logica/formule ben formate.md",
-    "Logica e algebra/Logica/semanticamente equivalente.md",
-    "Logica e algebra/Logica/teorema di compattezza.md",
-    "Logica e algebra/Logica/teorema di deduzione semantica.md",
-    "Logica e algebra/Logica/modelli.md",
-    "Logica e algebra/Logica/interpretazione.md",
-    "Logica e algebra/Logica/proposizione.md",
-    "Logica e algebra/Logica/albero di struttura.md",
-    "Logica e algebra/Logica/sottoformule.md",
-    "Logica e algebra/Algebra/Teorema di cantor.md",
-    "Logica e algebra/Algebra/Leggi di composizione.md",
-    "Logica e algebra/Algebra/Funzione iniettiva.md",
-    "Logica e algebra/Algebra/insieme quoziente.md",
-    "Logica e algebra/Logica/Logica proposizionale.md",
+    "Logica e algebra/Logica/teoria formale.md",
+    "Elettrotecnica/nullore.md",
+    "Elettrotecnica/risposta in frequenza.md",
+    "Elettrotecnica/transitorio.md",
+    "Elettrotecnica/teorema di tellegen.md",
+    "Elettrotecnica/teorema di Millman.md",
+    "Elettrotecnica/Teorema di Boucherot.md",
+    "Elettrotecnica/tensione.md",
+    "Elettrotecnica/Valore efficace.md",
+    "Elettrotecnica/trasferitore ideale di potenza.md",
+    "Elettrotecnica/Richiami.md",
+    "Elettrotecnica/resistenza.md",
+    "Elettrotecnica/regime stazionario.md",
+    "Algoritmi e principi dell'informatica/semantica.md",
+    "Algoritmi e principi dell'informatica/Intersezione.md",
+    "Algoritmi e principi dell'informatica/funzione parziale.md",
+    "Algoritmi e principi dell'informatica/Funzione caratteristica.md",
+    "Algoritmi e principi dell'informatica/Epsilon.md",
+    "Algoritmi e principi dell'informatica/determinismo.md",
+    "Algoritmi e principi dell'informatica/Costo di un calcolo.md",
+    "Algoritmi e principi dell'informatica/Configurazione.md",
+    "Algoritmi e principi dell'informatica/Complessità temporale.md",
+    "Algoritmi e principi dell'informatica/Complessità spaziale.md",
+    "Algoritmi e principi dell'informatica/complemento.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
     "Logica e algebra/Logica",
-    "conflict-files-obsidian-git.md",
-    "Algoritmi e principi dell'informatica/Macchina RAM.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/teorema dell'esperto.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/sostituzione.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/algoritmo di insertion sort.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/algoritmi divide et impera.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/albero di ricorsione.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/Merge.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
     "Settings/Canvas/RAM to MT.canvas",
     "Settings/Canvas/MT to RAM.canvas",
