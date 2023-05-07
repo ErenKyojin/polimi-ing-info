@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logica e algebra/Logica/semanticamente equivalente.md",
+                "file": "Logica e algebra/Logica/formule ben formate.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logica e algebra/Logica/semanticamente equivalente.md",
+                "file": "Logica e algebra/Logica/formule ben formate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logica e algebra/Logica/semanticamente equivalente.md",
+                "file": "Logica e algebra/Logica/formule ben formate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logica e algebra/Logica/semanticamente equivalente.md"
+                "file": "Logica e algebra/Logica/formule ben formate.md"
               }
             }
           },
@@ -169,8 +169,8 @@
   },
   "active": "9b260c1adeaf5667",
   "lastOpenFiles": [
-    "Logica e algebra/Logica/teorema di compattezza.md",
     "Logica e algebra/Logica/semanticamente equivalente.md",
+    "Logica e algebra/Logica/teorema di compattezza.md",
     "Logica e algebra/Logica/teorema di deduzione semantica.md",
     "Logica e algebra/Logica/modelli.md",
     "Logica e algebra/Logica/formule ben formate.md",

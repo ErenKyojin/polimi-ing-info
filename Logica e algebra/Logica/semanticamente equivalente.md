@@ -9,7 +9,5 @@ $\mathcal{A}$ è semanticamente equivalente a $\mathcal{B}$ se e solo se $\mathc
 
 Le formule non semanticamente euqivalenti costruite utilizzando $n$ lettere enunciative sono al piú $2^{2^n}$, tante sono infatti le possibili tavole di verità distinte in quanto ci sono $2^n$ possibili assegnamenti di valori alle lettere enunciative e per ogni assegnamento di valori alle lettere enunciative ci sono due possibili valori di verità per una [[formule ben formate|f.b.f.]] 
 
-Ad ogni tavola di verità corrisponde sempre una f.b.f. che la ammette come tavola di verità? La risposta è sí, ed il metodo per costrui la formula è il seguente:
-Ad ogni riga della tavolesi associa un termine costruito facendo l'and di ogni lettera enunciativa o della sua negazione, a seconda che le lettere assumano il valore 1 o 0
 
 

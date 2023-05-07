@@ -48,3 +48,30 @@ Più brevemente possiamo calcolare la tavola di verità della nostra formula, se
 | 0      | 1   | 1       | 1   | 0      | 1    | 1          | 1    | 1      | 1      |
 
 Le righe della tavola di verità sono tutte le possibile interpretazioni della formula e le righe che restituiscono il valore $1$ nella colonna del connettivo principale sono i [[modelli]] della formula.
+
+
+Ad ogni tavola di verità corrisponde sempre una f.b.f. che la ammette come tavola di verità? La risposta è sí, ed il metodo per costrui la formula è il seguente:
+Ad ogni riga della tavolesi associa un termine costruito facendo l'and di ogni lettera enunciativa o della sua negazione, a seconda che le lettere assumano il valore 1 o 0, poichè i termini così costruiti hanno la caratteristica di valere $1$ solo in corrispondenza dell'assegnamento di valori di verità fassiato da quella riga, facendo l'or dei termini che corrispondono alle righe in cui la formula assume il valore $1$, si costruisce una f.b.f. che ha esattamente la tavola di verità assegnata. La formula così costruita ha una forma speciale detta forma normale disgiuntiva.
+
+> [!esempio]
+> Data la tavola
+> 
+> | A   | B   | C   | f(A,B,C) |
+> | --- | --- | --- | -------- |
+> | 0   | 0   | 0   | 0        |
+> | 0   | 0   | 1   | 0        |
+> | 0   | 1   | 0   | 1        |
+> | 0   | 1   | 1   | 1        |
+> | 1   | 0   | 0   | 0        |
+> | 1   | 0   | 1   | 0        |
+> | 1   | 1   | 0   | 1        |
+> | 1   | 1   | 1   | 0        | 
+> 
+> Una formula (in forma normale disgiuntiva) che ammette la tavola data come tavole di verità è:
+>  $$ (\sim A \land B \land \sim C) \lor (\sim \land A \land B \land C) \lor (A \land B \land \sim C) $$
+>  
+>Possiamo quindi osservare che un qualsiasi f.b.f. annette una fomrula equivalente che usa solo i tre connettivi $\sim, \land, \lor$.
+
+Per trasformare una formula in modo da costruire una f.b.f. equivalente alla data e che sia "più semplice" perchè utilizza un numero minore di connettivi, o un numero minore di tipi di connettivi, si utilizzano le seguenti osservazioni:
+
+- Se in una formula $\mathcal{A}$ si sostituisce una sottoformula $\mathcal{B}$ con una formula $\mathcal{B}'$ equivalente a $\mathcal{B}$
