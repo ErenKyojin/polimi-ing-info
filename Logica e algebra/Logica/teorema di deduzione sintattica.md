@@ -49,4 +49,9 @@ Possiamo quindi dimostrare il teorema:
 >E ad esse aggiungiamo
 >- $(\mathcal{B} \implies (\mathcal{C} \implies \mathcal{A})) \implies ((\mathcal{B} \implies \mathcal{C}) \implies (\mathcal{B} \implies \mathcal{A}))$ assioma A2
 >- $(\mathcal{B} \implies \mathcal{C}) \implies (\mathcal{B} \implies \mathcal{A})$ modus ponens fra le ultime due
->- $\mathcal{B} \implies \mathcal{A}$ modus ponens tra l'ultime e 
+>- $\mathcal{B} \implies \mathcal{A}$ modus ponens tra l'ultime e $\mathcal{B} \implies \mathcal{C}$
+>
+>La sequenza ottenuta così è fatta tutta di assiomi o di formule di $\Delta$ o di formule ottenute per modus ponens da due formule che le precedono e dunque è una deduzione di $\mathcal{B} \implies \mathcal{A}$ da $\Delta$.
+>
+>Hp: $\Delta \vdash_{L} \mathcal{B} \implies \mathcal{A}$ ; Th: $\Delta \cup \{ \mathcal{B} \} \vdash_{L}\mathcal{A}$
+>Basta banalmente scrivere $\mathcal{B}$, poi la deduzione di $\mathcal{B} \implies \mathcal{A}$ da $\Delta$ ed infine usare il modus ponens
