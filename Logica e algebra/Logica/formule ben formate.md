@@ -78,11 +78,20 @@ Per trasformare una formula in modo da costruire una f.b.f. equivalente alla dat
 - Se in una tautologia $\mathcal{A}$ si sostituisce ogni occorrenza di una stessa lettera enunciativa $A$ con la stessa formula $\mathcal{B}$ si ottiene ancora una tautologia
 
 E le seguenti equivalenze fondamentali:
-$$ \begin{align}
-\sim(\sim A) &\equiv A\qquad&A \lor A &\equiv A \\
+$$ \begin{align} 
+\sim (\sim A) &\equiv A\\
+A \land B &\equiv B \land A\qquad&A \lor A &\equiv A \\
  A \land A &\equiv A & A \lor B&\equiv B  \lor A\\
  (A \land B) \land C &\equiv A \land (B \land C) & (A \lor B) \lor C &\equiv A \lor (B \lor C) \\
 A \land (A \lor B) &\equiv A & A \lor (A \land B) &\equiv A \\
-A \land (B \lor C) &\equiv (A \land B) \lor (A \land C) &A &\equiv
+A \land (B \lor C) &\equiv (A \land B) \lor (A \land C) &A \lor (B \land C) &\equiv (A \lor B) \land (A \lor C) \\
+\sim(A \land B) &\equiv \sim A \lor \sim B &\sim(A \lor B)&\equiv \sim A \land \sim B \\
+A \implies B &\equiv \sim A \lor B & A \implies B &\equiv \sim(A \land \sim B) \\
+B &\equiv (\sim A \land A) \lor B  & B  & \equiv (\sim A \lor A) \land B
  
 \end{align} $$
+Inoltre le due ultime formula si possono sostituire rispettivamente con:
+- $\perp \equiv \sim A \land A$ e $\perp \lor B \equiv B$
+- $\top \equiv \sim A \lor A$ e $\top \land B \equiv B$
+
+Possiamo quindi definire gli [[insiemi adeguati]] 
