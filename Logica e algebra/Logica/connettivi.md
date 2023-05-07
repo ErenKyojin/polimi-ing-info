@@ -64,3 +64,19 @@ modification date: 2023-05-03 09:17
 > > | 1   | 0   | 0          |
 > > | 1   | 1   | 1           |
 
+
+## Nor e Nand
+Gli [[insiemi adeguati]] di connettivi non possono essere ulteriormente ridotti se non introduciamo i connettivi $|$ (nor) e $\downarrow$ (nand) che hanno le seguenti tavole di verità
+
+| $A$   | $B$   | $A$ \| $B$ |
+| :---: | :---: | :-----: |
+| 0   | 0   | 1     |
+| 0   | 1   | 0     |
+| 1   | 0   | 0     |
+| 1   | 1   | 0     | 
+
+| $A$ | $B$ | $A \downarrow B$ |
+| --- | --- | ---------------- |
+| 0   | 0   | 1                |
+| 0   | 1   | 1                |
+	| 1    |     |                  |
