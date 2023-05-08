@@ -8,7 +8,8 @@ La risoluzione è alla base del PROLOG, verifica se una formula $\mathcal{A}$ si
 
 Iniziamo ad introdurre un po' di terminologia:
 - Si dice **letterale** una lettera enunciativa o la negazione di una lettera anunciativa
-- Si dice **clausola** la disgiungzion
+- Si dice **clausola** la disgiungzione (finita) di letterali
+- Una clasuola viene rappresentata come insieme di letterali; una clausola che non contenga letterali si dice **clausola vuota** e si indica con $\blackquare$
 
 
 
