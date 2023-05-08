@@ -110,13 +110,13 @@ Un albero di risoluzione del nostro esempio potrebbe essere quello rappresentato
        child {node{$\{\sim A, \sim B, \sim C\}$}}
        child {node{$\{\sim B, C\}$}}
        }
-       child {node{$$}}
+       child {node{$\{\sim A,B\}$}}
      }
      child {node{$\{A, \sim C\}$}
      }
     }
     child {node{$\{A,B,C\}$}}
-   }child {node{A}}
+   }child {node[draw = red]{$\{ \sim A\}$}}
   }
 }
 child {node {h}};
