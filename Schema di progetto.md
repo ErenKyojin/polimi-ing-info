@@ -88,4 +88,8 @@ In blu C (comput) calcolo controllo
 In rosso R (read) lettura ingressi
 In rosa W (write) scrittura uscite (DAC)
 
-1. $T_{c}$ variabile ma comunque $\ll T_{s} \implies T_{c}$ 
+1. $T_{c}$ variabile ma comunque $\ll T_{s} \implies T_{c}$ trascurabile
+2. $T_{c}$ non trascurabile rispetto a $T_{s}$ ma (quasi costante)
+3. $T_{c}$ variabile e non trascurabile rispetto a $T_{s}$
+
+Negli ultimi due casi possiamo considerare il caso pessimo $T_{C} = T_{s}$, di piú non può es
