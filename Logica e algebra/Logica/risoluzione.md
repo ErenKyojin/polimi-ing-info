@@ -85,8 +85,9 @@ $$ \begin{align}
 \Ris^2(S) := \{ &\{ \sim B,C \}, \{ \sim A,B \}, \{ A,B,C \},\{ A,\sim C \},\{ \sim A,\sim B,\sim C \},\{ \sim A,C \}, \{ A,C \}, \\
 &\{ A,\sim B \}, \{ \sim A,\sim B \}, \{ B,C \}, \{ B,\sim C \},\{ \sim A,\sim C \}, \{ A,B \},\{ B,\sim B,C,\sim C \} \\
 &\{ A,\sim A,C,\sim C \},\{ A,\sim A,B,\sim B \},\{ \sim B,\sim C \},\{ C \},\{ C,\sim C \}, \{ B,\sim B \},\dots, \\
-&\{ \sim A  \}, \}
+&\{ \sim A  \},\dots,\{ B \},\dots,\{ A \},\dots \}
 \end{align} $$
+A questo punto sappiamo che al pi
 
 Nella computazione di $\Ris^*$ si possono eliminare subito le formule che contengono una lettera e la sua negazione perchè sono clausole corrispondenti a tautologie e non portano quindi a nessun risultato quando si guarda all'insoddisfacibilità. Si sarebbero potute poi anche eliminare, per la stessa ragione, le clausole la cui soddisfacibilità è implicata da altre semplificando così un po' i calcoli. Nella pratica (almeno manuale) comunque in genere non si costruisce $\Ris^* S$ ma si va a cercare un albero di derivazione della clausola vuota dalle clausole di partenza.
 
