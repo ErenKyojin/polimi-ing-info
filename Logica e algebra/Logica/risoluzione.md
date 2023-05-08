@@ -97,3 +97,10 @@ Nella computazione di $\Ris^*$ si possono eliminare subito le formule che conten
 Considerando l'esempio precedente e lavorando "a mano" potremmo rappresentare la derivazione tramite un albero di derivazione i cui nodi sono clausole e due nodi (clausole) sono collegati ad un altro nodo che rappresenta la loro risolvente.
 Un albero di risoluzione del nostro esempio potrebbe essere quello rappresentato di seguito
 
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node 
+\end{tikzpicture}
+\end{document}
+```
