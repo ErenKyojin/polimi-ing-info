@@ -55,7 +55,8 @@ Questo permette di scegliere $T_{s}$
 > ```tikz
 >\begin{document}
 >\begin{tikzpicture}
->\draw (0,0)
+>\draw[->] (0,0) node[above]{$0\ dB$} -- (5,0);
+>\draw[red] (0,2) -- (1.5,1.5) -- (1.75,.5) -
 >\end{tikzpicture}
 >\end{document}
 >```
