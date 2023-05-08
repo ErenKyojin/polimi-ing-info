@@ -25,6 +25,8 @@ $$ \omega_{c} = K\omega_{c}\qquad K \approx 10 \% 50 $$
 \draw[blue] (0,0) -- (5,0) -- (10,-1);
 \draw[green] (0,-1) -- (5,0) -- (10,0);
 \node[above] at (5,0) {$\omega_c$};
+\draw[ultra thick, yellow, opacity = 0.4] (0,0) -- (2,0);
+\draw[ultra thick, purple, opacity = 0.4] (0,7) -- (10,)
 \end{tikzpicture}
 \end{document}
 ```
