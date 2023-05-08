@@ -1,6 +1,6 @@
 {
   "accentColor": "",
-  "cssTheme": "Amo",
+  "cssTheme": "",
   "enabledCssSnippets": [
     "titles",
     "lists",
@@ -11,5 +11,7 @@
   ],
   "interfaceFontFamily": "Inter",
   "textFontFamily": "Atkinson Hyperlegible",
-  "monospaceFontFamily": "Anonymous Pro"
+  "monospaceFontFamily": "Anonymous Pro",
+  "nativeMenus": false,
+  "showViewHeader": true
 }
