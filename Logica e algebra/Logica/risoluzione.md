@@ -21,5 +21,5 @@ Ogni formula ammette una formula equivalente in forma a clausole
 >La formula a clausole della formula iniziale viene scritta come insieme di clausole, dove ogni clausola è indicata a sua volta come insieme di letterali:
 > $$ \{ \{ \sim A,B,\sim B \}, \{ \sim A,C,\sim B \}, \{ \sim C,A,\sim B \} \} $$
 >
->Date le clausole $C_{1},C_{2}$ ed $R$ si dice che $R$ è una risolvente di $C_{1}$ e $C_{2}$ se esiste un letterale $L \in C_{1}$ tale che $\sim L \in C_{2}$ e $R = (C_{1} \$
+>Date le clausole $C_{1},C_{2}$ ed $R$ si dice che $R$ è una risolvente di $C_{1}$ e $C_{2}$ se esiste un letterale $L \in C_{1}$ tale che $\sim L \in C_{2}$ e $R = (C_{1} $
 
