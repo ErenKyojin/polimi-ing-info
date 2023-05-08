@@ -68,27 +68,29 @@ Osserviamo allora che $\Gamma \vdash_{R} C$ se e solo se $C \in \Ris^*(\Gamma)$.
     Finchè $\square \in S$ o $S = F$
 4. Se $\square \in S$ allora $\Gamma \vDash \mathcal{A}$, altrimenti $\mathcal{A}$ non è conseguenza semantica di $\Gamma$.
 
-Dire applicando l'algoritmo, se $A \land B \land D$ è conseguenza semantica di $(\sim B \lor C) \land \sim (A \land \sim B) \land (A \lor ((B \lor C) \land \sim C))$
-
-Trasformiamo $(\sim B \lor C) \land \sim (A \land \sim B) \land (A \lor ((B \lor C) \land \sim C))$ in forma in clausole:
-$(\sim B \lor C) \land \sim (A \land \sim B) \land (A \lor ((B \lor C) \land \sim C)) \equiv (\sim B \lor C) \land (\sim A \lor B) \land (A \lor B \lor C) \land (A \lor \sim C)$ da cui 
-$((\sim B \lor C) \land \sim (A \land \sim B) \land (A \lor ((B \lor C) \land \sim C)))^c = \{  \{ \sim B,C \}, \{ \sim A,B \}, \{ A,B,C \},\{ A,\sim C \} \}$ 
-Trasformiamo $\sim (A \land B \land D)$ in forma a clausole e ottengo $\{ \{ \sim A, \sim B,\sim C \} \}$
-$S:= \{ \{ \sim B,C \}, \{ \sim A,B \}, \{ A,B,C \}, \{ A,\sim C \},\{ \sim A,\sim B,\sim C \} \}$, calcoliamo $\Ris(S)$
-$$\begin{align}
-\Ris(S) := \{ &\{ \sim B,C \},\{ \sim A,B \},\{ A,B,C \},\{ A,\sim C \}, \{ \sim A,\sim B,\sim C \},\{ \sim A,C \}, \{ A,C \}, \{ A,\sim B \}, \\
- &\{ \sim A,\sim B \} , \{ B,C \}, \{ B,\sim C \}, \{ \sim A,\sim C \},\{ A,B \},\{ B,\sim B,C,\sim C \}, \{ A,\sim A,C,\sim C \}, \\
- &\{ A, \sim A,B,\sim B \}, \{ \sim B,\sim C \} \}
-\end{align}$$
-$S$ è contenuto in $\Ris(S)$ e $\square \notin S$, quindi calcoliamo
-$$ \begin{align}
-\Ris^2(S) := \{ &\{ \sim B,C \}, \{ \sim A,B \}, \{ A,B,C \},\{ A,\sim C \},\{ \sim A,\sim B,\sim C \},\{ \sim A,C \}, \{ A,C \}, \\
-&\{ A,\sim B \}, \{ \sim A,\sim B \}, \{ B,C \}, \{ B,\sim C \},\{ \sim A,\sim C \}, \{ A,B \},\{ B,\sim B,C,\sim C \} \\
-&\{ A,\sim A,C,\sim C \},\{ A,\sim A,B,\sim B \},\{ \sim B,\sim C \},\{ C \},\{ C,\sim C \}, \{ B,\sim B \},\dots, \\
-&\{ \sim A  \},\dots,\{ B \},\dots,\{ A \},\dots \}
-\end{align} $$
-A questo punto sappiamo che al piú $\Ris^3(S)$ contiene $\square$ perchè è ad esempio la risolvente di $\{ \sim A \}$ e $\{ A \}$.
-Da questo deduciamo che $(\sim B \lor C) \land \sim (A \land \sim B) \land ($
+> [!esempio]
+> Dire applicando l'algoritmo, se $A \land B \land D$ è conseguenza semantica di $(\sim B \lor C) \land \sim (A \land \sim B) \land (A \lor ((B \lor C) \land \sim C))$
+> 
+> Trasformiamo $(\sim B \lor C) \land \sim (A \land \sim B) \land (A \lor ((B \lor C) \land \sim C))$ in forma in clausole:
+> $(\sim B \lor C) \land \sim (A \land \sim B) \land (A \lor ((B \lor C) \land \sim C)) \equiv (\sim B \lor C) \land (\sim A \lor B) \land (A \lor B \lor C) \land (A \lor \sim C)$ da cui 
+> $((\sim B \lor C) \land \sim (A \land \sim B) \land (A \lor ((B \lor C) \land \sim C)))^c = \{  \{ \sim B,C \}, \{ \sim A,B \}, \{ A,B,C \},\{ A,\sim C \} \}$ 
+> Trasformiamo $\sim (A \land B \land D)$ in forma a clausole e ottengo $\{ \{ \sim A, \sim B,\sim C \} \}$
+> $S:= \{ \{ \sim B,C \}, \{ \sim A,B \}, \{ A,B,C \}, \{ A,\sim C \},\{ \sim A,\sim B,\sim C \} \}$, calcoliamo $\Ris(S)$
+> $$\begin{align}
+> \Ris(S) := \{ &\{ \sim B,C \},\{ \sim A,B \},\{ A,B,C \},\{ A,\sim C \}, \{ \sim A,\sim B,\sim C \},\{ \sim A,C \}, \{ A,C \}, \{ A,\sim B \}, \\
+>  &\{ \sim A,\sim B \} , \{ B,C \}, \{ B,\sim C \}, \{ \sim A,\sim C \},\{ A,B \},\{ B,\sim B,C,\sim C \}, \{ A,\sim A,C,\sim C \}, \\
+>  &\{ A, \sim A,B,\sim B \}, \{ \sim B,\sim C \} \}
+> \end{align}$$
+> $S$ è contenuto in $\Ris(S)$ e $\square \notin S$, quindi calcoliamo
+> $$ \begin{align}
+> \Ris^2(S) := \{ &\{ \sim B,C \}, \{ \sim A,B \}, \{ A,B,C \},\{ A,\sim C \},\{ \sim A,\sim B,\sim C \},\{ \sim A,C \}, \{ A,C \}, \\
+> &\{ A,\sim B \}, \{ \sim A,\sim B \}, \{ B,C \}, \{ B,\sim C \},\{ \sim A,\sim C \}, \{ A,B \},\{ B,\sim B,C,\sim C \} \\
+> &\{ A,\sim A,C,\sim C \},\{ A,\sim A,B,\sim B \},\{ \sim B,\sim C \},\{ C \},\{ C,\sim C \}, \{ B,\sim B \},\dots, \\
+> &\{ \sim A  \},\dots,\{ B \},\dots,\{ A \},\dots \}
+> \end{align} $$
+> A questo punto sappiamo che al piú $\Ris^3(S)$ contiene $\square$ perchè è ad esempio la risolvente di $\{ \sim A \}$ e $\{ A \}$.
+> Da questo deduciamo che $(\sim B \lor C) \land \sim (A \land \sim B) \land (A \lor ((B \lor C) \land \sim C)) \vDash A \land B \land D$
+> 
 
 Nella computazione di $\Ris^*$ si possono eliminare subito le formule che contengono una lettera e la sua negazione perchè sono clausole corrispondenti a tautologie e non portano quindi a nessun risultato quando si guarda all'insoddisfacibilità. Si sarebbero potute poi anche eliminare, per la stessa ragione, le clausole la cui soddisfacibilità è implicata da altre semplificando così un po' i calcoli. Nella pratica (almeno manuale) comunque in genere non si costruisce $\Ris^* S$ ma si va a cercare un albero di derivazione della clausola vuota dalle clausole di partenza.
 
