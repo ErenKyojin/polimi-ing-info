@@ -55,4 +55,5 @@ In conclusione:
 Ma se $\Gamma \vDash \mathcal{A}$ non è detto che $\Gamma^C \vdash_{R} \mathcal{A}^C$, dove $\Gamma^C$ l'insieme delle clausole ottenute dalle formule di $\Gamma$ ed $A^C$ è la formula a clausole di $\mathcal{A}$, basta pensare $\Gamma = \{ \{ A \} \}$ ed $\mathcal{A}$ come $A \lor B$.
 
 
-Per verificare se una clausola (in particolare la clausola vuota) si può ottenere per risoluzione da $\Gamma$ è 
+Per verificare se una clausola (in particolare la clausola vuota) si può ottenere per risoluzione da $\Gamma$ è utile introdurre la seguente definizione:
+$\Ris$
