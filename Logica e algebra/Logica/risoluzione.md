@@ -26,3 +26,5 @@ Ogni formula ammette una formula equivalente in forma a clausole
 
 
 ![[derivazione per risoluzione#definizione]]
+
+Diamo ora una condizione necessaria e sufficiente affinchè un insieme di clausole e quindi ogni f.b.f. associata a quell'insieme di clausole sia insoddisfacibile.
