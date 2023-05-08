@@ -25,4 +25,4 @@ Ogni formula ammette una formula equivalente in forma a clausole
 ![[risolvente#DEFINIZIONE]]
 
 
->Sia
+![[derivazione per risoluzione#definizione]]
