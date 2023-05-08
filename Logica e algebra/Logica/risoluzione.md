@@ -43,4 +43,6 @@ Diamo ora una condizione necessaria e sufficiente affinchè un insieme di clauso
 >>
 >>Caso base $n = 0, \Gamma$ conteine solo la clausola vuota, che quindi è una clausola di $\Gamma$ dunque $\Gamma \vdash_{R} \square$.
 >>
->>Ipotesi
+>>Ipotesi di induzione: da ogni insieme di clausole insoddisfacibile che contenga meno di $n$ lettere enunciative si deriva per risoluzione la clausola vuota.
+>>
+>>Passo induttivo. Supponiamo che in $\Delta$
