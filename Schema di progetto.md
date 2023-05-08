@@ -41,4 +41,4 @@ Su $y$ (segnale campionato) avrò allora:
 - Campionamento di $d_{s}$ e $d_{r}$ attenuato
 - Campionamento di $w$ 'lente' inseguite e "veloci" attenuate
 
-$\omega_{n} = \omega_{s}/2$, dett
+$\omega_{n} = \omega_{s}/2$, detta frequenza di Nyquist è la massima $\omega$ rappresentabile dal campionamento a $\omega_{S}$
