@@ -28,7 +28,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -57,6 +58,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Schema di progetto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -113,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Schema di progetto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Schema di progetto.md"
+              }
             }
           }
         ]
@@ -162,7 +167,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "597523d5274bca7f",
+  "active": "b7ffdb546ecc9dce",
   "lastOpenFiles": [
     "Schema di progetto.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
