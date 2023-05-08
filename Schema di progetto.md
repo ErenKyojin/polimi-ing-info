@@ -87,7 +87,8 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 	\draw[blue,thick] (1,1) -- (1.3,1) -- (1.3,0);
 	\draw[pink,thick] (1.3,1) -- (1.4,1) -- (1.4,0);
 	
-	\draw[red,thick] (1,0) 
+	\draw[red,thick] (2,0) -- (2,1) -- (2.2,1) -- (2.2,0);
+	\draw[blue,thick]
 	
 \end{tikzpicture}
 \end{document}
@@ -95,6 +96,8 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 In blu C (comput) calcolo controllo
 In rosso R (read) lettura ingressi
 In rosa W (write) scrittura uscite (DAC)
+
+Quindi casua salita rossa, ritardo di calcolo segmento in alto e effetto in uscita
 
 1. $T_{c}$ variabile ma comunque $\ll T_{s} \implies T_{c}$ trascurabile
 2. $T_{c}$ non trascurabile rispetto a $T_{s}$ ma (quasi costante)
