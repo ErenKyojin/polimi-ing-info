@@ -99,8 +99,9 @@ Un albero di risoluzione del nostro esempio potrebbe essere quello rappresentato
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}
-\node 
+\begin{tikzpicture}[scale = 2, every node/.style]
+\node[] {parent}
+	child {node {child 1}};
 \end{tikzpicture}
 \end{document}
 ```
