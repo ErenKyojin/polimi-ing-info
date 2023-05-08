@@ -22,7 +22,7 @@ $$ \omega_{c} = K\omega_{c}\qquad K \approx 10 \% 50 $$
 \begin{tikzpicture}
 \draw[-latex] (0,0) node[left]{$0\ dB$} -- (10,0)node[right]{$\omega$};
 \draw[red] (0,1) node[left]{$|L|$} -- (10,-1);
-\draw[blue] (0,0)  -- (5,0) -- (10,-1);
+\draw[blue] (0,0) node[below]{$|T|$} -- (5,0) -- (10,-1);
 \draw[green] (0,-1) node[left]{$|S|$} -- (5,0) -- (10,0);
 \node[above] at (5,0) {$\omega_c$};
 \draw[ultra thick, yellow, opacity = 0.4] (0,0) -- (3,0);
@@ -38,4 +38,7 @@ in viola le componenti di $d_{r}$
 ed in rosa le componenti di $w$
 
 Su $y$ (segnale campionato) avrò allora:
-- Campionamento di $d_{s}$ e $d_{r}$ atten
+- Campionamento di $d_{s}$ e $d_{r}$ attenuato
+- Campionamento di $w$ 'lente' inseguite e "veloci" attenuate
+
+$\omega_{n} = \omega_{s}/2$, dett
