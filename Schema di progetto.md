@@ -86,4 +86,6 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 ```
 In blu C (comput) calcolo controllo
 In rosso R (read) lettura ingressi
-In vio
+In rosa W (write) scrittura uscite (DAC)
+
+1. $T_{c}$ variabile ma comunque $\ll T_{s} \implies T_{c}$ 
