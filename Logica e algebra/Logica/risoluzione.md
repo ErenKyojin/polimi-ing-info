@@ -56,4 +56,4 @@ Ma se $\Gamma \vDash \mathcal{A}$ non è detto che $\Gamma^C \vdash_{R} \mathcal
 
 
 Per verificare se una clausola (in particolare la clausola vuota) si può ottenere per risoluzione da $\Gamma$ è utile introdurre la seguente definizione:
-$\Ris$
+$\Ris(\Gamma) = \Gamma \cup \{ C_{ij} | C_{ij} \text{ è risolvente di }C_{i},C_{j} \in \Gamma \}, \Ris n(\Gamma)$
