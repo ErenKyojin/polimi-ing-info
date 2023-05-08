@@ -71,3 +71,11 @@ Questo permette di scegliere $T_{s}$
 
 E il ritardo dovuto al calcolo di $u^*(K)$? 
 
+```tikz
+\begin{document}
+\begin{tikzpicture}
+	\draw (0,0) -- (10,0);
+	
+\end{tikzpicture}
+\end{document}
+```
