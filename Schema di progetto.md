@@ -64,4 +64,4 @@ Questo permette di scegliere $T_{s}$
 >```
 
 #### Criterio 3
-[[Sampling and holding]] 
+[[Sampling and holding]] ritardo di $T_{s} / 2 \implies$ non cambia $\omega_{c}$ ma riduce $\varphi_{m}$ di $\omega_{c} \frac{T_{s}}{2}$
