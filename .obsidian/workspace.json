@@ -1,80 +1,40 @@
 {
   "main": {
-    "id": "922c680725a7904b",
+    "id": "9b2eadd7869e132d",
     "type": "split",
     "children": [
       {
-        "id": "628ad23322fd163d",
+        "id": "8c7be1f17966f759",
         "type": "tabs",
         "children": [
           {
-            "id": "0b40b0a415c2332a",
+            "id": "9b260c1adeaf5667",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/teorema dell'esperto.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7978ce6f5024af48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Grafi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c65881979eae5355",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "016fcb315abdf0ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/sostituzione.md",
+                "file": "Logica e algebra/Logica/teorema di deduzione sintattica.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c35eca97f6a05302",
+    "id": "9f5c6b3893e4dcb8",
     "type": "split",
     "children": [
       {
-        "id": "99f6abb0ada7b909",
+        "id": "1db73f2abdac6724",
         "type": "tabs",
         "children": [
           {
-            "id": "1c4a9ef59f749559",
+            "id": "0b8307b5dc1882a6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -84,24 +44,24 @@
             }
           },
           {
-            "id": "dbb2b98954a5b4e4",
+            "id": "e482e98321e71fe8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
+                "file": "Logica e algebra/Logica/teorema di deduzione sintattica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "986e3117168bfd2c",
+            "id": "fd5a7104086bfe35",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:elettrotecnica grafo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,46 +71,55 @@
             }
           },
           {
-            "id": "d51cc314c56c45f1",
+            "id": "41c2995316669fe3",
             "type": "leaf",
             "state": {
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "5e13fcc4a0982c2b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 243.5
   },
   "right": {
-    "id": "5c521b202245fe37",
+    "id": "9c3eb73275ba1585",
     "type": "split",
     "children": [
       {
-        "id": "c7af07ef71ea0a08",
+        "id": "ecb8ddbbc9cbc07d",
         "type": "tabs",
         "children": [
           {
-            "id": "4f3e5567f8ddd91c",
+            "id": "2f14bef597613144",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
+                "file": "Logica e algebra/Logica/teorema di deduzione sintattica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "a7f3e61b3a32c0a3",
+            "id": "96e8e0118cfdf7fc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -161,69 +130,100 @@
             }
           },
           {
-            "id": "5c50951aaabbeef7",
+            "id": "37a1e71b0a2ec27e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md"
+                "file": "Logica e algebra/Logica/teorema di deduzione sintattica.md"
               }
+            }
+          },
+          {
+            "id": "0043ce218182ffec",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 240.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-flexible-pomo:Start Pomodoro": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c65881979eae5355",
+  "active": "9b260c1adeaf5667",
   "lastOpenFiles": [
-    "Algoritmi e principi dell'informatica/Algoritmi/Grafi.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/teorema dell'esperto.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/albero di ricorsione.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/sostituzione.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/Algoritmo.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/algoritmi divide et impera.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/Merge.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/algoritmo di insertion sort.md",
-    "Algoritmi e principi dell'informatica/Macchina RAM.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/pesudocodice.md",
-    "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
-    "Logica e algebra/Algebra/reticolo.md",
-    "Logica e algebra/Algebra/relazione inversa.md",
-    "Logica e algebra/Algebra/relazione identica.md",
-    "Logica e algebra/Algebra/relazione d'ordine.md",
-    "Logica e algebra/Algebra/primo teorema di fattorizzazione delle applicazioni.md",
-    "Logica e algebra/Algebra/insiemi parzialmente ordinati.md",
-    "Logica e algebra/Algebra/insieme quoziente.md",
-    "Logica e algebra/Algebra/funzione inversa.md",
-    "Logica e algebra/Algebra/diagramma di Hasse.md",
-    "Logica e algebra/Algebra/Teorema di cantor.md",
-    "Logica e algebra/Algebra/Relazioni permutabili.md",
-    "Logica e algebra/Algebra/Partizione.md",
-    "Algoritmi e principi dell'informatica/Algoritmi",
-    "Settings/Canvas/MT to RAM.canvas",
-    "Settings/Canvas/RAM to MT.canvas",
+    "Logica e algebra/Logica/teorema di correttezza e completezza forte.md",
+    "Logica e algebra/Logica/teoria formale.md",
+    "Logica e algebra/Logica/teorema di deduzione sintattica.md",
+    "Logica e algebra/Logica/Modus Ponens.md",
+    "Logica e algebra/Logica/connettivi.md",
+    "Elettrotecnica/nullore.md",
+    "Elettrotecnica/risposta in frequenza.md",
+    "Elettrotecnica/transitorio.md",
+    "Elettrotecnica/teorema di tellegen.md",
+    "Elettrotecnica/teorema di Millman.md",
+    "Elettrotecnica/Teorema di Boucherot.md",
+    "Elettrotecnica/tensione.md",
+    "Elettrotecnica/Valore efficace.md",
+    "Elettrotecnica/trasferitore ideale di potenza.md",
+    "Elettrotecnica/Richiami.md",
+    "Elettrotecnica/resistenza.md",
+    "Elettrotecnica/regime stazionario.md",
+    "Algoritmi e principi dell'informatica/semantica.md",
+    "Algoritmi e principi dell'informatica/Intersezione.md",
+    "Algoritmi e principi dell'informatica/funzione parziale.md",
+    "Algoritmi e principi dell'informatica/Funzione caratteristica.md",
+    "Algoritmi e principi dell'informatica/Epsilon.md",
+    "Algoritmi e principi dell'informatica/determinismo.md",
+    "Algoritmi e principi dell'informatica/Costo di un calcolo.md",
+    "Algoritmi e principi dell'informatica/Configurazione.md",
+    "Algoritmi e principi dell'informatica/Complessità temporale.md",
+    "Logica e algebra/Logica",
     "Settings/Canvas/Schema di controllo ibrido.canvas",
+    "Settings/Canvas/RAM to MT.canvas",
+    "Settings/Canvas/MT to RAM.canvas",
     "Logica e algebra/Algebra",
-    "GAL/Untitled",
-    "Logica e algebra"
+    "Geometria e algebra lineare/preamble.sty",
+    "Geometria e algebra lineare",
+    "Algoritmi e principi dell'informatica/Canvas/MT nastro singolo.canvas",
+    "Algoritmi e principi dell'informatica/Canvas/MT a k-nastri.canvas",
+    "Algoritmi e principi dell'informatica/Canvas/FSA.canvas",
+    "Algoritmi e principi dell'informatica/Canvas/Automa a pila.canvas",
+    "Algoritmi e principi dell'informatica/Allegati/Pasted image 20230223095250.png",
+    "Algoritmi e principi dell'informatica/Modelli operazionali",
+    "Algoritmi e principi dell'informatica/Modelli generativi",
+    "Algoritmi e principi dell'informatica/Esercitazioni",
+    "Algoritmi e principi dell'informatica/Canvas",
+    "Algoritmi e principi dell'informatica/Allegati",
+    "Algoritmi e principi dell'informatica/Algoritmi",
+    "snapshot.jpg",
+    "Settings/Canvas/Untitled.canvas",
+    "Settings/Canvas/Stabilità retroazione.canvas",
+    "Settings/Canvas/Cp.canvas",
+    "Pasted image 20230330135642.png",
+    "Pasted Image 20230327111947_463.png",
+    "Pasted Image 20230327111802_028.jpg",
+    "Settings/Allegati/Pasted Image 20230320104231_717.jpg",
+    "Settings/Allegati/Pasted Image 20230320110935_358.jpg",
+    "Settings/Allegati/Pasted Image 20230320113426_622.png",
+    "Elettrotecnica/Immagini/Pasted image 20220830201626.png",
+    "Elettrotecnica/Immagini/Pasted image 20220830190156.png"
   ]
 }
