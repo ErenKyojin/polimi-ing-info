@@ -17,7 +17,8 @@ Ogni formula ammette una formula equivalente in forma a clausole
 >[!esempio]
 >Si scriva in forma a clausole la f.b.f. $((A \implies B) \land (A \iff C)) \lor \sim B$
 >Si ha $((A \implies B) \land (A \iff C)) \lor \sim B \equiv ((\sim A \lor B) \land (\sim A \lor C) \land(\sim C \lor A)) \lor \sim B \equiv$
->$\equiv ((\sim A \lor B \lor \sim B)$
-
+>$\equiv ((\sim A \lor B \lor \sim B) \land (\sim A \lor C \lor \sim B) \land (\sim C \lor A \lor \sim B)$.
+>La formula a clausole della formula iniziale viene scritta come insieme di clausole, dove ogni clausola è indicata a sua volta come insieme di letterali:
+> $$ \{ \{ \sim A,B,\sim B \}, \{ \sim A,C,\sim B \} \} $$
 
 
