@@ -77,4 +77,5 @@ Le prime due affermazioni vengono solitamente chiamate (meta)teoremi di corrette
 
 I teoremi di correttezza e completezza ammettono anche una formulazione più forte che è quella del [[teorema di correttezza e completezza forte]].
 
-Potremmo adesso chiederci se gli assiomi di L siano necessari o se è possibile ricavarne uno dai due restanti. La risposta è no, e per dimostrarlo si utilizzano tavole di verità per i connettivi $\sim$ e $\implies$. Tali tavole sono fatte in modo che il modus ponens faccia passare da formule il cui valore è 0 a formula in cui valore è 0 e che gli schemi A2 e A3 (A1 e A3) valgono 0, mentre l
+Potremmo adesso chiederci se gli assiomi di L siano necessari o se è possibile ricavarne uno dai due restanti. La risposta è no, e per dimostrarlo si utilizzano tavole di verità per i connettivi $\sim$ e $\implies$. Tali tavole sono fatte in modo che il modus ponens faccia passare da formule il cui valore è 0 a formula in cui valore è 0 e che gli schemi A2 e A3 (A1 e A3) valgono 0, mentre l'assioma A1 (A2) può assumere valori diversi. Dunque A1 (A2) non può essere ricavato come teorema dai restanti assiomi, altrimenti dovrebbe valere sempre 0.
+L'indipendenza di A3 da A1 ed A2 si dimostra con una tecnica diversa, si utilizza un operatore $h$ che cancella da ogni formula il connettivo $\sim$ e lascia fissi tutti gli altr
