@@ -100,8 +100,8 @@ Un albero di risoluzione del nostro esempio potrebbe essere quello rappresentato
 ```tikz
 \begin{document}
 \begin{tikzpicture}[scale = 2, every node/.style ={scale = 1.5, draw}]
-\node[grow = up] (rad) {parent}
-	child {node {child 1}}
+\node(rad) {}[grow = up] 
+	child {node {$\{C\}$}}
 	child {node {h}};
 \end{tikzpicture}
 \end{document}
