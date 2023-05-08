@@ -75,7 +75,8 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 \begin{document}
 \begin{tikzpicture}
 	\draw (0,0) -- (10,0);
-	\foreach
+	\foreach \x in {1,2,3,4,5,6,7,8,9}
+		\draw (\x,0) -- ++ (0,.2);
 \end{tikzpicture}
 \end{document}
 ```
