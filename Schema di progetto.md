@@ -46,3 +46,16 @@ $\omega_{n} = \omega_{s}/2$, detta [[frequenza di Nyquist]] è la massima $\omeg
 In un problema non patologico, alla Frequenza di Nyquist su $y$ ho $d_{r}$ attenuato, non ho $d_{a}$ e anche $w$ in parte attenuato in base al valore di risposta ($\omega_{c}$), il che mi va bene.
 
 Quindi, piú $|L(j\omega_{N})|$ è piccolo, meno sia ha aliasing
+
+Questo permette di scegliere $T_{s}$
+
+>[!esempio]
+>Voglio che $|L(j\omega_{N})| < 40 \dB$
+>Progetto a TC:
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}
+>\draw (0,0)
+>\end{tikzpicture}
+>\end{document}
+>```
