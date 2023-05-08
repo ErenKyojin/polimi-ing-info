@@ -58,4 +58,7 @@ Ma se $\Gamma \vDash \mathcal{A}$ non è detto che $\Gamma^C \vdash_{R} \mathcal
 Per verificare se una clausola (in particolare la clausola vuota) si può ottenere per risoluzione da $\Gamma$ è utile introdurre la seguente definizione:
 $\Ris(\Gamma) = \Gamma \cup \{ C_{ij} | C_{ij} \text{ è risolvente di }C_{i},C_{j} \in \Gamma \}, \Ris n(\Gamma)=\Ris(\Ris n - 1(\Gamma))$
 $\Ris^*(\Gamma) = \cup_{n > 0} \Ris n (\Gamma)$.
-Osserviamo allora che $\Gamma \vdash_{R} C$ se e solo se $C \in \Ris^*$
+Osserviamo allora che $\Gamma \vdash_{R} C$ se e solo se $C \in \Ris^*(\Gamma)$. In conclusione abbiamo il seguente algoritmo per stabilire se $\Gamma \vDash \mathcal{A}$:
+1. Trasformare le formule di $\Gamma$ in forma a clausole ottenendo un insieme $\Delta$ di clausole
+2. Trasformare $\sim A$ in forma a clausole $(\sim A)^C$
+3. $S := \Delta \cup$
