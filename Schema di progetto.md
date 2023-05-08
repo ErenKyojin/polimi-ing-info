@@ -58,9 +58,10 @@ Questo permette di scegliere $T_{s}$
 >\draw[->] (0,0) node[above]{$0\ dB$} -- (6,0);
 >\draw[red] (0,2) -- (1.5,1.5) -- (1.75,.5) -- (4,-.5) -- (5,-2);
 >\draw[pink,->] (0,-1) -- (4.3,-1) -- (4.3,0) node[above]{$\omega_{N}$};
->\draw[pink, ->] (4.3,.5) -- (4.3,1) -- (5.3, 1) -- (5.3,.5) node[below]{$\omega_{s}$};
+>\draw[pink, ->] (4.3,.5) -- (4.3,1) -- node[midway,above]{$\times 2$} (5.3, 1) -- (5.3,.45) node[below]{$\omega_{s}$};
 >\end{tikzpicture}
 >\end{document}
 >```
 
 #### Criterio 3
+[[Sampling and holding]] 
