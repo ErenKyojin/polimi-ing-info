@@ -37,3 +37,4 @@ Diamo ora una condizione necessaria e sufficiente affinchè un insieme di clauso
 >>Se $\Gamma$ ammettesse un modello $v$, $v$ sarebbe modello per tutte le clausole derivate da $\Gamma$ e quindi anche per la clausola vuota che invece è sempre insoddisfacibile. Quindi $\Gamma$ non ammette alcun modello e pertanto è insoddisfacibile
 >>
 >>Th. $\Gamma$ è insoddisfacibile ; Hp. $\Gamma \vdash_{R} \square$
+>>Se $\Gamma$ è insoddisfacibile per il teorema di completezza esiste un suo sottoinsieme finito $\Delta$ insoddisfacibile e quindi basta dimostrare che $\Delta \vdash$
