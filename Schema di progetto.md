@@ -75,7 +75,7 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 \begin{document}
 \begin{tikzpicture}
 	\draw (0,0) -- (10,0);
-	
+	\foreach
 \end{tikzpicture}
 \end{document}
 ```
