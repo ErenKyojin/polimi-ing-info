@@ -37,4 +37,5 @@ In giallo le componenti di $d_{a}$
 in viola le componenti di $d_{r}$
 ed in rosa le componenti di $w$
 
-Su $y$
+Su $y$ (segnale campionato) avrò allora:
+- Campionamento di $d_{s}$ e $d_{r}$ atten
