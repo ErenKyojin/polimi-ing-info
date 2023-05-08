@@ -101,8 +101,12 @@ Un albero di risoluzione del nostro esempio potrebbe essere quello rappresentato
 \begin{document}
 \begin{tikzpicture}[scale = 2, every node/.style ={scale = 1.5, draw}]
 \node(rad) {}[grow = up] 
-	child {node {$\{C\}$}}
-	child {node {h}};
+ child {node {$\{C\}$}
+  child {node {$\{B\}$}
+   child {node {$\{A,\}$}}
+  }
+}
+child {node {h}};
 \end{tikzpicture}
 \end{document}
 ```
