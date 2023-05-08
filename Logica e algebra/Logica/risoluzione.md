@@ -61,4 +61,5 @@ $\Ris^*(\Gamma) = \cup_{n > 0} \Ris n (\Gamma)$.
 Osserviamo allora che $\Gamma \vdash_{R} C$ se e solo se $C \in \Ris^*(\Gamma)$. In conclusione abbiamo il seguente algoritmo per stabilire se $\Gamma \vDash \mathcal{A}$:
 1. Trasformare le formule di $\Gamma$ in forma a clausole ottenendo un insieme $\Delta$ di clausole
 2. Trasformare $\sim A$ in forma a clausole $(\sim A)^C$
-3. $S := \Delta \cup$
+3. $S := \Delta \cup \{ (\sim \mathcal{A})c \}$
+   Ripetere
