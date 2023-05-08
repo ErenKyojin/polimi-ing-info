@@ -8,16 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1e7df0d82137ab81",
+            "id": "597523d5274bca7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -106,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -158,14 +149,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e7df0d82137ab81",
+  "active": "597523d5274bca7f",
   "lastOpenFiles": [
+    "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Merge-sort.md",
     "Algoritmi e principi dell'informatica/Algoritmi/pesudocodice.md",
     "Algoritmi e principi dell'informatica/Algoritmi/soluzioni di ricorrenze.md",
     "Algoritmi e principi dell'informatica/Algoritmi/teorema dell'esperto.md",
     "Algoritmi e principi dell'informatica/Algoritmi/Grafi.md",
-    "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
     "Logica e algebra/Logica/teoria formale.md",
     "Logica e algebra/Logica/teorema di deduzione sintattica.md",
     "Logica e algebra/Logica/teorema di deduzione semantica.md",
