@@ -33,4 +33,5 @@ Diamo ora una condizione necessaria e sufficiente affinchè un insieme di clauso
 >Un insieme di clausole $\Gamma$ è insoddisfacibile se è solo $\Gamma \vdash_{R} \square$
 >
 >>[!dim]
->>Hp. $\Gamma \vdash_{R} s$
+>>Hp. $\Gamma \vdash_{R} \square$ ; Th: $\Gamma$ è insoddisfacibile
+>>Se $\Gamma$ ammettesse un modello $v$, $v$ sarebbe modello per tutte le clausole derivate 
