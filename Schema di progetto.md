@@ -83,7 +83,12 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 	\draw[blue,thick] (0,1) -- (.5,1) -- (.5,0);
 	\draw[pink,thick] (.5,1) -- (.7,1) -- (.7,0);
 	
-	\draw[red,thick] (1,0) -- (1,1) -- (1.2,1) -- 
+	\draw[red,thick] (1,0) -- (1,1) -- (1.2,1) -- (1.2,0);
+	\draw[blue,thick] (1,1) -- (1.3,1) -- (1.3,0);
+	\draw[pink,thick] (1.3,1) -- (1.4,1) -- (1.4,0);
+	
+	\draw[red,thick] (1,0) 
+	
 \end{tikzpicture}
 \end{document}
 ```
