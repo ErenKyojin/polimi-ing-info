@@ -120,7 +120,7 @@ Un albero di risoluzione del nostro esempio potrebbe essere quello rappresentato
   }
   child {node{$\{\sim B, C\}$}}
 }
-child {node {}};
+child {node[draw = red] {$\{\sim C\}$}};
 \end{tikzpicture}
 \end{document}
 ```
