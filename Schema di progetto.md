@@ -45,4 +45,4 @@ $\omega_{n} = \omega_{s}/2$, detta [[frequenza di Nyquist]] è la massima $\omeg
 
 In un problema non patologico, alla Frequenza di Nyquist su $y$ ho $d_{r}$ attenuato, non ho $d_{a}$ e anche $w$ in parte attenuato in base al valore di risposta ($\omega_{c}$), il che mi va bene.
 
-Quindi, m
+Quindi, piú $|L(j\omega_{N})|$ è piccolo, meno sia ha aliasing
