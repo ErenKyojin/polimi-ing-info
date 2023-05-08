@@ -91,6 +91,8 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 	\draw[blue,thick] (2.2,1) -- (2.3,1) -- (2.3,0);
 	\draw[pink,thick] (2.3,1) -- (2.4,1) -- (2.4,0);
 	
+	\draw[green,ultra thick] (5.5,-2) -- ++ (0,4);
+	
 \end{tikzpicture}
 \end{document}
 ```
