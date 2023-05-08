@@ -95,4 +95,4 @@ Osserviamo allora che $\Gamma \vdash_{R} C$ se e solo se $C \in \Ris^*(\Gamma)$.
 Nella computazione di $\Ris^*$ si possono eliminare subito le formule che contengono una lettera e la sua negazione perchè sono clausole corrispondenti a tautologie e non portano quindi a nessun risultato quando si guarda all'insoddisfacibilità. Si sarebbero potute poi anche eliminare, per la stessa ragione, le clausole la cui soddisfacibilità è implicata da altre semplificando così un po' i calcoli. Nella pratica (almeno manuale) comunque in genere non si costruisce $\Ris^* S$ ma si va a cercare un albero di derivazione della clausola vuota dalle clausole di partenza.
 
 Considerando l'esempio precedente e lavorando "a mano" potremmo rappresentare la derivazione tramite un albero di derivazione i cui nodi sono clausole e due nodi (clausole) sono collegati ad un altro nodo che rappresenta la loro risolvente.
-Un albero di risoluzione del nostro esempio potrebbe essere quello rappresentato d
+Un albero di risoluzione del nostro esempio potrebbe essere quello rappresentato di seguito
