@@ -93,6 +93,7 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 	
 	\draw[green,ultra thick] (5.5,-2) -- ++ (0,4);
 	
+	
 \end{tikzpicture}
 \end{document}
 ```
@@ -106,5 +107,5 @@ Quindi casua salita rossa, ritardo di calcolo segmento in alto e effetto in usci
 2. $T_{c}$ non trascurabile rispetto a $T_{s}$ ma (quasi costante)
 3. $T_{c}$ variabile e non trascurabile rispetto a $T_{s}$233
 
-Negli ultimi due casi possiamo considerare il caso pessimo $T_{C} = T_{s}$, di piú non può essere.
-#todo
+Negli ultimi due casi possiamo considerare il caso pessimo $T_{C} = T_{s}$, di piú non può essere,
+#todo In verde altra pratica wrc -> wrc -> wrc
