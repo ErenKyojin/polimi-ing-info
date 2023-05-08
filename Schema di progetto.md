@@ -88,7 +88,8 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 	\draw[pink,thick] (1.3,1) -- (1.4,1) -- (1.4,0);
 	
 	\draw[red,thick] (2,0) -- (2,1) -- (2.2,1) -- (2.2,0);
-	\draw[blue,thick]
+	\draw[blue,thick] (2.2,1) -- (2.3,1) -- (2.3,0);
+	\draw[pink,thick] (2.3,1) -- (2.4,1) -- (2.4,0);
 	
 \end{tikzpicture}
 \end{document}
@@ -104,3 +105,4 @@ Quindi casua salita rossa, ritardo di calcolo segmento in alto e effetto in usci
 3. $T_{c}$ variabile e non trascurabile rispetto a $T_{s}$233
 
 Negli ultimi due casi possiamo considerare il caso pessimo $T_{C} = T_{s}$, di piú non può essere.
+#todo
