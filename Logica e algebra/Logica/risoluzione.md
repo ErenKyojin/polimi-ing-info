@@ -45,4 +45,4 @@ Diamo ora una condizione necessaria e sufficiente affinchè un insieme di clauso
 >>
 >>Ipotesi di induzione: da ogni insieme di clausole insoddisfacibile che contenga meno di $n$ lettere enunciative si deriva per risoluzione la clausola vuota.
 >>
->>Passo induttivo. Supponiamo che in $\Delta$
+>>Passo induttivo. Supponiamo che in $\Delta$ occorrano $n$ lettere enunciative. Sia A una di queste $n$ lettere. Dividiamo $\Delta$ in 3 sottoinsiemi, l'insieme $\Delta_{0}$ (eventualmente vuoto) delle clausole in cui occorrono non compare A.
