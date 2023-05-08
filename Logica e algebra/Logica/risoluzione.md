@@ -63,3 +63,6 @@ Osserviamo allora che $\Gamma \vdash_{R} C$ se e solo se $C \in \Ris^*(\Gamma)$.
 2. Trasformare $\sim A$ in forma a clausole $(\sim A)^C$
 3. $S := \Delta \cup \{ (\sim \mathcal{A})c \}$
    Ripetere
+   1. $F := S$
+   2. $S := \Ris(S)$
+    Finchè $$
