@@ -17,3 +17,11 @@ Proporzionale a $\omega_{c}$, ossia
 $$ \omega_{c} = K\omega_{c}\qquad K \approx 10 \% 50 $$
 
 #### Criterio 2:
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[-latex] (0,0) -- (10,0)node{$omega$};
+
+\end{tikzpicture}
+\end{document}
+```
