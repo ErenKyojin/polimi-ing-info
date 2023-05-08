@@ -14,7 +14,9 @@ Iniziamo ad introdurre un po' di terminologia:
 
 Ogni formula ammette una formula equivalente in forma a clausole
 
->[!esempio]''
+>[!esempio]
+>Si scriva in forma a clausole la f.b.f. $((A \implies B) \land (A \iff C)) \lor \sim B$
+>Si ha $((A \implies B) \land (A \iff C)) \lor \sim B \equiv ((\sim A \lor B) $
 
 
 
