@@ -8,7 +8,7 @@ La risoluzione è alla base del PROLOG, verifica se una formula $\mathcal{A}$ si
 
 Iniziamo ad introdurre un po' di terminologia:
 - Si dice **letterale** una lettera enunciativa o la negazione di una lettera anunciativa
-- Si dice **clausola** la disgiungzione (finita) di letterali
+- Si dice **[[clausola]]** la disgiungzione (finita) di letterali
 - Una clasuola viene rappresentata come insieme di letterali; una clausola che non contenga letterali si dice **clausola vuota** e si indica con $\square$
 - Una [[formule ben formate|f.b.f.]] si dice in **forma a clasuole** se è scritta come congiunzione di clausole ed in tal caso sarà denotata come insieme di insiemi
 
@@ -52,4 +52,7 @@ Diamo ora una condizione necessaria e sufficiente affinchè un insieme di clauso
 In conclusione:
 - la risoluzione agisce per refutazione e opera su f.b.f. in forma a clausole
 - è un sistema corretto ed è completo per refutazione
-Ma se $\Gamma \vDash \mathcal{A}$ non è detto che $\Gamma^C \vdash_{R} \mathcal{A}^C$, dove $\Gamma^C$ l'insieme delle clausole ottenute dalle formule di $\Gamma$ ed $A^C$
+Ma se $\Gamma \vDash \mathcal{A}$ non è detto che $\Gamma^C \vdash_{R} \mathcal{A}^C$, dove $\Gamma^C$ l'insieme delle clausole ottenute dalle formule di $\Gamma$ ed $A^C$ è la formula a clausole di $\mathcal{A}$, basta pensare $\Gamma = \{ \{ A \} \}$ ed $\mathcal{A}$ come $A \lor B$.
+
+
+Per verificare se una clausola (in particolare la clausola vuota) si può ottenere
