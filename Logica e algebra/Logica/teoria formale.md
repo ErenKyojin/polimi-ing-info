@@ -77,4 +77,4 @@ Le prime due affermazioni vengono solitamente chiamate (meta)teoremi di corrette
 
 I teoremi di correttezza e completezza ammettono anche una formulazione più forte che è quella del [[teorema di correttezza e completezza forte]].
 
-Potremmo adesso chiederci se gli assiomi di L siano necessari o se è possibile ricavarne uno dai due restanti.
+Potremmo adesso chiederci se gli assiomi di L siano necessari o se è possibile ricavarne uno dai due restanti. La risposta è no, e per dimostrar
