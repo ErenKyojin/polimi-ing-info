@@ -78,9 +78,12 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 	\foreach \x in {0,1,2,3,4,5,6,7,8,9,10}
 		\draw (\x,0) -- ++ (0,.2);
 	\draw (0,-.1) -- (0,-.2) -- (1,-.2)node[midway,below]{$T_s$} -- (1,-.1);
-	\draw[red] (0,0) -- (0,1) -- (.2,1) -- (.2,0);
-	\draw[blue] (0,1) -- (.5,1) -- (.5,0);
-	\draw[pink] (.5,1) -- (.7,1) -- (.7,0);
+	
+	\draw[red,thick] (0,0) -- (0,1) -- (.2,1) -- (.2,0);
+	\draw[blue,thick] (0,1) -- (.5,1) -- (.5,0);
+	\draw[pink,thick] (.5,1) -- (.7,1) -- (.7,0);
+	
+	\draw[red,thick] (1,0) -- (1,1) -- (1.2,1) -- 
 \end{tikzpicture}
 \end{document}
 ```
@@ -92,4 +95,4 @@ In rosa W (write) scrittura uscite (DAC)
 2. $T_{c}$ non trascurabile rispetto a $T_{s}$ ma (quasi costante)
 3. $T_{c}$ variabile e non trascurabile rispetto a $T_{s}$
 
-Negli ultimi due casi possiamo considerare il caso pessimo $T_{C} = T_{s}$, di piú non può es
+Negli ultimi due casi possiamo considerare il caso pessimo $T_{C} = T_{s}$, di piú non può essere.
