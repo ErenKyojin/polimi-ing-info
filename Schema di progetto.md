@@ -73,15 +73,17 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[scale = 1.5]
 	\draw[->] (-.5,0) -- (10.5,0);
 	\foreach \x in {0,1,2,3,4,5,6,7,8,9,10}
 		\draw (\x,0) -- ++ (0,.2);
 	\draw (0,-.1) -- (0,-.2) -- (1,-.2)node[midway,below]{$T_s$} -- (1,-.1);
 	\draw[red] (0,0) -- (0,1) -- (.2,1) -- (.2,0);
 	\draw[blue] (0,1) -- (.5,1) -- (.5,0);
-	\draw[purple] (1)
+	\draw[pink] (.5,1) -- (.7,1) -- (.7,0);
 \end{tikzpicture}
 \end{document}
 ```
 In blu C (comput) calcolo controllo
+In rosso R (read) lettura ingressi
+In vio
