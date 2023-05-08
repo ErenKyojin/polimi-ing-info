@@ -124,3 +124,4 @@ child {node[draw = red] {$\{\sim C\}$}};
 \end{tikzpicture}
 \end{document}
 ```
+L'albero che abbiamo disegnato è un albero lineare, un albero in cui ogni passo della risoluzione si è utilizzata l'ultima clausola ottenuta. Una derivazione fatta in questo modo si chiama derivazione per **risoluzione lineare**. Si può dimostrare che, se da un insieme di clausole si può ricavare la clausola vuota, allora la clausola vuota si può ot
