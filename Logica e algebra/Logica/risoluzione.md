@@ -65,4 +65,5 @@ Osserviamo allora che $\Gamma \vdash_{R} C$ se e solo se $C \in \Ris^*(\Gamma)$.
    Ripetere
    1. $F := S$
    2. $S := \Ris(S)$
-    Finchè $$
+    Finchè $\square \in S$ o $S = F$
+4. Se $\square \in S$ allora $\Gamma \vDash \mathcal{A}$, altrimenti $\mathcal{A}$ non è conseguenza semantica di $\Gamma$.
