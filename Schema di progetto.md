@@ -79,7 +79,9 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 		\draw (\x,0) -- ++ (0,.2);
 	\draw (0,-.1) -- (0,-.2) -- (1,-.2)node[midway,below]{$T_s$} -- (1,-.1);
 	\draw[red] (0,0) -- (0,1) -- (.2,1) -- (.2,0);
-	\draw[blue] (0,1) -- (0,.)
+	\draw[blue] (0,1) -- (.5,1) -- (.5,0);
+	\draw[purple] (1)
 \end{tikzpicture}
 \end{document}
 ```
+In blu C (comput) calcolo controllo
