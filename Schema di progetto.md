@@ -77,7 +77,8 @@ E il ritardo dovuto al calcolo di $u^*(K)$?
 	\draw[->] (-.5,0) -- (10.5,0);
 	\foreach \x in {0,1,2,3,4,5,6,7,8,9,10}
 		\draw (\x,0) -- ++ (0,.2);
-	\draw (0,0) -- (0,-.2) -- (1,-.2) -- (1,-.1);
+	\draw (0,-.1) -- (0,-.2) -- (1,-.2)node[midway,below]{$T_s$} -- (1,-.1);
+	\draw[red] 
 \end{tikzpicture}
 \end{document}
 ```
