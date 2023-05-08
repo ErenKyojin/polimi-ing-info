@@ -76,4 +76,4 @@ $((\sim B \lor C) \land \sim (A \land \sim B) \land (A$
 
 Nella computazione di $\Ris^*$ si possono eliminare subito le formule che contengono una lettera e la sua negazione perchè sono clausole corrispondenti a tautologie e non portano quindi a nessun risultato quando si guarda all'insoddisfacibilità. Si sarebbero potute poi anche eliminare, per la stessa ragione, le clausole la cui soddisfacibilità è implicata da altre semplificando così un po' i calcoli. Nella pratica (almeno manuale) comunque in genere non si costruisce $\Ris^* S$ ma si va a cercare un albero di derivazione della clausola vuota dalle clausole di partenza.
 
-Considerando l'ese
+Considerando l'esempio
