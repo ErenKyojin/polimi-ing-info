@@ -21,13 +21,13 @@ $$ \omega_{c} = K\omega_{c}\qquad K \approx 10 \% 50 $$
 \begin{document}
 \begin{tikzpicture}
 \draw[-latex] (0,0) node[left]{$0\ dB$} -- (10,0)node[right]{$\omega$};
-\draw[red] (0,1) -- (10,-1);
-\draw[blue] (0,0) -- (5,0) -- (10,-1);
-\draw[green] (0,-1) -- (5,0) -- (10,0);
+\draw[red] (0,1) node[left]{$|L|$} -- (10,-1);
+\draw[blue] (0,0)  -- (5,0) -- (10,-1);
+\draw[green] (0,-1) node[left]{$|S|$} -- (5,0) -- (10,0);
 \node[above] at (5,0) {$\omega_c$};
 \draw[ultra thick, yellow, opacity = 0.4] (0,0) -- (3,0);
 \draw[ultra thick, purple, opacity = 0.4] (7,0) -- (10,0);
-\draw[ultra thick,]
+\draw[ultra thick, pink, opacity = 0.7] (0,-3) -- (10,-3);
 \end{tikzpicture}
 \end{document}
 ```
@@ -36,3 +36,5 @@ $$ \omega_{c} = K\omega_{c}\qquad K \approx 10 \% 50 $$
 In giallo le componenti di $d_{a}$
 in viola le componenti di $d_{r}$
 ed in rosa le componenti di $w$
+
+Su $y$
