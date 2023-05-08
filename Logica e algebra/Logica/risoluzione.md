@@ -39,4 +39,8 @@ Diamo ora una condizione necessaria e sufficiente affinchè un insieme di clauso
 >>Th. $\Gamma$ è insoddisfacibile ; Hp. $\Gamma \vdash_{R} \square$
 >>Se $\Gamma$ è insoddisfacibile per il teorema di completezza esiste un suo sottoinsieme finito $\Delta$ insoddisfacibile e quindi basta dimostrare che $\Delta \vdash_{R} \square$, che ovviamente implica $\Gamma \vdash_{R} \square$
 >>
->>Procediamo per induzione sul numero $n$ di lettere enunciative occorrenti (eventualmente negate) nelle clausole di $\Gamma$
+>>Procediamo per induzione sul numero $n$ di lettere enunciative occorrenti (eventualmente negate) nelle clausole di $\Gamma$.
+>>
+>>Caso base $n = 0, \Gamma$ conteine solo la clausola vuota, che quindi è una clausola di $\Gamma$ dunque $\Gamma \vdash_{R} \square$.
+>>
+>>Ipotesi
