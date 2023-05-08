@@ -105,12 +105,14 @@ Un albero di risoluzione del nostro esempio potrebbe essere quello rappresentato
   child {node {$\{B\}$}
    child {node {$\{A,B\}$}
     child {node{$\{\sim C\}$}
-     child {node{$\{\sim A\}$}}
+     child {node{$\{\sim A\}$}
+      child {node}
+     }
      child {node{$\{A, \sim C\}$}
      }
     }
     child {node{$\{A,B,C\}$}}
-   }
+   }child {node{A}}
   }
 }
 child {node {h}};
