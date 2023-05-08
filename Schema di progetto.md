@@ -65,3 +65,6 @@ Questo permette di scegliere $T_{s}$
 
 #### Criterio 3
 [[Sampling and holding]] ritardo di $T_{s} / 2 \implies$ non cambia $\omega_{c}$ ma riduce $\varphi_{m}$ di $\displaystyle\omega_{c} \frac{T_{s}}{2}$ radianti
+- criterio $\omega_{c} \frac{T_{S}}{2} < tot$
+- oppure se voglio $\varphi_{m} = \bar{\varphi_{m}}$
+  Progetto a 
