@@ -22,7 +22,7 @@ Ogni formula ammette una formula equivalente in forma a clausole
 > $$ \{ \{ \sim A,B,\sim B \}, \{ \sim A,C,\sim B \}, \{ \sim C,A,\sim B \} \} $$
 
 
-![[risolvente]]
+![[risolvente#DEFINIZIONE]]
 
 
 >Sia
