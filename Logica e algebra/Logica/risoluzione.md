@@ -99,12 +99,14 @@ Un albero di risoluzione del nostro esempio potrebbe essere quello rappresentato
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}[scale = 1.3, every node/.style ={scale = 1.5, draw}]
+\begin{tikzpicture}[scale = 1.3, every node/.style ={scale = 1.25, draw}]
 \node(rad) {}[grow = up,thick] 
  child {node {$\{C\}$}
   child {node {$\{B\}$}
    child {node {$\{A,B\}$}
-    child {node{$\{\sim C\}$}}
+    child {node{$\{\sim C\}$}
+     child {node{$$}}
+    }
    }
   }
 }
