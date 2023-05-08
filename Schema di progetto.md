@@ -20,10 +20,11 @@ $$ \omega_{c} = K\omega_{c}\qquad K \approx 10 \% 50 $$
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw[-latex] (0,0) -- (10,0)node[right]{$\omega$};
+\draw[-latex] (0,0) node[left]{$0\ dB$} -- (10,0)node[right]{$\omega$};
 \draw[red] (0,1) -- (10,-1);
 \draw[blue] (0,0) -- (5,0) -- (10,-1);
 \draw[green] (0,-1) -- (5,0) -- (10,0);
+\node[above] at (5,0) {$\omega_c$};
 \end{tikzpicture}
 \end{document}
 ```
