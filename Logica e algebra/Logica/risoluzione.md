@@ -50,4 +50,6 @@ Diamo ora una condizione necessaria e sufficiente affinchè un insieme di clauso
 >>Da questo ricaviamo che una formula $\mathcal{A}$ è semanticamente deducibile da un insieme di f.b.f. $\Gamma$ se e solo se $\Gamma^C \cup \{ \sim A \}^{C} \vdash_{R} \square$ (dove $\Gamma^C$ e $\{ \sim A \}^C$ sono rispettivamente l'insieme delle clausole ottenute dalle formule di $\Gamma$ e la forma a clausole di $\sim A$) 
 
 In conclusione:
-
+- la risoluzione agisce per refutazione e opera su f.b.f. in forma a clausole
+- è un sistema corretto ed è completo per refutazione
+Ma se $\Gamma \vDash \mathcal{A}$ non è detto che $\Gamma^C \vdash_{R} \mathcal{A}^C$, dove $\Gamma^C$ l'insieme delle clausole ottenute dalle formule di $\Gamma$ ed $A^C$
