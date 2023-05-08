@@ -106,7 +106,7 @@ Un albero di risoluzione del nostro esempio potrebbe essere quello rappresentato
    child {node {$\{A,B\}$}
     child {node{$\{\sim C\}$}
      child {node{$\{\sim A\}$}
-      child {node}
+      child {node{A}}
      }
      child {node{$\{A, \sim C\}$}
      }
