@@ -111,3 +111,4 @@ Negli ultimi due casi possiamo considerare il caso pessimo $T_{C} = T_{s}$, di p
 #todo In verde altra pratica wrc -> wrc -> wrc
 
 #### Criterio 4
+$T_{s} \ll$ (diciamo operativamente non oltre 1/5) della piú piccola costante di tempo presente in $R(s)$
