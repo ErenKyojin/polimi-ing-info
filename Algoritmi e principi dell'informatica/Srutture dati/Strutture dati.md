@@ -10,12 +10,12 @@ Le strutture dati sono "strumenti" utilizzati per contenere oggetti, sono quindi
 ## Operazioni
 Operazioni tipiche, anche se non tutte necessarie:
 
-- **Search**
-- **Insert**
-- **Delete**
-- **Minimum**
-- **Maximum**
-- **Successor**
-- **Predeceesor**
+- **Search(S, k)**
+- **Insert(S, x)**
+- **Delete(S, x)**
+- **Minimum(S)**
+- **Maximum(S)**
+- **Successor(S, x)**
+- **Predecessor(S, x)**
 
-
+[[]]
