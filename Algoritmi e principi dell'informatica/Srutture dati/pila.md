@@ -23,5 +23,12 @@ push(S, x)
 		overflow //lista piena
 	S.top := S.top + 1
 	S[S.top] := x
+```
+
+```clike
+pop(S)
+	if S.top = 0
+		underflow
+	S.top := S.top - 1
 	
 ```
