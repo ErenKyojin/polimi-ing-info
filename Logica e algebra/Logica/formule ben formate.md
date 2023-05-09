@@ -100,4 +100,4 @@ Possiamo quindi definire gli [[insiemi adeguati]]
 
 >[!def]
 >- Ogni [[formule atomiche|formula atomica]] è una f.b.f.
->- Se $\mathcal{A}$ è una f.b.f. anche $(\sim \mathcal{A})$ è
+>- Se $\mathcal{A}$ è una f.b.f. anche $(\sim \mathcal{A}), (\forall x \mathcal{A}),(\exists x \mathcal{A})$
