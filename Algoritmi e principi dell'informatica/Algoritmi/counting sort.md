@@ -21,6 +21,6 @@ counting-sort(A, B, k)
 		C[A[j]] := C[A[j]] - 1
 
 ```
-Con `A` array di input disordinato, `B` array di output ordinate e 
-
+Con `A` array di input disordinato, `B` array di output ordinate e `k` il massimo tra i valori di `A`
+(`A` e `B` sono della stessa lunghezza)
 
