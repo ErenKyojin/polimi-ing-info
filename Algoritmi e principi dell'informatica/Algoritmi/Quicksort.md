@@ -36,4 +36,4 @@ La complessità dipende da come scegliamo i due sottoarray
 $T(n) = 2T(n / 2) + \Theta(n)$
 Se uno dei due sottoarray è sempre vuoto e l'altro contiene $n-1$ elementi si ha il caso pessimo:
 $$ T(n)= T(n-1) + \Theta(n) $$
-Ossia il caso pessimo è quando l'array è sempre ordinato
+Ossia il caso pessimo è quando l'array è sempre ordinato+
