@@ -15,4 +15,6 @@ heapsort(A)
 		max-heapify(A, 1)
 ```
 
-Ogni ciclo posizioniamo l'elemento piú grande (primo edll'array, in quanto quello è un max-heap) in fondo alla parte di array ancora da ordinare (quella corrispondente all'heap)
+Ogni ciclo posizioniamo l'elemento piú grande (primo edll'array, in quanto quello è un max-heap) in fondo alla parte di array ancora da ordinare (quella corrispondente all'heap).
+
+Costo $n \log(n)$
