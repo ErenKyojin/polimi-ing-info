@@ -22,4 +22,4 @@ counting-sort(A, B, k)
 
 ```
 Con `A` array di input disordinato, `B` array di output ordinate e `k` il massimo tra i valori di `A`
-(`A` e `B` sono della stessa lunghezza). Si ottiene la [[stabilità]] facendo una specie di integrale dell'array di conteggio (che è il terzo for loop)
+(`A` e `B` sono della stessa lunghezza). Si ottiene la [[stabilità]] facendo una specie di [[integrale]] dell'array di conteggio (che è il terzo for loop)
