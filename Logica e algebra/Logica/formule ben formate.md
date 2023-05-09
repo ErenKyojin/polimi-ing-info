@@ -99,4 +99,5 @@ Possiamo quindi definire gli [[insiemi adeguati]]
 # Nel [[linguaggio del primo ordine]]
 
 >[!def]
->- Ogni formula atomica è una f.b.f.
+>- Ogni [[formule atomiche|formula atomica]] è una f.b.f.
+>- Se $\mathcal{A}$ è una f.b.f. anche $(\sim \mathcal{A})$ è

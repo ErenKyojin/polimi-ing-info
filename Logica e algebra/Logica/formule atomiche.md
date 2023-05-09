@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: formula atomica
 creation date: 2023-05-09 19:39
 modification date: 2023-05-09 19:39
 ---
