@@ -15,7 +15,7 @@ Consideriamo gli algoritmi di confronto binario ed otteniamo un albero di decisi
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\node {}
+\node {1:2} child node {1};
 \end{tikzpicture}
 \end{document}
 ```
