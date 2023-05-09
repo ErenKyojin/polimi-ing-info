@@ -27,8 +27,11 @@ Partition(A, p, r)
 			swap A[i] <-> A[j]
 	swap A[i + 1] <-> A[r]
 	return i + 1
-	
 ```
+
+
+>[!esempio]
+>2 3 1 2 4
 
 
 
