@@ -10,7 +10,10 @@ Ipotesi fondamentale: i valori da ordinare sono tutti numeri naturali compresi t
 counting-sort(A, B, k)
 	for i := 0 to k
 		C[i] := 0
-	for j :
+	for j := 1 to A.length
+		C[A[j]] := C[A[j]] + 1
+	//C[i] ora contiene il numero di elementi uguali ad i
+	for i = 1 to k
 
 ```
 
