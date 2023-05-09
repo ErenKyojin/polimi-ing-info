@@ -33,3 +33,4 @@ Per ordinare un array `A`: `quicksort(A, 1, A.length)`
 
 
 La complessità dipende da come scegliamo i due sottoarray 
+$T(n) = 2T(n / 2) + \Theta(n)$
