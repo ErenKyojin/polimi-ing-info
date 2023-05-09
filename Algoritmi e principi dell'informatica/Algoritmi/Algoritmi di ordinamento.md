@@ -14,8 +14,8 @@ Consideriamo gli algoritmi di confronto binario ed otteniamo un albero di decisi
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}
-\node {1:2} [sibling distance = 2.5cm]
+\begin{tikzpicture}[level 1/.style={sibling distance = 4cm}, level 2/.style={sibling distance = 2cm}]
+\node {1:2} []
 	child {node {2:3}
 	 child {node {1,2,3}}
 	 child {node {1:3} 
