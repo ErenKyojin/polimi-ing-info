@@ -4,7 +4,7 @@ creation date: 2023-05-09 12:18
 modification date: 2023-05-09 12:18
 ---
 
-Ipotesi fondamentale: i valori da ordinare sono tutti numeri naturali compresi tra 0 e una costante $k$.
+Ipotesi fondamentale: i valori da ordinare sono tutti [[numeri naturali]] compresi tra 0 e una costante $k$.
 
 ```clike
 counting-sort(A, B, k)
@@ -22,5 +22,4 @@ counting-sort(A, B, k)
 
 ```
 Con `A` array di input disordinato, `B` array di output ordinate e `k` il massimo tra i valori di `A`
-(`A` e `B` sono della stessa lunghezza)
-
+(`A` e `B` sono della stessa lunghezza). Si ottiene la [[stabilità]] facendo una specie di integrale dell'array
