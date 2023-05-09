@@ -29,3 +29,4 @@ Partition(A, p, r)
 	return i + 1
 ```
 
+Per ordinare un
