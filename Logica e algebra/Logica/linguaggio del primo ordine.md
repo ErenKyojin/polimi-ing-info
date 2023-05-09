@@ -11,4 +11,6 @@ modification date: 2023-05-09 19:19
 > - Lettere funzionali: $f_{i}^n$ ($i,n$ interi naturali, l'apice indica l'arità, il pedice distingue lettere diverse con stessa arità)
 > - Lettere predicative: $\mathcal{A}_{i}^n$ ($i,n$ interi naturali, l'apice indica l'arità, il pedice distingue lettere diverse con la stessa arità)
 > - [[Connettivi]]: $\sim, \land, \lor, \Rightarrow, \Leftrightarrow$
-> - [[Quantificatori]]: $\forall x$
+> - [[Quantificatori]]: 
+> 	- $\forall x$ detto quantificatore universale
+> 	- $\exists x$ detto quantificatore esistaziale
