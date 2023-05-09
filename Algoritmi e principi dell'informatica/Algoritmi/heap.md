@@ -66,4 +66,5 @@ build-maxheap(A)
 
 Per la complessità potremmo pensare di fare un ciclo di $n/2$ passi chiamando una funzione di complessità $\log(n)$, potremmo pensare quindi che la complessità sia $n \log(n)$, tuttavia non è cosí semplice.
 
-Osserviamo che l'altezza di un albero quasi completo di $n$ node è $\lfloor \log_{2}(n) \rfloor$, e se definiamo l'altezza di un nodo di un heap
+Osserviamo che l'altezza di un albero quasi completo di $n$ node è $\lfloor \log_{2}(n) \rfloor$, e se definiamo come l'altezza di un nodo di un heap la lunghezza del cammino piú lungo che porta ad una foglio il costo di max-heapify invocato su un nodo di altezza $h$ è $O(h)$. Ed il numero massimo di nodi di altezza $h$ in un heap è $O(h)$.
+Max-hea
