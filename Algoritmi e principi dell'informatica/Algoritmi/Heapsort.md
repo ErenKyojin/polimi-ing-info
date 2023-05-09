@@ -85,5 +85,10 @@ L'idea alla base di Heapsort è che un array si può interpretare come un [[heap
 Dall'alto verso il basso e da sinistra verso destra.
 
 ```clike
-	heapsort(A)
+heapsort(A)
+	build-max-heap(A)
+	for i := A.length, downto 2
+		swap A[1] <-> A[i]
+		A.heap-size := A.heap-size - 1
+		max-heapify(A, 1)
 ```
