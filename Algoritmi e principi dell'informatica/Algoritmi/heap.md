@@ -64,3 +64,4 @@ build-maxheap(A)
 		max-heapsize(A, i)
 ```
 
+Per la complessità potremmo pensare di fare un ciclo di $n/2$ passi chiamando una funzione di complessità $\log(n)$, potremmo pensare quindi che la complessità sia $n \log(n)$
