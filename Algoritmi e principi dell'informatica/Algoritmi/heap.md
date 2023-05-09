@@ -46,5 +46,10 @@ max-heapify(A, i)
 		max := l
 	else max := i
 	if r <= A.heap-size and A[r] > A[max]
-		max := 
+		max := r
+	if max != i then
+		swap A[i] <-> A[max]
+		max-heapify(A, max)
 ```
+
+È una funzione ricorsiva ed il caso pessima è 
