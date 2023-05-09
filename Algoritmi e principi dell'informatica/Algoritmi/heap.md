@@ -52,4 +52,7 @@ max-heapify(A, i)
 		max-heapify(A, max)
 ```
 
-È una funzione ricorsiva ed il caso pessimo è che la funzione debba arrivare ricorsivamente ad ogni foglia, ed il caso pessimo per singola chiamata è che un sottoalbero abbia due figli mentre l'altro non ne abbia. 
+È una funzione ricorsiva ed il caso pessimo per singola chiamata è che un sottoalbero abbia due figli mentre l'altro non ne abbia, ossia che il livello inferiore sia pieno a metà.
+
+### BUILD-MAX-HEAP
+Si costruisce un max-heap partendo dall'osservazione che le foglie siano già dei max-heap
