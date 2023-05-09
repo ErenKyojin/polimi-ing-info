@@ -10,10 +10,10 @@ modification date: 2023-05-09 11:17
 ```clike
 quicksort(A, p, r)
 	Q := partition(A, p ,r) //Q posizione del perno
-	quicksort(A, p ,q - 1)
-	
+	quicksort(A, p , q - 1)
+	quicksort(A, q + 1, r)
 ```
-
+Tutti gli elementi prima del perno sono minori del perno stesso e tutti gli elementi successivi al perno sono maggiori del perno stesso
 
 
 
