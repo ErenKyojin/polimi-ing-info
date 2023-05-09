@@ -4,5 +4,6 @@
   "vimMode": true,
   "alwaysUpdateLinks": true,
   "autoPairMarkdown": false,
-  "attachmentFolderPath": "Settings/Allegati"
+  "attachmentFolderPath": "Settings/Allegati",
+  "showLineNumber": true
 }
