@@ -25,7 +25,8 @@ Partition(A, p, r)
 		if A[j] <= x
 			i := i + 1
 			swap A[i] <-> A[j]
-	swap
+	swap A[i + 1] <-> A[r]
+	return i + 1
 	
 ```
 
