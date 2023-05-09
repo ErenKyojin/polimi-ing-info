@@ -30,5 +30,5 @@ pop(S)
 	if S.top = 0
 		underflow
 	S.top := S.top - 1
-	
+	return S[S.top + 1]
 ```
