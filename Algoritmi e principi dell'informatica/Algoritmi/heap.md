@@ -36,4 +36,11 @@ modification date: 2023-05-09 10:43
 ## Algoritmi di supporto
 
 ### MAX-HEAPIFY
-Dato un elemento di un Array i cui figli sono Max-Heap ma in cui `A[i]` potrebbe essere minore dei suoi figli, modifica l'array per modificare 
+Dato un elemento di un Array i cui figli sono Max-Heap ma in cui `A[i]` potrebbe essere minore dei suoi figli, modifica l'array affinchè l'albero di radice `A[i]` sia max-heap.
+
+```clike
+max-heapify(A, i)
+	l := LEFT(i)
+	r := RIGHT(i)
+	if l <=
+```
