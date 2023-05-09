@@ -32,3 +32,4 @@ pop(S)
 	S.top := S.top - 1
 	return S[S.top + 1]
 ```
+
