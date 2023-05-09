@@ -19,9 +19,11 @@ Consideriamo gli algoritmi di confronto binario ed otteniamo un albero di decisi
 	child {node {2:3}
 	 child {node {1,2,3}}
 	 child {node {1:3} 
-	  child {node {}}}}
+	  child {node {(1,3,2)}}
+	  child {node{(1,2,3)}}}}
 	  
-	child {node {1:3a}};
+	child {node {1:3a}
+	 chil no};
 \end{tikzpicture}
 \end{document}
 ```
