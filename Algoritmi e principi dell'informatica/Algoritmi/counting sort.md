@@ -17,9 +17,10 @@ counting-sort(A, B, k)
 		C[i] := C[i] + C[i - 1]
 	//C[i] ora contiene il numero di elementi <= i
 	for j := A.length downto 1
-		B[C[A[j]]] :
+		B[C[A[j]]] := A[j]
+		C[A[j]] := C[A[j]] - 1
 
 ```
-
+Con `A` array di input disordinato, `B` array di output ordinate e 
 
 
