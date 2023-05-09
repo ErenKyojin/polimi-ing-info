@@ -17,17 +17,20 @@ modification date: 2023-05-09 10:43
 
 >[!multi column]
 >
->>
+>>[!parent]
 >>```clike
->>return floor(i / 2)
+>>return floor(i/2)
 >>```
 >
+>>[!left]
 >>```clike
 >>return  2*i
 >>```
 >
+>>[!right]
 >>```clike
->>return 2
+>>return 2*i + 1
 >>```
 
 
+## Algoritmi di supporto
