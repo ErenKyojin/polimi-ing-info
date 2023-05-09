@@ -23,8 +23,10 @@ Consideriamo gli algoritmi di confronto binario ed otteniamo un albero di decisi
 	  child {node{(1,2,3)}}}}
 	  
 	child {node {1:3a}
-	 child {node{(2,1,3)}
-	 }};
+	 child {node{(2,1,3)}}
+	 child {node{2:3} 
+	  child {node {2,3,1}}
+	  child {node{2}}}};
 \end{tikzpicture}
 \end{document}
 ```
