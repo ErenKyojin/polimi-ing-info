@@ -12,6 +12,14 @@ modification date: 2023-05-09 10:43
 > l'elemento massimo è la radice, l'elemento minimo è una foglia
 
 >[!def] min-heap
->Come il max-heap ma con 
+>Come il max-heap ma con segni invertiti
+
+
+>[!multi column]
+>
+>>
+>>```clike
+>>```
+>>
 
 
