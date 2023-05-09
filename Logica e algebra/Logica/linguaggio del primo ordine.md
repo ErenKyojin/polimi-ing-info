@@ -15,3 +15,5 @@ modification date: 2023-05-09 19:19
 > 	- $\forall x$ detto quantificatore universale
 > 	- $\exists x$ detto quantificatore esistaziale
 > - Simboli ausiliari: $($,$)$
+
+Attraverso questi simboli possiamo definire i [[termini]] 
