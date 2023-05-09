@@ -4,7 +4,7 @@ creation date: 2023-05-09 12:44
 modification date: 2023-05-09 12:44
 ---
 
-L
-
+La pila (o stack) è una [[Strutture dati|struttura dati]] sulla quale possiamo fare le seguenti operazioni
+- Controllare se è 
 
 
