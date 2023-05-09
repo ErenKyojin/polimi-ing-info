@@ -14,6 +14,10 @@ counting-sort(A, B, k)
 		C[A[j]] := C[A[j]] + 1
 	//C[i] ora contiene il numero di elementi uguali ad i
 	for i = 1 to k
+		C[i] := C[i] + C[i - 1]
+	//C[i] ora contiene il numero di elementi <= i
+	for j := A.length downto 1
+		B[C[A[j]]] :
 
 ```
 
