@@ -34,3 +34,6 @@ modification date: 2023-05-09 10:43
 
 
 ## Algoritmi di supporto
+
+### MAX-HEAPIFY
+Dato un elemento di un Array i cui figli sono Max-Heap ma 
