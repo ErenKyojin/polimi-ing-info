@@ -13,7 +13,17 @@ quicksort(A, p, r)
 	quicksort(A, p , q - 1)
 	quicksort(A, q + 1, r)
 ```
-Tutti gli elementi prima del perno sono minori del perno stesso e tutti gli elementi successivi al perno sono maggiori del perno stesso
+Tutti gli elementi prima del perno sono minori del perno stesso e tutti gli elementi successivi al perno sono maggiori del perno stesso. 
+
+Vediamo piú dettagliatamente la funzione partition:
+
+```clike
+Partition(A, p, r)
+	x := A[r]
+	i := p - 1
+	for 1 := p to r - 1
+	 
+```
 
 
 
