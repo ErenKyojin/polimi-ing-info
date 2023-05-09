@@ -17,8 +17,10 @@ Consideriamo gli algoritmi di confronto binario ed otteniamo un albero di decisi
 \begin{tikzpicture}
 \node {1:2} 
 	child {node {2:3}
-	 child {node {1,2,3}}}
-	child {node {1:3}};
+	 child {node {1,2,3}}
+	 child {node {1:3}}
+	  child {node {1,2,}}}
+	child {node {1:3a}};
 \end{tikzpicture}
 \end{document}
 ```
