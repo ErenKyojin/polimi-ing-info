@@ -37,4 +37,4 @@ Se hanno la stessa dimensione (come in merge sort):
 $$T(n) = 2T(n / 2) + \Theta(n) = \Theta(n \log n)$$
 Se uno dei due sottoarray è sempre vuoto e l'altro contiene $n-1$ elementi si ha il caso pessimo:
 $$ T(n)= T(n-1) + \Theta(n) = O(n^2)$$
-Ossia il caso pessimo è quando l'array è sempre ordinato+
+Ossia il caso pessimo è quando l'array è sempre ordinato.
