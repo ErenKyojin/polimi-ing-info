@@ -60,5 +60,7 @@ Si costruisce un max-heap partendo dall'osservazione che le foglie siano già de
 ```clike
 build-maxheap(A)
 	A.heap.size := A.length
-	for i := A
+	for i := A.length / 2 downto 1
+		max-heapsize(A, i)
 ```
+
