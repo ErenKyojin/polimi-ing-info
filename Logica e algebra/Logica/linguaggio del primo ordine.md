@@ -16,4 +16,4 @@ modification date: 2023-05-09 19:19
 > 	- $\exists x$ detto quantificatore esistaziale
 > - Simboli ausiliari: $($,$)$
 
-Attraverso questi simboli possiamo definire i [[termini]] 
+Attraverso questi simboli possiamo definire i [[termini]], e attraverso lettere predicative e termini possiamo costruire delle frasi
