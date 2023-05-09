@@ -52,4 +52,4 @@ max-heapify(A, i)
 		max-heapify(A, max)
 ```
 
-È una funzione ricorsiva ed il caso pessima è che la funzione debba arrivare ricorsivamente ad ogni foglia
+È una funzione ricorsiva ed il caso pessimo è che la funzione debba arrivare ricorsivamente ad ogni foglia
