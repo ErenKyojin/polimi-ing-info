@@ -18,4 +18,4 @@ Operazioni tipiche, anche se non tutte necessarie:
 - **Successor(S, x)**
 - **Predecessor(S, x)**
 
-[[]]
+Iniziamo con la struttura dati più semplice, la [[pila]]
