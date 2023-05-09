@@ -36,4 +36,4 @@ modification date: 2023-05-09 10:43
 ## Algoritmi di supporto
 
 ### MAX-HEAPIFY
-Dato un elemento di un Array i cui figli sono Max-Heap ma 
+Dato un elemento di un Array i cui figli sono Max-Heap ma in cui `A[i]` potrebbe essere minore dei suoi figli, modifica l'array per modificare 
