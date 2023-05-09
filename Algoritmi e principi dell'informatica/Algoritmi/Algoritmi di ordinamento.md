@@ -15,7 +15,7 @@ Consideriamo gli algoritmi di confronto binario ed otteniamo un albero di decisi
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\node {1:2} 
+\node {1:2} [sibling distance = 2.5cm]
 	child {node {2:3}
 	 child {node {1,2,3}}
 	 child {node {1:3} 
@@ -26,7 +26,7 @@ Consideriamo gli algoritmi di confronto binario ed otteniamo un albero di decisi
 	 child {node{(2,1,3)}}
 	 child {node{2:3} 
 	  child {node {2,3,1}}
-	  child {node{2}}}};
+	  child {node{3,2,1}}}};
 \end{tikzpicture}
 \end{document}
 ```
