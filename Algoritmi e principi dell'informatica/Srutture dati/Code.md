@@ -13,7 +13,9 @@ Le code sono simili alle [[pila|pile]], salvo che una coda è gestita con una po
 Una coda è gestita con una politica FIFO, l'elemento che viene cancellato è quello che era stato inserito per primo. 
 
 ### Implementazione tramite liste semplici
+Provare a farlo con un unico puntatore di partenza
 
+\[ | \] -> \[ | \] -> \[ | \]
 
 
 
