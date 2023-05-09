@@ -29,4 +29,7 @@ Partition(A, p, r)
 	return i + 1
 ```
 
-Per ordinare un
+Per ordinare un array `A`: `quicksort(A, 1, A.length)`
+
+
+La complessità dipende da come scegliamo i due sottoarray 
