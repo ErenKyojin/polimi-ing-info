@@ -19,7 +19,15 @@ modification date: 2023-05-09 10:43
 >
 >>
 >>```clike
+>>return floor(i / 2)
 >>```
->>
+>
+>>```clike
+>>return  2*i
+>>```
+>
+>>```clike
+>>return 2
+>>```
 
 
