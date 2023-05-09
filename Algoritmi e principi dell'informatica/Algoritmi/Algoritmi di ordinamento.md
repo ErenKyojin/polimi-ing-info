@@ -17,7 +17,9 @@ Consideriamo gli algoritmi di confronto binario ed otteniamo un albero di decisi
 \begin{tikzpicture}
 [
 level 1/.style={sibling distance = 4cm},
-level 2/.style={sibling distance = 2cm}]
+level 2/.style={sibling distance = 2cm},
+evey node/.style={draw}
+]
 \node {1:2} 
 	child {node {2:3}
 	 child {node {1,2,3}}
@@ -35,5 +37,5 @@ level 2/.style={sibling distance = 2cm}]
 ```
 
 
-
+Ci sono $n!$ permutazioni ma alcune possono comparire piú vo
 
