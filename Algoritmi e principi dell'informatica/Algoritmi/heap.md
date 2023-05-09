@@ -56,3 +56,9 @@ max-heapify(A, i)
 
 ### BUILD-MAX-HEAP
 Si costruisce un max-heap partendo dall'osservazione che le foglie siano già dei max-heap
+
+```clike
+build-maxheap(A)
+	A.heap.size := A.length
+	for i := A
+```
