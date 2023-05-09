@@ -97,3 +97,6 @@ Inoltre le due ultime formula si possono sostituire rispettivamente con:
 Possiamo quindi definire gli [[insiemi adeguati]] 
 
 # Nel [[linguaggio del primo ordine]]
+
+>[!def]
+>- Ogni formula atomica è una f.b.f.
