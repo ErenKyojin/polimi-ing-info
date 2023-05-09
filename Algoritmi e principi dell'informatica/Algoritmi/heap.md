@@ -42,5 +42,9 @@ Dato un elemento di un Array i cui figli sono Max-Heap ma in cui `A[i]` potrebbe
 max-heapify(A, i)
 	l := LEFT(i)
 	r := RIGHT(i)
-	if l <=
+	if l <= A.heap-size and A[l] > A[i]
+		max := l
+	else max := i
+	if r <= A.heap-size and A[r] > A[max]
+		max := 
 ```
