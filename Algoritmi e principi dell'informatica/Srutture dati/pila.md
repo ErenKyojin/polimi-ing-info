@@ -15,4 +15,13 @@ Si può costruire con un array (immediato) o con una lista dinamica semplice.
 
 
 ### Implementazione con array
-Intanto dobbiamo considerare che un arrray ha una lunghezza massima predefinita, se una p
+Intanto dobbiamo considerare che un arrray ha una lunghezza massima predefinita, se una pila può contenere al massimo $n$ elementi utilizziamo un array di $n$ elementi
+
+```clike
+push(S, x)
+	if S.top = S.length
+		overflow //lista piena
+	S.top := S.top + 1
+	S[S.top] := x
+	
+```
