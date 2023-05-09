@@ -22,7 +22,11 @@ Partition(A, p, r)
 	x := A[r]
 	i := p - 1
 	for 1 := p to r - 1
-	 
+		if A[j] <= x
+			i := i + 1
+			swap A[i] <-> A[j]
+	swap
+	
 ```
 
 
