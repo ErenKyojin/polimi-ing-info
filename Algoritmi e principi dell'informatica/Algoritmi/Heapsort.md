@@ -83,3 +83,7 @@ L'idea alla base di Heapsort è che un array si può interpretare come un [[heap
 >Quindi se ci sono $n$ nodi l'altezza $h$ è sempre $h=\lfloor \log_{2}n  \rfloor$
 
 Dall'alto verso il basso e da sinistra verso destra.
+
+```clike
+	heapsort(A)
+```
