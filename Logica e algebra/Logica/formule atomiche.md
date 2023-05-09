@@ -5,7 +5,7 @@ modification date: 2023-05-09 19:39
 ---
 
 >[!def]
->Formule del tipo $A_{j}^m(t_{1},t_{2},\dots,t_{m})$ dove $\mathcal{A}$
+>Formule del tipo $\mathcal{A}_{j}^m(t_{1},t_{2},\dots,t_{m})$ dove $\mathcal{A}_{j}^m$ è una lettera predicative e $t_{1},t_{2},\dots,t_{m}$ sono termini generici.
 
 
 
