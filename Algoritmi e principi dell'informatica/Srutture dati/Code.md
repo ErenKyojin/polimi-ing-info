@@ -9,6 +9,11 @@ Le code sono simili alle [[pila|pile]], salvo che una coda è gestita con una po
 - Inserire un elemento nella collezione (ENDQUEUE)
 - Cancellare un elemento della collezione (DEQUEUE)
 	- Si noti che l'operazione di DEQUEUE restituisce l'elemento cancellato
-I
+
+Una coda è gestita con una politica FIFO, l'elemento che viene cancellato è quello che era stato inserito per primo. 
+
+### Implementazione
+Liste semplice
+
 
 
