@@ -95,3 +95,5 @@ Inoltre le due ultime formula si possono sostituire rispettivamente con:
 - $\top \equiv \sim A \lor A$ e $\top \land B \equiv B$
 
 Possiamo quindi definire gli [[insiemi adeguati]] 
+
+# Nel [[linguaggio del primo ordine]]
