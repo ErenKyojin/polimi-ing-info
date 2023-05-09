@@ -11,4 +11,8 @@ La pila (o stack) è una [[Strutture dati|struttura dati]] sulla quale possiamo 
 
 Una pila è gestita con politica LIFO (last in first out), quindi l'elemento cancellato è l'ultimo inserito.
 
-Si può costruire con un array (immediato) o con una lista dinamica semplice
+Si può costruire con un array (immediato) o con una lista dinamica semplice.
+
+
+### Implementazione con array
+Intanto dobbiamo considerare che un arrray ha una lunghezza massima predefinita, se una p
