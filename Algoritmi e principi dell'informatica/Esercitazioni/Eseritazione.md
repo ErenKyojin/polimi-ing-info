@@ -770,4 +770,4 @@ Descrivere un algoritmo efficente che dato A array di $n$ elementi, stampi si se
 - Se si può fare la partizione è (A\[1\],A\[n\]), (A\[2\], A\[n-1\]),...,(A\[n/2\],A\[n/2\]) <- $\Theta(n)$
 
 ##
-Descrivere un algoritmo efficiente che dato A array di $n$ interi e $d$ intero
+Descrivere un algoritmo efficiente che dato A array di $n$ interi e $d$ intero stampi si se esistono $1 \leq i < j \leq n$ tale che $A[i] + A[j] = d$ a somma costante, no alt.
