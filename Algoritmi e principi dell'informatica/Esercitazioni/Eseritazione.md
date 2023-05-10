@@ -609,3 +609,9 @@ Se $n \leq 0, T(n) = 2$
 
 $$T(n) = 2 + T(n-1) = 2 + 2 + T(n - 2) = \underbrace{ 2 + \dots + 2 }_{ n } + T(0) = 2n+2$$
 Tuttavia per risolvere una ricorrenza non siamo interessati alla soluzione esatta, siamo interessati a risolvere l'ordine di grandezza della ricorsione.
+
+## Ricerca binaria
+$$\begin{cases}
+t(n) = t\left( \frac{n}{2} \right) + c \\
+t(1) = d
+\end{cases}$$
