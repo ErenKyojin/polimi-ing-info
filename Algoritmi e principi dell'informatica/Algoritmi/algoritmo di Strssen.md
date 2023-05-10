@@ -1,10 +1,11 @@
 ---
-aliases: <% tp.file.cursor(0) %>
+aliases: 
 creation date: 2023-05-10 16:07
 modification date: 2023-05-10 16:07
 ---
+Per moltiplicazioni di matrici
 
-<% tp.file.cursor(1) %>
+$T(n) = 7 T(n / 2) + \Theta(n) \implies T(n) = n^{\log}$
 
 
 
