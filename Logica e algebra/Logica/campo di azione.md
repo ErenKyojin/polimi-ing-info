@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: campo d'azione
 creation date: 2023-05-10 09:58
 modification date: 2023-05-10 09:58
 ---
