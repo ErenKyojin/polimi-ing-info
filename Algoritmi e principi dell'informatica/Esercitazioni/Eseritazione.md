@@ -794,3 +794,5 @@ Ancora migliorabile se è già ordinato.
 
 ```
 ```
+
+Sommi primo e ultimo
