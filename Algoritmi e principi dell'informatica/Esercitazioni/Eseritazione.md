@@ -735,4 +735,7 @@ Dimostriamo adesso che $T(n) = O(n)$ per induzione su $n$,
  per $n < 50$ ok
  per $n \geq 50$ supponiamo che $T(n) \leq 20cn$ con $c$ costante. (20 scelto per comodità) e sia $\Theta(n)$ nella riccorenza $\leq cn$
 
-$T(n + 1) \leq T\left( \frac{n}{5} \right)+T\left( \frac{3}{4} (n + 1) \right) + cn \leq 1$
+$$\begin{align}
+T(n + 1) &\leq T\left( \frac{n}{5} \right)+T\left( \frac{3}{4} (n + 1) \right) + cn \leq \frac{1}{5}20 cn + \frac{3}{4}cn + cn \\
+&=4cn + 15cn + cn = 20cn
+\end{align}$$
