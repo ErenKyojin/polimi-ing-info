@@ -618,5 +618,8 @@ t(1) = d
 con $c,d$ costanti positive derivate dalla divisione del problema
 $T(n) = \Theta(\log n)$
 
+>[!oss]
+>Ovviamente non conviene ordinare un array per poi applicare una ricerca binaria a meno che non sia un array che cambia velocemenete 
+
 ---
 
