@@ -629,4 +629,4 @@ $$ \begin{array}{|}
 \hline . & . & . & . & .
 \end{array} $$
 $n$ bit
-$\Theta(n^2)$, si pu
+$\Theta(n^2)$, si può fare meglio di così?
