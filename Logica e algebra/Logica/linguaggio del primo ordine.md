@@ -32,5 +32,7 @@ Se non diversamente indicato dalle parentesi varranno le seguenti regole:
 
 >[!esempio]
 >Consideriamo la formula
->$$ ((\mathcal{A}_{2}^2(a,b) \lor (\exists y (\mathcal{A}_{1}^2 (f_{1}^2(x,y),f_{2}^2(a,x))))) \Rightarrow \forall x ((\sim \mathcal{A}1^2(f_{1}^2(x,f_{2}^2(a,x)),b)) \land \mathcal{A}_{2}^2 (x,x))) $$
+>$$ ((\mathcal{A}_{2}^2(a,b) \lor (\exists y (\mathcal{A}_{1}^2 (f_{1}^2(x,y),f_{2}^2(a,x)))))\! \Rightarrow\! (\forall x ((\sim\! \mathcal{A}1^2(f_{1}^2(x,f_{2}^2(a,x)),b)) \land \mathcal{A}_{2}^2 (x,x)))) $$
+>Può essere riscritta come
+>$$ \mathcal{A_{2}}^2 $$
 
