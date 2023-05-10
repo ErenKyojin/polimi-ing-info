@@ -671,7 +671,7 @@ $$ T(n) = \Theta(n^{\log_{2}(3)})\approx O(n^{1,59}) $$
 Quindi si può scendere sotto $n^2$ !
 Questo è l'[[algoritmo di Karatsuba]]
 Ma non finisce qui, si può applicare anche l'altra possiblità, aumentare il numero di divisioni.
-L'algoritmo migliore trovato fino ad ore è un algoritmo galattico ($10^{40'000}$ cifre) che arriva a $\Theta(n\log n)$.
+L'algoritmo migliore trovato fino ad ore è un algoritmo galattico ($n \geq 10^{40'000}$ cifre) che arriva a $\Theta(n\log n)$.
 
 ## Prodotto tra matrici $n\times n$
 Abbiamo $n^2$ coefficienti, ognuno che si calcola con $n$ prodotti (e $n$ somme). Quindi $n^3$
