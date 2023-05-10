@@ -619,7 +619,8 @@ con $c,d$ costanti positive derivate dalla divisione del problema
 $T(n) = \Theta(\log n)$
 
 >[!oss]
->Ovviamente non conviene ordinare un array per poi applicare una ricerca binaria (complessità $\log(n)$), a meno che non sia un array che riceve molte ricerce, conviene direttamente cercare l'elemento (complessità $n$).
+>Ovviamente non conviene ordinare un array ($n\log(n)$) per poi applicare una ricerca binaria (complessità $\log(n)$), a meno che non sia un array che riceve molte ricerce, conviene direttamente cercare l'elemento (complessità $n$).
 
 ---
+## Come si fa il prodotto da due naturali in base 2
 
