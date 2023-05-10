@@ -691,4 +691,4 @@ E per il $k$-esimo? Selezione (A, n, k) cerco il $k$-esimo piú piccolo
 - Altrimenti
 	- dividi A in $\lceil \frac{n}{5} \rceil$ cinquine
 	- ordina ogni cinquina
-	- sia $M$ l'insieme delle medi
+	- sia $M$ l'insieme delle mediane delle cinquine
