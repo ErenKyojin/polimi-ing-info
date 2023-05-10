@@ -42,5 +42,7 @@ Osserviamo tuttavia che a volte viene usato un diverso ordine di priorità (vedi
 
 In genereale comunque si utilizzano piú parentesi di quelle necessarie per evitare ambiguità, e la prima convenzione è la piú utilizzata.
 
-Data una formula $\mathcal{A}$ definiamo le [[sottoformule|sottoformule]] di $\mathcal{A}$, inoltre come per la logica proposizionale anche per le f.b.f. della logica del Primo ordine si può introurre l'[[albero di struttura#In linguaggio del primo ordine logica del primo ordine|albero di struttura]], che evidenzia le sottoformule come le formule il cui albero di st
+Data una formula $\mathcal{A}$ definiamo le [[sottoformule|sottoformule]] di $\mathcal{A}$, inoltre come per la logica proposizionale anche per le f.b.f. della logica del Primo ordine si può introurre l'[[albero di struttura#In linguaggio del primo ordine logica del primo ordine|albero di struttura]], che evidenzia le sottoformule come le formule il cui albero di struttura è il sottoalbero completo che ha radice in un nodo dell'albero della formula.
+
+Data la formula che contenga un quantificatore, la sottoformula a cui quel quantificatore si riferisce è detta campo di azione del quantificatore (ovvero il campo di azione di un quantificator)
 
