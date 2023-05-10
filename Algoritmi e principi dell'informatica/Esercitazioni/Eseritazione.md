@@ -677,4 +677,6 @@ L'algoritmo migliore trovato fino ad ore è un algoritmo galattico ($n \geq 10^{
 Abbiamo $n^2$ coefficienti, ognuno che si calcola con $n$ prodotti (e $n$ somme). Quindi $n^3$, ma è un problema ancora aperto se esistano algoritmi migliori:
 [[algoritmo di Strassen]]
 
-## Array con elementi 
+## Statistiche d'ordine da array
+
+A : \[\]
