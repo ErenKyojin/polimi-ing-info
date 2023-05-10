@@ -10,10 +10,10 @@ modification date: 2023-05-10 10:45
 
 >[!esempio] Esempio semplice (primo ordine)
 >[[Funzionamento automatico]]:
-> $$\begin{case}
+> $$\begin{cases}
 >x(k) = ax(k - 1) + be(k - 1) \\
 >u(k) = cx(k) + de(k)
-\end{case}$$
+\end{cases}$$
 >
 >Esecuzione istante k
 >$$ \begin{cases}
@@ -22,13 +22,15 @@ modification date: 2023-05-10 10:45
 \end{cases} $$
 >
 >Esecuzione istante k + 1:
->$x(k+2) = ax(k+1) + be(k+1)$
->$u(k+2)= \dots$
+>$$ \begin{cases}
+>x(k+2) = ax(k+1) + be(k+1) \\
+>u(k+2)= \dots
+\end{cases} $$
 >
 >Funzionamento tracking:
 > $$\begin{cases}
 >u(k) = Tr(k) \\
->x(k+1) = \frac{de(k) - Tr(k)}{c}
+>x(k+1) = \frac{u(k) - de(k)}{c}
 \end{cases}$$
 > 
 
