@@ -623,6 +623,8 @@ $T(n) = \Theta(\log n)$
 
 ---
 ## prodotto da due naturali in base 2
-$$ \begin{array}{ccc}
-
+$$ \begin{array}{|}
+1 & . & . & . & 0 & \cdot \\
+1 & . & . & . & 1 \\
+\hline . & . & . & . & .
 \end{array} $$
