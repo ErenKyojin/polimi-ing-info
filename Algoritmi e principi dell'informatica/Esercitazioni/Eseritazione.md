@@ -669,5 +669,6 @@ $x \cdot y = 2^n a \cdot c + 2^{n/2} (a d + b c) + bd$
 Abbiamo quindi $a = 3$, $b = 2$, $k = 1$, $h = 0 \implies \log_{2}3$ quindi per il teorema precedente siamo acora nel caso 1 e abbiamo
 $$ T(n) = \Theta(n^{\log_{2}(3)})\approx O(n^{1,59}) $$
 Quindi si può scendere sotto $n^2$ !
+Questo è l'[[algoritmo di Karatsuba]]
 Ma non finisce qui, si può applicare anche l'altra possiblità, aumentare il numero di divisioni.
-L'algoritmo migliore trovato fino ad ore è un algoritmo galattico ($10^{40'000}$ cifre) che arriva a $\Theta(lo)$
+L'algoritmo migliore trovato fino ad ore è un algoritmo galattico ($10^{40'000}$ cifre) che arriva a $\Theta(n\log n)$
