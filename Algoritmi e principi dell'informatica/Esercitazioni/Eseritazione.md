@@ -640,5 +640,5 @@ $$ \begin{align}
 x\cdot y = (2^{n/2}a + b) \cdot (2^{n / 2} + d)= 2^n a \cdot c + 2^{n / 2} (a \cdot d + b \cdot c) + bd
 \end{align} $$
 Compito: scrivere la procedura ricorsiva (quando a,b,c,d singoli bit)
-$$T(n)=4 \cdot T(n / 2) + C$$
-con $C$ costo della divisione del problema:
+$$T(n)=4 \cdot T(n / 2) + \Theta(n)$$
+con $\Theta(n)$ costo della divisione del problema:
