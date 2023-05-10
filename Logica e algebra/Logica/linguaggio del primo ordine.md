@@ -49,4 +49,4 @@ Data la formula che contenga un quantificatore, la sottoformula a cui quel quant
 >[!esempio]
 >Nella formula
 >$$ \mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b) \land \mathcal{A}_{2}^2(x,x)) $$
->Il campo di azione è 
+>Il campo di azione di $\exists y$ è $\mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x))$, quello di $\forall x$ è 
