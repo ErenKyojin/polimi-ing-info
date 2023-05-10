@@ -16,4 +16,9 @@ modification date: 2023-05-10 09:56
 
 
 >[!def]
->Un termine $t$ si dice **libero per una variabile** $x$ in una formula $\mathcal{A}$ 
+>Un termine $t$ si dice **libero per una variabile** $x$ in una formula $\mathcal{A}$ se nessuna occorrenza libera di $x$ in $\mathcal{A}$ cade nel campo d'azione di un quantifiatore che quantifichi una variabile che compare in $t$.
+
+
+>[!esempio]
+>Data la formula
+>$\mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x$
