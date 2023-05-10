@@ -44,7 +44,7 @@ $$ (\mathcal{A}_{2}^2(a,b)\lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y,),f_{2}^2
 \usepackage{amsfonts}
 \begin{document}
 \begin{tikzpicture}[
-level 1/.style={sibling distance = 4cm},
+level 1/.style={sibling distance = 5cm},
 level 2/.style={sibling distance = 2.5cm}
 ]
 \node {$\Rightarrow$}
@@ -55,7 +55,8 @@ level 2/.style={sibling distance = 2.5cm}
 	child {node {$\forall x$}
 	 child {node {$\land$}
 	  child {node {$\sim$}
-	   child {node {$\mathcal{A}_1^2(f_1^2(x,f_2^2(a,x)),b)$}}} } } ;
+	   child {node {$\mathcal{A}_1^2(f_1^2(x,f_2^2(a,x)),b)$}}} 
+	 child  {node {$\mathcal{A}_2^2(x,x)$}} } } ;
 \end{tikzpicture}
 \end{document}
 ```
