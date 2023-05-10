@@ -615,3 +615,5 @@ $$\begin{cases}
 t(n) = t\left( \frac{n}{2} \right) + c \\
 t(1) = d
 \end{cases}$$
+con $c,d$ costanti positive derivate dalla divisione del problema
+$T(n) = \Theta(\log n)$
