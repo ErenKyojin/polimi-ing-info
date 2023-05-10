@@ -705,4 +705,9 @@ Selezione (A, n, k): *cerco il $k$-esimo piú piccolo*
 
 A = \[3 7 12 1 2 | 5 4 7 3 1 \]
    = \[1 2 **3** 7 12 | 1 3 **4** 5 7\]
-
+$$ A = \begin{bmatrix}
+3 & 7 & 73 & 1 & 2 \\
+5 & 15 & 74 & 2 & 3 \\
+9 & 18 & 75 & 3 & 4 \\
+21 & 42 & 7
+\end{bmatrix} $$
