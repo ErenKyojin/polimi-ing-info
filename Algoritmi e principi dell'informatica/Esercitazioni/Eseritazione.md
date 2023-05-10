@@ -656,3 +656,4 @@ $$ \begin{align}
 >2. Se $\log_{b}(a) = k : T(n) = \Theta(n^k\log^{h+1}(n))$
 >3. Se $\log_{b}(a) <k : T(n) = \Theta(n^k \log^h(n))$
 
+In questo caso $a=4, b = 2, $
