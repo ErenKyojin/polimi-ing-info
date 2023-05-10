@@ -685,7 +685,8 @@ min'': inf 5 4 3 3 3
 
 La complessità è $\Theta(2n) = \Theta(n)$, se cercassi solo il minimo sarebbe $\Theta(n)$, se cercassi i primi 3 sarebbe $\Theta(3n)$
 
-E per il $k$-esimo? Selezione (A, n, k) cerco il $k$-esimo piú piccolo
+E per il $k$-esimo? 
+Selezione (A, n, k): *cerco il $k$-esimo piú piccolo*
 - Se $n < 50$ 
 	- ordina A e stampa A\[k\] (50 arbitrario)
 - Altrimenti
