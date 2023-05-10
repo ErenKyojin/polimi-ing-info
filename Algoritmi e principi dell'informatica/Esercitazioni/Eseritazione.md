@@ -675,3 +675,5 @@ L'algoritmo migliore trovato fino ad ore è un algoritmo galattico ($n \geq 10^{
 
 ## Prodotto tra matrici $n\times n$
 Abbiamo $n^2$ coefficienti, ognuno che si calcola con $n$ prodotti (e $n$ somme). Quindi $n^3$
+
+[[algoritmo di Strssen]]
