@@ -15,9 +15,13 @@ modification date: 2023-05-10 10:45
 >u(k) = cx(k) + de(k)
 \end{case}$$
 >
->$x(k+1) = ax(k) + be(k)$
->$u(k+1) cx(k+1) + de(k+1)$
+>$$ \begin{cases}
+>x(k+1) = ax(k) + be(k)\\
+>u(k+1) cx(k+1) + de(k+1)
+\end{cases} $$
 >
 >$x(k+2) = ax(k+1) + be(k+1)$
 >$u(k+2)= \dots$
+>
+>Esecuzione ist
 
