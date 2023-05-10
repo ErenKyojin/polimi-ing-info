@@ -739,3 +739,5 @@ $$\begin{align}
 T(n + 1) &\leq T\left( \frac{n}{5} \right)+T\left( \frac{3}{4} (n + 1) \right) + cn \leq \frac{1}{5}20 cn + \frac{3}{4}cn + cn \\
 &=4cn + 15cn + cn = 20cn
 \end{align}$$
+
+Si potrebbe risolvere col Teorema di Akra-bazzi
