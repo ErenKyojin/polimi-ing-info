@@ -593,3 +593,11 @@ Anche la memoria è costante
 
 Un automa a pila ha complessità spaziale costante per il numero di transizioni effettuate (complessità temporale).
 Se non ci sono epsilon mosse numero di transizioni, se ci sono epsilon mosse devono essere finite (cambiano o gli stati o la cima della pila, altrmenti non avremmo un automa a pila deterministico). Quindi entrambe le complessità sono lineari per costante
+
+## 21
+```cpp
+int fatt(int n){
+	if (n <= 0) return 1;
+	return n * fatt(n - 1);
+}
+```
