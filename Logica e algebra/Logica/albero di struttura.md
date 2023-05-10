@@ -36,8 +36,14 @@ Ogni nodo inoltre può essere visto come la radice di un sottoalbero massimale c
 
 
 ## In [[linguaggio del primo ordine|logica del primo ordine]]
-[!esempio]
+
 L'albero di struttura della formula
 $$ (\mathcal{A}_{2}^2(a,b)\lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y,),f_{2}^2(a,x))) \implies \forall x(\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2(x,x)) $$
 È
-
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node {$\Rightarrow$} child {node {A}} ;
+\end{tikzpicture}
+\end{document}
+```
