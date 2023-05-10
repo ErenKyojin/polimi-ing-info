@@ -21,4 +21,5 @@ modification date: 2023-05-10 09:56
 
 >[!esempio]
 >Data la formula
->$\mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x$
+>$$\mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2(x,x))$$
+>Il termine $f_{2}^2(x,y)$ è libero per $y$, infatti in tutta la formula non ci sono occorrenze libere di $y$, ma non è libero per $x$ infatti la prima occorrenza di $x$,
