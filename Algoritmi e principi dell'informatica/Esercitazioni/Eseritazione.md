@@ -765,3 +765,6 @@ Descrivere un algoritmo efficente che dato A array di $n$ elementi, stampi si se
 \end{document}
 ```
 
+- Se n dispari stampo no
+- Se no ordina A <- $O(n\log n)$
+- Se si può fare la partizione è (A[1],A[n]), (A[2], A[n-1]),...,(A[n/2])
