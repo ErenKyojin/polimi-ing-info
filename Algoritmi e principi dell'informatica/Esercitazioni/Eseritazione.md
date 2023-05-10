@@ -635,8 +635,10 @@ $\Theta(n^2)$, si può fare meglio di così? per molto tempo si pensava di no, m
 | --- | ----- | ----- |
 | **x**   | a     | b     |
 | **y**   | c     | d      |
-
+È un algoritmo dividi et impera!
 $$ \begin{align} 
-x\cdot y = (2^{n/2}a + b) \cdot (2^{n / 2} + d)= 2^n a \cdot c + 2^{n / 2} (a \cdot d + )
+x\cdot y = (2^{n/2}a + b) \cdot (2^{n / 2} + d)= 2^n a \cdot c + 2^{n / 2} (a \cdot d + b \cdot c) + bd
 \end{align} $$
 Compito: scrivere la procedura ricorsiva (quando a,b,c,d singoli bit)
+$$T(n)=4 \cdot T(n / 2) + C$$
+con $C$ costo del 
