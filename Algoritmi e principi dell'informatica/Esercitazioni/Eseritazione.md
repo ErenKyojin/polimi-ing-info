@@ -758,8 +758,10 @@ Descrivere un algoritmo efficente che dato A array di $n$ elementi, stampi si se
 \node[right of = A6] (A7) {-1};
 
 \draw[bend left] (A0) edge (A3);
-\draw[bend left] (A1) edge (A5);
-\draw[bend left] (A)
+\draw[bend right] (A1) edge (A5);
+\draw[bend right] (A2) edge (A6);
+\draw[bend left] (A4) edge (A7);
 \end{tikzpicture}
 \end{document}
 ```
+
