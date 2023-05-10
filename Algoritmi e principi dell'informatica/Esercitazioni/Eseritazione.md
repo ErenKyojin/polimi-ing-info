@@ -622,5 +622,5 @@ $T(n) = \Theta(\log n)$
 >Ovviamente non conviene ordinare un array ($n\log(n)$) per poi applicare una ricerca binaria (complessità $\log(n)$), a meno che non sia un array che riceve molte ricerce, conviene direttamente cercare l'elemento (complessità $n$).
 
 ---
-## Come si fa il prodotto da due naturali in base 2
+## prodotto da due naturali in base 2
 
