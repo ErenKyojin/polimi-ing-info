@@ -692,7 +692,10 @@ E per il $k$-esimo? Selezione (A, n, k) cerco il $k$-esimo piú piccolo
 	- dividi A in $\lceil \frac{n}{5} \rceil$ cinquine
 	- ordina ogni cinquina
 	- sia $M$ l'insieme delle mediane delle cinquine
-	- Costruisci $A_{1} = \{ x \in A | x < m \}$
+	- Costruisci 
+		- $A_{1} = \{ x \in A | x < m \}$
+		- $A_{2} = \{ x \in A | x = m \}$
+		- $A_{3} = \{ x \in A | x > m \}$
 
 A = \[3 7 12 1 2 | 5 4 7 3 1 \]
    = \[1 2 **3** 7 12 | 1 3 **4** 5 7\]
