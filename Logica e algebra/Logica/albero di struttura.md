@@ -43,8 +43,11 @@ $$ (\mathcal{A}_{2}^2(a,b)\lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y,),f_{2}^2
 ```tikz
 \usepackage{amsfonts}
 \begin{document}
-\begin{tikzpicture}[level 1/.style={sibling distance = 4cm}]
-\node {$\Rightarrow$} [sibling distance = 2.5cm]
+\begin{tikzpicture}[
+level 1/.style={sibling distance = 4cm},
+level 2/.style={sibling distance = 2.5cm}
+]
+\node {$\Rightarrow$}
 	child {node {$\lor$}
 	 child {node {$\mathcal{A}_2^2(a,b)$}}
 	 child {node {$\exists y$}
