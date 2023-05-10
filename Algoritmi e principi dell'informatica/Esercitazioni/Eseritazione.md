@@ -619,7 +619,7 @@ con $c,d$ costanti positive derivate dalla divisione del problema
 $T(n) = \Theta(\log n)$
 
 >[!oss]
->Ovviamente non conviene ordinare un array per poi applicare una ricerca binaria a meno che non sia un array che cambia velocemenete 
+>Ovviamente non conviene ordinare un array per poi applicare una ricerca binaria (complessità $\log(n)$), a meno che non sia un array che riceve molte ricerce, conviene direttamente cercare l'elemento (complessità $n$).
 
 ---
 
