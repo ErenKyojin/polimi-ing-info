@@ -788,3 +788,4 @@ Per i da 1 a n - 1
 		return si
 return no
 ```
+Costo $n \log(n)$
