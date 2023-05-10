@@ -679,4 +679,6 @@ Abbiamo $n^2$ coefficienti, ognuno che si calcola con $n$ prodotti (e $n$ somme)
 
 ## Statistiche d'ordine da array
 
-A : \[\]
+A : \[5 3 4 1 9 15\]
+min': 5 3 3 1 1  1 
+min'': inf 5 4 3 3 3
