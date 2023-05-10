@@ -30,7 +30,7 @@ modification date: 2023-05-10 10:45
 >Funzionamento tracking:
 > $$\begin{cases}
 >u(k) = Tr(k) \\
->x(k+1) = \frac{u(k) - de(k)}{c}
+>\displaystyle x(k+1) = \frac{u(k) - de(k)}{c}
 \end{cases}$$
 > 
 
