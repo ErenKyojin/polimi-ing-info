@@ -663,4 +663,5 @@ $\log_{b}(a) = \log_{2}(4) = 2 > 1 \implies \Theta(n^{\log_{b} a}) \implies \The
 $A_{1} = ac$
 $A_{2} = b \cdot d$
 $m = (a + b)\cdot(c + d)$
-$A_{3} = m - (A_{1} + A_{2}) = a$
+$A_{3} = m - (A_{1} + A_{2}) = ac + ad + bc + bd + -ac - bd$
+$x \cdot y = 2^n a \cdot c + 2^{n/2} (a \cdot d + bc$
