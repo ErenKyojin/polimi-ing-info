@@ -629,7 +629,7 @@ $$ \begin{array}{|}
 \hline . & . & . & . & .
 \end{array} $$
 $n$ bit
-$\Theta(n^2)$, si può fare meglio di così? per molto tempo si pensava di no, ma in realtà SÌ!
+$\Theta(n^2)$, si può fare meglio di così? per molto tempo si pensava di no, !
 
 | bit | n / 2 | n / 2 |
 | --- | ----- | ----- |
@@ -656,4 +656,6 @@ $$ \begin{align}
 >2. Se $\log_{b}(a) = k : T(n) = \Theta(n^k\log^{h+1}(n))$
 >3. Se $\log_{b}(a) <k : T(n) = \Theta(n^k \log^h(n))$
 
-In questo caso $a=4, b = 2, $
+In questo caso $a=4, b = 2, k = 1, h = 0$
+
+$\log_{b}(a) = \log_{2}(4) = 2 > 1 \implies \Theta(n^{\log_{b} a})$
