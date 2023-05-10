@@ -19,4 +19,4 @@ modification date: 2023-05-09 19:19
 Attraverso questi simboli possiamo definire i [[termini]], e attraverso lettere predicative e termini possiamo costruire delle frasi che giocano il ruolo di lettere enunciative, ossia mattoni costruittivi di frasi più complesse, dette le [[formule atomiche]],  infine definiamo ricorsivamente le [[formule ben formate]]
 
 >[!esempio]
->Sia $L$ un linguaggio del primo ordine, contenente le costanti $a,b,c$; le variabili $x,y$; le lettere funzionali $f_{1}^1,f_{1}^2,f_{2}^1$ e le lettere predicative $\mathcal{A}_{1}^2,\mathcal{A}_{2}^2$
+>Sia $L$ un linguaggio del primo ordine, contenente le costanti $a,b,c$; le variabili $x,y$; le lettere funzionali $f_{1}^1,f_{1}^2,f_{2}^1$ e le lettere predicative $\mathcal{A}_{1}^2,\mathcal{A}_{2}^2$, le sequenze $a, x, f_{2}^2 (a,x), f_{1}^2(x,f_{2}^2(a,x)),f_{1}^1(f_{1}^2(x,f_{2}^2(a,x)))$ sono tutti termini
