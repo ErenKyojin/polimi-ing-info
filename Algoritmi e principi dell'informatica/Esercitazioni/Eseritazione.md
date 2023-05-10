@@ -601,3 +601,4 @@ int fatt(int n){
 	return n * fatt(n - 1);
 }
 ```
+Non ha cicli evidenti, il ciclo è nella ricorsione,
