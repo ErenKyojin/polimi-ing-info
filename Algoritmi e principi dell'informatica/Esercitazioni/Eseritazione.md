@@ -617,3 +617,5 @@ t(1) = d
 \end{cases}$$
 con $c,d$ costanti positive derivate dalla divisione del problema
 $T(n) = \Theta(\log n)$
+
+---
