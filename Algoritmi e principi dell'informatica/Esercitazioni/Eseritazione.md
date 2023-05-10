@@ -779,3 +779,10 @@ per i da 1 a n
 			return si
 ```
 Complessità $n^2$, si può migliorare
+
+```
+Ordina(A)
+Per i da 1 a n - 1
+	j = binarysearc(A, d - A[i])
+	se i != j e j != -1
+```
