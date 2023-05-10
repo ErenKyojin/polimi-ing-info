@@ -46,9 +46,4 @@ Data una formula $\mathcal{A}$ definiamo le [[sottoformule|sottoformule]] di $\m
 
 Se una formula contiene un quantificatore si può definire il [[campo di azione]] del suddetto quantificatore
 
->[!esempio]
->Nella formula
->$$ \mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b) \land \mathcal{A}_{2}^2(x,x)) $$
->Il campo di azione di $\exists y$ è $\mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x))$, quello di $\forall x$ è $\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b) \land \mathcal{A}_{2}^2(x,x)$
-
 Quante volte una variabile compare in una formula si definisce come [[occorrenza]]
