@@ -604,4 +604,6 @@ int fatt(int n){
 ```
 Non ha cicli evidenti, il ciclo è nella ricorsione, si potrebbe trasformare ma il problema è sempre farlo mantenendo la complessità uguale, discordiamoci quindi dal numero di istruzioni per la copmlessità.
 
-Se $n > 0$, `T 
+Se $n > 0$, $T(n) = 2 + T(n - 1)$
+Se $n \leq 0, T(n) = 2$
+
