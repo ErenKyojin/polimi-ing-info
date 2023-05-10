@@ -636,6 +636,7 @@ $\Theta(n^2)$, si può fare meglio di così? per molto tempo si pensava di no, m
 | **x**   | a     | b     |
 | **y**   | c     | d      |
 
-$$ \begin{align}
-x\cdot y = (s)
+$$ \begin{align} 
+x\cdot y = (2^{n/2}a + b) \cdot (2^{n / 2} + d)= 2^n a \cdot c + 2^{n / 2} (a \cdot d + )
 \end{align} $$
+Compito: scrivere la procedura ricorsiva (quando a,b,c,d singoli bit)
