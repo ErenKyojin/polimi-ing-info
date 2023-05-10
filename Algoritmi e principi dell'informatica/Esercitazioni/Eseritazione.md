@@ -673,4 +673,4 @@ Questo è l'[[algoritmo di Karatsuba]]
 Ma non finisce qui, si può applicare anche l'altra possiblità, aumentare il numero di divisioni.
 L'algoritmo migliore trovato fino ad ore è un algoritmo galattico ($10^{40'000}$ cifre) che arriva a $\Theta(n\log n)$.
 
-## Prodotto tra matrici
+## Prodotto tra matrici $n\times n$
