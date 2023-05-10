@@ -54,7 +54,8 @@ level 2/.style={sibling distance = 2.5cm}
 	  child {node {$\mathcal{A}_1^2(f_1^2(x,y),f_2^2(a,x)$}} } }
 	child {node {$\forall x$}
 	 child {node {$\land$}
-	  child {node {$\sim$}} } } ;
+	  child {node {$\sim$}
+	   child {node {$\mathcal{A}_1^2(f_1^2(x,f_2^2(a,x)),b)$}}} } } ;
 \end{tikzpicture}
 \end{document}
 ```
