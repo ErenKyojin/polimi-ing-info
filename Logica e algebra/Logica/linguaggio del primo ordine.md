@@ -36,4 +36,7 @@ Se non diversamente indicato dalle parentesi varranno le seguenti regole:
 >Può essere riscritta come
 >$$ \mathcal{A_{2}}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2(x,x))  $$
 
-Osserviamo tuttavia che a volte viene usato un diverso ordine di priorità (ve)
+Osserviamo tuttavia che a volte viene usato un diverso ordine di priorità (vedi mendelson) secondo il quale
+- $\sim$ precede $\land$ che precede $\lor$ che precede un qualsiasi quantificatore che precede $\Rightarrow$ che precede $\Leftrightarrow$
+- Connettivi uguali si intendono associati a sinsitra ed i quantificatori contigui si intendono applicati nell'ordine in cui si trovano
+
