@@ -641,4 +641,4 @@ x\cdot y = (2^{n/2}a + b) \cdot (2^{n / 2} + d)= 2^n a \cdot c + 2^{n / 2} (a \c
 \end{align} $$
 Compito: scrivere la procedura ricorsiva (quando a,b,c,d singoli bit)
 $$T(n)=4 \cdot T(n / 2) + C$$
-con $C$ costo del 
+con $C$ costo della divisione del problema:
