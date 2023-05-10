@@ -789,3 +789,8 @@ Per i da 1 a n - 1
 return no
 ```
 Costo $n \log(n)$
+
+Ancora migliorabile se è già ordinato.
+
+```
+```
