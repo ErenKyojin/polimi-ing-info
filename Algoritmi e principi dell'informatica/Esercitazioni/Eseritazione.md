@@ -658,6 +658,9 @@ $$ \begin{align}
 
 In questo caso $a=4, b = 2, k = 1, h = 0$
 
-$\log_{b}(a) = \log_{2}(4) = 2 > 1 \implies \Theta(n^{\log_{b} a}) \implies \Theta(n^2)$ uguale al metodo in colonna (o peggio, infatti nel $\Theta(n)$ della suddivisione contiene tante operazioni), per migliorare la situazione possiamo provare o ad aumentare $b$ (aumentare la divisione) o a diminuire $a$ (eliminare ricorsione), la prima è abbastanza immediato che non funzioni (diventa piú complessa l'operazione di divisione).
+$\log_{b}(a) = \log_{2}(4) = 2 > 1 \implies \Theta(n^{\log_{b} a}) \implies \Theta(n^2)$ uguale al metodo in colonna (o peggio, infatti nel $\Theta(n)$ della suddivisione contiene tante operazioni), per migliorare la situazione possiamo provare o ad aumentare $b$ (aumentare la divisione) o a diminuire $a$ (eliminare ricorsione), la prima è abbastanza immediato che non funzioni (diventa piú complessa l'operazione di divisione), proviamo quindi con la seconda strada, facciamo tre prodotti.
 
-
+$A_{1} = ac$
+$A_{2} = b \cdot d$
+$m = (a + b)\cdot(c + d)$
+$A_{3} = m - (A_{1} + A_{2}) = a$
