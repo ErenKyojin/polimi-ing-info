@@ -631,4 +631,11 @@ $$ \begin{array}{|}
 $n$ bit
 $\Theta(n^2)$, si può fare meglio di così? per molto tempo si pensava di no, ma in realtà SÌ!
 
-| bit | n |
+| bit | n / 2 | n / 2 |
+| --- | ----- | ----- |
+| **x**   | a     | b     |
+| **y**   | c     | d      |
+
+$$ \begin{align}
+x\cdot y = (s)
+\end{align} $$
