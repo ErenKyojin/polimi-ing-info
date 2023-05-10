@@ -690,4 +690,5 @@ E per il $k$-esimo? Selezione (A, n, k) cerco il $k$-esimo piú piccolo
 	- ordina A e stampa A\[k\] (50 arbitrario)
 - Altrimenti
 	- dividi A in $\lceil \frac{n}{5} \rceil$ cinquine
-	- 
+	- ordina ogni cinquina
+	- sia $M$ l'insieme delle medi
