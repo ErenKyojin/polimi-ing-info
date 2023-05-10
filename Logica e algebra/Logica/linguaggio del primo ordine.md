@@ -40,3 +40,6 @@ Osserviamo tuttavia che a volte viene usato un diverso ordine di priorità (vedi
 - $\sim$ precede $\land$ che precede $\lor$ che precede un qualsiasi quantificatore che precede $\Rightarrow$ che precede $\Leftrightarrow$
 - Connettivi uguali si intendono associati a sinsitra ed i quantificatori contigui si intendono applicati nell'ordine in cui si trovano
 
+In genereale comunque si utilizzano piú parentesi di quelle necessarie per evitare ambiguità, e la prima convenzione è la piú utilizzata.
+
+Data una formula $\mathcal{A}$
