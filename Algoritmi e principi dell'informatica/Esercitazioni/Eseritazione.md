@@ -730,4 +730,7 @@ $$ \begin{cases}
 T(n) \leq T\left( \frac{n}{5} \right) + T\left( \frac{3}{4}n \right) + \Theta(n), &n \geq 50 \\
 T(n) = \cost, &n < 50
 \end{cases} $$
-Sicuramente $T(n) = \Omega(n)$ tempo per le suddivisioni del problema
+Sicuramente $T(n) = \Omega(n)$ tempo per le suddivisioni del problema.
+Dimostriamo adesso che $T(n) = O(n)$ per induzione su $n$, 
+ per $n < 50$ ok
+ per $n \geq 50$
