@@ -27,4 +27,9 @@ Attraverso questi simboli possiamo definire i [[termini]], e attraverso lettere 
 
 Per evitare un eccessivo numero di parentesi è opportuno fissare una **priorietà nella introduzione di connettivi e quantificatori**:
 Se non diversamente indicato dalle parentesi varranno le seguenti regole:
-- $\sim$ ed i quantificatori applicati nell'ordine in cui si trovano precedono $\land$ che precede $lo$
+- $\sim$ ed i quantificatori applicati nell'ordine in cui si trovano precedono $\land$ che precede $\lor$ che precede $\Rightarrow$ che precede $\Leftrightarrow$
+- Connettivi uguali si intendono associati a sinistra e quantificatori contigui si intendono applicati nell'ordine in cui si trovano
+
+>[!esempio]
+>Consideriamo la formula
+>$$ ((\mathcal{A}_{2}^2)) $$
