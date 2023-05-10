@@ -683,6 +683,6 @@ A : \[5 3 4 1 9 15\]
 min': 5 3 3 1 1  1 
 min'': inf 5 4 3 3 3
 
-La complessità è $\Theta(2n) = \Theta(n)$, se cercassi solo il minimo sarebbe $\Theta(n)$, se cercass
+La complessità è $\Theta(2n) = \Theta(n)$, se cercassi solo il minimo sarebbe $\Theta(n)$, se cercassi i primi 3 sarebbe $\Theta(3n)$
 
-E per il $k$-esimo?
+E per il $k$-esimo? Selezione (A, n, k) cerco il $k$-esimo piú piccolo
