@@ -733,4 +733,6 @@ T(n) = \cost, &n < 50
 Sicuramente $T(n) = \Omega(n)$ tempo per le suddivisioni del problema.
 Dimostriamo adesso che $T(n) = O(n)$ per induzione su $n$, 
  per $n < 50$ ok
- per $n \geq 50$
+ per $n \geq 50$ supponiamo che $T(n) \leq 20cn$ con $c$ costante. (20 scelto per comodità)
+
+$T(n + 1) \leq$
