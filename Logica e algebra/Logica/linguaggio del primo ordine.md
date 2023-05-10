@@ -25,4 +25,6 @@ Attraverso questi simboli possiamo definire i [[termini]], e attraverso lettere 
 >La sequenza di simboli $\mathcal{A}_{1}^2(\mathcal{A_{2}}^2(x,f_{2}^2(a,x)),b)$ non è invece una f.b.f., infatti la lettera predicativa $\mathcal{A}_{1}^2$ non è applicata a due termini ma ad una f.b.f. ed a un termine, anche la sequenza di simboli $(f_{2}^2(a,b))\implies(\forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b)))$ non è una f.b.f. poichè $(f_{2}^2(a,b))$ non è una f.b.f. ma un termine.
 
 
-Per evitare un eccessivo numero di parentesi è opportuno fissare una **priorietà nella introduzione di connettivi e quantif**
+Per evitare un eccessivo numero di parentesi è opportuno fissare una **priorietà nella introduzione di connettivi e quantificatori**:
+Se non diversamente indicato dalle parentesi varranno le seguenti regole:
+- $\sim$ ed i quantificatori applicati nell'ordine in cui si trovano precedono $\land$ che precede $lo$
