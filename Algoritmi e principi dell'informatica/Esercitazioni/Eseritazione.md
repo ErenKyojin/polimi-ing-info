@@ -722,4 +722,10 @@ $$ A = \begin{bmatrix}
 \end{bmatrix} $$
 In arancione A1 < 9 per ogni elemento
 in viola A3 > 9 per ogni elemento
-i restani boh
+i restani boh.
+
+Il primo e terzo if $\leq T\left( \frac{3}{4} n \right)$, l'altro è un $\Theta(1)$.
+
+$$ \begin{cases}
+T(n) \leq T\left( \frac{n}{5} \right) + T\left( \frac{3}{4} \right)
+\end{cases} $$
