@@ -682,3 +682,7 @@ Abbiamo $n^2$ coefficienti, ognuno che si calcola con $n$ prodotti (e $n$ somme)
 A : \[5 3 4 1 9 15\]
 min': 5 3 3 1 1  1 
 min'': inf 5 4 3 3 3
+
+La complessità è $\Theta(2n) = \Theta(n)$, se cercassi solo il minimo sarebbe $\Theta(n)$, se cercass
+
+E per il $k$-esimo?
