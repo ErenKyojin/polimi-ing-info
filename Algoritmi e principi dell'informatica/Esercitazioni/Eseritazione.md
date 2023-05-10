@@ -628,3 +628,5 @@ $$ \begin{array}{|}
 1 & . & . & . & 1 \\
 \hline . & . & . & . & .
 \end{array} $$
+$n$ bit
+$\Theta(n^2)$, si pu
