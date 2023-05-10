@@ -744,3 +744,11 @@ Si potrebbe risolvere col Teorema di Akra-bazzi
 
 ## Somma costante
 Descrivere un algoritmo efficente che dato A array di $n$ elementi, stampi si se si può partizionare A in coppie a somma costante, no altrimenti
+
+```tikz
+\begin{document}
+\begin{tikzpicture}[every nodescale=]
+
+\end{tikzpicture}
+\end{document}
+```
