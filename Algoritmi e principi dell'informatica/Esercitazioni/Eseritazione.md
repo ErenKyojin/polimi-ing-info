@@ -767,4 +767,7 @@ Descrivere un algoritmo efficente che dato A array di $n$ elementi, stampi si se
 
 - Se n dispari stampo no
 - Se no ordina A <- $O(n\log n)$
-- Se si può fare la partizione è (A[1],A[n]), (A[2], A[n-1]),...,(A[n/2])
+- Se si può fare la partizione è (A\[1\],A\[n\]), (A\[2\], A\[n-1\]),...,(A\[n/2\],A\[n/2\]) <- $\Theta(n)$
+
+##
+Descrivere un algoritmo efficiente che dato A array di $n$ interi e $d$ intero
