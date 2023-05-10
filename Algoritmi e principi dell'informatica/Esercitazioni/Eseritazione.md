@@ -747,8 +747,9 @@ Descrivere un algoritmo efficente che dato A array di $n$ elementi, stampi si se
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}[every nodescale=]
-
+\begin{tikzpicture}[every node/.style={scale = 2}]
+\node (A0) at (0,0) {1};
+\node[right of A0] {2};
 \end{tikzpicture}
 \end{document}
 ```
