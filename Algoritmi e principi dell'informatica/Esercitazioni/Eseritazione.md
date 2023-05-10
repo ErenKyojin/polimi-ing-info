@@ -658,4 +658,4 @@ $$ \begin{align}
 
 In questo caso $a=4, b = 2, k = 1, h = 0$
 
-$\log_{b}(a) = \log_{2}(4) = 2 > 1 \implies \Theta(n^{\log_{b} a}) \implies \Theta(n^2)$ uguale al metodo in colonna (o peggio, infatti nel $\Theta(n)$ della suddivisione contiene tante operazioni)
+$\log_{b}(a) = \log_{2}(4) = 2 > 1 \implies \Theta(n^{\log_{b} a}) \implies \Theta(n^2)$ uguale al metodo in colonna (o peggio, infatti nel $\Theta(n)$ della suddivisione contiene tante operazioni), per migliorare la situazione possiamo provare o ad aumentare $b$ (aumentare lao a diminuire $a$
