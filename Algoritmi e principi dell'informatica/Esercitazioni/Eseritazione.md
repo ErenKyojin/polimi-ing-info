@@ -646,5 +646,10 @@ con $\Theta(n)$ costo della divisione del problema:
 $$ \begin{align}
  T(n) &= 4T\left( \frac{n}{2}  \right) + \Theta(n) = 4\left( T\left( \frac{n}{4} \right)+ \Theta\left( \frac{n}{2} \right) \right) + \Theta(n) = \\
 &= 4 \left(  4 \left( T \left( \frac{n}{8} \right) \right)  + \Theta\left( \frac{n}{4} \right) \right) + \Theta\left( \frac{n}{2}  \right) + \Theta(n) \\
-&= 4 \cdot 4 \cdot \dots \cdot 4 = 2^{\log_{2}(n)} \cdot 2^{\log_{2}(n)} = n \cdot n = 
+&= 4 \cdot 4 \cdot \dots \cdot 4 = 2^{\log_{2}(n)} \cdot 2^{\log_{2}(n)} = n \cdot n = n^2
 \end{align} $$
+
+
+>[!teorema]
+>Data $T(n) = aT\left( \frac{n}{b} \right) + \Theta(n^k \log^h(n))$ si ha
+>1. Se $\log_{b}(a) > k : T(n) = $
