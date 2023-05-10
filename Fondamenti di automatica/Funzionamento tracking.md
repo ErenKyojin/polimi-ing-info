@@ -26,6 +26,9 @@ modification date: 2023-05-10 10:45
 >$u(k+2)= \dots$
 >
 >Funzionamento tracking:
-> $u(k) = Tr(k)$
+> $$\begin{cases}
+>u(k) = Tr(k) \\
+>x(k+1) = \frac{de(k) - Tr(k)}{c}
+\end{cases}$$
 > 
 
