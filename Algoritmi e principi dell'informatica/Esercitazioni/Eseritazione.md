@@ -698,11 +698,11 @@ Selezione (A, n, k): *cerco il $k$-esimo piú piccolo*
 		- $A_{2} = \{ x \in A | x = m \}$
 		- $A_{3} = \{ x \in A | x > m \}$
 	- Se $|A_{1}| \geq k$
-		- return selezione ($A_{1},|A_{1}|,k$)
+		- return selezione($A_{1},|A_{1}|,k$)
 	- Altrimenti se $|A_{1}| + |A_{2}| \geq k$
 		- return $m$
 	- Altrimenti return selezione($A_3, |A_{3}|, k - |A_{1}|-|A_{2}|$)
 
 A = \[3 7 12 1 2 | 5 4 7 3 1 \]
    = \[1 2 **3** 7 12 | 1 3 **4** 5 7\]
-   
+
