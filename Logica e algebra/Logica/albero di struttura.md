@@ -35,4 +35,4 @@ ogni albero di strutturo ha come radico l'ultimo connettivo utilizzato (connetti
 Ogni nodo inoltre può essere visto come la radice di un sottoalbero massimale che è l'albero di struttura di una [[sottoformule|sottoformula]], ed allo stesso modo ogni sottoformula ha come albero di struttura un sottoalbero massimale che ha come radice un nodo etichettato dal connettivo principale della sottoformula considerata.
 
 
-
+## In [[linguaggio del primo ordine|logica del primo ordine]]
