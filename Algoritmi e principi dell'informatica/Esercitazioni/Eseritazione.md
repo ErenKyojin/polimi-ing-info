@@ -727,5 +727,7 @@ i restani boh.
 Il primo e terzo if $\leq T\left( \frac{3}{4} n \right)$, l'altro è un $\Theta(1)$.
 
 $$ \begin{cases}
-T(n) \leq T\left( \frac{n}{5} \right) + T\left( \frac{3}{4} \right)
+T(n) \leq T\left( \frac{n}{5} \right) + T\left( \frac{3}{4}n \right) + \Theta(n), &n \geq 50 \\
+T(n) = \cost, &n < 50
 \end{cases} $$
+Sicuramente $T(n) = \Omega(n)$ tempo per le suddivisioni del problema
