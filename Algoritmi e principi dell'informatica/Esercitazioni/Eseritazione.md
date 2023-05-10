@@ -741,3 +741,6 @@ T(n + 1) &\leq T\left( \frac{n}{5} \right)+T\left( \frac{3}{4} (n + 1) \right) +
 \end{align}$$
 
 Si potrebbe risolvere col Teorema di Akra-bazzi
+
+## Somma costante
+Descrivere un algoritmo efficente che dato A array di $n$ elementi, stampi si se si può partizionare A in coppie a somma costante, no altrimenti
