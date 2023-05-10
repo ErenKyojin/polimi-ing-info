@@ -674,4 +674,4 @@ Ma non finisce qui, si può applicare anche l'altra possiblità, aumentare il nu
 L'algoritmo migliore trovato fino ad ore è un algoritmo galattico ($10^{40'000}$ cifre) che arriva a $\Theta(n\log n)$.
 
 ## Prodotto tra matrici $n\times n$
-Abbiamo $n^2$ coefficienti, ognuno che si calcola con $n$ prodotti (e $n$ somme). Quindi 
+Abbiamo $n^2$ coefficienti, ognuno che si calcola con $n$ prodotti (e $n$ somme). Quindi $n^3$
