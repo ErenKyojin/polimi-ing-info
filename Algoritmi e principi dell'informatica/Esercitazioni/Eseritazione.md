@@ -774,7 +774,8 @@ Descrivere un algoritmo efficiente che dato A array di $n$ interi e $d$ intero s
 
 ```
 per i da 1 a n
-	per j da 1 a n
+	per j da i + 1 a n
 		se A[i] + A[j] == d 
 			return si
 ```
+Complessità $n^2$, si può migliorare
