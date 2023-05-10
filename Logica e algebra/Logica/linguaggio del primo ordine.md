@@ -44,9 +44,9 @@ In genereale comunque si utilizzano piú parentesi di quelle necessarie per evit
 
 Data una formula $\mathcal{A}$ definiamo le [[sottoformule|sottoformule]] di $\mathcal{A}$, inoltre come per la logica proposizionale anche per le f.b.f. della logica del Primo ordine si può introurre l'[[albero di struttura#In linguaggio del primo ordine logica del primo ordine|albero di struttura]], che evidenzia le sottoformule come le formule il cui albero di struttura è il sottoalbero completo che ha radice in un nodo dell'albero della formula.
 
-Data la formula che contenga un quantificatore, la sottoformula a cui quel quantificatore si riferisce è detta campo di azione del quantificatore (ovvero il campo di azione di un quantificatore è la sottoformula che corrisponde al sottoalbero di struttura che ha come radice il figlio del quantificatore).
+Data la formula che contenga un quantificatore, la sottoformula a cui quel quantificatore si riferisce è detta **campo di azione** del quantificatore (ovvero il campo di azione di un quantificatore è la sottoformula che corrisponde al sottoalbero di struttura che ha come radice il figlio del quantificatore).
 
 >[!esempio]
 >Nella formula
->$$ \mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim) $$
-
+>$$ \mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b) \land \mathcal{A}_{2}^2(x,x)) $$
+>Il campo di azione è 
