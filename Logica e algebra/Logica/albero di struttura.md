@@ -43,7 +43,10 @@ $$ (\mathcal{A}_{2}^2(a,b)\lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y,),f_{2}^2
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\node {$\Rightarrow$} child {node {A}} ;
+\node {$\Rightarrow$} 
+	child {node {$\lor$}
+	 child {node {}} }
+	child {node {$\forall x$}} ;
 \end{tikzpicture}
 \end{document}
 ```
