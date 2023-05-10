@@ -750,8 +750,12 @@ Descrivere un algoritmo efficente che dato A array di $n$ elementi, stampi si se
 \begin{tikzpicture}[every node/.style={scale = 1.5}]
 \node (A0) at (0,0) {1};
 \node[right of = A0] (A1) {3};
-\node[right of = A1] (A) {-2};
-\node[right of = ]
+\node[right of = A1] (A2) {-2};
+\node[right of = A2] (A3) {5};
+\node[right of = A3] (A4) {7};
+\node[right of = A4] (A5) {3};
+\node[right of = A5] (A6) {8};
+\node[rig]
 \end{tikzpicture}
 \end{document}
 ```
