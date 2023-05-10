@@ -658,7 +658,7 @@ $$ \begin{align}
 
 In questo caso $a=4, b = 2, k = 1, h = 0$
 
-$\log_{b}(a) = \log_{2}(4) = 2 > 1 \implies \Theta(n^{\log_{b} a}) \implies \Theta(n^2)$ uguale al metodo in colonna (o peggio, infatti nel $\Theta(n)$ della suddivisione contiene tante operazioni), per migliorare la situazione possiamo provare o ad aumentare $b$ (aumentare la divisione) o a diminuire $a$ (eliminare ricorsione), la prima è abbastanza immediato che non funzioni (diventa piú complessa l'operazione di divisione), proviamo quindi con la seconda strada, facciamo tre prodotti.
+$\log_{b}(a) = \log_{2}(4) = 2 > 1 \implies \Theta(n^{\log_{b} a}) \implies \Theta(n^2)$ uguale al metodo in colonna (o peggio, infatti nel $\Theta(n)$ della suddivisione contiene tante operazioni), per migliorare la situazione possiamo provare o ad aumentare $b$ (aumentare la divisione) o a diminuire $a$ (eliminare ricorsione), la prima sembrerebbe intuitivamente non funzionare (diventa piú complessa l'operazione di divisione), proviamo quindi con la seconda strada, facciamo tre prodotti.
 
 $A_{1} = ac$
 $A_{2} = b \cdot d$
@@ -668,3 +668,5 @@ $x \cdot y = 2^n a \cdot c + 2^{n/2} (a d + b c) + bd$
 
 Abbiamo quindi $a = 3$, $b = 2$, $k = 1$, $h = 0 \implies \log_{2}3$ quindi per il teorema precedente siamo acora nel caso 1 e abbiamo
 $$ T(n) = \Theta(n^{\log_{2}(3)})\approx O(n^{1,59}) $$
+Quindi si può scendere sotto $n^2$ !
+Ma non finisce qui, si può applicare anche 
