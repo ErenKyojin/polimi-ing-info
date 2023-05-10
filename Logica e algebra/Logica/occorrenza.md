@@ -11,5 +11,9 @@ modification date: 2023-05-10 09:56
 
 >[!esempio]
 >Nella formula
->$$ \mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,ff_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2()) $$
+>$$ \mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,ff_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2(x,x)) $$
+>Tutte le occorrenze di $y$ sono vincolate, la prima e la seconda occorrenza di $x$ sono libere e le altre sono vincolate.
 
+
+>[!def]
+>Un termine $t$ si dice **libero per una variabile** $x$ in una formula $\mathcal{A}$ 
