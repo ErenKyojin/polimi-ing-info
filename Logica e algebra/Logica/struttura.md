@@ -58,5 +58,7 @@ Una formula si dice esempio di tautologia se è ottenuta da una tautologia sosti
 
 La terna $\left< D,I,s \right>$ dive $\left< D,I \right>$ è un'interpretazione ed $s$ un assegnamento, si dice **modello** per $\mathcal{A}$ se l'assegnamento $s$ soddisfa $\mathcal{A}$ in $\left< D,I \right>$.
 
-Sia $\Gamma$
+Sia $\Gamma$ un insieme di f.b.f.
+- la terna $\left< D,I,s \right>$ è **un modello** per $\Gamma$ se e solo se è un modello per ogni formula in $\Gamma$
+- Una f.b.f. $\mathcal{A}$ è
 
