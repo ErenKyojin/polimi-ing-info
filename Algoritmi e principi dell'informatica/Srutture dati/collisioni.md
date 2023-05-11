@@ -48,11 +48,13 @@ Generalmente si formano liste abbastanza brevi, caso speciale è una funzione ha
 
 \draw (4,1) rectangle (5,1.4)node[midway]{k1} rectangle (5.25,1);
 \draw[-latex] (5.125,1.2) -- ++ (.5, 0);
-\draw (5.625,1) rectangle (6.625,1.4)node[midway]{k3} rectangle (6.875, 1);
+\draw (5.625,1) rectangle (6.625,1.4)node[midway]{k5} rectangle (6.875, 1);
 \draw (4,-.2) rectangle (5,.2)node[midway]{k2} rectangle (5.25,-.2);
 \end{tikzpicture}
 \end{document}
 ```
 
 
-## indirizzamento aperto
+## Risoluzione indirizzamento aperto
+In sistemi in cui non è possibile usare memoria extra in maniera dinamica, la tabella contiene tutte le chiavi ed il fattore di carico $\alpha$ non potrà essere più di 1.
+L'idea è quella di calcolare 
