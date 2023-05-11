@@ -4,6 +4,8 @@ creation date: 2023-05-11 09:49
 modification date: 2023-05-11 09:49
 ---
 
+head -> \[ Prev | k | Next\] -> \[Prev | k | next\] -> \[ Prev | k | next] -
+
 Ricerca, con input la lista L e la chiave k che ritorna il puntatore ad un elemento con $k$ come chiave o NIL se non è nella lista
 
 ```
@@ -30,5 +32,6 @@ LIST-DELETE(L, x)
 		x.prev.next := x.next
 	else L.head := x.next
 	if x.next != NIL
-		x.next.prev :=
+		x.next.prev := x.prev
 ```
+
