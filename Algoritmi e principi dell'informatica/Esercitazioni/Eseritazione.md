@@ -795,4 +795,4 @@ Ancora migliorabile se è già ordinato.
 ```
 ```
 
-Sommi primo e ultimo
+Sommi primo e ultimo (tieni un indice destro e sinistro) fai la somma degli estremi se è uguale ritorno, se è maggiore o minore cambio uno degli indici. 
