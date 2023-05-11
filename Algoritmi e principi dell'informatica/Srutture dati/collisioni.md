@@ -46,9 +46,12 @@ Generalmente si formano liste abbastanza brevi, caso speciale è una funzione ha
 \draw[-latex] (arr1.center) -- ++ (1,0);
 \draw[-latex] (arr3.center) -- ++ (1,0);
 
-\draw (4,1) rectangle (5,1.4) rectangle (5.25,1);
+\draw (4,1) rectangle (5,1.4)node[midway]{k1} rectangle (5.25,1);
 \draw[-latex] (5.125,1.2) -- ++ (.5, 0);
-\draw (5.625,1) rectangle (6.625,1.4) rectangle (6.);
+\draw (5.625,1) rectangle (6.625,1.4)node[midway]{k3} rectangle (6.875, 1);
 \end{tikzpicture}
 \end{document}
 ```
+
+
+## indirizzamento aperto
