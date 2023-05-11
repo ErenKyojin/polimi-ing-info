@@ -66,4 +66,5 @@ Inoltre, se $\mathcal{A}(x)$ è una formula con occorrenze libere di $x$ ed $y$ 
 - $\forall x \mathcal{A}(x) \implies \mathcal{B} \equiv \exists y(A[y / x] \implies \mathcal{B})$
 - $\exists x \mathcal{A}(x) \implies \mathcal{B} \equiv \forall y(\mathcal{A}[y / x] \implies \mathcal{B})$
 - $\mathcal{B} \implies \forall x \mathcal{A}(x) \equiv \forall y (\mathcal{B} \implies \mathcal{A}[y/x])$
-- $\mathcal{B} \implies$
+- $\mathcal{B} \implies \exists x \mathcal{A}(x) \equiv \exists y (\mathcal{B} \implies \mathcal{A}[y / x])$
+Osservate che se $\mathcal{B}$ non contei
