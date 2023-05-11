@@ -39,7 +39,13 @@ ENQUEUE(Q,x)
 DEQUEUE(Q)
 	if Q.head = Q.tail
 		error "underflow"
-		
+	x := Q[Q.head]
+	if Q.head = Q.length
+		Q.head := 1
+	else Q.head := Q.head + 1
+	return x
 ```
+
+Entrambi hanno tempo di esecuzione $T(n) = O(1)$
 
 
