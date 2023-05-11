@@ -34,11 +34,11 @@ Generalmente si formano liste abbastanza brevi, caso speciale è una funzione ha
 \node (k3) at (-.1,-.5){$\bullet$};
 \draw (0,0) circle (1);
 \draw (0,0) circle (1.5);
-\draw (2,1.6) rectangle (3,2)node[midway]{0};
-\draw (2,1) rectangle (3,1.4)node[midway]{1};
-\draw (2,.4) rectangle (3,.8)node[midway]{2};
-\draw (2,-.2) rectangle (3,.2)node[midway]{3};
-\draw (2, -.8) rectangle (3, -.4)node[midway]{4};
+\draw (2,1.6) rectangle (3,2)node[left = 2cm]{0} n;
+\draw (2,1) rectangle (3,1.4)node[left = 2cm]{1};
+\draw (2,.4) rectangle (3,.8)node[left = 2cm]{2};
+\draw (2,-.2) rectangle (3,.2)node[left = 2cm]{3};
+\draw (2, -.8) rectangle (3, -.4)node[left = 2cm]{4};
 \end{tikzpicture}
 \end{document}
 ```
