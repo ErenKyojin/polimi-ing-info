@@ -24,4 +24,13 @@ INSERT si fa in tempo O(1) assumendo che l'elemento da inserire non sia già in 
 SEARCH si fa in tempo proporzionale alla lunghezza di T\[h(x)\]
 DELETE si fa in tempo O(1) se la lista è una [[Lista doppiamente concatenata]]
 
-Generalmente si formano liste abbastanza brevi, caso speciale è una funzione hash costante 
+Generalmente si formano liste abbastanza brevi, caso speciale è una funzione hash costante che rende la hash table una lista di fatto.
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) circle (1);
+\draw (0,0) circle (1.5);
+\end{tikzpicture}
+\end{document}
+```
