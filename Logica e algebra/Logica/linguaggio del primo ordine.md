@@ -47,3 +47,4 @@ Data una formula $\mathcal{A}$ definiamo le [[sottoformule|sottoformule]] di $\m
 Se una formula contiene un quantificatore si può definire il [[campo di azione]] del suddetto quantificatore
 
 Quante volte una variabile compare in una formula si definisce come [[occorrenza]], ed una formula in cui non ci sono occorrenze libere di variabili si dice [[formula chiusa]].
+
