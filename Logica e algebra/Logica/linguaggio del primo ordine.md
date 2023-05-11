@@ -59,4 +59,6 @@ Per effettuare la trasformazione, usiamo equivalenze che permettano di invertire
 - $\sim \forall x \mathcal{A} \equiv \exists x \sim \mathcal{A}$
 - $\sim \exists x \mathcal{A} \equiv \forall x \sim \mathcal{A}$
 Inoltre, se $\mathcal{A}(x)$ è una formula con occorrenze libere di $x$ ed $y$ è una variabile tale che il termine $y$ sia libero per $x$ in $\mathcal{A}(x)$, indichiamo con $A[y / x]$ la formula ottenuta sostituiendo in $\mathcal{A}(x)$ ogni occorrenza libera di $x$ con $y$. Allora detta $\mathcal{B}$ una qualunque f.b.f., detta $y$ una variabile che non abbia occorrenze libere in $\mathcal{B}$ e tale che il termine $y$ sia libero per $x$ in $\mathcal{A}(x)$ abbiamo:
-- $\forall x \mathcal{A}(x) \land \mathcal{B} \equiv \forall y(\mathcal{A})$
+- $\forall x \mathcal{A}(x) \land \mathcal{B} \equiv \forall y(\mathcal{A}[y / x] \land \mathcal{B})$
+- $\exists x \mathcal{A}(x) \land \mathcal{B} \equiv \exists y (\mathcal{A}[y/x] \land \mathcal{B})$
+- $\forall x \mathcal{A}(x) \lor $
