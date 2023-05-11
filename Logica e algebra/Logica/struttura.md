@@ -81,4 +81,8 @@ Sia $\Gamma$ un insieme di f.b.f.
 
 
 Data una formula $\mathcal{A}$ sarebbe interessante poterla trasformare in una formula equivalente che abbia tutti i quantificatori in testa, ovvero in una formula del tipo $(Q_{1}x_{1})(Q_{2}x_{2})\dots(Q_{n}x_{n})$, dove ogni $Q_{i}$ è un quantificatore (universale o esistenziale) e $\mathcal{B}$ è una f.b.f. che non contiene quantificatori.
-Una formula di questo tipo si dice in forma normale prenessa
+Una formula di questo tipo si dice in **forma normale prenessa**. La stringa iniziale di quantificatoi si dice **prefisso** della formula, mentre la f.b.f. $\mathcal{B}$ si chiama **matrice** della formula.
+Sussiste il seguente
+
+>[!teorema]
+>Una qualsiasi f.b.f. può essere sempre trasformata in modo algoritmico in una f.b.f. semantica
