@@ -36,4 +36,6 @@ Fissato un assegnamento di valori in $D$ alle variabili, possiamo dire se per i 
 
 In questo modo la valutazione di una formula è sempre riportata alla valutazione di formule più semplici ed il procedimento si può iterare fino ad arrivare alla valutazione di formule atomiche.
 
+>[!def]
+>Dati un linguaggio del primo ordine,
 
