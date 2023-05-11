@@ -46,7 +46,8 @@ Generalmente si formano liste abbastanza brevi, caso speciale è una funzione ha
 \draw[-latex] (arr1.center) -- ++ (1,0);
 \draw[-latex] (arr3.center) -- ++ (1,0);
 
-\draw (2,1)
+\draw (4,1) rectangle (5,1.4) rectangle (5.25,1);
+\draw
 \end{tikzpicture}
 \end{document}
 ```
