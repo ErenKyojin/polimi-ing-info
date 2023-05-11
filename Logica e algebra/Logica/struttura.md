@@ -67,5 +67,5 @@ Sia $\Gamma$ un insieme di f.b.f.
 
 >[!esempio]
 >Dire se la formula $\exists x (\mathcal{A}_{1}^2(x,y) \land \mathcal{A}_{1}^2(x,z)) \implies \forall t\ \forall v \ \mathcal{A}_{1}^2(x,f_{1}^2(f_{2}^2(y,t),f_{2}^2(z,v)))$ è vera, falsa o soddisfacibile nella interpretazione che ha come dominio l'insieme $Z$ degli interi relativi, in cui $f_{1}^2,f_{2}^2$, sono le operazione di somma e prodotto, e $\mathcal{A}_{1}^2$ è la relazione di minore.
->In tale interpretazione l'antecedente dice che esiste un intero minore di $y$ e minore di $z$ ed è soddisfatto da ogni assegnamento, infatti qualsiasi valore diamo ad $y$ e a $z$ troviamo un intero relativo minore di entrambi quei valori, dunque l'antecedente è vero. Il conseguente dice che, qualsiasi valori
+>In tale interpretazione l'antecedente dice che esiste un intero minore di $y$ e minore di $z$ ed è soddisfatto da ogni assegnamento, infatti qualsiasi valore diamo ad $y$ e a $z$ troviamo un intero relativo minore di entrambi quei valori, dunque l'antecedente è vero. Il conseguente dice che, qualsiasi valore diamo a $t$ e $v$, si ha $x < yt + zv$. Dunque il conseguente è falso e la formula è falsa in questa interpre
 
