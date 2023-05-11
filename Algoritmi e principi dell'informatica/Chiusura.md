@@ -1,5 +1,8 @@
->[!def]
->Il piú piccolo [[insieme]] che contiene $n$ e contiene l'operazione
+>[!def] Chiusura universale
+>Data una formula $\mathcal{A}$ se ne può fare la chiusura universale facendo precedere $\mathcal{A}$ da [[quantificatori]] universali che quantifichino le variabili che in $\mathcal{A}$ hanno occorrenze libere
+
+>[!def] chiusura esistenziale
+>Data una formula $\mathcal{A}$ si ottiene la **chiusura eistenziale** di $\mathcal{A}$ facendo precedere $\mathcal{A}$ da quantificatori esistenziali che quantifichino le variabili che in $\mathcal{A}$ hanno occorrenze libere
 
 
 I numeri naturali sono chiusi rispetto alla somma, non rispetto alla sottrazione => Si introducono i numeri interi che non sono peró chiusi rispetto alla divisione => numeri razionali =>...

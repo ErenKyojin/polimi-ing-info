@@ -593,3 +593,206 @@ Anche la memoria è costante
 
 Un automa a pila ha complessità spaziale costante per il numero di transizioni effettuate (complessità temporale).
 Se non ci sono epsilon mosse numero di transizioni, se ci sono epsilon mosse devono essere finite (cambiano o gli stati o la cima della pila, altrmenti non avremmo un automa a pila deterministico). Quindi entrambe le complessità sono lineari per costante
+
+## 21
+Complessità di
+```cpp
+int fatt(int n){
+	if (n <= 0) return 1;
+	return n * fatt(n - 1);
+}
+```
+Non ha cicli evidenti, il ciclo è nella ricorsione, si potrebbe trasformare ma il problema è sempre farlo mantenendo la complessità uguale, discordiamoci quindi dal numero di istruzioni per la copmlessità.
+
+Se $n > 0$, $T(n) = 2 + T(n - 1)$
+Se $n \leq 0, T(n) = 2$
+
+$$T(n) = 2 + T(n-1) = 2 + 2 + T(n - 2) = \underbrace{ 2 + \dots + 2 }_{ n } + T(0) = 2n+2$$
+Tuttavia per risolvere una ricorrenza non siamo interessati alla soluzione esatta, siamo interessati a risolvere l'ordine di grandezza della ricorsione.
+
+## Ricerca binaria
+$$\begin{cases}
+t(n) = t\left( \frac{n}{2} \right) + c \\
+t(1) = d
+\end{cases}$$
+con $c,d$ costanti positive derivate dalla divisione del problema
+$T(n) = \Theta(\log n)$
+
+>[!oss]
+>Ovviamente non conviene ordinare un array ($n\log(n)$) per poi applicare una ricerca binaria (complessità $\log(n)$), a meno che non sia un array che riceve molte ricerce, conviene direttamente cercare l'elemento (complessità $n$).
+
+---
+## prodotto da due naturali in base 2
+$$ \begin{array}{|}
+1 & . & . & . & 0 & \cdot \\
+1 & . & . & . & 1 \\
+\hline . & . & . & . & .
+\end{array} $$
+$n$ bit
+$\Theta(n^2)$, si può fare meglio di così? Forse!
+
+| bit | n / 2 | n / 2 |
+| --- | ----- | ----- |
+| **x**   | a     | b     |
+| **y**   | c     | d      |
+È un algoritmo dividi et impera!
+$$ \begin{align} 
+x\cdot y = (2^{n/2}a + b) \cdot (2^{n / 2} + d)= 2^n a \cdot c + 2^{n / 2} (a \cdot d + b \cdot c) + bd
+\end{align} $$
+Compito: scrivere la procedura ricorsiva (quando a,b,c,d singoli bit)
+$$T(n)=4 \cdot T(n / 2) + \Theta(n)$$
+con $\Theta(n)$ costo della divisione del problema:
+ Se $n = 2^n$
+$$ \begin{align}
+ T(n) &= 4T\left( \frac{n}{2}  \right) + \Theta(n) = 4\left( T\left( \frac{n}{4} \right)+ \Theta\left( \frac{n}{2} \right) \right) + \Theta(n) = \\
+&= 4 \left(  4 \left( T \left( \frac{n}{8} \right) \right)  + \Theta\left( \frac{n}{4} \right) \right) + \Theta\left( \frac{n}{2}  \right) + \Theta(n) \\
+&= 4 \cdot 4 \cdot \dots \cdot 4 = 2^{\log_{2}(n)} \cdot 2^{\log_{2}(n)} = n \cdot n = n^2
+\end{align} $$
+
+
+>[!teorema]
+>Data $T(n) = aT\left( \frac{n}{b} \right) + \Theta(n^k \log^h(n))$ si ha
+>1. Se $\log_{b}(a) > k : T(n) = \Theta(n^{\log_{b}(a)})$
+>2. Se $\log_{b}(a) = k : T(n) = \Theta(n^k\log^{h+1}(n))$
+>3. Se $\log_{b}(a) <k : T(n) = \Theta(n^k \log^h(n))$
+
+In questo caso $a=4, b = 2, k = 1, h = 0$
+
+$\log_{b}(a) = \log_{2}(4) = 2 > 1 \implies \Theta(n^{\log_{b} a}) \implies \Theta(n^2)$ uguale al metodo in colonna (o peggio, infatti nel $\Theta(n)$ della suddivisione contiene tante operazioni), per migliorare la situazione possiamo provare o ad aumentare $b$ (aumentare la divisione) o a diminuire $a$ (eliminare ricorsione), la prima sembrerebbe intuitivamente non funzionare (diventa piú complessa l'operazione di divisione), proviamo quindi con la seconda strada, facciamo tre prodotti.
+
+$A_{1} = ac$
+$A_{2} = b \cdot d$
+$m = (a + b)\cdot(c + d)$
+$A_{3} = m - (A_{1} + A_{2}) = ac + ad + bc + bd + -ac - bd$
+$x \cdot y = 2^n a \cdot c + 2^{n/2} (a d + b c) + bd$
+
+Abbiamo quindi $a = 3$, $b = 2$, $k = 1$, $h = 0 \implies \log_{2}3$ quindi per il teorema precedente siamo acora nel caso 1 e abbiamo
+$$ T(n) = \Theta(n^{\log_{2}(3)})\approx O(n^{1,59}) $$
+Quindi si può scendere sotto $n^2$ !
+Questo è l'[[algoritmo di Karatsuba]]
+Ma non finisce qui, si può applicare anche l'altra possiblità, aumentare il numero di divisioni.
+L'algoritmo migliore trovato fino ad ore è un algoritmo galattico ($n \geq 10^{40'000}$ cifre) che arriva a $\Theta(n\log n)$.
+
+## Prodotto tra matrici $n\times n$
+Abbiamo $n^2$ coefficienti, ognuno che si calcola con $n$ prodotti (e $n$ somme). Quindi $n^3$, ma è un problema ancora aperto se esistano algoritmi migliori:
+[[algoritmo di Strassen]]
+
+## Statistiche d'ordine da array
+
+A : \[5 3 4 1 9 15\]
+min': 5 3 3 1 1  1 
+min'': inf 5 4 3 3 3
+
+La complessità è $\Theta(2n) = \Theta(n)$, se cercassi solo il minimo sarebbe $\Theta(n)$, se cercassi i primi 3 sarebbe $\Theta(3n)$
+
+E per il $k$-esimo? 
+Selezione (A, n, k): *cerco il $k$-esimo piú piccolo*
+- Se $n < 50$ 
+	- ordina A e stampa A\[k\] (50 arbitrario)
+- Altrimenti
+	- dividi A in $\lceil \frac{n}{5} \rceil$ cinquine
+	- ordina ogni cinquina
+	- sia $M$ l'insieme delle mediane delle cinquine
+	- Costruisci 
+		- $A_{1} = \{ x \in A | x < m \}$
+		- $A_{2} = \{ x \in A | x = m \}$
+		- $A_{3} = \{ x \in A | x > m \}$
+	- Se $|A_{1}| \geq k$
+		- return selezione($A_{1},|A_{1}|,k$)
+	- Altrimenti se $|A_{1}| + |A_{2}| \geq k$
+		- return $m$
+	- Altrimenti return selezione($A_3, |A_{3}|, k - |A_{1}|-|A_{2}|$)
+
+A = \[3 7 12 1 2 | 5 4 7 3 1 \]
+   = \[1 2 **3** 7 12 | 1 3 **4** 5 7\]
+$$ A = \begin{bmatrix}
+3 & 7 & 73 & 1 & 2 \\
+5 & 15 & 74 & 2 & 3 \\
+\rowcolor{red}9 & 18 & 75 & 3 & 4 \\
+21 & 42 & 76 & 4 & 5 \\
+37 & 93 & 77 & 8 & 5
+\end{bmatrix} $$
+In rosso le mediane, la cui mediana è a sua volta 9
+$$ A = \begin{bmatrix}
+\orc1 &\orc 2 &\orc 3 & 7 & 73 \\
+\orc2 & 3\orc & \orc5 & 15 & 74 \\
+\orc3 &\orc 4 & \grc9 & \vrc18 &\vrc 75 \\
+4 & 5 & \vrc21 &\vrc 42\vrc & \vrc76 \\
+8 & 5 &\vrc  37\vrc & \vrc43 &\vrc 77
+\end{bmatrix} $$
+In arancione A1 < 9 per ogni elemento
+in viola A3 > 9 per ogni elemento
+i restani boh.
+
+Il primo e terzo if $\leq T\left( \frac{3}{4} n \right)$, l'altro è un $\Theta(1)$.
+
+$$ \begin{cases}
+T(n) \leq T\left( \frac{n}{5} \right) + T\left( \frac{3}{4}n \right) + \Theta(n), &n \geq 50 \\
+T(n) = \cost, &n < 50
+\end{cases} $$
+Sicuramente $T(n) = \Omega(n)$ tempo per le suddivisioni del problema.
+Dimostriamo adesso che $T(n) = O(n)$ per induzione su $n$, 
+ per $n < 50$ ok
+ per $n \geq 50$ supponiamo che $T(n) \leq 20cn$ con $c$ costante. (20 scelto per comodità) e sia $\Theta(n)$ nella riccorenza $\leq cn$
+
+$$\begin{align}
+T(n + 1) &\leq T\left( \frac{n}{5} \right)+T\left( \frac{3}{4} (n + 1) \right) + cn \leq \frac{1}{5}20 cn + \frac{3}{4}cn + cn \\
+&=4cn + 15cn + cn = 20cn
+\end{align}$$
+
+Si potrebbe risolvere col Teorema di Akra-bazzi
+
+## Somma costante
+Descrivere un algoritmo efficente che dato A array di $n$ elementi, stampi si se si può partizionare A in coppie a somma costante, no altrimenti
+
+```tikz
+\begin{document}
+\begin{tikzpicture}[every node/.style={scale = 1.5}]
+\node (A0) at (0,0) {1};
+\node[right of = A0] (A1) {3};
+\node[right of = A1] (A2) {-2};
+\node[right of = A2] (A3) {5};
+\node[right of = A3] (A4) {7};
+\node[right of = A4] (A5) {3};
+\node[right of = A5] (A6) {8};
+\node[right of = A6] (A7) {-1};
+
+\draw[bend left] (A0) edge (A3);
+\draw[bend right] (A1) edge (A5);
+\draw[bend right] (A2) edge (A6);
+\draw[bend left] (A4) edge (A7);
+\end{tikzpicture}
+\end{document}
+```
+
+- Se n dispari stampo no
+- Se no ordina A <- $O(n\log n)$
+- Se si può fare la partizione è (A\[1\],A\[n\]), (A\[2\], A\[n-1\]),...,(A\[n/2\],A\[n/2\]) <- $\Theta(n)$
+
+## Cercare una somma
+Descrivere un algoritmo efficiente che dato A array di $n$ interi e $d$ intero stampi si se esistono $1 \leq i < j \leq n$ tale che $A[i] + A[j] = d$ a somma costante, no alt.
+
+```
+per i da 1 a n
+	per j da i + 1 a n
+		se A[i] + A[j] == d 
+			return si
+```
+Complessità $n^2$, si può migliorare
+
+```
+Ordina(A)
+Per i da 1 a n - 1
+	j = binarysearc(A, d - A[i])
+	se i != j e j != -1
+		return si
+return no
+```
+Costo $n \log(n)$
+
+Ancora migliorabile se è già ordinato.
+
+```
+```
+
+Sommi primo e ultimo (tieni un indice destro e sinistro) fai la somma degli estremi se è uguale ritorno, se è maggiore o minore cambio uno degli indici. 
