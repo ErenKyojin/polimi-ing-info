@@ -48,6 +48,7 @@ Generalmente si formano liste abbastanza brevi, caso speciale è una funzione ha
 
 \draw (4,1) rectangle (5,1.4) rectangle (5.25,1);
 \draw[-latex] (5.125,1.2) -- ++ (.5, 0);
+\draw (5.625,1) rectangle (6.625,1.4) rectangle (6.);
 \end{tikzpicture}
 \end{document}
 ```
