@@ -77,4 +77,4 @@ Sia $\Gamma$ un insieme di f.b.f.
 
 >[!esempio]
 >Mostrare che la f.b.f. $\exists x(\mathcal{A}(x) \land \mathcal{B}(x)) \implies \exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$ è logicamente valida.
->Si considerino una interpretazione ed un assegnamento $s$ che soddisfi $\exists x(\mathcal{A}(x) \land \mathcal{B}(x))$ nell'interpretazione data, allora esiste un assegna
+>Si considerino una interpretazione ed un assegnamento $s$ che soddisfi $\exists x(\mathcal{A}(x) \land \mathcal{B}(x))$ nell'interpretazione data, allora esiste un assegnamento $s'$ che differisce da $s$ al più
