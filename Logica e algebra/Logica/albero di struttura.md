@@ -61,4 +61,5 @@ Ogni nodo inoltre può essere visto come la radice di un sottoalbero massimale c
 > \end{tikzpicture}
 > \end{document}
 > ```
-> 
+
+Le [[sottoformule]] di una formula si vedono in modo evidente nell'albero di struttura, sono le formule il cui albero di struttura è il sottoalbero comple
