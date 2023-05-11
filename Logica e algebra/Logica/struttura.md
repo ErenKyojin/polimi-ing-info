@@ -77,4 +77,7 @@ Sia $\Gamma$ un insieme di f.b.f.
 
 >[!esempio]
 >Mostrare che la f.b.f. $\exists x(\mathcal{A}(x) \land \mathcal{B}(x)) \implies \exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$ è logicamente valida.
->Si considerino una interpretazione ed un assegnamento $s$ che soddisfi $\exists x(\mathcal{A}(x) \land \mathcal{B}(x))$ nell'interpretazione data, allora esiste un assegnamento $s'$ che differisce da $s$ al più per il valore dato ad $x$ che soddisfa $\mathcal{A}(x) \land \mathcal{B}(x)$ quindi soddisfa entrambe le formule $\mathcal{A}(x),\mathcal{B}(x)$ dunque $s$ soddisfa $\exists x \mathcal{A}(x)$ e $\exists x \mathcal{B}(x)$ ep ertanto soddisfa $\exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$. Dunque la formula $x\mathcal{A}(x) \land \exists x \mathcal{B}(x)$ è conseguenza semantica di $\exists x\mathcal{}$
+>Si considerino una interpretazione ed un assegnamento $s$ che soddisfi $\exists x(\mathcal{A}(x) \land \mathcal{B}(x))$ nell'interpretazione data, allora esiste un assegnamento $s'$ che differisce da $s$ al più per il valore dato ad $x$ che soddisfa $\mathcal{A}(x) \land \mathcal{B}(x)$ quindi soddisfa entrambe le formule $\mathcal{A}(x),\mathcal{B}(x)$ dunque $s$ soddisfa $\exists x \mathcal{A}(x)$ e $\exists x \mathcal{B}(x)$ ep ertanto soddisfa $\exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$. Dunque la formula $x\mathcal{A}(x) \land \exists x \mathcal{B}(x)$ è conseguenza semantica di $\exists x(\mathcal{A}(x) \land \mathcal{B}(x))$
+
+
+Data una formula $\mathcal{A}$ sarebbe interessante poterla trasformare in una formula equivalente che abbia tutti i quantificatori in te
