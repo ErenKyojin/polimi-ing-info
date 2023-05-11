@@ -34,5 +34,6 @@ Fissato un assegnamento di valori in $D$ alle variabili, possiamo dire se per i 
 >- Se la formula $\mathcal{A}$ è del tipo $\forall x \mathcal{B}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se ogni assegnamento $s'$ che differenzia da $s$ al più per il valore assegnato ad $x$ soddisfa $\mathcal{B}$
 >- Se la formula $\mathcal{A}$ è del tipo $\exists x \mathcal{B}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se esiste un assegnamento $s'$ che differenzia da quello dato al più per il valore assegnato ad $x$ che soddisfa $\mathcal{B}$.
 
-In questo modo la valutazione di una formula è sempre riportata alla valutazione di formule più semplice 
+In questo modo la valutazione di una formula è sempre riportata alla valutazione di formule più semplici ed il procedimento si può iterare fino ad arrivare alla valutazione di formule atomiche.
+
 
