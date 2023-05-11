@@ -86,3 +86,5 @@ HASH-SEARCH(T, k)
 	until T[j] = NIL or i = m
 	return NIL
 ```
+
+La cancellazione è piú coplessa, ipmor
