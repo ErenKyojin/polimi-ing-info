@@ -60,5 +60,6 @@ La terna $\left< D,I,s \right>$ dive $\left< D,I \right>$ è un'interpretazione 
 
 Sia $\Gamma$ un insieme di f.b.f.
 - la terna $\left< D,I,s \right>$ è **un modello** per $\Gamma$ se e solo se è un modello per ogni formula in $\Gamma$
-- Una f.b.f. $\mathcal{A}$ è
+- Una f.b.f. $\mathcal{A}$ è **conseguenza semantica** di $\Gamma$ ($\Gamma \vDash \mathcal{A}$) se ogni modello di $\Gamma$ è modello di $\mathcal{A}$
+- Sia $\Gamma = \Delta \cup \{ \mathcal{B} \}$. $\Gamma \vDash \mathcal{A}$ se e solo se $\Delta \vDash \mathcal{B} \implies \mathcal{A}$.
 
