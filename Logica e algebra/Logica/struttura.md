@@ -60,12 +60,14 @@ La terna $\left< D,I,s \right>$ dive $\left< D,I \right>$ è un'interpretazione 
 
 Sia $\Gamma$ un insieme di f.b.f.
 - la terna $\left< D,I,s \right>$ è **un modello** per $\Gamma$ se e solo se è un modello per ogni formula in $\Gamma$
-- Una f.b.f. $\mathcal{A}$ è **conseguenza semantica** di $\Gamma$ ($\Gamma \vDash \mathcal{A}$) se ogni modello di $\Gamma$ è modello di $\mathcal{A}$
+- Una f.b.f. $\mathcal{A}$ è **conseguenza [[semantica]]** di $\Gamma$ ($\Gamma \vDash \mathcal{A}$) se ogni modello di $\Gamma$ è modello di $\mathcal{A}$
 - Sia $\Gamma = \Delta \cup \{ \mathcal{B} \}$. $\Gamma \vDash \mathcal{A}$ se e solo se $\Delta \vDash \mathcal{B} \implies \mathcal{A}$.
 - Le f.b.f. $\mathcal{A}$ e $\mathcal{B}$ sono semanticamente equivalenti ($\mathcal{A} \equiv \mathcal{B}$) se $\mathcal{A}\vDash \mathcal{B}$ e $\mathcal{B} \vDash \mathcal{A}$
 	- Osserviamo che le f.b.f. $\mathcal{A}$ e $\mathcal{B}$ sono semanticamente equivalenti se e solo se la f.b.f. $\mathcal{A} \iff \mathcal{B}$ è una f.b.f. logicamente valida.
 
 >[!esempio]
 >Dire se la formula $\exists x (\mathcal{A}_{1}^2(x,y) \land \mathcal{A}_{1}^2(x,z)) \implies \forall t\ \forall v \ \mathcal{A}_{1}^2(x,f_{1}^2(f_{2}^2(y,t),f_{2}^2(z,v)))$ è vera, falsa o soddisfacibile nella interpretazione che ha come dominio l'insieme $Z$ degli interi relativi, in cui $f_{1}^2,f_{2}^2$, sono le operazione di somma e prodotto, e $\mathcal{A}_{1}^2$ è la relazione di minore.
->In tale interpretazione l'antecedente dice che esiste un intero minore di $y$ e minore di $z$ ed è soddisfatto da ogni assegnamento, infatti qualsiasi valore diamo ad $y$ e a $z$ troviamo un intero relativo minore di entrambi quei valori, dunque l'antecedente è vero. Il conseguente dice che, qualsiasi valore diamo a $t$ e $v$, si ha $x < yt + zv$. Dunque il conseguente è falso e la formula è falsa in questa interpre
+>In tale interpretazione l'antecedente dice che esiste un intero minore di $y$ e minore di $z$ ed è soddisfatto da ogni assegnamento, infatti qualsiasi valore diamo ad $y$ e a $z$ troviamo un intero relativo minore di entrambi quei valori, dunque l'antecedente è vero. Il conseguente dice che, qualsiasi valore diamo a $t$ e $v$, si ha $x < yt + zv$. Dunque il conseguente è falso e la formula è falsa in questa interpretazione. Le sue chiusure universali ed esistenziali sono quindi entrambe false in questa interpretazione.
+>La formula non è logicamente valida visto che abbiamo una interpretazione in cui non è vera.
+>Potremmo chiederci se è insoddisfacibile (o logicamente contraddittoria). A tal scopo consideriamo una interpretazione cos
 
