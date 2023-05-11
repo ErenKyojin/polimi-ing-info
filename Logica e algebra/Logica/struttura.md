@@ -51,5 +51,8 @@ In questo modo la valutazione di una formula è sempre riportata alla valutazion
 >$\mathcal{A}$ è logicamente valida se e solo se $\sim\mathcal{A}$ è insoddisfacibile
 
 Una [[formula chiusa]] in una data interpretazione non può essere soddisfacibile ma non vera, inoltre è facile verificare che data una f.b.f. $\mathcal{A}$ ed una interpretazione $\left< D,I \right>$
-- la chiusura universale di $\mathcal{A}$ è vera in $\left< D,I \right>$
+- la [[chiusura]] universale di $\mathcal{A}$ è vera in $\left< D,I \right>$ se e solo se $\mathcal{A}$ è vera in $\left< D,I \right>$
+- La chiusura esistenziale di $\mathcal{A}$ è vera in $\left< D,I \right>$ se e solo se $\mathcal{A}$ è soddisfacibile in $\left< D,I \right>$
+
+Una formula si dice esempio di tautologia se è ottenuta da una tautologia sostituendo
 
