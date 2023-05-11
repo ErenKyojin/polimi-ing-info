@@ -27,5 +27,6 @@ Fissato un assegnamento di valori in $D$ alle variabili, possiamo dire se per i 
 >[!esempio]
 >$\mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x))$ nella interpretazione sopra descritta è soddisfatta se si assegnano ad $x$ e ad $y$ per decidere se un assegnamento $s$ di valori alle variabili di $\mathcal{A}$ soddisfa la formula dobbiamo considerarne la struttura:
 >- Se la formula $\mathcal{A}$ è del tipo $\sim \mathcal{B}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se $s$ non soddisfa $\mathcal{B}$
->- Se la formula $\mathcal{A}$ è del tipo $\mathcal{B} \land \mathcal{C}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se $s$
+>- Se la formula $\mathcal{A}$ è del tipo $\mathcal{B} \land \mathcal{C}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se $s$ soddisfa sia $\mathcal{B}$ sia $\mathcal{C}$
+>- Se la formula $\mathcal{A}$ è del tipo $\mathcal{B} \lor \mathcal{C}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se $s$ soddisfa una almeno delle formule $\mathcal{B}$ e $\mathcal{C}$
 
