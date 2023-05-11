@@ -24,4 +24,4 @@ INSERT si fa in tempo O(1) assumendo che l'elemento da inserire non sia già in 
 SEARCH si fa in tempo proporzionale alla lunghezza di T\[h(x)\]
 DELETE si fa in tempo O(1) se la lista è una [[Lista doppiamente concatenata]]
 
-
+Generalmente si formano liste abbastanza brevi, caso speciale è una funzione hash costante 
