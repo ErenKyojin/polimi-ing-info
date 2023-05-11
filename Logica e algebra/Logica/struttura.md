@@ -63,5 +63,8 @@ Sia $\Gamma$ un insieme di f.b.f.
 - Una f.b.f. $\mathcal{A}$ è **conseguenza semantica** di $\Gamma$ ($\Gamma \vDash \mathcal{A}$) se ogni modello di $\Gamma$ è modello di $\mathcal{A}$
 - Sia $\Gamma = \Delta \cup \{ \mathcal{B} \}$. $\Gamma \vDash \mathcal{A}$ se e solo se $\Delta \vDash \mathcal{B} \implies \mathcal{A}$.
 - Le f.b.f. $\mathcal{A}$ e $\mathcal{B}$ sono semanticamente equivalenti ($\mathcal{A} \equiv \mathcal{B}$) se $\mathcal{A}\vDash \mathcal{B}$ e $\mathcal{B} \vDash \mathcal{A}$
-	- Osserviamo che le f.b.f.
+	- Osserviamo che le f.b.f. $\mathcal{A}$ e $\mathcal{B}$ sono semanticamente equivalenti se e solo se la f.b.f. $\mathcal{A} \iff \mathcal{B}$ è una f.b.f. logicamente valida.
+
+>[!esempio]
+>Dire se la formula $\exists x (\mathcal{A}_{1}^2(x,y))$
 
