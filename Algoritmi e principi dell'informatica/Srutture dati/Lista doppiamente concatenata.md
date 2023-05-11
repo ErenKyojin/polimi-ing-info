@@ -8,16 +8,22 @@ Ricerca, con input la lista L e la chiave k che ritorna il puntatore ad un eleme
 
 ```
 LIST-SEARCH(L, k)
-x := L.head 
-while x != NIL and x.key != k
-	x := x.next
-return x
+	x := L.head 
+	while x != NIL and x.key != k
+		x := x.next
+	return x
 ```
 
 ```
 LIST-INSERT(L, x)
-x.next := L.head
-if L.head != NIL
+	x.next := L.head
+	if L.head != NIL
+		L.head.prev := x
+	L.head := x
+	x.prev := NIL
 ```
 
-
+```
+LIST-DELETE(L, x)
+	if x.prev != NIL //abbiamo un puntatore
+```
