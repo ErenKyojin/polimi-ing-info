@@ -50,6 +50,9 @@ Generalmente si formano liste abbastanza brevi, caso speciale è una funzione ha
 \draw[-latex] (5.125,1.2) -- ++ (.5, 0);
 \draw (5.625,1) rectangle (6.625,1.4)node[midway]{k5} rectangle (6.875, 1);
 \draw (4,-.2) rectangle (5,.2)node[midway]{k2} rectangle (5.25,-.2);
+
+\node[scale = 2] at (-1.1,.8){$U$};
+\node[scale = 2] at (-.)
 \end{tikzpicture}
 \end{document}
 ```
