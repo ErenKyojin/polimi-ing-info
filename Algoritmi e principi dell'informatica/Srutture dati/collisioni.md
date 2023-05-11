@@ -10,7 +10,13 @@ $$ k_{1} \neq k_{2}\quad\text{ma}\quad h(k_{1}) = h(k_{2})$$
 Nel caso di collisioni al posto di inserire i dati nel risultato della funzione si inserisce una lista dinamica di dati che sono puntati da chiavi diverse ma in collisione.
 
 ```
+CHAINED-HASH-INSERT(T, x)
+	inserisci x in testa alla lista T[h(x.key)]
 
+CHAINED-HASH-SEARCH(T, k)
+	cerca un elemento con una chiave k nella lista T[h(k)]
+
+CHAINED-HAS
 ```
 
 
