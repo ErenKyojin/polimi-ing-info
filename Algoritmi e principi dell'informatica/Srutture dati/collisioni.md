@@ -36,7 +36,8 @@ Generalmente si formano liste abbastanza brevi, caso speciale è una funzione ha
 \draw (0,0) circle (1.5);
 \draw (2,1.6) rectangle (3,2);
 \draw (2,1) rectangle (3,1.4);
-\draw (2,.) rectangle
+\draw (2,.4) rectangle (3,.8);
+\draw (2,-.2) rectan
 \end{tikzpicture}
 \end{document}
 ```
