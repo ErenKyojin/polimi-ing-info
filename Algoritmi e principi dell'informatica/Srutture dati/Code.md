@@ -23,6 +23,12 @@ Qhead indice della testa in un array
 Qtail indice della coda
 
 h = t => coda vuota
-h - t _ 1
+h = t + 1 => coda piena
+
+```
+ENQUEUE(Q,x)
+if Q.tail = Q.length and Q.hhead = 0 or Q.head = Q.tail + 1
+	error ""
+```
 
 
