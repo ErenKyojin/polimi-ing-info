@@ -69,4 +69,6 @@ Inoltre, se $\mathcal{A}(x)$ è una formula con occorrenze libere di $x$ ed $y$ 
 - $\mathcal{B} \implies \exists x \mathcal{A}(x) \equiv \exists y (\mathcal{B} \implies \mathcal{A}[y / x])$
 Osservate che se $\mathcal{B}$ non contiene occorrenze libere di $x$ non serve fare il cambio di nome della variabile, notate inoltre che non abbiamo dato nessuna equivalenza per formule che contengono come connettivo principale $\iff$, questo non è un limite perchè ogni formula con tale connettivo può essere riportata semplicemente ad una formula semanticamente equivalente che non ne faccia uso.
 
-Osservate anche che data una f.b.f. non è l
+Osservate anche che data una f.b.f. non è unica la f.b.f. in forma normale prenessa ad essa equivalente, in quanto la forma ottenuta dipende dall'ordine con cui si applicano le trasformazioni precedenti
+
+Definiamo le formule in [[forma di sS]]
