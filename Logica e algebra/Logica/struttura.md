@@ -76,4 +76,5 @@ Sia $\Gamma$ un insieme di f.b.f.
 >Basta considerare un'interpretazione con dominio $N$ dove $\mathcal{A}(x)$ sia la formula atomica "$x$ è pari" e $\mathcal{B}(x)$ sia la formula atomica $x$ è dispari. In tale interpretazione $\exists x(\mathcal{A}(x) \land \mathcal{B}(x))$ è falsa, mentre $\exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$ è vera. Ne consegue anche che le due formule $\exists x (\mathcal{A}(x)\land \mathcal{B}(x))$, $\exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$ non sono semanticamente equivalente
 
 >[!esempio]
->Mostrare che la f.b.f. $e\xi st$
+>Mostrare che la f.b.f. $\exists x(\mathcal{A}(x) \land \mathcal{B}(x)) \implies \exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$ è logicamente valida.
+>Si considerino una interpretazione ed un assegnamento $s$ che soddisfi $ex$
