@@ -17,7 +17,9 @@ Provare a farlo con un unico puntatore di partenza diventa inutilmente complicat
 
 Testa -> \[ | \] -> \[ | \] -> \[ | \] <- coda
 
+Con array la testa e la coda sono entrambi mobili sull'array ed essenzialmente si scala sugli indici
 
-
+Qhead indice della 
+Qtail
 
 
