@@ -42,6 +42,11 @@ In questo modo la valutazione di una formula è sempre riportata alla valutazion
 >- $\mathcal{A}$ si dice **vera in quell'interpretazione** se ogni assegnamento di valori alle variabili soddisfa la f.b.f. $\mathcal{A}$.
 >- $\mathcal{A}$ si dice **falsa** (o **insoddisfacibile**) **in quell'interpretazione** se nessun assegnamento di valori alle variabili soddisfa la f.b.f.
 >
->La f.b.f. $\mathcal{A}$ si dice **logicamente valida** 
->
+>La f.b.f. $\mathcal{A}$ si dice **logicamente valida** $\vDash \mathcal{A}$ se è vera in ogni interpretazione
+>La f.b.f. $\mathcal{A}$ si dice **insoddisfacibile** se è falsa in ogni interpretazione
+
+
+
+>[!oss]
+>$\mathcal{A}$ è logicamente valida se e solo se $\sim\mathcal{A}$ è insoddisfacibile
 
