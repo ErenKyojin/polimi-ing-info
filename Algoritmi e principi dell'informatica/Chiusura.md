@@ -1,5 +1,5 @@
 >[!def] Chiusura universale
->Data una formula $\mathcal{A}$ se ne può fare la chiusura universale facendo precedere $\mathcal{A}$ da [[quantificatori]] universali che quantifichino le variabili che in $\mathcal{A}$ hanno occorrenze libere
+>Data una formula $\mathcal{A}$ se ne può fare la **chiusura universale** facendo precedere $\mathcal{A}$ da [[quantificatori]] universali che quantifichino le variabili che in $\mathcal{A}$ hanno occorrenze libere
 
 >[!def] chiusura esistenziale
 >Data una formula $\mathcal{A}$ si ottiene la **chiusura eistenziale** di $\mathcal{A}$ facendo precedere $\mathcal{A}$ da quantificatori esistenziali che quantifichino le variabili che in $\mathcal{A}$ hanno occorrenze libere
