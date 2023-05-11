@@ -16,7 +16,11 @@ CHAINED-HASH-INSERT(T, x)
 CHAINED-HASH-SEARCH(T, k)
 	cerca un elemento con una chiave k nella lista T[h(k)]
 
-CHAINED-HAS
+CHAINED-HASH-DELETE(T, k)
+	cancella x dalla lista T[h(x.key)]
 ```
 
+Insert si fa in tempo O(1) assumendo che l'elemento da inserire non sia già in tabella
+Search si fa in tempo proporzionale alla lunghezza di T\[h(x)\]
+DELETE si fa in tempo O(1) assumendo 
 
