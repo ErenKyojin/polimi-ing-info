@@ -20,5 +20,7 @@ L'assegnamento $s$ permette di assegnare un valore in $D$ a tutti i termini del 
 $s* : \text{Ter} \to D$
 - $s^*(a) = I_{1}(a)$ per ogni costante $a$.
 - $s^*(x) = s(x)$ per ogni variabile $x$.
-- $s^*(f(t_{1},t_{2},\dots,t_{n}))=I_{2}(f)(s^* (t_{1}),s^* (t_{2}),\dots,)$
+- $s^*(f(t_{1},t_{2},\dots,t_{n}))=I_{2}(f)(s^* (t_{1}),s^* (t_{2}),\dots,s^*(t_{n}))$ per ogni termine che inizi con una lettera funzionale
+Fissato un assegnamento di valori in $D$ alle variabili, possiamo dire se per i valori assegnati alle variabili una formula atomica è soddisfatta o no. Più precisamente:
+- Data una formula atomica $\mathcal{A}_{i}^n(t_{1},t_{2},\dots,t_{n})$ ed una interpr
 
