@@ -62,4 +62,5 @@ Inoltre, se $\mathcal{A}(x)$ è una formula con occorrenze libere di $x$ ed $y$ 
 - $\forall x \mathcal{A}(x) \land \mathcal{B} \equiv \forall y(\mathcal{A}[y / x] \land \mathcal{B})$
 - $\exists x \mathcal{A}(x) \land \mathcal{B} \equiv \exists y (\mathcal{A}[y/x] \land \mathcal{B})$
 - $\forall x \mathcal{A}(x) \lor \mathcal{B} \equiv \forall y (\mathcal{A}[y / x] \land \mathcal{B})$
-- 
+- $\exists x \mathcal{A}(x) \lor \mathcal{B} \equiv \exists y (\mathcal{A}[y / x] \lor \mathcal{B})$
+- $$
