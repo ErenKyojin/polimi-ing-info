@@ -11,7 +11,7 @@
 >$$ \forall x(\mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2(x,x))) $$
 >Mentre la sua chiusura esistenziale è
 >$$ \exists x (\mathcal{A}_{2}^2 (a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x))\implies \forall x(\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2(x,x))) $$
->Cerchiamo però di dare una semantica alle formule scritte attraverso il concetto di [[interpretazione]] 
+>Cerchiamo però di dare una semantica alle formule scritte attraverso il concetto di [[struttura]]  
 
 
 I numeri naturali sono chiusi rispetto alla somma, non rispetto alla sottrazione => Si introducono i numeri interi che non sono peró chiusi rispetto alla divisione => numeri razionali =>...
