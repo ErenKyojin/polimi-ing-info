@@ -56,4 +56,6 @@ Sussiste il seguente
 >Una qualsiasi f.b.f. può essere sempre trasformata in modo algoritmico in una f.b.f. semanticamente quivalente in forma normale prenessa
 
 Per effettuare la trasformazione, usiamo equivalenze che permettano di invertire l'ordine di applicazione di quantificatori e connettivi:
-- $\sim \forall x \mathcal{A} \equiv$
+- $\sim \forall x \mathcal{A} \equiv \exists x \sim \mathcal{A}$
+- $\sim \exists x \mathcal{A} \equiv \forall x \sim \mathcal{A}$
+Inoltre, se $\mathcal{A}(x)$ è una formula con occorrenze libere di $x$ ed $y$ è una variabile tale che il termine $y$ sia libero per $x$ in $\mathcal{A}(x)$, indichiamo con $A[y / x]$ la formula ottenuta
