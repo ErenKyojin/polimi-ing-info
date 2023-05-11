@@ -23,4 +23,9 @@ DIRECT-ADDRESS-INSERT(T, x)
 ```
 
 ```
+DIRECT-ADDRESS-DELETE(T, x)
+	T[x.key] := NIL
 ```
+Tutti con tempo $O(1)$, tuttavia è davvero dispendioso in termini di memoria (se usiamo la rappresentazione binaria di stringhe come chiavi, ad esempio, è)
+
+##
