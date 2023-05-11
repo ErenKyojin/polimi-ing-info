@@ -80,9 +80,3 @@ Sia $\Gamma$ un insieme di f.b.f.
 >Si considerino una interpretazione ed un assegnamento $s$ che soddisfi $\exists x(\mathcal{A}(x) \land \mathcal{B}(x))$ nell'interpretazione data, allora esiste un assegnamento $s'$ che differisce da $s$ al più per il valore dato ad $x$ che soddisfa $\mathcal{A}(x) \land \mathcal{B}(x)$ quindi soddisfa entrambe le formule $\mathcal{A}(x),\mathcal{B}(x)$ dunque $s$ soddisfa $\exists x \mathcal{A}(x)$ e $\exists x \mathcal{B}(x)$ ep ertanto soddisfa $\exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$. Dunque la formula $x\mathcal{A}(x) \land \exists x \mathcal{B}(x)$ è conseguenza semantica di $\exists x(\mathcal{A}(x) \land \mathcal{B}(x))$
 
 
-Data una formula $\mathcal{A}$ sarebbe interessante poterla trasformare in una formula equivalente che abbia tutti i quantificatori in testa, ovvero in una formula del tipo $(Q_{1}x_{1})(Q_{2}x_{2})\dots(Q_{n}x_{n})$, dove ogni $Q_{i}$ è un quantificatore (universale o esistenziale) e $\mathcal{B}$ è una f.b.f. che non contiene quantificatori.
-Una formula di questo tipo si dice in **forma normale prenessa**. La stringa iniziale di quantificatoi si dice **prefisso** della formula, mentre la f.b.f. $\mathcal{B}$ si chiama **matrice** della formula.
-Sussiste il seguente
-
->[!teorema]
->Una qualsiasi f.b.f. può essere sempre trasformata in modo algoritmico in una f.b.f. semantica

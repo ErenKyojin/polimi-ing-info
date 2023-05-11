@@ -48,3 +48,12 @@ Se una formula contiene un quantificatore si può definire il [[campo di azione]
 
 Quante volte una variabile compare in una formula si definisce come [[occorrenza]], ed una formula in cui non ci sono occorrenze libere di variabili si dice [[formula chiusa]].
 
+Data una formula $\mathcal{A}$ sarebbe interessante poterla trasformare in una formula equivalente che abbia tutti i quantificatori in testa, ovvero in una formula del tipo $(Q_{1}x_{1})(Q_{2}x_{2})\dots(Q_{n}x_{n})$, dove ogni $Q_{i}$ è un quantificatore (universale o esistenziale) e $\mathcal{B}$ è una f.b.f. che non contiene quantificatori.
+Una formula di questo tipo si dice in **forma normale prenessa**. La stringa iniziale di quantificatoi si dice **prefisso** della formula, mentre la f.b.f. $\mathcal{B}$ si chiama **matrice** della formula.
+Sussiste il seguente
+
+>[!teorema]
+>Una qualsiasi f.b.f. può essere sempre trasformata in modo algoritmico in una f.b.f. semanticamente quivalente in forma normale prenessa
+
+Per effettuare la trasformazione, usiamo equivalenze che permettano di invertire l'ordine di applicazione di quantificatori e connettivi:
+- $\sim \forall x \mathcal{A} \equiv$
