@@ -66,5 +66,5 @@ Sia $\Gamma$ un insieme di f.b.f.
 	- Osserviamo che le f.b.f. $\mathcal{A}$ e $\mathcal{B}$ sono semanticamente equivalenti se e solo se la f.b.f. $\mathcal{A} \iff \mathcal{B}$ è una f.b.f. logicamente valida.
 
 >[!esempio]
->Dire se la formula $\exists x (\mathcal{A}_{1}^2(x,y) \land \mathcal{A}_{1}^2(x,z)) \implies \forall t \forall v$
+>Dire se la formula $\exists x (\mathcal{A}_{1}^2(x,y) \land \mathcal{A}_{1}^2(x,z)) \implies \forall t\ \forall v \ \mathcal{A}_{1}^2(x,f_{1}^2(f_{2}^2(y,t),f_{2}^2(z,v)))$ è vera, falsa o soddisfacibile nella interpretazione che ha come dominio l'insieme $Z$ degli interi relativi, in cui $f_{1}^2,$
 
