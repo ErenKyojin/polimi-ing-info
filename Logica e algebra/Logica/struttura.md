@@ -62,4 +62,6 @@ Sia $\Gamma$ un insieme di f.b.f.
 - la terna $\left< D,I,s \right>$ è **un modello** per $\Gamma$ se e solo se è un modello per ogni formula in $\Gamma$
 - Una f.b.f. $\mathcal{A}$ è **conseguenza semantica** di $\Gamma$ ($\Gamma \vDash \mathcal{A}$) se ogni modello di $\Gamma$ è modello di $\mathcal{A}$
 - Sia $\Gamma = \Delta \cup \{ \mathcal{B} \}$. $\Gamma \vDash \mathcal{A}$ se e solo se $\Delta \vDash \mathcal{B} \implies \mathcal{A}$.
+- Le f.b.f. $\mathcal{A}$ e $\mathcal{B}$ sono semanticamente equivalenti ($\mathcal{A} \equiv \mathcal{B}$) se $\mathcal{A}\vDash \mathcal{B}$ e $\mathcal{B} \vDash \mathcal{A}$
+	- Osserviamo che le f.b.f.
 
