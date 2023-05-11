@@ -38,7 +38,10 @@ In questo modo la valutazione di una formula è sempre riportata alla valutazion
 
 >[!def]
 >Dati un linguaggio del primo ordine, una sua interpretazione ed una f.b.f. $\mathcal{A}$
->- $\mathcal{A}$ si dice soddisfacibile in quella interpretazione se esiste una assegnamento di valori di variabili che soddisfa la f.b.f.
+>- $\mathcal{A}$ si dice **soddisfacibile in quella interpretazione** se esiste una assegnamento di valori di variabili che soddisfa la f.b.f.
 >- $\mathcal{A}$ si dice **vera in quell'interpretazione** se ogni assegnamento di valori alle variabili soddisfa la f.b.f. $\mathcal{A}$.
->- $m$
+>- $\mathcal{A}$ si dice **falsa** (o **insoddisfacibile**) **in quell'interpretazione** se nessun assegnamento di valori alle variabili soddisfa la f.b.f.
+>
+>La f.b.f. $\mathcal{A}$ si dice **logicamente valida** 
+>
 
