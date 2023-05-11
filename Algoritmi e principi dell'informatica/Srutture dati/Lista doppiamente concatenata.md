@@ -4,7 +4,7 @@ creation date: 2023-05-11 09:49
 modification date: 2023-05-11 09:49
 ---
 
-head -> \[ Prev | k | Next\] -> \[Prev | k | next\] -> \[ Prev | k | next] -
+head -> \[ Prev | k | Next\] -> \[Prev | k | next\] -> \[ Prev | k | next] -...-> \[Prev | k | next = NIL] -> NIL
 
 Ricerca, con input la lista L e la chiave k che ritorna il puntatore ad un elemento con $k$ come chiave o NIL se non è nella lista
 
