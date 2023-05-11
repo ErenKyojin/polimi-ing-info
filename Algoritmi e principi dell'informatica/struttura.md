@@ -32,5 +32,7 @@ Fissato un assegnamento di valori in $D$ alle variabili, possiamo dire se per i 
 >- Se la formula $\mathcal{A}$ è del tipo $\mathcal{B} \implies \mathcal{C}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se $s$ o non soddisfa $\mathcal{B}$ o soddisfa $\mathcal{C}$
 >- Se la formula $\mathcal{A}$ è del tipo $\mathcal{B} \iff \mathcal{C}$ l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se $s$ soddisfa sia $\mathcal{B}$ sia $\mathcal{C}$, o $s$ non soddisfa sia $\mathcal{B}$ sia $\mathcal{C}$
 >- Se la formula $\mathcal{A}$ è del tipo $\forall x \mathcal{B}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se ogni assegnamento $s'$ che differenzia da $s$ al più per il valore assegnato ad $x$ soddisfa $\mathcal{B}$
->- Se la formula $\mathcal{A}$ è del tipo $\exists x \mathcal{B}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se esiste un
+>- Se la formula $\mathcal{A}$ è del tipo $\exists x \mathcal{B}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se esiste un assegnamento $s'$ che differenzia da quello dato al più per il valore assegnato ad $x$ che soddisfa $\mathcal{B}$.
+
+In questo modo la valutazione di una formula è sempre riportata alla valutazione di formule più semplice 
 
