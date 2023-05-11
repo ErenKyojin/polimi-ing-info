@@ -20,7 +20,8 @@ CHAINED-HASH-DELETE(T, k)
 	cancella x dalla lista T[h(x.key)]
 ```
 
-Insert si fa in tempo O(1) assumendo che l'elemento da inserire non sia già in tabella
-Search si fa in tempo proporzionale alla lunghezza di T\[h(x)\]
-DELETE si fa in tempo O(1) assumendo 
+INSERT si fa in tempo O(1) assumendo che l'elemento da inserire non sia già in tabella
+SEARCH si fa in tempo proporzionale alla lunghezza di T\[h(x)\]
+DELETE si fa in tempo O(1) se la lista è una [[Lista doppiamente concatenata]]
+
 
