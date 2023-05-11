@@ -71,4 +71,4 @@ Osservate che se $\mathcal{B}$ non contiene occorrenze libere di $x$ non serve f
 
 Osservate anche che data una f.b.f. non è unica la f.b.f. in forma normale prenessa ad essa equivalente, in quanto la forma ottenuta dipende dall'ordine con cui si applicano le trasformazioni precedenti
 
-Definiamo le formule in [[forma di sS]]
+Definiamo le formule in [[forma di Skolen]]
