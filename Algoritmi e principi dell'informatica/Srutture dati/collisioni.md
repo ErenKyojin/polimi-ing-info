@@ -40,7 +40,8 @@ Generalmente si formano liste abbastanza brevi, caso speciale è una funzione ha
 \draw (2,-.2) rectangle (3,.2) node (n3)[left = 2cm]{3} node[below](arr3){};
 \draw (2, -.8) rectangle (3, -.4)node (n4)[left = 2cm]{4} node[midway]{NIL};
 \draw[-latex] (k1.center) node[above]{k1} -- (n1);
-\draw[-latex] (k2.center) node[above]{k2} -- (n)
+\draw[-latex] (k2.center) node[above]{k2} -- (n3);
+\draw[-latex] (k3.center) node[above]{k5} -- (n1);
 \end{tikzpicture}
 \end{document}
 ```
