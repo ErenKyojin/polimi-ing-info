@@ -87,6 +87,6 @@ HASH-SEARCH(T, k)
 	return NIL
 ```
 
-La cancellazione è piú coplessa, imporre uno slot a NIL rende impossibile accedere agli elementi successive a quella cancellata, possiamo provare a mettere un valore diverso da NIL che indica un elemento ancellato e quindi dobbiamoa aggiungere 
+La cancellazione è piú coplessa, imporre uno slot a NIL rende impossibile accedere agli elementi successive a quella cancellata, possiamo provare a mettere un valore diverso da NIL che indica un elemento cancellato, ad esempio DELETED; inoltre dobbiamo aggiungere 
 `if T[j] = NIL or DELETED'
 nell'insert
