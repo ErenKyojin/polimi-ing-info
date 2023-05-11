@@ -25,5 +25,10 @@ LIST-INSERT(L, x)
 
 ```
 LIST-DELETE(L, x)
-	if x.prev != NIL //abbiamo un puntatore
+//abbiamo un puntatore ad un nodo da cancellare! In caso dobbiamo prima cercarlo
+	if x.prev != NIL
+		x.prev.next := x.next
+	else L.head := x.next
+	if x.next != NIL
+		x.next.prev :=
 ```
