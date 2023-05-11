@@ -12,4 +12,5 @@ In genere non è possibile, data una formula $\mathcal{A}$, trasformarla in una 
 
 Il procedimento da seguire è questo:
 - Portare $\mathcal{A}$ in forma prenessa
-- Se in testa c'è un quantificatore esistenziale eliminarlo sostituendo ogni occorrenza libera della variabile che era quantificata da quel quantificatore con una nuova costante e ripetere il procedimento fino a che o tutti i quantificatori esistenziali sono eliminati o il primo quantificatore di prefisso rimasto è un quantificatore universa
+- Se in testa c'è un quantificatore esistenziale eliminarlo sostituendo ogni occorrenza libera della variabile che era quantificata da quel quantificatore con una nuova costante e ripetere il procedimento fino a che o tutti i quantificatori esistenziali sono eliminati o il primo quantificatore di prefisso rimasto è un quantificatore universale
+- Se non sono rimasti quantificatori esistenziali, la formula è in forma di Skolen, altrimenti considerare il primo quantificatore esistenziale che si incontra percorrendo la formula da sinistra a destra, questo è preceduto da $n (n > 1)$ quantificatori universali, eliminare il quantificatore esistenziale sostituendo ogni occorrenza libera della variabile che era quantificata da quel quantificatore con un termine formato da una nuova le
