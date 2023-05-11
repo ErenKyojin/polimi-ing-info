@@ -82,5 +82,7 @@ HASH-SEARCH(T, k)
 		j := h(k, i)
 		if T[j] = k
 			return j
-		else i := i
+		else i := i + 1
+	until T[j] = NIL or i = m
+	return NIL
 ```
