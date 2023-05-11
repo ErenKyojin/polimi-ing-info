@@ -17,9 +17,12 @@ Provare a farlo con un unico puntatore di partenza diventa inutilmente complicat
 
 Testa -> \[ | \] -> \[ | \] -> \[ | \] <- coda
 
-Con array la testa e la coda sono entrambi mobili sull'array ed essenzialmente si scala sugli indici
+Con array la testa e la coda sono entrambi mobili sull'array ed essenzialmente si scala sugli indici, non si può fissare la testa in A\[0\] in quanto la cancellazione di elmenti intesta diventerebbe complessa.
 
-Qhead indice della 
-Qtail
+Qhead indice della testa in un array
+Qtail indice della coda
+
+h = t => coda vuota
+h - t _ 1
 
 
