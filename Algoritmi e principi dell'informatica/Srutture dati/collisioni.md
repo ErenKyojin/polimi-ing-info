@@ -67,5 +67,10 @@ HASH-INSERT(T, k)
 	i := 0
 	repeat
 		j := h(k, 1)
-			if T[j] = NIL
+		if T[j] = NIL
+			T[j] := k
+			return j
+		else i := i + 1
+	 until T[j] = NIL or i = m
+	 	
 ```
