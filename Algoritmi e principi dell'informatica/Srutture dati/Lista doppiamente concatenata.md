@@ -8,8 +8,8 @@ Ricerca, con input la lista L e la chiave k che ritorna il puntatore ad un eleme
 
 ```
 LIST-SEARCH(L, x)
-x.netx := L.head
-if L.
+x := L.head
+while x != NIL
 ```
 
 
