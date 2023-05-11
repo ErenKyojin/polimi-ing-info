@@ -15,5 +15,8 @@ modification date: 2023-05-11 16:13
 >si legge come "Se $1$ è minore di $2$ o esiste un numero naturale $y$ tale che $x \cdot y = 1 + x$, allora per ogni numero naturale $x$ è $x \cdot (1 + x) \neq 2$ e $x < x$.
 >Ovviamente la formula $x \cdot y = 1 + x$ non è ne vera ne falsa, dipende da particolari assegnamenti di valori alle variabili $x$ ed $y$, la formula se $1$ è minore di $2$ o esiste un numero naturale $y$ tale che $x \cdot y = 1 + x$ allora per ogni numero naturale $x$ è $x \cdot (1 + x) \neq 2$ e $x < x''$ è falsa poichè l'antecedente è vero, essendo l'or di due formule atomiche di cui la primo è vera, mentre il conseguente è falso non potendo essere $x <x$.
 
-Data una struttura, le costanti risultano elementi di $D$, i termini sono funzioni di funzioni su $D$, le formule atomiche sono delle relazioni fra termini; per valutare una formula atomica in una interpretazione $\left< D,I \right>$ dobbiamo quindi in
+Data una struttura, le costanti risultano elementi di $D$, i termini sono funzioni di funzioni su $D$, le formule atomiche sono delle relazioni fra termini; per valutare una formula atomica in una interpretazione $\left< D,I \right>$ dobbiamo quindi introdurre l'assegnamento ovvero una funzione $s$ dall'insieme delle variabli del linguaggio all'insieme $D$.
+L'assegnamento $s$ permette di assegnare un valore in $D$ a tutti i termini del linguaggio mediante la seguente definizione:
+$s* : \text{Ter} \to D$
+- $s*(a) = I_{1}(a)$ per ogni costante 
 
