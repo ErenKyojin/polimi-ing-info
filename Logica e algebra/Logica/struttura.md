@@ -54,5 +54,7 @@ Una [[formula chiusa]] in una data interpretazione non può essere soddisfacibil
 - la [[chiusura]] universale di $\mathcal{A}$ è vera in $\left< D,I \right>$ se e solo se $\mathcal{A}$ è vera in $\left< D,I \right>$
 - La chiusura esistenziale di $\mathcal{A}$ è vera in $\left< D,I \right>$ se e solo se $\mathcal{A}$ è soddisfacibile in $\left< D,I \right>$
 
-Una formula si dice esempio di tautologia se è ottenuta da una tautologia sostituendo
+Una formula si dice esempio di tautologia se è ottenuta da una tautologia sostituendo formule del primo ordine alle lettere enunciative della tautologia, in modo che a lettere uguali vengano sostituite formule uguali. Un esempio di tautologia è sempre una formula logicamente valida.
+
+La terna $\left< D,I,s \right>$ dive $\left< D,I \right>$ è un'interpretazione ed $s$ un assegnamento, si dice **modello** per $\mathcal{A}$ se l'assegnamento $s$ soddisfa $\mathcal{A}$ in
 
