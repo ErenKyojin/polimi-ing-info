@@ -71,6 +71,16 @@ HASH-INSERT(T, k)
 			T[j] := k
 			return j
 		else i := i + 1
-	 until T[j] = NIL or i = m
-	 	
+	 until i = m
+	 error "hash table overflow"	
+```
+
+```
+HASH-SEARCH(T, k)
+	i := 0
+	repeat
+		j := h(k, i)
+		if T[j] = k
+			return j
+		else i := i
 ```
