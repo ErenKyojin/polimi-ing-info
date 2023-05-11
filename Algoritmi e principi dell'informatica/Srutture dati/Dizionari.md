@@ -12,4 +12,15 @@ $m = |U|$
 $U$ insieme delle chiavi, il modo più immediato è fare un array $T$ tale  che in $T[k]$ troviamo l'elemento di chiave $k$ (che potrebbe essere un puntatore a chiavi più complesse).
 Operazioni su tabella a indirizzamento diretto
 
+```
+DIRECT-ADDRESS-SEARCH(T, k)
+	return T[k]
+```
 
+```
+DIRECT-ADDRESS-INSERT(T, x)
+	T[x.key] := x
+```
+
+```
+```
