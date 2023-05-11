@@ -28,12 +28,13 @@ Generalmente si formano liste abbastanza brevi, caso speciale è una funzione ha
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[scale = 2]
 \node at (0,.2){$\bullet$};
 \node at (.3,.6){$\bullet$};
-\node at (-6,-)
+\node at (-.1,-.5){$\bullet$};
 \draw (0,0) circle (1);
 \draw (0,0) circle (1.5);
+\draw (2,1.5) rectangle ()
 \end{tikzpicture}
 \end{document}
 ```
