@@ -18,5 +18,7 @@ modification date: 2023-05-11 16:13
 Data una struttura, le costanti risultano elementi di $D$, i termini sono funzioni di funzioni su $D$, le formule atomiche sono delle relazioni fra termini; per valutare una formula atomica in una interpretazione $\left< D,I \right>$ dobbiamo quindi introdurre l'assegnamento ovvero una funzione $s$ dall'insieme delle variabli del linguaggio all'insieme $D$.
 L'assegnamento $s$ permette di assegnare un valore in $D$ a tutti i termini del linguaggio mediante la seguente definizione:
 $s* : \text{Ter} \to D$
-- $s*(a) = I_{1}(a)$ per ogni costante 
+- $s^*(a) = I_{1}(a)$ per ogni costante $a$.
+- $s^*(x) = s(x)$ per ogni variabile $x$.
+- $s^*(f(t_{1},t_{2},\dots,t_{n}))=I_{2}(f)(s^* (t_{1}),s^* (t_{2}),\dots,)$
 
