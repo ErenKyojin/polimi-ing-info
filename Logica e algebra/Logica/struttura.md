@@ -37,8 +37,8 @@ Fissato un assegnamento di valori in $D$ alle variabili, possiamo dire se per i 
 In questo modo la valutazione di una formula è sempre riportata alla valutazione di formule più semplici ed il procedimento si può iterare fino ad arrivare alla valutazione di formule atomiche.
 
 >[!def]
->Dati un [[linguaggio]] del primo ordine, una sua interpretazione ed una f.b.f. $\mathcal{A}$
->- $\mathcal{A}$ si dice **soddisfacibile in quella interpretazione** se esiste una assegnamento di valori di variabili che soddisfa la [[formule ben formate|f.b.f.]]
+>Dati un [[linguaggio]] del primo ordine, una sua interpretazione ed una [[formule ben formate|f.b.f.]] $\mathcal{A}$
+>- $\mathcal{A}$ si dice **soddisfacibile in quella interpretazione** se esiste una assegnamento di valori di variabili che soddisfa la f.b.f.
 >- $\mathcal{A}$ si dice **vera in quell'interpretazione** se ogni assegnamento di valori alle variabili soddisfa la f.b.f. $\mathcal{A}$.
 >- $\mathcal{A}$ si dice **falsa** (o **insoddisfacibile**) **in quell'interpretazione** se nessun assegnamento di valori alle variabili soddisfa la f.b.f.
 >
@@ -50,5 +50,6 @@ In questo modo la valutazione di una formula è sempre riportata alla valutazion
 >[!oss]
 >$\mathcal{A}$ è logicamente valida se e solo se $\sim\mathcal{A}$ è insoddisfacibile
 
-Una formula chiusa in una data
+Una [[formula chiusa]] in una data interpretazione non può essere soddisfacibile ma non vera, inoltre è facile verificare che data una f.b.f. $\mathcal{A}$ ed una interpretazione $\left< D,I \right>$
+- la chiusura universale di $\mathcal{A}$ è vera in $\left< D,I \right>$
 
