@@ -47,3 +47,28 @@ Data una formula $\mathcal{A}$ definiamo le [[sottoformule|sottoformule]] di $\m
 Se una formula contiene un quantificatore si può definire il [[campo di azione]] del suddetto quantificatore
 
 Quante volte una variabile compare in una formula si definisce come [[occorrenza]], ed una formula in cui non ci sono occorrenze libere di variabili si dice [[formula chiusa]].
+
+Data una formula $\mathcal{A}$ sarebbe interessante poterla trasformare in una formula equivalente che abbia tutti i quantificatori in testa, ovvero in una formula del tipo $(Q_{1}x_{1})(Q_{2}x_{2})\dots(Q_{n}x_{n})$, dove ogni $Q_{i}$ è un quantificatore (universale o esistenziale) e $\mathcal{B}$ è una f.b.f. che non contiene quantificatori.
+Una formula di questo tipo si dice in **forma normale prenessa**. La stringa iniziale di quantificatoi si dice **prefisso** della formula, mentre la f.b.f. $\mathcal{B}$ si chiama **matrice** della formula.
+Sussiste il seguente
+
+>[!teorema]
+>Una qualsiasi f.b.f. può essere sempre trasformata in modo algoritmico in una f.b.f. semanticamente quivalente in forma normale prenessa
+
+Per effettuare la trasformazione, usiamo equivalenze che permettano di invertire l'ordine di applicazione di quantificatori e connettivi:
+- $\sim \forall x \mathcal{A} \equiv \exists x \sim \mathcal{A}$
+- $\sim \exists x \mathcal{A} \equiv \forall x \sim \mathcal{A}$
+Inoltre, se $\mathcal{A}(x)$ è una formula con occorrenze libere di $x$ ed $y$ è una variabile tale che il termine $y$ sia libero per $x$ in $\mathcal{A}(x)$, indichiamo con $A[y / x]$ la formula ottenuta sostituiendo in $\mathcal{A}(x)$ ogni occorrenza libera di $x$ con $y$. Allora detta $\mathcal{B}$ una qualunque f.b.f., detta $y$ una variabile che non abbia occorrenze libere in $\mathcal{B}$ e tale che il termine $y$ sia libero per $x$ in $\mathcal{A}(x)$ abbiamo:
+- $\forall x \mathcal{A}(x) \land \mathcal{B} \equiv \forall y(\mathcal{A}[y / x] \land \mathcal{B})$
+- $\exists x \mathcal{A}(x) \land \mathcal{B} \equiv \exists y (\mathcal{A}[y/x] \land \mathcal{B})$
+- $\forall x \mathcal{A}(x) \lor \mathcal{B} \equiv \forall y (\mathcal{A}[y / x] \land \mathcal{B})$
+- $\exists x \mathcal{A}(x) \lor \mathcal{B} \equiv \exists y (\mathcal{A}[y / x] \lor \mathcal{B})$
+- $\forall x \mathcal{A}(x) \implies \mathcal{B} \equiv \exists y(A[y / x] \implies \mathcal{B})$
+- $\exists x \mathcal{A}(x) \implies \mathcal{B} \equiv \forall y(\mathcal{A}[y / x] \implies \mathcal{B})$
+- $\mathcal{B} \implies \forall x \mathcal{A}(x) \equiv \forall y (\mathcal{B} \implies \mathcal{A}[y/x])$
+- $\mathcal{B} \implies \exists x \mathcal{A}(x) \equiv \exists y (\mathcal{B} \implies \mathcal{A}[y / x])$
+Osservate che se $\mathcal{B}$ non contiene occorrenze libere di $x$ non serve fare il cambio di nome della variabile, notate inoltre che non abbiamo dato nessuna equivalenza per formule che contengono come connettivo principale $\iff$, questo non è un limite perchè ogni formula con tale connettivo può essere riportata semplicemente ad una formula semanticamente equivalente che non ne faccia uso.
+
+Osservate anche che data una f.b.f. non è unica la f.b.f. in forma normale prenessa ad essa equivalente, in quanto la forma ottenuta dipende dall'ordine con cui si applicano le trasformazioni precedenti
+
+Definiamo le formule in [[forma di Skolen]]

@@ -101,4 +101,5 @@ Possiamo quindi definire gli [[insiemi adeguati]]
 >[!def]
 >- Ogni [[formule atomiche|formula atomica]] è una f.b.f.
 >- Se $\mathcal{A}$ è una f.b.f. anche $(\sim \mathcal{A}), (\forall x \mathcal{A}),(\exists x \mathcal{A})$ sono f.b.f.
->- 
+>- Se $\mathcal{A}$ e $\mathcal{B}$ sono f.b.f. anche $(\mathcal{A} \land \mathcal{B}),(\mathcal{A} \lor \mathcal{B}), (\mathcal{A} \implies \mathcal{B}), (\mathcal{A} \iff \mathcal{B})$ sono f.b.f.
+>- Nient'altro è una f.b.f.

@@ -61,4 +61,3 @@ Ogni nodo inoltre può essere visto come la radice di un sottoalbero massimale c
 > \end{tikzpicture}
 > \end{document}
 > ```
-> 
