@@ -69,7 +69,9 @@ $$ \downarrow \text{eulero implicito}$$
 $$\begin{align}
  CS_{d}(z) &= \frac{\left( \displaystyle \color{red}\frac{1-z^{-1}}{T_{s}} \color{white} kT_{d} \right)}{1 + \displaystyle \color{red}\frac{1z^{-1}}{T_{s}} \color{white}\frac{T_{d}}{N}})cSP(z) = PV(z) \\
 &= \frac{KT_{d} / T_{s}}{1 + \frac{z - 1}{zT_{s}} \frac{T_{d}}{n}} (C \Delta SP(z) - \Delta PV(z)) \\
-&=\frac{\left( ZNT_{s}k \frac{T_{d}}{T_{s}} \right)}{ZNT_{s} + ZT_{d} - T_{d}}('') = \frac{ZNkT_{d} / T_{d} + NT_{s}}{Z - \frac{T_{d}}{T_{d} + NT_{s}}}
+&=\frac{\left( ZNT_{s}k \frac{T_{d}}{T_{s}} \right)}{ZNT_{s} + ZT_{d} - T_{d}}('') = \frac{Z\underbrace{ NkT_{d} / T_{d} + NT_{s}B }_{ \alpha }}{Z - \underbrace{ \frac{T_{d}}{T_{d} + NT_{s}} }_{ \beta }} ('')
 \end{align} $$
 
 Con $T_{d}, N, T_{s} > 0$ oppure $T_{d} = 0$ il termine al denominatore ha chiaramente modulo $< 1$, mentre per il numeratore il guadagno si annulla con $T_{d} = 0$
+
+qu
