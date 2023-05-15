@@ -8,3 +8,5 @@ Specifiche:
 - Forma ISA a 2 gradi di libertà
 - Discretizzazione: con eulero implicito
 - Relaizzazione: incrementale
+- Anti-windup tramite ricalcolo azione $I$ con azione $D = 0$
+- Modalità tracking con bumpless transfer
