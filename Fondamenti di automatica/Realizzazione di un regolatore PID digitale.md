@@ -9,4 +9,4 @@ Specifiche:
 - Discretizzazione: con eulero implicito
 - Relaizzazione: incrementale
 - Anti-windup tramite ricalcolo azione $I$ con azione $D = 0$
-- Modalità tracking con bumpless transfer
+- Modalità tracking con bumpless transferz
