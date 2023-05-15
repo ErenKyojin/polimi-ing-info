@@ -77,5 +77,6 @@ Con $T_{d}, N, T_{s} > 0$ oppure $T_{d} = 0$ il termine al denominatore ha chiar
 quindi
 $$\begin{align}
 CS_{d} (z) &= \frac{z\beta}{z - \alpha}(c\Delta SP(z) - \Delta PV(z) ) \\
-CS_{d}(k) &= \alpha CS_{d}(k - 1) + \beta(c\Delta SP(k) - \Delta PV(k))
+CS_{d}(k) &= \alpha CS_{d}(k - 1) + \beta(c\Delta SP(k) - \Delta PV(k)) \\
+\Delta CS_{d}(k) = CS_{d}(k) - CS_{d}(k-1)
 \end{align}$$
