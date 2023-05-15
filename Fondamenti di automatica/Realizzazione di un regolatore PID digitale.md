@@ -173,4 +173,10 @@ Sistema fisico
 
 1. Acquisici inressi
 2. calcola controlli
-scrivi uscite
+3. scrivi uscite
+4. -> 1.
+
+In simulazione devo ance calcolare lo stato del processo
+
+Soluzioni
+1. Calcolare tutti gli stati in modo 
