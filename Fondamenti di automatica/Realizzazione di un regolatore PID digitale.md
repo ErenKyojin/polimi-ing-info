@@ -185,4 +185,5 @@ Soluzioni
 P \to (A_{p}, b_{p}, C_{p},0) \\
 R \to (A_{r}, b_{r},C_{r},d_{r})
 \end{rcases}\to (A,b,c,d)  \text{ sistema in AC}$$
-2. Adatto tool che consentano una modellazione algoritmica ma devo ri
+2. Adatto tool che consentano una modellazione algoritmica ma devo ricorrere a linguaggi ulteriori rispetto a quello dell'algoritmo
+3. Se ho solo il linguaggio dell'algoritmo di controllo, accettare un ritardo di 1 passo nell'anello
