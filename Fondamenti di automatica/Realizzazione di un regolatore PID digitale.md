@@ -37,4 +37,4 @@ LO low saturation
 
 #### Legge di ccontrollo e parametri
 LDC:
-$$ CS(s) = k\left( bSP(s) - PV(s) + \frac{1}{sT}(SP(s) - PV(s)) \right)$$
+$$ CS(s) = k\left( bSP(s) - PV(s) + \frac{1}{sT}(SP(s) - PV(s)) + sTd\right)$$
