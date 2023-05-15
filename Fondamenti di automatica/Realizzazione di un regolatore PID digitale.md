@@ -54,3 +54,8 @@ $\Delta PV(k)= PV(k) - PV(k-1)$ e $\Delta PV(z)= (1-z^{-1})PV(z)$
 
 Quindi
 $$ \Delta CS_{p}(k) = K(b\Delta SP(k)-\Delta PV(k)) $$
+
+#### Azione I
+$$ CS_{I}(s) = \frac{1}{sT_{i}}(SP(s) - PV(s)) $$
+Eulero implicita $\downarrow$
+$CS_{i}(Z) = \frac{1}{}$
