@@ -181,7 +181,8 @@ In simulazione devo ance calcolare lo stato del processo
 Soluzioni
 1. Calcolare tutti gli stati in modo analitico
    Ex. 
-   $$ \begin{align}
+   $$ \begin{rcases}
 P \to (A_{p}, b_{p}, C_{p},0) \\
 R \to (A_{r}, b_{r},C_{r},d_{r})
-\end{align} $$
+\end{rcases}\to (A,b,c,d)  \text{ sistema in AC}$$
+2. Adatto tool che consentano una modellazione algoritmica ma devo ri
