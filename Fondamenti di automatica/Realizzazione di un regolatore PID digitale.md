@@ -91,7 +91,7 @@ CS_{d}(k) &= \alpha CS_{d}(k - 1) + \beta(c\Delta SP(k) - \Delta PV(k)) \\
 \draw(1,.5) rectangle (2.5,-.5);
 \draw(2.5,0) -- ++ (1,0) node[right]{$CS(k)$};
 \draw (3,0) -- ++ (0,-1);
-\draw (3,-1) -- (2,-1) -- (2,-.5);
+\draw (3,-1) -- (2,-1) -- (2,-.75) rectangle (1,-1.5) node[midway]{$z^{-1}$};
 \end{tikzpicture}
 \end{document}
 ```
