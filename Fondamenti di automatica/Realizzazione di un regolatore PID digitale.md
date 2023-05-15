@@ -168,3 +168,9 @@ void isapid(PID_DATA *pd)
 
 
 ```
+
+Sistema fisico
+
+1. Acquisici inressi
+2. calcola controlli
+scrivi uscite
