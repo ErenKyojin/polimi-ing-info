@@ -20,7 +20,9 @@ Specifiche:
 \draw (0,-1) -- ++ (2,0) node[right]{PV};
 \draw (0,-2) -- ++ (2,0) node[right]{TS};
 \draw (0,-3) -- ++ (2,0) node[right]{TS};
-\draw ()
+\draw (4,0) node[left]{CS} -- ++ (2,0);
+\draw (4,-2) node[left]{HI} -- ++ (2,0);
+\draw (4,-3) node[left]{LO} -- ++ (2,0);
 \end{tikzpicture}
 \end{document}
 ```
