@@ -127,3 +127,5 @@ IF(TS) //modalità tracking
 	CS_d(k) = 0   //arbitrario
 
 ```
+
+Codice in (C)
