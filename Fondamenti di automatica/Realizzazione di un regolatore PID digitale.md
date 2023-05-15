@@ -133,5 +133,13 @@ IF(TS) //modalità tracking
 Codice in C
 
 ```
+#include stdio.h
 
+
+//strutt
+typedef struct {
+
+
+
+}
 ```
