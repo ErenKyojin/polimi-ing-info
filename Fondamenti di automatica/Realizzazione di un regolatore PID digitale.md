@@ -53,4 +53,4 @@ $\Delta SP(k) = SP(k)-SP(k-1) \iff \Delta = 1 - z^{-1}$ cosicchè $\Delta SP(z)=
 $\Delta PV(k)= PV(k) - PV(k-1)$ e $\Delta PV(z)= (1-z^{-1})PV(z)$
 
 Quindi
-$$ \Delta CS_{p}(k) = K(\Delta SP(k)-\Delta PV(k)) $$
+$$ \Delta CS_{p}(k) = K(b\Delta SP(k)-\Delta PV(k)) $$
