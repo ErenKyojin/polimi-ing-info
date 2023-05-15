@@ -108,8 +108,8 @@ Memorizza $SP(k)$ e $PV(k)$ per calcolare poi $\Delta SP$ e $\Delta PV$
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw (-.5,1) -- ++ (.5,0) -- ++ (.5,-.5);
-\draw (-1,0) node[left]{$\Delta CS_k$} -- ++ (1.5,0)node{$\circ$};
+\draw (-1.5,1) node[left]{$TR(k)$} -- ++ (1,0) node[above]{tracking} -- ++ (1,-1);
+\draw (-1,0) node[left]{$\Delta CS_k$} -- ++ (1.2,0)node{$\circ$};
 \draw (.5,0) -- ++ (.5,0);
 \draw(1,.5) rectangle (2.5,-.5);
 \draw(2.5,0) -- ++ (1,0) node[right]{$CS(k)$};
