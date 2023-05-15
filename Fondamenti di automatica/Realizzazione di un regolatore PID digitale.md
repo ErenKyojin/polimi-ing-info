@@ -27,13 +27,13 @@ Specifiche:
 \end{tikzpicture}
 \end{document}
 ```
-SP set point
-PV process variable
-TS track switch
-TR track reference
-CS control signal
-HI high saturation
-LO low saturation
+- SP set point
+- PV process variable
+- TS track switch
+- TR track reference
+- CS control signal
+- HI high saturation
+- LO low saturation
 
 #### Legge di controllo e parametri
 LDC:
@@ -48,4 +48,6 @@ Sampling times
 
 #### Azione O
 $CS_{p} = K(SP - PV)$
-$\Delta SP(k) = SP(k)-SP(k-1) \iff \Delta = 1 - z^{-1}$ cosicchè $\Delta SP(z)=(1-z^)$
+$\Delta SP(k) = SP(k)-SP(k-1) \iff \Delta = 1 - z^{-1}$ cosicchè $\Delta SP(z)=(1-z^{-1})SP(z)$
+
+$\Delta PV(k)= PV(k) - PV(k-1)$ e $\Delta PV(z)= (1-z^{-1}_}$
