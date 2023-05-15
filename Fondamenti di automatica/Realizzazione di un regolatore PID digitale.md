@@ -179,4 +179,9 @@ Sistema fisico
 In simulazione devo ance calcolare lo stato del processo
 
 Soluzioni
-1. Calcolare tutti gli stati in modo 
+1. Calcolare tutti gli stati in modo analitico
+   Ex. 
+   $$ \begin{align}
+P \to (A_{p}, b_{p}, C_{p},0) \\
+R \to (A_{r}, b_{r},C_{r},d_{r})
+\end{align} $$
