@@ -98,6 +98,10 @@ CS_{d}(k) &= \alpha CS_{d}(k - 1) + \beta(c\Delta SP(k) - \Delta PV(k)) \\
 ```
 
 $$ CS(k) = CS(k-1) + \Delta CS(k) $$
-#### Appianamento dello stato
+If (CS(k) >) ...
+
+#### Aggiornamento dello stato
 Memorizza $CS(k)$ e $CS_{d}(k)$ per il passo successivo dove sapremo i valori a $k-1$
-Memorizza $SP(k)$ e $PV(k)$ per calcolare poi $\Delta SP$ e $\Delta P$
+Memorizza $SP(k)$ e $PV(k)$ per calcolare poi $\Delta SP$ e $\Delta PV$
+
+#### Modalità tracking
