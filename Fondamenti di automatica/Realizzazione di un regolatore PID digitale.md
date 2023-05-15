@@ -35,6 +35,16 @@ CS control signal
 HI high saturation
 LO low saturation
 
-#### Legge di ccontrollo e parametri
+#### Legge di controllo e parametri
 LDC:
-$$ CS(s) = k\left( bSP(s) - PV(s) + \frac{1}{sT}(SP(s) - PV(s)) + sTd\right)$$
+$$ CS(s) = k\left( bSP(s) - PV(s) + \frac{1}{sT}(SP(s) - PV(s)) + \frac{sTd}{1 + StD / n} (cSP(s) - PV(s))\right)$$
+
+PAR: K, Ti, Td, N, b, C
+CSmin, CSmax
+$T_{s}$
+Sat values
+Sampling times
+
+
+#### Azione O
+$CS_{}$
