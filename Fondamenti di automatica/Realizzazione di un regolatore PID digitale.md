@@ -47,4 +47,5 @@ Sampling times
 
 
 #### Azione O
-$CS_{}$
+$CS_{p} = K(SP - PV)$
+$\Delta SP(k) = SP(k)-SP(k-1) \iff \Delta = 1 - z^{-1}$ cosicchè $\Delta SP(z)=(1-z^)$
