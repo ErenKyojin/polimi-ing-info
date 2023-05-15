@@ -46,8 +46,11 @@ Sat values
 Sampling times
 
 
-#### Azione O
-$CS_{p} = K(SP - PV)$
+#### Azione P
+$CS_{p} = K(bSP - PV)$
 $\Delta SP(k) = SP(k)-SP(k-1) \iff \Delta = 1 - z^{-1}$ cosicchè $\Delta SP(z)=(1-z^{-1})SP(z)$
 
-$\Delta PV(k)= PV(k) - PV(k-1)$ e $\Delta PV(z)= (1-z^{-1}_}$
+$\Delta PV(k)= PV(k) - PV(k-1)$ e $\Delta PV(z)= (1-z^{-1})PV(z)$
+
+Quindi
+$$ \Delta CS_{p}(k) = K(\Delta SP(k)-\Delta PV(k)) $$
