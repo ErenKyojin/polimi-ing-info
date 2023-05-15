@@ -67,6 +67,6 @@ $$ \Delta CS_{I}(k) = K \frac{T_{s}}{T_{i}}(SP)(k) - PV(k))  $$
 $$ CS_{d}(s) = \frac{skT_{d}}{1 +  ST_{d} /N} (cSP(s) - PV(S)) $$
 $$ \downarrow \text{eulero implicito}$$
 $$\begin{align}
- CS_{d}(z) &= \frac{\left( \displaystyle \color{red}\frac{1-z^{-1}}{T_{s}} \color{white} kT_{d} \right)}{1 + \displaystyle\frac{1z^{-1}}{T_{s}} \frac{T_{d}}{N}})cSP(z) = PV(z) \\
-&= KT_{d} / T_{s}.
+ CS_{d}(z) &= \frac{\left( \displaystyle \color{red}\frac{1-z^{-1}}{T_{s}} \color{white} kT_{d} \right)}{1 + \displaystyle \color{red}\frac{1z^{-1}}{T_{s}} \color{white}\frac{T_{d}}{N}})cSP(z) = PV(z) \\
+&= \frac{KT_{d} / T_{s}}{1 + \frac{z - 1}{zT_{s}} \frac{T_{d}}{n}}
 \end{align} $$
