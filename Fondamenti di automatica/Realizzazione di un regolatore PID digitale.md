@@ -105,3 +105,6 @@ Memorizza $CS(k)$ e $CS_{d}(k)$ per il passo successivo dove sapremo i valori a 
 Memorizza $SP(k)$ e $PV(k)$ per calcolare poi $\Delta SP$ e $\Delta PV$
 
 #### Modalità tracking
+
+#todo graph
+
