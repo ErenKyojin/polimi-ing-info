@@ -58,4 +58,6 @@ $$ \Delta CS_{p}(k) = K(b\Delta SP(k)-\Delta PV(k)) $$
 #### Azione I
 $$ CS_{I}(s) = \frac{1}{sT_{i}}(SP(s) - PV(s)) $$
 $$\text{ Eulero implicita } \downarrow$$
-$$CS_{i}(Z) = \frac{1}{\displaystyle\color{red}{\frac{z-1}{zT_{s}}}\color{white}T_{i}}(SP(z)-PV(z))$$
+$$CS_{i}(Z) = \frac{1}{\displaystyle\color{red}{\frac{z-1}{z\color{white}T_{s}}}\color{white}T_{i}}(SP(z)-PV(z))$$
+In rosso $\Delta$
+$\implies \Delta CS_{i}(z)$
