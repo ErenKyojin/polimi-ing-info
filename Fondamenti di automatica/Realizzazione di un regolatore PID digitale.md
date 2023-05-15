@@ -132,14 +132,14 @@ IF(TS) //modalità tracking
 
 Codice in C
 
-```
+```c
 #include stdio.h
 
 
-//strutt
+//struttura dati relativi ad un PID
 typedef struct {
-
-
-
-}
+	float K, Ti, Td, N, b, c, CSmax, CSmin, Ts;
+	float SP, SPo, PV, PVo, Do, CS, CSo, Tr;
+	char TS;
+} PID_DATA;
 ```
