@@ -109,7 +109,7 @@ Memorizza $SP(k)$ e $PV(k)$ per calcolare poi $\Delta SP$ e $\Delta PV$
 \begin{document}
 \begin{tikzpicture}
 \draw (-1.5,1) node[left]{$TR(k)$} -- ++ (1,0) node[above]{tracking} -- ++ (1,-1);
-\draw (-1,0) node[left]{$\Delta CS_k$} -- ++ (1.2,0)node{$\circ$};
+\draw (-1,0) node[left]{$\Delta CS_k$} -- ++ (1,0)node{$\circ$} node[below]{auto};
 \draw (.5,0) -- ++ (.5,0);
 \draw(1,.5) rectangle (2.5,-.5);
 \draw(2.5,0) -- ++ (1,0) node[right]{$CS(k)$};
@@ -118,4 +118,10 @@ Memorizza $SP(k)$ e $PV(k)$ per calcolare poi $\Delta SP$ e $\Delta PV$
 \draw (1,-1) -- (-.5,-1) -- (-.5,0);
 \end{tikzpicture}
 \end{document}
+```
+Se il calcolo di $\Delta CS$ contiene della dinamica occorre specificarne come essa è gestita
+
+```
+IF(TS) //modalità tracking
+	CS(k) = TR(k) //che
 ```
