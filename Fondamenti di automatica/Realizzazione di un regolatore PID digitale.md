@@ -16,13 +16,14 @@ Specifiche:
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw (0,0) -- (2,0) node[right]{SP};
-\draw (0,-1) -- ++ (2,0) node[right]{PV};
-\draw (0,-2) -- ++ (2,0) node[right]{TS};
-\draw (0,-3) -- ++ (2,0) node[right]{TS};
-\draw (4,0) node[left]{CS} -- ++ (2,0);
-\draw (4,-2) node[left]{HI} -- ++ (2,0);
-\draw (4,-3) node[left]{LO} -- ++ (2,0);
+\draw[->] (0,0) -- (2,0) node[right]{SP};
+\draw[->] (0,-1) -- ++ (2,0) node[right]{PV};
+\draw[->] (0,-2) -- ++ (2,0) node[right]{TS};
+\draw[->,dashed] (0,-3) -- ++ (2,0) node[right]{TS};
+\draw[->] (4,0) node[left]{CS} -- ++ (2,0);
+\draw[->,dashed] (4,-2) node[left]{HI} -- ++ (2,0);
+\draw[->,dashed] (4,-3) node[left]{LO} -- ++ (2,0);
+\draw (2,1) rectangle (4,-4);
 \end{tikzpicture}
 \end{document}
 ```
