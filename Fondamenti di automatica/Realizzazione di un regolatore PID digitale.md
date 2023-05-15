@@ -62,3 +62,5 @@ $$CS_{i}(Z) = \frac{K}{\displaystyle\color{red}{\frac{z-1}{z\color{white}T_{s}}}
 In rosso $\Delta$
 $$\implies \Delta CS_{i}(z) = \frac{KT_{s}}{T_{i}}(SP(z)-PV(z))$$
 $$ \Delta CS_{I}(k) = K \frac{T_{s}}{T_{i}}(SP)(k) - PV(k))  $$
+
+#### Azione D
