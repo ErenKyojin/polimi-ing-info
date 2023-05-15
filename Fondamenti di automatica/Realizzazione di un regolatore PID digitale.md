@@ -72,4 +72,4 @@ $$\begin{align}
 &=\frac{\left( ZNT_{s}k \frac{T_{d}}{T_{s}} \right)}{ZNT_{s} + ZT_{d} - T_{d}}('') = \frac{ZNkT_{d} / T_{d} + NT_{s}}{Z - \frac{T_{d}}{T_{d} + NT_{s}}}
 \end{align} $$
 
-Con $T_{d}, N,$
+Con $T_{d}, N, T_{s} > 0$ oppure $T_{d} = 0$ il termine al denominatore ha chiaramente modulo $< 1$, mentre per il numeratore il guadagno si annulla con $T_{d} = 0$
