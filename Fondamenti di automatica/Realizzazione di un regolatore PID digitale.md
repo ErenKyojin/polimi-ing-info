@@ -123,5 +123,7 @@ Se il calcolo di $\Delta CS$ contiene della dinamica occorre specificarne come e
 
 ```
 IF(TS) //modalità tracking
-	CS(k) = TR(k) //che
+	CS(k) = TR(k) //che verrà memorizzato nel passaggio successivo
+	CS_d(k) = 0   //arbitrario
+
 ```
