@@ -80,3 +80,13 @@ CS_{d} (z) &= \frac{z\beta}{z - \alpha}(c\Delta SP(z) - \Delta PV(z) ) \\
 CS_{d}(k) &= \alpha CS_{d}(k - 1) + \beta(c\Delta SP(k) - \Delta PV(k)) \\
 \Delta CS_{d}(k) &= CS_{d}(k) - \underbrace{ CS_{d}(k-1) }_{ \text{variabile di stato del regolatore} }
 \end{align}$$
+
+#### Modalità auto con antiwindup
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+
+\end{tikzpicture}
+\end{document}
+```
