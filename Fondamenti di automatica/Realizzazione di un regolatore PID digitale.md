@@ -154,12 +154,12 @@ typedef struct {
 void isapid(PID_DATA *pd)
 {
 
-	float DSP, DPV, DP, DI, D, DD, DCS
+	float DSP, DPV, DP, DI, D, DD, DCS;
 	if(pd -> TS == 0)
 	{
 
 	DSP = pd -> SP - pd -> SPo;
-	DPV = pd -> PV - pd -> 
+	DPV = pd -> PV - pd -> ...;
 
 	}
 
