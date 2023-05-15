@@ -23,7 +23,7 @@ Specifiche:
 \draw[->] (4,0) node[left]{CS} -- ++ (2,0);
 \draw[->,dashed] (4,-2) node[left]{HI} -- ++ (2,0);
 \draw[->,dashed] (4,-3) node[left]{LO} -- ++ (2,0);
-\draw (2,1) rectangle (4,-4);
+\draw (2,.5) rectangle (4,-3.5);
 \end{tikzpicture}
 \end{document}
 ```
@@ -34,3 +34,7 @@ TR track reference
 CS control signal
 HI high saturation
 LO low saturation
+
+#### Legge di ccontrollo e parametri
+LDC:
+$$ CS(s) = k\left( bSP(s) - PV(s) + \frac{1}{sT}(SP(s) - PV(s)) \right)$$
