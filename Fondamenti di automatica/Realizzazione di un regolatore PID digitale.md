@@ -147,6 +147,17 @@ typedef struct {
 
 typedef struct {
 	float mu, T, Ts;
-	float 
+	float u, y, x0;
+} TF1P0Z_DATA;
+
+//Funzione che implementa il PID, è void e prende il puntatore alla zona dati del PID. Si può usare int per diagnostica
+void isapid(PID_DATA *pd)
+{
+
+
+
 }
+
+
+
 ```
