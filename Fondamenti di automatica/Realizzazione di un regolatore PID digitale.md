@@ -86,7 +86,10 @@ CS_{d}(k) &= \alpha CS_{d}(k - 1) + \beta(c\Delta SP(k) - \Delta PV(k)) \\
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw (0,0) node[left]{$\Delta CS_k$} -- ++ (1,0); 
+\draw (0,0) node[left]{$\Delta CS_k$} -- ++ (.5,0)node{$\circ$};
+\draw (.5,0) -- ++ (.5,0);
+\draw(.5,.5) rectangle (1.5,-.5);
+
 \end{tikzpicture}
 \end{document}
 ```
