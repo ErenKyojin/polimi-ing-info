@@ -8,7 +8,7 @@ Specifiche:
 - Forma ISA a 2 gradi di libertà
 - Discretizzazione: con eulero implicito
 - Relaizzazione: incrementale
-- Anti-windup tramite ricalcolo azione $I$ con azione $D = 0$
+- Anti-windup
 - Modalità tracking con bumpless transfer
 
 #### interfaccia
@@ -86,7 +86,7 @@ CS_{d}(k) &= \alpha CS_{d}(k - 1) + \beta(c\Delta SP(k) - \Delta PV(k)) \\
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-
+\draw (0,0) node[left]{$\Delta CS_k$} -- ++ (1,0); 
 \end{tikzpicture}
 \end{document}
 ```
