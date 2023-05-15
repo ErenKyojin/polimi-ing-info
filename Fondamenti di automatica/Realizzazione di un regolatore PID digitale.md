@@ -26,3 +26,10 @@ Specifiche:
 \end{tikzpicture}
 \end{document}
 ```
+SP set point
+PV process variable
+TS track switch
+TR track reference
+CS control signal
+HI high saturation
+LO low saturation
