@@ -74,4 +74,8 @@ $$\begin{align}
 
 Con $T_{d}, N, T_{s} > 0$ oppure $T_{d} = 0$ il termine al denominatore ha chiaramente modulo $< 1$, mentre per il numeratore il guadagno si annulla con $T_{d} = 0$
 
-qu
+quindi
+$$\begin{align}
+CS_{d} (z) = \frac{z\beta}{z - \alpha}(c\Delta SP(z) - \Delta PV(z) ) \\
+CS_{d}
+\end{align}$$
