@@ -16,7 +16,11 @@ Specifiche:
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw (0,0) 
+\draw (0,0) -- (2,0) node[right]{SP};
+\draw (0,-1) -- ++ (2,0) node[right]{PV};
+\draw (0,-2) -- ++ (2,0) node[right]{TS};
+\draw (0,-3) -- ++ (2,0) node[right]{TS};
+\draw ()
 \end{tikzpicture}
 \end{document}
 ```
