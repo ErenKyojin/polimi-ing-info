@@ -142,4 +142,11 @@ typedef struct {
 	float SP, SPo, PV, PVo, Do, CS, CSo, Tr;
 	char TS;
 } PID_DATA;
+
+//struttura dati per contenere un sistema dinamico SISo con funzione di trasferimento mu/(1 + sT) discretizzato a passo Ts con il metodo di Eulero iplicito
+
+typedef struct {
+	float mu, T, Ts;
+	float 
+}
 ```
