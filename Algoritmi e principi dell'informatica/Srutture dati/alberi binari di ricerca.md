@@ -106,4 +106,10 @@ TREE-INSERT(T, z) //z nodo già preparato
 
 ```
 
-Tempo di esecuzione $O(h)$, il while richiede al massimo tante ripetizioni quanta è l'altezza dell'abero, ed il resto è in tempo costante. Notiamo che se f
+Tempo di esecuzione $O(h)$, il while richiede al massimo tante ripetizioni quanta è l'altezza dell'abero, ed il resto è in tempo costante. Notiamo che se fosse ben bilanciato l'altezza sarebbe $\log_{2}$ quindi ottimo.
+
+
+## Cancellazione
+Quando cancelliamo un oggetto $z$ da un albero abbiamo tre possibili casi:
+1. Foglia: semplice, cancelliamo e basta
+2. Nodo con un figlio, cancelliamo e riaggianciamo il figlio
