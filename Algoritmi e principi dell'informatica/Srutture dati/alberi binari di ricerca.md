@@ -115,4 +115,15 @@ Quando cancelliamo un oggetto $z$ da un albero abbiamo tre possibili casi:
 2. Nodo con un figlio, cancelliamo e riaggianciamo il figlio
 3. Trovare il successore del nodo da cancellare $z$, copiare la chiave del successore in $z$, quindi cancelare il successore
 	- Cancellare il successore potrebbe richiedere di spostare un sottoalbero del successore un livello su
-	- Si noti che in questo caso l'ggetto originario $z$ non r cancel
+	- Si noti che in questo caso l'ggetto originario $z$ non è cancellato, ma il suo attributo key viene modificato
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node (p) {5}
+	child {node{3}
+	 child {nodeP2}}
+	child {node{7}}
+\end{tikzpicture}
+\end{document}
+```
