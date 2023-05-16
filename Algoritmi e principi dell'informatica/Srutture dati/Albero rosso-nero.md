@@ -72,5 +72,15 @@ Estremamente simile all'inserimento di prima ma con un algoritmo per mantenere i
 RB-INSERT(T, z)
 	y := T.nil
 	x := T.root
-	while
+	while x != T.nil
+		y := x
+		if z.key < x.key
+			x := x.left
+		else x := x.right
+	z.p := y
+	if y = T.nil
+		T.root := z //L'albero T è vuoto
+	elseif z.key < y.key
+		y.left := z
+	else y.r
 ```
