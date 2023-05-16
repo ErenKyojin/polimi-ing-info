@@ -63,4 +63,10 @@ Quindi se il sottoalbero destro di un oggetto `x` dell'albero dell'albero non è
 \end{tikzpicture}
 \end{document}
 ```
->[!oss] x predecessore di $u
+>[!oss] x predecessore di $\text{ succ}(x)$.
+
+Per trovare un successore:
+se esiste il sottoalbero destro
+	prende il minimo del sottoalb
+Altrimenti
+	sale fino a quando non sale da de
