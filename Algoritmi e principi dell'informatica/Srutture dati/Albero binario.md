@@ -18,4 +18,4 @@ La struttura contiene puntatore al genitore, puntatore ai figli e la chiave per 
 - **left** left child
 - **right** right child
 
-Per sfu
+Per sfruttare un albero binario è utile studiare gli [[alberi binari di ricerca]]
