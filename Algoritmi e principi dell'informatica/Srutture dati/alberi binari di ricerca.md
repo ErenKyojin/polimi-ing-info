@@ -58,8 +58,8 @@ Quindi se il sottoalbero destro di un oggetto `x` dell'albero dell'albero non è
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}
-\draw[fill = green, thick] (0,0) -- (1,1) -- (1,0) -- (0,0);
+\begin{tikzpicture}[scale = 2]
+\draw[fill = green, thick] (0,0) -- (1,1.4)node[]{$''$} -- (2,0) -- (0,0);
 \end{tikzpicture}
 \end{document}
 ```
