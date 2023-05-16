@@ -12,6 +12,8 @@ modification date: 2023-05-16 12:20
 	child{node[fill = red, draw, fill opacity = 0.5] {y}
 	child{node {$\beta$}}
 	child{node {$\gamma$}}};
+\draw[ultra thick, -latex](1,-1.1) -- ++ (2,0);
+\draw[ultra thick, latex-](1,-.9) -- ++ (2,0);
 \end{tikzpicture}
 \begin{tikzpicture}
 \node[fill = red, draw, fill opacity = 0.5] {x}
