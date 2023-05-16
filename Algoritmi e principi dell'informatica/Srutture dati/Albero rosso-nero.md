@@ -92,5 +92,11 @@ RB-INSERT(T, z)
 Solito $O(h)$.
 
 ```
-RB
+RB-INSERT-FIXUP(T, z)
+	if z = T.root
+		T.root.color = BLACK
+...
 ```
+
+
+###
