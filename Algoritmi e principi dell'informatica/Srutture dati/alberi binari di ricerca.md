@@ -50,4 +50,6 @@ TREE-MAXIMUM
 	return x
 ```
 
-Entrambi gli alg
+Entrambi gli algoritmi hanno complessità $O(h)$ con caso pessimo minimo (massimo) su foglia.
+
+Come troviamo il successore? Il successore di un oggetto  in un BST è 
