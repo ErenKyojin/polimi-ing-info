@@ -10,9 +10,11 @@ Per tutti i nodi $x$ del BST se $l$ è un nodo nel sottoalbero sinistro allora `
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\node {5} child
-	{node {3}}
-	{node {7}};
+\node {5}
+	child {node {3}
+	 child{node {2}}
+	 child{node {5}}}
+	child {node {7}};
 \end{tikzpicture}
 \end{document}
 ```
