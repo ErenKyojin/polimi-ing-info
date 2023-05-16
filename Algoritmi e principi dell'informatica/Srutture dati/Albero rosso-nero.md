@@ -27,11 +27,13 @@ Ogni nodo di un albero RB ha 5 attributi:
 	- $bh(x)$ è l'**altezza nera** del nodo x
 	- Il nodo x non è contato in $bh(x)$ anche se nero.
 
+
 ```tikz
 \begin{document}
 \begin{tikzpicture}
 \node {5}
-	child {3}
+	child {node {3}}
+	child {node {7}};
 \end{tikzpicture}
 \end{document}
 ```
