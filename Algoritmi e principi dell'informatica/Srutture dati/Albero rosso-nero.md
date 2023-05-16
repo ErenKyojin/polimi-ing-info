@@ -131,5 +131,6 @@ RB-DELETE(T,z)
 	if y != x
 		z.key := y.key
 	if y.color = BLACK
-		RB-DELETE-FIXUP()
+		RB-DELETE-FIXUP(T, x)
+	return y
 ```
