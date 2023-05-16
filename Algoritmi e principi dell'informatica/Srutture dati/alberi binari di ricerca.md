@@ -153,7 +153,7 @@ every node/.style={draw}
 \end{document}
 ```
 
-8 è il successore di 7
+8 è il successore di 7,
 
 ```
 TREE-DELETE(T, z)
