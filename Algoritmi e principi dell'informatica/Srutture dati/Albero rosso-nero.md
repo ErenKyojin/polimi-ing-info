@@ -54,3 +54,9 @@ level 3/.style={sibling distance = 1cm}
 \end{tikzpicture}
 \end{document}
 ```
+
+Proviamo sempre a inserire un nodo rosso.
+
+## Proprietà
+Un albero rosso-nero con $n$ nodi interni (n nodi con chiavi, per laconvenzione usata) ha altezza $h \leq 2\log_{2}(n+1) è mkl$
+- Il numero di nodi interni di un sottoalbero con radice $x$
