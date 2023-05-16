@@ -19,6 +19,8 @@ Ogni nodo di un albero RB ha 5 attributi:
 > In questo caso le foglio sono tutti i nodi NIL alla base! Fino ad ora consideravamo foglie i nodi con solo elementi NIL. Questo significa che i NIL sono inclusi nell'albero.
 
 
-Ogni nodo è o rosso o nero
-La radice è nera
-Le foglie NIL
+- Ogni nodo è o rosso o nero
+- La radice è nera
+- Le foglie NIL sono tutte nere
+- I figli di un nodo rosso sono entrambi neri
+- Per ogni nodo $x$ tutti i cammini da $x$ alle foglie sue discendenti contengono lo stesso numero $bh(x)$ di nodi neri
