@@ -52,4 +52,4 @@ TREE-MAXIMUM
 
 Entrambi gli algoritmi hanno complessità $O(h)$ con caso pessimo minimo (massimo) su foglia.
 
-Come troviamo il successore? Il successore di un oggetto  in un BST è 
+Come troviamo il successore? Il successore di un oggetto `x` in un BST è l'elemento `y` del BST tale che `y.key` è la più piccola (rispettivamente piú grande) tra le chiavi che sono più grandi (rispettivamente piú piccole) di `x.key`
