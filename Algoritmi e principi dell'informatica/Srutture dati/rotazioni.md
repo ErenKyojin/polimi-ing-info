@@ -24,4 +24,15 @@ modification date: 2023-05-16 12:20
 \end{tikzpicture}
 \end{document}
 ```
-Cambiano le altezze dell'albero (ed anche i colori in un [[red]])
+Cambiano le altezze dell'albero (ed anche i colori in un [[Albero rosso-nero|red-black tree]]), ma rimane sempre un BST mantenendo le proprietà.
+
+
+```
+LEFT-ROTATE(T,k)
+	y := x.right
+	x.right = y.left
+	
+	if y.left != T.nil
+		y.left.p := x
+	t
+```
