@@ -130,7 +130,8 @@ every node/.style={draw}
 	child {node{7}
 	 child {node {6}}
 	 child {node {12}
-	  child {node{9}}
+	  child {node{8}
+	   child {node{9}}}
 	  child {node {14}}}};
 \draw[-latex] (2,-2.5) --  ++ (2,0);
 \end{tikzpicture}
@@ -171,3 +172,4 @@ TREE-DELETE(T, z)
 	return y
 ```
 
+y nodo da eliminare e x quello con cui sostituiamo
