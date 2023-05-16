@@ -134,7 +134,7 @@ every node/.style={draw}
 	   child {node{9}}}
 	  child {node {14}}}};
 \draw[-latex] (2,-2.5) --  ++ (2,0);
-\draw[-latex,thick, bend left] (x) to (y);
+\draw[-latex,thick, bend left=45] (x) to (y);
 \end{tikzpicture}
 \begin{tikzpicture}[level 1/.style={sibling distance = 2cm},
 level 2/.style={sibling distance = 1cm},
@@ -152,6 +152,8 @@ every node/.style={draw}
 \end{tikzpicture}
 \end{document}
 ```
+
+8 è il successore di 7
 
 ```
 TREE-DELETE(T, z)
