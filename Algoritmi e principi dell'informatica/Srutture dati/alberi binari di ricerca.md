@@ -69,4 +69,15 @@ Per trovare un successore:
 se esiste il sottoalbero destro
 	prende il minimo del sottoalb
 Altrimenti
-	sale fino a quando non sale da de
+	sale fino a quando non sale da destra
+
+```
+TREE-SUCCESSOR(x)
+	if x.right != NIL
+		return TREE-MINIMUM(x.right)
+	y := x.p
+	while y != NIL and x = y.right
+		x := y
+		y := y.p
+	return y
+```
