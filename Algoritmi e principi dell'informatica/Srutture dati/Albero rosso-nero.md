@@ -66,3 +66,11 @@ Come conseguenza di questa proprietà tutte le [[funzioni]] (eccetto insert e de
 Per implementare invece insert e delete introduciame le [[rotazioni]].
 
 ## Inserimento
+Estremamente simile all'inserimento di prima ma con un algoritmo per mantenere il bilanciamento
+
+```
+RB-INSERT(T, z)
+	y := T.nil
+	x := T.root
+	while
+```
