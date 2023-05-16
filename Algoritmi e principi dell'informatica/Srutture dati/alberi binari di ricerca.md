@@ -129,7 +129,15 @@ level 2/.style={sibling distance = 1cm}
 	child {node{7}
 	 child {node {6}}
 	 child {node {12}
-	  child {node}};
+	  child {node{}}}};
 \end{tikzpicture}
 \end{document}
+```
+
+```
+TREE-DELETE(T, z)
+	if z.left = NIL or z.right = NIL //ha figli?
+		y := z
+	else y := TREE-SUCCESSOR(z)
+		
 ```
