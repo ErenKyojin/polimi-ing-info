@@ -113,3 +113,6 @@ Tempo di esecuzione $O(h)$, il while richiede al massimo tante ripetizioni quant
 Quando cancelliamo un oggetto $z$ da un albero abbiamo tre possibili casi:
 1. Foglia: semplice, cancelliamo e basta
 2. Nodo con un figlio, cancelliamo e riaggianciamo il figlio
+3. Trovare il successore del nodo da cancellare $z$, copiare la chiave del successore in $z$, quindi cancelare il successore
+	- Cancellare il successore potrebbe richiedere di spostare un sottoalbero del successore un livello su
+	- Si noti che in questo caso l'ggetto originario $z$ non r cancel
