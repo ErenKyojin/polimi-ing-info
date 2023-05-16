@@ -66,7 +66,7 @@ Come conseguenza di questa proprietà tutte le [[funzioni]] (eccetto insert e de
 Per implementare invece insert e delete introduciame le [[rotazioni]].
 
 ## Inserimento
-Estremamente simile all'inserimento di prima ma con un algoritmo per mantenere il bilanciamento
+Estremamente simile all'inserimento di prima ma con un [[algoritmo]] per mantenere il bilanciamento detto algoritmo di fixup
 
 ```
 RB-INSERT(T, z)
@@ -82,5 +82,9 @@ RB-INSERT(T, z)
 		T.root := z //L'albero T è vuoto
 	elseif z.key < y.key
 		y.left := z
-	else y.r
+	else y.right := z
+	z.left := T.nil
+	z.right := T.nil
+	z.color := RED //proviamo ad inserirlo rosso, nero sicuramente sbilancia
+	RB-INSERT-FIXUP(T, z)
 ```
