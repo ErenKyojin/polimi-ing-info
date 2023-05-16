@@ -104,7 +104,9 @@ RB-INSERT-FIXUP(T, z)
 \begin{document}
 \begin{tikzpicture}[every node/.style={draw, fill opacity = .5}, level 1/.style={fill = black}, level 2/.style={fill = red}]
 \node {7}
-	child{}
+	child{node[fill = red]{5}
+	 child{node[fill = red]{3}}}
+	child{node[fill = red]{9}};
 \end{tikzpicture}
 \end{document}
 ```
