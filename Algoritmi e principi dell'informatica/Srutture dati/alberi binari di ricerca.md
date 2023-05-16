@@ -32,4 +32,4 @@ TREE-SEARCH(x, k)
 		return TREE-SEARCH(x.left, k)
 	else return TREE-SEARCH(x.right, k)
 ```
- Caso pessimo (se non consideriamo la forma dell'albero) è chiave non presente o chiave su una foglia, il tempo di esecuzione sarà $\Theta(h)$ ma anche $O(h)$ con $h$ altezza dell'albero. Se consideriamo la struttura dell'albero il caso pessimo diventa quello in cui ogni nodo ha un solo figlio
+ Caso pessimo (se non consideriamo la forma dell'albero) è chiave non presente o chiave su una foglia, il tempo di esecuzione sarà $\Theta(h)$ ma anche $O(h)$ con $h$ altezza dell'albero. Se consideriamo la struttura dell'albero il caso pessimo diventa quello in cui ogni nodo ha un solo figlio in cui abbiamo $h = n$. In cui abbiamo virtualmente una lista
