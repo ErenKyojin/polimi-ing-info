@@ -16,11 +16,12 @@ modification date: 2023-05-16 12:20
 \draw[ultra thick, latex-](1,-.9) -- ++ (2,0);
 \end{tikzpicture}
 \begin{tikzpicture}
-\node[fill = red, draw, fill opacity = 0.5] {x}
+\node[fill = red, draw, fill opacity = 0.5] {y}
+	child{node {$\gamma$}}
+	child{node[fill = red, draw, fill opacity = 0.5] {x}
 	child{node {$\alpha$}}
-	child{node[fill = red, draw, fill opacity = 0.5] {y}
-	child{node {$\beta$}}
-	child{node {$\gamma$}}};
+	child{node {$\beta$}}};
 \end{tikzpicture}
 \end{document}
 ```
+Cambiano le altezze dell'albero (ed anche i colori in un [[red]])
