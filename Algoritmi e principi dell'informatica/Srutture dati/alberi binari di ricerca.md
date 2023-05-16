@@ -127,7 +127,7 @@ every node/.style={draw}
 	child {node{3}
 	 child {node{1}}
 	 child {node{4}}}
-	child {node{7}
+	child {node[fill=yellow, fill opacity = 0.5]{7}
 	 child {node {6}}
 	 child {node {12}
 	  child {node{8}
@@ -143,7 +143,7 @@ every node/.style={draw}
 	child {node{3}
 	 child {node{1}}
 	 child {node{4}}}
-	child {node{7}
+	child {node{8}
 	 child {node {6}}
 	 child {node {12}
 	  child {node{9}}
