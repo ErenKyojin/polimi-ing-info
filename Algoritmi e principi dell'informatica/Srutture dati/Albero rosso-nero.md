@@ -16,4 +16,9 @@ Ogni nodo di un albero RB ha 5 attributi:
 - color
 
 > [!danger]
-> In questo caso le foglio sono tutti i !
+> In questo caso le foglio sono tutti i nodi NIL alla base! Fino ad ora consideravamo foglie i nodi con solo elementi NIL. Questo significa che i NIL sono inclusi nell'albero.
+
+
+Ogni nodo è o rosso o nero
+La radice è nera
+Le foglie NIL
