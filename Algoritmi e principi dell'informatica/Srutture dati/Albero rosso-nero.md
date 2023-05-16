@@ -58,7 +58,7 @@ level 3/.style={sibling distance = 1cm}
 Proviamo sempre a inserire un nodo rosso.
 
 ## Proprietà
-- Un albero rosso-nero con $n$ nodi interni (n nodi con chiavi, per laconvenzione usata) ha altezza $h \leq 2\log_{2}(n+1)$ è $\geq 2^{bh(x)}-1$, si dimostra per induzione sull'altezza di $x$
-
-
-- Il numero di nodi interni di un sottoalbero con radice $x$ è $$
+- Un albero rosso-nero con $n$ nodi interni (n nodi con chiavi, per laconvenzione usata) ha altezza $h \leq 2\log_{2}(n+1)$ 
+	- Il numero di nodi interni di un sottoalbero con radice $x$ è  $\geq 2^{bh(x)}-1$, si dimostra per induzione sull'altezza di $x$
+	- Almeno metà dei nodi della radice $x$ ad una foglia sono neri, quindi $bh(x) \geq h / 2$ e da cui discende che $h \leq 2 \log_{2}(n+1)$
+Come conseguenza di questa propr
