@@ -111,3 +111,13 @@ RB-INSERT-FIXUP(T, z)
 \end{tikzpicture}
 \end{document}
 ```
+
+## Cancellazione
+
+```
+RB-DELETE(T,z)
+	if z.left = T.nil or z.right = T.nil
+		y := z
+	else y := TREE-SUCCESSOR(z)
+	if y.left != 
+```
