@@ -102,8 +102,9 @@ RB-INSERT-FIXUP(T, z)
 ### Caso 1, y rosso
 ```tikz
 \begin{document}
-\begin{tikzpicture}[every node/.style={}]
-\node
+\begin{tikzpicture}[every node/.style={draw, fill opacity = .5}, level 1/.style={fill = black}, level 2/.style={fill = red}]
+\node {7}
+	child{}
 \end{tikzpicture}
 \end{document}
 ```
