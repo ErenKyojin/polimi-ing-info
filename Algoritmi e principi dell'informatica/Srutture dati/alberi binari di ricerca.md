@@ -81,3 +81,7 @@ TREE-SUCCESSOR(x)
 		y := y.p
 	return y
 ```
+
+Il tempo di esecuzione è $O(h)$
+
+SC
