@@ -70,8 +70,8 @@ Estremamente simile all'inserimento di prima ma con un [[algoritmo]] per mantene
 
 ```
 RB-INSERT(T, z)
-	y := T.nil
-	x := T.root
+	y := T.nil  // y padre del nodo considerato
+	x := T.root // nodo considerato
 	while x != T.nil
 		y := x
 		if z.key < x.key
@@ -87,4 +87,10 @@ RB-INSERT(T, z)
 	z.right := T.nil
 	z.color := RED //proviamo ad inserirlo rosso, nero sicuramente sbilancia
 	RB-INSERT-FIXUP(T, z)
+```
+
+Solito $O(h)$.
+
+```
+RB
 ```
