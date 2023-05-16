@@ -32,4 +32,4 @@ TREE-SEARCH(x, k)
 		return TREE-SEARCH(x.left, k)
 	else return TREE-SEARCH(x.right, k)
 ```
-Il tempo di esecuzione è $O(h)$ con $h$ l'altezza dell'albero, caso pessimo è chiave non presente o chiave su una foglia.
+Il tempo di esecuzione è $O(h)$ con $h$ l'altezza dell'albero, caso pessimo (se non consideriamo la forma dell'albero) è chiave non presente o chiave su una foglia.
