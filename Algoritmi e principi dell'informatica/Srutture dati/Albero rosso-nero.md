@@ -97,7 +97,7 @@ RB-INSERT-FIXUP(T, z)
 		T.root.color = BLACK
 ...
 ```
-
+3 casi piú 3 speculari2
 È invocato sempre su un nodo z tale che `z.color = RED`
 ### Caso 1, y rosso
 ```tikz
@@ -125,9 +125,11 @@ RB-DELETE(T,z)
 	x.p := y.p
 	if y.p = T.nil
 		T.root := x
-		elseif y = y.p.left
-			y.p.left := x
-		else y.p.right L= x
-		if y != x
-			z.key
+	elseif y = y.p.left
+		y.p.left := x
+	else y.p.right L= x
+	if y != x
+		z.key := y.key
+	if y.color = BLACK
+		RB-DELETE-FIXUP()
 ```
