@@ -103,10 +103,11 @@ RB-INSERT-FIXUP(T, z)
 ```tikz
 \begin{document}
 \begin{tikzpicture}[every node/.style={draw, fill opacity = .5}, level 1/.style={fill = black}, level 2/.style={fill = red}]
-\node {7}
+\node[black] {7}
 	child{node[fill = red]{5}
 	 child{node[fill = red]{3}}}
 	child{node[fill = red]{9}};
+\draw[-latex,ultra thick] (1,-1) -- ++ (2,0);
 \end{tikzpicture}
 \end{document}
 ```
