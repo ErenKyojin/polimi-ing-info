@@ -8,4 +8,7 @@ modification date: 2023-05-16 10:42
 > Un'albero binario è fatto di 3 elementi: un nodo radice, un albero binario (sottoalbero sinistro) ed un albero binario (sottoalbero destro).
 
 
-Si tratta ovviamente di una definizione ricorsiva, ed un sottoalbero può essere 
+Si tratta ovviamente di una definizione ricorsiva, ed un sottoalbero può essere vuoto (NIL).
+Possiamo associare ad ogni nodo dell'albero un oggetto con una chiave.
+
+puntatore al genitore, puntatore ai figli, chiave e oggetto.
