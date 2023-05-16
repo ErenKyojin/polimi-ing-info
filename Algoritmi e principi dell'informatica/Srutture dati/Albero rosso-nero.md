@@ -24,3 +24,14 @@ Ogni nodo di un albero RB ha 5 attributi:
 - Le foglie NIL sono tutte nere
 - I figli di un nodo rosso sono entrambi neri
 - Per ogni nodo $x$ tutti i cammini da $x$ alle foglie sue discendenti contengono lo stesso numero $bh(x)$ di nodi neri
+	- $bh(x)$ è l'**altezza nera** del nodo x
+	- Il nodo x non è contato in $bh(x)$ anche se nero.
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node {5}
+	child {3}
+\end{tikzpicture}
+\end{document}
+```
