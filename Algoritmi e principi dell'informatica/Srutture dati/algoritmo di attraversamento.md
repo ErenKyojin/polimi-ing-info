@@ -13,4 +13,5 @@ INORDER-TREE-WALK(x)
 	
 ```
 
-Se T è un [[alberi binari di ricerca|BST]], INORDER-TREE-WALK(T.root) stampata tutti gli elementi, la complessità è banale. Faccio un insieme costante di operazione per ogni nodo, quindi se $|T| = n$
+Se T è un [[alberi binari di ricerca|BST]], `INORDER-TREE-WALK(T.root)` stampata tutti gli elementi, la complessità è banale. Faccio un insieme costante di operazione per ogni nodo, quindi se $|T| = n$ allora $\Theta(t)=n$.
+
