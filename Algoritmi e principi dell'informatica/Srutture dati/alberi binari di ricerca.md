@@ -21,4 +21,8 @@ Per tutti i nodi $x$ del BST se $l$ è un nodo nel sottoalbero sinistro allora `
 > \end{document}
 > ```
 
-Per visitare un'albero si sfrutta un [[algoritmo di attraversamento]]
+Per visitare un'albero si sfrutta un [[algoritmo di attraversamento]], vediamo invece la ricerca
+
+## Ricerca
+```
+``
