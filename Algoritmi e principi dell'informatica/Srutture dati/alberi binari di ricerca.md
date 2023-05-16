@@ -69,7 +69,7 @@ Per trovare un successore:
 se esiste il sottoalbero destro
 	prende il minimo del sottoalb
 Altrimenti
-	sale fino a quando non sale da destra
+	salgo da right fino a quando non salgo da left
 
 ```
 TREE-SUCCESSOR(x)
