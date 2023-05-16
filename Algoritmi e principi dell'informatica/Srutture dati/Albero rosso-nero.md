@@ -119,5 +119,15 @@ RB-DELETE(T,z)
 	if z.left = T.nil or z.right = T.nil
 		y := z
 	else y := TREE-SUCCESSOR(z)
-	if y.left != 
+	if y.left != T.nil
+		x := y.left
+	else x := y.right
+	x.p := y.p
+	if y.p = T.nil
+		T.root := x
+		elseif y = y.p.left
+			y.p.left := x
+		else y.p.right L= x
+		if y != x
+			z.key
 ```
