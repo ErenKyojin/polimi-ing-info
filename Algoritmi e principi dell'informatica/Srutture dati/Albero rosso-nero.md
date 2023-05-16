@@ -45,7 +45,12 @@ level 3/.style={sibling distance = 1cm}
 	 child{node{NIL}}
 	 child{node{NIL}}}}
 	child {node {7}
-	 child};
+	 child {node{7}
+	  child{node{NIL}}
+	  child{node{NIL}}}
+	 child {node{8}
+	 child {node{NIL}}
+	 child {node{NIL}}}};
 \end{tikzpicture}
 \end{document}
 ```
