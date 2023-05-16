@@ -127,13 +127,14 @@ every node/.style={draw}
 	child {node{3}
 	 child {node{1}}
 	 child {node{4}}}
-	child {node[fill=yellow, fill opacity = 0.5]{7}
+	child (y) {node[fill=yellow, fill opacity = 0.5]{7}
 	 child {node {6}}
 	 child {node {12}
-	  child {node{8}
+	  child (x) {node{8}
 	   child {node{9}}}
 	  child {node {14}}}};
 \draw[-latex] (2,-2.5) --  ++ (2,0);
+\draw[-latex] (y) to (x);
 \end{tikzpicture}
 \begin{tikzpicture}[level 1/.style={sibling distance = 2cm},
 level 2/.style={sibling distance = 1cm},
