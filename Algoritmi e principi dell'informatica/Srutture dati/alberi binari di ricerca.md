@@ -133,7 +133,7 @@ every node/.style={draw}
 	  child  {node(x){8}
 	   child {node (xle){9}}}
 	  child {node {14}}}};
-\draw[-latex] (2,-2.5) --  ++ (2,0);
+\draw[-latex,ultra thick] (2,-2.5) --  ++ (2,0);
 \draw[-latex,thick, bend left=55] (x) to (y);
 \draw[-latex,thick, bend left=45] (xle) to (x);
 \end{tikzpicture}
