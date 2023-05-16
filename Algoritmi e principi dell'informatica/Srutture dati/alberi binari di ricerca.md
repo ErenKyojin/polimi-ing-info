@@ -131,10 +131,11 @@ every node/.style={draw}
 	 child {node {6}}
 	 child {node {12}
 	  child  {node(x){8}
-	   child {node{9}}}
+	   child {node (xle){9}}}
 	  child {node {14}}}};
 \draw[-latex] (2,-2.5) --  ++ (2,0);
 \draw[-latex,thick, bend left=45] (x) to (y);
+\draw[-latex,thick, bend left=45] (xle) to (x);
 \end{tikzpicture}
 \begin{tikzpicture}[level 1/.style={sibling distance = 2cm},
 level 2/.style={sibling distance = 1cm},
