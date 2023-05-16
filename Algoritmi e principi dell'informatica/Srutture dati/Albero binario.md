@@ -11,4 +11,5 @@ modification date: 2023-05-16 10:42
 Si tratta ovviamente di una definizione ricorsiva, ed un sottoalbero può essere vuoto (NIL).
 Possiamo associare ad ogni nodo dell'albero un oggetto con una chiave.
 
-puntatore al genitore, puntatore ai figli, chiave e oggetto.
+La struttura contiene puntatore al genitore, puntatore ai figli e la chiave per l'oggetto.
+
