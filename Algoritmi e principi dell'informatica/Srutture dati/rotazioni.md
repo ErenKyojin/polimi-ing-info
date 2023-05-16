@@ -34,5 +34,12 @@ LEFT-ROTATE(T,k)
 	
 	if y.left != T.nil
 		y.left.p := x
-	t
+	y.p := x.p
+	if x.p = T.nil
+		T.root := y
+	elsif x = x.p.left
+		x.p.left := y
+	else x.p.right := y
+	y.left := x
+	x.p 
 ```
