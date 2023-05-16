@@ -31,3 +31,4 @@ Se T è un [[alberi binari di ricerca|BST]], `INORDER-TREE-WALK(T.root)` stampat
 > 
 > Stampa in ordine 2, 3, 5, 5, 7, 8
 
+Algoritmi alternativi sono POSTORDER-TREE-WALK e PREORDER-TREE-WALK (dipende dove leggiamo la chiave, provare ad implementare).
