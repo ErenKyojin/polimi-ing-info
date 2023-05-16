@@ -132,7 +132,7 @@ every node/.style={draw}
 	 child {node {12}
 	  child {node{9}}
 	  child {node {14}}}};
-\draw ()
+\draw[-latex] (2,-2.5) --  ++ (2,0);
 \end{tikzpicture}
 \begin{tikzpicture}[level 1/.style={sibling distance = 2cm},
 level 2/.style={sibling distance = 1cm},
