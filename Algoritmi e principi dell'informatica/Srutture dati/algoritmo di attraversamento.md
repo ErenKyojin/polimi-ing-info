@@ -10,4 +10,5 @@ INORDER-TREE-WALK(x)
 	 INORDER-TREE-WALK(x.left)
 	 print x.key //riga a caso
 	 INORDER-TREE-WALK(x.right)
+	 
 ```
