@@ -1,5 +1,5 @@
 ---
-aliases: Binary search trees
+aliases: Binary search trees, BST
 creation date: 2023-05-16 10:46
 modification date: 2023-05-16 10:46
 ---

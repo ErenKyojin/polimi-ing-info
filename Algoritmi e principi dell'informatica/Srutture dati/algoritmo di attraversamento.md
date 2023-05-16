@@ -10,5 +10,7 @@ INORDER-TREE-WALK(x)
 	 INORDER-TREE-WALK(x.left)
 	 print x.key //riga a caso
 	 INORDER-TREE-WALK(x.right)
-	 
+	
 ```
+
+Se T è un [[alberi binari di ricerca|BST]], INORDER-TREE-WALK(T.root) stampata tutti gli elementi, la complessi
