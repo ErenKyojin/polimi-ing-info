@@ -176,4 +176,4 @@ TREE-DELETE(T, z)
 	return y
 ```
 
-y nodo da eliminare e x quello con cui sostituiamo, stessa complessità di TREE-SUCCESSOR, il resto è costante, quindi $O(h)$.
+y nodo da eliminare e x quello con cui sostituiamo, stessa complessità di TREE-SUCCESSOR, il resto è costante, quindi $O(h)$. Ancora una volta un albero bilanciato 
