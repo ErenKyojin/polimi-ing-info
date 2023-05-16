@@ -63,4 +63,4 @@ Proviamo sempre a inserire un nodo rosso.
 	- Almeno metà dei nodi della radice $x$ ad una foglia sono neri, quindi $bh(x) \geq h / 2$ e da cui discende che $h \leq 2 \log_{2}(n+1)$
 Come conseguenza di questa proprietà tutte le [[funzioni]] (eccetto insert e delete) dei [[alberi binari di ricerca|BST]] sono valide ma hanno un efficienza migliore rispetto ad un BST.
 
-Per im
+Per implementare invece insert e delete introduciame le [[rotazioni]]
