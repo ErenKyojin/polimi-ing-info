@@ -127,8 +127,9 @@ level 2/.style={sibling distance = 1cm}
 	 child {node{1}}
 	 child {node{4}}}
 	child {node{7}
-	 child {node 6}
-	 child {}};
+	 child {node {6}}
+	 child {node {12}
+	  child {node}};
 \end{tikzpicture}
 \end{document}
 ```
