@@ -98,5 +98,12 @@ RB-INSERT-FIXUP(T, z)
 ...
 ```
 
-
-###
+È invocato sempre su un nodo z tale che `z.color = RED`
+### Caso 1, y rosso
+```tikz
+\begin{document}
+\begin{tikzpicture}[every node/.style={}]
+\node
+\end{tikzpicture}
+\end{document}
+```
