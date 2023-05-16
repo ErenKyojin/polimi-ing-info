@@ -119,12 +119,16 @@ Quando cancelliamo un oggetto $z$ da un albero abbiamo tre possibili casi:
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}[level 1/.style={sibling distance = 2cm}]
+\begin{tikzpicture}[level 1/.style={sibling distance = 2cm},
+level 2/.style={sibling distance = 1cm}
+]
 \node (p) {5}
 	child {node{3}
 	 child {node{1}}
 	 child {node{4}}}
-	child {node{7}};
+	child {node{7}
+	 child {node 6}
+	 child {}};
 \end{tikzpicture}
 \end{document}
 ```
