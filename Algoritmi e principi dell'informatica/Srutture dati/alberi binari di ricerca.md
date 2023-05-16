@@ -149,5 +149,8 @@ TREE-DELETE(T, z)
 	elsif y = y.p.left
 		y.p.left := x
 	else y.p.right := x
-	
+	if y != z
+		z.key := y.key
+	return y
 ```
+
