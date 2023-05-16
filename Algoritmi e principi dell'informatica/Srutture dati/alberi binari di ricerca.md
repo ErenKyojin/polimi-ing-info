@@ -27,9 +27,9 @@ Per visitare un'albero si sfrutta un [[algoritmo di attraversamento]], vediamo i
 ```
 TREE-SEARCH(x, k)
 	if x = NIL or k = x.key
-		return x
+		return x //ritorniamo il nodo, piú flessibile, ad esempio per cancellaz
 	if x < x.key
 		return TREE-SEARCH(x.left, k)
 	else return TREE-SEARCH(x.right, k)
 ```
-Il tempo di ese
+Il tempo di esecuzione è $O(h)$ con $h$ l'altezza dell'albero
