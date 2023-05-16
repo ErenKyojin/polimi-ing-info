@@ -84,4 +84,4 @@ TREE-SUCCESSOR(x)
 
 Il tempo di esecuzione è $O(h)$
 
-SC
+Per esericizio scrivere TREE-PREDECESSOR con complessità
