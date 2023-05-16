@@ -176,4 +176,5 @@ TREE-DELETE(T, z)
 	return y
 ```
 
-y nodo da eliminare e x quello con cui sostituiamo, stessa complessità di TREE-SUCCESSOR, il resto è costante, quindi $O(h)$. Ancora una volta un albero bilanciato 
+y nodo da eliminare e x quello con cui sostituiamo, stessa complessità di TREE-SUCCESSOR, il resto è costante, quindi $O(h)$. Ancora una volta un albero bilanciato sarebbe migliore, cosa facciamo quindi? Utilizzamo tempo per bilanciarlo? E soprattutto com'è un albero bilanciato?
+Sicuramente un albero completo o quasi-completo è bilanciato, introduciamo una nuova
