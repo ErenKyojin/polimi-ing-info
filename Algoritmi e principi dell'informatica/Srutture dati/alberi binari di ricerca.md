@@ -25,4 +25,11 @@ Per visitare un'albero si sfrutta un [[algoritmo di attraversamento]], vediamo i
 
 ## Ricerca
 ```
-``
+TREE-SEARCH(x, k)
+	if x = NIL or k = x.key
+		return x
+	if x < x.key
+		return TREE-SEARCH(x.left, k)
+	else return TREE-SEARCH(x.right, k)
+```
+Il tempo di ese
