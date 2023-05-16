@@ -37,5 +37,17 @@ TREE-SEARCH(x, k)
  Per trovare il minimo si va sempre a sinistra, ma non è necessariamente una foglia (può avere un elemento maggiore, ossia un figlio destro), lo stesso vale per il massimo.
 
 ```
+TREE-MINIMUM
+	while x.left != NIL
+		x := x.left
+	return x
+```
 
 ```
+TREE-MAXIMUM
+	while x.right != NIL
+		x := x.right
+	return x
+```
+
+Entrambi gli alg
