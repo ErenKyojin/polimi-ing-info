@@ -13,3 +13,9 @@ Possiamo associare ad ogni nodo dell'albero un oggetto con una chiave.
 
 La struttura contiene puntatore al genitore, puntatore ai figli e la chiave per l'oggetto.
 
+- **key** chiave per il nodo
+- $p$ parent
+- **left** left child
+- **right** right child
+
+Per sfu
