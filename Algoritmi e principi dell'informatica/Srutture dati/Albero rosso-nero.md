@@ -31,8 +31,16 @@ Ogni nodo di un albero RB ha 5 attributi:
 ```tikz
 \begin{document}
 \begin{tikzpicture}
+[
+level 1/.style={sibling distance = 2cm}
+
+]
 \node {5}
-	child {node {3}}
+	child {node {3}
+	 child{node {2}
+	  child{node{NIL}}
+	  child{node{NIL}}}
+	 child{node {5}}}
 	child {node {7}};
 \end{tikzpicture}
 \end{document}
