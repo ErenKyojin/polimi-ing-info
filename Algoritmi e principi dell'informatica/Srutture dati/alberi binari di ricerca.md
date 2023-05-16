@@ -106,4 +106,4 @@ TREE-INSERT(T, z) //z nodo già preparato
 
 ```
 
-Tempo di esecuzione $O(h)$
+Tempo di esecuzione $O(h)$, il while richiede al massimo tante ripetizioni quanta è l'altezza dell'abero, ed il resto è in tempo costante.
