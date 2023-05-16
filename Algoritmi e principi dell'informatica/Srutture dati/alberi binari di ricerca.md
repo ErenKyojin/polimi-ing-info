@@ -139,9 +139,15 @@ TREE-DELETE(T, z)
 	if z.left = NIL or z.right = NIL //ha figli?
 		y := z
 	else y := TREE-SUCCESSOR(z)
-	if y.left != NIL //Ha al più un figlio
+	if y.left != NIL //Qui siamo sicura che ha al più un figlio
 		x := y.left 
 	else x := y.right
 	if x != NIL
 		x.p := y.p
+	if y.p = NIL
+		T.root := x
+	elsif y = y.p.left
+		y.p.left := x
+	else y.p.right := x
+	
 ```
