@@ -34,12 +34,12 @@ LEFT-ROTATE(T,k)
 	
 	if y.left != T.nil
 		y.left.p := x
-	y.p := x.p
+	y.p := x.p             //attacca il padre di x ad y
 	if x.p = T.nil
 		T.root := y
 	elsif x = x.p.left
 		x.p.left := y
 	else x.p.right := y
-	y.left := x
-	x.p 
+	y.left := x            //x a sinistra di y
+	x.p := y
 ```
