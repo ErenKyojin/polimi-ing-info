@@ -4,7 +4,7 @@ creation date: 2023-05-16 12:03
 modification date: 2023-05-16 12:03
 ---
 
-Gli alberi rosso-neri (RB) sono BST abbastanza bilanciati, cioè l'altezza dell'albero $h = O(\log(n))$ ed è possibile realizzare tute le operazioni più importanti in tempo $O(\log(n))$.
+Gli [[alberi]] rosso-neri (RB) sono BST abbastanza bilanciati, cioè l'altezza dell'albero $h = O(\log(n))$ ed è possibile realizzare tute le operazioni più importanti in tempo $O(\log(n))$.
 Negli alberi RB non is ha mai che un ramo dell'albero sia lungo più del doppio di un altro ramo. L'idea alla baste degli alberi RB: ogni nodo ha un colore, o rosso o nero, ed i colori sono distruibuiti affinchè l'albero non sia lungo più del doppio di un altro.
 
 
@@ -61,4 +61,6 @@ Proviamo sempre a inserire un nodo rosso.
 - Un albero rosso-nero con $n$ nodi interni (n nodi con chiavi, per laconvenzione usata) ha altezza $h \leq 2\log_{2}(n+1)$ 
 	- Il numero di nodi interni di un sottoalbero con radice $x$ è  $\geq 2^{bh(x)}-1$, si dimostra per induzione sull'altezza di $x$
 	- Almeno metà dei nodi della radice $x$ ad una foglia sono neri, quindi $bh(x) \geq h / 2$ e da cui discende che $h \leq 2 \log_{2}(n+1)$
-Come conseguenza di questa propr
+Come conseguenza di questa proprietà tutte le [[funzioni]] (eccetto insert e delete) dei [[alberi binari di ricerca|BST]] sono valide ma hanno un efficienza migliore rispetto ad un BST.
+
+Per im
