@@ -187,9 +187,13 @@ level 2/.style={sibling distance = 1.5cm}
 	child{node (X) [fill = red, fill opacity = 0.5, draw]{3} 
 	 child{node {$\alpha$}}
 	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{5}
-	  child{}}
+	  child{node{$\beta$}}
+	  child{node{$\gamma$}}}
 	 }
-	child{node (Y)[draw]{9}};
+	child{node (Y)[draw]{9}
+	 child{node{$\delta$}}
+	 child{node{$\varepsilon$}}};
+	 
 \node[left = 2.5mm] at (X) {x};
 \node[left = 2.5mm] at (Z) {z};
 \node[right = 2.5mm] at (Y){y};
