@@ -536,3 +536,7 @@ level 3/.style = {sibling distance = .75cm},
 
 \end{document}
 ```
+
+Se arriviamo al caso 2 dal caso 1, allora x.p è rosso e quando RB-DELETE-FIUP viene invocato su di esso termina subito
+
+### Caso 3, x è nero, suo fratello destro w è nero con figlio sinistro rosso e figlio destro nero
