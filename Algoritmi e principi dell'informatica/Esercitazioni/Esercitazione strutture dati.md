@@ -241,9 +241,9 @@ level 2/.style={sibling distance = 1cm}
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}[every node/.style={scale = 1.25,draw}, node distance = 50mm]
-\node (1){10};
-\node[left =  of (1)]  {5};
+\begin{tikzpicture}[every node/.style={scale = 1.25,draw}, node distance = 5mm]
+\node(a) at (0,0)  {10};
+\node[left of = a]  {5};
 
 \end{tikzpicture}
 \end{document}
