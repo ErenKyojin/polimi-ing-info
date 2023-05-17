@@ -455,8 +455,12 @@ level 3/.style = {sibling distance = .75cm},
 ]
 \node[draw] {7}
 	child{node (X) [draw, fill = red, fill opacity = .5]{3}
-	 child{node{$\alpha$}}
-	 child{node{$\beta$}}
+	 child{node[draw]{1}}
+	 child{node{}}
+	 }
+	child{node{9}
+	 child{node{$\varepsilon$}}
+	 child{node{$\xi$}}
 	 };
 \node[left=5mm] at (X){x};
 \node[right=5mm] at (W){w};
