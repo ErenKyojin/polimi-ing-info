@@ -226,7 +226,32 @@ level 2/.style={sibling distance = 1.5cm}
 Siamo a questo punto nel caso 3
 
 ### Caso 3, y nero e z figlio sinistro di x
-
+```tikz
+\begin{document}
+\begin{tikzpicture}
+[
+level 1/.style={sibling distance = 2.5cm},
+level 2/.style={sibling distance = 1.5cm}
+]
+\node[draw] (R) {7}
+	child{node (X) [fill = red, fill opacity = 0.5, draw]{5} 
+	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{3}
+	  child{node{$\alpha$}}
+	  child{node{$\beta$}}}
+	 child{node {$\gamma$}}
+	 }
+	child{node (Y)[draw]{9}
+	 child{node{$\delta$}}
+	 child{node{$\varepsilon$}}};
+	 
+\node[left = 2.5mm] at (X) {x};
+\node[left = 2.5mm] at (Z) {z};
+\node[right = 2.5mm] at (Y){y};
+\node[left = 2.5mm] at (R){x.p};
+\draw[-latex, ultra thick] (2,-2) -- ++ (2,0);
+\end{tikzpicture}
+\end{document}
+```
 
 ## Cancellazione
 
