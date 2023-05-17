@@ -415,20 +415,43 @@ level 3/.style = {sibling distance = .5cm}
 
 ]
 
+\node (9) {9}
+	child{node(5){5}
+	 child{node (3){3}}
+	 child{node (9){9}}
+	 }
+	child{node(2){2}
+	 child{node (1){1}}
+	 child{node (4){4}}
+	}
+	;
+
+\path[-latex,thick]
+	(4) edge[bend right] (2);
+\draw[-latex,ultra thick] (1,-1.5) -- ++ (1,0);
+
+\end{tikzpicture}
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style = {sibling distance = 1.5cm},
+level 2/.style = {sibling distance = .75cm},
+level 3/.style = {sibling distance = .5cm}
+
+]
+
 \node (7) {7}
 	child{node(5){5}
 	 child{node (3){3}}
 	 child{node (9){9}}
 	 }
-	child{node(4){4}
+	child{node(2){2}
 	 child{node (1){1}}
-	 child{node (2){2}}
+	 child{node (4){4}}
 	}
 	;
 
-\path[-latex,thick]
-	(9) edge[bend right] (5)
-	(5) edge[bend right] (7);
+
 \draw[-latex,ultra thick] (1,-1.5) -- ++ (1,0);
 
 \end{tikzpicture}
