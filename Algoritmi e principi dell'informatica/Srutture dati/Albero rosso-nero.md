@@ -393,11 +393,21 @@ RB-DELETE-FIXUP(T, x)
 ```tikz
 \begin{document}
 \begin{tikzpicture}
+[
+level 1/.style = {si}
+
+]
 \node {3}
 	child{node{1}}
 	child{node{7}
-	 child{node{5}}
-	 child{node{9}}
+	 child{node{5}
+	  child{node{$\gamma$}}
+	  child{node{$\delta$}}
+	  }
+	 child{node{9}
+	  child{node{$\varepsilon$}}
+	  child{node{$\xi$}}
+	  }
 	 };
 \end{tikzpicture}
 \end{document}
