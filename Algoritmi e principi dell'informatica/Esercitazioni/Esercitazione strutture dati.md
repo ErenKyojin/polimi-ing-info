@@ -682,7 +682,7 @@ node distance = 5mm,
 \node[on chain = 1,draw] (10) {};
 
 \foreach \x in {0,...,10}
-	\node[above] (\x) {\x};
+	\node[above = 5mm] at (\x) {\x};
 \end{tikzpicture}
 \end{document}
 ```
