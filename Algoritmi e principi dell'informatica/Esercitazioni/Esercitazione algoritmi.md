@@ -127,3 +127,7 @@ level 2/.style={sibling distance = 1cm}
 \end{document}
 ```
 Non c'è ordinamento tra i figli
+
+Proprietà:
+- chiave massima sempre in cima
+- altezza $\approx$ $\log_{2}(n)$
