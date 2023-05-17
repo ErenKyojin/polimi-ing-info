@@ -766,3 +766,5 @@ Sono distribuiti nel modo piú bilanciato possibile.
 \end{document}
 ```
 
+## hash con lista
+Ogni has contiene  
