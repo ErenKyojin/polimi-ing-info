@@ -114,14 +114,13 @@ RB-INSERT-FIXUP(T, z)
 		else (Come a partire da (1) invertendo 'right' e 'left')
 			...
 ```
-3 casi piú 3 speculari2
-È invocato sempre su un nodo z tale che `z.color = RED`
+È invocato sempre su un nodo z tale che `z.color = RED`, ed ha 3 casi piú 3 speculari.
 ### Caso 1, y rosso
 ```tikz
 \begin{document}
 \begin{tikzpicture}[every node/.style={draw, fill opacity = .5}, level 1/.style={fill = black}, level 2/.style={fill = red}]
 \node[black] {7}
-	child{node[fill = red]{5}
+	child{node[fill = red]{5} node[left]{x.p}
 	 child{node[fill = red]{3}}}
 	child{node[fill = red]{9}};
 \draw[-latex,ultra thick] (1,-1) -- ++ (2,0);
