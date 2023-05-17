@@ -61,5 +61,6 @@ $a, b = 2, k = 2, h = 2$
 $\log_{b}(a) = \log_{2}(a)$:
 
 $$ T(n) = \begin{cases}
-&se\ \log_{2}(a) > 2
+\Theta(n^{\log_{2}(a)})&se\ \log_{2}(a) > 2 \iff a > 4 \\
+&se\ a=4 
 \end{cases} $$
