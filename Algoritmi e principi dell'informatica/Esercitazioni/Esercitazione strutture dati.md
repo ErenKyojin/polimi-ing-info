@@ -243,7 +243,11 @@ level 2/.style={sibling distance = 1cm}
 \begin{document}
 \begin{tikzpicture}[every node/.style={scale = 1.25,draw}, node distance = 5mm]
 \node(a) at (0,0)  {10};
-\node[left of = a]  {5};
+\node[right of = a] (b)  {5};
+\node[right of = b] (c) {2};
+\node[right of = c] (d) {3};
+\node[right of = d] (e) {4};
+\node[above ]
 
 \end{tikzpicture}
 \end{document}
