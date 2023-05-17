@@ -100,7 +100,11 @@ RB-INSERT-FIXUP(T, z)
 			if x = x.p.left //x è figlio sinistro 
 				y := x.p.right
 				if y.color = RED
-				
+					x.color := BLACK       //CASO 1
+					y.color := BLACK       //CASO 1
+					x.p.color := RED       //CASO 1
+					RB-INSERT-FIXUP(T,x.p) //CASO 1
+				else if z = x.rig
 ...
 ```
 3 casi piú 3 speculari2
