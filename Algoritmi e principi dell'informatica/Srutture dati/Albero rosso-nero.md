@@ -97,7 +97,10 @@ RB-INSERT-FIXUP(T, z)
 		T.root.color = BLACK
 	else x := z.p         //Quindi x è il padre di z
 		if x.color = RED 
-			if x = x.p.left //x è figl
+			if x = x.p.left //x è figlio sinistro 
+				y := x.p.right
+				if y.color = RED
+				
 ...
 ```
 3 casi piú 3 speculari2
