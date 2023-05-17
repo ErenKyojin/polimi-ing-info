@@ -347,9 +347,9 @@ level 3/.style = {sibling distance = .5cm}
 
 ]
 
-\node (5) {5}
-	child{node(3){3}
-	 child{node (7){7}}
+\node (7) {7}
+	child{node(5){5}
+	 child{node (3){3}}
 	 child[missing]
 	 }
 	child{node{2}}
@@ -360,4 +360,26 @@ level 3/.style = {sibling distance = .5cm}
 \end{document}
 ```
 
+```tikz
+\begin{document}
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style = {sibling distance = 1.5cm},
+level 2/.style = {sibling distance = .75cm},
+level 3/.style = {sibling distance = .5cm}
+
+]
+
+\node (7) {7}
+	child{node(5){5}
+	 child{node (3){3}}
+	 child[missing]
+	 }
+	child{node{2}}
+	;
+\draw[-latex,ultra thick] (1,-1.5) -- ++ (1,0);
+\end{tikzpicture}
+\end{document}
+```
 
