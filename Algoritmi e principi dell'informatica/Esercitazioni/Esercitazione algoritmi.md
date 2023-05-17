@@ -20,4 +20,4 @@ $\exists c < 1, \exists n_{0} \in \mathbb{N} t.c. \forall n \geq n_{o}$
 $$af\left( \frac{n}{b} \right) \leq c f(n)$$
 
 $\forall h,k \geq 0$
-$$n^k\log^h(n) \text{ è}$$
+$$n^k\log^h(n) \text{ è regolare}$$
