@@ -672,7 +672,7 @@ level 3/.style = {sibling distance = .75cm},
 	 child{node{$\beta$}}
 	 }
 	child{node (W) [draw, fill = red, fill opacity = .5]{7}
-	 child{node[draw, fill = red, fill opacity = .5]{5}
+	 child{node[draw, fill = purple, fill opacity = .5]{5}
 	  child{node{$\gamma$}}
 	  child{node{$\delta$}}
 	  }
@@ -684,6 +684,21 @@ level 3/.style = {sibling distance = .75cm},
 \node[left=5mm] at (X){x};
 \node[right=5mm] at (W){w};
 \draw[-latex,ultra thick] (2,-1) -- ++ (1,0);
+\end{tikzpicture}
+
+\begin{tikzpicture}
+[
+level 1/.style = {sibling distance = 1.5 cm},
+level 2/.style = {sibling distance = 1cm},
+level 3/.style = {sibling distance = .75cm},
+
+]
+\node[draw,fill = red, fill opacity = .5] {7}
+	child{node{3}
+	 child{node{1}}
+	 child{node[{5}}
+	 }
+	child{node{9}}
 \end{tikzpicture}
 
 \end{document}
