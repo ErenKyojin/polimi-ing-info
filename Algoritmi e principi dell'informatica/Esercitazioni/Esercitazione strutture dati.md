@@ -665,7 +665,7 @@ e $h(x) = x \mod 11$
 \begin{tikzpicture}
 [
 start chain = 1 going right,
-start chain = 2 going right
+start chain = 2 going right,
 node distance = 5mm
 ]
 \node[on chain = 1] {0};
@@ -679,6 +679,18 @@ node distance = 5mm
 \node[on chain = 1] {8};
 \node[on chain = 1] {9};
 \node[on chain = 1] {10};
+
+\node[on chain = 2] at(0,-0.5) {0};
+\node[on chain = 2] {1};
+\node[on chain = 2] {2};
+\node[on chain = 2] {3};
+\node[on chain = 2] {4};
+\node[on chain = 2] {5};
+\node[on chain = 2] {6};
+\node[on chain = 2] {7};
+\node[on chain = 2] {8};
+\node[on chain = 2] {9};
+\node[on chain = 2] {10};
 
 \end{tikzpicture}
 \end{document}
