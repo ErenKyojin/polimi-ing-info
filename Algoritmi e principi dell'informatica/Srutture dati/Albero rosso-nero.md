@@ -399,14 +399,17 @@ level 2/.style = {sibling distance = 1cm},
 level 3/.style = {sibling distance = .75cm},
 
 ]
-\node {3}
-	child{node[draw]{1}}
-	child{node{7}
-	 child{node{5}
+\node[draw] {3}
+	child{node[draw]{1}
+	 child{node{$\alpha$}}
+	 child{node{$\beta$}}
+	 }
+	child{node[draw, fill = red, fill opacity = .5]{7}
+	 child{node[draw]{5}
 	  child{node{$\gamma$}}
 	  child{node{$\delta$}}
 	  }
-	 child{node{9}
+	 child{node[draw]{9}
 	  child{node{$\varepsilon$}}
 	  child{node{$\xi$}}
 	  }
