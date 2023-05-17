@@ -80,13 +80,23 @@ Se $a < 4 : T(n) \neq \Omega(n^2\log^3(n))$
 Strutture ad albero quasi pieno
 ```tikz
 \begin{document}
-\begin{tikzpicture}[every node/.style={draw}]
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style={sibling ditance = 1.5cm,
+level 2/.
+}
+
+]
 \node {}
 	child {node{}
-	 
-	 
+	 child{node{}}
+	 child{node{}}
 	 }
-	child {node{}}
+	child {node{}
+	 child{node{}}
+	 child{node{}}
+	};
 \end{tikzpicture}
 \end{document}
 ```
