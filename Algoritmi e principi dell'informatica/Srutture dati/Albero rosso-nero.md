@@ -540,3 +540,67 @@ level 3/.style = {sibling distance = .75cm},
 Se arriviamo al caso 2 dal caso 1, allora x.p è rosso e quando RB-DELETE-FIUP viene invocato su di esso termina subito
 
 ### Caso 3, x è nero, suo fratello destro w è nero con figlio sinistro rosso e figlio destro nero
+
+```tikz
+\begin{document}
+
+\begin{tikzpicture}
+[
+level 1/.style = {sibling distance = 1.5 cm},
+level 2/.style = {sibling distance = 1cm},
+level 3/.style = {sibling distance = .75cm},
+
+]
+\node[draw,fill = red, fill opacity = .5] {3}
+	child{node (X) [draw]{1}
+	 child{node{$\alpha$}}
+	 child{node{$\beta$}}
+	 }
+	child{node (W) [draw]{7}
+	 child{node[draw, fill = red, fill opacity = .5]{5}
+	  child{node{$\gamma$}}
+	  child{node{$\delta$}}
+	  }
+	 child{node[draw]{9}
+	  child{node{$\varepsilon$}}
+	  child{node{$\xi$}}
+	  }
+	 };
+\node[left=5mm] at (X){x};
+\node[right=5mm] at (W){w};
+\draw[-latex,ultra thick] (2,-1) -- ++ (1,0);
+\end{tikzpicture}
+
+\begin{tikzpicture}
+[
+level 1/.style = {sibling distance = 1.5 cm},
+level 2/.style = {sibling distance = 1cm},
+level 3/.style = {sibling distance = .75cm},
+
+]
+\node[draw,fill = red, fill opacity = .5] {3}
+	child{node (X) [draw]{1}
+	 child{node{$\alpha$}}
+	 child{node{$\beta$}}
+	 }
+	child{node (W) [draw, fill = red, fill opacity = .5]{7}
+	 child{node[draw]{5}
+	  child{node{$\gamma$}}
+	  child{node{$\delta$}}
+	  }
+	 child{node[draw]{9}
+	  child{node{$\varepsilon$}}
+	  child{node{$\xi$}}
+	  }
+	 };
+\node[left=5mm] at (X){x};
+\node[right=5mm] at (W){w};
+\draw[-latex,ultra thick] (2,-1) -- ++ (1,0);
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\dra
+\end{tikzpicture}
+
+\end{document}
+```
