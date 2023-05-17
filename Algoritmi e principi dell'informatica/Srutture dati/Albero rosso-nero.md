@@ -334,6 +334,9 @@ RB-DELETE-FIXUP(T, x)
 	elseif x = x.p.left                     //x è figlio sinistro
 		w := x.p.right                      //w è fratello di x
 		if w.color = RED
-			w.colo := BLACK                 //Caso 1
+			w.color := BLACK                 //Caso 1
+			x.p.color := BLACK               //Caso 1
+			LEFT-ROTATE(T, x.p)              //Caso 1
+			w := x.p.right                   //Caso 1
 			
 ```
