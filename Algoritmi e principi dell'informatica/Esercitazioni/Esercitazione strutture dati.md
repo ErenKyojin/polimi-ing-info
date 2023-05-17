@@ -265,4 +265,20 @@ level 2/.style={sibling distance = 1cm}
 \end{document}
 ```
 
-## Date le chiavi
+## 1
+Date le chiavi 3, 5, 2, 7, 9, 1, 4, 6, 8, 10
+```tikz
+\begin{document}
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style = {draw}
+
+
+]
+
+\node {3}
+
+\end{tikzpicture}
+\end{document}
+```
