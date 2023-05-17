@@ -335,7 +335,26 @@ level 3/.style = {sibling distance = .5cm}
 	;
 \draw[-latex] (7) to[bend left] (3);
 \draw[-latex] (3) to[bend left] (5);
+\draw[-latex,ultra thick] (1,-1.5) -- ++ (1,0);
+\end{tikzpicture}
 
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style = {sibling distance = 1.5cm},
+level 2/.style = {sibling distance = .75cm},
+level 3/.style = {sibling distance = .5cm}
+
+]
+
+\node (5) {5}
+	child{node(3){3}
+	 child{node (7){7}}
+	 child[missing]
+	 }
+	child{node{2}}
+	;
+\draw[-latex,ultra thick] (1,-1.5) -- ++ (1,0);
 \end{tikzpicture}
 
 \end{document}
