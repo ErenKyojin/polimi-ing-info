@@ -657,4 +657,13 @@ Fattore di carico = percentuale di tabella occupata in ogni momenti, se ci metto
 
 ## 1.
 Tabella con $m=11$ slot (celle) e chiavi $\{ 35, 83, 57, 26, 15, 63, 97, 46 \}$
-e $h(x) = x ||$
+e $h(x) = x \mod 11$
+
+```tikz
+\usetikzlibrary{chains}
+\begin{document}
+\begin{tikzpicture}
+
+\end{tikzpicture}
+\end{document}
+```
