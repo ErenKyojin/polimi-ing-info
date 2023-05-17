@@ -24,4 +24,6 @@ $$ L(s) = R(s)P(s) = k \frac{1 + s}{s} \frac{e^{-0.15}}{1 + s} =k \frac{e^{-0.1s
 \end{document}
 ```
 $\angle^o (j \omega) = -90^o - 0,1 \omega_{c} \frac{180^o}{\pi}$
-$\implies \varphi_{c} = $
+$\implies \varphi_{c} = \angle^o L(j \omega_{c}) = \angle^o L(jk) = -90^o - 0,1k \frac{180^o}{\pi}$
+Voglio $\varphi_{m} = 45^o$ cioè $\varphi_{c} = 135^o$
+m
