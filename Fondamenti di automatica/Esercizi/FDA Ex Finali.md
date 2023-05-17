@@ -40,6 +40,10 @@ $|L(j\omega_{N})|_{\dB} < -40$
 \draw[red] (-2.5,1) -- (2.5,-1);
 \node[above] at (0,0){7,85};
 \draw[blue] (-3,-1) node[left]{-40} -- (3,-1);
+\draw[-latex, blue] (2.5,-1) -- ++ (0,1) node[above]{$\omega_N$ = 785};
 \end{tikzpicture}
 \end{document}
 ```
+
+$\omega_{s} = 2 \cdot 785$
+$2$
