@@ -341,5 +341,11 @@ RB-DELETE-FIXUP(T, x)
 		if w.left.color = BLACK and w.right.color = BLACK
 			w.color := RED                   //Caso 2
 			RB-DELETE-FIXUP(T, x.p)          //Caso 2
-		else
+		elseif w.right.color = BLACK
+			w.left.color := BLACK            //Caso 3
+			w.color := RED                   //Caso 3
+			ROTATE-RIGHT(T, w)               //Caso 3
+			w := x.p.right                   //Caso 3
+		w.color := x.p.color
+		w
 ```
