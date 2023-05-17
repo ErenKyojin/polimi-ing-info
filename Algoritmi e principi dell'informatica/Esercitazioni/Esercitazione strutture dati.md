@@ -607,8 +607,38 @@ level 3/.style = {sibling distance = .75cm}
 \path[-latex,thick] 
 	(10) edge[bend right] (5)
 	(5) edge[bend right] (8)
-	(8)
+	(8) edge[bend left] (9)
 	;
+\end{tikzpicture}
+
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style = {sibling distance = 2.5cm},
+level 2/.style = {sibling distance = 1.5cm},
+level 3/.style = {sibling distance = .75cm}
+
+]
+
+\node (10) {10}
+	child{node(9){9}
+	 child{node (7){7}
+	  child{node(3){3}}
+	  child{node(6){6}}
+	  }
+	 child{node (5){5}
+	  child{node (10){10}}
+	  child[missing]
+	  }
+	 }
+	child{node(4){4}
+	 child{node (1){1}}
+	 child{node (2){2}}
+	}
+	;
+
+
+\draw[-latex,ultra thick] (2,-1.5) -- ++ (1,0);
 \end{tikzpicture}
 \end{document}
 ```
