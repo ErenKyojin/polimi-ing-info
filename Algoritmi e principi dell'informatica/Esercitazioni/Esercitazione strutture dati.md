@@ -647,4 +647,4 @@ in estrazione 10, 9, 8, 7, 6, 5, 4, 3, 2 , 1
 Questo è un [[Heapsort]] "a mano"
 
 # Tabelle hash
-Hash signi
+To hash signfica sminuzzare/tritare, vogliamo sminuzzare i dati per trarne qualche tipo di "essenza"
