@@ -400,7 +400,7 @@ level 3/.style = {sibling distance = .75cm},
 
 ]
 \node[draw] {3}
-	child{node[draw]{1}
+	child{node(x)[draw]{1}
 	 child{node{$\alpha$}}
 	 child{node{$\beta$}}
 	 }
@@ -414,6 +414,9 @@ level 3/.style = {sibling distance = .75cm},
 	  child{node{$\xi$}}
 	  }
 	 };
+\draw[-latex,ultra thick] (2,-1) -- ++ (1,0);
 \end{tikzpicture}
+
+
 \end{document}
 ```
