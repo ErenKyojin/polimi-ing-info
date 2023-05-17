@@ -736,3 +736,32 @@ $$h_{1}(x)=(x \mod 10) + 1$$
 15 occupato, poi occupato, poi trova il posto
 63, 57 diretti.
 46 non va direttamente dove è andato il 57, va avanti di 7 (o indietro di 4)
+
+$h_{1}(57)=8$
+$h_{1}(15)=6$
+$h_{1}(46)=7$
+
+Sono distribuiti nel modo piú bilanciato possibile.
+
+```tikz
+\usetikzlibrary{chains}
+\begin{document}
+\begin{tikzpicture}[start chain = 1 going right, node distance = 5mm]
+
+\node[on chain = 1,draw] (0) at(0,-0.5) {46};
+\node[on chain = 1,draw] (1) {};
+\node[on chain = 1,draw] (2) {35};
+\node[on chain = 1,draw] (3) {57};
+\node[on chain = 1,draw] (4) {26};
+\node[on chain = 1,draw] (5) {15};
+\node[on chain = 1,draw] (6) {83};
+\node[on chain = 1,draw] (7) {};
+\node[on chain = 1,draw] (8) {63};
+\node[on chain = 1,draw] (9) {97};
+\node[on chain = 1,draw] (10) {};
+
+\foreach \x in {0,...,10}
+	\node[above = 5mm] at (\x) {\x};
+\end{tikzpicture}
+\end{document}
+```
