@@ -654,3 +654,7 @@ To hash signfica sminuzzare/tritare, vogliamo sminuzzare i dati per trarne qualc
 
 Costruiamo un array con elementi teste di liste che indicano elementi puntati dalla stessa hash.
 Fattore di carico = percentuale di tabella occupata in ogni momenti, se ci metto le chiavi è 1. Se ci metto delle liste il fattore di carico aumenta.
+
+## 1.
+Tabella con $m=11$ slot (celle) e chiavi $\{ 35, 83, 57, 26, 15, 63, 97, 46 \}$
+e $h(x) = x ||$
