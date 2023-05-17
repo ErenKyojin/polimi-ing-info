@@ -13,7 +13,7 @@ $$ P(s) = \frac{e^{-0.1s}}{1 + s}\quad, R(s) = k \frac{1 + s}{s}$$
 	- Attenuazione introdotta da $L$ a $\omega_{N}$ almeno $40 \dB$
 3. Scrivere la legge di controllo a TD usando il metodo di eulero esplicito
 
-#### 1
+#### 1.
 $$ L(s) = R(s)P(s) = k \frac{1 + s}{s} \frac{e^{-0.15}}{1 + s} =k \frac{e^{-0.1s}}{s} $$
 ```tikz
 \begin{document}
@@ -26,4 +26,8 @@ $$ L(s) = R(s)P(s) = k \frac{1 + s}{s} \frac{e^{-0.15}}{1 + s} =k \frac{e^{-0.1s
 $\angle^o (j \omega) = -90^o - 0,1 \omega_{c} \frac{180^o}{\pi}$
 $\implies \varphi_{c} = \angle^o L(j \omega_{c}) = \angle^o L(jk) = -90^o - 0,1k \frac{180^o}{\pi}$
 Voglio $\varphi_{m} = 45^o$ cioè $\varphi_{c} = 135^o$
-m
+$\implies 0,1k \frac{180^o}{\pi} = 45^o \implies k = \frac{45^o}{180^o * 0,1} \approx 7,85$
+quindi $\omega_{c} = 7,85$
+
+#### 2.
+$\omega_{s} \geq 20\omega_{c}$
