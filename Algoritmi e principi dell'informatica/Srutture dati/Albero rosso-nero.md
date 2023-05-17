@@ -353,4 +353,11 @@ RB-DELETE-FIXUP(T, x)
 	else (come a partire da (1) scambiando 'right' e 'left')
 ```
 
-### Ca
+### Caso 0, x nodo rosso o radice
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node[draw, fill = red, fill opacity = 0.5, scale = 1.25] (x) at (0,0){5};
+\end{tikzpicture}
+\end{document}
+```
