@@ -34,3 +34,5 @@ $T(n) = 8T\left( \frac{n}{2} \right) + \Theta(n^2)$
 $a = 8, b = 2, k= 2, h= 0$
 $\log_{b}(a) = \log_{2}(8) = 3 > k =2$ 
 quindi $T(n) = \Theta(n^3)$ per il teorema principale
+
+## @
