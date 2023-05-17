@@ -279,8 +279,42 @@ level 3/.style = {sibling distance = .5cm}
 ]
 
 \node {3}
-	child{node{5}};
+	child{node{5}}
+	child[missing]
+	;
 
 \end{tikzpicture}
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style = {sibling distance = 1.5cm},
+level 2/.style = {sibling distance = .75cm},
+level 3/.style = {sibling distance = .5cm}
+
+]
+
+\node {5}
+	child{node{3}}
+	child[missing]
+	;
+
+\end{tikzpicture}
+
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style = {sibling distance = 1.5cm},
+level 2/.style = {sibling distance = .75cm},
+level 3/.style = {sibling distance = .5cm}
+
+]
+
+\node {5}
+	child{node{3}}
+	child{node{2}}
+	;
+
+\end{tikzpicture}
+
 \end{document}
 ```
