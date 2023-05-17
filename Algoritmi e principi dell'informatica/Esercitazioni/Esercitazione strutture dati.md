@@ -579,9 +579,9 @@ level 3/.style = {sibling distance = .5cm}
 \begin{tikzpicture}
 [
 every node/.style={draw},
-level 1/.style = {sibling distance = 1.5cm},
-level 2/.style = {sibling distance = .75cm},
-level 3/.style = {sibling distance = .5cm}
+level 1/.style = {sibling distance = 2.5cm},
+level 2/.style = {sibling distance = 1.5cm},
+level 3/.style = {sibling distance = .75cm}
 
 ]
 
@@ -591,7 +591,10 @@ level 3/.style = {sibling distance = .5cm}
 	  child{node(3){3}}
 	  child{node(6){6}}
 	  }
-	 child{node (5){5}}
+	 child{node (5){5}
+	  child{node (10){10}}
+	  child[missing]
+	  }
 	 }
 	child{node(4){4}
 	 child{node (1){1}}
@@ -600,7 +603,7 @@ level 3/.style = {sibling distance = .5cm}
 	;
 
 
-\draw[-latex,ultra thick] (1,-1.5) -- ++ (1,0);
+\draw[-latex,ultra thick] (2,-1.5) -- ++ (1,0);
 
 \end{tikzpicture}
 \end{document}
