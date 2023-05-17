@@ -653,4 +653,4 @@ To hash signfica sminuzzare/tritare, vogliamo sminuzzare i dati per trarne qualc
 >Ho un database di foto di 1Mb, devo essere pronto ad avere $2^{1'000'000}$ foto diverse? No, la stragrande maggioranza saranno foto "inutili", rumore bianco o foto senza senso. 
 
 Costruiamo un array con elementi teste di liste che indicano elementi puntati dalla stessa hash.
-Fattore di carico = percentuale di tabella occupata in ogni momenti
+Fattore di carico = percentuale di tabella occupata in ogni momenti, se ci metto le chiavi è 1. Se ci metto delle liste il fattore di carico aumenta.
