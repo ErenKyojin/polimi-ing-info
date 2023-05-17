@@ -388,4 +388,17 @@ RB-DELETE-FIXUP(T, x)
 \end{document}
 ```
 
-### Caso 1, x nodo nero, fratello destro di x
+### Caso 1, x nodo nero, suo fratello destro w rosso, padre x.p nero
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node {3}
+	child{node{1}}
+	child{node{7}
+	 child{node{5}}
+	 child{node{9}}
+	 };
+\end{tikzpicture}
+\end{document}
+```
