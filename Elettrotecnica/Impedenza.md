@@ -20,7 +20,7 @@ In base al segno della reattanza si classificano le impedenze:
 - $X(\hat{\omega}) = 0$, l'impedenza per $\omega = \hat{\omega}$ si dice di tipo #resistivo (esempio il resistore per il quale $X_R(\omega) = 0 \ \ \ \ \ \ \forall \ \omega$)
 - $X(\hat{\omega}) > 0$, l'impedenza per $\omega = \hat{\omega}$ si dice di tipo #induttivo (esempio l'induttore per il quale $X_L(\hat{\omega}) = \omega L > 0 \ \ \ \ \ \ \ \forall \ \omega$) 
 
-### Potenza nel [[regime sinusoidale]]
+### [[Potenza]] nel [[regime sinusoidale]]
 Una generica impedenza $Z(j\omega) = R(\omega) + jX(\omega) = |Z(j\omega)|e^{j\varphi_Z}$, ossia di tipo #capacitivo <=> $X(\omega) < 0$ ==> $Q = 0$. Infatti se $X(\omega) < 0$, $\varphi_Z \in [-\frac{\pi}2, 0]$.
 Una generica impedenza di tipo induttivo avrà $X(\omega) > 0$ e quindi $\varphi_Z \in [0, \frac{\pi}2]$.
 Inoltre notiamo come $\varphi_z \in [-\frac\pi2,\frac\pi2]$ visto che consideriamo impedenza con resistenza $R(\omega) \geq 0$
