@@ -697,13 +697,19 @@ level 3/.style = {sibling distance = .75cm},
 	child{node[draw]{3}
 	 child{node[draw]{1}
 	  child{node{$\alpha$}}
-	  
+	  child{node{$\beta$}}
 	  }
-	 child{node[fill = purple, draw, fill opacity = .5]{5}}
+	 child{node[fill = purple, draw, fill opacity = .5]{5}
+	  child{node{$\gamma$}}
+	  child{node{$\delta$}}
+	  }
 	 }
-	child{node[draw]{9}};
+	child{node[draw]{9}
+	 child{node{$\varepsilon$}}
+	 child{node{$\xi$}}
+	};
 \end{tikzpicture}
 
 \end{document}
 ```
-Viola significa di qualsiasi colore
+Viola significa di qualsiasi colore, ogni volta 
