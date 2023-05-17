@@ -83,9 +83,8 @@ Strutture ad albero quasi pieno
 \begin{tikzpicture}
 [
 every node/.style={draw},
-level 1/.style={sibling ditance = 1.5cm,
-level 2/.
-}
+level 1/.style={sibling distance = 1.5cm},
+level 2/.style={sibling distance = 1cm}
 
 ]
 \node {}
@@ -95,7 +94,7 @@ level 2/.
 	 }
 	child {node{}
 	 child{node{}}
-	 child{node{}}
+	 child[missing]
 	};
 \end{tikzpicture}
 \end{document}
