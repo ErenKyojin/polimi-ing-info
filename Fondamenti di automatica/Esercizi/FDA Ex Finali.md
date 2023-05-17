@@ -50,4 +50,4 @@ $\frac{2\pi}{T_{s}} \geq 2 \cdot 785 \implies T_{s} \leq \frac{\pi}{785} \approx
 $\implies$ scelgo $T_{s} = 0,004$
 
 #### 3.
-$R^*(z) = R\left( \left( z-\frac{1}{} \right) \right)$
+$$R^*(z) \underset{ \uparrow EE }{ = } R\left( \frac{z-1}{T_{s}} \right)=$$
