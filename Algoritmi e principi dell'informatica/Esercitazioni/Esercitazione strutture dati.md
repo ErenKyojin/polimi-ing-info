@@ -59,3 +59,6 @@ Non c'è ordinamento tra i figli
 Proprietà:
 - chiave massima sempre in cima
 - altezza $\approx$ $\log_{2}(n)$
+
+Rimozione del max: 
+- accediamo alla radice (già max) `H.ro`
