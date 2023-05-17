@@ -599,7 +599,18 @@ level 3/.style = {sibling distance = .75cm},
 \end{tikzpicture}
 
 \begin{tikzpicture}
-\dra
+[
+level 1/.style = {sibling distance = 1.5 cm},
+level 2/.style = {sibling distance = 1cm},
+level 3/.style = {sibling distance = .75cm},
+
+]
+\node[draw, fill opacity = .5, fill = red] {3}
+	child{node{1}
+	
+	}
+	child{node{5}}
+
 \end{tikzpicture}
 
 \end{document}
