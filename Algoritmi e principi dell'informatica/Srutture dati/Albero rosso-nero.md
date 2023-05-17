@@ -606,18 +606,21 @@ level 3/.style = {sibling distance = .75cm},
 
 ]
 \node[draw, fill opacity = .5, fill = red] {3}
-	child{node (X) {1}
+	child{node[draw] (X) {1}
 	 child{node{$\alpha$}}
 	 child{node{$\beta$}}
 	}
-	child{node (W) {5}
+	child{node[draw] (W) {5}
 	 child{node {$\gamma$}}
 	 child{node[draw, fill = red, fill opacity = .5] {7}
-	  child{$\gamma$}
-	  child
+	  child{node{$\gamma$}}
+	  child{node[draw]{9}
+	   child{node{$\varepsilon$}}
+	   child{node{$\xi$}}
+	  }
 	 }
 	};
-
+\node[left=2mm]at (){}
 \end{tikzpicture}
 
 \end{document}
