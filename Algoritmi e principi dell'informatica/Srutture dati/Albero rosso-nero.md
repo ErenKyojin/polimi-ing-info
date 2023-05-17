@@ -332,7 +332,7 @@ RB-DELETE-FIXUP(T, x)
 	if x.color = RED or x.p = T.nil
 		x.color := BLACK                    //Caso 0
 	elseif x = x.p.left                     //x è figlio sinistro
-		w := x.p.right                      //w è fratello di x
+		w := x.p.right                      //(1) w è fratello di x
 		if w.color = RED
 			w.color := BLACK                 //Caso 1
 			x.p.color := BLACK               //Caso 1
@@ -350,5 +350,7 @@ RB-DELETE-FIXUP(T, x)
 		x.p.color := BLACK                   //Caso 4
 		w.right.color := BLACK               //Caso 4
 		ROTATE-LEFT(T, x.p)                  //Caso 4
-	Else
+	else (come a partire da (1) scambiando 'right' e 'left')
 ```
+
+### Ca
