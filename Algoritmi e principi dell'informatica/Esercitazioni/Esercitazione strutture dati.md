@@ -663,6 +663,12 @@ e $h(x) = x \mod 11$
 \usetikzlibrary{chains}
 \begin{document}
 \begin{tikzpicture}
+[
+start chain = 1 going right,
+node distance = 5mm,
+every node/.style={draw}
+]
+\node[on chain = 1] {};
 
 \end{tikzpicture}
 \end{document}
