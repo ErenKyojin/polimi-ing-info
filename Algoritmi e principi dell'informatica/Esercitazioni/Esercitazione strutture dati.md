@@ -255,8 +255,10 @@ level 2/.style={sibling distance = 1cm}
 \node[above = 3mm] at (e) {5};
 
 \path[-latex, ultra thick] 
-	  (a) edge[bend right] (b.south)
-	  (a) edge[bend right] (c);
+	  (a) edge[bend right = 90] (b.south)
+	  (a) edge[bend right = 90] (c.south)
+	  (b) edge[bend]
+	  ;
 
 \end{tikzpicture}
 \end{document}
