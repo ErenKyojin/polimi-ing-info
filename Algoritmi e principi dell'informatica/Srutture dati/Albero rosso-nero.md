@@ -288,7 +288,11 @@ level 3/.style={sibling distance = .75cm}
 	 child{node{$\beta$}}
 	}
 	child{node[fill = red, fill opacity = .5, draw]{7}
-	 child
+	 child{node{$\gamma$}}
+	 child{node[draw]{9}
+	  child{node{$\delta$}}
+	  child{node{$\varepsilon$}}
+	  }
 	 };
 
 \end{tikzpicture}
