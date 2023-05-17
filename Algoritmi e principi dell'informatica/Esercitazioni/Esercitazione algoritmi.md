@@ -74,3 +74,6 @@ quindi se $4 < a \leq 8 \implies T(n) = O(n^3)$
 #### 2.
 Se $a > 4 : T(n) = \Theta(\log_{2}(a)) = \Omega(n^2\log^{\beta}(n))\quad\forall \beta \geq 0$
 Se $a = 4 : T(n) = \Omega(n^2\log^3)$
+Se $a < 4 : T(n) \neq \Omega(n^2\log^3(n))$
+
+#### 4. 
