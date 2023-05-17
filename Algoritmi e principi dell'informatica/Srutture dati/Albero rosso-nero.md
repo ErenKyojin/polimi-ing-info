@@ -95,10 +95,10 @@ Solito $O(h)$.
 RB-INSERT-FIXUP(T, z)
 	if z = T.root
 		T.root.color = BLACK
-	else x := z.p         //Quindi x è il padre di z
+	else x := z.p                          //Quindi x è il padre di z
 		if x.color = RED 
 			if x = x.p.left                //x è figlio sinistro 
-				y := x.p.right
+				y := x.p.right             //(1) y è fratello di x 
 				if y.color = RED
 					x.color := BLACK       //CASO 1
 					y.color := BLACK       //CASO 1
@@ -111,7 +111,7 @@ RB-INSERT-FIXUP(T, z)
 				x.color := BLACK           //CASO 3
 				x.p.color := RED           //CASO 3
 				RIGHT-ROTATE(T, x.p)       //CASO 3
-		else Come 
+		else (Come a partire da (1) invertendo 'right' e 'left')
 			...
 ```
 3 casi piú 3 speculari2
