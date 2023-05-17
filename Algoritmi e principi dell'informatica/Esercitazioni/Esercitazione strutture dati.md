@@ -86,7 +86,7 @@ level 2/.style={sibling distance = 1cm}
 ```
 - $h$ non è piú una heap (ogni nodo deve contenere una chiave)
 - Accedo quindi al nodo piú in basso a sinistra
-  ```tikz
+    ```tikz
 \begin{document}
 \begin{tikzpicture}
 [
@@ -95,7 +95,7 @@ level 1/.style={sibling distance = 1.5cm},
 level 2/.style={sibling distance = 1cm}
 
 ]
-\node {9}
+\node {}
 	child {node{5}
 	 child{node{3}}
 	 child{node{4}}
@@ -106,3 +106,4 @@ level 2/.style={sibling distance = 1cm}
 	};
 \end{tikzpicture}
 \end{document}
+```
