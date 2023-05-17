@@ -712,4 +712,7 @@ level 3/.style = {sibling distance = .75cm},
 
 \end{document}
 ```
-Viola significa di qualsiasi colore, ogni volta 
+Viola significa di qualsiasi colore.
+
+Ogni volta che RB-DELETE-FIXUP viene invocato esso può terminare (casi 0, 1, 3 e 4) o venire applicato ricorsivamente risalendo un livell nell'albero (caso 2 non proveniente da 1).
+Può quindi essere invocato al massimo $O(h)$
