@@ -26,5 +26,8 @@ Data $T(n) = aT\left( \frac{n}{b} \right) + n^k\log^h(n)$
 $$ T(n) = \begin{cases}
 \Theta(n^{\log_{b}(a)}) \quad&se\ \log_{b}(a) > k \\
 \Theta(n^k \log^{h + 1}(n)) &se\ \log_{b}(a) = k \\
-\Theta(n^k \log^h (n)) &se\ 0 \leq \log
+\Theta(n^k \log^h (n)) &se\ 0 \leq \log_{b}(a) < k
 \end{cases} $$
+
+## 1
+$T(n) = 8T\left( \frac{n}{2} \right) + \Theta(n^2)$
