@@ -404,7 +404,7 @@ level 3/.style = {sibling distance = .75cm},
 	 child{node{$\alpha$}}
 	 child{node{$\beta$}}
 	 }
-	child{node (W) [draw]{7}
+	child{node (W) [draw, fill = red, fill opacity = .5]{7}
 	 child{node[draw]{5}
 	  child{node{$\gamma$}}
 	  child{node{$\delta$}}
@@ -477,4 +477,5 @@ level 3/.style = {sibling distance = .75cm},
 
 Diventa o il caso 2, o il caso 3, o il caso 4
 
-### Caso 2, x 
+### Caso 2, x nero, suo fratello destro w nero con solo figli neri
+
