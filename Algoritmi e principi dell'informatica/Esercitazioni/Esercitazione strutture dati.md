@@ -681,8 +681,8 @@ node distance = 5mm,
 \node[on chain = 1,draw] (9) {97};
 \node[on chain = 1,draw] (10) {};
 
-\foreach{x}
-
+\foreach \x in {0,...,10}
+	\node[above] (\x) {\x};
 \end{tikzpicture}
 \end{document}
 ```
