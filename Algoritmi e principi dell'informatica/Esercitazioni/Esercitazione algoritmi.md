@@ -11,4 +11,5 @@ Data una ricorrenza $T(n) = aT\left( \frac{n}{b} \right) + f(n)$
  $b > 1$
  $f$ una certa funzione (detta forzante)
  si ha
-1. Se $f(n) = O(n^{\log_{b}(a)-1})$
+1. Se $f(n) = O(n^{\log_{b}(a)-\varepsilon})$ allora $T(n) = (n^{\log_{b}(a)})$
+2. Se $f(n) = \Theta(m^)$
