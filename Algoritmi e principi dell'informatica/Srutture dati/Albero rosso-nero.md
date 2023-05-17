@@ -283,9 +283,13 @@ level 2/.style={sibling distance = 1cm},
 level 3/.style={sibling distance = .75cm}
 ]
 \node[draw]{5}
-	child{node[fill = red, fill opacity = .5, draw]{3}}
-	child{node[fill = red, fill opacity = .5, draw]{7}};
-	
+	child{node[fill = red, fill opacity = .5, draw]{3}
+	 child{node{$\alpha$}}
+	 child{node{$\beta$}}
+	}
+	child{node[fill = red, fill opacity = .5, draw]{7}
+	 child
+	 };
 
 \end{tikzpicture}
 
