@@ -361,7 +361,13 @@ RB-DELETE-FIXUP(T, x)
 \node[left=5mm] at (x){x};
 \draw (x) -- ++ (.25,1);
 \draw (x) -- ++ (.25,-1);
-\draw at (.5,0) -- ++ (1)
+\draw[-latex, ultra thick] (.5,0) -- ++ (1.5,0);
+\end{tikzpicture}
+\begin{tikzpicture}
+\node[draw, scale = 1.25] (x) at (0,0){5};
+\node[left=5mm] at (x){x};
+\draw (x) -- ++ (.25,1);
+\draw (x) -- ++ (.25,-1);
 \end{tikzpicture}
 \end{document}
 ```
