@@ -606,10 +606,13 @@ level 3/.style = {sibling distance = .75cm},
 
 ]
 \node[draw, fill opacity = .5, fill = red] {3}
-	child{node{1}
-	
+	child{node (X) {1}
+	 child{node{$\alpha$}}
+	 child{node{$\beta$}}
 	}
-	child{node{5}}
+	child{node (W) {5}
+	 child{node (X) }
+	}
 
 \end{tikzpicture}
 
