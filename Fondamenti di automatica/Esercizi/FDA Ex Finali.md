@@ -36,9 +36,10 @@ $|L(j\omega_{N})|_{\dB} < -40$
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw[-latex, thick] (-3,0) -- ++ (6,0);
+\draw[-latex, thick] (-3,0) -- ++ (6,0)node[right]{$\omega$};
 \draw[red] (-2.5,1) -- (2.5,-1);
 \node[above] at (0,0){7,85};
+\draw[blue] (-3,-1) node[left]{-40} -- (3,-1);
 \end{tikzpicture}
 \end{document}
 ```
