@@ -567,8 +567,18 @@ level 3/.style = {sibling distance = .5cm}
 
 
 \draw[-latex,ultra thick] (1,-1.5) -- ++ (1,0);
-\path[-latex,thick] (8) edge[bend right]
+\path[-latex,thick] (8) edge[bend right] (6)
+ (6) edge[bend left] (7);
 
 \end{tikzpicture}
 \end{document}
 ```
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+
+\end{tikzpicture}
+\end{document}
+```
+
