@@ -668,29 +668,18 @@ start chain = 1 going right,
 start chain = 2 going right,
 node distance = 5mm,
 ]
-\node[on chain = 1] {0};
-\node[on chain = 1] {1};
-\node[on chain = 1] {2};
-\node[on chain = 1] {3};
-\node[on chain = 1] {4};
-\node[on chain = 1] {5};
-\node[on chain = 1] {6};
-\node[on chain = 1] {7};
-\node[on chain = 1] {8};
-\node[on chain = 1] {9};
-\node[on chain = 1] {10};
 
-\node[on chain = 2,draw] at(0,-0.5) {};
-\node[on chain = 2,draw] {};
-\node[on chain = 2,draw] {35};
-\node[on chain = 2,draw] {57};
-\node[on chain = 2] {26};
-\node[on chain = 2] {15};
-\node[on chain = 2] {83};
-\node[on chain = 2] {};
-\node[on chain = 2] {63};
-\node[on chain = 2] {97};
-\node[on chain = 2] {};
+\node[on chain = 1,draw] (0) at(0,-0.5) {};
+\node[on chain = 1,draw] (1) {};
+\node[on chain = 1,draw] (2) {35};
+\node[on chain = 1,draw] (3) {57};
+\node[on chain = 1,draw] (4) {26};
+\node[on chain = 1,draw] (5) {15};
+\node[on chain = 1,draw] (6) {83};
+\node[on chain = 1,draw] (7{};
+\node[on chain = 1,draw] {63};
+\node[on chain = 1,draw] {97};
+\node[on chain = 1,draw] {};
 
 \end{tikzpicture}
 \end{document}
