@@ -31,3 +31,4 @@ quindi $\omega_{c} = 7,85$
 
 #### 2.
 $\omega_{s} \geq 20\omega_{c} \implies \frac{2\pi}{T_{s}} \geq 20 \cdot 7,85 \implies T_{s} \leq \frac{2\pi}{20\cdot7,85} \approx 0,04$
+$|L(j\omega_{N})|_{\dB}$
