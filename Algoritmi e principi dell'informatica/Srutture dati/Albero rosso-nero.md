@@ -454,16 +454,19 @@ level 3/.style = {sibling distance = .75cm},
 
 ]
 \node[draw] {7}
-	child{node (X) [draw, fill = red, fill opacity = .5]{3}
-	 child{node[draw]{1}}
-	 child{node{}}
+	child{node [draw, fill = red, fill opacity = .5]{3}
+	 child{node(X)[draw]{1}
+	  child{node{$\$}}
+	  
+	  }
+	 child{node(W)[draw]{5}}
 	 }
 	child{node{9}
 	 child{node{$\varepsilon$}}
 	 child{node{$\xi$}}
 	 };
 \node[left=5mm] at (X){x};
-\node[right=5mm] at (W){w};
+\node[left=2mm] at (W){w};
 \draw[-latex,ultra thick] (2,-1) -- ++ (1,0);
 \end{tikzpicture}
 
