@@ -380,7 +380,8 @@ level 3/.style = {sibling distance = .5cm}
 	;
 
 \path[-latex]
-	(9) to[bend right]
+	(9) edge[bend right] (7)
+	(7) edge[bend right] (5);
 \draw[-latex,ultra thick] (1,-1.5) -- ++ (1,0);
 
 \end{tikzpicture}
