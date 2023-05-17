@@ -229,10 +229,21 @@ level 2/.style={sibling distance = 1cm}
 \node {10}
 	child {node{5}
 	 child{node{3}}
-	 child{node{10}}
+	 child{node{4}}
 	 }
 	child {node{2}
 	};
+\end{tikzpicture}
+\end{document}
+```
+
+### raprpesentazione ad array
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node (1){10};
+\node (2){5}
 \end{tikzpicture}
 \end{document}
 ```
