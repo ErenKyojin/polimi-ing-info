@@ -299,6 +299,7 @@ level 3/.style={sibling distance = .75cm}
 
 \end{document}
 ```
+Ogni volte che si invoca RB-INSERT-FIXUP può o terminare come nel caso 2 e 3, o venire applicato ricorsivamente risalendo due livelli dell'albero come nel caso 1. Può quindi essere invocato al massimo $O(h)$
 
 ## Cancellazione
 
