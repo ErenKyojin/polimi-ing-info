@@ -47,3 +47,10 @@ $\log_{b}(a)=\log_{4}(2) = \frac{1}{2} \implies T(n) = \Theta(\sqrt{ n })$
 ### 3 var
 $$T(n) = 2T\left( \frac{n}{4} \right) + \sqrt{ n }\quad a=2,b=4,h=0, k=\frac{1}{2}$$
 $\log_{b}(a) = \log_{4}(2) = \frac{1}{2} = k \implies T(n)= \Theta(n)$
+
+## 4
+Studiare per $a \geq 1$
+$$ T(n) = aT\left( \frac{n}{2} \right) + n^2\log^2(n) $$
+ci sono $a$ tali che
+1. $T(n) = O(n^3)$?
+2. $T(n) = \Omega(n)$
