@@ -174,12 +174,17 @@ RB-INSERT-FIXUP(T, z)
 \end{document}
 ```
 Ripeto quindi la procedura su x.p in quanto il padre di x.p potrebbe essere di colore rosso, nel qual caso la quarta proprietà degli alberi RB non sarebbe verificata.
+
+### Caso 2, y nero e z figlio destro di x
 ```tikz
 \begin{document}
-\begin{tikzpicture}[]
+\begin{tikzpicture}
+[
+level 1/.style={}
+]
 \node[draw] (R) {7}
 	child{node (X) [fill = red, fill opacity = 0.5, draw]{3} 
-	 child[missing]
+	 child{node {$\alpha$}}
 	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{5}}
 	 }
 	child{node (Y)[draw]{9}};
@@ -203,36 +208,6 @@ Ripeto quindi la procedura su x.p in quanto il padre di x.p potrebbe essere di c
 \end{tikzpicture}
 \end{document}
 ```
-
-### Caso 2, y nero e z figlio destro di x
-```tikz
-\begin{document}
-\begin{tikzpicture}[]
-\node[draw] (R) {7}
-	child{node (X) [fill = red, fill opacity = 0.5, draw]{3} 
-	 child[missing]
-	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{5}}
-	 }
-	child{node (Y)[draw]{9}};
-\node[left = 2.5mm] at (X) {x};
-\node[left = 2.5mm] at (Z) {z};
-\node[right = 2.5mm] at (Y){y};
-\node[left = 2.5mm] at (R){x.p};
-\draw[-latex,ultra thick] (1,-1) -- ++ (2,0);
-\end{tikzpicture}
-\begin{tikzpicture}[]
-\node[draw, fill = red, fill opacity = 0.5] (R) {7}
-	child{node (X) [draw]{5} 
-	 child[missing]
-	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{3}}
-	 }
-	child{node (Y)[draw]{9}};
-\node[left = 2.5mm] at (X) {x};
-\node[left = 2.5mm] at (Z) {z};
-\node[right = 2.5mm] at (Y){y};
-\node[left = 2.5mm] at (R){x.p};
-\end{tikzpicture}
-\end{document}
 
 ## Cancellazione
 
