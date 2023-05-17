@@ -76,3 +76,4 @@ Se $a > 4 : T(n) = \Theta(\log_{2}(a)) = \Omega(n^2\log^{\beta}(n))\quad\forall 
 Se $a = 4 : T(n) = \Omega(n^2\log^3)$
 Se $a < 4 : T(n) \neq \Omega(n^2\log^3(n))$
 
+## 
