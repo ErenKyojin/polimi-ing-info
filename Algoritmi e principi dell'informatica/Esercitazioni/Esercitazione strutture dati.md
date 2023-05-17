@@ -166,6 +166,7 @@ level 2/.style={sibling distance = 1cm}
 ```
 
 ### Aggiunta di un valore
+Partendo da in basso a sinistra e salendo verso destra mettiamo il valore nel nuovo posto disponibile
 ```tikz
 \begin{document}
 \begin{tikzpicture}
@@ -181,8 +182,22 @@ level 2/.style={sibling distance = 1cm}
 	 child[missing]
 	 }
 	child {node{2}
-	 child{node{1}}
+	};
+\end{tikzpicture}
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style={sibling distance = 1.5cm},
+level 2/.style={sibling distance = 1cm}
+
+]
+\node {5}
+	child {node{4}
+	 child{node{3}}
 	 child[missing]
+	 }
+	child {node{2}
 	};
 \end{tikzpicture}
 \end{document}
+```
