@@ -86,7 +86,7 @@ RB-INSERT(T, z)
 	z.left := T.nil
 	z.right := T.nil
 	z.color := RED //proviamo ad inserirlo rosso, nero sicuramente sbilancia
-	RB-INSERT-FIXUP(T, z)
+	RB-INSERT-FIXUP(T, z) //fixiamo l'albero se non doveva essere rosso
 ```
 
 Solito $O(h)$.
@@ -324,4 +324,5 @@ RB-DELETE(T,z)
 	return y
 ```
 
-È molto simile a TREE-DELETE, ma usa T.nil
+È molto simile a TREE-DELETE, ma usa T.nil al posto di NIL.
+Se viene cancellato un nodo rosso non c'è sicuramente bisogno 
