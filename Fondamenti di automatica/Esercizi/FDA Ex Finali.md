@@ -55,4 +55,4 @@ Quindi $(z-1)U(z) = (7.85z-7.82)E(z)$
 $u(k + 1) - u(k) = 7,85e(k + 1) - 7,82e(k)$
 $\implies$ legge di controllo
 $$ u(k) = \fcolorbox{red}{}{$u(k - 1)$} + 7.85e(k) - 7.82 e(k - 1) $$
-in rosso integratore, polo in Z = 1
+in rosso integratore, quindi polo in Z = 1
