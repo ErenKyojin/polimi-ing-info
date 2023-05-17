@@ -727,4 +727,12 @@ L'ispezione lineare è sempre a passo costante, +1 cella ad ogni ispezione
 L'ispezione quadratica ha passi diversi, +1, +3, +5, +7...
 L'ispezione con doppio hash ha passo costante per ogni chiave
 
-$h(1)$
+$$h_{1}(x)=(x \mod 10) + 1$$
+
+35 va al suo posto
+83 va al suo posto
+57 occupato, va indietro di 3
+26 diretto
+15 occupato, poi occupato, poi trova il posto
+63, 57 diretti.
+46 non va direttamente dove è andato il 57, va avanti di 7 (o indietro di 4)
