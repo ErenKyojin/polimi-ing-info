@@ -60,7 +60,7 @@ Proprietà:
 - chiave massima sempre in cima
 - altezza $\approx$ $\log_{2}(n)$
 
-Rimozione del max: 
+### Rimozione del max: 
 - accediamo alla radice (già max) `H.root`
 - cancella il contenuto
   ```tikz
@@ -154,13 +154,15 @@ level 1/.style={sibling distance = 1.5cm},
 level 2/.style={sibling distance = 1cm}
 
 ]
-\node[fill = green, fill opacity = .4] {5}
-	child {node{1}
+\node {5}
+	child {node[fill=green, fill opacity = .4]{4}
 	 child{node{3}}
-	 child{node{4}}
+	 child{node[fill=green, fill opacity = .4]{1}}
 	 }
 	child {node{2}
 	};
 \end{tikzpicture}
 \end{document}
 ```
+
+### I
