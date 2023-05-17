@@ -56,7 +56,6 @@ ci sono $a$ tali che
 2. $T(n) = \Omega(n^2\log^3(n))$?
 3. $T(n)= \Omega(n^2\log^7n)$?
 
-### 1.
 $a, b = 2, k = 2, h = 2$
 $\log_{b}(a) = \log_{2}(a)$:
 
@@ -65,3 +64,6 @@ $$ T(n) = \begin{cases}
 \Theta(n^2 \log^3(n))&se\ a=4  \\
 \Theta(n^2 \log^2(n))&se\ a < 4
 \end{cases} $$
+
+Se $1 \leq a \leq 4 : T(n) = O(n^3)$
+Se $a > 4 : T(n) = \Theta(n^\log_{2})$
