@@ -699,3 +699,13 @@ cerco 90, h(90) = 2, cancello 35, cerco 57.
 L'ispezione lineare è a rischio di cluster, ma basta ingrandire la tabella. Anche perchè la memoria è un blocco unico, quindi può guadagnare molto in termini di accessi alla memoria (se il blocco è caricato in cache è piú rapido)
 
 #### Ispezione quadratica
+
+```tikz
+\usetikzlibrary{chains}
+\begin{document}
+\begin{tikzpicture}
+\forach \x
+	\node {};
+\end{tikzpicture}
+\end{document}
+```
