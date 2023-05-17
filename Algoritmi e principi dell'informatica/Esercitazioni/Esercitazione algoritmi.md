@@ -21,3 +21,8 @@ $$af\left( \frac{n}{b} \right) \leq c f(n)$$
 
 $\forall h,k \geq 0$
 $$n^k\log^h(n) \text{ è regolare}$$
+
+Data $T(n) = aT\left( \frac{n}{b} \right) + n^k\log^h(n)$
+$$ T(n) = \begin{cases}
+\Theta(n^{\log_{b}(a)}) \quad&se\ n
+\end{cases} $$
