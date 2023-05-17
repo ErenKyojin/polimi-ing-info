@@ -257,9 +257,12 @@ level 2/.style={sibling distance = 1cm}
 \path[-latex, ultra thick] 
 	  (a) edge[bend right = 90] (b.south)
 	  (a) edge[bend right = 90] (c.south)
-	  (b) edge[bend]
+	  (b) edge[bend left = 90] (d.north)
+	  (b) edge[bend left = 90] (e.north)
 	  ;
 
 \end{tikzpicture}
 \end{document}
 ```
+
+## Date le chiavi
