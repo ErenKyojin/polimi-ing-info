@@ -358,6 +358,10 @@ RB-DELETE-FIXUP(T, x)
 \begin{document}
 \begin{tikzpicture}
 \node[draw, fill = red, fill opacity = 0.5, scale = 1.25] (x) at (0,0){5};
+\node[left=5mm] at (x){x};
+\draw (x) -- ++ (.25,1);
+\draw (x) -- ++ (.25,-1);
+\draw at (.5,0) -- ++ (1)
 \end{tikzpicture}
 \end{document}
 ```
