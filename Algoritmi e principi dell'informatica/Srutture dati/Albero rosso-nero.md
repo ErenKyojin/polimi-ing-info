@@ -131,10 +131,11 @@ RB-INSERT-FIXUP(T, z)
 \draw[-latex,ultra thick] (1,-1) -- ++ (2,0);
 \end{tikzpicture}
 \begin{tikzpicture}[]
-\node[draw] (R) {7}
-	child{node (X) [fill = red, fill opacity = 0.5, draw]{5} 
-	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{3}}}
-	child{node (Y)[fill = red, fill opacity = 0.5, draw]{9}};
+\node[draw, fill = red, fill opacity = 0.5] (R) {7}
+	child{node (X) [draw]{5} 
+	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{3}}
+	 child[missing]}
+	child{node (Y)[draw]{9}};
 \node[left = 2.5mm] at (X) {x};
 \node[left = 2.5mm] at (Z) {z};
 \node[right = 2.5mm] at (Y){y};
