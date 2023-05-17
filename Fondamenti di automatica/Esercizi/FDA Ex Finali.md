@@ -46,4 +46,8 @@ $|L(j\omega_{N})|_{\dB} < -40$
 ```
 
 $\omega_{s} = 2 \cdot 785$
-$2$
+$\frac{2\pi}{T_{s}} \geq 2 \cdot 785 \implies T_{s} \leq \frac{\pi}{785} \approx 0,004$
+$\implies$ scelgo $T_{s} = 0,004$
+
+#### 3.
+$R^*(z) = R\left( \left( z-\frac{1}{} \right) \right)$
