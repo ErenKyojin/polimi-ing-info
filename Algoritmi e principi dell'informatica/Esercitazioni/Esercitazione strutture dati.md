@@ -378,7 +378,11 @@ level 3/.style = {sibling distance = .5cm}
 	 }
 	child{node{2}}
 	;
+
+\path[-latex]
+	(9) to[bend right]
 \draw[-latex,ultra thick] (1,-1.5) -- ++ (1,0);
+
 \end{tikzpicture}
 \end{document}
 ```
