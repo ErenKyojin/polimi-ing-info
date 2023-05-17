@@ -414,7 +414,8 @@ level 3/.style = {sibling distance = .75cm},
 	  child{node{$\xi$}}
 	  }
 	 };
-\node at (x)
+\node[left=5mm] at (X){x};
+\node[right=5mm] at (W){w};
 \draw[-latex,ultra thick] (2,-1) -- ++ (1,0);
 \end{tikzpicture}
 
