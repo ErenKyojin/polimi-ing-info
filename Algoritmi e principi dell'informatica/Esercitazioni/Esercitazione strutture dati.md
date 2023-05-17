@@ -128,4 +128,23 @@ level 2/.style={sibling distance = 1cm}
 ```
 	Non abbiamo piú una heap ma la struttura è corretta.
 - Ripristino la heap
-	- Parti dalla radice, guarda i due figli, scambia se un fi
+	- Parti dalla radice, guarda i due figli, scambia se un figlio è minore
+```tikz
+\begin{document}
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style={sibling distance = 1.5cm},
+level 2/.style={sibling distance = 1cm}
+
+]
+\node[fill = green, fill opacity = .4] {5}
+	child {node[fill=green, fill opacity = .2]{1}
+	 child{node{3}}
+	 child{node{4}}
+	 }
+	child {node{2}
+	};
+\end{tikzpicture}
+\end{document}
+```
