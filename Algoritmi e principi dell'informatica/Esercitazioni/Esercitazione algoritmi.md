@@ -116,12 +116,14 @@ level 2/.style={sibling distance = 1cm}
 ]
 \node {9}
 	child {node{5}
-	 child{node{}}
-	 child{node{}}
+	 child{node{3}}
+	 child{node{4}}
 	 }
-	child {node{7}
-	 child{node{}}
+	child {node{2}
+	 child{node{1}}
 	 child[missing]
 	};
 \end{tikzpicture}
 \end{document}
+```
+Non c'è ordinamento tra i figli
