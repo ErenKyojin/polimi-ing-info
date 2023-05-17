@@ -99,3 +99,6 @@ level 2/.style={sibling distance = 1cm}
 \end{tikzpicture}
 \end{document}
 ```
+due tipi di heap:
+- min-heap 
+- max-heap: la chiave con
