@@ -687,4 +687,8 @@ node distance = 5mm,
 \end{document}
 ```
 proviamo a metterlo nel risultato corrispondente, altrimenti nel primo libero a destra, ma la ricerca poi diventa tediosa.
-$h$
+$h(35) = h(57) = h(46) =2$
+$h(15) = h(26) = 4$
+$h(63)= 2$
+$h(83)=6$
+$h(97)=9$
