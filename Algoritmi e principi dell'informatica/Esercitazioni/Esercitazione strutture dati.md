@@ -194,7 +194,42 @@ level 2/.style={sibling distance = 1cm}
 \node {5}
 	child {node{4}
 	 child{node{3}}
-	 child[missing]
+	 child{node{10}}
+	 }
+	child {node{2}
+	};
+\end{tikzpicture}
+\end{document}
+```
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style={sibling distance = 1.5cm},
+level 2/.style={sibling distance = 1cm}
+
+]
+\node {5}
+	child {node{10}
+	 child{node{3}}
+	 child{node{4}}
+	 }
+	child {node{2}
+	};
+\end{tikzpicture}
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style={sibling distance = 1.5cm},
+level 2/.style={sibling distance = 1cm}
+
+]
+\node {10}
+	child {node{5}
+	 child{node{3}}
+	 child{node{10}}
 	 }
 	child {node{2}
 	};
