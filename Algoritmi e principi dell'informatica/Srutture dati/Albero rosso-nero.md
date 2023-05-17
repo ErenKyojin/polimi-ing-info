@@ -376,6 +376,7 @@ RB-DELETE-FIXUP(T, x)
 \node[draw, scale = 1.25] {5} 
 	child {node{}}
 	child {node{}};
+\draw[-latex, ultra thick] (.5,0) -- ++ (1.5,0);
 \end{tikzpicture}
 
 \begin{tikzpicture}
@@ -386,3 +387,5 @@ RB-DELETE-FIXUP(T, x)
 
 \end{document}
 ```
+
+### Caso 1, x nodo nero, fratello destro di x
