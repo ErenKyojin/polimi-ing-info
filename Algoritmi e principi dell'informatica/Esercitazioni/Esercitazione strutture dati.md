@@ -604,7 +604,11 @@ level 3/.style = {sibling distance = .75cm}
 
 
 \draw[-latex,ultra thick] (2,-1.5) -- ++ (1,0);
-
+\path[-latex,thick] 
+	(10) edge[bend right] (5)
+	(5) edge[bend right] (8)
+	(8)
+	;
 \end{tikzpicture}
 \end{document}
 ```
