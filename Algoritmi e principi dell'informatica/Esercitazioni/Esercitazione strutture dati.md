@@ -723,4 +723,8 @@ L'ispezione lineare è a rischio di cluster, ma basta ingrandire la tabella. Anc
 \end{document}
 ```
 #### Doppio Hash
-L'ispezione lineare è sempre a passo costante, +1 cel
+L'ispezione lineare è sempre a passo costante, +1 cella ad ogni ispezione
+L'ispezione quadratica ha passi diversi, +1, +3, +5, +7...
+L'ispezione con doppio hash ha passo costante per ogni chiave
+
+$h(1)$
