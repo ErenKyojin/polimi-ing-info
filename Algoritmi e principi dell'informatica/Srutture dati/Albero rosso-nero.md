@@ -373,7 +373,15 @@ RB-DELETE-FIXUP(T, x)
 \end{tikzpicture}
 
 \begin{tikzpicture}
-\node[draw, scale = ] {5};
+\node[draw, scale = 1.25] {5} 
+	child {node{}}
+	child {node{}};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\node[draw, scale = 1.25] {5} 
+	child {node{}}
+	child {node{}};
 \end{tikzpicture}
 
 \end{document}
