@@ -346,6 +346,9 @@ RB-DELETE-FIXUP(T, x)
 			w.color := RED                   //Caso 3
 			ROTATE-RIGHT(T, w)               //Caso 3
 			w := x.p.right                   //Caso 3
-		w.color := x.p.color
-		w
+		w.color := x.p.color                 //Caso 4
+		x.p.color := BLACK                   //Caso 4
+		w.right.color := BLACK               //Caso 4
+		ROTATE-LEFT(T, x.p)                  //Caso 4
+	Else
 ```
