@@ -97,7 +97,7 @@ RB-INSERT-FIXUP(T, z)
 		T.root.color = BLACK
 	else x := z.p         //Quindi x è il padre di z
 		if x.color = RED 
-			if x = x.p.left //x è figlio sinistro 
+			if x = x.p.left                //x è figlio sinistro 
 				y := x.p.right
 				if y.color = RED
 					x.color := BLACK       //CASO 1
@@ -109,8 +109,10 @@ RB-INSERT-FIXUP(T, z)
 					LEFT-ROTATE(T, z)      //CASO 2
 					x := z.p               //CASO 2
 				x.color := BLACK           //CASO 3
-				x.p.color := RED
-...
+				x.p.color := RED           //CASO 3
+				RIGHT-ROTATE(T, x.p)       //CASO 3
+		else Come 
+			...
 ```
 3 casi piú 3 speculari2
 È invocato sempre su un nodo z tale che `z.color = RED`
