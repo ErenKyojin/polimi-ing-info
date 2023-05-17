@@ -620,7 +620,8 @@ level 3/.style = {sibling distance = .75cm},
 	  }
 	 }
 	};
-\node[left=2mm]at (){}
+\node[left=2mm]at (X){x};
+\node[right = 2mm] (W){w};
 \end{tikzpicture}
 
 \end{document}
