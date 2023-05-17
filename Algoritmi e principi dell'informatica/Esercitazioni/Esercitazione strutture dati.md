@@ -626,8 +626,8 @@ level 3/.style = {sibling distance = .75cm}
 	  child{node(3){3}}
 	  child{node(6){6}}
 	  }
-	 child{node (5){5}
-	  child{node (10){10}}
+	 child{node (8){8}
+	  child{node (5){5}}
 	  child[missing]
 	  }
 	 }
@@ -638,8 +638,11 @@ level 3/.style = {sibling distance = .75cm}
 	;
 
 
-\draw[-latex,ultra thick] (2,-1.5) -- ++ (1,0);
+
 \end{tikzpicture}
 \end{document}
 ```
+
+in estrazione 10, 9, 8, 7, 6, 5, 4, 3, 2 , 1
+Questo è un [[Heapsort]] "a mano"
 
