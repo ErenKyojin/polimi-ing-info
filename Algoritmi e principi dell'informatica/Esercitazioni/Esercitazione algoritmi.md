@@ -42,4 +42,7 @@ quindi $T(n) = \Theta(n^{\log_{2}(t)})$
 
 ## 3
 $$ T(n) = 2T\left( \frac{n}{4} \right) + 1\quad a = 2, b = 4, h=k=0 $$
-$\log_{b}(a)=\log_{4}(2) = \frac{1}{2}$
+$\log_{b}(a)=\log_{4}(2) = \frac{1}{2} \implies T(n) = \Theta(\sqrt{ n })$
+
+### 3 var
+$$T(n) = 2T\left( \frac{n}{4} \right) + \sqrt{ n }$$
