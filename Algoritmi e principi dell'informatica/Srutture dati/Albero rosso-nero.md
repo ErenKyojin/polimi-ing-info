@@ -273,7 +273,18 @@ level 3/.style={sibling distance = .75cm}
 \node[left = 2.5mm] at (Z) {z};
 \node[right = 2.5mm] at (Y){y};
 \node[left = 2.5mm] at (R){x.p};
-\draw[-latex, ultra thick] (2,-2) -- ++ (2,0);
+\draw[-latex, ultra thick] (2,-2) -- ++ (1,0);
+\end{tikzpicture}
+
+\begin{tikzpicture}
+[
+level 1/.style={sibling distance = 1.75cm},
+level 2/.style={sibling distance = 1cm},
+level 3/.style={sibling distance = .75cm}
+]
+\node[draw]{5}
+
+\draw[-latex, ultra thick] (2,-2) -- ++ (1,0);
 \end{tikzpicture}
 
 \end{document}
