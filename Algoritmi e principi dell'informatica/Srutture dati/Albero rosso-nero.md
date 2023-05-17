@@ -180,12 +180,14 @@ Ripeto quindi la procedura su x.p in quanto il padre di x.p potrebbe essere di c
 \begin{document}
 \begin{tikzpicture}
 [
-level 1/.style={}
+level 1/.style={sibling distance = 2.5cm},
+level 2/.style={sibling distance = 1.5cm}
 ]
 \node[draw] (R) {7}
 	child{node (X) [fill = red, fill opacity = 0.5, draw]{3} 
 	 child{node {$\alpha$}}
-	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{5}}
+	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{5}
+	  child{}}
 	 }
 	child{node (Y)[draw]{9}};
 \node[left = 2.5mm] at (X) {x};
@@ -194,7 +196,11 @@ level 1/.style={}
 \node[left = 2.5mm] at (R){x.p};
 \draw[-latex,ultra thick] (1,-1) -- ++ (2,0);
 \end{tikzpicture}
-\begin{tikzpicture}[]
+\begin{tikzpicture}
+[
+level 1/.style={sibling distance = 2.5cm},
+level 2/.style={sibling distance = 1.5cm}
+]
 \node[draw, fill = red, fill opacity = 0.5] (R) {7}
 	child{node (X) [draw]{5} 
 	 child[missing]
