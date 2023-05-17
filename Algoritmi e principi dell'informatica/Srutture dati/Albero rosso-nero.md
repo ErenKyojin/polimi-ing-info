@@ -185,6 +185,7 @@ level 2/.style={sibling distance = 1.5cm}
 ]
 \node[draw] (R) {7}
 	child{node (X) [fill = red, fill opacity = 0.5, draw]{3} 
+	 child{node {$\alpha$}}
 	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{5}
 	  child{node{$\beta$}}
 	  child{node{$\gamma$}}}
@@ -206,10 +207,10 @@ level 2/.style={sibling distance = 1.5cm}
 ]
 \node[draw] (R) {7}
 	child{node (X) [fill = red, fill opacity = 0.5, draw]{3} 
-	 child{node {$\alpha$}}
 	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{5}
-	  child{node{$\beta$}}
-	  child{node{$\gamma$}}}
+	  child{node{$\alpha$}}
+	  child{node{$\beta$}}}
+	 child{node {$\gamma$}}
 	 }
 	child{node (Y)[draw]{9}
 	 child{node{$\delta$}}
