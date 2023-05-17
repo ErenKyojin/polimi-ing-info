@@ -394,11 +394,13 @@ RB-DELETE-FIXUP(T, x)
 \begin{document}
 \begin{tikzpicture}
 [
-level 1/.style = {si}
+level 1/.style = {sibling distance = 1.5 cm},
+level 2/.style = {sibling distance = 1cm},
+level 3/.style = {sibling distance = .75cm},
 
 ]
 \node {3}
-	child{node{1}}
+	child{node[draw]{1}}
 	child{node{7}
 	 child{node{5}
 	  child{node{$\gamma$}}
