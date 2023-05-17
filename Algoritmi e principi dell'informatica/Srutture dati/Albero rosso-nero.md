@@ -299,7 +299,7 @@ level 3/.style={sibling distance = .75cm}
 
 \end{document}
 ```
-Ogni volte che si invoca RB-INSERT-FIXUP può o terminare come nel caso 2 e 3, o venire applicato ricorsivamente risalendo due livelli dell'albero come nel caso 1. Può quindi essere invocato al massimo $O(h)$
+Ogni volte che si invoca RB-INSERT-FIXUP può o terminare come nel caso 2 e 3, o venire applicato ricorsivamente risalendo due livelli dell'albero come nel caso 1. Può quindi essere invocato al massimo $O(h)$ volte, quindi $O(\log(n))$, inoltre una catena di invocazioni di RB-INSERT-FIXUP esegue al più 2 rotazioni.
 
 ## Cancellazione
 
@@ -323,3 +323,5 @@ RB-DELETE(T,z)
 		RB-DELETE-FIXUP(T, x)
 	return y
 ```
+
+È molto simile a TREE-DELETE, ma usa T.nil
