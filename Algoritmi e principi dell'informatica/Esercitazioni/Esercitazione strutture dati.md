@@ -472,7 +472,9 @@ level 3/.style = {sibling distance = .5cm}
 \node (9) {9}
 	child{node(7){7}
 	 child{node (3){3}
-	  child{}}
+	  child{node(6){6}}
+	  child[missing]
+	  }
 	 child{node (5){5}}
 	 }
 	child{node(4){4}
@@ -483,6 +485,7 @@ level 3/.style = {sibling distance = .5cm}
 
 
 \draw[-latex,ultra thick] (1,-1.5) -- ++ (1,0);
+\path[-latex,thick] (6) edge[bend left] (A)
 
 \end{tikzpicture}
 \end{document}
