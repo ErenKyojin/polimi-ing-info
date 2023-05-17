@@ -165,4 +165,24 @@ level 2/.style={sibling distance = 1cm}
 \end{document}
 ```
 
-### I
+### Aggiunta di un valore
+```tikz
+\begin{document}
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style={sibling distance = 1.5cm},
+level 2/.style={sibling distance = 1cm}
+
+]
+\node {5}
+	child {node{4}
+	 child{node{3}}
+	 child[missing]
+	 }
+	child {node{2}
+	 child{node{1}}
+	 child[missing]
+	};
+\end{tikzpicture}
+\end{document}
