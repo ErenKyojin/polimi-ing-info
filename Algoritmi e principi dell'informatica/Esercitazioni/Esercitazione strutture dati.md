@@ -667,7 +667,6 @@ e $h(x) = x \mod 11$
 start chain = 1 going right,
 start chain = 2 going right,
 node distance = 5mm,
-every node on chain = 1
 ]
 \node[on chain = 1] {0};
 \node[on chain = 1] {1};
@@ -681,10 +680,10 @@ every node on chain = 1
 \node[on chain = 1] {9};
 \node[on chain = 1] {10};
 
-\node[on chain = 2] at(0,-0.5) {};
-\node[on chain = 2] {};
-\node[on chain = 2] {35};
-\node[on chain = 2] {57};
+\node[on chain = 2,draw] at(0,-0.5) {};
+\node[on chain = 2,draw] {};
+\node[on chain = 2,draw] {35};
+\node[on chain = 2,draw] {57};
 \node[on chain = 2] {26};
 \node[on chain = 2] {15};
 \node[on chain = 2] {83};
