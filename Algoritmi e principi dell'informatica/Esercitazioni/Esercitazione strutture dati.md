@@ -241,9 +241,10 @@ level 2/.style={sibling distance = 1cm}
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[every node/.style={scale}]
 \node (1){10};
-\node (2){5}
+\node[left] at (1){5};
+
 \end{tikzpicture}
 \end{document}
 ```
