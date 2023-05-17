@@ -85,7 +85,7 @@ level 2/.style={sibling distance = 1cm}
 \end{document}
 ```
 - $h$ non è piú una heap (ogni nodo deve contenere una chiave)
-- Accedo quindi al nodo piú in basso a destra
+- Accedo quindi al nodo piú in basso a destra (costo $\log_{2}(n)$)
     ```tikz
 \begin{document}
 \begin{tikzpicture}
@@ -104,6 +104,25 @@ level 2/.style={sibling distance = 1cm}
 	 child{node[fill = red]{1}}
 	 child[missing]
 	};
+\end{tikzpicture}
+\end{document}
+```
+- Copio il contenuto di questo nodo in cima
+    ```tikz
+\begin{document}
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style={sibling distance = 1.5cm},
+level 2/.style={sibling distance = 1cm}
+
+]
+\node {1}
+	child {node{5}
+	 child{node{3}}
+	 child{node{4}}
+	 }
+	child {node{2}};
 \end{tikzpicture}
 \end{document}
 ```
