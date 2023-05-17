@@ -104,7 +104,12 @@ RB-INSERT-FIXUP(T, z)
 					y.color := BLACK       //CASO 1
 					x.p.color := RED       //CASO 1
 					RB-INSERT-FIXUP(T,x.p) //CASO 1
-				else if z = x.rig
+				else if z = x.right
+					z := x                 //CASO 2
+					LEFT-ROTATE(T, z)      //CASO 2
+					x := z.p               //CASO 2
+				x.color := BLACK           //CASO 3
+				x.p.color := RED
 ...
 ```
 3 casi piú 3 speculari2
