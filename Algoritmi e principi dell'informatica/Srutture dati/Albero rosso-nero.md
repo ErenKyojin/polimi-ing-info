@@ -178,11 +178,11 @@ Ripeto quindi la procedura su x.p in quanto il padre di x.p potrebbe essere di c
 \begin{document}
 \begin{tikzpicture}[]
 \node[draw] (R) {7}
-	child{node (X) [fill = red, fill opacity = 0.5, draw]{5} 
+	child{node (X) [fill = red, fill opacity = 0.5, draw]{3} 
 	 child[missing]
-	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{3}}
+	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{5}}
 	 }
-	child{node (Y)[fill = red, fill opacity = 0.5, draw]{9}};
+	child{node (Y)[draw]{9}};
 \node[left = 2.5mm] at (X) {x};
 \node[left = 2.5mm] at (Z) {z};
 \node[right = 2.5mm] at (Y){y};
@@ -205,7 +205,34 @@ Ripeto quindi la procedura su x.p in quanto il padre di x.p potrebbe essere di c
 ```
 
 ### Caso 2, y nero e z figlio destro di x
-
+```tikz
+\begin{document}
+\begin{tikzpicture}[]
+\node[draw] (R) {7}
+	child{node (X) [fill = red, fill opacity = 0.5, draw]{3} 
+	 child[missing]
+	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{5}}
+	 }
+	child{node (Y)[draw]{9}};
+\node[left = 2.5mm] at (X) {x};
+\node[left = 2.5mm] at (Z) {z};
+\node[right = 2.5mm] at (Y){y};
+\node[left = 2.5mm] at (R){x.p};
+\draw[-latex,ultra thick] (1,-1) -- ++ (2,0);
+\end{tikzpicture}
+\begin{tikzpicture}[]
+\node[draw, fill = red, fill opacity = 0.5] (R) {7}
+	child{node (X) [draw]{5} 
+	 child[missing]
+	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{3}}
+	 }
+	child{node (Y)[draw]{9}};
+\node[left = 2.5mm] at (X) {x};
+\node[left = 2.5mm] at (Z) {z};
+\node[right = 2.5mm] at (Y){y};
+\node[left = 2.5mm] at (R){x.p};
+\end{tikzpicture}
+\end{document}
 
 ## Cancellazione
 
