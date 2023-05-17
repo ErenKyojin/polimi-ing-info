@@ -694,11 +694,14 @@ level 3/.style = {sibling distance = .75cm},
 
 ]
 \node[draw,fill = red, fill opacity = .5] {7}
-	child{node{3}
-	 child{node{1}}
-	 child{node[{5}}
+	child{node[draw]{3}
+	 child{node[draw]{1}
+	  child{node{$\alpha$}}
+	  
+	  }
+	 child{node[fill = purple, draw, fill opacity = .5]{5}}
 	 }
-	child{node{9}}
+	child{node[draw]{9}};
 \end{tikzpicture}
 
 \end{document}
