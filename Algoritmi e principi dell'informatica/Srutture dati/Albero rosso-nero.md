@@ -645,11 +645,11 @@ level 3/.style = {sibling distance = .75cm},
 	 child{node{$\beta$}}
 	 }
 	child{node (W) [draw]{7}
-	 child{node[draw, fill = red, fill opacity = .5]{5}
+	 child{node[draw, fill = purple, fill opacity = .5]{5}
 	  child{node{$\gamma$}}
 	  child{node{$\delta$}}
 	  }
-	 child{node[draw]{9}
+	 child{node[draw, fill = red, fill opacity = .5]{9}
 	  child{node{$\varepsilon$}}
 	  child{node{$\xi$}}
 	  }
@@ -661,3 +661,4 @@ level 3/.style = {sibling distance = .75cm},
 
 \end{document}
 ```
+Viola significa di qualsiasi colore
