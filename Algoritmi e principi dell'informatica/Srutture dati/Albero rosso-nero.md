@@ -456,10 +456,13 @@ level 3/.style = {sibling distance = .75cm},
 \node[draw] {7}
 	child{node [draw, fill = red, fill opacity = .5]{3}
 	 child{node(X)[draw]{1}
-	  child{node{$\$}}
-	  
+	  child{node{$\alpha$}}
+	  child{node{$\beta$}}
 	  }
-	 child{node(W)[draw]{5}}
+	 child{node(W)[draw]{5}
+	  child{node{$\gamma$}}
+	  child{node{$\delta$}}
+	  }
 	 }
 	child{node{9}
 	 child{node{$\varepsilon$}}
@@ -467,8 +470,11 @@ level 3/.style = {sibling distance = .75cm},
 	 };
 \node[left=5mm] at (X){x};
 \node[left=2mm] at (W){w};
-\draw[-latex,ultra thick] (2,-1) -- ++ (1,0);
 \end{tikzpicture}
 
 \end{document}
 ```
+
+Diventa o il caso 2, o il caso 3, o il caso 4
+
+### Caso 2, x 
