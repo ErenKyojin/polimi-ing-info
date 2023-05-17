@@ -715,4 +715,4 @@ level 3/.style = {sibling distance = .75cm},
 Viola significa di qualsiasi colore.
 
 Ogni volta che RB-DELETE-FIXUP viene invocato esso può terminare (casi 0, 1, 3 e 4) o venire applicato ricorsivamente risalendo un livell nell'albero (caso 2 non proveniente da 1).
-Può quindi essere invocato al massimo $O(h)$
+Può quindi essere invocato al massimo $O(h)$ volte quindi $O(\log(n))$, inoltre una catena di invocazioni di RB-DELETE-FIXUP esegue al massimo 3 rotazioni (caso 1 -> caso 3 -> caso 4)
