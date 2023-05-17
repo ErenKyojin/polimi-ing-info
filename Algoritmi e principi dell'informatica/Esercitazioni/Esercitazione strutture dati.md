@@ -254,8 +254,9 @@ level 2/.style={sibling distance = 1cm}
 \node[above = 3mm] at (d) {4};
 \node[above = 3mm] at (e) {5};
 
-\draw(a) to (b);
-\draw(a) to (c);
+\path[-latex, ultra thick] 
+	  (a) edge[bend right] (b.south)
+	  (a) edge[bend right] (c);
 
 \end{tikzpicture}
 \end{document}
