@@ -272,12 +272,14 @@ Date le chiavi 3, 5, 2, 7, 9, 1, 4, 6, 8, 10
 \begin{tikzpicture}
 [
 every node/.style={draw},
-level 1/.style = {draw}
-
+level 1/.style = {sibling distance = 1.5cm},
+level 2/.style = {sibling distance = .75cm},
+level 3/.style = {sibling distance = .5cm}
 
 ]
 
 \node {3}
+	child{node{5}};
 
 \end{tikzpicture}
 \end{document}
