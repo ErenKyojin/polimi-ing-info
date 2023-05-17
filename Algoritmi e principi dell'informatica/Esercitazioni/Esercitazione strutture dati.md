@@ -647,4 +647,7 @@ in estrazione 10, 9, 8, 7, 6, 5, 4, 3, 2 , 1
 Questo è un [[Heapsort]] "a mano"
 
 # Tabelle hash
-To hash signfica sminuzzare/tritare, vogliamo sminuzzare i dati per trarne qualche tipo di "essenza"
+To hash signfica sminuzzare/tritare, vogliamo sminuzzare i dati per trarne qualche tipo di "essenza".
+
+>[!esempio]
+>Ho un database di foto di 1GB, devo essere pronto ad avere $2^{1'000'0}$
