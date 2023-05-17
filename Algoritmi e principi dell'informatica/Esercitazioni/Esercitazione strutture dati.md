@@ -126,3 +126,6 @@ level 2/.style={sibling distance = 1cm}
 \end{tikzpicture}
 \end{document}
 ```
+	Non abbiamo piú una heap ma la struttura è corretta.
+- Ripristino la heap
+	- Parti dalla radice, guarda i due figli, scambia se un fi
