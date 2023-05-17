@@ -326,3 +326,11 @@ RB-DELETE(T,z)
 
 È molto simile a TREE-DELETE, ma usa T.nil al posto di NIL.
 Se viene cancellato un nodo rosso non c'è sicuramente bisogno di modificare colori dei nodi, inoltre RB-DELETE cancella un nodo $y$ che ha al massimo un figlio diverso da T.nil, e se `y.color = RED` il nodo $x$ che prende il posto di $y$ è per forza nero.
+
+```
+RB-DELETE-FIXUP(T, x)
+	if x.color = RED or x.p = T.nil
+		x.color := BLACK                    //Caso 0
+	elseif x = x.p.left                     //x è figlio sinistro
+		w := x.p.right                      //
+```
