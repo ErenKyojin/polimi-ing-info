@@ -53,4 +53,13 @@ Studiare per $a \geq 1$
 $$ T(n) = aT\left( \frac{n}{2} \right) + n^2\log^2(n) $$
 ci sono $a$ tali che
 1. $T(n) = O(n^3)$?
-2. $T(n) = \Omega(n)$
+2. $T(n) = \Omega(n^2\log^3(n))$?
+3. $T(n)= \Omega(n^2\log^7n)$?
+
+### 1.
+$a, b = 2, k = 2, h = 2$
+$\log_{b}(a) = \log_{2}(a)$:
+
+$$ T(n) = \begin{cases}
+&se\ \log_{2}(a) > 2
+\end{cases} $$
