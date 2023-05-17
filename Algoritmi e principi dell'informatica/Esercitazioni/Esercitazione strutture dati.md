@@ -765,5 +765,4 @@ Sono distribuiti nel modo piú bilanciato possibile.
 \end{tikzpicture}
 \end{document}
 ```
-Tabella hash
-chiavi $\{ 35,83,\dots \}$ e $h(x)$
+
