@@ -332,5 +332,8 @@ RB-DELETE-FIXUP(T, x)
 	if x.color = RED or x.p = T.nil
 		x.color := BLACK                    //Caso 0
 	elseif x = x.p.left                     //x è figlio sinistro
-		w := x.p.right                      //
+		w := x.p.right                      //w è fratello di x
+		if w.color = RED
+			w.colo := BLACK                 //Caso 1
+			
 ```
