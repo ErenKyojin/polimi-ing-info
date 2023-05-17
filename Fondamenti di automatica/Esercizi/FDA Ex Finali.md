@@ -52,6 +52,7 @@ $\implies$ scelgo $T_{s} = 0,004$
 #### 3.
 $$R^*(z) \underset{ \uparrow EE }{ = } R\left( \frac{z-1}{T_{s}} \right)= 7.85 \frac{\left( 1 + \frac{z-1}{0,004} \right)}{\frac{z-1}{0,004}} = 7,85 \frac{z-0,996}{z - 1} = \frac{7,85z - 7,82}{z - 1} = \frac{U(z)}{E(z)}$$
 Quindi $(z-1)U(z) = (7.85z-7.82)E(z)$
-$U(k + 1) - U(k) = 7,85e(k + 1) - 7,82e(k)$
+$u(k + 1) - u(k) = 7,85e(k + 1) - 7,82e(k)$
 $\implies$ legge di controllo
-$$ u(k) = u(k - 1) + 7 $$
+$$ u(k) = \fcolorbox{red}{}{$u(k - 1)$} + 7.85e(k) - 7.82 e(k - 1) $$
+in rosso integratore, polo in Z = 1
