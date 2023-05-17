@@ -686,4 +686,5 @@ node distance = 5mm,
 \end{tikzpicture}
 \end{document}
 ```
-proviamo a metterlo nel risultato corrispondente, altrimenti nel primo libero a destra
+proviamo a metterlo nel risultato corrispondente, altrimenti nel primo libero a destra, ma la ricerca poi diventa tediosa.
+$h$
