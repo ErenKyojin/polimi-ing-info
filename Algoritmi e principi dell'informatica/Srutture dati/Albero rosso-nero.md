@@ -95,6 +95,7 @@ Solito $O(h)$.
 RB-INSERT-FIXUP(T, z)
 	if z = T.root
 		T.root.color = BLACK
+		
 ...
 ```
 3 casi piú 3 speculari2
