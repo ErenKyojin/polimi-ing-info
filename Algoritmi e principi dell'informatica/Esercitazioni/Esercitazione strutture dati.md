@@ -676,11 +676,14 @@ node distance = 5mm,
 \node[on chain = 1,draw] (4) {26};
 \node[on chain = 1,draw] (5) {15};
 \node[on chain = 1,draw] (6) {83};
-\node[on chain = 1,draw] (7{};
-\node[on chain = 1,draw] {63};
-\node[on chain = 1,draw] {97};
-\node[on chain = 1,draw] {};
+\node[on chain = 1,draw] (7) {};
+\node[on chain = 1,draw] (8) {63};
+\node[on chain = 1,draw] (9) {97};
+\node[on chain = 1,draw] (10) {};
+
+\foreach{x}
 
 \end{tikzpicture}
 \end{document}
 ```
+proviamo a metterlo nel risultato corrispondente, altrimenti nel primo libero a destra
