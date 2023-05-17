@@ -249,16 +249,17 @@ level 3/.style={sibling distance = .75cm}
 \node[left = 2.5mm] at (Z) {z};
 \node[right = 2.5mm] at (Y){y};
 \node[left = 2.5mm] at (R){x.p};
-\draw[-latex, ultra thick] (2,-2) -- ++ (2,0);
+\draw[-latex, ultra thick] (2,-2) -- ++ (1,0);
 \end{tikzpicture}
+
 \begin{tikzpicture}
 [
 level 1/.style={sibling distance = 1.75cm},
 level 2/.style={sibling distance = 1cm},
 level 3/.style={sibling distance = .75cm}
 ]
-\node[draw] (R) {7}
-	child{node (X) [fill = red, fill opacity = 0.5, draw]{5} 
+\node[draw, fill = red, fill opacity = .5] (R) {7}
+	child{node (X) [draw]{5} 
 	 child{node (Z)[fill = red, fill opacity = 0.5, draw]{3}
 	  child{node{$\alpha$}}
 	  child{node{$\beta$}}}
@@ -274,6 +275,7 @@ level 3/.style={sibling distance = .75cm}
 \node[left = 2.5mm] at (R){x.p};
 \draw[-latex, ultra thick] (2,-2) -- ++ (2,0);
 \end{tikzpicture}
+
 \end{document}
 ```
 
