@@ -326,14 +326,16 @@ level 3/.style = {sibling distance = .5cm}
 ]
 
 \node (5) {5}
-	child{node{3}
-	 child{node{7}}
+	child{node(3){3}
+	 child{node (7){7}}
 	 child[missing]
 	 }
 	child{node{2}}
 	;
-
+\draw[-latex] (7) to[bend left] (3);
+\draw[-latex] (3) to[bend left] (5);
 \end{tikzpicture}
 
 \end{document}
 ```
+
