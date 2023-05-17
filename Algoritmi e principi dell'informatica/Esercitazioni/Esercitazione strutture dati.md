@@ -696,4 +696,4 @@ $h(97)=9$
 Strategia ispezione lineare
 cerco 90, h(90) = 2, cancello 35, cerco 57.
 
-L'ispezione lineare è a rischio di cluster, ma 
+L'ispezione lineare è a rischio di cluster, ma basta ingrandire la tabella.
