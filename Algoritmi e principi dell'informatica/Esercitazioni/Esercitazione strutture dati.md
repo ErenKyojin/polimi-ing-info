@@ -748,20 +748,22 @@ Sono distribuiti nel modo piú bilanciato possibile.
 \begin{document}
 \begin{tikzpicture}[start chain = 1 going right, node distance = 5mm]
 
-\node[on chain = 1,draw] (0) at(0,-0.5) {46};
-\node[on chain = 1,draw] (1) {};
+\node[on chain = 1,draw] (0) at(0,-0.5) {};
+\node[on chain = 1,draw] (1) {46};
 \node[on chain = 1,draw] (2) {35};
-\node[on chain = 1,draw] (3) {57};
+\node[on chain = 1,draw] (3) {};
 \node[on chain = 1,draw] (4) {26};
 \node[on chain = 1,draw] (5) {15};
 \node[on chain = 1,draw] (6) {83};
 \node[on chain = 1,draw] (7) {};
 \node[on chain = 1,draw] (8) {63};
 \node[on chain = 1,draw] (9) {97};
-\node[on chain = 1,draw] (10) {};
+\node[on chain = 1,draw] (10) {57};
 
 \foreach \x in {0,...,10}
 	\node[above = 5mm] at (\x) {\x};
 \end{tikzpicture}
 \end{document}
 ```
+Tabella hash
+chiavi $\{ 35,83,\dots \}$ e $h(x)$
