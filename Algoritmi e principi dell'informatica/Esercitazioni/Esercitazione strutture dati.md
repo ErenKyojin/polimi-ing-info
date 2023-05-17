@@ -767,4 +767,4 @@ Sono distribuiti nel modo piú bilanciato possibile.
 ```
 
 ## hash con lista
-Ogni has contiene  
+Ogni hash contiene la lista dei valori con lo stesso $\mod 11$, la lista è inserita a partire dalla testa, ogni lista è circa il fattore di carico
