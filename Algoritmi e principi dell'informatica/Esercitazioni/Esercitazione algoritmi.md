@@ -100,5 +100,28 @@ level 2/.style={sibling distance = 1cm}
 \end{document}
 ```
 due tipi di heap:
-- min-heap 
-- max-heap: la chiave con
+- min-heap  ""
+- max-heap: la chiave contenuta nella radice di qualsiasi sottoalbero è maggiore di tutti i propri rami
+
+
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+[
+every node/.style={draw},
+level 1/.style={sibling distance = 1.5cm},
+level 2/.style={sibling distance = 1cm}
+
+]
+\node {9}
+	child {node{5}
+	 child{node{}}
+	 child{node{}}
+	 }
+	child {node{7}
+	 child{node{}}
+	 child[missing]
+	};
+\end{tikzpicture}
+\end{document}
