@@ -703,9 +703,9 @@ L'ispezione lineare è a rischio di cluster, ma basta ingrandire la tabella. Anc
 ```tikz
 \usetikzlibrary{chains}
 \begin{document}
-\begin{tikzpicture}
-\forach \x
-	\node {};
+\begin{tikzpicture}[start chain = 1 going right]
+\foreach \x 
+	\node {\x};
 \end{tikzpicture}
 \end{document}
 ```
