@@ -19,7 +19,9 @@ $$ L(s) = R(s)P(s) = k \frac{1 + s}{s} \frac{e^{-0.15}}{1 + s} =k \frac{e^{-0.1s
 \begin{document}
 \begin{tikzpicture}
 \draw[-latex,thick] (-3,0) -- ++ (6,0) node[right]{$\omega$};
-\draw[red] (-2.5)
+\draw[red] (-2.5,1) -- (2.5,-1);
 \end{tikzpicture}
 \end{document}
 ```
+$\angle^o (j \omega) = -90^o - 0,1 \omega_{c} \frac{180^o}{\pi}$
+$\implies \varphi_{c} = $
