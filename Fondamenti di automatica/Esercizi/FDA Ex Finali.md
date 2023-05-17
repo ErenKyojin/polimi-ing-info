@@ -14,4 +14,12 @@ $$ P(s) = \frac{e^{-0.1s}}{1 + s}\quad, R(s) = k \frac{1 + s}{s}$$
 3. Scrivere la legge di controllo a TD usando il metodo di eulero esplicito
 
 #### 1
-$$ L(s) = R(s)P(s) = k \frac{1 + s}{s} \frac{e^{-0.15}}{1 + s} =k (e) $$
+$$ L(s) = R(s)P(s) = k \frac{1 + s}{s} \frac{e^{-0.15}}{1 + s} =k \frac{e^{-0.1s}}{s} $$
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[-latex,thick] (-3,0) -- ++ (6,0) node[right]{$\omega$};
+\draw[red] (-2.5)
+\end{tikzpicture}
+\end{document}
+```
