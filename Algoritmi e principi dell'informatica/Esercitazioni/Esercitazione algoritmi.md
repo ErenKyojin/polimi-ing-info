@@ -62,5 +62,6 @@ $\log_{b}(a) = \log_{2}(a)$:
 
 $$ T(n) = \begin{cases}
 \Theta(n^{\log_{2}(a)})&se\ \log_{2}(a) > 2 \iff a > 4 \\
-&se\ a=4 
+\Theta(n^2 \log^3(n))&se\ a=4  \\
+\Theta(n^2 \log^2(n))&se\ a < 4
 \end{cases} $$
