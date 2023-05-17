@@ -95,7 +95,9 @@ Solito $O(h)$.
 RB-INSERT-FIXUP(T, z)
 	if z = T.root
 		T.root.color = BLACK
-		
+	else x := z.p         //Quindi x è il padre di z
+		if x.color = RED 
+			if x = x.p.left //x è figl
 ...
 ```
 3 casi piú 3 speculari2
