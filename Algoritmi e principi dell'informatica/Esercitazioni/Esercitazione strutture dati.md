@@ -278,8 +278,8 @@ level 3/.style = {sibling distance = .5cm}
 
 ]
 
-\node {3}
-	child{node{5}}
+\node (3) {3}
+	child{node (5) {5}}
 	child[missing]
 	;
 
