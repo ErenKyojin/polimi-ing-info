@@ -611,8 +611,12 @@ level 3/.style = {sibling distance = .75cm},
 	 child{node{$\beta$}}
 	}
 	child{node (W) {5}
-	 child{node (X) }
-	}
+	 child{node {$\gamma$}}
+	 child{node[draw, fill = red, fill opacity = .5] {7}
+	  child{$\gamma$}
+	  child
+	 }
+	};
 
 \end{tikzpicture}
 
