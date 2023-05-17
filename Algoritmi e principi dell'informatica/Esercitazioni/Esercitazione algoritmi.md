@@ -35,4 +35,7 @@ $a = 8, b = 2, k= 2, h= 0$
 $\log_{b}(a) = \log_{2}(8) = 3 > k =2$ 
 quindi $T(n) = \Theta(n^3)$ per il teorema principale
 
-## @
+## 2
+$$ T(n) = 7T\left( \frac{n}{2} \right) + \Theta(n^2) $$
+$\log_{b}(a) = \log_{2}(7) > 2 = k$
+quindi $T(n) = \Theta(n^{\log_{2}(t)})$
