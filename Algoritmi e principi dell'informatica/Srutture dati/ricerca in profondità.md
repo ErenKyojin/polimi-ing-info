@@ -129,7 +129,8 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 		1: =
 		{
 			:fill = "black"
-		}
+		},
+		3: =
 	
 	},
 	10s = {
@@ -148,7 +149,7 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 
 \node[draw,text=red!90,text opacity = 1,fill = gray]  (0) at (0,0){1};
 \node[below left of = 0,draw,fill = white, text = red] (1) {2};
-\node[right of = 0,draw,fill = white, text = red] (3) {};
+\node[right of = 0,draw,fill = white, text = red] (3) {8};
 \node[right of = 3,draw,fill = white, text = red] (2) {};
 \node[below right of = 3,draw, fill = white, text = red] (4){};
 \node[below right of = 1,draw,fill = white,text = red] (5) {3,4};
@@ -176,5 +177,4 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 \end{document}
 ```
 
-\node[fill = green!50!black, text = white]   :rotate = { 1s = "0", 5s = "90", [begin](https://tikz.dev/base-animations#pgf.begin) = 2s, [end](https://tikz.dev/base-animations#pgf.end) = 4s }   {Click me};`
 
