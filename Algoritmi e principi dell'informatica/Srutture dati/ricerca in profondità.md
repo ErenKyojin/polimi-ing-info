@@ -228,7 +228,7 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 			:text = "red"
 		
 		}
-	}
+	},
 	22s = {
 		2: =
 		{
@@ -274,3 +274,6 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 ```
 
 
+I valori sono rispettivamente quando diventano grigi e quando diventano neri
+
+#todo ordinamento topologico
