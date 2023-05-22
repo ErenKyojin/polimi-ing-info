@@ -8,4 +8,9 @@ modification date: 2023-05-22 14:47
 In questo caso l'idea è che ogni volta che impiliamo un nodo in cima allo stack iniziamo a visitare i nodi adiacenti a quest'ultimo, mentre nel BFS visitavamo quello da più tempo in coda.
 Per ottenere un algoritmo di DFS è sufficente cambiare ENQUEUE con PUSH e DEQUEUE con POP nell'algoritmo di BFS.
 
-In realtà il DFS ch
+In realtà il DFS che vediamo risolve un problema leggermente diverso da BFS:
+
+>[!question] Problema risolto da DFS
+>input: grafo G
+>output: visitare tutti i nodi di G
+> (osserviamo che in BFS visitavamo solo i nodi raggiungibili da m)
