@@ -123,24 +123,31 @@ I grafi in memoria si possono descrivere in due modi:
  ```
 
 ### matrice di adiancenza
-$$ \begin{align}
-V &= \{ a,b,c,d,e \} \\
-E &= \{ (a,b),(a,d)(d,a),(b,e) \\
-  &\quad (c,e),(e,d),(e,e)\}
-\end{align}$$
 
-$$ \begin{flalign}
-&\begin{array}{ccc}
- & a & b & c & d & e
-\end{array}\\
-&\begin{array}{}
-a \\
-b \\
-c \\
-d \\
-e
-\end{array} \begin{bmatrix}
-0 & 1 & 01 & 0 \\
-0 & 0 & 0 & 0
-\end{bmatrix}
-\end{flalign}$$
+> [!multi-column]
+> > [!NOTE]
+> > $$ \begin{align}
+> > V &= \{ a,b,c,d,e \} \\
+> > E &= \{ (a,b),(a,d)(d,a),(b,e) \\
+> >   &\quad (c,e),(e,d),(e,e)\}
+> > \end{align}$$
+> 
+> > [!NOTE]
+> > $$ \begin{flalign}
+> > &\begin{array}{ccc}
+> >  &\ \ a & b & c & d & e
+> > \end{array}\\
+> > &\begin{array}{}
+> > a \\
+> > b \\
+> > c \\
+> > d \\
+> > e
+> > \end{array} \begin{bmatrix}
+> > 0 & 1 & 0 & 1 & 0 \\
+> > 0 & 0 & 0 & 0 & 1 \\
+> > 0 & 0 & 0 & 0 & 1 \\
+> > 1 & 0 & 0 & 0 & 0 \\
+> > 0 & 0 & 0 & 1 & 1
+> > \end{bmatrix}
+> > \end{flalign}$$
