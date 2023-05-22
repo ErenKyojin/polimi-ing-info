@@ -122,7 +122,8 @@ I grafi in memoria si possono descrivere in due modi:
  \end{document}
  ```
 
-Abbiamo un array di liste, con una lista per ogni nodo del grafo, per ogni vertice $v$ la l
+Abbiamo un array di liste, con una lista per ogni nodo del grafo, per ogni vertice $v$ la lista corrispondente contiene i vertici adiacenti a $v$.
+
 ### matrice di adiancenza
 
 > [!multi-column]
