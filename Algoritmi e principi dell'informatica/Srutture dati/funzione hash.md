@@ -90,4 +90,4 @@ Il **numero medio** di ispezioni necessarie per **trovare** un elemento presente
 - $(m + 1)/2$ se $\alpha = 1$
 - $< 1 / \alpha(\log(1 / (1- \alpha)))$ se $\alpha < 1$
 
-Per quanto efficace, trovare funzioni hash che soddisfino l'hashing uniforme non è facile, introduciamo quindi le [[tecniche di ispezione]]
+Per quanto efficace, trovare funzioni hash che soddisfino l'hashing uniforme non è facile, vediamo quindi le [[tecniche di ispezione]] 
