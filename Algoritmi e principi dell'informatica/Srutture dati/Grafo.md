@@ -20,25 +20,49 @@ Esistono 2 tipi di grafi:
 - In un grafo non orientato, un arco $(u,v)$ è lo stesso di $(v,u)$, non c'è alcuna nozione di direzione da un nodo all'altro
 - In un grafo orientato $(u,v)$ va dal nodo $u$ al nodo $v$ ed è diverso da $(v,u)$
 
-```tikz
-\begin{document}
-\begin{tikzpicture}[every node/.style={circle, thick, draw=black,scale = 1.25},scale = 2]
-\node[circle] (a) at (0,1) {a};
-\node (b) at (0,-1) {b};
-\node (c) at (1.2,-.3) {c};
-\node (d) at (1.8,1) {d};
-\node (e) at (2,-.9) {e};
-\path   (a) edge (b)
-		(a) edge (c)
-		(b) edge (c)
-		(d) edge (c)
-		(e) edge (d)
-		(e) edge (b);
+> [!esempio] Grafo non orientato
+> 
+> ```tikz
+> \begin{document}
+> \begin{tikzpicture}[every node/.style={circle, thick, draw=black,scale = 1.25},scale = 2]
+> \node[circle] (a) at (0,1) {a};
+> \node (b) at (0,-1) {b};
+> \node (c) at (1.2,-.3) {c};
+> \node (d) at (1.8,1) {d};
+> \node (e) at (2,-.9) {e};
+> \path   (a) edge (b)
+> 		(a) edge (c)
+> 		(b) edge (c)
+> 		(d) edge (c)
+> 		(e) edge (d)
+> 		(e) edge (b);
+> 
+> \node[draw=none] at (4,.5){V = \{a,b,c,d,e\}};
+> \node[draw=none] at (4,0){E=\{(b,a), (a,c), (b,c), (d,c), (e,d), (b,e)\}};
+> \end{tikzpicture}
+> \end{document}
+> ```
 
-\node[draw=none] at (4,.5){V = \{a,b,c,d,e\}};
-\node[draw=none] at (4,0){E=\{(b,a), (a,c), (b,c), (d,c), (e,d), (b,e)\}};
-\end{tikzpicture}
-\end{document}
-```
 
-L'ordine de
+>[!esempio]
+> ```tikz
+> \begin{document}
+> \begin{tikzpicture}[every node/.style={circle, thick, draw=black,scale = 1.25},scale = 2]
+> \node[circle] (a) at (0,1) {a};
+> \node (b) at (0,-1) {b};
+> \node (c) at (1.2,-.3) {c};
+> \node (d) at (1.8,1) {d};
+> \node (e) at (2,-.9) {e};
+> \path   (a) edge (b)
+> 		(a) edge (c)
+> 		(b) edge (c)
+> 		(d) edge (c)
+> 		(e) edge (d)
+> 		(e) edge (b);
+> 
+> \node[draw=none] at (4,.5){V = \{a,b,c,d,e\}};
+> \node[draw=none] at (4,0){E=\{(b,a), (a,c), (b,c), (d,c), (e,d), (b,e)\}};
+> \end{tikzpicture}
+> \end{document}
+> ```
+
