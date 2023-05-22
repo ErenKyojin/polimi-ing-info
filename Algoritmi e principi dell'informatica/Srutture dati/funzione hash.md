@@ -40,8 +40,15 @@ lista(18) & NIL & lista(38,12) & NIL  & NIL
 \end{bmatrix} $$
 ## In indirizzamento aperto
 In questo caso la tabella contiene tutte le chiavi senza memoria aggiuntiva, quindi necessariamente $\alpha \leq 1$. Per implmentarlo cerchiamo l'indice dello slot in cui va memorizzato l'oggetto; se lo slot è già occupato, si cerca nella tabella uno slot libero.
-La ricerca dello slot libero non viene fatta però in ordine (0, 1, 2, ..., m - 1), si utilizza una [[squenza di ispezione]] calcolata dalla funzione hash
+La ricerca dello slot libero non viene fatta però in ordine (0, 1, 2, ..., m - 1), si utilizza una sequenza di ispezione calcolata dalla funzione hash
 
 $h : U \times \{ 0,1,\dots,m-1 \} \to \{ 0,1,\dots,m-1 \}$
-- La sequenza di ispezione $\left< h(k,0),h(k,1),\dots,h(k,m-1) \right>$
 
+La sequenza di ispezione $\left< h(k,0),h(k,1),\dots,h(k,m-1) \right>$ deve essere per forza una permutazione di $\left< 0,1,\dots,m-1 \right>$.
+
+
+### Operazioni in indirizzamento aperto
+```
+HASH-INSERT(T, k)
+	i := 0
+```
