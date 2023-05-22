@@ -130,12 +130,6 @@ E &= \{ (a,b),(a,d)(d,a),(b,e) \\
 \end{align}$$
 
 $$ \begin{flalign}
-\begin{array}{c}
-\\ 
-a \\
-b \\
-c \\
-d \\
-e 
+\begin{array}{c@{d} c@{d} c@{d}}
 \end{array}
 \end{flalign}$$
