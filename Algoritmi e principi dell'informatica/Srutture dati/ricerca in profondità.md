@@ -170,15 +170,14 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 	
 	},
 	14s = {
-		:fill
-	
+		:fill = "black"
 	}
 
 }
 ];
 
 
-\node[draw,text=red!90,text opacity = 1,fill = gray]  (0) at (0,0){1};
+\node[draw,text=red!90,text opacity = 1,fill = gray]  (0) at (0,0){1,12};
 \node[below left of = 0,draw,fill = white, text = red] (1) {2,7};
 \node[right of = 0,draw,fill = white, text = red] (3) {8,11};
 \node[right of = 3,draw,fill = white, text = red] (2) {};
