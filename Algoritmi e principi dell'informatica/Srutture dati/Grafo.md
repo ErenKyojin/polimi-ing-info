@@ -96,11 +96,11 @@ I grafi in memoria si possono descrivere in due modi:
  \node (d) at (0,-1.5){d};
  \node (e) at (0,-2){e};
  \node[draw, right of = a,scale = 2] (l1) {};
- \node[draw, right of = b,scale = 2] (l1) {};
- \node[draw, right of = c,scale = 2] cl1) {};
- \node[draw, right of = d,scale = 2] (dl1) {};
- \node[draw, right of = e,scale = 2] (el1) {};
-  \draw[-latex]
+ \node[draw, right of = b,scale = 2] (l2) {};
+ \node[draw, right of = c,scale = 2] (l3) {};
+ \node[draw, right of = d,scale = 2] (l4) {};
+ \node[draw, right of = e,scale = 2] (l5) {};
+  \draw[-latex] (l1.center) -- ++ (1,0) node(a){A};
 
  \end{tikzpicture}
  \end{document}
