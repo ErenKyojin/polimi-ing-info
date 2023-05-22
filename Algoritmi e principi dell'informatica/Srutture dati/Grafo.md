@@ -129,6 +129,6 @@ E &= \{ (a,b),(a,d)(d,a),(b,e) \\
   &\quad (c,e),(e,d),(e,e)\}
 \end{align}$$
 
-$$ \begin{array}{c|cccc}
- & a & b & c & d & e
-\end{array} $$
+$$ \begin{multiline}
+&a
+\end{multiline}$$
