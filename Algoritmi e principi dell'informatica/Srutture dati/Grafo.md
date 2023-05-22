@@ -22,12 +22,13 @@ Esistono 2 tipi di grafi:
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}[every node/.style={circle}]
-\node (a) at (0,1) {a};
+\begin{tikzpicture}[every node/.style={circle, thick, draw=black}]
+\node[circle] (a) at (0,1) {a};
 \node (b) at (0,-1) {b};
 \node (c) at (1.2,-.3) {c};
 \node (d) at (1.8,1) {d};
 \node (e) at (2,-.9) {e};
+\path (a) edge (b)
 \end{tikzpicture}
 \end{document}
 ```
