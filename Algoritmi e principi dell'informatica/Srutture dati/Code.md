@@ -18,7 +18,7 @@ Provare a farlo con un unico puntatore di partenza diventa inutilmente complicat
 Testa -> \[ | \] -> \[ | \] -> \[ | \] <- coda
 
 ### Implementazione tramite array
-Con array la testa e la coda sono entrambi mobili sull'array ed essenzialmente si scala sugli indici, non si può fissare la testa in A\[0\] in quanto la cancellazione di elmenti intesta diventerebbe complessa.
+Con array la testa e la coda sono entrambi mobili sull'array ed essenzialmente si scala sugli indici, non si può fissare la testa in A\[0\] in quanto la cancellazione di elmenti in testa diventerebbe complessa.
 
 Qhead indice della testa in un array
 Qtail indice della coda
