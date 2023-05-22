@@ -73,4 +73,4 @@ HASH-SEARCH(T, k)
 	return NIL
 ```
 
-La cancella
+La cancellazione è più complessa, non possiamo limitarci a mettere uno slot NIL altrimenti le chiavi successive non soddisferebbero piú `HASH-SEARCH`
