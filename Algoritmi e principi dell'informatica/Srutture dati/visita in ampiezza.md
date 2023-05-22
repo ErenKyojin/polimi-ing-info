@@ -1,5 +1,5 @@
 ---
-aliases: breadth-first search
+aliases: breadth-first search, BFS
 creation date: 2023-05-22 14:15
 modification date: 2023-05-22 14:15
 ---
