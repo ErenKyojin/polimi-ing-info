@@ -16,7 +16,8 @@ Per scegliere la funzione hash ce ne conviene scegliere una che soddisfi l'ipote
 >Le funzioni hash sono solitamente implementate con il presupposto che la chiave $k$ sia un intero non negativo ($k \in \mathbb{N}$)
 
 ## Metodo della divisione
-
+$$ h(k) = k \mod m $$
+facile da realizzare e veloce (essendo una sola operazione) evitare certi valori di $m$:
 
 ## In indirizzamento aperto
 $h : U \times \{ 0,1,\dots,m-1 \} \to \{ 0,1,\dots,m-1 \}$
