@@ -110,6 +110,7 @@ I grafi in memoria si possono descrivere in due modi:
  \draw[-latex] (l4.center) -- ++ (1,0) node[right,draw] (l42){a};
  \draw[-latex] (l5.center) -- ++ (1,0) node[right,draw] (l52){e};
  \node[right=2.5mm,draw] at (l12) {};
+ \node[right=2.5mm,draw] at (l22) {n};
  \end{tikzpicture}
  \end{document}
  ```
