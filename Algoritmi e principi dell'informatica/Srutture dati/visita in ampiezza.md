@@ -83,5 +83,7 @@ BFS(G,s)
 	u.color := BLACK
 ```
 
-Le linee 1-7 sono di inizializzazione e hanno complessità $O(V)$
-Le linee 8-15 visitano i nodi
+Le linee 1-7 sono di inizializzazione e hanno complessità $O(|V|)$
+Le linee 8-15 visitano i nodi, ogni nodo $G$ viene accodato e tolto dalla coda al massimo una volta, quindi ogni lato è visitabile al massimo una volta, quindi la complessità è $O(|E|)$
+
+La complessità totale di BFS è 
