@@ -8,8 +8,9 @@ Nel caso dell'ispezione quadratica la [[Funzioni|funzione]] hash è
 $$ h(k,i) = (h'(k) + c_{1}i + c_{2}i^2 ) \mod m$$
 - $c_{1}$ e $c_{2}$ sono costanti ausiliare con $c_{2} \neq 0$
 - $c_{1}$ e $c_{2}$ non possono essere qualsiasi, ma devono essere scelte in modo che la sequenza percorra tutta la tabella
-- La posizione di ispezione iniziale determina tutta la sequenza, quindi vengono prodotte $m$ 
-Problema dell'[[addensamento]] (o clustering) secondario
+- La posizione di ispezione iniziale determina tutta la sequenza, quindi vengono prodotte $m$ sequenenze di ispezioni distinte
+
+Problema dell'[[addensamento]] (o clustering) secondario, chiavi con la stessa posizione iniziale danno luogo alla stessa sequenza di ispezione
 
 
 
