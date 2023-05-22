@@ -124,6 +124,7 @@ I grafi in memoria si possono descrivere in due modi:
 
 ### matrice di adiancenza
 $$ \begin{align}
-V = \{ a,b,c,d,e \} \\
-
-\end{align} $$
+V &= \{ a,b,c,d,e \} \\
+E &= \{ (a,b),(a,d)(d,a),(b,e) \\
+  &\quad (c,e),(e,d),(e,e)\}
+\end{align}\qquad  $$
