@@ -90,6 +90,10 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 			:fill = "red"
 		}
 	}
+	4s = {
+		2:
+	
+	}
 
 }
 ];
