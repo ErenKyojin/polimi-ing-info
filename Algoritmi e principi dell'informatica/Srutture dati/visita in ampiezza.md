@@ -27,8 +27,11 @@ $G = [[1,2],[7,4],[7],[1],[3,5,6],[6],[4],[8,6],[2]]$
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}[every m]
+\begin{tikzpicture}[every node/.style={draw, circle},scale = 2]
 \node at (0,0){0};
+\node at (1,-.2){1};
+\node at (-.1,-1){2};
+\node at (1,-)
 \end{tikzpicture}
 \end{document}
 ```
