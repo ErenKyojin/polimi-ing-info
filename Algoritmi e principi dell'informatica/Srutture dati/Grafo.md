@@ -153,3 +153,6 @@ Abbiamo un array di liste, con una lista per ogni nodo del grafo, per ogni verti
 > > 0 & 0 & 0 & 1 & 1
 > > \end{bmatrix}
 > > \end{flalign}$$
+
+In una matrice di adiacenza $M$ l'elemento $m_{ij}$ è 1 se c'è un arco dal nodo $i$ al nodo $j$, 0 altrimenti.
+In entrambi i casi, dato un nodo $u$ in un grafo $G$, l'attributo u.Adj
