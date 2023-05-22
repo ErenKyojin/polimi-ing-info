@@ -145,12 +145,19 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 			:fill = "gray",
 			:text = "red"
 		
+		},
+		4: =
+		{
+			:fill = "white",
+			:text = "white
+		
 		}
-	}
+	},
 	12s = {
 		4: =
 		{
-			:fill =
+			:fill = "black",
+			:text = "red"
 		
 		}
 	
