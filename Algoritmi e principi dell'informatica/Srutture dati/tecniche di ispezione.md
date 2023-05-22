@@ -11,4 +11,4 @@ Costruire [[funzioni]] hash che soddisfino l'ipotesi di hashing uniforme è molt
 
 Nessuna di queste tecniche produce le $m!$ permutazioni che sarebbero necessarie per soddisfare l'ipotesi di hashing uniforme, tuttavia nella pratica si rivelano abbastanza buone
 
-Tutte e 3 le tecniche fanno uso di una funzione hash 
+Tutte e 3 le tecniche fanno uso di una **funzione hash ausiliaria** (ordinaria $h' : U \to$)
