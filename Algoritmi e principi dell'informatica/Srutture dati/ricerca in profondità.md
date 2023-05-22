@@ -47,4 +47,5 @@ DFS-VISIT(u)
 	u.f := time := time + 1
 ```
 
-Le prime tree righe di DFS colorano tutti i nodi di bianco e imposta il tempo a 0, con un esecuzione di $\Theta(|V|)$
+Le prime tree righe di DFS colorano tutti i nodi di bianco e imposta il tempo a 0, con un esecuzione di $\Theta(|V|)$.
+L'algoritmo DFS-VISIT è ripetuto fino a quando non ci sono più no
