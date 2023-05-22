@@ -66,5 +66,12 @@ $G = [[1,2],[7,4],[7],[1],[3,5,6],[6],[4],[8,6],[2]]$
 ## Pseudocodice
 ```
 BFS(G,s)
-	for each u i
+	for each u inn G.v - {s}
+		u.color := WHITE
+		u.dist = infty
+	s.color := GREY
+	s.dist := 0
+	Q := empty
+	ENQUEUE(Q, s)
+	while(Q != empty) 
 ```
