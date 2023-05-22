@@ -221,7 +221,16 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 			:fill = "black",
 			:text = "red"
 		
+		},
+		8: =
+		{
+			:fill = "gray",
+			:text = "red"
+		
 		}
+	}
+	22s = {
+	
 	
 	}
 	
@@ -237,7 +246,7 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 \node[below right of = 3,draw, fill = white, text = red] (4){9,10};
 \node[below right of = 1,draw,fill = white,text = red] (5) {3,4};
 \node[right of = 5,draw, fill = white, text = red] (6){5,6};
-\node[right of = 6,draw, fill = white, text = red] (7){};
+\node[right of = 6,draw, fill = white, text = red] (7){14,15};
 
 \path[-latex]
 	(0) edge (1)
