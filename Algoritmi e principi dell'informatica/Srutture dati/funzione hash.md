@@ -74,5 +74,7 @@ HASH-SEARCH(T, k)
 ```
 
 La cancellazione è più complessa, non possiamo limitarci a mettere uno slot NIL altrimenti le chiavi successive non soddisferebbero piú `HASH-SEARCH`, si può ovviare al problema introducendo un valore alternativo a NIL detto DELETED.
-#### Analisi di omplessità
-Il tempo impiegato per trovare lo slot desiderato dipende anche adlla sequenza di ispezione restituita dalla funzione $h$ e quindi da come $h$ è implementata, per semplificare un po' il calcolo 
+#### Analisi di complessità
+Il tempo impiegato per trovare lo slot desiderato dipende anche adlla sequenza di ispezione restituita dalla funzione $h$ e quindi da come $h$ è implementata, per semplificare un po' il calcolo facciamo un'ipotesi sulla distribuzione di probabilità con la quale vengono estratte non solo le chiavi ma anche le sequenze di ispezione
+
+Con **hashing uniforme** ognuna delle $m!$ permutazioni di $(0,1,\dots,m-1)$ è ugualmente probabile 
