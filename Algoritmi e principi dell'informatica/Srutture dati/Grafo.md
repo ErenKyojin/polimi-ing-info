@@ -99,8 +99,10 @@ I grafi in memoria si possono descrivere in due modi:
  \node[draw, right of = b,scale = 2] (bl1) {};
  \node[draw, right of = c,scale = 2] (cl1) {};
  \node[draw, right of = d,scale = 2] (dl1) {};
- \node[draw, right of = e,scale = 2] (el1) {}
- \path[-latex] (l1)
+ \node[draw, right of = e,scale = 2] (el1) {};
+  \path[-latex]   (al1.center) edge ++ (1,0)
+				  (bl1.cent);
+
  \end{tikzpicture}
  \end{document}
  ```
