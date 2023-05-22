@@ -22,7 +22,7 @@ Esistono 2 tipi di grafi:
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}[every node/.style={circle, thick, draw=black,scale = 1.25}]
+\begin{tikzpicture}[every node/.style={circle, thick, draw=black,scale = 1.25},scale = 2]
 \node[circle] (a) at (0,1) {a};
 \node (b) at (0,-1) {b};
 \node (c) at (1.2,-.3) {c};
@@ -34,6 +34,8 @@ Esistono 2 tipi di grafi:
 		(d) edge (c)
 		(e) edge (d)
 		(e) edge (b);
+
+\node[] at (4,.5){V = {a,b,c,d,e}};
 \end{tikzpicture}
 \end{document}
 ```
