@@ -73,4 +73,6 @@ HASH-SEARCH(T, k)
 	return NIL
 ```
 
-La cancellazione è più complessa, non possiamo limitarci a mettere uno slot NIL altrimenti le chiavi successive non soddisferebbero piú `HASH-SEARCH`, si può ovviare al problema introducendo un valore alternativo a NIL DELETED
+La cancellazione è più complessa, non possiamo limitarci a mettere uno slot NIL altrimenti le chiavi successive non soddisferebbero piú `HASH-SEARCH`, si può ovviare al problema introducendo un valore alternativo a NIL detto DELETED.
+#### Analisi di omplessità
+Il tempo impiegato per trovare lo slot desiderato dipende anche adlla sequenza di ispezione restituita dalla funzione $h$ e quindi da come $h$ è implementata, per semplificare un po' il calcolo 
