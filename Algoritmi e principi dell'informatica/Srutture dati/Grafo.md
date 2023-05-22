@@ -184,3 +184,4 @@ Possiamo vedere un grafo non orientato come un grafo orientato i cui archi sono 
 ## Algoritmi
 
 [[visita in ampiezza]]
+[[ricerca in]]
