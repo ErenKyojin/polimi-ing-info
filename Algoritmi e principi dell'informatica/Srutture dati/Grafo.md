@@ -31,6 +31,7 @@ Esistono 2 tipi di grafi:
 > \node (d) at (1.8,1) {d};
 > \node (e) at (2,-.9) {e};
 > \path   (a) edge (b)
+> 		(a) edge (d)
 > 		(a) edge (c)
 > 		(b) edge (c)
 > 		(d) edge (c)
@@ -53,11 +54,12 @@ Esistono 2 tipi di grafi:
 > \node (c) at (1.2,-.3) {c};
 > \node (d) at (1.8,1) {d};
 > \node (e) at (2,-.9) {e};
-> \path   (a) edge (b)
-> 		(a) edge (c)
-> 		(b) edge (c)
-> 		(d) edge (c)
-> 		(e) edge (d)
+> \path[-latex]   (a) edge (b)
+> 		(a) edge (d)
+> 		(d) edge (a)
+> 		(b) edge (e)
+> 		(c) edge (e)
+> 		(e) edge (e)
 > 		(e) edge (b);
 > 
 > \node[draw=none] at (4,.5){V = \{a,b,c,d,e\}};
