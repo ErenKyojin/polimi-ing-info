@@ -62,7 +62,15 @@ HASH-INSERT(T, k)
 ```
 
 ```
-i := 0
-repeat
-
+HASH-SEARCH(T, k)
+	i := 0
+	repeat
+		j := h(k, i)
+		if T[j] = k
+			return j
+		else i := i + 1
+	until T[j] = NIL or i = m
+	return NIL
 ```
+
+La cancella
