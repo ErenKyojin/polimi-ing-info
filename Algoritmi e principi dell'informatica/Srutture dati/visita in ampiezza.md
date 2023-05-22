@@ -55,7 +55,8 @@ $G = [[1,2],[7,4],[7],[1],[3,5,6],[6],[4],[8,6],[2]]$
 	(8) edge (2)
 ;
 
-\draw[red] (-.5,-.5) node[left]{d=0}-- (.5,-.5) -- (.5,.75);
+\draw[red, smooth] (-.5,-.5) node[left]{d=0} to (.5,-.5) to (.5,.75);
+\draw[purple] (-.5,-1) to (.5,-1) to (.5,.5);
 \end{tikzpicture}
 \end{document}
 ```
