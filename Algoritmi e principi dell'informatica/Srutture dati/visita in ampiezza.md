@@ -46,7 +46,13 @@ $G = [[1,2],[7,4],[7],[1],[3,5,6],[6],[4],[8,6],[2]]$
 	(2) edge (7)
 	(3) edge (1)
 	(4) edge (3)
-	(4) edge[]
+	(4) edge (5)
+	(4) edge (6)
+	(5) edge (6)
+	(6) edge (4)
+	(7) edge (8)
+	(7) edge (6)
+	(8) edge (2)
 ;
 \end{tikzpicture}
 \end{document}
