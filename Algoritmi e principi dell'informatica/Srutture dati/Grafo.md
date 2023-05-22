@@ -90,6 +90,10 @@ I grafi in memoria si possono descrivere in due modi:
  \end{tikzpicture}
  \qquad\qquad\qquad
  \begin{tikzpicture}
+ [
+ every node/.style={minimum size = 2},
+ 
+ ]
  \node (a) at (0,0){a};
  \node (b) at (0,-.5){b};
  \node (c) at (0,-1){c};
@@ -100,7 +104,7 @@ I grafi in memoria si possono descrivere in due modi:
  \node[draw, right of = c,scale = 2] (l3) {};
  \node[draw, right of = d,scale = 2] (l4) {};
  \node[draw, right of = e,scale = 2] (l5) {};
- \draw[-latex] (l1.center) -- ++ (1,0) node[right,draw,min size = 2] (l12){b};
+ \draw[-latex] (l1.center) -- ++ (1,0) node[right,draw] (l12){b};
  \draw[-latex] (l2.center) -- ++ (1,0) node[right,draw] (l12){e};
  \end{tikzpicture}
  \end{document}
