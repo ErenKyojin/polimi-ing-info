@@ -71,5 +71,25 @@ Esistono 2 tipi di grafi:
 ## Grafi in memoria
 I grafi in memoria si possono descrivere in due modi:
 ### liste di adiacenza
+ ```tikz
+ \begin{document}
+ \begin{tikzpicture}[every node/.style={circle, thick, draw=black,scale = 1.25},scale = 1.25]
+ \node[circle] (a) at (0,1) {a};
+ \node (b) at (0,-1) {b};
+ \node (c) at (1.2,-.3) {c};
+ \node (d) at (1.8,1) {d};
+ \node (e) at (2,-.9) {e};
+ \path[-latex]   (a) edge (b)
+ 		(a) edge[bend right] (d)
+ 		(d) edge[bend right] (a)
+ 		(b) edge (e)
+ 		(c) edge (e)
+ 		(e) edge[loop below] (e)
+ 		(e) edge (d);
 
-### 
+ \end{tikzpicture}
+ \qquad;
+ \end{document}
+ ```
+
+### matrice di adiancenza
