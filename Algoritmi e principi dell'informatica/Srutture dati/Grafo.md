@@ -109,11 +109,11 @@ I grafi in memoria si possono descrivere in due modi:
  \draw[-latex] (l3.center) -- ++ (1,0) node[right,draw] (l32){e};
  \draw[-latex] (l4.center) -- ++ (1,0) node[right,draw] (l42){a};
  \draw[-latex] (l5.center) -- ++ (1,0) node[right,draw] (l52){e};
- \node[right=2.5mm,draw] (l) at (l12) {};
- \node[right=2.5mm,draw] at (l22) {$\perp$};
- \node[right=2.5mm,draw] at (l32) {$\perp$};
- \node[right=2.5mm,draw] at (l42) {$\perp$};
- \node[right=2.5mm,draw] at (l52) {};
+ \node[right=2.5mm,draw] (l13) at (l12) {};
+ \node[right=2.5mm,draw] (l23) at (l22) {$\perp$};
+ \node[right=2.5mm,draw] (l33) at (l32) {$\perp$};
+ \node[right=2.5mm,draw] (143) at (l42) {$\perp$};
+ \node[right=2.5mm,draw] (145) at (l52) {};
 
  \end{tikzpicture}
  \end{document}
