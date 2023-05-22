@@ -95,7 +95,8 @@ I grafi in memoria si possono descrivere in due modi:
  \node (c) at (0,-1){c};
  \node (d) at (0,-1.5){d};
  \node (e) at (0,-2){e};
- \node[draw, right of = (a)] {};
+ \node[draw, right of = a,scale = 1.75] {};
+ \node[draw, right of = b,scale = 1.75] {};
  \end{tikzpicture}
  \end{document}
  ```
