@@ -21,4 +21,13 @@ DFS solitamente è usato come parte di un algoritmo più complesso, prima di ved
 - Anche in DFS coloriamo i nodi
 - Usiamo una politica LIFO, quindi una pila
 - L'algoritmo DFS tiene traccia di quanto i nodi sono stati messi sullo stack e di quando sono tolti, attraverso una variabile globale time messa a 0 ad inizio algoritmo ed incrementata di 1 ogni aggiunta o rimozione di nodi dalla pila, inoltre sfruttiamo la variabile time anche per tenere traccia di:
-	- Il tempo di inizio scoperta di un nodo ed il tempo di quando la scoperta termina
+	- Il tempo di inizio scoperta di un nodo, memorizzato in u.d
+	- Il tempo di quando la scoperta termina, memorizzata in u.f
+
+
+```
+DFS(G)
+	for each u inn G.V
+		u.color := WHITE
+	time := 0
+	for r
