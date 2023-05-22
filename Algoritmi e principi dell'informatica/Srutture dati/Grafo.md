@@ -35,8 +35,10 @@ Esistono 2 tipi di grafi:
 		(e) edge (d)
 		(e) edge (b);
 
-\node[draw=none] at (4,.5){V = {a,b,c,d,e}};
-\node[draw=none] at (4,-.5){}
+\node[draw=none] at (4,.5){V = \{a,b,c,d,e\}};
+\node[draw=none] at (4,0){E=\{(b,a), (a,c), (b,c), (d,c), (e,d), (b,e)\}};
 \end{tikzpicture}
 \end{document}
 ```
+
+L'ordine de
