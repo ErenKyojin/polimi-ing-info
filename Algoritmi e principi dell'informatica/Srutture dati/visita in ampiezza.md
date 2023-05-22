@@ -31,7 +31,10 @@ $G = [[1,2],[7,4],[7],[1],[3,5,6],[6],[4],[8,6],[2]]$
 \node at (0,0){0};
 \node at (1,-.2){1};
 \node at (-.1,-1){2};
-\node at (1,-)
+\node at (2,0){3};
+\node at (2.2,-.8){4};
+\node at ()
+\node at (1.2,-1.2){7};
 \end{tikzpicture}
 \end{document}
 ```
