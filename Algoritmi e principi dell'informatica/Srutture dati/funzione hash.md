@@ -19,12 +19,14 @@ Per scegliere la funzione hash ce ne conviene scegliere una che soddisfi l'ipote
 $$ h(k) = k \mod m $$
 facile da realizzare e veloce (essendo una sola operazione) è necessario però evitare certi valori di $m$, come le potenze di 2 ($m$ non deve essere della forma $2^p$) altrimenti $k \mod m$ sarebbero i $p$ bit meno significativi di $k$, conviene prendere un numero primo non troppo vicino ad una potenza esatta di 2.
 
-$m = 5$
-$key : \{ 38,12,18 \}$
-$h(38) = 3, h(12) = 2, h(18) = 3$ quindi
-$$ T = \begin{bmatrix}
-NIL & NIL & lista(12)  &  lista(38, 18) & NIL
-\end{bmatrix} $$
+> [!esempio]
+> $m = 5$
+> $key : \{ 38,12,18 \}$
+> $h(38) = 3, h(12) = 2, h(18) = 3$ quindi
+> $$ T = \begin{bmatrix}
+> NIL & NIL & lista(12)  &  lista(38, 18) & NIL
+> \end{bmatrix} $$
+> 
 
 ## In indirizzamento aperto
 $h : U \times \{ 0,1,\dots,m-1 \} \to \{ 0,1,\dots,m-1 \}$
