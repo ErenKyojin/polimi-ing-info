@@ -84,4 +84,8 @@ Valgono i seguenti risultati:
 
 Il **numero medio** di ispezioni necessarie per efettuare un **inserimento** di un oggetto nuovo in tabella è
 - $m$ se $\alpha = 1$ quindi se la tabella è piena
-- $\leq 1 / (1 - \alpha)$ se $\alpha < $
+- $\leq 1 / (1 - \alpha)$ se $\alpha < 1$
+
+Il **numero medio** di ispezioni necessarie per **trovare** un elemento presente in tabella è
+- $(m + 1)/2$ se $\alpha = 1$
+- $< 1 / \alpha(\log(1 / (1- \alpha)))$ se $\alpha < 1$
