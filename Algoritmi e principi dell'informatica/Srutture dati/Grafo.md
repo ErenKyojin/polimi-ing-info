@@ -55,15 +55,15 @@ Esistono 2 tipi di grafi:
 > \node (d) at (1.8,1) {d};
 > \node (e) at (2,-.9) {e};
 > \path[-latex]   (a) edge (b)
-> 		(a) edge (d)
-> 		(d) edge (a)
+> 		(a) edge[bend right] (d)
+> 		(d) edge[bend right] (a)
 > 		(b) edge (e)
 > 		(c) edge (e)
-> 		(e) edge (e)
-> 		(e) edge (b);
+> 		(e) edge[loop below] (e)
+> 		(e) edge (d);
 > 
 > \node[draw=none] at (4,.5){V = \{a,b,c,d,e\}};
-> \node[draw=none] at (4,0){E=\{(b,a), (a,c), (b,c), (d,c), (e,d), (b,e)\}};
+> \node[draw=none] at (4,0){E=\{(a,b), (a,d), (d,a), (b,e), (c,e), (b,e)\}};
 > \end{tikzpicture}
 > \end{document}
 > ```
