@@ -73,5 +73,12 @@ BFS(G,s)
 	s.dist := 0
 	Q := empty
 	ENQUEUE(Q, s)
-	while(Q != empty) 
+	while(Q != empty)
+		u := DEQUEUE(Q)
+		for each v inn u.Adj
+			if v.color = WHITE
+				v.color := GRAY
+				v.dist := u.dist + 1
+				ENQUEUE(Q, v)
+	u.color := BLACK
 ```
