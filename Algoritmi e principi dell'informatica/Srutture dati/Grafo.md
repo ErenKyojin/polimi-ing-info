@@ -100,7 +100,7 @@ I grafi in memoria si possono descrivere in due modi:
  \node[draw, right of = c,scale = 2] (cl1) {};
  \node[draw, right of = d,scale = 2] (dl1) {};
  \node[draw, right of = e,scale = 2] (el1) {};
-  \path[-latex]   (al1.center) edge ++ (1,0)
+  \draw[-latex]   (al1.center) edge ++ (1,0)
 				  (bl1.center) edge ++ (1,0)
 				  (cl1.center) edge ++ (1,0)
 				  (dl1.center) edge ++ (1,0)
