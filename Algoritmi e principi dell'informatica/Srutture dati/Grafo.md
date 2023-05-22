@@ -16,5 +16,16 @@ $|V|$ è il numero di vertici nel grafo, mentre $|E|$ è il numero di archi, $0 
 
 Esistono 2 tipi di grafi:
 
-## Non orientati
-In un grafo non orientato, un arco $(u,v)$ è lo stesso di $(v,u)$, non c'è alcuna nozione di direzione da un nodo all'altro
+## Grafi orientati e non orientati
+- In un grafo non orientato, un arco $(u,v)$ è lo stesso di $(v,u)$, non c'è alcuna nozione di direzione da un nodo all'altro
+- In un grafo orientato $(u,v)$ va dal nodo $u$ al nodo $v$ ed è diverso da $(v,u)$
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node (a) at (0,0);
+\node (b) at (0,-1);
+\node ()
+\end{tikzpicture}
+\end{document}
+```
