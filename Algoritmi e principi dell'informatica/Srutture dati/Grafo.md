@@ -178,4 +178,9 @@ Qual è la complessità temporale per determinare il numero di archi che escono 
 - Quando il grafo è rappresentato mediante matrice di adiacenza
 
 
-Possiamo vedere un grafo non orientato come un grafo i cui lati sono tutti doppi
+Possiamo vedere un grafo non orientato come un grafo orientato i cui archi sono tutti doppi.
+
+
+## Algoritmi
+
+[[visita in ampiezza]]
