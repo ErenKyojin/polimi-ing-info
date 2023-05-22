@@ -35,8 +35,12 @@ dove $x \mod 1 = x - \lfloor  x \rfloor$ è la parte frazionaria di $x$, in ques
 
 $A = 0.168, m = 5, keys = \{ 38,12,18 \}$
 $h(38)=2, h(12) = 2, h(18)=0$
-
+$$ T = \begin{bmatrix}
+lista(18) & NIL & lista(38,12) & NIL  & NIL
+\end{bmatrix} $$
 ## In indirizzamento aperto
+In questo caso la tabella contiene tutte le chiavi, $\alpha$
+
 $h : U \times \{ 0,1,\dots,m-1 \} \to \{ 0,1,\dots,m-1 \}$
 - La sequenza di ispezione $\left< h(k,0),h(k,1),\dots,h(k,m-1) \right>$
 
