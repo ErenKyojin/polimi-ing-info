@@ -155,4 +155,9 @@ Abbiamo un array di liste, con una lista per ogni nodo del grafo, per ogni verti
 > > \end{flalign}$$
 
 In una matrice di adiacenza $M$ l'elemento $m_{ij}$ è 1 se c'è un arco dal nodo $i$ al nodo $j$, 0 altrimenti.
-In entrambi i casi, dato un nodo $u$ in un grafo $G$, l'attributo u.Adj
+In entrambi i casi, dato un nodo $u$ in un grafo $G$, l'attributo *u.Adj* rappresenta l'insieme di vertici adiacenti a $u$.
+
+Quanto è grande una rappresentazione con liste di adiacenza?
+- Il numero totale di elemeti nelle liste è $|E|$
+- Il numero di elementi nell'array è $|V|$
+La comples
