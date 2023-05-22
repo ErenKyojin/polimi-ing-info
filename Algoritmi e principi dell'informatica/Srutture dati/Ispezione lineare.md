@@ -14,4 +14,6 @@ Genera solo $m$ sequenze di ispezione distinte, la prima cella ispezionata ident
 > - $h(38,0) = 3, h(12,0) = 2, h(18,0)=3$ conflitto! $h(18,1)=4$
 > - otteniamo quindi T = \[NIL, NIL, 12, 38, 18\]
 > - Cancelliamo 38: T = \[NIL, NIL, 12, DEL, 18\]
-> - Inseriamo 43
+> - Inseriamo 43: $h(43,0) = 3$
+> - T = \[NIL, NIL, 12, 43, 18\]
+
