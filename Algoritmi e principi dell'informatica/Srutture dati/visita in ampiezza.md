@@ -82,3 +82,6 @@ BFS(G,s)
 				ENQUEUE(Q, v)
 	u.color := BLACK
 ```
+
+Le linee 1-7 sono di inizializzazione e hanno complessità $O(V)$
+Le linee 8-15 visitano i nodi
