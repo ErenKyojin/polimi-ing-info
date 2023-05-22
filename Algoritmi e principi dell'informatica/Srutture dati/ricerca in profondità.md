@@ -41,5 +41,10 @@ DFS-VISIT(u)
 	time := time + 1
 	u.d := time
 	for each v inn U.adj
-		if v.color
+		if v.color = WHITE
+			DFS-VISIT(v)
+	u.color := BLACK
+	u.f := time := time + 1
 ```
+
+Le prime tree righe di DFS colorano tutti i nodi di bianco e imposta il tempo a 0, con un esecuzione di $\Theta(|V|)$
