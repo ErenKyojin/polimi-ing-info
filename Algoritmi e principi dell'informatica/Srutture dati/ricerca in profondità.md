@@ -19,4 +19,5 @@ In realtà il DFS che vediamo risolve un problema leggermente diverso da BFS:
 DFS solitamente è usato come parte di un algoritmo più complesso, prima di vederlo però facciamo alcune considerazioni:
 
 - Anche in DFS coloriamo i nodi
-- 
+- Usiamo una politica LIFO, quindi una pila
+- L'algoritmo DFS tiene traccia di quanto i nodi sono stati messi sullo stack e di quando sono tolti, attraverso una variabile globale
