@@ -52,11 +52,12 @@ L'algoritmo DFS-VISIT è ripetuto fino a quando non ci sono più nodi da visitar
 	- Come in BFS ogni nodo è messo sullo stack solo una volta
 	- Quindi ogni lato è visitato esattament euna volta durante l'esecuzione del ciclo for delle linee 4-6 di DFS, quindi queste prendono tempo $\Theta(|E|)$
 Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
+
 ```tikz
 \usetikzlibrary{animations}
 \begin{document}
 \begin{tikzpicture}[node distance = 2.5cm]
-\tikz[animate ]
+\tikz[animate = {a node : fill = {0s = "red", 2s = "blue", begin on  = click}}]
 \node[draw,fill=black,fill opacity =.25,text=red!90,text opacity = 1] (0) at (0,0){1};
 \node[below left of = 0,draw,text opacity = 0] (1) {2};
 \node[right of = 0,draw] (3) {};
