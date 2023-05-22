@@ -70,8 +70,7 @@ La lunghezza media di una lista è
 $$ E[n_{j}] = \frac{1}{m} \sum_{i = 1}^m n_{i} = \frac{n}{m} = \alpha $$
 Quindi il tempo medio per cercare una chiave $k$ non presente nella lista è $\Theta(1 + \alpha)$ dove 1 è il tempo necessario per calolare $h(k)$ (che si suppone costante).
 $\Theta(1 + \alpha)$ è il tempo medio per cercare una chiave $k$ presente nella lista.
-Se $n = O(m)$, allora $\alpha = n / m = O(m) / m = O(1)$
-
+Se $n = O(m)$, allora $\alpha = n / m = O(m) / m = O(1)$. Quindi ci mettiamo in media un tempo  costante, quindi la complessità temporale è $O(1)$ in media per tutte le operazioni (INSERT, SEARCH, DELETE).
 ## Risoluzione indirizzamento aperto
 In sistemi in cui non è possibile usare [[memoria]] extra in maniera dinamica, la tabella contiene tutte le chiavi ed il fattore di carico $\alpha$ non potrà essere più di 1.
 L'idea è quella di calcolare l'indice dello slot in cui va memorizzato l'oggetto, se lo slot è già occupato, si cerca nella tabella uno slot libero. La sequenza di ricerca però (detta **sequenza di ispezione**) si calcola attraverso la [[funzione hash#In indirizzamento aperto]]

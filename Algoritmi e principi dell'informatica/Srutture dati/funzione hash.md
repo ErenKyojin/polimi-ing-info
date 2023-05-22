@@ -10,6 +10,7 @@ modification date: 2023-05-11 10:05
 >[[Funzioni|Funzione]] utilizzata nelle [[hash table|tabelle hash]] come funzione intermedia tra chiave e dato
 >$h : U \to \{ 0, \dots, m \}$
 
+
 #todo
 ## In indirizzamento aperto
 $h : U \times \{ 0,1,\dots,m-1 \} \to \{ 0,1,\dots,m-1 \}$
