@@ -78,4 +78,10 @@ La cancellazione è più complessa, non possiamo limitarci a mettere uno slot NI
 Il tempo impiegato per trovare lo slot desiderato dipende anche adlla sequenza di ispezione restituita dalla funzione $h$ e quindi da come $h$ è implementata, per semplificare un po' il calcolo facciamo un'ipotesi sulla distribuzione di probabilità con la quale vengono estratte non solo le chiavi ma anche le sequenze di ispezione
 
 Con **hashing uniforme**: ognuna delle $m!$ permutazioni di $(0,1,\dots,m-1)$ è ugualmente probabile che venga selezionata come sequenza di ispezione, si tratta dell'estensione dell'[[collisioni#Ipotiziamo hashing uniforme semplice|hashing uniforme semplice]].
-L'analisi viene effettuata in funzione del fattore di carico $\alpha = n / m$ che per le ipotesi di funzionamento dell'indirizzamento aperto significa che $n \leq m$ e $0 \leq \alpha \leq 1$
+L'analisi viene effettuata in funzione del fattore di carico $\alpha = n / m$ che per le ipotesi di funzionamento dell'indirizzamento aperto significa che $n \leq m$ e $0 \leq \alpha \leq 1$.
+
+Valgono i seguenti risultati:
+
+Il **numero medio** di ispezioni necessarie per efettuare un **inserimento** di un oggetto nuovo in tabella è
+- $m$ se $\alpha = 1$ quindi se la tabella è piena
+- $\leq 1 / (1 - \alpha)$ se $\alpha < $
