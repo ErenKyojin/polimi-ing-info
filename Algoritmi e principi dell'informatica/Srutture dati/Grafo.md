@@ -122,17 +122,18 @@ I grafi in memoria si possono descrivere in due modi:
  \end{document}
  ```
 
+Abbiamo un array di liste, con una lista per ogni nodo del grafo, per ogni vertice $v$ la l
 ### matrice di adiancenza
 
 > [!multi-column]
-> > [!NOTE]
+> > [!def]
 > > $$ \begin{align}
 > > V &= \{ a,b,c,d,e \} \\
 > > E &= \{ (a,b),(a,d)(d,a),(b,e) \\
 > >   &\quad (c,e),(e,d),(e,e)\}
 > > \end{align}$$
 > 
-> > [!NOTE]
+> > [!def] Matrice di adiacenza
 > > $$ \begin{flalign}
 > > &\begin{array}{ccc}
 > >  &\ \ a & b & c & d & e
