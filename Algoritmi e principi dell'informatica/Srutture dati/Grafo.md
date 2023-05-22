@@ -130,7 +130,17 @@ E &= \{ (a,b),(a,d)(d,a),(b,e) \\
 \end{align}$$
 
 $$ \begin{flalign}
-\begin{array}{c@{} c@{} c@{}}
-a & b & c
-\end{array}
+&\begin{array}{ccc}
+ & a & b & c & d & e
+\end{array}\\
+&\begin{array}{}
+a \\
+b \\
+c \\
+d \\
+e
+\end{array} \begin{bmatrix}
+0 & 1 & 01 & 0 \\
+0 & 0 & 0 & 0
+\end{bmatrix}
 \end{flalign}$$
