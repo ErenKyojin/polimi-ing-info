@@ -21,6 +21,10 @@ facile da realizzare e veloce (essendo una sola operazione) è necessario però 
 
 $m = 5$
 $key : \{ 38,12,18 \}$
+$h(38) = 3, h(12) = 2, h(18) = 3$ quindi
+$$ T = \begin{bmatrix}
+NIL & NIL & lista(12)  &  lista(38, 18) & NIL
+\end{bmatrix} $$
 
 ## In indirizzamento aperto
 $h : U \times \{ 0,1,\dots,m-1 \} \to \{ 0,1,\dots,m-1 \}$
