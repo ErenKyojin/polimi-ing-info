@@ -51,4 +51,18 @@ La sequenza di ispezione $\left< h(k,0),h(k,1),\dots,h(k,m-1) \right>$ deve esse
 ```
 HASH-INSERT(T, k)
 	i := 0
+	repeat
+		j := h(k,i)
+		if T[j] = NIL
+			T[j] := k
+			return j
+		else i := i + 1
+	until i = m
+	error "hash table overflow"
+```
+
+```
+i := 0
+repeat
+
 ```
