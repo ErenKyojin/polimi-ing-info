@@ -127,4 +127,4 @@ $$ \begin{align}
 V &= \{ a,b,c,d,e \} \\
 E &= \{ (a,b),(a,d)(d,a),(b,e) \\
   &\quad (c,e),(e,d),(e,e)\}
-\end{align}\qquad  $$
+\end{align}\qquad $$
