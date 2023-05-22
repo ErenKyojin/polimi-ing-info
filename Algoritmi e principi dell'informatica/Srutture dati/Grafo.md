@@ -23,9 +23,11 @@ Esistono 2 tipi di grafi:
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\node (a) at (0,0);
-\node (b) at (0,-1);
-\node ()
+\node (a) at (0,1) {};
+\node (b) at (0,-1) {};
+\node (c) at (1.2,-.3) {};
+\node (d) at (1.8,1) {};
+\node (e) at (2,-.9) {};
 \end{tikzpicture}
 \end{document}
 ```
