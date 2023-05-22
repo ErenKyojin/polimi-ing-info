@@ -45,7 +45,7 @@ Esistono 2 tipi di grafi:
 > ```
 
 
->[!esempio]
+>[!esempio] grafo orientato
 > ```tikz
 > \begin{document}
 > \begin{tikzpicture}[every node/.style={circle, thick, draw=black,scale = 1.25},scale = 2]
@@ -63,8 +63,13 @@ Esistono 2 tipi di grafi:
 > 		(e) edge (d);
 > 
 > \node[draw=none] at (4,.5){V = \{a,b,c,d,e\}};
-> \node[draw=none] at (4,0){E=\{(a,b), (a,d), (d,a), (b,e), (c,e), (b,e)\}};
+> \node[draw=none] at (5,0){E=\{(a,b), (a,d), (d,a), (b,e), (c,e), (e,d),(e,e)\}};
 > \end{tikzpicture}
 > \end{document}
 > ```
 
+## Grafi in memoria
+I grafi in memoria si possono descrivere in due modi:
+### liste di adiacenza
+
+### 
