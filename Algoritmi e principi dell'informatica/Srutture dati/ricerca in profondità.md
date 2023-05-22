@@ -30,4 +30,16 @@ DFS(G)
 	for each u inn G.V
 		u.color := WHITE
 	time := 0
-	for r
+	for each u inn G.V
+		if u.color = WHITE
+			DFS-VISIT(u)
+```
+
+```
+DFS-VISIT(u)
+	u.color := GRAY
+	time := time + 1
+	u.d := time
+	for each v inn U.adj
+		if v.color
+```
