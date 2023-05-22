@@ -11,7 +11,7 @@ Le code sono simili alle [[pila|pile]], salvo che una coda è gestita con una po
 	- Si noti che l'operazione di DEQUEUE restituisce l'elemento cancellato
 
 Una coda è gestita con una politica FIFO, l'elemento che viene cancellato è quello che era stato inserito per primo. 
-Inoltre una coda è circolare,
+Inoltre una coda è circolare, se abbiamo una coda di lunghezza 10 e inseriamo un nuovo elemento, dopo l'accodamento abbiamo Q.tail = 1.
 
 ### Implementazione tramite liste semplici
 Provare a farlo con un unico puntatore di partenza diventa inutilmente complicato, dobbiamo aggiungere per testa e coda
