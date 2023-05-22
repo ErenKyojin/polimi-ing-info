@@ -57,7 +57,11 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 \begin{document}
 \begin{tikzpicture}[node distance = 2cm]
 \node[] (0) at (0,0){};
-\node[] (1) a
+\node[] (1) at (-.75,-.75){};
+\node[] (2) at (1.5,0){};
+\node[] (3) at (-.75,0){};
+\
 \end{tikzpicture}
 \end{document}
 ```
+
