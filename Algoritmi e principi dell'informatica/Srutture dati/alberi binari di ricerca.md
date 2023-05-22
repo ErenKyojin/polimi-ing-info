@@ -12,8 +12,8 @@ Per tutti i nodi $x$ del BST se $l$ è un nodo nel sottoalbero sinistro allora `
 > \begin{document}
 > \begin{tikzpicture}
 > [
-> level 1/.style = {siblings distance = 2cm},
-> level 2/.style = {siblings distance = .75cm},
+> level 1/.style = {sibling distance = 2cm},
+> level 2/.style = {sibling distance = .75cm},
 > ]
 > \node {5}
 > 	child {node {3}
