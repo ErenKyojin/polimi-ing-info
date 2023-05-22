@@ -48,4 +48,7 @@ DFS-VISIT(u)
 ```
 
 Le prime tree righe di DFS colorano tutti i nodi di bianco e imposta il tempo a 0, con un esecuzione di $\Theta(|V|)$.
-L'algoritmo DFS-VISIT è ripetuto fino a quando non ci sono più no
+L'algoritmo DFS-VISIT è ripetuto fino a quando non ci sono più nodi da visitare
+	- Come in BFS ogni nodo è messo sullo stack solo una volta
+	- Quindi ogni lato è visitato esattament euna volta durante l'esecuzione del ciclo for delle linee 4-6 di DFS, quindi queste prendono tempo $\Theta(|E|)$
+Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + )$
