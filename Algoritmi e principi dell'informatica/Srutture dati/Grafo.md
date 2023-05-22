@@ -166,4 +166,7 @@ Quanto è grande la matrice di adiacenza?
 - La dimensione della matrice è $|V|^2$, quindi la sua complessità è $\Theta(|V|^2)$.
 
 
-Le liste di adiaceza sono in generale migliori quando $|E| \neq \Theta(|V|^2)$, cioè quando i
+Le liste di adiaceza sono in generale migliori quando $|E| \neq \Theta(|V|^2)$, cioè quando il grafo è sparso (quindi il numero di nodi connessi non è tanto grande)
+Se il grafo è completo (o quasi), tanto vale usare una matrice di adiacenza, un grafo orientato è completa se, per ogni coppia di nodi $u$ e $v$, sia l'arco $(u,v)$ che l'arco $(v,u)$ sono in $E$.
+
+Quale è la complessità tempo
