@@ -35,7 +35,8 @@ Esistono 2 tipi di grafi:
 		(e) edge (d)
 		(e) edge (b);
 
-\node[] at (4,.5){V = {a,b,c,d,e}};
+\node[draw=none] at (4,.5){V = {a,b,c,d,e}};
+\node[draw=none] at (4,-.5){}
 \end{tikzpicture}
 \end{document}
 ```
