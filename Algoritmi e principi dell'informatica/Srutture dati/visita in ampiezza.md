@@ -12,5 +12,9 @@ modification date: 2023-05-22 14:15
 Sfruttiamo l'algoritmo di BFS (Breadth-First search), che ha come idea quella di visitare tutti i nodi a ditanza 1 da s, poi a distanza 2, poi a distanza 3 e cosi via.
 
 Quando visitiamo un nodo $u$, teniamo traccia della sua distanza da s in un attributo $u$.*dist*. Mentre visitiamo i nodi li coloriamo (in modo da poter tracciare la progressione dell'algoritmo):
-- Nodo bianco significa ancora da visitare
-- Nodo grigio signifca già visitat
+- **Nodo bianco** significa ancora da visitare
+- **Nodo grigio** signifca già visitato ma non abbiamo visitato tutti i suoi adiacenti
+- **Nodo nero** significa che abbiamo visitato tutti i suoi adiacenti.
+
+Descriviamo quindi l'algoritmo:
+- Tutti i nodi sono inizialmente bianchi tranne $s$ sorgente che ègrigia
