@@ -28,6 +28,9 @@ facile da realizzare e veloce (essendo una sola operazione) è necessario però 
 > \end{bmatrix} $$
 > 
 
+## Metodo della moltipliazione
+Moltiplichiamo $k$ per una costante $A$ reale tale che $0 < A < 1$, quindi prendiamo la parte frazionare di $kA$
+
 ## In indirizzamento aperto
 $h : U \times \{ 0,1,\dots,m-1 \} \to \{ 0,1,\dots,m-1 \}$
 - La sequenza di ispezione $\left< h(k,0),h(k,1),\dots,h(k,m-1) \right>$
