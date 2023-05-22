@@ -113,9 +113,9 @@ I grafi in memoria si possono descrivere in due modi:
  \node[right=2.5mm,draw] (l23) at (l22) {$\perp$};
  \node[right=2.5mm,draw] (l33) at (l32) {$\perp$};
  \node[right=2.5mm,draw] (143) at (l42) {$\perp$};
- \node[right=2.5mm,draw] (145) at (l52) {};
- \draw[-latex] (l13.center) -- ++ (1,0) 
-
+ \node[right=2.5mm,draw] (153) at (l52) {};
+ \draw[-latex] (l13.center) -- ++ (1,0) node[right,draw] (l14){d};
+ \draw[-latex] (l53.center) -- ++ (1,0) node[right,draw] (l24){}
  \end{tikzpicture}
  \end{document}
  ```
