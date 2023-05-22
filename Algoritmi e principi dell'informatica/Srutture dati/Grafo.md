@@ -130,6 +130,7 @@ E &= \{ (a,b),(a,d)(d,a),(b,e) \\
 \end{align}$$
 
 $$ \begin{flalign}
-\begin{array}{c@{d} c@{d} c@{d}}
+\begin{array}{c@{} c@{} c@{}}
+a & b & c
 \end{array}
 \end{flalign}$$
