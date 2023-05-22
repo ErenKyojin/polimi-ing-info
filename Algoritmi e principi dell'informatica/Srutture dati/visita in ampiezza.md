@@ -38,7 +38,16 @@ $G = [[1,2],[7,4],[7],[1],[3,5,6],[6],[4],[8,6],[2]]$
 \node (7) at (1.2,-1.2){7};
 \node (8) at (-.3,-2){8};
 
-\path[-latex] (0)
+\path[-latex] 
+	(0) edge (1)
+	(0) edge (2)
+	(1) edge (4)
+	(1) edge (7)
+	(2) edge (7)
+	(3) edge (1)
+	(4) edge (3)
+	(4) edge[]
+;
 \end{tikzpicture}
 \end{document}
 ```
