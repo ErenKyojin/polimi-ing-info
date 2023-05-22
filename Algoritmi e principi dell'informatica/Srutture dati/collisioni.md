@@ -70,6 +70,7 @@ La lunghezza media di una lista è
 $$ E[n_{j}] = \frac{1}{m} \sum_{i = 1}^m n_{i} = \frac{n}{m} = \alpha $$
 Quindi il tempo medio per cercare una chiave $k$ non presente nella lista è $\Theta(1 + \alpha)$ dove 1 è il tempo necessario per calolare $h(k)$ (che si suppone costante).
 $\Theta(1 + \alpha)$ è il tempo medio per cercare una chiave $k$ presente nella lista.
+Se $n = O(m)$, allora $\alpha = n / m = O(m) / m = O(1)$
 
 ## Risoluzione indirizzamento aperto
 In sistemi in cui non è possibile usare [[memoria]] extra in maniera dinamica, la tabella contiene tutte le chiavi ed il fattore di carico $\alpha$ non potrà essere più di 1.
