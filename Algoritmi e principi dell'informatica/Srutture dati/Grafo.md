@@ -88,7 +88,11 @@ I grafi in memoria si possono descrivere in due modi:
  		(e) edge (d);
 
  \end{tikzpicture}
- \qquad;
+ \qquad\qquad\qquad
+ \begin{tikzpicture}
+ \node (a) at (0,0){a};
+ \node (b) at (0,-.5);
+ \end{tikzpicture}
  \end{document}
  ```
 
