@@ -91,7 +91,7 @@ I grafi in memoria si possono descrivere in due modi:
  \qquad\qquad\qquad
  \begin{tikzpicture}
  [
- every node/.style={minimum size = 2},
+ every node/.style={minimum size = 5mm},
  
  ]
  \node (a) at (0,0){a};
@@ -99,11 +99,11 @@ I grafi in memoria si possono descrivere in due modi:
  \node (c) at (0,-1){c};
  \node (d) at (0,-1.5){d};
  \node (e) at (0,-2){e};
- \node[draw, right of = a,scale = 2] (l1) {};
- \node[draw, right of = b,scale = 2] (l2) {};
- \node[draw, right of = c,scale = 2] (l3) {};
- \node[draw, right of = d,scale = 2] (l4) {};
- \node[draw, right of = e,scale = 2] (l5) {};
+ \node[draw, right of = a,] (l1) {};
+ \node[draw, right of = b,] (l2) {};
+ \node[draw, right of = c,] (l3) {};
+ \node[draw, right of = d,] (l4) {};
+ \node[draw, right of = e,] (l5) {};
  \draw[-latex] (l1.center) -- ++ (1,0) node[right,draw] (l12){b};
  \draw[-latex] (l2.center) -- ++ (1,0) node[right,draw] (l12){e};
  \end{tikzpicture}
