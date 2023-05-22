@@ -100,8 +100,7 @@ I grafi in memoria si possono descrivere in due modi:
  \node[draw, right of = c,scale = 2] (l3) {};
  \node[draw, right of = d,scale = 2] (l4) {};
  \node[draw, right of = e,scale = 2] (l5) {};
-  \draw[-latex] (l1.center) -- ++ (1,0) node(a){A};
-
+ \draw[-latex] (l1.center) -- ++ (1,0) node[right]{b};
  \end{tikzpicture}
  \end{document}
  ```
