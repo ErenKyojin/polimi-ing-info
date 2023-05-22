@@ -56,7 +56,7 @@ $G = [[1,2],[7,4],[7],[1],[3,5,6],[6],[4],[8,6],[2]]$
 ;
 
 \draw[red, smooth] (-.5,-.5) node[left]{d=0} to (.5,-.5) to (.5,.75);
-\draw[purple] (-.5,-1) to (.5,-1) to (.5,.5);
+\draw[purple] (-.5,-1.5) node[left] to (.5,-1) to (1.5,-.6) to (1.7,1);
 \end{tikzpicture}
 \end{document}
 ```
