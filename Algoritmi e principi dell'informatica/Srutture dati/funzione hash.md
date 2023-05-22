@@ -29,8 +29,9 @@ facile da realizzare e veloce (essendo una sola operazione) è necessario però 
 > 
 
 ## Metodo della moltipliazione
-Moltiplichiamo $k$ per una costante $A$ reale tale che $0 < A < 1$, quindi prendiamo la parte frazionare di $kA$
-
+Moltiplichiamo $k$ per una costante $A$ reale tale che $0 < A < 1$, quindi prendiamo la parte frazionare di $kA$ ed il risultato lo moltiplichiamo per $m$ e ne prendiamo una parte intera, in simboli:
+$$ h(k) = \lfloor m(kA \mod 1) \rfloor $$
+dove $x \mod 1 = x - \lfloor  x \rfloor$  
 ## In indirizzamento aperto
 $h : U \times \{ 0,1,\dots,m-1 \} \to \{ 0,1,\dots,m-1 \}$
 - La sequenza di ispezione $\left< h(k,0),h(k,1),\dots,h(k,m-1) \right>$
