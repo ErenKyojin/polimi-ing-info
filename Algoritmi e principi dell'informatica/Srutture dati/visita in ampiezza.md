@@ -22,4 +22,13 @@ Descriviamo quindi l'algoritmo:
 - Ad ogni iterazione del ciclo eliminiamo dalla coda un elemento $u$ e ne visitiamo i nodi adiacentiche sono ancora bianchi (cioè che devono essere ancora visitati)
 	- Se $u.$dist è la distanza del nodo $u$ da $s$, la distanza dei nodi bianchi adiacenti ad $u$ è $u.dist+1$
 
-$G = [[1,2],[7,4],[7],[1],[3,5,6],[6],4]$
+$G = [[1,2],[7,4],[7],[1],[3,5,6],[6],[4],[8,6],[2]]$
+`BFS(G, 0)` distanze dal nodo 0
+
+```tikz
+\begin{document}
+\begin{tikzpicture}[every m]
+\node at (0,0){0};
+\end{tikzpicture}
+\end{document}
+```
