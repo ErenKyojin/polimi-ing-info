@@ -129,6 +129,13 @@ E &= \{ (a,b),(a,d)(d,a),(b,e) \\
   &\quad (c,e),(e,d),(e,e)\}
 \end{align}$$
 
-$$ \begin{multiline}
-&a
-\end{multiline}$$
+$$ \begin{flalign}
+\begin{array}{c}
+\\ 
+a \\
+b \\
+c \\
+d \\
+e 
+\end{array}
+\end{flalign}$$
