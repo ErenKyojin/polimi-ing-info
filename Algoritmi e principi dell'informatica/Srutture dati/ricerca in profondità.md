@@ -13,4 +13,10 @@ In realtà il DFS che vediamo risolve un problema leggermente diverso da BFS:
 >[!question] Problema risolto da DFS
 >input: grafo G
 >output: visitare tutti i nodi di G
-> (osserviamo che in BFS visitavamo solo i nodi raggiungibili da m)
+>(osserviamo che in BFS visitavamo solo i nodi raggiungibili da $s$)
+>
+
+DFS solitamente è usato come parte di un algoritmo più complesso, prima di vederlo però facciamo alcune considerazioni:
+
+- Anche in DFS coloriamo i nodi
+- 
