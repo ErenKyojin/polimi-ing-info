@@ -39,7 +39,7 @@ $$ T = \begin{bmatrix}
 lista(18) & NIL & lista(38,12) & NIL  & NIL
 \end{bmatrix} $$
 ## In indirizzamento aperto
-In questo caso la tabella contiene tutte le chiavi, $\alpha$
+In questo caso la tabella contiene tutte le chiavi senza memoria aggiuntiva, quindi necessariamente $\alpha \leq 1$. Per implmentarlo cerchiamo l'indice dello slot in cui va memorizzato l'ogg
 
 $h : U \times \{ 0,1,\dots,m-1 \} \to \{ 0,1,\dots,m-1 \}$
 - La sequenza di ispezione $\left< h(k,0),h(k,1),\dots,h(k,m-1) \right>$
