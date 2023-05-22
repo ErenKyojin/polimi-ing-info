@@ -65,8 +65,10 @@ Essendo $0 \leq n \leq |U|$ aremo $0 \leq \alpha \leq |U| / m$.
 
 
 #### Ipotiziamo hashing uniforme semplice
-Ogni chiave ha la stessa probabilità $1 / m$ di finire in una qualsiasi delle $m$ celle di $T$, indipen
-
+Ogni chiave ha la stessa probabilità $1 / m$ di finire in una qualsiasi delle $m$ celle di $T$, indipendentemente dalle chiavi precedentemente inserite.
+La lunghezza media di una lista è
+$$ E[n_{j}] = \frac{1}{m} \sum_{i = 1}^m n_{i} = \frac{n}{m} = \alpha $$
+Quindi il tempo medio per cercare una chiave $k$ non presente nella lista è $$
 ## Risoluzione indirizzamento aperto
 In sistemi in cui non è possibile usare [[memoria]] extra in maniera dinamica, la tabella contiene tutte le chiavi ed il fattore di carico $\alpha$ non potrà essere più di 1.
 L'idea è quella di calcolare l'indice dello slot in cui va memorizzato l'oggetto, se lo slot è già occupato, si cerca nella tabella uno slot libero. La sequenza di ricerca però (detta **sequenza di ispezione**) si calcola attraverso la [[funzione hash#In indirizzamento aperto]]
