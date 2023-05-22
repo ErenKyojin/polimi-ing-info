@@ -4,12 +4,12 @@ creation date: 2023-05-22 14:15
 modification date: 2023-05-22 14:15
 ---
 
->[!question] problema
->Input: Abbiamo in input un grafo $G$ ed un nodo $s$ sorgente di $G$.
+>[!question] [[problema]]
+>Input: Abbiamo in input un [[grafo]] $G$ ed un nodo $s$ sorgente di $G$.
 >Output: vogliamo visitare tutti i nodi di $G$ che sono raggiungibili da $s$ (un nodo $u$ è raggiungibile da $s$ se c'è un cammino nel grafo che va da $s$ a $u$)
 
 
-Sfruttiamo l'algoritmo di BFS (Breadth-First search), che ha come idea quella di visitare tutti i nodi a ditanza 1 da s, poi a distanza 2, poi a distanza 3 e cosi via.
+Sfruttiamo l'[[algoritmo]] di BFS (Breadth-First search), che ha come idea quella di visitare tutti i nodi a ditanza 1 da s, poi a distanza 2, poi a distanza 3 e cosi via.
 
 Quando visitiamo un nodo $u$, teniamo traccia della sua distanza da s in un attributo $u$.*dist*. Mentre visitiamo i nodi li coloriamo (in modo da poter tracciare la progressione dell'algoritmo):
 - **Nodo bianco** significa ancora da visitare
@@ -19,7 +19,7 @@ Quando visitiamo un nodo $u$, teniamo traccia della sua distanza da s in un attr
 Descriviamo quindi l'algoritmo:
 - Tutti i nodi sono inizialmente bianchi tranne $s$ sorgente che è grigia.
 - I nodi di cui dobbiamo ancora visitare gli adiacenti vengono messi in una [[Code|coda]] (quindi gestita FIFO e inizialmente contenente solo $s$)
-- Ad ogni iterazione del ciclo eliminiamo dalla coda un elemento $u$ e ne visitiamo i nodi adiacentiche sono ancora bianchi (cioè che devono essere ancora visitati)
+- Ad ogni iterazione del [[ciclo]] eliminiamo dalla coda un elemento $u$ e ne visitiamo i nodi adiacentiche sono ancora bianchi (cioè che devono essere ancora visitati)
 	- Se $u.$dist è la distanza del nodo $u$ da $s$, la distanza dei nodi bianchi adiacenti ad $u$ è $u.dist+1$
 
 $G = [[1,2],[7,4],[7],[1],[3,5,6],[6],[4],[8,6],[2]]$
@@ -86,4 +86,4 @@ BFS(G,s)
 Le linee 1-7 sono di inizializzazione e hanno complessità $O(|V|)$
 Le linee 8-15 visitano i nodi, ogni nodo $G$ viene accodato e tolto dalla coda al massimo una volta, quindi ogni lato è visitabile al massimo una volta, quindi la complessità è $O(|E|)$
 
-La complessità totale di BFS è 
+La complessità totale di BFS è naturalmente $O(|V| + |E|)$
