@@ -91,7 +91,11 @@ I grafi in memoria si possono descrivere in due modi:
  \qquad\qquad\qquad
  \begin{tikzpicture}
  \node (a) at (0,0){a};
- \node (b) at (0,-.5);
+ \node (b) at (0,-.5){b};
+ \node (c) at (0,-1){c};
+ \node (d) at (0,-1.5){d};
+ \node (e) at (0,-2){e};
+ \node[draw, right of = (a)] {};
  \end{tikzpicture}
  \end{document}
  ```
