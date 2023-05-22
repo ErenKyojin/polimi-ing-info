@@ -31,7 +31,7 @@ facile da realizzare e veloce (essendo una sola operazione) è necessario però 
 ## Metodo della moltipliazione
 Moltiplichiamo $k$ per una costante $A$ reale tale che $0 < A < 1$, quindi prendiamo la parte frazionare di $kA$ ed il risultato lo moltiplichiamo per $m$ e ne prendiamo una parte intera, in simboli:
 $$ h(k) = \lfloor m(kA \mod 1) \rfloor $$
-dove $x \mod 1 = x - \lfloor  x \rfloor$ è la parte frazionaria di $x$, in questo caso il valroe di $m$ non è critico e funziona bene con qualsiasi valore di $A$. Spesso come $m$ si prende una potenza di $2$ in questo caso (quindi $m = 2^p$), questo rende pi
+dove $x \mod 1 = x - \lfloor  x \rfloor$ è la parte frazionaria di $x$, in questo caso il valroe di $m$ non è critico e funziona bene con qualsiasi valore di $A$. Spesso come $m$ si prende una potenza di $2$ in questo caso (quindi $m = 2^p$), questo rende piú semplice i conti per un calcolatore, inoltre in questo caso si prende come valore di $A$ uno nella forma $s / 2^w$ con $w$ dimensione della parola di memoria del calcolatore
 ## In indirizzamento aperto
 $h : U \times \{ 0,1,\dots,m-1 \} \to \{ 0,1,\dots,m-1 \}$
 - La sequenza di ispezione $\left< h(k,0),h(k,1),\dots,h(k,m-1) \right>$
