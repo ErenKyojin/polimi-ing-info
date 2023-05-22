@@ -5,4 +5,7 @@ modification date: 2023-05-22 14:47
 ---
 
 [[visita in ampiezza|BFS]] si basa sull'idea di visitare i nodi con una politica FIFO realizzata mediante una [[Code|coda]], come alternativa si può usare anche una politica LIFO che ci fornisce un [[algoritmo]] di visita in profondità (detto depth-first search o DFS).
-In questo caso l'idea è che ogni volta che impiliamo un nodo in cima allo stack iniziamo a visitare i nodi adiacenti 
+In questo caso l'idea è che ogni volta che impiliamo un nodo in cima allo stack iniziamo a visitare i nodi adiacenti a quest'ultimo, mentre nel BFS visitavamo quello da più tempo in coda.
+Per ottenere un algoritmo di DFS è sufficente cambiare ENQUEUE con PUSH e DEQUEUE con POP nell'algoritmo di BFS.
+
+In realtà il DFS ch
