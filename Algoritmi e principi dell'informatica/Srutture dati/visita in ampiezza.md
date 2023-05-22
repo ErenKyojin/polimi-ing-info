@@ -17,4 +17,6 @@ Quando visitiamo un nodo $u$, teniamo traccia della sua distanza da s in un attr
 - **Nodo nero** significa che abbiamo visitato tutti i suoi adiacenti.
 
 Descriviamo quindi l'algoritmo:
-- Tutti i nodi sono inizialmente bianchi tranne $s$ sorgente che ègrigia
+- Tutti i nodi sono inizialmente bianchi tranne $s$ sorgente che è grigia.
+- I nodi di cui dobbiamo ancora visitare gli adiacenti vengono messi in una [[Code|coda]] (quindi gestita FIFO e inizialmente contenente solo $s$)
+- Ad ogni iterazione del ciclo eliminiamo dalla coda un elemento $u$ e ne visitiamo i nodi adiacentic
