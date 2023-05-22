@@ -169,4 +169,8 @@ Quanto è grande la matrice di adiacenza?
 Le liste di adiaceza sono in generale migliori quando $|E| \neq \Theta(|V|^2)$, cioè quando il grafo è sparso (quindi il numero di nodi connessi non è tanto grande)
 Se il grafo è completo (o quasi), tanto vale usare una matrice di adiacenza, un grafo orientato è completa se, per ogni coppia di nodi $u$ e $v$, sia l'arco $(u,v)$ che l'arco $(v,u)$ sono in $E$.
 
-Quale è la complessità tempo
+Quale è la complessità temporale per determinare se un arco $(u,v)$ appartiene al grafo:
+- QUando il grafo è rappresentato mediante liste di adiacenza?
+- Quando il grafo è rappresentato mediante una matrice di adiacenza
+
+Qual è la complessità temporale per determinare il numero di archi che escono da un nodo $u$ del grafo
