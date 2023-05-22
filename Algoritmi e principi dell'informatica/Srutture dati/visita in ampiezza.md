@@ -28,13 +28,15 @@ $G = [[1,2],[7,4],[7],[1],[3,5,6],[6],[4],[8,6],[2]]$
 ```tikz
 \begin{document}
 \begin{tikzpicture}[every node/.style={draw, circle},scale = 2]
-\node at (0,0){0};
-\node at (1,-.2){1};
+\node (0) at (0,0){0};
+\node (1) at (1,-.2){1};
 \node at (-.1,-1){2};
 \node at (2,0){3};
 \node at (2.2,-.8){4};
-\node at ()
+\node at (3,-1.4){5};
+\node at (2.3,-1.6){6};
 \node at (1.2,-1.2){7};
+\node at (-.3,-2){8};
 \end{tikzpicture}
 \end{document}
 ```
