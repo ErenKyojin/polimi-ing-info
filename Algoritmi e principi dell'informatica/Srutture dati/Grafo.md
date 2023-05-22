@@ -174,3 +174,5 @@ Quale è la complessità temporale per determinare se un arco $(u,v)$ appartiene
 - Quando il grafo è rappresentato mediante una matrice di adiacenza
 
 Qual è la complessità temporale per determinare il numero di archi che escono da un nodo $u$ del grafo
+- Quando il grafo è rappresentato mediante liste di adiacenza
+- Quando il grafo è rappresentato mediante matrice di adiacenza
