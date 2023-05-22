@@ -61,7 +61,11 @@ Generalmente si formano liste abbastanza brevi, caso speciale è una [[funzione 
 Il caso pessimo è che tutti gli $n$ elementi memorizzati finiscono nello stesso slot con la complessità di una ricerca in una lista di $n$ elementi, quindi $O(n)$
 
 Sia $m$ la dimensione della tabella (numero di slot disponibili) ed $\alpha$ il [[fattore di carico]] $\alpha = n / m$.
-Essendo $0 $
+Essendo $0 \leq n \leq |U|$ aremo $0 \leq \alpha \leq |U| / m$.
+
+
+#### Ipotiziamo hashing uniforme semplice
+Ogni chiave ha la stessa probabilità $1 / m$ di finire in una qualsiasi delle $m$ celle di $T$, indipen
 
 ## Risoluzione indirizzamento aperto
 In sistemi in cui non è possibile usare [[memoria]] extra in maniera dinamica, la tabella contiene tutte le chiavi ed il fattore di carico $\alpha$ non potrà essere più di 1.
