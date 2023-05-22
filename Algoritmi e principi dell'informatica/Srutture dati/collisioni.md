@@ -60,7 +60,8 @@ Generalmente si formano liste abbastanza brevi, caso speciale è una [[funzione 
 ### Analisi della complessità
 Il caso pessimo è che tutti gli $n$ elementi memorizzati finiscono nello stesso slot con la complessità di una ricerca in una lista di $n$ elementi, quindi $O(n)$
 
-Sia $m$ la dimensione della tabella (numero di slot disponibili) ed $\alpha$ il [[fattore di carico]] $\alpha = n / m$
+Sia $m$ la dimensione della tabella (numero di slot disponibili) ed $\alpha$ il [[fattore di carico]] $\alpha = n / m$.
+Essendo $0 $
 
 ## Risoluzione indirizzamento aperto
 In sistemi in cui non è possibile usare [[memoria]] extra in maniera dinamica, la tabella contiene tutte le chiavi ed il fattore di carico $\alpha$ non potrà essere più di 1.
