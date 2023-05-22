@@ -61,7 +61,7 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 \tikz[animate = 
 {
 1 : fill = {0s = "white", 2s = "gray", begin = 0s},
-2 : text = {0s = "white",2s = "red",}
+1 : text = {0s = "white",2s = "red", begin = 0s}
 }];
 
 \node[draw,text=red!90,text opacity = 1,fill]  (0) at (0,0){1};
