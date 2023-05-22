@@ -64,8 +64,8 @@ Anche la complessità di DFS, quindi, come quella di BFS è $\Theta(|V| + |E|)$
 1 : text = {0s = "white",2s = "red", begin = 0s}
 }];
 
-\node[draw,text=red!90,text opacity = 1,fill]  (0) at (0,0){1};
-\node[below left of = 0,draw,text opacity = 0.75,fill = gray] (1) {2};
+\node[draw,text=red!90,text opacity = 1,fill = gray]  (0) at (0,0){1};
+\node[below left of = 0,draw,text opacity = 0.75,fill = gray, text = red] (1) {2};
 \node[right of = 0,draw] (3) {};
 \node[right of = 3,draw] (2) {};
 \node[below right of = 3,draw] (4){};
