@@ -33,3 +33,4 @@ pop(S)
 	return S[S.top + 1]
 ```
 
+simili alle pile sono le [[code]]
