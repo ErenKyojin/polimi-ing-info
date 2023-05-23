@@ -14,4 +14,5 @@ dato $Q_{ND}$ numero di stati nell'automa non deterministico, $Q_{D}= 2^{|Q_{ND}
 
 
 ## Relazione tra DTIME E NTIME
-Abbiamo detto che sarebbe utile passare tra computazioni non deterministiche
+Abbiamo detto che sarebbe utile passare tra computazioni non deterministiche a e deterministiche non cambiasse la classe dei problemi risolvibili, quindi
+`DTIME(F) = NTIME(F)` per certe famiglie $\mathcal{F}s$
