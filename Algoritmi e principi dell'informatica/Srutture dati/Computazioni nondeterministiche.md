@@ -9,4 +9,4 @@ Data una [[Macchine di Turing|macchina di Turing]] non deterministica $M$ defini
 
 Quindi `NTIME(T)` è la classe dei [[Linguaggio|linguaggi]] riconoscibili in tempo $T$ mediante macchine di Turing nondeterministiche a $k$ nastri di [[memoria]].
 
-Molti problemi si risolvono in modo molto naturale attraverso nondeterminismo (esempio, trovare un cammino che tocca tutti i nodi in un grafo)
+Molti problemi si risolvono in modo molto naturale attraverso nondeterminismo (esempio, trovare un cammino che tocca tutti i nodi in un grafo). Tuttavia i meccanismi di calcolo che usiamo noi sono deterministici 
