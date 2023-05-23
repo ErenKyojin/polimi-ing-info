@@ -12,7 +12,7 @@ Se aggiorno `v.dist` allora $v$ rimane in $Q$
 Tengo traccia per ogni nodo visitato $v$ del suo predecessore nel cammino da $s$, memorizzandolo nell'attributo `v.prev` che viene aggiornato ogni volta che aggiorniamo `v.dist`
 
 ```
-DIJKSTRA-SHORTEST-PAST
+DIJKSTRA-SHORTEST-PATH
 ```
 
 ```
@@ -37,4 +37,9 @@ HEAP-DECREASE-KEY(A, i , key)
 		i := PARENT(i)
 ```
 
+```
+MIN-HEAP-INSERT(A, key)
+	A.heap-size = A.heap-size + 1
+	A[A.heap-size] = infty
+	HEAP-DECReASE-KEY(A, A.heap-size, key)
 ```
