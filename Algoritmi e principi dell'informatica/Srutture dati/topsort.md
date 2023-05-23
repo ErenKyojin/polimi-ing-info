@@ -10,4 +10,15 @@ TOPOLOGICAL-SORT(G)
 	for each u inn G.V
 		u.color := WHITE
 	for each u inn G.V
+		if u.color = WHITE
+			TOPSORT-VISIT(L, u)
+	return L
+```
+
+```
+TOPSORT-VISIT(L, u)
+	u.color := GRAY
+	for each v inn u.Adj
+		if v.color = WHITE
+	
 ```
