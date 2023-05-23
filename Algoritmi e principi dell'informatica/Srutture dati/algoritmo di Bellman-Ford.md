@@ -15,5 +15,10 @@ BELLMAN-FORD(G, w, s)
 	d[s] := 0
 	repeat for |V| - 1 times
 		for each u in G.V
-			
+			for each v in u.Adj
+				if d[v] > d[u] + w(u,v):
+					d[v] := d[u] + w(u,v)
+					P[v] := u
+	return d, P
 ```
+Rilasso un passo alla 
