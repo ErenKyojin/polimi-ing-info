@@ -32,4 +32,4 @@ Se si trovasse un problema NP-completo che è risolvibile in tempo polinomiale d
 
 SAT è NP difficile, quindi NP-completo, quindi codificando le computazioni di una generica MT nondeterministica M (con complessità polinomiale) in SAT, in modo che M accetta una stringa $x$ se e solo se una opportuna formula $s$ è soddisfacibile
 
-HC è anch'esso NP-difficil
+HC è anch'esso NP-difficile (e NP completo, che si dimostra riducendo SAT a HC), tanti altri problemi di interesse pratico sono NP-completi
