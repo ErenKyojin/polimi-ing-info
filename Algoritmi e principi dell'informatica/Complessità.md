@@ -27,4 +27,7 @@ Se $\mathcal{L}$ è una classe di linguaggi diciamo che un linguaggio $L$ (che n
 
 Un linguaggio $L$ è $\mathcal{L}-$completo se è $\mathcal{L}$-difficile ed è in $\mathcal{L}$.
 
-Se si trovasse un problema NP-completo che è risolvibile in tempo po
+Se si trovasse un problema NP-completo che è risolvibile in tempo polinomiale da una macchina deterministica allora avremo $P=NP$, alternativamente se si trovasse un problema NP-compelsso che non è risolvibile in tempo polinomiale da macchina deterministica allora avremo $P \subset NP$
+
+
+SAT è NP difficile, quindi NP-completo
