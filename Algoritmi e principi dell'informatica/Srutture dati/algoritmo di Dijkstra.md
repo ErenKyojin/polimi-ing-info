@@ -61,4 +61,4 @@ DIJKSTRA-SHORTEST-PATH(G, w, s)
 				HEAP-DECREASE-KEY(Q, v, v.dist)
 ```
 
-Ha complessità $O((|V| + |E|) \log(|V|))$ costo dle ciclo 9-15 ed in particolar modo delle $|V|$ extract e delle $|E|$ DECREASE-KEY, il primo ciclo for ha costo costante in quanto 
+Ha complessità $O((|V| + |E|) \log(|V|))$ costo dle ciclo 9-15 ed in particolar modo delle $|V|$ extract e delle $|E|$ DECREASE-KEY, il primo ciclo for ha costo costante in quanto inseriamo sempre nodi con distanza $\infty$
