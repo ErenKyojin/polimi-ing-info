@@ -25,7 +25,6 @@ HEAP-EXTRACT-MIN(A)
 	MIN-HEAPIFY(A,1) //Risistemiamo l'heap
 	return min
 ```
-Con complessità $O(h)$
 
 ```
 HEAP-DECREASE-KEY(A, i , key)
@@ -43,3 +42,4 @@ MIN-HEAP-INSERT(A, key)
 	A[A.heap-size] = infty
 	HEAP-DECReASE-KEY(A, A.heap-size, key)
 ```
+Tutti questi algoritmi hanno complessità $O(h)$.
