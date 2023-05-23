@@ -20,4 +20,8 @@ Abbiamo detto che sarebbe utile passare tra computazioni non deterministiche a e
 Una fondamentale classe di problemi
 $$ P = \bigcup_{i \geq 1} DTIME(n^i) $$
 detti problemi trattabili, allo stesso modo
-$$ \text{NP} = \bigcup $$
+$$ \text{NP} = \bigcup_{i \geq 1} \text{NTIME}(n^i) $$
+Altre class iinteressanti:
+PSPACE, NPSPACE, EXPTIME, NEXPTIME, EXPSPACE, NEXPSPACE
+
+EXPTIME tempo esponenziale
