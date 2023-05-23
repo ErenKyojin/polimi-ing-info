@@ -25,3 +25,7 @@ Altre class iinteressanti:
 PSPACE, NPSPACE, EXPTIME, NEXPTIME, EXPSPACE, NEXPSPACE
 
 EXPTIME tempo esponenziale
+
+# P = NP ?
+Problema ancora aperto, probabilmente no, ma non c'è ancora una dimotrazioni
+
