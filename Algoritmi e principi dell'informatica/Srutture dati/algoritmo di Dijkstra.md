@@ -58,6 +58,7 @@ DIJKSTRA-SHORTEST-PATH(G, w, s)
 			if v.dist > u.dist + w(u, v)
 				v.dist := u.dist + w(u, v)
 				v.prev := u
-				HEAP-DECREASE-KEY(Q, v, v.d)
+				HEAP-DECREASE-KEY(Q, v, v.dist)
 ```
 
+Ha complessità $O((|V| + |E|) \log(|V|))$ costo dle ciclo 9
