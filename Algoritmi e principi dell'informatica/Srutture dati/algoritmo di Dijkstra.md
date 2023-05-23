@@ -38,7 +38,7 @@ HEAP-DECREASE-KEY(A, i , key)
 MIN-HEAP-INSERT(A, key)
 	A.heap-size = A.heap-size + 1
 	A[A.heap-size] = infty
-	HEAP-DECReASE-KEY(A, A.heap-size, key)
+	HEAP-DECREASE-KEY(A, A.heap-size, key)
 ```
 Tutti questi algoritmi hanno complessità $O(h)$.
 
@@ -61,4 +61,4 @@ DIJKSTRA-SHORTEST-PATH(G, w, s)
 				HEAP-DECREASE-KEY(Q, v, v.dist)
 ```
 
-Ha complessità $O((|V| + |E|) \log(|V|))$ costo dle ciclo 9-15 ed in particolar modo delle $|V|$ extract e delle $|E|$ DECREASE-KEY
+Ha complessità $O((|V| + |E|) \log(|V|))$ costo dle ciclo 9-15 ed in particolar modo delle $|V|$ extract e delle $|E|$ DECREASE-KEY, il primo ciclo for ha costo costante in quanto 
