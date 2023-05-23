@@ -160,7 +160,7 @@ In entrambi i casi, dato un nodo $u$ in un grafo $G$, l'attributo *u.Adj* rappre
 Quanto è grande una rappresentazione con liste di adiacenza?
 - Il numero totale di elemeti nelle liste è $|E|$
 - Il numero di elementi nell'array è $|V|$
-- La complessità spaziale è $\Theta(|V| + |E|)$
+- La [[complessità]] spaziale è $\Theta(|V| + |E|)$
 
 Quanto è grande la matrice di adiacenza?
 - La dimensione della matrice è $|V|^2$, quindi la sua complessità è $\Theta(|V|^2)$.
