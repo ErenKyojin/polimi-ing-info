@@ -10,3 +10,9 @@ Abbiamo anche qui matrici e liste di adiacenza, le prime al posto dei valori 1 c
 ## Peso deicammini
 $$p = \left< v_{0}, v_{1}, \dots, v_{k} \right>$$
 $$W(p) = \sum_{i=1}^k w(v_{i - 1},v_{i})$$
+Peso [[cammino minimo]] da $u$ a $v$
+$$ \delta(u,v) =  \begin{cases}
+\min(W) \\
+\perp
+\end{cases}$$
+##
