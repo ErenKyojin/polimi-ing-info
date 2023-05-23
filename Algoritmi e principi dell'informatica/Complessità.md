@@ -30,4 +30,6 @@ Un linguaggio $L$ è $\mathcal{L}-$completo se è $\mathcal{L}$-difficile ed è 
 Se si trovasse un problema NP-completo che è risolvibile in tempo polinomiale da una macchina deterministica allora avremo $P=NP$, alternativamente se si trovasse un problema NP-compelsso che non è risolvibile in tempo polinomiale da macchina deterministica allora avremo $P \subset NP$
 
 
-SAT è NP difficile, quindi NP-completo
+SAT è NP difficile, quindi NP-completo, quindi codificando le computazioni di una generica MT nondeterministica M (con complessità polinomiale) in SAT, in modo che M accetta una stringa $x$ se e solo se una opportuna formula $s$ è soddisfacibile
+
+HC è anch'esso NP-difficil
