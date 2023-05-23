@@ -4,4 +4,6 @@ creation date: 2023-05-23 10:48
 modification date: 2023-05-23 10:48
 ---
 
-Dato un [[Grafi orientati pesati|grafo orientato pesato]] $G$ e dato un suo nodo $s$, trovare i percorsi più corti da $s$ agli altri nodi
+Dato un [[Grafi orientati pesati|grafo orientato pesato]] $G$ e dato un suo nodo $s$, trovare i percorsi più corti da $s$ agli altri nodi.
+
+Se i pesi sono tuti 1 l'[[algoritmo]] di [[visita in ampiezza|BFS]] ci fornisce già il cammino minimo
