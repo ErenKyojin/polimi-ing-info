@@ -12,6 +12,9 @@ Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] d
 
 Più precisamente
 - Problema = riconoscimento di un linguaggio
-- Algoritmo = macchina di turing
+- Algoritmo = [[Macchine di Turing|macchina di turing]]
 
-`DTIME(T)` e (rispettivamente `DSPACE(T)`) è la classe dei linguaggi (ricorsivi) riconoscibili in tempo T (rispettivamente spazio) mediante macchina di Turing deterministiche a k nastri di memoria
+`DTIME(T)` e (rispettivamente `DSPACE(T)`) è la classe dei [[Linguaggio|linguaggi]] (ricorsivi) riconoscibili in tempo T (rispettivamente spazio) mediante macchina di Turing deterministiche a k nastri di [[memoria]]
+
+
+Data una funzione totale e computabile $T(n)$ esiste un linguaggio ricorisvo che non è `DTIME(T)`, c'è quindi una gerarchia di linguaggi definita sulla base della complessità temporale deterministica.
