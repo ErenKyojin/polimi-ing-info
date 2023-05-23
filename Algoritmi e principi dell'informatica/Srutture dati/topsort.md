@@ -28,5 +28,4 @@ TOPSORT-VISIT(L, u)
 ```
 
 Il tempo di esecuzione di TOPSORT è lo stesso di DFS cioè $\Theta(|V| + |E|)$
-- Le linee 5-7 di TOPSORT-VISIT impiegano tempo $\Theta(1)$ come le linee 2-3 e 7-8 di DFS-VISIT, il resto dell'algoritmo è analogo a DFS.
-
+- Le linee 5-7 di TOPSORT-VISIT impiegano tempo $\Theta(1)$ come le linee 2-3 e 7-8 di DFS-VISIT, il resto dell'algoritmo è analogo a DFS (non è necessaria la variabile time)
