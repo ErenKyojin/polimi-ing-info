@@ -23,4 +23,4 @@ BELLMAN-FORD(G, w, s)
 ```
 Rilasso un passo alla volta partendo da $s$, avanzando nei cammini di un passo. Al $|V|-1$-esimo passo sicuramente avrò toccato tutti i nodi raggiungibili. (chiaramente non converge se ci sono cicli negativi).
 
-È un
+È un algoritmo di forza bruta, guarda tutti gli archi e fai tutti i rilassamenti. Il caso pessimo è $\# \text{ archi} \cdot \# \text{}$
