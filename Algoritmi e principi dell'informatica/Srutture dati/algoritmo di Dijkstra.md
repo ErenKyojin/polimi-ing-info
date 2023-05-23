@@ -19,8 +19,8 @@ DIJKSTRA-SHORTEST-PAST
 HEAP-EXTRACT-MIN(A)
 	if A.heap-size < 1 //min-heap vuoto
 		error "underflow"
-	min := A[1]`Q`     //minimo primo elemento
-	A[1] := A[A.heap-size]
+	min := A[1]        //minimo primo elemento
+	A[1] := A[A.heap-size]  //inseriamo l'ultimo elemento
 	A.heap-size := A.heap-size - 1
 	MIN-HEAPIFY(A,1)
 	return min
