@@ -20,5 +20,11 @@ TOPSORT-VISIT(L, u)
 	u.color := GRAY
 	for each v inn u.Adj
 		if v.color = WHITE
-	
+			TOPSORT-VISIT(L, v)
+	crea l'elemento di lista x
+	x.key := u
+	LIST-INSERT(L, x)
+	u.color := BLACK
 ```
+
+Il tempo di esecuzione di TIPSORT 
