@@ -22,4 +22,7 @@ Data una funzione totale e computabile $T(n)$ esiste un linguaggio ricorisvo che
 ## Riduzione in tempo polinomiale e completezza
 Un linguaggio (problema) $L_{1}$ è riducibile in tempo polinomiale ad un altro linguaggio $L_{2}$ se e solo se esiste una MT deterministica (Traduttrice) con complessità in $P$ che per ogni $x$ produce una stringa $\tau(x)$ tale che $\tau(x) \in L_{2}$ e e solo se $x \in L_{1}$
 
-Se $\mathcal{L}$ è una classe di linguaggi diciamo che un linguaggio $L$ che non è detto debba essere in $\mathcal{L}$) e
+Se $\mathcal{L}$ è una classe di linguaggi diciamo che un linguaggio $L$ che non è detto debba essere in $\mathcal{L}$) è $\mathcal{L}$ difficile rispetto alle riduzioni in tmepo polinomiale se e solo se per ogni $L' \in \mathcal{L}$, $L$ è riducibile in tempo polinomiale a $L$.
+- Cioè se risovlere $L$ è almeno tanto dificciile quanto risolvere un qualunque linguaggio in $\mathcal{L}$
+
+Un linguaggio $L$ è $\mathcal{L}-completo$
