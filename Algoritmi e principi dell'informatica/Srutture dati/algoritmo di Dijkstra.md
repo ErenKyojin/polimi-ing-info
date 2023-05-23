@@ -14,3 +14,13 @@ Tengo traccia per ogni nodo visitato $v$ del suo predecessore nel cammino da $s$
 ```
 DIJKSTRA-SHORTEST-PAST
 ```
+
+```
+HEAP-EXTRACT-MIN(A)
+	if A.heap-size < 1
+		error "underflow"
+	min := A[1]
+	A[1] := A[A.heap-size]
+	A.heap-size := A.heap-size - 1
+	MIN-HEAPIFY()
+```
