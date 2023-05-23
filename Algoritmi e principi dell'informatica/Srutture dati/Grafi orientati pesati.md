@@ -11,7 +11,8 @@ Abbiamo anche qui matrici e liste di adiacenza, le prime al posto dei valori 1 c
 \usetikzlibrary{graphs}
 \begin{document}
 \begin{tikzpicture}
-\graph {a -> {b, c} -> d};
+\graph {a -> {d, b} -> d};
+{}
 \end{tikzpicture}
 \end{document}
 ```
