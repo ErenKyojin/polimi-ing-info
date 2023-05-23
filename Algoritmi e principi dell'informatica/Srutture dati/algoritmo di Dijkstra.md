@@ -10,3 +10,7 @@ All'inizio metto tutti i nodi in $Q$ e per ogni nodo $v$ diverso da $s$ metto `v
 **rilassamento**: quando estraggo un nodo $u$ da $Q$ ontrollo tutti i suoi nodi adiacenti $v$ e, se `u.dist + w(u, v)` è minore del valore `v.dist` trovato fino ad ora, aggiorno `v.dist` con `u.dist + w(u,v)`.
 Se aggiorno `v.dist` allora $v$ rimane in $Q$
 Tengo traccia per ogni nodo visitato $v$ del suo predecessore nel cammino da $s$, memorizzandolo nell'attributo `v.prev` che viene aggiornato ogni volta che aggiorniamo `v.dist`
+
+```
+DIJKSTRA-SHORTEST-PAST
+```
