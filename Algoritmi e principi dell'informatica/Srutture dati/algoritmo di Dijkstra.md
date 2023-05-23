@@ -53,6 +53,11 @@ DIJKSTRA-SHORTEST-PATH(G, w, s)
 		u.prev := NIL
 		MIN-HEAP-INSERT(Q, u)
 	while Q != empty
-		u := HEAP-EXTRACT-MIN
+		u := HEAP-EXTRACT-MIN(Q)
+		for each v inn u.Adj
+			if v.dist > u.dist + w(u, v)
+				v.dist := u.dist + w(u, v)
+				v.prev := u
+				HEAP-DECREASE-KEY(Q, v, v.d)
 ```
 
