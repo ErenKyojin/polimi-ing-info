@@ -11,9 +11,7 @@ All'inizio metto tutti i nodi in $Q$ e per ogni nodo $v$ diverso da $s$ metto `v
 Se aggiorno `v.dist` allora $v$ rimane in $Q$
 Tengo traccia per ogni nodo visitato $v$ del suo predecessore nel cammino da $s$, memorizzandolo nell'attributo `v.prev` che viene aggiornato ogni volta che aggiorniamo `v.dist`
 
-```
-DIJKSTRA-SHORTEST-PATH
-```
+Per vedere l'algoritmo dobbiamo prima introdurne di ausiliari
 
 ```
 HEAP-EXTRACT-MIN(A)
@@ -43,3 +41,11 @@ MIN-HEAP-INSERT(A, key)
 	HEAP-DECReASE-KEY(A, A.heap-size, key)
 ```
 Tutti questi algoritmi hanno complessità $O(h)$.
+
+```
+DIJKSTRA-SHORTEST-PATH(G, w, s)
+	Q := null
+	s.dist := 0
+	s.prev := NIL
+```
+
