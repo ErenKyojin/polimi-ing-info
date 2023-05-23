@@ -40,7 +40,7 @@ MIN-HEAP-INSERT(A, key)
 	A[A.heap-size] = infty
 	HEAP-DECREASE-KEY(A, A.heap-size, key)
 ```
-Tutti questi algoritmi hanno [[complessità]] $O(h)$.
+Tutti questi algoritmi hanno [[Complessità]] $O(h)$.
 
 ```
 DIJKSTRA-SHORTEST-PATH(G, w, s)

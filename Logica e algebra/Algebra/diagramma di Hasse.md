@@ -26,6 +26,6 @@ modification date: 2023-04-28 14:56
 >\end{tikzpicture}
 >\end{document}
 >```
->È semplice disegnare il grafo di incidenza ed osservarne la [[complessità]].
+>È semplice disegnare il grafo di incidenza ed osservarne la [[Complessità]].
 
 

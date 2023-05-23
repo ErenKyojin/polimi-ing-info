@@ -20,7 +20,7 @@ In questo corso vediamo i costi piú semplici e oggettivi, [[memoria]] e tempo (
 
 
 Conseguenza fondamentale della [[tesi di Church]]: i problemi non dipendono da come vengono posti
-Cominciamo da un analisi di [[complessità]] legata alle macchine di Turing (di tipo deterministico!).
+Cominciamo da un analisi di [[Complessità]] legata alle macchine di Turing (di tipo deterministico!).
 
 ![[Complessità temporale]]
 

@@ -19,7 +19,7 @@ $v_{1}$ per cui $v_{1}(A) = v_{1}(B) = 0$
 $v_{2}$ per cui $v_{2}(A) = 0$, $v_{2}(B)=1$
 $v_{3}$ per cui $v_{3}(A) = 1, v_{3}(B)=0$
 
-Decidere se una [[formule ben formate|f.b.f.]] è soddisfacibile richiede un procedimento semplice, ma costoso dal punto di vista delle [[complessità]] (tale [[problema]] è infatti NP-completo).
+Decidere se una [[formule ben formate|f.b.f.]] è soddisfacibile richiede un procedimento semplice, ma costoso dal punto di vista delle [[Complessità]] (tale [[problema]] è infatti NP-completo).
 
 I concetti di modello, soddisfacibilità e insoddisfacibilità si possono estendere ad un [[insieme]] $\Gamma$ di f.b.f. :
 - Un modello per $\Gamma$ è una interpretazione che sia modello per ogni f.b.f. di $\Gamma$

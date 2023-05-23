@@ -238,7 +238,7 @@ In effetti questo ultimo esempio racchiude un processo molto utile, se dobbiamo 
 $$
 \int \! x^{n} f(x) \, \d x \qquad\text{con}\qquad f(x) = \cos x, \sin x, \cosh x, \sinh x, e^{x} 
 $$
-(Ossia funzioni che si integrano in modo ciclico) Possiamo utilizzare l'integrazione per parti derivando $x^{n}$ (facendola quindi abbassare di grado), ed integrando $f(x)$, non aumentando la [[complessità]].
+(Ossia funzioni che si integrano in modo ciclico) Possiamo utilizzare l'integrazione per parti derivando $x^{n}$ (facendola quindi abbassare di grado), ed integrando $f(x)$, non aumentando la [[Complessità]].
 Più in generale sempre calcolare, per la linearità dell'integrale:
 $$
 \int \! P_{n}(x)f(x) \, \d x 
