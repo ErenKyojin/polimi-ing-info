@@ -28,5 +28,13 @@ HEAP-EXTRACT-MIN(A)
 Con complessità $O(h)$
 
 ```
-HEAP-DECREASE-
+HEAP-DECREASE-KEY(A, i , key)
+	if key > A[i]
+		error "new key greater than older"
+	A[i] := key
+	while i > 1 and A[PARENT(i)] > A[i]
+		swap A[i] <-> A[PARENT(i)]
+		i := PARENT(i)
+```
+
 ```
