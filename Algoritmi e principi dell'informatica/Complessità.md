@@ -20,4 +20,6 @@ Più precisamente
 Data una funzione totale e computabile $T(n)$ esiste un linguaggio ricorisvo che non è `DTIME(T)`, c'è quindi una gerarchia di linguaggi definita sulla base della complessità temporale deterministica. Una cosa analoga vale per DSPACE e le [[Computazioni nondeterministiche]] (NTIME e NSPACE).
 
 ## Riduzione in tempo polinomiale e completezza
-Un linguaggio (problema) $L_{1}$ è riducibile in tempo po
+Un linguaggio (problema) $L_{1}$ è riducibile in tempo polinomiale ad un altro linguaggio $L_{2}$ se e solo se esiste una MT deterministica (Traduttrice) con complessità in $P$ che per ogni $x$ produce una stringa $\tau(x)$ tale che $\tau(x) \in L_{2}$ e e solo se $x \in L_{1}$
+
+Se $\mathcal{L}$ è una classe di linguaggi diciamo che un linguaggio $L$ che non è detto debba essere in $\mathcal{L}$) e
