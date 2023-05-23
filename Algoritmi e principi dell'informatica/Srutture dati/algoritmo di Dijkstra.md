@@ -26,3 +26,7 @@ HEAP-EXTRACT-MIN(A)
 	return min
 ```
 Con complessità $O(h)$
+
+```
+HEAP-DECREASE-
+```
