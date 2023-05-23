@@ -22,5 +22,6 @@ HEAP-EXTRACT-MIN(A)
 	min := A[1]
 	A[1] := A[A.heap-size]
 	A.heap-size := A.heap-size - 1
-	MIN-HEAPIFY()
+	MIN-HEAPIFY(A,1)
+	return min
 ```
