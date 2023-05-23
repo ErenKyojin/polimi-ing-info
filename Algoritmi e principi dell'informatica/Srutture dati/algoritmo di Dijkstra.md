@@ -44,8 +44,15 @@ Tutti questi algoritmi hanno complessità $O(h)$.
 
 ```
 DIJKSTRA-SHORTEST-PATH(G, w, s)
-	Q := null
+	Q := empty
 	s.dist := 0
 	s.prev := NIL
+	MIN-HEAP-INSERT(Q,s)
+	for each u inn G.V - {s}
+		u.dist := infty
+		u.prev := NIL
+		MIN-HEAP-INSERT(Q, u)
+	while Q != empty
+		u := HEAP-EXTRACT-MIN
 ```
 
