@@ -20,9 +20,9 @@ HEAP-EXTRACT-MIN(A)
 	if A.heap-size < 1 //min-heap vuoto
 		error "underflow"
 	min := A[1]        //minimo primo elemento
-	A[1] := A[A.heap-size]  //inseriamo l'ultimo elemento
-	A.heap-size := A.heap-size - 1
-	MIN-HEAPIFY(A,1)
+	A[1] := A[A.heap-size]  //inseriamo l'ultimo elemento al posto della sorgente
+	A.heap-size := A.heap-size - 1 //Diminuiamo la dimensione dell'heap
+	MIN-HEAPIFY(A,1) //Risistemiamo l'heap
 	return min
 ```
 Con complessità $O(h)$
