@@ -4,4 +4,4 @@ creation date: 2023-05-23 10:42
 modification date: 2023-05-23 10:42
 ---
 
-Un grafo o
+Un grafo orientato pesato è un grafo che associa ad ogni arco con un peso dato dalla funzione $w : V \times V \to \mathbb{N}$
