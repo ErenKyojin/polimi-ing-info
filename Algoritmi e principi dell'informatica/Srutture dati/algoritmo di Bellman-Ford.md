@@ -21,4 +21,6 @@ BELLMAN-FORD(G, w, s)
 					P[v] := u
 	return d, P
 ```
-Rilasso un passo alla 
+Rilasso un passo alla volta partendo da $s$, avanzando nei cammini di un passo. Al $|V|-1$-esimo passo sicuramente avrò toccato tutti i nodi raggiungibili. (chiaramente non converge se ci sono cicli negativi).
+
+È un
