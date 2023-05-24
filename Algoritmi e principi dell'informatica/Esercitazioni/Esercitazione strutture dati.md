@@ -953,4 +953,7 @@ Complessità? $O(n)$, come è possibile? Perché dipende dal bilanciamento dell'
 ```
 trovare 10 in questo albero richiede 10 passaggi.
 
-Inoltre ricordiamo che il BST si conserva con aggiunte, cioè che non si conserva ne con aggiunte ne con aggiunte e rimozioni consecutive è il bilancia
+Inoltre ricordiamo che il BST si conserva con aggiunte, cioè che non si conserva ne con aggiunte ne con aggiunte e rimozioni consecutive è il bilanciamento del BST.
+
+## 5
+Dato un array di $n$ elementi interi costruire un BST il più bilanciato possibile con le chiavi in $A$.
