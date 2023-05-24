@@ -773,6 +773,7 @@ Ogni hash contiene la lista dei valori con lo stesso $\mod 11$, la lista è inse
 ```tikz
 \begin{document}
 \begin{tikzpicture}
+
 [
 level 1/.style={sibling distance = 2cm},
 level 2/.style={sibling distance = 1cm},
@@ -780,6 +781,8 @@ level 3/.style={sibling distance = .75cm}
 
 
 ]
+
+\begin{scope}[every node/.style={draw}]
 \node (1){1}
 	child{node(2){2}
 	 child{node(4){12}
@@ -793,6 +796,8 @@ level 3/.style={sibling distance = .75cm}
 	 child{node(7){9}}
 	}
 ;
+
+\end{scope}
 \begin{scope}[every node/.style={above right}, scale = .5]
 \node at (1){1};
 \node at (2){2};
@@ -803,8 +808,6 @@ level 3/.style={sibling distance = .75cm}
 \node at (7){7};
 \node at (8){8};
 \node at (9){9};
-\node at (10){10};
-'node at (11)'
 
 \end{scope}
 \end{tikzpicture}
