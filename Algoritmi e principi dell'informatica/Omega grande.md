@@ -14,7 +14,7 @@ $$ \Omega(g(n)) = \{ f(n) | \exists c, n_{0}(c,n_{0} > 0) \ t.c.\ \forall n > n_
 \draw[ultra thick, -latex] (0,0) -- (6,0);
 \draw[ultra thick, -latex] (0,0) -- (0,4);
 
-\draw (0,0) to[out=80,in = 240] (0.45,1) to (0.75,0.75) to (2.5,2) to (4,2.2) to (5,3.2) to (5.5, 3.3); 
+\draw (0,0) to[out=80,in = 180] (0.45,1) to[out = 0, in = 180] (0.75,0.75) to[out = ] (2.5,2) to (4,2.2) to (5,3.2) to (5.5, 3.3); 
 \end{tikzpicture}
 \end{document}
 ```
