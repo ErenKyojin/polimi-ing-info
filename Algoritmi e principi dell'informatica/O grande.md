@@ -25,4 +25,6 @@ negli esempi di prima
 >[!esempio]
 >- $3n^2 + 12n + 35 \in O(n^2)$
 >- $5n^3 + 2 \in O(n^3)$
->- 2
+>- $2\log(n) + \log(\log(n)) \in O(\log(n))$
+>
+>Ma notiamo anche che $3n^2 + 12n + 35 \in O(n^3)$
