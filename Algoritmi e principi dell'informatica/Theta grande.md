@@ -20,7 +20,7 @@ La notazione teta grande indica un limite asintotico che è sia inferiore che su
 > 
 > \draw[black] (0,0) to[out=80,in = 180] (0.45,1) to[out = 0, in = 180] (0.75,0.75) to[out = 0, in = 180] (2.5,2) to[out = 0, in = 200] (4,2.2) to[out = 40,in = 200] (5,3.2) to (5.5, 3.3) node[right]{$f(n)$};
 > \draw[red] (0,.75) to[out = 20, in = 190] (2.5,1.8) to[out = 0, in = 180] (4,2) to[out = 0] (5.2,3) node[below right]{$cg(n)$};
-> \draw[red] ()
+> \draw[red] (0,0) to[out = 70, in = 180] (1,2) to[out = 10, in = ] (6,4);
 > \end{tikzpicture}
 > \end{document}
 > ```
