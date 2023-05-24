@@ -1134,10 +1134,25 @@ Il percorso da un lato non può essere lungo più del doppio del percorso dall'a
 \begin{tikzpicture}
 \node{30}
 	child{node{15}
-	 child{node{10}}
-	 child{node{20}}
+	 child{node{10}
+	  child{node{}}
+	  child{node{}}
+	  }
+	 child{node{20}
+	  child{node{}}
+	  child{node{}}
+	 }
 	}
-	child{node{70}}
+	child{node{70}
+	 child{node{60}
+	  child{node{50}
+	   child{node{40}}
+	   child{node{55}}
+	  }
+	  cihld{node{}}
+	 }
+	 child{node{85}}
+	}
 ;
 \end{tikzpicture}
 \end{document}
