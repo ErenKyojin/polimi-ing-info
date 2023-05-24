@@ -1141,7 +1141,7 @@ Il percorso da un lato non può essere lungo più del doppio del percorso dall'a
 	 child{node{20}
 	  child{node{}}
 	  child{node{}}
-	 }
+	  }
 	}
 	child{node{70}
 	 child{node{60}
@@ -1155,9 +1155,12 @@ Il percorso da un lato non può essere lungo più del doppio del percorso dall'a
 	    child{node{}}
 	   }
 	}
-	  cihld{node{}}
+	  child{node{}}
 	 }
-	 child{node{85}}
+	 child{node{85}
+	  child{node{}}
+	  chi
+	 }
 	}
 ;
 \end{tikzpicture}
