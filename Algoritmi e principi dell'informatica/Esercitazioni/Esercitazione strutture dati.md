@@ -1000,3 +1000,8 @@ CREATE-SUB-BALANCED-BST(A, i, j)
 	x.right = CREATE-SUB-BALANCED-BST(A, n+1, j)
 	return x
 ```
+
+## 6
+
+## 7
+Dati due BST $T_{1}$ e $T_{2}$ bilanciati costruire $T$ BST bilanciato che contiene tutte le chiavi (anche ripetute) di $T_{1}$ e $T_{2}$
