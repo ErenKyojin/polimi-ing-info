@@ -1134,10 +1134,11 @@ Il percorso da un lato non può essere lungo più del doppio del percorso dall'a
 \begin{tikzpicture}
 [
 
-layer 1/.style={sibling distance = 4cm},
-layer 2/.style={sibling distance = 2cm},
-layer 3/.style={sibling distance = 1cm},
-layer 4/.style={sibling distance = .75cm},
+level 1/.style={sibling distance = 4cm},
+level 2/.style={sibling distance = 2cm},
+level 3/.style={sibling distance = 1cm},
+level 4/.style={sibling distance = .7cm},
+level 5/.style={sibling distance = .5}
 every node/.style={draw}
 
 ]
