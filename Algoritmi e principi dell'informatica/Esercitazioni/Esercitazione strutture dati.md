@@ -1053,6 +1053,12 @@ Funziona anche per aggiungere un solo elemento? Per funzionare funziona, ma impi
 ```tikz
 \begin{document}
 \begin{tikzpicture}
+[
+level 1/.style={sibling distance = 4cm},
+level 2/.style={sibling distance = 2cm},
+level 3/.style={sibling distance = 1cm},
+level 4/.style={siblin }
+]
 \node{26}
 	child{node{17}
 	 child{node{14}
@@ -1076,11 +1082,15 @@ Funziona anche per aggiungere un solo elemento? Per funzionare funziona, ma impi
 	child{node{41}
 	 child{node{30}
 	  child{node{28}
-		  
+	   child{node{}}
+	   child{node{}}
 	  }
 	  child{node{33}}
 	 }
-	 child{node{47}}
+	 child{node{47}
+	  child{node{}}
+	  child{node{}}
+	 }
 	}
 ;
 \end{tikzpicture}
