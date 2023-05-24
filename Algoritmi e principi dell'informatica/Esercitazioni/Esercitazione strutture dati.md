@@ -880,12 +880,14 @@ crea-sottoalbero(A, n, i, p)
 [
 level 1/.style={sibling distance = 2cm},
 level 2/.style={sibling distance = 1cm},
-level 3/.style={sibling distance = .75cm}
+level 3/.style={sibling distance = .75cm},
+every node/.style={draw}
 ]
 \node{8}
 	child{node{4}
 	 child{node{2}
 	  child{node{1}}
+	  child[missing]
 	 }
 	 child{node{6}}
 	}
@@ -906,3 +908,6 @@ level 3/.style={sibling distance = .75cm}
 \end{tikzpicture}
 \end{document}
 ```
+
+cerco 8, parto dalla radice trovato
+cerco 16, parto da 8, 16 è > quindi è a destra, trovo 13,
