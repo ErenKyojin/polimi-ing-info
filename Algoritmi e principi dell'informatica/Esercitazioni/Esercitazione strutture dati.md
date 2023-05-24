@@ -1067,11 +1067,19 @@ Funziona anche per aggiungere un solo elemento? Per funzionare funziona, ma impi
 	 }
 	 child{node{21}
 	  child{node{18}
-}
+	   child{node{}}
+	   child{node{}}
+	  }
+	  child{node{}}
 	 }
 	}
 	child{node{41}
-	 child{node{30}}
+	 child{node{30}
+	  child{node{28}
+		  
+	  }
+	  child{node{33}}
+	 }
 	 child{node{47}}
 	}
 ;
