@@ -842,4 +842,5 @@ for(i = 1, 2i <= n, i++)
 
 ## 3
 Dato un albero binario T con $n$ nodi e profondità $p$ e due nodi $u$ e $v$ che assumo presenti in $p$ trovare il minimo antenato comune, cioè il nodo più lontano dalla radice di cui $u$ e $v$ sono discendenti.
-Problema: trovare u e v
+Problema: trovare $u$ e $v$.
+	faccio una visita completa
