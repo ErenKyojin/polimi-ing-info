@@ -915,4 +915,14 @@ cerco 16, parto da 8, 16 è > quindi è a destra
  trovo 15, 16 > quindi è a destra
  trovo 16
 
-Complessità
+Complessità? $O(n)$, come è possibile? Perché dipende dal bilanciamento dell'albero:
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node{1}
+ 
+;
+\end{tikzpicture}
+\end{document}
+```
