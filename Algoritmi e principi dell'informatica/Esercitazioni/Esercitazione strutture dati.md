@@ -794,7 +794,7 @@ level 3/.style={sibling distance = .75cm}
 	}
 ;
 \foreach \x in {0,...,11}
-\node[above right] at (\x){a};
+\node[above right] at (\x){\x};
 
 \end{tikzpicture}
 \end{document}
