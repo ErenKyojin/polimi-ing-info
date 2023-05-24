@@ -80,7 +80,10 @@ in generale $|x_{1}| = |x_{2}|$ non implica $T_{M}(x_{1}) = T_{M}(x_{2})$ ne tan
 Tendenzialmente è il **caso pessimo** quello di interesse, è sia più rilevante (l'analisi del caso pessimo è l'unica che ci da una certezza su ogni caso, che è sicuramente migliore o uguale alla nostra analisi); sia più semplice, in particolar modo rispetto al caso, medio da calcolare.
 
 ## Tasso di crescita
-Il valore di $T_{M}(n)$ esatto non ci interessa, vo
+Il valore di $T_{M}(n)$ esatto non ci interessa, vogliamo solo sapere il suo tasso di crescita rispetto ad $n$, ossia il comportamento asintotico per $n$ grandi.
+
+>[!esempio]
+>Non ci interessa se $T_{M}(n) = 3n^2 + 12n + 35$ o se $T_{M}(n) = 6n^2 + 26$ in quanto entrambi si comportano come $n^2$
 
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
