@@ -1004,4 +1004,7 @@ CREATE-SUB-BALANCED-BST(A, i, j)
 ## 6
 
 ## 7
-Dati due BST $T_{1}$ e $T_{2}$ bilanciati costruire $T$ BST bilanciato che contiene tutte le chiavi (anche ripetute) di $T_{1}$ e $T_{2}$ ($|T_{1}| =n, |T_{2}| = m$)
+Dati due BST $T_{1}$ e $T_{2}$ bilanciati costruire $T$ BST bilanciato che contiene tutte le chiavi (anche ripetute) di $T_{1}$ e $T_{2}$ ($|T_{1}| =n, |T_{2}| = m$).
+
+Approccio naive, leggo $T_{1}$ e metto in un array, aggiungo $T_{2}$ nell'array, ordino l'array e faccio un albero bilanciato:
+$$  $$
