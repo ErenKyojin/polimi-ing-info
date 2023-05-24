@@ -793,8 +793,18 @@ level 3/.style={sibling distance = .75cm}
 	 child{node(7){9}}
 	}
 ;
-\begin{scope}
+\begin{scope}[every node/.style={above right}, scale = .5]
 \node at (1){1};
+\node at (2){2};
+\node at (3){3};
+\node at (4){4};
+\node at (5){5};
+\node at (6){6};
+\node at (7){7};
+\node at (8){8};
+\node at (9){9};
+\node at (10){10};
+'node at (11)'
 
 \end{scope}
 \end{tikzpicture}
