@@ -112,7 +112,11 @@ $\Theta$ è una relazione di equivalenza.
 Se $\lim_{ n \to \infty } \frac{f(n)}{g(n)} = c, c \neq 0, c\neq \infty$
 allora $f(n) = \Theta(g(n))$ e quindi anche $f(n) = O(g(n))$
 
-Se $\lim_{ _ \to \infty }$
+Se $\lim_{ n \to \infty } \frac{f(n)}{g(n)} =0$ 
+allora $f(n) = O(g(n))$ ma $f(n) \neq \Theta(g(n))$ quindi $\Theta(f(n)) < \Theta(g(n))$
+
+Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più importante di una funzione di complessità
+
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
