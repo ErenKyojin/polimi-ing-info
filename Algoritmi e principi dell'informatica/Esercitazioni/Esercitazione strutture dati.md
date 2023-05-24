@@ -1014,7 +1014,16 @@ Posso sfruttare il fatto di aver già ordinato le chiavi in anticipo di $T_{1}$ 
 \begin{document}
 \begin{tikzpicture}
 \node {20}
-	chil
+	child{node{12}
+	 child{node{7}
+	  child{node{5}}
+	  child{node{8}}
+	 }
+	 child{node{9}}
+	 }
+	child{node{27}
+	 child{node{22}}
+	}
 ;
 \end{tikzpicture}
 \end{document}
