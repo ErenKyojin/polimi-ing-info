@@ -47,8 +47,11 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 \end{tikzpicture}
 \end{document}
 ```
-$T_{M}(x) = |x| + 1$ se $x \in L$
-$|w| + 1$
+$$ \begin{align}
+T_{m}(x) =\ &|x| + 1 \text{ se } x \in L \\
+ & |w| + 1 \text{ se }x = wz, w = vucu^R, v = \alpha a, z = b\alpha' \\
+	 & 
+\end{align} $$
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
