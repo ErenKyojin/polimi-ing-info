@@ -833,6 +833,6 @@ Se vogliamo fare la versione iterativa piuttosto che la ricorsiva:
 ```
 for(i = 1, 2i <= n, i++)
 	se A[2i] > A[i] return false
-	altrimenti se A[2i + 1] > A[i] return false
+	altrimenti ((se 2i + 1 >= n) e (A[2i + 1] > A[i])) return false
 	
 ```
