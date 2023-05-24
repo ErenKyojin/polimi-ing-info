@@ -1013,6 +1013,10 @@ Posso sfruttare il fatto di aver già ordinato le chiavi in anticipo di $T_{1}$ 
 ```tikz
 \begin{document}
 \begin{tikzpicture}
+[
+level 1/.style={sibling distance = 2.5 cm}
+level 2/.style
+]
 \node {20}
 	child{node{12}
 	 child{node{7}
@@ -1022,7 +1026,14 @@ Posso sfruttare il fatto di aver già ordinato le chiavi in anticipo di $T_{1}$ 
 	 child{node{9}}
 	 }
 	child{node{27}
-	 child{node{22}}
+	 child{node{22}
+	  child{node{21}}
+	  child{node{23}}
+	 }
+	 child{node{31}
+	  child{node{}}
+	  child{node{}}
+	 }
 	}
 ;
 \end{tikzpicture}
