@@ -1054,7 +1054,14 @@ Funziona anche per aggiungere un solo elemento? Per funzionare funziona, ma impi
 \begin{document}
 \begin{tikzpicture}
 \node{26}
-	child{node{14}}
+	child{node{17}
+	 child{node{14}}
+	 child{node{21}}
+	}
+	child{node{41}
+	 child{node{30}}
+	 child{node{47}}
+	}
 ;
 \end{tikzpicture}
 \end{document}
