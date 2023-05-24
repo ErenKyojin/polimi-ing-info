@@ -957,3 +957,16 @@ Inoltre ricordiamo che il BST si conserva con aggiunte, cioè che non si conserv
 
 ## 5
 Dato un array di $n$ elementi interi costruire un BST il più bilanciato possibile con le chiavi in $A$.
+
+$A = [1,2,3,4,5]$
+
+Proviamo semplicemente inserendo gli elementi di A in ordine.
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node {1}
+child
+;
+\end{tikzpicture}
+\end{document}
+```
