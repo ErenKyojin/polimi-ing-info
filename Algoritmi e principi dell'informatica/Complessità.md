@@ -63,7 +63,10 @@ Definiamo la complessità in $f(x)$ come complessità in $f(n)$ con $n$ dimensio
 >[!esempio]
 >- $n$ numero di lettere in una stringa
 >- $n$ numero di righe / colonne in una matrica
->- $n$ numero di bit 
+>- $n$ numero di record di un file
+>- $n$ numero di bit in ingresso
+>
+>in generale $|x_{1}| = |x_{2}|$ non implica $T_{m}(x_{1}) = T_{M}(x_{2})$ ne tantomeno $S_{m}(x_{1}) = S_{M}(x_{2})$
 
 
 ## Complessità e non [[determinismo]]
