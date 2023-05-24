@@ -65,8 +65,11 @@ Definiamo la complessità in $f(x)$ come complessità in $f(n)$ con $n$ dimensio
 >- $n$ numero di righe / colonne in una matrica
 >- $n$ numero di record di un file
 >- $n$ numero di bit in ingresso
->
->in generale $|x_{1}| = |x_{2}|$ non implica $T_{m}(x_{1}) = T_{M}(x_{2})$ ne tantomeno $S_{m}(x_{1}) = S_{M}(x_{2})$
+
+
+in generale $|x_{1}| = |x_{2}|$ non implica $T_{M}(x_{1}) = T_{M}(x_{2})$ ne tantomeno $S_{M}(x_{1}) = S_{M}(x_{2})$, dobbiamo quindi effettuare un scelta:
+- Scelta del caso pessimo
+  $T_{M}(n) = \max\{ T_{m}(x),|x| = n \}$
 
 
 ## Complessità e non [[determinismo]]
