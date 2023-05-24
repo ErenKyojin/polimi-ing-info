@@ -15,8 +15,8 @@ La notazione omega grande indica un limite asintotico inferiore.
 > \draw[ultra thick, -latex] (0,0) -- (6,0);
 > \draw[ultra thick, -latex] (0,0) -- (0,4);
 > 
-> \draw (0,0) to[out=80,in = 180] (0.45,1) to[out = 0, in = 180] (0.75,0.75) to[out = 0, in = 180] (2.5,2) to[out = 0, in = 200] (4,2.2) to[out = 40,in = 200] (5,3.2) to (5.5, 3.3);
-> \draw (0,.75) to (2.5,2);
+> \draw[black] (0,0) to[out=80,in = 180] (0.45,1) to[out = 0, in = 180] (0.75,0.75) to[out = 0, in = 180] (2.5,2) to[out = 0, in = 200] (4,2.2) to[out = 40,in = 200] (5,3.2) to (5.5, 3.3);
+> \draw[red] (0,.75) to (2.5,1.8) to (4,2) to (5,3);
 > \end{tikzpicture}
 > \end{document}
 > ```
