@@ -872,3 +872,12 @@ crea-sottoalbero(A, n, i, p)
 		x.right = crea-sottoalbero(A,n 2i+1)
 		return x
 ```
+
+## BST
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node{8}
+\end{tikzpicture}
+\end{document}
+```
