@@ -77,7 +77,7 @@ in generale $|x_{1}| = |x_{2}|$ non implica $T_{M}(x_{1}) = T_{M}(x_{2})$ ne tan
 - Scelta del caso medio:
   $T_{M}(n) = \left( \sum_{|x| = n} T_{M}(x)\right) / k^n$ con $k$ cardinalità dell'alfabeto
 
-Tendenzialmente è il **caso pessimo** quello di interesse, è sia più rilevante ()
+Tendenzialmente è il **caso pessimo** quello di interesse, è sia più rilevante (l'analisi del caso pessimo è l'unica che ci da una certezza su ogni caso, che è sicuramente migliore o uguale alla nostra ana)
 
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
