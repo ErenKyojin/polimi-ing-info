@@ -1057,7 +1057,8 @@ Funziona anche per aggiungere un solo elemento? Per funzionare funziona, ma impi
 level 1/.style={sibling distance = 4cm},
 level 2/.style={sibling distance = 2cm},
 level 3/.style={sibling distance = 1cm},
-level 4/.style={sibling distance = 5mm}
+level 4/.style={sibling distance = 5mm},
+every node/.style={draw}
 ]
 \node{26}
 	child{node{17}
@@ -1072,7 +1073,7 @@ level 4/.style={sibling distance = 5mm}
 	  }
 	 }
 	 child{node{21}
-	  child{node{18}
+	  child{node[fill = red]{18}
 	   child{node{}}
 	   child{node{}}
 	  }
@@ -1099,3 +1100,5 @@ level 4/.style={sibling distance = 5mm}
 \end{tikzpicture}
 \end{document}
 ```
+
+Si può arrivare a questo albero rosso-nero dal BST sen
