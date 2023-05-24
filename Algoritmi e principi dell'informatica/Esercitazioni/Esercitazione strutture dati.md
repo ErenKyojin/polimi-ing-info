@@ -821,6 +821,7 @@ Output: "si" se A è un heap, "no" altrimenti
 isHeap(A, r, i)
 	se 2i > n
 		return TRUE
-	altrimenti se A[i] >= A[2i] && (2i + 1 => A[i] >= A[2i + 1]) && 
-		
+	altrimenti se A[i] >= A[2i] && (2i + 1 => A[i] >= A[2i + 1]) && isHeap(A,n,2i) && isHeap(A,n,2i+1)
+		return TRUE
+	return FALSE
 ```
