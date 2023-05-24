@@ -836,3 +836,6 @@ for(i = 1, 2i <= n, i++)
 	altrimenti ((se 2i + 1 >= n) e (A[2i + 1] > A[i])) return false
 	
 ```
+
+>[!oss]
+>mergesort mantiene l'ordinamento degli elementi ripetuti, heap e quicksort invece no.
