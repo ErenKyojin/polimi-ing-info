@@ -849,4 +849,5 @@ Risalgo dal più basso
 
 Alternatiamente posso salvare il percorso: v = lll (left left left)
 Il percorso di u è rl (right left)
-controllo quando divergono, in questo caso inizialmente, stringa vuota quindi il nodo 
+controllo quando divergono, in questo caso inizialmente, stringa vuota quindi il nodo in cui divergono è la radice
+
