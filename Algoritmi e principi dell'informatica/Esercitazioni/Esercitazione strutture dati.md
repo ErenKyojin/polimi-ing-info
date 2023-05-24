@@ -1105,13 +1105,16 @@ Si può arrivare a questo albero rosso-nero dal BST senza colori seguendo le reg
 ```tikz
 \begin{document}
 \begin{tikzpicture}
+[
+every node/.style={draw}
+]
 \node{1}
 	child{node{}}
-	child{node[fill = re{2}
+	child{node[fill = red]{2}
 	 child{node{}}
-	 child{node{3}
+	 child{node[fill = red]{3}
 	  child{node{}}
-	  child{node{4}
+	  child{node[fill = red]{4}
 	   child{node{}}
 	   child{node{}}
 	  }
@@ -1121,5 +1124,6 @@ Si può arrivare a questo albero rosso-nero dal BST senza colori seguendo le reg
 \end{tikzpicture}
 \end{document}
 ```
+Questo è l'unico modo per mantenere valide le regole sui nodi neri, ma abbiamo dei nodi rossi figli di altri nodi rossi, quindi non è un R
 
 Il percorso da un lato non può essere lungo più del doppio del percorso dall'altro, quindi è meno bilanciato di un BST bilanciato perfettamente come visti in precedenza, ma è sufficiente per avere un altezza $O(\log n)$
