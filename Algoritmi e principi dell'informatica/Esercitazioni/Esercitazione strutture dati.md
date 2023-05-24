@@ -827,3 +827,9 @@ isHeap(A, r, i)
 ```
 
 La complessità è $n$, passiamo una volta per ogni nodo
+
+Se vogliamo fare la versione iterativa piuttosto che la ricorsiva:
+
+```
+
+```
