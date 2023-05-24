@@ -1132,6 +1132,15 @@ Il percorso da un lato non può essere lungo più del doppio del percorso dall'a
 ```tikz
 \begin{document}
 \begin{tikzpicture}
+[
+
+layer 1/.style={sibling distance = 4cm},
+layer 2/.style={sibling distance = 2cm},
+layer 3/.style={sibling distance = 1cm},
+layer 4/.style={sibling distance = .75cm},
+every node/.style={draw}
+
+]
 \node{30}
 	child{node{15}
 	 child{node{10}
@@ -1159,7 +1168,7 @@ Il percorso da un lato non può essere lungo più del doppio del percorso dall'a
 	 }
 	 child{node{85}
 	  child{node{}}
-	  chi
+	  child{node{}}
 	 }
 	}
 ;
