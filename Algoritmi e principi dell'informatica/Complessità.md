@@ -92,7 +92,11 @@ Introduciamo delle notazioni che mettano in evidenza il comportamento asintotico
 - Notazione [[Omega grande]]
 - Notazione [[Theta grande]]
 
-Queste relazion
+Queste relazioni condividono alcune proprietà:
+- $f(n) = \Theta(g(n))$ se e solo se $f(n) = O(g(n))$ e $f(n) = \Omega(g(n))$
+- Transitività:
+	- se $f(n) = \Theta(g(n))$ e $g(n) = \Theta(h(n))$ allora $f(n) = \Theta(h(n))$
+	- se $kf(n) = O(g(n))$
 
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
