@@ -965,8 +965,19 @@ Proviamo semplicemente inserendo gli elementi di A in ordine.
 \begin{document}
 \begin{tikzpicture}
 \node {1}
-child
+	child[missing]
+	child{node{2}
+	 child[missing]
+	 child{node{3}
+	  child[missing]
+	  child{node{4}
+	   child[missing]
+	   child{node{5}}
+	  }
+	 }
+	}
 ;
 \end{tikzpicture}
 \end{document}
 ```
+No, chiaramente avere A ordinato non è conveniente
