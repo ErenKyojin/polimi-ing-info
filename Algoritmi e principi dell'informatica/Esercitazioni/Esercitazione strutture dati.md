@@ -840,4 +840,5 @@ for(i = 1, 2i <= n, i++)
 >[!oss]
 >mergesort mantiene l'ordinamento degli elementi ripetuti, heap e quicksort invece no.
 
-Dato un albero binario T con $n$ nodi e profondità $p$ e due nodi $u$ e $v$ che assumo presenti in $p$ trovare 
+## 3
+Dato un albero binario T con $n$ nodi e profondità $p$ e due nodi $u$ e $v$ che assumo presenti in $p$ trovare il minimo antenato comune, cioè il nodo più lontano dalla radice di cui $u$ e $v$ sono discendenti
