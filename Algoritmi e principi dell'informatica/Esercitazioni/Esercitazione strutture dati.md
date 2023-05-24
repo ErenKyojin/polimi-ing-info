@@ -890,8 +890,17 @@ level 3/.style={sibling distance = .75cm}
 	 child{node{6}}
 	}
 	child{node{13}
-	 child{node{10}}
-	 child{node{15}}
+	 child{node{10}
+	  child{node{9}}
+	  child{node{12}
+	    child{node{11}}
+	    child[missing]
+	   }
+	 }
+	 child{node{15}
+	  child[missing]
+	  child{node{16}}
+	 }
 	}
 ;
 \end{tikzpicture}
