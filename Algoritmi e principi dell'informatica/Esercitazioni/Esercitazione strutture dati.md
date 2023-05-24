@@ -1014,8 +1014,9 @@ Posso sfruttare il fatto di aver già ordinato le chiavi in anticipo di $T_{1}$ 
 \begin{document}
 \begin{tikzpicture}
 [
-level 1/.style={sibling distance = 2.5 cm}
-level 2/.style
+level 1/.style={sibling distance = 2.5 cm},
+level 2/.style={sibling distance = 1.25 cm},
+level 3/.style={sibling distance = .75cm}
 ]
 \node {20}
 	child{node{12}
@@ -1031,11 +1032,12 @@ level 2/.style
 	  child{node{23}}
 	 }
 	 child{node{31}
-	  child{node{}}
-	  child{node{}}
+	  child{node{29}}
+	  child{node{40}}
 	 }
 	}
 ;
 \end{tikzpicture}
 \end{document}
 ```
+Visito scenndo a sinist
