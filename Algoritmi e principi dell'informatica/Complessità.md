@@ -101,8 +101,13 @@ Queste relazioni condividono alcune proprietà:
 - Riflessività:
 	- $f(n) = \Theta(f(n))$
 	- $f(n) = O(f(n))$
-	- 
+	- $f(n) = \Omega(f(n))$
+- Simmetria:
+	- $f(n) = \Theta(g(n))$ se e solo se $g(n) = \Theta(f(n))$
+- Simmetria trasposta: 
+	- $f(n) = O(g(n))$ se e solo se $g(n) = \Omega(f(n))$ 
 
+$\Theta$ è una relazione di equivalenz
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
