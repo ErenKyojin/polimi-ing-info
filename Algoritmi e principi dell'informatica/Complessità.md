@@ -8,7 +8,7 @@ Avendo capito come realizzare se un problema sia risolibile o meno, vogliamo sap
 - Costo di spazio
 - Costo di sviluppo
 
-Noi ci concentr
+Noi ci concentriamo principalmente su cositi oggettivi, quelli sulle risorse (come memoria e tempo di esecuzione)
 [[Complessità spaziale]]
 [[Complessità temporale]]
 
