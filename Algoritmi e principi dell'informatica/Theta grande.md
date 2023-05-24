@@ -26,3 +26,11 @@ La notazione teta grande indica un limite asintotico che è sia inferiore che su
 > ```
 
 
+Abbiamo
+- $3n^2 + 12n + 35 = \Theta(n^2)$
+- $2n^2 \log(n) + 5 = \Theta(n^2 \log(n))$
+- $n_{2}^n + n^{45} = \Theta(n^2 \log(n))$
+
+Però
+- $3n^2 + 12n + 35 \neq \Theta(n)$
+- 3
