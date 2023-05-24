@@ -864,6 +864,8 @@ crea-albero(A, n)
 
 ```
 crea-sottoalbero(A, n, i)
-	se i <= n;
-		crea un nuovo nodox
+	se i <= n
+		crea un nuovo nodo x
+		x.key = A[i]
+		
 ```
