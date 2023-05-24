@@ -980,4 +980,4 @@ Proviamo semplicemente inserendo gli elementi di A in ordine.
 \end{tikzpicture}
 \end{document}
 ```
-No, chiaramente avere A ordinato non è conveniente
+No, chiaramente avere A ordinato non sembra essere conveniente, tuttavia insistiamo. proviamo a ut
