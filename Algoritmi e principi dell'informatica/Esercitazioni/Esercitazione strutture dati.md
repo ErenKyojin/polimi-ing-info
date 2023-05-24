@@ -910,4 +910,9 @@ every node/.style={draw}
 ```
 
 cerco 8, parto dalla radice trovato
-cerco 16, parto da 8, 16 è > quindi è a destra, trovo 13,
+cerco 16, parto da 8, 16 è > quindi è a destra
+ trovo 13, 16 > quindi è a destra
+ trovo 15, 16 > quindi è a destra
+ trovo 16
+
+Complessità
