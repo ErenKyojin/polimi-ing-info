@@ -10,7 +10,7 @@ Avendo capito come realizzare se un problema sia risolibile o meno, vogliamo sap
 
 Noi ci concentriamo principalmente su cositi oggettivi, quelli sulle risorse (come memoria e tempo di esecuzione).
 
-Sarebbe interessante partire come per il problema della risolviblità, sfruttare la conseguenza d
+Sarebbe interessante partire come per il problema della risolviblità, sfruttare la conseguenza della Tesi di Church che afferma che le domande poste e le risposte ottenute non dipendono dalla formulazione del problema, tuttavia non è così scontato che
 [[Complessità spaziale]]
 [[Complessità temporale]]
 
