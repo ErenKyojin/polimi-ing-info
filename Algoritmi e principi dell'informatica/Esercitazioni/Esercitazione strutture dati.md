@@ -1057,11 +1057,11 @@ Funziona anche per aggiungere un solo elemento? Per funzionare funziona, ma impi
 level 1/.style={sibling distance = 4cm},
 level 2/.style={sibling distance = 2cm},
 level 3/.style={sibling distance = 1cm},
-level 4/.style={siblin }
+level 4/.style={sibling distance = 5mm}
 ]
 \node{26}
 	child{node{17}
-	 child{node{14}
+	 child{node[fill=red]{14}
 	  child{node{10}
 	   child{node{}}
 	   child{node{}}
@@ -1080,12 +1080,15 @@ level 4/.style={siblin }
 	 }
 	}
 	child{node{41}
-	 child{node{30}
+	 child{node[fill=red]{30}
 	  child{node{28}
 	   child{node{}}
 	   child{node{}}
 	  }
-	  child{node{33}}
+	  child{node{33}
+	   child{node{}}
+	   child{node{}}
+	  }
 	 }
 	 child{node{47}
 	  child{node{}}
