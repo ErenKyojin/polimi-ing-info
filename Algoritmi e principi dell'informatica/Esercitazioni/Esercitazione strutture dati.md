@@ -919,7 +919,7 @@ Complessità? $O(n)$, come è possibile? Perché dipende dal bilanciamento dell'
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[level distance = 2mm]
 \node{1}
  child[missing]
  child{node{2}
@@ -932,6 +932,13 @@ Complessità? $O(n)$, come è possibile? Perché dipende dal bilanciamento dell'
      child[missing]
      child{node{6}
       child[missing]
+      child{node{7}
+       child[missing]
+       child{node{8}
+        child[missing]
+        child{node{9}}
+       }
+      }
      }
     }
    }
