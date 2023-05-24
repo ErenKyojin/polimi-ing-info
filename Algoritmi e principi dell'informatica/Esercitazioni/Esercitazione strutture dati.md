@@ -773,7 +773,9 @@ Ogni hash contiene la lista dei valori con lo stesso $\mod 11$, la lista è inse
 \begin{document}
 \begin{tikzpicture}
 [
-level 1/.style={sibling distance = 2cm}
+level 1/.style={sibling distance = 2cm},
+level 2/.style={sibling distance = 1cm},
+level 3/.style={sibling distance = .75cm}
 
 
 ]
