@@ -1176,4 +1176,6 @@ every node/.style={draw}
 \end{tikzpicture}
 \end{document}
 ```
-Non si può colorare 70, quindi non è colorabile
+Non si può colorare 70, quindi non è colorabile, come posso farlo colrabile?
+Dal lato destro considero:
+T1 il sottoalbero con radice 50, T2 sottoalbero con radice il figlio destro di 60, T3 il
