@@ -1007,4 +1007,15 @@ CREATE-SUB-BALANCED-BST(A, i, j)
 Dati due BST $T_{1}$ e $T_{2}$ bilanciati costruire $T$ BST bilanciato che contiene tutte le chiavi (anche ripetute) di $T_{1}$ e $T_{2}$ ($|T_{1}| =n, |T_{2}| = m$).
 
 Approccio naive, leggo $T_{1}$ e metto in un array, aggiungo $T_{2}$ nell'array, ordino l'array e faccio un albero bilanciato:
-Otteniamo una complessità = $O(n + m + (n+m)\log(n + m)) = O(n + m) \log(n + m)$
+Otteniamo una complessità = $O(n + m + (n+m)\log(n + m) + n + m) = O(n + m) \log(n + m)$
+Posso sfruttare il fatto di aver già ordinato le chiavi in anticipo di $T_{1}$ e $T_{2}$, quindi posso eliminare il fattore logaritmico?
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node {20}
+	chil
+;
+\end{tikzpicture}
+\end{document}
+```
