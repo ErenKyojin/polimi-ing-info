@@ -1106,6 +1106,18 @@ Si può arrivare a questo albero rosso-nero dal BST senza colori seguendo le reg
 \begin{document}
 \begin{tikzpicture}
 \node{1}
+	child{node{}}
+	child{node[fill = re{2}
+	 child{node{}}
+	 child{node{3}
+	  child{node{}}
+	  child{node{4}
+	   child{node{}}
+	   child{node{}}
+	  }
+	 }
+	}
+;
 \end{tikzpicture}
 \end{document}
 ```
