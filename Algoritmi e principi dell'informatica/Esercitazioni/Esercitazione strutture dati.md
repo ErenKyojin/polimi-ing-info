@@ -1176,10 +1176,12 @@ every node/.style={draw}
 \end{tikzpicture}
 \end{document}
 ```
-Non si può colorare 70, quindi non è colorabile, come posso farlo colrabile?
+Non si può colorare 70, quindi non è colorabile, come posso farlo colorabile?
+
 Dal lato destro considero:
 - T1 il sottoalbero con radice 50
 - T2 sottoalbero con radice il figlio destro di 60
 - T3 il sottoalbero con radice 85
 
-Posso spostare
+
+Faccio una rotazione tra 60 e 70, infine spostiamo i sottoalberi ed ottneiamo 
