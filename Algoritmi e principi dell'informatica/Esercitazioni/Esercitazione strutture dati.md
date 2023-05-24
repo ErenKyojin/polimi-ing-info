@@ -798,7 +798,7 @@ level 3/.style={sibling distance = .75cm}
 ;
 
 \end{scope}
-\begin{scope}[every node/.style={above right}, scale = .5]
+\begin{scope}[every node/.style={above right=2mm}, scale = .5]
 \node at (1){1};
 \node at (2){2};
 \node at (3){3};
@@ -813,3 +813,6 @@ level 3/.style={sibling distance = .75cm}
 \end{tikzpicture}
 \end{document}
 ```
+## 2 
+Input: A array di $n$ elementi interi
+Output: "" se A è un heap, "no" altrimenti
