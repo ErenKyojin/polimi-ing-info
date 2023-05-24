@@ -5,5 +5,9 @@
   "alwaysUpdateLinks": true,
   "autoPairMarkdown": false,
   "attachmentFolderPath": "Settings/Allegati",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "spellcheckLanguages": [
+    "en-US",
+    "it"
+  ]
 }
