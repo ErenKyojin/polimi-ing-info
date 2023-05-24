@@ -826,4 +826,4 @@ isHeap(A, r, i)
 	return FALSE
 ```
 
-La complessità è $n$, passiamo una vo
+La complessità è $n$, passiamo una volta per ogni nodo
