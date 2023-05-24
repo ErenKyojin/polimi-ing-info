@@ -16,46 +16,51 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 - ![[Complessità temporale]]
 - ![[Complessità spaziale]]
 
-```tikz
-\usetikzlibrary{chains,fit,shapes}
-\begin{document}
-\begin{tikzpicture}
+> [!esempio] Riconoscimento di $\{ wcw^R \}$
+> ```tikz
+> \usetikzlibrary{chains,fit,shapes}
+> \begin{document}
+> \begin{tikzpicture}
+> 
+> \tikzstyle{tmtape}=[draw,minimum size = 0.7cm]
+> 
+> \begin{scope}[start chain = 1 going right,node distance = -0.15mm]
+> \node[on chain = 1, tmtape] {a};
+> \node[on chain = 1, tmtape] {b};
+> \node[on chain = 1, tmtape] (b) {b};
+> \node[on chain = 1, tmtape] {c};
+> \node[on chain = 1, tmtape] {b};
+> \node[on chain = 1, tmtape] {b};
+> \node[on chain = 1, tmtape] {a};
+> \node[on chain = 1, tmtape] {...};
+> \end{scope}
+> 
+> \begin{scope}[start chain = 2 going right, node distance = -.15mm]
+> \node[on chain = 2, tmtape] at (6,-1.5) {$Z_0$};
+> \node[on chain = 2, tmtape] {A};
+> \node[on chain = 2, tmtape] (B) {B};
+> \node[on chain = 2, tmtape] {B};
+> \end{scope}
+> 
+> \node[draw, minimum size = 1.5cm] (TM) at (0,-2){TM};
+> \draw[thick,-latex] (TM.east) to[out =0,in = -90] (B.south);
+> \draw[thick, -latex] (TM.north) to[out =90, in = -90] (b.south);
+> 
+> \end{tikzpicture}
+> \end{document}
+> ```
+> $$ \begin{align}
+> T_{m}(x) =\ &|x| + 1 \text{ se } x \in L \\
+>  & |w| + 1 \text{ se }x = wz, w = vucu^R, v = \alpha a, z = b\alpha' \\
+>  &|x| + 1 \text{ se }x \in \{ a,b \}^* \dots \\
+> S_{M}(x) =\ &|x| + 1 \text{ se }x \in \{ a,b \}^*, \lfloor |x|/2 \rfloor + 1 \text{ se }x \in L,\dots
+> \end{align} $$
 
-\tikzstyle{tmtape}=[draw,minimum size = 0.7cm]
 
-\begin{scope}[start chain = 1 going right,node distance = -0.15mm]
-\node[on chain = 1, tmtape] {a};
-\node[on chain = 1, tmtape] {b};
-\node[on chain = 1, tmtape] (b) {b};
-\node[on chain = 1, tmtape] {c};
-\node[on chain = 1, tmtape] {b};
-\node[on chain = 1, tmtape] {b};
-\node[on chain = 1, tmtape] {a};
-\node[on chain = 1, tmtape] {...};
-\end{scope}
+Cerchiamo un modo di semplificare:
+Definiamo la complessità in $f(x)$ come complessità in m
 
-\begin{scope}[start chain = 2 going right, node distance = -.15mm]
-\node[on chain = 2, tmtape] at (6,-1.5) {$Z_0$};
-\node[on chain = 2, tmtape] {A};
-\node[on chain = 2, tmtape] (B) {B};
-\node[on chain = 2, tmtape] {B};
-\end{scope}
 
-\node[draw, minimum size = 1.5cm] (TM) at (0,-2){TM};
-\draw[thick,-latex] (TM.east) to[out =0,in = -90] (B.south);
-\draw[thick, -latex] (TM.north) to[out =90, in = -90] (b.south);
-
-\end{tikzpicture}
-\end{document}
-```
-$$ \begin{align}
-T_{m}(x) =\ &|x| + 1 \text{ se } x \in L \\
- & |w| + 1 \text{ se }x = wz, w = vucu^R, v = \alpha a, z = b\alpha' \\
- &|x| + 1 \text{ se }x \in \{ a,b \}^* \dots \\
-S_{M}(x) =\ &|x| + 1 \text{ se }x \in \{ a,b \}^*, \lfloor |x|/2 \rfloor + 1 \text{ se }x \in L,\dots
-\end{align} $$
-
-Cerchiamo u
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
