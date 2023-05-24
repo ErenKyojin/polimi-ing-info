@@ -92,6 +92,7 @@ Introduciamo delle notazioni che mettano in evidenza il comportamento asintotico
 - Notazione [[Omega grande]]
 - Notazione [[Theta grande]]
 
+Queste relazion
 
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$

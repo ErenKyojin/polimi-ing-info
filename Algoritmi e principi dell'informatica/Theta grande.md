@@ -33,4 +33,6 @@ Abbiamo
 
 Però
 - $3n^2 + 12n + 35 \neq \Theta(n)$
-- 3
+- $3n^2 + 12n + 35 \neq \Theta(\log(n))$
+- $n 2^n + n^{45} \neq \Theta(2^n)$
+- $n2^n + n^{45} \neq \Theta(n^{100})$
