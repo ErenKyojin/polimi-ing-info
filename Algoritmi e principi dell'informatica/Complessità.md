@@ -41,13 +41,14 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 \end{scope}
 
 \node[draw, minimum size = 1.5cm] (TM) at (0,-2){TM};
-\draw[thick,-latexx] (TM.east) to[out =0,in = -90] (B.south);
+\draw[thick,-latex] (TM.east) to[out =0,in = -90] (B.south);
 \draw[thick, -latex] (TM.north) to[out =90, in = -90] (b.south);
 
 \end{tikzpicture}
 \end{document}
 ```
-
+$T_{M}(x) = |x| + 1$ se $x \in L$
+$|w| + 1$
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
