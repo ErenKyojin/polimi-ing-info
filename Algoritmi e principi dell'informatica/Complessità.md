@@ -22,7 +22,11 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 
 \tikzstyle{tmtape}=[draw,minimum size = 0.7cm]
 
-\begin{scope}[start chain = 1]
+\begin{scope}[start chain = 1 going right,node distance = -0.15mm]
+\node[on chain = 1, tmtape] {a};
+\node[on chain = 1, tmtape] {b};
+\node[on chain = 1, tmtape] {b};
+\node[on chain = 1, tmtape]
 \end{scope}
 
 \end{tikzpicture}
