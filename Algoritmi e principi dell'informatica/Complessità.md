@@ -15,6 +15,7 @@ Sarebbe interessante partire come per il problema della risolviblità, sfruttare
 Cominciamo da un analisi di complessità per le MT (deterministiche):
 - ![[Complessità temporale]]
 - ![[Complessità spaziale]]
+
 ```tikz
 \usetikzlibrary{chains,fit,shapes}
 \begin{document}
@@ -51,8 +52,10 @@ $$ \begin{align}
 T_{m}(x) =\ &|x| + 1 \text{ se } x \in L \\
  & |w| + 1 \text{ se }x = wz, w = vucu^R, v = \alpha a, z = b\alpha' \\
  &|x| + 1 \text{ se }x \in \{ a,b \}^* \dots \\
-S_{M}(x) =\ &
+S_{M}(x) =\ &|x| + 1 \text{ se }x \in \{ a,b \}^*, \lfloor |x|/2 \rfloor + 1 \text{ se }x \in L,\dots
 \end{align} $$
+
+Cerchiamo u
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
