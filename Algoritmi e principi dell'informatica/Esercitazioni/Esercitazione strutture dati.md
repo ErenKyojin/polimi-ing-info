@@ -997,5 +997,6 @@ CREATE-SUB-BALANCED-BST(A, i, j)
 	crea un nuovo nodo x
 	x.key = A[n]
 	x.left = CREATE-SUB-BALANCED-BST(A, i, n-1)
-	x.right = CREATE-SUB-BALANCED-BST(A, n+1, )
+	x.right = CREATE-SUB-BALANCED-BST(A, n+1, j)
+	return x
 ```
