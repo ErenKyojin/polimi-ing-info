@@ -21,3 +21,8 @@ negli esempi di prima
 2
 0
 0
+
+>[!esempio]
+>- $3n^2 + 12n + 35 \in O(n^2)$
+>- $5n^3 + 2 \in O(n^3)$
+>- 2
