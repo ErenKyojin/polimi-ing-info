@@ -10,9 +10,11 @@ Avendo capito come realizzare se un problema sia risolibile o meno, vogliamo sap
 
 Noi ci concentriamo principalmente su cositi oggettivi, quelli sulle risorse (come memoria e tempo di esecuzione).
 
-Sarebbe interessante partire come per il problema della risolviblità, sfruttare la conseguenza della Tesi di Church che afferma che le domande poste e le risposte ottenute non dipendono dalla formulazione del problema, tuttavia non è così scontato che
-[[Complessità spaziale]]
-[[Complessità temporale]]
+Sarebbe interessante partire come per il problema della risolviblità, sfruttare la conseguenza della Tesi di Church che afferma che le domande poste e le risposte ottenute non dipendono dalla formulazione del problema, tuttavia non è così scontato che sia applicabile anche alla complessità questa affermazione.
+
+Cominciamo da un analisi di complessità per le MT:
+- ![[Complessità temporale]]
+- [[Complessità spaziale]]
 
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
