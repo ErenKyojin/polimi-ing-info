@@ -780,17 +780,17 @@ level 3/.style={sibling distance = .75cm}
 
 
 ]
-\node {1}
-	child{node{2}
-	 child{node{12}
-	  child{node{1}}
-	  child{node{11}}
+\node (1){1}
+	child{node(2){2}
+	 child{node(4){12}
+	  child{node(8){1}}
+	  child{node(9){11}}
 	  }
-	 child{node{10}}
+	 child{node(5){10}}
 	 }
-	child{node{19}
-	 child{node{5}}
-	 child{node{9}}
+	child{node(3){19}
+	 child{node(6){5}}
+	 child{node(7){9}}
 	}
 ;
 \end{tikzpicture}
