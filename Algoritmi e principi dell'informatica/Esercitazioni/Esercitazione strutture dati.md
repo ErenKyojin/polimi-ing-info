@@ -980,4 +980,11 @@ Proviamo semplicemente inserendo gli elementi di A in ordine.
 \end{tikzpicture}
 \end{document}
 ```
-No, chiaramente avere A ordinato non sembra essere conveniente, tuttavia insistiamo. proviamo a ut
+No, chiaramente avere A ordinato non sembra essere conveniente, tuttavia insistiamo. proviamo a utilizzare l'elemento al centro di $A$ ordinato
+
+```
+CREATE-BALANCED-BST(A, n)
+	crea BST vuoto T
+	ordina A
+	T.root = crea - 
+```
