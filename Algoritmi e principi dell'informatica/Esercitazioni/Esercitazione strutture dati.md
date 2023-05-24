@@ -815,4 +815,10 @@ level 3/.style={sibling distance = .75cm}
 ```
 ## 2 
 Input: A array di $n$ elementi interi
-Output: "" se A è un heap, "no" altrimenti
+Output: "si" se A è un heap, "no" altrimenti
+
+```
+isHeap(A, r, i)
+
+
+```
