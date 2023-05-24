@@ -1040,5 +1040,6 @@ level 3/.style={sibling distance = .75cm}
 \end{tikzpicture}
 \end{document}
 ```
-Visito $T_{1}$ costruendo un array $A_{1}$ ordinato in ordine crscente visitando risalendo da in basso a sinistra.
-Visito $T_{2}$ costruendo un array $A_{2}$ ordinato in ordine cresce
+Visito $T_{1}$ costruendo un array $A_{1}$ ordinato in ordine crescente visitando risalendo da in basso a sinistra.
+Visito $T_{2}$ costruendo un array $A_{2}$ ordinato in ordine crescente.
+Fondo $A_{1}$ e $A_{2}$ confrontando i primi elementi tra di loro (non "mischiandoli" e poi ordinandoli)
