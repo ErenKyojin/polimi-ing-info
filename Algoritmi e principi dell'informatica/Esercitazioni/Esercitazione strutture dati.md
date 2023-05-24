@@ -919,7 +919,7 @@ Complessità? $O(n)$, come è possibile? Perché dipende dal bilanciamento dell'
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}[level distance = 2mm]
+\begin{tikzpicture}[level distance = 2mm, every node/.style={draw}]
 \node{1}
  child[missing]
  child{node{2}
@@ -936,7 +936,10 @@ Complessità? $O(n)$, come è possibile? Perché dipende dal bilanciamento dell'
        child[missing]
        child{node{8}
         child[missing]
-        child{node{9}}
+        child{node{9}
+         child[missing]
+         child{node{10}}
+        }
        }
       }
      }
@@ -948,3 +951,4 @@ Complessità? $O(n)$, come è possibile? Perché dipende dal bilanciamento dell'
 \end{tikzpicture}
 \end{document}
 ```
+trovare 10 in questo albero richiede 10 passaggi
