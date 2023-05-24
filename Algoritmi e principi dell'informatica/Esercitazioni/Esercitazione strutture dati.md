@@ -769,30 +769,4 @@ Sono distribuiti nel modo piú bilanciato possibile.
 ## hash con lista
 Ogni hash contiene la lista dei valori con lo stesso $\mod 11$, la lista è inserita a partire dalla testa, ogni lista è circa il fattore di carico, si può anche far puntare ogni puntatore alla radice di un albero rosso e nero.
 
-## heap
-```tikz
-\begin{document}
-\begin{tikzpicture}
-[
-level 1/.style={sibling distance = 2cm},
-level 2/.style={sibling distance = 1cm},
-level 3/.style={sibling distance = .75cm}
-
-
-]
-\node {20}
-	child{node{15}
-	 child{node{12}
-	  child{node{1}}
-	  child{node{11}}
-	  }
-	 child{node{10}}
-	 }
-	child{node{19}
-	 child{node{5}}
-	 child{node{9}}
-	}
-;
-\end{tikzpicture}
-\end{document}
-```
+## heap come array
