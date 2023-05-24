@@ -826,4 +826,4 @@ isHeap(A, r, i)
 	return FALSE
 ```
 
-8
+La complessità è $n$, passiamo una vo
