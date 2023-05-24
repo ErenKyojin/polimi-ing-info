@@ -58,7 +58,12 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 
 
 Cerchiamo un modo di semplificare:
-Definiamo la complessità in $f(x)$ come complessità in m
+Definiamo la complessità in $f(x)$ come complessità in $f(n)$ con $n$ dimensione dei dati di ingresso
+
+>[!esempio]
+>- $n$ numero di lettere in una stringa
+>- $n$ numero di righe / colonne in una matrica
+>- $n$ numero di bit 
 
 
 ## Complessità e non [[determinismo]]
