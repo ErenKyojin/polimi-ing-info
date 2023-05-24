@@ -1055,8 +1055,20 @@ Funziona anche per aggiungere un solo elemento? Per funzionare funziona, ma impi
 \begin{tikzpicture}
 \node{26}
 	child{node{17}
-	 child{node{14}}
-	 child{node{21}}
+	 child{node{14}
+	  child{node{10}
+	   child{node{}}
+	   child{node{}}
+	   }
+	  child{node{16}
+	   child{node{}}
+	   child{node{}}
+	  }
+	 }
+	 child{node{21}
+	  child{node{18}
+}
+	 }
 	}
 	child{node{41}
 	 child{node{30}}
