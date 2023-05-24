@@ -15,8 +15,14 @@ Sarebbe interessante partire come per il problema della risolviblità, sfruttare
 Cominciamo da un analisi di complessità per le MT (deterministiche):
 - ![[Complessità temporale]]
 - ![[Complessità spaziale]]
->[!esempio] Riconoscimento di $\{ wcw^R \}$
->
+```tikz
+\usetikzlibrary{chains,fit,shapes}
+\begin{document}
+\begin{tikzpicture}
+\
+\end{tikzpicture}
+\end{document}
+```
 
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
