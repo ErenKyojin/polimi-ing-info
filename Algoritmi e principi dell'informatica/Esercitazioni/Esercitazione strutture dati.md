@@ -793,9 +793,10 @@ level 3/.style={sibling distance = .75cm}
 	 child{node(7){9}}
 	}
 ;
-\foreach \x in {0,...,11}
-\node[above right] at (\x,\x){\x};
+\begin{scope}
+\node at (1){1};
 
+\end{scope}
 \end{tikzpicture}
 \end{document}
 ```
