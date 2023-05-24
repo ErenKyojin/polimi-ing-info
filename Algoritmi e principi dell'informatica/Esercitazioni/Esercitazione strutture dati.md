@@ -1124,6 +1124,21 @@ every node/.style={draw}
 \end{tikzpicture}
 \end{document}
 ```
-Questo è l'unico modo per mantenere valide le regole sui nodi neri, ma abbiamo dei nodi rossi figli di altri nodi rossi, quindi non è un R
+Questo è l'unico modo per mantenere valide le regole sui nodi neri, ma abbiamo dei nodi rossi figli di altri nodi rossi, quindi non è un RBT valido
 
 Il percorso da un lato non può essere lungo più del doppio del percorso dall'altro, quindi è meno bilanciato di un BST bilanciato perfettamente come visti in precedenza, ma è sufficiente per avere un altezza $O(\log n)$
+
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node{30}
+	child{node{15}
+	 child{node{10}}
+	 child{node{20}}
+	}
+	child{node{70}}
+;
+\end{tikzpicture}
+\end{document}
+```
