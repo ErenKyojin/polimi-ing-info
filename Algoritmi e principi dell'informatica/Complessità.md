@@ -10,7 +10,7 @@ Avendo capito come realizzare se un problema sia risolibile o meno, vogliamo sap
 
 Noi ci concentriamo principalmente su cositi oggettivi, quelli sulle risorse (come memoria e tempo di esecuzione).
 
-Sarebbe interessante partire come per il problema della risolviblità
+Sarebbe interessante partire come per il problema della risolviblità, sfruttare la conseguenza d
 [[Complessità spaziale]]
 [[Complessità temporale]]
 
