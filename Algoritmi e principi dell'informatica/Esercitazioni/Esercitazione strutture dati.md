@@ -1040,4 +1040,5 @@ level 3/.style={sibling distance = .75cm}
 \end{tikzpicture}
 \end{document}
 ```
-Visito scenndo a sinist
+Visito $T_{1}$ costruendo un array $A_{1}$ ordinato in ordine crscente visitando risalendo da in basso a sinistra.
+Visito $T_{2}$ costruendo un array $A_{2}$ ordinato in ordine cresce
