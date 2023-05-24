@@ -1137,8 +1137,8 @@ Il percorso da un lato non può essere lungo più del doppio del percorso dall'a
 level 1/.style={sibling distance = 4cm},
 level 2/.style={sibling distance = 2cm},
 level 3/.style={sibling distance = 1cm},
-level 4/.style={sibling distance = .7cm},
-level 5/.style={sibling distance = .5}
+level 4/.style={sibling distance = 1cm},
+level 5/.style={sibling distance = .5cm},
 every node/.style={draw}
 
 ]
@@ -1176,3 +1176,4 @@ every node/.style={draw}
 \end{tikzpicture}
 \end{document}
 ```
+Non si può colorare 70, quindi non è colorabile
