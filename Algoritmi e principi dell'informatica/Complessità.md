@@ -25,7 +25,7 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 \begin{scope}[start chain = 1 going right,node distance = -0.15mm]
 \node[on chain = 1, tmtape] {a};
 \node[on chain = 1, tmtape] {b};
-\node[on chain = 1, tmtape] {b};
+\node[on chain = 1, tmtape] (b) {b};
 \node[on chain = 1, tmtape] {c};
 \node[on chain = 1, tmtape] {b};
 \node[on chain = 1, tmtape] {b};
@@ -36,11 +36,13 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 \begin{scope}[start chain = 2 going right, node distance = -.15mm]
 \node[on chain = 2, tmtape] at (6,-1.5) {$Z_0$};
 \node[on chain = 2, tmtape] {A};
-\node[on chain = 2, tmtape] {B};
+\node[on chain = 2, tmtape] (B) {B};
 \node[on chain = 2, tmtape] {B};
 \end{scope}
 
-\node[draw, minimum size = 1.5cm] at (0,-2){TM};
+\node[draw, minimum size = 1.5cm] (TM) at (0,-2){TM};
+\draw (TM) -| (B);
+\draw (TM) -| (b);
 
 \end{tikzpicture}
 \end{document}
