@@ -986,6 +986,13 @@ No, chiaramente avere A ordinato non sembra essere conveniente, tuttavia insisti
 CREATE-BALANCED-BST(A, n)
 	crea BST vuoto T
 	ordina A
-	T.root = CREATE-SUB-BST-BALANCED(A, n, 1)
+	T.root = CREATE-SUB-BALANCED-BST(A, n, 1)
 	return T
+```
+
+```
+CREATE-SUB-BALANCED-BST(A, i, j)
+	se i = j
+	n = (1 + j)/2
+	crea 8j j80v0 
 ```
