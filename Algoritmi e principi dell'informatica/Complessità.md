@@ -84,7 +84,10 @@ Il valore di $T_{M}(n)$ esatto non ci interessa, vogliamo solo sapere il suo tas
 
 >[!esempio]
 >Non ci interessa se $T_{M}(n) = 3n^2 + 12n + 35$ o se $T_{M}(n) = 6n^2 + 26$ in quanto entrambi si comportano come $n^2$, ne distinguere $T_{M}(n)=(0.001)n^2$ da $T_{M}(n) = 500!n^2$.
->Vogliamo separare invece $T_{M}(n) =$
+>Vogliamo separare invece $T_{M}(n) = 3n^3 + 2$ da $T_{M}(n) = 12n^2 + 22n$.
+
+
+Introduciamo delle notazioni che mettano in evidenza il co
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
