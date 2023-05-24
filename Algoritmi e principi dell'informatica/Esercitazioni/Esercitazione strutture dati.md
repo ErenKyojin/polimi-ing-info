@@ -1146,9 +1146,15 @@ Il percorso da un lato non può essere lungo più del doppio del percorso dall'a
 	child{node{70}
 	 child{node{60}
 	  child{node{50}
-	   child{node{40}}
-	   child{node{55}}
-	  }
+	   child{node{40}
+	    child{node{}}
+	    child{node{}}
+	   }
+	   child{node{55}
+	    child{node{}}
+	    child{node{}}
+	   }
+	}
 	  cihld{node{}}
 	 }
 	 child{node{85}}
