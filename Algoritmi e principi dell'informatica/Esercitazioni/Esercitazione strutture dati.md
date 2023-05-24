@@ -861,3 +861,9 @@ crea-albero(A, n)
 	T.root = crea-sottoalberO(A, n, 1)
 	return T
 ```
+
+```
+crea-sottoalbero(A, n, i)
+	se i <= n;
+		crea un nuovo nodox
+```
