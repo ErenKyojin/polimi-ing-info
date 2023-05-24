@@ -1101,4 +1101,4 @@ every node/.style={draw}
 \end{document}
 ```
 
-Si può arrivare a questo albero rosso-nero dal BST sen
+Si può arrivare a questo albero rosso-nero dal BST senza colori seguendo le regole di definizione, questo non vale per ogni BST. S
