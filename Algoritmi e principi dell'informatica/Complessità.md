@@ -87,7 +87,12 @@ Il valore di $T_{M}(n)$ esatto non ci interessa, vogliamo solo sapere il suo tas
 >Vogliamo separare invece $T_{M}(n) = 3n^3 + 2$ da $T_{M}(n) = 12n^2 + 22n$.
 
 
-Introduciamo delle notazioni che mettano in evidenza il co
+Introduciamo delle notazioni che mettano in evidenza il comportamento asintotico delle funzioni:
+- Notazione [[O grande]]
+- Notazione [[Omega grande]]
+- Notazione [[Theta grande]]
+
+
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
