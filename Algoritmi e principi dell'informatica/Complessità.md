@@ -3,7 +3,12 @@ aliases:
 creation date: 2023-05-23 12:01
 modification date: 2023-05-23 12:01
 ---
-Avendo capito come realizzare se un problema sia risolibile o meno, vogliamo sapere il costo che comporta risolverl
+Avendo capito come realizzare se un problema sia risolibile o meno, vogliamo sapere il costo che comporta risolverlo. Ma costo può avere piú significati:
+- Costo di tempo
+- Costo di spazio
+- Costo di sviluppo
+
+Noi ci concentr
 [[Complessità spaziale]]
 [[Complessità temporale]]
 
