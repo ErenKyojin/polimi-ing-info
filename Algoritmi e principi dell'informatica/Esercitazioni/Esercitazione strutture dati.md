@@ -867,7 +867,7 @@ crea-sottoalbero(A, n, i, p)
 	se i <= n
 		crea un nuovo nodo x
 		x.key = A[i]
-		x.p = A[i/2]
+		x.p = p
 		x.left = crea-sottoalbero(A, n, 2i)
 		x.right = crea-sottoalbero(A,n 2i+1)
 		return x
