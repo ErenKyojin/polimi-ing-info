@@ -41,7 +41,7 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 \end{scope}
 
 \node[draw, minimum size = 1.5cm] (TM) at (0,-2){TM};
-\draw (TM) -| (B);
+\draw (TM.east) to[in = -90] (B.south);
 \draw (TM) -| (b);
 
 \end{tikzpicture}
