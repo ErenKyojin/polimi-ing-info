@@ -858,14 +858,17 @@ Dato un array $A$ di $n$ elementi costruire un albero binario quasi completo con
 ```
 crea-albero(A, n)
 	crea un albero T vuoto
-	T.root = crea-sottoalberO(A, n, 1)
+	T.root = crea-sottoalberO(A, n, 1, T.root)
 	return T
 ```
 
 ```
-crea-sottoalbero(A, n, i)
+crea-sottoalbero(A, n, i, p)
 	se i <= n
 		crea un nuovo nodo x
 		x.key = A[i]
+		x.p = A[i/2]
 		x.left = crea-sottoalbero(A, n, 2i)
+		x.right = crea-sottoalbero(A,n 2i+1)
+		return x
 ```
