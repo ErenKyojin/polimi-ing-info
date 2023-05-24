@@ -19,7 +19,12 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 \usetikzlibrary{chains,fit,shapes}
 \begin{document}
 \begin{tikzpicture}
-\
+
+\tikzstyle{tmtape}=[draw,minimum size = 0.7cm]
+
+\begin{scope}[start chain = 1]
+\end{scope}
+
 \end{tikzpicture}
 \end{document}
 ```
