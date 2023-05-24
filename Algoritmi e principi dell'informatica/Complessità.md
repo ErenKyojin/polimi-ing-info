@@ -33,6 +33,10 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 \node[on chain = 1, tmtape] {...};
 \end{scope}
 
+\begin{scope}[start chain = 2 going right, node distance = -.15mm]
+\node[on chain = 2, tmtape] at (3,-1) {$Z_0$}
+\end{scope}
+
 \end{tikzpicture}
 \end{document}
 ```
