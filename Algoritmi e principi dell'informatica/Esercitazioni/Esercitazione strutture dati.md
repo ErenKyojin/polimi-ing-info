@@ -1101,4 +1101,13 @@ every node/.style={draw}
 \end{document}
 ```
 
-Si può arrivare a questo albero rosso-nero dal BST senza colori seguendo le regole di definizione, questo non vale per ogni BST. S
+Si può arrivare a questo albero rosso-nero dal BST senza colori seguendo le regole di definizione, questo non vale per ogni BST.
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node{1}
+\end{tikzpicture}
+\end{document}
+```
+
+Il percorso da un lato non può essere lungo più del doppio del percorso dall'altro, quindi è meno bilanciato di un BST bilanciato perfettamente come visti in precedenza, ma è sufficiente per avere un altezza $O(\log n)$
