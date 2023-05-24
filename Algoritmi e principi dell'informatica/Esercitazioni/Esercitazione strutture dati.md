@@ -884,9 +884,15 @@ level 3/.style={sibling distance = .75cm}
 ]
 \node{8}
 	child{node{4}
-	 child{node{2}}
-	 child{node{6}}
+	 child{node{2}
+	  child{node{1}}
 	 }
+	 child{node{6}}
+	}
+	child{node{13}
+	 child{node{10}}
+	 child{node{15}}
+	}
 ;
 \end{tikzpicture}
 \end{document}
