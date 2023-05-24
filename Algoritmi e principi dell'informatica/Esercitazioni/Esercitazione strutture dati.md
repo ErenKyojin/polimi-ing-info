@@ -852,3 +852,10 @@ Il percorso di u è rl (right left)
 controllo quando divergono, in questo caso inizialmente, stringa vuota quindi il nodo in cui divergono è la radice
 
 il confronto è $O(p)$, mentre la visita è $O(n)$, siamo sicuri che $P \leq n \implies O(n)$
+
+## 4
+Dato un array $A$ di $n$ elementi costruire un albero binario quasi completo con gli stessi elementi
+```
+crea-albero(A, n)
+	crea un albero T
+```
