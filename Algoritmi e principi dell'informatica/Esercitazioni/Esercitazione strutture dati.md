@@ -921,7 +921,22 @@ Complessità? $O(n)$, come è possibile? Perché dipende dal bilanciamento dell'
 \begin{document}
 \begin{tikzpicture}
 \node{1}
- 
+ child[missing]
+ child{node{2}
+  child[missing]
+  child{node{3}
+   child[missing]
+   child{node{4}
+    child[missing]
+    child{node{5}
+     child[missing]
+     child{node{6}
+      child[missing]
+     }
+    }
+   }
+  }
+ }
 ;
 \end{tikzpicture}
 \end{document}
