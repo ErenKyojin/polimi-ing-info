@@ -11,7 +11,10 @@ $$ \Omega(g(n)) = \{ f(n) | \exists c, n_{0}(c,n_{0} > 0) \ t.c.\ \forall n > n_
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw (0,0) -- ()
+\draw[ultra thick, -latex] (0,0) -- (6,0);
+\draw[ultra thick, -latex] (0,0) -- (0,4);
+
+\draw (0,0) to (0.25,1) to (0,) 
 \end{tikzpicture}
 \end{document}
 ```
