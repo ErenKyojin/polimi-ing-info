@@ -3,7 +3,7 @@ aliases:
 creation date: 2023-05-23 12:01
 modification date: 2023-05-23 12:01
 ---
-
+Avendo capito come realizzare se un problema sia risolibile o meno, vogliamo sapere il costo che comporta risolverl
 [[Complessità spaziale]]
 [[Complessità temporale]]
 
