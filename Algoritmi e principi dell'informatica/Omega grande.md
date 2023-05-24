@@ -21,6 +21,11 @@ La notazione omega grande indica un limite asintotico inferiore.
 > \end{document}
 > ```
 
-$3n^2 + 12n + 35 = \Omega(n^2)$
-$2n^2\log(n) + 5 = \Omega(n^2 \log(n))$
-$n2^n + n^{45}$
+- $3n^2 + 12n + 35 = \Omega(n^2)$
+- $2n^2\log(n) + 5 = \Omega(n^2 \log(n))$
+- $n2^n + n^{45} = \Omega(2^n)$
+
+ma anche
+- $3n^2 + 12 + 35 = \Omega(n)$
+- $3n^2 + 12n + 35 = \Omega(\log n)$
+
