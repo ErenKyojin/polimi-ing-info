@@ -857,5 +857,7 @@ il confronto è $O(p)$, mentre la visita è $O(n)$, siamo sicuri che $P \leq n \
 Dato un array $A$ di $n$ elementi costruire un albero binario quasi completo con gli stessi elementi
 ```
 crea-albero(A, n)
-	crea un albero T
+	crea un albero T vuoto
+	T.root = crea-sottoalberO(A, n, 1)
+	return T
 ```
