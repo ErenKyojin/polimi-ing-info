@@ -951,4 +951,4 @@ Complessità? $O(n)$, come è possibile? Perché dipende dal bilanciamento dell'
 \end{tikzpicture}
 \end{document}
 ```
-trovare 10 in questo albero richiede 10 passaggi
+trovare 10 in questo albero richiede 10 passaggi.
