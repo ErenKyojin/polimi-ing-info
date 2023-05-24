@@ -69,9 +69,13 @@ Definiamo la complessità in $f(x)$ come complessità in $f(n)$ con $n$ dimensio
 
 in generale $|x_{1}| = |x_{2}|$ non implica $T_{M}(x_{1}) = T_{M}(x_{2})$ ne tantomeno $S_{M}(x_{1}) = S_{M}(x_{2})$, dobbiamo quindi effettuare un scelta:
 - Scelta del caso pessimo
-  $T_{M}(n) = \max\{ T_{m}(x),|x| = n \}$
+  $T_{M}(n) = \max\{ T_{m}(x),|x| = n \}$ (analogo per $S_{m}(n)$)
 
+- Scelta del caso ottimo
+  $T_{M}(n) = \min\{ T_{M}(x), |x| =n \}$
 
+- Scelta del caso medio:
+  $T_{M}(n) = \left( \sum \right)$
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
