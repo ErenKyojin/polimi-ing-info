@@ -1046,3 +1046,16 @@ Fondo $A_{1}$ e $A_{2}$ confrontando i primi elementi tra di loro (non "mischian
 
 $O(n + m + (n + m)\log(n + m)+n + m) = O(n + m)$
 Funziona anche per aggiungere un solo elemento? Per funzionare funziona, ma impieghi ugualmente ricostruire l'albero da capo. Motivo per cui i BST sono buoni per archivi quasi statici o statici, avere tanti inserimenti o rimozioni non conviene.
+
+## Albero rosso-nero
+È un BST con un ulteriore attributo: colore:
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node{26}
+	child{node{14}}
+;
+\end{tikzpicture}
+\end{document}
+```
