@@ -8,8 +8,8 @@ modification date: 2023-05-02 10:43
 \usetikzlibrary{chains}
 \begin{document}
 \begin{tikzpicture}
-\tikzstyle{tmtape} = [minimum size = 0.7cm, draw]
-\tikzstyle{accum} = [minimum width = 1.2cm, minimum height = 0.7cm, draw]
+\tikzstyle{tmtape} = [minimum size = 0.5cm, draw]
+\tikzstyle{accum} = [minimum width = 1.5cm, minimum height = 0.7cm, draw]
 
 %Nastro di lettura
 \begin{scope}[start chain = 1 going right,node distance = -0.15mm,every node/.style = {tmtape}]
