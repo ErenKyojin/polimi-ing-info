@@ -3,19 +3,19 @@
 >#### Circuito con [[bipolo]] $N_R$ collegato ad un [[condensatore]]densatore
 >![[Pasted image 20220512164738.png]]
 
-$N_r$ [[bipolo]] costituito da multi terminali lineari, adinamici, tempo invarianti e da generatori dipendenti di tensione e/o corrente.
-Allora supponiamo di poter descrivere $N_R$ con un circuito equivalente di Norton con $A_{eq}(t)$ ed $R_{eq}$ rispettivamente il generatore indipende di corrente e il resistore lineare.
+$N_r$ [[bipolo]] costituito da multi terminali lineari, adinamici, tempo invarianti e da generatori dipendenti di [[tensione]] e/o [[corrente]].
+Allora supponiamo di poter descrivere $N_R$ con un circuito equivalente di Norton con $A_{eq}(t)$ ed $R_{eq}$ rispettivamente il generatore indipende di corrente e il [[resistore]] lineare.
 >#### Circuito equivalente di northon
 >![[Pasted image 20220512172138.png]]
 
-==osservazione==: il condensatore ammette solo [[base corrente]], quindi siamo costretti ad usare il cirquito equivalente di norton piuttosto che quello di Thevenin.
+==osservazione==: il [[condensatore]] ammette solo [[base corrente]], quindi siamo costretti ad usare il cirquito equivalente di norton piuttosto che quello di Thevenin.
 
 Dalla KCL al nodo A abbiamo che
 $$A_{eq}(t) + \frac{v_C(t)}{R_{eq}} + i_C(t) = A_{eq}(t) + \frac{v_C(t)}{R_{eq}} + C\frac{d}{dt}v_C(t) = 0 $$
 
 ==> la riscriviamo come
 $$\frac{d}{dt}v_C(t)=-\frac{1}{R_{eq}C}v_C(t)-\frac{A_{eq}(t)}{C}=\lambda\\v_c(t)+u(t)$$
-Questa equazione, che coinvolge la variabile di stato del condensatore $v_C(t)$, ed è quindi definita come <u>equazione di stato</u>, un'[[equazione differenziale]] ordinaria e lineare, la cui soluzione è quindi la famiglia di [[funzioni]]
+Questa equazione, che coinvolge la variabile di stato del condensatore $v_C(t)$, ed è quindi definita come <u>[[equazione di stato]]</u>, un'[[equazione differenziale]] ordinaria e lineare, la cui soluzione è quindi la famiglia di [[funzioni]]
 $$v_C(t;k,t_0)=ke^\left(-\frac{t-t_0}{R_{eq}C}\right)+E_q$$
 con $E_q$ l'integrale particolare.
 
