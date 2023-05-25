@@ -157,4 +157,5 @@ for(i = 1; i <= n; i++)
 write(x)
 ```
 
-Che complessità temporale? $\Theta(n)$ come è possibile?
+Che complessità temporale? $\Theta(n)$! Ma è davvero così lineare risolvere un problema così complesso?
+Sembra assurdo, anche perchè anche solo per scrivere il risultato è necessario usare almeno $2^n$ bit
