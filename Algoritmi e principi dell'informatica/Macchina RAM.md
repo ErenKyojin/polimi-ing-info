@@ -114,5 +114,16 @@ LOOP:   LOAD   1
 		LOAD   1
 		DIV    2
 		MULT   2
-		
+		SUB    1
+		JZ     NO
+		LOAD   2
+		ADD=   1
+		STORE  2
+		JUMP   LOOP
+YES:    WRITE= 1
+		HALT
+NO:     WRITE=0
+		HALT
 ```
+
+Q
