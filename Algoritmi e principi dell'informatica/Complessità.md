@@ -171,7 +171,11 @@ Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più im
 >```
 >
 
-Abbiamo che $S_{M}(n) : \Theta(\log(n))$
+Abbiamo che
+- $S_{M}(n) : \Theta(\log(n))$
+- $T_{M}(n) : \Theta(n^2 \log(n))$
+È un trade-off spazio-temporale
+
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
