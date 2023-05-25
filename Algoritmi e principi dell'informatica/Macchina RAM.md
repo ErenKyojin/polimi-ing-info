@@ -8,7 +8,7 @@ modification date: 2023-05-02 10:43
 \usetikzlibray{chains}
 \begin{document}
 \begin{tikzpicture}
-\tikzstyle{tmtape} = [minimum size = 0.7cm, draw]
+\tikzstyle{tmtape} = [minimum width = 1.2cm, minimum height =  draw]
 \tikzstyle{accum} = [minimum ]
 
 \end{tikzpicture}
