@@ -70,8 +70,8 @@ Lo schema di dimostrazione è analogo a quello usato per la [[complessità spazi
 >Il caso pessimo è da $a_{r}$ arrivo a $b_{r}$ con $r$ mosse, con una mossa in più sono riuscito a toccare 3 celle, ossia a fare 3 mosse della $M'$
 
 
-## Conseguenze partiche
+## Conseguenze pratiche
 Lo schema di dimostrazione è valido per qualsiasi tipo di modello di calcolo, quindi anche per calcolatori reali.
 Pure di aumentare la potenza di calcolo in termini di risorse disponibili si può aumentare a piacere la velocità di esecuzione.
-Tale aumento di prestazioni rimane confinato nell'ambito di miglioramenti al più lineari, miglioramenti 
+Tale aumento di prestazioni rimane confinato nell'ambito di miglioramenti al più lineari, miglioramenti di ordini di grandezza possono essere ottenuti s
 
