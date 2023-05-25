@@ -1,0 +1,4 @@
+---
+aliases: carica elettrica
+---
+La carica elettrica è quantizzata, ossia non esiste una carica più piccola di quella dell'elettrone, che vale $q_{E}=-1.602564 \cdot 10^{-}$
