@@ -126,4 +126,6 @@ NO:     WRITE=0
 		HALT
 ```
 
-Q
+Quanto costa eseguire il codice qua sopra riportato mediante una RAM?
+
+Per ora ogni istruzione ha un costo costante
