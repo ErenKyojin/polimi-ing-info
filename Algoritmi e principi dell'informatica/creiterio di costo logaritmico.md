@@ -47,7 +47,16 @@ l(i)
 
 Studiamo di nuovo la [[Funzioni|funzione]] `is-prime` vista nel file sulla [[macchina RAM]] (solo per i punti chiave):
 ```
-LOOP    LOAD  1
-		SUB   2
-		
+LOOP    LOAD  1      1 + l(n)
+		SUB   2      l(n) + 2 + l(M[2])
+		JZ    YES    l(M[0])
+		LOAD  1      1 + l(n)
+		DIV   2      l(n) + 
+		MULT  2
+		SUB   1
+		JZ    NO
+		LOAD  2
+		ADD=  1
+		STORE 2
+		JUMP  LOOP
 ```
