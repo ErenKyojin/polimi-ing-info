@@ -1,4 +1,5 @@
 ---
 aliases: carica elettrica
 ---
-La carica elettrica è quantizzata, ossia non esiste una carica più piccola di quella dell'elettrone, che vale $q_{E}=-1.602564 \cdot 10^{-19} C$ (dove $C$ indica i Coulomb dall'omonimo fisico francese). Fu misurata in modo definitivo dal fisico Robert Millikan ed è uguale ma di segno opposto a quella $q_{P}$ de protone. Ogni corpo carico presenta una carica mutipa di m
+La carica elettrica è quantizzata, ossia non esiste una carica più piccola di quella dell'elettrone, che vale $q_{E}=-1.602564 \cdot 10^{-19} C$ (dove $C$ indica i Coulomb dall'omonimo fisico francese). Fu misurata in modo definitivo dal fisico Robert Millikan ed è uguale ma di segno opposto a quella $q_{P}$ de protone. Ogni corpo carico presenta una carica multipla di $q_{E}$. La carica complessiva di un corpo è data dalla somma algebrica delle sue cariche positive $q^+ = n^+ |q_{E}|$ e negative $q^- = n^-q_{E}$.
+Una carica puntiforme, equivalente del punto materiale in meccanica, è 
