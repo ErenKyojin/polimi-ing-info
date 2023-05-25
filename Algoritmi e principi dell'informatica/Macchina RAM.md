@@ -99,4 +99,9 @@ Ogni cella contiene un intero, non un carattere
 | `JZ,JGZ,...`   |   label   | `jump if M[0] = 0, > 0,...`                |
 | `HALT`         |           |                                            | 
 
-Un programma RAM che ca
+Un programma RAM che calcola la funzione `is_prime(n) = if n is prime then 1 else 0`:
+
+```ram
+
+
+```
