@@ -11,5 +11,5 @@ Per descrivere come la [[carica]] si distribuisce all'interno di un corpo e sull
 >Se si assume ch tale densità sia costante e pari a $\rho_{S_{k}} = \rho_{S}(x_{k},y_{k})$ su ogni areola $dS_{k}$ allora la carica complessiva $Q$ sulla superficie è approssimativamente data da
 >$$ Q \approx \sum_{k} \rho_{S_{k}}dS_{k} $$
 >Se consideriamo il caso limite in cui le singole areole $dS_{K}$ si considerano infinitesime possiamo scrivere
->$$ Q = \iint \!\rho_{S}(x,y)  $$
-
+>$$ Q = \iint \!\rho_{S}(x,y) \,\mathrm{d}x\mathrm{d}y = \int _{S} \!\rho_{S} \, \mathrm{d}s $$
+>Analogamente, se considerassimo un volume $V$, la carica $Q$ in esso cont
