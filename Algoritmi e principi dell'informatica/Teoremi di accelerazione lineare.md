@@ -73,5 +73,5 @@ Lo schema di dimostrazione è analogo a quello usato per la [[complessità spazi
 ## Conseguenze pratiche
 Lo schema di dimostrazione è valido per qualsiasi tipo di modello di calcolo, quindi anche per calcolatori reali.
 Pure di aumentare la potenza di calcolo in termini di risorse disponibili si può aumentare a piacere la velocità di esecuzione.
-Tale aumento di prestazioni rimane confinato nell'ambito di miglioramenti al più lineari, miglioramenti di ordini di grandezza possono essere ottenuti s
+Tale aumento di prestazioni rimane confinato nell'ambito di miglioramenti al più lineari, miglioramenti di ordini di grandezza possono essere ottenuti solo cambiando [[algoritmo]] e in modo non automatico. 
 
