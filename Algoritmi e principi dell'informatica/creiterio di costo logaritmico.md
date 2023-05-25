@@ -66,3 +66,7 @@ Si può facilmente maggiorare il singolo [[ciclo]] con $\Theta(\log(n))$, e aven
 Analogamente:
 - Per il riconoscimento di $wcw^R$ otteniamo $\Theta(n\log(n))$, che tra l'altro è peggio della [[Macchine di Turing|macchina di Turing]] vista in precedenza, si può migliorare?
 - Per la [[ricerca binaria]] troviamo $\Theta(\log^2(n))$
+
+Abbiamo due casi diversi:
+- Il [[Costo di un calcolo|costo]] a criterio di costo logaritmico è il costo a criterio di costo costante moltiplicato per $\log(n)$
+- Il costo a criterio di costo logaritmico è il costo a criterio di costo costante per il logaritm
