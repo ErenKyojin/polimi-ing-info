@@ -57,4 +57,6 @@ Se $L$ è accettato da una MT $M$ a $k$ nastri con complessità $S_{M}(n)$ si pu
 
 Se $L$ è accettato da una MT $M$ a $k$ nastri con complessità $S_{M}(n)$ per ogni $c > 0$ (e $c \in \mathbb{R}$) si può costruire una MT $M'$ a 1 nastro con complessità $S_{M'}(n) < cS_{M}(n)$, come sopra ma aggiungendo codifica
 
-Se $L$ è accettato da una MT $M$ a $k$ nastri con complessità $T_{M}(n)$ per ogni $c > 0$ (e $c \in \mathbb{R}$) si può custrire una MT 
+Se $L$ è accettato da una MT $M$ a $k$ nastri con complessità $T_{M}(n)$ per ogni $c > 0$ (e $c \in \mathbb{R}$) si può costruire una MT $M'$ a $k+1$ nastri con complessità:
+$$ T_{M}(n) = \max\{ n+1, c T_{M}(n) \} $$
+La
