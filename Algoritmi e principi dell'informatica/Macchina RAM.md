@@ -51,6 +51,10 @@ at (-2,-3) (PC) {program \\ counter};
 \node[right = of 2, draw = none] {M/2};
 \node[right = of 3, draw = none] {M/3};
 
+\end{scope}
+
+%Scrittura
+\begin{scope}[start chain = 3 going right, node distance = -0.15, every node/.style = {tmtape}]
 
 \end{scope}
 
@@ -58,7 +62,7 @@ at (-2,-3) (PC) {program \\ counter};
 \draw[latex-latex,ultra thick] (prog) -- (ALU);
 \draw[-latex] (prog.north) .. controls(4, -1) and(1, -1.2) .. (n.south);
 \draw[latex-latex,ultra thick] (ALU)  -- ++ (2.25,0);
-\draw[latex-latex] (prog) .. controls (3,-.5) .. (2);
+\draw[latex-latex] (prog) .. controls (4,-.5) .. (2);
 
 \end{tikzpicture}
 \end{document}
