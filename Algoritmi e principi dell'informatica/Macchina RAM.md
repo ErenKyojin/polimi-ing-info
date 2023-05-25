@@ -82,7 +82,7 @@ at (-2,-3) (PC) {program \\ counter};
 Ogni cella contiene un intero, non un carattere
 
 
-### Istruzioni RAM
+### [[Istruzioni]] RAM
 
 
 | Istruzione     | parametro | esempio                                    |
@@ -99,7 +99,7 @@ Ogni cella contiene un intero, non un carattere
 | `JZ,JGZ,...`   |   label   | `jump if M[0] = 0, > 0,...`                |
 | `HALT`         |           |                                            | 
 
-Un programma RAM che calcola la funzione `is_prime(n) = if n is prime then 1 else 0`:
+Un programma RAM che calcola la [[Funzioni|funzione]] `is_prime(n) = if n is prime then 1 else 0`:
 
 ```
 		READ   1
@@ -128,4 +128,6 @@ NO:     WRITE=0
 
 Quanto costa eseguire il codice qua sopra riportato mediante una RAM?
 
-Per ora ogni istruzione ha un costo costante
+Per ora ogni istruzione ha un [[Costo di un calcolo|costo]] costante indipendentemente dal valore degli operando, e lo possiamo indicare con $c_{i}$ il costo della $i$-esima operazione del programma.
+
+#### Costo del programma:
