@@ -115,7 +115,10 @@ allora $f(n) = \Theta(g(n))$ e quindi anche $f(n) = O(g(n))$
 Se $\lim_{ n \to \infty } \frac{f(n)}{g(n)} =0$ 
 allora $f(n) = O(g(n))$ ma $f(n) \neq \Theta(g(n))$ quindi $\Theta(f(n)) < \Theta(g(n))$
 
-Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più importante di una funzione di complessità
+Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più importante di una funzione di complessità.
+
+>[!esempio]
+>Tornando all'esempio precedente possiamo 
 
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
@@ -142,4 +145,5 @@ Se si trovasse un problema NP-completo che è risolvibile in tempo polinomiale d
 
 SAT è NP difficile, quindi NP-completo, quindi codificando le computazioni di una generica MT nondeterministica M (con complessità polinomiale) in SAT, in modo che M accetta una stringa $x$ se e solo se una opportuna formula $s$ è soddisfacibile
 
-HC è anch'esso NP-difficile (e NP completo, che si dimostra riducendo SAT a HC), tanti altri problemi di interesse pratico sono NP-completi
+HC è anch'esso NP-difficile (e NP completo, che si dimostra riducendo SAT a HC), tanti altri problemi di interesse pratico sono NP-completi.
+
