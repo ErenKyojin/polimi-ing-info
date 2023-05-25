@@ -19,4 +19,4 @@ Otteniamo attraverso un analisi di questo genere la seguente tabella:
 | ---------- |:---------:| ---------------- |
 | `LOAD=`    |     X     | $l(x)$           |
 | `LOAD`     |     X     | $l(x) + l(M[x])$ |
-| `           |           |                  |
+| `LOAD*     |     X     |                  |
