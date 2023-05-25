@@ -9,4 +9,6 @@ La carica elettrica gode del principio fondamentale di conservazione. È infatti
 >[!oss]
 >La carica di un sistema isolato rimane invariata in qualsiasi fenomeno fisico
 
-Il principio di conservazione della carica è considerato valido dalla fisica classica dalla teoria della relatività e dalla meccanica quantistica. La carica interna ad un sistema, racchiuso in
+Il principio di conservazione della carica è considerato valido dalla fisica classica dalla teoria della relatività e dalla meccanica quantistica. La carica interna ad un sistema, racchiuso in un volume $V$, può variare in presenza di una **corrente elettrica** che fluisce attraverso la superficie di separazione del volume stesso dal mondo esterno. Approfondiremo questo argomento nel seguito.
+
+Per descrivere come la carica elettrica si distribuisce
