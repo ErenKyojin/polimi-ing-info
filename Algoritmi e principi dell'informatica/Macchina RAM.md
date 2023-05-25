@@ -85,10 +85,14 @@ Ogni cella contiene un intero, non un carattere
 ### Istruzioni RAM
 
 
-| Istruzione | parametro | esempio                                    |
-| ---------- |:---------:| ------------------------------------------ |
-| `LOAD`     |     X     | `M[0] := M[X]` indirizzamento diretto      |
-| `LOAD=`    |     X     | `M[0] := X` indirizzamento immediato       |
-| `LOAD*`    |     X     | `M[0] := M[M[X]]` indirizzamento indiretto |
-| `STORE[*]` |     X     | `M[X] := M[0],...`                         |
-| `ADD...`   |           | `M[0] := M[`                                           |
+| Istruzione     | parametro | esempio                                    |
+| -------------- |:---------:| ------------------------------------------ |
+| `LOAD`         |     X     | `M[0] := M[X]` indirizzamento diretto      |
+| `LOAD=`        |     X     | `M[0] := X` indirizzamento immediato       |
+| `LOAD*`        |     X     | `M[0] := M[M[X]]` indirizzamento indiretto |
+| `STORE[*]`     |     X     | `M[X] := M[0],...`                         |
+| `ADD...`       |           | `M[0] := M[0] + M[X]`                      |
+| `SUB,MULT,DIV` |           |                                            |
+| `READ[*]`      |     X     |                                            |
+| `WRITE[=,*]`   |     X     |                                            |
+| `JUMP`         |   label   | `PC                                           |
