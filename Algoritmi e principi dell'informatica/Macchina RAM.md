@@ -83,4 +83,6 @@ Ogni cella contiene un intero, non un carattere
 
 
 ### Istruzioni RAM
-LOAD X
+
+
+Istruzione | parametro | esempio
