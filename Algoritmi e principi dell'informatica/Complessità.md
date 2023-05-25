@@ -139,8 +139,8 @@ Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più im
 > 
 > \begin{scope}[start chain = 2 going right, node distance = -.15mm]
 > \node[on chain = 2, tmtape] at (6,-1.5) {$Z_0$};
-> \node[on chain = 2, tmtape] {A};
-> \node[on chain = 2, tmtape] (B) {B};
+> \node[on chain = 2, tmtape] {1};
+> \node[on chain = 2, tmtape] (B) {1};
 > \node[on chain = 2, tmtape] {B};
 > \end{scope}
 > 
@@ -151,7 +151,9 @@ Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più im
 > \end{tikzpicture}
 > \end{document}
 > ```
->Al posto che inserire tutti i caratteri in memoria, memorizziamo la posizione del puntatore 
+>Al posto che inserire tutti i caratteri in memoria, memorizziamo la posizione del carattere che stiamo controllando, chiamandola $i$, e confrontiamo l'$i$-esimo e $n-i+1$-esimo carattere
+>
+
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
