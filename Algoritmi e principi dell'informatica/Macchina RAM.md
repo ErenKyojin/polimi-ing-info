@@ -131,3 +131,5 @@ Quanto costa eseguire il codice qua sopra riportato mediante una RAM?
 Per ora ogni istruzione ha un [[Costo di un calcolo|costo]] costante indipendentemente dal valore degli operando, e lo possiamo indicare con $c_{i}$ il costo della $i$-esima operazione del programma.
 
 #### Costo del programma:
+Le istruzioni da 1 a 6 hanno costo costante, vengono eseguite al più una volta a testa quindi il loro costo totale è a sua volta costante ed è
+$$ k_{1} = \sum_{i = 1}^6 c_{i} $$
