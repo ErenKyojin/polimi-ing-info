@@ -87,7 +87,8 @@ Ogni cella contiene un intero, non un carattere
 
 | Istruzione | parametro | esempio                                    |
 | ---------- |:---------:| ------------------------------------------ |
-| LOAD       |     X     | `M[0] := M[X]` indirizzamento diretto      |
-| LOAD=      |     X     | `M[0] := X` indirizzamento immediato       |
-| LOAD*      |     X     | `M[0] := M[M[X]]` indirizzamento indiretto |
-|            |           |                                            |
+| `LOAD`     |     X     | `M[0] := M[X]` indirizzamento diretto      |
+| `LOAD=`    |     X     | `M[0] := X` indirizzamento immediato       |
+| `LOAD*`    |     X     | `M[0] := M[M[X]]` indirizzamento indiretto |
+| `STORE[*]` |     X     | `M[X] := M[0],...`                         |
+| `ADD...`   |           | `M[0] := M[`                                           |
