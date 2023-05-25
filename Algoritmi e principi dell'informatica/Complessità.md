@@ -152,7 +152,8 @@ Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più im
 > \end{tikzpicture}
 > \end{document}
 > ```
->Al posto che inserire tutti i caratteri in memoria, memorizziamo la posizione del carattere che stiamo controllando, chiamandola $i$, e confrontiamo l'$i$-esimo e $n-i+1$-esimo carattere (11) è la posizione in binario del carattere
+>Al posto che inserire tutti i caratteri in memoria, memorizziamo la posizione del carattere che stiamo controllando, chiamandola $i$, e confrontiamo l'$i$-esimo e $n-i+1$-esimo carattere (11) è la posizione in binario del carattere.
+>Questo programma ha
 >
 
 ## Complessità e non [[determinismo]]
