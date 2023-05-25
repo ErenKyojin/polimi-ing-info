@@ -9,7 +9,11 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\tikz
+\tikzstyle{tmtape}=[draw,minimum size = 0.7cm]
+
+\begin{scope}[start chain = 1 going right, node distance = -0.15mm]
+\node[on chain = 1]
+\end{scope}
 \end{tikzpicture}
 \end{document}
 ```
