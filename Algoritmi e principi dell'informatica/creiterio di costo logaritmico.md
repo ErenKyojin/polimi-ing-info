@@ -64,4 +64,5 @@ LOOP    LOAD  1      1 + l(n)
 Si può facilmente maggiorare il singolo [[ciclo]] con $\Theta(\log(n))$, e avendo $n$ cicli abbiamo una [[Complessità temporale]] complessiva $\Theta(n \log(n))$.
 
 Analogamente:
-- Per il riconoscimento di $wcw^R$ otteniamo $\Theta(n\log(n))$, che tra l'altro è peggio della macchina di Turing vista in precedenza, si
+- Per il riconoscimento di $wcw^R$ otteniamo $\Theta(n\log(n))$, che tra l'altro è peggio della [[Macchine di Turing|macchina di Turing]] vista in precedenza, si può migliorare?
+- Per la [[ricerca binaria]] troviamo $\Theta(\log^2(n))$
