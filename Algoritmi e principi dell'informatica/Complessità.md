@@ -197,7 +197,7 @@ Lo stesso problema risolto con macchine diverse può avere complessità diverse:
 
 Non esiste un modello migliore in assoluto
 Non esiste un analogo della tesi di Church per la complessità
-Però è possibile stabilire almeno una relazione a propri tra le complessità di diversi modelli di calcolo
+Però è possibile stabilire almeno una relazione di maggiorazione a propri tra le complessità di diversi modelli di calcolo
 
 
 ## Complessità e non [[determinismo]]
