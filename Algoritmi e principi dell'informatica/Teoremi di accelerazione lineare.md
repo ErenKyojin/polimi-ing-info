@@ -52,3 +52,5 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 Si può verificare il problema della memorizzazione della posizione della testa ma si può risolvere arricchendo l'alfabeto o memorizzando la posizione relativamente allo stato dell'organo di controllo.
 
 Prendiamo un $r$ tale che sia $rc > 2$
+
+Se $L$ è accettato da una MT $M$ a $k$ nastri con complessità $S_{M}(n)$ si può costruire una MT $M'$ a 1 nastro (N.B. non a nastro singolo) con complessità $S_{M'}(n) = S_{M}(N)$ met
