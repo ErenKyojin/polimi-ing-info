@@ -16,30 +16,34 @@ L'algoritmo restituisce 1 se l'elemento cercato esiste nella sequenza, 0 altrime
 
 
 ```
-		READ  3
-		LOAD  1
-		STORE 4
-		ADD   2
-		SUB=  1
-		STORE 5
-LOOP:   LOAD  5
-		SUB   4
-		JLZ   NO
-		LOAD  5
-		ADD   4
-		DIV=  2
-		STORE 6
-		LOAD* 6
-		SUB   3
-		JZ    YES
-		JGZ   FST
-		JLZ   SND
-FST:    LOAD  6
-		SUB=  1
-		STORE 5
-	    JUMP  LOOP
-SND:    LOAD  6
-		ADD=  1
-		STORE 4
-		JUM
+		READ   3    
+		LOAD   1
+		STORE  4
+		ADD    2
+		SUB=   1
+		STORE  5
+LOOP:   LOAD   5
+		SUB    4
+		JLZ    NO
+		LOAD   5
+		ADD    4
+		DIV=   2
+		STORE  6
+		LOAD*  6
+		SUB    3
+		JZ     YES
+		JGZ    FST
+		JLZ    SND
+FST:    LOAD   6
+		SUB=   1
+		STORE  5
+	    JUMP   LOOP
+SND:    LOAD   6
+		ADD=   1
+		STORE  4
+		JUMP   LOOP
+YES:    WRITE= 1
+		HALT
+NO:     WRITE= 0
+		HALT
 ```
