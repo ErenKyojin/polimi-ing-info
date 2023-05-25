@@ -36,3 +36,11 @@ Otteniamo attraverso un analisi di questo genere la seguente tabella:
 | `JZ`       |   label   | $l(M[0])$                                        |
 | `HALT`       |           | 1                                                | 
 
+con $l$ definita come:
+
+```
+l(i)
+	if i = 0
+		return 1
+	else return floor(log_2 |i|) + 1
+```
