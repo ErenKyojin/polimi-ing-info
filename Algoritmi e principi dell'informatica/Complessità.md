@@ -155,8 +155,10 @@ Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più im
 >Al posto che inserire tutti i caratteri in memoria, memorizziamo la posizione del carattere che stiamo controllando, chiamandola $i$, e confrontiamo l'$i$-esimo e $n-i+1$-esimo carattere (11) è la posizione in binario del carattere.
 >Questo programma ha pseudocodice:
 >```
->ciclo alla ricerca di c, ad ogni passo aumento il numero sul nastro A di 1
+>ciclo alla ricerca di c, ad ogni passo aumento il numero sul nastro A di 1 (n log(n)
 >ciclo da n/2 a 0
+>	- Copia A nel nastro B  log i
+>	- decrementa B passo passo
 >
 >```
 >
