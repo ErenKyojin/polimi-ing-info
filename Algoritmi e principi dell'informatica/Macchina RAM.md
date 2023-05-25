@@ -26,10 +26,10 @@ modification date: 2023-05-02 10:43
 
 %Macchina
 \begin{scope}
- \node[minimum width = 4cm, minimum height = 2cm,draw,ultra thick] at (3,-3) {programma cablato};
+ \node[minimum width = 4cm, minimum height = 2cm,draw,ultra thick] (prog) at (3,-3) {programma cablato};
  \node[minimum width = 2cm,minimum height = 1cm,draw,ultra thick,align = center] 
-at (-2,-3){program \\ counter};
- \node[minimum width = 2cm,minimum height = 1cm,draw,ultra thick, align = center]
+at (-2,-3) (PC) {program \\ counter};
+ \node[minimum width = 2cm,minimum height = 1cm,draw,ultra thick, align = center] at (8,-3) (ALU) {Unità \\ aritmetica};
 \end{scope}
 
 \end{tikzpicture}
