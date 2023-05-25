@@ -12,4 +12,4 @@ Forniamo due definizioni alternative
 > [!def]
 > Campo è una [[grandezza fisica]], qualunque, [[Funzioni|funzione]] dello spazio ed eventualmente del tempo
 
-Un campo può essere **scalare** se descritto da una funzione [[scalare]] $f(x,y,z,t)$ dello spazio ed eventualmente del tempo (ad esempio la temperatura dell'aria in una stanza è un [[campi scalari|campo scalare]]), oppure **vettoriale** se de
+Un campo può essere **scalare** se descritto da una funzione [[scalare]] $f(x,y,z,t)$ dello spazio ed eventualmente del tempo (ad esempio la temperatura dell'aria in una stanza è un [[campi scalari|campo scalare]]), oppure **vettoriale** se descritto da una funzione v
