@@ -32,16 +32,16 @@ LOOP:   LOAD   5    #Se M[5] precede M[4] abbiamo una porzione di sequenza vuota
 		STORE  6   #M[6] contiene l'indirizzo dell'elemento centrale
 		LOAD*  6
 		SUB    3
-		JZ     YES #Se M[3] = M[M[6]] l'elemento cerc
-		JGZ    FST
-		JLZ    SND
-FST:    LOAD   6
+		JZ     YES #Se M[3] = M[M[6]] l'elemento cercato esiste
+		JGZ    FST #Se M[3] < M[M[6]] cerca nella prima metà
+		JLZ    SND #Se M[3] > M[M[6]] cerca nella seconda metà
+FST:    LOAD   6   
 		SUB=   1
-		STORE  5
+		STORE  5   #Memorizza M[6] - 1 in M[5]
 	    JUMP   LOOP
 SND:    LOAD   6
 		ADD=   1
-		STORE  4
+		STORE  4   #
 		JUMP   LOOP
 YES:    WRITE= 1
 		HALT
