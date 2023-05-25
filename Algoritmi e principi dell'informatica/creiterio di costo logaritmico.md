@@ -45,4 +45,9 @@ l(i)
 	else return floor(log_2 |i|) + 1
 ```
 
-Studiamo di nuovo la funzione `is-prime` vista nel file sulla [[macchina RAM]]
+Studiamo di nuovo la [[Funzioni|funzione]] `is-prime` vista nel file sulla [[macchina RAM]] (solo per i punti chiave):
+```
+LOOP    LOAD  1
+		SUB   2
+		
+```
