@@ -33,7 +33,7 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 \node[on chain = 1] {$c_2$};
 \node[on chain = 1] {};
 \node[on chain = 1] {$c_i$};
-\node[on chain = 1]
+\node[on chain = 1] {};
 \end{scope}
 
 \begin{scope}[start chain = 2 going right, node distance = -0.15mm, every node/.style={tmtape}, shift={(0,-3)}]
@@ -43,9 +43,10 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 \node[on chain = 2] {$\langle a_1,...,a_i,...,a_r\rangle$};
 \node[on chain = 2] {$\langle b_1,...,b_i,...,b_r\rangle$};
 \node[on chain = 2] {$\langle c_1,...,c_i,...,c_r\rangle$};
-\node[on chain = 2] {}
+\node[on chain = 2] {};
 \end{scope}
 
 \end{tikzpicture}
 \end{document}
 ```
+Si può verificare il problema della memorizzazione della posizione della testa ma si può risolvere arricchendo l'alfabeto o memorizzando la posizione relativamente allo stato dell'organo di controll
