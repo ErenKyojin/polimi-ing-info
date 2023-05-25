@@ -164,4 +164,6 @@ Il problema risiede nella definizione della RAM, che è un po troppo astratta ri
 
 Possiamo quindi studiare gli algoritmi e le analisi di complessità in funzione del livello di precisione usato, che è concettualmente corretto meno conveniente rispetto al [[criterio di costo logaritmico]].
 Ma la domanda è, come scegliere il criterio?
-- Se l'elaborazione è semplice, non altera l
+- Se l'elaborazione è semplice, non altera l'ordine di grandezza dei dati in ingresso, non varia la memoria durante il run-time, quindi se
+	- Non dipende dai dati
+	- Una singola cella è considerabil
