@@ -25,7 +25,7 @@ Quindi il lavoro compiuto in un'ora da una forza della potenza di 1 $\text{kW}$
 Un n-terminali la cui potenza assorbita è positiva sempre si dice #passivo
 
 # Potenza in [[regime sinusoidale]]
-Prendendo un lato qualsiasi di un circuito lineare, tempo invariante, dinamico, che ammetta regime sinusoidale alla pulsazione $\omega$, un qualsiasi suo lato avrà una corrente ed una tensione descrittiva pari a
+Prendendo un lato qualsiasi di un circuito lineare, tempo invariante, dinamico, che ammetta regime sinusoidale alla pulsazione $\omega$, un qualsiasi suo lato avrà una [[corrente]] ed una tensione descrittiva pari a
 $$\begin{flalign}
 	&v(t) = V \cos(\omega t + \varphi_V) \\
 	&i(t) = I \cos(\omega t + \varphi_I)	

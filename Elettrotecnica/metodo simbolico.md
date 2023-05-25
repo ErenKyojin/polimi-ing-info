@@ -14,7 +14,7 @@ L\frac{d}{dt}i \quad \leftrightarrow \quad j\omega L\overline{i}}$$
 >E riscriviamo l'equazione di stato come
 >$$(j\omega L + R)\overline{i} = E_m$$
 >$$\overline{i} =\frac{E_m}{j\omega L}$$
->E la corrente $i(t)$ è $$Re\{\overline{i}e^{j\omega t}\} = Re\left\{\frac{E_m(R - j\omega L)}{\omega^2L^2+R^2}(\cos\omega t + j\sin\omega t)\right\}$$
+>E la [[corrente]] $i(t)$ è $$Re\{\overline{i}e^{j\omega t}\} = Re\left\{\frac{E_m(R - j\omega L)}{\omega^2L^2+R^2}(\cos\omega t + j\sin\omega t)\right\}$$
 >e quindi
 >$$i(t) = \frac{E_m}{\omega^2L^2 + R^2}(R\cos\omega t +\omega L \sin \omega t)$$
 >analogamente possiamo scrivere $\overline{i} =|\overline{i}|e^{j\varphi_{\overline{i}}}$ con $|\overline{i}| = \frac{E_m}{\sqrt{\omega^2L^2+R^2}}$ e $\varphi_{\overline{i}} = -\arctan\frac{\omega L}{R}$

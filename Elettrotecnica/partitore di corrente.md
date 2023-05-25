@@ -1,4 +1,4 @@
-# Partitore di corrente
+# Partitore di [[corrente]]
 È il duale del [[partitore di tensione]].
 
 Ipotizziamo di voler calcolare la corrente che passa attraverso al j-esimo resistore, qual è questa corrente?
