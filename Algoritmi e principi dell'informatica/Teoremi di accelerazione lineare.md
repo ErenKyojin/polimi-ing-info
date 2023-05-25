@@ -31,9 +31,15 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 \node[on chain = 1] {$b_r$};
 \node[on chain = 1] {$c_1$};
 \node[on chain = 1] {$c_2$};
+\node[on chain = 1] {};
 \node[on chain = 1] {$c_i$};
-\node[on c]
 \end{scope}
+
+\begin{scope}[start chain = 2 going right, node distnace = -0.15mm, every node/.style={tmtape}]
+\node[on chain = 2] {};
+\node[]
+\end{scope}
+
 \end{tikzpicture}
 \end{document}
 ```
