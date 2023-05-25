@@ -9,7 +9,7 @@ $$V(R) = \frac{1}{4\pi\varepsilon_0\varepsilon_r}\frac{Q}{R}$$
 $$\frac{Q}{V(R)} = const$ = C$$ 
 Con $C$ [[capacità]] elettrica
 
-Due conduttori con le cariche $Q^+$ e $Q^-$ con $V_1$ e $V_2$ potenziali rispettivi, allora la differenza di potenziale $V = V_1 - V_2$, la capacità del sistema è
+Due conduttori con le cariche $Q^+$ e $Q^-$ con $V_1$ e $V_2$ potenziali rispettivi, allora la differenza di potenziale $V = V_1 - V_2$, la [[capacità]] del sistema è
 $$C = \frac{Q}{V_1 - V_2}$$ questo sistema descrive un [[bipolo]] <u>definito condensatore</u>.
 
 I condensatori più utili a noi sono i ==condensatori piani==.
