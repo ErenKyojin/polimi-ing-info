@@ -8,7 +8,7 @@ Si basa su un analisi microscopica delle operazioni hardware:
 - Quando costa copiare il numeri $i$ da una cella all'altra? 
 	- Tante operazioni quanti sono i bit che codificano $i$, quindi $\log(i)$
 - Quanto costa accedere alla cella di posizione $i$-esima?
-	- L'apertura di $\log(i)$ cancelli di accesso ad altrettanti banchi di memoria
+	- L'apertura di $\log(i)$ cancelli di accesso ad altrettanti banchi di [[memoria]]
 - Quanto costa `LOAD i`
 	- ...
 
@@ -44,3 +44,5 @@ l(i)
 		return 1
 	else return floor(log_2 |i|) + 1
 ```
+
+Studiamo di nuovo la funzione `is-prime` vista nel file sulla [[macchina RAM]]
