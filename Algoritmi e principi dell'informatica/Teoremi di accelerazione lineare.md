@@ -26,7 +26,13 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 \node[on chain = 1] {$b_1$};
 \node[on chain = 1] {$b_2$};
 \node[on chain = 1] {};
-\node[on chain = 1] {$b_$}
+\node[on chain = 1] {$b_i$};
+\node[on chain = 1] {};
+\node[on chain = 1] {$b_r$};
+\node[on chain = 1] {$c_1$};
+\node[on chain = 1] {$c_2$};
+\node[on chain = 1] {$c_i$};
+\node[on c]
 \end{scope}
 \end{tikzpicture}
 \end{document}
