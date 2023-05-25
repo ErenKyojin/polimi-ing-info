@@ -169,4 +169,4 @@ Ma la domanda è, come scegliere il criterio?
 	- Una singola cella è considerabile elementare e con essa le operazioni relative
 In questo caso il criterio di costo costante è ok.
 
-- Negli altri casi è necessario il criterio logaritmico (casi di fattoriale, $2^{2^n}$, ricorsioni feroci, ...) ed è indispensabile criterio logaritmico: l'unico garantito/
+- Negli altri casi è necessario il criterio logaritmico (casi di fattoriale, $2^{2^n}$, ricorsioni feroci, ...) ed è indispensabile criterio logaritmico: l'unico garantito
