@@ -44,8 +44,9 @@ at (-2,-3) (PC) {program \\ counter};
 \node[on chain = 2] {};
 \node[on chain = 2] {};
 \node[on chain = 2] {};
-\node[on chain = 2] {};
-\node[on chain = 2]
+\node[on chain = 2] {$\vdots$};
+\node[left = of 0,draw = none] {accumulatore};
+\node[right = of 0, draw = n]
 
 
 
