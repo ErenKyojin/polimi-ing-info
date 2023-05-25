@@ -62,4 +62,8 @@ $$ T_{M}(n) = \max\{ n+1, c T_{M}(n) \} $$
 
 Lo schema di dimostrazione è analogo a quello usato per la complessità spaziale ma con qualche dettaglio tecnico in più:
 - occorre per prima cosa leggere e tradurre tutto l'input (n mosse)
-- 
+- Questo crea qualche problema all'interno della classe $n$, per cui prendiamo $\max$
+- Nel caso pessimo occorrono 3 mosse per simulare almeno $r + 1$ mosse di M
+
+>[!esempio]
+><a1,...,$a_r$>
