@@ -31,5 +31,15 @@ LOOP:   LOAD  5
 		STORE 6
 		LOAD* 6
 		SUB   3
-		
+		JZ    YES
+		JGZ   FST
+		JLZ   SND
+FST:    LOAD  6
+		SUB=  1
+		STORE 5
+	    JUMP  LOOP
+SND:    LOAD  6
+		ADD=  1
+		STORE 4
+		JUM
 ```
