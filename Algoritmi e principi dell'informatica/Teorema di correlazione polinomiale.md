@@ -76,7 +76,7 @@ Per simulare una mossa della RAM la MT impiega al piú $\Theta(T_{R})$, ed una m
 > - valore del dato (n)
 > - Numero di elementi di una tabella, nodi di un grafo, righe di una matrice
 > 
->La ricerca binaria implementata con una MT viola il teorema di correlazione polinomiale? Attenzione! riconoscimento di un linguaggio => dati non già in memoria => complessità almeno lineare
+>La [[ricerca binaria]] implementata con una MT viola il teorema di correlazione polinomiale? Attenzione! riconoscimento di un linguaggio => dati non già in memoria => complessità almeno lineare
 >
 >Operazioni dominanti, complessità lineare rispetto alle operazioni dominanti e quadratica in complesso
 
