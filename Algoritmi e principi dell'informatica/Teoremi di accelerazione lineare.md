@@ -39,7 +39,9 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 \node[on chain = 2] {};
 \node[on chain = 2] {};
 \node[on chain = 2] {};
-\node[on chain = 2] {<$a_1,...,a_i,...,a_r$>};
+\node[on chain = 2] {$\langle a_1,...,a_i,...,a_r\rangle$};
+\node[on chain = 2] {$\langle b_1,...,b_i,...,b_r\rangle$};
+\node[on chain = 2] {}
 \end{scope}
 
 \end{tikzpicture}
