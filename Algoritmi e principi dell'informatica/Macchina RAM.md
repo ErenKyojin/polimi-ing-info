@@ -4,6 +4,8 @@ creation date: 2023-05-02 10:43
 modification date: 2023-05-02 10:43
 ---
 
+# MODELLO
+
 ```tikz
 \usetikzlibrary{chains}
 \begin{document}
@@ -77,3 +79,8 @@ at (-2,-3) (PC) {program \\ counter};
 \end{document}
 ```
 
+Ogni cella contiene un intero, non un carattere
+
+
+### Istruzioni RAM
+LOAD X
