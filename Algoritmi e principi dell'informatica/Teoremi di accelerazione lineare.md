@@ -13,19 +13,20 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 \tikzstyle{every path}=[very thick]
 \tikzstyle{tmtape}=[draw,minimum size = 0.7cm]
 
-\begin{scope}[start chain = 1 going right, node distance = -0.15mm,every node./style={tmtape}]
-\node[on chain = 1, tmtape] {};
-\node[on chain = 1, tmtape] {};
-\node[on chain = 1, tmtape] {};
-\node[on chain = 1, tmtape] {$a_1$};
-\node[on chain = 1, tmtape] {$a_2$};
-\node[on chain = 1, tmtape] {};
-\node[on chain = 1, tmtape] {$a_i$};
-\node[on chain = 1, tmtape] {};
-\node[on chain = 1, tmtape] {$a_r$};
-\node[on chain = 1, tmtape] {$b_1$};
-\node[on chain = 1, tmtape] {$b_2$};
-\node[on chain = 1, tmtape] {}
+\begin{scope}[start chain = 1 going right, node distance = -0.15mm,every node/.style={tmtape}]
+\node[on chain = 1] {};
+\node[on chain = 1] {};
+\node[on chain = 1] {};
+\node[on chain = 1] {$a_1$};
+\node[on chain = 1] {$a_2$};
+\node[on chain = 1] {};
+\node[on chain = 1] {$a_i$};
+\node[on chain = 1] {};
+\node[on chain = 1] {$a_r$};
+\node[on chain = 1] {$b_1$};
+\node[on chain = 1] {$b_2$};
+\node[on chain = 1] {};
+\node[on chain = 1] {$b_$}
 \end{scope}
 \end{tikzpicture}
 \end{document}
