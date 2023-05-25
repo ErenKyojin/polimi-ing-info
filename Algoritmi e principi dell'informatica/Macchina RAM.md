@@ -15,7 +15,7 @@ modification date: 2023-05-02 10:43
 \begin{scope}[start chain = 1 going right,node distance = -0.15mm,every node/.style = {tmtape}]
  \node[on chain = 1]{};
  \node[on chain = 1]{};
- \node[on chain = 1] (cs) {n};
+ \node[on chain = 1] (n) {n};
  \node[on chain = 1]{};
  \node[on chain = 1]{};
  \node[on chain = 1]{};
@@ -34,6 +34,8 @@ at (-2,-3) (PC) {program \\ counter};
 
 \draw[latex-latex,ultra thick] (PC) -- (prog);
 \draw[latex-latex,ultra thick] (prog) -- (ALU);
+\draw[-latex] (prog) .. controls(4.2, 1) .. (n);
+
 \end{tikzpicture}
 \end{document}
 ```
