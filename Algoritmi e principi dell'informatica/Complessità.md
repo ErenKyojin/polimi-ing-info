@@ -165,12 +165,13 @@ Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più im
 >	- decrementa B passo passo fino a 0, ad ogni passo sposta verso destra la testina di ingresso [i log i]
 >	- Leggi il carattere e confrontalo con quello in C: se diversi HALT [cost]
 >	- decrementa A [log i]
->	- ritorna al carattere "c"
+>	- ritorna al carattere "c" [i]
 >	- salta a Loop
 >
 >```
 >
 
+Abbiamo che $S_{M}(n) : \Theta(\log(n))$
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
