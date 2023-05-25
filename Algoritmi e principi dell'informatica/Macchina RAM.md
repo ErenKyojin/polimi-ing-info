@@ -144,4 +144,7 @@ $$ \begin{align}
 &S_{R}(n) = 2 = \Theta(1)\qquad \text{vengono utilizzate solo due celle}
 \end{align} $$
 
-Vediamo adesso un algoritmo estremamente importante, la [[ricerca binaria]] 
+Vediamo adesso un algoritmo estremamente importante, la [[ricerca binaria]].
+
+## Problemi della macchina RAM
+C
