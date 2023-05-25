@@ -38,6 +38,6 @@ Ma la qui sopra la possiamo riscrivere come
 $$x_{IP}(t) = \rho(\lambda,\omega,\alpha,\varphi)\cos(\omega t + \psi(\lambda,\omega,\alpha,\varphi))$$
 (ovviamente sto considerando $\varphi \ne 0$)
 
-Quindi le soluzioni dell'equazione di stato di un circuito RC o RL del primo ordine non degenere, l'integrale particolare dipende da $(\omega,\ \alpha,\ \varphi)$ che specificano l'ingresso, e da $\lambda$ che a sua volta dipende dalla strutture di $N_R$.
+Quindi le soluzioni dell'[[equazione di stato]] di un [[circuito RC]] o RL del primo ordine non degenere, l'integrale particolare dipende da $(\omega,\ \alpha,\ \varphi)$ che specificano l'ingresso, e da $\lambda$ che a sua volta dipende dalla strutture di $N_R$.
 
 Grazie all'analisi fasoriale possiamo studiare circuiti i cui ingressi possono essere $M\geq 1$ e hanno la pulsazione $\omega$ e una struttura di tipo $\alpha_k\cos(\omega t + \varphi_k)$ con $k = 1,...,M$ costituiti da N-terminali lineari, dinamici e adinamici, tempo-invarianti.
