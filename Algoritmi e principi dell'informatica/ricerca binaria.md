@@ -41,10 +41,12 @@ FST:    LOAD   6
 	    JUMP   LOOP
 SND:    LOAD   6
 		ADD=   1
-		STORE  4   #
+		STORE  4   #Memorizza M[6] + 1 in M[4]
 		JUMP   LOOP
 YES:    WRITE= 1
 		HALT
 NO:     WRITE= 0
 		HALT
 ```
+
+Nel peggiore dei casi questo ciclo viene eseguito $\log_{2}(n)$ volte, in quanto ogni volta la dimensione dell'array viene dimezzata
