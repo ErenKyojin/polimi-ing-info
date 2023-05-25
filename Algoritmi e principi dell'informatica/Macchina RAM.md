@@ -162,4 +162,4 @@ Sembra assurdo, anche perché anche solo per scrivere il risultato è necessario
 
 Il problema risiede nella definizione della RAM, che è un po troppo astratta rispetto ad una macchina reale dove le operazioni elementari hanno limiti fisici che occorrono processi più complessi (esempio banale sono il numero di bit con cui lavora il calcolatore) per essere superati.
 
-Possiamo quindi studiare gli algoritmi e le analisi di complessità in funzione del livello di precisione usato,
+Possiamo quindi studiare gli algoritmi e le analisi di complessità in funzione del livello di precisione usato, che è concettualmente corretto meno conveniente rispetto al [[creiterio di costo logaritmico]]
