@@ -13,3 +13,17 @@ L'algoritmo restituisce 1 se l'elemento cercato esiste nella sequenza, 0 altrime
 
 `M[1]` è la cella che contiene l'indirizzo del primo numero della sequenza
 `M[2]` è la cella che contiene il numero di elementi della sequenza
+
+
+```
+		READ  3
+		LOAD  1
+		STORE 4
+		ADD   2
+		SUB=  1
+		STORE 5
+LOOP:   LOAD  5
+		SUB   4
+		JLZ   NO
+		LOAD 5
+```
