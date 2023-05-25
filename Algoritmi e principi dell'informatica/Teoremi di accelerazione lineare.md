@@ -49,4 +49,6 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 \end{tikzpicture}
 \end{document}
 ```
-Si può verificare il problema della memorizzazione della posizione della testa ma si può risolvere arricchendo l'alfabeto o memorizzando la posizione relativamente allo stato dell'organo di controllo
+Si può verificare il problema della memorizzazione della posizione della testa ma si può risolvere arricchendo l'alfabeto o memorizzando la posizione relativamente allo stato dell'organo di controllo.
+
+Prendiamo un $r$ tale che sia $rc > 2$
