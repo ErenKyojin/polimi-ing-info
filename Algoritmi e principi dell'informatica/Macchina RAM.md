@@ -133,3 +133,5 @@ Per ora ogni istruzione ha un [[Costo di un calcolo|costo]] costante indipendent
 #### Costo del programma:
 Le istruzioni da 1 a 6 hanno costo costante, vengono eseguite al più una volta a testa quindi il loro costo totale è a sua volta costante ed è
 $$ k_{1} = \sum_{i = 1}^6 c_{i} $$
+Lo stesso vale per le istruzioni da 19 a 22 che hanno costo costante, vengono eseguite una sola volta ed il loro costo totale vale:
+$$ k_{3}=\sum_{c_{19}} $$
