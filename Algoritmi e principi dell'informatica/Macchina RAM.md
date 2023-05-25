@@ -160,4 +160,4 @@ write(x)
 Che complessità temporale? $\Theta(n)$! Ma è davvero così lineare risolvere un problema così complesso?
 Sembra assurdo, anche perché anche solo per scrivere il risultato è necessario usare almeno $2^n$ bit.
 
-Il problema risiede nella definizione della RAM, che è un po troppo astratta rispetto ad una macchina a reale dove le operazioni elementari hanno limiti che occorrono processi più complessi per essere superati
+Il problema risiede nella definizione della RAM, che è un po troppo astratta rispetto ad una macchina reale dove le operazioni elementari hanno limiti fisici che occorrono processi più complessi (esempio banale sono il numero di bit con cui lavora il calcolatore) per essere superati.
