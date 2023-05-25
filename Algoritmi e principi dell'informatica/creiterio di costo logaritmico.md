@@ -61,4 +61,7 @@ LOOP    LOAD  1      1 + l(n)
 		JUMP  LOOP
 ```
 
-Si può facilmente maggiorare il singolo [[ciclo]] con $\Theta(\log(n))$, e avendo $n$ cicli abbiamo una [[Complessità temporale]] complessiva $\Theta(n \log(n))$ 
+Si può facilmente maggiorare il singolo [[ciclo]] con $\Theta(\log(n))$, e avendo $n$ cicli abbiamo una [[Complessità temporale]] complessiva $\Theta(n \log(n))$.
+
+Analogamente:
+- Per il riconoscimento di $wcw^R$ otteniamo $\Theta(n\log(n))$, che tra l'altro è peggio della macchina di Turing vista in precedenza, si
