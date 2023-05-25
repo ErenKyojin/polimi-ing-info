@@ -22,16 +22,17 @@ L'algoritmo restituisce 1 se l'elemento cercato esiste nella sequenza, 0 altrime
 		ADD    2
 		SUB=   1
 		STORE  5    #M5 è inizializzato con l'indirizzo dell'ultimo numero
-LOOP:   LOAD   5    #Se M[]
+LOOP:   LOAD   5    #Se M[5] precede M[4] abbiamo una porzione di sequenza vuota, 
+					#quindi non esiste l'elementocercato
 		SUB    4
 		JLZ    NO
 		LOAD   5
 		ADD    4
 		DIV=   2
-		STORE  6
+		STORE  6   #M[6] contiene l'indirizzo dell'elemento centrale
 		LOAD*  6
 		SUB    3
-		JZ     YES
+		JZ     YES #Se M[3] = M[M[6]] l'elemento cerc
 		JGZ    FST
 		JLZ    SND
 FST:    LOAD   6
