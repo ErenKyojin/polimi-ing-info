@@ -49,7 +49,7 @@ $$k=\frac{|M|}{\sqrt{L_1L_2}}$$ che varia nell'intervallo $[0, 1]$ in ragione de
 >Notiamo che intutti questi casi otteniamo un valore di induttanza non negativo
 
 
-Inoltre in [[regime sinusoidale]] permanente è possibile associare agli induttori mutuamente accoppiati una matrice di impedenza (e, se esiste, di ammettenza) pari a
+Inoltre in [[regime sinusoidale]] permanente è possibile associare agli induttori mutuamente accoppiati una matrice di impedenza (e, se esiste, di [[ammettenza]]) pari a
 
 $$\mathcal{Z}(j\omega)=j\omega\begin{bmatrix}L_1&M\\M&L_2\end{bmatrix}$$
 

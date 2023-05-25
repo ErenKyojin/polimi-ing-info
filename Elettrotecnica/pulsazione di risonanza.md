@@ -1,5 +1,5 @@
 # Pulsazione di risonanza
-Pulsazione alla quale la parte immaginaria di un'ammettenza equivalente si annulla
+Pulsazione alla quale la parte immaginaria di un'[[ammettenza]] equivalente si annulla
 $$\omega  = \omega_R = \frac{1}{\sqrt{CL}}$$
 
 
