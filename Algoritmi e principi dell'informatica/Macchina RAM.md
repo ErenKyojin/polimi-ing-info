@@ -12,9 +12,6 @@ modification date: 2023-05-02 10:43
 \tikzstyle{accum} = [minimum width = 1.2cm, minimum height = 0.7cm, draw]
 
 %Nastro di lettura
-\begin{scope}[start chain = 1 going right,node distance = -0.15mm,every node/.style = {tmtape}]
-\node[on chain = 1]{};
-\end{scope}
 
 \end{tikzpicture}
 \end{document}
