@@ -26,7 +26,7 @@ $$I = \frac{dQ}{dt} = C\frac{dV}{dt}$$
 ### [[potenza]] istantanea assorbita
 La potenza istantanea asssorbita da un condensatore è
 $$p_a(t) = V(t)I(t) = CV(t)\frac{dV(t)}{dt} =\frac{d}{dt}\left(\frac{CV^2(t)}{2}\right) = \frac{dw_a^E}{dt}$$
-con $w_a^E(t) = \frac{1}{2}CV^2(t)$ energia elettrica immagazzinata dal bipolo. 
+con $w_a^E(t) = \frac{1}{2}CV^2(t)$ energia elettrica immagazzinata dal [[bipolo]]. 
  
 
 ## nel dominio dei [[fasori]]

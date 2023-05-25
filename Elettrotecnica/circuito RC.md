@@ -1,6 +1,6 @@
 # Circuito RC del primo ordine non degenere
 
->#### Circuito con bipolo $N_R$ collegato ad un [[condensatore]]densatore
+>#### Circuito con [[bipolo]] $N_R$ collegato ad un [[condensatore]]densatore
 >![[Pasted image 20220512164738.png]]
 
 $N_r$ [[bipolo]] costituito da multi terminali lineari, adinamici, tempo invarianti e da generatori dipendenti di tensione e/o corrente.
