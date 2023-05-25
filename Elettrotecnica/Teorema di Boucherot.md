@@ -5,7 +5,7 @@ Potremmo allora pensare di utilizzare il vetore $\mathbf{\bar\imath^*}$ che effe
 $$\sum_{h=1}^{N_j}\alpha_h\bar\imath_h = \sum_{h=1}^{N_j}\alpha_hRe\{\bar\imath_h\} + j\sum_{h=1}^{N_j}\alpha_hIm\{\bar\imath_h\} = 0$$
 Con:
 - $N_j$ numero di lati che entrano nel nodo j-esimo
-- $\alpha_h$ coefficiente che vale $\pm1$ in base al verso della corrente $\bar\imath_h$
+- $\alpha_h$ coefficiente che vale $\pm1$ in base al verso della [[corrente]] $\bar\imath_h$
 
 da cui deriviamo che
 $$\begin{align}

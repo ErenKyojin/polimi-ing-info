@@ -14,7 +14,7 @@ $$X_\text{eff} = \sqrt{\frac{1}{T}\int_{t_0}^{t_0 + T}x^2(t)\ dt}$$
 Nelle abitazioni la rete di distribuzione dell'energia elettrica opera in [[regime sinusoidale]] alla frequenza di $50\text{Hz}$, con una tensione nominale di circa $230 \text{V}$ in **valore efficace**. L'andamento nel tempo della tensione è quindi $$e(t) = E_m\cos(\omega t + \phi)\text\quad \text{dove}\quad E_m = 230\sqrt2 \approx 325V,\quad \omega=2\pi50 = 314\frac{\text{rad}}{s}$$ e con fase iniziale $\phi$ dipendente dalla scelta dell'origine per la variabile temporale. Abbiamo quindi descritto l'andamento della tensione fra i due terminali di una comune presa elettrica.
 
 ### Potenza
-Calcoliamo la potenza complessa $\hat A = P + jQ$ assorbita da un lato del grafo del circuito caratterizzato dalla tensione $\bar v$ e dalla corrente $\bar\imath$ prese con la convenzione degli utilizzatori:
+Calcoliamo la potenza complessa $\hat A = P + jQ$ assorbita da un lato del grafo del circuito caratterizzato dalla tensione $\bar v$ e dalla [[corrente]] $\bar\imath$ prese con la convenzione degli utilizzatori:
 $$
 \begin{flalign}
 \hat A\quad &=\quad P + jQ \\

@@ -17,7 +17,7 @@ $$\Psi_B = \int_\sigma \overline{B}\ \cdot \hat{u}_Nd\sigma \approx BS$$
 con $S$ area della spira, ossia la sezione del cilindro.
 Possiamo quindi trovare il flusso totale moltiplicando per il numero di spire.
 $$\Phi_B = N\Psi = \frac{\mu\\N^2S}{l}I = LI$$ 
-==> se è costante I lo è anche $\Phi_B$ e allora secondo la legge di faraday-henry non c'è alcuna fem indotta e allora ai capi dell'induttore abbiamo $V = -V_{fem}=0$, ossia un cortocircuito.
+==> se è costante I lo è anche $\Phi_B$ e allora secondo la legge di faraday-henry non c'è alcuna fem indotta e allora ai capi dell'induttore abbiamo $V = -V_{fem}=0$, ossia un [[cortocircuito]].
 
 ### induttore in regime tempo variante
 Un induttore legato ad una corrente $I(t)$ non costante nel tempo, il flusso magnetico diventa $\Phi_B(t) = LI(t)$, e per la [[legge di faraday]] si induce una fem $V_{fem}= - \frac{d\Phi_B(t)}{dt}$ lungo fili, che ai morsetti viene misurata come
