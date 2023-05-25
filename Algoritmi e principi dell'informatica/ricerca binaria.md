@@ -15,7 +15,7 @@ L'algoritmo restituisce 1 se l'elemento cercato esiste nella sequenza, 0 altrime
 `M[2]` è la cella che contiene il numero di elementi della sequenza
 
 
-```wasm
+```
 		READ  3
 		LOAD  1
 		STORE 4
@@ -27,4 +27,9 @@ LOOP:   LOAD  5
 		JLZ   NO
 		LOAD  5
 		ADD   4
+		DIV=  2
+		STORE 6
+		LOAD* 6
+		SUB   3
+		
 ```
