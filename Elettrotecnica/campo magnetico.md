@@ -1,5 +1,5 @@
 # il campo magnetico
-Il campo $\bar B$, chiamato campo magnetico ed analogo al [[campo elettrico]] $\bar E$, cioè attraverso la [[forza]] che una [[carica]] di prova $q$ in moto con velocità $\bar v$ subisce qualora venga a trovarsi in una regione dello spazio in cui il campo $\bar B$ è presente.
+Il campo $\bar B$, chiamato campo magnetico ed analogo al [[campo elettrico]] $\bar E$, cioè attraverso la [[forza]] che una [[carica]] di prova $q$ in [[moto]] con velocità $\bar v$ subisce qualora venga a trovarsi in una regione dello spazio in cui il campo $\bar B$ è presente.
 
 In realtà $\bar B$ va definito più correttamente come campo di induziona magnetica e, per descrivere i fenomeno magnetici nei mezzi materiali, è utile e necessario introdurre altri 2 campi:
 - $\bar H$ (denominato effettivamente campo magnetico)
