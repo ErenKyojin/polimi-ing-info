@@ -85,4 +85,7 @@ Ogni cella contiene un intero, non un carattere
 ### Istruzioni RAM
 
 
-Istruzione | parametro | esempio
+| Istruzione | parametro | esempio                               |
+| ---------- |:---------:| ------------------------------------- |
+| LOAD       |     X     | `M[0] := M[X]` indirizzamento diretto |
+| LOAD=      |     X     |                                       |
