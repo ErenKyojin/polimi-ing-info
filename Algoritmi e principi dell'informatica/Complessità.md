@@ -199,6 +199,7 @@ Non esiste un modello migliore in assoluto
 Non esiste un analogo della tesi di Church per la complessità
 Però è possibile stabilire almeno una relazione di maggiorazione a propri tra le complessità di diversi modelli di calcolo
 
+[[Teorema di correlazione polinomiale]]
 
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
