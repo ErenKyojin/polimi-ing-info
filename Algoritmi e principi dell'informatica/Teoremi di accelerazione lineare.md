@@ -19,19 +19,19 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 \node[on chain = 1] {};
 \node[on chain = 1] {$a_1$};
 \node[on chain = 1] {$a_2$};
-\node[on chain = 1] {};
+\node[on chain = 1] {...};
 \node[on chain = 1] {$a_i$};
-\node[on chain = 1] {};
+\node[on chain = 1] {...};
 \node[on chain = 1] {$a_r$};
 \node[on chain = 1] {$b_1$};
 \node[on chain = 1] {$b_2$};
-\node[on chain = 1] {};
+\node[on chain = 1] {...};
 \node[on chain = 1] {$b_i$};
-\node[on chain = 1] {};
+\node[on chain = 1] {...};
 \node[on chain = 1] {$b_r$};
 \node[on chain = 1] {$c_1$};
 \node[on chain = 1] {$c_2$};
-\node[on chain = 1] {};
+\node[on chain = 1] {...};
 \node[on chain = 1] {$c_i$};
 \node[on chain = 1] {};
 \end{scope}
@@ -49,4 +49,4 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 \end{tikzpicture}
 \end{document}
 ```
-Si può verificare il problema della memorizzazione della posizione della testa ma si può risolvere arricchendo l'alfabeto o memorizzando la posizione relativamente allo stato dell'organo di controll
+Si può verificare il problema della memorizzazione della posizione della testa ma si può risolvere arricchendo l'alfabeto o memorizzando la posizione relativamente allo stato dell'organo di controllo
