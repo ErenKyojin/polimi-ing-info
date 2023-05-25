@@ -95,4 +95,8 @@ Ogni cella contiene un intero, non un carattere
 | `SUB,MULT,DIV` |           |                                            |
 | `READ[*]`      |     X     |                                            |
 | `WRITE[=,*]`   |     X     |                                            |
-| `JUMP`         |   label   | `PC                                           |
+| `JUMP`         |   label   | `PC := b(label)`                           |
+| `JZ,JGZ,...`   |   label   | `jump if M[0] = 0, > 0,...`                |
+| `HALT`         |           |                                            | 
+
+Un programma RAM che ca
