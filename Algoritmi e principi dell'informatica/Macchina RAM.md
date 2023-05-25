@@ -46,8 +46,10 @@ at (-2,-3) (PC) {program \\ counter};
 \node[on chain = 2] {};
 \node[on chain = 2] {$\vdots$};
 \node[left = of 0,draw = none] {accumulatore};
-\node[right = of 0, draw = n]
-
+\node[right = of 0, draw = none] {M/0};
+\node[right = of 1, draw = none] {M/1};
+\node[right = of 2, draw = none] {M/2};
+\node[right = of 3, draw = none] {M/3};
 
 
 \end{scope}
