@@ -15,8 +15,9 @@ Si basa su un analisi microscopica delle operazioni hardware:
 Otteniamo attraverso un analisi di questo genere la seguente tabella:
 
 
-| istruzione | parametro | costo            |
-| ---------- |:---------:| ---------------- |
-| `LOAD=`    |     X     | $l(x)$           |
-| `LOAD`     |     X     | $l(x) + l(M[x])$ |
-| `LOAD*     |     X     |                  |
+| istruzione | parametro | costo                         |
+| ---------- |:---------:| ----------------------------- |
+| `LOAD=`    |     X     | $l(x)$                        |
+| `LOAD`     |     X     | $l(x) + l(M[x])$              |
+| `LOAD*`    |     X     | $l(x) + l(M[x]) + l(M[M[x]])$ |
+|            |           |                               |
