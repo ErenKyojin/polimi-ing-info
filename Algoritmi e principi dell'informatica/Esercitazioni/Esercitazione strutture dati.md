@@ -1184,4 +1184,4 @@ Dal lato destro considero:
 - T3 il sottoalbero con radice 85
 
 
-Faccio una rotazione tra 60 e 70, infine spostiamo i sottoalberi ed ottneiamo 
+Faccio una rotazione tra 60 e 70, infine spostiamo i sottoalberi ed ottneiamo 70 sotto a destra di 60 con sotto a destra 85, e 50 sotto 60 a sinistra
