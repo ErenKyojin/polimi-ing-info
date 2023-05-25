@@ -15,7 +15,7 @@ L'algoritmo restituisce 1 se l'elemento cercato esiste nella sequenza, 0 altrime
 `M[2]` è la cella che contiene il numero di elementi della sequenza
 
 
-```
+```armams
 		READ  3
 		LOAD  1
 		STORE 4
@@ -25,5 +25,6 @@ L'algoritmo restituisce 1 se l'elemento cercato esiste nella sequenza, 0 altrime
 LOOP:   LOAD  5
 		SUB   4
 		JLZ   NO
-		LOAD 5
+		LOAD  5
+		ADD   4
 ```
