@@ -1,5 +1,5 @@
 # Carico trifase bilanciato
-I carichi di un sistema trifase, modellati come delle impedenze essendo regime sinusoidale permanente. Il carico è detto "bilanciato" se le impedenze di fase hanno tutte lo stesso modulo (ossia uguali in campo complesso).
+I carichi di un sistema trifase, modellati come delle impedenze essendo [[regime sinusoidale]] permanente. Il carico è detto "bilanciato" se le impedenze di fase hanno tutte lo stesso [[modulo]] (ossia uguali in [[campo complesso]]).
 
 E quindi il carico bilanciato è:
 
