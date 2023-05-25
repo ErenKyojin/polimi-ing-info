@@ -1,5 +1,5 @@
 # analisi [[fasori|fasoriale]]
-grazie ai [[Richiami]] possiamo provare a vedere come si calcola l'integrale particolare  $x_{ip}(t)$ del [[circuito RC]] nel caso avessimo
+grazie ai [[Richiami]] possiamo provare a vedere come si calcola l'[[integrale]] particolare  $x_{ip}(t)$ del [[circuito RC]] nel caso avessimo
 $$
 	\begin{cases}
 	u(t) = \alpha\cos(\omega t + \varphi) \\

@@ -1,5 +1,5 @@
 # Amplificatore operazionale
-L'amplificatore operazionale è un quadripolo caratterizzato dalle relazioni
+L'amplificatore operazionale è un quadripolo caratterizzato dalle [[relazioni]]
 $$
 	\begin{cases}
 	i_- = I_- \\
@@ -19,9 +19,9 @@ $$
 Inoltre $I_-$ e $I_+$ $\rightarrow 0$ => aprossimiamoli a $0$ e a questo punto abbiamo un [[doppio bipolo]]
 Poi $E_{sat} \approx 10V/15V$ 
 E $A_v = \frac{E_{sat}}{\varepsilon} \approx 10^5/10^6$
-con $v_0$ che può raggiungere qualsiasi valore nell'intervallo $[-E_{sat}, E_{sat}]$
+con $v_0$ che può raggiungere qualsiasi valore nell'[[intervallo]] $[-E_{sat}, E_{sat}]$
 
-Abbiamo quindi in queste condizioni e la sua equazione carattiristica diventa $I_- = i_1$ e $v_i = v_1$ ossia uguale a quella di un nullore
+Abbiamo quindi in queste condizioni e la sua equazione carattiristica diventa $I_- = i_1$ e $v_i = v_1$ ossia uguale a quella di un [[nullore]]
 
 >[!amplificatore operazionale]
 >![[Pasted image 20220607170042.png]]
