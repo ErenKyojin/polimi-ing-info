@@ -33,7 +33,7 @@ at (-2,-3) (PC) {program \\ counter};
 \end{scope}
 
 \draw[latex-latex,ultra thick] (PC) -- (prog);
-\draw[latex-latex,ultra thick]
+\draw[latex-latex,ultra thick] (prog) -- (ALU);
 \end{tikzpicture}
 \end{document}
 ```
