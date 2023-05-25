@@ -56,7 +56,9 @@ LOOP    LOAD  1      1 + l(n)
 		SUB   1      l(M[0]) + 1 + l(n) < 2 l(n) + 1
 		JZ    NO     <= l(n)
 		LOAD  2      <= l(n) + k
-		ADD=  1
+		ADD=  1      ...
 		STORE 2
 		JUMP  LOOP
 ```
+
+Si può facilmente maggiorare il singolo [[ciclo]] con $\Theta(\log(n))$, e avendo $n$ cicli abbiamo una [[Complessità temporale]] complessiva $\Theta(n \log(n))$ 
