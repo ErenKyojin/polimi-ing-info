@@ -57,7 +57,7 @@ at (-2,-3) (PC) {program \\ counter};
 \draw[latex-latex,ultra thick] (PC) -- (prog);
 \draw[latex-latex,ultra thick] (prog) -- (ALU);
 \draw[-latex] (prog.north) .. controls(4, -1) and(1, -1.2) .. (n.south);
-\draw[latex-latex,ultra thick] (ALU) -- (5);
+\draw[latex-latex,ultra thick] (ALU) _-- (1,0);
 
 \end{tikzpicture}
 \end{document}
