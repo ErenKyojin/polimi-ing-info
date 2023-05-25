@@ -26,7 +26,9 @@ modification date: 2023-05-02 10:43
 
 %Macchina
 \begin{scope}
- \node[minimum width = 4cm, minimum height = 2cm,draw,ultra thick] at (3,-3) {programma cablato};
+ \node[minimum width = 4cm, minimum height = 2cm,draw,ultra thick] at (3,-3) {programma 
+ cablato};
+ \node[minimum width = 2cm,minimum height = 1cm,draw,ultra thick] at (-1,-3){program counter};
 \end{scope}
 
 \end{tikzpicture}
