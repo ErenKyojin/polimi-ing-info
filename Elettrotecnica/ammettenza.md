@@ -12,4 +12,4 @@ Il concetto di ammettenza si può estendere a tutti i bipoli costituiti da N ter
 
 Essendo l'ammettenza un numero complesso ha sia una parte reale e immaginaria;
 $$Y(j\omega) = G(\omega) + jB(\omega)$$
-Con $G(\omega)$ e $B(\omega)$ sono la conduttanza e la suscettanza
+Con $G(\omega)$ e $B(\omega)$ sono la [[conduttanza]] e la suscettanza
