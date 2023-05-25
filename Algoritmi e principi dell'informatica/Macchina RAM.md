@@ -32,9 +32,13 @@ at (-2,-3) (PC) {program \\ counter};
  \node[minimum width = 2cm,minimum height = 1cm,draw,ultra thick, align = center] at (8,-3) (ALU) {Unità \\ aritmetica};
 \end{scope}
 
+%Accumulatore
+\begi
+\
+
 \draw[latex-latex,ultra thick] (PC) -- (prog);
 \draw[latex-latex,ultra thick] (prog) -- (ALU);
-\draw[-latex] (prog.north) .. controls(4, -1) .. (n.south);
+\draw[-latex] (prog.north) .. controls(4, -1) and(1, -1.2) .. (n.south);
 
 \end{tikzpicture}
 \end{document}
