@@ -49,4 +49,6 @@ NO:     WRITE= 0
 		HALT
 ```
 
-Nel peggiore dei casi questo ciclo viene eseguito $\log_{2}(n)$ volte, in quanto ogni volta la dimensione dell'array viene dimezzata
+Nel peggiore dei casi questo ciclo viene eseguito $\log_{2}(n)$ volte, in quanto ogni volta la dimensione dell'array viene dimezzata.
+
+Questo algoritmo è il migliore algoritmo di ricerca esistente, ma funziona ovviamente solo nel caso in cui l'array si
