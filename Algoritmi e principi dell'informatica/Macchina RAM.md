@@ -136,4 +136,10 @@ $$ k_{1} = \sum_{i = 1}^6 c_{i} $$
 Lo stesso vale per le istruzioni da 19 a 22 che hanno costo costante, vengono eseguite una sola volta ed il loro costo totale vale:
 $$ k_{3}=\sum_{i = 19}^{22} c_{i} $$
 È più complesso il caso delle istruzioni dalla 7 alla 18 che hanno costo totale
-$$ \sum_{i = 7}^18 $$
+$$ k_{2}=\sum_{i = 7}^{18} c_{i} $$
+ma vengono eseguite al più $n$ volte, quindi:
+
+$$ \begin{align}
+T_{R}(n) = k_{1} + k_{2}n + k_{3} = \Theta(n) \\
+S_{R}(n) = 2 = \Theta(1)
+\end{align} $$
