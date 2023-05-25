@@ -14,7 +14,7 @@ Dalla connessione in serie deriviamo il [[partitore di tensione]]
 
 ## Connessione in serie di impedenze
 >[!example]
->Dati un condensatore, induttore e resistoer connessi in serie
+>Dati un [[condensatore]], induttore e resistoer connessi in serie
 >![[Pasted image 20220607120455.png]]
 è banale che $\overline{v} = \overline{v}_R + \overline{v}_C +\overline{v}_L$
 $$\overline{v} = R\overline{i} + \frac{1}{j\omega C}\overline{i} + j\omega L \overline{i}$$
