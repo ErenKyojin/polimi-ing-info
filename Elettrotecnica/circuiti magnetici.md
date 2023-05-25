@@ -12,9 +12,9 @@ alias: circuito magnetico
 >[!esempio]
 >![[Pasted image 20220830112758.png]]
 >Consideriamo questo nucleo toroidale con due avvolgimenti di spire $N_1,N_2$. 
->Indichiamo la lunghezza media e l'area del nucleo con $L = 2\pi r$ ed $S$ rispettivamente.
+>Indichiamo la lunghezza [[Valore atteso|media]] e l'area del nucleo con $L = 2\pi r$ ed $S$ rispettivamente.
 >Indichiamo con $\Psi_{1}$ e $\Psi_{2}$ le direzioni dei flussi originati dagli avvolgimenti 1 e 2 quando l'altro è disattivato.
->Per direzione del flusso si intende direzione e verso del versore normale alla superficie attraverso la quale il flusso stesso viene calcolato; solitamente si assegna a $\Psi_1,\Psi_2$ le direzioni di $\bar{B}_{1}= \mu_{r}\mu_{0}\bar{H}_1$ e $\bar{B}_{2}= \mu_{r}\mu_0\bar{H}_2$ indotti dalla corrente $i_1$ ed $i_2$. Si assumono i normali versori $\hat{u}_{N_{1}}$ ed $\hat{u}_{N_1}$ orientati come $\bar{B}_1$ e $\bar{B}_2$.
+>Per [[direzione]] del flusso si intende direzione e verso del [[versore]] normale alla superficie attraverso la quale il flusso stesso viene calcolato; solitamente si assegna a $\Psi_1,\Psi_2$ le direzioni di $\bar{B}_{1}= \mu_{r}\mu_{0}\bar{H}_1$ e $\bar{B}_{2}= \mu_{r}\mu_0\bar{H}_2$ indotti dalla [[corrente]] $i_1$ ed $i_2$. Si assumono i normali versori $\hat{u}_{N_{1}}$ ed $\hat{u}_{N_1}$ orientati come $\bar{B}_1$ e $\bar{B}_2$.
 >Indichiamo invece con $\Uppsi$ il flusso presente nel nucleo e dovuto al campo complessivo $\bar{B}$ presente in esso. Per la scelta della direzione del flusso $\psi$, cioè della superficie $S$ non è data alcuna regola.
 >Poichè $\bar{B}$ è costante nel nucleo e diretto secondo la direzione della circonferenza, ed $S$ sezione del nucleo è costante, otteniamo che $\Psi$ è costante e pari a
 >$$\Psi = BS = \mu_r\mu_0HS$$
@@ -37,8 +37,8 @@ Circuito elettrico | circuito magnetico
 ---|---
 $R$ resistenza|$\mathcal{R}$ riluttanza
 $i$ corrente | $\Psi$ flusso
-$e$ forza elettromotrice | $Ni$ forza **magnetomotrice**
-$v$ tensione elettrica| $v_{H}= \mathcal{R}\Psi$ "tensione magnetica"
+$e$ [[forza]] elettromotrice | $Ni$ forza **magnetomotrice**
+$v$ [[tensione]] elettrica| $v_{H}= \mathcal{R}\Psi$ "tensione magnetica"
 
 Si noti inoltre che vale la seguente convenzione
 ![[Pasted image 20220830123747.png]]
@@ -66,7 +66,7 @@ Quindi tutto il flusso concatenato con l'avvolgimento 1 è contatenato con l'avv
 >[!def]
 >Con circuito magnetico intendiamo una connessione o rete composta da lati formati da:
 >1. Elementi magneticamente passivi, copmosti da tratti di lunghezza $L_i$, sezione $S_i$ e permeabilià relativa $\mu_r,i$ Questi hanno un circuito equivalente elettrico formato da una riluttanza $R_{i}= \frac{L_i}{\mu_{r,i}\mu_{0,}S_i}$
->2. Elementi magneticamente attivi, formati da tratti di lunghezza $L_k$, sezione $S_k$ e permeabilità relativa $\mu_{r,k}$ su cui è presente un avvolgimento di $N_k$ spire percorse dalla corrente $i_k$. Il circuito equivalente elettrico è composto da una riluttanza $\mathcal{R_{k}}= \frac{L_k}{\mu_{r,k}\mu_0,S_k}$ in serie ad un generatore di forza magnetomotrice $e_{k}= \pm N_{k}i_k$ 
+>2. Elementi magneticamente attivi, formati da tratti di lunghezza $L_k$, sezione $S_k$ e permeabilità relativa $\mu_{r,k}$ su cui è presente un avvolgimento di $N_k$ spire percorse dalla corrente $i_k$. Il circuito equivalente elettrico è composto da una riluttanza $\mathcal{R_{k}}= \frac{L_k}{\mu_{r,k}\mu_0,S_k}$ in [[Elettrotecnica/Serie|serie]] ad un generatore di forza magnetomotrice $e_{k}= \pm N_{k}i_k$ 
 
 >[!modelli circuitali]-
 >Ricaviamo i seguenti modelli circuitali
