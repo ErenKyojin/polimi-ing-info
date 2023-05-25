@@ -12,4 +12,6 @@ Per descrivere come la [[carica]] si distribuisce all'interno di un corpo e sull
 >$$ Q \approx \sum_{k} \rho_{S_{k}}dS_{k} $$
 >Se consideriamo il caso limite in cui le singole areole $dS_{K}$ si considerano infinitesime possiamo scrivere
 >$$ Q = \iint \!\rho_{S}(x,y) \,\mathrm{d}x\mathrm{d}y = \int _{S} \!\rho_{S} \, \mathrm{d}s $$
->Analogamente, se considerassimo un volume $V$, la carica $Q$ in esso cont
+
+>[!def] densità volumetrica
+>Analogamente, se considerassimo un volume $V$, la carica $Q$ in esso contenuta si otterrebbe, a partire dalla **densità volumetrica di carica** $\rho_{V}$
