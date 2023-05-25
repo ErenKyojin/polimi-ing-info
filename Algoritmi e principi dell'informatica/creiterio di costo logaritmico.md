@@ -68,5 +68,7 @@ Analogamente:
 - Per la [[ricerca binaria]] troviamo $\Theta(\log^2(n))$
 
 Abbiamo due casi diversi:
-- Il [[Costo di un calcolo|costo]] a criterio di costo logaritmico è il costo a criterio di costo costante moltiplicato per $\log(n)$
-- Il costo a criterio di costo logaritmico è il costo a criterio di costo costante per il logaritm
+- Il [[Costo di un calcolo|costo]] a criterio di costo logaritmico è il costo a criterio di costo costante moltiplicato per $\log(n)$ (numeri primi, $wcw^R$)
+- Il costo a criterio di costo logaritmico è il costo a criterio di costo costante per il logaritmo del costo a criterio di costo costante (ricerca binaria)
+
+E spesso si rientra in questi casi, ma non sempre, per $2^{2^n}$
