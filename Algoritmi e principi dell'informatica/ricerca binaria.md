@@ -16,13 +16,13 @@ L'algoritmo restituisce 1 se l'elemento cercato esiste nella sequenza, 0 altrime
 
 
 ```
-		READ   3    
-		LOAD   1
-		STORE  4
+		READ   3    #leggiamo l'elemento da cercare, memorizziamolo in M[3]
+		LOAD   1    
+		STORE  4    #M4 inizializzato con l'indirizzo del primo numero
 		ADD    2
 		SUB=   1
-		STORE  5
-LOOP:   LOAD   5
+		STORE  5    #M5 è inizializzato con l'indirizzo dell'ultimo numero
+LOOP:   LOAD   5    #Se M[]
 		SUB    4
 		JLZ    NO
 		LOAD   5
