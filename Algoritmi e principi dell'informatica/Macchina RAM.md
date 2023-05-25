@@ -34,7 +34,7 @@ at (-2,-3) (PC) {program \\ counter};
 
 \draw[latex-latex,ultra thick] (PC) -- (prog);
 \draw[latex-latex,ultra thick] (prog) -- (ALU);
-\draw[-latex] (prog) .. controls(4.2, 1) .. (n);
+\draw[-latex] (prog.north) .. controls(4, -1) .. (n.south);
 
 \end{tikzpicture}
 \end{document}
