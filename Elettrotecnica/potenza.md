@@ -18,7 +18,7 @@ Quindi il lavoro compiuto in un'ora da una forza della potenza di 1 $\text{kW}$
 >$$ W_{m} = \frac{\mathcal{L}}{\Delta t} $$
 
 # Potenza da componenti
- - Potenza istantanea assorbita da un bipolo $P_a = vi$,
+ - Potenza istantanea assorbita da un [[bipolo]] $P_a = vi$,
  - Potenza istantanea erogata da un bipolo $P_e = -P_a = -vi$
  - Potenza assorbita da un n-terminali $$P_a(t) = \sum_{k=1}^nv_k(t)i_k(t)$$
 

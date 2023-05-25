@@ -1,5 +1,5 @@
 # resistore
-Bipolo la cui equazione costitutiva è in regime staionario
+[[Bipolo]] la cui equazione costitutiva è in regime staionario
 $$v = Ri$$
 
 ### nel dominio dei [[fasori]]
