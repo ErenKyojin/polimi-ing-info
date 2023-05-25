@@ -13,4 +13,4 @@ Il principio di conservazione della carica è considerato valido dalla fisica cl
 
 Per descrivere come la carica elettrica si distribuisce in un corpo e sulla sua superficie introduciamo la [[densità di carica]].
 
-Data la definizione di 
+Data la definizione di [[Elettrotecnica/campo|campo]] 
