@@ -33,7 +33,7 @@ e la corrente descrittiva I permette di ricavare $w_a^M(t) =\frac{1}{2}LI^2$ ene
 ## nel dominio dei [[fasori]]
 Nel dominio dei fasori diventa $$\overline{v} = j\omega L\overline{i}$$
 da cui $|\overline{v}|e^{j\varphi_{\overline{v}}} = \omega Le^{j\pi/_2}|\overline{i}|e^{j\varphi_{\overline{i}}} =\omega L|\overline{i}|e^{j(\varphi_{\overline{i}}+\pi/_2)}$ e quindi il modulo del fasore $\overline{v}$ è in anticipo di $\frac{\pi}{2}$ rispetto al fasore $\overline{i}$ della corrente.
-Inoltre notiamo come quando $\omega \to 0$  l'induttore si comporta come un cortocircuito ($|\overline{v}| \to 0$) e quando $\omega \to \infty$ l'induttore si comporta come un circuito aperto ($\overline{|i|}=\frac{\overline{v}}{\omega} \to 0$)
+Inoltre notiamo come quando $\omega \to 0$  l'induttore si comporta come un cortocircuito ($|\overline{v}| \to 0$) e quando $\omega \to \infty$ l'induttore si comporta come un [[circuito aperto]] ($\overline{|i|}=\frac{\overline{v}}{\omega} \to 0$)
 
 ### Potenza in [[regime sinusoidale]]
 Per l'induttore abbiamo che $\bar v = Z(j\omega)\bar\imath = j\omega L \bar\imath$ e $\varphi_Z = \frac{\pi}{2}$, da cui ricaviamo che

@@ -82,4 +82,4 @@ Quindi un circuito magnetico soddisfa tutte le leggi logiche e topologiche di un
 
 ## [[flusso]]
 
-Un induttore realizzato con un nucleo ferromagnetico non è lineare, per questo si usa il [[traferro]]
+Un [[induttore]] realizzato con un nucleo ferromagnetico non è lineare, per questo si usa il [[traferro]]

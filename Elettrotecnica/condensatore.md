@@ -16,7 +16,7 @@ I condensatori più utili a noi sono i ==condensatori piani==.
 È come l'induttore un componente #conservativo, cioè che immagazzina energia per poi liberarla
 
 ### condensatori in regime stazionario
-Un condensatore piano collegato ad un [[generatore indipendente]] di tensione $V costante$, le cariche mosse dal generatore si accumulano sulle facce opposte, tra le quali si forma un campo elettrico, le cariche si continuano ad accumulare fino a quando la differenza di potenziale tra le due facce non è uguale a quella del [[generatore indipendente]], ossia quando $v_{AB} = V$. in questo momento arriviamo ad un regime stazionare dove la carica Q e il campo $\overline{E}$ non variano ed il condensatore si comporta da circuito aperto.
+Un condensatore piano collegato ad un [[generatore indipendente]] di tensione $V costante$, le cariche mosse dal generatore si accumulano sulle facce opposte, tra le quali si forma un campo elettrico, le cariche si continuano ad accumulare fino a quando la differenza di potenziale tra le due facce non è uguale a quella del [[generatore indipendente]], ossia quando $v_{AB} = V$. in questo momento arriviamo ad un regime stazionare dove la carica Q e il campo $\overline{E}$ non variano ed il condensatore si comporta da [[circuito aperto]].
 
 ### condensatori in regimi tempo variante
 Il condensatore è collegato ad un generatore di tensione tempo variante $V(t)$ e subisce una variazione $\Delta\\V$ in un intervallo di tempo $\Delta\\t$ abbiamo quindi una corrente media $$I = \frac{\Delta\\Q}{\Delta\\t} = C\frac{\Delta\\V}{\Delta\\t}$$
