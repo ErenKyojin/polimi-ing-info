@@ -31,4 +31,8 @@ Otteniamo attraverso un analisi di questo genere la seguente tabella:
 | `WRITE=`   |     x     | $l(x)$                                           |
 | `WRITE`    |     x     | $l(x) + l(M[x])$                                 |
 | `WRITE*`   |     x     | $l(x) + l(M[x]) + l(M[M[x]])$                    |
-| `JUMP`     |   label   |                                                  |
+| `JUMP`     |   label   | 1                                                |
+| `JGZ`      |   label   | $l(M[0])$                                        |
+| `JZ`       |   label   | $l(M[0])$                                        |
+| `HALT`       |           | 1                                                | 
+
