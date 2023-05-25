@@ -101,7 +101,12 @@ Ogni cella contiene un intero, non un carattere
 
 Un programma RAM che calcola la funzione `is_prime(n) = if n is prime then 1 else 0`:
 
-```ram
-
-
+```
+		READ 1
+		LOAD = 1
+		SUB 1
+		JZ NO
+		LOAD= 2
+		STORE 2
+LOOP: 
 ```
