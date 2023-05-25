@@ -176,6 +176,9 @@ Abbiamo che
 - $T_{M}(n) : \Theta(n^2 \log(n))$
 È un trade-off spazio-temporale
 
+## Modello di calcolo
+Fino ad ora abbiamo assunto 
+
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
