@@ -196,7 +196,8 @@ Lo stesso problema risolto con macchine diverse può avere complessità diverse:
 - Riconoscimento di $wcw^R$ -> accesso e memorizzazione sequenziale
 
 Non esiste un modello migliore in assoluto
-Non es
+Non esiste un analogo della tesi di Church per la complessità
+Però è possibile stabilire almeno una relazione a propri tra le complessità di diversi modelli di calcolo
 
 
 ## Complessità e non [[determinismo]]
