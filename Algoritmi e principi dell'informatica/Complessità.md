@@ -184,6 +184,10 @@ Proviamo a cambiare il modello di calcolo, mantenendolo comunque deterministico,
 Per una MT a nastro singolo?
 il riconoscimento di $\{ wcw^R \}$ richiede $\Theta(n^2)$, e ovviamente essendo il nastro singolo la complessità spaziale non può essere inferiore a $\Theta(n)$ (motivo principale della scelta a $k$ nastri come principale). Possiamo fare meglio di $\Theta(n^2)$? È possibile, tramite una complessa dimostrazione, dimostrare che no, non è possibile migliorare la complessità per questo problema.
 Quindi le MT a nastro singolo sono più potenti dei PDA ma non necessariamente più efficienti
+
+---
+[[Teoremi di accelerazione lineare]]
+
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
