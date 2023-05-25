@@ -8,4 +8,10 @@ Si basa su un analisi microscopica delle operazioni hardware:
 - Quando costa copiare il numeri $i$ da una cella all'altra? 
 	- Tante operazioni quanti sono i bit che codificano $i$, quindi $\log(i)$
 - Quanto costa accedere alla cella di posizione $i$-esima?
-	- L'apertura di $\log(i)$
+	- L'apertura di $\log(i)$ cancelli di accesso ad altrettanti banchi di memoria
+- Quanto costa `LOAD i`
+	- ...
+
+Otteniamo attraverso un analisi di questo genere la seguente tabella:
+
+
