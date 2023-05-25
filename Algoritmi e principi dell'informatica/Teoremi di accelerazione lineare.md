@@ -70,5 +70,7 @@ Lo schema di dimostrazione è analogo a quello usato per la complessità spazial
 >Il caso pessimo è da $a_{r}$ arrivo a $b_{r}$ con $r$ mosse, con una mossa in più sono riuscito a toccare 3 celle, ossia a fare 3 mosse della $M'$
 
 
-
+## Conseguenze partiche
+Lo schema di dimostrazione è valido per qualsiasi tipo di modello di calcolo, quindi anche per calcolatori reali.
+Pure di aumentare la potenza di calcolo in termini di risorse disponibili si può aumetnare a piacer
 
