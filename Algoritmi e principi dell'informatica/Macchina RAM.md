@@ -24,6 +24,10 @@ modification date: 2023-05-02 10:43
  \node[on chain = 1]{...};
 \end{scope}
 
+%Macchina
+\begin{scope}
+ \node[]
+\end{scope}
 
 \end{tikzpicture}
 \end{document}
