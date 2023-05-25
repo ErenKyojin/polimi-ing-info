@@ -33,9 +33,21 @@ at (-2,-3) (PC) {program \\ counter};
 \end{scope}
 
 %Accumulatore
-\begin{scope}[start chain = 2 going down, node distance = -0.15mm,every node/.style = {accum}, shift ={(11,0)}]
+\begin{scope}[start chain = 2 going below, node distance = -0.15mm,every node/.style = {accum}, shift ={(11,0)}]
 
 \node[on chain = 2] (0) {};
+\node[on chain = 2] (1) {};
+\node[on chain = 2] (2) {};
+\node[on chain = 2] (3) {};
+\node[on chain = 2] {};
+\node[on chain = 2] {};
+\node[on chain = 2] {};
+\node[on chain = 2] {};
+\node[on chain = 2] {};
+\node[on chain = 2] {};
+\node[on chain = 2]
+
+
 
 \end{scope}
 
