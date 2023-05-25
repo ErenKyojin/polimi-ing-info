@@ -140,6 +140,6 @@ $$ k_{2}=\sum_{i = 7}^{18} c_{i} $$
 ma vengono eseguite al più $n$ volte, quindi:
 
 $$ \begin{align}
-T_{R}(n) = k_{1} + k_{2}n + k_{3} = \Theta(n) \\
-S_{R}(n) = 2 = \Theta(1)
+&T_{R}(n) = k_{1} + k_{2}n + k_{3} = \Theta(n) \\
+&S_{R}(n) = 2 = \Theta(1)\qquad \text{vengono utilizzate solo due celle}
 \end{align} $$
