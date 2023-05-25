@@ -191,7 +191,12 @@ Invece per quanto riguarda un calcolatore reale?
 Il confronto con la macchina di Turing sembra impari, ad esempio per la somma di due numeri una MT impiega $\Theta(n)$ mentre per un calcolatore è una operazione elementare eseguita in un ciclo di macchina. Dobbiamo quindi aumentare la potenza delle macchine di Turing introducendo un nuovo modello, la [[Macchina RAM]]
 
 ### Relazione tra le complessità relative ai diversi modelli di calcolo
-Lo stesso problema risolto con macchine diverse può avere complessità diverse: per $$
+Lo stesso problema risolto con macchine diverse può avere complessità diverse: per $P_{1}$ il modello $M_{1}$ si meglio del modello $M_{2}$ ma per $P_{2}$ succeda il contrario:
+- Ricerca binaria -> accesso diretto
+- Riconoscimento di $wcw^R$ -> accesso e memorizzazione sequenziale
+
+Non esiste un modello migliore in assoluto
+Non es
 
 
 ## Complessità e non [[determinismo]]
