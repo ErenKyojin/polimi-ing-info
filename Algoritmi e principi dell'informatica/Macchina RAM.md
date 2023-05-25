@@ -40,7 +40,7 @@ at (-2,-3) (PC) {program \\ counter};
 \node[on chain = 2] (2) {};
 \node[on chain = 2] (3) {};
 \node[on chain = 2] {};
-\node[on chain = 2] {};
+\node[on chain = 2] (5){};
 \node[on chain = 2] {};
 \node[on chain = 2] {};
 \node[on chain = 2] {};
@@ -57,6 +57,7 @@ at (-2,-3) (PC) {program \\ counter};
 \draw[latex-latex,ultra thick] (PC) -- (prog);
 \draw[latex-latex,ultra thick] (prog) -- (ALU);
 \draw[-latex] (prog.north) .. controls(4, -1) and(1, -1.2) .. (n.south);
+\draw[latex-latex,ultra thick] (ALU) -- (5);
 
 \end{tikzpicture}
 \end{document}
