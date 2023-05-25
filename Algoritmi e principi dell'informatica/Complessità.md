@@ -141,7 +141,8 @@ Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più im
 > \node[on chain = 2, tmtape] at (6,-1.5) {$Z_0$};
 > \node[on chain = 2, tmtape] {1};
 > \node[on chain = 2, tmtape] (B) {1};
-> \node[on chain = 2, tmtape] {B};
+> \node[on chain = 2, tmtape] {};
+> \node[on chain = 2, tmtape] {...};
 > \end{scope}
 > 
 > \node[draw, minimum size = 1.5cm] (TM) at (0,-2){TM};
@@ -151,7 +152,7 @@ Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più im
 > \end{tikzpicture}
 > \end{document}
 > ```
->Al posto che inserire tutti i caratteri in memoria, memorizziamo la posizione del carattere che stiamo controllando, chiamandola $i$, e confrontiamo l'$i$-esimo e $n-i+1$-esimo carattere
+>Al posto che inserire tutti i caratteri in memoria, memorizziamo la posizione del carattere che stiamo controllando, chiamandola $i$, e confrontiamo l'$i$-esimo e $n-i+1$-esimo carattere (11) è la posizione in binario del carattere
 >
 
 ## Complessità e non [[determinismo]]
