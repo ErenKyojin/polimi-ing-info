@@ -177,8 +177,8 @@ Abbiamo che
 È un trade-off spazio-temporale
 
 ## Modello di calcolo
-Fino ad ora abbiamo assunto 
-
+Proviamo a cambiare il modello di calcolo, mantenendolo comunque deterministico, e notiamo come:
+- FSA hanno sempre $S_{A}(n) \Theta(k)$ costante e $T_{A}()$
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
