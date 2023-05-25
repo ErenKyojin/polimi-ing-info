@@ -182,7 +182,7 @@ Proviamo a cambiare il modello di calcolo, mantenendolo comunque deterministico,
 - PDA hanno sempre $S_{A}(n) \leq \Theta(n)$ e $T_{A}(n)\Theta(n)$
 
 Per una MT a nastro singolo?
-il riconoscimento di $\{ wcw^R \}$ richiede $\Theta(n^2)$, e ovviamente essendo il nastro singolo la complessità spaziale non può essere inferiore a $\Theta(n)$ (motivo principale della scelta a $k$ nastri come princi)
+il riconoscimento di $\{ wcw^R \}$ richiede $\Theta(n^2)$, e ovviamente essendo il nastro singolo la complessità spaziale non può essere inferiore a $\Theta(n)$ (motivo principale della scelta a $k$ nastri come principale). Possiamo fare meglio di $\Theta(n^2)$? È possibile, tramite una complessa dimostrazione, dimostrare che è questo il caso
 ## Complessità e non [[determinismo]]
 Data una [[Funzioni|funzione]] $T(n)$ indichiamo come `DTIME(T)` l'[[insieme]] dei [[problema|problemi]] tali che esiste un [[algoritmo]] che risolve in tempo $T(n)$
 
