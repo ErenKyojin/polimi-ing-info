@@ -54,7 +54,11 @@ at (-2,-3) (PC) {program \\ counter};
 \end{scope}
 
 %Scrittura
-\begin{scope}[start chain = 3 going right, node distance = -0.15, every node/.style = {tmtape}]
+\begin{scope}[start chain = 3 going right, node distance = -0.15, every node/.style = {tmtape}, shift = {(0,-6)}]
+ \node[on chain = 3] {};
+ \node[on chain = 3] {x};
+ \node[on chain = 3] (x{};
+ \
 
 \end{scope}
 
@@ -67,6 +71,4 @@ at (-2,-3) (PC) {program \\ counter};
 \end{tikzpicture}
 \end{document}
 ```
-
-
 
