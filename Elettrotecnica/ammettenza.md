@@ -1,5 +1,5 @@
 # Ammettenza
-Dalle equazioni descrittive nel dominio dei fasori di [[resistore]], [[condensatore]] ed [[induttore]] le cui dimensioni sono per tutti $\Omega$, possiamo associare ai tre bipoli il rapporto tra il fasore della corrente descrittiva e quello della tensione descrittiva  che si definisce l'ammettenza (duale di [[Impedenza]]) $Y(j\omega) = \frac{1}{Z(j\omega)}$ misurata in $\Omega^{-1}$.
+Dalle equazioni descrittive nel dominio dei fasori di [[resistore]], [[condensatore]] ed [[induttore]] le cui dimensioni sono per tutti $\Omega$, possiamo associare ai tre bipoli il rapporto tra il fasore della [[corrente]] descrittiva e quello della tensione descrittiva  che si definisce l'ammettenza (duale di [[Impedenza]]) $Y(j\omega) = \frac{1}{Z(j\omega)}$ misurata in $\Omega^{-1}$.
 $$
 \displaylines{
 Y_R(j\omega) = \frac{1}{R} \in \mathbb{R} \\

@@ -66,7 +66,7 @@ Quindi tutto il flusso concatenato con l'avvolgimento 1 è contatenato con l'avv
 >[!def]
 >Con circuito magnetico intendiamo una connessione o rete composta da lati formati da:
 >1. Elementi magneticamente passivi, copmosti da tratti di lunghezza $L_i$, sezione $S_i$ e permeabilià relativa $\mu_r,i$ Questi hanno un circuito equivalente elettrico formato da una riluttanza $R_{i}= \frac{L_i}{\mu_{r,i}\mu_{0,}S_i}$
->2. Elementi magneticamente attivi, formati da tratti di lunghezza $L_k$, sezione $S_k$ e permeabilità relativa $\mu_{r,k}$ su cui è presente un avvolgimento di $N_k$ spire percorse dalla corrente $i_k$. Il circuito equivalente elettrico è composto da una riluttanza $\mathcal{R_{k}}= \frac{L_k}{\mu_{r,k}\mu_0,S_k}$ in [[Elettrotecnica/Serie|serie]] ad un generatore di forza magnetomotrice $e_{k}= \pm N_{k}i_k$ 
+>2. Elementi magneticamente attivi, formati da tratti di lunghezza $L_k$, sezione $S_k$ e permeabilità relativa $\mu_{r,k}$ su cui è presente un avvolgimento di $N_k$ spire percorse dalla [[corrente]] $i_k$. Il circuito equivalente elettrico è composto da una riluttanza $\mathcal{R_{k}}= \frac{L_k}{\mu_{r,k}\mu_0,S_k}$ in [[Elettrotecnica/Serie|serie]] ad un generatore di forza magnetomotrice $e_{k}= \pm N_{k}i_k$ 
 
 >[!modelli circuitali]-
 >Ricaviamo i seguenti modelli circuitali

@@ -37,7 +37,7 @@ $a \neq 0, f$ definito forzante.
 >\end{document}
 >```
 >
->Circuito RLC in serie, vogliamo determinare la [[carica]] $q(t)$ e la corrente $i(t) = q'(t)$.
+>Circuito RLC in serie, vogliamo determinare la [[carica]] $q(t)$ e la [[corrente]] $i(t) = q'(t)$.
 >$$ \begin{align}
 >&Li'(t) + Ri(t) + \frac{q(t)}{C} = E(t) \\
 >&Lq''(t)+Rq'(t)+\frac{1}{C}q(t)=E(t) \\
