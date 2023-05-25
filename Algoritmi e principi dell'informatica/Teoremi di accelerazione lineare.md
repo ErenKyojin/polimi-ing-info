@@ -53,4 +53,4 @@ Si può verificare il problema della memorizzazione della posizione della testa 
 
 Prendiamo un $r$ tale che sia $rc > 2$
 
-Se $L$ è accettato da una MT $M$ a $k$ nastri con complessità $S_{M}(n)$ si può costruire una MT $M'$ a 1 nastro (N.B. non a nastro singolo) con complessità $S_{M'}(n) = S_{M}(N)$ met
+Se $L$ è accettato da una MT $M$ a $k$ nastri con complessità $S_{M}(n)$ si può costruire una MT $M'$ a 1 nastro (N.B. non a nastro singolo) con complessità $S_{M'}(n) = S_{M}(N)$ mettendo le parti significative dei $k$ nastri nell'unico nastro una dietro l'altro.
