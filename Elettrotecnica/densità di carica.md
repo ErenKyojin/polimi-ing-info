@@ -14,4 +14,6 @@ Per descrivere come la [[carica]] si distribuisce all'interno di un corpo e sull
 >$$ Q = \iint \!\rho_{S}(x,y) \,\mathrm{d}x\mathrm{d}y = \int _{S} \!\rho_{S} \, \mathrm{d}s $$
 
 >[!def] densità volumetrica
->Analogamente, se considerassimo un volume $V$, la carica $Q$ in esso contenuta si otterrebbe, a partire dalla **densità volumetrica di carica** $\rho_{V}$
+>Analogamente, se considerassimo un volume $V$, la carica $Q$ in esso contenuta si otterrebbe, a partire dalla **densità volumetrica di carica** $\rho_{V}(x,y,z)$ come
+>$$ Q = \iiint \!\rho_{V}(x,y,z) \,\mathrm{d}x\mathrm{d}y\mathrm{d}z = \int _{V} \!\rho_{V} \, \mathrm{d}V  $$
+>La densità di carica, tanto superficiale quanto volumetrica, è una grandezza dotata di segno. Qualora sia negativa sta a rappresen
