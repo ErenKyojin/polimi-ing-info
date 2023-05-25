@@ -32,6 +32,8 @@ at (-2,-3) (PC) {program \\ counter};
  \node[minimum width = 2cm,minimum height = 1cm,draw,ultra thick, align = center] at (8,-3) (ALU) {Unità \\ aritmetica};
 \end{scope}
 
+\draw[latex-latex,ultra thick] (PC) -- (prog);
+\draw[latex-latex,ultra thick]
 \end{tikzpicture}
 \end{document}
 ```
