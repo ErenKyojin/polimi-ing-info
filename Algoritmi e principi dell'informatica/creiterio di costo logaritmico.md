@@ -28,5 +28,7 @@ Otteniamo attraverso un analisi di questo genere la seguente tabella:
 | ...        |           |                                                  |
 | `READ`     |     x     | $l($valore corrente di input$) + l(x)$           |
 | `READ*`    |     x     | $l($valore corrente di input$) + l(x) + l(M[x])$ |
-| `WRITE=`   |     x     | $l(x) + l(M[x])$                                 |
-| `WRITE`    |     x     | $$                                                 |
+| `WRITE=`   |     x     | $l(x)$                                           |
+| `WRITE`    |     x     | $l(x) + l(M[x])$                                 |
+| `WRITE*`   |     x     | $l(x) + l(M[x]) + l(M[M[x]])$                    |
+| `JUMP`     |   label   |                                                  |
