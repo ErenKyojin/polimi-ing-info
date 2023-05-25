@@ -144,7 +144,7 @@ $$ \begin{align}
 &S_{R}(n) = 2 = \Theta(1)\qquad \text{vengono utilizzate solo due celle}
 \end{align} $$
 
-Vediamo adesso un algoritmo estremamente importante, la [[ricerca binaria]].
+Vediamo adesso un [[algoritmo]] estremamente importante, la [[ricerca binaria]].
 
 ## Problemi della macchina RAM
 Proviamo a calcolare $2^{2^n}$ usando una RAM:
@@ -157,7 +157,9 @@ for(i = 1; i <= n; i++)
 write(x)
 ```
 
-Che complessità temporale? $\Theta(n)$! Ma è davvero così lineare risolvere un problema così complesso?
+Che [[complessità temporale]]? $\Theta(n)$! Ma è davvero così lineare risolvere un problema così complesso?
 Sembra assurdo, anche perché anche solo per scrivere il risultato è necessario usare almeno $2^n$ bit.
 
 Il problema risiede nella definizione della RAM, che è un po troppo astratta rispetto ad una macchina reale dove le operazioni elementari hanno limiti fisici che occorrono processi più complessi (esempio banale sono il numero di bit con cui lavora il calcolatore) per essere superati.
+
+Possiamo quindi studiare gli algoritmi e le analisi di complessità in funzione del livello di precisione usato,
