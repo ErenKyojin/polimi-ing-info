@@ -66,4 +66,6 @@ Lo schema di dimostrazione è analogo a quello usato per la complessità spazial
 - Nel caso pessimo occorrono 3 mosse per simulare almeno $r + 1$ mosse di M
 
 >[!esempio]
-><a1,...,$a_r$>
+>$\left< a_{1},\dots,a_{r} \right>\left< b_{1},\dots,b_{r} \right> \left< c_{1},\dots,c_{r} \right>$
+>Il caso pessimo è da $a_{r}$ arrivo a $b_{r}$ con $r$ mosse, con una mossa in più 
+
