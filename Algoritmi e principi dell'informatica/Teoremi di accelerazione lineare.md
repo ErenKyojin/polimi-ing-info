@@ -59,4 +59,7 @@ Se $L$ è accettato da una MT $M$ a $k$ nastri con complessità $S_{M}(n)$ per o
 
 Se $L$ è accettato da una MT $M$ a $k$ nastri con complessità $T_{M}(n)$ per ogni $c > 0$ (e $c \in \mathbb{R}$) si può costruire una MT $M'$ a $k+1$ nastri con complessità:
 $$ T_{M}(n) = \max\{ n+1, c T_{M}(n) \} $$
-La
+
+Lo schema di dimostrazione è analogo a quello usato per la complessità spaziale ma con qualche dettaglio tecnico in più:
+- occorre per prima cosa leggere e tradurre tutto l'input (n mosse)
+- 
