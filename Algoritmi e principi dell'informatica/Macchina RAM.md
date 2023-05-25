@@ -8,7 +8,7 @@ modification date: 2023-05-02 10:43
 \usetikzlibrary{chains}
 \begin{document}
 \begin{tikzpicture}
-\tikzstyle{tmtape} = [minimum size = 0.5cm, draw]
+\tikzstyle{tmtape} = [minimum size = 0.7cm, draw]
 \tikzstyle{accum} = [minimum width = 1.5cm, minimum height = 0.7cm, draw]
 
 %Nastro di lettura
@@ -58,7 +58,7 @@ at (-2,-3) (PC) {program \\ counter};
 \draw[latex-latex,ultra thick] (prog) -- (ALU);
 \draw[-latex] (prog.north) .. controls(4, -1) and(1, -1.2) .. (n.south);
 \draw[latex-latex,ultra thick] (ALU)  -- ++ (2.25,0);
-\draw[latex-latex] (PC) .. controls (..
+\draw[latex-latex] (prog) .. controls (3,-.5) .. (2);
 
 \end{tikzpicture}
 \end{document}
