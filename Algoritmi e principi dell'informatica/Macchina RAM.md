@@ -147,4 +147,14 @@ $$ \begin{align}
 Vediamo adesso un algoritmo estremamente importante, la [[ricerca binaria]].
 
 ## Problemi della macchina RAM
-C
+Proviamo a calcolare $2^{2^n}$ usando una RAM:
+
+```
+read n;
+x = 2;
+for(i = 1; i <= n; i++)
+	x = x*x;
+write(x)
+```
+
+Che complessità temporale? $\Theta(n)$ come è possibile?
