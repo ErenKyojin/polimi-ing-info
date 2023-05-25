@@ -4,7 +4,7 @@ creation date: 2023-05-25 10:15
 modification date: 2023-05-25 10:15
 ---
 
-Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni $c > 0$  ( e $c \in \mathbb{R}$) si può costruire una MT $M'$ a $k$ nastri con complessità $S_{M}(n) < cS_{M}(N)$
+Se $L$ è accettato da una [[Macchine di Turing|MT]] M a k nastri con [[complessità]] $S_{M}(n)$ per ogni $c > 0$  ( e $c \in \mathbb{R}$) si può costruire una MT $M'$ a $k$ nastri con complessità $S_{M}(n) < cS_{M}(N)$
 
 ```tikz
 \usetikzlibrary{chains}
@@ -49,7 +49,7 @@ Se $L$ è accettato da una MT M a k nastri con complessità $S_{M}(n)$ per ogni 
 \end{tikzpicture}
 \end{document}
 ```
-Si può verificare il problema della memorizzazione della posizione della testa ma si può risolvere arricchendo l'alfabeto o memorizzando la posizione relativamente allo stato dell'organo di controllo.
+Si può verificare il [[problema]] della memorizzazione della posizione della testa ma si può risolvere arricchendo l'alfabeto o memorizzando la posizione relativamente allo [[stato]] dell'organo di controllo.
 
 Prendiamo un $r$ tale che sia $rc > 2$
 
@@ -60,7 +60,7 @@ Se $L$ è accettato da una MT $M$ a $k$ nastri con complessità $S_{M}(n)$ per o
 Se $L$ è accettato da una MT $M$ a $k$ nastri con complessità $T_{M}(n)$ per ogni $c > 0$ (e $c \in \mathbb{R}$) si può costruire una MT $M'$ a $k+1$ nastri con complessità:
 $$ T_{M}(n) = \max\{ n+1, c T_{M}(n) \} $$
 
-Lo schema di dimostrazione è analogo a quello usato per la complessità spaziale ma con qualche dettaglio tecnico in più:
+Lo schema di dimostrazione è analogo a quello usato per la [[complessità spaziale]] ma con qualche dettaglio tecnico in più:
 - occorre per prima cosa leggere e tradurre tutto l'input (n mosse)
 - Questo crea qualche problema all'interno della classe $n$, per cui prendiamo $\max$
 - Nel caso pessimo occorrono 3 mosse per simulare almeno $r + 1$ mosse di M
@@ -72,5 +72,6 @@ Lo schema di dimostrazione è analogo a quello usato per la complessità spazial
 
 ## Conseguenze partiche
 Lo schema di dimostrazione è valido per qualsiasi tipo di modello di calcolo, quindi anche per calcolatori reali.
-Pure di aumentare la potenza di calcolo in termini di risorse disponibili si può aumetnare a piacer
+Pure di aumentare la potenza di calcolo in termini di risorse disponibili si può aumentare a piacere la velocità di esecuzione.
+Tale aumento di prestazioni rimane confinato nell'ambito di miglioramenti al più lineari, miglioramenti 
 
