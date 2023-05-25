@@ -13,7 +13,7 @@ Questi 3 campi separano il valore del campo magnetico $\bar B$ complessivamente 
 La relazione che lega tutti questi campi è:
 $$\bar B =\mu_0(\bar H + \mathcal{\bar M}) \tag{1}$$
 Con $\mu_0$ è la permeabilità elettrica nel vuoto
-Essendo $\mathcal{\bar M}$ un campo dovuto alla presenza di un mezzo meteriale, nel vuoto quindi tale campo è nullo e $\bar B= \mu_0\bar H$
+Essendo $\mathcal{\bar M}$ un campo dovuto alla presenza di un mezzo materiale, nel vuoto quindi tale campo è nullo e $\bar B= \mu_0\bar H$
 
 
 >[!example] Esempio

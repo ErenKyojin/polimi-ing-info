@@ -1,5 +1,5 @@
 # Induttore
-Considerando una spira attraverso cui fluisce una corrente $I$ che produce un campo magnetico $\overline{B}$ proporzionale in ogni punto ad $I$, il flusso $\Phi_B$, chiamato <u>flusso auto-concatenato</u> è
+Considerando una spira attraverso cui fluisce una corrente $I$ che produce un [[campo magnetico]] $\overline{B}$ proporzionale in ogni punto ad $I$, il flusso $\Phi_B$, chiamato <u>flusso auto-concatenato</u> è
 $$\Phi_B = LI$$
 Con L [[autoinduttanza]] del circuito, \[L\] = $\frac{Wb}{A}$ o $H$ per henry.
 
