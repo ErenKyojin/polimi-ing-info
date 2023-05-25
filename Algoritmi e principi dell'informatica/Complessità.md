@@ -156,6 +156,8 @@ Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più im
 >Questo programma ha pseudocodice:
 >```
 >ciclo alla ricerca di c, ad ogni passo aumento il numero sul nastro A di 1
+>ciclo da n/2 a 0
+>
 >```
 >
 
