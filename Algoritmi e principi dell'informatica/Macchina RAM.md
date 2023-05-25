@@ -33,8 +33,9 @@ at (-2,-3) (PC) {program \\ counter};
 \end{scope}
 
 %Accumulatore
-\begi
-\
+\begin{scope}[start chain = 2 going right, node distance = -0.15mm,every]
+
+\end{scope}
 
 \draw[latex-latex,ultra thick] (PC) -- (prog);
 \draw[latex-latex,ultra thick] (prog) -- (ALU);
