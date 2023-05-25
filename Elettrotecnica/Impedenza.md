@@ -1,5 +1,5 @@
 # impedenza
-Delle equazioni di [[resistore]], [[condensatore]] ed [[induttore]] in regime sinusoidale è facile notare che si misurano tutte in $\Omega$, associamo quindi ad ognuno di questi bipoli una grandeza che rappresenta il rapporto tra il fasore della tensione descrittiva e il fasore della corrente descrittiva, col nome di impedenza (duale di [[ammettenza]])
+Delle equazioni di [[resistore]], [[condensatore]] ed [[induttore]] in regime sinusoidale è facile notare che si misurano tutte in $\Omega$, associamo quindi ad ognuno di questi bipoli una grandeza che rappresenta il rapporto tra il fasore della tensione descrittiva e il fasore della [[corrente]] descrittiva, col nome di impedenza (duale di [[ammettenza]])
 $$
 	\displaylines
 	{
