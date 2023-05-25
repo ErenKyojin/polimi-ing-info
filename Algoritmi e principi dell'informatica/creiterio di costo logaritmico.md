@@ -51,11 +51,11 @@ LOOP    LOAD  1      1 + l(n)
 		SUB   2      l(n) + 2 + l(M[2])
 		JZ    YES    l(M[0])
 		LOAD  1      1 + l(n)
-		DIV   2      l(n) + 
-		MULT  2
-		SUB   1
-		JZ    NO
-		LOAD  2
+		DIV   2      l(n) + 2 + l(M[2])
+		MULT  2      l(n/M[2]) + 2 + l(M[2])    < l(n)
+		SUB   1      l(M[0]) + 1 + l(n) < 2 l(n) + 1
+		JZ    NO     <= l(n)
+		LOAD  2      <= l(n) + k
 		ADD=  1
 		STORE 2
 		JUMP  LOOP
