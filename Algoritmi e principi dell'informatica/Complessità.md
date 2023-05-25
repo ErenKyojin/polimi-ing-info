@@ -162,7 +162,11 @@ Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più im
 >	- leggi il carattere e memorizzalo in un nastro C [cost]
 >	- Ritorna al carattere "c" [i]
 >	- Copia A in B [log i]
->	- decrementa B passo passo fino a 0, ad ogni passo
+>	- decrementa B passo passo fino a 0, ad ogni passo sposta verso destra la testina di ingresso [i log i]
+>	- Leggi il carattere e confrontalo con quello in C: se diversi HALT [cost]
+>	- decrementa A [log i]
+>	- ritorna al carattere "c"
+>	- salta a Loop
 >
 >```
 >
