@@ -15,11 +15,14 @@ Si basa su un analisi microscopica delle operazioni hardware:
 Otteniamo attraverso un analisi di questo genere la seguente tabella:
 
 
-| istruzione | parametro | costo                         |
-| ---------- |:---------:| ----------------------------- |
-| `LOAD=`    |     X     | $l(x)$                        |
-| `LOAD`     |     X     | $l(x) + l(M[x])$              |
-| `LOAD*`    |     X     | $l(x) + l(M[x]) + l(M[M[x]])$ |
-| `STORE`    |     X     | $l(x) + l(M[0])$              |
-| `STORE*`   |     x     | $l(x) + l(M[x]) + l(M[0])$    |
-| `ADD=`     |     x     | $l(M[0]) +$                              |
+| istruzione | parametro | costo                                 |
+| ---------- |:---------:| ------------------------------------- |
+| `LOAD=`    |     X     | $l(x)$                                |
+| `LOAD`     |     X     | $l(x) + l(M[x])$                      |
+| `LOAD*`    |     X     | $l(x) + l(M[x]) + l(M[M[x]])$         |
+| `STORE`    |     X     | $l(x) + l(M[0])$                      |
+| `STORE*`   |     x     | $l(x) + l(M[x]) + l(M[0])$            |
+| `ADD=`     |     x     | $l(M[0]) + l(x)$                      |
+| `ADD`      |     x     | $l(M[0]) + l(x) + l(M[x])$            |
+| `ADD*`     |     x     | $l(M[0])+l(x) + l(M[x]) + l(M[M[x]])$ |
+| ...        |     x     |                                       |
