@@ -8,7 +8,7 @@ Y_L(j\omega) = \frac{1}{j\omega L}
 }
 $$
 
-Il concetto di ammettenza si può estendere a tutti i bipoli costituiti da N terminali lineari tempo-invarianti definiti su base tensione o su base corrente, ammettono il regime sinusoidale. E in queste ipotesi l'ammettenza si definisce come il rapporto tra il fasore della tensione e quello della corrente ai morsetti del bipolo composito.
+Il concetto di ammettenza si può estendere a tutti i bipoli costituiti da N terminali lineari tempo-invarianti definiti su [[base tensione]] o su [[base corrente]], ammettono il regime sinusoidale. E in queste ipotesi l'ammettenza si definisce come il rapporto tra il fasore della tensione e quello della corrente ai morsetti del bipolo composito.
 
 Essendo l'ammettenza un numero complesso ha sia una parte reale e immaginaria;
 $$Y(j\omega) = G(\omega) + jB(\omega)$$

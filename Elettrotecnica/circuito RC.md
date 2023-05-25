@@ -8,7 +8,7 @@ Allora supponiamo di poter descrivere $N_R$ con un circuito equivalente di Norto
 >#### Circuito equivalente di northon
 >![[Pasted image 20220512172138.png]]
 
-==osservazione==: il condensatore ammette solo base corrente, quindi siamo costretti ad usare il cirquito equivalente di norton piuttosto che quello di Thevenin.
+==osservazione==: il condensatore ammette solo [[base corrente]], quindi siamo costretti ad usare il cirquito equivalente di norton piuttosto che quello di Thevenin.
 
 Dalla KCL al nodo A abbiamo che
 $$A_{eq}(t) + \frac{v_C(t)}{R_{eq}} + i_C(t) = A_{eq}(t) + \frac{v_C(t)}{R_{eq}} + C\frac{d}{dt}v_C(t) = 0 $$
