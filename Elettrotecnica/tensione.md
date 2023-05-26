@@ -6,7 +6,7 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 \begin{tikzpicture}
 
 \begin{scope}
-\draw(0,0) .. controls ()
+\draw(0,0) .. controls (0.4,2) and (3.6,4) .. (2,6);
 \end{scope}
 
 \end{tikzpicture}
