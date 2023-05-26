@@ -5,6 +5,10 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 \begin{document}
 \begin{tikzpicture}
 
+\begin{scope}
+\draw(0,0) .. controls ()
+\end{scope}
+
 \end{tikzpicture}
 \end{document}
 ```
