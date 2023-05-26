@@ -1,5 +1,5 @@
 # Tensione
-Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è presente un campo elettrico, essa subisce una forza e quindi si mette in moto. La forza prodotta dal campo elettrico tende a farla muovere lungo le linee di forza del campo stesso. Nel muovere la carica nella regione di spazio in cui è presente il campo elettrico, esso stesso compie lavoro e quindi modifica l'energia della carica. Cosa accade se voglio muovere una carica da un punto $A$ ad un punto $B$, lungo ad esempio il percorso $\gamma_{1}$? In questo caso non sarà il campo a compiere lavoro ma dovrò essere io a dovermi opporre alla forza generata dal campo elettrico.
+Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è presente un [[campo elettrico]], essa subisce una [[forza]] e quindi si mette in [[moto]]. La forza prodotta dal campo elettrico tende a farla muovere lungo le [[linee di forza]] del campo stesso. Nel muovere la carica nella regione di spazio in cui è presente il campo elettrico, esso stesso compie [[Fisica/Dinamica/Lavoro|lavoro]] e quindi modifica l'energia della carica. Cosa accade se voglio muovere una carica da un punto $A$ ad un punto $B$, lungo ad esempio il percorso $\gamma_{1}$? In questo caso non sarà il campo a compiere lavoro ma dovrò essere io a dovermi opporre alla forza generata dal campo elettrico.
 
 ```tikz
 \usetikzlibrary{arrows.meta}
@@ -42,7 +42,7 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 \end{document}
 ```
 
-Se dividiamo il percorso $\gamma_{1}$ in tanti piccoli tratti $d\bar{l}_{k}$ rettilinei, ossia approssimiamo la curva $\gamma$ 
+Se dividiamo il percorso $\gamma_{1}$ in tanti piccoli tratti $d\bar{l}_{k}$ rettilinei, ossia approssimiamo la curva $\gamma_{1}$ con una spezzata. Il lavoro 
 
 
 # Tensioni #trifase bilanciate
