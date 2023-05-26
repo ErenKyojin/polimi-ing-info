@@ -1,6 +1,5 @@
 # Tensione
-Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è presente un campo elettrico, essa subisce una forza e quindi si mette in moto. La forza prodotta dal campo elettrico tende a farla muovere lungo le linee di forza del campo stesso. Nel muovere la carica nella regione di spazio in cui è presente il campo elettrico,
-
+Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è presente un campo elettrico, essa subisce una forza e quindi si mette in moto. La forza prodotta dal campo elettrico tende a farla muovere lungo le linee di forza del campo stesso. Nel muovere la carica nella regione di spazio in cui è presente il campo elettrico, esso stesso compie lavoro e quindi modifica l'energia della carica. Cosa accade se voglio muovere una carica da un punto $A$ ad un punto $B$, lungo ad esempio il percorso $\gamma_{1}$?
 
 
 # Tensioni #trifase bilanciate
