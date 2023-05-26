@@ -66,8 +66,9 @@ $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} 
 \begin{tikzpicture}
 \draw[thick] (-2.5,0) -- (2.5,0);
 \draw[thick](0,-2.5) -- (0,2.5);
-\draw (-2.5,-2.5) -- (2.5,2.5);
-\draw[green,-{Latex[scale = 1.25]}] (0,0) -- (1,1);
+\draw[-{Latex[scale = 1.25]}] (-2.5,-2.5) -- (2.5,2.5) node[above]{$\bar{E}$};
+\draw[green,-{Latex[scale = 1.25]}] (0,0) -- (1,1) node[above]{$\hat{x}$};
+\node[below right] at (0,0){Q};
 \end{tikzpicture}
 \end{document}
 ```
