@@ -91,4 +91,4 @@ Se ci fossero $N$ cariche elettriche $Q_{k} (k = 1,2,\dots,N)$ posizionate in $P
 $$ \bar{E} = \sum_{k=1}^N \bar{E}_{k} = \frac{1}{4\pi\varepsilon_{0}} \sum_{k = 1}^N \frac{Q_{k}}{r_{k}^2}\hat{r}_{k} $$
 
 
-Le linee di forza del campo risultante hanno struttura geometrica più complessa dell
+Le linee di forza del campo risultante hanno struttura geometrica più complessa delle linee radiali del campo generato da una singola carica puntiforme. 
