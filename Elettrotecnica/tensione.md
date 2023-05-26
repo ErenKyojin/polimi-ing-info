@@ -60,7 +60,15 @@ Normalizzando la funzione $W$ rispetto alla carica $q$ si definisce il potenzial
 Verifichiamo adesso che il campo elettrico generato da una carica puntiforme $Q$ ammette un potenziale ovvero è conservativo. Suddividendo il percorso $\gamma$ in figura in tratti rettilinei $\d \bar{l}$ può essere scritto come
 $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2} \hat{r} \cdot \d\bar{l} $$
 
-tikzp
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[thick] (-2.5,0) -- (2.5,0);
+\draw[thick](0,-2.5) -- (0,2.5);
+\draw ()
+\end{tikzpicture}
+\end{document}
+```
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
