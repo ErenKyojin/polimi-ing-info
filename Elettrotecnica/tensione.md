@@ -1,5 +1,5 @@
 # Tensione
-
+Se una [[carica]]
 
 
 
