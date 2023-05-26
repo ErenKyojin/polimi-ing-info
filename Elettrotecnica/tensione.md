@@ -42,7 +42,8 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 \end{document}
 ```
 
-Se dividiamo il percorso $\gamma_{1}$ in tanti piccoli tratti $d\bar{l}_{k}$ rettilinei, ossia approssimiamo la curva $\gamma_{1}$ con una spezzata. Il lavoro che devo compiere lungo il tratto $d\bar{l}_{1}$ è pari a $d\mathcal{L}_{1} = -q\bar{E}_{1} \cdot d\bar{l}_{1} = -qE_{1}dl_{1} \cos \alpha$
+Se dividiamo il percorso $\gamma_{1}$ in tanti piccoli tratti $d\bar{l}_{k}$ rettilinei, ossia approssimiamo la curva $\gamma_{1}$ con una spezzata. Il lavoro che devo compiere lungo il tratto $d\bar{l}_{1}$ è pari a $d\mathcal{L}_{1} = -q\bar{E}_{1} \cdot d\bar{l}_{1} = -qE_{1}dl_{1} \cos \alpha_{1}$ e quindi, sommando i contributi lungo tutto il percorso, ricavo l'approsimazione
+$$ \mathcal{L}_{AB}^{\gamma_{1}} \approx -q \sum_{k = 1}^N E_{k}dl_{k} \cos \alpha k$$
 
 
 # Tensioni #trifase bilanciate
