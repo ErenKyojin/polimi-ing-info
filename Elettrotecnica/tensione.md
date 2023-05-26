@@ -58,6 +58,9 @@ Normalizzando la funzione $W$ rispetto alla carica $q$ si definisce il potenzial
 >Normalizzando la funzione $W$ rispetto alla carica $q$ si definisce la funzione $V(P) = W(P) / q$ che è detta **potenziale elettrico**, definiamo inoltre $V_{BA}$ la differenza di potenziale  $V_{B} - V_{A}$, che è il lavoro normalizzato rispetto alla carica ed indipendente dalla linea che dobbiamo compiere per muovere una carica da $A$ a $B$.
 
 Verifichiamo adesso che il campo elettrico generato da una carica puntiforme $Q$ ammette un potenziale ovvero è conservativo. Suddividendo il percorso $\gamma$ in figura in tratti rettilinei $\d \bar{l}$ può essere scritto come
+$$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2} \hat{r} \cdot \d\bar{l} $$
+
+tikzp
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
