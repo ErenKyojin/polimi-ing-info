@@ -9,9 +9,9 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 \begin{scope}
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
 \node (A) at (1,2.25){$\bullet$};
-\draw[-latex,thick] (A) -- ++ (.5,1);
+\draw[-latex,thick] (A.center) -- ++ (.5,1)node[above left]{$\bar{E}_A$};
 \node[left] at (A){A};
-\draw[-{>[scale = 2]}] (A) -- ++ (.6,.9);
+\draw[-{>[scale = 2]}] (A.center) -- ++ (.6,.9);
 \node[below] at (A) {q};
 \end{scope}
 
