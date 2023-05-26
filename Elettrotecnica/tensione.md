@@ -2,6 +2,7 @@
 Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è presente un campo elettrico, essa subisce una forza e quindi si mette in moto. La forza prodotta dal campo elettrico tende a farla muovere lungo le linee di forza del campo stesso. Nel muovere la carica nella regione di spazio in cui è presente il campo elettrico, esso stesso compie lavoro e quindi modifica l'energia della carica. Cosa accade se voglio muovere una carica da un punto $A$ ad un punto $B$, lungo ad esempio il percorso $\gamma_{1}$? In questo caso non sarà il campo a compiere lavoro ma dovrò essere io a dovermi opporre alla forza generata dal campo elettrico.
 
 ```tikz
+\usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
 
@@ -9,7 +10,8 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
 \node (A) at (1,2.25){$\bullet$};
 \node[left] at (A){A};
-\draw[->] (A) -- ++ (.6,.9);
+\draw[-{>[scale = 2]}] (A) -- ++ (.6,.9);
+\draw[-latex,thick] (A) -- ++ (.5,1);
 \end{scope}
 
 \begin{scope}[shift={(2,0)}]
