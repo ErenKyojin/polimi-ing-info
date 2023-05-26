@@ -30,7 +30,7 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
 \end{scope}
 
-\draw(1,2.25) .. controls (2.5,3) and (4.5,2) .. (8,2.75);
+\draw[thick](1,2.265) .. controls (2.5,3) and (4.5,2) .. (8,2.75);
 
 \end{tikzpicture}
 \end{document}
