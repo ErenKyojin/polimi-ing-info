@@ -17,7 +17,7 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 
 \begin{scope}[shift={(2,0)}]
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
-\node (p1) at (1,2.25){$\bullet$};
+\node (p1) at (1.15,2.25){$\bullet$};
 \draw[-latex,thick] (p1.center) -- ++ (.5,1)node[above left]{$\bar{E}_A$};
 \node[right] at (p1){$P_1$};
 \end{scope}
