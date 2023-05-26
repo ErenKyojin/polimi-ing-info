@@ -70,7 +70,7 @@ $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} 
 \draw[-{Latex[scale = 1.25]}] (-2.5,-2.5) -- (2.5,2.5) node[above]{$\bar{E}$};
 \draw[green,-{Latex[scale = 1.25]}] (0,0) -- (1,1) node[above]{$\hat{x}$};
 \node[below right] at (0,0){Q};
-\draw (2,2.7) .. (2.4,)
+\draw (2,2.7) .. controls (1.9,1.4) and (2.5,.8) .. (2.4,.3);
 
 \end{tikzpicture}
 \end{document}
