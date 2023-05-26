@@ -51,6 +51,8 @@ $$ \mathcal{L}_{AB}^{\gamma_{1}} = -q \int _{\gamma_{1}} \!\bar{E} \cdot \, \mat
 
 Una tensione ha senso solo dopo aver definito la linea lungo cui la si misura. Non dobbiamo essere stupiti da questa cosa, ci sono diverse grandezze di linea, come ad esempio la distanza.
 
+Se prendo un altro percorso per andare da $A$ a $B$ e lo chiamo
+
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
