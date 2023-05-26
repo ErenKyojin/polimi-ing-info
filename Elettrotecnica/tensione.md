@@ -63,12 +63,15 @@ $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} 
 ```tikz
 \usetikzlibrary{arrows.meta}
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[scale = 1.5]
+
 \draw[thick] (-2.5,0) -- (2.5,0);
 \draw[thick](0,-2.5) -- (0,2.5);
 \draw[-{Latex[scale = 1.25]}] (-2.5,-2.5) -- (2.5,2.5) node[above]{$\bar{E}$};
 \draw[green,-{Latex[scale = 1.25]}] (0,0) -- (1,1) node[above]{$\hat{x}$};
 \node[below right] at (0,0){Q};
+\draw (2,2.7) .. (2.4,)
+
 \end{tikzpicture}
 \end{document}
 ```
