@@ -9,6 +9,7 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
 \node (A) at (1,2.25){$\bullet$};
 \node[left] at (A){A};
+\draw[->] (A) -- ++ (.6,.9);
 \end{scope}
 
 \begin{scope}[shift={(2,0)}]
