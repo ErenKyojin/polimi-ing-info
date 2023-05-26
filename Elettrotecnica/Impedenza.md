@@ -1,5 +1,5 @@
 # impedenza
-Delle equazioni di [[resistore]], [[condensatore]] ed [[induttore]] in regime sinusoidale è facile notare che si misurano tutte in $\Omega$, associamo quindi ad ognuno di questi bipoli una grandeza che rappresenta il rapporto tra il fasore della tensione descrittiva e il fasore della corrente descrittiva, col nome di impedenza (duale di [[ammettenza]])
+Delle equazioni di [[resistore]], [[condensatore]] ed [[induttore]] in regime sinusoidale è facile notare che si misurano tutte in $\Omega$, associamo quindi ad ognuno di questi bipoli una grandeza che rappresenta il rapporto tra il fasore della tensione descrittiva e il fasore della [[corrente]] descrittiva, col nome di impedenza (duale di [[ammettenza]])
 $$
 	\displaylines
 	{
@@ -9,7 +9,7 @@ $$
 	}
 $$
 
-Il concetto di ammettenza si può estendere a tutti i bipoli costituiti da N terminali lineari tempo-invarianti definiti su base tensione o su base corrente, ammettono il regime sinusoidale. E in queste ipotesi l'impedenza si definisce come il rapporto tra il fasore della tensione e quello della corrente ai morsetti del bipolo composito.
+Il concetto di ammettenza si può estendere a tutti i bipoli costituiti da N terminali lineari tempo-invarianti definiti su [[base tensione]] o su [[base corrente]], ammettono il regime sinusoidale. E in queste ipotesi l'impedenza si definisce come il rapporto tra il fasore della tensione e quello della [[corrente]] ai morsetti del [[bipolo]] composito.
 
 Inoltre è un numero complesso, quindi con una parte reale e una parte immaginaria:
 $$Z(j\omega) = R(\omega) + jX(\omega)$$ 

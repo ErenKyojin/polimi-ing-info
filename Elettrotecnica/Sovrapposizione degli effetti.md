@@ -1,5 +1,5 @@
 # sovrapposizione degli effetti
-Il principio di sovrapposizione degli effetti afferma che dato un circuito con A generatori indipendenti di corrente e B generatori indipendenti di tensione e chiamati $v$ ed $i$ ripsettivamente la tensione e la corrente del bipolo b.
+Il principio di sovrapposizione degli effetti afferma che dato un circuito con A generatori indipendenti di [[corrente]] e B generatori indipendenti di tensione e chiamati $v$ ed $i$ ripsettivamente la tensione e la corrente del [[bipolo]] b.
 Allora possiamo scrivere:
 $$\begin{align}
 v = h_1(t)I_{S,A} +\ ...\ +h_A(t)I_{S,A} + k_1E_{S,1} +\ ...\ + k_B(t)E_{S,B} \\

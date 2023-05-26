@@ -30,4 +30,4 @@ logic ports/fill = darkgray,
 \end{document}
 ```
 
-Se l'input della linea inferiore è 1, allora è un cortocircuito, se l'input della linea inferiore è zero, funziona come un circuito aperto.
+Se l'input della linea inferiore è 1, allora è un [[cortocircuito]], se l'input della linea inferiore è zero, funziona come un [[circuito aperto]].

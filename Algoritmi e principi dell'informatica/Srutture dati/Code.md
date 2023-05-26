@@ -11,6 +11,7 @@ Le code sono simili alle [[pila|pile]], salvo che una coda è gestita con una po
 	- Si noti che l'operazione di DEQUEUE restituisce l'elemento cancellato
 
 Una coda è gestita con una politica FIFO, l'elemento che viene cancellato è quello che era stato inserito per primo. 
+Inoltre una coda è circolare, se abbiamo una coda di lunghezza 10 e Q.tail = 10, inserendo un nuovo elemento, dopo l'accodamento abbiamo Q.tail = 1.
 
 ### Implementazione tramite liste semplici
 Provare a farlo con un unico puntatore di partenza diventa inutilmente complicato, dobbiamo aggiungere per testa e coda
@@ -18,7 +19,7 @@ Provare a farlo con un unico puntatore di partenza diventa inutilmente complicat
 Testa -> \[ | \] -> \[ | \] -> \[ | \] <- coda
 
 ### Implementazione tramite array
-Con array la testa e la coda sono entrambi mobili sull'array ed essenzialmente si scala sugli indici, non si può fissare la testa in A\[0\] in quanto la cancellazione di elmenti intesta diventerebbe complessa.
+Con array la testa e la coda sono entrambi mobili sull'array ed essenzialmente si scala sugli indici, non si può fissare la testa in A\[0\] in quanto la cancellazione di elmenti in testa diventerebbe complessa.
 
 Qhead indice della testa in un array
 Qtail indice della coda

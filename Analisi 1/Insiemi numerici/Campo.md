@@ -40,3 +40,4 @@ Proprietà di un [[insieme]] come campo ordinato:
 - $a \neq 0 \Rightarrow a^2 > 0$, in particolare $1 > 0$
 -  L'equazione $x^2+1 = 0$ non ha soluzione in un campo ordinato
 - $a > 0 \Rightarrow a^-1 > 0\quad\quad a > b > 0\quad\quad b^{-1}>a^{-1}>0$
+

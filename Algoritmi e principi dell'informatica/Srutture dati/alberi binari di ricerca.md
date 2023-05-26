@@ -11,12 +11,17 @@ Per tutti i nodi $x$ del BST se $l$ è un nodo nel sottoalbero sinistro allora `
 > ```tikz
 > \begin{document}
 > \begin{tikzpicture}
+> [
+> level 1/.style = {sibling distance = 2cm},
+> level 2/.style = {sibling distance = .75cm},
+> ]
 > \node {5}
 > 	child {node {3}
 > 	 child{node {2}}
 > 	 child{node {5}}}
 > 	child {node {7}
-> 	child {node {8}}};
+> 	child {node {8}}
+> 	child[missing]};
 > \end{tikzpicture}
 > \end{document}
 > ```
@@ -50,7 +55,7 @@ TREE-MAXIMUM
 	return x
 ```
 
-Entrambi gli [[Algoritmo|algoritmi]] hanno complessità $O(h)$ con caso pessimo minimo (massimo) su foglia.
+Entrambi gli [[Algoritmo|algoritmi]] hanno [[Complessità]] $O(h)$ con caso pessimo minimo (massimo) su foglia.
 
 Come troviamo il successore (rispettivamente predecessore) ? Il successore  (predecessore) di un oggetto `x` in un BST è l'elemento `y` del BST tale che `y.key` è la più piccola (rispettivamente piú grande) tra le chiavi che sono più grandi (rispettivamente piú piccole) di `x.key`.
 Quindi se il sottoalbero destro di un oggetto `x` dell'albero dell'albero non è vuoto, il successore di `x` è l'elemento più piccolo (cioè il minimo) del sottoalbero destro di `x`.
@@ -84,7 +89,7 @@ TREE-SUCCESSOR(x)
 
 Il tempo di esecuzione è $O(h)$
 
-Per esericizio scrivere TREE-PREDECESSOR con complessità
+Per esericizio scrivere TREE-PREDECESSOR con [[Complessità]]
 
 ## Insert
 
@@ -176,5 +181,5 @@ TREE-DELETE(T, z)
 	return y
 ```
 
-y nodo da eliminare e x quello con cui sostituiamo, stessa complessità di TREE-SUCCESSOR, il resto è costante, quindi $O(h)$. Ancora una volta un albero bilanciato sarebbe migliore, cosa facciamo quindi? Utilizzamo tempo per bilanciarlo? E soprattutto com'è un albero bilanciato?
+y nodo da eliminare e x quello con cui sostituiamo, stessa [[Complessità]] di TREE-SUCCESSOR, il resto è costante, quindi $O(h)$. Ancora una volta un albero bilanciato sarebbe migliore, cosa facciamo quindi? Utilizzamo tempo per bilanciarlo? E soprattutto com'è un albero bilanciato?
 Sicuramente un albero completo o quasi-completo è bilanciato, introduciamo una modifica dei BST intrinsecamente bilanciata, detti [[Albero rosso-nero|alberi rosso-neri]].

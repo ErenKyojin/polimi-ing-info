@@ -29,5 +29,5 @@ modification date: 2023-05-02 11:03
 
 ## Complessità
 $T_{\text{ MERGE }}(n) = \Theta(n)$
-È abbastanza immediato che la complessità sia $n$, ossia lineare.
+È abbastanza immediato che la [[Complessità]] sia $n$, ossia lineare.
 

@@ -18,7 +18,7 @@ Per costruire le proposizioni usiamo un [[linguaggio]] il cui alfabeto è compos
 Dobbiamo considerare le possibili sequenze di simboli che hanno una buona struttura (dette [[formule ben formate]], o f.b.f). 
 Per ogni formula inoltre possiamo definire l'[[albero di struttura]] della formula.
 
-Per come le f.b.f. sono definite appare chiaro che uno strumento importante per dimostrare che le f.b.f. godono di una data proprietà è l'induzione sulla complessità di una proposizione:
+Per come le f.b.f. sono definite appare chiaro che uno strumento importante per dimostrare che le f.b.f. godono di una data proprietà è l'induzione sulla [[Complessità]] di una proposizione:
 - Se una proprietà vale per tutte le lettere enunciative e se, supposta vera per $\mathcal{A}$ e $\mathcal{B}$ vale per $\sim \mathcal{A}$, $\mathcal{A \land B}, \mathcal{A \lor B}, \mathcal{ A \implies B}, \mathcal{A \iff B}$ allora vale per tutte le formule
 
 ## Semantica

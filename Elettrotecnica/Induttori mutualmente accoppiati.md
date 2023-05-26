@@ -13,7 +13,7 @@ $$\begin{cases}
 \end{cases}$$
 
 Gli induttori mutualmente accoppiati sono un componente #passivo dal punto di vista energetico, e quindi $M^2\leq L_1L_2$ deve essere sempre essere soddisfatto.
-L'energia assorbita dal doppio bipolo, infatti, partendo dalla [[potenza]] istantane assorbita $p_a(t) = v_1i_1+v_2i_2$ può essere scritta come:
+L'energia assorbita dal doppio [[bipolo]], infatti, partendo dalla [[potenza]] istantane assorbita $p_a(t) = v_1i_1+v_2i_2$ può essere scritta come:
 
 $$w_a(t) =w_a(t_0) + \int_{t_0}^t\left(\left(L_1\frac{d}{d\tau}i_1+M\frac{d}{d\tau}i_2\right)i_1 + \left(M\frac{d}{d\tau}i_1+L_2\frac{d}{d\tau}i_2\right)\right)d\tau$$
 
@@ -49,7 +49,7 @@ $$k=\frac{|M|}{\sqrt{L_1L_2}}$$ che varia nell'intervallo $[0, 1]$ in ragione de
 >Notiamo che intutti questi casi otteniamo un valore di induttanza non negativo
 
 
-Inoltre in [[regime sinusoidale]] permanente è possibile associare agli induttori mutuamente accoppiati una matrice di impedenza (e, se esiste, di ammettenza) pari a
+Inoltre in [[regime sinusoidale]] permanente è possibile associare agli induttori mutuamente accoppiati una matrice di impedenza (e, se esiste, di [[ammettenza]]) pari a
 
 $$\mathcal{Z}(j\omega)=j\omega\begin{bmatrix}L_1&M\\M&L_2\end{bmatrix}$$
 

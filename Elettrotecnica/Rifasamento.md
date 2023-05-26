@@ -10,7 +10,7 @@
 >\end{align}
 >$$
 >allora una parte della potenza erogata da $\bar{E}$ viene assorbita dalla connessione
->Indicando con $\bar I$ la corrente nel circuito $P_a^R = \frac{R|\bar I|^2}{2}$ e
+>Indicando con $\bar I$ la [[corrente]] nel circuito $P_a^R = \frac{R|\bar I|^2}{2}$ e
 >$$P_a^Z = Re\left\lbrace\frac{\bar v_Z\bar I^*}{2}\right\rbrace = Re\left\lbrace\frac{|Z|e^{j\varphi_Z}\bar I \bar I^*}{2}\right\rbrace = \frac{|\bar I||\bar v_Z|}{2}\cos\varphi_Z$$
 >Ed il modulo della corrente è pari a $|\bar I| =\frac{2P_a^Z}{|\bar v_z|\cos\varphi_Z}$ ed è minima quando $\cos\varphi_Z = 1$ cioè con carico puramente resisitvo.
 >Gli scambi di potenza reattiva in effetti avvengono attraverso una corrente sul circuito che contribuisce ad inutili perdite di potenza (la potenza attiva erogata del generatore viene usata del carico, ma la potenza reattiva non da contributi utili provocando perdite)

@@ -1,5 +1,5 @@
 # Induttore
-Considerando una spira attraverso cui fluisce una corrente $I$ che produce un campo magnetico $\overline{B}$ proporzionale in ogni punto ad $I$, il flusso $\Phi_B$, chiamato <u>flusso auto-concatenato</u> è
+Considerando una spira attraverso cui fluisce una [[corrente]] $I$ che produce un [[campo magnetico]] $\overline{B}$ proporzionale in ogni punto ad $I$, il flusso $\Phi_B$, chiamato <u>flusso auto-concatenato</u> è
 $$\Phi_B = LI$$
 Con L [[autoinduttanza]] del circuito, \[L\] = $\frac{Wb}{A}$ o $H$ per henry.
 
@@ -17,7 +17,7 @@ $$\Psi_B = \int_\sigma \overline{B}\ \cdot \hat{u}_Nd\sigma \approx BS$$
 con $S$ area della spira, ossia la sezione del cilindro.
 Possiamo quindi trovare il flusso totale moltiplicando per il numero di spire.
 $$\Phi_B = N\Psi = \frac{\mu\\N^2S}{l}I = LI$$ 
-==> se è costante I lo è anche $\Phi_B$ e allora secondo la legge di faraday-henry non c'è alcuna fem indotta e allora ai capi dell'induttore abbiamo $V = -V_{fem}=0$, ossia un cortocircuito.
+==> se è costante I lo è anche $\Phi_B$ e allora secondo la legge di faraday-henry non c'è alcuna fem indotta e allora ai capi dell'induttore abbiamo $V = -V_{fem}=0$, ossia un [[cortocircuito]].
 
 ### induttore in regime tempo variante
 Un induttore legato ad una corrente $I(t)$ non costante nel tempo, il flusso magnetico diventa $\Phi_B(t) = LI(t)$, e per la [[legge di faraday]] si induce una fem $V_{fem}= - \frac{d\Phi_B(t)}{dt}$ lungo fili, che ai morsetti viene misurata come
@@ -33,7 +33,7 @@ e la corrente descrittiva I permette di ricavare $w_a^M(t) =\frac{1}{2}LI^2$ ene
 ## nel dominio dei [[fasori]]
 Nel dominio dei fasori diventa $$\overline{v} = j\omega L\overline{i}$$
 da cui $|\overline{v}|e^{j\varphi_{\overline{v}}} = \omega Le^{j\pi/_2}|\overline{i}|e^{j\varphi_{\overline{i}}} =\omega L|\overline{i}|e^{j(\varphi_{\overline{i}}+\pi/_2)}$ e quindi il modulo del fasore $\overline{v}$ è in anticipo di $\frac{\pi}{2}$ rispetto al fasore $\overline{i}$ della corrente.
-Inoltre notiamo come quando $\omega \to 0$  l'induttore si comporta come un cortocircuito ($|\overline{v}| \to 0$) e quando $\omega \to \infty$ l'induttore si comporta come un circuito aperto ($\overline{|i|}=\frac{\overline{v}}{\omega} \to 0$)
+Inoltre notiamo come quando $\omega \to 0$  l'induttore si comporta come un cortocircuito ($|\overline{v}| \to 0$) e quando $\omega \to \infty$ l'induttore si comporta come un [[circuito aperto]] ($\overline{|i|}=\frac{\overline{v}}{\omega} \to 0$)
 
 ### Potenza in [[regime sinusoidale]]
 Per l'induttore abbiamo che $\bar v = Z(j\omega)\bar\imath = j\omega L \bar\imath$ e $\varphi_Z = \frac{\pi}{2}$, da cui ricaviamo che

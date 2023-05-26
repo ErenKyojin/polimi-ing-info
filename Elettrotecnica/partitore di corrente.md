@@ -1,9 +1,9 @@
-# Partitore di corrente
+# Partitore di [[corrente]]
 È il duale del [[partitore di tensione]].
 
 Ipotizziamo di voler calcolare la corrente che passa attraverso al j-esimo resistore, qual è questa corrente?
 >[!Dim]
->$i = \left(\sum_{k=1}^M G_k\right)v$ è l'equazione costitutive del bipolo composito, la tensione $v$ ai capi del generico resistore j-esimo è pari a $v = \frac{i}{\sum_{k=1}^MG_k}$ e quindi
+>$i = \left(\sum_{k=1}^M G_k\right)v$ è l'equazione costitutive del [[bipolo]] composito, la tensione $v$ ai capi del generico resistore j-esimo è pari a $v = \frac{i}{\sum_{k=1}^MG_k}$ e quindi
 >$$i_j = \frac{iG_j}{\sum_{k=1}^MG_k}$$
 >
 >Nel caso di solo due resistenze

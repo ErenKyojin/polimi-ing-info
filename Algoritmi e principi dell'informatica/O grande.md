@@ -3,7 +3,7 @@ aliases:
 creation date: 2023-04-26 15:11
 modification date: 2023-04-26 15:11
 ---
-
+La funzione $O$-grande indica un limite asintotico superiore
 >[!def]
 >$$f,g : \mathbb{N} \to \mathbb{N}$$
 >$f$ è un $O$-grande di $g$, in simboli $f(n) = O(g(n))$ se definitivamente $f$ è dominata da un multiplo di $g$:
@@ -21,3 +21,13 @@ negli esempi di prima
 2
 0
 0
+
+>[!esempio]
+>- $3n^2 + 12n + 35 \in O(n^2)$
+>- $5n^3 + 2 \in O(n^3)$
+>- $2\log(n) + \log(\log(n)) \in O(\log(n))$
+>
+>Ma notiamo anche che
+>- $3n^2 + 12n + 35 \in O(n^3)$
+>- $5n^3 + 2 \in O(n^{100})$
+>- $5n^3 + 2 \in O(e^n)$

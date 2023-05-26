@@ -171,7 +171,7 @@ Per le linee di dato e gli ingressi di indirizzo vanno rispettati i tempi di set
 
 
 # DRAM
-Ram dinamica, il singolo bit è memorizzato nella carica di un condesatore a cui si accede attraverso un transistor che legge o scrive il suo valore. Ha un singolo transistor per cella contro i 6 transistor per cella di una SRAM, ha un costo per bit inferiore rispetto alla RAM, però ha tempi di accesso maggiori ed è necessario un segnale di refresh perchè il condensatore non perda carica. (Operazione che occupa il 2% dei cicli).
+Ram dinamica, il singolo bit è memorizzato nella carica di un condesatore a cui si accede attraverso un transistor che legge o scrive il suo valore. Ha un singolo transistor per cella contro i 6 transistor per cella di una SRAM, ha un costo per bit inferiore rispetto alla RAM, però ha tempi di accesso maggiori ed è necessario un segnale di refresh perchè il [[condensatore]] non perda carica. (Operazione che occupa il 2% dei cicli).
 Volatile, perde il contenuto se rimane senza alimentazione.
 Viene utilizzata come la memoria
 

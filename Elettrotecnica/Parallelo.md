@@ -1,7 +1,7 @@
 # Connessione in parallelo
 Due bipoli sono in parallelo se collegati alla stessa coppia di nodi, ossia i due bipoli hanno la medesima soluzione ai propri capi.
 Sono diversi i casi:
-- entrambi in base tensione
+- entrambi in [[base tensione]]
 	
 	$i_1 = g_1(v_1)$, $i_2 = g_2(v_2)$, allora $i=g_1(v) + g_2(v)$
 - solo uno ammette base tensione

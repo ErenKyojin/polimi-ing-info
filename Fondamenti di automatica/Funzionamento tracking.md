@@ -38,5 +38,5 @@ Alcune tecniche per realizzare tracking:
 
 - Uso forma incrementale
 #todo
-- Uso realizzazione non minima
+- Uso [[realizzazione]] non minima
 #todo

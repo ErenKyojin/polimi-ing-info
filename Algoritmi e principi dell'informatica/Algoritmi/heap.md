@@ -143,7 +143,7 @@ build-maxheap(A)
 		max-heapsize(A, i)
 ```
 
-Per la complessità potremmo pensare di fare un ciclo di $n/2$ passi chiamando una funzione di complessità $\log(n)$, potremmo pensare quindi che la complessità sia $n \log(n)$, tuttavia non è cosí semplice.
+Per la [[Complessità]] potremmo pensare di fare un ciclo di $n/2$ passi chiamando una funzione di complessità $\log(n)$, potremmo pensare quindi che la complessità sia $n \log(n)$, tuttavia non è cosí semplice.
 
 Osserviamo che l'altezza di un albero quasi completo di $n$ node è $\lfloor \log_{2}(n) \rfloor$, e se definiamo come l'altezza di un nodo di un heap la lunghezza del cammino piú lungo che porta ad una foglio il costo di max-heapify invocato su un nodo di altezza $h$ è $O(h)$. Ed il numero massimo di nodi di altezza $h$ in un heap è $\lceil n / 2^{h+1} \rceil$.
 Max-heapify viene invocato $\lceil n / 2^{h+1} \rceil$ volte ad ogni altezza $h$ quindi il costo di Build-max-heap è 

@@ -1,5 +1,5 @@
 # Interruttore
-Bipolo tale che 
+[[Bipolo]] tale che 
 $$
 \begin{cases}
 t < \hat{t} \Rightarrow i = 0 \\

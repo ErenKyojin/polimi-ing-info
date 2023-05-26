@@ -72,7 +72,7 @@ sum ...
 
 
 Quindi il totale è $\log_{2}(n) + cn$
-Quindi la complessità totale è $\Theta(n \log_{2}(n))$
+Quindi la [[Complessità]] totale è $\Theta(n \log_{2}(n))$
 
 >[!oss]
 >Non c'è un caso ottimo ed un caso pessimo, inoltre ha un alta complessità spaziale dovendo generare nuovi array

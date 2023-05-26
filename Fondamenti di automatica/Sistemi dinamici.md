@@ -15,8 +15,8 @@ Se conosco $u(t)$ sull'intervallo $[t_{0},t]$ queso mi basta per conoscere $y(t)
 
 >[!esempio] Esempio 2
 >
->Circuito RC
->Per conoscere $y(t)$ su $[t_{0},t]$ mi ocorrono $u(t)$ su $[t_{0},t]$ e la condizione iniziale $y(t_{0})$ tensione iniziale sul condensatore. Sistema dinamico.
+>[[Circuito RC]]
+>Per conoscere $y(t)$ su $[t_{0},t]$ mi ocorrono $u(t)$ su $[t_{0},t]$ e la condizione iniziale $y(t_{0})$ tensione iniziale sul [[condensatore]]. Sistema dinamico.
 
 >[!esempio] Esempio 3
 >Sistema massa molla

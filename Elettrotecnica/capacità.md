@@ -1,5 +1,5 @@
 # Capacità elettrica
-La capacità elettrica $C$ di un condensatore è definita come il rapporto fra la sua carica Q e il suo potenziale V. 
+La capacità elettrica $C$ di un [[condensatore]] è definita come il rapporto fra la sua [[carica]] Q e il suo potenziale V. 
 
 La capacità di un conduttore sferico nel vuoto è $C = 4\pi\varepsilon_0R$
 La capacità di un conduttore sferico in un dielettrico $\varepsilon_r$ è $C = 4\pi\varepsilon_0\varepsilon_rR$
