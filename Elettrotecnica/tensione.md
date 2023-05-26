@@ -61,11 +61,13 @@ Verifichiamo adesso che il campo elettrico generato da una carica puntiforme $Q$
 $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2} \hat{r} \cdot \d\bar{l} $$
 
 ```tikz
+\usetikzlibrary{arrows.meta}
 \begin{document}
 \begin{tikzpicture}
 \draw[thick] (-2.5,0) -- (2.5,0);
 \draw[thick](0,-2.5) -- (0,2.5);
-\draw ()
+\draw (-2.5,-2.5) -- (2.5,2.5);
+\draw[green,-{Latex[scale = 1.25]}] (0,0) -- (1,1);
 \end{tikzpicture}
 \end{document}
 ```
