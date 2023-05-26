@@ -55,7 +55,10 @@ Se prendo un altro percorso per andare da $A$ a $B$ e lo chiamo $\gamma_{2}$ in 
 Normalizzando la funzione $W$ rispetto alla carica $q$ si definisce il potenziale elettrico:
 
 >[!def]
->Normalizzando la funzione $W$ rispetto alla carica $q$ si definisce la funzione $V(P) = W(P) / q$ che è detta **potenziale elettrico**, definiamo inoltre $V_{BA}$ detta differenza di potenziale 
+>Normalizzando la funzione $W$ rispetto alla carica $q$ si definisce la funzione $V(P) = W(P) / q$ che è detta **potenziale elettrico**, definiamo inoltre $V_{BA}$ la differenza di potenziale  $V_{B} - V_{A}$, che è il lavoro normalizzato rispetto alla carica ed indipendente dalla linea che dobbiamo compiere per muovere una carica da $A$ a $B$.
+
+>[!def]
+>Verifichiamo adesso che il campo elettrico generato da una carica puntiforme $Q$ ammette un p
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
