@@ -47,7 +47,7 @@ $$ \mathcal{L}_{AB}^{\gamma_{1}} \approx -q \sum_{k = 1}^N E_{k}\d l_{k} \cos \a
 Al [[limite]] in cui consideriamo infinitesimi i singoli tratti $\d \bar{l}_{k}$, possiamo riscrivere quella sopra in forma [[integrale]]:
 $$ \mathcal{L}_{AB}^{\gamma_{1}} = -q \int _{\gamma_{1}} \!\bar{E} \cdot \, \mathrm{d}\bar{l}  $$
 >[!def]
->La **tensione** è il lavoro, normalizzato rispetto alla carica, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea e si misura in 
+>La **tensione** è il lavoro, normalizzato rispetto alla carica, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea e si misura in Volt $[V] = JC^{-1}$
 
 
 # Tensioni #trifase bilanciate
