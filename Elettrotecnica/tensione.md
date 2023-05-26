@@ -49,6 +49,8 @@ $$ \mathcal{L}_{AB}^{\gamma_{1}} = -q \int _{\gamma_{1}} \!\bar{E} \cdot \, \mat
 >[!def]
 >La **tensione** è il lavoro, normalizzato rispetto alla carica, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea e si misura in Volt $[V] = JC^{-1}$
 
+Una tensione ha senso solo dopo
+
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
