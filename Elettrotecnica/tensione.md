@@ -24,19 +24,19 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 
 \begin{scope}[shift={(4,0)}]
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
-\node (p2) at (1.15,2.4){$\bullet$};
+\node (p2) at (1.1,2.42){$\bullet$};
 \draw[-latex,thick] (p2.center) -- ++ (.5,1)node[above left]{$\bar{E}_2$};
 \node[below right] at (p2){$P_2$};
 \end{scope}
 
 \begin{scope}[shift={(6,0)}]
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
-\node (p1) at (1.15,2.4){$\bullet$};
-\draw[-latex,thick] (p1.center) -- ++ (.5,1)node[above left]{$\bar{E}$};
-\node[below right] at (p1){$P_1$};
+\node (p3) at (1.2,2.6){$\bullet$};
+\draw[-latex,thick] (p3.center) -- ++ (.5,1)node[above left]{$\bar{E}$};
+\node[below right] at (p3){$P_3$};
 \end{scope}
 
-\draw[thick](1,2.265) .. controls (2.5,3) and (4.5,2) .. (8,2.75) node[below]{B} node[left = 1.5cm]{$\gamma_1$};
+\draw[thick](1,2.265) .. controls (2.5,3) and (4.5,2) .. (8,2.75) node[below]{B} node[left = 1.5cm]{$\gamma_1$ perc};
 
 \end{tikzpicture}
 \end{document}
