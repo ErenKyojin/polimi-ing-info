@@ -7,9 +7,10 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 
 \begin{scope}
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
+\node at (0.2,2){$\bullet$};
 \end{scope}
 
-\begin{scope}[shift={(4,0)}]
+\begin{scope}[shift={(2,0)}]
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
 \end{scope}
 
@@ -17,7 +18,7 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
 \end{scope}
 
-\begin{scope}
+\begin{scope}[shift={(6,0)}]
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
 \end{scope}
 
