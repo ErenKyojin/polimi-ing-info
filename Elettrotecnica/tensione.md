@@ -51,7 +51,7 @@ $$ \mathcal{L}_{AB}^{\gamma_{1}} = -q \int _{\gamma_{1}} \!\bar{E} \cdot \, \mat
 
 Una tensione ha senso solo dopo aver definito la linea lungo cui la si misura. Non dobbiamo essere stupiti da questa cosa, ci sono diverse grandezze di linea, come ad esempio la distanza.
 
-Se prendo un altro percorso per andare da $A$ a $B$ e lo chiamo
+Se prendo un altro percorso per andare da $A$ a $B$ e lo chiamo $\gamma_{2}$ in generale si avrà $\mathcal{L}_{AB}^{\gamma_{2}} \neq \mathcal{L}_{AB}^{\gamma_{1}}$. Siamo interessati a quele situazioni in cui il lavoro per portare una carica elettrica da $A$ a $B$ non dipende dal percorso. In que
 
 
 # Tensioni #trifase bilanciate
