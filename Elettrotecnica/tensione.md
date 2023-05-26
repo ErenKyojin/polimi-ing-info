@@ -49,7 +49,7 @@ $$ \mathcal{L}_{AB}^{\gamma_{1}} = -q \int _{\gamma_{1}} \!\bar{E} \cdot \, \mat
 >[!def]
 >La **tensione** è il lavoro, normalizzato rispetto alla carica, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea e si misura in Volt $[V] = JC^{-1}$
 
-Una tensione ha senso solo dopo
+Una tensione ha senso solo dopo aver definito la linea lungo cui la si misura. Non dobbiamo essere stupiti da questa cosa, ci sono diverse grandezze di linea, come ad esempio la distanza.
 
 
 # Tensioni #trifase bilanciate
