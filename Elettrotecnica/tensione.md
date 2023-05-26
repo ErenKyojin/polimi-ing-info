@@ -45,7 +45,9 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 Se dividiamo il percorso $\gamma_{1}$ in tanti piccoli tratti $d\bar{l}_{k}$ rettilinei, ossia approssimiamo la curva $\gamma_{1}$ con una spezzata. Il lavoro che devo compiere lungo il tratto $\d\bar{l}_{1}$ è pari a $\d\mathcal{L}_{1} = -q\bar{E}_{1} \cdot \d\bar{l}_{1} = -qE_{1}\d l_{1} \cos \alpha_{1}$ e quindi, sommando i contributi lungo tutto il percorso, ricavo l'approssimazione
 $$ \mathcal{L}_{AB}^{\gamma_{1}} \approx -q \sum_{k = 1}^N E_{k}\d l_{k} \cos \alpha k$$
 Al [[limite]] in cui consideriamo infinitesimi i singoli tratti $\d \bar{l}_{k}$, possiamo riscrivere quella sopra in forma [[integrale]]:
-$$ \mathcal{L}_{AB}^{\gamma_{1}} = -q \int _{\gamma_{1}} \!\bar{E} \cdot \, \mathrm{d}x  $$
+$$ \mathcal{L}_{AB}^{\gamma_{1}} = -q \int _{\gamma_{1}} \!\bar{E} \cdot \, \mathrm{d}\bar{l}  $$
+>[!def]
+>La **tensione** è il lavoro, normalizzato rispetto alla carica, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea e si misura in 
 
 
 # Tensioni #trifase bilanciate
