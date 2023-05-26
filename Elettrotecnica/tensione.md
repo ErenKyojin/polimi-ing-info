@@ -32,17 +32,17 @@ Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è 
 \begin{scope}[shift={(6,0)}]
 \draw(0,0) .. controls (0.2,2) and (2.8,4) .. (3,6);
 \node (p3) at (1.2,2.6){$\bullet$};
-\draw[-latex,thick] (p3.center) -- ++ (.5,1)node[above left]{$\bar{E}$};
+\draw[-latex,thick] (p3.center) -- ++ (.5,1)node[above left]{$\bar{E}_3$};
 \node[below right] at (p3){$P_3$};
 \end{scope}
 
-\draw[thick](1,2.265) .. controls (2.5,3) and (4.5,2) .. (8,2.75) node[below]{B} node[left = 1.5cm]{$\gamma_1$ perc};
+\draw[thick](1,2.265) .. controls (2.5,3) and (4.5,2) .. (8,2.75) node[below]{B} node[left = 1.5cm]{$\gamma_1$};
 
 \end{tikzpicture}
 \end{document}
 ```
 
-Se dividiamo il percorso $\gamma_{1}$ in tanti
+Se dividiamo il percorso $\gamma_{1}$ in tanti piccoli tratti $d\bar{l}_{k}$ rettilinei, ossia approssimiamo la curva $\gamma$ 
 
 
 # Tensioni #trifase bilanciate
