@@ -106,7 +106,7 @@ Che non dipende dal percorso ma solo dagli estremi $A$ e $B$. Il campo elettrico
 >$$ \frac{\mathcal{L}_{\infty,A}}{q} = \int _{\infty}^A \! \bar{E} \cdot  \, \mathrm{d}\bar{l} = V_{A} - V(\infty) = V_{A}  $$
 >e quindi $qV_{A}$ è il lavoro necessario per portare una carica $q$ dall'infinito al punto $A$ nell'ipotesi che in tutto lo spazio ci sia il medesimo campo elettrico conservativo.
 
-
+Se il campo elettrico è conservativo 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
 
