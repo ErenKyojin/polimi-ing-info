@@ -118,7 +118,10 @@ Se il campo elettrico è conservativo il lavoro fatto per spostare una carica lu
 \end{tikzpicture}
 \end{document}
 ```
-$$ - \int _{\gamma_{1}} \!\bar{E} \cdot \, \mathrm{d}\bar{l} =  $$
+$$\begin{align}
+ - \int _{\gamma_{1}} \!\bar{E} \cdot \, \mathrm{d}\bar{l} = \frac{\mathcal{L}_{AB}^{\gamma_{1}}}{q} = V_{BA} \\
+- \int _{\gamma_{2}} \!E \, \mathrm{d}x 
+\end{align}$$
 
 
 # Tensioni #trifase bilanciate
