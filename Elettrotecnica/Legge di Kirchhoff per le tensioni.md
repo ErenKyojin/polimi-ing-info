@@ -19,7 +19,9 @@ La legge di Kirchhoff per le tensioni (KVL) afferma, in regime quasi stazionario
 
 \draw (A) .. controls (-.5,.6) .. (B);
 \draw (B) .. controls (-1,-1.2) .. (C);
-\draw (C) .. controls (1,1.4) .. (D);
+\draw (C) .. controls (1,-1.4) .. (D);
+\draw (D) .. controls (.7,.78) and (1.2,1.5) .. (A);
+\path[-latex, thik] 
 \end{tikzpicture}
 \end{document}
 ```
