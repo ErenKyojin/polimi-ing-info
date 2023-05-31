@@ -100,4 +100,5 @@ Conoscendo approfonditamente il campo elettrico, iniziamo ad approfondire la [[t
  - [[legge di Gauss]]
  - [[dielettrici]]
 
+E quindi introdurre la [[corrente|corrente elettrica]]
 
