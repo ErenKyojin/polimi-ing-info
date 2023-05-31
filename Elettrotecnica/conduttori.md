@@ -31,3 +31,5 @@ Le linee di [[forza]] di $\vec{E}$ all'esterno del conduttore sono perpendicolar
 Preso inoltre un volume $V$ qualunque all'interno del conduttore delimitato da una superficie $S$, applicando il teorema di Gauss possiamo scrivere
 $$ \Phi_{S}(\bar{E}) = \oint_{S} \!\bar{E} \cdot \hat{u}_{N}\, \d s =0 = \frac{Q}{\varepsilon_{r} \varepsilon_{0}} $$
 Dove $Q$ è la carica netta all'interno del volume $V$. Se ne deduce quindi che $Q = 0$ ma cioè non significa che in $V$ non ci sia carica elettrica, ma che è nullo il bilancio tra cariche positive e cariche negative. Il ragionamento può essere esteso a superfici chiuse che giacciono all'interno del conduttore e che si estendano fino allo spessore di alcuni strati atomici dalla sua superficie. Nell'intorno della superficie del conduttore, infatti, le cariche sono sbilanciate per generare il campo elettrico necessario a rendere nullo all'interno del volume il campo elettrico complessivo.
+
+Come si può generare e quali caratteristiche ha la [[corrente]] elettrica in un conduttore?
