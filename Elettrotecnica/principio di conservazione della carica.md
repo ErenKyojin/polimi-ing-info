@@ -20,4 +20,6 @@ modification date: 2023-05-31 16:49
 \end{document}
 ```
 
-Consideriamo il volume qui sopra, delimitato dalla superficie $S$ e sia $q$ la carica netta che è presente all'interno di esso in un dato istante di tempo $t$. Possiamo immaginare che ci sia un flusso di cariche, attraverso $S$, che entrano nel volume e/o che ne fuoriescono
+Consideriamo il volume qui sopra, delimitato dalla superficie $S$ e sia $q$ la carica netta che è presente all'interno di esso in un dato istante di tempo $t$. Possiamo immaginare che ci sia un flusso di cariche, attraverso $S$, che entrano nel volume e/o che ne fuoriescono. Queste cariche in moto definiscono un campo di densità di corrente $\bar{\jmath}$ e la corrente $I$ attraverso $S$ sarà pari a 
+$$ I = \oint_{S} \! \bar{\jmath} \cdot \hat{u}_{N}\, \d S $$
+La corrente $I$, in base alla definizione, esprime la variazione della carica $q$ rispetto al tempo ovvero $\displaystyle \oint_{S} \!\bar{\jmath} \cdot \hat{u}_{N}\, \d S = I = -\frac{dq}{dt}$. Per giustificare
