@@ -121,9 +121,10 @@ Se il campo elettrico è conservativo il lavoro fatto per spostare una carica lu
 $$\begin{align}
  - \int _{\gamma_{1}} \!\bar{E} \cdot \, \mathrm{d}\bar{l} &= \frac{\mathcal{L}_{AB}^{\gamma_{1}}}{q} = V_{BA} \\
 - \int _{\gamma_{2}} \!\bar{E} \cdot \, \mathrm{d}\bar{l} &= \mathcal{L}_{BA}^{\gamma_{2}} = - \frac{\mathcal{L}_{AB}^{\gamma_{2}}}{q} = -V_{BA} \\
-- \int _{\gamma_{1} \cup \gamma_{2}} \! \bar{E} \cdot \, \mathrm{d}\bar{l} &= \oint_{\gamma} \! \bar{E} \cdot  \, \d \bar{l} = \mathcal{L}_{AB}^{\gamma_{1}}+\mathcal{L}_{}
+- \int _{\gamma_{1} \cup \gamma_{2}} \! \bar{E} \cdot \, \mathrm{d}\bar{l} &= \oint_{\gamma} \! \bar{E} \cdot  \, \d \bar{l} = \frac{{\mathcal{L}_{AB}^{\gamma_{1}}+\mathcal{L}_{BA}^{\gamma_{2}}}}{q} = V_{BA} - V_{BA} = 0
 \end{align}$$
 
+[[leggi di Kirchoff|Legge di Kirchoff per le tensioni]] 
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
