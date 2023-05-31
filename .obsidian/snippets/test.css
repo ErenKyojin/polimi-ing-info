@@ -67,5 +67,6 @@
 .callout[data-callout="legge"]
 {
 	--callout-icon: lucide-scale;
+	--callout-color: 254, 196, 78;
 
 }
