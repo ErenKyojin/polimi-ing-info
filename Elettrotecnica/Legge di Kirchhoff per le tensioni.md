@@ -8,3 +8,4 @@ La legge di Kirchhoff per le tensioni (KVL) afferma, in regime quasi stazionario
 >[!legge]
 >Lungo una qualunque linea chiusa, la somma algebrica delle tensioni, prese con il segno opportuno in base al verso di percorrenza della linea, è nulla.
 
+A titolo di esempio, nella figura sopra riportata è rappresentata una linea chiusa $\gamma, che immaginiamo di perc\cup ere da $
