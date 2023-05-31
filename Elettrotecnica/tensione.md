@@ -102,7 +102,8 @@ $$ \begin{align}
 Che non dipende dal percorso ma solo dagli estremi $A$ e $B$. Il campo elettrico generato da una carica puntiforme ammette quindi un potenziale radiale $V(r) = \frac{Q}{4\pi \varepsilon_{0} r}$
 
 >[!oss]
->Qualsiasi energia potenziale, quindi
+>Qualsiasi energia potenziale, quindi anche il potenziale elettrico, è una grandezza definita a meno di una costante additiva, ossia se partendo da una funzione $V(p)$ scrivessimo la funzione potenziale $\tilde{V} (P) = V(P) +$
+
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
