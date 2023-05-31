@@ -74,12 +74,12 @@ $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} 
 \draw[red,-{Latex[scale = 1.5]}] (2.1,1.5) -- ++ (.1,-.2) node[right]{$d\bar{l}$}; 
 
 \end{tikzpicture}
-\hspace{5cm}
+\hspace{2cm}
 \begin{tikzpicture}
 \begin{scope}[rotate=-30]
 \draw[-latex] (0,0) -- ++ (1.5,0)node[midway,below]{$d\bar{e}\perp$};
 \draw[-latex] (0,0) -- ++ (0,2)node[midway,left]{$d\bar{e}\parallel$};
-\draw[-latex] (0,0) -- ++ (1.5,2);
+\draw[-latex] (0,0) -- ++ (1.5,2)node[right]{$d\bar{e}$};
 \draw[dashed] (1.5,0) -- ++ (0,2);
 \draw[dashed] (0,2) -- ++ (1.5,0);
 \end{scope}
