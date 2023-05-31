@@ -77,7 +77,7 @@ $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} 
 \hspace{5cm}
 \begin{tikzpicture}
 \begin{scope}
-\draw[-latex] (0,0) -- ++ (1.5,0);
+\draw[-latex] (0,0) -- ++ (1.5,0)node[below]{$d\bar{e}$};
 \draw[-latex] (0,0) -- ++ (0,2);
 \draw[-latex] (0,0) -- ++ (1.5,2);
 \draw[dashed] (1.5,0) -- ++ (0,2);
