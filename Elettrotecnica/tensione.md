@@ -103,7 +103,8 @@ Che non dipende dal percorso ma solo dagli estremi $A$ e $B$. Il campo elettrico
 
 >[!oss]
 >Qualsiasi energia potenziale, quindi anche il potenziale elettrico, è una grandezza definita a meno di una costante additiva, ossia se partendo da una funzione $V(p)$ scrivessimo la funzione potenziale $\tilde{V} (P) = V(P) + V_{0}$ con $V_{0}$ costante, il lavoro necessario per spostare una carica $q$ da $A$ a $B$ (normalizzato rispetto alla carica) resterebbe invariato essendo $\frac{\mathcal{\tilde{L}}_{AB}}{q} = \tilde{V}(B) - \tilde{V}(A) = V(B) + V_{0} - (V(A) + V_{0}) = \frac{\mathcal{L}_{AB}}{q}$. Per convenzione $V(\infty) = 0$, quindi:
->$$ \frac{\mathcal{L}_{\infty,A}}{q} = \int _{\infty}^A \! \, \mathrm{d}x  $$
+>$$ \frac{\mathcal{L}_{\infty,A}}{q} = \int _{\infty}^A \! \bar{E} \cdot  \, \mathrm{d}\bar{l} = V_{A} - V(\infty) = V_{A}  $$
+>e quindi $qV_{A}$ è il lavoro necessario per portare una carica $q$ dall'infinito al punto $A$ nell'ipotesi che in tutto lo spazio ci sia il medesimo campo elettrico conser
 
 
 # Tensioni #trifase bilanciate
