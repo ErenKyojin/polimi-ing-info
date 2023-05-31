@@ -3,7 +3,7 @@
 alias: 
 ---
 
-[[Legge di Kirchoff per le tensioni]]
+[[Legge di Kirchhoff per le tensioni]]
 
 
 # KCL magnetica
