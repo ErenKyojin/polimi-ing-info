@@ -76,7 +76,10 @@ $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} 
 \end{tikzpicture}
 \hspace{5cm}
 \begin{tikzpicture}
-
+\begin{scope}
+\draw[-latex] (0,0) -- ++ (1.5,0);
+\draw[-latex] (0,0) -- ++ (0,2);
+\end{scope}
 \end{tikzpicture}
 
 \end{document}
