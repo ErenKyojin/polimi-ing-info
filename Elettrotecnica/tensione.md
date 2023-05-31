@@ -102,7 +102,7 @@ $$ \begin{align}
 Che non dipende dal percorso ma solo dagli estremi $A$ e $B$. Il campo elettrico generato da una carica puntiforme ammette quindi un potenziale radiale $V(r) = \frac{Q}{4\pi \varepsilon_{0} r}$
 
 >[!oss]
->Qualsiasi energia potenziale, quindi anche il potenziale elettrico, è una grandezza definita a meno di una costante additiva, ossia se partendo da una funzione $V(p)$ scrivessimo la funzione potenziale $\tilde{V} (P) = V(P) + V_{0}$ con $V_{0}$ costante, il lavoro necessario per spostare una carica $q$ da $A$ a $B$ (normalizzato rispetto alla carica) resterebbe invariato essendo $\frac{\mathcal{\tilde{L}}_{AB}}{q} = \tilde{V}(B) - \tilde{V}(A) = V(B) + V_{0} - (V(A) + V_{0})$
+>Qualsiasi energia potenziale, quindi anche il potenziale elettrico, è una grandezza definita a meno di una costante additiva, ossia se partendo da una funzione $V(p)$ scrivessimo la funzione potenziale $\tilde{V} (P) = V(P) + V_{0}$ con $V_{0}$ costante, il lavoro necessario per spostare una carica $q$ da $A$ a $B$ (normalizzato rispetto alla carica) resterebbe invariato essendo $\frac{\mathcal{\tilde{L}}_{AB}}{q} = \tilde{V}(B) - \tilde{V}(A) = V(B) + V_{0} - (V(A) + V_{0}) = \frac{\mathcal{L}_{AB}}{q}$
 
 
 # Tensioni #trifase bilanciate
