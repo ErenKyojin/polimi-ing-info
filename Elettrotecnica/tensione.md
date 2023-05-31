@@ -91,7 +91,8 @@ $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} 
 
 Facendo riferimento alla figura a destro notiamo come sia possibile scomporre $\d \bar{l}$ nella somma di due contributi, uno $(\d \bar{l}_{\parallel})$ diretto come il versore $\hat{r}$ e uno $(\d \bar{l}_{\perp})$ normale ad esso. Possiamo allora riscrivere la formula sopra come
 $$ \begin{align}
-\d \mathcal{L} = -q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot (\d\bar{l}_{\perp} + \d )
+\d \mathcal{L} &= -q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot (\d\bar{l}_{\perp} + \d \bar{l}_{\parallel} ) = -q \frac{1}{4 \pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot d\bar{l}_{\parallel}= \\
+&=-q \frac{1}{4\pi\varepsilon_{0}}
 \end{align} $$
 
 # Tensioni #trifase bilanciate
