@@ -24,4 +24,10 @@ La corrente elettrica $I$, misurata in Ampere ($A = Cs^{-1}$), è definita, in t
 ```
 Immaginiamo un piccolo cilindretto di lunghezza $v\Delta t$ che contiene $n$ cariche $q$ che si muovono a velocità costante $\bar{v}$ parallelamente all'asse del cilindretto stesso. Nell'intervallo di tempo $\Delta t$, tutte le $n$ cariche attraversano la superficie di base $\d S$ del cilindretto.
 
-Si rileva dunque una intensità media di corrente $I$ attraverso a $\d S$ pari a $\frac{nq}{\Delta t}$. Se si assume $\Delta t = t - t_{0}$ e $\Delta Q = Q(t) - Q(t_{0})$, cioè la carica che attraversa $\d S$ in $\Delta t$ viene espressa come l'incremento della carica che aveva attraversato la superficie fino a $t_{0}$, passando al limite per $\Theta$
+Si rileva dunque una intensità media di corrente $I$ attraverso a $\d S$ pari a $\frac{nq}{\Delta t}$. Se si assume $\Delta t = t - t_{0}$ e $\Delta Q = Q(t) - Q(t_{0})$, cioè la carica che attraversa $\d S$ in $\Delta t$ viene espressa come l'incremento della carica che aveva attraversato la superficie fino a $t_{0}$, passando al limite per $\Delta t \to 0$ si ottiene
+$$ I = \frac{dQ}{dt}  $$
+È evidente che, in base alla sua definizione, la corrente $I$ è una grandezza scalare. Tuttavia, nei circuiti elettrici che studieremo, indicheremo abitualmente la corrente con una freccia dotata di verso. In questa rappresentazione assumeremo, per convenzione, che una corrente $I$ abbia il verso e la direzione delle cariche positive. In altre parola, quando indicheremo con una freccia il verso in cui fluisce una corrente $I$, indicheremo che in quel verso si stanno muovendo cariche positive o che cariche negative si stanno muovendo nel verso opposto.
+
+Fino ad ora abbiamo considerato una situazione specifica, in cui le cariche si muovono con velocità costante $\bar{v}$, nella medesima direzione e con lo stesso verso. Più in generale, consideriamo una superficie infinitesima $\d S$ con versore normale $\hat{u}_{N}$, attraverso la quale sono in moto con velocità $\bar{v}$ particelle cariche la cui densità per unità di volume sia $\rho_{V}$. La carica netta passante attraverso l'unità di area nell'unità di tempo è dunque
+$$ \rho_{V}\bar{v} \cdot \hat{u}_{N} \d S = \bar{\jmath} \cdot \hat{u}_{N} \d S $$
+Essendo $\bar{\jmath} = \rho_{V}v$
