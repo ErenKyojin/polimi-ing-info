@@ -119,8 +119,9 @@ Se il campo elettrico è conservativo il lavoro fatto per spostare una carica lu
 \end{document}
 ```
 $$\begin{align}
- - \int _{\gamma_{1}} \!\bar{E} \cdot \, \mathrm{d}\bar{l} = \frac{\mathcal{L}_{AB}^{\gamma_{1}}}{q} = V_{BA} \\
-- \int _{\gamma_{2}} \!E \, \mathrm{d}x 
+ - \int _{\gamma_{1}} \!\bar{E} \cdot \, \mathrm{d}\bar{l} &= \frac{\mathcal{L}_{AB}^{\gamma_{1}}}{q} = V_{BA} \\
+- \int _{\gamma_{2}} \!\bar{E} \cdot \, \mathrm{d}\bar{l} &= \mathcal{L}_{BA}^{\gamma_{2}} = - \frac{\mathcal{L}_{AB}^{\gamma_{2}}}{q} = -V_{BA} \\
+- \int _{\gamma_{1} \cup \gamma_{2}} \! \bar{E} \cdot \, \mathrm{d}\bar{l} = \oint  
 \end{align}$$
 
 
