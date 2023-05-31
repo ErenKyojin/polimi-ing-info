@@ -23,7 +23,7 @@ La legge di Kirchhoff per le tensioni (KVL) afferma, in regime quasi stazionario
 \draw (D) .. controls (.7,.78) and (1.2,1.5) .. (A);
 \path[-latex, thick, orange]
 	(A) edge[bend right] node[midway,above]{$V_{BA}$} (B)
-	(B) edge[bend ]
+	(B) edge[bend right] node[midway,above]{$V_{CB}$} (C)
 ;
 \end{tikzpicture}
 \end{document}
