@@ -118,6 +118,8 @@ Se il campo elettrico è conservativo il lavoro fatto per spostare una carica lu
 \end{tikzpicture}
 \end{document}
 ```
+$$ - \int _{\gamma_{1}} \!\bar{E} \cdot \, \mathrm{d}\bar{l} =  $$
+
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
