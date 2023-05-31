@@ -82,6 +82,7 @@ $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} 
 \draw[-latex] (0,0) -- ++ (1.5,2)node[right]{$d\bar{e}$};
 \draw[dashed] (1.5,0) -- ++ (0,2);
 \draw[dashed] (0,2) -- ++ (1.5,0);
+\draw[-latex] (0,2) -- ++ (0,1)node[midway,right]{$\hat{x}$};
 \end{scope}
 \end{tikzpicture}
 
