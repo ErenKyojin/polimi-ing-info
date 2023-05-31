@@ -30,4 +30,8 @@ $$ I = \frac{dQ}{dt}  $$
 
 Fino ad ora abbiamo considerato una situazione specifica, in cui le cariche si muovono con velocità costante $\bar{v}$, nella medesima direzione e con lo stesso verso. Più in generale, consideriamo una superficie infinitesima $\d S$ con versore normale $\hat{u}_{N}$, attraverso la quale sono in moto con velocità $\bar{v}$ particelle cariche la cui densità per unità di volume sia $\rho_{V}$. La carica netta passante attraverso l'unità di area nell'unità di tempo è dunque
 $$ \rho_{V}\bar{v} \cdot \hat{u}_{N} \d S = \bar{\jmath} \cdot \hat{u}_{N} \d S $$
-Essendo $\bar{\jmath} = \rho_{V}v$
+Essendo $\bar{\jmath} = \rho_{V}\bar{v}$ il campo vettoriale che indica la **densità di corrente**. Se indichiamo con $S$ una superficie orientata che si trovi in un regione dello spazio in cui è presente il campo $\bar{\jmath}$ la corrente elettrica $I$ attraverso $S$ è espressa come
+$$ I = \Phi_{S}(\bar{\jmath}) = \int _{S} \bar{\jmath} \cdot \hat{u}_{N} \! \, \mathrm{d}S  $$
+Se $S$ è in ogni suo punto perpendicolare a $\bar{\jmath}$, la corrente è lo scalare $I = \rho_{V} vS$.
+
+Grazie al concetto di corrente elettrica possiamo formalizzare il [[principio di conservazione della carica]] 
