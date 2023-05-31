@@ -92,8 +92,9 @@ $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} 
 Facendo riferimento alla figura a destro notiamo come sia possibile scomporre $\d \bar{l}$ nella somma di due contributi, uno $(\d \bar{l}_{\parallel})$ diretto come il versore $\hat{r}$ e uno $(\d \bar{l}_{\perp})$ normale ad esso. Possiamo allora riscrivere la formula sopra come
 $$ \begin{align}
 \d \mathcal{L} &= -q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot (\d\bar{l}_{\perp} + \d \bar{l}_{\parallel} ) = -q \frac{1}{4 \pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot d\bar{l}_{\parallel}= \\
-&=-q \frac{1}{4\pi\varepsilon_{0}}
+&=-q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot \underbrace{ \hat{r} \d r }_{ d\bar{l}_{\parallel} }=-q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2} \d r
 \end{align} $$
+E quindi o
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
