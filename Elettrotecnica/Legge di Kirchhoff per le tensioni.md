@@ -11,10 +11,13 @@ La legge di Kirchhoff per le tensioni (KVL) afferma, in regime quasi stazionario
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\node (A) at (0,2);
-\node (B) at (-2,0);
-\node ()
-\node (D) at (2,0);
+
+\node (A) at (0,2){A};
+\node (B) at (-2,0){B};
+\node (C) at (0,-2){C};
+\node (D) at (2,0){D};
+
+\draw (A.center) .. controls (.5,1) .. (B);
 \end{tikzpicture}
 \end{document}
 ```
