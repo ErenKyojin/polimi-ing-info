@@ -10,7 +10,7 @@ La legge di Kirchhoff per le tensioni (KVL) afferma, in regime quasi stazionario
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[auto]
 
 \node (A) at (0,2){A};
 \node (B) at (-2,0){B};
@@ -21,7 +21,10 @@ La legge di Kirchhoff per le tensioni (KVL) afferma, in regime quasi stazionario
 \draw (B) .. controls (-1,-1.2) .. (C);
 \draw (C) .. controls (1,-1.4) .. (D);
 \draw (D) .. controls (.7,.78) and (1.2,1.5) .. (A);
-\path[-latex, thik] 
+\path[-latex, thick, orange]
+	(A) edge[bend right] node[midway,above]{$V_{BA}$} (B)
+	(B) edge[bend ]
+;
 \end{tikzpicture}
 \end{document}
 ```
