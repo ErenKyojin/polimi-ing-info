@@ -22,10 +22,10 @@ La legge di Kirchhoff per le tensioni (KVL) afferma, in regime quasi stazionario
 \draw (C) .. controls (1,-1.4) .. (D);
 \draw (D) .. controls (.7,.78) and (1.2,1.5) .. (A);
 \path[-latex, thick, orange]
-	(A) edge[bend right] node[midway,above]{$V_{BA}$} (B)
-	(B) edge[bend right] node[midway,below]{$V_{CB}$} (C)
-	(C) edge[bend right] node[midway,below]{$V_{DC}$} (D)
-	(D) edge[bend right] node[midway,above]{$V_{AD}$} (A)
+	(A) edge[bend right] node[midway,above=3mm]{$V_{BA}$} (B)
+	(B) edge[bend right] node[midway,below=3mm]{$V_{CB}$} (C)
+	(C) edge[bend right] node[midway,below=3mm]{$V_{DC}$} (D)
+	(D) edge[bend right] node[midway,above=3mm]{$V_{AD}$} (A)
 ;
 \end{tikzpicture}
 \end{document}
@@ -34,4 +34,4 @@ La legge di Kirchhoff per le tensioni (KVL) afferma, in regime quasi stazionario
 A titolo di esempio, nella figura sopra riportata è rappresentata una linea chiusa $\gamma$ che immaginiamo di percorrere dal punto $A$ in senso antiorario, in una regione dello spazio in cui è presente un [[campo elettrico]] $\bar{E}$.
 Dato che ipotizziamo di essere in regime quasi-stazionari, il campo $\bar{E}$ ammette un potenziale ed è conservativo. Spostandomi dal punto $A$ con l'idea di tornarci, posso immaginare di spezzare il percorso in tappe: da $A$ a $B$, da $B$ a $C$, da $C$ a $D$ e da $D$ in $A$, caratterizzate dalle tensioni $V_{BA} =, V_{CB}, V_{DC}$ e $V_{AD}$, rispettivamente. Posso dunque scrivere
 $$ - \oint_{\gamma} \!\bar{E} \cdot \,\d \bar{l}=V_{BA} + V_{CB} + V_{DC} + V_{AD} = 0  $$
-Dove le tensioni hanno tutte segno positivo in quanto orientate come il percorso
+Dove le tensioni hanno tutte segno positivo in quanto orientate come il percorso, invece 
