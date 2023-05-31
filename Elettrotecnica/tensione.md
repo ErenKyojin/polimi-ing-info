@@ -96,7 +96,7 @@ $$ \begin{align}
 \end{align} $$
 E quindi ottenere
 $$ \begin{align}
-\mathcal{L}_{AB}^\gamma = - \int _{A}^B \! \, \mathrm{d}x 
+\mathcal{L}_{AB}^\gamma = - \int _{A}^B \frac{qQ}{4\pi\varepsilon} \! \, \frac{\mathrm{d}r}{r^2} = 
 \end{align} $$
 
 # Tensioni #trifase bilanciate
