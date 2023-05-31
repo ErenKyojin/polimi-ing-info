@@ -89,7 +89,7 @@ $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} 
 \end{document}
 ```
 
-Facendo riferimento alla figura a destro notiamo come sia possibile scomporre $\d \bar{l}$ nella somma di due contributi, uno $(\d \bar{l}_{\parall})$
+Facendo riferimento alla figura a destro notiamo come sia possibile scomporre $\d \bar{l}$ nella somma di due contributi, uno $(\d \bar{l}_{\parallel})$ diretto come il versore $\hat{r}$ e uno $(\d \bar{l}_{\perp})$ normale ad esso. Possiamo allora riscrivere la formula sopra
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
