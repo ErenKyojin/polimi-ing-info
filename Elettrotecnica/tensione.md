@@ -99,6 +99,10 @@ $$ \begin{align}
 \mathcal{L}_{AB}^\gamma &= - \int _{A}^B \frac{qQ}{4\pi\varepsilon} \! \, \frac{\mathrm{d}r}{r^2} =- \frac{Q}{4 \pi\varepsilon_{0}}q \left( - \frac{1}{r} \right) \bigg \vert_{r_{A}}^{r_{B}} = -q\left( -\frac{Q}{4\pi \varepsilon_{0}r_{B} } + \frac{Q}{4\pi\varepsilon_{0}r_{A}} \right) \\
 &= q\left( \frac{Q}{4\pi\varepsilon_{0}rB} - \frac{Q}{4\pi\varepsilon_{0}r_{A}} \right) = q(V_{B} - V_{A}) = qV_{BA}
 \end{align} $$
+Che non dipende dal percorso ma solo dagli estremi $A$ e $B$. Il campo elettrico generato da una carica puntiforme ammette quindi un potenziale radiale $V(r) = \frac{Q}{4\pi \varepsilon_{0} r}$
+
+>[!oss]
+>Qualsiasi energia potenziale, quindi
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
