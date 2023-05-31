@@ -35,4 +35,4 @@ A titolo di esempio, nella figura sopra riportata è rappresentata una linea chi
 Dato che ipotizziamo di essere in regime quasi-stazionari, il [[Elettrotecnica/campo|campo]] $\bar{E}$ ammette un potenziale ed è conservativo. Spostandomi dal punto $A$ con l'idea di tornarci, posso immaginare di spezzare il percorso in tappe: da $A$ a $B$, da $B$ a $C$, da $C$ a $D$ e da $D$ in $A$, caratterizzate dalle [[tensione|tensioni]] $V_{BA} =, V_{CB}, V_{DC}$ e $V_{AD}$, rispettivamente. Posso dunque scrivere
 $$ - \oint_{\gamma} \!\bar{E} \cdot \,\d \bar{l}=V_{BA} + V_{CB} + V_{DC} + V_{AD} = 0  $$
 Dove le tensioni hanno tutte segno positivo in quanto orientate come il percorso, se invece di scegliere la tensione $V_{AB}$ avessimo scelto la tensione $V_{BA}$ avremmo dovuto scrivere $-V_{AB} + V_{CB} + V_{DC} + V_{AD} = 0$. Essendo $V_{AB}$ orientata nel senso opposto rispetto al percorso.
-È utile introdurre il [[flusso di un campo vettoriale]] e la [[legge di Gauss]]
+

@@ -93,4 +93,11 @@ $$ \bar{E} = \sum_{k=1}^N \bar{E}_{k} = \frac{1}{4\pi\varepsilon_{0}} \sum_{k = 
 
 Le linee di forza del campo risultante hanno struttura geometrica più complessa delle linee radiali del campo generato da una singola carica puntiforme. 
 
-Conoscendo approfonditamente il campo elettrico, iniziamo ad approfondire la [[tensione|tensione elettrica]]
+Conoscendo approfonditamente il campo elettrico, iniziamo ad approfondire la [[tensione|tensione elettrica]].
+
+ Vediamo altri concetti utili:
+ - [[flusso di un campo vettoriale]]  
+ - [[legge di Gauss]]
+ - [[dielettrici]]
+
+
