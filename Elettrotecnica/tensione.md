@@ -113,6 +113,8 @@ Se il campo elettrico è conservativo il lavoro fatto per spostare una carica lu
 \begin{tikzpicture}
 \node (A) at (-1,0){A};
 \node (B) at (1,0) {B};
+\path[-latex] (A) edge[bend left] node[above]{$r_2$} (B)
+              (B) edge[bend left] node[below]{$r_1$}(A);
 \end{tikzpicture}
 \end{document}
 ```
