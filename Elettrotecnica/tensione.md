@@ -94,7 +94,10 @@ $$ \begin{align}
 \d \mathcal{L} &= -q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot (\d\bar{l}_{\perp} + \d \bar{l}_{\parallel} ) = -q \frac{1}{4 \pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot d\bar{l}_{\parallel}= \\
 &=-q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot \underbrace{ \hat{r} \d r }_{ d\bar{l}_{\parallel} }=-q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2} \d r
 \end{align} $$
-E quindi o
+E quindi ottenere
+$$ \begin{align}
+\mathcal{L}_{AB}^\gamma = - \int _{A}^B \! \, \mathrm{d}x 
+\end{align} $$
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
