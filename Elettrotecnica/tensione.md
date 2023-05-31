@@ -96,7 +96,8 @@ $$ \begin{align}
 \end{align} $$
 E quindi ottenere
 $$ \begin{align}
-\mathcal{L}_{AB}^\gamma = - \int _{A}^B \frac{qQ}{4\pi\varepsilon} \! \, \frac{\mathrm{d}r}{r^2} =- \frac{Q}{4 \pi\varepsilon_{0}}q \left( - \frac{1}{r} \right) \bigg \vert_{r_{A}}^{r_{B}} = -q\left( -\frac{Q}{4\pi \varepsilon_{0}} \right) 
+\mathcal{L}_{AB}^\gamma &= - \int _{A}^B \frac{qQ}{4\pi\varepsilon} \! \, \frac{\mathrm{d}r}{r^2} =- \frac{Q}{4 \pi\varepsilon_{0}}q \left( - \frac{1}{r} \right) \bigg \vert_{r_{A}}^{r_{B}} = -q\left( -\frac{Q}{4\pi \varepsilon_{0}r_{B} } + \frac{Q}{4\pi\varepsilon_{0}r_{A}} \right) \\
+&= q\left( \frac{Q}{4\pi\varepsilon_{0}rB} - \frac{Q}{4\pi\varepsilon_{0}r_{A}} \right) = q(V_{B} - V_{A}) = qV_{BA}
 \end{align} $$
 
 # Tensioni #trifase bilanciate
