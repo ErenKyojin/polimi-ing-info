@@ -9,4 +9,4 @@ $$ I = \oint_{S} \! \bar{\jmath} \cdot \hat{u}_{N} \d S  =0$$
 Ovvero possiamo affermare che:
 
 >[!legge] 
->In regime quasi stazionario il bilancio delle correnti entranti e delle correnti uscenti da una superficie chiusa è nu
+>In regime quasi stazionario il bilancio delle correnti entranti e delle correnti uscenti da una superficie chiusa è nullo
