@@ -88,6 +88,10 @@ Problemi di:
 ![[Ciclo]]
 
 
+>[!oss]
+>Gli automi a stati finiti riconoscono i [[linguaggi regolari]] ([[Chiusura#famiglia di linguaggi]]). 
+
+
 Visualizzamo meglio gli automi a stati finiti:
 
 ![[FSA.canvas]]
@@ -207,8 +211,4 @@ Puó essere piú semplice progettarlo e ricavarne, attraverso un [[algoritmo]], 
 
 >[!Esempio]
 >Da un AND a 5 stati ne ricaiamo nel peggiore dei casi uno con $2^5$ stati
-
-
->[!oss]
-Gli automi a stati finiti riconoscono i [[linguaggi regolari]] ([[Chiusura#famiglia di linguaggi]])
 
