@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Untitled 1.md",
+                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Untitled 1.md",
+                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Untitled 1.md",
+                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Untitled 1.md"
+                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md"
               }
             }
           }
@@ -193,7 +193,7 @@
   "active": "433e0a8098da9adb",
   "lastOpenFiles": [
     "Algoritmi e principi dell'informatica/Chiusura.md",
-    "Algoritmi e principi dell'informatica/Untitled 1.md",
+    "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md",
     "Analisi 1/Insiemi numerici/Campo.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a pila.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
