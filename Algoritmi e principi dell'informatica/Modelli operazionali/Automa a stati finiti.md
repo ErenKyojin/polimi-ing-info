@@ -90,8 +90,7 @@ Problemi di:
 
 >[!oss]
 >Gli automi a stati finiti riconoscono i [[linguaggi regolari]] ([[Chiusura#famiglia di linguaggi]]).
->Sono infatti chiusi rispetto all'unione ()
-
+>Ad esempio l'automa che riconosce $L(A_{1}) \cap L(A_{2})$ è ottenuto simulando il funzionamento parallelo
 
 Visualizziamo meglio gli automi a stati finiti:
 
