@@ -38,3 +38,4 @@ In un materiale conduttore che abbia come portatori gli elettroni, esiste una st
 Muovendosi però gli elettroni urtano contro il reticolo e cedono energia, quindi l'effetto del campo $\bar{E}$ non sarà quello di produrre un moto uniformemente accelerato, come accadrebbe nel vuoto, ma di fare loro assumere una velocità di deriva costante che si sperimenta essere uguale a $\bar{v}_{drif} = -\mu \bar{E}$ con $\mu > 0$ **mobilità** delle cariche libere ($[\mu] = mCs^{-1}N^{-1}$). Questa relazione è valida per valori di $\bar{E}$ relativamente bassi, tipici dei componenti elettrici ed elettronici. Per valori elevati di $\bar{E}$ tipici dei componenti elettrici ed elettronici.
 Per valori elevati di $\bar{E}$ intervengono altri effetti che rendono non più valido quanto detto
 
+[[]]
