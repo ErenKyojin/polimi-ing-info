@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
+                "file": "Algoritmi e principi dell'informatica/Linguaggio.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
+                "file": "Algoritmi e principi dell'informatica/Linguaggio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
+                "file": "Algoritmi e principi dell'informatica/Linguaggio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md"
+                "file": "Algoritmi e principi dell'informatica/Linguaggio.md"
               }
             }
           }
@@ -179,6 +179,7 @@
   },
   "active": "caaa046150140b3a",
   "lastOpenFiles": [
+    "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
     "Analisi 2/Funzione analitica.md",
     "Analisi 2/Funzione periodiche.md",
     "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
@@ -188,7 +189,6 @@
     "Algoritmi e principi dell'informatica/Chiusura.md",
     "Algoritmi e principi dell'informatica/Ciclo.md",
     "Algoritmi e principi dell'informatica/Esercitazioni/Esercitazione.md",
-    "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Modelli operazionali.md",
     "Algoritmi e principi dell'informatica/sequenza di mosse.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/funzione di transizione.md",
