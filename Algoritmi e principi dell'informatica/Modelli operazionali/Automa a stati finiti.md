@@ -131,6 +131,7 @@ $$
 
 ## Quando accetta un FSA ND
 Accettiamo se nell'insieme dello stato a cui arriviamo c'è almeno uno stato finale, formalmente:
+
 $$
 x \in L \leftrightarrow  \delta^*(q_{0},x) \cap F \neq \varnothing
 $$
