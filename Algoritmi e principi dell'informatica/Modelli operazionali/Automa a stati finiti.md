@@ -209,4 +209,4 @@ Puó essere piú semplice progettarlo e ricavarne, attraverso un [[algoritmo]], 
 >Da un AND a 5 stati ne ricaiamo nel peggiore dei casi uno con $2^5$ stati
 
 
-
+Gli automi a stati finiti riconoscono i linguaggi re
