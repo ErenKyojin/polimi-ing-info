@@ -41,10 +41,16 @@ alias: linguaggi
 >[!def]
 >**Linguaggio**: $L$ sottoinsieme di $A^*$: $L \subseteq A^*$
 
+## classi di linguaggi
+
 >[!def]
 >Un linguaggio è detto **regolare** se viene riconosciuto da un [[Automa a stati finiti]]
 >$ab^na$ regolare
 >$a^nb^n$ irregolare 
+
+[[linguaggio ricorsivo]]
+[[linguaggio senza contesto]]
+
 
 
 # Operazioni tra linguaggi
