@@ -27,4 +27,4 @@ Consideriamo un filo molto sottile di materiale [[conduttori|conduttore]] (detta
 - $S$
 - Tipo di materiale
 
-Supponiamo di poter generare un campo elettrico $\bar{E}$ stazionario all'interno del conduttore. Tale campo è conservativo e quindi $\oint_{\gamma} \bar{E} \cdot \d \bar{l} = 0$. Se ne deduce che il campo $\bar{E}$ non è in grado di generare una corrente costante $I$ all'interno di 
+Supponiamo di poter generare un campo elettrico $\bar{E}$ stazionario all'interno del conduttore. Tale campo è conservativo e quindi $\oint_{\gamma} \bar{E} \cdot \d \bar{l} = 0$. Se ne deduce che il campo $\bar{E}$ non è in grado di generare una corrente costante $I$ all'interno della spira conduttrice dal momento che in base alla [[legge di Ohm]]
