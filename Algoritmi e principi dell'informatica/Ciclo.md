@@ -14,7 +14,7 @@
 
 Se un ciclo si puó percorrere una volta allora lo stesso ciclo si puó percorrere infinite volte, formalmente:
 
->[!teorema] Pupmping lemma nei FSA
+>[!teorema] Pumping lemma nei FSA
 >Se $x \in L$ e $|x| > |Q|$
 > esistono $q \in Q$ e $w \in I^+$ tali che:
 > - $x = ywz$
@@ -26,9 +26,9 @@ Se un ciclo si puó percorrere una volta allora lo stesso ciclo si puó percorre
 Da questo lemma derivano molte proprietà:
 
 1. $L = \varnothing$? $\exists x \in L \iff \exists y \in L :|y| < |Q|$
-Per arrivare allo stato finale sono richiesti $|Q|-1$
-2. $|L| = \infty?$ $\exists x \in L, |Q| \leq |x| < 2|Q|$
-   Anche in questo caso richiesti $|Q|-1$ passaggi ed inoltre il ciclo massimo è di lunghezza $|Q|$
+	Per arrivare allo stato finale sono richiesti $|Q|-1$
+1. $|L| = \infty?$ $\exists x \in L, |Q| \leq |x| < 2|Q|$
+	Anche in questo caso richiesti $|Q|-1$ passaggi ed inoltre il ciclo massimo è di lunghezza $|Q|$
 
 3. Conseguenza negativa:
    Consideriamo il linguaggio $\left\{ a^nb^n \right\}$, composto da $n$ a seguite da $n$ b, è riconoscibile da un [[Automa a stati finiti]]? 
