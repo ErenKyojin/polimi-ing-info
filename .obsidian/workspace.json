@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Chiusura.md",
+                "file": "Algoritmi e principi dell'informatica/linguaggi regolari.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Chiusura.md",
+                "file": "Algoritmi e principi dell'informatica/linguaggi regolari.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Chiusura.md",
+                "file": "Algoritmi e principi dell'informatica/linguaggi regolari.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Chiusura.md"
+                "file": "Algoritmi e principi dell'informatica/linguaggi regolari.md"
               }
             }
           }
@@ -179,6 +179,8 @@
   },
   "active": "caaa046150140b3a",
   "lastOpenFiles": [
+    "Algoritmi e principi dell'informatica/Chiusura.md",
+    "Algoritmi e principi dell'informatica/linguaggi regolari.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a pila.md",
     "Algoritmi e principi dell'informatica/Linguaggio.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
@@ -188,7 +190,6 @@
     "Analisi 2/serie trigonometrica.md",
     "Algoritmi e principi dell'informatica/Teoria del calcolo.md",
     "Algoritmi e principi dell'informatica/gerarchia di Chomsky.md",
-    "Algoritmi e principi dell'informatica/Chiusura.md",
     "Algoritmi e principi dell'informatica/Ciclo.md",
     "Algoritmi e principi dell'informatica/Esercitazioni/Esercitazione.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Modelli operazionali.md",
@@ -204,7 +205,6 @@
     "Algoritmi e principi dell'informatica/La riduzione dei problemi.md",
     "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
     "Elettrotecnica/tensione.md",
-    "Elettrotecnica/campo elettrico.md",
     "Algoritmi e principi dell'informatica/Srutture dati"
   ]
 }

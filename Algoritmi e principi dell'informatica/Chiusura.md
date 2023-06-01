@@ -22,7 +22,7 @@ L chiusa rispetto ad un operazione OP se e solo se per ogni
 $$
 L_{1},L_{2} \in L,\quad L_{1} \text{ OP } L_{2} \in L
 $$
-REG linguaggi regolari riconosciuti da FSA
+Una famiglia di linguaggi sono i [[linguaggi regolari]] riconosciuti da FSA
 REG chiusa rispetto alle operazioni insiemistiche, alla concatenazione, la $*$, e praticamente tutte le altre 
 
 Vediamo la costruzione di alcune operazioni:
