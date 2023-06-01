@@ -4,10 +4,10 @@
   "enabledCssSnippets": [
     "titles",
     "lists",
-    "test",
     "centerImg",
     "MCL Multi Column",
-    "templater"
+    "templater",
+    "test"
   ],
   "interfaceFontFamily": "Inter",
   "textFontFamily": "Atkinson Hyperlegible",

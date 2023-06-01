@@ -1,8 +1,9 @@
 
 ---
-alias: Legge di Kirchoff per le tensioni, Legge di Kirchoff per le correnti, Legge di Kirchoff
+alias: 
 ---
 
+[[Legge di Kirchhoff per le tensioni]]
 
 
 # KCL magnetica

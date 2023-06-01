@@ -1,3 +1,6 @@
+---
+aliases: tensioni
+---
 # Tensione
 Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è presente un [[campo elettrico]], essa subisce una [[forza]] e quindi si mette in [[moto]]. La forza prodotta dal campo elettrico tende a farla muovere lungo le [[linee di forza]] del campo stesso. Nel muovere la carica nella regione di spazio in cui è presente il campo elettrico, esso stesso compie [[Fisica/Dinamica/Lavoro|lavoro]] e quindi modifica l'energia della carica. Cosa accade se voglio muovere una carica da un punto $A$ ad un punto $B$, lungo ad esempio il percorso $\gamma_{1}$? In questo caso non sarà il campo a compiere lavoro ma dovrò essere io a dovermi opporre alla forza generata dal campo elettrico.
 
@@ -74,8 +77,57 @@ $$ d\mathcal{L} = -q\bar{E} \cdot \d \bar{l} = -q \frac{1}{4\pi\varepsilon_{0}} 
 \draw[red,-{Latex[scale = 1.5]}] (2.1,1.5) -- ++ (.1,-.2) node[right]{$d\bar{l}$}; 
 
 \end{tikzpicture}
+\hspace{2cm}
+\begin{tikzpicture}
+\begin{scope}[rotate=-30]
+\draw[-latex] (0,0) -- ++ (1.5,0)node[midway,below]{$d\bar{e}\perp$};
+\draw[-latex] (0,0) -- ++ (0,2)node[midway,left]{$d\bar{e}\parallel$};
+\draw[-latex] (0,0) -- ++ (1.5,2)node[right]{$d\bar{e}$};
+\draw[dashed] (1.5,0) -- ++ (0,2);
+\draw[dashed] (0,2) -- ++ (1.5,0);
+\draw[-latex] (0,2) -- ++ (0,1)node[midway,right]{$\hat{x}$};
+\end{scope}
+\end{tikzpicture}
+
 \end{document}
 ```
+
+Facendo riferimento alla figura a destro notiamo come sia possibile scomporre $\d \bar{l}$ nella somma di due contributi, uno $(\d \bar{l}_{\parallel})$ diretto come il versore $\hat{r}$ e uno $(\d \bar{l}_{\perp})$ normale ad esso. Possiamo allora riscrivere la formula sopra come
+$$ \begin{align}
+\d \mathcal{L} &= -q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot (\d\bar{l}_{\perp} + \d \bar{l}_{\parallel} ) = -q \frac{1}{4 \pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot d\bar{l}_{\parallel}= \\
+&=-q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2}\hat{r} \cdot \underbrace{ \hat{r} \d r }_{ d\bar{l}_{\parallel} }=-q \frac{1}{4\pi\varepsilon_{0}} \frac{Q}{r^2} \d r
+\end{align} $$
+E quindi ottenere
+$$ \begin{align}
+\mathcal{L}_{AB}^\gamma &= - \int _{A}^B \frac{qQ}{4\pi\varepsilon} \! \, \frac{\mathrm{d}r}{r^2} =- \frac{Q}{4 \pi\varepsilon_{0}}q \left( - \frac{1}{r} \right) \bigg \vert_{r_{A}}^{r_{B}} = -q\left( -\frac{Q}{4\pi \varepsilon_{0}r_{B} } + \frac{Q}{4\pi\varepsilon_{0}r_{A}} \right) \\
+&= q\left( \frac{Q}{4\pi\varepsilon_{0}rB} - \frac{Q}{4\pi\varepsilon_{0}r_{A}} \right) = q(V_{B} - V_{A}) = qV_{BA}
+\end{align} $$
+Che non dipende dal percorso ma solo dagli estremi $A$ e $B$. Il campo elettrico generato da una carica puntiforme ammette quindi un potenziale radiale $V(r) = \frac{Q}{4\pi \varepsilon_{0} r}$
+
+>[!oss]
+>Qualsiasi energia potenziale, quindi anche il potenziale elettrico, è una grandezza definita a meno di una costante additiva, ossia se partendo da una funzione $V(p)$ scrivessimo la funzione potenziale $\tilde{V} (P) = V(P) + V_{0}$ con $V_{0}$ costante, il lavoro necessario per spostare una carica $q$ da $A$ a $B$ (normalizzato rispetto alla carica) resterebbe invariato essendo $\frac{\mathcal{\tilde{L}}_{AB}}{q} = \tilde{V}(B) - \tilde{V}(A) = V(B) + V_{0} - (V(A) + V_{0}) = \frac{\mathcal{L}_{AB}}{q}$. Per convenzione $V(\infty) = 0$, quindi:
+>$$ \frac{\mathcal{L}_{\infty,A}}{q} = \int _{\infty}^A \! \bar{E} \cdot  \, \mathrm{d}\bar{l} = V_{A} - V(\infty) = V_{A}  $$
+>e quindi $qV_{A}$ è il lavoro necessario per portare una carica $q$ dall'infinito al punto $A$ nell'ipotesi che in tutto lo spazio ci sia il medesimo campo elettrico conservativo.
+
+Se il campo elettrico è conservativo il lavoro fatto per spostare una carica lungo un percorso chiuso è identicamente nullo
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\node (A) at (-1,0){A};
+\node (B) at (1,0) {B};
+\path[-latex] (A) edge[bend right] node[below]{$r_1$} (B)
+              (B) edge[bend right] node[above]{$r_2$} (A);
+\end{tikzpicture}
+\end{document}
+```
+$$\begin{align}
+ - \int _{\gamma_{1}} \!\bar{E} \cdot \, \mathrm{d}\bar{l} &= \frac{\mathcal{L}_{AB}^{\gamma_{1}}}{q} = V_{BA} \\
+- \int _{\gamma_{2}} \!\bar{E} \cdot \, \mathrm{d}\bar{l} &= \mathcal{L}_{BA}^{\gamma_{2}} = - \frac{\mathcal{L}_{AB}^{\gamma_{2}}}{q} = -V_{BA} \\
+- \int _{\gamma_{1} \cup \gamma_{2}} \! \bar{E} \cdot \, \mathrm{d}\bar{l} &= \oint_{\gamma} \! \bar{E} \cdot  \, \d \bar{l} = \frac{{\mathcal{L}_{AB}^{\gamma_{1}}+\mathcal{L}_{BA}^{\gamma_{2}}}}{q} = V_{BA} - V_{BA} = 0
+\end{align}$$
+
+Possiamo quindi enunciare la [[Legge di Kirchhoff per le tensioni]]  
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
