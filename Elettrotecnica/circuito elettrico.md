@@ -22,4 +22,9 @@ modification date: 2023-06-01 18:00
 \end{tikzpicture}
 \end{document}
 ```
-Consideriamo un filo molto sottile di materiale [[conduttori|conduttore]] (detta anche spira conduttrice) di lunghezza $I$ e sezione $S$ uniforme, che identifica un percorso chius 
+Consideriamo un filo molto sottile di materiale [[conduttori|conduttore]] (detta anche spira conduttrice) di lunghezza $I$ e sezione $S$ uniforme, che identifica un percorso chiuso $\gamma$. Sarà caratterizzato da una resistenza $R$ che dipende da:
+- $I$
+- $S$
+- Tipo di materiale
+
+Supponiamo di poter generare un campo elettrico $\bar{E}$ stazionario all'interno del conduttore. Tale campo è conservativo e quindi $\oint_{\gamma} \bar{E} \cdot \d \bar{l}$
