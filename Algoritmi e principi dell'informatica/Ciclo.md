@@ -12,7 +12,7 @@
 >```
 >C'è un ciclo tra q1 e se stesso, e tra q6 e se stesso.
 
-Se un ciclo si puó percorrere una volta allora lo stesso ciclo si puó percorrere infinite volte, formalmente:
+Se un ciclo si può percorrere una volta allora lo stesso ciclo si può percorrere infinite volte, formalmente:
 
 >[!teorema] Pumping lemma nei FSA
 >Se $x \in L$ e $|x| > |Q|$
