@@ -90,7 +90,7 @@ Problemi di:
 
 >[!oss]
 >Gli automi a stati finiti riconoscono i [[linguaggi regolari]] ([[Chiusura#famiglia di linguaggi]]).
->Ad esempio l'automa che riconosce $L(A_{1}) \cap L(A_{2})$ è ottenuto simulando il funzionamento parallelo
+>Ad esempio l'automa che riconosce $L(A_{1}) \cap L(A_{2})$ è ottenuto simulando il funzionamento parallelo dei due automi $A_{1}$ e $A_{2}$ attraverso il prodotto cartesiano degli stati e tramite una funzione di transizione per $A$ definita solo dove sono definite le funzioni di transizione di $A_{1}$ ed $A_{2}$
 
 Visualizziamo meglio gli automi a stati finiti:
 
