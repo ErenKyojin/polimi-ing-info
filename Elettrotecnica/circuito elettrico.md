@@ -9,8 +9,11 @@ modification date: 2023-06-01 18:00
 ```tikz
 \begin{document}
 \begin{tikzpicture}
-\draw[rotate = 20] (0,0) circle (2 and 1);
-\draw[rotate = 20] (0)
+
+\
+\draw (0,0) circle (4 and 2);
+\draw (0,0) circle (3.5 and 1.5);
+
 \end{tikzpicture}
 \end{document}
 ```
