@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b5d8e48c18486a69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Elettrotecnica/corrente.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elettrotecnica/circuito elettrico.md",
+                "file": "Elettrotecnica/corrente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -61,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tensione",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -78,8 +92,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elettrotecnica/circuito elettrico.md",
+                "file": "Elettrotecnica/corrente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elettrotecnica/circuito elettrico.md"
+                "file": "Elettrotecnica/corrente.md"
               }
             }
           }
@@ -152,15 +165,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b57e03a41efecdd4",
+  "active": "b5d8e48c18486a69",
   "lastOpenFiles": [
-    "Elettrotecnica/conduttori.md",
+    "Elettrotecnica/tensione.md",
     "Elettrotecnica/circuito elettrico.md",
+    "Elettrotecnica/conduttori.md",
     "Elettrotecnica/corrente.md",
     "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
     "Elettrotecnica/principio di conservazione della carica.md",
     "Elettrotecnica/legge di Ohm.md",
-    "Elettrotecnica/tensione.md",
     "Analisi 1/Insiemi numerici/Campo.md",
     "Algoritmi e principi dell'informatica/Chiusura.md",
     "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",

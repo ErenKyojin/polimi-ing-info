@@ -1,5 +1,5 @@
 ---
-aliases: tensioni
+aliases: tensioni, differenza di potenziale, ddp
 ---
 # Tensione
 Se una [[carica]] viene lasciata libera di muoversi in una regione in cui vi è presente un [[campo elettrico]], essa subisce una [[forza]] e quindi si mette in [[moto]]. La forza prodotta dal campo elettrico tende a farla muovere lungo le [[linee di forza]] del campo stesso. Nel muovere la carica nella regione di spazio in cui è presente il campo elettrico, esso stesso compie [[Fisica/Dinamica/Lavoro|lavoro]] e quindi modifica l'energia della carica. Cosa accade se voglio muovere una carica da un punto $A$ ad un punto $B$, lungo ad esempio il percorso $\gamma_{1}$? In questo caso non sarà il campo a compiere lavoro ma dovrò essere io a dovermi opporre alla forza generata dal campo elettrico.
@@ -128,6 +128,13 @@ $$\begin{align}
 \end{align}$$
 
 Possiamo quindi enunciare la [[Legge di Kirchhoff per le tensioni]]  
+
+>[!tldr]
+>La tensione elettrica è una grandezza fisica associata ad una linea $\gamma$ orientata nello spazio, su cui fissiamo un verso di percorrenza che congiunge i due punti $A$ e $B$.
+>Chiamiamo tensione elettrica lungo la linea $\gamma$ e la indichiamo come $V_{BA}^\gamma$ il lavoro elettrico che dobbiamo compiere in antagonismo alle forze elettriche per muovere lungo tale linea una carica di prova positiva e unitaria.
+>
+>L'unità di misura $[V]$ è Volt (per Alessandro Volta). Chiaramente il lavoro da noi svolto sarà positivo se il movimento della carica di prova avviene effettivamente in opposizione alle forze elettriche che agiscono su di essa oppure sarà negativo se il movimento avviene concordemente alle forze elettriche. Si dice quindi che la tensione elettrica è dotata di segno.
+
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
