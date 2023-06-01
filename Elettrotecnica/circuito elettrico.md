@@ -17,8 +17,9 @@ modification date: 2023-06-01 18:00
 \draw[] (-3.7,0.2) circle  (.25 and .15);
 \end{scope}
 
-\node[scale = 2] at (0,1.3){$\gamma$};
+\node[scale = 2] at (0,1.2){$\gamma$};
 
 \end{tikzpicture}
 \end{document}
 ```
+Consideriamo un filo molto sottile di materiale [[conduttori|conduttore]] (detta anche spira conduttrice) di lunghezza $I$ e sezione $S$ uniforme, che identifica un percorso chius 

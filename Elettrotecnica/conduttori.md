@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: conduttore
 creation date: 2023-05-31 17:23
 modification date: 2023-05-31 17:23
 ---
