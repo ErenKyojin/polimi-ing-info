@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/linguaggi regolari.md",
+                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/linguaggi regolari.md",
+                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/linguaggi regolari.md",
+                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/linguaggi regolari.md"
+                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md"
               }
             }
           }
@@ -179,8 +179,8 @@
   },
   "active": "caaa046150140b3a",
   "lastOpenFiles": [
-    "Algoritmi e principi dell'informatica/Chiusura.md",
     "Algoritmi e principi dell'informatica/linguaggi regolari.md",
+    "Algoritmi e principi dell'informatica/Chiusura.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a pila.md",
     "Algoritmi e principi dell'informatica/Linguaggio.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",

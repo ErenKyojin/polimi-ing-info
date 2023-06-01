@@ -210,5 +210,5 @@ Puó essere piú semplice progettarlo e ricavarne, attraverso un [[algoritmo]], 
 
 
 >[!oss]
-Gli automi a stati finiti riconoscono i linguaggi regolari ([[Chiusura#famiglia di linguaggi]])
+Gli automi a stati finiti riconoscono i [[linguaggi regolari]] ([[Chiusura#famiglia di linguaggi]])
 
