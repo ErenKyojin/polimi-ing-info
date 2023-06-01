@@ -22,8 +22,12 @@ Strumento per misurare la corrente tra due sezioni di un cavo
 \node (r) at (2,0){$\bullet$};
 \node[above right = 3mm] at (l){$\sigma$};
 \node[above left = 3mm] at (r){$\sigma$};
-\node at (-1,0){}
-
+\draw[->] (-1.5,0) -- ++ (.5,0) node[midway,above]{i};
+\draw[->] (2.5,0) -- ++ (.5,0) node[midway,above]{i};
+\draw (l) -| (.75,1);
+\draw (r) -| (1.25,1);
+\draw (0,1) rectangle (2,4);
+\draw (.5,2.5) rectangle (1.5,3) node[midway]{A};
 \end{tikzpicture}
 \end{document}
 ```
