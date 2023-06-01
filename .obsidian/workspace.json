@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elettrotecnica/legge di Ohm.md",
+                "file": "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elettrotecnica/legge di Ohm.md",
+                "file": "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elettrotecnica/legge di Ohm.md",
+                "file": "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elettrotecnica/legge di Ohm.md"
+                "file": "Elettrotecnica/Legge di Kirchhoff per le correnti.md"
               }
             }
           }
@@ -153,6 +153,9 @@
   },
   "active": "9fe98e03c8f403ed",
   "lastOpenFiles": [
+    "Elettrotecnica/corrente.md",
+    "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
+    "Elettrotecnica/principio di conservazione della carica.md",
     "Elettrotecnica/conduttori.md",
     "Elettrotecnica/legge di Ohm.md",
     "Elettrotecnica/tensione.md",
@@ -176,9 +179,6 @@
     "Algoritmi e principi dell'informatica/Modelli operazionali/Modelli operazionali.md",
     "Algoritmi e principi dell'informatica/sequenza di mosse.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/funzione di transizione.md",
-    "Elettrotecnica/principio di conservazione della carica.md",
-    "Elettrotecnica/legge di Gauss.md",
-    "Elettrotecnica/flusso di un campo vettoriale.md",
     "Algoritmi e principi dell'informatica/Srutture dati"
   ]
 }

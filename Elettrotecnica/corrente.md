@@ -37,4 +37,5 @@ Essendo $\bar{\jmath} = \rho_{V}\bar{v}$ il campo vettoriale che indica la **den
 $$ I = \Phi_{S}(\bar{\jmath}) = \int _{S} \bar{\jmath} \cdot \hat{u}_{N} \! \, \mathrm{d}S  $$
 Se $S$ è in ogni suo punto perpendicolare a $\bar{\jmath}$, la corrente è lo scalare $I = \rho_{V} vS$.
 
-Grazie al concetto di corrente elettrica possiamo formalizzare il [[principio di conservazione della carica]] e di [[conduttori]]
+Grazie al concetto di corrente elettrica possiamo formalizzare il [[principio di conservazione della carica]] e di [[conduttori]], ed attraverso il principio possiamo enunciare la [[Legge di Kirchhoff per le correnti]]
+
