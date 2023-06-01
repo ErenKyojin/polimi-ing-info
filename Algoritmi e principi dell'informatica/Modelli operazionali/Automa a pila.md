@@ -2,7 +2,7 @@
 ![[Automa a pila.canvas]]
 
 
-Possiamo vedere l'input e l'output dei [[Automa a stati finiti|FAS]] come due nastri, di scrittura e di lettura, aggiungiamo a questo quindi potranno fare mosse in [[Funzioni|funzione]] di:
+Possiamo vedere l'input e l'output dei [[Automa a stati finiti|FAS]] come due nastri, di scrittura e di lettura, aggiungiamo a questo un ulteriore nastro. Potremmo quindi fare mosse in [[Funzioni|funzione]] di:
 - Simbolo letto dal nastro di lettura (potrebbe anche non leggere)
 - Simbolo letto dalla pila
 - Stato dell'organo di controllo:
