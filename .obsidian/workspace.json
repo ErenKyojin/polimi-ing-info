@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
+                "file": "Elettrotecnica/circuito elettrico.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
+                "file": "Elettrotecnica/circuito elettrico.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
+                "file": "Elettrotecnica/circuito elettrico.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elettrotecnica/Legge di Kirchhoff per le correnti.md"
+                "file": "Elettrotecnica/circuito elettrico.md"
               }
             }
           }
@@ -154,6 +154,7 @@
   "active": "9fe98e03c8f403ed",
   "lastOpenFiles": [
     "Elettrotecnica/corrente.md",
+    "Elettrotecnica/circuito elettrico.md",
     "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
     "Elettrotecnica/principio di conservazione della carica.md",
     "Elettrotecnica/conduttori.md",
@@ -178,7 +179,6 @@
     "Algoritmi e principi dell'informatica/Esercitazioni/Esercitazione.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Modelli operazionali.md",
     "Algoritmi e principi dell'informatica/sequenza di mosse.md",
-    "Algoritmi e principi dell'informatica/Modelli operazionali/funzione di transizione.md",
     "Algoritmi e principi dell'informatica/Srutture dati"
   ]
 }
