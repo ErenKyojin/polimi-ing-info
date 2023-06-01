@@ -20,7 +20,7 @@ I numeri naturali sono chiusi rispetto alla somma, non rispetto alla sottrazione
 $L = \{L_i\}$ famiglia di linguaggi
 L chiusa rispetto ad un operazione OP se e solo se per ogni
 $$
-L_{1},L_{2} \in L, L_{1} OP L_{2} \in L
+L_{1},L_{2} \in L,\quad L_{1} \text{ OP } L_{2} \in L
 $$
 REG linguaggi regolari riconosciuti da FSA
 REG chiusa rispetto alle operazioni insiemistiche, alla concatenazione, la $*$, e praticamente tutte le altre 
