@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md",
+                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivamente enumerabile.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -89,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md",
+                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivamente enumerabile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md",
+                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivamente enumerabile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md"
+                "file": "Algoritmi e principi dell'informatica/linguaggio ricorsivamente enumerabile.md"
               }
             }
           }
@@ -190,16 +190,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "871dbb87d9ee89dc",
+  "active": "433e0a8098da9adb",
   "lastOpenFiles": [
     "Algoritmi e principi dell'informatica/Linguaggio.md",
+    "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md",
     "Algoritmi e principi dell'informatica/linguaggio ricorsivamente enumerabile.md",
     "Algoritmi e principi dell'informatica/linguaggio senza contesto.md",
     "Algoritmi e principi dell'informatica/gerarchia di Chomsky.md",
     "Elettrotecnica/tensione.md",
     "Analisi 1/Insiemi numerici/Campo.md",
     "Algoritmi e principi dell'informatica/Chiusura.md",
-    "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a pila.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
     "Algoritmi e principi dell'informatica/linguaggi regolari.md",
