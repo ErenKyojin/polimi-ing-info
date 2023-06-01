@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elettrotecnica/conduttori.md",
+                "file": "Elettrotecnica/legge di Ohm.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elettrotecnica/conduttori.md",
+                "file": "Elettrotecnica/legge di Ohm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elettrotecnica/conduttori.md",
+                "file": "Elettrotecnica/legge di Ohm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elettrotecnica/conduttori.md"
+                "file": "Elettrotecnica/legge di Ohm.md"
               }
             }
           }
@@ -153,6 +153,8 @@
   },
   "active": "9fe98e03c8f403ed",
   "lastOpenFiles": [
+    "Elettrotecnica/conduttori.md",
+    "Elettrotecnica/legge di Ohm.md",
     "Elettrotecnica/tensione.md",
     "Analisi 1/Insiemi numerici/Campo.md",
     "Algoritmi e principi dell'informatica/Chiusura.md",
@@ -177,8 +179,6 @@
     "Elettrotecnica/principio di conservazione della carica.md",
     "Elettrotecnica/legge di Gauss.md",
     "Elettrotecnica/flusso di un campo vettoriale.md",
-    "Elettrotecnica/dielettrici.md",
-    "Elettrotecnica/conduttori.md",
     "Algoritmi e principi dell'informatica/Srutture dati"
   ]
 }
