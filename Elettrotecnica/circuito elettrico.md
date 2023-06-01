@@ -22,9 +22,9 @@ modification date: 2023-06-01 18:00
 \end{tikzpicture}
 \end{document}
 ```
-Consideriamo un filo molto sottile di materiale [[conduttori|conduttore]] (detta anche spira conduttrice) di lunghezza $I$ e sezione $S$ uniforme, che identifica un percorso chiuso $\gamma$. Sarà caratterizzato da una resistenza $R$ che dipende da:
+Consideriamo un filo molto sottile di materiale [[conduttori|conduttore]] (detta anche spira conduttrice) di lunghezza $I$ e sezione $S$ uniforme, che identifica un percorso chiuso $\gamma$. Sarà caratterizzato da una [[resistenza]] $R$ che dipende da:
 - $I$
 - $S$
 - Tipo di materiale
 
-Supponiamo di poter generare un campo elettrico $\bar{E}$ stazionario all'interno del conduttore. Tale campo è conservativo e quindi $\oint_{\gamma} \bar{E} \cdot \d \bar{l} = 0$. Se ne deduce che il campo $\bar{E}$ non è in grado di generare una corrente costante $I$ all'interno della spira conduttrice dal momento che in base alla [[legge di Ohm]]
+Supponiamo di poter generare un [[campo elettrico]] $\bar{E}$ stazionario all'interno del conduttore. Tale campo è conservativo e quindi $\oint_{\gamma} \bar{E} \cdot \d \bar{l} = 0$. Se ne deduce che il campo $\bar{E}$ non è in grado di generare una [[corrente]] costante $I$ all'interno della spira conduttrice dal momento che in base alla [[legge di Ohm]] è necessaria una differenza di potenziale $V = RI$ per permettere alle cariche libere di percorrere un tragitto $\gamma$ che da un punto di partenza all'interno della spira si snoda all'interno di essa per richiudersi nel punti d
