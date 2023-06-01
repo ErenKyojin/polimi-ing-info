@@ -25,8 +25,8 @@ In modo sostanzialmente simile ai normali meccanismi linguistici, una grammatica
 >>[!quote]
 >>"Una mail è costituito da una testata e da un corpo, la testata contiene l'indirizzo..."
 
-Questo tipo di regole linguistiche descrive un oggetto principale come una sequenza di oggetti componenti. Ognuno di questi viene poi raffinato, rimpiazzandolo con altri oggetti piú dettagliati fino a quando non si raggiunge una sequenza di elementi base.
-Le varie riscritture possono presentare alternativo, un soggetto puó essere un nome, un pronome o altro, un'istruzione può essere di assegnamento, di lettura, di output...
+Questo tipo di regole linguistiche descrive un oggetto principale come una sequenza di oggetti componenti. Ognuno di questi viene poi raffinato, rimpiazzandolo con altri oggetti più dettagliati fino a quando non si raggiunge una sequenza di elementi base.
+Le varie riscritture possono presentare alternativo, un soggetto può essere un nome, un pronome o altro, un'istruzione può essere di assegnamento, di lettura, di output...
 
 >[!def] Definizione formale di grammatica
 > $$
