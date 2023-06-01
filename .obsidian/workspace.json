@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elettrotecnica/corrente.md",
+                "file": "Elettrotecnica/amperometro.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elettrotecnica/corrente.md",
+                "file": "Elettrotecnica/amperometro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elettrotecnica/corrente.md",
+                "file": "Elettrotecnica/amperometro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elettrotecnica/corrente.md"
+                "file": "Elettrotecnica/amperometro.md"
               }
             }
           }
@@ -167,10 +167,11 @@
   },
   "active": "b5d8e48c18486a69",
   "lastOpenFiles": [
+    "Elettrotecnica/corrente.md",
+    "Elettrotecnica/amperometro.md",
     "Elettrotecnica/tensione.md",
     "Elettrotecnica/circuito elettrico.md",
     "Elettrotecnica/conduttori.md",
-    "Elettrotecnica/corrente.md",
     "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
     "Elettrotecnica/principio di conservazione della carica.md",
     "Elettrotecnica/legge di Ohm.md",
@@ -192,7 +193,6 @@
     "Algoritmi e principi dell'informatica/Ciclo.md",
     "Algoritmi e principi dell'informatica/Esercitazioni/Esercitazione.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Modelli operazionali.md",
-    "Algoritmi e principi dell'informatica/sequenza di mosse.md",
     "Algoritmi e principi dell'informatica/Srutture dati"
   ]
 }

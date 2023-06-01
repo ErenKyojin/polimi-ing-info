@@ -42,4 +42,7 @@ Grazie al concetto di corrente elettrica possiamo formalizzare il [[principio di
 
 >[!tldr]
 >Supponiamo di misurare il flusso delle cariche all'interno di un filo metallico, contando quelle che passano attraverso una sezione $\sigma$ del filo. Fissiamo un verso di attraversamento come positivo (quindi orientiamo $\sigma$) e contiamo la quantità di carica elettrica positiva che attraversa la sezione nell'unità di tempo. L'unità di misura della corrente è chiamata ampere $[A]$.
->Anche il valore della corrente è dotato di segno, ad indicare se il flusso delle cariche positive è concorde o discor
+>Anche il valore della corrente è dotato di segno, ad indicare se il flusso delle cariche positive è concorde o discorde rispetto al senso di attraversamento fissato sulla superficie.
+>
+>La corrente si misura attraverso un'[[amperometro]]
+>
