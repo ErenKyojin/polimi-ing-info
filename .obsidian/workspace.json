@@ -118,8 +118,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,7 +190,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b57e03a41efecdd4",
+  "active": "871dbb87d9ee89dc",
   "lastOpenFiles": [
     "Algoritmi e principi dell'informatica/Linguaggio.md",
     "Algoritmi e principi dell'informatica/linguaggio ricorsivamente enumerabile.md",
