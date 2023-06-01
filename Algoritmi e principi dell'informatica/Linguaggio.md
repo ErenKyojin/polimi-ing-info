@@ -48,6 +48,9 @@ alias: linguaggi
 >$ab^na$ regolare
 >$a^nb^n$ irregolare 
 
+
+[[linguaggi regolari]]
+[[linguaggio ricorsivamente enumerabile]]
 [[linguaggio ricorsivo]]
 [[linguaggio senza contesto]]
 
