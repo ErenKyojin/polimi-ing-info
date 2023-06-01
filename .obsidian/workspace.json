@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "433e0a8098da9adb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algoritmi e principi dell'informatica/Untitled 1.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Chiusura.md",
+                "file": "Algoritmi e principi dell'informatica/Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Chiusura.md",
+                "file": "Algoritmi e principi dell'informatica/Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Chiusura.md"
+                "file": "Algoritmi e principi dell'informatica/Untitled 1.md"
               }
             }
           }
@@ -177,10 +190,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "caaa046150140b3a",
+  "active": "433e0a8098da9adb",
   "lastOpenFiles": [
-    "Analisi 1/Insiemi numerici/Campo.md",
     "Algoritmi e principi dell'informatica/Chiusura.md",
+    "Algoritmi e principi dell'informatica/Untitled 1.md",
+    "Analisi 1/Insiemi numerici/Campo.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a pila.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
     "Algoritmi e principi dell'informatica/linguaggi regolari.md",
@@ -204,7 +218,6 @@
     "Elettrotecnica/Legge di Kirchhoff per le tensioni.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Traduttore.md",
     "Algoritmi e principi dell'informatica/La riduzione dei problemi.md",
-    "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
     "Algoritmi e principi dell'informatica/Srutture dati"
   ]
 }
