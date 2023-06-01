@@ -89,10 +89,11 @@ Problemi di:
 
 
 >[!oss]
->Gli automi a stati finiti riconoscono i [[linguaggi regolari]] ([[Chiusura#famiglia di linguaggi]]). 
+>Gli automi a stati finiti riconoscono i [[linguaggi regolari]] ([[Chiusura#famiglia di linguaggi]]).
+>Sono infatti chiusi rispetto all'unione ()
 
 
-Visualizzamo meglio gli automi a stati finiti:
+Visualizziamo meglio gli automi a stati finiti:
 
 ![[FSA.canvas]]
 Possiamo aggiungere un ulteriore nastro detto pila, che funzionerà da memoria, questo tipo di automi si chiama [[Automa a pila]]
