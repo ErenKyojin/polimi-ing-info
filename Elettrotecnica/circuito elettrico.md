@@ -10,9 +10,11 @@ modification date: 2023-06-01 18:00
 \begin{document}
 \begin{tikzpicture}
 
-\
+\begin{scope}[rotate = 20]
 \draw (0,0) circle (4 and 2);
 \draw (0,0) circle (3.5 and 1.5);
+\draw (3.5,.8) circle (.5 and .5);
+\end{scope}
 
 \end{tikzpicture}
 \end{document}
