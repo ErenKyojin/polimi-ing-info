@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a pila.md",
+                "file": "Algoritmi e principi dell'informatica/Ciclo.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -76,7 +76,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a pila.md",
+                "file": "Algoritmi e principi dell'informatica/Ciclo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "campo",
+                "query": "pumping",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -105,7 +105,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a pila.md",
+                "file": "Algoritmi e principi dell'informatica/Ciclo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a pila.md"
+                "file": "Algoritmi e principi dell'informatica/Ciclo.md"
               }
             }
           }
@@ -179,7 +180,12 @@
   },
   "active": "caaa046150140b3a",
   "lastOpenFiles": [
+    "Algoritmi e principi dell'informatica/Esercitazioni/Esercitazione.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a stati finiti.md",
+    "Algoritmi e principi dell'informatica/Modelli operazionali/Modelli operazionali.md",
+    "Algoritmi e principi dell'informatica/sequenza di mosse.md",
+    "Algoritmi e principi dell'informatica/Modelli operazionali/funzione di transizione.md",
+    "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a pila.md",
     "Elettrotecnica/principio di conservazione della carica.md",
     "Elettrotecnica/legge di Gauss.md",
     "Elettrotecnica/flusso di un campo vettoriale.md",
@@ -187,7 +193,6 @@
     "Elettrotecnica/conduttori.md",
     "Elettrotecnica/Legge di Kirchhoff per le tensioni.md",
     "Algoritmi e principi dell'informatica/Modelli operazionali/Traduttore.md",
-    "Algoritmi e principi dell'informatica/Modelli operazionali/Automa a pila.md",
     "Algoritmi e principi dell'informatica/La riduzione dei problemi.md",
     "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
     "Elettrotecnica/tensione.md",
@@ -201,10 +206,6 @@
     "Elettrotecnica/densità di carica.md",
     "Elettrotecnica/cortocircuito.md",
     "Elettrotecnica/corrente.md",
-    "Elettrotecnica/metodo simbolico.md",
-    "Elettrotecnica/conduttanza.md",
-    "Elettrotecnica/condensatore.md",
-    "Elettrotecnica/Circuito trifase.md",
     "Algoritmi e principi dell'informatica/Srutture dati"
   ]
 }
