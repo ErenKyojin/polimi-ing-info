@@ -150,8 +150,10 @@ Quindi seguiamo la regola di derivazione da destra verso sinistra.
 Quando, se succede, il contenuto del nastro diventa solo l'assioma $S$, $x$ viene accettata.
 
 >[!oss]
->Nel caso di una grammatica monotona, la massima memoria occupata è $x$
+>Nel caso di una grammatica monotona, la massima memoria occupata è il numero di celle occupate da $x$.
 
+>[!oss]
+>Se $x \notin L(G)$ è possibile che la macchina di Turing tenti infinite strade, possibilmente anche non terminanti, senza arrivare ad una conclusione
 ### Da MT a G
 Data $G$ costruiamo una macchina di turing a nastro singolo non deterministica $M$ che accetti $L(G)$.
 - La stringa $x$ è posta nel nastro di ingresso
