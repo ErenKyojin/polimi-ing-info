@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Linguaggio.md",
+                "file": "Algoritmi e principi dell'informatica/Chiusura.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "ade3bbfbe39ffd6a",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
+                "file": "Algoritmi e principi dell'informatica/Chiusura.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5,
-    "collapsed": true
+    "width": 299.5
   },
   "right": {
     "id": "c7067de40523310b",
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
+                "file": "Algoritmi e principi dell'informatica/Chiusura.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md"
+                "file": "Algoritmi e principi dell'informatica/Chiusura.md"
               }
             }
           }
@@ -196,7 +196,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "047e4913588a358c",
+  "active": "86e8e28f503adeab",
   "lastOpenFiles": [
     "Algoritmi e principi dell'informatica/Linguaggio.md",
     "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
