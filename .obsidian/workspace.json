@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Chiusura.md",
+                "file": "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Chiusura.md",
+                "file": "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Chiusura.md"
+                "file": "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf"
               }
             }
           }
@@ -196,8 +196,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86e8e28f503adeab",
+  "active": "1fa3e284b3963271",
   "lastOpenFiles": [
+    "Algoritmi e principi dell'informatica/Chiusura.md",
     "Algoritmi e principi dell'informatica/Linguaggio.md",
     "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
     "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf",
@@ -226,7 +227,6 @@
     "Elettrotecnica/Flusso.md",
     "Elettrotecnica/leggi di Kirchoff.md",
     "Elettrotecnica/potenziale elettrico.md",
-    "Elettrotecnica/carica di prova.md",
     "Algoritmi e principi dell'informatica/Srutture dati"
   ]
 }
