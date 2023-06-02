@@ -3,7 +3,7 @@ aliases: grammatica
 creation date: 2023-03-10 14:19
 modification date: 2023-03-10 14:19
 ---
-La grammatica è un [[Modelli generativi|modello generativo]], produce (o genera) stringhe. Generalmente parlando si puó definire come un [[insieme]] di regole per costruire frasi di un [[Linguaggio]], si applica in qualsiasi nozione di [[Linguaggio]] nel senso piú lato.
+La grammatica è un [[Modelli generativi|modello generativo]], produce (o genera) stringhe. Generalmente parlando si può definire come un [[insieme]] di regole per costruire frasi di un [[Linguaggio]], si applica in qualsiasi nozione di [[Linguaggio]] nel senso più lato.
 In modo sostanzialmente simile ai normali meccanismi linguistici, una grammatica formale genera stringhe di un linguaggio attraverso un processo di riscrittura.
 
 
@@ -37,7 +37,7 @@ Le varie riscritture possono presentare alternativo, un soggetto può essere un 
 >- $V_{T}$ **alfabeto** o **vocabolario terminale**, comporrà le frasi
 >- $V = V_{N} \cup V_{T}$
 >- $S \in V_{N}$ elemento particolare di $V_{N}$ detto **assioma** o **simbolo iniziale**
->- $P \subseteq V_{N}^+ \times V^*$ [[Analisi 1/Insiemi numerici/Insieme|insieme]] delle regole di **riscrittura** o **produzioni**
+>- $P \subseteq V_{N}^+ \times V^*$ [[insieme]] delle regole di **riscrittura** o **produzioni**
 >Scriveremo per comodità $\alpha \to \beta$ al posto di $(\alpha,\beta)$
 
 >[!oss]
@@ -52,14 +52,14 @@ Le varie riscritture possono presentare alternativo, un soggetto può essere un 
 >$P = \left\{ S \to AB, BA \to cCd, CBS \to ab, A\to \varepsilon \right\}$
 
 
-## [[Relazione]] di derivazione immediata
+## [[Relazioni|Relazione]] di derivazione immediata
 $$\alpha \implies \beta, \alpha \in V^+, \beta \in V^*$$
 (alpha deriva beta)
 Se e solo se
 $\alpha = \alpha_{1}\alpha_{2}\alpha_{3}, \beta = \alpha_{1}\beta_{2}\alpha_{3},\quad a_{2} \to \beta_{2} \in P$
 $\alpha_{2}$ si riscrive come $\beta_{2}$ nel contesto $(\alpha_{1}, \alpha_{3})$
 
-Rispetto alla grammatica precedente abbiamo per la stringa aaBAS tre possibili deriazioni
+Rispetto alla grammatica precedente abbiamo per la stringa aaBAS tre possibili derivazioni
 
  aaBAS => aacCdS
 oppure

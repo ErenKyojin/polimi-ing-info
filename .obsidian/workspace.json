@@ -13,33 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elettrotecnica/conduttori.md",
+                "file": "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "0db7c7188ca135d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Elettrotecnica/tensione.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49d0c8a35b7566e6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf"
               }
             }
           }
@@ -95,7 +72,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elettrotecnica/conduttori.md",
+                "file": "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -121,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elettrotecnica/conduttori.md",
+                "file": "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elettrotecnica/conduttori.md"
+                "file": "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md"
               }
             }
           }
@@ -176,7 +153,10 @@
   },
   "active": "047e4913588a358c",
   "lastOpenFiles": [
+    "Algoritmi e principi dell'informatica/gerarchia di Chomsky.md",
     "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf",
+    "Elettrotecnica/tensione.md",
+    "Elettrotecnica/conduttori.md",
     "PDFs/Introduction_To_Algorithms_3rd_T_H_Cormen,_C_E_Leiserson,_R_L_Rivest.pdf",
     "PDFs",
     "Elettrotecnica/voltmetro.md",
@@ -189,7 +169,6 @@
     "Algoritmi e principi dell'informatica/linguaggio ricorsivamente enumerabile.md",
     "Algoritmi e principi dell'informatica/linguaggi regolari.md",
     "Elettrotecnica/corrente.md",
-    "Elettrotecnica/conduttori.md",
     "Elettrotecnica/campo elettrico.md",
     "Elettrotecnica/principio di conservazione della carica.md",
     "Elettrotecnica/legge di Gauss.md",
@@ -197,7 +176,6 @@
     "Elettrotecnica/dielettrici.md",
     "Elettrotecnica/flusso di un campo vettoriale.md",
     "Elettrotecnica/Flusso.md",
-    "Elettrotecnica/tensione.md",
     "Elettrotecnica/leggi di Kirchoff.md",
     "Elettrotecnica/potenziale elettrico.md",
     "Elettrotecnica/carica di prova.md",
