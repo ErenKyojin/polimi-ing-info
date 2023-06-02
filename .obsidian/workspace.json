@@ -14,19 +14,9 @@
               "type": "markdown",
               "state": {
                 "file": "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "1fa3e284b3963271",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf"
               }
             }
           }
@@ -48,8 +38,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1fa3e284b3963271",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,9 +185,9 @@
   },
   "active": "047e4913588a358c",
   "lastOpenFiles": [
-    "Algoritmi e principi dell'informatica/gerarchia di Chomsky.md",
-    "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
     "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf",
+    "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
+    "Algoritmi e principi dell'informatica/gerarchia di Chomsky.md",
     "Algoritmi e principi dell'informatica/Algoritmi galattici.md",
     "Elettrotecnica/tensione.md",
     "Elettrotecnica/conduttori.md",

@@ -100,7 +100,7 @@ $$
 |\alpha| = 1, \beta \in V_{T}.V_{N} \cup V_{T}
 $$
 Le grammatiche regolari sono anche non contestuali, ma non viceversa.
-	la $G_{1}$ è regolare, $G_{2}$
+la $G_{1}$ è regolare, $G_{2}$ invece no
 
 Per la stringa vuota si deve ammettere anche $S \to \varepsilon$
 
@@ -109,6 +109,11 @@ Ogni produzione hal a forma $\alpha \to \beta$, dove $|\alpha| \leq |\beta|$.
 Le regolari sono monotone.
 
 Le non contestuali non lo sono generalmente a causa delle produzioni: $A\to \varepsilon$, si deve ammettere $S \to \varepsilon$, però $S$ non deve apparire in parti destre di produzioni
+
+>[!tldr]
+>- Le produzioni partono tutte da un solo simbolo -> Non contestuale
+>- Le produzioni partono da un solo simbolo e aggiungono al massimo un simbolo $\in V_{T}$ eventualmente seguito da un simbolo $\in V_{N}$
+>- Le produzioni sono re
 
 ---
 
