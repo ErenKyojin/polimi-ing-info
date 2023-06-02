@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "86e8e28f503adeab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algoritmi e principi dell'informatica/Linguaggio.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ]
       },
@@ -185,8 +198,9 @@
   },
   "active": "047e4913588a358c",
   "lastOpenFiles": [
-    "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf",
+    "Algoritmi e principi dell'informatica/Linguaggio.md",
     "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
+    "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf",
     "Algoritmi e principi dell'informatica/gerarchia di Chomsky.md",
     "Algoritmi e principi dell'informatica/Algoritmi galattici.md",
     "Elettrotecnica/tensione.md",

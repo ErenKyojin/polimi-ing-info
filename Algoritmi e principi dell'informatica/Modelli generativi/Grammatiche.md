@@ -111,13 +111,13 @@ Le regolari sono monotone.
 Le non contestuali non lo sono generalmente a causa delle produzioni: $A\to \varepsilon$, si deve ammettere $S \to \varepsilon$, però $S$ non deve apparire in parti destre di produzioni
 
 >[!tldr]
->- Le produzioni partono tutte da un solo simbolo -> Non contestuale
->- Le produzioni partono da un solo simbolo e aggiungono al massimo un simbolo $\in V_{T}$ eventualmente seguito da un simbolo $\in V_{N}$
->- Le produzioni sono re
+>- Le produzioni partono tutte da un solo simbolo $\in V_{T}$ -> Grammatica non contestuale
+>- Le produzioni partono da un solo simbolo e aggiungono al massimo un simbolo $\in V_{T}$ eventualmente seguito da un simbolo $\in V_{N}$ -> grammatica regolare
+>- Le produzioni aggiungono sempre simboli -> grammatica monotona
 
 ---
 
-Le grammatiche regolari sono monotone, quelle non contestuali non lo generalmente sono perchè si possono avere produzioni del tipo $A \to \varepsilon$, ma si possono eliminare senza troppe difficoltà.
+Le grammatiche regolari sono monotone, quelle non contestuali non lo generalmente sono perché si possono avere produzioni del tipo $A \to \varepsilon$, ma si possono eliminare senza troppe difficoltà.
 
 ![[gerarchia di Chomsky]]
 
@@ -137,10 +137,11 @@ Il FSA ottenuto è non deterministico
 ## Grammatiche non contestuali equivalenti ad automi a pila non deterministici
 
 Giustificazione intuitiva, consideriamo la grammatica:
-
+S -> aSb | ab
+S => aSb => aabb
 
 ## Grammatiche equivalenti alle macchine di Turing
-
+Data $G$ costruiamo a grandi linee una macchina di turing non deterministica, M, che accetti L(G)
 
 ### Da MT a G
 Data $G$ costruiamo una macchina di turing a nastro singolo non deterministica $M$ che accetti $L(G)$.
