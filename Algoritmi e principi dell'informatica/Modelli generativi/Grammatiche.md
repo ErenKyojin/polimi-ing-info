@@ -144,7 +144,13 @@ S => aSb => aabb
 Data $G$ costruiamo a grandi linee una macchina di Turing non deterministica, M, che accetti $L(G)$:
 - $x$ si trova nel nastro di partenza
 - viene scandito alla ricerca di una parte destra $\beta$ di qualche produzione $\alpha \to \beta$ di P
-- Quando
+- Quando se ne trova una essa viene sostituita dalla corrispondente parte sinistra $\alpha$
+- In tal modo $\gamma \implies \delta \iff c = \left< q, \delta \right> \vdash^* \left< q,\gamma \right>$ 
+Quindi seguiamo la regola di derivazione da destra verso sinistra.
+Quando, se succede, il contenuto del nastro diventa solo l'assioma $S$, $x$ viene accettata.
+
+>[!oss]
+>Nel caso di una grammatica monotona, la massima memoria occupata è $x$
 
 ### Da MT a G
 Data $G$ costruiamo una macchina di turing a nastro singolo non deterministica $M$ che accetti $L(G)$.
