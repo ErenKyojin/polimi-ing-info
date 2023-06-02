@@ -37,14 +37,13 @@
             "id": "49d0c8a35b7566e6",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "pdf",
               "state": {
-                "currentVersion": "1.3.5"
+                "file": "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,8 +174,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4761bf2da4ec9f19",
+  "active": "047e4913588a358c",
   "lastOpenFiles": [
+    "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf",
+    "PDFs/Introduction_To_Algorithms_3rd_T_H_Cormen,_C_E_Leiserson,_R_L_Rivest.pdf",
+    "PDFs",
     "Elettrotecnica/voltmetro.md",
     "Elettrotecnica/legge di Ohm.md",
     "Elettrotecnica/circuito elettrico.md",
@@ -202,7 +204,6 @@
     "Fondamenti di automatica/Esercizi/FDA Ex Finali.md",
     "Elettrotecnica/densità di carica.md",
     "Elettrotecnica/campo.md",
-    "Algoritmi e principi dell'informatica/tesi di Church.md",
     "Algoritmi e principi dell'informatica/Srutture dati"
   ]
 }
