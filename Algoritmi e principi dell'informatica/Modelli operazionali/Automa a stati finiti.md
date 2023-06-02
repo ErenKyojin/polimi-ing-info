@@ -88,7 +88,11 @@ Problemi di:
 ![[Ciclo]]
 
 
-Visualizzamo meglio gli automi a stati finiti:
+>[!oss]
+>Gli automi a stati finiti riconoscono i [[linguaggi regolari]] ([[Chiusura#famiglia di linguaggi]]).
+>Ad esempio l'automa che riconosce $L(A_{1}) \cap L(A_{2})$ è ottenuto simulando il funzionamento parallelo dei due automi $A_{1}$ e $A_{2}$ attraverso il prodotto cartesiano degli stati e tramite una funzione di transizione per $A$ definita solo dove sono definite le funzioni di transizione di $A_{1}$ ed $A_{2}$
+
+Visualizziamo meglio gli automi a stati finiti:
 
 ![[FSA.canvas]]
 Possiamo aggiungere un ulteriore nastro detto pila, che funzionerà da memoria, questo tipo di automi si chiama [[Automa a pila]]
@@ -131,6 +135,7 @@ $$
 
 ## Quando accetta un FSA ND
 Accettiamo se nell'insieme dello stato a cui arriviamo c'è almeno uno stato finale, formalmente:
+
 $$
 x \in L \leftrightarrow  \delta^*(q_{0},x) \cap F \neq \varnothing
 $$
@@ -159,12 +164,12 @@ graph LR
 	q3 -->|b|q5
 	q3 -->|b|q6
 ```
-Pratendo da $q_{1}$ e leggendo ab l'automa si trova in uno stato dell'insieme $\left\{ q_{4},q_{5},q_{6} \right\}$
+Partendo da $q_{1}$ e leggendo `ab` l'automa si trova in uno stato dell'insieme $\left\{ q_{4},q_{5},q_{6} \right\}$
 
 >[!def]
->Ridefiniamo stato per essere l'insieme dei possibili stati in cui sis può trivare l'automa ND durante il suo funzionament
+>Ridefiniamo uno stato per essere l'insieme dei possibili stati in cui si può trovare l'automa ND durante il suo funzionamento
 
-- Dato un FSA ND ne costruiamo auomaticamente uno equivalente deterministico, quindi non sono piú efficaci a differenza degli automi a pila
+- Dato un FSA ND ne costruiamo automaticamente uno equivalente deterministico, quindi non sono piú efficaci a differenza degli automi a pila
 
 
 
@@ -206,6 +211,4 @@ Puó essere piú semplice progettarlo e ricavarne, attraverso un [[algoritmo]], 
 
 >[!Esempio]
 >Da un AND a 5 stati ne ricaiamo nel peggiore dei casi uno con $2^5$ stati
-
-
 

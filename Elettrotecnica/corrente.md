@@ -37,4 +37,12 @@ Essendo $\bar{\jmath} = \rho_{V}\bar{v}$ il campo vettoriale che indica la **den
 $$ I = \Phi_{S}(\bar{\jmath}) = \int _{S} \bar{\jmath} \cdot \hat{u}_{N} \! \, \mathrm{d}S  $$
 Se $S$ è in ogni suo punto perpendicolare a $\bar{\jmath}$, la corrente è lo scalare $I = \rho_{V} vS$.
 
-Grazie al concetto di corrente elettrica possiamo formalizzare il [[principio di conservazione della carica]] e di [[conduttori]]
+Grazie al concetto di corrente elettrica possiamo formalizzare il [[principio di conservazione della carica]] e di [[conduttori]], ed attraverso il principio possiamo enunciare la [[Legge di Kirchhoff per le correnti]] ed iniziare a studiare i primi [[circuito elettrico|circuiti]]
+
+
+>[!tldr]
+>Supponiamo di misurare il flusso delle cariche all'interno di un filo metallico, contando quelle che passano attraverso una sezione $\sigma$ del filo. Fissiamo un verso di attraversamento come positivo (quindi orientiamo $\sigma$) e contiamo la quantità di carica elettrica positiva che attraversa la sezione nell'unità di tempo. L'unità di misura della corrente è chiamata ampere $[A]$.
+>Anche il valore della corrente è dotato di segno, ad indicare se il flusso delle cariche positive è concorde o discorde rispetto al senso di attraversamento fissato sulla superficie.
+>
+>La corrente si misura attraverso un'[[amperometro]]
+>

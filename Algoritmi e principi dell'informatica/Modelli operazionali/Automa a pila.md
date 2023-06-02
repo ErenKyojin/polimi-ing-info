@@ -2,7 +2,7 @@
 ![[Automa a pila.canvas]]
 
 
-Possiamo vedere l'input e l'output dei [[Automa a stati finiti|FAS]] come due nastri, di scrittura e di lettura, aggiungiamo a questo quindi potranno fare mosse in [[Funzioni|funzione]] di:
+Possiamo vedere l'input e l'output dei [[Automa a stati finiti|FAS]] come due nastri, di scrittura e di lettura, aggiungiamo a questo un ulteriore nastro. Potremmo quindi fare mosse in [[Funzioni|funzione]] di:
 - Simbolo letto dal nastro di lettura (potrebbe anche non leggere)
 - Simbolo letto dalla pila
 - Stato dell'organo di controllo:
@@ -75,7 +75,7 @@ I linguaggi di programmazione reali sono tutti basati su automi a pila, memoria 
 
 # Proprietà degli automi a pila
 
-1. $a^nb^n$ riconoscibile da un automa a pila, tuttavia $a^nb^nc^n$ non lo è, infatti contiamo prima le $a$, poi contiamo le $b$ eliminando il contenuto della pila tramite [[pop]], a questo punto non abbiamo piú memoria di $n$ per contare $c$. Invece programmando è estremamente semplice fare un codice che riconosca questo linguaggio.
+1. $a^nb^n$ riconoscibile da un automa a pila, tuttavia $a^nb^nc^n$ non lo è, infatti contiamo prima le $a$, poi contiamo le $b$ eliminando il contenuto della pila tramite [[pop]], a questo punto non abbiamo più memoria di $n$ per contare $c$. Invece programmando è estremamente semplice fare un codice che riconosca questo linguaggio.
 
 >[!warning]
 >La memoria è degli automi a pila è distruttiva, va eliminata per essere letta (questo risultato deriva da un pampling lemma degli automi a pila)

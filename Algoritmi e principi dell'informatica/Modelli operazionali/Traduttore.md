@@ -1,4 +1,4 @@
-Il traduttore è un automa, un[[Modelli operazionali|modello operazionale]] che legge una stringa e la traduce
+Il traduttore è un automa, un [[Modelli operazionali|modello operazionale]] che legge una stringa e la traduce
 
 $\tau$ ogni due $0$ ne riscrive $1$ e ogni $1$ se ne scrivono 2, gli 0 devono essere pari
 
