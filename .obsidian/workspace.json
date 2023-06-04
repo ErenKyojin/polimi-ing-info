@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elettrotecnica/circuito elettrico.md",
+                "file": "Elettrotecnica/corrente.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Elettrotecnica/voltmetro.md",
+                "file": "Elettrotecnica/tensione.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +62,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Elettrotecnica/voltmetro.md",
+                "file": "Elettrotecnica/corrente.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elettrotecnica/voltmetro.md",
+                "file": "Elettrotecnica/corrente.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Elettrotecnica/voltmetro.md"
+                "file": "Elettrotecnica/corrente.md"
               }
             }
           }
@@ -165,13 +164,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5d8e48c18486a69",
+  "active": "9fe98e03c8f403ed",
   "lastOpenFiles": [
+    "Elettrotecnica/circuito elettrico.md",
     "Elettrotecnica/tensione.md",
     "Elettrotecnica/voltmetro.md",
     "Elettrotecnica/corrente.md",
     "Elettrotecnica/amperometro.md",
-    "Elettrotecnica/circuito elettrico.md",
     "Elettrotecnica/conduttori.md",
     "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
     "Elettrotecnica/principio di conservazione della carica.md",

@@ -45,4 +45,10 @@ Grazie al concetto di corrente elettrica possiamo formalizzare il [[principio di
 >Anche il valore della corrente è dotato di segno, ad indicare se il flusso delle cariche positive è concorde o discorde rispetto al senso di attraversamento fissato sulla superficie.
 >
 >La corrente si misura attraverso un'[[amperometro]]
->
+
+
+## proprietà
+Indichiamo con $\sigma$ una superficie orientata e con $-\sigma$ la stessa superficie ma orientata nel verso opposto.
+La misura di corrente lungo $-\sigma$ si ottiene invertendo l'inserimento dei morsetti dell'amperometro
+- disparità: $I^{-\sigma} = -I^{\sigma}$
+- additività: siano $\sigma_{1}, \sigma_{2}$ e $\sigma_{3}$ tre superfici orientate come in figura cioè con $\sigma_{2}$ orientata in modo discorde alle prime due e sia $\sigma=\sigma_{1} \cup (-\sigma_{2}) \cup \sigma_{3}$. Si sono eseguite le relative misure di corrente $i_{1},i_{2},i_{3}$. 
