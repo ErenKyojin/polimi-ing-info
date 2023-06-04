@@ -5,7 +5,7 @@ modification date: 2023-05-16 12:03
 ---
 
 Gli [[alberi]] rosso-neri (RB) sono BST abbastanza bilanciati, cioè l'altezza dell'albero $h = O(\log(n))$ ed è possibile realizzare tute le operazioni più importanti in tempo $O(\log(n))$.
-Negli alberi RB non is ha mai che un ramo dell'albero sia lungo più del doppio di un altro ramo. L'idea alla baste degli alberi RB: ogni nodo ha un colore, o rosso o nero, ed i colori sono distruibuiti affinchè l'albero non sia lungo più del doppio di un altro.
+Negli alberi RB non si ha mai che un ramo dell'albero sia lungo più del doppio di un altro ramo. L'idea alla baste degli alberi RB: ogni nodo ha un colore, o rosso o nero, ed i colori sono distribuiti affinché l'albero non sia lungo più del doppio di un altro.
 
 
 Ogni nodo di un albero RB ha 5 attributi:
@@ -15,7 +15,7 @@ Ogni nodo di un albero RB ha 5 attributi:
 - p
 - color
 
-> [!danger]
+> [!danger] attenzione
 > In questo caso le foglie sono tutti i nodi NIL alla base! Fino ad ora consideravamo foglie i nodi con solo elementi NIL. Questo significa che i NIL sono inclusi nell'albero.
 
 

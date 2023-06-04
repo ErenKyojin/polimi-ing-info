@@ -3,7 +3,7 @@ aliases: grammatica
 creation date: 2023-03-10 14:19
 modification date: 2023-03-10 14:19
 ---
-La grammatica è un [[Modelli generativi|modello generativo]], produce (o genera) stringhe. Generalmente parlando si puó definire come un [[insieme]] di regole per costruire frasi di un [[Linguaggio]], si applica in qualsiasi nozione di [[Linguaggio]] nel senso piú lato.
+La grammatica è un [[Modelli generativi|modello generativo]], produce (o genera) stringhe. Generalmente parlando si può definire come un [[insieme]] di regole per costruire frasi di un [[Linguaggio]], si applica in qualsiasi nozione di [[Linguaggio]] nel senso più lato.
 In modo sostanzialmente simile ai normali meccanismi linguistici, una grammatica formale genera stringhe di un linguaggio attraverso un processo di riscrittura.
 
 
@@ -37,7 +37,7 @@ Le varie riscritture possono presentare alternativo, un soggetto può essere un 
 >- $V_{T}$ **alfabeto** o **vocabolario terminale**, comporrà le frasi
 >- $V = V_{N} \cup V_{T}$
 >- $S \in V_{N}$ elemento particolare di $V_{N}$ detto **assioma** o **simbolo iniziale**
->- $P \subseteq V_{N}^+ \times V^*$ [[Analisi 1/Insiemi numerici/Insieme|insieme]] delle regole di **riscrittura** o **produzioni**
+>- $P \subseteq V_{N}^+ \times V^*$ [[insieme]] delle regole di **riscrittura** o **produzioni**
 >Scriveremo per comodità $\alpha \to \beta$ al posto di $(\alpha,\beta)$
 
 >[!oss]
@@ -52,14 +52,14 @@ Le varie riscritture possono presentare alternativo, un soggetto può essere un 
 >$P = \left\{ S \to AB, BA \to cCd, CBS \to ab, A\to \varepsilon \right\}$
 
 
-## [[Relazione]] di derivazione immediata
+## [[Relazioni|Relazione]] di derivazione immediata
 $$\alpha \implies \beta, \alpha \in V^+, \beta \in V^*$$
 (alpha deriva beta)
 Se e solo se
 $\alpha = \alpha_{1}\alpha_{2}\alpha_{3}, \beta = \alpha_{1}\beta_{2}\alpha_{3},\quad a_{2} \to \beta_{2} \in P$
 $\alpha_{2}$ si riscrive come $\beta_{2}$ nel contesto $(\alpha_{1}, \alpha_{3})$
 
-Rispetto alla grammatica precedente abbiamo per la stringa aaBAS tre possibili deriazioni
+Rispetto alla grammatica precedente abbiamo per la stringa aaBAS tre possibili derivazioni
 
  aaBAS => aacCdS
 oppure
@@ -100,7 +100,7 @@ $$
 |\alpha| = 1, \beta \in V_{T}.V_{N} \cup V_{T}
 $$
 Le grammatiche regolari sono anche non contestuali, ma non viceversa.
-	la $G_{1}$ è regolare, $G_{2}$
+la $G_{1}$ è regolare, $G_{2}$ invece no
 
 Per la stringa vuota si deve ammettere anche $S \to \varepsilon$
 
@@ -110,9 +110,14 @@ Le regolari sono monotone.
 
 Le non contestuali non lo sono generalmente a causa delle produzioni: $A\to \varepsilon$, si deve ammettere $S \to \varepsilon$, però $S$ non deve apparire in parti destre di produzioni
 
+>[!tldr]
+>- Le produzioni partono tutte da un solo simbolo $\in V_{T}$ -> Grammatica non contestuale
+>- Le produzioni partono da un solo simbolo e aggiungono al massimo un simbolo $\in V_{T}$ eventualmente seguito da un simbolo $\in V_{N}$ -> grammatica regolare
+>- Le produzioni aggiungono sempre simboli -> grammatica monotona
+
 ---
 
-Le grammatiche regolari sono monotone, quelle non contestuali non lo generalmente sono perchè si possono avere produzioni del tipo $A \to \varepsilon$, ma si possono eliminare senza troppe difficoltà.
+Le grammatiche regolari sono monotone, quelle non contestuali non lo generalmente sono perché si possono avere produzioni del tipo $A \to \varepsilon$, ma si possono eliminare senza troppe difficoltà.
 
 ![[gerarchia di Chomsky]]
 
@@ -132,11 +137,23 @@ Il FSA ottenuto è non deterministico
 ## Grammatiche non contestuali equivalenti ad automi a pila non deterministici
 
 Giustificazione intuitiva, consideriamo la grammatica:
-
+S -> aSb | ab
+S => aSb => aabb
 
 ## Grammatiche equivalenti alle macchine di Turing
+Data $G$ costruiamo a grandi linee una macchina di Turing non deterministica, M, che accetti $L(G)$:
+- $x$ si trova nel nastro di partenza
+- viene scandito alla ricerca di una parte destra $\beta$ di qualche produzione $\alpha \to \beta$ di P
+- Quando se ne trova una essa viene sostituita dalla corrispondente parte sinistra $\alpha$
+- In tal modo $\gamma \implies \delta \iff c = \left< q, \delta \right> \vdash^* \left< q,\gamma \right>$ 
+Quindi seguiamo la regola di derivazione da destra verso sinistra.
+Quando, se succede, il contenuto del nastro diventa solo l'assioma $S$, $x$ viene accettata.
 
+>[!oss]
+>Nel caso di una grammatica monotona, la massima memoria occupata è il numero di celle occupate da $x$.
 
+>[!oss]
+>Se $x \notin L(G)$ è possibile che la macchina di Turing tenti infinite strade, possibilmente anche non terminanti, senza arrivare ad una conclusione
 ### Da MT a G
 Data $G$ costruiamo una macchina di turing a nastro singolo non deterministica $M$ che accetti $L(G)$.
 - La stringa $x$ è posta nel nastro di ingresso
@@ -234,5 +251,5 @@ $\longrightarrow$
 \end{document}
 ```
 in questo modo se e solo se $x\$ \alpha B qAC\beta \implies x\$\alpha BA'q'C\beta$
-Aggiungo infine produzioni che permettano a $G$ di derivare da $x\$\alpha Bq_{F}AC\beta$ la sola $x$ se e solo se M giunge a una nuova configurazione di accettazione $\alpha Bq_{F}AC\beta$ cancellando tutto ció che si trova a destra di $, questi incluso.
+Aggiungo infine produzioni che permettano a $G$ di derivare da $x\$\alpha Bq_{F}AC\beta$ la sola $x$ se e solo se M giunge a una nuova configurazione di accettazione $\alpha Bq_{F}AC\beta$ cancellando tutto ciò che si trova a destra di $, questi incluso.
 
