@@ -2,10 +2,10 @@
 Una sfera con una [[carica]] equa $Q$ sulla sua superficie, detta conduttore sferico, genera un [[campo elettrico]] radiale rispetto al centro C con intensità
 $$E = \frac{1}{4\pi\varepsilon_0}\frac{Q}{r^2}$$
 
-Essendo in [[regime stazionario]] il [[campo elettrico]] $\overline{E}$ ammette un pontenziale $V(r)$ che  se la sfera è immersa in un dielettrico $\varepsilon_3$ è pari a
+Essendo in [[regime stazionario]] il [[campo elettrico]] $\overline{E}$ ammette un pontenziale $V(r)$ che  se la sfera è immersa in un dielettrico $\varepsilon_r$ è pari a
 $$V(R) = \frac{1}{4\pi\varepsilon_0\varepsilon_r}\frac{Q}{R}$$
 
-==> abbiamo che 
+=> abbiamo che 
 $$\frac{Q}{V(R)} = \cost = C$$ 
 Con $C$ [[capacità]] elettrica
 
