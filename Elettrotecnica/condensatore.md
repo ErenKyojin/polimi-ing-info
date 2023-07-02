@@ -22,7 +22,10 @@ Un condensatore piano collegato ad un [[generatore indipendente]] di [[tensione]
 Il condensatore è collegato ad un [[generatore di tensione]] tempo variante $V(t)$ e subisce una variazione $\Delta\\V$ in un intervallo di tempo $\Delta\\t$ abbiamo quindi una [[corrente]] media $$I = \frac{\Delta\\Q}{\Delta\\t} = C\frac{\Delta\\V}{\Delta\\t}$$
 E facendo il limite per $\Delta\\t \to 0$ abbiamo
 $$I = \frac{dQ}{dt} = C\frac{dV}{dt}$$
-
+Notiamo che la riscrittura
+$$ - I + \frac{dQ}{dt} = 0 $$
+È l'applicazione del [[principio di conservazione della carica]] $\oint \bar{\jmath} \cdot \! \hat{u}_{N} \, \mathrm{d}\sigma + \frac{d}{dt} \oint   \!\epsilon \bar{E} \cdot \, \mathrm{d}\sigma = 0$
+Con il primo termine $- I$
 ### [[potenza]] istantanea assorbita
 La potenza istantanea asssorbita da un condensatore è
 $$p_a(t) = V(t)I(t) = CV(t)\frac{dV(t)}{dt} =\frac{d}{dt}\left(\frac{CV^2(t)}{2}\right) = \frac{dw_a^E}{dt}$$
