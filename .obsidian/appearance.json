@@ -10,9 +10,9 @@
     "test"
   ],
   "interfaceFontFamily": "Inter",
-  "textFontFamily": "Lilex Nerd Font,Atkinson Hyperlegible",
+  "textFontFamily": "Atkinson Hyperlegible,3270 Nerd Font",
   "monospaceFontFamily": "Anonymous Pro",
   "nativeMenus": false,
   "showViewHeader": true,
-  "baseFontSize": 15
+  "baseFontSize": 16
 }
