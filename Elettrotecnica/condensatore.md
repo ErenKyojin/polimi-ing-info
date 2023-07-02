@@ -25,7 +25,11 @@ $$I = \frac{dQ}{dt} = C\frac{dV}{dt}$$
 Notiamo che la riscrittura
 $$ - I + \frac{dQ}{dt} = 0 $$
 È l'applicazione del [[principio di conservazione della carica]] $\oint \bar{\jmath} \cdot \! \hat{u}_{N} \, \mathrm{d}\sigma + \frac{d}{dt} \oint   \!\epsilon \bar{E} \cdot \, \mathrm{d}\sigma = 0$
-Con il primo termine $- I$ ($I$ entra in $\sigma$), il secondo termine è invece la derivata di $Q$ dalla legge di Gauss
+Con il primo termine $- I$ ($I$ entra in $\sigma$), il secondo termine è invece la derivata di $Q$ dalla legge di Gauss.
+Inoltre la KCL non vale per la superficie $\sigma$ che attraversa un componente. Tuttavia vale la legge:
+$$ \frac{d}{dt} \oint_{\sigma} \epsilon \bar{E} \cdot \hat{u}_{N}\d\sigma  $$
+Detta [[corrente di spostamento]].
+
 ### [[potenza]] istantanea assorbita
 La potenza istantanea asssorbita da un condensatore è
 $$p_a(t) = V(t)I(t) = CV(t)\frac{dV(t)}{dt} =\frac{d}{dt}\left(\frac{CV^2(t)}{2}\right) = \frac{dw_a^E}{dt}$$
