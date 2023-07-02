@@ -21,7 +21,7 @@ Strumento di misura della tensione, formato da un organo di misura e da due cord
 \draw[<-] (1.center) -| (-0.2,2);
 \draw[<-] (2.center) -| (0.2,2);
 \draw (-1,2) rectangle (1,5);
-\draw ()
+\draw (-.75,4) rectangle (.75,4.5) node[midway]{V};
 
 
 \end{tikzpicture}
