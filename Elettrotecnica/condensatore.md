@@ -30,6 +30,8 @@ Inoltre la KCL non vale per la superficie $\sigma$ che attraversa un componente.
 $$ \frac{d}{dt} \oint_{\sigma} \epsilon \bar{E} \cdot \hat{u}_{N}\d\sigma  $$
 Detta [[corrente di spostamento]].
 
+All'esterno del condensatore continuerà a valere la legge di Kirchoff (la corrente di spostamente è nulla essendo nullo il campo all'esterno del condensatore)
+
 ### [[potenza]] istantanea assorbita
 La potenza istantanea asssorbita da un condensatore è
 $$p_a(t) = V(t)I(t) = CV(t)\frac{dV(t)}{dt} =\frac{d}{dt}\left(\frac{CV^2(t)}{2}\right) = \frac{dw_a^E}{dt}$$
