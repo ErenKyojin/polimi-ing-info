@@ -10,7 +10,4 @@ modification date: 2023-04-05 16:49
 >Se $S \neq \varnothing$ e $S \neq \mathbb{N}$ allora $S$ non è decidibile.
 >(Se $F = \varnothing$ e $F$ non è l'insieme di tutte le funzioni computabili)
 
-
-
-
-
+%

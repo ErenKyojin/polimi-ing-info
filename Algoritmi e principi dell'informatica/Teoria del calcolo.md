@@ -80,6 +80,7 @@ Funzione identità $f(x) = x$
 (Funzione totalmente indefinita)
 
 ### |Q| = 2
+
 | MT1000  | 0       | 1       | -       |
 | ------- | ------- | ------- | ------- |
 | **q0**      | $\perp$ | $\perp$ | $\perp$ |

@@ -13,5 +13,6 @@
   "textFontFamily": "Atkinson Hyperlegible",
   "monospaceFontFamily": "Anonymous Pro",
   "nativeMenus": false,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "baseFontSize": 16
 }

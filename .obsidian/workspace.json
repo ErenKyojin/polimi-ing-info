@@ -1,84 +1,40 @@
 {
   "main": {
-    "id": "47fd03826e3b2dbc",
+    "id": "11f1eb9cb53ad8e5",
     "type": "split",
     "children": [
       {
-        "id": "10755d82a6ee29e7",
+        "id": "af33f9613c762921",
         "type": "tabs",
         "children": [
           {
-            "id": "047e4913588a358c",
+            "id": "bc0f2e34527c224b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "86e8e28f503adeab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algoritmi e principi dell'informatica/Chiusura.md",
+                "file": "Elettrotecnica/_Programma Elettrotecnica.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "ade3bbfbe39ffd6a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bd677c1759ef942d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algoritmi e principi dell'informatica/gerarchia di Chomsky.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fa3e284b3963271",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "00a888d6107058fb",
+    "id": "d4eb7750d0a8130b",
     "type": "split",
     "children": [
       {
-        "id": "3d534afaa91c0967",
+        "id": "8a91aebda8c0786e",
         "type": "tabs",
         "children": [
           {
-            "id": "4761bf2da4ec9f19",
+            "id": "93fffef7bf004d6a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -88,13 +44,13 @@
             }
           },
           {
-            "id": "93937dacd035eb37",
+            "id": "5a2b15c972408cee",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "Gauss",
-                "matchingCase": false,
+                "query": "diagonalizza",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -103,58 +59,58 @@
             }
           },
           {
-            "id": "adb655bd7a3b6c96",
+            "id": "d5c5239e092a5179",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
-            }
-          },
-          {
-            "id": "e139631801af8c51",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": false
-              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 300
   },
   "right": {
-    "id": "c7067de40523310b",
+    "id": "5c7107cea5f123a2",
     "type": "split",
     "children": [
       {
-        "id": "96115a96d20cf019",
+        "id": "1b97504c7ad761ef",
         "type": "tabs",
         "children": [
           {
-            "id": "f34d4c3be0efec4d",
+            "id": "828ea9437be70438",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf",
+                "file": "Elettrotecnica/_Programma Elettrotecnica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a1191581f2db4b60",
+            "id": "a05a4686b08ba892",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Elettrotecnica/_Programma Elettrotecnica.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3088be6d89dd6e60",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -165,16 +121,25 @@
             }
           },
           {
-            "id": "b1fcc5c5c02acece",
+            "id": "78751149e3095e92",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf"
+                "file": "Elettrotecnica/_Programma Elettrotecnica.md"
               }
             }
+          },
+          {
+            "id": "0ea600c78c4eda6f",
+            "type": "leaf",
+            "state": {
+              "type": "workbench-items",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -183,50 +148,58 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-tts:Text to Speech": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-flexible-pomo:Start Pomodoro": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-flexible-pomo:Start Pomodoro": false,
+      "obsidian-tts:Text to Speech": false
     }
   },
-  "active": "1fa3e284b3963271",
+  "active": "bc0f2e34527c224b",
   "lastOpenFiles": [
-    "Algoritmi e principi dell'informatica/Theta grande.md",
-    "Algoritmi e principi dell'informatica/Teorema di correlazione polinomiale.md",
-    "Algoritmi e principi dell'informatica/sequenza di mosse.md",
-    "Algoritmi e principi dell'informatica/ricerca binaria.md",
-    "Algoritmi e principi dell'informatica/Ricorsivamente enumerabile.md",
-    "Algoritmi e principi dell'informatica/Srutture dati/Albero rosso-nero.md",
-    "PDFs/Informatica teorica 2nd (D. Mandrioli, P. Spoletini).pdf",
-    "Algoritmi e principi dell'informatica/Chiusura.md",
-    "Algoritmi e principi dell'informatica/Linguaggio.md",
-    "Algoritmi e principi dell'informatica/Modelli generativi/Grammatiche.md",
-    "Algoritmi e principi dell'informatica/gerarchia di Chomsky.md",
-    "Algoritmi e principi dell'informatica/Algoritmi galattici.md",
-    "Elettrotecnica/tensione.md",
-    "Elettrotecnica/conduttori.md",
-    "PDFs/Introduction_To_Algorithms_3rd_T_H_Cormen,_C_E_Leiserson,_R_L_Rivest.pdf",
-    "PDFs",
-    "Elettrotecnica/voltmetro.md",
-    "Elettrotecnica/legge di Ohm.md",
-    "Elettrotecnica/circuito elettrico.md",
+    "Elettrotecnica/alternatore.md",
+    "Elettrotecnica/ammettenza.md",
     "Elettrotecnica/amperometro.md",
-    "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
-    "Algoritmi e principi dell'informatica/linguaggio senza contesto.md",
-    "Algoritmi e principi dell'informatica/linguaggio ricorsivo.md",
-    "Algoritmi e principi dell'informatica/linguaggio ricorsivamente enumerabile.md",
-    "Algoritmi e principi dell'informatica/linguaggi regolari.md",
+    "Elettrotecnica/amplificatore operazionale.md",
+    "Elettrotecnica/conduttori.md",
     "Elettrotecnica/corrente.md",
-    "Elettrotecnica/campo elettrico.md",
+    "Elettrotecnica/legge di Ohm.md",
+    "Elettrotecnica/Legge di Kirchhoff per le correnti.md",
+    "Elettrotecnica/Legge di Kirchhoff per le tensioni.md",
+    "Elettrotecnica/leggi di Kirchoff.md",
+    "Elettrotecnica/circuito elettrico.md",
+    "Elettrotecnica/_Programma Elettrotecnica.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/heap.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/Heapsort.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/counting sort.md",
+    "Algoritmi e principi dell'informatica/Algoritmi/Algoritmi di ordinamento.md",
+    "Elettrotecnica/induttore.md",
+    "Elettrotecnica/Serie.md",
+    "Geometria e algebra lineare/diagonalizzabilità.md",
+    "Geometria e algebra lineare/Autovalori e Autovettori.md",
+    "Geometria e algebra lineare/molteplicità.md",
+    "Geometria e algebra lineare/Endomorfismi simmetrici.md",
+    "Geometria e algebra lineare/teorema spettrale.md",
     "Elettrotecnica/principio di conservazione della carica.md",
     "Elettrotecnica/legge di Gauss.md",
-    "Algoritmi e principi dell'informatica/Srutture dati"
+    "Resources/Stuff/Approccio.md",
+    "snapshot.jpg",
+    "Resources/Stuff",
+    "Fisica/Dinamica/forza elettrostatica.tex",
+    "Algoritmi e principi dell'informatica/Allegati/Pasted image 20230223095250.png",
+    "Algoritmi e principi dell'informatica/Canvas/MT nastro singolo.canvas",
+    "Algoritmi e principi dell'informatica/Canvas/MT a k-nastri.canvas",
+    "Algoritmi e principi dell'informatica/Canvas/FSA.canvas",
+    "Algoritmi e principi dell'informatica/Canvas/Automa a pila.canvas",
+    "Resources/Allegati/Pasted image 20230616132600.png",
+    "Resources/Allegati/Pasted image 20230616131856.png",
+    "Resources/Allegati/Pasted image 20230616131841.png",
+    "Resources/Allegati/Pasted image 20230616121955.png"
   ]
 }

@@ -6,7 +6,7 @@ Essendo in [[regime stazionario]] il [[campo elettrico]] $\overline{E}$ ammette 
 $$V(R) = \frac{1}{4\pi\varepsilon_0\varepsilon_r}\frac{Q}{R}$$
 
 ==> abbiamo che 
-$$\frac{Q}{V(R)} = const$ = C$$ 
+$$\frac{Q}{V(R)} = \cost = C$$ 
 Con $C$ [[capacità]] elettrica
 
 Due conduttori con le cariche $Q^+$ e $Q^-$ con $V_1$ e $V_2$ potenziali rispettivi, allora la differenza di potenziale $V = V_1 - V_2$, la [[capacità]] del sistema è

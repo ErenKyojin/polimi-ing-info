@@ -138,6 +138,11 @@ Consiste di tutte le stringhe costituite da soli simboli terminali derivabili da
 >$\left\{ A,B,C,D \right\}, \left\{ a,b,c \right\}$ sono gli alfabeti terminali e non terminali.
 >Si tratta di $a^nb^nc^n$ con $n \geq 1$
 
+![[linguaggi regolari]]
+
+![[linguaggio ricorsivo]]
+
+![[linguaggio senza contesto|linguaggi context free]]
 
 
 

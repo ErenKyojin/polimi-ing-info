@@ -6,21 +6,21 @@ modification date: 2023-03-15 08:46
 Vedremo la logica per descrivere [[Linguaggio|linguaggi]] formali e per specificare il comportamento di programmi.
 
 
-# Logica moderna del primo ordine
+# Logica monadica del primo ordine
 Questo tipo di logica ci permette di descrivere parole su un alfabeto $I$
 $$\varphi::= a(x) | x < y | \neg \varphi | \varphi \cup \varphi | \exists x(\varphi) $$
-- $a \in I$, introduciamo una lettera predicativa per ongi simbolo dell'alfabeto
-- $<$ corrisponde alla [[Relazione]] di minore
+- $a \in I$, introduciamo una lettera predicativa per ogni simbolo dell'alfabeto
+- $<$ corrisponde alla [[Relazioni|Relazione]] di minore
 - il [[Analisi 1/Funzioni/dominio|dominio]] delle [[variabili]] è un sottoinsieme finito di [[numeri naturali]] $[0,\dots,n-1]$, posizioni dei caratteri nella parola
 
 
-- $\varphi_{1} \cap \varphi_{2} := \neg(\neg \varphi_{1} \cup \neg \varphi_{2})$
-- $\varphi_{1} \to \varphi_{2} := \neg \varphi_{1} \cup \neg \varphi_{2}$
+- $\varphi_{1} \land \varphi_{2} := \neg(\neg \varphi_{1} \cup \neg \varphi_{2})$
+- $\varphi_{1} \to \varphi_{2} := \neg \varphi_{1} \lor \neg \varphi_{2}$
 - $\forall x (\varphi) := \neg \exists x (\neg \varphi)$
-- $x = y := \neg(x < y) \cap \neg(y < x)$
+- $x = y := \neg(x < y) \land \neg(y < x)$
 - $x \leq y := \neg(y < x)$
 - la costante 0: $x = 0 := \neg \exists y (y < x)$
-- successore: $\text{succ}(x,y) := x < y \cap \neg \exists z(x < z \cap z < y)$
+- successore: $\text{succ}(x,y) := x < y \land \neg \exists z(x < z \land z < y)$
 - Costanti 1, 2, 3 successore di 0,1,2
 
 
@@ -34,32 +34,31 @@ $$
 $$
 Formula che è soddisfatta da tutte le parola in cui ogni $a$ è seguita da una $b$
 $$
-foral
+\forall x (a(x) \to \exists y (\text{succ(x,y)} \land b(y)))
 $$
+Con le seguenti abbreviazioni:
+- $y = x + 1$ per $\text{succ}(x)$
+- se $k$ è una costante $>1$ $y = x + k$ 
+	- per $\exists z_{1} \dots z_{k-1}(y = z_{k-1} + 1 \land z_{k-1} = z_{k-2} + 1 \dots \land z_{1} = x + 1)$
+- $y = x - 1$ per $\text{succ}(y,x)$ cioè $x = y + 1$
+- $y = x - k$ per $x = y + k$
+- $\text{last}(x)$ per $\neg \exists y (x < y)$
+
+- Parole in cui l'ultimo simbolo è $a$: $\exists x (\text{last}(x) \land a(x))$
+- Parole, di almeno 3 simboli, in cui il terzultimo simbolo è $a$:
+	- $\exists x(a(x) \land \exists y(y = x + 2 \land \text{last}(y)))$
+
 
 # Logica monadica MFO
 
-$w \in I$
-$w \vDash \varphi$
-$\vDash$ [[semantica]]
+$w \in I$, $w \vDash \varphi$
+con $\vDash$ [[semantica]]
 
 $a(x)$, $w = aab$, $a(0), a(1),b(2)$, monadica in quanto ha un solo argomento, in questo caso la posizione all'interno della [[stringa]].
 
 $\forall(x)$ significa per ogni posizione nella parola
 $\exists x$ significa che esiste una posizione nella parola
 
-
-valgono le classiche abbreviazioni
-- $\varphi_{1} \cap \varphi_{2} := \neg(\neg \varphi_{1} \cup \neg\varphi_{2})$
-- $\varphi_{1} \to \varphi_{2} := \neg\varphi_{1} \cup \neg\varphi_{2}$
-- $\forall x(\varphi) := \neg Ex(\neg \varphi)$
-- $x = y := \neg(x < y) \cap \neg( y < x)$
-- $x \leq y := \neg(y < x)$
-- costante 0: $x = 0 := \neg \exists y(y < x)$
-- successore $\text{succ}(x,y) :=  x < y, \neg \exists z : (x < z \cap z < y)$
-- costanti 1, 2, 3 come successori di 0, 1, 2
-- $y = x + 1$ 
-- #todo
 
 >[!esempio]
 >formula che è soddisfatta da tutte le parole in cui ogni $a$ è seguita da una $b$
@@ -75,8 +74,7 @@ Con una formula chiusa non ci serve una valutazione:
 $$L(\varphi) = \left\{ w \in I^* | w \vDash \varphi\right\}$$
 
 >[!oss]
->La stringa vuota [[Epsilon]] non puó soddisfare $q$, esistenziali, quindi soddisfa solo quantificazioni universali.
-
+>La stringa vuota [[Epsilon]] non puó soddisfare [[Quantificatori|quantificazioni]] esistenziali, quindi soddisfa solo quantificazioni universali.
 
 
 ## Proprietà di MFO
@@ -90,9 +88,9 @@ I linguaggi esprimibili mediante MFO sono chiusi rispetto a [[Unione]], [[Inters
 >analogo per unione (and)
 
 
-In MFO non si puó esprimere il linguaggio $L_{P}$ fatto di tutte e sole le parole di lunghezza pari con $I = \left\{ a \right\}$ (alfabeto unario).
+In MFO non si può esprimere il linguaggio $L_{P}$ fatto di tutte e sole le parole di lunghezza pari con $I = \left\{ a \right\}$ (alfabeto unario).
 
-MFO è strettamente meno potente degli FSA, data una formula MFO costruire un FSA equivalente è sempre possibile e $L_{P}$ puó sempre essere riconosciuto tramite FSA
+MFO è strettamente meno potente degli FSA, data una formula MFO costruire un FSA equivalente è sempre possibile e $L_{P}$ può sempre essere riconosciuto tramite FSA
 
 >[!esempio]
 >$L_{pari}= \left\{ aa, aaaa, aaaaaa, \dots \right\}$
@@ -106,17 +104,17 @@ Non abbiamo chiusura rispetto a $^*$:
 >Abbiamo che $L_{p} = L_{p_{2}}^*$
 
 
-MFO definisce i cosidetti linguaggi **star free** o **aperiodici**, definibili tramite unione, intersezione, complemento e concatenazione di linguaggi finiti, linguaggi utili per la verifica dei programmi.
+MFO definisce i cosiddetti linguaggi **star free** o **aperiodici**, definibili tramite unione, intersezione, complemento e concatenazione di linguaggi finiti, linguaggi utili per la verifica dei programmi.
 
-# Logica monaica del secondo ordine (MSO)
+# Logica monadica del secondo ordine (MSO)
 Per ottenere lo stesso potere espressivo degli [[Automa a stati finiti|FSA]] serve permettere di quantificare su predicati monadici
 - Logica del primo ordine, quantificazioni su posizioni:
-- Logica del secondo ordine, quantificazioni su insiemi di posizioni, dove un [[insieme]] di posizioni è codificato da un prediato monadico: $P(x)$ vuol  dire che $x$ è una posizione per cui vale $P(x)$
+- Logica del secondo ordine, quantificazioni su insiemi di posizioni, dove un [[insieme]] di posizioni è codificato da un predicato monadico: $P(x)$ vuol  dire che $x$ è una posizione per cui vale $P(x)$
 
 Ammettiamo quindi formule del tipo $\exists x(\varphi)$ dove $x$ è una variabile il cui dominio è l'[[Geometria e algebra lineare/insieme|insieme]] dei predicati monadici, per convenzione usiamo le lettere maiuscole per indicare variabili con [[Analisi 1/Funzioni/dominio|dominio]] l'[[Geometria e algebra lineare/insieme|insieme]] dei predicati monadici e lettere minuscole per indicare variabili sulle posizioni.
 
 - minuscole per variabili del primo ordine
-- maiuscle per variabili del secondo ordine
+- maiuscole per variabili del secondo ordine
 
 [[semantica#Semantica MSO]]
 
@@ -127,8 +125,9 @@ Ammettiamo quindi formule del tipo $\exists x(\varphi)$ dove $x$ è una variabil
 
 ## Da FSA a MSO
 
+In generale, grazie alle quantificazione del secondo ordine è possibile trovare, per ogni FSA, una formula MSO equivalente
 > [!esempio]
-> ```tikz
+>```tikz
 > \usetikzlibrary{automata, arrows.meta,positioning}
 > \begin{document}
 > \begin{tikzpicture}[scale = 2,every node/.style={scale=1.5}, node distance = 3cm]
@@ -145,13 +144,22 @@ Ammettiamo quindi formule del tipo $\exists x(\varphi)$ dove $x$ è una variabil
 > \end{tikzpicture}
 > \end{document}
 > ```
+> 
 
+## Da MSO a FSA
+Data una formula MSO $\varphi$, è possibile costruire un FSA che accetta esattamente il linguaggio L definito da $\varphi$ (Teorema di Büchi-Elgot-Trakhtenbrot), quindi i linguaggi definibili da formule MSO coincide con i linguaggi regolari.
 
 # Logica per proprietà dei programmi
+- Specifica di un algoritmo di ricerca:
+	- La variabile logica found deve essere vera se e solo se esiste un elemento dell'array $a$ di $n$ elementi uguale all'elemento cercato $x:$
+	  $$ found \leftrightarrow  \exists i (1 \leq i \leq n \land a[i] = x) $$
+- Specifica di un algoritmo di inversione di un array:
+  $$ \forall i (1 \leq i \leq n \to b[i] = a[n - i + 1]) $$
 
-{Precondizione PRE}
-Programma o frammento di programma
-{Postcondizione POST}
+
+{Precondizione: PRE}
+Programma o frammento di programma: P
+{Postcondizione: POST}
 
 Se vale PRE prima dell'esecuzione di P si vuole che P sia tale da far valere POST dopo la sua esecuzione
 

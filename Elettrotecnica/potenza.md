@@ -39,7 +39,7 @@ $$\begin{flalign}
  p_a(t)\quad&= v(t)i(t) = V\cos(\omega t + \varphi_V)I\cos(\omega t +  \varphi_I) = && \\
  &= \frac{VI}{2}\cos(\varphi_V-\varphi_I) + \frac{VI}{2}cos(2\omega t + \varphi_V + \varphi_I + \overbrace{(\varphi_V-\varphi_V)}^\text{aggiungo tolgo} = &&\\
  &= \underbrace{\frac{VI}{2}\cos(\varphi_V-\varphi_I)}_\text{Potenza media} + \underbrace{\overbrace{\frac{VI}{2}\cos(\varphi_V - \varphi_I)}^P\cos(2\omega t+2\varphi_V)}_{P_a^\text{attiva istantanea}(t)} + \\
- &+ \underbrace{\overbrace{\frac{VI}{2}\sin(\varphi_V-\varphi_I)^Q}\sin(2\omega t + 2\varphi_V)}_{P_a^\text{reattiva istantanea}(t)}
+ &+ \underbrace{\overbrace{\frac{VI}{2}\sin(\varphi_V-\varphi_I)}^Q\sin(2\omega t + 2\varphi_V)}_{P_a^\text{reattiva istantanea}(t)}
 
 \end{flalign}
 $$
@@ -92,7 +92,7 @@ $$\hat A = P + jQ =\frac{\bar v^*\bar\imath}{2}$$
 Inoltre fino ad ora abbiamo parlato della potenz complessa assorbita, la potenza complessa erogata è $-\hat{A}$/
 
 ### Triangolo delle potenze
-Il generico lato di un grafo di un circuio che evolve in [[regime sinusoidale]] permanente, con la tensione e corrente descrittive prese con la convenzione degli utilizzatori
+Il generico lato di un grafo di un circuito che evolve in [[regime sinusoidale]] permanente, con la tensione e corrente descrittive prese con la convenzione degli utilizzatori
 $$\begin{align}
 v(t) &= V\cos(\omega t + \varphi_V) \\
 i(t) &= I\cos(\omega t + \varphi_I)
@@ -112,7 +112,7 @@ Notiamo che quando $\varphi = -\pi/_2$ se il lato ammette un impedenza equivalen
 
 Ossia l'anticipo del fasore di corrente si traduce nell'anticipo del vettore potenza attiva $P$ rispetto alla potenza complessa $\hat A$.
 Invece il ritardo del fasore di corrente si traduce nel ritardo del vettore di A.
-Questo perchè Q è negativa nel primo caso e positiva nel secondo.
+Questo perché Q è negativa nel primo caso e positiva nel secondo.
 Il fattore di potenza è il coseno dell'angolo $\varphi$
 $$\cos\varphi = \frac{P}{|\hat A|}$$
 E quindi quando $Q \leq 0$ si specifica fornendo $\cos(\varphi)$ e dicendo "*in ritardo*"

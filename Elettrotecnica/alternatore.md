@@ -8,8 +8,8 @@
 > - Quando gira in senso orario viene generata la sequenza negativa
 
 
->[!tip] Connesione a stella
->Connettendo i morsetti $a',\ b'$ e $c'$ ad un unico morsetto $n$ otteniemo una connessione "a stella" o ad Y
+>[!tip] Connessione a stella
+>Connettendo i morsetti $a',\ b'$ e $c'$ ad un unico morsetto $n$ otteniamo una connessione "a stella" o ad Y
 >![[Pasted image 20220616122119.png]]
 >Le tensioni della configurazione a stella (ossia le tensioni di fase) sono scrivibili senza il pedice n ($v_{an}(t) = v_a(t$) in quanto sia la sequenza positiva sia quella negativa godono della proprietà $v_a(t) + v_b(t) + v_c(t) = 0$ come dimostrabile:
 >$$\begin{flalign}
