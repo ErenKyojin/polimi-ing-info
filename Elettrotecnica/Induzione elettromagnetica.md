@@ -18,3 +18,8 @@ quindi si manifesta un campo elettrico $\bar{E}$ diretto come in figura. Tale ca
 >[!oss]
 >Il segno della FEM indotta è sempre opposto rispetto a quello di $\frac{d}{dt}\Phi_{B}$
 
+Ma non solo questo, osservazioni sperimentali mostrano che il valore della fem indotta è in modulo uguale alal derivata rispetto al tempo del flusso magnetico, quindi:
+
+![[legge di Faraday-Henry]] 
+
+La linea chiusa $L$ è una spira di materiale conduttore, e l'induzione di una fem lungo la linea genera una corrente $I$ che circola nella spira
