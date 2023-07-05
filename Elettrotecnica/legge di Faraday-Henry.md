@@ -40,7 +40,7 @@ Ma $V_{fem} = -E_{0}$, $V_{1} = R_{1} I$, $V_{2} = R_{2}I$, quindi il generatore
 È altresì evidente che se la forza elettromotrice si spegne, cioè si rimuove le pila, non si avrà alcuna corrente circolante nella maglia.
 
 Se togliamo la tensione e immergiamo il circuito in un campo magnetico $\bar{B}(t)$ variabile nel tempo la cui direzione sia uscente dal foglio e perpendicolare ad esso.
-Il flusso di $\bar{B}(t)$ attraverso la superficie delimitata dalla spira di area $S$, sia $\Phi_{B}(t) = B(t)S$. Siccome
+Il flusso di $\bar{B}(t)$ attraverso la superficie delimitata dalla spira di area $S$, sia $\Phi_{B}(t) = B(t)S$. Siccome il flusso varia nel tempo si introduce una fem $V_{fem} = - \frac{d}{dt} \Phi_{_{B}}(t)$
 
 ```tikz
 \usepackage{circuitikz}
@@ -56,7 +56,12 @@ Il flusso di $\bar{B}(t)$ attraverso la superficie delimitata dalla spira di are
 		\node[red] at (\x,\y){$\bullet$};
 	}
 }
-\node[red] at (4,4){$\bar{B}$};
+\node[red] at (.45,1){$\bar{B}(t)$};
 \end{tikzpicture}
 \end{document}
 ```
+Avremo
+$$ V_{1} + V_{2} = - \oint_{\gamma} \bar{E} \cdot d\bar{l} = -V_{fem} = \frac{d}{dt} \int _{S} \! \bar{B} \cdot \hat{u}_{N} \, \mathrm{d}S \neq 0  $$
+Nella maglia ci sarà la corrente $I = \frac{\left( \frac{d}{dt} \Phi_{B}(t) \right)}{R_{1} + R_{2}}$.
+
+Dualmente alla leggedi Faraday-Henry che associa la variazione di un campo magnetico ad un campo elettrico, vi è la [[leggee di Ampere-Maxwell]] che lega la variazione di un campo elettrico ad un campo magnetico.
