@@ -36,4 +36,7 @@ Considerando il circuito qui sopra è possibile scrivere la KVL:
 $$ V_{1} + V_{2} - E_{0} = - \oint_{\gamma} \bar{E} \cdot \d \bar{l} = 0 $$
 Essendo $\frac{d}{dt} \int _{S} \! B \cdot \hat{u}_{N} \mathrm{d}S = 0$ in quanto $\bar{B}$ è nullo. Quindi
 $$ V_{1} + V_{2} = E_{0} $$
-Ma $V_{fem} = -E_{0}$, $V_{1} = R_{1} I$, $V_{2} = R_{2}I$
+Ma $V_{fem} = -E_{0}$, $V_{1} = R_{1} I$, $V_{2} = R_{2}I$, quindi il generatore di tensione (o la forza) induce una corrente di maglia $I = \frac{E_{0}}{R_{1} + R_{2}}$.
+È altresì evidente che se la forza elettromotrice si spegne, cioè si rimuove le pila, non si avrà alcuna corrente circolante nella maglia.
+
+Se togliamo la tensione e immergiamo il circuito in un campo magnetico $\bar{B}(t)$ variabile nel tempo la cui direzione sia uscente dal foglio e perpendicolare ad esso
