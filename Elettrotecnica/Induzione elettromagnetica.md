@@ -12,4 +12,9 @@ Ad esempio se un magnete è posto vicino ad un circuito chiuso si osserva un fem
 La magnitudine della forza indotta dipende dalla velocità con cui viene mosso ed è tanto maggiore tanto lo è la derivata del flusso, mentre la direzione dipende dal segno della derivata del flusso (quindi se diminuisce o aumenta).
 
 Quando il flusso magnetico aumenta si manifesta una fem indotta
-$$ V_{fem} = \oint_{L} \bar{E} \cdot \d \bar{l} $$
+$$ V_{fem} = \oint_{L} \bar{E} \cdot \d \bar{l} < 0 $$
+quindi si manifesta un campo elettrico $\bar{E}$ diretto come in figura. Tale campo metterebbe naturalmente in moto una carica positiva in senso orario o una negativa in senso antiorario. $V_{fem}$ agisce in senso negativo rispetto all'orientamento di $L$, se invece $V_{fem} > 0$ agisce in senso positivo.
+
+>[!oss]
+>Il segno della FEM indotta è sempre opposto rispetto a quello di $\frac{d}{dt}\Phi_{B}$
+
