@@ -20,7 +20,7 @@ quindi si manifesta un campo elettrico $\bar{E}$ diretto come in figura. Tale ca
 
 Ma non solo questo, osservazioni sperimentali mostrano che il valore della fem indotta è in modulo uguale alal derivata rispetto al tempo del flusso magnetico, quindi:
 
-![[legge di Faraday-Henry]] 
+![[legge di Faraday-Henry#Legge]] 
 
 La linea chiusa $L$ è una spira di materiale conduttore, e l'induzione di una fem lungo la linea genera una corrente $I$ che circola nella spira, che genera un campo magnetico $\bar{B}_{ind}$ per la [[formula di Biot-Savart]] che in base al verso di $I$ è diretto in modo da opporso alle variazioni del flusso.
 L'opporsi alla variazione del flusso magnetico da parte di $\bar{B}_{ind}$ esprime il segno negativo nella legge di Faraday-Henry.
@@ -34,4 +34,10 @@ Essendo $V_{fem} = \oint_{L} \bar{E} \cdot \d \bar{l}$ e che le entità geometri
 $$ - \oint_{L} \bar{E} \cdot \d \bar{l} = \frac{d}{dt} \int _{S} \! \bar{B}  \cdot \hat{u}_{N} \mathrm{d}s  = \int _{S} \! \frac{ \partial  }{ \partial t }  \bar{B} \cdot \hat{u}_{N} \mathrm{d}S  $$
 Quindi il campo elettrico $\bar{E}$ non ammette un potenziale e non valgono le [[leggi di Kirchoff]] per le tension. 
 
-La legge di Faraday-Henry coincide con la [[Leggi di Maxwell per il campo magnetostatico|terza legge di Maxwell]] in versione integrale
+La legge di Faraday-Henry coincide con la [[Leggi di Maxwell per il campo magnetostatico|terza legge di Maxwell]] in versione integrale.
+
+
+Possiamo infine generalizzare ancora di più la legge di Faraday-Henry, non è necessario che il percorso $L$ coincida con un conduttore.
+![[legge di Faraday-Henry#Generalizzazione]]
+
+Quindi **un campo elettrico deve esistere ogni volta che varia un campo magnetico**.
