@@ -22,4 +22,9 @@ $$ \bar{B} = \frac{\mu_{0}}{4 \pi} I \oint \! \frac{\hat{u}_{T} \times \hat{u}_{
 ![[Pasted image 20230705155257.png]]
 Calcolare il campo mangetico in un punto qualsiasi è complesso, tuttavia molto meno complesso è calcolare il campo magnetico in un punto sulla circonferenza, prima di tutto notiamo che scrivere la legge è equivalente a scrivere che il campo magnetico $\bar{B}$ in un punto $P$ è la somma di contributi infinitesimi $\d\bar{B}$ di modulo
 $$ \d B = \frac{\mu_{0}}{4\pi} I \frac{\d l}{r^2} $$
-(per costruzione $\hat{u}_{T} \times \hat{u}_{r}$ = 1)
+(per costruzione $\hat{u}_{T} \times \hat{u}_{r}$ = 1).
+Il campo però è obliquo rispetto ad $X$, decomponendo $\d\bar{B}$ in un componente $\d \bar{B}_{\parallel}$ e in un componente $\d \bar{B}_{\perp}$ perpendicolare ad esso, si nota che, quando integiramo lungo la circonferenza, per ogni $\d \bar{B}_{\perp}$, ve ne è un altro in verso opposto da parte dell'elemento di lunghezza direttamente opposto a $\d l$, e quindi tutti i vettori $\d \bar{B}_{\perp}$ sommati danno zero. La risultante $\bar{B}$ sarà somma di tutti i vettori $\d \bar{B}$ ed è diretta come l'asse $X$.
+Ora essendo $\cos \alpha = a / r$
+$$ \d B_{\parallel} = \d B \cos \alpha = \d B \frac{a}{r} = \frac{\mu_{0}}{4\pi} \frac{Ia}{r^3}\d l $$
+quindi
+$$  B = \oint B_{\parallel} = \frac{\mu_{0}}{r\pi} \frac{Ia}{r^3} = $$
