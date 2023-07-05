@@ -18,3 +18,15 @@ modification date: 2023-07-05 18:36
 
 
 # Applicazione della legge di Faraday-Henry ai circuiti elettri
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}[]
+\draw[thick] (0,3) to[V,v=$E_0$] (0,0)
+	   to [short] (4,0)
+	   to [R, l=$R_2$, v=$V_2$] (4,3)
+	   to [R, l=$R_1$] (0,3);
+\end{tikzpicture}
+\end{document}
+```
