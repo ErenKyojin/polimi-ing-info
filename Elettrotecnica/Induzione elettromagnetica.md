@@ -22,4 +22,9 @@ Ma non solo questo, osservazioni sperimentali mostrano che il valore della fem i
 
 ![[legge di Faraday-Henry]] 
 
-La linea chiusa $L$ è una spira di materiale conduttore, e l'induzione di una fem lungo la linea genera una corrente $I$ che circola nella spira
+La linea chiusa $L$ è una spira di materiale conduttore, e l'induzione di una fem lungo la linea genera una corrente $I$ che circola nella spira, che genera un campo magnetico $\bar{B}_{ind}$ per la [[formula di Biot-Savart]] che in base al verso di $I$ è diretto in modo da opporso alle variazioni del flusso.
+L'opporsi alla variazione del flusso magnetico da parte di $\bar{B}_{ind}$ esprime il segno negativo nella legge di Faraday-Henry.
+
+Intuitivamente ha senso questa cosa, infatti se non vi fosse il segno negativo, $\bar{B}_{ind}$ contribuirebbe ad aumentare il flusso, che aumenterebbe la fem, che aumenterebbe la corrente che aumenterebbe il flusso in un circolo vizioso.
+
+Scegliamo la superficie $S$ di cui $L$ è il contorno ed ipotizziamo che il campo magnetico $\bar{B}$ abbia modulo $B = B_{0} \sin(\omega t)$ e sia parallelo a
