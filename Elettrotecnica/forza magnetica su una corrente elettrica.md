@@ -10,4 +10,5 @@ Su un piccolo volume $dV$ la forza totale sarà
 $$ \bar{\d F} = \bar{f} \d V = \bar{\jmath} \times \bar{B} \d V $$
 E la forza totale su un volume finito $V$ si ottiene integrando questa espressione su tutto il volume, cioè
 $$ \bar{F} = \int_{V}   \!\bar{\jmath} \times \, \bar{B} \mathrm{d}V  $$
-Se vi è corrente in un filo di lunghezza $L$, un elemento di volume $\d V$ è da
+Se vi è corrente in un filo di lunghezza $L$, un elemento di volume $\d V$ è dato da $S\d l$ ed il vettore densità di corrente $\bar{\jmath}$ ha la direzione del versore $\hat{u}_{T}$ tangente all'asse del filamento. Pertanto assumendo l'intensità di corrente $I$ lungo il filo uguale in tutti i punti del conduttore l'equazione dà
+$$ \bar{F} = \int _{V} \! \jmath\hat{u}_{T} \times  \, \bar{B}S \mathrm{d}l  = \int _{V} \! \underbrace{ \jmath S }_{ I } \hat{u}_{T} \times \, \bar{B}\mathrm{d}l = I \int _{L} \hat{u}_{T} \times \! \, \bar{B}\mathrm{d}l  $$
