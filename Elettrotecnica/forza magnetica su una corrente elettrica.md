@@ -15,3 +15,6 @@ $$ \bar{F} = \int _{V} \! \jmath\hat{u}_{T} \times  \, \bar{B}S \mathrm{d}l  = \
 
 >[!esempio]
 >Nel caso di conduttore rettilineo e di campo magnetico $\bar{B}$ costante l'intensità della forza è $F = ILB\sin \theta$ mentre la direzione è perpendicolare al piano definito da $\hat{u}_{T}$ e $\bar{B}$ 
+
+>[!oss]
+>Data una spira chiusa (consideriamola rettangolare) in cui scorre corrente, con la normale (orientata con la regola della mano destra rispetto alla corrente che scorre nella spira) al piano della spira orientata
