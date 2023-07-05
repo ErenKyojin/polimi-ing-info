@@ -1,6 +1,8 @@
 # il campo magnetico
 Il campo $\bar B$, chiamato campo magnetico ed analogo al [[campo elettrico]] $\bar E$, cioè attraverso la [[forza]] che una [[carica]] di prova $q$ in [[moto]] con velocità $\bar v$ subisce qualora venga a trovarsi in una regione dello spazio in cui il campo $\bar B$ è presente.
 
+$[\bar{B}] = T$ tesla
+
 In realtà $\bar B$ va definito più correttamente come campo di induziona magnetica e, per descrivere i fenomeno magnetici nei mezzi materiali, è utile e necessario introdurre altri 2 campi:
 - $\bar H$ (denominato effettivamente campo magnetico)
 - $\mathcal{\overline M}$ (denominato campo di magnetizzazione)
@@ -27,4 +29,9 @@ Essendo $\mathcal{\bar M}$ un campo dovuto alla presenza di un mezzo materiale, 
 >con $\mu_r$ permeabilità relativa del materiale. L'introduzione di questa è dovuta alla relazione $\bar{M} = \chi_m\bar{H}$ con $\chi_m$ suscettività magnetica, costante adimensionale che quantifica il grado di magnetizzazione di un materiale. Possiamo quindi scrivere
 >$$\bar{B} = \mu_{0}(\bar{H}+ \chi_{m}\bar{H})=\mu_0\underbrace{(1-\chi_m)}_{\mu_r}\bar{H}$$
 
-Tutta questa premessa ci permette di introdurre i [[circuiti magnetici]]
+Tutta questa premessa ci permette di introdurre i [[circuiti magnetici]].
+
+L'effetto di un campo magnetico si vede ponendo una carica di prova nella regione in cui si vuole misurare il campo, in particolare detta $q$ la carica in moto con velocità $\bar{v}$, la forza $\bar{F}$ su di essa esercitata da $\bar{B}$ è
+$$ \bar{F} = q\bar{v} \times \bar{B} $$
+Attraverso la regola della mano destra quindi la sua intensità
+$F = qvB \sin x$
