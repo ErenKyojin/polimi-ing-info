@@ -11,4 +11,8 @@ $$ \bar{B} = \frac{\mu_{0}}{4 \pi} I \oint \! \frac{\hat{u}_{T} \times \hat{u}_{
 
 >[!esempio]
 >Il campo magnetico prodotto da una corrente lungo un conduttore rettilineo di lunghezza infinita e sezione infinitesima si ha:
+> $$ B = \frac{\mu_{0}}{4 \pi}I \int _{-\infty}^{\infty} \! \frac{\sin \theta}{r^2} \, \mathrm{d}l = \frac{\mu_{0}I}{2 \pi R}$$
+> 
+>Le linee di forza di $\bar{B}$ sono circonferenze concentriche con la corrente e perpendicolari ad essa. 
+>Sfruttando la regola della mano destra si ottiene quindi la [[formula di Biot-Savart]]:
 >
