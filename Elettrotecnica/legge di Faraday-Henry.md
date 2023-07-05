@@ -39,4 +39,18 @@ $$ V_{1} + V_{2} = E_{0} $$
 Ma $V_{fem} = -E_{0}$, $V_{1} = R_{1} I$, $V_{2} = R_{2}I$, quindi il generatore di tensione (o la forza) induce una corrente di maglia $I = \frac{E_{0}}{R_{1} + R_{2}}$.
 È altresì evidente che se la forza elettromotrice si spegne, cioè si rimuove le pila, non si avrà alcuna corrente circolante nella maglia.
 
-Se togliamo la tensione e immergiamo il circuito in un campo magnetico $\bar{B}(t)$ variabile nel tempo la cui direzione sia uscente dal foglio e perpendicolare ad esso
+Se togliamo la tensione e immergiamo il circuito in un campo magnetico $\bar{B}(t)$ variabile nel tempo la cui direzione sia uscente dal foglio e perpendicolare ad esso.
+Il flusso di $\bar{B}(t)$ attraverso la superficie delimitata dalla spira di area $S$, sia $\Phi_{B}(t) = B(t)S$. Siccome
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}[]
+\draw[thick] (0,3) to[short,v_>=$E_0$] (0,0)
+	   to [short] (4,0)
+	   to [R, l=$R_2$, v=$V_2$] (4,3)
+	   to [R, l=$R_1$, v=$V_1$, i^<= $I$] (0,3);
+\path[ultra thick, -latex] (-.5,2.5) edge[bend right] node[left]{$V_{fem}$} (-.5,.5);
+\end{tikzpicture}
+\end{document}
+```
