@@ -20,4 +20,9 @@ La legge di Ampere-maxwell mostra che anche un campo elettrico dipendente dal te
 $$ \oint_{L} \bar{B} \cdot \d \bar{l} = \mu_{0}\varepsilon_{0} \frac{d}{dt} \int _{S} \!\bar{E} \, \cdot \hat{u}_{N}\mathrm{d}S   $$
 che mostra più chiaramente la relazione tra un campo elettrico dipendente dal tempo ed il campo magnetico associato. Quindi un campo elettrico dipendente dal tempo comprota l'esistenza nello stesso luogo di un campo magnetico.
 
-La circuitazione del campo magnetico è chiamata [[forza magnetomotrice]] 
+La circuitazione del campo magnetico è chiamata ![[forza magnetomotrice]]
+![[Pasted image 20230705211028.png]]
+
+L'orientamento relativo dei campi elettrico e megnatico è mostrato nella figura. Se il campo elettrico aumenta (rispettivamente diminuisce) l'orientamento delle linee di forza del campo magnetico è lo stesso (rispettivamente opposto) del senso di rotazione di una vite destra che avanza nella direzione del campo elettrico.
+
+Possiamo quindi enunciare le [[Equazioni di maxwell del campo elettro-magnetico]] 
