@@ -11,3 +11,6 @@ Il ersore $\hat{u}_{N}$ che indica l'ordintamento di $S$ va orientata come il ve
 
 >[!oss]
 >La circolazione in un campo magnetico non è nulla e quindi non ammette un potenziale magnetico nello stesso senso in cui il campo elettrico ammette un potenziale elettrico
+
+>[!esempio]
+>La legge di Ampere applicata ad un Toro circondato da $N$ spire ugualmente distanziate ci da un valore costante del campo magnetico all'interno del toro $B = \mu_{0}nI$ con $n = \frac{N}{L}$ con $L$ cerchio contenuto nel toro
