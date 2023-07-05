@@ -15,4 +15,7 @@ $$ \bar{B} = \frac{\mu_{0}}{4 \pi} I \oint \! \frac{\hat{u}_{T} \times \hat{u}_{
 > 
 >Le linee di forza di $\bar{B}$ sono circonferenze concentriche con la corrente e perpendicolari ad essa. 
 >Sfruttando la regola della mano destra si ottiene quindi la [[formula di Biot-Savart]]:
->
+
+
+## Campo magnetico di una spira di corrente circolare
+Calcolare il campo mangetico in un punto qualsiasi è complesso, tuttavia molto meno complesso è calcolare il campo magnetico in un punto sulla circonferenza, prima di tutto notiamo che dalla legge
