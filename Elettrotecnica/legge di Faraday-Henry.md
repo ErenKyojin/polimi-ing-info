@@ -46,11 +46,17 @@ Il flusso di $\bar{B}(t)$ attraverso la superficie delimitata dalla spira di are
 \usepackage{circuitikz}
 \begin{document}
 \begin{tikzpicture}[]
-\draw[thick] (0,3) to[short,v_>=$E_0$] (0,0)
+\draw[thick] (0,3) to[open, v_> = $\frac{d}{dt}\Phi_B$, voltage shift = .5] (0,0)
 	   to [short] (4,0)
 	   to [R, l=$R_2$, v=$V_2$] (4,3)
 	   to [R, l=$R_1$, v=$V_1$, i^<= $I$] (0,3);
-\path[ultra thick, -latex] (-.5,2.5) edge[bend right] node[left]{$V_{fem}$} (-.5,.5);
+\draw[thick] (0,3) to (0,0);
+\foreach \x in {1,...,3} {
+	\foreach \y in {.5,1,1.5,2} {
+		\node[red] at (\x,\y){$\bullet$};
+	}
+}
+\node[red] at (4,4){$\bar{B}$};
 \end{tikzpicture}
 \end{document}
 ```
