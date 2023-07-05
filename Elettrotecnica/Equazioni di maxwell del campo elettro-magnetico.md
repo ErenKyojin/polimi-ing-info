@@ -12,4 +12,10 @@ come le [[Leggi di Maxwell per il campo magnetostatico]] ma che considerano l'in
 >[!legge] (2) Legge di Gauss per il campo magnetico
 >$$\oint_{S} \bar{B} \cdot \hat{u}_{N}\d S = 0$$
 
->[3]
+>[!legge] (3) Circuitazione per il campo elettrico
+>$$ - \oint_{L} \bar{E} \cdot \d \bar{l} = \int _{S}  \! \frac{d}{dt} \bar{B}  \, \hat{u}_{N} \mathrm{d}S  $$
+
+>[!legge] (4) Circuitazione per il campo magnetico
+>$$ \oint \bar{B} \cdot \d \bar{l} = \mu_{0} \int _{S}  \! \bar{\jmath} \, \hat{u}_{N}\d S\mathrm{d}S + \mu_{0} \varepsilon_{0} \int _{S} \!\frac{d}{dt}\bar{E}  \, \cdot\hat{u}_{N}\mathrm{d}S   $$
+
+ 
