@@ -27,4 +27,10 @@ Il campo però è obliquo rispetto ad $X$, decomponendo $\d\bar{B}$ in un compon
 Ora essendo $\cos \alpha = a / r$
 $$ \d B_{\parallel} = \d B \cos \alpha = \d B \frac{a}{r} = \frac{\mu_{0}}{4\pi} \frac{Ia}{r^3}\d l $$
 quindi
-$$  B = \oint B_{\parallel} = \frac{\mu_{0}}{r\pi} \frac{Ia}{r^3} = $$
+$$  B = \oint B_{\parallel} = \frac{\mu_{0}}{4\pi} \frac{Ia}{r^3} \oint \! \d l = \mu_{0} \frac{Ia^2}{2r^3} $$
+Definendo $r = \sqrt{ a^2 + x^2 }$ si ottiene $B = \frac{\mu_{0}Ia^2}{2(a^2 + x^2)^{3/2}}$. Rispetto alla coordinata $x$ presa lungo l'asse $x = 0$ ovvero al centro della spira e $B \bigg |_{x=0} = \frac{\mu_{0}I}{2a}$.
+Le linee di forza del campo magnetico di una spira di corrente circolare è rappresentato come:
+![[Pasted image 20230705161928.png]]
+
+### N spire
+Se si hanno $N$ spire di raggio uguale e disposte coassialmente abbiamo un [[solenoide]] 
