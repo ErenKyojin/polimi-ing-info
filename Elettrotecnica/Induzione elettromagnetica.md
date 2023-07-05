@@ -27,4 +27,11 @@ L'opporsi alla variazione del flusso magnetico da parte di $\bar{B}_{ind}$ espri
 
 Intuitivamente ha senso questa cosa, infatti se non vi fosse il segno negativo, $\bar{B}_{ind}$ contribuirebbe ad aumentare il flusso, che aumenterebbe la fem, che aumenterebbe la corrente che aumenterebbe il flusso in un circolo vizioso.
 
-Scegliamo la superficie $S$ di cui $L$ è il contorno ed ipotizziamo che il campo magnetico $\bar{B}$ abbia modulo $B = B_{0} \sin(\omega t)$ e sia parallelo a
+Scegliamo la superficie $S$ di cui $L$ è il contorno ed ipotizziamo che il campo magnetico $\bar{B}$ abbia modulo $B = B_{0} \sin(\omega t)$ e sia parallelo al versore normale ad $S$ $\hat{u}_{S}$ si ricava
+$$ V_{fem} = - \frac{d}{dt} \Phi_{B} = - SB_{0} \omega \cos (\omega t)  $$
+E vediamo la correlazione tra $V$ e $\omega$.
+Essendo $V_{fem} = \oint_{L} \bar{E} \cdot \d \bar{l}$ e che le entità geometriche sono considerate fisse possiamo riscrivere:
+$$ - \oint_{L} \bar{E} \cdot \d \bar{l} = \frac{d}{dt} \int _{S} \! \bar{B}  \cdot \hat{u}_{N} \mathrm{d}s  = \int _{S} \! \frac{ \partial  }{ \partial t }  \bar{B} \cdot \hat{u}_{N} \mathrm{d}S  $$
+Quindi il campo elettrico $\bar{E}$ non ammette un potenziale e non valgono le [[leggi di Kirchoff]] per le tension. 
+
+La legge di Faraday-Henry coincide con la [[Leggi di Maxwell per il campo magnetostatico|terza legge di Maxwell]] in versione integrale
