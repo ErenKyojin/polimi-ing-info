@@ -33,5 +33,7 @@ Tutta questa premessa ci permette di introdurre i [[circuiti magnetici]].
 
 L'effetto di un campo magnetico si vede ponendo una carica di prova nella regione in cui si vuole misurare il campo, in particolare detta $q$ la carica in moto con velocità $\bar{v}$, la forza $\bar{F}$ su di essa esercitata da $\bar{B}$ è
 $$ \bar{F} = q\bar{v} \times \bar{B} $$
-Attraverso la regola della mano destra quindi la sua intensità
-$F = qvB \sin x$
+Attraverso la regola della mano destra possiamo ottenere il verso di $S$, per la sua intensità
+invece $F = qvB \sin x$.
+
+Se una carica di prova si muove in una ragione dove vi è un campo elettrico $\bar{E}$ ed un campo magnetico $\bar{B}$ si ha una forza risultante sulla particella detta [[forza di lorentz]] 

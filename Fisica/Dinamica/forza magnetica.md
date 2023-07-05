@@ -1,5 +1,5 @@
 ---
-aliases: forza di Lorentz
+aliases:
 creation date: 2023-03-23 16:32
 modification date: 2023-03-23 16:32
 ---
@@ -8,7 +8,6 @@ Detta anche forza di Lorentz, una [[carica]] elettrica $q$ in [[moto]] con veloc
 $$
 \fbox{$\vec{F} = \vec{q} \times \vec{B}$}
 $$
-La [[forza]] magnetica è sempre ortogonale alla velocità della [[carica]] ed al [[campo magnetico]]
-
+La [[forza]] magnetica è sempre ortogonale alla velocità della [[carica]] ed al [[campo magnetico]].
 
 
