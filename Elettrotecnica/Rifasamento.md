@@ -14,8 +14,7 @@
 >$$P_a^Z = Re\left\lbrace\frac{\bar v_Z\bar I^*}{2}\right\rbrace = Re\left\lbrace\frac{|Z|e^{j\varphi_Z}\bar I \bar I^*}{2}\right\rbrace = \frac{|\bar I||\bar v_Z|}{2}\cos\varphi_Z$$
 >Ed il modulo della corrente è pari a $|\bar I| =\frac{2P_a^Z}{|\bar v_z|\cos\varphi_Z}$ ed è minima quando $\cos\varphi_Z = 1$ cioè con carico puramente resisitvo.
 >Gli scambi di potenza reattiva in effetti avvengono attraverso una corrente sul circuito che contribuisce ad inutili perdite di potenza (la potenza attiva erogata del generatore viene usata del carico, ma la potenza reattiva non da contributi utili provocando perdite)
-
->[!example] Esempio 2
+>
 >![[Pasted image 20220609112229.png]]
 >Se vogliamo ottimizzare il circuito vogliamo che l'impedenza appaia del tutto resistiva, allora collegiamo un [[condensatore]] detto "di rifasamento" $C_{RIF}$ in parallelo. Infatti la reattanza del carico sarà positiva e quella del condensatore negativa può portarci ad avere $Im\{Z(j\omega) // \frac{1}{j\omega C_{RIF}}\}$ = 0.
 >In assenza del condensatore la potenza apparente assorbita dall'impedenza $Z(j\omega)$ è pari a
@@ -30,3 +29,4 @@ E quindi $|\bar I_{RIF}|$ è il modulo della fasore della corrente che scorre in
 >Poichè $Q_{C_{RIF}} = -\frac{\omega C_\text{RIF}|\bar v_Z|^2}{2}$ possiamo scegliere una $C_\text{RIF}$ tale che $Q_Z + Q_{C_\text{RIF}} = 0$
  minimizzando la corrente che scorre in R e quindi l'assorbimento da parte della linea, dovremo scegliere:
  $$C_\text{RIF} = \frac{2Q_Z}{\omega|\bar v_Z|^2} = \frac{2}{\omega|\bar v_Z|^2}\underbrace{\frac{|\bar v_Z|^2\sin\varphi_Z}{2|Z|}}_{Q_Z} = \frac{\sin\varphi_Z}{\omega|Z|}$$
+ 
