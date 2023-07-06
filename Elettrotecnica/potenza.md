@@ -74,6 +74,10 @@ con la $A = |\hat A|$ potenza #apparente, che si misura in $VA$ e non in $W$, la
 >[!info]
 >La potenza complessa è indicata con $\hat A$ e non con $\bar A$ perchè, pur essendo di fatto un fasore, si riferisce alla pulsazione $2\omega$ in un circuito che è alla pulsazione $\omega$
 
+>[!oss]
+>La potenza attiva è quella che consiste in un trasferimento di energia vero e proprio. La potenza reattiva invece è l'energia che viene immagazzinata periodicamente per poi essere rilasciata dai componenti dinamici
+
+
 ### Ricavare la potenza complessa
 Come possiamo ricavare $\hat A$ dai [[fasori]] $\bar v = Ve^{j\varphi_V}$ e $\bar\imath = Ie^{j\varphi_I}$ che rappresentano tensione e corrente ai lati del circuito
 $$\frac{\bar v \bar\imath^*}{2} = \frac{VI}{2}e^{j\varphi_V}e^{-j\varphi_I} = \frac{VI}{2}e^{j(\varphi_V - \varphi_I)}$$
