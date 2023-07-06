@@ -100,5 +100,7 @@ Un [[induttore]] realizzato con un nucleo ferromagnetico non è lineare, per que
 >
 >Se il circuito è toiroidale la lunghezza è la circonferenza col raggio del toro (ossia il raggio del centro della sua sezione) e la sezione è ovviamente circolare.
 >
->Se il circuito è un traferro
+>Se il circuito è un traferro, la resistenza dove vi è il traferro è $\frac{\delta}{\mu_{0}S}$, se la differenza di permeabilità tra il vuoto e il materiale è notevole, le resistenze differenti dal traferro sono solitamente trascurabili (dipende comunque dalla topologia del circuito)
+>
+>Se il circuito è toiroidale con traferro prevale il traferro
 
