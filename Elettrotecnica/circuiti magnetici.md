@@ -96,5 +96,9 @@ Un [[induttore]] realizzato con un nucleo ferromagnetico non è lineare, per que
 >
 >L'equivalente della corrente è il flusso $\Psi$
 >
->$V = \mathfrak{R} \Psi$
+>$V = \mathfrak{R} \Psi$ tensione magnetica
+>
+>Se il circuito è toiroidale la lunghezza è la circonferenza col raggio del toro (ossia il raggio del centro della sua sezione) e la sezione è ovviamente circolare.
+>
+>Se il circuito è un traferro
 
