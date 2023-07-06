@@ -83,3 +83,18 @@ Quindi un circuito magnetico soddisfa tutte le leggi logiche e topologiche di un
 ## [[flusso]]
 
 Un [[induttore]] realizzato con un nucleo ferromagnetico non è lineare, per questo si usa il [[traferro]]
+
+>[!tldr]
+>Lunghezza del segmento/(Sezione del segmento * permeabilità materiale * permeabilità vuoto) -> riluttanza, equivalente alla resistenza.
+>
+>Se l'induttore passa sotto -> tensione negativa -> generatore equivalente invertito 
+>
+>L'induttore in cui passa una corrente $i$ genera una tensione di modulo $Ni$ (N: numero di spire) 
+>
+>>[!danger]
+>>$i$ corrente esclusiva all'induttore (generatore equivalente), nel circuito magnetico non vi è corrente
+>
+>L'equivalente della corrente è il flusso $\Psi$
+>
+>$V = \mathfrak{R} \Psi$
+
