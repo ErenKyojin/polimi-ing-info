@@ -3,7 +3,7 @@ aliases:
 creation date: 2023-06-23 17:03
 modification date: 2023-06-23 17:03
 ---
-Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non completo), strutturato per argomenti chiave con gli argomenti minori e rilevanti
+Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non completo), strutturato per argomenti chiave con gli argomenti minori e rilevanti 
 
 
 ## Capitolo 1
@@ -53,3 +53,22 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 - [ ] [[Circuito di Northon]]
 - [ ] [[Circuito di Thevenin]]
 
+## Capitolo 4
+- [ ] tripolo lineare afine
+- [ ] generatori pilotati
+- [ ] [[analisi nodale]]
+
+## Capitolo 5
+- [ ] teorema di Esistenza e unicità
+- [ ] [[Sovrapposizione degli effetti]]
+- [ ] [[Teorema di Thevenin e Norton]]
+
+## Capitolo 6
+- [ ] [[doppio bipolo]]
+
+## Capitolo 7
+- [ ] [[forza magnetica]]
+- [ ] [[campo magnetico]]
+- [ ] [[legge di Ampère-Laplace]]
+- [ ] [[legge di Ampère]]
+- [ ] 
