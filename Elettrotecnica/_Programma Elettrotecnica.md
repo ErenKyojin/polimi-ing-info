@@ -5,6 +5,8 @@ modification date: 2023-06-23 17:03
 ---
 Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non completo), strutturato per argomenti chiave con gli argomenti minori e rilevanti
 
+
+## Capitolo 1
  - [ ] [[carica|carica elettrica]]
  - [ ] [[Elettrotecnica/campo|campo]] e [[campo elettrico]]
 	 - [ ] [[forza elettrostatica|legge di Coulomb]]
@@ -19,9 +21,35 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 - [ ] [[corrente|corrente elettrica]] 
 	- [ ] [[principio di conservazione della carica]]
 	- [ ] [[conduttori]]
-	- [ ] [[Legge di Kirchhoff per le correnti]]
 	- [ ] [[amperometro]]
-- [ ] [[conduttori]]
+	- [ ] [[Legge di Kirchhoff per le correnti]]
 	- [ ] [[circuito elettrico|circuiti]]
 	- [ ] [[resistenza]]
 	- [ ] [[legge di Ohm]]
+
+## Capitolo 2
+- [ ] componenti e variabili 
+- [ ] Teoria dei [[Grafo|grafi]] [^1]
+- [ ] Equazioni algebriche
+- [ ] [[Matrice di incidenza]] [^1]  
+	- [ ] Matrice di incidenza ridotta
+- [ ] Equazioni di Tableu
+
+## Capitolo 3
+- [ ] [[Potenza]] ed energia elettrica
+- [ ] [[teorema di tellegen]]
+- [ ] classificazione dei componenti
+- [ ] Basi di definizione
+- [ ] [[bipolo|bipoli]], in particolare
+	- [ ] [[resistore]] lineare
+	- [ ] [[cortocircuito]]
+	- [ ] [[circuito aperto]]
+	- [ ] [[generatore indipendente]] 
+- [ ] Principio di equivalenza
+	- [ ] [[Elettrotecnica/Serie|Serie]]
+	- [ ] [[partitore di tensione]]
+	- [ ] [[Assiomi di incidenza|parallelo]]
+	- [ ] [[partitore di corrente]]
+- [ ] [[Circuito di Northon]]
+- [ ] [[Circuito di Thevenin]]
+
