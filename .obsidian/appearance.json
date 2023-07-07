@@ -10,7 +10,7 @@
     "test"
   ],
   "interfaceFontFamily": "Inter",
-  "textFontFamily": "Recursive Sans Linear Light",
+  "textFontFamily": "Recursive Sans Linear Static",
   "monospaceFontFamily": "Anonymous Pro",
   "nativeMenus": false,
   "showViewHeader": true,
