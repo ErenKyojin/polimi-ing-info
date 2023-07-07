@@ -84,7 +84,7 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 - [ ] [[condensatore]]
 - [ ] [[induttore]]
 
-## Capitolo 10 - *circuiti del primo ordine*
+## Capitolo 10 - *circuiti del primo ordine non degenere*
 - [ ] [[circuito RC]]
 - [ ] [[circuito RL]] 
 
@@ -100,6 +100,22 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 - [ ] [[Rifasamento]]
 - [ ] [[Massimo trasferimento di potenza attiva]]
 
-## Capitolo 12
-- [ ] Circuiti del primo ordinedegeneri
-- [ ] Circuiti dinamici riducibili a circuiti del
+## Capitolo 12 - *circuiti del primo ordine degeneri*
+- [ ] Circuiti del primo ordine degeneri
+- [ ] Circuiti dinamici riducibili a circuiti del primo ordine
+- [ ] Circuiti del primo ordine con inresso discontinuo
+- [ ] Circuiti del primo ordine con tasti
+
+## Capitolo 13 - *trifase*
+- [ ] [[Analisi 1/valore efficace|valore efficace]]
+- [ ] [[Trifase]]
+	- [ ] Tensioni trifase
+	- [ ] Carichi trifasi
+- [ ] [[Trifase#Collegamenti]]
+- [ ] [[potenza#Potenza in un sistema trifase bilanciato]]
+- [ ] Rifasamneo nelle reti trifase
+
+## Capitolo 14 - *circuiti magnetici*
+- [ ] [[Induttori mutualmente accoppiati]]
+- [ ] [[circuiti magnetici]]
+- [ ] [[traferro]]
