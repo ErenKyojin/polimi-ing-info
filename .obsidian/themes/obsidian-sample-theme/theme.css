@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@375&display=swap');
+
+
 body {
+	--font-family-major: Recursive, monospace;
 	--radius-s: 0px;
 	--radius-m: 0px;
 	--radius-l: 0px;
 	--input-radius: 0px;
 	--tab-radius-active: 0px;
-	--checkbox-radius: 0px;
+	--checkbox-radius: 10px;
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;

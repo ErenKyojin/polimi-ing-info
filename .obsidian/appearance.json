@@ -7,10 +7,11 @@
     "centerImg",
     "MCL Multi Column",
     "templater",
-    "test"
+    "test",
+    "recursive"
   ],
   "interfaceFontFamily": "Inter",
-  "textFontFamily": "Recursive Sans Linear Static",
+  "textFontFamily": "",
   "monospaceFontFamily": "Anonymous Pro",
   "nativeMenus": false,
   "showViewHeader": true,
