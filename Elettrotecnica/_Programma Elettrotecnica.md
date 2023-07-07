@@ -53,3 +53,4 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 - [ ] [[Circuito di Northon]]
 - [ ] [[Circuito di Thevenin]]
 
+
