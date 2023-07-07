@@ -11,7 +11,7 @@ alias:
 >La somma dei flussi entranti in un nodo è nulla, quindi
 >$$\sum_{k} \Psi_{k}= 0$$
 
-Dato poi un percorso chiuso $\gamma$ in un [[circuiti magnetici|circuito magnetico]], dalla [[legge di ampere]]:
+Dato poi un percorso chiuso $\gamma$ in un [[circuiti magnetici|circuito magnetico]], dalla [[legge di ampère]]:
 $$
 \begin{align}
 \oint_{\gamma}\!\bar{H}\cdot \d l\quad&\approx \sum_kH_kL_{k}=\sum_kv_{H_k}=\\

@@ -70,5 +70,22 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 - [ ] [[forza magnetica]]
 - [ ] [[campo magnetico]]
 - [ ] [[legge di Ampère-Laplace]]
-- [ ] [[legge di Ampère]]
+- [ ] [[legge di ampère]]
+- [ ] [[Flusso magnetico]]
+- [ ] [[Leggi di Maxwell per il campo magnetostatico]] 
+
+## Capitolo 8
+- [ ] [[campo elettromagnetico]]
+- [ ] [[Induzione elettromagnetica]] e [[legge di Faraday-Henry]]
+- [ ] [[leggee di Ampere-Maxwell]]
+- [ ] [[Equazioni di maxwell del campo elettro-magnetico|Equazioni di Maxwell]]
+
+## Capitolo 9
+- [ ] [[condensatore]]
+- [ ] [[induttore]]
+
+## Capitolo 10
+- [ ] [[Richiami]]
+- [ ] [[fasori]]
+- [ ] [[Elettrotecnica/Impedenza|Impedenza]] e [[ammettenza]]
 - [ ] 
