@@ -1,5 +1,5 @@
 ---
-aliases: tabelle hash
+aliases: tabelle hash, hash map
 creation date: 2023-05-11 10:03
 modification date: 2023-05-11 10:03
 ---
