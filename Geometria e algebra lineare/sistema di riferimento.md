@@ -13,11 +13,22 @@ Se $(O, \mathbf{u}_{1}, \mathbf{u}_{2}, \mathbf{u}_{3})$ è un sistema di riferi
 
 ```tikz
 \begin{document}
-\begin{tikzpicture}
+\begin{tikzpicture}[scale = 2]
 \node (O) at (0,0,0){};
-\draw[thick,-latex] (O.center) -- ++ (1,0,0); 
-\draw[thick,-latex] (O.center) -- ++ (0,1,0);
-\draw[thick,-latex] (O.center) -- ++ (0,0,1);
+\node (P) at (2,1,1){$\bullet$};
+\draw[dashed] (O.center) ++ (-2,0,0) -- ++ (5,0,0);
+\draw[dashed] (O.center) ++ (0,-1,0) -- ++ (0,3,0);
+\draw[dashed] (O.center) ++ (0,0,-2) -- ++ (0,0,4);
+\draw[thick,-latex] (O.center) -- ++ (1,0,0) node[below]{$\mathbf{u}_1$}; 
+\draw[thick,-latex] (O.center) -- ++ (0,1,0) node[left]{$\mathbf{u}_1$};
+\draw[thick,-latex] (O.center) -- ++ (0,0,1) node[below]{$\mathbf{u}_1$};
+\draw[thick,-latex,red] (O.center) -- ++ (P.center) node[above]{P};
+\draw[green, dashed] (2,0,0) -- ++ (0,0,1) -- ++ (0,1,0);
+\draw[green, dashed] (2,0,0) -- ++ (0,1,0) -- ++ (0,0,1);
+\draw[green, dashed] (0,0,1) -- ++ (2,0,0);
+\draw[green, dashed] (0,0,1) -- ++ (0,1,0) -- ++ (2,0,0);
+\draw[green, dashed] (0,1,0) -- ++ (2,0,0);
+\draw[green, dashed] (0,1,0) -- ++ (0,0,1);
 \end{tikzpicture}
 \end{document}
 ```
