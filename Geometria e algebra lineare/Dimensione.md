@@ -1,7 +1,7 @@
 Dato un [[insieme]] $A$, teniamo a mente il concetto di [[Geometria e algebra lineare/cardinalità]] di questo [[insieme]], allora possiamo dare la seguente definizione:
 
 >[!def]
->Diremo che uno spazio vettoriale $V$ ha dimensione $n < +\infty$ (indicando $\dim(V) = n$) se esiste un insieme di $n$ [[Geometria e algebra lineare/Vettori]] [[Dipendenza e indipendenza lineare|linearmente indipendenti]] ed ogni altro insieme linearmente indipendente ha cardinalità $\leq n$. Si dice che $V$ ha dimensione infinita se per ogni $m \in \mathbb{N}$ esiste un insieme linearmente indipendente di cardinalità $m$ 
+>Diremo che uno spazio vettoriale $V$ ha dimensione $n < +\infty$ (indicando $\dim(V) = n$) se esiste un insieme di $n$ [[vettori]] [[Dipendenza e indipendenza lineare|linearmente indipendenti]] ed ogni altro insieme linearmente indipendente ha cardinalità $\leq n$. Si dice che $V$ ha dimensione infinita se per ogni $m \in \mathbb{N}$ esiste un insieme linearmente indipendente di cardinalità $m$ 
 
 
 >[!esempio]
@@ -85,7 +85,7 @@ t_{m}
 > 2. Ogni altra base di $V$ ha cardinalità $n$
 >
 >>[!dim]
->>1. Poichè $\dim(V) = n, V$ contiene $n$ [[Geometria e algebra lineare/Vettori]] linearmente indipendenti: $\{\mathbf{v}_{1},\dots,\mathbf{v}_{n}\}$. Sia $\mathbf{w} \in V$ vettore generico. Essendo $\dim(V) = n$ l'insieme $\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{n},\mathbf{w} \right\}$ è linearmente dipendente.
+>>1. Poichè $\dim(V) = n, V$ contiene $n$ [[vettori]] linearmente indipendenti: $\{\mathbf{v}_{1},\dots,\mathbf{v}_{n}\}$. Sia $\mathbf{w} \in V$ vettore generico. Essendo $\dim(V) = n$ l'insieme $\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{n},\mathbf{w} \right\}$ è linearmente dipendente.
 >>   Quindi esistono $t_{1},\dots,t_{n},t_{n+1} \in \mathbb{K}$ non tutti nulli tali che:
 >>   $$ t_{1}\mathbf{v}_{1} + \dots + t_{n}\mathbf{v}_{n} + t_{n+1}\mathbf{w} = \mathbf{0} $$
 >>   Osserviamo che $t_{n+1} \neq 0$, altimenti $\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{n} \right\}$ sarebbero linearmente dipendenti.

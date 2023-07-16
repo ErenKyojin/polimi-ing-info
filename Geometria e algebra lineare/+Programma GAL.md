@@ -10,5 +10,8 @@ Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argo
 	- [ ] [[Prodotto cartesiano]]
 	- [ ] [[Relazioni|Relazione]]  
 		- [ ] [[relazione di equivalenza]]
-			- [ ] [[classe di equivalenza]]
-			- [ ] 
+			- [ ] [[classi di equivalenza]]
+		- [ ] [[relazione di funzione]]
+- [ ] [[vettori|vettori]]
+	- [ ] [[legge di cancellazzione della somma]]
+	- [ ] [[sistema di riferimento]] 

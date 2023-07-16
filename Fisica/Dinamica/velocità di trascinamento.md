@@ -8,7 +8,7 @@ Nel [[moto relativo]] la velocità di trascinamento è la velocità che il punto
 
 
 ## Calcolo della velocità
-Abbiamo visto che, in generale, la velocità di trascinamento varia da punto a punto del sistema mobile, vediamo ora come è possibile calcolarla, conoscendo le componenti di traslazione e di rotazione del [[moto di trascinamento]]. A tale scopo definiamo tre [[Geometria e algebra lineare/Vettori|vettori]] posizione:
+Abbiamo visto che, in generale, la velocità di trascinamento varia da punto a punto del sistema mobile, vediamo ora come è possibile calcolarla, conoscendo le componenti di traslazione e di rotazione del [[moto di trascinamento]]. A tale scopo definiamo tre [[vettori|vettori]] posizione:
 - $\vec{r}_{a} \equiv \overrightarrow{OP}$ vettore posizione assoluto
 - $\vec{r}_{r} = \overrightarrow{O'P}$ vettore posizione relativo
 - $\vec{r}_{O'}\equiv\overrightarrow{OO'}$ vettore posizione assoluto dell'origine $O'$ del sistema mobile
