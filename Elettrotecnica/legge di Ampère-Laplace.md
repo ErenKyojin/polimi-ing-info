@@ -35,4 +35,4 @@ Le linee di forza del campo magnetico di una spira di corrente circolare è rapp
 ### N spire
 Se si hanno $N$ spire di raggio uguale e disposte coassialmente abbiamo un [[solenoide]] 
 
-[[legge di ampere]]
+[[legge di ampère]]

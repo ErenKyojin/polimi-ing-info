@@ -4,7 +4,7 @@ alias: circuito magnetico
 # Circuiti magnetici
 È spesso possibile calcolare, o almeno approssimare, la [[matrice]] di induttanza di un sistema di avvolgimenti avvolti su un materiale ad alta permeabilità magnetica, teniamo presenti le seguenti ipotesi:
 ![[Pasted image 20220830110705.png|500]]
-1. il flusso $\Phi_{b} \equiv \Psi$ ed il campo $\bar{B}$ sono trascurabili fuori dal nucleo ad alta permeabilità, applicando la [[legge di ampere]] alle due curve $\gamma_1,\gamma_2$ di lunghezza paragonabile abbiamo $H_{1}L = G_{2}L = Ni$ con $H_1,H_2$ valori medi dei campi magnetici dentro e fuori il nuclei, quindi $H_{1}\approx H_{2}$ ma $B_{1} \gg B_{2}$ essendo $\mu_{r_{1}} \gg \mu_{r_{2}}$
+1. il flusso $\Phi_{b} \equiv \Psi$ ed il campo $\bar{B}$ sono trascurabili fuori dal nucleo ad alta permeabilità, applicando la [[legge di ampère]] alle due curve $\gamma_1,\gamma_2$ di lunghezza paragonabile abbiamo $H_{1}L = G_{2}L = Ni$ con $H_1,H_2$ valori medi dei campi magnetici dentro e fuori il nuclei, quindi $H_{1}\approx H_{2}$ ma $B_{1} \gg B_{2}$ essendo $\mu_{r_{1}} \gg \mu_{r_{2}}$
 2. Il campo di induzione magnetica $\bar B$ ed il [[campo magnetico]] $\bar{H}$ sono circa costanti in tratti uniformi del nucleo (tratti composti dallo stesso materiale e con area della sezione uguale)
 3. Il materiale del nucleo è lineare
 
