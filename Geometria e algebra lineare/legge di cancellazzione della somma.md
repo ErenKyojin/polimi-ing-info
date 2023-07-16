@@ -14,4 +14,4 @@ modification date: 2023-04-27 14:14
 >>\end{align}$$
 >>$\CVD$ 
 
-Da cui possiamo definire la [[differenza]] tra vettori
+Da cui possiamo definire la [[differenza]] tra vettori. 
