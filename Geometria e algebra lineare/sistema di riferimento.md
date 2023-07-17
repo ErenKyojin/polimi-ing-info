@@ -13,9 +13,7 @@ Se $(O, \mathbf{u}_{1}, \mathbf{u}_{2}, \mathbf{u}_{3})$ è un sistema di riferi
 
 ```tikz
 \begin{document}
-
-\begin{minipage}{.45\linewidth}
-\begin{tikzpicture}[scale = 2]
+\begin{tikzpicture}[scale = 2, baseline={(current bounding box.center)}]
 \node (O) at (0,0,0){};
 \node (P) at (2,1,1){$\bullet$};
 \draw[dashed] (O.center) ++ (-2,0,0) -- ++ (5,0,0);
@@ -32,7 +30,6 @@ Se $(O, \mathbf{u}_{1}, \mathbf{u}_{2}, \mathbf{u}_{3})$ è un sistema di riferi
 \draw[green, dashed] (0,1,0) -- ++ (2,0,0);
 \draw[green, dashed] (0,1,0) -- ++ (0,0,1);
 \end{tikzpicture}
-\end{minipage}
+\section*{A}
 \end{document}
 ```
-
