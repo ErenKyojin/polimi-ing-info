@@ -13,9 +13,7 @@ Se $(O, \mathbf{u}_{1}, \mathbf{u}_{2}, \mathbf{u}_{3})$ è un sistema di riferi
 
 ```tikz
 \begin{document}
-\begin{minipage}{.45\linewidth}
-A
-\end{minipage}
+
 \begin{minipage}{.45\linewidth}
 \begin{tikzpicture}[scale = 2]
 \node (O) at (0,0,0){};
@@ -37,3 +35,4 @@ A
 \end{minipage}
 \end{document}
 ```
+
