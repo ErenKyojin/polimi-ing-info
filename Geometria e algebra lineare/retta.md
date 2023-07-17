@@ -27,11 +27,16 @@ Data una retta $r$ nello spazio passante per $A$ e diretta come il vettore $\mat
 \begin{tikzpicture}[scale = 2]
 \node (O) at (0,0,0){};
 \node (A) at (1,1,1.5){$\bullet$};
+\node (P) at (2,1.16,1.33){$\bullet$};
+\node[above] at (A){$A$};
+\node[above] at (P){$P$};
 \draw[-latex,thick] (O.center) -- ++ (2,0,0) node[right]{y};
 \draw[-latex,thick] (O.center) -- ++ (0,2,0) node[right]{z};
 \draw[-latex,thick] (O.center) -- ++ (0,0,2) node[left]{x};
 \draw (-2,.5,2) -- ++ (6,1,-1);
-\draw ()
+\draw[-latex,thick,red] (A.center) -- (P.center) node[midway,above]{$t \cdot \mathbf{v}$};
+\draw[-latex,thick] (O.center) -- (A.center);
+\draw[-latex,thick] (O.center) -- (P.center);
 \end{tikzpicture}
 \end{document}
 ```
