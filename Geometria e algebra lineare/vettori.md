@@ -1,4 +1,6 @@
-
+---
+aliases: vettore
+---
 # Vettori geometrici
 >[!def] vettore applicato
 >Un vettore applicato è un segmento orientato e si rappresenta con una freccia
