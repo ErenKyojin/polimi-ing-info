@@ -19,3 +19,6 @@ Il punto $A$, corrispondente a $x=0$, è l'origine delle coordinate. Quindi
 > 2. $P$ giace sulla semiretta uscente da $A$ e passante per $B$, se $x > 0$; $P$ giace sulla semiretta uscente da $A$ che non passa per $B$ se $x>0$ 
 
 Una poprietà fondamentale che possono avere due rette è l'[[Geometria e algebra lineare/Ortogonalità]]
+
+### Equazioni parametriche e cartesiane di una retta nello spazio
+Data una retta $r$ n

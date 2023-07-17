@@ -16,3 +16,5 @@ Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argo
 	- [ ] [[legge di cancellazzione della somma]]
 	- [ ] [[legge di annullamento del prodotto per uno scalare]] 
 	- [ ] [[sistema di riferimento]] 
+	- [ ] [[componenti]]
+	- [ ] [[retta]] 
