@@ -21,4 +21,24 @@ Il punto $A$, corrispondente a $x=0$, è l'origine delle coordinate. Quindi
 Una poprietà fondamentale che possono avere due rette è l'[[Geometria e algebra lineare/Ortogonalità]]
 
 ### Equazioni parametriche e cartesiane di una retta nello spazio
-Data una retta $r$ n
+Data una retta $r$ nello spazio passante per $A$ e diretta come il vettore $\mathbf{v}$, per ogni punto $P \in r \quad \exists\ t \in \mathbb{R} : \vec{OP} = \vec{OA} + t \cdot \mathbf{v}$
+```tikz
+\begin{document}
+\begin{tikzpicture}[scale = 2]
+\node (O) at (0,0,0){};
+\node (A) at (1,1,1.5){$\bullet$};
+\draw[-latex,thick] (O.center) -- ++ (2,0,0) node[right]{y};
+\draw[-latex,thick] (O.center) -- ++ (0,2,0) node[right]{z};
+\draw[-latex,thick] (O.center) -- ++ (0,0,2) node[left]{x};
+\draw (-2,.5,2) -- ++ (6,1,-1);
+\draw ()
+\end{tikzpicture}
+\end{document}
+```
+Quindi fissato un sistema di riferimento $(O, \mathbf{u}_{1},\mathbf{u}_{2},\mathbf{u}_{3})$ se il vettore $\mathbf{v}$ ha componenti $\begin{bmatrix}a\\b\\c\end{bmatrix}$ e le coordinate di $A$ sono $\begin{bmatrix}x_{A}\\y_{A}\\z_{A}\end{bmatrix}$ allora le coordinate di $P \in r$ sono:
+$$ \begin{cases}
+x = x_{A} + ta \\
+y = y_{A} + tb \\
+z = z_{A} + tc
+\end{cases} \implies \text{ una parametrizzazione della retta} $$
+Se co
