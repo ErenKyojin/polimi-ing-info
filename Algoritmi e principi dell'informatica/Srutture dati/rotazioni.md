@@ -29,7 +29,7 @@ Cambiano le altezze dell'albero (ed anche i colori in un [[Albero rosso-nero|red
 
 ```
 LEFT-ROTATE(T,target)
-	y := target.right
+	y := target.right //y è il fratello
 	target.right = y.left
 	
 	if y.left != T.nil
