@@ -28,18 +28,18 @@ Cambiano le altezze dell'albero (ed anche i colori in un [[Albero rosso-nero|red
 
 
 ```
-LEFT-ROTATE(T,k)
-	y := x.right
-	x.right = y.left
+LEFT-ROTATE(T,target)
+	y := target.right
+	target.right = y.left
 	
 	if y.left != T.nil
-		y.left.p := x
-	y.p := x.p             //attacca il padre di x ad y
-	if x.p = T.nil
+		y.left.p := target
+	y.p := target.p             //attacca il padre di target ad y
+	if target.p = T.nil
 		T.root := y
-	elsif x = x.p.left
-		x.p.left := y
-	else x.p.right := y
-	y.left := x            //x a sinistra di y
-	x.p := y
+	elsif target = target.p.left
+		target.p.left := y
+	else target.p.right := y
+	y.left := target           //target a sinistra di y
+	target.p := y
 ```
