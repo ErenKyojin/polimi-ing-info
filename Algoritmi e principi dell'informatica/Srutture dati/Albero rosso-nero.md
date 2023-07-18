@@ -111,8 +111,8 @@ RB-INSERT-FIXUP(T, z)
 				x.color := BLACK           //CASO 3
 				x.p.color := RED           //CASO 3
 				RIGHT-ROTATE(T, x.p)       //CASO 3
-		else (Come a partire da (1) invertendo 'right' e 'left')
-			...
+			else (Come a partire da (1) invertendo 'right' e 'left')
+				...
 ```
 È invocato sempre su un nodo z tale che `z.color = RED`, ed ha 3 casi piú 3 speculari.
 ### Caso 1, y rosso
