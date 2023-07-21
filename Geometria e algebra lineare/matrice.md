@@ -67,4 +67,24 @@ $$ \begin{align}
 4. **Elemento neutro**: $1 \cdot A = A$ ($1 \in \mathbb{K}$)
 
 >[!oss]
->Possiamo ottenere la [[matrice opposta]] d
+>Possiamo ottenere la [[matrice opposta]] di una matrice $A$ attraverso il prodotto: $-1 \cdot A = [-a_{ij}]$, si indica con $-A$
+
+
+>[!def]
+>Diciamo che una matrice $A$ è combinazione lineare delle matrici $B_{1},\dots,B_{d} \in M_{(m,n)}(\mathbb{K})$ se esistono $x_{1},\dots,x_{d} \in \mathbb{K}$ tali che
+>$$ A = x_{1}B_{1} + x_{2}B_{2} + \dots + x_{d}B_{d} $$
+
+> [!esempio]
+> A titolo di esempio la matrice $A =\begin{bmatrix}12 \\e\end{bmatrix}$ è combinazione lineare di $\begin{bmatrix}1\\0\end{bmatrix}$ e $\begin{bmatrix}0\\1\end{bmatrix}$ infatti:
+> $$ A = 12\begin{bmatrix}
+> 1 \\
+> 0
+> \end{bmatrix} + e\begin{bmatrix}
+> 0 \\
+> 1
+> \end{bmatrix}$$
+
+## Prodotto righe per colonne
+$$ \begin{align}
+\cdot : M_{(m,\color{red}{n}\color{lightgrey})}(\mathbb{K}) \to 
+\end{align} $$
