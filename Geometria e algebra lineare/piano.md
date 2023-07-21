@@ -16,7 +16,7 @@ $$ \vec{OP}\equiv \vec{OA} + t \vec{AB} + s \vec{AC} $$
 
 \draw[-latex,thick] (A.center) node[below]{A} -- (B.center) node[above]{B};
 \draw[-latex,thick] (A.center) -- (C.center) node[right]{C};
-\draw[dashed] (B.center) -- ++ (0,0,-2);
+\draw[dashed] (B.center) -- ++ (0,0,-2) -- ++ (2,0,0) node[above right]{P} -- ++ (0,0,7);
 \end{tikzpicture}
 \end{document}
 ```
