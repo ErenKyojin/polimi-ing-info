@@ -11,8 +11,12 @@ per definire un **sistema lineare** è necessario prima definire un'[[equazione 
 >\vdots \\
 >a_{m1}x_{1} + a_{m2}x_{2} + \dots + a_{mn}x_{n} = b_{m}
 >\end{cases} $$
->con $a_{ij},b \in \mathbb{K}$
+>con $a_{ij},b \in \mathbb{K}\ \forall i=1,\dots,m \land j = 1,\dots,n$  dove $i$ indica l'equazione e $j$ indica l'incognita
 
+>[!def]
+>Una **soluzione** di un sistema lineare è una $n$-upla ordinata $(\bar{x}_{1},\bar{x}_{2},\dots,\bar{x}_{n}) \in \mathbb{K}^n$ le cui componenti soddisfino le equazioni lineari del sistema.
+>
+>Due sistemi lineari sono **equivalenti** se hanno lo stesso insieme di soluzioni
 
 # Struttura delle soluzioni di un sistema lineare
 >[!proposizione]
