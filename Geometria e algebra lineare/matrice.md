@@ -103,6 +103,22 @@ $$ [A \cdot B]_{il} = \sum_{j = 1}^n a_{ij} \cdot b_{jl} $$
 >$$A = \begin{bmatrix}a_{11} & a_{12} & \dots & a_{1n}\end{bmatrix} \quad B = \begin{bmatrix}b_{11}\\b_{21}\\\vdots \\ b_{n 1}\end{bmatrix}$$
 >allora il prodotto riga per colonna sarà una matrice ($1\times1$):
 >$$ [ a_{11}\cdot b_{11} + a_{21}\cdot b_{12} + \dots + a_{n1} \cdot a_{1 n} ]  $$
+>
+>Consideriamo il caso $n = 3$, prendiamo due matrici qualsiasi:
+>$$ A = \begin{bmatrix}3 & 1 & 2\end{bmatrix} \qquad B= \begin{bmatrix}0\\2\\ \pi\end{bmatrix}$$
+>Allora il prodotto $A \cdot B = [3\cdot 0 + 1 \cdot 2 +  2 \cdot \pi] = [3 + 2\pi]$
 
 >[!esempio] $(m \times n) \cdot (n \times p)$
 >
+>$$A = \begin{bmatrix}
+>1 & 2  \\
+>0 & 1 \\
+>  
+\end{bmatrix}\qquad B = \begin{bmatrix}
+>1 & 2 & 1 & 0 \\
+>0 & 0  & 0 & 1\\
+>1 & 4 & 1 & 3
+\end{bmatrix}$$
+
+avremo una matrice $()$
+
