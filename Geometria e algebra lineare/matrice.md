@@ -30,8 +30,15 @@ aliases: matrici
 - Una qualsiasi matrice dell'insieme $M_{(n,1)}(\mathbb{K})$ è detta **vettore colonna**
 
 
-## Operazioni tra matrici
-$$ \begin{align}
+# Operazioni tra matrici
+## Somma
+$$\begin{align}
 + : M_{(m,n)}(\mathbb{K}) \times M_{(m,n)}(\mathbb{K}) &\to M_{(m,n)}(\mathbb{K}) \\
-(A,B) & \mapsto A + B := 
+(A,B) & \mapsto A + B := [a_{ij} + b_{ij}]
 \end{align} $$
+La somma è quindi definita solo tra matrici appartenenti allo stesso insieme
+
+### Proprietà della somma
+1. **Proprietà associativa** $(A + B) + C = A + (B + C) \forall A, B, C \in M_{(m,n)}(\mathbb{K})$
+2. **Proprietà commutativa** $A + B = B + A\ \forall A,B  \in M_{(m,n)}(\mathbb{K})$
+3. **Elemento neutro**
