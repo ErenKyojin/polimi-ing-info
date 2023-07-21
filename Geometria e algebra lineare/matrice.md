@@ -51,3 +51,20 @@ $$ \begin{align}
 (t, A)  & \mapsto t\cdot A := [t\cdot a_{ij}]
 \end{align} $$
 
+> [!esempio]
+> $$A = \begin{bmatrix}
+> 1 & 3 & 0 \\
+> \pi & 4 & 9
+> \end{bmatrix}, t = 2 \implies t\cdot A = \begin{bmatrix}
+> 2  & 6 & 0 \\
+> 2\pi & 8 & 18
+> \end{bmatrix} $$
+
+### Proprietà del prodotto tra matrice e scalare
+1. **Proprietà distributiva rispetto alla somma di scalari** $(t + s)\cdot A = t\cdot A + s\cdot A$
+2. **Proprietà distributiva rispetto alla somma di matrici**: $t\cdot(A + B) = t \cdot A + t\cdot B$
+3. **Proprietà distributiva rispetto al prodotto di scalari**: $(t\cdot s)\cdot A = t\cdot(S \cdot A)$
+4. **Elemento neutro**: $1 \cdot A = A$ ($1 \in \mathbb{K}$)
+
+>[!oss]
+>Possiamo ottenere la [[matrice opposta]] d
