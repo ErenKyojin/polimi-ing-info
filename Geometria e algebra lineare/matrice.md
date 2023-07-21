@@ -111,14 +111,26 @@ $$ [A \cdot B]_{il} = \sum_{j = 1}^n a_{ij} \cdot b_{jl} $$
 >[!esempio] $(m \times n) \cdot (n \times p)$
 >
 >$$A = \begin{bmatrix}
->1 & 2  \\
->0 & 1 \\
->  
+>1 & 2  & 1 \\
+>0 & 1  & 0\\ 
 \end{bmatrix}\qquad B = \begin{bmatrix}
 >1 & 2 & 1 & 0 \\
 >0 & 0  & 0 & 1\\
 >1 & 4 & 1 & 3
 \end{bmatrix}$$
 
-avremo una matrice $()$
+avremo una matrice $(2\times4)$:
+$$ A\cdot B = \begin{bmatrix}
+1 \cdot 1+ 2\cdot 0 + 1 \cdot 1 & 1 \cdot 2 + 2 \cdot 0 + 2\cdot4 & 1\cdot 1 + 2 \cdot 0 + 1\cdot 1 & 1 \cdot 0 + 1\cdot1 + 1\cdot3 \\
+0\cdot 1 + 0 \cdot 0 + 0 \cdot 1 & 0 \cdot2 + 1 \cdot 0 + 0 \cdot 4 & 0 \cdot 1 + 1 \cdot 0 + 0 \cdot 1 & 0 \cdot 0 +1\cdot1 + 0 \cdot 3
+\end{bmatrix} =$$
+$$ =\begin{bmatrix}
+2 & 10 & 2 & 4 \\
+0 & 0 & 0 & 1
+\end{bmatrix} $$
 
+>[!oss]
+>Grazie a questoossiamo riscrivere un sistema lineare in forma matriciale. Dato il sistema lineare
+>$$ \begin{cases}
+>
+>\end{cases} $$
