@@ -12,3 +12,7 @@ modification date: 2023-07-07 09:14
 > Una $n$-upla ordinata $(\bar{x}_{1},\bar{x}_{2},\dots,\bar{x}_{n}) \in \mathbb{K}^n$ è **soluzione** dell'equazione lineare se $$ a_{1}\bar{x}_{1} + a_{2}\bar{x}_{2} + \dots + a_{n}\bar{x}_{n} = b $$
 > 
 > Se il termine noto è $b = 0$ l'equazione si dice **omogenea**
+
+
+possiamo quindi definire un [[Sistemi lineari|sistema lineare]] 
+

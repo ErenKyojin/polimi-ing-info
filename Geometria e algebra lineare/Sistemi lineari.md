@@ -1,4 +1,19 @@
+---
+aliases: sistema lineare
+---
 per definire un **sistema lineare** è necessario prima definire un'[[equazione lineare]] 
+
+>[!def]
+>Un sistema lineare di $m$ equazioni in $n$ incognite è un insieme di $m$ **equazioni lineari** in $x_{1},\dots,x_{n}$:
+>$$ \begin{cases}
+>a_{11}x_{1} + a_{12}x_{2} + \dots + a_{1n}x_{n} = b_{1} \\
+>a_{21}x_{1} + a_{22}x_{2} + \dots + a_{2n}x_{n} = b_{2} \\
+>\vdots \\
+>a_{m1}x_{1} + a_{m2}x_{2} + \dots + a_{mn}x_{n} = b_{m}
+>\end{cases} $$
+>con $a_{ij},b \in \mathbb{K}$
+
+
 # Struttura delle soluzioni di un sistema lineare
 >[!proposizione]
 >Dato il sistema lineare $A\mathbf{x} = \mathbf{b}$ supponiamo che $\mathbf{x}_{0}$ sia soluzione, quindi $A\mathbf{x}_{0} = \mathbf{b}$ le soluzioni di $A\mathbf{x} = \mathbf{b}$ si ottengono sommando ad $\mathbf{x}_{0}$ le soluzioni del sistema omogeneo associato $A\mathbf{x} =\mathbf{0}$, quindi sono tutti e soli i vettori della forma $\mathbf{x}_{o}+\mathbf{x}_{h}$ con $\mathbf{x}_{h} \in \ker(A)$
