@@ -9,4 +9,6 @@ aliases: matrici
 >\vdots & \vdots & \ddots &  \vdots \\
 >a_{m1} & a_{m2}  & \dots  & a_{mn}
 >\end{bmatrix} $$
-
+>
+>con $a_{ij} \in \mathbb{K}$ e $i$ e $j$ che indicano rispettivamente riga e colonna dell'elemento. Si può quindi srivere:
+>$$ A = [a_{ij}]_{1 \leq i \leq m;1 \leq j \leq n} $$
