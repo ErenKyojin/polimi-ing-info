@@ -21,4 +21,17 @@ aliases: matrici
 
 
 >[!def]
->Date due matrici $A = [a_{ij}]$ e $B = [b_{ij}]$, entrambe $\in M_{(m,n)}(\mathbb{K})$ diremo che $A = B$ se e solo se $a_{ij} = b_{ij}\ \forall i,j$
+>Date due matrici $A = [a_{ij}]$ e $B = [b_{ij}]$, entrambe $\in M_{(m,n)}(\mathbb{K})$ diremo che $A = B$ se e solo se $a_{ij} = b_{ij}\ \forall i =1,\dots,m\ \forall j = 1,\dots,n$
+
+
+### Nomenclatura
+- Una qualsiasi matrice dell'insieme $M_{(n,n)}(\mathbb{K})$ è detta **matrice quadrata**
+- Una qualsiasi matrice dell'insieme $M_{(1,n)}(\mathbb{K})$ è detta **vettore riga**
+- Una qualsiasi matrice dell'insieme $M_{(n,1)}(\mathbb{K})$ è detta **vettore colonna**
+
+
+## Operazioni tra matrici
+$$ \begin{align}
++ : M_{(m,n)}(\mathbb{K}) \times M_{(m,n)}(\mathbb{K}) &\to M_{(m,n)}(\mathbb{K}) \\
+(A,B) & \mapsto A + B := 
+\end{align} $$
