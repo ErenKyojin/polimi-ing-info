@@ -92,3 +92,4 @@ z = 7 + t
 >x + z - 9 = 0
 >\end{cases}$$
 
+vediamo ora le [[piano#Equazioni parametriche e cartesiane per un piano nello spazio]] 
