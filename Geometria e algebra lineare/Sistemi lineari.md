@@ -1,3 +1,4 @@
+per definire un **sistema lineare** è necessario prima definire un'[[equazione lineare]] 
 # Struttura delle soluzioni di un sistema lineare
 >[!proposizione]
 >Dato il sistema lineare $A\mathbf{x} = \mathbf{b}$ supponiamo che $\mathbf{x}_{0}$ sia soluzione, quindi $A\mathbf{x}_{0} = \mathbf{b}$ le soluzioni di $A\mathbf{x} = \mathbf{b}$ si ottengono sommando ad $\mathbf{x}_{0}$ le soluzioni del sistema omogeneo associato $A\mathbf{x} =\mathbf{0}$, quindi sono tutti e soli i vettori della forma $\mathbf{x}_{o}+\mathbf{x}_{h}$ con $\mathbf{x}_{h} \in \ker(A)$
