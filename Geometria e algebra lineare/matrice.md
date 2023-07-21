@@ -93,3 +93,16 @@ Se $A = [a_{ij}]$ e $B = [b_{jl}]$ con $1 \leq i \leq m, 1 \leq j \leq n, 1 \leq
 $$ [A \cdot B]_{il} = \sum_{j = 1}^n a_{ij} \cdot b_{jl} $$
 
 >[!tip]
+>Il prodotto riga per colonna ci restituisce una matrice con un numero di righe uguale a quello della prima matrice ed un numero di colonne uguale a quello della seconda
+>
+
+### Esempi
+
+>[!esempio] $(1 \times n) \cdot (n \times 1)$
+>$A \in M_{(1,n)}(\mathbb{K})$ e $B \in M_{(n,1)}(\mathbb{K})$ allora
+>$$A = \begin{bmatrix}a_{11} & a_{12} & \dots & a_{1n}\end{bmatrix} \quad B = \begin{bmatrix}b_{11}\\b_{21}\\\vdots \\ b_{n 1}\end{bmatrix}$$
+>allora il prodotto riga per colonna sarà una matrice ($1\times1$):
+>$$ [ a_{11}\cdot b_{11} + a_{21}\cdot b_{12} + \dots + a_{n1} \cdot a_{1 n} ]  $$
+
+>[!esempio] $(m \times n) \cdot (n \times p)$
+>
