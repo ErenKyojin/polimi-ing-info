@@ -78,4 +78,17 @@ Le [[componenti]] di $\mathbf{v}$ sono detti parametri direttori in quanto descr
 >[!oss]
 >La parametrizzazione di una retta non è univoca:
 > - I parametri direttori possono essere sostituiti da un qualsiasi multiplo non nullo
-> - Le coordinate del punto possono essere sostituite per un qualsiasi altro punto 
+> - Le coordinate del punto possono essere sostituite per un qualsiasi altro punto attravero il quale passa la retta
+
+Se scriviamo il parametro $t$ in funzione di una coordinata possiamo trovare la equazioni cartesiane
+
+>[!esempio]
+>$$r : \begin{cases}
+>x = 2 - t \\
+y = 3t \\
+z = 7 + t
+>\end{cases} \implies t = 2 - x \implies \begin{cases}
+>3x + y - 6 = 0 \\
+>x + z - 9 = 0
+>\end{cases}$$
+
