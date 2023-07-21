@@ -132,5 +132,30 @@ $$ =\begin{bmatrix}
 >[!oss]
 >Grazie a questoossiamo riscrivere un sistema lineare in forma matriciale. Dato il sistema lineare
 >$$ \begin{cases}
->
+>a_{11}x_{1} + a_{12}x_{2} + \dots + a_{1n}x_{n} = b_{1} \\
+>a_{21}x_{1} + a_{22}x_{2} + \dots + a_{2n}x_{n} = b_{2} \\
+>\vdots \\
+>a_{m1}x_{1} + a_{m2}x_{2} + \dots + a_{mn}x_{n} = b_{m}
 >\end{cases} $$
+>Poniamo
+>$$ A = \begin{bmatrix}
+>a_{11} & a_{12} & \dots & a_{1n} \\
+>a_{21} & a_{22} & \dots & a_{2n} \\
+>\vdots & \vdots & \ddots & \vdots \\
+>a_{m1} & a_{m2}  & \dots & a_{mn} 
+>\end{bmatrix}\quad \mathbf{x} = \begin{bmatrix}
+>x_{1} \\
+>x_{2} \\
+>\vdots \\
+>x_{m}
+>\end{bmatrix} \mathbf{b} = \begin{bmatrix}
+>b_{1} \\
+>b_{2} \\
+>\vdots \\
+>b_{m}
+>\end{bmatrix} $$
+>
+>Allora possiamo scrivere il sistema come $A \cdot \mathbf{x} = \mathbf{b}$
+
+
+
