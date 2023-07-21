@@ -91,3 +91,5 @@ $$ \begin{align}
 \end{align} $$
 Se $A = [a_{ij}]$ e $B = [b_{jl}]$ con $1 \leq i \leq m, 1 \leq j \leq n, 1 \leq l \leq p$ allora avremo che 
 $$ [A \cdot B]_{il} = \sum_{j = 1}^n a_{ij} \cdot b_{jl} $$
+
+>[!tip]
