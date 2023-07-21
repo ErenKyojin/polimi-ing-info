@@ -12,7 +12,10 @@ $$ \vec{OP}\equiv \vec{OA} + t \vec{AB} + s \vec{AC} $$
 
 \node (A) at (3,1.2,1){};
 \node (B) at (3,1.2,-4){};
-\node (C) at (6,1.2,1){};
+\node (C) at (7,1.2,1){};
+
+\draw[-latex,thick] (A.center) node[below]{A} -- (B.center) node[above right]{B};
+\draw[-latex,thick] (A.center) -- (C.center) node[right]{C};
 \end{tikzpicture}
 \end{document}
 ```
