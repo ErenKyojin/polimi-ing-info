@@ -41,4 +41,13 @@ La somma è quindi definita solo tra matrici appartenenti allo stesso insieme
 ### Proprietà della somma
 1. **Proprietà associativa** $(A + B) + C = A + (B + C) \forall A, B, C \in M_{(m,n)}(\mathbb{K})$
 2. **Proprietà commutativa** $A + B = B + A\ \forall A,B  \in M_{(m,n)}(\mathbb{K})$
-3. **Elemento neutro**
+3. **Elemento neutro** $0_{m,n} = \begin{bmatrix}0 & \dots & 0\\\vdots & \ddots & \vdots \\0 & \dots & 0\end{bmatrix}$ detto [[matrice nulla]] 
+4. **Elemento opposto** $\forall A \in M_{(m,n)}(\mathbb{K})\quad \exists\ A' \in M_{(m,n)}(\mathbb{K})$ tale che $A + A' = 0_{(m,n)}$, se $A = [a_{ij}] \implies A' = [-a_{ij}]$
+
+
+## Moltiplicazione tra matrice e tra scalare
+$$ \begin{align}
+\cdot : \mathbb{K}  \times M_{(m,n)}(\mathbb{K}) &\to M_{(m,n)}(\mathbb{K}) \\
+(t, A)  & \mapsto t\cdot A := [t\cdot a_{ij}]
+\end{align} $$
+
