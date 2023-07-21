@@ -40,6 +40,9 @@ Scriviamo i parametri $t$ ed $s$ in funzione delle coordinate $x,y,z$ per ottene
 >\end{cases} \implies \begin{cases}
 >t = x / 2 - 1 / 2 \\
 >s = z - 1 \\
->y - x + 1 
->\end{cases} $$
+>y - x + 1 + 4z - 4 = -
+>\end{cases}  \implies -x + y - 4z - 3 = 0$$
+>È l'equazione cartesiana del piano
 
+>[!oss]
+>Un piano si può sempre descrivere con una sola equazione cartesiana, una retta si può sempre descrivere attraverso due equazioni cartesiane, i punti di una retta sono dati dall'intersezione di due piani

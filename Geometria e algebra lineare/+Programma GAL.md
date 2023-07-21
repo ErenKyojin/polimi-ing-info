@@ -18,3 +18,5 @@ Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argo
 	- [ ] [[sistema di riferimento]] 
 	- [ ] [[componenti]]
 	- [ ] [[retta]] 
+	- [ ] [[piano]]
+	- [ ] 
