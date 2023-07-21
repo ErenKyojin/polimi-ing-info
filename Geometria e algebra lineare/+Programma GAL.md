@@ -24,4 +24,6 @@ Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argo
 
 
 ## Capitolo 2 - *Sistemi lineari*
+- [ ] [[equazione lineare]]
 - [ ] [[Sistemi lineari]] 
+- [ ] [[matrice]]  
