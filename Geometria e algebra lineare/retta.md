@@ -33,8 +33,8 @@ Data una retta $r$ nello spazio passante per $A$ e diretta come il vettore $\mat
 \draw[-latex,thick] (O.center) -- ++ (2,0,0) node[right]{y};
 \draw[-latex,thick] (O.center) -- ++ (0,2,0) node[right]{z};
 \draw[-latex,thick] (O.center) -- ++ (0,0,2) node[left]{x};
-\draw (-2,.5,2) -- ++ (6,1,-1);
-\draw[-latex,thick,red] (A.center) -- (P.center) node[midway,above]{$t \cdot \mathbf{v}$};
+\draw (-2,.5,2) node[above right]{$r$} -- ++ (6,1,-1);
+\draw[-latex,ultra thick,red] (A.center) -- (P.center) node[midway,above]{$t \cdot \mathbf{v}$};
 \draw[-latex,thick] (O.center) -- (A.center);
 \draw[-latex,thick] (O.center) -- (P.center);
 \end{tikzpicture}
@@ -46,4 +46,50 @@ x = x_{A} + ta \\
 y = y_{A} + tb \\
 z = z_{A} + tc
 \end{cases} \implies \text{ una parametrizzazione della retta} $$
-Se co
+Se invece di conoscere un punto e un vettore conosciamo due punti $A = \begin{bmatrix}x_{A}\\y_{A}\\z_{A}\end{bmatrix}$ e $B = \begin{bmatrix}x_{B}\\y_{B} \\z_{B}\end{bmatrix}$:
+```tikz
+\begin{document}
+\begin{tikzpicture}[scale = 2]
+\node (O) at (0,0,0){};
+\node (A) at (1,1,1.5){$\bullet$};
+\node (B) at (2,1.16,1.33){$\bullet$};
+\node[above] at (A){$A$};
+\node[above] at (B){$B$};
+\draw[-latex,thick] (O.center) -- ++ (2,0,0) node[right]{y};
+\draw[-latex,thick] (O.center) -- ++ (0,2,0) node[right]{z};
+\draw[-latex,thick] (O.center) -- ++ (0,0,2) node[left]{x};
+\draw (-2,.5,2) node[above right]{$r$} -- ++ (6,1,-1);
+\draw[-latex,ultra thick,red] (A.center) -- (B.center) node[midway,above]{$\vec{AB}$};
+\draw[-latex,thick] (O.center) -- (A.center);
+\draw[-latex,thick] (O.center) -- (B.center);
+\end{tikzpicture}
+\end{document}
+```
+
+Allora una parametrizzazione della retta sarà:
+$$ \begin{cases}
+x = x_{A} + (x_{B}-x_{A})t \\
+y = y_{A} + (y_{B} - y_{A})t \\
+z = z_{A} + (z_{B} - z_{A})t
+\end{cases} $$
+
+Le [[componenti]] di $\mathbf{v}$ sono detti parametri direttori in quanto descrivono la **direzione** della retta
+
+>[!oss]
+>La parametrizzazione di una retta non è univoca:
+> - I parametri direttori possono essere sostituiti da un qualsiasi multiplo non nullo
+> - Le coordinate del punto possono essere sostituite per un qualsiasi altro punto attravero il quale passa la retta
+
+Se scriviamo il parametro $t$ in funzione di una coordinata possiamo trovare la equazioni cartesiane
+
+>[!esempio]
+>$$r : \begin{cases}
+>x = 2 - t \\
+y = 3t \\
+z = 7 + t
+>\end{cases} \implies t = 2 - x \implies \begin{cases}
+>3x + y - 6 = 0 \\
+>x + z - 9 = 0
+>\end{cases}$$
+
+vediamo ora le [[piano#Equazioni parametriche e cartesiane per un piano nello spazio]] 

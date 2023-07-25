@@ -18,3 +18,12 @@ Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argo
 	- [ ] [[sistema di riferimento]] 
 	- [ ] [[componenti]]
 	- [ ] [[retta]] 
+		- [ ] [[retta#Equazioni parametriche e cartesiane di una retta nello spazio]]
+	- [ ] [[piano]]
+		- [ ] [[piano#Equazioni parametriche e cartesiane per un piano nello spazio]]
+
+
+## Capitolo 2 - *Sistemi lineari*
+- [ ] [[equazione lineare]]
+- [ ] [[Sistemi lineari]] 
+- [ ] [[matrice]]  
