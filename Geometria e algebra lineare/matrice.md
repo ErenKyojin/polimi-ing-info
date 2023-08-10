@@ -168,4 +168,9 @@ date $A \in M_{(m,n)}(\mathbb{K}), B \in M_{(n,p)}(\mathbb{K}), C \in M_{(p,z)}(
 
 #### 2. Proprietà distributiva
 date $A \in M_{(m,n)}(\mathbb{K}), B\ e\ C \in M_{(n,p)}(\mathbb{K})$ allora
-$$A \cdot ( B + C )$$
+$$A \cdot ( B + C ) = A \cdot B + A \cdot C$$
+Se $D \in M_{(p,r)}(\mathbb{K})$
+$$ (B + C)\cdot D = B \cdot D + C \cdot D $$
+
+#### Omogeneità
+$\forall$
