@@ -209,8 +209,27 @@ La 4 e la 5 valgono nel caso di matrici $1\times1$, inoltre qualsiasi matrice $1
 ---
 
 ### Nomenclatura 2
-
-Una matrice $A = [a_{ij}] \in M_{(n,n)}(\mathbb{K})$ si dice triangolare superiore se $a_{ij}=0\ \forall\ i > j$.
+#### Triangolare superiore
+Una matrice $A = [a_{ij}] \in M_{(n,n)}(\mathbb{K})$ si dice **triangolare superiore** se $a_{ij}=0\ \forall\ i > j$.
 
 Ad esempio $A = \begin{bmatrix}1 & 0 & 0 \\0 & 0 & -1\\0 & 0 & 2\end{bmatrix}$ è triangolare superiore.
 
+#### Triangolare inferiore
+Una matrice $A=[a_{ij}] \in M_{(n,n)}(\mathbb{K})$ si dice **triangolare inferiore** se $a_{ij} = 0\ \forall i < j$. 
+
+Ad esempio $A = \begin{bmatrix}1 & 0 & 0 \\1 & 1 & 0\\1 & 0 & 2\end{bmatrix}$ è triangolare inferiore
+
+#### Diagonale
+Una matrice $A \in M_{(n,n)}(\mathbb{K})$ si dice **diagonale** se $a_{ij} = 0 \forall i \neq j$
+
+Ad esempio $A = \begin{bmatrix}1 & 0 & 0\\0 & \pi & 0 \\0 & 0 & 2\end{bmatrix}$ è diagonale
+
+#### Simmetrica
+Una matrice $A \in M_{(n,n)}(\mathbb{K})$ si dice **simmetrica** se $A^T = A$. 
+
+Ad esempio $A = \begin{bmatrix}1 & -1 & 2\\-1 & 3 & 0\\2 & 0 & 1\end{bmatrix}$ è una matrice simmetrica $3\times 3$
+
+#### Antisimmetrica
+Una matrice $A \in M_{\mathbb{K}}(n,n)$ si dice **antisimmetrica** se $A^T = -A$.
+
+Ad esempio $A = \begin{bmatrix}0 & -1 & 2\\1 & 0 & 0\\-2  & 0 & 0\end{bmatrix}$
