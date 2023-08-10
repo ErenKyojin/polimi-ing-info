@@ -172,12 +172,12 @@ $$A \cdot ( B + C ) = A \cdot B + A \cdot C$$
 Se $D \in M_{(p,r)}(\mathbb{K})$
 $$ (B + C)\cdot D = B \cdot D + C \cdot D $$
 
-#### Omogeneità
+#### 3. Omogeneità
 $\forall t \in \mathbb{R}, \forall A \in M_{(m,n)}(\mathbb{K})$ e $\forall B \in M_{(n,p)}(\mathbb{\mathbb{K}})$ 
 $$ t \cdot (A \cdot B) = (t \cdot A) \cdot B $$
 
 
->[!Oss] NON VALE LA PROPRIETÀ COMMUTATIVA
+>[!Oss] 4\. NON VALE LA PROPRIETÀ COMMUTATIVA
 > 1. Se $A \in M_{(m,n)}(\mathbb{K})$ e $B\in M_{n,r}(\mathbb{K})$ 
 > 	- $A \cdot B \in M_{(m,r)}(\mathbb{K})$ 
 > 	- $B\cdot A$ non è definita
@@ -189,4 +189,15 @@ $$ t \cdot (A \cdot B) = (t \cdot A) \cdot B $$
 > 	- $B \cdot A \in M(n,n)(\mathbb{K})$
 > 	  
 > 	 Ma in generale la matrice risultante sarà diversa
+
+>[!oss] 5\. NON VALE LA LEGGE DI ANNULLAMENTO DEL PRODOTTO
+>
+>Quindi $A \cdot B = 0 \cancel{ \iff } A = 0 \lor B = 0$
+
+#### 6. Elemento neutro
+L'elemento neutro del prodotto riga per colonna è la [[matrice identità]], tuttavia:
+
+>[!Oss]
+>Data $A \in M_{(m,n)}(\mathbb{K})$ non esiste $A' \in M_{\mathbb{K}}(n,m)$ tale che $A \cdot A' = \mathbb{1}_{m}$
+
 
