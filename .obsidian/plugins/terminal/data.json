@@ -14,6 +14,23 @@
   "pinNewInstance": true,
   "preferredRenderer": "webgl",
   "profiles": {
+    "01b8980c-6f88-46a9-bdeb-9a674bdb3a57": {
+      "args": [],
+      "executable": "xterm",
+      "name": "",
+      "platforms": {
+        "darwin": true,
+        "linux": true
+      },
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {},
+      "type": "external"
+    },
     "darwinExternalDefault": {
       "args": [],
       "executable": "/System/Applications/Utilities/Terminal.app/Contents/macOS/Terminal",
