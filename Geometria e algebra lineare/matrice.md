@@ -167,4 +167,5 @@ $$ =\begin{bmatrix}
 date $A \in M_{(m,n)}(\mathbb{K}), B \in M_{(n,p)}(\mathbb{K}), C \in M_{(p,z)}(\mathbb{K})$ allora $$(A \cdot B) \cdot C = A \cdot (B \cdot C)$$
 
 #### 2. Proprietà distributiva
-date $A \in M_{(m,n)}(\mathbb{K}), B\ e\ C \in M_{(n,p)}(\mathbb{K})$
+date $A \in M_{(m,n)}(\mathbb{K}), B\ e\ C \in M_{(n,p)}(\mathbb{K})$ allora
+$$A \cdot ( B + C )$$
