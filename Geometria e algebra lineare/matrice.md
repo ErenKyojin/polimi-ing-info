@@ -173,4 +173,13 @@ Se $D \in M_{(p,r)}(\mathbb{K})$
 $$ (B + C)\cdot D = B \cdot D + C \cdot D $$
 
 #### Omogeneità
-$\forall$
+$\forall t \in \mathbb{R}, \forall A \in M_{(m,n)}(\mathbb{K})$ e $\forall B in M_{(n,p)}(\mathbb{\mathbb{K}})$ 
+$$ t \cdot (A \cdot B) = (t \cdot A) \cdot B $$
+
+
+>[!Oss] NON VALE LA PROPRIETÀ COMMUTATIVA
+> 1. Se $A \in M_{(m,n)}(\mathbb{K})$ e $B\in M_{n,r}(\mathbb{K})$ 
+> 	- $A \cdot B \in M_{(m,r)}(\mathbb{K})$ 
+> 	- $B\cdot A$ non è definita
+> 2. Se $A \in M_{(m,n)}(\mathbb{K})$ e $B \in M_{(n,m)}$
+> 	- $A \cdot B \in M_{(m,m)}$
