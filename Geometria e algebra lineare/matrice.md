@@ -200,4 +200,4 @@ L'elemento neutro del prodotto riga per colonna è la [[matrice identità]], tut
 >[!Oss]
 >Data $A \in M_{(m,n)}(\mathbb{K})$ non esiste $A' \in M_{\mathbb{K}}(n,m)$ tale che $A \cdot A' = \mathbb{1}_{m}$
 
-
+La 4 e la 5 valgono nel caso di matrici $1\times1$, inoltre qualsiasi matrice $1\times 1$ diversa da $[ 0]$ è invertibile
