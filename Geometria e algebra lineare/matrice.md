@@ -233,3 +233,7 @@ Ad esempio $A = \begin{bmatrix}1 & -1 & 2\\-1 & 3 & 0\\2 & 0 & 1\end{bmatrix}$ Ã
 Una matrice $A \in M_{\mathbb{K}}(n,n)$ si dice **antisimmetrica** se $A^T = -A$.
 
 Ad esempio $A = \begin{bmatrix}0 & -1 & 2\\1 & 0 & 0\\-2  & 0 & 0\end{bmatrix}$
+
+-----
+
+[[pivot]] 
