@@ -1,6 +1,7 @@
 ---
 id: "matrice"
 aliases:
+  - "Matrici"
   - "Nomenclatura"
 tags: []
 ---
@@ -162,4 +163,8 @@ $$ =\begin{bmatrix}
 
 ### Proprietà del prodotto righe per colonne
 
+#### 1. Proprietà associativa
+date $A \in M_{(m,n)}(\mathbb{K}), B \in M_{(n,p)}(\mathbb{K}), C \in M_{(p,z)}(\mathbb{K})$ allora $$(A \cdot B) \cdot C = A \cdot (B \cdot C)$$
 
+#### 2. Proprietà distributiva
+date $A \in M_{(m,n)}(\mathbb{K}), B\ e\ C \in M_{(n,p)}(\mathbb{K})$
