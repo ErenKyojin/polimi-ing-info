@@ -1,5 +1,8 @@
 ---
-aliases: matrici
+id: "matrice"
+aliases:
+  - "Nomenclatura"
+tags: []
 ---
 >[!def]
 >Una matrice di tipo $(m,n)$ detta anche matrice $m \times n$ aa elementi in $\mathbb{K}$ è una tabella di elementi di $\mathbb{K}$ con $m$ righe e $n$ colonne
@@ -130,7 +133,7 @@ $$ =\begin{bmatrix}
 \end{bmatrix} $$
 
 >[!oss]
->Grazie a questoossiamo riscrivere un sistema lineare in forma matriciale. Dato il sistema lineare
+>Grazie a questo possiamo riscrivere un sistema lineare in forma matriciale. Dato il sistema lineare
 >$$ \begin{cases}
 >a_{11}x_{1} + a_{12}x_{2} + \dots + a_{1n}x_{n} = b_{1} \\
 >a_{21}x_{1} + a_{22}x_{2} + \dots + a_{2n}x_{n} = b_{2} \\
@@ -155,7 +158,8 @@ $$ =\begin{bmatrix}
 >b_{m}
 >\end{bmatrix} $$
 >
->Allora possiamo scrivere il sistema come $A \cdot \mathbf{x} = \mathbf{b}$
+>Allora possiamo scrivere il sistema come $A \cdot \mathbf{x} = \mathbf{b}$ dove con $\cdot$ si intende il prodotto righe per colonne
 
+### Proprietà del prodotto righe per colonne
 
 
