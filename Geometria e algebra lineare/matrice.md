@@ -173,7 +173,7 @@ Se $D \in M_{(p,r)}(\mathbb{K})$
 $$ (B + C)\cdot D = B \cdot D + C \cdot D $$
 
 #### Omogeneità
-$\forall t \in \mathbb{R}, \forall A \in M_{(m,n)}(\mathbb{K})$ e $\forall B in M_{(n,p)}(\mathbb{\mathbb{K}})$ 
+$\forall t \in \mathbb{R}, \forall A \in M_{(m,n)}(\mathbb{K})$ e $\forall B \in M_{(n,p)}(\mathbb{\mathbb{K}})$ 
 $$ t \cdot (A \cdot B) = (t \cdot A) \cdot B $$
 
 
@@ -182,4 +182,11 @@ $$ t \cdot (A \cdot B) = (t \cdot A) \cdot B $$
 > 	- $A \cdot B \in M_{(m,r)}(\mathbb{K})$ 
 > 	- $B\cdot A$ non è definita
 > 2. Se $A \in M_{(m,n)}(\mathbb{K})$ e $B \in M_{(n,m)}$
-> 	- $A \cdot B \in M_{(m,m)}$
+> 	- $A \cdot B \in M_{(m,m)}(\mathbb{K})$
+> 	- $B \cdot A \in M_{(n,n)} (\mathbb{K})$
+> 3. Se $A, B \in M_{(n,n)}(\mathbb{K})$
+> 	- $A \cdot B \in M_{(n,n)}(\mathbb{K})$
+> 	- $B \cdot A \in M(n,n)(\mathbb{K})$
+> 	  
+> 	 Ma in generale la matrice risultante sarà diversa
+
