@@ -236,4 +236,6 @@ Ad esempio $A = \begin{bmatrix}0 & -1 & 2\\1 & 0 & 0\\-2  & 0 & 0\end{bmatrix}$
 
 -----
 
-[[pivot]] 
+[[pivot]]
+
+>[!def]
