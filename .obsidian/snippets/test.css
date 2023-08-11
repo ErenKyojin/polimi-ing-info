@@ -15,7 +15,8 @@
 }
 
 .callout[data-callout="dim"] {
-    --callout-color: 255, 91, 0;
+    /*--callout-color: 255, 91, 0;*/
+    --callout-color: linear-gradient(#e66465, #9198e5);
     --callout-icon: lucide-brush;
 
 }

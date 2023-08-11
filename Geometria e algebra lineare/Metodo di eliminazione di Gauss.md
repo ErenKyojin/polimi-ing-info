@@ -20,4 +20,6 @@ Entrambe queste operazioni sono reversibili:
 >Dati i sistemi lineari $A \cdot \mathbf{x} = \mathbf{b}$ e $A' \cdot \mathbf{x} = \mathbf{b}'$ con $[A'|\mathbf{b}']$ ottenuta da $[A | \mathbf{b}]$ tramite operazioni elementari. Allora i due sistemi sono equivalenti.
 >
 >>[!dim]
->>La dimostrazione si fa per induzione sul numero di operazioni elementari. Analizziamo il caso baso in cui
+>>La dimostrazione si fa per induzione sul numero di operazioni elementari. Analizziamo il caso base in cui $[A'|\mathbf{b}']$ è ottenuta da $[A|\mathbf{b}]$ con una operazione elementare.
+>>Se è uno scambio i sistemi lineari sono equivalenti, se $A'_{j} = A_{j} + tA_{i}$ e $\mathbf{b}'_{j} = b_{j}+tb_{i}$ e $\mathbf{v}$ è soluzione di $A \cdot \mathbf{x} = \mathbf{b}$ allora $$
+
