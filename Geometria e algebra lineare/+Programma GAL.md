@@ -26,4 +26,12 @@ Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argo
 ## Capitolo 2 - *Sistemi lineari*
 - [ ] [[equazione lineare]]
 - [ ] [[Sistemi lineari]] 
-- [ ] [[matrice]]  
+- [ ] [[Matrice]]  
+	- [ ] Operazioni tra matrici
+		- [ ] Somma
+		- [ ] Prodotto per scalare
+		- [ ] Prodotto righe per colonne
+		- [ ] Nomenclatura
+	- [ ] [[Metodo di eliminazione di Gauss]]
+	- [ ] [[Rango]]
+- [ ] 
