@@ -6,7 +6,7 @@ Il rango di una matrice è il numero delle sue righe [[Dipendenza e indipendenza
 
 Si puó anche definire come la [[Geometria e algebra lineare/Dimensione]] dell'immagine dell'applicazione lineare.
 Si calcola attraverso il [[Metodo di eliminazione di Gauss]]
-
+zz
 Data $A \in M_{\mathbb{K}(n,n)}$ possiamo considerarla come giustpposizione di $m$ righe o di $n$ colonne:
 $$ A = \begin{bmatrix}
 \mathbf{a_{1}} \\
