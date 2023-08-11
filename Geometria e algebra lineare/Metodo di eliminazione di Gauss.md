@@ -22,6 +22,5 @@ Entrambe queste operazioni sono reversibili:
 >>[!dim]
 >>La dimostrazione si fa per induzione sul numero di operazioni elementari. Analizziamo il caso base in cui $[A'|\mathbf{b}']$ è ottenuta da $[A|\mathbf{b}]$ con una operazione elementare.
 >>Se è uno scambio i sistemi lineari sono equivalenti, se $A'_{j} = A_{j} + tA_{i}$ e $\mathbf{b}'_{j} = b_{j}+tb_{i}$ e $\mathbf{v}$ è soluzione di $A \cdot \mathbf{x} = \mathbf{b}$ allora $A_{j}\cdot \mathbf{v}  = b_{j}$ e $A_{i} \cdot \mathbf{v} = b_{i}$.
->>Quindi $A_{j}' \cdot \mathbf{v} = A_{j} \cdot \mathbf{v} + t \cdot A_{i} \cdot \mathbf{v} = b_{j} + tb_{i} = b_{j}'$
-
-zz
+>>Quindi $A_{j}' \cdot \mathbf{v} = A_{j} \cdot \mathbf{v} + t \cdot A_{i} \cdot \mathbf{v} = b_{j} + tb_{i} = b_{j}'$ da cui ricaviamo che $\mathbf{v}$ è soluzione di $A' \cdot \mathbf{x} = \mathbf{b}'$. Il vieversa si dimostra in modo analogo essendo le operaazioni elementari reversibili
+>>$\CVD$
