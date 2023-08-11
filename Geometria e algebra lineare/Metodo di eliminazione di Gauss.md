@@ -29,4 +29,6 @@ Entrambe queste operazioni sono reversibili:
 >Data una qualsiasi matrica $A$ si può ridurre a scala mediante un numero finito di operazioni elementari
 >
 
->[!oss]
+Possiamo in realtà considerare come operazione elementare la moltiplicazione di una riga per $k \in \mathbb{K}$.
+
+Definita la riduzione a scala, possiamo definire il [[rango]] di una matrice
