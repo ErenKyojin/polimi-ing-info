@@ -29,3 +29,4 @@ Entrambe queste operazioni sono reversibili:
 >Data una qualsiasi matrica $A$ si può ridurre a scala mediante un numero finito di operazioni elementari
 >
 
+>[!oss]
