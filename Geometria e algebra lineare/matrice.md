@@ -246,4 +246,22 @@ Ad esempio $A = \begin{bmatrix}0 & -1 & 2\\1 & 0 & 0\\-2  & 0 & 0\end{bmatrix}$
 >[!Oss]
 >$A \in M_{(n,n)}(\mathbb{K})$ a scala $\implies$ $A$ è triangolare superiore, non vale però il viceversa.
 
-Partendo da una matrice a scala è possibile risolvere il sistema "all'indietro", partendo dalla matrice 
+Partendo da una matrice a scala è possibile risolvere il sistema "all'indietro", partendo dal fondo della matrice otteniamo il valore dell'ultima variabile, che possiamo usare per ottenere il valore della penultima e così via.
+
+>[!esempio]
+>$$ \begin{cases}
+>x_{1} + x_{2} + x_{3} = 3 \\
+>x_{2} - x_{3} = 1 \\
+>2x_{3} = 4
+>\end{cases} \text{ la matrice completa } \begin{bmatrix}
+>1 & 1 & 1 & 3 \\
+0 & 2 & -1 & -1 \\
+0 & 0 & 2 & 4
+\end{bmatrix}$$
+>È una matrice a scala. A questo punto osserviamo che, partendo dal basso:
+> $$ \begin{cases}
+>x_{3} = 2 \\
+>x_{2} = -1 + x_{3} = -1 + 2 = 1 \\
+>x_{1} = 3 - x_{2} - x_{3} = 3 - 1 - 2 = 0 
+>\end{cases} $$
+
