@@ -1,3 +1,7 @@
+>[!def]
+>Data $A \in M_{(m,n)}(\mathbb{K})$ si chiama rango di $A$ e si indica con $r(A)$ il numero di righe non nulle di una sua ridotta a scala $U$, ovvero il numero di pivot di $U$
+
+
 Il rango di una matrice è il numero delle sue righe [[Dipendenza e indipendenza lineare|linearmente indipendenti]] (che coincide con il numero di colonne linearmente indipendenti)
 
 Si puó anche definire come la [[Geometria e algebra lineare/Dimensione]] dell'immagine dell'applicazione lineare.
