@@ -15,10 +15,14 @@
 }
 
 .callout[data-callout="dim"] {
-    /*--callout-color: 255, 91, 0;*/
-    --callout-color: linear-gradient(#e66465, #9198e5);
+    --callout-color: 255, 91, 0;
+    background: linear-gradient(#ff5b0000, #ff5b0050);
     --callout-icon: lucide-brush;
+    transition: background 2s;
+}
 
+.callout[data-callout="dim"]:hover {
+    background: linear-gradient(#ffffff20, ##ff5b0090);
 }
 
 .callout[data-callout="bed"]{
