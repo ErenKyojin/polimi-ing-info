@@ -239,4 +239,6 @@ Ad esempio $A = \begin{bmatrix}0 & -1 & 2\\1 & 0 & 0\\-2  & 0 & 0\end{bmatrix}$
 ![[pivot]]
 
 >[!def]
->Data una matrice $A = [a_{ij}] \in M_{\mathbb{K}}(m,n)$
+>Data una matrice $A = [a_{ij}] \in M_{\mathbb{K}}(m,n)$, siano $A_{1},A_{2},\dots,A_{m}$ le sue righe. Si dice che $A$ è **a scala** se:
+>1. se due righe $A_{i}$ e $A_{i+1}$ sono non nulle, il pivot di $A_{i+1}$ è a destra del pivot di $A_{i}$ 
+>2. Se $A_{i} = 0$ anche $A_{i + 1} = 0$ 
