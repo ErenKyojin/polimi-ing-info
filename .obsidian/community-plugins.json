@@ -14,5 +14,6 @@
   "obsidian-pandoc",
   "omnisearch",
   "terminal",
-  "leader-hotkeys-obsidian"
+  "obsidian-advanced-uri",
+  "obsidian-vimrc-support"
 ]
