@@ -18,6 +18,42 @@ per definire un **sistema lineare** è necessario prima definire un'[[equazione 
 >
 >Due sistemi lineari sono **equivalenti** se hanno lo stesso insieme di soluzioni
 
+## sistemi lineari di $n$-equazioni in $n$-incognite
+
+Dato un sistema lineare $A \cdot \mathbf{x} = \mathbf{b}$ si hanno i seguenti tre casi:
+- Un unica soluzione -> sistema determinato
+- Infinite soluzioni dipendenti da un certo numero di parametri -> sistema sottodeterminato
+- Nessuna soluzione -> impossibile
+
+>[!teorema] Teorema di Cramer
+>Se $A \in M_{(n,n)}(\mathbb{K})$ e $r(A) = n$, allora $\forall \mathbf{b} \in \mathbb{K}^n$ il sistema lineare $A \mathbf{x} = \mathbf{b}$ ammette una e una sola soluzione
+>
+>>[!dim] 
+>>Riduciamo a scala $A$ tramite il [[Metodo di eliminazione di Gauss]]
+>>
+>>$$ A \to U = \begin{bmatrix}p_{1} & * & \dots & \dots & * \\
+>>0 & p_{2} & * & \dots & * \\
+>>\vdots & \overset{ 0 }{ \vdots } & \ddots &  & \vdots \\
+>>0 & 0 &  &  & p_{n}
+>>\end{bmatrix} $$
+>>Il sistema lineare $A \mathbf{x} = \mathbf{b}$ è equivalente ad un sistema lineare del tipo $U \mathbf{x} = \mathbf{b}'$, che scritto esplicitamente è:
+>>$$ \begin{cases} \\
+>>p_{1}x_{1} + u_{12}x_{2} + \dots + u_{1n}x_{n} = b_{1}' \\
+>>p_{2}x_{2} + \dots + u_{2n}x_{n} = b_{2}' \\
+>>\vdots \\
+>>p_{n}x_{n} = b_{n}'
+>>\end{cases} $$
+>>Risolvendo all'indietro ottengo:
+>>$$ \begin{cases}
+>>x_{1} = \frac{1}{p_{1}}(\dots) \\
+>>\vdots \\
+>x_{n-1} = b_{n-1}' / p_{n-1} - \frac{u_{n-1,n}b_{n}'}{p_{n}p_{n-1}} \\
+>>x_{n} = \frac{b_{n}'}{p_{n}}
+>>\end{cases} $$
+>>Soluzioni del sistema lineare $A\mathbf{x} = \mathbf{b}$
+
+È utile per lo studio dei sistemi introdurre il concetto di [[sistema omogeneo associato]].
+
 # Struttura delle soluzioni di un sistema lineare
 >[!proposizione]
 >Dato il sistema lineare $A\mathbf{x} = \mathbf{b}$ supponiamo che $\mathbf{x}_{0}$ sia soluzione, quindi $A\mathbf{x}_{0} = \mathbf{b}$ le soluzioni di $A\mathbf{x} = \mathbf{b}$ si ottengono sommando ad $\mathbf{x}_{0}$ le soluzioni del sistema omogeneo associato $A\mathbf{x} =\mathbf{0}$, quindi sono tutti e soli i vettori della forma $\mathbf{x}_{o}+\mathbf{x}_{h}$ con $\mathbf{x}_{h} \in \ker(A)$
@@ -272,36 +308,4 @@ fill opacity = 0.2,
 Le due rette coincidono
 
 
-
-## sistemi lineari di $n$-equazioni in $n$-incognite
-
-Dato un sistema lineare $A \cdot \mathbf{x} = \mathbf{b}$ si hanno i seguenti tre casi:
-- Un unica soluzione -> sistema determinato
-- Infinite soluzioni dipendenti da un certo numero di parametri -> sistema sottodeterminato
-- Nessuna soluzione -> impossibile
-
->[!teorema] Teorema di Cramer
->Se $A \in M_{(n,n)}(\mathbb{K})$ e $r(A) = n$, allora $\forall \mathbf{b} \in \mathbb{K}^n$ il sistema lineare $A \mathbf{x} = \mathbf{b}$ ammette una e una sola soluzione
->
->>[!dim] 
->>Riduciamo a scala $A$ tramite il [[Metodo di eliminazione di Gauss]]
->>
->>$$ A \to U = \begin{bmatrix}p_{1} & * & \dots & \dots & * \\
->>0 & p_{2} & * & \dots & * \\
->>\vdots & \overset{ 0 }{ \vdots } & \ddots &  & \vdots \\
->>0 & 0 &  &  & p_{n}
->>\end{bmatrix} $$
->>Il sistema lineare $A \mathbf{x} = \mathbf{b}$ è equivalente ad un sistema lineare del tipo $U \mathbf{x} = \mathbf{b}'$, che scritto esplicitamente è:
->>$$ \begin{cases} \\
->>p_{1}x_{1} + u_{12}x_{2} + \dots + u_{1n}x_{n} = b_{1}' \\
->>p_{2}x_{2} + \dots + u_{2n}x_{n} = b_{2}' \\
->>\vdots \\
->>p_{n}x_{n} = b_{n}'
->>\end{cases} $$
->>Risolvendo all'indietro ottengo:
->>$$ \begin{cases}
->>x_{1} = \frac{1}{p_{1}}(\dots) \\
->>\vdots \\
->x_{n-1} = b
->>\end{cases} $$
 
