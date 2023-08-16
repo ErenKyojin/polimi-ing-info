@@ -13,5 +13,6 @@
   "obsidian-tts",
   "obsidian-pandoc",
   "omnisearch",
-  "terminal"
+  "terminal",
+  "leader-hotkeys-obsidian"
 ]
