@@ -280,4 +280,28 @@ Dato un sistema lineare $A \cdot \mathbf{x} = \mathbf{b}$ si hanno i seguenti tr
 - Infinite soluzioni dipendenti da un certo numero di parametri -> sistema sottodeterminato
 - Nessuna soluzione -> impossibile
 
->[!esempio]
+>[!teorema] Teorema di Cramer
+>Se $A \in M_{(n,n)}(\mathbb{K})$ e $r(A) = n$, allora $\forall \mathbf{b} \in \mathbb{K}^n$ il sistema lineare $A \mathbf{x} = \mathbf{b}$ ammette una e una sola soluzione
+>
+>>[!dim] 
+>>Riduciamo a scala $A$ tramite il [[Metodo di eliminazione di Gauss]]
+>>
+>>$$ A \to U = \begin{bmatrix}p_{1} & * & \dots & \dots & * \\
+>>0 & p_{2} & * & \dots & * \\
+>>\vdots & \overset{ 0 }{ \vdots } & \ddots &  & \vdots \\
+>>0 & 0 &  &  & p_{n}
+>>\end{bmatrix} $$
+>>Il sistema lineare $A \mathbf{x} = \mathbf{b}$ è equivalente ad un sistema lineare del tipo $U \mathbf{x} = \mathbf{b}'$, che scritto esplicitamente è:
+>>$$ \begin{cases} \\
+>>p_{1}x_{1} + u_{12}x_{2} + \dots + u_{1n}x_{n} = b_{1}' \\
+>>p_{2}x_{2} + \dots + u_{2n}x_{n} = b_{2}' \\
+>>\vdots \\
+>>p_{n}x_{n} = b_{n}'
+>>\end{cases} $$
+>>Risolvendo all'indietro ottengo:
+>>$$ \begin{cases}
+>>x_{1} = \frac{1}{p_{1}}(\dots) \\
+>>\vdots \\
+>x_{n-1} = b
+>>\end{cases} $$
+
