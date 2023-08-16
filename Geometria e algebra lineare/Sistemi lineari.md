@@ -279,3 +279,5 @@ Dato un sistema lineare $A \cdot \mathbf{x} = \mathbf{b}$ si hanno i seguenti tr
 - Un unica soluzione -> sistema determinato
 - Infinite soluzioni dipendenti da un certo numero di parametri -> sistema sottodeterminato
 - Nessuna soluzione -> impossibile
+
+>[!esempio]
