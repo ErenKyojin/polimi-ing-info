@@ -1,6 +1,5 @@
-syntax on
+unmap <Space>
+unmap /
 
-let mapleader = "<Space>"
-
-nmap <leader>w :w<cr>
-nmap <leader>/ :obcommand omnisearch:open-modal
+exmap osearch obcommand omnisearch:show-modal
+map <Space>/ :osearch
