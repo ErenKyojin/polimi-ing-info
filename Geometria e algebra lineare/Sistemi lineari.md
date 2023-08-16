@@ -52,7 +52,9 @@ Dato un sistema lineare $A \cdot \mathbf{x} = \mathbf{b}$ si hanno i seguenti tr
 >>\end{cases} $$
 >>Soluzioni del sistema lineare $A\mathbf{x} = \mathbf{b}$
 
-È utile per lo studio dei sistemi introdurre il concetto di [[sistema omogeneo associato]].
+È utile per lo studio dei sistemi introdurre il concetto di [[sistema omogeneo associato]] e di [[nucleo]]  
+
+
 
 # Struttura delle soluzioni di un sistema lineare
 >[!proposizione]
