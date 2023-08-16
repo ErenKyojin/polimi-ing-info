@@ -275,4 +275,7 @@ Le due rette coincidono
 
 ## sistemi lineari di $n$-equazioni in $n$-incognite
 
-Dato un sistema lineare $A \cdot \mathbf{x} = \mathbf{b}$
+Dato un sistema lineare $A \cdot \mathbf{x} = \mathbf{b}$ si hanno i seguenti tre casi:
+- Un unica soluzione -> sistema determinato
+- Infinite soluzioni dipendenti da un certo numero di parametri -> sistema sottodeterminato
+- Nessuna soluzione -> impossibile
