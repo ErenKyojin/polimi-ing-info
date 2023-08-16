@@ -34,4 +34,4 @@ Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argo
 		- [ ] Nomenclatura
 	- [ ] [[Metodo di eliminazione di Gauss]]
 	- [ ] [[Rango]]
-- [ ] 
+- [ ] Sistemi lineari di n-equazioni in $n$ incognite

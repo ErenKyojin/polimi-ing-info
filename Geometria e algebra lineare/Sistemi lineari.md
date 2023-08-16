@@ -273,3 +273,6 @@ Le due rette coincidono
 
 
 
+## sistemi lineari di $n$-equazioni in $n$-incognite
+
+Dato un sistema lineare $A \cdot \mathbf{x} = \mathbf{b}$
