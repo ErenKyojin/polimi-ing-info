@@ -94,7 +94,7 @@
     },
     "linuxIntegratedDefault": {
       "args": [],
-      "executable": "/bin/sh",
+      "executable": "/bin/zsh",
       "name": "",
       "platforms": {
         "linux": true
