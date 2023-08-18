@@ -1,7 +1,8 @@
 ---
-aliases: 
-creation date: 2023-07-07 09:14
-modification date: 2023-07-07 09:14
+id: "+Programma GAL"
+aliases:
+  - "Capitolo 1 - *Vettori geometrici, prima parte*"
+tags: []
 ---
 Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argomenti chiave e gli argomenti minori relativi indicati
 
