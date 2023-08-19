@@ -36,3 +36,5 @@ Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argo
 	- [ ] [[Metodo di eliminazione di Gauss]]
 	- [ ] [[Rango]]
 - [ ] Sistemi lineari di n-equazioni in $n$ incognite
+	- [ ] teorema di Cramer
+	- [ ] [[sistema omogeneo associato]] 
