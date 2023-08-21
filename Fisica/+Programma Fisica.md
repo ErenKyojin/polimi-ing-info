@@ -45,4 +45,8 @@ modification date: 2023-07-07 09:14
 - [ ] [[terzo principio della dinamica]]
 - [ ] problema generale della dinamica del punto materiale
 - [ ] [[forza#Classificazione delle forze|forze]]
-- [ ] [[statica]]
+- [ ] [[Statica]]
+- [ ] [[Reazioni vincolari]]
+- [ ] [[impulso]]
+	- [ ] [[teorema dell'impulso]]
+- [ ] [[forze di attrito]]
