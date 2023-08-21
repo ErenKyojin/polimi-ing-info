@@ -112,3 +112,9 @@ modification date: 2023-07-07 09:14
 	- [ ] teorema del centro di massa
 - [ ] [[Sistemi di punti materiali#Momento angolare, seconda equazione cardinale della dinamica dei sistemi]]
 - [ ] [[Energia cinetica#energia cinetica in un sistemi di punti materiali sistema di punti materiali]]
+- [ ] [[Teoremi di Konig]]
+- [ ] [[energia meccanica#Conservazione dell'energia meccanica nei sistemi di punti materiali]]
+- [ ] [[energia meccanica#Teorema dell'energia cinetica per i sistemi]]
+- [ ] [[energia meccanica#Energia potenziale interne]]
+- [ ] teorema di conservazione dell'energia meccanica per un sistema di punti
+- [ ] [[urti]] 
