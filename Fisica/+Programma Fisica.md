@@ -26,4 +26,5 @@ modification date: 2023-07-07 09:14
 - [ ] [[moto#Moto del Punto materiale]]
 	- [ ] [[velocità vettoriale]]
 	- [ ] [[Accelerazione vettoriale]]
-	- [ ] 55
+		- [ ] scomposizione dell'accelerazione
+		- [ ] [[coordinate polari]] e moto in coordinate polari
