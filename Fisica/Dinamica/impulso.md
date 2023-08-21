@@ -34,7 +34,7 @@ $$
 >La variazione della quantità di moto di un [[punto materiale]] è pari all'impulso della risultante delle [[forza|forze]] agenti su quel punto materiale
 
 >[!oss]
->Questo teorema è diretta conseguenza delle definizioni di forza e di impulso, trova applicazioni nei casi in cui forze intense si manifestano per intervalli molto brevi (urti)
+>Questo teorema è diretta conseguenza delle definizioni di forza e di impulso, trova applicazioni nei casi in cui forze intense si manifestano per intervalli molto brevi ([[urti]])
 
 >{!oss}
 >Forze impulsive sono le [[reazioni vincolari]]
