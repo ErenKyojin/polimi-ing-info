@@ -46,4 +46,6 @@ Dove le tensioni hanno tutte segno positivo in quanto orientate come il percorso
 >[!legge] KVL-II
 >Dato un circuito che opera in regime, con $n$ nodi e con il grafo connesso, preso un percorso chiuso passante per $m$ nodi del grafo, la somma algebrica delle tensioni è nulla.
 >
->Con somma algebrica delle tensioni intendiamo che 
+>Con somma algebrica delle tensioni intendiamo che consideriamo le tensioni positive se vanno nel verso di percorrenza, e negative se vanno nel verso opposto.
+
+Sono due enunciati equivalenti.

@@ -4,8 +4,7 @@ alias:
 ---
 
 [[Legge di Kirchhoff per le tensioni]]
-
-
+[[legge]]
 # KCL magnetica
 >[!def] Legge di Kirchoff magnetica per le correnti 
 >La somma dei flussi entranti in un nodo è nulla, quindi
