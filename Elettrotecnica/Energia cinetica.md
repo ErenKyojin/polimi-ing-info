@@ -33,7 +33,7 @@ $$
 $$
 questa euqazione esprime il seguente:
 
-
+## teorema delle forze vive
 >[!teorema] Teorema delle [[forza|forze]] vive o teorema dell'energia cinetica
 >In un [[sistema di riferimento inerziale]], il lavoro compiuto dalla risultatnte di tutte le forze agenti su di un punto materiale quando esso si sposta dalla posizione $A$ alla posizione $B$ è pari alla variazione di energia cinetica del punto materiale tra le posizioni $A$ e $B$
 
