@@ -37,4 +37,12 @@ Dunque in base al teorema dell'impulso se, come avviene quasi sempre, tutte le f
 consideriamo due particelle urtanti, avremo allora
 $\vec{P} = \vec{p}_{1} + \vec{p}_{2} = \cost$ ovvero
 $\vec{P}_{i} = \vec{P}_{1,i} + \vec{p}_{2,i} = \vec{p}_{1,f} + \vec{p}_{2,f} = \vec{P}_{F}$ ovvero
-$\Delta \vec{p}_{1}$
+$\Delta \vec{p}_{1} + \Delta \vec{p}_{2} = \mathbf{0}$
+
+### Classificazione degli urti e conservazione dell'energia cinetica
+In generale gli urti si classificano in base alla conservazione dell'energia cinetica del sistema di particelle urtanti
+- Se l'energia cinetica totale del sistema è conservata nell'urto, si dice che l'urto è **elastico** 
+- Se l'energia cinetica totale del sistema non è conservata nell'urto, si dice che l'urto è **anelastico**
+
+>[!oss]
+>Se l'urto è anelastico vi è evidentemente lavoro di forze interne non conservative. Ma il lavoro compiuto da queste forze è limitato dal [[Quantità di moto#Principio di conservazione della quantità di moto|principio di conservazione della quantità di moto]] che equivale ad affermare che la velocità del centro di massa [[]]]]
