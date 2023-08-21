@@ -3,6 +3,8 @@ aliases: KVL
 creation date: 2023-05-31 15:09
 modification date: 2023-05-31 15:09
 ---
+
+# Nel campo magnetico
 La legge di Kirchhoff per le tensioni (KVL) afferma, in regime quasi stazionario, che:
 
 >[!legge]
@@ -36,3 +38,12 @@ Dato che ipotizziamo di essere in regime quasi-stazionari, il [[Elettrotecnica/c
 $$ - \oint_{\gamma} \!\bar{E} \cdot \,\d \bar{l}=V_{BA} + V_{CB} + V_{DC} + V_{AD} = 0  $$
 Dove le tensioni hanno tutte segno positivo in quanto orientate come il percorso, se invece di scegliere la tensione $V_{AB}$ avessimo scelto la tensione $V_{BA}$ avremmo dovuto scrivere $-V_{AB} + V_{CB} + V_{DC} + V_{AD} = 0$. Essendo $V_{AB}$ orientata nel senso opposto rispetto al percorso.
 
+# Nella teoria dei circuiti
+
+>[!legge] KVL-I
+>dato un circuito che opera in regime stazionario con $n$ nodi e con grafo connesso. Assegnato un nodo come potenziale di riferimento $u_{0}$ e di conseguenza assegnamo ad ogni altro nodo i potenziali $u_{1},\dots,u_{n-1}$. Ad ogni istante di tempo la tensione tra il nodo $j$ ed il nodo $k$ è $u_{k} - u_{j}$.
+
+>[!legge] KVL-II
+>Dato un circuito che opera in regime, con $n$ nodi e con il grafo connesso, preso un percorso chiuso passante per $m$ nodi del grafo, la somma algebrica delle tensioni è nulla.
+>
+>Con somma algebrica delle tensioni intendiamo che 
