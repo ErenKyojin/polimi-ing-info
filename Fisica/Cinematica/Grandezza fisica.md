@@ -2,7 +2,7 @@
 >Quando possiamo individuare un [[insieme]] di enti tra i quali possiamo stabilire:
 >- una relazione d'ordine
 >- un'operazione di somma e differenza tra enti
->- un'operazione di prodottoscalare tra enti
+>- un'operazione di prodotto scalare tra enti
 >- un'operazione di prodotto tra un qualsiasi ente ed un qualsiasi numero reale
 >Allora questi enti formano una classe (o tipo) di grandezze fisiche
 
