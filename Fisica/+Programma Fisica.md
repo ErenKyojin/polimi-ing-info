@@ -5,10 +5,10 @@ modification date: 2023-07-07 09:14
 ---
 
 ## Capitolo 1 - Introduzione
-- [ ] [[Grandezza fisica]] e [[Indice di stato fisico]]
-	- [ ] Misura di una grandezza
-	- [ ] Tipologie di grandezze
-	- [ ] dimensione di una grandezza fisica
+- [x] [[Grandezza fisica]] e [[Indice di stato fisico]]
+	- [x] Misura di una grandezza
+	- [x] Tipologie di grandezze
+	- [x] dimensione di una grandezza fisica
 - [ ] [[Legge fisica|Leggi fisiche e principio di omogeneità]]
 
 ## Capitolo 2 - Cinematica del punto materiale
