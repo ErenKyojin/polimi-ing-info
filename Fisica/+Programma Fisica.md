@@ -9,7 +9,7 @@ modification date: 2023-07-07 09:14
 	- [x] Misura di una grandezza
 	- [x] Tipologie di grandezze
 	- [x] dimensione di una grandezza fisica
-- [ ] [[Legge fisica|Leggi fisiche e principio di omogeneità]]
+- [x] [[Legge fisica|Leggi fisiche e principio di omogeneità]]
 
 ## Capitolo 2 - Cinematica del punto materiale
 - [ ] definizioni chiave
