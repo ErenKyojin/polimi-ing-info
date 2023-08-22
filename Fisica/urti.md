@@ -45,4 +45,10 @@ In generale gli urti si classificano in base alla conservazione dell'energia cin
 - Se l'energia cinetica totale del sistema non è conservata nell'urto, si dice che l'urto è **anelastico**
 
 >[!oss]
->Se l'urto è anelastico vi è evidentemente lavoro di forze interne non conservative. Ma il lavoro compiuto da queste forze è limitato dal [[Quantità di moto#Principio di conservazione della quantità di moto|principio di conservazione della quantità di moto]] che equivale ad affermare che la velocità del centro di massa [[]]]]
+>Se l'urto è anelastico vi è evidentemente lavoro di forze interne non conservative. Ma il lavoro compiuto da queste forze è limitato dal [[Quantità di moto#Principio di conservazione della quantità di moto|principio di conservazione della quantità di moto]] che equivale ad affermare per il [[Sistemi di punti materiali#Centro di massa e teorema del centro di massa|teorema del centro di massa]] che la velocità del centro di massa si conserva. Quindi l'energia cinetica finale non potrà essere minore dell'energia cinetica del centro di massa $\frac{1}{2}Mv_{C}^2$
+
+>[!oss]
+>L'urto più anelastico quindi è l'urto in cui l'energia cinetica finale interna è nulla, e quindi tutte le particelle urtanti non hanno nessun moto relativo e procedono come un unico punto mateirale. Questo urto è detto **perfettamente anelastico**
+
+>[!oss]
+>In alcuni urti l'energia cinetica finale è maggiore di quella iniziale, per via della conversione di una qualche forma di energia interna al sistema in energia cinetica delle particelle urtanti, questi urti sono detti **superelastici**
