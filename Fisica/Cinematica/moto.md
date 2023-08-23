@@ -28,6 +28,7 @@ $$
 >$$
 
 [[velocità vettoriale]]
+[[Accelerazione vettoriale]]
 
 Possiamo scomporre l'accelerazione in componenti cartesiane:
 $$
