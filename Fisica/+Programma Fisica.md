@@ -25,9 +25,9 @@ modification date: 2023-07-07 09:14
 		- [x] [[accelerazione scalare istantanea]]
 - [ ] [[moto#Moto del Punto materiale]]
 	- [x] [[velocità vettoriale]]
-	- [ ] [[Accelerazione vettoriale]]
-		- [ ] scomposizione dell'accelerazione
-		- [ ] [[coordinate polari]] e moto in coordinate polari
+	- [x] [[Accelerazione vettoriale]]
+		- [x] scomposizione dell'accelerazione
+		- [x] [[coordinate polari]] e moto in coordinate polari
 	- [ ] [[velocità angolare]]
 	- [ ] [[moto#Casi particolari di moto]]
 

@@ -112,7 +112,7 @@ Legame con le coordinate cartesiane:
 Si ha che
 $$
 \fbox{$\begin{align}
-&r = \sqrt{ x^2 + y_{2} } \\
+&r = \sqrt{ x^2 + y^{2} } \\
 &\theta = \arctan(y/x)
 \end{align}$}\qquad \fbox{$\begin{align}
 &x = r\cos \theta \\
