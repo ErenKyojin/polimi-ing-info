@@ -24,7 +24,7 @@ modification date: 2023-07-07 09:14
 	- [x] [[Accelerazione scalare media]]
 		- [x] [[accelerazione scalare istantanea]]
 - [ ] [[moto#Moto del Punto materiale]]
-	- [ ] [[velocità vettoriale]]
+	- [x] [[velocità vettoriale]]
 	- [ ] [[Accelerazione vettoriale]]
 		- [ ] scomposizione dell'accelerazione
 		- [ ] [[coordinate polari]] e moto in coordinate polari
