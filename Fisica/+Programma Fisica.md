@@ -15,9 +15,9 @@ modification date: 2023-07-07 09:14
 - [ ] definizioni chiave
 	- [x] [[Punto materiale]]
 	- [x] [[Cinematica]]
-	- [ ] [[moto]] e quiete
-	- [ ] [[Legge oraria]]
-	- [ ] [[Traiettoria]]
+	- [x] [[moto]] e quiete
+	- [x] [[Legge oraria]]
+	- [x] [[Traiettoria]]
 		- [ ] [[ascissa curvilinea]]
 	- [ ] [[Velocità scalare media]]
 		- [ ] [[velocità scalare istantanea]]
