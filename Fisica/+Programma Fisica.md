@@ -18,9 +18,9 @@ modification date: 2023-07-07 09:14
 	- [x] [[moto]] e quiete
 	- [x] [[Legge oraria]]
 	- [x] [[Traiettoria]]
-		- [ ] [[ascissa curvilinea]]
-	- [ ] [[Velocità scalare media]]
-		- [ ] [[velocità scalare istantanea]]
+		- [x] [[ascissa curvilinea]]
+	- [x] [[Velocità scalare media]]
+		- [x] [[velocità scalare istantanea]]
 	- [ ] [[Accelerazione scalare media]]
 		- [ ] [[accelerazione scalare istantanea]]
 - [ ] [[moto#Moto del Punto materiale]]
