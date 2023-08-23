@@ -13,8 +13,8 @@ modification date: 2023-07-07 09:14
 
 ## Capitolo 2 - Cinematica del punto materiale
 - [ ] definizioni chiave
-	- [ ] [[Punto materiale]]
-	- [ ] [[Cinematica]]
+	- [x] [[Punto materiale]]
+	- [x] [[Cinematica]]
 	- [ ] [[moto]] e quiete
 	- [ ] [[Legge oraria]]
 	- [ ] [[Traiettoria]]
