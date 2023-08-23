@@ -23,13 +23,13 @@ modification date: 2023-07-07 09:14
 		- [x] [[velocità scalare istantanea]]
 	- [x] [[Accelerazione scalare media]]
 		- [x] [[accelerazione scalare istantanea]]
-- [ ] [[moto#Moto del Punto materiale]]
+- [x] [[moto#Moto del Punto materiale]]
 	- [x] [[velocità vettoriale]]
 	- [x] [[Accelerazione vettoriale]]
 		- [x] scomposizione dell'accelerazione
 		- [x] [[coordinate polari]] e moto in coordinate polari
-	- [ ] [[velocità angolare]]
-	- [ ] [[moto#Casi particolari di moto]]
+	- [x] [[velocità angolare]]
+	- [x] [[moto#Casi particolari di moto]]
 
 ## Capitolo 3 - Cinematica del punto materiale
 - [ ] [[Dinamica]] 
