@@ -23,7 +23,7 @@ modification date: 2023-07-07 09:14
 		- [x] [[velocità scalare istantanea]]
 	- [x] [[Accelerazione scalare media]]
 		- [x] [[accelerazione scalare istantanea]]
-- [x] [[moto#Moto del Punto materiale]]
+- [ ] [[moto#Moto del Punto materiale]]
 	- [ ] [[velocità vettoriale]]
 	- [ ] [[Accelerazione vettoriale]]
 		- [ ] scomposizione dell'accelerazione
