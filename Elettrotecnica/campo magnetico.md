@@ -31,7 +31,7 @@ Essendo $\mathcal{\bar M}$ un campo dovuto alla presenza di un mezzo materiale, 
 
 Tutta questa premessa ci permette di introdurre i [[circuiti magnetici]].
 
-L'effetto di un campo magnetico si vede ponendo una carica di prova nella regione in cui si vuole misurare il campo, in particolare detta $q$ la carica in moto con velocità $\bar{v}$, la forza $\bar{F}$ su di essa esercitata da $\bar{B}$ è
+L'effetto di un campo magnetico si vede ponendo una [[carica di prova]] nella regione in cui si vuole misurare il campo, in particolare detta $q$ la carica in moto con velocità $\bar{v}$, la forza $\bar{F}$ su di essa esercitata da $\bar{B}$ è
 $$ \bar{F} = q\bar{v} \times \bar{B} $$
 Attraverso la regola della mano destra possiamo ottenere il verso di $S$, per la sua intensità
 invece $F = qvB \sin x$.

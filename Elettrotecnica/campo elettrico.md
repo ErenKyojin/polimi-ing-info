@@ -102,3 +102,10 @@ Conoscendo approfonditamente il campo elettrico, iniziamo ad approfondire la [[t
 
 E quindi introdurre la [[corrente|corrente elettrica]]
 
+```anki
+deck: elettrotecnica
+---
+# Campo elettrico
+===
+Data una carica di prova $q$, se subisce una forza $\vec{F}$ proporzionale
+```

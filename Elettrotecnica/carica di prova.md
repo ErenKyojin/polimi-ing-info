@@ -8,10 +8,9 @@ modification date: 2023-05-25 18:25
 >Una **[[carica]] di prova** è una carica puntiforme $q$ positiva posizionabile in una regione dello spazio in modo di studiare eventuali effetti su di essa
 
 
- [!deck]- anki
  ```anki
-id:
 deck: elettrotecnica
+cloze: true
 ---
 Una carica di prova è una carica ~~puntiforme~~ $q$ positiva posizionabile in una regione dello spazio in modo di studiare eventuali effetti su di essa
 ===
