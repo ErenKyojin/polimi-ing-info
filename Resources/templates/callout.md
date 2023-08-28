@@ -15,3 +15,4 @@ header = "> [!quote]-\n"
 // Return the complete callout block
 return header + newContent;
 %>
+
