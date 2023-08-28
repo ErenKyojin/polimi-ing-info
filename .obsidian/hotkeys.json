@@ -24,5 +24,14 @@
       ],
       "key": "M"
     }
+  ],
+  "obsidian-ankibridge:anki-bridge-sync-active-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
   ]
 }
