@@ -14,7 +14,14 @@ deck: elettrotecnica
 #### Flusso di un campo vettoriale
 Data una ~~superficie aperta~~ $S$, identifichiamo il suo bordo $\gamma$ e decidiamo arbitrariamente ~~di percorrerlo in senso antiorario~~. Il verso di percorrenza di $\gamma$ fissa il verso del versore $\hat{u}_N$ perpendicolare alla superficie $S$ per la regola del cavatappi.
 
-Presa la generica ~~areola~~ piana $dS$ con $\vartheta$ l'angolo fra $\hat{u}_N$ e $\bar{A}$
+Presa la generica ~~areola~~ piana $dS$ con $\vartheta$ l'angolo fra $\hat{u}_N$ e $\bar{A}$ (~~campo vettoriale~~ di cui voglio definire il flusso).
+
+Approssimiamo $\bar{A}$ costante a pari ad $\bar{A}_k$ su tutte le areole piane che possono essere individuate su $S$. 
+
+Possiamo scrcrivere $\Phi_S(A) \approx \sum_k A_k \cos \vartheta_k \mathrm{d}S_k$.
+
+Passando al limite con le areole infinitesime possiamo scrivere:
+$$ \Phi_S(\bar{A}) = \int_S \bar A \cdot \d S u$$
 ===
 <% tp.file.cursor(2) %>
 ```
