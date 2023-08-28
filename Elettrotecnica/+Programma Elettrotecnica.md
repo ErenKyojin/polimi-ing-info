@@ -10,9 +10,9 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
  - [x] [[carica|carica elettrica]]
  - [x] [[Elettrotecnica/campo|campo]] e [[campo elettrico]]
 	 - [x] [[forza elettrostatica|legge di Coulomb]]
-- [ ] [[tensione|differenza di potenziale]] (o tensione)
-	- [ ] [[campi di forze conservative|campo conservativo]]
-	- [ ] [[Energia potenziale]]
+- [x] [[tensione|differenza di potenziale]] (o tensione)
+	- [x] [[campi di forze conservative|campo conservativo]]
+	- [x] [[Energia potenziale]]
 	- [ ] [[Legge di Kirchhoff per le tensioni]]
 	- [ ] [[flusso di un campo vettoriale]]
 	- [ ] [[legge di Gauss]]
