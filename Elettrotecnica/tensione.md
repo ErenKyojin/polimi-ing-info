@@ -141,6 +141,8 @@ Possiamo quindi enunciare la [[Legge di Kirchhoff per le tensioni]]
 - Disparità: $V_{AB}^{\gamma} = -V_{BA}^{\gamma}$
 - Additiva: $\gamma_{1}$ da $A$ a $B$, $\gamma_{2}$ da $B$ a $C$. La loro unione è $\gamma = \gamma_{1} \cup \gamma_{2}$ da $A$ a $C$
 
+
+# Tensione - Anki
 ```anki
 id: 1693237774342
 deck: elettrotecnica
@@ -177,6 +179,15 @@ $$ \mathcal{L}_{AB}^{\gamma_1} = \mathcal{L}_{AB}^{\gamma_2} = W(B) - W(A) $$.
 >che ci fornisce il lavoro normalizzato alla carica a prescindere dal percorso
 
 ```
+```anki
+id: 1693240630917
+deck: elettrotecnica
+---
+Qualsiasi energia potenziale, quindi anche il ~~potenziale elettrico~~, è una grandezza definita a meno di una ~~costante additiva~~, che possiamo sempre porre uguale a ~~zero~~
+===
+
+```
+
 
 
 # Tensioni #trifase bilanciate

@@ -1,7 +1,7 @@
 <%*
 //get selection
 noteContent = tp.file.selection();
-calloutTitle = tp.system.prompt("Callout title?")
+calloutTitle = await tp.system.prompt("Callout title?")
 //get array of lines
 lines = noteContent.split('\n')
 //make a new string with > prepended to each line
@@ -12,9 +12,9 @@ lines.forEach(l => {
 //remove the last newline character
 newContent = newContent.replace(/\n$/, "");
 
-
 //define callout header
 header = `> [!${calloutTitle}]-\n`
 // Return the complete callout block
 return header + newContent;
 %>
+
