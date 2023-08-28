@@ -16,3 +16,8 @@ header = "> [!quote]-\n"
 return header + newContent;
 %>
 
+
+
+```anki
+deck: elettrotecnica 
+---

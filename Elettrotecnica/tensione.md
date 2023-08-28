@@ -162,8 +162,15 @@ Tensione definizione
 ===
 La tensione è il lavoro, normalizzato rispetto alla carica, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea e si misura in volt $[V] = JC^{-1}$
 ```
+
+```anki
+deck: elettrotecnica 
+---
+Potenziale elettrico
+===
+Se prendo un altro percorso da $A$ a $B$ e lo chiamo $\gamma_2$ in generale avremo $\mathcal{L}_{AB}^{\gamma_2} \neq \mathcal{L}_{AB}^{\gamma_1}$
 ```
-```
+<% tp.file.cursor(3) %>
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
 
