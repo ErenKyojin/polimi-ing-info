@@ -142,6 +142,7 @@ Possiamo quindi enunciare la [[Legge di Kirchhoff per le tensioni]]
 - Additiva: $\gamma_{1}$ da $A$ a $B$, $\gamma_{2}$ da $B$ a $C$. La loro unione è $\gamma = \gamma_{1} \cup \gamma_{2}$ da $A$ a $C$
 
 ```anki
+id: 1693237774342
 deck: elettrotecnica
 ---
 Tensione introduzione
@@ -153,11 +154,15 @@ che portandolo al limite ci porta all'integrale
 $$ \mathcal{L}_{AB}^{\gamma_1} = -q \int_{\gamma_1} \bar{E} \cdot d\bar{l} $$
 ```
 ```anki
+id: 1693237774438
 deck: elettrotecnica
+cloze: true
 ---
 Tensione definizione
 ===
-La tensione è il ~~lavoro~~, normalizzato rispetto alla ~~carica~~, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea
+La tensione è il lavoro, normalizzato rispetto alla carica, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea e si misura in volt $[V] = JC^{-1}$
+```
+```
 ```
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
