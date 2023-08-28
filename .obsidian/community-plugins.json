@@ -11,7 +11,8 @@
   "obsidian-git",
   "obsidian-flexible-pomo",
   "obsidian-tts",
-  "obsidian-pandoc",
   "omnisearch",
-  "flashcards-obsidian"
+  "flashcards-obsidian",
+  "obsidian-pandoc",
+  "obsidian-vimrc-support"
 ]
