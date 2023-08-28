@@ -15,7 +15,7 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 	- [x] [[Energia potenziale]]
 	- [x] [[Legge di Kirchhoff per le tensioni]]
 	- [x] [[flusso di un campo vettoriale]]
-	- [ ] [[legge di Gauss]]
+	- [x] [[legge di Gauss]]
 	- [ ] [[dielettrici]]
 	- [ ] [[voltmetro]]
 - [ ] [[corrente|corrente elettrica]] 
