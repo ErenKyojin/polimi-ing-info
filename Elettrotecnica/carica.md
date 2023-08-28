@@ -14,3 +14,24 @@ Il principio di conservazione della carica è considerato valido dalla fisica cl
 Per descrivere come la carica elettrica si distribuisce in un corpo e sulla sua superficie introduciamo la [[densità di carica]].
 
 Data la definizione di [[Elettrotecnica/campo|campo]] possiamo quindi definire il [[campo elettrico]] 
+
+
+```anki
+id: 1693220520442
+deck: elettrotecnica
+cloze: true
+---
+# carica elettrica
+===
+La carica elettrica è quantizzata, ogni corpo ne ha una carica multipla della carica quantica $q_E$ ed è la somma algebrica di tutte le cariche positive  $q^+ = n^+ |q_E|$ e negative $q^- = n^- |q_E|$.
+
+Idealmente si può definire la carica puntiforme come un punto singolo dello spazio con carica.
+
+Vale il principio di conservazione della carica:
+
+
+>[!oss]
+>la carica di un ~~sistema isolato~~ rimane ~~invariata~~ in qualsiasi fenomeno fisico
+
+possiamo definire [[densità di carica]] ed il [[campo elettrico]]
+```
