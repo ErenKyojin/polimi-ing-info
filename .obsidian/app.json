@@ -14,5 +14,6 @@
     "margin": "0",
     "downscalePercent": 75
   },
-  "spellcheck": false
+  "spellcheck": false,
+  "defaultViewMode": "preview"
 }

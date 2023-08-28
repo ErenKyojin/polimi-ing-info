@@ -4,8 +4,12 @@ creation date: 2023-03-16 13:46
 modification date: 2023-03-16 13:46
 ---
 
-Oggetto fisico con piccole dimensioni rispetto ale lunghezze considerate e con struttura interna irrilevante nel fenomento
+# Punto materiale nella cinematica
 
+> [!def]
+> Oggetto fisico con piccole dimensioni rispetto ale lunghezze considerate e con struttura interna irrilevante nel fenomento
+> 
+> 
 
 # Punto materiale nella [[dinamica]]
 

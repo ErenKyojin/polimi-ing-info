@@ -2,7 +2,7 @@
 >Quando possiamo individuare un [[insieme]] di enti tra i quali possiamo stabilire:
 >- una relazione d'ordine
 >- un'operazione di somma e differenza tra enti
->- un'operazione di prodottoscalare tra enti
+>- un'operazione di prodotto scalare tra enti
 >- un'operazione di prodotto tra un qualsiasi ente ed un qualsiasi numero reale
 >Allora questi enti formano una classe (o tipo) di grandezze fisiche
 
@@ -55,7 +55,7 @@ Questo sistema è detto MKS (dalle unità di misura), alternativamente si può u
 
 ## Derivate
 Altre grandezze sono definite per via indiretta attraverso [[Legge fisica|leggi]] che legano alcune grandezze fondamentali, vengono quindi **derivate** dalle altre grandezze. Nel sistema internazional sono derivate:
-la [[velocità]], l'[[accelerazione scalare istantanea]] misurate rispettivamente in $m / s$ e $m / s^2$ sono esempi di grandezze derivate. Ma anche la [[forza]] e il [[Fisica/Cinematica/lavoro]], misurate in newton ($\mathrm{M = kg\ m\ s^{-2}}$) ed in joule ($\mathrm{J = kg\ m^2\ s^{-2}}$).
+la [[velocità scalare istantanea]], l'[[accelerazione scalare istantanea]] misurate rispettivamente in $m / s$ e $m / s^2$ sono esempi di grandezze derivate. Ma anche la [[forza]] e il [[Fisica/Cinematica/lavoro]], misurate in newton ($\mathrm{M = kg\ m\ s^{-2}}$) ed in joule ($\mathrm{J = kg\ m^2\ s^{-2}}$).
 
 ## Supplementari
 Infine ci sono altre due grandezze annoverate tra le fondamentali nel SI. Sono le grandezze supplementari che non appartengonoalla fisica in quanto tale, sono le grandezzei di angolo piano e angolo solido, misurati rispettivamente in [[radianti]] ($\mathrm{rad}$) e [[steradianti]] ($\mathrm{sr}$).

@@ -1,5 +1,9 @@
 ---
-aliases: matrici
+id: "matrice"
+aliases:
+  - "Matrici"
+  - "Nomenclatura"
+tags: []
 ---
 >[!def]
 >Una matrice di tipo $(m,n)$ detta anche matrice $m \times n$ aa elementi in $\mathbb{K}$ è una tabella di elementi di $\mathbb{K}$ con $m$ righe e $n$ colonne
@@ -130,7 +134,7 @@ $$ =\begin{bmatrix}
 \end{bmatrix} $$
 
 >[!oss]
->Grazie a questoossiamo riscrivere un sistema lineare in forma matriciale. Dato il sistema lineare
+>Grazie a questo possiamo riscrivere un sistema lineare in forma matriciale. Dato il sistema lineare
 >$$ \begin{cases}
 >a_{11}x_{1} + a_{12}x_{2} + \dots + a_{1n}x_{n} = b_{1} \\
 >a_{21}x_{1} + a_{22}x_{2} + \dots + a_{2n}x_{n} = b_{2} \\
@@ -155,7 +159,112 @@ $$ =\begin{bmatrix}
 >b_{m}
 >\end{bmatrix} $$
 >
->Allora possiamo scrivere il sistema come $A \cdot \mathbf{x} = \mathbf{b}$
+>Allora possiamo scrivere il sistema come $A \cdot \mathbf{x} = \mathbf{b}$ dove con $\cdot$ si intende il prodotto righe per colonne
+
+### Proprietà del prodotto righe per colonne
+
+#### 1. Proprietà associativa
+date $A \in M_{(m,n)}(\mathbb{K}), B \in M_{(n,p)}(\mathbb{K}), C \in M_{(p,z)}(\mathbb{K})$ allora $$(A \cdot B) \cdot C = A \cdot (B \cdot C)$$
+
+#### 2. Proprietà distributiva
+date $A \in M_{(m,n)}(\mathbb{K}), B\ e\ C \in M_{(n,p)}(\mathbb{K})$ allora
+$$A \cdot ( B + C ) = A \cdot B + A \cdot C$$
+Se $D \in M_{(p,r)}(\mathbb{K})$
+$$ (B + C)\cdot D = B \cdot D + C \cdot D $$
+
+#### 3. Omogeneità
+$\forall t \in \mathbb{R}, \forall A \in M_{(m,n)}(\mathbb{K})$ e $\forall B \in M_{(n,p)}(\mathbb{\mathbb{K}})$ 
+$$ t \cdot (A \cdot B) = (t \cdot A) \cdot B $$
 
 
+>[!Oss] 4\. NON VALE LA PROPRIETÀ COMMUTATIVA
+> 1. Se $A \in M_{(m,n)}(\mathbb{K})$ e $B\in M_{n,r}(\mathbb{K})$ 
+> 	- $A \cdot B \in M_{(m,r)}(\mathbb{K})$ 
+> 	- $B\cdot A$ non è definita
+> 2. Se $A \in M_{(m,n)}(\mathbb{K})$ e $B \in M_{(n,m)}$
+> 	- $A \cdot B \in M_{(m,m)}(\mathbb{K})$
+> 	- $B \cdot A \in M_{(n,n)} (\mathbb{K})$
+> 3. Se $A, B \in M_{(n,n)}(\mathbb{K})$
+> 	- $A \cdot B \in M_{(n,n)}(\mathbb{K})$
+> 	- $B \cdot A \in M(n,n)(\mathbb{K})$
+> 	  
+> 	 Ma in generale la matrice risultante sarà diversa
 
+>[!oss] 5\. NON VALE LA LEGGE DI ANNULLAMENTO DEL PRODOTTO
+>
+>Quindi $A \cdot B = 0 \cancel{ \iff } A = 0 \lor B = 0$
+
+#### 6. Elemento neutro
+L'elemento neutro del prodotto riga per colonna è la [[matrice identità]], tuttavia:
+
+>[!Oss]
+>Data $A \in M_{(m,n)}(\mathbb{K})$ non esiste $A' \in M_{\mathbb{K}}(n,m)$ tale che $A \cdot A' = \mathbb{1}_{m}$
+
+La 4 e la 5 valgono nel caso di matrici $1\times1$, inoltre qualsiasi matrice $1\times 1$ diversa da $[ 0]$ è invertibile
+
+-----
+
+![[Trasposizione]]
+
+---
+
+### Nomenclatura 2
+#### Triangolare superiore
+Una matrice $A = [a_{ij}] \in M_{(n,n)}(\mathbb{K})$ si dice **triangolare superiore** se $a_{ij}=0\ \forall\ i > j$.
+
+Ad esempio $A = \begin{bmatrix}1 & 0 & 0 \\0 & 0 & -1\\0 & 0 & 2\end{bmatrix}$ è triangolare superiore.
+
+#### Triangolare inferiore
+Una matrice $A=[a_{ij}] \in M_{(n,n)}(\mathbb{K})$ si dice **triangolare inferiore** se $a_{ij} = 0\ \forall i < j$. 
+
+Ad esempio $A = \begin{bmatrix}1 & 0 & 0 \\1 & 1 & 0\\1 & 0 & 2\end{bmatrix}$ è triangolare inferiore
+
+#### Diagonale
+Una matrice $A \in M_{(n,n)}(\mathbb{K})$ si dice **diagonale** se $a_{ij} = 0 \forall i \neq j$
+
+Ad esempio $A = \begin{bmatrix}1 & 0 & 0\\0 & \pi & 0 \\0 & 0 & 2\end{bmatrix}$ è diagonale
+
+#### Simmetrica
+Una matrice $A \in M_{(n,n)}(\mathbb{K})$ si dice **simmetrica** se $A^T = A$. 
+
+Ad esempio $A = \begin{bmatrix}1 & -1 & 2\\-1 & 3 & 0\\2 & 0 & 1\end{bmatrix}$ è una matrice simmetrica $3\times 3$
+
+#### Antisimmetrica
+Una matrice $A \in M_{\mathbb{K}}(n,n)$ si dice **antisimmetrica** se $A^T = -A$.
+
+Ad esempio $A = \begin{bmatrix}0 & -1 & 2\\1 & 0 & 0\\-2  & 0 & 0\end{bmatrix}$
+
+-----
+
+![[pivot]]
+
+>[!def]
+>Data una matrice $A = [a_{ij}] \in M_{\mathbb{K}}(m,n)$, siano $A_{1},A_{2},\dots,A_{m}$ le sue righe. Si dice che $A$ è **a scala** se:
+>1. se due righe $A_{i}$ e $A_{i+1}$ sono non nulle, il pivot di $A_{i+1}$ è a destra del pivot di $A_{i}$ 
+>2. Se $A_{i} = 0$ anche $A_{i + 1} = 0$ 
+
+>[!Oss]
+>$A \in M_{(n,n)}(\mathbb{K})$ a scala $\implies$ $A$ è triangolare superiore, non vale però il viceversa.
+
+Partendo da una matrice a scala è possibile risolvere il sistema "all'indietro", partendo dal fondo della matrice otteniamo il valore dell'ultima variabile, che possiamo usare per ottenere il valore della penultima e così via.
+
+>[!esempio]
+>$$ \begin{cases}
+>x_{1} + x_{2} + x_{3} = 3 \\
+>x_{2} - x_{3} = 1 \\
+>2x_{3} = 4
+>\end{cases} \text{ la matrice completa } \begin{bmatrix}
+>1 & 1 & 1 & 3 \\
+0 & 2 & -1 & -1 \\
+0 & 0 & 2 & 4
+\end{bmatrix}$$
+>È una matrice a scala. A questo punto osserviamo che, partendo dal basso:
+> $$ \begin{cases}
+>x_{3} = 2 \\
+>x_{2} = -1 + x_{3} = -1 + 2 = 1 \\
+>x_{1} = 3 - x_{2} - x_{3} = 3 - 1 - 2 = 0 
+>\end{cases} $$
+
+Anche quando il sistema ha $\infty$ soluzioni si può usare questo metodo, risolvendo ovviamente tenendosi una (o più dipendentemente dal sistema) variabili dall'ultima equazione come parametro.
+
+Ovviamente se ci fosse un modo per ridurre ogni matrice ad una matrice a scala potremmo risolvere qualsiasi matrice, a questo proposito si sfrutta il [[Metodo di eliminazione di Gauss]] 

@@ -1,7 +1,8 @@
 ---
-aliases: 
-creation date: 2023-07-07 09:14
-modification date: 2023-07-07 09:14
+id: "+Programma GAL"
+aliases:
+  - "Capitolo 1 - *Vettori geometrici, prima parte*"
+tags: []
 ---
 Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argomenti chiave e gli argomenti minori relativi indicati
 
@@ -26,4 +27,14 @@ Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argo
 ## Capitolo 2 - *Sistemi lineari*
 - [ ] [[equazione lineare]]
 - [ ] [[Sistemi lineari]] 
-- [ ] [[matrice]]  
+- [ ] [[Matrice]]  
+	- [ ] Operazioni tra matrici
+		- [ ] Somma
+		- [ ] Prodotto per scalare
+		- [ ] Prodotto righe per colonne
+		- [ ] Nomenclatura
+	- [ ] [[Metodo di eliminazione di Gauss]]
+	- [ ] [[Rango]]
+- [ ] Sistemi lineari di n-equazioni in $n$ incognite
+	- [ ] teorema di Cramer
+	- [ ] [[sistema omogeneo associato]] 

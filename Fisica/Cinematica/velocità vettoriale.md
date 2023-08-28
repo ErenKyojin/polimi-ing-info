@@ -27,7 +27,7 @@ $$
 >[!oss] Scomposizione della velocità vettoriale istantanea in componenti cartesiane
 >Dall'espressione del vettore posizione in componenti cartesiani ricaviamo immediatamente
 > $$
-> \overrightarrow{v} = \frac{dx}{dt}  \hat{u}_{x} + \frac{dy}{dt} \hat{u}_{y} + \frac{dz}{dt} \hat{u}_{z} = v_{x}\hat{u}_{x} + v_{y}\hat{u}y + v_{z}\hat{u}_{z}
+> \overrightarrow{v} = \frac{dx}{dt}  \hat{u}_{x} + \frac{dy}{dt} \hat{u}_{y} + \frac{dz}{dt} \hat{u}_{z} = v_{x}\hat{u}_{x} + v_{y}\hat{u}_{y} + v_{z}\hat{u}_{z}
 >$$
 
 >[!oss] Proprietà di tangenza della velocità vettoriale istantanea alla traiettroia del [[moto]]

@@ -12,5 +12,8 @@
   "obsidian-flexible-pomo",
   "obsidian-tts",
   "obsidian-pandoc",
-  "omnisearch"
+  "omnisearch",
+  "terminal",
+  "obsidian-advanced-uri",
+  "obsidian-vimrc-support"
 ]

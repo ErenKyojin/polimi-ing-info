@@ -1,7 +1,9 @@
 ---
-aliases: Relazioni d'ordine
-creation date: 2023-04-28 14:27
-modification date: 2023-04-28 14:27
+id: "relazione d'ordine"
+aliases: []
+tags: []
+creation date: 1682663220
+modification date: 1682663220
 ---
 
 > [!def]

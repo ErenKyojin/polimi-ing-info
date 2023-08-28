@@ -16,8 +16,13 @@
 
 .callout[data-callout="dim"] {
     --callout-color: 255, 91, 0;
+    background: linear-gradient(#ff5b0000, #ff5b0050);
     --callout-icon: lucide-brush;
+    transition: background 2s;
+}
 
+.callout[data-callout="dim"]:hover {
+    background: #ff5b0050;
 }
 
 .callout[data-callout="bed"]{

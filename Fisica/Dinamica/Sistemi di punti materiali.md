@@ -54,7 +54,7 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 >> $$ F_{z}^{(E)} = 0 \implies p_{z} = \cost $$
 
 >[!oss]
->Notiamo infine che, in base al teorema dell'impulso, la quantità di moto di un sistema di punti materiali si conserva in un intervallo di tempo infinitesimo anche in presenza di una risultante delle forze esterne non nulla purchè tale risultante sia non impulsiva. Vedremo che tale circostanza assumerà un ruolo chiave nello tudio degli urti tra punti materiali.
+>Notiamo infine che, in base al teorema dell'impulso, la quantità di moto di un sistema di punti materiali si conserva in un intervallo di tempo infinitesimo anche in presenza di una risultante delle forze esterne non nulla purchè tale risultante sia non impulsiva. Vedremo che tale circostanza assumerà un ruolo chiave nello tudio degli [[urti]] tra punti materiali.
 
 ## Centro di massa e teorema del centro di massa
 ![[centro di massa]]
