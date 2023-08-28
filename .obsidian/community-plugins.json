@@ -13,7 +13,5 @@
   "obsidian-tts",
   "obsidian-pandoc",
   "omnisearch",
-  "terminal",
-  "obsidian-advanced-uri",
-  "obsidian-vimrc-support"
+  "obsidian-to-anki-plugin"
 ]
