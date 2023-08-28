@@ -6,10 +6,7 @@
   "autoPairMarkdown": false,
   "attachmentFolderPath": "Settings/Allegati",
   "showLineNumber": true,
-  "spellcheckLanguages": [
-    "en-US",
-    "it"
-  ],
+  "spellcheckLanguages": null,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
