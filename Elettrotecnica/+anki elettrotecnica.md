@@ -25,5 +25,5 @@ possiamo definire [[densità di carica]] ed il [[campo elettrico]]
 ```anki
 deck: elettrotecnica
 ---
-Il campo è una grandezza fisica
+# campo
 ```
