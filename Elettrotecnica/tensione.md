@@ -144,9 +144,21 @@ Possiamo quindi enunciare la [[Legge di Kirchhoff per le tensioni]]
 ```anki
 deck: elettrotecnica
 ---
-
+Tensione introduzione
+===
+Una carica in un campo elettrico subisce una forza che fa muovere la carica lungo le linee di forza del campo stesso. Il campo esercita quindi un lavoro, se invece voglio muovere una carica da un punto A ad un punto B su un percorso che non sia diretto come le linee di forza sarà necessario che io compia un lavoro.
+Dividendo questo percorso in tanti tratti quasi rettilinei $d\bar{l}_k$ il lavoro che dobbiamo compiere per ogni singolo tratto è $d \mathcal{L}_1 = -q\bar{E}_1 dl_1 \cos \alpha_1$, ed il lavoro totale sarà approssimativamente
+$$ \mathcal{L}_{AB}^{\gamma_1} \approx -q \sum_{k=1}^N E_kdl_k \cos \alpha_k $$
+che portandolo al limite ci porta all'integrale
+$$ \mathcal{L}_{AB}^{\gamma_1} = -q \int_{\gamma_1} \bar{E} \cdot d\bar{l} $$
 ```
-
+```anki
+deck: elettrotecnica
+---
+Tensione definizione
+===
+La tensione è il ~~lavoro~~, normalizzato rispetto alla ~~carica~~, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea
+```
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
 
