@@ -103,9 +103,18 @@ Conoscendo approfonditamente il campo elettrico, iniziamo ad approfondire la [[t
 E quindi introdurre la [[corrente|corrente elettrica]]
 
 ```anki
+id: 1693236040343
 deck: elettrotecnica
 ---
 # Campo elettrico
 ===
-Data una carica di prova $q$, se subisce una forza $\vec{F}$ proporzionale
+Data una carica di prova $q$, se subisce una forza $\vec{F}$ proporzionale a se stessa, allora affermiamo che in quella regione dello spazio vi è un campo elettrico $\bar{E} = \frac{\vec{F}}{q}$.
+
+Un campo elettrico è (quasi)stazionario se la sua derivata parziale rispetto al tempo è (quasi) 0.
+
+È possibile generare un campo elettrico attraverso la [[legge di Coulomb]]
+
+L'intensità del campo è inversamente proporzionale alla distanza della carica che ne da origine.
+
+Il campo elettrico è additivo su $N$ cariche
 ```
