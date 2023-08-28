@@ -162,15 +162,23 @@ Tensione definizione
 ===
 La tensione è il lavoro, normalizzato rispetto alla carica, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea e si misura in volt $[V] = JC^{-1}$
 ```
-
 ```anki
-deck: elettrotecnica 
+id: 1693239867337
+deck: elettrotecnica
 ---
 Potenziale elettrico
 ===
-Se prendo un altro percorso da $A$ a $B$ e lo chiamo $\gamma_2$ in generale avremo $\mathcal{L}_{AB}^{\gamma_2} \neq \mathcal{L}_{AB}^{\gamma_1}$
+Prendendo percorsi diversi tra due punti, il lavoro per portare una carica tra essi generalmente dipende dal percorso. È utile però studiare le situazioni in cui il lavoro per portare una carica tra due punti non dipende dal percorso, ossia quando abbiamo un campo conservativo e possiamo definire un energia potenziale dipendente solo dal punto P dello spazio definito in cui è presente il campo.
+Il lavoro per muovere una carica da $A$ a $B$ lungo un percorso qualunque sarà
+$$ \mathcal{L}_{AB}^{\gamma_1} = \mathcal{L}_{AB}^{\gamma_2} = W(B) - W(A) $$.
+
+>[!def]
+>Normalizzando $W$ rispetto alla carica $q$ si definisce la funzione $V(P) = W(P)/q$ detta potenziale elettrico, possiamo poi definire la differenza di potenziale tra due punti A e B come $$V_{BA} = V_B - V_A$$
+>che ci fornisce il lavoro normalizzato alla carica a prescindere dal percorso
+
 ```
-<% tp.file.cursor(3) %>
+
+
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$
 
