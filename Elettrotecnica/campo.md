@@ -40,3 +40,10 @@ Un campo può essere **scalare** se descritto da una funzione [[scalare]] $f(x,y
 
 $\tilde{A}$ è rappresentato da una terna cartesiana sinistrorsa identificata dai versori $\hat{\imath},\hat{\jmath},\hat{k}$ che indicano la direzione ed il verso degli assi $x,y$ e $z$ rispettivamente. Il vettore $\tilde{A}$ può essere espresso in funzione delle sue proiezioni sugli assi coordinati scrivendo $\tilde{A} = A_{x}\hat{\imath} + A_{y}\hat{\jmath} + A_{z}\hat{k}$. Il suo modulo, grandezza scalare che ne esprime l'intensità è $A = |\tilde{A}| = \sqrt{ A_{x}^2 + A_{y}^2 + A_{z}^2 }$.
 Una linea di campo di un campo vettoriale, anche detta linea di forza nel caso di un campo di forze, è una curva ideale che ha come tangente in ogni punto la direzione del vettore del campo stesso. Per ogni punto passa una sola linea di campo che è quindi univocamente definita
+
+```anki
+id: 1693233732042
+deck: elettrotecnica
+---
+===
+```
