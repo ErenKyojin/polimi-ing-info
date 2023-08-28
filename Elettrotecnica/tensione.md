@@ -141,6 +141,11 @@ Possiamo quindi enunciare la [[Legge di Kirchhoff per le tensioni]]
 - Disparità: $V_{AB}^{\gamma} = -V_{BA}^{\gamma}$
 - Additiva: $\gamma_{1}$ da $A$ a $B$, $\gamma_{2}$ da $B$ a $C$. La loro unione è $\gamma = \gamma_{1} \cup \gamma_{2}$ da $A$ a $C$
 
+```anki
+deck: elettrotecnica
+---
+
+```
 
 # Tensioni #trifase bilanciate
 Per definizione tre tensioni sinusoidali, alla stessa pulsazione $\omega$, con lo stesso [[valore efficace]], sfasate tra di loro di 120° o di $\frac{2}{3}\pi \text{ rad}$

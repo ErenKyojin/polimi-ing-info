@@ -9,7 +9,7 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 ## Capitolo 1 - *campo elettrico*
  - [x] [[carica|carica elettrica]]
  - [x] [[Elettrotecnica/campo|campo]] e [[campo elettrico]]
-	 - [ ] [[forza elettrostatica|legge di Coulomb]]
+	 - [x] [[forza elettrostatica|legge di Coulomb]]
 - [ ] [[tensione|differenza di potenziale]] (o tensione)
 	- [ ] [[campi di forze conservative|campo conservativo]]
 	- [ ] [[Energia potenziale]]
