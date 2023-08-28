@@ -7,6 +7,7 @@ modification date: 2023-07-07 09:14
 ```anki
 id: 1693220520442
 deck: elettrotecnica
+cloze: true
 ---
 # carica elettrica
 ===
@@ -23,6 +24,7 @@ Vale il principio di conservazione della carica:
 possiamo definire [[densità di carica]] ed il [[campo elettrico]]
 ```
 ```anki
+id: 1693231240115
 deck: elettrotecnica
 ---
 # campo
