@@ -45,5 +45,7 @@ Una linea di campo di un campo vettoriale, anche detta linea di forza nel caso d
 id: 1693233732042
 deck: elettrotecnica
 ---
+il campo è una ~~grandezza fisica~~, qualunque, funzione dello spazio ed, eventualmente, del tempo 
 ===
+È detto scalare se descritto da una funzione scalare $f(x,y,z,t)$ dello spazio, o vettoriale se descritto da una funzione vettoriale $\bar{A}(x,y,z,t)$ dello spazio.
 ```
