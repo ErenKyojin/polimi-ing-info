@@ -52,7 +52,8 @@ Sono due enunciati equivalenti.
 
 
 ```anki
-deck: elettrotecnica 
+id: 1693241407793
+deck: elettrotecnica
 ---
 # KVL nel campo elettrico
 Lungo una qualunque ~~linea chiusa~~ la somma algebrica ~~delle tensioni~~ prese con segno opportuno in base al verso di percorrenza della linea è ~~nulla~~
@@ -61,7 +62,8 @@ Lungo una qualunque ~~linea chiusa~~ la somma algebrica ~~delle tensioni~~ prese
 
 
 ```anki
-deck: elettrotecnica 
+id: 1693241407843
+deck: elettrotecnica
 ---
 #### Nella teoria dei circuiti, KVL - II
 	Dato un circuito operante ~~in regime~~, con $n$ nodi e con il ~~grafo connesso~~, preso un percorso chiuso passante per $m$ nodi del grafo, la ~~somma algebrica~~ delle tensioni è ~~nulla~~

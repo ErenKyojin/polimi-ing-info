@@ -13,7 +13,7 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 - [x] [[tensione|differenza di potenziale]] (o tensione)
 	- [x] [[campi di forze conservative|campo conservativo]]
 	- [x] [[Energia potenziale]]
-	- [ ] [[Legge di Kirchhoff per le tensioni]]
+	- [x] [[Legge di Kirchhoff per le tensioni]]
 	- [ ] [[flusso di un campo vettoriale]]
 	- [ ] [[legge di Gauss]]
 	- [ ] [[dielettrici]]
