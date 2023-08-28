@@ -52,3 +52,14 @@ Indichiamo con $\sigma$ una superficie orientata e con $-\sigma$ la stessa super
 La misura di corrente lungo $-\sigma$ si ottiene invertendo l'inserimento dei morsetti dell'amperometro
 - disparità: $I^{-\sigma} = -I^{\sigma}$
 - additività: siano $\sigma_{1}, \sigma_{2}$ e $\sigma_{3}$ tre superfici orientate come in figura cioè con $\sigma_{2}$ orientata in modo discorde alle prime due e sia $\sigma=\sigma_{1} \cup (-\sigma_{2}) \cup \sigma_{3}$. Si sono eseguite le relative misure di corrente $i_{1},i_{2},i_{3}$. 
+
+# ANKI
+
+```anki
+deck: elettrotecnica 
+---
+<% tp.file.cursor(1) %>
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
