@@ -1,8 +1,7 @@
 {
-  "accentColor": "",
-  "cssTheme": "",
+  "accentColor": "#fec44e",
+  "cssTheme": "Obsidianite",
   "enabledCssSnippets": [
-    "titles",
     "lists",
     "centerImg",
     "MCL Multi Column",

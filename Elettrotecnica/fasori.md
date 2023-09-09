@@ -1,3 +1,6 @@
+---
+
+---
 # i fasori
 tornando alla funzione $x(t) = X_m\cos(\omega t + \varphi)$ che si può riscrivere come $$x(t) = X_m\cos(\omega(t+\frac{\varphi}{\omega}))$$
 osserviamo come $\varphi$ anticipa o ritarda la funzione in base al proprio valore di una frazione di periodo $\frac{T}{x}$

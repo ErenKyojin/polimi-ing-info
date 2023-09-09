@@ -7,18 +7,18 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 
 
 ## Capitolo 1 - *campo elettrico*
- - [ ] [[carica|carica elettrica]]
- - [ ] [[Elettrotecnica/campo|campo]] e [[campo elettrico]]
-	 - [ ] [[forza elettrostatica|legge di Coulomb]]
-- [ ] [[tensione|differenza di potenziale]] (o tensione)
-	- [ ] [[campi di forze conservative|campo conservativo]]
-	- [ ] [[Energia potenziale]]
-	- [ ] [[Legge di Kirchhoff per le tensioni]]
-	- [ ] [[flusso di un campo vettoriale]]
-	- [ ] [[legge di Gauss]]
-	- [ ] [[dielettrici]]
+ - [x] [[carica|carica elettrica]]
+ - [x] [[Elettrotecnica/campo|campo]] e [[campo elettrico]]
+	 - [x] [[forza elettrostatica|legge di Coulomb]]
+- [x] [[tensione|differenza di potenziale]] (o tensione)
+	- [x] [[campi di forze conservative|campo conservativo]]
+	- [x] [[Energia potenziale]]
+	- [x] [[Legge di Kirchhoff per le tensioni]]
+	- [x] [[flusso di un campo vettoriale]]
+	- [x] [[legge di Gauss]]
+	- [x] [[dielettrici]]
 	- [ ] [[voltmetro]]
-- [ ] [[corrente|corrente elettrica]] 
+- [x] [[corrente|corrente elettrica]] 
 	- [ ] [[principio di conservazione della carica]]
 	- [ ] [[conduttori]]
 	- [ ] [[amperometro]]

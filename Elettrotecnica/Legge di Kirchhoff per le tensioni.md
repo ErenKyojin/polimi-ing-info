@@ -4,7 +4,7 @@ creation date: 2023-05-31 15:09
 modification date: 2023-05-31 15:09
 ---
 
-# Nel campo magnetico
+# Nel campo elettrico
 La legge di Kirchhoff per le tensioni (KVL) afferma, in regime quasi stazionario, che:
 
 >[!legge]
@@ -49,3 +49,23 @@ Dove le tensioni hanno tutte segno positivo in quanto orientate come il percorso
 >Con somma algebrica delle tensioni intendiamo che consideriamo le tensioni positive se vanno nel verso di percorrenza, e negative se vanno nel verso opposto.
 
 Sono due enunciati equivalenti.
+
+
+```anki
+id: 1693241407793
+deck: elettrotecnica
+---
+# KVL nel campo elettrico
+Lungo una qualunque ~~linea chiusa~~ la somma algebrica ~~delle tensioni~~ prese con segno opportuno in base al verso di percorrenza della linea è ~~nulla~~
+
+```
+
+
+```anki
+id: 1693241407843
+deck: elettrotecnica
+---
+#### Nella teoria dei circuiti, KVL - II
+	Dato un circuito operante ~~in regime~~, con $n$ nodi e con il ~~grafo connesso~~, preso un percorso chiuso passante per $m$ nodi del grafo, la ~~somma algebrica~~ delle tensioni è ~~nulla~~
+
+```

@@ -12,3 +12,23 @@ dove $\chi_{e}$ è la **suscettibilità elettrica** del materiale e tipicamente 
 
 >[!def]
 >La carica per unità di superficie di un pezzo di materiale polarizzato, è uguale alla componente di polarizzazione $\mathcal{\bar{P}}$ nella direzione normale alla superficie di un corpo
+
+
+
+```anki
+id: 1693244616243
+deck: elettrotecnica
+---
+#### Dielettrico e polarizzazione
+in un dielettrico le cariche ~~non sono libere~~ di muoversi normalmente, ma se il materiale viene sottoposto ad un campo elettrico le molecole ~~si polarizzano~~, sbilanciando la distribuzione delle ~~cariche~~ sulle facce del materiale.
+
+La ~~carica totale~~ rimane nulla, anche dividendo il materiale le sottoparti saranno tutte globalmente neutre.
+
+La ~~polarizzazione~~ $\mathcal{\bar{P}}$ di un dielettrico è definita come il ~~momento di dipolo~~ del mezzo per unità di ~~volume~~
+
+>[!def]
+>la ~~carica~~ per unità di ~~superficie~~ di un pezzo di ~~materiale polarizzato~~ è uguale alla ~~componente di polarizzazione~~ $\mathcal{\bar{P}}$ nella direzione ~~normale~~ alla superficie di un corpo
+	
+
+```
+ 

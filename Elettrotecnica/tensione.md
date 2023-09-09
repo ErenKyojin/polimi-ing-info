@@ -131,7 +131,7 @@ Possiamo quindi enunciare la [[Legge di Kirchhoff per le tensioni]]
 
 >[!tldr]
 >La tensione elettrica è una grandezza fisica associata ad una linea $\gamma$ orientata nello spazio, su cui fissiamo un verso di percorrenza che congiunge i due punti $A$ e $B$.
->Chiamiamo tensione elettrica lungo la linea $\gamma$ e la indichiamo come $V_{BA}^\gamma$ il lavoro elettrico che dobbiamo compiere in antagonismo alle forze elettriche per muovere lungo tale linea una carica di prova positiva e unitaria.
+>Chiamiamo tensione elettrica lungo la linea $\gamma$ e la indichiamo come $V_{BA}^\gamma$ il lavoro elettrico che dobbiamo compiere in antagonismo alle forze elettriche per muovere lungo tale linea una [[carica di prova]] positiva e unitaria.
 >
 >L'unità di misura $[V]$ è Volt (per Alessandro Volta). Chiaramente il lavoro da noi svolto sarà positivo se il movimento della carica di prova avviene effettivamente in opposizione alle forze elettriche che agiscono su di essa oppure sarà negativo se il movimento avviene concordemente alle forze elettriche. Si dice quindi che la tensione elettrica è dotata di segno.
 >
@@ -140,6 +140,54 @@ Possiamo quindi enunciare la [[Legge di Kirchhoff per le tensioni]]
 ## Proprietà
 - Disparità: $V_{AB}^{\gamma} = -V_{BA}^{\gamma}$
 - Additiva: $\gamma_{1}$ da $A$ a $B$, $\gamma_{2}$ da $B$ a $C$. La loro unione è $\gamma = \gamma_{1} \cup \gamma_{2}$ da $A$ a $C$
+
+
+# Tensione - Anki
+```anki
+id: 1693237774342
+deck: elettrotecnica
+---
+Tensione introduzione
+===
+Una carica in un campo elettrico subisce una forza che fa muovere la carica lungo le linee di forza del campo stesso. Il campo esercita quindi un lavoro, se invece voglio muovere una carica da un punto A ad un punto B su un percorso che non sia diretto come le linee di forza sarà necessario che io compia un lavoro.
+Dividendo questo percorso in tanti tratti quasi rettilinei $d\bar{l}_k$ il lavoro che dobbiamo compiere per ogni singolo tratto è $d \mathcal{L}_1 = -q\bar{E}_1 dl_1 \cos \alpha_1$, ed il lavoro totale sarà approssimativamente
+$$ \mathcal{L}_{AB}^{\gamma_1} \approx -q \sum_{k=1}^N E_kdl_k \cos \alpha_k $$
+che portandolo al limite ci porta all'integrale
+$$ \mathcal{L}_{AB}^{\gamma_1} = -q \int_{\gamma_1} \bar{E} \cdot d\bar{l} $$
+```
+```anki
+id: 1693237774438
+deck: elettrotecnica
+cloze: true
+---
+Tensione definizione
+===
+La tensione è il lavoro, normalizzato rispetto alla carica, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea e si misura in volt $[V] = JC^{-1}$
+```
+```anki
+id: 1693239867337
+deck: elettrotecnica
+---
+Potenziale elettrico
+===
+Prendendo percorsi diversi tra due punti, il lavoro per portare una carica tra essi generalmente dipende dal percorso. È utile però studiare le situazioni in cui il lavoro per portare una carica tra due punti non dipende dal percorso, ossia quando abbiamo un campo conservativo e possiamo definire un energia potenziale dipendente solo dal punto P dello spazio definito in cui è presente il campo.
+Il lavoro per muovere una carica da $A$ a $B$ lungo un percorso qualunque sarà
+$$ \mathcal{L}_{AB}^{\gamma_1} = \mathcal{L}_{AB}^{\gamma_2} = W(B) - W(A) $$.
+
+>[!def]
+>Normalizzando $W$ rispetto alla carica $q$ si definisce la funzione $V(P) = W(P)/q$ detta potenziale elettrico, possiamo poi definire la differenza di potenziale tra due punti A e B come $$V_{BA} = V_B - V_A$$
+>che ci fornisce il lavoro normalizzato alla carica a prescindere dal percorso
+
+```
+```anki
+id: 1693240630917
+deck: elettrotecnica
+---
+Qualsiasi energia potenziale, quindi anche il ~~potenziale elettrico~~, è una grandezza definita a meno di una ~~costante additiva~~, che possiamo sempre porre uguale a ~~zero~~
+===
+
+```
+
 
 
 # Tensioni #trifase bilanciate

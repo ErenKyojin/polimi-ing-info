@@ -11,9 +11,9 @@
   "obsidian-git",
   "obsidian-flexible-pomo",
   "obsidian-tts",
-  "obsidian-pandoc",
   "omnisearch",
-  "terminal",
-  "obsidian-advanced-uri",
-  "obsidian-vimrc-support"
+  "obsidian-pandoc",
+  "obsidian-vimrc-support",
+  "time-block-planner",
+  "obsidian-ankibridge"
 ]

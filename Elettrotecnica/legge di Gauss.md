@@ -14,3 +14,13 @@ essendo $\hat{r} \cdot \hat{u}_{N} = 1$, poiché il raggio della sfera è orient
 $$ \Phi_{S} (\bar{E}) = \frac{\sum_{k}q_{k}}{\varepsilon_{0}} $$
 Si noti che la carica netta $\sum_{k} q_{k}$ all'interno di $S$ potrebbe essere nulla qualora fosse nullo il bilancio tra le cariche positive e quelle negative
 
+# ANKI
+
+```anki
+id: 1693243347993
+deck: elettrotecnica
+---
+Data una ~~superficie chiusa~~ $S$, il flusso del campo elettrico $\bar{E}$ attraverso di essa è proporzionale alla ~~carica elettrica~~ netta contenuta al suo interno
+$$ \Phi_S(\bar{E}) = \frac{\sum_k q_k}{\varepsilon_0} $$
+
+```
