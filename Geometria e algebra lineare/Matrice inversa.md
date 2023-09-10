@@ -90,3 +90,17 @@ Attraverso l'algoritmo di Gauss-Jordan otteniamo la matrice $[\mathbb{1}_{n}|C]$
 
 
 # ANKI
+
+```anki
+id: 1694339997004
+---
+Unicità della matrice inversa (Proposizione)
+===
+1. $B$ e $C$ sono rispettivamente inversa destra e sinistra di $A$ allora $B = C$
+2. Se $A$ è invertibile allora $A$ ammette un'unica matrice inversa che si denota con $A^{-1}$
+
+>[!dim]
+>1. $B=B \cdot \mathbb{I}_n = B \cdot (A \cdot C) = (B \cdot A) \cdot C = \mathbb{I}_n \cdot C = C$
+>2. Se $A'$ e $A''$ sono inverse di $A$ allora in particolare è vero che $A'$ è inversa sinistra e $A''$ è inversa destra quindi per il punto uno $A' = A''$
+```
+
