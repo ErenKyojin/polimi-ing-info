@@ -19,6 +19,8 @@
 >>[!dim]
 >>##### $1 \implies 2 \implies 3 \implies 1$
 >>###### $1 \implies 2$
+>>$$ \lvert \lvert U \cdot \mathbf{x} \rvert  \rvert ^2 = \left< U \cdot \mathbf{x}, U \cdot \mathbf{x} \right> = (U \mathbf{x})^T \cdot U \mathbf{x} = \mathbf{x}^T \cdot U^T \cdot U \cdot \mathbf{x} = \mathbf{x}^T \frac{x.}{ = \left< \mathbf{x},\mathbf{x} \right> }$$
+>>##### $2 \implies 3$ usiamo la formula di polarizzazione:
 >>
 >
 >>[!corollario]
