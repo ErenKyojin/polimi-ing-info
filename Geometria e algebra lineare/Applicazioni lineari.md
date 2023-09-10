@@ -216,6 +216,7 @@ La fibra di $\mathcal{L}$ sopra $\mathbf{w}$ è $\mathcal{L}^{-1}(\mathbf{w}) = 
 ## criterio di invertibilità
 Una funzione è invertibile se e solo se è iniettiva e suriettiva
 
+>[!proposizione]
 
 # Isomorfismi
 Un'applicazione lineare invertibile  $\mathcal{L} : V \to W$ è detta isomorfismo. Diremo che $V$ e $W$ sono isomorfi se esiste un isomorfismo $\mathcal{L} : V \to W$
