@@ -11,9 +11,10 @@ otteniamo $A = A^T$
 > Gli endomorfismi simmetrici vengono anche chiamati operatori autoaggiunti
 
 >[!proposizione]
->Sia $V$ uno spazio euclideo di dimensione finita e sia $\mathcal{B}$ una base ortonormale. Un endomorfismo $\mathcal{L} : V \to V$ è simmetrico se e solo se $M_{\mathcal{B}}^\mathcal{B}(\mathcal{L})$ è simmetrica
+>Sia $(V, \langle, \rangle)$ uno spazio euclideo di dimensione finita e sia $\mathcal{B}$ una base ortonormale. Un endomorfismo $\mathcal{L} : V \to V$ è simmetrico se e solo se $M_{\mathcal{B}}^\mathcal{B}(\mathcal{L})$ è simmetrica
 >
 >>[!dim]
+>>Sia $\mathcal{B} = \{ \mathbf{q}_{1},\dots,\mathbf{q}_{n} \}$ una base ortonormale di $V$. Siano $\mathbf{u},\mathbf{w} \in V$ e $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$
 
 
 
