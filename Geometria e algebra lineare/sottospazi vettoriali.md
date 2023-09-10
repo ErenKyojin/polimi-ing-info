@@ -106,7 +106,14 @@ $$ \begin{align}
 >>$$ t_{1}\mathbf{v}_{1} + \dots + t_{r}\mathbf{v}_{r} + \alpha_{1} \mathbf{h}_{1} + \dots + \alpha_{t-r} \mathbf{h}_{t-r} + \beta_{1} \mathbf{k}_{1} + \dots + \beta_{s-r}\mathbf{k}_{s-r} = \mathbf{0} $$
 >>Si ha che:
 >>$$ t_{1}\mathbf{v}_{1} + \dots + t_{r}\mathbf{v}_{r} + \alpha_{1}\mathbf{h}_{1} + \dots + \alpha_{t-r}\mathbf{h}_{t-r}  = -(\beta_{1}\mathbf{k}_{1} + \dots + \beta_{s-r} \mathbf{k}_{s-r} ) = -\mathbf{w}$$
->>Il vettore $$
+>>Il vettore $\mathbf{w} \in K \cap H$. Dunque esistono $t_{1}',\dots,t_{r}' \in \mathbb{K} : \mathbf{w} = t_{1}',\mathbf{v}_{1} + \dots + t'_{r}v_{r}$
+>>Si ha che:
+>>$$ \begin{cases}
+>> t_{1}\mathbf{v}_{1} + \dots + t_{r}\mathbf{v}_{r} + \alpha_{1}\mathbf{h}_{1} + \dots + \alpha_{t-r}\mathbf{h}_{t-r} = t_{1}'\mathbf{v}_{1} + \dots + t'_{r}\mathbf{v}_{r} \\
+>>\beta_{1} \mathbf{k}_{1} + \dots + \beta_{s - r}\mathbf{k}_{s-r} = t_{1}'\mathbf{v}_{1} + \dots + t_{r}'\mathbf{v}_{r}
+>>\end{cases} $$
+>>Ma essendo $\{ \mathbf{v}_{1}, \dots, \mathbf{v}_{r}, \mathbf{h}_{1},\dots,\mathbf{h}_{t-r} \}$ e $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{k}_{1},\dots,\mathbf{k}_{s-r} \}$ linearmente indipendenti si ha che:
+>>$t_{1}'=\dots= t_{r}' = t_{1}=\dots=t_{r}=\alpha_{1} = \dots = \alpha_{t-r}$
 
 >[!esempio]
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e $\dim(V)=4$. Siano $H$ e $K$ sottospazi vettoriali di $V$ di dimensione irspettivamenter $3$ e $2$. Allora $\dim(U \cap V) \geq 1$, infatti:
