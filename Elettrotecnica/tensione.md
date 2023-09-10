@@ -144,7 +144,7 @@ Possiamo quindi enunciare la [[Legge di Kirchhoff per le tensioni]]
 
 # Tensione - Anki
 ```anki
-id: 1693237774342
+id: 1694352771004
 deck: elettrotecnica
 ---
 Tensione introduzione
@@ -156,7 +156,7 @@ che portandolo al limite ci porta all'integrale
 $$ \mathcal{L}_{AB}^{\gamma_1} = -q \int_{\gamma_1} \bar{E} \cdot d\bar{l} $$
 ```
 ```anki
-id: 1693237774438
+id: 1694352771202
 deck: elettrotecnica
 cloze: true
 ---
@@ -165,7 +165,7 @@ Tensione definizione
 La tensione è il lavoro, normalizzato rispetto alla carica, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea e si misura in volt $[V] = JC^{-1}$
 ```
 ```anki
-id: 1693239867337
+id: 1694352771503
 deck: elettrotecnica
 ---
 Potenziale elettrico
@@ -180,7 +180,7 @@ $$ \mathcal{L}_{AB}^{\gamma_1} = \mathcal{L}_{AB}^{\gamma_2} = W(B) - W(A) $$.
 
 ```
 ```anki
-id: 1693240630917
+id: 1694352773277
 deck: elettrotecnica
 ---
 Qualsiasi energia potenziale, quindi anche il ~~potenziale elettrico~~, è una grandezza definita a meno di una ~~costante additiva~~, che possiamo sempre porre uguale a ~~zero~~

@@ -52,7 +52,7 @@ Sono due enunciati equivalenti.
 
 
 ```anki
-id: 1693241407793
+id: 1694352771477
 deck: elettrotecnica
 ---
 # KVL nel campo elettrico
@@ -62,7 +62,7 @@ Lungo una qualunque ~~linea chiusa~~ la somma algebrica ~~delle tensioni~~ prese
 
 
 ```anki
-id: 1693241407843
+id: 1694352773253
 deck: elettrotecnica
 ---
 #### Nella teoria dei circuiti, KVL - II

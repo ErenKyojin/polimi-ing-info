@@ -9,7 +9,7 @@ Presa la generica areola piana $\d S$, $\vartheta$ è l'angolo fra $\hat{u}_{N}$
 $$ \Phi_{S}(\bar{A}) = \int _{S} \!\bar{A}\cdot \, \mathrm{d}S\hat{u}_{N}  $$
 # ANKI
 ```anki
-id: 1693242593018
+id: 1694352771227
 deck: elettrotecnica
 ---
 #### Flusso di un campo vettoriale

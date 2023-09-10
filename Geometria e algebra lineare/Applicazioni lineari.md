@@ -392,3 +392,13 @@ Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 >2. $\mathcal{L}$ è suriettiva $\iff r(\mathcal{L}) = m$
 >3. $\mathcal{L}$ è isomorfismo $\iff r(\mathcal{L}) = n = m$
 
+
+```anki
+id: 1694352748080
+deck: GAL
+---
+Nucleo e immagine di una applicazione lineare sono sottospazi vettoriali (proposizione)
+===
+
+```
+<% tp.file.cursor(3) %>

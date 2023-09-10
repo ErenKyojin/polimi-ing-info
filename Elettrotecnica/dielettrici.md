@@ -16,7 +16,7 @@ dove $\chi_{e}$ è la **suscettibilità elettrica** del materiale e tipicamente 
 
 
 ```anki
-id: 1693244616243
+id: 1694352771328
 deck: elettrotecnica
 ---
 #### Dielettrico e polarizzazione

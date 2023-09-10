@@ -17,7 +17,7 @@ Data la definizione di [[Elettrotecnica/campo|campo]] possiamo quindi definire i
 
 
 ```anki
-id: 1693220520442
+id: 1694352771403
 deck: elettrotecnica
 cloze: true
 ---

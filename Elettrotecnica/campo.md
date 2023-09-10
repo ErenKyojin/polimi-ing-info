@@ -42,7 +42,7 @@ $\tilde{A}$ è rappresentato da una terna cartesiana sinistrorsa identificata da
 Una linea di campo di un campo vettoriale, anche detta linea di forza nel caso di un campo di forze, è una curva ideale che ha come tangente in ogni punto la direzione del vettore del campo stesso. Per ogni punto passa una sola linea di campo che è quindi univocamente definita
 
 ```anki
-id: 1693233732042
+id: 1694352771428
 deck: elettrotecnica
 ---
 il campo è una ~~grandezza fisica~~, qualunque, funzione dello spazio ed, eventualmente, del tempo 

@@ -17,7 +17,7 @@ Si noti che la carica netta $\sum_{k} q_{k}$ all'interno di $S$ potrebbe essere 
 # ANKI
 
 ```anki
-id: 1693243347993
+id: 1694352771128
 deck: elettrotecnica
 ---
 Data una ~~superficie chiusa~~ $S$, il flusso del campo elettrico $\bar{E}$ attraverso di essa è proporzionale alla ~~carica elettrica~~ netta contenuta al suo interno

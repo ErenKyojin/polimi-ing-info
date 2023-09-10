@@ -1,6 +1,6 @@
 
 ```anki
-id: 1694339997004
+deck: <% tp.file.cursor(0) %>
 ---
 <% tp.file.cursor(1) %>
 ===

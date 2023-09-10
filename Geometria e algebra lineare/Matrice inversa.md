@@ -92,7 +92,8 @@ Attraverso l'algoritmo di Gauss-Jordan otteniamo la matrice $[\mathbb{1}_{n}|C]$
 # ANKI
 
 ```anki
-id: 1694339997004
+id: 1694352841607
+deck: GAL
 ---
 Unicità della matrice inversa (Proposizione)
 ===
@@ -106,7 +107,8 @@ Unicità della matrice inversa (Proposizione)
 
 
 ```anki
-id: 1694339997004
+id: 1694352984253
+deck: GAL
 ---
 Condizioni necessarie e sufficienti per l'invertibilità di una matrice
 ===

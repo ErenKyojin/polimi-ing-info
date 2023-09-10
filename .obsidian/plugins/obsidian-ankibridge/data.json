@@ -1,7 +1,9 @@
 {
   "currentMigrationVersion": 1,
   "tagInAnki": "obsidian",
-  "foldersToIgnore": [],
+  "foldersToIgnore": [
+    "Resources/templates"
+  ],
   "periodicPingEnabled": false,
   "periodicPingInterval": 30,
   "fallbackDeck": "Default",

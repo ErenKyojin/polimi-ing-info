@@ -18,7 +18,7 @@ La [[forza]] elettrostatica a differenza di quella gravitazionale può essere at
 
 
 ```anki
-id: 1693236907492
+id: 1694352770278
 deck: elettrotecnica
 ---
 #### Legge di Coulomb

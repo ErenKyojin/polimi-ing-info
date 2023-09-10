@@ -5,7 +5,7 @@ quando si esaruisce il transitorio in un circuito dinamico, ossia si è in regim
 # ANKI
 
 ```anki
-id: 1693330392935
+id: 1694352771027
 deck: elettrotecnica
 ---
 #### Regime stazionario

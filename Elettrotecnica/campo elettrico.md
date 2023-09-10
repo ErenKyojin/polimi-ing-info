@@ -103,7 +103,7 @@ Conoscendo approfonditamente il campo elettrico, iniziamo ad approfondire la [[t
 E quindi introdurre la [[corrente|corrente elettrica]]
 
 ```anki
-id: 1693236040343
+id: 1694352771452
 deck: elettrotecnica
 ---
 # Campo elettrico
