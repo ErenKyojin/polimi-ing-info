@@ -120,6 +120,14 @@ Sia $A \in M_{(n,n)}(\mathbb{K})$, allora è equivalente affermare che
 >[!dim]
 >Mostriamo $4 \implies 1 \implies 2 \implies 3 \implies 4 \iff 5$
 >####  $\bullet\ 4 \implies 1$
->$A$ ha un inversa sinistra, allora $\exists A' : A' \cdot A = \mathbb{1}_n$. Se consideriamo il sistema lineare $A \cdot \mathbf{}
+>$A$ ha un inversa sinistra, allora $\exists A' : A' \cdot A = \mathbb{1}_n$. Se consideriamo il sistema lineare $A \cdot \mathbf{x} = \mathbf{0}$ allora abbiamo:
+>$$ A'(A \cdot \mathbf{x}) = A' \cdot \mathbf{0} = \mathbf{0} \implies (A'\cdot A)\mathbf{x} = 0 \implies \ker(A) = \mathbf{0}$$
+>
+>#### $\bullet\ 1 \implies 2$
+>Se $\ker(A) = 0 \implies$ il sistema lineare $A \cdot \mathbf{x} = \mathbf{0}$ ammette un unica soluzione. Quindi per il teorema di Rouchè Capelli $r(A) = n$
+>
+>#### $\bullet\ 2 \implies 3$
+>Dati $\mathbf{e}_i$ con $i = 1,...,n$ i vettori con 1 nella $i$-esima riga e zero in tutte le altre, per rouchè capelli
 ```
+
 <% tp.file.cursor(3) %>
