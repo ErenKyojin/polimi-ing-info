@@ -92,3 +92,39 @@ Diremo che l'intero positivo $m$ è la molteplicità algebrica di $\widetilde{\l
 > $$ 1 \leq g \leq m $$
 
 
+
+```anki
+deck: GAL
+---
+# Indipendenza lineare di autovettori
+Siano $\mathbf{v}_{1},\dots,\mathbf{v}_{r}$ autovettori di $A \in M_{\mathbb{K}}(n,n)$ relativi ad $r$ autovalori distinti:
+ $$ \lambda_{1},\dots,\lambda_{r} \implies \mathbf{v}_{1},\dots,\mathbf{v}_{r}$$ 
+ sono linearmente indipendenti
+===
+>[!dim]
+>Caso $r = 1$. Essendo $\mathbf{v}_{1}$ un autovettore allora $\mathbf{v}_{1} \neq \mathbf{0}$ e quindi $\mathbf{v}_{1}$ è linearmente indipendente. Caso $r = 2$, siano $\mathbf{v}_{1}$ e $\mathbf{v}_{2}$
+> autovettori relativi a $\lambda_{1}$ e $\lambda_{2}$. Supponiamo per assurdo che esista una loro combinazione lineare uguale al vettore $\mathbf{0} : r_{1}\mathbf{v}_{1} + r_{2}\mathbf{v}_{2} = \mathbf{0}$ over $r_{1} \neq 0$ e $r_{2}\neq0$ allora $\mathbf{v}_{1} = -\frac{r_{2}}{r_{1}}\mathbf{v}_{2}$
+> Applichiamo $A$ ad ambo i membri dell'equazione:
+>  $$ \begin{align}
+>A\mathbf{v}_{1} &= \lambda_{1}\mathbf{v}_{1} = -\lambda_{1}\left( \frac{r_{2}}{r_{1}} \right)\mathbf{v}_{1} \\
+>A\mathbf{v}_{1} &= A\left( -\frac{r_{2}}{r_{1}}\mathbf{v}_{2} \right) = -\lambda_{2}\left( \frac{r_{2}}{r_{1}} \right)\mathbf{v}_{2}
+>\end{align} $$
+>Sottraendo membro a membro otteniamo:
+> $$ \mathbf{0} = (\lambda_{1} - \lambda_{2}) \frac{r_{2}}{r_{1}} - \mathbf{v}_{2} \implies \frac{r_{2}}{r_{1}} = 0 $$
+> Che è un assurdo.
+> Supponiamo quindi di aver dimostrato la proposizione per $r \geq 2$, vogliamo dimostrarla per $r+1$ vettori. Siano $\mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{v}_{r+1}$ autovettori relativi a $\lambda_{1},\dots, \lambda_{r}, \lambda_{r} + 1$ autovalori distinti. Supponiamo per assurdo che siano linearmente dipendenti. A meno di riordinare i vettori, esistono $r_{1},\dots,r_{r} \in \mathbb{K}$ non tutti nulli tali che:
+> $$ \mathbf{v}_{r+1} = r_{1}\mathbf{v}_{1} + \dots + r_{r}\mathbf{v}_{r}  $$
+> Applichiamo $A$ ad ambo i membri:
+>  $$ \begin{align}
+>&A(\mathbf{v}_{r+1}) = \lambda_{r+1}\mathbf{v}_{r+1} = \lambda_{r+1}r_{1}\mathbf{v}_{1} + \dots + \lambda_{r+1}r_{r}\mathbf{v}_{r}  \\
+>&A(\mathbf{v}_{r+1}) = A(r_{1}\mathbf{v}_{1} + \dots + r_{r}\mathbf{v}_{r}) = \lambda_{1}r_{1}\mathbf{v}_{1} + \dots + \lambda_{r}r_{r}\mathbf{v}_{r}
+>\end{align}$$
+>Sottraendo membro a membro le due equazioni precedenti otteniamo:
+> $$\mathbf{0} = (\lambda_{r+1}-\lambda_{1})r_{1}\mathbf{v}_{1} + \dots + (\lambda_{r+1}-\lambda_{r})r_{r}\mathbf{v}_{r}$$
+> Poichè per ipotesi induttiva $\mathbf{v}_{1},\dots,\mathbf{v}_{r}$ sono linearmente indipendenti si ha che:
+> $$ \begin{align}
+>&0 = (\lambda_{r+1}-\lambda_{1})r_{1}= (\lambda_{r+1}-\lambda_{2})r_{2} = \dots = (\lambda_{r+1}-\lambda_{2})r_{2} \\
+>&\implies r_{1} = r_{2} = \dots = r_{r} = 0
+>\end{align} $$
+>Ma allora $\mathbf{v}_{r+1} = \mathbf{0}$ assurdo. Quindi $\mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{v}_{r+1}$ non possono essere linearmente dipendenti e dunque sono linearmente indipendenti
+```

@@ -98,6 +98,21 @@
 >>\end{cases}
 >>\end{align}$$
 >>Viceversa se $m_{a}(\lambda_{1}) + \dots + m_{a}(\lambda_{r}) = n$ e $m_{a}(\lambda_{i})=m_{g}(\lambda_{i}) \forall i = 1,\dots,r$ allota $N=m_{g}(\lambda_{1}) + \dots + m_{g}(\lambda_{r}) = n$
+>>$\CVD$>[!teorema] Condizione necessaria e sufficiente per la diagonalizzabilità
+>Sia $A \in M_{\mathbb{K}(n,n)}$ allora $A$ è diagonalizzabile su $\mathbb{K}$ se e solo se
+>1. Il polinomio caratteristico di $A$ ha $n$ radici su $\mathbb{K}$ (contate con le loro [[molteplicità]] algebriche)
+>2. Ogni autovalore di $A$ è regolare
+>
+>>[!dim]
+>> Siano $\lambda_{1},\dots,\lambda_{r}$ autovalori distinti di $A$. Allora $A$ è diagonalizzabile $\iff A$ ammette una base di autovettori $\iff N = m_{g}(\lambda_{1}) + \ldots + m_{g}(\lambda_{r}) = n$ allora:
+>>  $$ \begin{align}
+>> &n = m_{g}(\lambda_{1}) + \dots + m_{g}(\lambda_{r}) \leq m_{a} (\lambda_{1}) + \dots + m_{a}(\lambda_{r}) \leq n  \\
+>> \implies &\begin{cases}
+>> m_{a}(\lambda_{1}) + \dots + m_{a}(\lambda_{r}) = n \\
+>> m_{a}(\lambda_{i}) = m_{g}(\lambda_{i}) \forall i = 1,\dots,n
+>>\end{cases}
+>>\end{align}$$
+>>Viceversa se $m_{a}(\lambda_{1}) + \dots + m_{a}(\lambda_{r}) = n$ e $m_{a}(\lambda_{i})=m_{g}(\lambda_{i}) \forall i = 1,\dots,r$ allota $N=m_{g}(\lambda_{1}) + \dots + m_{g}(\lambda_{r}) = n$
 >>$\CVD$
 
 >[!esempio]
@@ -136,3 +151,25 @@
 >\end{align} $$
 
 
+# ANKI
+
+```anki
+id: 1694363706030
+deck: GAL
+---
+# Secondo criterio di diagonalizzabilità
+Sia $A \in M_{\mathbb{K}(n,n)}$ allora $A$ è diagonalizzabile su $\mathbb{K}$ se e solo se
+1. Il polinomio caratteristico di $A$ ha $n$ radici su $\mathbb{K}$ (contate con le loro [[molteplicità]] algebriche)
+2. Ogni autovalore di $A$ è regolare
+===
+>[!dim]
+> Siano $\lambda_{1},\dots,\lambda_{r}$ autovalori distinti di $A$. Allora $A$ è diagonalizzabile $\iff A$ ammette una base di autovettori $\iff N = m_{g}(\lambda_{1}) + \ldots + m_{g}(\lambda_{r}) = n$ allora:
+>  $$ \begin{align}
+> &n = m_{g}(\lambda_{1}) + \dots + m_{g}(\lambda_{r}) \leq m_{a} (\lambda_{1}) + \dots + m_{a}(\lambda_{r}) \leq n  \\
+> \implies &\begin{cases}
+> m_{a}(\lambda_{1}) + \dots + m_{a}(\lambda_{r}) = n \\
+> m_{a}(\lambda_{i}) = m_{g}(\lambda_{i}) \forall i = 1,\dots,n
+>\end{cases}
+>\end{align}$$
+>Viceversa se $m_{a}(\lambda_{1}) + \dots + m_{a}(\lambda_{r}) = n$ e $m_{a}(\lambda_{i})=m_{g}(\lambda_{i}) \forall i = 1,\dots,r$ allota $N=m_{g}(\lambda_{1}) + \dots + m_{g}(\lambda_{r}) = n$
+```
