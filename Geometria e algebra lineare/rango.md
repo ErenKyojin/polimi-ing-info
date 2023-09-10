@@ -287,7 +287,7 @@ c \\
 >\end{align} $$
 
 
->[!teorema] Teorema di Rappresentazione di un'applicazionel ineare
+>[!teorema] Teorema di Rappresentazione di un'applicazione ineare
 >Siano $V,W$ spazi vettoriali su $\mathbb{K}$ tali che $\dim(V) = n$ e $\dim(W) = m$.
 >Siano $\mathcal{B} = \left\{ \mathbf{b_{1}},\dots,\mathbf{b}_{n} \right\}$ una base di $V$ e $\mathcal{C} = \left\{ \mathbf{c}_{1},\dots,\mathbf{c}_{m} \right\}$ una base di $W$. Siano $\mathbf{x}=[x_{1} \dots x_{n}]^T$ le coordinate di $\mathbf{v} \in V$ rispetto a $\mathcal{B}$ e $\mathbf{y} = [y_{1} \dots y_{m}]^T$ le coordinate di $\mathcal{L}(\mathbf{v}) \in W$ rispetto a $\mathcal{C}$. Allora esiste un'unica matrice $A \in M_{\mathbb{K}}(m,n)$ tale che $\mathbf{y} = A \mathbf{x}$.
 >$A$ si chiama **matrice rappresentativa** di $\mathcal{L}$ rispetto alle basi $\mathcal{B}$ e $\mathcal{C}$ e si puó indicare con: $A = M_{\mathcal{C}}^{\mathcal{B}}(\mathcal{L})$
@@ -483,3 +483,53 @@ c
 >  $$ M_{\mathcal{B}}^\mathcal{B}(id_{V}) = M_{\mathcal{B}}^\mathcal{B}(\mathcal{L}^{-1} \circ \mathcal{L} ) = M_{\mathcal{B}}^\mathcal{C}(\mathcal{L}^{-1}) \circ M_{\mathcal{C}}^\mathcal{B}(\mathcal{L}) = \mathbb{1}_{n} \implies M_{\mathcal{B}}^\mathcal{C}(\mathcal{L}^{-1}) = (M_{\mathcal{C}}^\mathcal{B}(\mathcal{L}))^{-1}$$
 
 [[cambiamento di coordinate]]
+
+# ANKI
+
+```anki
+id: 1694360512252
+deck: GAL
+---
+Teorema di rappresentazione
+===
+Siano $V,W$ spazi vettoriali su $\mathbb{K}$ tali che $\dim(V) = n$ e $\dim(W) = m$.
+Siano $\mathcal{B} = \left\{ \mathbf{b_{1}},\dots,\mathbf{b}_{n} \right\}$ una base di $V$ e $\mathcal{C} = \left\{ \mathbf{c}_{1},\dots,\mathbf{c}_{m} \right\}$ una base di $W$. Siano $\mathbf{x}=[x_{1} \dots x_{n}]^T$ le coordinate di $\mathbf{v} \in V$ rispetto a $\mathcal{B}$ e $\mathbf{y} = [y_{1} \dots y_{m}]^T$ le coordinate di $\mathcal{L}(\mathbf{v}) \in W$ rispetto a $\mathcal{C}$. Allora esiste un'unica matrice $A \in M_{\mathbb{K}}(m,n)$ tale che $\mathbf{y} = A \mathbf{x}$.
+$A$ si chiama **matrice rappresentativa** di $\mathcal{L}$ rispetto alle basi $\mathcal{B}$ e $\mathcal{C}$ e si puó indicare con: $A = M_{\mathcal{C}}^{\mathcal{B}}(\mathcal{L})$
+
+>[!dim]
+>Essendo $x_{\mathcal{B}}(\mathbf{v}) = [x_{1} \dots x_{n}]^T$ allora $\mathbf{v} = x_{1}\mathbf{b}_{1} + \dots + x_{n}\mathbf{b}_{n}$. Inoltre $\mathcal{L}(\mathbf{b}_{i}) \in W \forall i = 1,\dots,n$ quindi li posso scrivere utilizzando la base $\mathbf{c}_{1},\dots,\mathbf{c}_{n}$:
+> $$ \begin{align}
+>\mathcal{L}(\mathbf{b}_{1}) = a_{11} \mathbf{c}_{1} + a_{21}\mathbf{c}_{2} + \dots + a_{m1}\mathbf{c}_{m} \\
+> \vdots \\
+> \mathcal{L}(\mathbf{b}_{n}) = a_{1n}\mathbf{c}_{1} + a_{2n}\mathbf{c}_{2} + \dots + a_{mn}\mathbf{c}_{m}
+>\end{align} $$
+>Allora si ha che:
+> $$\begin{align}
+> \mathcal{L}(\mathbf{v}) =&\mathcal{L}(x_{1}\mathbf{b}_{1} + \dots + x_{n}\mathbf{b}_{n}) \\ 
+>=&x_{1}\mathcal{L}(\mathbf{b}_{1})+ \dots + x_{n}\mathcal{L}(\mathbf{b}_{n})\\
+>>=&x_{1}(a_{11}\mathbf{c}_{1} + a_{21}\mathbf{c_{2}} + \dots + a_{m_{1}}\mathbf{c}_{m}) + \\
+>+&x_{2}(a_{12}\mathbf{c}_{1} + a_{22}\mathbf{c}_{2} + \dots + a_{m2}\mathbf{c}_{2}) + \\
+>&\vdots \\
+>+&x_{n}(a_{1n}\mathbf{c}_{1} + a_{2n}\mathbf{c}_{2} + \dots + a_{mn}\mathbf{c}_{m}) \\
+>&(\text{raggruppiamo i coefficienti dei vettori } \mathbf{c}_{i}) \\
+> =&(x_{1}a_{11} + x_{2}a_{12} + \dots + x_{n}a_{1n})\mathbf{c}_{1} +\\
+> +&(x_{1}a_{21} + x_{2}a_{22} + \dots + x_{n}a_{2n})\mathbf{c}_{2} +\\
+> \vdots \\
+> +&(x_{1}a_{m1} + x_{2}a_{m2} + \dots + x_{n}a_{mn})\mathbf{c}_{m}
+>\end{align} 
+>$$
+>Quindi $\mathcal{L}(\mathbf{v}) + y_{1}\mathbf{c}_{1} + y_{2}\mathbf{c}_{2} + \dots + y_{m}\mathbf{c}_{m}$ e per unicità di scrittura si ha che:
+> $$ \begin{cases}
+> y_{1} = a_{11}x_{1} + a_{12}x_{2} + \dots + a_{1n}x_{n} \\
+> y_{2} = a_{21}x_{1} + a_{22}x_{2} + \dots + a_{2n}x_{n} \\
+> \vdots  \\
+> y_{m} = a_{m1}x_{1} + a_{m2}x_{2} + \dots + a_{mn}x_{m}
+>\end{cases} $$
+>Ove
+> $$ A = \begin{bmatrix}
+>a_{11} & a_{12}  & \dots & a_{1n} \\
+>a_{21} & a_{22} & \dots  & a_{2n} \\
+> \vdots & \vdots &  & \vdots \\
+> a_{m 1} & a_{m2} & \dots & a_{mn}
+\end{bmatrix} = [x_{\mathcal{C}} (\mathcal{L}(\mathbf{b_{1}}))| \dots | x_{\mathcal{C}}(\mathcal{L}(\mathbf{b}_{n}))]$$
+```
