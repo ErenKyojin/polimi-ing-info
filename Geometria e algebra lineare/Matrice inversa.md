@@ -130,6 +130,13 @@ Sia $A \in M_{(n,n)}(\mathbb{K})$, allora è equivalente affermare che
 >Dati $\mathbf{e}_i$ con $i = 1,...,n$ i vettori con 1 nella $i$-esima riga e zero in tutte le altre, per rouchè capelli se $r(A) = n$ allora il sistema lineare $A \cdot \mathbf{x} = \mathbf{e}_i$ ammette un unica soluzione $\mathbf{c}_i \in \mathbb{K}^n : A \cdot \mathbf{c}_i = \mathbf{e}_i \forall i = 1,...,n$ 
 >$\implies C$ è inversa destra di $A$. Essendo $C$ invertibile a sinistra allora, per quanto già visto, esiste un'inversa destra di $C$ che chiamiamo $A'$ allora
 >$C \cdot A' = \mathbb{I}_n \implies A' = A \implies A$ invertibile
+>#### $\bullet\ 3 \implies 4$
+>ovvia per definizione di invertibilità
+>
+>#### $\bullet\ 4 \implies 5$
+>visto precedentemente
+>
+>#### $\bullet\ 5$
 ```
 
 <% tp.file.cursor(3) %>
