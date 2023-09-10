@@ -315,3 +315,12 @@ Le due rette coincidono
 
 
 
+# ANKI
+```anki
+deck: GAL 
+---
+Struttura delle soluzioni di un sistema lineare (proposizione)
+===
+Dato il sistema lineare $A \mathbf{x} = \mathbf{b}$ supponsiamo che $\mathbf{x}_0$ sia soluzione, quindi $A\mathbf{x}_0 = \mathbf{0}$. Le osluzioni di $A\mathbf{x} = \mathbf{b}$ si ottengono sommando ad $\mathbf{x_0}$ le soluzioni del sistema omogeneo associato $A\mathbf{x} = \mathbf{0}$, sono quindi tutti e soli i vettori della forma $\mathbf{x}_0+\mathbf{x}_h$ con $\mathbf{x}_h \in \ker(A)$
+```
+<% tp.file.cursor(3) %>
