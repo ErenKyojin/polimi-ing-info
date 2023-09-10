@@ -17,7 +17,8 @@
 >    $$ <U\mathbf{x}, U\mathbf{y}> = <\mathbf{x},\mathbf{y}> \qquad \forall\mathbf{x},\mathbf{y} \in \mathbb{R}^n$$
 > 
 >>[!dim]
->>#todo
+>>##### $1 \implies 2 \implies 3 \implies 1$
+>>###### $1 \implies 2$
 >>
 >
 >>[!corollario]
