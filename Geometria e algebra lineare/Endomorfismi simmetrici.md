@@ -16,6 +16,8 @@ otteniamo $A = A^T$
 >>[!dim]
 >>Sia $\mathcal{B} = \{ \mathbf{q}_{1},\dots,\mathbf{q}_{n} \}$ una base ortonormale di $V$. Siano $\mathbf{u},\mathbf{w} \in V$ e $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$ le coordinate di $\mathbf{v}$ e $\mathbf{w}$ rispetto a $\mathcal{B}$. Ricordiamo che:
 >>$$ \left< \mathbf{v},\mathbf{w} \right>  = \left< x_{\mathcal{B}}(\mathbf{v}), x_{\mathcal{B}}(\mathbf{w}) \right>_{\mathbb{R}^n} = \left< \mathbf{x},\mathbf{y} \right>_{\mathbb{R}}  $$
+>>dunque, posto $A = M_{\mathcal{B}}^{\mathcal{B}}(\mathcal{L})$ si ha che:
+>>$$ \left< \mathcal{L}(\mathbf{v}),\mathbf{w} \right> = \left< \mathbf{v},\mathcal{L}(\mathbf{w}) \right> \forall \mathbf{v},\mathbf{w} \in V \iff <x_{mcal}>$$
 
 
 
