@@ -137,7 +137,7 @@ Sia $A \in M_{(n,n)}(\mathbb{K})$, allora è equivalente affermare che
 >Dalla proposizione che afferma che inversa destra e sinistra se esistono sono uguali
 >
 >#### $\bullet\ 5\implies 4$
->Sia $A'$ l'inversa destra di $A$ allora per definizione $A \cdot A' = \mathbb{I}_n \implies A'$ ammette un'inversa sinistra $\implies A'$ ammette un inversa destra $A'' : A' \cdot A'' = \mathbb{I}_n$
+>Sia $A'$ l'inversa destra di $A$ allora per definizione $A \cdot A' = \mathbb{I}_n \implies A'$ ammette un'inversa sinistra $\implies A'$ ammette un inversa destra $A'' : A' \cdot A'' = \mathbb{I}_n \implies A = A''$ quindi $A \cdot A' = A' \cdot A = \mathbb{I}_n$ quindi $A$ è invertibile
 ```
 
-<% tp.file.cursor(3) %>
+
