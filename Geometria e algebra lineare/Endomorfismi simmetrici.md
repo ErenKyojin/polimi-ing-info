@@ -44,11 +44,20 @@ otteniamo $A = A^T$
 
 
 ```anki
+id: 1694374180029
 deck: GAL
 ---
-# Un endomorfismo su uno spazio euclideo è simmetrico solo se la matrice della
+# Un endomorfismo su uno spazio euclideo è simmetrico solo se la matrice della base ortonormale è simmetrica
 Sia $(V, \langle, \rangle)$ uno spazio euclideo di dimensione finita e sia $\mathcal{B}$ una base ortonormale. Un endomorfismo $\mathcal{L} : V \to V$ è simmetrico se e solo se $M_{\mathcal{B}}^\mathcal{B}(\mathcal{L})$ è simmetrica
 ===
-<% tp.file.cursor(2) %>
+>[!dim]
+>Sia $\mathcal{B} = \{ \mathbf{q}_{1},\dots,\mathbf{q}_{n} \}$ una base ortonormale di $V$. Siano $\mathbf{u},\mathbf{w} \in V$ e $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$ le coordinate di $\mathbf{v}$ e $\mathbf{w}$ rispetto a $\mathcal{B}$. Ricordiamo che:
+>$$ \left< \mathbf{v},\mathbf{w} \right>  = \left< x_{\mathcal{B}}(\mathbf{v}), x_{\mathcal{B}}(\mathbf{w}) \right>_{\mathbb{R}^n} = \left< \mathbf{x},\mathbf{y} \right>_{\mathbb{R}}  $$
+>dunque, posto $A = M_{\mathcal{B}}^{\mathcal{B}}(\mathcal{L})$ si ha che:
+>$$ \begin{align}
+>\left< \mathcal{L}(\mathbf{v}),\mathbf{w} \right> = \left< \mathbf{v},\mathcal{L}(\mathbf{w}) \right> \forall \mathbf{v},\mathbf{w} \in V \iff  \\
+> \left<x_{\mathcal{B}}(\mathcal{L}(\mathbf{v})),x_{\mathcal{B}}(\mathbf{w})  \right>_{\mathbb{R}^n} = \left< x_{\mathcal{B}}(\mathbf{v}),x_{\mathcal{B}}(\mathcal{L}(\mathbf{w})) \right>_{\mathbb{R}^n} \forall \mathbf{v},\mathbf{w} \in V \iff \\
+> \left< A \cdot x_{\mathcal{B}}(\mathbf{v}), x_{\mathcal{B}}(\mathbf{w}) \right>_{\mathbb{R}^n}  = \left< x_{\mathcal{B}}(\mathbf{v}), A \cdot x_{b}(\mathbf{w})  \right>_{\mathbb{R}^n} \forall \mathbf{v},\mathbf{w} \in V \iff \\
+> \left< A\mathbf{x},\mathbf{y} \right>_{\mathbb{R}^n} = \left< \mathbf{x}, A \cdot \mathbf{y} \right>_{\mathbb{R}^n}\quad \forall \mathbf{x},\mathbf{y} \in \mathbb{R}^n \iff A \text{ simmetrica}
+>\end{align}$$
 ```
-<% tp.file.cursor(3) %>
