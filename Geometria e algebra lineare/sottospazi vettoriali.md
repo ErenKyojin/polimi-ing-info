@@ -113,7 +113,7 @@ $$ \begin{align}
 >>\beta_{1} \mathbf{k}_{1} + \dots + \beta_{s - r}\mathbf{k}_{s-r} = t_{1}'\mathbf{v}_{1} + \dots + t_{r}'\mathbf{v}_{r}
 >>\end{cases} $$
 >>Ma essendo $\{ \mathbf{v}_{1}, \dots, \mathbf{v}_{r}, \mathbf{h}_{1},\dots,\mathbf{h}_{t-r} \}$ e $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{k}_{1},\dots,\mathbf{k}_{s-r} \}$ linearmente indipendenti si ha che:
->>$t_{1}'=\dots= t_{r}' = t_{1}=\dots=t_{r}=\alpha_{1} = \dots = \alpha_{t-r}$
+>>$t_{1}'=\dots= t_{r}' = t_{1}=\dots=t_{r}=\alpha_{1} = \dots = \alpha_{t-r} = \beta_{1} = \dots = \beta_{s-r} =0$
 
 >[!esempio]
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e $\dim(V)=4$. Siano $H$ e $K$ sottospazi vettoriali di $V$ di dimensione irspettivamenter $3$ e $2$. Allora $\dim(U \cap V) \geq 1$, infatti:
@@ -186,3 +186,30 @@ Sia $H = \Span(\mathbf{h}_{1},\dots,\mathbf{h}_{t})$ e $K = \Span(\mathbf{k}_{1}
  2. Sia $\left\{ \mathbf{u}_{1},\dots,\mathbf{u}_{r} \right\}$ una base del $\ker(U) = \ker(A)$ allora le prime $t$ componenti del vettore $\mathbf{u}_{i}$ sono le coordinate rispetto alla base $\left\{ \mathbf{h}_{1},\dots,\mathbf{h}_{t} \right\}$ dell'$i$-esimo vetore di una base di $H \cap K$. Mentre le ultime $s$ componenti del vettore $\mathbf{u}_{i}$ sono le coordinate rispetto alla base $\left\{ \mathbf{k}_{1},\dots,\mathbf{k}_{s} \right\}$ dell'$i$-esimo vettore di una base di $H \cap K$. In particolare $\dim(H \cap K) = \dim(\ker(U))$
 
 [[sottospazi affini]]
+
+# ANKI
+```anki
+id: 1694362877581
+deck: GAL
+---
+# Formula di Grassman
+Siano $H$ e $K$ due sottospazi vettoriali di $V$ spazio vettoriale su $\mathbb{K}$. Se $\dim(H) < +\infty$ e $\dim(K) < +\infty$ allora $\dim(H + K) = \dim(H) + \dim(K) - \dim(H \cap K)$ 
+===
+>[!dim]
+>Sia $\dim(H) = t$, $\dim(K)=s$ e $\dim(H \cap K) =r$. Sia $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r} \}$ una base di $H \cap K$. Completiamo ad una base di $H$ l'insieme $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r} \} : \{ \mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{h}_{1},\dots,\mathbf{h}_{t-r} \}$.
+>Completiamo ad una base di $K$ l'insieme $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{2} \}$ : $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{k}_{1},\dots,\mathbf{k}_{s-r} \}$.
+>Si ha che l'insieme : $\{ v_{1},\dots,\mathbf{v}_{r},\mathbf{h}_{1},\dots,\mathbf{h}_{t-r},\mathbf{k}_{1},\dots,\mathbf{k}_{s-r} \}$ è l'insieme di generatori per $H + K$. Mostriamo che è linearmente indipendente e in questo modo abbiamo dimostrato la formula di Grassmann. Consideriamo:
+>$$ t_{1}\mathbf{v}_{1} + \dots + t_{r}\mathbf{v}_{r} + \alpha_{1} \mathbf{h}_{1} + \dots + \alpha_{t-r} \mathbf{h}_{t-r} + \beta_{1} \mathbf{k}_{1} + \dots + \beta_{s-r}\mathbf{k}_{s-r} = \mathbf{0} $$
+>Si ha che:
+>$$ t_{1}\mathbf{v}_{1} + \dots + t_{r}\mathbf{v}_{r} + \alpha_{1}\mathbf{h}_{1} + \dots + \alpha_{t-r}\mathbf{h}_{t-r}  = -(\beta_{1}\mathbf{k}_{1} + \dots + \beta_{s-r} \mathbf{k}_{s-r} ) = -\mathbf{w}$$
+>Il vettore $\mathbf{w} \in K \cap H$. Dunque esistono $t_{1}',\dots,t_{r}' \in \mathbb{K} : \mathbf{w} = t_{1}',\mathbf{v}_{1} + \dots + t'_{r}v_{r}$
+>Si ha che:
+>$$ \begin{cases}
+> t_{1}\mathbf{v}_{1} + \dots + t_{r}\mathbf{v}_{r} + \alpha_{1}\mathbf{h}_{1} + \dots + \alpha_{t-r}\mathbf{h}_{t-r} = t_{1}'\mathbf{v}_{1} + \dots + t'_{r}\mathbf{v}_{r} \\
+>\beta_{1} \mathbf{k}_{1} + \dots + \beta_{s - r}\mathbf{k}_{s-r} = t_{1}'\mathbf{v}_{1} + \dots + t_{r}'\mathbf{v}_{r}
+>\end{cases} $$
+>Ma essendo $\{ \mathbf{v}_{1}, \dots, \mathbf{v}_{r}, \mathbf{h}_{1},\dots,\mathbf{h}_{t-r} \}$ e $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{k}_{1},\dots,\mathbf{k}_{s-r} \}$ linearmente indipendenti si ha che:
+>$t_{1}'=\dots= t_{r}' = t_{1}=\dots=t_{r}=\alpha_{1} = \dots = \alpha_{t-r} = \beta_{1} = \dots = \beta_{s-r} =0$
+
+```
+
