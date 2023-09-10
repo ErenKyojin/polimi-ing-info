@@ -313,11 +313,12 @@ fill opacity = 0.2,
 
 Le due rette coincidono
 
-
+ 
 
 # ANKI
 ```anki
-deck: GAL 
+id: null
+deck: GAL
 ---
 Struttura delle soluzioni di un sistema lineare (proposizione)
 ===
