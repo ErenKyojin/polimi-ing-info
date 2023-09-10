@@ -104,3 +104,22 @@ Unicità della matrice inversa (Proposizione)
 >2. Se $A'$ e $A''$ sono inverse di $A$ allora in particolare è vero che $A'$ è inversa sinistra e $A''$ è inversa destra quindi per il punto uno $A' = A''$
 ```
 
+
+```anki
+id: 1694339997004
+---
+Condizioni necessarie e sufficienti per l'invertibilità di una matrice
+===
+Sia $A \in M_{(n,n)}(\mathbb{K})$, allora è equivalente affermare che
+1. $\ker(A) = 0$
+2. $r(A) = n$
+3. A invertibile
+4. A ha inversa sinistra
+5. A ha inversa destra
+
+>[!dim]
+>Mostriamo $4 \implies 1 \implies 2 \implies 3 \implies 4 \iff 5$
+>####  $\bullet\ 4 \implies 1$
+>$A$ ha un inversa sinistra, allora $\exists A' : A' \cdot A = \mathbb{1}_n$. Se consideriamo il sistema lineare $A \cdot \mathbf{}
+```
+<% tp.file.cursor(3) %>
