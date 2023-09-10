@@ -79,8 +79,8 @@ Sia $(V,<,>)$ spazio euclideo per ogni $\mathbf{v},\mathbf{w} \in V$ si ha che:
 > \lvert \lvert \mathbf{v} + \mathbf{w} \rvert  \rvert ^2 = \lvert \lvert \mathbf{v} \rvert  \rvert ^2 + \lvert \lvert \mathbf{w} \rvert  \rvert ^2 + 2 \left< \mathbf{v}, \mathbf{w} \right>  &\leq \lvert \lvert  \mathbf{v} \rvert  \rvert ^2 + \lvert \lvert \mathbf{w} \rvert  \rvert ^2 + 2\lvert \lvert \mathbf{v} \rvert  \rvert\ \lvert \lvert \mathbf{w} \rvert  \rvert  \\
 &= (\lvert \lvert \mathbf{v} \rvert  \rvert \ \lvert \lvert \mathbf{w} \rvert  \rvert   )^2 \\
 >\end{align}$$
+>$\implies \lvert \lvert  \mathbf{v} + \mathbf{w} \rvert \rvert \leq \lvert \lvert \mathbf{v} \rvert \rvert\ \lvert \lvert \mathbf{v} \rvert \rvert + \lvert \lvert \mathbf{w} \rvert \rvert$
 >
->e segue
 
 
 ## Base ortogonale e ortonormale di uno spazio Euclideo
@@ -121,3 +121,21 @@ Sia $(V,<,>)$ spazio euclideo per ogni $\mathbf{v},\mathbf{w} \in V$ si ha che:
 > &\implies \lvert \left< \mathbf{v},\mathbf{w} \right>  \rvert \leq \lvert \lvert \mathbf{v} \rvert  \rvert \lvert \lvert \mathbf{w} \rvert  \rvert 
 >\end{align} $$
 ```
+```anki
+id: 1694368003705
+deck: GAL
+---
+# Disuguaglianza triangolare
+Sia $(V, \langle, \rangle)$ uno spazio Euclideo, dati $\mathbf{v,w} \in V$ allora
+$$ |\langle \mathbf{v},\mathbf{w}\rangle| \leq ||\mathbf{v}||\ ||\mathbf{w}|| $$
+inoltre vale l'uguaglianza se e solo se $\mathbf{v}$ e $\mathbf{w}$ sono linearmente dipendenti
+===
+>[!dim]
+>$$\begin{align}
+> \lvert \lvert \mathbf{v} + \mathbf{w} \rvert  \rvert ^2 = \lvert \lvert \mathbf{v} \rvert  \rvert ^2 + \lvert \lvert \mathbf{w} \rvert  \rvert ^2 + 2 \left< \mathbf{v}, \mathbf{w} \right>  &\leq \lvert \lvert  \mathbf{v} \rvert  \rvert ^2 + \lvert \lvert \mathbf{w} \rvert  \rvert ^2 + 2\lvert \lvert \mathbf{v} \rvert  \rvert\ \lvert \lvert \mathbf{w} \rvert  \rvert  \\
+&= (\lvert \lvert \mathbf{v} \rvert  \rvert \ \lvert \lvert \mathbf{w} \rvert  \rvert   )^2 \\
+>\end{align}$$
+>$\implies \lvert \lvert  \mathbf{v} + \mathbf{w} \rvert \rvert \leq \lvert \lvert \mathbf{v} \rvert \rvert\ \lvert \lvert \mathbf{v} \rvert \rvert + \lvert \lvert \mathbf{w} \rvert \rvert$
+```
+
+  
