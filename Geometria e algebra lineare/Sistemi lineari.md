@@ -328,6 +328,5 @@ Dato il sistema lineare $A \mathbf{x} = \mathbf{b}$ supponsiamo che $\mathbf{x}_
 >$A(\mathbf{x}_o + \mathbf{x}_h) = A\mathbf{x}_o + A\mathbf{x}_h = \mathbf{b} + \mathbf{0} = \mathbf{b}$
 >
 >Viceversa se $\hat{x}$ è soluzione allora $A\hat{x}=\mathbf{b}$. Osserviamo che $\hat{x} = \mathbf{x}_o + (\mathbf{\hat{x}} - \mathbf{x}_o)$, e che $A(\mathbf{\hat{x}} - \mathbf{x}_o) = A\mathbf{\hat{x}} - A\mathbf{x}_o = \mathbf{b} - \mathbf{b} = \mathbf{0}$.
->Quindi $\hat{x}} = $
+>Quindi $\mathbf{\hat{x}} = \mathbf{x}_o + \mathbf{x}_h$ con $\mathbf{x}_h = \mathbf{\hat{x}} - \mathbf{x}_o \in \ker(A)$
 ```
-<% tp.file.cursor(3) %>
