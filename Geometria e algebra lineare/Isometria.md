@@ -21,7 +21,12 @@
 >>###### $1 \implies 2$
 >>$$ \lvert \lvert U \cdot \mathbf{x} \rvert  \rvert ^2 = \left< U \cdot \mathbf{x}, U \cdot \mathbf{x} \right> = (U \mathbf{x})^T \cdot U \mathbf{x} = \mathbf{x}^T \cdot U^T \cdot U \cdot \mathbf{x} = \mathbf{x}^T \frac{x.}{ = \left< \mathbf{x},\mathbf{x} \right> }$$
 >>##### $2 \implies 3$ usiamo la formula di polarizzazione:
->>
+>> $$ \begin{align}
+>>\left< U\mathbf{x},U\mathbf{y} \right> &= \frac{1}{2} (\lvert \lvert U\mathbf{x} -  U \mathbf{y}\rvert  \rvert^2 - \lvert \lvert  U\mathbf{x} \rvert  \rvert^2 - \lvert \lvert U\mathbf{y} \rvert  \rvert ^2  ) \\
+>>&= \frac{1}{2} (\lvert \lvert U(\mathbf{x} - \mathbf{y}) \rvert  \rvert ^2 - \lvert \lvert  \mathbf{x} \rvert  \rvert ^2 - \lvert \lvert y \rvert  \rvert ^2) \\
+> &=\frac{1}{2}(\lvert \lvert \mathbf{x} - \mathbf{y} \rvert  \rvert ^2 -\lvert \lvert \mathbf{x} \rvert  \rvert^2 -\lvert \lvert \mathbf{y} \rvert  \rvert ^2) = \left< \mathbf{x},\mathbf{y} \right> 
+>>\end{align} $$
+>>##### 
 >
 >>[!corollario]
 >>Sia $U \in M_{\mathbb{R}}(n,n)$ ortogonale allora, se $\lambda$ è autovalore reale di $U, \lambda =1$ o $\lambda = -1$
