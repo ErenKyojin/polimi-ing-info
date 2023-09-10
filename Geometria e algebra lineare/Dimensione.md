@@ -172,3 +172,54 @@ $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\} 
 >$$ t_{1}\mathcal{L}(\mathbf{v}_{1}) + \dots t_{d}\mathcal{L}(\mathbf{v}_{d}) = \mathbf{0}$$
 >per la linearità di $\mathcal{L}$ abbiamo $\mathcal{L}(t_{1}\mathbf{v}_{1} + \dots + t_{d}\mathbf{v}_{d}) = \mathbf{0}$. Essendo i vettori $\mathbf{v}_{1},\dots,\mathbf{v}_{d}$ linearmente indipendenti, $t_{1}=t_{2}=\dots=t_{d}=0$. Dunque $\mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d})$ sono linearmente indipendenti.
 ```
+```anki
+id: 1694359726052
+deck: GAL
+---
+Dimensione = Cardinalità (teorema)
+===
+Se $V$ spazio vettoriale su $\mathbb{K}$ ammette una [[Base]] di cardinalità $n$ allora $\dim(V)=n$
+
+>[!dim]
+>Sia $\mathcal{B}=\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ una base per $V$. allora:
+>1. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è linearmente indipendente quindi per le definizio di dimensione: $\dim(V) \geq n$
+>2. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è un insieme di generatori quindi per il lemma fondamentale: $\dim(V) \leq n$
+>Quindi $dim(V)=n$
+```
+
+```anki
+id: 1694360108452
+deck: GAL
+---
+Dimensione di un'applicazione lineare iniettiva su un sottospazio di dimensione finita
+===
+
+Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ lineare e [[Funzione iniettiva|iniettiva]]. Se $\dim(V)$ è finita e $H$ è sottospazio di $V$ allora $\dim(H) = \dim(\mathcal{L}(H))$
+
+>[!dim]
+>Sia $\mathbf{v}_{1},\dots,\mathbf{v}_{d}$ una base di $H$. Allora $H = \Span\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d} \right\}$ e $\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d} \right\}$ è linearmente indipendente.
+>>Poichè $\mathcal{L}$ è lineare: $\mathcal{L}(H) = \Span\{\mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d})\}$.
+>>Essendo $\mathcal{L}$ iniettiva: $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_d) \right\}$ sono linearmente indipendenti. Quindi $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\}$ sono una base di $\mathcal{L}(H) \implies \dim(\mathcal{L}(H)) = d = \dim(H)$
+
+>[!corollario] corollario 3
+>1. Se $\dim(V) = n$ allora $V$ è [[Applicazioni lineari#Isomorfismi|isomorfo]] a $\mathbb{K}^n$.
+>>2. Se $\dim(V), \dim(W) < +\infty$ allora $V$ è isomorfo a $\mathbb{K}^n$ allora $V$ è isomorfo a $W$ se e solo se $\dim(V) = \dim(W)$11
+>
+>>[!dim]
+>>1. Se $\dim(V)) = n$ esiste una base $\left\{ \mathbf{b_{1}},\dots,\mathbf{b_{n}} \right\}$ di cardinalità $n$, quindi la mappa di parametrizzazione $P$ associata a 
+>> $$\begin{align}
+ \left\{ \mathbf{b_{1}},\dots,\mathbf{b_{n}} \right\} : \mathcal{P} &: \mathbb{K}^n \to V  \\
+& \begin{bmatrix}
+t_{1} \\
+\vdots \\
+t_{n}
+\end{bmatrix} \mapsto t_{1}\mathbf{b_{1}} + \dots + t_{n}\cdot \mathbf{b_{n}}
+\end{align}
+>>$$
+>>è suriettiva e iniettiva quindi è un isomorfismo
+>> 2.
+>> Se $\dim(V) = \dim(W) = n$ allora per il punto precedente esistono due mappe di parametrizzazione $\mathcal{P}_{1} : \mathbb{K}^n \to V$ e $\mathcal{P}_{2} : \mathbb{K}^n \to W$ che sono isomorfismi. 
+>> Quindi: $\mathcal{P}_{2} \circ \mathcal{P}_{1}^{-1} : V \to W$ è isomorfismo.
+>> Se $V$ e $W$ sono isomorfi allora esiste $\mathcal{L} : V \to W$ lineare, iniettiva e suriettiva. Quindi $\mathcal{L}(V) = W$ essendo $\mathcal{L}$ suriettiva, e $\dim(V) = \dim(\mathcal{L}(V))$ essendo $\mathcal{L}$ iniettiva. Quindi $\dim(V) = \dim(\mathcal{L}(V)) = \dim(W)$
+```
+
