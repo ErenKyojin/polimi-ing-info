@@ -14,7 +14,9 @@ otteniamo $A = A^T$
 >Sia $(V, \langle, \rangle)$ uno spazio euclideo di dimensione finita e sia $\mathcal{B}$ una base ortonormale. Un endomorfismo $\mathcal{L} : V \to V$ è simmetrico se e solo se $M_{\mathcal{B}}^\mathcal{B}(\mathcal{L})$ è simmetrica
 >
 >>[!dim]
->>Sia $\mathcal{B} = \{ \mathbf{q}_{1},\dots,\mathbf{q}_{n} \}$ una base ortonormale di $V$. Siano $\mathbf{u},\mathbf{w} \in V$ e $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$
+>>Sia $\mathcal{B} = \{ \mathbf{q}_{1},\dots,\mathbf{q}_{n} \}$ una base ortonormale di $V$. Siano $\mathbf{u},\mathbf{w} \in V$ e $\mathbf{x},\mathbf{y} \in \mathbb{R}^n$ le coordinate di $\mathbf{v}$ e $\mathbf{w}$ rispetto a $\mathcal{B}$. Ricordiamo che:
+>>$$ \left< \mathbf{v},\mathbf{w} \right>  = \left< x_{\mathcal{B}}(\mathbf{v}), x_{\mathcal{B}}(\mathbf{w}) \right>_{\mathbb{R}^n} = \left< \mathbf{x},\mathbf{y} \right>_{\mathbb{R}}  $$
+
 
 
 
