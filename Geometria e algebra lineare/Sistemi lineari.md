@@ -321,6 +321,10 @@ deck: GAL
 ---
 Struttura delle soluzioni di un sistema lineare (proposizione)
 ===
-Dato il sistema lineare $A \mathbf{x} = \mathbf{b}$ supponsiamo che $\mathbf{x}_0$ sia soluzione, quindi $A\mathbf{x}_0 = \mathbf{0}$. Le osluzioni di $A\mathbf{x} = \mathbf{b}$ si ottengono sommando ad $\mathbf{x_0}$ le soluzioni del sistema omogeneo associato $A\mathbf{x} = \mathbf{0}$, sono quindi tutti e soli i vettori della forma $\mathbf{x}_0+\mathbf{x}_h$ con $\mathbf{x}_h \in \ker(A)$
+Dato il sistema lineare $A \mathbf{x} = \mathbf{b}$ supponsiamo che $\mathbf{x}_o$ sia soluzione, quindi $A\mathbf{x}_o = \mathbf{0}$. Le osluzioni di $A\mathbf{x} = \mathbf{b}$ si ottengono sommando ad $\mathbf{x}_o$ le soluzioni del sistema omogeneo associato $A\mathbf{x} = \mathbf{0}$, sono quindi tutti e soli i vettori della forma $\mathbf{x}_o+\mathbf{x}_h$ con $\mathbf{x}_h \in \ker(A)$
+
+
+>[!dim]
+>$A(\mathbf{x}_o + \mathbf{x}_h) = A\mathbf{x}_o + A\mathbf{x}_h = \mathbf{b} + \mathbf{0} = \mathbf{b}$
 ```
 <% tp.file.cursor(3) %>
