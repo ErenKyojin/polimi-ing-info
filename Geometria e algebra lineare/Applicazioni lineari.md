@@ -459,3 +459,38 @@ Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$. Sia $\mathcal{L} : V \to W$ un
 >$\implies \mathcal{L}$ è iniettiva 
 ```
 
+
+```anki
+deck: GAL
+---
+# costruzione di un applicazione lineare
+ Sia $V$ spazio vettoriale su $\mathbb{K}$ e sia $\mathcal{B} = \left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ una base di $V$. Siano $\mathbf{w}_{1},\dots,\mathbf{w}_{n}$ vettori arbitrari di uno spazio vettoriale $W$ su $\mathbb{K}$ . Allora esiste una ed una sola applicazione lineare $\mathcal{L} : V \to W$ tale che:
+ $$ \mathcal{L}(\mathbf{b}_{1}) = \mathbf{w}_{1},\dots, \mathcal{L}(\mathbf{b}_{n}) = \mathbf{w}_{n} $$
+ L'applicazione $\mathcal{L}$ è definita dalla formula:
+ $$ \mathcal{L}(x_{1}\mathbf{b}_{1} + \ldots + x_{n}\mathbf{b}_{n} ) = x_{1}\mathbf{w}_{1} + \ldots + x_{n}\mathbf{w}_{n} $$
+
+===
+>[!dim]
+>1. Dimostriamo l'esistenza. Osserviamo che sono ben  definite l'applicazione $$\begin{align}
+>\mathcal{P} &: \mathcal{L}^n \to W \\
+>&\begin{bmatrix}
+>t_{1}\\\vdots\\ t_{n}
+>\end{bmatrix} \mapsto t_{1}\mathbf{w}_{1} + \ldots + t_{n}\mathbf{w}_{n}
+>\end{align}$$
+>e l'applicazione: $$\begin{align}
+>x_{\mathcal{B}} : &V \to W \\
+> &\mathbf{v} \mapsto \begin{bmatrix}
+>x_{1} \\ \vdots \\x_{n}
+>\end{bmatrix}
+>\end{align}$$
+>Definiamo $\mathcal{L} := \mathcal{P} \circ x_{\mathcal{B}}$. Osserviamo che $\mathcal{L}$ è lineare essendo la composizione di due [[funzioni]] lineari. Inoltre
+> $$ \mathcal{L}(\mathbf{b}_{i}) = \mathcal{P} \circ x_{\mathcal{B}}(\mathbf{b}_{i}) = \mathbf{w}_{i} \quad \forall i = 1,\dots,n $$
+> Allora per ogni $\mathbf{v} \in V$, ove $\mathbf{v} = x_{1}\mathbf{b}_{1} + \dots + x_{n}\mathbf{b}_{n}$ si ha:
+> $$ \begin{align}
+>g(\mathbf{v}) &= g(x_{1}\mathbf{b}_{1} + \dots + x_{n}\mathbf{b}_{n}) = x_{1}g(\mathbf{b}_{1}) + \dots + x_{n}g(\mathbf{b}_{n})  \\
+> &=x_{1}\mathbf{w}_{1} + \dots + x_{n}\mathbf{w}_{n} = x_{1}\mathcal{L}(\mathbf{b}_{1}) + \dots + x_{n}\mathcal{L}(\mathbf{b}_{n}) \\
+> &= \mathcal{L}(x_{1}\mathbf{b}_{1} + \dots + x_{n}\mathbf{b}_{n}) = \mathcal{L}(\mathbf{v})
+>\end{align} $$
+>Quindi $g(\mathbf{v}) = \mathcal{L}(\mathbf{v})\quad\forall \mathbf{v} \in V$
+> $\CVD$
+```

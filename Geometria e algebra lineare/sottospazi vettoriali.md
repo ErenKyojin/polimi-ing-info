@@ -100,7 +100,7 @@ $$ \begin{align}
 >Siano $H$ e $K$ due sottospazi vettoriali di $V$ spazio vettoriale su $\mathbb{K}$. Se $\dim(H) < +\infty$ e $\dim(K) < +\infty$ allora $\dim(H + K) = \dim(H) + \dim(K) - \dim(H \cap K)$ 
 >
 >>[!dim]
->>Sia $\dim(H) = t$
+>>Sia $\dim(H) = t$, $\dim(K)=s$ e $\dim(H \cap K) =r$. Sia $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r} \}$ una base di $H \cap K$. Completiamo ad una base di $H$ l'insieme $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r} \} :$
 
 >[!esempio]
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e $\dim(V)=4$. Siano $H$ e $K$ sottospazi vettoriali di $V$ di dimensione irspettivamenter $3$ e $2$. Allora $\dim(U \cap V) \geq 1$, infatti:
