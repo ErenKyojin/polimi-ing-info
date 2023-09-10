@@ -19,8 +19,9 @@ otteniamo $A = A^T$
 >>dunque, posto $A = M_{\mathcal{B}}^{\mathcal{B}}(\mathcal{L})$ si ha che:
 >>$$ \begin{align}
 >>\left< \mathcal{L}(\mathbf{v}),\mathbf{w} \right> = \left< \mathbf{v},\mathcal{L}(\mathbf{w}) \right> \forall \mathbf{v},\mathbf{w} \in V \iff  \\
->> \left<x_{\mathcal{B}}(\mathcal{L}(\mathbf{v})),x_{\mathcal{B}}(\mathbf{w})  \right> = \left< x_{\mathcal{B}}(\mathbf{v}),x_{\mathcal{B}}(\mathcal{L}(\mathbf{w})) \right>_{\mathbb{R}^n} \forall \mathbf{v},\mathbf{w} \in V \iff \\
->> \left< A \cdot x_{\mathcal{B}} \right>  
+>> \left<x_{\mathcal{B}}(\mathcal{L}(\mathbf{v})),x_{\mathcal{B}}(\mathbf{w})  \right>_{\mathbb{R}^n} = \left< x_{\mathcal{B}}(\mathbf{v}),x_{\mathcal{B}}(\mathcal{L}(\mathbf{w})) \right>_{\mathbb{R}^n} \forall \mathbf{v},\mathbf{w} \in V \iff \\
+>> \left< A \cdot x_{\mathcal{B}}(\mathbf{v}), x_{\mathcal{B}}(\mathbf{w}) \right>_{\mathbb{R}^n}  = \left< x_{\mathcal{B}}(\mathbf{v}), A \cdot x_{b}(\mathbf{w})  \right>_{\mathbb{R}^n} \forall \mathbf{v},\mathbf{w} \in V \iff \\
+>> \left< A\mathbf{x},\mathbf{y} \right>_{\mathbb{R}^n} = \left< \mathbf{x}, A \cdot \mathbf{y} \right>_{\mathbb{R}^n}\quad \forall \mathbf{x},\mathbf{y} \in \mathbb{R}^n \iff A \text{ simmetrica}
 >>\end{align}$$
 
 
@@ -41,3 +42,13 @@ otteniamo $A = A^T$
 >Quindi $<\mathcal{L}(\mathbf{v}),\mathbf{w}> = <\mathbf{v},\mathcal{L}(\mathbf{w})>$ e $\mathcal{L}$ è simmetrica. Osserviamo che le proiezioni ortogonali sono endomorfismi simmetrici. Infatti se $H \subseteq V$ e $\begin{align}P_{H} : V &\to V \\\mathbf{v} &\mapsto \mathbf{v}_{H}\end{align}$ una base ortonormale di autovettori di $P_{H}$ si puó costruire accostando una base ortonormale per $H$ (autovettori relativi a $1$) e una base ortonormale per $H^\perp$ (autovettori relativi a $0$). Analogamente anche le riflessioni ortogonali sono endomorfismi simmetrici. Se $\mathcal{R} : V \to V (\mathbf{v} \mapsto \mathbf{v} - 2\mathbf{v}_{H^\perp})$ allora una base ortonormale di autovettori di $\mathcal{R}$ si puó costruire accostando una base ortonormale per $H(R | \mathbf{h}) = \mathbf{h} - 2\quad \mathbf{h}_{H^\perp} = \mathbf{h} \quad \forall \mathbf{h} \in H$ ed una base ortonormale per $H^\perp(\mathcal{R}(\mathbf{h}')=\mathbf{h}' - 2\mathbf{h}'_{H^\perp}=\mathbf{h}' -2\mathbf{h}'= -\mathbf{h}' \forall \mathbf{h}' \in H^\perp)$
 
 
+
+```anki
+deck: GAL
+---
+# Un endomorfismo su uno spazio euclideo è simmetrico solo se la matrice della
+Sia $(V, \langle, \rangle)$ uno spazio euclideo di dimensione finita e sia $\mathcal{B}$ una base ortonormale. Un endomorfismo $\mathcal{L} : V \to V$ è simmetrico se e solo se $M_{\mathcal{B}}^\mathcal{B}(\mathcal{L})$ è simmetrica
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
