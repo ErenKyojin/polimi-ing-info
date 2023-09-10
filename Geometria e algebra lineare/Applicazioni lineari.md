@@ -234,7 +234,10 @@ Un'applicazione lineare invertibile  $\mathcal{L} : V \to W$ è detta isomorfism
 >[!proposizione]
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$. Sia $\mathcal{L} : V \to W$ un'applicazione lineare. Allora $\mathcal{L}$ è iniettiva se e solo se $\text{Ker}(\mathcal{L})=\{\mathbf{0}_{W}\}$
 >>[!dim]
->>$\mathcal{L}$ è iniettiva se $\forall \mathbf{w} \in W, \mathcal{L}^{-1}(\mathbf{w})$ è vuoto 
+>>$\mathcal{L}$ è iniettiva se $\forall \mathbf{w} \in W, \mathcal{L}^{-1}(\mathbf{w})$ è vuoto o è un unico elemento. Essendo $\mathbf{0}_{V} \in \mathcal{L}^{-1}(\mathbf{0_{w}})$ si ha $\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_{\mathbf{w}})$ si ha $\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_{W}) = \{ \mathbf{0}_{W} \}$.
+>>Viceversa se $\ker(\mathcal{L}) = \{ \mathbf{0} \}$ allora $\mathcal{L}(\mathbf{v}_{1}) = \mathcal{L}(\mathbf{v}_{2}) \implies \mathcal{L}(\mathbf{v}_{1}) - \mathcal{L}(\mathbf{v}_{2}) = \mathbf{0}_{W} \implies \mathcal{L}(\mathbf{v}_{1} - \mathbf{v}_{2}) =\mathbf{0}_{W}$
+>>$\implies \mathbf{v}_{1} - \mathbf{v}_{2} \in \ker(\mathcal{L}) = \{ \mathbf{0}_{V} \} \implies \mathbf{v}_{1} - \mathbf{v}_{2} = \mathbf{0}_{V} \implies \mathbf{v}_{1} = \mathbf{v}_{2}$
+>>$\implies \mathcal{L}$ è iniettiva 
 
 
 ## Altre osservazioni riguardo le applicazioni lineari
@@ -442,3 +445,17 @@ Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L}(V) \to W$ un'app
 >\end{align} $$
 
 ```
+```anki
+id: 1694357704003
+deck: GAL
+---
+Applicazioni lineari iniettive
+===
+Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$. Sia $\mathcal{L} : V \to W$ un'applicazione lineare. Allora $\mathcal{L}$ è iniettiva se e solo se $\text{Ker}(\mathcal{L})=\{\mathbf{0}_{W}\}$
+>[!dim]
+>$\mathcal{L}$ è iniettiva se $\forall \mathbf{w} \in W, \mathcal{L}^{-1}(\mathbf{w})$ è vuoto o è un unico elemento. Essendo $\mathbf{0}_{V} \in \mathcal{L}^{-1}(\mathbf{0_{w}})$ si ha $\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_{\mathbf{w}})$ si ha $\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_{W}) = \{ \mathbf{0}_{W} \}$.
+>Viceversa se $\ker(\mathcal{L}) = \{ \mathbf{0} \}$ allora $\mathcal{L}(\mathbf{v}_{1}) = \mathcal{L}(\mathbf{v}_{2}) \implies \mathcal{L}(\mathbf{v}_{1}) - \mathcal{L}(\mathbf{v}_{2}) = \mathbf{0}_{W} \implies \mathcal{L}(\mathbf{v}_{1} - \mathbf{v}_{2}) =\mathbf{0}_{W}$
+>$\implies \mathbf{v}_{1} - \mathbf{v}_{2} \in \ker(\mathcal{L}) = \{ \mathbf{0}_{V} \} \implies \mathbf{v}_{1} - \mathbf{v}_{2} = \mathbf{0}_{V} \implies \mathbf{v}_{1} = \mathbf{v}_{2}$
+>$\implies \mathcal{L}$ è iniettiva 
+```
+
