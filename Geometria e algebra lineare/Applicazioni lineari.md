@@ -216,13 +216,25 @@ La fibra di $\mathcal{L}$ sopra $\mathbf{w}$ è $\mathcal{L}^{-1}(\mathbf{w}) = 
 ## criterio di invertibilità
 Una funzione è invertibile se e solo se è iniettiva e suriettiva
 
->[!proposizione]
+>[!proposizione] linearità dell'inversa di un'applicazione lineare
+>Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L}(V) \to W$ un'applicazione lineare iniettiva e suriettiva. Allora la funzione inversa $\mathcal{\mathcal{L}}^{-1} : W \to V$ è lineare
+>
+>>[!dim]
+>>Siano $\mathbf{w}_{1}, \mathbf{w}_{2} \in W$, allora $\exists \mathbf{v}_{1},\mathbf{v}_{2} \in V : \mathcal{L}(\mathbf{v}_{1}) = \mathbf{w}_{1}$ e $\mathcal{L}(\mathbf{v}_{2})=\mathbf{w}_{2}$.
+>>Allora $\forall t_{1},t_{2} \in \mathbb{K}$ si ha
+>>$$ \begin{align}
+> \mathcal{L}^{-1}(t_{1}\mathbf{w}_{1} + t_{2}\mathbf{w}_{2}) &= \mathcal{L}^{-1}(t_{1} \mathcal{L}(\mathbf{v}_{1}) + t_{2} \mathcal{L}(\mathbf{v}_{2})) = \mathcal{L}^{-1}(\mathcal{L}(t_{1}\mathbf{v}_{1} + t_{2}\mathbf{v}_{2})) = \\
+> &=t_{1}\mathbf{v}_{1} + t_{2}\mathbf{v}_{2} = t_{1} \mathcal{L}^{-1}(\mathbf{w}_{1}) + t_{2} \mathcal{L}^{-1}(\mathbf{w}_{2})
+>\end{align} $$
+>
 
 # Isomorfismi
 Un'applicazione lineare invertibile  $\mathcal{L} : V \to W$ è detta isomorfismo. Diremo che $V$ e $W$ sono isomorfi se esiste un isomorfismo $\mathcal{L} : V \to W$
 
 >[!proposizione]
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$. Sia $\mathcal{L} : V \to W$ un'applicazione lineare. Allora $\mathcal{L}$ è iniettiva se e solo se $\text{Ker}(\mathcal{L})=\{\mathbf{0}_{W}\}$
+>>[!dim]
+>>$\mathcal{L}$ è iniettiva se $\forall \mathbf{w} \in W, \mathcal{L}^{-1}(\mathbf{w})$ è vuoto 
 
 
 ## Altre osservazioni riguardo le applicazioni lineari
@@ -394,7 +406,7 @@ Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 >2. $\mathcal{L}$ è suriettiva $\iff r(\mathcal{L}) = m$
 >3. $\mathcal{L}$ è isomorfismo $\iff r(\mathcal{L}) = n = m$
 
-
+# ANKI
 ```anki
 id: 1694352748080
 deck: GAL
@@ -410,4 +422,23 @@ Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ u
 >Devo verificare che:
 >$$ \forall t_1, t_2 \in \mathbb{K}, \forall \mathbf{v}_1,\mathbf{v}_2 \in \mathcal{L}^{-1}(H) \implies t_1 \mathbf{v}_1 + t_2\mathbf{v_2} \in \mathcal{L}^{-1}(H) $$
 >infatti $\forall t_1,t_2 \in \mathbb{K}$ e $\forall \mathbf{v}_1,\mathbf{v}_2 \in \mathcal{L}^{-1}(H)$
+```
+
+
+```anki
+id: 1694357115126
+deck: GAL
+---
+Linearità dell'inversa di un'applicazione lineare
+===
+Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L}(V) \to W$ un'applicazione lineare iniettiva e suriettiva. Allora la funzione inversa $\mathcal{\mathcal{L}}^{-1} : W \to V$ è lineare
+
+>[!dim]
+>Siano $\mathbf{w}_{1}, \mathbf{w}_{2} \in W$, allora $\exists \mathbf{v}_{1},\mathbf{v}_{2} \in V : \mathcal{L}(\mathbf{v}_{1}) = \mathbf{w}_{1}$ e $\mathcal{L}(\mathbf{v}_{2})=\mathbf{w}_{2}$.
+>Allora $\forall t_{1},t_{2} \in \mathbb{K}$ si ha
+>$$ \begin{align}
+> \mathcal{L}^{-1}(t_{1}\mathbf{w}_{1} + t_{2}\mathbf{w}_{2}) &= \mathcal{L}^{-1}(t_{1} \mathcal{L}(\mathbf{v}_{1}) + t_{2} \mathcal{L}(\mathbf{v}_{2})) = \mathcal{L}^{-1}(\mathcal{L}(t_{1}\mathbf{v}_{1} + t_{2}\mathbf{v}_{2})) = \\
+> &=t_{1}\mathbf{v}_{1} + t_{2}\mathbf{v}_{2} = t_{1} \mathcal{L}^{-1}(\mathbf{w}_{1}) + t_{2} \mathcal{L}^{-1}(\mathbf{w}_{2})
+>\end{align} $$
+
 ```
