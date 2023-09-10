@@ -127,7 +127,9 @@ Sia $A \in M_{(n,n)}(\mathbb{K})$, allora è equivalente affermare che
 >Se $\ker(A) = 0 \implies$ il sistema lineare $A \cdot \mathbf{x} = \mathbf{0}$ ammette un unica soluzione. Quindi per il teorema di Rouchè Capelli $r(A) = n$
 >
 >#### $\bullet\ 2 \implies 3$
->Dati $\mathbf{e}_i$ con $i = 1,...,n$ i vettori con 1 nella $i$-esima riga e zero in tutte le altre, per rouchè capelli
+>Dati $\mathbf{e}_i$ con $i = 1,...,n$ i vettori con 1 nella $i$-esima riga e zero in tutte le altre, per rouchè capelli se $r(A) = n$ allora il sistema lineare $A \cdot \mathbf{x} = \mathbf{e}_i$ ammette un unica soluzione $\mathbf{c}_i \in \mathbb{K}^n : A \cdot \mathbf{c}_i = \mathbf{e}_i \forall i = 1,...,n$ 
+>$\implies C$ è inversa destra di $A$. Essendo $C$ invertibile a sinistra allora, per quanto già visto, esiste un'inversa destra di $C$ che chiamiamo $A'$ allora
+>$C \cdot A' = \mathbb{I}_n \implies A' = A \implies A$ invertibile
 ```
 
 <% tp.file.cursor(3) %>
