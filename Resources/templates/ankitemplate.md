@@ -1,6 +1,6 @@
 
 ```anki
-deck: null 
+id: 1694339997004
 ---
 <% tp.file.cursor(1) %>
 ===

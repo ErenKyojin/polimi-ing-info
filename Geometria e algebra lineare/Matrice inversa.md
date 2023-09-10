@@ -88,3 +88,5 @@ Per farlo sfruttiamo l'[[Algoritmo di Gauss-Jordan]]
 Per risolvere gli $n$-sistemi lineari: $A\mathbf{x} = \mathbf{e}_{i}\quad \forall i = 1, \dots, n$, contemporaneamente è sufficiente scrivere la matrice $[A| \mathbf{e}_{1}\ \mathbf{e}_{2}\ \dots\ \mathbf{e}_{n}] = [A|\mathbb{1}_{n}]$
 Attraverso l'algoritmo di Gauss-Jordan otteniamo la matrice $[\mathbb{1}_{n}|C]$, le cui colonne di $C = [\mathbf{c_{1}}\quad\dots\quad \mathbf{c}_{n}]$ sono soluzioni di $A \cdot \mathbf{x} = \mathbf{e}_{i} : A \mathbf{c}_{i} = \mathbf{e}_{i}$, quindi $C$ è l'inversa di $A$ infatti: $AC = [A \mathbf{c_{1}}| A \mathbf{c_{2}}|\dots|A\mathbf{c_{n}}]=[\mathbf{e}_{1}|\mathbf{e}_{2}|\dots|\mathbf{e}_{n}] = \mathbb{1}_{n}$
 
+
+# ANKI
