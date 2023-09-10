@@ -9,10 +9,16 @@
 
 
 ## Proiezione ortogonale su un sottospazio di [[Geometria e algebra lineare/Dimensione]] 1
-Sia $(V, <,>)$ spazio Euclideo. Siano $\mathbf{v},\mathbf{w} \in V$ vettori diversi da $\mathbf{0}$. Sia $H = \Span(\mathbf{w})$ sottospazio di $V$. Esiste un unico vettore $\mathbf{v}_{H} \in H$ tale che $\mathbf{v}- \mathbf{v}_{H} \perp \mathbf{h} \forall \mathbf{h} \in H$. Inoltre si ha che $\mathbf{v}_{H} = \frac{<\mathbf{v},\mathbf{w}>}{\|\mathbf{w}\|^2}$ e $\|\mathbf{v} - \mathbf{h} \| \geq  \|\mathbf{v} - \mathbf{v}_{h}\| \forall \mathbf{h} \in H$. Diremo che $\mathbf{v}_{h}$ è la proiezione ortogonale di $\mathbf{v}$ su $H$ e che per $\mathbf{v}$ si ha la decomposizione ortogonale: $\mathbf{v} = \mathbf{v}_{H} + (\mathbf{v} -\mathbf{v}_{H})$
+
+Sia $(V, <,>)$ spazio Euclideo. Siano $\mathbf{v},\mathbf{w} \in V$ vettori diversi da $\mathbf{0}$. Sia $H = \Span(\mathbf{w})$ sottospazio di $V$.
+1. Esiste un unico vettore $\mathbf{v}_{H} \in H$ tale che $\mathbf{v}- \mathbf{v}_{H} \perp \mathbf{h} \forall \mathbf{h} \in H$. 
+2.  $\|\mathbf{v} - \mathbf{h} \| \geq  \|\mathbf{v} - \mathbf{v}_{h}\| \forall \mathbf{h} \in H$
+3. Inoltre si ha che $\mathbf{v}_{H} = \frac{<\mathbf{v},\mathbf{w}>}{\|\mathbf{w}\|^2}$ .    
+Diremo che $\mathbf{v}_{h}$ è la proiezione ortogonale di $\mathbf{v}$ su $H$ e che per $\mathbf{v}$ si ha la decomposizione ortogonale: $\mathbf{v} = \mathbf{v}_{H} + (\mathbf{v} -\mathbf{v}_{H})$
 
 
 >[!dim]
+>mostriamo che esiste $\mathbf{v}_{H} \in H$ tale che $\mathbf{v}-\mathbf{v}_{H} \perp \mathbf{h}$, $\forall \mathbf{h} \in H$ e che $\mathbf{v}_{H} = \frac{\left< \mathbf{v},\mathbf{w} \right>}{\lvert \lvert \mathbf{w} \rvert \rvert}^$
 
 
 
@@ -61,3 +67,18 @@ Se $Q \in M_{\mathbb{R}(3,3)}$ è ortogonale e $\det(Q) = 1$ allora l'applicazio
 Sia $(V,<,>)$ spazio euclideo, $H \subseteq V$ sottospazio e $\dim(V) < +\infty$. La riflessione ortogonale relativa ad $H$ è definita come: $\mathcal{R}(\mathbf{v}) = \mathbf{v}_{H} - \mathbf{v}_{H^\perp} = \mathbf{v}_{H} + \mathbf{v}_{H^\perp} - \mathbf{v}_{H^\perp} - \mathbf{v}_{H^\perp} = \mathbf{v} - 2\mathbf{v}_{H^\perp}$ 
 In particolare se $P_{H^\perp}$ è la matrice della proiezione ortogonale su $H^\perp$ allora la matrice che rappresenta la riflessione ortogonale rispetto ad $H$ è: $\mathbb{1}_{n} - 2P_{H^\perp}$
 
+# ANKI
+
+```anki
+deck: GAL
+---
+Sia $(V, <,>)$ spazio Euclideo. Siano $\mathbf{v},\mathbf{w} \in V$ vettori diversi da $\mathbf{0}$. Sia $H = \Span(\mathbf{w})$ sottospazio di $V$.
+1. Esiste un unico vettore $\mathbf{v}_{H} \in H$ tale che $\mathbf{v}- \mathbf{v}_{H} \perp \mathbf{h} \forall \mathbf{h} \in H$. 
+2.  $\|\mathbf{v} - \mathbf{h} \| \geq  \|\mathbf{v} - \mathbf{v}_{h}\| \forall \mathbf{h} \in H$
+3. Inoltre si ha che $\mathbf{v}_{H} = \frac{<\mathbf{v},\mathbf{w}>}{\|\mathbf{w}\|^2}$ .    
+Diremo che $\mathbf{v}_{h}$ è la proiezione ortogonale di $\mathbf{v}$ su $H$ e che per $\mathbf{v}$ si ha la decomposizione ortogonale: $\mathbf{v} = \mathbf{v}_{H} + (\mathbf{v} -\mathbf{v}_{H})$
+
+===
+Mostriamo che esiste $$
+```
+<% tp.file.cursor(3) %>
