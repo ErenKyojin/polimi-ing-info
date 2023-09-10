@@ -131,3 +131,38 @@ Abbiamo peró un problema, visto che due matrici simili rappresentano la stessa 
 0 & 0 & 0 & 2
 >\end{array} $$
 
+# ANKI
+
+```anki
+id: 1694364305930
+deck: GAL
+---
+# Invarianti per similitudine
+Siano $A$ e $B$ in $M_{\mathbb{K}(n,n)}$ matrici simili, allora:
+1. le due matrici hanno lo stesso polinomio caratteristico, la stessa traccia, lo stesso [[determinante]] e gli stessi autovalori con la stessa molteplicità algebrica
+2. Le due matrici hanno lo stesso [[rango]]
+3. Le due matrici hanno gli stessi [[Autovalori e Autovettori|autovalori]] con la stessa molteplicità geometrica
+
+===
+>[!dim]
+>Poichè $A$ è simile a $B$ esiste $P \in M_{\mathbb{K}(n,n)}$ invertibile tale che $B = P ^{-1}AP$. Dimostriamo
+>1. Si ha che 
+>$$\begin{align}
+>p_{B} (\lambda) = &\det(B - \lambda \mathbb{1}_{n}) = \det(P^{-1}AP - \lambda P^{-1}P) = \det(P^{-1}(A - \lambda \mathbb{1}_{n})P) = \\
+>> \overset{\text{t di binet}}{=} &\cancel{ \det(P^{-1}) }\det(A - \lambda \mathbb{1}_{n})\cancel{ \det(P) } = \det(A - \lambda \mathbb{1}_{n}) = p_{A}(\lambda)\\
+>\end{align}$$
+>Poichè: $p_{A}(\lambda) = p_{B}(\lambda) = (-1)^{n-1}c_{1} = tr(A), \det(B) = c_{n} = \det(A)$
+>si ha: $tr(B) = (-1)^{n-1} = tr(A), \det(B) = c_{n} = \det(A)$ ed inoltre gli autovalori di $B$ contati con la loro [[molteplicità]] algebrica coincidono con gli autovalori di $A$.
+>
+>2. Poichè $A$ e $B$ rappresentano uno stesso endomorfismo $\mathcal{L} : \mathbb{K}^n \to \mathbb{K}^n$ rispetto a basi diverse, allora
+> $$ r(\mathcal{L}) = \dim(\Im(\mathcal{L})) = r(A) = r(B)$$
+> 3. Dalla relazione $B = P^{-1}AP$ ricaviamo $PB = AP$. Se $\mathbf{v}$ è autovettore di $B$ allora $P\mathbf{v}$ è autovettore di $A$. Infatti
+> $$ A(P\mathbf{v}) = (AP)\mathbf{v} = (PB)\mathbf{v} = P(B\mathbf{v}) = \lambda P\mathbf{v} $$
+> Viceversa dalla relazione $B = P ^{-1}AP$ ricaviamo $BP ^{-1}= P ^{-1}A$. Se $\mathbf{w}$ è autovettore di $A$ allora $P^{-1}\mathbf{w}$ è autovettore di $B$. Infatti
+>  $$ B(P^{-1}\mathbf{w}) = (BP ^{-1})\mathbf{w} = (P ^{-1} A)\mathbf{w} = P ^{-1}(A \mathbf{w}) = \lambda P ^{-1} \mathbf{w} $$
+>  Dunque se $V_{\lambda}$ e $V'_{\lambda}$ sono autospazi di $\lambda$ relativi ad $A$ e a $B$ rispettivamente, $$\begin{align}
+>\mathcal{L}_{p} : V'_{\lambda} &\to V_{\lambda} \\
+> \mathbf{v} &\mapsto P\mathbf{v}
+>\end{align}$$è isomorfismo. Quindi $m_{g}^B(\lambda) = \dim(V_{\lambda}') = m_{g}^A(\lambda)$
+> $\CVD$
+```
