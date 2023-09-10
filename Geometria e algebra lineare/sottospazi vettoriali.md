@@ -100,7 +100,13 @@ $$ \begin{align}
 >Siano $H$ e $K$ due sottospazi vettoriali di $V$ spazio vettoriale su $\mathbb{K}$. Se $\dim(H) < +\infty$ e $\dim(K) < +\infty$ allora $\dim(H + K) = \dim(H) + \dim(K) - \dim(H \cap K)$ 
 >
 >>[!dim]
->>Sia $\dim(H) = t$, $\dim(K)=s$ e $\dim(H \cap K) =r$. Sia $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r} \}$ una base di $H \cap K$. Completiamo ad una base di $H$ l'insieme $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r} \} :$
+>>Sia $\dim(H) = t$, $\dim(K)=s$ e $\dim(H \cap K) =r$. Sia $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r} \}$ una base di $H \cap K$. Completiamo ad una base di $H$ l'insieme $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r} \} : \{ \mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{h}_{1},\dots,\mathbf{h}_{t-r} \}$.
+>>Completiamo ad una base di $K$ l'insieme $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{2} \}$ : $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{k}_{1},\dots,\mathbf{k}_{s-r} \}$.
+>>Si ha che l'insieme : $\{ v_{1},\dots,\mathbf{v}_{r},\mathbf{h}_{1},\dots,\mathbf{h}_{t-r},\mathbf{k}_{1},\dots,\mathbf{k}_{s-r} \}$ è l'insieme di generatori per $H + K$. Mostriamo che è linearmente indipendente e in questo modo abbiamo dimostrato la formula di Grassmann. Consideriamo:
+>>$$ t_{1}\mathbf{v}_{1} + \dots + t_{r}\mathbf{v}_{r} + \alpha_{1} \mathbf{h}_{1} + \dots + \alpha_{t-r} \mathbf{h}_{t-r} + \beta_{1} \mathbf{k}_{1} + \dots + \beta_{s-r}\mathbf{k}_{s-r} = \mathbf{0} $$
+>>Si ha che:
+>>$$ t_{1}\mathbf{v}_{1} + \dots + t_{r}\mathbf{v}_{r} + \alpha_{1}\mathbf{h}_{1} + \dots + \alpha_{t-r}\mathbf{h}_{t-r}  = -(\beta_{1}\mathbf{k}_{1} + \dots + \beta_{s-r} \mathbf{k}_{s-r} ) = -\mathbf{w}$$
+>>Il vettore $$
 
 >[!esempio]
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e $\dim(V)=4$. Siano $H$ e $K$ sottospazi vettoriali di $V$ di dimensione irspettivamenter $3$ e $2$. Allora $\dim(U \cap V) \geq 1$, infatti:
