@@ -95,7 +95,8 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 >>[!dim]
 >>Se $H$ è sottospazio vettoriale di $W$ allora $\mathbf{0}_{W} \in H$. Poichè $\mathbf{0}_{V} \in L$ Poichè $\mathbf{0}_{V} \in \mathcal{L}^{-1}(H)$ si ha $\mathcal{L}^{-1}(H) \neq \varnothing$.
 >>Devo verificare che: $$\forall t_{1},t_{2} \in \mathbb{K}, \forall \mathbf{v}_{1}, \mathbf{v}_{2} \in \mathcal{L}^{-1}(H) \implies t_{1}\mathbf{v}_{1} + t_{2}\mathbf{v}_{2} \in \mathcal{L}^{-1}(H)$$
->>infatti: $\forall t_{1},t_{2} \in \mathbb{K}$ e $\forall\mathbf{v}_{1},\mathbf{v}_{2} \in \mathcal{L}^{-1}(H) $.
+>>
+>>infatti: $\forall t_{1},t_{2} \in \mathbb{K}$ e $\forall\mathbf{v}_{1},\mathbf{v}_{2} \in \mathcal{L}^{-1}(H)$.
 >>
 
 >[!oss]
@@ -399,6 +400,13 @@ deck: GAL
 ---
 Nucleo e immagine di una applicazione lineare sono sottospazi vettoriali (proposizione)
 ===
+Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ un'applicazione lineare
+1. Se $H$ è uno spazio vettoriale di $W$ allora $\mathcal{L}^{-1}(H)$ è sottospazio vettoriale di V
+2. Se $U$ è sottospazio vetoriale di $V$ allora $\mathcal{L}(U)$ è sottospazio vettoriale di $W$
 
+>[!dim]
+>Se $H$ è sottospazio vettoriale di $W$ allora $\mathbf{0}_W \in H$. POichè $\mathbf{0}_V \in L$ poichè $\mathbf{0}_V \in \mathcal{L}^{-1}(H)$ si ha $\mathcal{L}^{-1}(H) \neq \varnothing$.
+>Devo verificare che:
+>$$ \forall t_1, t_2 \in \mathbb{K}, \forall \mathbf{v}_1,\mathbf{v}_2 \in \mathcal{L}^{-1}(H) \implies t_1 \mathbf{v}_1 + t_2\mathbf{v_2} \in \mathcal{L}^{-1}(H) $$
+>infatti $\forall t_1,t_2 \in \mathbb{K}$ e $\forall \mathbf{v}_1,\mathbf{v}_2 \in \mathcal{L}^{-1}(H)$
 ```
-<% tp.file.cursor(3) %>
