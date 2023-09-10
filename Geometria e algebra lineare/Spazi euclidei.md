@@ -69,11 +69,17 @@ Sia $(V,<,>)$ spazio euclideo per ogni $\mathbf{v},\mathbf{w} \in V$ si ha che:
 >Se $\mathbf{w} = \mathbf{0}$ la disuguaglianza è vera. Se $\mathbf{w} \neq 0$ sia $\mathbf{v}_{H}$ la proiezione ortogonale di $\mathbf{v}$ per $H = \Span(\mathbf{w})$.
 >$$ \begin{align}
 >&\lvert \lvert \mathbf{v} \rvert  \rvert ^2 = \lvert \lvert \mathbf{v}-\mathbf{v}_{H} + \mathbf{v}_{H} \rvert  \rvert ^2 = \lvert \lvert  \mathbf{v} - \mathbf{v}_{H} \rvert  \rvert ^2 + \lvert \lvert \mathbf{v}_{H} \rvert  \rvert ^2 \geq \lvert \lvert \mathbf{v}_{H} \rvert  \rvert ^2 \\
-&\implies \lvert \lvert  \mathbf{v}_{H} \rvert  \rvert^2 =\left\lvert  \left\lvert  \frac{\left< \mathbf{v},\mathbf{w} \right> }{}  \right\rvert   \right\rvert  
+&\implies \lvert \lvert  \mathbf{v}_{H} \rvert  \rvert^2 =\left\lvert  \left\lvert  \frac{\left< \mathbf{v},\mathbf{w} \right> }{\left< \mathbf{w},\mathbf{w} \right> } \cdot \mathbf{w}  \right\rvert   \right\rvert  = \frac{\lvert \left< \mathbf{v},\mathbf{w} \right>  \rvert }{\lvert \lvert \mathbf{w} \rvert  \rvert ^4} \cdot \lvert \lvert \mathbf{w} \rvert  \rvert ^2 \leq \lvert \lvert  \mathbf{v} \rvert  \rvert^2  \\
+> &\implies \lvert \left< \mathbf{v},\mathbf{w} \right>  \rvert \leq \lvert \lvert \mathbf{v} \rvert  \rvert \lvert \lvert \mathbf{w} \rvert  \rvert 
 >\end{align} $$
 
 >[!oss]
->Possiamo dimostrare la disuguaglianza triangolare 
+>Possiamo dimostrare la disuguaglianza triangolare
+>$$\begin{align}
+> \lvert \lvert \mathbf{v} + \mathbf{w} \rvert  \rvert ^2 = \lvert \lvert \mathbf{v} \rvert  \rvert ^2 + \lvert \lvert \mathbf{w} \rvert  \rvert ^2 + 2 \left< \mathbf{v}, \mathbf{w} \right>  &\leq \lvert \lvert  \mathbf{v} \rvert  \rvert ^2 + \lvert \lvert \mathbf{w} \rvert  \rvert ^2 + 2\lvert \lvert \mathbf{v} \rvert  \rvert\ \lvert \lvert \mathbf{w} \rvert  \rvert  \\
+&= (\lvert \lvert \mathbf{v} \rvert  \rvert \ \lvert \lvert \mathbf{w} \rvert  \rvert   )^2 \\
+>\end{align}$$
+>
 >e segue
 
 
@@ -96,3 +102,22 @@ Sia $(V,<,>)$ spazio euclideo e sia $\mathcal{B} = \left\{ \mathbf{b}_{1},\dots,
  $\implies \hat{x}_{i} = \frac{<\mathbf{v},\mathbf{b}_{i}>}{\|\mathbf{b}_{i}\|^2}$
  Se $\mathcal{B}$ è base autonormale allora $\mathbf{v} = <\mathbf{v},\mathbf{b}_{1}>\mathbf{b}_{1} + \dots + <\mathbf{v},\mathbf{b}_{n}>\mathbf{b}_{n}$. Inoltre se $\mathcal{B}$ è base autonormale e $\mathbf{x} = \begin{bmatrix}x_{1} & \dots & x_{n}\end{bmatrix}^T$ e $\mathbf{y} = \begin{bmatrix}y_{1} & \dots & y_{n}\end{bmatrix}^T$ sono le coordinate di  $\mathbf{v}$ e $\mathbf{w}$ in $V$ allora
   $$ <\mathbf{v},\mathbf{w}> = <x_{1}\mathbf{b}_{1} + \dots + x_{n}\mathbf{b}_{n}, y_{1}\mathbf{b}_{1} + \dots + y_{n}\mathbf{b}_{n}> = \sum_{i,j=1}^n x_{i}y_{j} <\mathbf{b}_{1},\mathbf{b}_{j}> = x_{1}y_{1} + \dots + x_{n}y_{n} $$
+  # ANKI
+  
+```anki
+id: 1694367136330
+deck: GAL
+---
+# Disuguaglianza di Schwartz
+Sia $(V,<,>)$ spazio euclideo per ogni $\mathbf{v},\mathbf{w} \in V$ si ha che:
+ $$ |<\mathbf{v},\mathbf{w}>| \leq \|\mathbf{v}\|\|\mathbf{w}\| $$
+ e l'uguaglianza si ha se e solo se $\mathbf{v}$ e $\mathbf{w}$ sono linearmente dipendenti
+===
+>[!dim] 18
+>Se $\mathbf{w} = \mathbf{0}$ la disuguaglianza è vera. Se $\mathbf{w} \neq 0$ sia $\mathbf{v}_{H}$ la proiezione ortogonale di $\mathbf{v}$ per $H = \Span(\mathbf{w})$.
+>$$ \begin{align}
+>&\lvert \lvert \mathbf{v} \rvert  \rvert ^2 = \lvert \lvert \mathbf{v}-\mathbf{v}_{H} + \mathbf{v}_{H} \rvert  \rvert ^2 = \lvert \lvert  \mathbf{v} - \mathbf{v}_{H} \rvert  \rvert ^2 + \lvert \lvert \mathbf{v}_{H} \rvert  \rvert ^2 \geq \lvert \lvert \mathbf{v}_{H} \rvert  \rvert ^2 \\
+&\implies \lvert \lvert  \mathbf{v}_{H} \rvert  \rvert^2 =\left\lvert  \left\lvert  \frac{\left< \mathbf{v},\mathbf{w} \right> }{\left< \mathbf{w},\mathbf{w} \right> } \cdot \mathbf{w}  \right\rvert   \right\rvert  = \frac{\lvert \left< \mathbf{v},\mathbf{w} \right>  \rvert }{\lvert \lvert \mathbf{w} \rvert  \rvert ^4} \cdot \lvert \lvert \mathbf{w} \rvert  \rvert ^2 \leq \lvert \lvert  \mathbf{v} \rvert  \rvert^2  \\
+> &\implies \lvert \left< \mathbf{v},\mathbf{w} \right>  \rvert \leq \lvert \lvert \mathbf{v} \rvert  \rvert \lvert \lvert \mathbf{w} \rvert  \rvert 
+>\end{align} $$
+```
