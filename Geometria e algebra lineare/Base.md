@@ -145,3 +145,13 @@ $$\begin{bmatrix}
 \end{bmatrix}$$
 I primi due pivot sono nelle colonne corrispondenti a $\mathbf{v}_{1},\mathbf{v}_{2}$, il terzo invece è nel corrispondente $\mathbf{e}_{1}$, che completa la base:
 $$ \left\{ \mathbf{v}_{1},\mathbf{v}_{2},\mathbf{e}_{1} \right\} $$
+# ANKI
+
+```anki
+deck: GAL
+---
+
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
