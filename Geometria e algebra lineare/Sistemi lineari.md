@@ -326,5 +326,7 @@ Dato il sistema lineare $A \mathbf{x} = \mathbf{b}$ supponsiamo che $\mathbf{x}_
 
 >[!dim]
 >$A(\mathbf{x}_o + \mathbf{x}_h) = A\mathbf{x}_o + A\mathbf{x}_h = \mathbf{b} + \mathbf{0} = \mathbf{b}$
+>
+>Viceversa se $\hat{x}$ è soluzione allora $A\hat{x}=\mathbf{b}$. Osserviamo che $\hat{x} = \mathbf{x}_o + (\mathbf{\hat{x}} - \mathbf{x}_o)$
 ```
 <% tp.file.cursor(3) %>
