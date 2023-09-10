@@ -21,6 +21,7 @@ per definire un **sistema lineare** è necessario prima definire un'[[equazione 
 >
 >Due sistemi lineari sono **equivalenti** se hanno lo stesso insieme di soluzioni
 
+
 ## sistemi lineari di $n$-equazioni in $n$-incognite
 
 Dato un sistema lineare $A \cdot \mathbf{x} = \mathbf{b}$ si hanno i seguenti tre casi:
