@@ -18,7 +18,12 @@ Diremo che $\mathbf{v}_{h}$ è la proiezione ortogonale di $\mathbf{v}$ su $H$ e
 
 
 >[!dim]
->mostriamo che esiste $\mathbf{v}_{H} \in H$ tale che $\mathbf{v}-\mathbf{v}_{H} \perp \mathbf{h}$, $\forall \mathbf{h} \in H$ e che $\mathbf{v}_{H} = \frac{\left< \mathbf{v},\mathbf{w} \right>}{\lvert \lvert \mathbf{w} \rvert \rvert}^$
+>mostriamo che esiste $\mathbf{v}_{H} \in H$ tale che $\mathbf{v}-\mathbf{v}_{H} \perp \mathbf{h}$, $\forall \mathbf{h} \in H$ e che $\mathbf{v}_{H} = \frac{\left< \mathbf{v},\mathbf{w} \right>}{\lvert \lvert \mathbf{w} \rvert \rvert^2}$.
+>Poichè $\mathbf{v}_{H} \in H$ allora è sufficiente determinare $\hat{x} \in \mathbb{R}$ tale che $\mathbf{v}_{H} = \hat{x} \cdot \mathbf{w}$ e inoltre $\left< \mathbf{v}-\mathbf{v}_{H} \right> = 0 \implies \left< \mathbf{v} - \hat{x} \cdot \mathbf{w} , \mathbf{w} \right> = 0 \implies \left< \mathbf{v},\mathbf{w} \right> - \hat{x} \left< \mathbf{v},\mathbf{w} \right> - \hat{x} \left< \mathbf{w},\mathbf{w} \right> = 0$
+>$\implies \hat{x} = \frac{\left< \mathbf{v},\mathbf{w} \right>}{\left< \mathbf{w},\mathbf{w} \right>}$. Quindi $\mathbf{v}_{H}$ esiste ed è $\mathbf{v}_{H} = \frac{\left< \mathbf{v}\mathbf{w} \right>}{\left< \mathbf{w},\mathbf{w} \right>}\mathbf{w}$.
+>Osserviamo che $\mathbf{v}- \mathbf{v}_{H} \perp \mathbf{w} \implies \mathbf{v} -\mathbf{v}_{H} \perp t \cdot \mathbf{w}\ \forall t \in \mathbb{R}$ Mostriamo che $\mathbf{v}_{H}$ è unico. Supponiamo $\mathbf{v}_{H}'$ un altro vettore di $H$ tale per cui $\left< \mathbf{v} - \mathbf{v}_{H}',\mathbf{h} \right>$
+
+
 
 
 
