@@ -92,6 +92,7 @@ t_{d}
 
 >[!proposizione] Proposizione 3
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L} : V \to W$ applicazione lineare iniettiva. Se $\{\mathbf{v}_{1},\dots,\mathbf{v}_{d}\} \subseteq V$ è linearmente indipendente allora
->$\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\}$
+>$\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\} \leq W$ è linearmente indipendente
 >>[!dim]
+>>
 

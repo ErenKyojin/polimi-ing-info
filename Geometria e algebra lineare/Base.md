@@ -148,10 +148,37 @@ $$ \left\{ \mathbf{v}_{1},\mathbf{v}_{2},\mathbf{e}_{1} \right\} $$
 # ANKI
 
 ```anki
+id: 1694358591480
 deck: GAL
 ---
-
+Isomorfismo canonico
 ===
-<% tp.file.cursor(2) %>
+Sia $V$ uno spazio vettoriale su $\mathbb{K}$, un **[[insieme]] ordinato** $\mathbf{B} = \{\mathbf{b_{1}},\mathbf{b_{2}},\dots,\mathbf{b_{n}}\}$ di vettori $V$ si dice base di $V$ se ogni vettore di $V$ si scrive in uno ed un sol modo come [[Combinazioni lineari|combinazione lineare]] di $\mathbf{b_{1}},\dots,\mathbf{b_{n}}$: $\exists! t_{1},\dots,t_{n} \in \mathbb{K}$ t.c.
+ $$ \mathbf{v} = t_{1}\mathbf{b_{1}}+\dots+t_{n}\mathbf{b_{n}} $$
+ 
+>[!oss]
+>Gli scalari $t_{1},\dots,t_{n}$ sono univocamente determinati dalla base $\mathbf{B} = \left\{ \mathbf{b_{1}},\dots,\mathbf{b_{n}} \right\}$ e dal vettore $\mathbf{v}$ e si chiamano [[coordinate]] del vettore $\mathbf{v}$.
+>Quindi fissata una base $\mathbf{B}$ in $\mathbf{v}$ si ha che
+> $$ \begin{flalign}
+>&\qquad\qquad V \ni \mathbf{v} \leftrightarrow [t_{1}\quad \dots \quad t_{n}]^T \in \mathbb{K}^n  &(*)
+\end{flalign}$$
+> Analizziamo la doppia freccia in $(*)$. D(*)A $\mathbb{K}^n$ in $V$ abbiamo la mappa di parametrizzazione associata a $\mathbf{B} = \{\mathbf{b_{1}},\dots,\mathbf{b_{n}}\}$:
+> $$ \begin{align}
+> \mathcal{P} : \mathbb{K}^n &\to V \\
+> \begin{bmatrix}
+>t_{1} \\
+\vdots \\
+t_{n}
+\end{bmatrix} &\mapsto t_{1}\mathbf{b_{1}} + \ldots + t_{n}\mathbf{b_{n}}
+ \end{align} $$
+ Poichè $\mathbf{B}$ soddisfa le proprietà 1. e 2., $\mathcal{P}$ è [[Funzione suriettiva|suriettiva]] ed [[Funzione iniettiva|iniettiva]], quindi $\mathcal{P}$ ammette [[Funzioni|funzione]] inversa $\mathcal{P}^{-1}$ che indicheremo con $x_{\mathbf{B}} : V \to \mathbb{K}^n$. Tale funzione è lineare, essendo l'inversa di una funzione lineare, ed associa ad ogni vettore $\mathbf{v}$ la $n$-upla delle sue componenti rispetto alla base $\mathbf{B}$
+>$$ \begin{align}
+> x_{B} : &V \to \mathbb{K}^n \\
+> &\mathbf{v} \mapsto x_{\mathbf{B}}(\mathbf{v}) = \begin{bmatrix}
+> x_{1}(\mathbf{v}) \\
+>\vdots \\
+x_{n}(\mathbf{v})
+\end{bmatrix}
+>\end{align} $$
+>Quindi: $\mathbf{v} = x_{1}(\mathbf{v})\mathbf{b_{1}} + \dots + x_{n}(\mathbf{v})\mathbf{b_{n}} = \sum_{i=1}^n x_{i}(\mathbf{v})\mathbf{b_{i}}$
 ```
-<% tp.file.cursor(3) %>
