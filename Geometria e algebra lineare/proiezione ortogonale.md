@@ -29,7 +29,11 @@ Diremo che $\mathbf{v}_{h}$ è la proiezione ortogonale di $\mathbf{v}$ su $H$ e
 >\end{align} $$
 >
 >Dimostriamo infine le proprietà della minima distanza.
->$\forall \mathbf{h} in$
+>$\forall \mathbf{h} \in H$ si ha che
+>$$\begin{align}
+> \lvert \lvert \mathbf{v} - \mathbf{h} \rvert  \rvert ^2 &= \lvert \lvert  \mathbf{v} - \mathbf{v}_{H} + \mathbf{v}_{H} - \mathbf{h} \rvert  \rvert ^2  \\
+>&=\lvert \lvert \mathbf{v} - \mathbf{v}_{H} \rvert  \rvert ^2 + \lvert \lvert \mathbf{v}_{H} - \mathbf{h} \rvert  \rvert ^2 \geq \lvert \lvert  \mathbf{v} - \mathbf{v}_{H} \rvert  \rvert ^2
+>\end{align} $$
 
 
 
@@ -83,6 +87,7 @@ In particolare se $P_{H^\perp}$ è la matrice della proiezione ortogonale su $H^
 # ANKI
 
 ```anki
+id: 1694366447953
 deck: GAL
 ---
 Sia $(V, <,>)$ spazio Euclideo. Siano $\mathbf{v},\mathbf{w} \in V$ vettori diversi da $\mathbf{0}$. Sia $H = \Span(\mathbf{w})$ sottospazio di $V$.
@@ -92,6 +97,21 @@ Sia $(V, <,>)$ spazio Euclideo. Siano $\mathbf{v},\mathbf{w} \in V$ vettori dive
 Diremo che $\mathbf{v}_{h}$ è la proiezione ortogonale di $\mathbf{v}$ su $H$ e che per $\mathbf{v}$ si ha la decomposizione ortogonale: $\mathbf{v} = \mathbf{v}_{H} + (\mathbf{v} -\mathbf{v}_{H})$
 
 ===
-Mostriamo che esiste $$
+>[!dim]
+>mostriamo che esiste $\mathbf{v}_{H} \in H$ tale che $\mathbf{v}-\mathbf{v}_{H} \perp \mathbf{h}$, $\forall \mathbf{h} \in H$ e che $\mathbf{v}_{H} = \frac{\left< \mathbf{v},\mathbf{w} \right>}{\lvert \lvert \mathbf{w} \rvert \rvert^2}$.
+>Poichè $\mathbf{v}_{H} \in H$ allora è sufficiente determinare $\hat{x} \in \mathbb{R}$ tale che $\mathbf{v}_{H} = \hat{x} \cdot \mathbf{w}$ e inoltre $\left< \mathbf{v}-\mathbf{v}_{H} \right> = 0 \implies \left< \mathbf{v} - \hat{x} \cdot \mathbf{w} , \mathbf{w} \right> = 0 \implies \left< \mathbf{v},\mathbf{w} \right> - \hat{x} \left< \mathbf{v},\mathbf{w} \right> - \hat{x} \left< \mathbf{w},\mathbf{w} \right> = 0$
+>$\implies \hat{x} = \frac{\left< \mathbf{v},\mathbf{w} \right>}{\left< \mathbf{w},\mathbf{w} \right>}$. Quindi $\mathbf{v}_{H}$ esiste ed è $\mathbf{v}_{H} = \frac{\left< \mathbf{v}\mathbf{w} \right>}{\left< \mathbf{w},\mathbf{w} \right>}\mathbf{w}$.
+>Osserviamo che $\mathbf{v}- \mathbf{v}_{H} \perp \mathbf{w} \implies \mathbf{v} -\mathbf{v}_{H} \perp t \cdot \mathbf{w}\ \forall t \in \mathbb{R}$ Mostriamo che $\mathbf{v}_{H}$ è unico. Supponiamo $\mathbf{v}_{H}'$ un altro vettore di $H$ tale per cui $\left< \mathbf{v} - \mathbf{v}_{H}',\mathbf{h} \right>=0 \forall \mathbf{h} \in H$. Allora.
+>$$ \begin{align}
+>\lvert \lvert \mathbf{v}_{H}-\mathbf{v}_{H}' \rvert  \rvert &= \left< \mathbf{v}_{h} - \mathbf{v}_{h}' , \mathbf{v}_{h} - \mathbf{v}_{h}'\right> = \left< \mathbf{v}_{H}, \mathbf{v}_{H} - \mathbf{v}_{H}' \right> - \left< \mathbf{v}_{H}', \mathbf{v}_{H}-\mathbf{v}_{H} \right>    \\
+>&= \left< \mathbf{v}_{H}, \mathbf{v}_{H}-\mathbf{v} \right> + \left< \mathbf{v}_{H}, \mathbf{v}-\mathbf{v}_{H}'  \right> - \left< \mathbf{v}_{H}', \mathbf{v}_{H} -\mathbf{v} \right> - \left< \mathbf{v}_{H}', \mathbf{v}_{H} - \mathbf{v}_{H}' \right>   \\
+>&= 0 \implies \lvert \lvert \mathbf{v}_{H} - \mathbf{v}_{H}' \rvert  \rvert^2 = 0 \implies \mathbf{v}_{H} - \mathbf{v}_{H}' = \mathbf{0} \implies \mathbf{v}_{H} = \mathbf{v}_{H}' 
+>\end{align} $$
+>
+>Dimostriamo infine le proprietà della minima distanza.
+>$\forall \mathbf{h} \in H$ si ha che
+>$$\begin{align}
+> \lvert \lvert \mathbf{v} - \mathbf{h} \rvert  \rvert ^2 &= \lvert \lvert  \mathbf{v} - \mathbf{v}_{H} + \mathbf{v}_{H} - \mathbf{h} \rvert  \rvert ^2  \\
+>&=\lvert \lvert \mathbf{v} - \mathbf{v}_{H} \rvert  \rvert ^2 + \lvert \lvert \mathbf{v}_{H} - \mathbf{h} \rvert  \rvert ^2 \geq \lvert \lvert  \mathbf{v} - \mathbf{v}_{H} \rvert  \rvert ^2
+>\end{align} $$
 ```
-<% tp.file.cursor(3) %>

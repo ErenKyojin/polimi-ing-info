@@ -66,6 +66,11 @@ Sia $(V,<,>)$ spazio euclideo per ogni $\mathbf{v},\mathbf{w} \in V$ si ha che:
  $$ |<\mathbf{v},\mathbf{w}>| \leq \|\mathbf{v}\|\|\mathbf{w}\| $$
  e l'uguaglianza si ha se e solo se $\mathbf{v}$ e $\mathbf{w}$ sono linearmente dipendenti
 >[!dim] 18
+>Se $\mathbf{w} = \mathbf{0}$ la disuguaglianza è vera. Se $\mathbf{w} \neq 0$ sia $\mathbf{v}_{H}$ la proiezione ortogonale di $\mathbf{v}$ per $H = \Span(\mathbf{w})$.
+>$$ \begin{align}
+>&\lvert \lvert \mathbf{v} \rvert  \rvert ^2 = \lvert \lvert \mathbf{v}-\mathbf{v}_{H} + \mathbf{v}_{H} \rvert  \rvert ^2 = \lvert \lvert  \mathbf{v} - \mathbf{v}_{H} \rvert  \rvert ^2 + \lvert \lvert \mathbf{v}_{H} \rvert  \rvert ^2 \geq \lvert \lvert \mathbf{v}_{H} \rvert  \rvert ^2 \\
+&\implies \lvert \lvert  \mathbf{v}_{H} \rvert  \rvert^2 =\left\lvert  \left\lvert  \frac{\left< \mathbf{v},\mathbf{w} \right> }{}  \right\rvert   \right\rvert  
+>\end{align} $$
 
 >[!oss]
 >Possiamo dimostrare la disuguaglianza triangolare 
