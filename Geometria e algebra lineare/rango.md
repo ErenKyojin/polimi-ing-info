@@ -490,12 +490,12 @@ c
 id: 1694360512252
 deck: GAL
 ---
-Teorema di rappresentazione
-===
+# Teorema di rappresentazione
 Siano $V,W$ spazi vettoriali su $\mathbb{K}$ tali che $\dim(V) = n$ e $\dim(W) = m$.
 Siano $\mathcal{B} = \left\{ \mathbf{b_{1}},\dots,\mathbf{b}_{n} \right\}$ una base di $V$ e $\mathcal{C} = \left\{ \mathbf{c}_{1},\dots,\mathbf{c}_{m} \right\}$ una base di $W$. Siano $\mathbf{x}=[x_{1} \dots x_{n}]^T$ le coordinate di $\mathbf{v} \in V$ rispetto a $\mathcal{B}$ e $\mathbf{y} = [y_{1} \dots y_{m}]^T$ le coordinate di $\mathcal{L}(\mathbf{v}) \in W$ rispetto a $\mathcal{C}$. Allora esiste un'unica matrice $A \in M_{\mathbb{K}}(m,n)$ tale che $\mathbf{y} = A \mathbf{x}$.
 $A$ si chiama **matrice rappresentativa** di $\mathcal{L}$ rispetto alle basi $\mathcal{B}$ e $\mathcal{C}$ e si puó indicare con: $A = M_{\mathcal{C}}^{\mathcal{B}}(\mathcal{L})$
 
+===
 >[!dim]
 >Essendo $x_{\mathcal{B}}(\mathbf{v}) = [x_{1} \dots x_{n}]^T$ allora $\mathbf{v} = x_{1}\mathbf{b}_{1} + \dots + x_{n}\mathbf{b}_{n}$. Inoltre $\mathcal{L}(\mathbf{b}_{i}) \in W \forall i = 1,\dots,n$ quindi li posso scrivere utilizzando la base $\mathbf{c}_{1},\dots,\mathbf{c}_{n}$:
 > $$ \begin{align}

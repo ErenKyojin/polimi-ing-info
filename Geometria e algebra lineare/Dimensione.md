@@ -190,11 +190,10 @@ Se $V$ spazio vettoriale su $\mathbb{K}$ ammette una [[Base]] di cardinalità $n
 id: 1694360108452
 deck: GAL
 ---
-Dimensione di un'applicazione lineare iniettiva su un sottospazio di dimensione finita
-===
-
+# Dimensione di un'applicazione lineare iniettiva su un sottospazio di dimensione finita
 Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ lineare e [[Funzione iniettiva|iniettiva]]. Se $\dim(V)$ è finita e $H$ è sottospazio di $V$ allora $\dim(H) = \dim(\mathcal{L}(H))$
 
+===
 >[!dim]
 >Sia $\mathbf{v}_{1},\dots,\mathbf{v}_{d}$ una base di $H$. Allora $H = \Span\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d} \right\}$ e $\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d} \right\}$ è linearmente indipendente.
 >>Poichè $\mathcal{L}$ è lineare: $\mathcal{L}(H) = \Span\{\mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d})\}$.
