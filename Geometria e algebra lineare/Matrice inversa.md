@@ -95,11 +95,8 @@ Attraverso l'algoritmo di Gauss-Jordan otteniamo la matrice $[\mathbb{1}_{n}|C]$
 id: 1694352841607
 deck: GAL
 ---
-Unicità della matrice inversa (Proposizione)
+# Unicità della matrice inversa (Proposizione)
 ===
-1. $B$ e $C$ sono rispettivamente inversa destra e sinistra di $A$ allora $B = C$
-2. Se $A$ è invertibile allora $A$ ammette un'unica matrice inversa che si denota con $A^{-1}$
-
 >[!dim]
 >1. $B=B \cdot \mathbb{I}_n = B \cdot (A \cdot C) = (B \cdot A) \cdot C = \mathbb{I}_n \cdot C = C$
 >2. Se $A'$ e $A''$ sono inverse di $A$ allora in particolare è vero che $A'$ è inversa sinistra e $A''$ è inversa destra quindi per il punto uno $A' = A''$
@@ -110,14 +107,10 @@ Unicità della matrice inversa (Proposizione)
 id: 1694352984253
 deck: GAL
 ---
-Condizioni necessarie e sufficienti per l'invertibilità di una matrice
+# Condizioni necessarie e sufficienti per l'invertibilità di una matrice
+Sia $V$ uno spazio vettoriale su $\mathbb{K}$, un **[[insieme]] ordinato** $\mathbf{B} = \{\mathbf{b_{1}},\mathbf{b_{2}},\dots,\mathbf{b_{n}}\}$ di vettori $V$ si dice base di $V$ se ogni vettore di $V$ si scrive in uno ed un sol modo come [[Combinazioni lineari|combinazione lineare]] di $\mathbf{b_{1}},\dots,\mathbf{b_{n}}$: $\exists! t_{1},\dots,t_{n} \in \mathbb{K}$ t.c.
+ $$ \mathbf{v} = t_{1}\mathbf{b_{1}}+\dots+t_{n}\mathbf{b_{n}} $$
 ===
-Sia $A \in M_{(n,n)}(\mathbb{K})$, allora è equivalente affermare che
-1. $\ker(A) = 0$
-2. $r(A) = n$
-3. A invertibile
-4. A ha inversa sinistra
-5. A ha inversa destra
 
 >[!dim]
 >Mostriamo $4 \implies 1 \implies 2 \implies 3 \implies 4 \iff 5$
