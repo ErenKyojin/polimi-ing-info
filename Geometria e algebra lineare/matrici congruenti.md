@@ -28,8 +28,10 @@ Sia $S \in M_{\mathbb{R}(n,n)}$ invertibile. Posto $\mathbf{x} = S\mathbf{y}$ si
 >>Posto $\mathbf{y} = U^T \mathbf{x}$ abbiamo
 >>$$ \begin{align}
 >> \lambda_{min} \lvert \lvert \mathbf{y} \rvert  \rvert ^2 \leq \mathbf{y}^T D \mathbf{y} = \lambda_{1}y_{1}^2 + \dots + \lambda_{n}y_{n}^2 \leq \lambda_{max} \lvert \lvert \mathbf{y} \rvert  \rvert^2  \\ 
->> y = U^T\mathbf{x}\\
->> \lambda_{min} \lvert \lvert U^T \mathbf{x} \rvert  \rvert ^2 \leq q(\mathbf{x}) = (U^T\mathbf{x}) D (U^T \mathbf{x}) \leq \lambda_{max} \lvert \lvert U^T \mathbf{x} \rvert  \rvert ^2
+>> \downarrow y = U^T\mathbf{x}\\
+>> \lambda_{min} \lvert \lvert U^T \mathbf{x} \rvert  \rvert ^2 \leq q(\mathbf{x}) = (U^T\mathbf{x}) D (U^T \mathbf{x}) \leq \lambda_{max} \lvert \lvert U^T \mathbf{x} \rvert  \rvert ^2 \\
+>> \downarrow U \text{ortogonale} \\
+>> \lambda_{min} \lvert \lvert \mathbf{x} \rvert  \rvert ^2 \leq q(\mathbf{x}) \leq \lambda_{max}\lvert \lvert \mathbf{x} \rvert  \rvert ^2
 >>\end{align} $$
 >
 >>[!corollario]
@@ -106,3 +108,28 @@ $q(\mathbf{x})$ è indefinita
 >[!oss]
 >Il sottospazio generato dagli autovettori associati ed autovalori positivi è tale per cui $q(\mathbf{x})$ ristretta a questo sottospazio è positiva. La dimensione di tale sottospazio è $s$. Non esistono sottospazi che abbiano dimensione maggiore di $s$ sopra i quali $q(\mathbf{x})$ è definita positiva. Tuttavia il sottospazio di dimensione $s$ sopra cui $q(\mathbf{x})$ ë definita positiva puó non essere unico.
 >Ad esempio: $q(x,y) = x^2 - y^2$ è definita positiva su tutte le rette $y = mx$ con $|m| < 1 (q(x,mx)=(1-m^2)x^2)$. Un ragionamento analogo vale per il sottospazio generato dagli autovettori relativi ad autovalori negativi 
+
+
+# ANKI
+
+```anki
+id: 1694426166104
+deck: GAL
+---
+Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} \forall \mathbf{x} \in \mathbb{R}$ allora
+1. se $\mathbf{v}$ è autovettore di $A$ allora $q(\mathbf{v}) = \lambda \|\mathbf{v}\|^2$
+2. se $\lambda_{\min}$ e $\lambda_{\max}$ sono gli autovalori minimo e massimo di $A$ allora $\lambda_{min} \|\mathbf{x}\|^2 \leq(\mathbf{x}) \leq \lambda_{\max}\|\mathbf{x}\|^2$ 
+===
+>[!dim]
+>1. $q(\mathbf{v}) = \mathbf{v}^TA\mathbf{v} =\mathbf{v}^T(\lambda \mathbf{v}) = \lambda \mathbf{v}^T\mathbf{v} = \lambda \lvert \lvert \mathbf{v} \rvert \rvert^2$
+>2. Per il teorema spettrale esiste $U \in M_{(n,n)}(\mathbb{R})$ ortogonale tale che $U^TAU = \diag(\lambda_{1},\dots,\lambda_{n}) = D \implies A = UDU^T$.
+>Si ha che: $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} = \mathbf{x}^T UDU^T \mathbf{x} = (U^T \mathbf{x})^T D \implies A = (U^T\mathbf{x})DU^T\mathbf{x}$.
+>Posto $\mathbf{y} = U^T \mathbf{x}$ abbiamo
+>$$ \begin{align}
+> \lambda_{min} \lvert \lvert \mathbf{y} \rvert  \rvert ^2 \leq \mathbf{y}^T D \mathbf{y} = \lambda_{1}y_{1}^2 + \dots + \lambda_{n}y_{n}^2 \leq \lambda_{max} \lvert \lvert \mathbf{y} \rvert  \rvert^2  \\ 
+> \downarrow y = U^T\mathbf{x}\\
+> \lambda_{min} \lvert \lvert U^T \mathbf{x} \rvert  \rvert ^2 \leq q(\mathbf{x}) = (U^T\mathbf{x}) D (U^T \mathbf{x}) \leq \lambda_{max} \lvert \lvert U^T \mathbf{x} \rvert  \rvert ^2 \\
+> \downarrow U \text{ortogonale} \\
+> \lambda_{min} \lvert \lvert \mathbf{x} \rvert  \rvert ^2 \leq q(\mathbf{x}) \leq \lambda_{max}\lvert \lvert \mathbf{x} \rvert  \rvert ^2
+>\end{align} $$
+```
