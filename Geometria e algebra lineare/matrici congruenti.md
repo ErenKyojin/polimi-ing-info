@@ -22,6 +22,9 @@ Sia $S \in M_{\mathbb{R}(n,n)}$ invertibile. Posto $\mathbf{x} = S\mathbf{y}$ si
 >2. se $\lambda_{\min}$ e $\lambda_{\max}$ sono gli autovalori minimo e massimo di $A$ allora $\lambda_{min} \|\mathbf{x}\|^2 \leq(\mathbf{x}) \leq \lambda_{\max}\|\mathbf{x}\|^2$ 
 >
 >>[!dim]
+>>1. $q(\mathbf{v}) = \mathbf{v}^TA\mathbf{v} =\mathbf{v}^T(\lambda \mathbf{v}) = \lambda \mathbf{v}^T\mathbf{v} = \lambda \lvert \lvert \mathbf{v} \rvert \rvert^2$
+>>2. Per il teorema spettrale esiste $U \in M_{(n,n)}(\mathbb{R})$ ortogonale tale che $U^TAU = \diag(\lambda_{1},\dots,\lambda_{n}) = D \implies A = UDU^T$.
+>>Si ha che: $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} = \mathbf{x}^T UDU^T \mathbf{x} = (U^T \mathbf{x})^T D \implies A = (U^T\mathbf{x})D$
 >
 >>[!corollario]
 >>Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x}$ allora
