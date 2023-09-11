@@ -320,11 +320,12 @@ Le due rette coincidono
 id: 1694340157927
 deck: GAL
 ---
-Struttura delle soluzioni di un sistema lineare (proposizione)
+# Struttura delle soluzioni di un sistema lineare (proposizione)
+Siano $V,W$ spazi vettoriali su $\mathbb{K}$ tali che $\dim(V) = n$ e $\dim(W) = m$.
+Siano $\mathcal{B} = \left\{ \mathbf{b_{1}},\dots,\mathbf{b}_{n} \right\}$ una base di $V$ e $\mathcal{C} = \left\{ \mathbf{c}_{1},\dots,\mathbf{c}_{m} \right\}$ una base di $W$. Siano $\mathbf{x}=[x_{1} \dots x_{n}]^T$ le coordinate di $\mathbf{v} \in V$ rispetto a $\mathcal{B}$ e $\mathbf{y} = [y_{1} \dots y_{m}]^T$ le coordinate di $\mathcal{L}(\mathbf{v}) \in W$ rispetto a $\mathcal{C}$. Allora esiste un'unica matrice $A \in M_{\mathbb{K}}(m,n)$ tale che $\mathbf{y} = A \mathbf{x}$.
+$A$ si chiama **matrice rappresentativa** di $\mathcal{L}$ rispetto alle basi $\mathcal{B}$ e $\mathcal{C}$ e si puó indicare con: $A = M_{\mathcal{C}}^{\mathcal{B}}(\mathcal{L})$
+
 ===
-Dato il sistema lineare $A \mathbf{x} = \mathbf{b}$ supponsiamo che $\mathbf{x}_o$ sia soluzione, quindi $A\mathbf{x}_o = \mathbf{0}$. Le osluzioni di $A\mathbf{x} = \mathbf{b}$ si ottengono sommando ad $\mathbf{x}_o$ le soluzioni del sistema omogeneo associato $A\mathbf{x} = \mathbf{0}$, sono quindi tutti e soli i vettori della forma $\mathbf{x}_o+\mathbf{x}_h$ con $\mathbf{x}_h \in \ker(A)$
-
-
 >[!dim]
 >$A(\mathbf{x}_o + \mathbf{x}_h) = A\mathbf{x}_o + A\mathbf{x}_h = \mathbf{b} + \mathbf{0} = \mathbf{b}$
 >
