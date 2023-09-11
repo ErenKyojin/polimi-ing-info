@@ -3,7 +3,7 @@
 >
 >>[!dim]
 >>Si procede per induzione sulla dimensione di $V$. Se $\dim(V) = 1$, un versore $\mathbf{v} \in V$ costituisce una base ortonormale di $V$ formata da autovettori di $\mathcal{L}$ ($\mathcal{L}(\mathbf{v}) = \mathbf{w} = \lambda \mathbf{v}$ essendo $V = \Span(\mathbf{v})$).
->>Supponiamo il teorema vero per lo spazio euclideo di dimensione $n-1$. Sia $V$ spazio euclideo di dimensione $n$ e $\mathcal{B}=\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \}$ una base ortonormale di $V$. Sia $A = M_{\mathcal{B}}^{\mathcal{B}}(\mathcal{L})$ allora $A$ è simmetrica. Sia $\lambda_{1}$
+>>Supponiamo il teorema vero per lo spazio euclideo di dimensione $n-1$. Sia $V$ spazio euclideo di dimensione $n$ e $\mathcal{B}=\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \}$ una base ortonormale di $V$. Sia $A = M_{\mathcal{B}}^{\mathcal{B}}(\mathcal{L})$ allora $A$ è simmetrica. Sia $\lambda_{1}$ uno degli autovalori reali di $A$ e $\mathbf{q}_{1}$ uno degli autovettori ad esso associato ($\lambda_{1}$ esiste per la prima proposizione del [[Complemento ortogonale]] e $\mathcal{L}(\mathbf{q}_{1})=\lambda_{1}\mathbf{q}_{1}$). Sia $H=\Span(\mathbf{q}_{1})^\perp$
 >
 >>[!corollario]
 >>Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e $\lambda_{1},\dots,\lambda_{s} \in \mathbb{R}$ i suoi autovalori distinti. Sia
