@@ -116,6 +116,7 @@ $q(\mathbf{x})$ è indefinita
 id: 1694426166104
 deck: GAL
 ---
+# Autovalori e segno di una forma quadratica reale
 Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} \forall \mathbf{x} \in \mathbb{R}$ allora
 1. se $\mathbf{v}$ è autovettore di $A$ allora $q(\mathbf{v}) = \lambda \|\mathbf{v}\|^2$
 2. se $\lambda_{\min}$ e $\lambda_{\max}$ sono gli autovalori minimo e massimo di $A$ allora $\lambda_{min} \|\mathbf{x}\|^2 \leq(\mathbf{x}) \leq \lambda_{\max}\|\mathbf{x}\|^2$ 
