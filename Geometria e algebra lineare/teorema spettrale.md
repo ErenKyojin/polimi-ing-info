@@ -2,7 +2,8 @@
 >Sia $(V,<,>)$ uno [[Spazi euclidei|spazio euclideo]] con $\dim(V) < +\infty$ e $\mathcal{L} : V \to V$ un endomorfismo simmetrico. Allora esiste una base ortonormale di $V$ formata da autovettori di $\mathcal{L}$. In particolare una matrice simmetrica reale è ortogonalmente diagonalizzabile
 >
 >>[!dim]
->>Si procede per induzione sulla dimensione di $V$. Se $\dim(V) = 1$, un versore $\mathbf{v} \in V$ 
+>>Si procede per induzione sulla dimensione di $V$. Se $\dim(V) = 1$, un versore $\mathbf{v} \in V$ costituisce una base ortonormale di $V$ formata da autovettori di $\mathcal{L}$ ($\mathcal{L}(\mathbf{v}) = \mathbf{w} = \lambda \mathbf{v}$ essendo $V = \Span(\mathbf{v})$).
+>>Supponiamo il teorema vero per lo spazio euclideo di dimensione $n-1$. Sia $V$ spazio euclideo di dimensione $n$ e $\mathcal{B}=\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \}$ una base ortonormale di $V$. Sia $A = M_{\mathcal{B}}^{\mathcal{B}}(\mathcal{L})$ allora $A$ è simmetrica. Sia $\lambda_{1}$
 >
 >>[!corollario]
 >>Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e $\lambda_{1},\dots,\lambda_{s} \in \mathbb{R}$ i suoi autovalori distinti. Sia
