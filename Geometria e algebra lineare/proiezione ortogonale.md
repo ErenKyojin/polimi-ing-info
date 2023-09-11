@@ -90,6 +90,7 @@ In particolare se $P_{H^\perp}$ è la matrice della proiezione ortogonale su $H^
 id: 1694366447953
 deck: GAL
 ---
+# Proiezione ortogonale
 Sia $(V, <,>)$ spazio Euclideo. Siano $\mathbf{v},\mathbf{w} \in V$ vettori diversi da $\mathbf{0}$. Sia $H = \Span(\mathbf{w})$ sottospazio di $V$.
 1. Esiste un unico vettore $\mathbf{v}_{H} \in H$ tale che $\mathbf{v}- \mathbf{v}_{H} \perp \mathbf{h} \forall \mathbf{h} \in H$. 
 2.  $\|\mathbf{v} - \mathbf{h} \| \geq  \|\mathbf{v} - \mathbf{v}_{h}\| \forall \mathbf{h} \in H$
