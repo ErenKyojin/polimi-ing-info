@@ -24,7 +24,13 @@ Sia $S \in M_{\mathbb{R}(n,n)}$ invertibile. Posto $\mathbf{x} = S\mathbf{y}$ si
 >>[!dim]
 >>1. $q(\mathbf{v}) = \mathbf{v}^TA\mathbf{v} =\mathbf{v}^T(\lambda \mathbf{v}) = \lambda \mathbf{v}^T\mathbf{v} = \lambda \lvert \lvert \mathbf{v} \rvert \rvert^2$
 >>2. Per il teorema spettrale esiste $U \in M_{(n,n)}(\mathbb{R})$ ortogonale tale che $U^TAU = \diag(\lambda_{1},\dots,\lambda_{n}) = D \implies A = UDU^T$.
->>Si ha che: $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} = \mathbf{x}^T UDU^T \mathbf{x} = (U^T \mathbf{x})^T D \implies A = (U^T\mathbf{x})D$
+>>Si ha che: $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} = \mathbf{x}^T UDU^T \mathbf{x} = (U^T \mathbf{x})^T D \implies A = (U^T\mathbf{x})DU^T\mathbf{x}$.
+>>Posto $\mathbf{y} = U^T \mathbf{x}$ abbiamo
+>>$$ \begin{align}
+>> \lambda_{min} \lvert \lvert \mathbf{y} \rvert  \rvert ^2 \leq \mathbf{y}^T D \mathbf{y} = \lambda_{1}y_{1}^2 + \dots + \lambda_{n}y_{n}^2 \leq \lambda_{max} \lvert \lvert \mathbf{y} \rvert  \rvert^2  \\ 
+>> y = U^T\mathbf{x}\\
+>> \lambda_{min} \lvert \lvert U^T \mathbf{x} \rvert  \rvert ^2 \leq q(\mathbf{x}) = (U^T\mathbf{x}) D (U^T \mathbf{x}) \leq \lambda_{max} \lvert \lvert U^T \mathbf{x} \rvert  \rvert ^2
+>>\end{align} $$
 >
 >>[!corollario]
 >>Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x}$ allora
