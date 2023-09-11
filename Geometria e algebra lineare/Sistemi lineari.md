@@ -321,9 +321,7 @@ id: 1694340157927
 deck: GAL
 ---
 # Struttura delle soluzioni di un sistema lineare (proposizione)
-Siano $V,W$ spazi vettoriali su $\mathbb{K}$ tali che $\dim(V) = n$ e $\dim(W) = m$.
-Siano $\mathcal{B} = \left\{ \mathbf{b_{1}},\dots,\mathbf{b}_{n} \right\}$ una base di $V$ e $\mathcal{C} = \left\{ \mathbf{c}_{1},\dots,\mathbf{c}_{m} \right\}$ una base di $W$. Siano $\mathbf{x}=[x_{1} \dots x_{n}]^T$ le coordinate di $\mathbf{v} \in V$ rispetto a $\mathcal{B}$ e $\mathbf{y} = [y_{1} \dots y_{m}]^T$ le coordinate di $\mathcal{L}(\mathbf{v}) \in W$ rispetto a $\mathcal{C}$. Allora esiste un'unica matrice $A \in M_{\mathbb{K}}(m,n)$ tale che $\mathbf{y} = A \mathbf{x}$.
-$A$ si chiama **matrice rappresentativa** di $\mathcal{L}$ rispetto alle basi $\mathcal{B}$ e $\mathcal{C}$ e si puó indicare con: $A = M_{\mathcal{C}}^{\mathcal{B}}(\mathcal{L})$
+Dato il sistema lineare $A\mathbf{x} = \mathbf{b}$ supponiamo che $\mathbf{x}_{0}$ sia soluzione, quindi $A\mathbf{x}_{0} = \mathbf{b}$ le soluzioni di $A\mathbf{x} = \mathbf{b}$ si ottengono sommando ad $\mathbf{x}_{0}$ le soluzioni del sistema omogeneo associato $A\mathbf{x} =\mathbf{0}$, quindi sono tutti e soli i vettori della forma $\mathbf{x}_{o}+\mathbf{x}_{h}$ con $\mathbf{x}_{h} \in \ker(A)$
 
 ===
 >[!dim]

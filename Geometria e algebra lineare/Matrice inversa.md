@@ -96,6 +96,8 @@ id: 1694352841607
 deck: GAL
 ---
 # Unicità della matrice inversa (Proposizione)
+1. $B$ e $C$ sono rispettivamente inversa destra e sinistra di $A$ allora $B = C$
+2. Se $A$ è invertibile allora $A$ ammette un'unica matrice inversa che si denota con $A^{-1}$
 ===
 >[!dim]
 >1. $B=B \cdot \mathbb{I}_n = B \cdot (A \cdot C) = (B \cdot A) \cdot C = \mathbb{I}_n \cdot C = C$
