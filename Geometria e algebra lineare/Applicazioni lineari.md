@@ -461,6 +461,7 @@ Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$. Sia $\mathcal{L} : V \to W$ un
 
 
 ```anki
+id: 1694424492505
 deck: GAL
 ---
 # costruzione di un applicazione lineare
