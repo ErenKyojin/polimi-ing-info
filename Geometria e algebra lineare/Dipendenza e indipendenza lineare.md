@@ -103,10 +103,10 @@ t_{d}
 id: 1694359443305
 deck: GAL
 ---
-Indipendenza lineare di un'applicazione lineare iniettiva 
-===
-Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L} : V \to W$ applicazione lineare iniettiva. Se $\{\mathbf{v}_{1},\dots,\mathbf{v}_{d}\} \subseteq V$ è linearmente indipendente allora
+# Indipendenza lineare di un'applicazione lineare iniettiva 
+Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L} : V \to W$ applicazione lineare iniettiva. Se $\{\mathbf{v}_{0},\dots,\mathbf{v}_{d}\} \subseteq V$ è linearmente indipendente allora
 $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\} \leq W$ è linearmente indipendente
+===
 >[!dim]
 >Consideriamo una combinazione lineare di $\mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{2})$ e poniamolo uguale al vettore nullo:
 >$$ t_{1}\mathcal{L}(\mathbf{v}_{1}) + \dots t_{d}\mathcal{L}(\mathbf{v}_{d}) = \mathbf{0}$$

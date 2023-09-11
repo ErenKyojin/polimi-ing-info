@@ -414,12 +414,12 @@ Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 id: 1694352748080
 deck: GAL
 ---
-Nucleo e immagine di una applicazione lineare sono sottospazi vettoriali (proposizione)
-===
+# Nucleo e immagine di una applicazione lineare sono sottospazi vettoriali (proposizione)
+
 Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ un'applicazione lineare
 1. Se $H$ è uno spazio vettoriale di $W$ allora $\mathcal{L}^{-1}(H)$ è sottospazio vettoriale di V
 2. Se $U$ è sottospazio vetoriale di $V$ allora $\mathcal{L}(U)$ è sottospazio vettoriale di $W$
-
+===
 >[!dim]
 >Se $H$ è sottospazio vettoriale di $W$ allora $\mathbf{0}_W \in H$. POichè $\mathbf{0}_V \in L$ poichè $\mathbf{0}_V \in \mathcal{L}^{-1}(H)$ si ha $\mathcal{L}^{-1}(H) \neq \varnothing$.
 >Devo verificare che:
@@ -432,10 +432,10 @@ Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ u
 id: 1694357115126
 deck: GAL
 ---
-Linearità dell'inversa di un'applicazione lineare
-===
-Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L}(V) \to W$ un'applicazione lineare iniettiva e suriettiva. Allora la funzione inversa $\mathcal{\mathcal{L}}^{-1} : W \to V$ è lineare
+# Linearità dell'inversa di un'applicazione lineare
 
+Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L}(V) \to W$ un'applicazione lineare iniettiva e suriettiva. Allora la funzione inversa $\mathcal{\mathcal{L}}^{-1} : W \to V$ è lineare
+===
 >[!dim]
 >Siano $\mathbf{w}_{1}, \mathbf{w}_{2} \in W$, allora $\exists \mathbf{v}_{1},\mathbf{v}_{2} \in V : \mathcal{L}(\mathbf{v}_{1}) = \mathbf{w}_{1}$ e $\mathcal{L}(\mathbf{v}_{2})=\mathbf{w}_{2}$.
 >Allora $\forall t_{1},t_{2} \in \mathbb{K}$ si ha
@@ -449,9 +449,9 @@ Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L}(V) \to W$ un'app
 id: 1694357704003
 deck: GAL
 ---
-Applicazioni lineari iniettive
-===
+# Applicazioni lineari iniettive
 Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$. Sia $\mathcal{L} : V \to W$ un'applicazione lineare. Allora $\mathcal{L}$ è iniettiva se e solo se $\text{Ker}(\mathcal{L})=\{\mathbf{0}_{W}\}$
+===
 >[!dim]
 >$\mathcal{L}$ è iniettiva se $\forall \mathbf{w} \in W, \mathcal{L}^{-1}(\mathbf{w})$ è vuoto o è un unico elemento. Essendo $\mathbf{0}_{V} \in \mathcal{L}^{-1}(\mathbf{0_{w}})$ si ha $\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_{\mathbf{w}})$ si ha $\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_{W}) = \{ \mathbf{0}_{W} \}$.
 >Viceversa se $\ker(\mathcal{L}) = \{ \mathbf{0} \}$ allora $\mathcal{L}(\mathbf{v}_{1}) = \mathcal{L}(\mathbf{v}_{2}) \implies \mathcal{L}(\mathbf{v}_{1}) - \mathcal{L}(\mathbf{v}_{2}) = \mathbf{0}_{W} \implies \mathcal{L}(\mathbf{v}_{1} - \mathbf{v}_{2}) =\mathbf{0}_{W}$

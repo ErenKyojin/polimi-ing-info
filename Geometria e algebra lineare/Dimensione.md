@@ -163,10 +163,10 @@ t_{n}
 id: 1694359539457
 deck: GAL
 ---
-Lemma fondamentale
-===
+# Lemma fondamentale
 Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L} : V \to W$ applicazione lineare iniettiva. Se $\{\mathbf{v}_{1},\dots,\mathbf{v}_{d}\} \subseteq V$ è linearmente indipendente allora
 $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\} \leq W$ è linearmente indipendente
+===
 >[!dim]
 >Consideriamo una combinazione lineare di $\mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{2})$ e poniamolo uguale al vettore nullo:
 >$$ t_{1}\mathcal{L}(\mathbf{v}_{1}) + \dots t_{d}\mathcal{L}(\mathbf{v}_{d}) = \mathbf{0}$$
@@ -176,10 +176,9 @@ $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\} 
 id: 1694359726052
 deck: GAL
 ---
-Dimensione = Cardinalità (teorema)
-===
+# Dimensione = Cardinalità (teorema)
 Se $V$ spazio vettoriale su $\mathbb{K}$ ammette una [[Base]] di cardinalità $n$ allora $\dim(V)=n$
-
+===
 >[!dim]
 >Sia $\mathcal{B}=\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ una base per $V$. allora:
 >1. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è linearmente indipendente quindi per le definizio di dimensione: $\dim(V) \geq n$
