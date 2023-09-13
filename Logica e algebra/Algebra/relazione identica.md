@@ -10,6 +10,3 @@ ed analogamente considerata la relazione identica su $A_{1}, I_{A_{2}} = \{ (a_{
 
 In generale si ha però che
 $R \cdot R^{-1} \neq I_{A_{1}}$ e $R^{-1} \cdot R \neq I_{A_{2}}$.
-
-
-

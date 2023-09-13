@@ -62,6 +62,7 @@ $R \subseteq A_{1} \times A_{2}$, $T \subseteq A_{2} \times A_{3}$ definiamo:
 	- Il prodotto si conserva per inclusione $R,T \subseteq A_{1} \times A_{2}; S,V \subseteq A_{2} \times A_{3} \implies R \subseteq T, S \subseteq V \implies RS \subseteq TV$
 
 ### - [[relazione inversa]]
+### - [[relazione identica]]
 ### - [[relazioni binarie]]
 ### - [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]]
 ### - [[relazione d'ordine]]
@@ -91,3 +92,7 @@ $R \cup T \iff$
 ===
 #todo
 ```
+#todo 
+$$ \begin{align}
+(R \cap T)^{-1} =
+\end{align} $$
