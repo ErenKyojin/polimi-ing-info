@@ -5,6 +5,7 @@ modification date: 2023-07-07 09:14
 ---
 # Prima parte
 #### [[Metrologia]] 
+- [[misura]] 
 - [[misuratore]]
 #### Incertezza di misura
 #### Rappresentazioen grafica
