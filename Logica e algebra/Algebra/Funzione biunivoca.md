@@ -12,7 +12,7 @@ Naturalmente per verificare che una [[Relazioni|relazione]] $f$ è una funzione 
 
 Rappresentando la $f$ tramite la sua [[matrice di incidenza]] (se possibile), si ha che $f$ è una funzione biunivoca se e solo se su ogni riga e su ogni colonna della matrice c'è uno ed un solo 1.
 
-Rappresentando la $f$ tramite il suo [[grafo di incidenza]] (se possibile), si ha che $f$ è una funzione biunivoca se e solo se da ogni vertice che rappresenta un elemento di $A$ esce uno ed un solo arco e ad ogni vertice che rappresenta un elemento di $B$ arriva uno ed un solo arco
+Rappresentando la $f$ tramite il suo [[grafo di adiacenza]] (se possibile), si ha che $f$ è una funzione biunivoca se e solo se da ogni vertice che rappresenta un elemento di $A$ esce uno ed un solo arco e ad ogni vertice che rappresenta un elemento di $B$ arriva uno ed un solo arco
 
 È immediato provare che
 - Il prodotto di due funzioni biunivoche è una funzione biunivoca

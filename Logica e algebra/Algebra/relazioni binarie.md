@@ -8,7 +8,7 @@ Consideriamo il caso di [[Relazione]] con $n = 2$ (con arità $2$), dette **rela
 Se $R$ è una relazione binaria la notazione $a_{1}\ R\ a_{2}$ ha lo stesso significato della scrittura $(a_{1},a_{2}) \in R$
 Nel caso in cui gli insiemi $A_{1}$ e $A_{2}$ con cui lavoriamo contengano un numero finito di elementi (che indicheremo rispettivamente con $|A_{1}|$ e $|A_{2}|$ tali quantità), una relazione $R \subseteq A_{1} \times A_{2}$ potrà essere utilmente rappresentata attraverso:
 
-![[grafo di incidenza]]
+![[grafo di adiacenza]]
 
 ![[matrice di incidenza]]
 
@@ -126,7 +126,7 @@ Le relazioni binarie su un insieme $A$ finite, possono essere facilmente rappres
 Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà, per le applicazioni successive, consideriamo le seguenti:
 
 - **proprietà seriale**: si dice che una relazione $R$ gode della proprietà seriale (o semplicemenete è seriale) se per ogni $a \in A$ esiste (almeno) un $a_{I} \in A$ tale che $(a,a_{I}) \in R$.
-  - In termini di [[grafo di incidenza]] una relazione è seriale se e solo se per ogni vertice parte almeno un arco.
+  - In termini di [[grafo di adiacenza]] una relazione è seriale se e solo se per ogni vertice parte almeno un arco.
   - In termini di [[matrice di incidenza]] una relazione è seriale se e solo se in ogni riga della matrice c'è almeno un $1$.
   - $I_{A}$ e $\omega_{A}$ sono relazioni seriali
 - **Proprietà riflessiva**: si dice che una relazione $R$ gode della proprietà riflessiva (o semplicemente è riflessiva) se per ogni $a \in A$ si ha $(a,a) \in R$.

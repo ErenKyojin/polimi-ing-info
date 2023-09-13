@@ -23,7 +23,7 @@ Se $R$ è una relazione d'ordine su $A$ si usa per convenzione scrivere $a \leq 
 >[!oss]
 >Data una relazione $R$ non esiste in genere una relazione d'ordine che contenga $R$ perchè se $R$ non è antisimmetrica tutte le relazioni che contengono $R$ non sono antisimmetriche. Ci si potrebbe allora chiedere se una relazione antisimmetrica $R$ possa sempre essere contenuta in una relazione d'ordine. Poichè una relazione d'ordine è riflessiva e transitiva, se esistesse una relazione d'ordine contenente $R$, questa conterrebbe la [[chiusura]] riflessiva e transitiva di $R$. Se tale chiusura non risulta antisimmetria è anche una relazione d'ordine e quindi abbiamo trovato una relazione d'ordine che contiene $R$ (che è tra l'altro la minima relazione d'ordine che contiene $R$)
 
-Quando si lavora con relazioni d'ordine $\leq$ su un insieme finito $A$, si utilizza spesso una versione semplificata del [[grafo di incidenza]] di $\leq$, detto [[diagramma di Hasse]]
+Quando si lavora con relazioni d'ordine $\leq$ su un insieme finito $A$, si utilizza spesso una versione semplificata del [[grafo di adiacenza]] di $\leq$, detto [[diagramma di Hasse]]
 
 Si consideri ora un insieme parzialmente ordinato $A$ (e indichiamo con $\leq$ la sua relazione d'ordine).
 - Diciamo **minimo** di $A$ (se esiste) un $m \in A$ tale che per ogni $a \in A$ sia $m \leq a$
