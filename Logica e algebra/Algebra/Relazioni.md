@@ -49,7 +49,7 @@ Valgono le proprietà dell'insiemistica:
 - **idempotenza**
 - **leggi di assorbimento** $R \cup (R \cap T) = R, R \cap (R \cup T) = R$
 
-Possiamo rappresentare una relazione su due insiemi finiti con un [[grafo di adiacenza]] 
+Possiamo rappresentare una relazione su due insiemi finiti con un [[grafo di adiacenza]] o con una [[matrice di adiacenza]] 
 ### - [[relazioni binarie]]
 ### - [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]]
 ### - [[relazione d'ordine]]

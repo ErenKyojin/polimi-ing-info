@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - matrice di incidenza
 creation date: 2023-04-26 09:14
 modification date: 2023-04-26 09:14
 ---
@@ -33,3 +34,14 @@ Dopo aver fissato un ordine fra gli $|A_{1}|$ elementi di $A_{1}$ e fra gli $|A_
 > 
 
 
+$R \subseteq A_{1} \times A_{2}, T \subseteq A_{1} \times A_{2}$ con $|A_{1}| = n$ e $|A_{2}|=m$ date le matrici di incidenza $M_{R}$ e $M_{T}$
+$$ \begin{align}
+R \cap T \subseteq A_{1} \times A_{2} \quad M_{R \cap T}  \\
+R \cup T \subseteq A_{1} \times A_{2}\quad M_{R\cup T}
+\end{align}$$
+C'è una relazione tra le matrici delle relazioni e la matrice della nuova relazione?
+$$ \begin{align}
+M_{R\cap T} = M_{R} \cdot M_{T} \\
+M_{R \cup T} = M_{R} + M_{T}
+\end{align} $$
+Con il primo prodotto elemento per elemento (avremo 1 solo nelle posizioni hanno entrambi 1) ed il secondo somma booleana (1 + 1 = 1, 1 + 0 = 1, 0 + 0 = 0)

@@ -10,7 +10,7 @@ modification date: 2023-04-28 15:46
 
 Naturalmente per verificare che una [[Relazioni|relazione]] $f$ è una funzione biunivoca va anche verificata la condizione.
 
-Rappresentando la $f$ tramite la sua [[matrice di incidenza]] (se possibile), si ha che $f$ è una funzione biunivoca se e solo se su ogni riga e su ogni colonna della matrice c'è uno ed un solo 1.
+Rappresentando la $f$ tramite la sua [[matrice di adiacenza]] (se possibile), si ha che $f$ è una funzione biunivoca se e solo se su ogni riga e su ogni colonna della matrice c'è uno ed un solo 1.
 
 Rappresentando la $f$ tramite il suo [[grafo di adiacenza]] (se possibile), si ha che $f$ è una funzione biunivoca se e solo se da ogni vertice che rappresenta un elemento di $A$ esce uno ed un solo arco e ad ogni vertice che rappresenta un elemento di $B$ arriva uno ed un solo arco
 

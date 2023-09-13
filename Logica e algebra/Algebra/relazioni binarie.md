@@ -10,9 +10,9 @@ Nel caso in cui gli insiemi $A_{1}$ e $A_{2}$ con cui lavoriamo contengano un nu
 
 ![[grafo di adiacenza]]
 
-![[matrice di incidenza]]
+![[matrice di adiacenza]]
 
-Osserviamo che, date le [[matrici]] di incidenza $M_{R}$ e $M_{T}$ di due relazioni binarie $R,T \subseteq A_{1} \times A_{2}$ si possono immediatamente ottenere la [[matrice di incidenza]] di $R \cap T$ (facendo il prodotto elemento per elemento di $M_{R}$ con $M_{T}$) e quella di $R \cup T$ (facendo la somma di $M_{R}$ con $M_{T}$ e ponendo uguale ad $1$ tutti gli elementi della somma maggiore di $0$).
+Osserviamo che, date le [[matrici]] di incidenza $M_{R}$ e $M_{T}$ di due relazioni binarie $R,T \subseteq A_{1} \times A_{2}$ si possono immediatamente ottenere la [[matrice di adiacenza]] di $R \cap T$ (facendo il prodotto elemento per elemento di $M_{R}$ con $M_{T}$) e quella di $R \cup T$ (facendo la somma di $M_{R}$ con $M_{T}$ e ponendo uguale ad $1$ tutti gli elementi della somma maggiore di $0$).
 
 Siano ora date le relazioni $R \subseteq A_{1} \times A_{2}$ e $T \subseteq A_{2} \times A_{3}$. Si chiama prodotto delle due relazioni la relazione $R \cdot T \subseteq A_{1} \times A_{3}$ così definita:
 $$ R \cdot T = \{ (a_{1},a_{3}) | \exists a_{2} : (a_{1},a_{2}) \in R \text{ e } (a_{2},a_{3}) \in T \} $$
@@ -80,7 +80,7 @@ M_{R} = \begin{bmatrix}
 0 & 1
 \end{bmatrix}
 $$
-Si può effettuare il prodotto di matrici e si ottiene la matrice $\begin{bmatrix}1 & 1\\2 & 0\\0 & 0\end{bmatrix}$ che, con la solita convenzione di porre uguale ad $1$ tutti gli elementi maggiori di $0$, è proprio la [[matrice di incidenza]] di $R \cdot T$, infatti l'elemento di posto $(i,k)$ di questa matrice è diverso da $0$ se e solo se esiste un $j$ tale che l'elemento di posto $(i,j)$ di $M_{R}$ e l'elemento di posto $(j,k)$ di $M_{T}$ siano entrambi non nulli.
+Si può effettuare il prodotto di matrici e si ottiene la matrice $\begin{bmatrix}1 & 1\\2 & 0\\0 & 0\end{bmatrix}$ che, con la solita convenzione di porre uguale ad $1$ tutti gli elementi maggiori di $0$, è proprio la [[matrice di adiacenza]] di $R \cdot T$, infatti l'elemento di posto $(i,k)$ di questa matrice è diverso da $0$ se e solo se esiste un $j$ tale che l'elemento di posto $(i,j)$ di $M_{R}$ e l'elemento di posto $(j,k)$ di $M_{T}$ siano entrambi non nulli.
 Notiamo anche che la presenza di un $t > 1$ nel osto $(i,k)$ della matrice implica che ci sono $t$ diversi elementi dell'[[insieme]] $A_{2}$ che possono servire da collegamento nel prodotto.
 In questo esempio abbiamo $2$ nel posto $(2,1)$ perchè possiamo arrivare ad $h$ da $b$ attraverso due percorsi diversi $x,z$:
 $$ b\ R\ x \quad\text{ e }\quad x\ T\ h\qquad,\qquad b\ R\ z\quad \text{e}\quad z\ T\ h $$
@@ -127,7 +127,7 @@ Le relazioni binarie su un insieme $A$ possono godere di interessanti proprietà
 
 - **proprietà seriale**: si dice che una relazione $R$ gode della proprietà seriale (o semplicemenete è seriale) se per ogni $a \in A$ esiste (almeno) un $a_{I} \in A$ tale che $(a,a_{I}) \in R$.
   - In termini di [[grafo di adiacenza]] una relazione è seriale se e solo se per ogni vertice parte almeno un arco.
-  - In termini di [[matrice di incidenza]] una relazione è seriale se e solo se in ogni riga della matrice c'è almeno un $1$.
+  - In termini di [[matrice di adiacenza]] una relazione è seriale se e solo se in ogni riga della matrice c'è almeno un $1$.
   - $I_{A}$ e $\omega_{A}$ sono relazioni seriali
 - **Proprietà riflessiva**: si dice che una relazione $R$ gode della proprietà riflessiva (o semplicemente è riflessiva) se per ogni $a \in A$ si ha $(a,a) \in R$.
   Si può provare facilmente che una relazione è riflessiva se e solo se $I_{A} \subseteq R$

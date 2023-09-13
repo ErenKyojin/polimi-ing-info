@@ -6,15 +6,12 @@ modification date: 2023-04-26 09:14
 ---
 
 Un grafo orientato è una coppia di insiemi $(V,E)$, $V$ è l'[[insieme]] dei vertici, $E$ è l'[[insieme]] degli archi, ogni arco può essere pensato come una coppia di vertici, il primo elemento della coppia si dice vertice iniziale dell'arco, il secondo vertice finale.
-$V = \{ a_{1},a_{2},\dots,a_{n},b_{1},b_{2},\dots,b_{n} \}$incidenza
-$A_{1} = \{ a, b, c \}$
-$A_{2} = \{ x,y \}$
-$R = \{ (a,x),(b,x) \}$
+
 Un grafo si può disegnare rappresentando i suoi vertici come punti ed i suoi archi come frecce dal vertice iniziale al vertice finale.
 In particolare se partiamo da una relazione $R \subseteq A_{1} \times A_{2}$ si dice il grafo di incidenza di $R$ il frafo il cui insieme di vertici è $A_{1} \cup A_{2}$ e il cui insieme di archi è $R$
 
 > [!esempio]
-> Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, R = \{ (a,x),(a,w),(b,x),(b,y),(b,z) \}$ il grafo di incidenza di $R$ è
+> Siano $A_{1} = \{ a,b,c \}, A_{2} = \{ x,y,z,w \}, R = \{ (a,x),(a,w),(b,x),(b,y),(b,z) \}$ il grafo di incidenza di $R$ è.
 > ```tikz
 > \begin{document}
 > \begin{tikzpicture}
@@ -45,6 +42,7 @@ In particolare se partiamo da una relazione $R \subseteq A_{1} \times A_{2}$ si 
 > \end{tikzpicture}
 > \end{document}
 > ```
+>  $V = \{ a_{1},a_{2},\dots,a_{n},b_{1},b_{2},\dots,b_{n} \}$
 
 
 

@@ -31,7 +31,7 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 - [ ] componenti e variabili 
 - [ ] Teoria dei [[Grafo|grafi]] [^1]
 - [ ] Equazioni algebriche
-- [ ] [[Matrice di incidenza]] [^1]  
+- [ ] [[matrice di adiacenza]] [^1]  
 	- [ ] Matrice di incidenza ridotta
 - [ ] Equazioni di Tableu
 
