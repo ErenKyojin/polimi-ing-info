@@ -50,6 +50,13 @@ Valgono le proprietà dell'insiemistica:
 - **leggi di assorbimento** $R \cup (R \cap T) = R, R \cap (R \cup T) = R$
 
 Possiamo rappresentare una relazione su due insiemi finiti con un [[grafo di adiacenza]] o con una [[matrice di adiacenza]] 
+
+### Operazioni
+$R \subseteq A_{1} \times A_{2}$, $T \subseteq A_{2} \times A_{3}$ definiamo:
+- $R \cdot T = \{ (a_{1},a_{3}) \in A_{1} \times A_{3} | \exists a_{2} \in A_{2} : (a_{1},a_{2}) \in R \ e\ (a_{2},a_{3}) \in T \}$
+	- "Chiudo" la relazione, saltiamo $A_{2}$ 
+	- Ovviamente non gode della proprietà commutativa 
+
 ### - [[relazioni binarie]]
 ### - [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]]
 ### - [[relazione d'ordine]]
