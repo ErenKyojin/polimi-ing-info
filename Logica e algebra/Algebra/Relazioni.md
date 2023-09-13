@@ -42,6 +42,12 @@ $$ \begin{align}
 \end{align} $$
 Le operazioni fra relazioni godono ovviamente delle proprietà ben note per le operazioni insiemistiche.
 
+### Proprietà
+Valgono le proprietà dell'insiemistica:
+- **associativa** per $\cap$ e $\cup$
+- **commutativa** per $\cap$ e $\cup$
+- **idempotenza**
+- **leggi di assorbimento** $R \cup (R \cap T) = R, R \cap (R \cup T) = R$
 ### - [[relazioni binarie]]
 ### - [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]]
 ### - [[relazione d'ordine]]
@@ -49,10 +55,25 @@ Le operazioni fra relazioni godono ovviamente delle proprietà ben note per le o
 
 
 ```anki
-deck: <% tp.file.cursor(0) %>
+deck: LeA
 ---
-<% tp.file.cursor(1) %>
+Relazione
 ===
-<% tp.file.cursor(2) %>
+#todo
 ```
-<% tp.file.cursor(3) %>
+
+```anki
+deck: LeA
+---
+$R \subseteq T \iff$
+
+$R = T \iff$
+
+$R \subset T \ iff$
+
+$R \cap T \iff$
+
+$R \cup T \iff$
+===
+#todo
+```
