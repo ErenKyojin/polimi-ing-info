@@ -9,8 +9,11 @@ modification date: 2023-07-07 09:14
 #### Rappresentazioen grafica
 #### Schede di acquisizione dati (LabVIEW)
 #### Sensori di grandezze fisiche
-#### Laboratorio
+#### Laboratorio LabVIEW
 
 # Seconda parte
 #### Segnali di misura
-#### Voltmetri numeri
+#### Voltmetri numerici
+#### Oscilloscopi
+#### Bus di campo
+### Laboratiorio oscilloscopio
