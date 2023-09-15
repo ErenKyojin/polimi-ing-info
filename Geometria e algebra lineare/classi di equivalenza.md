@@ -19,8 +19,7 @@ Si può quindi definire la [[Partizione]] di un insieme $A$.
 ```anki
 deck: GAL
 ---
-
+# Classi di equivalenza
 ===
-<% tp.file.cursor(2) %>
+Data una relazione di equivalenza $\rho$ su un insieme $A$ per ogni $a \in A$ chiamiamo classe di equivalenza rispetto a $\rho$, avente come rappresentante $a$, o più semplicemente $\rho$-classe di $a$ l'insieme.
 ```
-<% tp.file.cursor(3) %>
