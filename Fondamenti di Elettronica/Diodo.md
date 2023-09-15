@@ -53,16 +53,52 @@ $V_{TH} = \frac{kt}{q}$
 \end{document}
 ```
 Può succedere che un elettrone libero colpisca un atomo che libera elettroni di legame che colpisce altri atomi e si genera una reazione a catena. Processo esponenziale della corrente di drift.
-Ci sarà quindi un campo critico in inversa che genera un'altra esponenzial, detto breakdown della giunzione. (non si rompe necessariamente il diodo)
+Ci sarà quindi un campo critico in inversa che genera un'altra esponenzial, detto breakdown della giunzione. (non si rompe necessariamente il diodo, ma in realtà si)
 
 ```tikz
 \begin{document}
 \begin{tikzpicture}
 \draw(0,0) -- ++ (0,4);
 \draw(-4,0) -- ++ (4,0);
-\draw[red] (-6,-6) to[out = 90, in = 235] (-4,-1) node[below]{BD} to[in = 45, out = 45] (-3, -0.2);
+\draw[red] (-6,-6) to[out = 90, in = 235] (-4,-1) node[below]{BD} to[in = 190, out = 235] (-3, -0.2);
 \draw (-3,-0.2) -- (0,0);
 \draw[smooth] (0,0) to[in = 235, out = 0] (1,1) to[out = 65, in = 270] (2,6);
+\draw[dashed] (-3,3) -- (-3,-3) node[right]{100 V};
+\node[] at (-2,2) {INV};
+\node[] at (2,2) {DIR};
+\end{tikzpicture}
+\end{document}
+```
+
+# Diodo di Schottky
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) to[Schottky diode] (2,0) ;
+\end{tikzpicture}
+\end{document}
+```
+Aumenta l'area di utilizzo
+# Diodo di Zener
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) to[ZZener diode] (2,0);
+\end{tikzpicture}
+\end{document}
+```
+Regione di Zener quando la tensione è minore della tensione di Zener, che è modulabile dai 3 ai 20 volt.
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw(0,0) -- ++ (0,4);
+\draw(-4,0) -- ++ (4,0);
+\draw[red] (-6,-6) to[out = 90, in = 235] (-4,-1) node[below]{BD} to[in = 190, out = 235] (-3, -0.2);
+\draw (-3,-0.2) -- (0,0);
+\draw[smooth] (0,0) to[in = 235, out = 0] (1,1) to[out = 65, in = 270] (2,6);
+\draw[dashed] (-3,3) -- (-3,-3) node[right]{100 V};
 \node[] at (-2,2) {INV};
 \node[] at (2,2) {DIR};
 \end{tikzpicture}
