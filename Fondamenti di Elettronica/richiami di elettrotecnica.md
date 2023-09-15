@@ -15,4 +15,4 @@ modification date: 2023-07-07 09:14
 \end{tikzpicture}
 \end{document}
 ```
-$I = \alpha v, F \alpha = a$, la corrente 
+$I = \alpha v \text{ ma } F \alpha = a$, la corrente è la velocità media della carica, che si muove per uno squilibrio di carica.
