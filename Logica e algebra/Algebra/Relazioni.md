@@ -70,14 +70,16 @@ $R \subseteq A_{1} \times A_{2}$, $T \subseteq A_{2} \times A_{3}$ definiamo:
 
 
 ```anki
+id: 1694790108974
 deck: LeA
 ---
-Relazione
+# Relazione
 ===
-
+Dati due insiemi $n$ insiemi $A_1,A_2,...,A_n$ si definisce relazione di arità $n$ un qualsiasi sottoinsieme del prodotto scalare:
+$A_1 \times A_2 \times ... \times A_n$
 ```
 ```anki
-id: null
+id: 1694790109058
 deck: LeA
 ---
 $R \subseteq T \iff$
