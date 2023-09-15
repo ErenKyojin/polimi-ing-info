@@ -35,4 +35,16 @@ Una relazione di equivalenza divide un insieme in [[classi di equivalenza]]
 
 Osserviamo che la [[chiusura]] riflessiva, simmetrica e transitiva di una relazione $R$ è una relazione d'equivalenza ed è la minima relazione di equivalenza che contiene $R$, tale relazione viene anche chiamata chiusura di equivalenza di $R$ o piú comunemente relazione di equivalenza generata da $R$.
 
-Nel seguito denoteremo le relazioni di equivalenza con le lettere minuscole dell'alfabeto greco
+Nel seguito denoteremo le relazioni di equivalenza con le lettere minuscole dell'alfabeto greco.
+
+
+```anki
+deck: GAL
+---
+# Rekazione di equivalenza
+===
+Una relazione $\mathfrak{R}$ è di equivalenza se gode delle seguenti proprietà:
+- riflessiva: $\forall a \in A, a = a$
+- simmetrica: $\forall a,b \in A, a = b \implies b = a$
+- transitiva: $\forall a,b,c \in A, a =b, b =c \implies a = c$
+```
