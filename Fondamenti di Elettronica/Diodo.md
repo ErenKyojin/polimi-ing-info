@@ -8,7 +8,34 @@ Il diodo è un elemento drogato metà P e metà N. Si generà uno squilibrio tra
 
 Due conclusioni intuitive:
 ### Ho creato una pila!
-No, i [[portatori minoritari]] dati dall'agitazione termica in N verranno attratti da P, e vengono quindi driftano nel verso opposto. Quindi si annullano
+No, i [[portatori minoritari]] dati dall'agitazione termica in N verranno attratti da P, e vengono quindi driftano nel verso opposto. Lo stesso derift si manifesta per P annullandosi.
 
-### È inutile
-Proviamo a collegare una batteria con il - su P ed il + su N. In questo modo aumenterà la dimensione dell'interfaccia con un campo elettrico interno che aumenterà della tensione applicata dalla batteria
+### È inutile!
+
+##### Polarizzazione inversa
+Proviamo a collegare una batteria con il - su P ed il + su N. In questo modo aumenterà la dimensione dell'interfaccia con un campo elettrico interno che aumenterà della tensione applicata dalla batteria. Generiamo quindi una corrente di drift molto bassa (nanoAmpere) e una diffusione nulla.
+
+#### Polarizzazione diretta
+Giriamo la batteria. Facilitiamo il passaggio delle cariche attraverso l'area centrale. Avremo una bassa corrente di drift ma un'alta diffusione.
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+\draw (0,-3) to [vsource] (0,3) to (3,3) to [diode,v =V, i = I] (3,-3) to (0,-3);
+\end{tikzpicture}
+\end{document}
+```
+P triangolo, n sbarretta
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw(0,0) -- ++ (0,4);
+\draw(0,0) -- ++ (4,0);
+\draw (-3,-0.1) -- (0,0);
+\draw[smooth] (0,0) to[in = 235, out = 0] (1,1) to[in = , out = 235] (2,6);
+\end{tikzpicture}
+\end{document}
+```
+$V_{TH} = \frac{kt}{q}$
