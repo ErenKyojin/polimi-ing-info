@@ -12,3 +12,15 @@
 >[!esempio]
 >$(1,\sqrt{2},-1,3) \in R^4$
 
+
+```anki
+deck: GAL
+---
+Prodotto cartesiano
+===
+Dati due insiemi $A$ e $B$, il prodotto scalare $A \times B$ è definito come
+$$ A \times B = \{(a, b) : a \in A, b \in B\} $$
+
+In particolare $A^n = A \times A \times ... \times A$ ($n$ volte) è
+$$ \{(a_1,...,a_n) : a_1 \in A \forall i = 1,...,n\} $$
+```
