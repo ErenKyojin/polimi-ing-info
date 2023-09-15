@@ -9,6 +9,7 @@ Possiamo quindi definire il [[Prodotto cartesiano]]
 
 
 ```anki
+id: 1694785480878
 deck: GAL
 ---
 Insieme

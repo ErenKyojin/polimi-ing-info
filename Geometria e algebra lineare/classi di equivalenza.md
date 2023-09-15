@@ -17,6 +17,7 @@ Si può quindi definire la [[Partizione]] di un insieme $A$.
 
 
 ```anki
+id: 1694785480925
 deck: GAL
 ---
 # Classi di equivalenza

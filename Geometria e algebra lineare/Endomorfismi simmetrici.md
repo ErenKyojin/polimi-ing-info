@@ -44,7 +44,7 @@ otteniamo $A = A^T$
 
 
 ```anki
-id: 1694374180029
+id: 1694785481597
 deck: GAL
 ---
 # Un endomorfismo su uno spazio euclideo è simmetrico solo se la matrice della base ortonormale è simmetrica

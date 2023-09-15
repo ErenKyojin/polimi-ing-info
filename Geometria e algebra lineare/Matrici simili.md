@@ -134,7 +134,7 @@ Abbiamo peró un problema, visto che due matrici simili rappresentano la stessa 
 # ANKI
 
 ```anki
-id: 1694364305930
+id: 1694785481490
 deck: GAL
 ---
 # Invarianti per similitudine

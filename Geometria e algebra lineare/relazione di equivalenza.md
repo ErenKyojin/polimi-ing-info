@@ -39,7 +39,7 @@ Nel seguito denoteremo le relazioni di equivalenza con le lettere minuscole dell
 
 
 ```anki
-id: null
+id: 1694785476699
 deck: GAL
 ---
 # Relazione di equivalenza

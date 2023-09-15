@@ -148,7 +148,7 @@ $$ \left\{ \mathbf{v}_{1},\mathbf{v}_{2},\mathbf{e}_{1} \right\} $$
 # ANKI
 
 ```anki
-id: 1694358591480
+id: 1694785481874
 deck: GAL
 ---
 # Isomorfismo canonico

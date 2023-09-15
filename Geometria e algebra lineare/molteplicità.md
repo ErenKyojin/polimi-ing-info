@@ -94,7 +94,7 @@ Diremo che l'intero positivo $m$ è la molteplicità algebrica di $\widetilde{\l
 
 
 ```anki
-id: 1694424491453
+id: 1694785481328
 deck: GAL
 ---
 # Indipendenza lineare di autovettori

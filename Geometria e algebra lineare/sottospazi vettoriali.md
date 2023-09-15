@@ -189,7 +189,7 @@ Sia $H = \Span(\mathbf{h}_{1},\dots,\mathbf{h}_{t})$ e $K = \Span(\mathbf{k}_{1}
 
 # ANKI
 ```anki
-id: 1694362877581
+id: 1694785480758
 deck: GAL
 ---
 # Formula di Grassman

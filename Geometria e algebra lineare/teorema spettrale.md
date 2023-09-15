@@ -48,7 +48,7 @@
 # ANKI
 
 ```anki
-id: 1694424555402
+id: 1694785480675
 deck: GAL
 ---
 # Teorema spettrale

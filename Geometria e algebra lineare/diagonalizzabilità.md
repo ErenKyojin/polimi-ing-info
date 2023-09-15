@@ -154,7 +154,7 @@
 # ANKI
 
 ```anki
-id: 1694363706030
+id: 1694785481371
 deck: GAL
 ---
 # Secondo criterio di diagonalizzabilità

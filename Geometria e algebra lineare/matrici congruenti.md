@@ -113,7 +113,7 @@ $q(\mathbf{x})$ è indefinita
 # ANKI
 
 ```anki
-id: 1694426166104
+id: 1694785481287
 deck: GAL
 ---
 # Autovalori e segno di una forma quadratica reale

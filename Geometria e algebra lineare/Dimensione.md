@@ -160,7 +160,7 @@ t_{n}
 # ANKI
 
 ```anki
-id: 1694359539457
+id: 1694785481749
 deck: GAL
 ---
 # Lemma fondamentale
@@ -173,7 +173,7 @@ $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\} 
 >per la linearità di $\mathcal{L}$ abbiamo $\mathcal{L}(t_{1}\mathbf{v}_{1} + \dots + t_{d}\mathbf{v}_{d}) = \mathbf{0}$. Essendo i vettori $\mathbf{v}_{1},\dots,\mathbf{v}_{d}$ linearmente indipendenti, $t_{1}=t_{2}=\dots=t_{d}=0$. Dunque $\mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d})$ sono linearmente indipendenti.
 ```
 ```anki
-id: 1694359726052
+id: 1694785482704
 deck: GAL
 ---
 # Dimensione = Cardinalità (teorema)
@@ -185,9 +185,8 @@ Se $V$ spazio vettoriale su $\mathbb{K}$ ammette una [[Base]] di cardinalità $n
 >2. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è un insieme di generatori quindi per il lemma fondamentale: $\dim(V) \leq n$
 >Quindi $dim(V)=n$
 ```
-
 ```anki
-id: 1694360108452
+id: 1694785482998
 deck: GAL
 ---
 # Dimensione di un'applicazione lineare iniettiva su un sottospazio di dimensione finita
@@ -220,4 +219,5 @@ t_{n}
 >> Quindi: $\mathcal{P}_{2} \circ \mathcal{P}_{1}^{-1} : V \to W$ è isomorfismo.
 >> Se $V$ e $W$ sono isomorfi allora esiste $\mathcal{L} : V \to W$ lineare, iniettiva e suriettiva. Quindi $\mathcal{L}(V) = W$ essendo $\mathcal{L}$ suriettiva, e $\dim(V) = \dim(\mathcal{L}(V))$ essendo $\mathcal{L}$ iniettiva. Quindi $\dim(V) = \dim(\mathcal{L}(V)) = \dim(W)$
 ```
+
 

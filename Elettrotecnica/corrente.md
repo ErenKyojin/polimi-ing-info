@@ -56,7 +56,7 @@ La misura di corrente lungo $-\sigma$ si ottiene invertendo l'inserimento dei mo
 # ANKI
 
 ```anki
-id: 1694352771178
+id: 1694785449376
 deck: elettrotecnica
 ---
 <% tp.file.cursor(1) %>

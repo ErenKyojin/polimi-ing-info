@@ -317,7 +317,7 @@ Le due rette coincidono
 
 # ANKI
 ```anki
-id: 1694340157927
+id: 1694785481412
 deck: GAL
 ---
 # Struttura delle soluzioni di un sistema lineare (proposizione)

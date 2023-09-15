@@ -40,7 +40,7 @@
 # ANKI
 
 ```anki
-id: 1694370942356
+id: 1694785481563
 deck: GAL
 ---
 # Matrici ortogonali rappresentano isometrie lineari

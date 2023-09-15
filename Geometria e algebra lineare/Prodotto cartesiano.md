@@ -14,6 +14,7 @@
 
 
 ```anki
+id: 1694785480999
 deck: GAL
 ---
 Prodotto cartesiano

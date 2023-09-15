@@ -411,7 +411,7 @@ Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 
 # ANKI
 ```anki
-id: 1694352748080
+id: 1694785481924
 deck: GAL
 ---
 # Nucleo e immagine di una applicazione lineare sono sottospazi vettoriali (proposizione)
@@ -429,7 +429,7 @@ Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ u
 
 
 ```anki
-id: 1694357115126
+id: 1694785482764
 deck: GAL
 ---
 # Linearità dell'inversa di un'applicazione lineare
@@ -446,7 +446,7 @@ Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L}(V) \to W$ un'app
 
 ```
 ```anki
-id: 1694357704003
+id: 1694785483057
 deck: GAL
 ---
 # Applicazioni lineari iniettive
@@ -461,7 +461,7 @@ Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$. Sia $\mathcal{L} : V \to W$ un
 
 
 ```anki
-id: 1694424492505
+id: 1694785483207
 deck: GAL
 ---
 # costruzione di un applicazione lineare

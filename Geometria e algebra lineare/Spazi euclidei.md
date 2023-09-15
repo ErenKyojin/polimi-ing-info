@@ -105,7 +105,7 @@ Sia $(V,<,>)$ spazio euclideo e sia $\mathcal{B} = \left\{ \mathbf{b}_{1},\dots,
   # ANKI
   
 ```anki
-id: 1694367136330
+id: 1694785481445
 deck: GAL
 ---
 # Disuguaglianza di Schwartz
@@ -122,7 +122,7 @@ Sia $(V,<,>)$ spazio euclideo per ogni $\mathbf{v},\mathbf{w} \in V$ si ha che:
 >\end{align} $$
 ```
 ```anki
-id: 1694368003705
+id: 1694785482524
 deck: GAL
 ---
 # Disuguaglianza triangolare

@@ -487,7 +487,7 @@ c
 # ANKI
 
 ```anki
-id: 1694360512252
+id: 1694785480830
 deck: GAL
 ---
 # Teorema di rappresentazione

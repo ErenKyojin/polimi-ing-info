@@ -100,7 +100,7 @@ t_{d}
 
 
 ```anki
-id: 1694359443305
+id: 1694785481674
 deck: GAL
 ---
 # Indipendenza lineare di un'applicazione lineare iniettiva 

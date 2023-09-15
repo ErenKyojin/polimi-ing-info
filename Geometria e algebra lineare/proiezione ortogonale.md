@@ -87,7 +87,7 @@ In particolare se $P_{H^\perp}$ è la matrice della proiezione ortogonale su $H^
 # ANKI
 
 ```anki
-id: 1694366447953
+id: 1694785481250
 deck: GAL
 ---
 # Proiezione ortogonale
