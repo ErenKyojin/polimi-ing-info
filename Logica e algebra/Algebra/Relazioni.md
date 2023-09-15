@@ -70,12 +70,11 @@ $R \subseteq A_{1} \times A_{2}$, $T \subseteq A_{2} \times A_{3}$ definiamo:
 
 
 ```anki
-id: null
 deck: LeA
 ---
 Relazione
 ===
-#todo
+
 ```
 ```anki
 id: null

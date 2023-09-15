@@ -7,16 +7,16 @@ tags: []
 Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argomenti chiave e gli argomenti minori relativi indicati
 
 ## Capitolo 1 - *Vettori geometrici, prima parte*
-- [ ] [[insieme|insiemi]]
-	- [ ] [[Prodotto cartesiano]]
-	- [ ] [[Relazioni|Relazione]]  
-		- [ ] [[relazione di equivalenza]]
-			- [ ] [[classi di equivalenza]]
-		- [ ] [[relazione di funzione]]
-- [ ] [[vettori|vettori]]
-	- [ ] [[legge di cancellazione della somma]]
-	- [ ] [[legge di annullamento del prodotto per uno scalare]] 
-	- [ ] [[sistema di riferimento]] 
+- [x] [[insieme|insiemi]]
+	- [x] [[Prodotto cartesiano]]
+	- [x] [[Relazioni|Relazione]]  
+		- [x] [[relazione di equivalenza]]
+			- [x] [[classi di equivalenza]]
+		- [x] [[relazione di funzione]]
+- [x] [[vettori|vettori]]
+	- [x] [[legge di cancellazione della somma]]
+	- [x] [[legge di annullamento del prodotto per uno scalare]] 
+	- [x] [[sistema di riferimento]] 
 	- [ ] [[componenti]]
 	- [ ] [[retta]] 
 		- [ ] [[retta#Equazioni parametriche e cartesiane di una retta nello spazio]]
