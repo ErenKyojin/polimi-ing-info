@@ -32,10 +32,15 @@ P triangolo, n sbarretta
 \begin{document}
 \begin{tikzpicture}
 \draw(0,0) -- ++ (0,4);
-\draw(0,0) -- ++ (4,0);
-\draw (-3,-0.1) -- (0,0);
-\draw[smooth] (0,0) to[in = 235, out = 0] (1,1) to[in = , out = 235] (2,6);
+\draw(-4,0) -- ++ (4,0);
+\draw (-3,-0.2) -- (0,0);
+\draw[smooth] (0,0) to[in = 235, out = 0] (1,1) to[out = 65, in = 270] (2,6);
+\node[] at (-2,2) {INV};
+\node[] at (2,2) {DIR};
 \end{tikzpicture}
 \end{document}
 ```
 $V_{TH} = \frac{kt}{q}$
+
+È praticamente un'interruttore in base alla polarizzazione. A che [[safe operating area]] può lavorare?
+
