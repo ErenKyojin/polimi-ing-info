@@ -15,3 +15,13 @@ modification date: 2023-04-27 14:14
 >>$\CVD$ 
 
 Da cui possiamo definire la [[differenza]] tra vettori. 
+
+# ANKI
+
+```anki
+deck: GAL
+---
+# Legge di cancellazione della somma
+===
+Dati $\mathbf{v},\mathbf{w},\mathbf{u}$ vettori liberi allora da $\mathbf{v} + \mathbf{w} = \mathbf{u} + \mathbf{w} \implies \mathbf{u} = \mathbf{v}$
+```

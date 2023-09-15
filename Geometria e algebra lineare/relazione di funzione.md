@@ -12,7 +12,8 @@
 # ANKI
 
 ```anki
-deck: GAL 
+id: 1694785957300
+deck: GAL
 ---
 # Relazione di funzione
 ===

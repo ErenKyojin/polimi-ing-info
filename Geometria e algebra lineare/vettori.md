@@ -121,7 +121,7 @@ Sull'insieme $\mathbf{V}$ deiv ettori liberi abbiamo definito l'operazione somma
 4. Esiste l'elemento opposto
    Esiste per ogni vettore $\mathbf{v}$ uno ed un solo vettore $-\mathbf{v}$ detto opposto di $\mathbf{v}$ tale che:
    $$ \mathbf{v}+(-\mathbf{v}) = 0 $$
-  [[legge di cancellazzione della somma]] #TODO 
+  [[legge di cancellazione della somma]] #TODO 
 
 ## Prodotto per uno [[scalare]]
 A differenza della somma, il prodotto non è completamente trasponibile dai numeri ai vettori, il *prodotto per uno scalare* invece conserva molte proprietà del prodotto "classico".
@@ -146,3 +146,14 @@ $$ s(t\mathbf{v}) = (st)\mathbf{v}\quad \forall s,t \in \mathbb{R}, \forall \mat
 8. Normalizzazione del prodotto scalare
  $$ 1\mathbf{v} = \mathbf{v}\quad \forall \mathbf{v} \in \mathbf{V} $$
 #TODO  DIM 5/6
+
+# ANKI
+
+```anki
+id: 1694786289574
+deck: GAL
+---
+# Vettore applicato
+===
+Un vettore applicato è un **segmento orientato** e si rappresenta con una freccia
+```
