@@ -19,6 +19,7 @@ Da cui possiamo definire la [[differenza]] tra vettori.
 # ANKI
 
 ```anki
+id: 1694786608249
 deck: GAL
 ---
 # Legge di cancellazione della somma

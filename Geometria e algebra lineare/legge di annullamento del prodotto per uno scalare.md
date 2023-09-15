@@ -16,3 +16,5 @@ modification date: 2023-07-07 09:14
 > &(-1) \cdot \mathbf{v} = - \mathbf{v} \qquad((-1)\cdot \mathbf{v} \text{ è l'opposto di $\mathbf{v}$, infatti}) \\ 
 > &\mathbf{v} + (-1)\cdot v = 1 \cdot \mathbf{v} + (-1) \cdot \mathbf{v} = (1 - 1) \cdot \mathbf{v} = 0 \cdot \mathbf{v} = \mathbf{0}
 >\end{align}$$
+
+Legge di annullamento del prodotto per uno scalare

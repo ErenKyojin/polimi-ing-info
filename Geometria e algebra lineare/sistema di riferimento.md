@@ -38,3 +38,14 @@ $\vec{OP}$ si dice vettore posizione di $P$ rispetto all'origine $O$ e $P$ può 
 Se $\mathbf{v}$ è un vettore libero, applicato a $O$ darà un punto $Q$. Al vettore applicato $\vec{OQ}$ rimarrà associata una terna di coordinate $(x,y,z) \in \mathbb{R}^3$: $\vec{OQ} = x\mathbf{u}_{1} + y\mathbf{u}_{2} + z\mathbf{u}_{3}$
 
 Chiamiamo $x,y,z$ le [[componenti]] di $\mathbf{v}$ rispetto alla base $(\mathbf{u}_{1},\mathbf{u}_{2},\mathbf{u}_{3})$
+
+# ANKI
+
+```anki
+deck: <% tp.file.cursor(0) %>
+---
+<% tp.file.cursor(1) %>
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
