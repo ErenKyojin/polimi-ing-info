@@ -17,4 +17,12 @@ modification date: 2023-07-07 09:14
 > &\mathbf{v} + (-1)\cdot v = 1 \cdot \mathbf{v} + (-1) \cdot \mathbf{v} = (1 - 1) \cdot \mathbf{v} = 0 \cdot \mathbf{v} = \mathbf{0}
 >\end{align}$$
 
-Legge di annullamento del prodotto per uno scalare
+# ANKI
+
+```anki
+deck: GAL
+---
+# Legge di annullamento del prodotto per uno scalare
+===
+Dati $t \in \mathbb{R}$ e $\mathbf{v}$ un vettore libero allora se $t \cdot \mathbf{v} = \mathbf{0}$ si ha che $t = 0$ o $\mathbf{v} = 0$
+```
