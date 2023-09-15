@@ -39,9 +39,10 @@ Nel seguito denoteremo le relazioni di equivalenza con le lettere minuscole dell
 
 
 ```anki
+id: null
 deck: GAL
 ---
-# Rekazione di equivalenza
+# Relazione di equivalenza
 ===
 Una relazione $\mathfrak{R}$ è di equivalenza se gode delle seguenti proprietà:
 - riflessiva: $\forall a \in A, a = a$

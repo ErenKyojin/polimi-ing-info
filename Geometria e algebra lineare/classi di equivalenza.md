@@ -15,3 +15,12 @@ Si può quindi definire la [[Partizione]] di un insieme $A$.
 - Due classi di equivalenza distinte sono disgiunte (ossia non hanno elementi in comune)
 - L'unione di tutti le classe di equivalenza di un insieme ritorna l'insieme stesso
 
+
+```anki
+deck: GAL
+---
+
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
