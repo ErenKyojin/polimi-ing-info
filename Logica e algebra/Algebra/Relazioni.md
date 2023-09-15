@@ -86,12 +86,20 @@ $R \subseteq T \iff$
 
 $R = T \iff$
 
-$R \subset T \ iff$
+$R \subset T \iff$
 
-$R \cap T \iff$
+$R \cap T =$
 
-$R \cup T \iff$
+$R \cup T =$
 ===
-#todo
+$R \subseteq T \iff \forall (a_1,a_2,...,a_n) \in R (a_1,a_2,...,a_n) \in T$
+
+$R = T \iff R \subseteq T \land T \subseteq R$
+
+$R \subset T \iff R \subseteq T \land \exists (a_1,a_2,...,a_n) \in T : (a_1,a_2,...,a_n) \notin R$
+
+$R \cap T = \{(a_1, a_2, ..., a_n): (a_1, a_2,...,a_n) \in R \land (a_1, a_2, ..., a_n) \in T\}$
+
+$R \cup T = \{(a_1, a_2, ..., a_n) : (a_1, a_2,...,a_n) \in R \lor (a_1, a_2,...,a_n) \in T \}$
 ```
 
