@@ -42,10 +42,11 @@ Chiamiamo $x,y,z$ le [[componenti]] di $\mathbf{v}$ rispetto alla base $(\mathbf
 # ANKI
 
 ```anki
-deck: <% tp.file.cursor(0) %>
+deck: GAL 
 ---
-<% tp.file.cursor(1) %>
+# Sistema di riferimento
 ===
-<% tp.file.cursor(2) %>
+Un sistema di riferimento $(O, \mathbf{u}_1, \mathbf{u}_2, \mathbf{u}_3)$ dello spazio euclideo consiste di
+1. Un punto $O$ detto origine delle coordinate
+2. Tre vettori liberi $\mathbf{u}_1,\mathbf{u}_2,\mathbf{u}_3$ che applicati ad $O$ danno tre punti $A, B$ e $C$ in modo tale che $O, A, B$ e $C$ non giacciono nello stesso piano
 ```
-<% tp.file.cursor(3) %>

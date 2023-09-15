@@ -157,3 +157,15 @@ deck: GAL
 ===
 Un vettore applicato è un **segmento orientato** e si rappresenta con una freccia
 ```
+
+
+```anki
+deck: GAL
+---
+# Vettore libero
+===
+Un vettore libero è una grandezza dotata di verso, modulo e direzione.
+
+Non vi è invece il punto di applicazione
+```
+<% tp.file.cursor(3) %>
