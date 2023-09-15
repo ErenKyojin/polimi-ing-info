@@ -44,3 +44,27 @@ $V_{TH} = \frac{kt}{q}$
 
 È praticamente un'interruttore in base alla polarizzazione. A che [[safe operating area]] può lavorare?
 
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+\draw (0,-3) to[vsource = E] (0,3) to (3,3) to[R = R] (3,-3) to (0,-3);
+\end{tikzpicture}
+\end{document}
+```
+Può succedere che un elettrone libero colpisca un atomo che libera elettroni di legame che colpisce altri atomi e si genera una reazione a catena. Processo esponenziale della corrente di drift.
+Ci sarà quindi un campo critico in inversa che genera un'altra esponenzial, detto breakdown della giunzione. (non si rompe necessariamente il diodo)
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw(0,0) -- ++ (0,4);
+\draw(-4,0) -- ++ (4,0);
+\draw[red] (-6,-6) to[out = 90, in = 235] (-4,-1) node[below]{BD} to[in = 45, out = 45] (-3, -0.2);
+\draw (-3,-0.2) -- (0,0);
+\draw[smooth] (0,0) to[in = 235, out = 0] (1,1) to[out = 65, in = 270] (2,6);
+\node[] at (-2,2) {INV};
+\node[] at (2,2) {DIR};
+\end{tikzpicture}
+\end{document}
+```

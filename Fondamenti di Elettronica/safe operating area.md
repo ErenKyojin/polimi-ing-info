@@ -50,4 +50,6 @@ $I_{D} = I_{S}(e^{V/V_{th}})$
 
 L'esponanziale del diodo è asintotico ad una retta a 0,7V. Quindi il diodo si rompe quando siamo vicino a 0,7V o vicino a $I_{F}^{\max} = \dfrac{P_{u}^{max}}{0,7} \approx 1 A$
 
-Quindi il diodo in diretta non può sopportare più
+Quindi il diodo in diretta non può sopportare più di $0,7V$ e $1 A$.
+
+In inversa invece se applicassimo una tensione molto alta $\approx  kV$ si brucia
