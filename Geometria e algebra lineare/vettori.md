@@ -166,6 +166,9 @@ deck: GAL
 ===
 Un vettore libero è una grandezza dotata di verso, modulo e direzione.
 
-Non vi è invece il punto di applicazione
+Non vi è invece il punto di applicazione.
+
+I vettori liberi si possono definire come classe di equivalenza dei vettori applicati, due vettori applicati infatti si dicono equivalenti se hanno stessa direzione, modulo e verso.
+
+Un vettore libero in realtà è quindi un insieme di vettori applicati!!
 ```
-<% tp.file.cursor(3) %>
