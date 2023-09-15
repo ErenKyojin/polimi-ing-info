@@ -9,4 +9,11 @@ Nel caso in cui $A_{1},A_{2}$ siano finiti, il [[grafo di adiacenza]] di $R^{-1}
 
 
 
-
+$$ \begin{align}
+(R \cap T)^{-1} &= R^{-1} \cap T^{-1} \\
+(R \cup T)^{-1} &= R^{-1} \cup T_{^-1} \\
+R \subseteq T &\implies R^{-1} \subseteq T^{-1} \\
+(RT)^{-1} &= T^{-1}R^{-1} \\
+R(T \cup S) &= RT \cup RS \\
+R(T \cap S) &\subset RT \cap RS
+\end{align} $$
