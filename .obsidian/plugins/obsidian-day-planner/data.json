@@ -2,7 +2,7 @@
   "circularProgress": true,
   "nowAndNextInStatusBar": false,
   "showTaskNotification": true,
-  "zoomLevel": "4",
+  "zoomLevel": "3",
   "timelineIcon": "calendar-with-checkmark",
   "endLabel": "All done",
   "startHour": 9,

@@ -431,15 +431,15 @@ var MathLinksSettingTab = class extends import_obsidian3.PluginSettingTab {
 // src/api/api.ts
 var import_obsidian4 = require("obsidian");
 var MathLinksAPIAccount = class {
-  constructor(plugin, manifest, blockPrefix, enableFileNameBlockLinks) {
+  constructor(plugin, manifest, blockPrefix, prefixer) {
     this.plugin = plugin;
     this.manifest = manifest;
     this.blockPrefix = blockPrefix;
-    this.enableFileNameBlockLinks = enableFileNameBlockLinks;
-    this.metadataSet = {};
+    this.prefixer = prefixer;
+    this.metadataSet = /* @__PURE__ */ new Map();
   }
-  get(path, blockID) {
-    let metadata = this.metadataSet[path];
+  get(file, blockID) {
+    let metadata = this.metadataSet.get(file);
     if (metadata) {
       if (blockID === void 0) {
         return metadata["mathLink"];
@@ -450,38 +450,37 @@ var MathLinksAPIAccount = class {
       }
     }
   }
-  update(path, newMetadata) {
-    let file = this.plugin.app.vault.getAbstractFileByPath(path);
-    if (file instanceof import_obsidian4.TFile && file.extension == "md") {
-      this.metadataSet[path] = Object.assign({}, this.metadataSet[path], newMetadata);
-      informChange(this.plugin.app, "mathlinks:updated", this, path);
+  update(file, newMetadata) {
+    if (file.extension == "md") {
+      this.metadataSet.set(file, Object.assign({}, this.metadataSet.get(file), newMetadata));
+      informChange(this.plugin.app, "mathlinks:updated", this, file);
     } else {
-      throw Error(`MathLinks API: Invalid path: ${path}`);
+      throw Error(`MathLinks API: ${this.manifest.name} passed a non-markdown file ${file.path} to update().`);
     }
   }
-  delete(path, which) {
-    let metadata = this.metadataSet[path];
+  delete(file, which) {
+    let metadata = this.metadataSet.get(file);
     if (metadata) {
       if (which === void 0) {
-        delete this.metadataSet[path];
+        this.metadataSet.delete(file);
       } else if (which == "mathLink" || which == "mathLink-blocks") {
         if (metadata[which] !== void 0) {
           delete metadata[which];
         } else {
-          throw Error(`MathLinks API: MathLinksMetadata of type "${which}" does not exist for ${path}`);
+          throw Error(`MathLinks API: ${this.manifest.name} attempted to delete ${which} of ${file.path}, but it does not exist.`);
         }
       } else {
         let blocks = metadata["mathLink-blocks"];
         if (blocks && blocks[which] !== void 0) {
           delete blocks[which];
         } else {
-          throw Error(`MathLinks API: MathLinksMetadata for ${path}#^${which}" does not exist`);
+          throw Error(`MathLinks API: ${this.manifest.name} attempted to delete mathLink-blocks for ${file.path}#^${which}", but it does not exist`);
         }
       }
     } else {
-      throw Error(`MathLinks API: MathLinksMetadata for ${path} does not exist`);
+      throw Error(`MathLinks API: ${this.manifest.name} attempted to delete the MathLinks metadata of ${file.path}, but it does not exist.`);
     }
-    informChange(this.plugin.app, "mathlinks:updated", this, path);
+    informChange(this.plugin.app, "mathlinks:updated", this, file);
   }
 };
 function informChange(app, eventName, ...callbackArgs) {
@@ -518,7 +517,7 @@ function setMathLink(source, mathLinkEl) {
     mathLinkEl.createSpan().replaceWith(source.slice(textFrom));
 }
 function getMathLink(plugin, targetLink, sourcePath) {
-  var _a;
+  var _a, _b;
   let { path, subpath } = (0, import_obsidian5.parseLinktext)(targetLink);
   let file = plugin.app.metadataCache.getFirstLinkpathDest(path, sourcePath);
   if (!file)
@@ -528,46 +527,51 @@ function getMathLink(plugin, targetLink, sourcePath) {
     return "";
   let subpathResult = (0, import_obsidian5.resolveSubpath)(cache, subpath);
   let mathLink = "";
-  if (cache.frontmatter) {
-    if (subpathResult) {
-      mathLink = getMathLinkFromSubpath(plugin, path, subpathResult, cache.frontmatter, plugin.settings.blockPrefix, plugin.settings.enableFileNameBlockLinks);
-    } else if (path) {
-      mathLink = cache.frontmatter.mathLink;
-      if (mathLink == "auto") {
-        mathLink = getMathLinkFromTemplates(plugin, file);
-      }
+  if (subpathResult) {
+    mathLink = getMathLinkFromSubpath(path, subpathResult, cache.frontmatter, plugin.settings.blockPrefix, plugin.settings.enableFileNameBlockLinks ? null : "");
+  } else if (path) {
+    mathLink = (_a = cache.frontmatter) == null ? void 0 : _a.mathLink;
+    if (mathLink == "auto") {
+      mathLink = getMathLinkFromTemplates(plugin, file);
     }
   }
   if (!mathLink && plugin.settings.enableAPI) {
-    for (let account of plugin.apiAccounts) {
-      if (account.metadataSet[file.path]) {
-        let metadata = account.metadataSet[file.path];
-        if (subpathResult) {
-          mathLink = getMathLinkFromSubpath(plugin, path, subpathResult, metadata, account.blockPrefix, account.enableFileNameBlockLinks);
-        } else {
-          mathLink = (_a = metadata["mathLink"]) != null ? _a : "";
+    const sourceFile = plugin.app.vault.getAbstractFileByPath(sourcePath);
+    if (sourceFile instanceof import_obsidian5.TFile) {
+      for (let account of plugin.apiAccounts) {
+        const metadata = account.metadataSet.get(file);
+        if (metadata) {
+          if (subpathResult) {
+            mathLink = getMathLinkFromSubpath(path, subpathResult, metadata, account.blockPrefix, account.prefixer(sourceFile, file, subpathResult));
+          } else {
+            mathLink = (_b = metadata["mathLink"]) != null ? _b : "";
+          }
         }
-      }
-      if (mathLink) {
-        break;
+        if (mathLink) {
+          break;
+        }
       }
     }
   }
   return mathLink;
 }
-function getMathLinkFromSubpath(plugin, linkpath, subpathResult, metadata, blockPrefix, enableFileNameBlockLinks) {
-  var _a;
+function getMathLinkFromSubpath(linkpath, subpathResult, metadata, blockPrefix, prefix) {
+  var _a, _b;
   let subMathLink = "";
   if (subpathResult.type == "heading") {
     subMathLink = subpathResult.current.heading;
-  } else if (subpathResult.type == "block" && metadata["mathLink-blocks"] && metadata["mathLink-blocks"][subpathResult.block.id]) {
+  } else if (subpathResult.type == "block" && ((_a = metadata == null ? void 0 : metadata["mathLink-blocks"]) == null ? void 0 : _a[subpathResult.block.id])) {
     subMathLink = blockPrefix + metadata["mathLink-blocks"][subpathResult.block.id];
   }
   if (subMathLink) {
-    if (linkpath && enableFileNameBlockLinks) {
-      return ((_a = metadata["mathLink"]) != null ? _a : linkpath) + " > " + subMathLink;
+    if (prefix === null) {
+      if (linkpath) {
+        return ((_b = metadata == null ? void 0 : metadata["mathLink"]) != null ? _b : linkpath) + " > " + subMathLink;
+      } else {
+        return subMathLink;
+      }
     } else {
-      return subMathLink;
+      return prefix + subMathLink;
     }
   } else {
     return "";
@@ -618,8 +622,8 @@ var MathLinksRenderChild = class extends import_obsidian6.MarkdownRenderChild {
         this.update();
       }
     }));
-    this.plugin.registerEvent(this.plugin.app.metadataCache.on("mathlinks:updated", (apiAccount, changedFilePath) => {
-      if (!this.targetFile || this.targetFile.path == changedFilePath) {
+    this.plugin.registerEvent(this.plugin.app.metadataCache.on("mathlinks:updated", (apiAccount, changedFile) => {
+      if (!this.targetFile || this.targetFile == changedFile) {
         this.update();
       }
     }));
@@ -628,13 +632,12 @@ var MathLinksRenderChild = class extends import_obsidian6.MarkdownRenderChild {
     }));
   }
   setMathLinkGetter() {
-    var _a;
+    var _a, _b;
     let getter = () => "";
     if (this.displayText != this.targetLink && this.displayText != translateLink(this.targetLink)) {
       getter = () => this.displayText;
     } else {
-      const targetName = (_a = this.targetFile) == null ? void 0 : _a.basename;
-      if (this.displayText == targetName || this.displayText == translateLink(this.targetLink)) {
+      if (this.displayText == ((_a = this.targetFile) == null ? void 0 : _a.name) || this.displayText == ((_b = this.targetFile) == null ? void 0 : _b.basename) || this.displayText == translateLink(this.targetLink)) {
         getter = () => getMathLink(this.plugin, this.targetLink, this.sourcePath);
       }
     }
@@ -663,7 +666,7 @@ function generateMathLinks(plugin, element, context) {
         targetEl.style.display = "";
       }
     }
-    const targetDisplay = (_a = targetEl.textContent) == null ? void 0 : _a.trim();
+    const targetDisplay = (_a = targetEl.textContent) == null ? void 0 : _a.trim().replace(/\.md/, "");
     if (targetDisplay != "" && !/math-inline is-loaded/.test(targetEl.innerHTML)) {
       const targetLink = (_b = targetEl.getAttribute("data-href")) == null ? void 0 : _b.replace(/\.md/, "");
       if (targetLink) {
@@ -745,21 +748,24 @@ function buildLivePreview(plugin, leaf) {
       let mathLinkWrapper = document.createElement("span");
       mathLinkWrapper.classList.add("cm-hmd-internal-link");
       mathLinkWrapper.appendChild(mathLink);
-      let outLinkFileName = this.outLinkText.replace(/#.*$/, "");
-      if (!outLinkFileName) {
-        if (leafView.file) {
-          outLinkFileName = leafView.file.path;
-          if (outLinkFileName.endsWith(".canvas")) {
-            for (let node of leafView.canvas.selection.values()) {
-              outLinkFileName = node.filePath;
-              break;
-            }
+      let sourcePath = "";
+      if (leafView.file) {
+        sourcePath = leafView.file.path;
+        if (sourcePath.endsWith(".canvas")) {
+          for (let node of leafView.canvas.selection.values()) {
+            sourcePath = node.filePath;
+            break;
           }
         }
       }
+      const targetFile = plugin.app.metadataCache.getFirstLinkpathDest((0, import_obsidian7.getLinkpath)(this.outLinkText), sourcePath);
       mathLinkWrapper.onclick = (evt) => {
         evt.preventDefault();
-        plugin.app.workspace.openLinkText(this.outLinkText, outLinkFileName, evt.ctrlKey || evt.metaKey);
+        if (targetFile) {
+          plugin.app.workspace.openLinkText(this.outLinkText, sourcePath, import_obsidian7.Keymap.isModEvent(evt));
+        } else {
+          self.open(this.outLinkText, "_blank", "noreferrer");
+        }
       };
       mathLinkWrapper.onmousedown = (evt) => {
         if (evt.button == 1) {
@@ -768,7 +774,11 @@ function buildLivePreview(plugin, leaf) {
       };
       mathLinkWrapper.onauxclick = (evt) => {
         if (evt.button == 1) {
-          plugin.app.workspace.openLinkText(this.outLinkText, outLinkFileName, true);
+          if (targetFile) {
+            plugin.app.workspace.openLinkText(this.outLinkText, sourcePath, true);
+          } else {
+            self.open(this.outLinkText, "_blank", "noreferrer");
+          }
         }
       };
       return mathLinkWrapper;
@@ -776,20 +786,21 @@ function buildLivePreview(plugin, leaf) {
   }
   let viewPlugin = import_view.ViewPlugin.fromClass(class {
     constructor(view) {
+      leafView = leaf.view;
       this.tryBuildingDecorations(view);
     }
     update(update) {
       this.tryBuildingDecorations(update.view);
     }
     tryBuildingDecorations(view) {
-      this.decorations = this.destroyDecorations(view);
+      this.decorations = import_view.Decoration.none;
       let editorView = leaf.getViewState();
       if (leaf.view instanceof import_obsidian7.MarkdownView && leaf.view.file instanceof import_obsidian7.TFile && isExcluded(plugin, leaf.view.file)) {
         let curView = leaf.view.editor.cm;
         if (curView == view && editorView.state.mode == "source" && !editorView.state.source) {
           this.decorations = this.buildDecorations(view);
         } else {
-          this.decorations = this.destroyDecorations(view);
+          this.decorations = import_view.Decoration.none;
         }
       } else if (leafView.canvas) {
         for (let node of leafView.canvas.selection.values()) {
@@ -801,7 +812,7 @@ function buildLivePreview(plugin, leaf) {
           if (otherLeaf.view instanceof import_obsidian7.MarkdownView) {
             let otherView = otherLeaf.view.editor.cm;
             if (otherView == view) {
-              this.decorations = this.destroyDecorations(view);
+              this.decorations = import_view.Decoration.none;
             }
           }
         });
@@ -839,7 +850,7 @@ function buildLivePreview(plugin, leaf) {
                 end = -2;
               } else {
                 end = node.to;
-                let cursorRange = view.state.selection.ranges[0];
+                let cursorRange = view.state.selection.main;
                 if (start > cursorRange.to || end < cursorRange.from) {
                   if (outLinkText && outLinkMathLink) {
                     builder.add(start, end, import_view.Decoration.widget({
@@ -852,7 +863,7 @@ function buildLivePreview(plugin, leaf) {
                 outLinkText = "";
                 outLinkMathLink = "";
               }
-            } else if (!name.contains("pipe") && (name.contains("hmd-internal-link") && name.contains("alias") || name.contains("hmd-escape") || /^link/.test(name))) {
+            } else if (!name.contains("pipe") && (name.contains("hmd-internal-link") && name.contains("alias") || name.contains("hmd-escape") && name.contains("link") || /^link/.test(name))) {
               outLinkMathLink += view.state.doc.sliceString(node.from, node.to);
               if (leafView.file && outLinkMathLink == outLinkText.replace(/\.md/, "")) {
                 outLinkMathLink = getMathLink(plugin, outLinkText, leafView.file.path);
@@ -860,14 +871,6 @@ function buildLivePreview(plugin, leaf) {
             }
           }
         });
-      }
-      return builder.finish();
-    }
-    destroyDecorations(view) {
-      let builder = new import_state.RangeSetBuilder();
-      for (let { from, to } of view.visibleRanges) {
-        (0, import_language.syntaxTree)(view.state).iterate({ from, to, enter(node) {
-        } });
       }
       return builder.finish();
     }
@@ -912,7 +915,7 @@ var MathLinks = class extends import_obsidian8.Plugin {
     let account = this.apiAccounts.find((account2) => account2.manifest.id == userPlugin.manifest.id);
     if (account)
       return account;
-    account = new MathLinksAPIAccount(this, userPlugin.manifest, DEFAULT_SETTINGS.blockPrefix, DEFAULT_SETTINGS.enableFileNameBlockLinks);
+    account = new MathLinksAPIAccount(this, userPlugin.manifest, DEFAULT_SETTINGS.blockPrefix, () => null);
     this.apiAccounts.push(account);
     return account;
   }
