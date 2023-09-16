@@ -17,3 +17,18 @@ R \subseteq T &\implies R^{-1} \subseteq T^{-1} \\
 R(T \cup S) &= RT \cup RS \\
 R(T \cap S) &\subset RT \cap RS
 \end{align} $$
+
+# ANKI
+
+```anki
+deck: LeA
+---
+# Relazione inversa
+===
+Si dice relazione inversa di $R \subseteq A_1 
+times A_2$ la relaazione $R^{-1} 
+\subseteq A_2 \times A_1$ definita da $R^{-1} = \{(a_2,a_1) | (a_1,a_2) \in R\}$.
+
+Se si tratta di insiemi finiti, il grado di incidenza si
+```
+
