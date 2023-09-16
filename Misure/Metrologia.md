@@ -32,8 +32,17 @@ deck: Misure
 ```anki
 deck: Misure
 ---
-Grandezza è un attributo di un fenomeno o di una sostan
+# Grandezza
 ===
-<% tp.file.cursor(2) %>
+
+Grandezza è un attributo di un fenomeno o di una sostanza distinguibile qualitativamente e determinabile quantitativamente
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: Misure
+---
+# Misurando
+===
+Il misurando è la grandezza sotto misura
+```
