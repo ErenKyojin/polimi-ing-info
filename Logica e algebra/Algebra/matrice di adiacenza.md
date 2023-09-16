@@ -52,6 +52,5 @@ deck: LeA
 ---
 # Matrice di adiacenza
 ===
-La matrice di adiacenza di una relazione tra $A$ e $B$ con $|A| = n$ e $|B| = m$
+La matrice di adiacenza $M_R$ di una relazione $R$ tra $A$ e $B$ con $|A| = n$ e $|B| = m$ è una matrice $n \times m$ dove se $m_{ij} = 1$ significa che l'$i$-esimo elemento di $A$ è in relazione con il $j$-esimo elemento di $B$.
 ```
-<% tp.file.cursor(3) %>
