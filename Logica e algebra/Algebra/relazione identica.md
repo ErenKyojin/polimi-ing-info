@@ -10,3 +10,13 @@ ed analogamente considerata la relazione identica su $A_{1}, I_{A_{2}} = \{ (a_{
 
 In generale si ha però che
 $R \cdot R^{-1} \neq I_{A_{1}}$ e $R^{-1} \cdot R \neq I_{A_{2}}$.
+
+# ANKI
+
+```anki
+deck: LeA
+---
+# Relazione identica
+===
+Si dice relazione identica su $A_0$ la relazione $I_{A_1} = \{(a_1,a_1) | a_1 \in A_1\}$. Abbiamo che $I_{A_1} \cdot R = R \forall R \subseteq A_1 \times A_2$
+```

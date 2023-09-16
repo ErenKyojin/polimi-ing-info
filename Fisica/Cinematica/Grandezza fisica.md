@@ -96,3 +96,60 @@ Tuttavia ci puó essere una seconda definizione di dimensione in fisica:
 
 >[!esempio]
 >Consideriamo ad esempio la velocità, essa è una classe di grandezze fisiche detivate definita dalla relazione velocità = lunghezza / intervallo di tempo, che corrisponde alla equazione imensionale $[v] = [L][T]^{-1}$, potremo quindi dire che la velocità ha dimensione $1$ rispetto alla lunghezza e dimensione $-1$ rispetto al tempo, o che la velocità ha dimensionei di una lunghezza per un tempo alla meno 1.
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+# Grandezza fisica o classe di grandezze fisiche
+===
+Identifichiamo una grandezza fisica quando tra un insieme di enti possiamo stabilire:
+- Una relazione d'ordine
+- Somma e differenza tra enti
+- Prodotto scalare tra entri
+- prodotto tra un qualsiasi ente ed un qualsiasi numero reale.
+
+questi enti formano una classe di grandezze fisiche
+```
+
+
+```anki
+deck: Fisica
+---
+# Tiplogie di grandezze fisiche
+===
+# Fondamentali
+Definite attraverso una misura, le fondamentali della meccanica sono
+- lunghezza
+- massa
+- intervallo di tempo
+
+# Derivate
+Definite attraverso leggi che le legano alle grandezze fondamentali, ad esempio:
+- velocità
+- accelerazione
+- lavoro
+- forza
+
+# Supplementari
+Angolo piano e angolo solido
+- radianti
+- steradianti
+```
+
+```anki
+deck: Fisica
+---
+# Dimensione di una grandezza fisica
+===
+La dimensione di una grandezza fisica è rappresentata dalla classe di appartenenza alla grandezza in esame
+```
+
+```anki
+deck: Fisica
+---
+# Simbolo dimensionale
+===
+Il simbolo dimensionale di una grandezza è il simbolo della grandezza racchiuso tra parentesi quadre
+```

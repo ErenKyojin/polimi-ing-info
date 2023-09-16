@@ -28,7 +28,7 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 	- [ ] [[legge di Ohm]]
 
 ## Capitolo 2 - *requisiti*
-- [ ] componenti e variabili 
+- [ ] [[polimi-ing-info/Elettrotecnica/Componenti|Componenti]] e variabili 
 - [ ] Teoria dei [[Grafo|grafi]] [^1]
 - [ ] Equazioni algebriche
 - [ ] [[matrice di adiacenza]] [^1]  

@@ -45,3 +45,12 @@ M_{R\cap T} = M_{R} \cdot M_{T} \\
 M_{R \cup T} = M_{R} + M_{T}
 \end{align} $$
 Con il primo prodotto elemento per elemento (avremo 1 solo nelle posizioni che hanno entrambi 1) ed il secondo somma booleana (1 + 1 = 1, 1 + 0 = 1, 0 + 0 = 0)
+
+
+```anki
+deck: LeA
+---
+# Matrice di adiacenza
+===
+La matrice di adiacenza $M_R$ di una relazione $R$ tra $A$ e $B$ con $|A| = n$ e $|B| = m$ è una matrice $n \times m$ dove se $m_{ij} = 1$ significa che l'$i$-esimo elemento di $A$ è in relazione con il $j$-esimo elemento di $B$.
+```

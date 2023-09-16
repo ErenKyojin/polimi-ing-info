@@ -172,3 +172,59 @@ I vettori liberi si possono definire come classe di equivalenza dei vettori appl
 
 Un vettore libero in realtà è quindi un insieme di vettori applicati!!
 ```
+
+```anki
+deck: GAL
+---
+# Somma tra vettori
+===
+La somma tra due vettori $\vec{OP}$ e $\vec{PQ}$ tali che il secondo estremo del primo vettore coincida con il punto di applicazione del secondo vettore. La loro somma è per definizione, il vettore $\vec{OQ}$.
+
+---
+
+Dati invece due vettori liberi qualsiasi $\mathbf{v}$ e due vettori, fissiamo un punto $O$, sia $vec{OP} \equiv \mathbf{v}$ il vettore $\mathbf{v}$ applicato in $O$ e sia $
+\vec{PQ} = \mathbf{w}$ il vettore applicato in $P$. La somma $\mathbf{v} + \mathbf{w}$ è per definizione ilvettore libero rappresentato da $\vec{OQ}$. Questa somma non dipende dal punto di applicazione, il vettore libero sarà sempre equivalente ad $\vec{OQ}$
+```
+
+```anki
+deck: GAL
+---
+# Proprietà della somma tra vettori liberi
+===
+1. Commutativa
+2. Associativa
+3. Elemento neutro
+4. Elemento opposto
+```
+
+```anki
+deck: GAL
+---
+# Prodotto vettore per uno scalare
+===
+A differenza della somma il prodotto non è trasponibile dai numeri ai vettori, il prodotto per uno scalare invece conserva molte proprietà del prodotto classico.
+Dato uno scalare $t \in \mathbb{R}$ ed un vettore $\mathbf{v} \in V$ il prodotto del vettore $\mathbf{v}$ per lo scalare $t$ è il vettore $t\mathbf{v}$ così definito:
+- il modulo di $t\mathbf{v}$ è $|t|$ volte il modulo di $\mathbf{v}$:
+$$ ||t\mathbf{v}|| = |t|\cdot||\mathbf{v}|| $$
+- la direzione di $t\mathbf{v}$ è uguale alla direzione di $\mathbf{v}$.
+- Il verso di $\mathbf{v}$ è uguale al verso di $\mathbf{v}$ se $t > 0$ e opposto se $t < 0$
+
+---
+Analoga è la divisione per $t \neq 0$
+```
+
+
+```anki
+deck: GAL
+---
+# Proprietà del prodotto tra scalare e vettore
+===
+- proprietà distributiva del prodotto per scalare rispetto alla somma di vettori:
+  $$ t(\mathbf{v} + \mathbf{w}) = t\mathbf{v} + t\mathbf{w} $$
+- proprietà distributiva del prodotto per scalare rispetto alla somma di scalare
+  $$ (t + s)\mathbf{v} = t\mathbf{v} + s\mathbf{v} $$
+- proprietà associativa del prodotto scalare
+  $$ s(t\mathbf{v}) = st(\mathbf{v}) $$
+- normalizzazione del prodotto scalare
+  $$ 1\mathbf{v} = \mathbf{v} $$
+```

@@ -17,3 +17,45 @@ R \subseteq T &\implies R^{-1} \subseteq T^{-1} \\
 R(T \cup S) &= RT \cup RS \\
 R(T \cap S) &\subset RT \cap RS
 \end{align} $$
+
+# ANKI
+
+```anki
+deck: LeA
+---
+# Relazione inversa
+===
+Si dice relazione inversa di $R \subseteq A_1 
+times A_2$ la relaazione $R^{-1} 
+\subseteq A_2 \times A_1$ definita da $R^{-1} = \{(a_2,a_1) | (a_1,a_2) \in R\}$.
+
+Se si tratta di insiemi finiti, il grado di incidenza di $R^{-1}$ si ottiene invertendo la direzione delle frecce del grado di $R$, la matrice di incidenza si ottiene con la trasposizione di $R$
+```
+
+
+```anki
+deck: LeA
+---
+# Proprietà delle relazioni inverse
+$$ \begin{align}
+(R \cap T)^{-1} &= \\
+(R \cup T)^{-1} &= \\
+R \subseteq T &\implies \\
+(RT)^{=1} &= \\
+R(T \cup S) &= \\
+R(T \cap S) &\subset \\
+\end{align}$$
+===
+$$
+\begin{align}
+(R \cap T)^{-1} &= R^{-1} \cap T^{-1} \\
+(R \cup T)^{-1} &= R^{-1} \cup T^{-1} \\
+R \subseteq T &\implies R^{-1} \subseteq T^{-1} \\
+(RT)^{=1} &= T^{-1}R^{-1}\\
+R(T \cup S) &= RT \cup RS \\
+R(T \cap S) &\subset RT \cap RS\\
+\end{align}
+$$
+```
+
+

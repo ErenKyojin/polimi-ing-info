@@ -1,5 +1,6 @@
 ---
-aliases: Leggi fisiche e principio di omogeneità
+aliases:
+  - Leggi fisiche e principio di omogeneità
 creation date: 2023-03-02 16:50
 modification date: 2023-03-02 16:50
 ---
@@ -26,4 +27,25 @@ modification date: 2023-03-02 16:50
 
 >[!oss] Il principipo di omogeneità, nella forma espressa dal teorema appena enunciato, puó essere un utile strumento anche nello studio dei fenomeni fisici, talvolta la forma di una legge isica può essere dedotta unicamente in base a considerazioni dimensionali
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+# legge fisica
+===
+Una legge fisica è una relazione quantitativa tra grandezze fisiche, tradotta in un'equazione tra le misure delle grandezze considerate.
+```
+
+
+```anki
+deck: Fisica
+---
+# Principio di omogeneità
+===
+Le equazioni che traducono leggi fisiche quantitative devono essere scritte in modo da essere indipendenti dalle unità di misura scelte per le disverse grandezze fisiche in gioco.
+
+>[!teorema]
+>Condizione necessaria e sufficiente affinchè l'equazione che esprime una legge fisica soddisfi il principio di omogeneità è che sia dimensionalmente omogenea, quindi tutti i suoi membri devono avere le stesse dimensioni in termini di grandezze fondamentali
+```
 

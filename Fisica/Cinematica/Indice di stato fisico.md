@@ -20,3 +20,22 @@ L'unica differenza con le grandezze fisiche è l'assenza di una [[relazione d'or
 >
 >(Il [[Modulo]] della differenza di coordinate lungo un asse è, per definizione, una lunghhezza)
 
+
+```anki
+deck: Fisica
+---
+# Indice di stato fisico
+===
+Quando possiamo individuare un insieme di enti nel mondo tra i quali possiamo individuare:
+- Una relazione di uguaglianza ma non di ordine
+- Una operazione di somma e di differenza
+- Una operazione di prodotto salare tra enti
+- Una operazione di prodotto tra un qualsiasi ente ed un qualsiasi numero reale.
+
+esempi di indici di stato fisico:
+- coordinate geometriche
+- istanti di tempo
+- energia
+- temperatura
+```
+

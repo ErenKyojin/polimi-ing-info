@@ -17,3 +17,32 @@ Misurare significa conoscere
 Si può ridefinire la misura quindi come il confronto tra due grandezze omogenee
 
 ![[misura]]
+
+
+# ANKI
+
+```anki
+deck: Misure
+---
+# Metrologia
+- Il procedimento di misurazione porta all'assegnazione di un valore ad una grandezza fisica detta ~~misurando~~
+- Il risultato delal misurazione è espresso da un valore numerico in un unità di misura, con un ~~incertezza~~ associata alla miusra
+```
+
+```anki
+deck: Misure
+---
+# Grandezza
+===
+
+Grandezza è un attributo di un fenomeno o di una sostanza distinguibile qualitativamente e determinabile quantitativamente
+```
+
+
+```anki
+deck: Misure
+---
+# Misurando
+===
+Il misurando è la grandezza sotto misura
+```

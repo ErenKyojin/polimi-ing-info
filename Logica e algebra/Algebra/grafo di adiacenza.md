@@ -45,5 +45,15 @@ In particolare se partiamo da una relazione $R \subseteq A_{1} \times A_{2}$ si 
 >  $V = \{ a_{1},a_{2},\dots,a_{n},b_{1},b_{2},\dots,b_{n} \}$
 
 
+# ANKI
+
+```anki
+deck: LeA
+---
+# Grafo di adiacenza
+===
+
+Un grafo orientato è una coppia di insiemi $(V,E)$ con $V$ l'insieme dei vertici ed $E$ l'insieme degli archi. Ogni arco è rappresentato da una coppia di vertici con il primo vertice iniziale ed il secondo vertice finale.
+```
 
 
