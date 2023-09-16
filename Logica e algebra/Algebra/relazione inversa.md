@@ -29,6 +29,6 @@ Si dice relazione inversa di $R \subseteq A_1
 times A_2$ la relaazione $R^{-1} 
 \subseteq A_2 \times A_1$ definita da $R^{-1} = \{(a_2,a_1) | (a_1,a_2) \in R\}$.
 
-Se si tratta di insiemi finiti, il grado di incidenza si
+Se si tratta di insiemi finiti, il grado di incidenza di $R^{-1}$ si ottiene invertendo 
 ```
 
