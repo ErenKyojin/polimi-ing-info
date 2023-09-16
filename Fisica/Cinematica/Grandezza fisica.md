@@ -102,7 +102,7 @@ Tuttavia ci puó essere una seconda definizione di dimensione in fisica:
 ```anki
 deck: Fisica
 ---
-# Grabdezza fisica o classe di grandezze fisiche
+# Grandezza fisica o classe di grandezze fisiche
 ===
 Identifichiamo una grandezza fisica quando tra un insieme di enti possiamo stabilire:
 - Una relazione d'ordine
@@ -111,4 +111,17 @@ Identifichiamo una grandezza fisica quando tra un insieme di enti possiamo stabi
 - prodotto tra un qualsiasi ente ed un qualsiasi numero reale.
 
 questi enti formano una classe di grandezze fisiche
+```
+
+
+```anki
+deck: Fisica
+---
+# Tiplogie di grandezze fisiche
+===
+# Fondamentali
+Definite attraverso una misura, le fondamentali della meccanica sono
+- lunghezza
+- massa
+- intervallo di tempo
 ```
