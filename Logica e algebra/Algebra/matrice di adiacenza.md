@@ -45,3 +45,13 @@ M_{R\cap T} = M_{R} \cdot M_{T} \\
 M_{R \cup T} = M_{R} + M_{T}
 \end{align} $$
 Con il primo prodotto elemento per elemento (avremo 1 solo nelle posizioni che hanno entrambi 1) ed il secondo somma booleana (1 + 1 = 1, 1 + 0 = 1, 0 + 0 = 0)
+
+
+```anki
+deck: LeA
+---
+# Matrice di adiacenza
+===
+La matrice di adiacenza di una relazione tra $A$ e $B$ con $|A| = n$ e $|B| = m$
+```
+<% tp.file.cursor(3) %>
