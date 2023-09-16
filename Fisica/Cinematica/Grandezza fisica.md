@@ -124,4 +124,32 @@ Definite attraverso una misura, le fondamentali della meccanica sono
 - lunghezza
 - massa
 - intervallo di tempo
+
+# Derivate
+Definite attraverso leggi che le legano alle grandezze fondamentali, ad esempio:
+- velocità
+- accelerazione
+- lavoro
+- forza
+
+# Supplementari
+Angolo piano e angolo solido
+- radianti
+- steradianti
+```
+
+```anki
+deck: Fisica
+---
+# Dimensione di una grandezza fisica
+===
+La dimensione di una grandezza fisica è rappresentata dalla classe di appartenenza alla grandezza in esame
+```
+
+```anki
+deck: Fisica
+---
+# Simbolo dimensionale
+===
+Il simbolo dimensionale di una grandezza è il simbolo della grandezza racchiuso tra parentesi quadre
 ```
