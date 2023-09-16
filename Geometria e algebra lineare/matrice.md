@@ -299,7 +299,7 @@ deck: GAL
 # Nomenclatura delle matrici
 ===
 - Una matrice quadrata è una matrice qualsiasi del'insieme $M_{(n,n)}(\mathbb{K})$
-- Una qualsiasi matrice dell'insieme $M_{(1,n) (\mathbb{$
+- Una qualsiasi matrice dell'insieme $M_{(1,n)} (\mathbb{K})$ è detta vettore riga
+- Una qualsiasi matrice dell'insieem $M_{(n,1)} (\mathbb{K})$ è detta vettore colonna
 
 ```
-<% tp.file.cursor(3) %>
