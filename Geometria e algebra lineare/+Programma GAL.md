@@ -17,7 +17,7 @@ Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argo
 	- [x] [[legge di cancellazione della somma]]
 	- [x] [[legge di annullamento del prodotto per uno scalare]] 
 	- [x] [[sistema di riferimento]] 
-	- [ ] [[componenti]]
+	- [ ] [[polimi-ing-info/Geometria e algebra lineare/componenti]]
 	- [ ] [[retta]] 
 		- [ ] [[retta#Equazioni parametriche e cartesiane di una retta nello spazio]]
 	- [ ] [[piano]]

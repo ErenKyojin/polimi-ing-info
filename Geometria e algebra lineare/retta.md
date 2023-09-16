@@ -73,7 +73,7 @@ y = y_{A} + (y_{B} - y_{A})t \\
 z = z_{A} + (z_{B} - z_{A})t
 \end{cases} $$
 
-Le [[componenti]] di $\mathbf{v}$ sono detti parametri direttori in quanto descrivono la **direzione** della retta
+Le [[polimi-ing-info/Geometria e algebra lineare/componenti]] di $\mathbf{v}$ sono detti parametri direttori in quanto descrivono la **direzione** della retta
 
 >[!oss]
 >La parametrizzazione di una retta non è univoca:

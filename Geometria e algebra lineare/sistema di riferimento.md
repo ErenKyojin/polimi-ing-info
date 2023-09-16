@@ -37,7 +37,7 @@ Le rette che passano per $O$ e hanno direzione $\mathbf{u}_{1},\mathbf{u}_{2},\m
 $\vec{OP}$ si dice vettore posizione di $P$ rispetto all'origine $O$ e $P$ può essere identificato con la terna $(x_{p},y_{p},z_{p}) \in \mathbb{R}$ che sono le coordinate di P rispetto al sistema di riferimento $(O, \mathbf{u}_{1},\mathbf{u}_{2},\mathbf{u}_{3})$.
 Se $\mathbf{v}$ è un vettore libero, applicato a $O$ darà un punto $Q$. Al vettore applicato $\vec{OQ}$ rimarrà associata una terna di coordinate $(x,y,z) \in \mathbb{R}^3$: $\vec{OQ} = x\mathbf{u}_{1} + y\mathbf{u}_{2} + z\mathbf{u}_{3}$
 
-Chiamiamo $x,y,z$ le [[componenti]] di $\mathbf{v}$ rispetto alla base $(\mathbf{u}_{1},\mathbf{u}_{2},\mathbf{u}_{3})$
+Chiamiamo $x,y,z$ le [[polimi-ing-info/Geometria e algebra lineare/componenti]] di $\mathbf{v}$ rispetto alla base $(\mathbf{u}_{1},\mathbf{u}_{2},\mathbf{u}_{3})$
 
 # ANKI
 
