@@ -268,3 +268,13 @@ Partendo da una matrice a scala è possibile risolvere il sistema "all'indietro"
 Anche quando il sistema ha $\infty$ soluzioni si può usare questo metodo, risolvendo ovviamente tenendosi una (o più dipendentemente dal sistema) variabili dall'ultima equazione come parametro.
 
 Ovviamente se ci fosse un modo per ridurre ogni matrice ad una matrice a scala potremmo risolvere qualsiasi matrice, a questo proposito si sfrutta il [[Metodo di eliminazione di Gauss]] 
+
+
+```anki
+deck: 
+---
+<% tp.file.cursor(1) %>
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
