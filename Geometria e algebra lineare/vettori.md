@@ -222,8 +222,9 @@ deck: GAL
 - proprietà distributiva del prodotto per scalare rispetto alla somma di vettori:
   $$ t(\mathbf{v} + \mathbf{w}) = t\mathbf{v} + t\mathbf{w} $$
 - proprietà distributiva del prodotto per scalare rispetto alla somma di scalare
-  $$ (t + s)\mathbf{v} $$
+  $$ (t + s)\mathbf{v} = t\mathbf{v} + s\mathbf{v} $$
 - proprietà associativa del prodotto scalare
+  $$ s(t\mathbf{v}) = st(\mathbf{v}) $$
 - normalizzazione del prodotto scalare
+  $$ 1\mathbf{v} = \mathbf{v} $$
 ```
-<% tp.file.cursor(3) %>
