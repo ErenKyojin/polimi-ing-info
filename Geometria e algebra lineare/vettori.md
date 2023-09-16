@@ -178,8 +178,10 @@ deck: GAL
 ---
 # Somma tra vettori
 ===
-La somma tra due vettori $\vec{OP}$ e $\vec{PQ}$ tali che il secondo estremo del primo vettore coincida con il punto di applicazione del secondo vettore. La loro somma è per definizione, il vettore $\vec{OQ}$
+La somma tra due vettori $\vec{OP}$ e $\vec{PQ}$ tali che il secondo estremo del primo vettore coincida con il punto di applicazione del secondo vettore. La loro somma è per definizione, il vettore $\vec{OQ}$.
+
+---
 
 Dati invece due vettori liberi qualsiasi $\mathbf{v}$ e due vettori, fissiamo un punto $O$, sia $vec{OP} \equiv \mathbf{v}$ il vettore $\mathbf{v}$ applicato in $O$ e sia $
-vec{PQ}$
+\vec{PQ} = \mathbf{w}$ il vettore applicato in $P$. La somma $\mathbf{v} + \mathbf{w}$ è per definizione ilvettore libero rappresentato da $\vec{OQ}$. Questa somma non dipende dal punto di applicazione, il vettore libero sarà sempre equivalente ad $\vec{OQ}$
 ```
