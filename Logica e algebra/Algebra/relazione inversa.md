@@ -36,14 +36,26 @@ Se si tratta di insiemi finiti, il grado di incidenza di $R^{-1}$ si ottiene inv
 ```anki
 deck: LeA
 ---
-$$ \begin{aling}
-(R \cap T)^{-1} &= R^{-1} \cap T^{-1} \\
-(R \cup T)^{-1} &= R^{-1} \cup T^{-1} \\
-R \subseteq T \implies 
-(R)
+# Proprietà delle relazioni inverse
+$$ \begin{align}
+(R \cap T)^{-1} &= \\
+(R \cup T)^{-1} &= \\
+R \subseteq T &\implies \\
+(RT)^{=1} &= \\
+R(T \cup S) &= \\
+R(T \cap S) &\subset \\
 \end{align}$$
 ===
-<% tp.file.cursor(2) %>
+$$
+\begin{align}
+(R \cap T)^{-1} &= R^{-1} \cap T^{-1} \\
+(R \cup T)^{-1} &= R^{-1} \cup T^{-1} \\
+R \subseteq T &\implies R^{-1} \subseteq T^{-1} \\
+(RT)^{=1} &= T^{-1}R^{-1}\\
+R(T \cup S) &= RT \cup RS \\
+R(T \cap S) &\subset RT \cap RS\\
+\end{align}
+$$
 ```
-<% tp.file.cursor(3) %>
+
 
