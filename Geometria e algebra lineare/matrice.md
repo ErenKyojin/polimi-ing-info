@@ -271,10 +271,35 @@ Ovviamente se ci fosse un modo per ridurre ogni matrice ad una matrice a scala p
 
 
 ```anki
-deck: 
+deck: GAL
 ---
-<% tp.file.cursor(1) %>
+# Matrici
 ===
-<% tp.file.cursor(2) %>
+Una matrice di tipo $(m,n)$ detta anche matrice $m \times n$ a elementi in $\mathbb{K}$ è una tabella di elementi di $\mathbb{K}$ con $m$ righe e $n$ colonne
+$$ A = 
+\begin{bmatrix}
+a_{11} &a_{12}&...&a_{1n} \\
+a_{21} &a_{22}&...&a_{2n} \\
+\vdots &\vdots &\ddots &\vdots \\
+a_{m1} &a_{m2}&... &a_{mn}
+
+\end{bmatrix}$$
+con $a_{ij} \in \mathbb{K}$ e $i$ e $j$ che indicano rispettivamente la riga e la colonna dell elemento.
+Possiamo quindi scrivere $A = [a_{ij}]$
+
+Possiamo indicare l'insieme delle matrici $m \times n$ con elementi di $\mathbb{K}$ come:
+$$ M_{(m,n)}(\mathbb{K})\qquad o\qquad M_{\mathbb{K}}(m,n) $$.
+
+Date due matrici $A=[a_{ij}]$ e $B=[b_{ij}]$ con $A,B \in M_{(m,n)}(\mathbb{K})$ diremo che $A = B$ se e solo se $a_{ij} = b_{ij} \forall i = 1,...,m \land \forall j = 1,...,n$
+```
+
+```anki
+deck: GAL
+---
+# Nomenclatura delle matrici
+===
+- Una matrice quadrata è una matrice qualsiasi del'insieme $M_{(n,n)}(\mathbb{K})$
+- Una qualsiasi matrice dell'insieme $M_{(1,n) (\mathbb{$
+
 ```
 <% tp.file.cursor(3) %>
