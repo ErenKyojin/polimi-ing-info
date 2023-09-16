@@ -172,3 +172,12 @@ I vettori liberi si possono definire come classe di equivalenza dei vettori appl
 
 Un vettore libero in realtà è quindi un insieme di vettori applicati!!
 ```
+
+```anki
+deck: GAL
+---
+# Somma tra vettori
+===
+La somma tra due vettori $\vec{OP}$ e $\vec{PQ}$ tali che il secondo estremo del primo vettore coincida con il punto di applicazione dek
+```
+<% tp.file.cursor(3) %>
