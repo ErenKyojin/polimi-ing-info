@@ -29,6 +29,21 @@ Si dice relazione inversa di $R \subseteq A_1
 times A_2$ la relaazione $R^{-1} 
 \subseteq A_2 \times A_1$ definita da $R^{-1} = \{(a_2,a_1) | (a_1,a_2) \in R\}$.
 
-Se si tratta di insiemi finiti, il grado di incidenza di $R^{-1}$ si ottiene invertendo 
+Se si tratta di insiemi finiti, il grado di incidenza di $R^{-1}$ si ottiene invertendo la direzione delle frecce del grado di $R$, la matrice di incidenza si ottiene con la trasposizione di $R$
 ```
+
+
+```anki
+deck: LeA
+---
+$$ \begin{aling}
+(R \cap T)^{-1} &= R^{-1} \cap T^{-1} \\
+(R \cup T)^{-1} &= R^{-1} \cup T^{-1} \\
+R \subseteq T \implies 
+(R)
+\end{align}$$
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
 
