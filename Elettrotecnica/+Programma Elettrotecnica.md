@@ -7,18 +7,18 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 
 
 ## Capitolo 1 - *campo elettrico*
- - [x] [[carica|carica elettrica]]
- - [x] [[Elettrotecnica/campo|campo]] e [[campo elettrico]]
-	 - [x] [[forza elettrostatica|legge di Coulomb]]
-- [x] [[tensione|differenza di potenziale]] (o tensione)
-	- [x] [[campi di forze conservative|campo conservativo]]
-	- [x] [[Energia potenziale]]
-	- [x] [[Legge di Kirchhoff per le tensioni]]
-	- [x] [[flusso di un campo vettoriale]]
-	- [x] [[legge di Gauss]]
-	- [x] [[dielettrici]]
+ - [ ] [[carica|carica elettrica]]
+ - [ ] [[Elettrotecnica/campo|campo]] e [[campo elettrico]]
+	 - [ ] [[forza elettrostatica|legge di Coulomb]]
+- [ ] [[tensione|differenza di potenziale]] (o tensione)
+	- [ ] [[campi di forze conservative|campo conservativo]]
+	- [ ] [[Energia potenziale]]
+	- [ ] [[Legge di Kirchhoff per le tensioni]]
+	- [ ] [[flusso di un campo vettoriale]]
+	- [ ] [[legge di Gauss]]
+	- [ ] [[dielettrici]]
 	- [ ] [[voltmetro]]
-- [x] [[corrente|corrente elettrica]] 
+- [ ] [[corrente|corrente elettrica]] 
 	- [ ] [[principio di conservazione della carica]]
 	- [ ] [[conduttori]]
 	- [ ] [[amperometro]]
@@ -28,7 +28,7 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 	- [ ] [[legge di Ohm]]
 
 ## Capitolo 2 - *requisiti*
-- [ ] [[polimi-ing-info/Elettrotecnica/Componenti|Componenti]] e variabili 
+- [ ] [[polimi-ing-info/Elettrotecnica/Componenti|Componenti]] e [[equazione costitutiva|equazioni costitutive]] 
 - [ ] Teoria dei [[Grafo|grafi]] [^1]
 - [ ] Equazioni algebriche
 - [ ] [[matrice di adiacenza]] [^1]  
