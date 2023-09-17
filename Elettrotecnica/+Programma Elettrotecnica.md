@@ -29,7 +29,7 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 
 ## Capitolo 2 - *requisiti*
 - [ ] [[teoria dei circuiti]] 
-- [ ] [[polimi-ing-info/Elettrotecnica/Componenti|Componenti]] e [[equazione costitutiva|equazioni costitutive]] 
+- [ ] [[polimi-ing-info/Elettrotecnica/Componenti|Componenti]], [[equazione costitutiva|equazioni costitutive]] e [[variabili descrittive]]
 - [ ] Teoria dei [[Grafo|grafi]] [^1]
 - [ ] Equazioni algebriche
 - [ ] [[matrice di adiacenza]] [^1]  
