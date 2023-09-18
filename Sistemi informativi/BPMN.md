@@ -29,3 +29,7 @@ url: [[notazione.bpmn]]
 ```
 
 ![[attività]]
+
+![[eventi]]
+
+![[flussi]]

@@ -30,10 +30,9 @@ Si inserisce tramite logo in basso
 - Istanza multipla sequenziale, indicata con tre barre orizzontali
 	- in successione
 	- Numerosità sottintesa
-- Sottoprocessi
-	- Attività non automatiche sono scomponibili anche in altre attività
-		- Specificato
-		- Ad hoc
+- Sottoprocessi: Attività non automatiche sono scomponibili anche in altre attività
+	- Specificato: Processo interno ben definito, può essere **collassato** (scatola nera) o **espanso** (scatola bianca)
+	- Ad hoc: Noti solo i task interni, senza un flusso stabilito
 
 
 >[!oss]
