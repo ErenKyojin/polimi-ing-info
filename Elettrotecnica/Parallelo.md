@@ -32,4 +32,8 @@ deck: Elettrotecnica
 # Parallelo
 ===
 Due bipoli sono in parallelo se condividono la stessa tensione.
+
+Per i condensatori in parallelo è sufficiente sommare
+
+Le induttanze equivalenti alle resistenze
 ```
