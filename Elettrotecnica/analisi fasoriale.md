@@ -1,3 +1,10 @@
+---
+id: "analisi fasoriale"
+aliases:
+  - "analisi fasoriale"
+tags: []
+---
+
 # analisi [[fasori|fasoriale]]
 grazie ai [[Richiami]] possiamo provare a vedere come si calcola l'[[integrale]] particolare  $x_{ip}(t)$ del [[circuito RC]] nel caso avessimo
 $$
