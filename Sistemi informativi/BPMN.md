@@ -15,6 +15,15 @@ Buisness [[processo#Processo nei sistemi informativi|process]] [[modello|model]]
 - Collegamenti: 
 	- Sequence flow
 	- Messagge flow
+- Pool
+	- Due pool: cliente / azienda
+	- L'azienda ha più lanes:
+		- diversi compiti intenri
+- Artefatti
 
 
 Ogni processo ha **almeno** un **evento** iniziale ed uno finale.
+
+```bpmn
+url: [[notazione.bpmn]]
+```
