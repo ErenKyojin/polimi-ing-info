@@ -22,5 +22,14 @@ Sono diversi i casi:
 	
 	L'[[ammettenza]] equivalente di M ammettenze commesse in parallelo è invece uguale alla somma delle ammettenze cioè
 	$$Y_eq(j\omega) = \sum_{k=1}^MY_k(j\omega)$$
-	
-	
+
+
+# ANKI
+
+```anki
+deck: Elettrotecnica
+---
+# Parallelo
+===
+Due bipoli sono in parallelo se condividono la stessa tensione.
+```

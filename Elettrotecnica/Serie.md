@@ -27,3 +27,14 @@ Notiamo come possiamo scrivere l'equazione dell'esempio.
 $$Z_{eq}(j\omega) = R + j\left(\omega L - \frac{1}{\omega C}\right)$$
 
 Dove la parte immaginaria si annulla per $\omega = \omega_R = \frac{1}{\sqrt{CL}}$, detta [[pulsazione di risonanza]], a questa pulsazione il bipolo equivalente è un resistore R.
+
+
+```anki
+deck: Elettrotecnica
+---
+# Serie
+===
+Se in due bipoli scorre la stessa corrente si parla di configurazione in serie.
+Due resistenze in serie formano una resistenza equivalente uguale alla somma delle due resistenze.
+```
+ 
