@@ -106,3 +106,7 @@ Quando P riprenderà l'esecuzione Linux esegue il [[ripristino di contesto]]
 - SSP caricata dal campo sp0 del descrittore di P puntando alla base della sPila di P
 - USP caricato dalla sPila di P
 - PC caricato dal RA presente in sPila di P
+
+
+# Processo nei sistemi informativi
+Insieme di attività che trasforano un input in un output
