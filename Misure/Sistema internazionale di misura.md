@@ -26,4 +26,7 @@ e altre unità derivate:
 - N
 - Pa
 
-## Proprie
+## Proprietà del sistema internazionale
+#todo 
+
+[[metri|metro]] 
