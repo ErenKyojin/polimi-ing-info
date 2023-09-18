@@ -8,3 +8,6 @@ Cause che introducono errori nelle misure
 	- Accuratezza: "quanto il metro con cui misuro è corretto"
 	- Stabilità: peggiora col tempo (si degrada)
 - Dati di origine o risultati di altri misure
+- relazione tra misurando e sistema di misura
+	- misure dirette ([[effetti di carico]])
+	- misure indirette ([[errori di modello]])
