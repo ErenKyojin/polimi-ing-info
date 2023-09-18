@@ -19,7 +19,7 @@ modification date: 2023-07-07 09:14
 ```bpmn
 url: [[gateways.bpmn]]
 enablepanzoom: false
-height: 100
+height: 170
 ```
 
 
