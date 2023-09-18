@@ -110,3 +110,14 @@ Quando P riprenderà l'esecuzione Linux esegue il [[ripristino di contesto]]
 
 # Processo nei sistemi informativi
 Insieme di attività che trasforano un input in un output
+
+
+### Perchè modellare i processi?
+- Analisi e progettazione
+  definisce le entità notevoli all\interno di un processo di business e le loro relazioni
+
+- Comunicazione
+  Linguaggio comprensibile da esperti di tutti i livelli BOAT
+
+- Esecuzione
+  può essere direttamente tradotto in un'implementazione eseguibile
