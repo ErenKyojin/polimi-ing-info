@@ -7,6 +7,14 @@ modification date: 2023-07-07 09:14
 # Buisness process model and notation
 Buisness [[processo#Processo nei sistemi informativi|process]] [[modello|model]] and [[notazione|notation]] .
 
-## 
-- Flow objects: Activities, Events, Gateways
+## notazione
+- Flow objects: 
+	- Attività:
+	- Eventi: istantanei e singoli (non è dettagliato in termini di "lavoro svolto")
+	- Gateways
 - Collegamenti: 
+	- Sequence flow
+	- Messagge flow
+
+
+Ogni processo ha **almeno** un **evento** iniziale ed uno finale.
