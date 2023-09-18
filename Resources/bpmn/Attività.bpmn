@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_1kf7zr4" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.10.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.2.0">
+  <bpmn:process id="Process_0iecwb9" isExecutable="true">
+    <bpmn:task id="Activity_0rn0neu" name="Ciclo">
+      <bpmn:standardLoopCharacteristics />
+    </bpmn:task>
+    <bpmn:task id="Activity_1i9bkfh" name="Istanza multipla parallela">
+      <bpmn:multiInstanceLoopCharacteristics />
+    </bpmn:task>
+    <bpmn:task id="Activity_1q9hnse" name="Istanza multipla sequenziale">
+      <bpmn:multiInstanceLoopCharacteristics isSequential="true" />
+    </bpmn:task>
+    <bpmn:userTask id="Activity_16fa6iv" name="Mediata da software" />
+    <bpmn:manualTask id="Activity_0u8wad6" name="Non mediata da software" />
+    <bpmn:businessRuleTask id="Activity_0l4p5w0" name="Interpretazione di regole" />
+    <bpmn:scriptTask id="Activity_18sai5r" name="Implementata tramite linguaggio di scripting" />
+    <bpmn:sendTask id="Activity_1tf4ui8" name="Attività di invio" />
+    <bpmn:receiveTask id="Activity_0t5qsuc" name="Attività di ricezione" />
+    <bpmn:group id="Group_13mtzdd" categoryValueRef="CategoryValue_04gc6bm" />
+    <bpmn:group id="Group_0lkoibl" categoryValueRef="CategoryValue_0u59euv" />
+  </bpmn:process>
+  <bpmn:category id="Category_1b3hjct">
+    <bpmn:categoryValue id="CategoryValue_04gc6bm" value="Comportamento" />
+  </bpmn:category>
+  <bpmn:category id="Category_08kzai1">
+    <bpmn:categoryValue id="CategoryValue_0u59euv" value="Tipologia" />
+  </bpmn:category>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0iecwb9">
+      <bpmndi:BPMNShape id="Activity_0rn0neu_di" bpmnElement="Activity_0rn0neu">
+        <dc:Bounds x="260" y="140" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1i9bkfh_di" bpmnElement="Activity_1i9bkfh">
+        <dc:Bounds x="260" y="260" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1q9hnse_di" bpmnElement="Activity_1q9hnse">
+        <dc:Bounds x="260" y="380" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_17rzbii_di" bpmnElement="Activity_16fa6iv">
+        <dc:Bounds x="660" y="110" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_174ml3x_di" bpmnElement="Activity_0u8wad6">
+        <dc:Bounds x="810" y="110" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0qk74q4_di" bpmnElement="Activity_0l4p5w0">
+        <dc:Bounds x="660" y="230" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0thpdlo_di" bpmnElement="Activity_18sai5r">
+        <dc:Bounds x="810" y="230" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_14ycd4p_di" bpmnElement="Activity_1tf4ui8">
+        <dc:Bounds x="660" y="350" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0bkhc4l_di" bpmnElement="Activity_0t5qsuc">
+        <dc:Bounds x="810" y="350" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Group_13mtzdd_di" bpmnElement="Group_13mtzdd">
+        <dc:Bounds x="160" y="110" width="300" height="380" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="160" y="117" width="79" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Group_0lkoibl_di" bpmnElement="Group_0lkoibl">
+        <dc:Bounds x="630" y="80" width="300" height="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="757" y="87" width="46" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
