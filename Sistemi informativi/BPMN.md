@@ -27,3 +27,5 @@ Ogni processo ha **almeno** un **evento** iniziale ed uno finale.
 ```bpmn
 url: [[notazione.bpmn]]
 ```
+
+![[attività]]
