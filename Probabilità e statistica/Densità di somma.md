@@ -20,6 +20,6 @@ $$
 f_{x+y+w}^{(t)} = \iint f_{x}(s) f_{y}(t-n - u) \mathrm{d}s \mathrm{d}u
 $$
 
-Seconda strada [[riproducibilità]]
+Seconda strada [[polimi-ing-info/Probabilità e statistica/riproducibilità]]
 $m_{\sum x_{\bar{i}}}(t)$
 
