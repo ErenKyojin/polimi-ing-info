@@ -16,11 +16,11 @@ Sono diversi i casi:
 	E quindi la [[resistenza|resistore]] equivalente è $$R_{eq} = \frac{1}{\sum_{K=1}^MR_k^{-1}}$$
 	
 	
-	# Connessione in parallelo di ammettenze
-	È banale che $\overline i = \overline i_R + \overline i_C$ e:
+# Connessione in parallelo di ammettenze
+È banale che $\overline i = \overline i_R + \overline i_C$ e:
 	$$\overline{i} = G\overline{v} + j\omega C \overline{v} = \underbrace{(G + j\omega C)\overline{v}}_{Y_{eq}(j\omega)}$$
-	
-	L'[[ammettenza]] equivalente di M ammettenze commesse in parallelo è invece uguale alla somma delle ammettenze cioè
+
+L'[[ammettenza]] equivalente di M ammettenze commesse in parallelo è invece uguale alla somma delle ammettenze cioè
 	$$Y_eq(j\omega) = \sum_{k=1}^MY_k(j\omega)$$
 
 

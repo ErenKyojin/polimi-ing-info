@@ -11,6 +11,15 @@ se le loro [[equazione costitutiva | equazioni costitutive]] sono $v_1 = f_1(i_1
 
 Dalla connessione in serie deriviamo il [[partitore di tensione]]
 
+## Connessione in serie di condensatori
+$V = \sum V_{i}$
+$I_{i} = C_{i} \frac{d}{dt}V_{i}$
+$\frac{d}{dt} V_{i} = \frac{I_{i}}{C_{i}}$
+$\frac{dV}{dt} = \sum \frac{I_{i}}{C_{i}} = I\sum \frac{1}{C_{i}} \implies I = \frac{dV}{dt} \cdot \sum\frac{1}{\sum 1/c_i}$
+
+## Connessione in serie di induttanze
+Analogo alle resistenze
+$L_{eq} = \sum L_{i}$
 
 ## Connessione in serie di impedenze
 >[!example]
@@ -28,13 +37,16 @@ $$Z_{eq}(j\omega) = R + j\left(\omega L - \frac{1}{\omega C}\right)$$
 
 Dove la parte immaginaria si annulla per $\omega = \omega_R = \frac{1}{\sqrt{CL}}$, detta [[pulsazione di risonanza]], a questa pulsazione il bipolo equivalente è un resistore R.
 
-
+# ANKI
 ```anki
 deck: Elettrotecnica
 ---
 # Serie
 ===
 Se in due bipoli scorre la stessa corrente si parla di configurazione in serie.
-Due resistenze in serie formano una resistenza equivalente uguale alla somma delle due resistenze.
+
+$n$ resistenze in serie formano una resistenza equivalente con valore uguale alla somma delle $n$ resistenze.
+
+$n$ condensatori in serie hanno capacità equivalente $C_{eq}= \frac{1}{\sum 1/c_i}$ 
 ```
  
