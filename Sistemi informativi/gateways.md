@@ -19,7 +19,9 @@ modification date: 2023-07-07 09:14
 ```bpmn
 url: [[gateways.bpmn]]
 enablepanzoom: false
-height: 
+height: 100
 ```
 
 
+# Collegamento dei Gateway
+Il trattino indica il flusso di attività più probabile, o predefinito
