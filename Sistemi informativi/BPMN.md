@@ -5,7 +5,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 # Buisness process model and notation
-Buisness [[processo#Processo nei sistemi informativi|process]] [[modello|model]] and [[notazione|notation]] .
+Buisness [[processo#Processo nei sistemi informativi|process]] [[modello|model]] and [[polimi-ing-info/Sistemi informativi/notazione|notation]] .
 
 ## notazione
 - Flow objects: 
