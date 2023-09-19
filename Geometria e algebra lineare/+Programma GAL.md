@@ -4,7 +4,7 @@ aliases:
   - "Capitolo 1 - *Vettori geometrici, prima parte*"
 tags: []
 ---
-Di seguito vi è il programma di elettrotecnica in ordine di argomenti, con argomenti chiave e gli argomenti minori relativi indicati
+Di seguito vi è il programma di GAL in ordine di argomenti, con argomenti chiave e gli argomenti minori relativi indicati
 
 ## Capitolo 1 - *Vettori geometrici, prima parte*
 - [x] [[insieme|insiemi]]
