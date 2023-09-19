@@ -27,4 +27,4 @@ La piramide di anthony si divide verticalmente come
 	- HR
 	- Magazzini
 	- ...
-- 
+- Attività specifiche primarie
