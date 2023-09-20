@@ -168,7 +168,8 @@ Un minore di ordine 2 è
 $$ \det(A') = \begin{vmatrix}
 1 & -1 \\
 -1 & 5
-\end{vmatrix}= 5 -1 = 4 $$Dove $A'$ è ottenuta da $A$ cancellando la prima e la quarta riga e la prima e la terza colonna
+\end{vmatrix}= 5 -1 = 4 $$
+Dove $A'$ è ottenuta da $A$ cancellando la prima e la quarta riga e la prima e la terza colonna
 
 >[!teorema] Teorema di Kronecker
 >Sia $A \in M_{\mathbb{K}(m,n)}$ allora:
@@ -176,6 +177,7 @@ $$ \det(A') = \begin{vmatrix}
 >2. Il rango della matrice $A$ è $r$ se e solo se esiste una sottomatrice $A'$ di tipo $r \times r$ t.c. $\det(A') \neq 0$ ed ogni altra sottomatrice del tipo $(r+1) \times (r+1)$ che contiene $A'$ ha determinante nullo
 
 # ANKI
+
 ```anki
 deck: GAL
 ---
@@ -189,4 +191,31 @@ A &\mapsto \det(A) = |A|
 definita iterativamente su $n$ nel seguente modo:
 - $n = 1 : \det([a_{11}]) = a_{11}$
 - $n > 1 : \det(A) = \sum_{i = 1}^n a_{1i}C_{1i}$ con $C_{ij} = (-1)^{i + j} \det(A_{ij})$ con $A_{ij}$ matrice senza la $i$esima riga e la $j$-esima colonna
+
 ```
+
+
+```anki
+deck: GAL
+---
+# Relazione tra determinante, rango e invertibilità
+===
+Sia $A \in M_{(n,n)}(\mathbb{K})$, sono equivalenti le seguenti affermazioni:
+1. $r(A) = n$
+2. $\det(A) \neq 0$
+3. A è invertibile
+
+>[!dim]
+>l'implicazione tra la uno e la tre è stata già fatta nell teorema della matrice inversa, verichiamo che $\det(A) \neq 0 \iff r(A) = n$.
+>Sia $U$ una ridotta a scala di $A$. Allora $\det(A) = (-1)^t \det(U)$ si ha che $\det(A) \neq 0 \iff \det(U) \neq 0 \iff$ gli elementi della diagonale principale di $U$ sono tutti non nulli $iff r(A) = n$ 
+```
+
+
+```anki
+deck: GAL
+---
+# Proprietà del determinante
+===
+Sia $A = [a_{ij}] \in M_$
+```
+<% tp.file.cursor(3) %>
