@@ -1,5 +1,9 @@
+>[!def]
+>data $A \in M_{(m,n)}(\mathbb{K})$, il determinante di $A$ è la funzione:
+>$$ align $$
+
 >[!teorema]
->Esiste un'unica funzinoe
+>Esiste un'unica funzione 
 > $$ \det : M_{\mathbb{K}}(n,n) \to \mathbb{K} $$
 > Con le seguenti proprietà:
 > 1. **Invarianza per scorimento**: se la [[matrice]] $B$ è ottenuta da $A$ sommando ad una riga il multiplo di un'altra riga: $\det(B)= \det(A)$
