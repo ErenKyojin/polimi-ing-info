@@ -16,3 +16,14 @@ $$
 
 
 Tuttavia a noi risulta piú utile l'[[accelerazione scalare istantanea]]
+
+
+```anki
+deck: Fisica
+---
+# Accelerazione scalare media
+===
+
+Possiamo definire l'accelerazione scalare media come
+$$ a_m(t1,t2) \equiv \frac{v_2 - v_1}{t} $$
+```

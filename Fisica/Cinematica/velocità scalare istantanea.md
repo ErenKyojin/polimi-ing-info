@@ -23,3 +23,22 @@ $$
 \fbox{$s(t) = s(t_{0}) + \int _{t_{0}}^t \!v(t') \, \mathrm{d}t'$}
 $$
 
+
+```anki
+deck: Fisica
+---
+# Velocità scalare istantanea
+===
+Se la velocità scalare media tra due istanti di tempo non è costante si dice che ilmoto è vario, possiamo quindi definire la velocità scalare istantanea in questi casi come:
+$$ v(t) \equiv \lim_{\Delta t \to 0} \frac{s(t + \Delta t)- s(t)}{\Delta t} = \lim \frac{\Delta t}{\Delta s} = \frac{d}{dt}s $$
+```
+
+
+```anki
+deck: Fisica
+---
+# Calcolo della legge oraria a partire dalla velocità
+===
+$$s(t) = s(t_0) +\int_{t_0}^{t} v(t') \d t$$
+```
+<% tp.file.cursor(3) %>
