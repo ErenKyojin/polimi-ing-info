@@ -188,4 +188,5 @@ A &\mapsto \det(A) = |A|
 \end{align}$$
 definita iterativamente su $n$ nel seguente modo:
 - $n = 1 : \det([a_{11}]) = a_{11}$
+- $n > 1 : \det(A) = \sum_{i = 1}^n a_{1i}C_{1i}$ con $C_{ij} = (-1)^{i + j} \det(A_{ij})$ con $A_{ij}$ matrice senza la $i$esima riga e la $j$-esima colonna
 ```
