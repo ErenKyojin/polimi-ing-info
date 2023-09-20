@@ -18,3 +18,9 @@ se usiamo sempre 1 W di potenza allora $\dB W$
 ...
 
 $P_{(\dB x)} = 10 \log_{10} (\frac{P}{P_{x}})$
+
+>[!oss]
+>Le potenze in $dBx$ non si sommano!
+>
+>$P_{1(\dB m)} + P_{2(\dB m)} \neq P_{3(\dB m)}$
+>$1 W + 1 W = 2 \times 1 W = 3 \dB + 30 \dB m= 33 \dB m$
