@@ -22,14 +22,15 @@ Si può ridefinire la misura quindi come il confronto tra due grandezze omogenee
 # ANKI
 
 ```anki
+id: 1695223939744
 deck: Misure
 ---
 # Metrologia
 - Il procedimento di misurazione porta all'assegnazione di un valore ad una grandezza fisica detta ~~misurando~~
 - Il risultato delal misurazione è espresso da un valore numerico in un unità di misura, con un ~~incertezza~~ associata alla miusra
 ```
-
 ```anki
+id: 1695223940294
 deck: Misure
 ---
 # Grandezza
@@ -39,7 +40,9 @@ Grandezza è un attributo di un fenomeno o di una sostanza distinguibile qualita
 ```
 
 
+
 ```anki
+id: 1695223941095
 deck: Misure
 ---
 # Misurando

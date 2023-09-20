@@ -150,7 +150,7 @@ $$ s(t\mathbf{v}) = (st)\mathbf{v}\quad \forall s,t \in \mathbb{R}, \forall \mat
 # ANKI
 
 ```anki
-id: 1694786289574
+id: 1695223921319
 deck: GAL
 ---
 # Vettore applicato
@@ -160,6 +160,7 @@ Un vettore applicato è un **segmento orientato** e si rappresenta con una frecc
 
 
 ```anki
+id: 1695223922069
 deck: GAL
 ---
 # Vettore libero
@@ -172,8 +173,8 @@ I vettori liberi si possono definire come classe di equivalenza dei vettori appl
 
 Un vettore libero in realtà è quindi un insieme di vettori applicati!!
 ```
-
 ```anki
+id: 1695223922670
 deck: GAL
 ---
 # Somma tra vettori
@@ -187,6 +188,7 @@ Dati invece due vettori liberi qualsiasi $\mathbf{v}$ e due vettori, fissiamo un
 ```
 
 ```anki
+id: 1695223922945
 deck: GAL
 ---
 # Proprietà della somma tra vettori liberi
@@ -198,6 +200,7 @@ deck: GAL
 ```
 
 ```anki
+id: 1695223923094
 deck: GAL
 ---
 # Prodotto vettore per uno scalare
@@ -214,7 +217,9 @@ Analoga è la divisione per $t \neq 0$
 ```
 
 
+
 ```anki
+id: 1695223923195
 deck: GAL
 ---
 # Proprietà del prodotto tra scalare e vettore

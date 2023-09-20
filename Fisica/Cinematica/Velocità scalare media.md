@@ -46,6 +46,7 @@ s(t)-s(0)}{t - 0} = v \implies \fbox{$s(t) = s(0) + v\cdot t$}
 
 
 ```anki
+id: 1695223960895
 deck: Fisica
 ---
 # velocità scalare media

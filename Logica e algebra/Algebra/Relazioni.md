@@ -70,7 +70,7 @@ $R \subseteq A_{1} \times A_{2}$, $T \subseteq A_{2} \times A_{3}$ definiamo:
 
 
 ```anki
-id: 1694790108974
+id: 1695223920719
 deck: LeA
 ---
 # Relazione
@@ -79,7 +79,7 @@ Dati due insiemi $n$ insiemi $A_1,A_2,...,A_n$ si definisce relazione di arità 
 $A_1 \times A_2 \times ... \times A_n$
 ```
 ```anki
-id: 1694790109058
+id: 1695223921895
 deck: LeA
 ---
 $R \subseteq T \iff$

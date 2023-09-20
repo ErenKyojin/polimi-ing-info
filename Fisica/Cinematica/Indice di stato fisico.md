@@ -22,6 +22,7 @@ L'unica differenza con le grandezze fisiche è l'assenza di una [[relazione d'or
 
 
 ```anki
+id: 1695223960970
 deck: Fisica
 ---
 # Indice di stato fisico

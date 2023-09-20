@@ -11,6 +11,7 @@ Se costruiamo un grafico con l'ingresso sull'asse delle [[ascisse]] e con le usc
 # ANKI
 
 ```anki
+id: 1695223939644
 deck: Misure
 ---
 # Sensibilità

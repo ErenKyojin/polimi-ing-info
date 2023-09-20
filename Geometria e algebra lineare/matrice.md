@@ -271,6 +271,7 @@ Ovviamente se ci fosse un modo per ridurre ogni matrice ad una matrice a scala p
 
 
 ```anki
+id: 1695223921169
 deck: GAL
 ---
 # Matrici
@@ -292,8 +293,8 @@ $$ M_{(m,n)}(\mathbb{K})\qquad o\qquad M_{\mathbb{K}}(m,n) $$.
 
 Date due matrici $A=[a_{ij}]$ e $B=[b_{ij}]$ con $A,B \in M_{(m,n)}(\mathbb{K})$ diremo che $A = B$ se e solo se $a_{ij} = b_{ij} \forall i = 1,...,m \land \forall j = 1,...,n$
 ```
-
 ```anki
+id: 1695223921944
 deck: GAL
 ---
 # Nomenclatura delle matrici
@@ -303,3 +304,4 @@ deck: GAL
 - Una qualsiasi matrice dell'insieem $M_{(n,1)} (\mathbb{K})$ è detta vettore colonna
 
 ```
+

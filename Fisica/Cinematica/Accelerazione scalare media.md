@@ -19,6 +19,7 @@ Tuttavia a noi risulta piú utile l'[[accelerazione scalare istantanea]]
 
 
 ```anki
+id: null
 deck: Fisica
 ---
 # Accelerazione scalare media
@@ -30,6 +31,7 @@ $$ a_m(t1,t2) \equiv \frac{v_2 - v_1}{t_2 - t_1} = \frac{\Delta v}{ \Delta t} $$
 
 
 ```anki
+id: 1695223961545
 deck: Fisica
 ---
 # Moto uniformemente accelerato

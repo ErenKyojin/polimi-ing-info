@@ -5,6 +5,7 @@ Quante correnti e quante tensioni sono necessarie per descrivere in modo esausti
 
 
 ```anki
+id: 1695223918795
 deck: Elettrotecnica
 ---
 # equazione costitutiva

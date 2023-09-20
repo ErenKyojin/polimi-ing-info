@@ -30,6 +30,7 @@ modification date: 2023-03-02 16:50
 # ANKI
 
 ```anki
+id: 1695223960945
 deck: Fisica
 ---
 # legge fisica
@@ -39,6 +40,7 @@ Una legge fisica è una relazione quantitativa tra grandezze fisiche, tradotta i
 
 
 ```anki
+id: 1695223961495
 deck: Fisica
 ---
 # Principio di omogeneità

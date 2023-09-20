@@ -12,7 +12,7 @@
 # ANKI
 
 ```anki
-id: 1694785957300
+id: 1695223921745
 deck: GAL
 ---
 # Relazione di funzione

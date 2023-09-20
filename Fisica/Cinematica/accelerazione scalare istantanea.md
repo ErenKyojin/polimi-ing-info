@@ -14,6 +14,7 @@ $$
 
 
 ```anki
+id: 1695223960870
 deck: Fisica
 ---
 # Accelerazione scalare media
@@ -24,6 +25,7 @@ $$ a(t) \equiv \lim_{\Delta \to 0} \frac{\Delta v}{\Delta t} = \frac{dv}{dt} = \
 
 
 ```anki
+id: 1695223961469
 deck: Fisica
 ---
 # Legge oraria della velocità a partire dall'accelerazione istantanea

@@ -21,6 +21,7 @@ R(T \cap S) &\subset RT \cap RS
 # ANKI
 
 ```anki
+id: 1695223920619
 deck: LeA
 ---
 # Relazione inversa
@@ -34,6 +35,7 @@ Se si tratta di insiemi finiti, il grado di incidenza di $R^{-1}$ si ottiene inv
 
 
 ```anki
+id: 1695223920919
 deck: LeA
 ---
 # Proprietà delle relazioni inverse

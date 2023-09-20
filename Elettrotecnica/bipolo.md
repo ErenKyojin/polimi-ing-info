@@ -1,4 +1,5 @@
 ```anki
+id: 1695223919044
 deck: Elettrotecnica
 ---
 # Bipoli notevoli

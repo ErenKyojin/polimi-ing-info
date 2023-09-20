@@ -100,6 +100,7 @@ Tuttavia ci puó essere una seconda definizione di dimensione in fisica:
 # ANKI
 
 ```anki
+id: 1695223960995
 deck: Fisica
 ---
 # Grandezza fisica o classe di grandezze fisiche
@@ -115,6 +116,7 @@ questi enti formano una classe di grandezze fisiche
 
 
 ```anki
+id: 1695223961520
 deck: Fisica
 ---
 # Tiplogie di grandezze fisiche
@@ -137,19 +139,21 @@ Angolo piano e angolo solido
 - radianti
 - steradianti
 ```
-
 ```anki
+id: 1695223961771
 deck: Fisica
 ---
 # Dimensione di una grandezza fisica
 ===
 La dimensione di una grandezza fisica è rappresentata dalla classe di appartenenza alla grandezza in esame
 ```
-
 ```anki
+id: 1695223961946
 deck: Fisica
 ---
 # Simbolo dimensionale
 ===
 Il simbolo dimensionale di una grandezza è il simbolo della grandezza racchiuso tra parentesi quadre
 ```
+
+

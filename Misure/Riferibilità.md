@@ -11,6 +11,7 @@ modification date: 2023-07-07 09:14
 
 
 ```anki
+id: 1695223939720
 deck: Misure
 ---
 # Riferibilità

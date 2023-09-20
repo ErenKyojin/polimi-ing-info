@@ -179,6 +179,7 @@ Dove $A'$ è ottenuta da $A$ cancellando la prima e la quarta riga e la prima e 
 # ANKI
 
 ```anki
+id: 1695223921345
 deck: GAL
 ---
 # Determinante
@@ -196,6 +197,7 @@ definita iterativamente su $n$ nel seguente modo:
 
 
 ```anki
+id: 1695223922093
 deck: GAL
 ---
 # Relazione tra determinante, rango e invertibilità
@@ -212,6 +214,7 @@ Sia $A \in M_{(n,n)}(\mathbb{K})$, sono equivalenti le seguenti affermazioni:
 
 
 ```anki
+id: 1695223922620
 deck: GAL
 ---
 # Proprietà del determinante

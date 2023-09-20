@@ -10,6 +10,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
+id: 1695223939669
 deck: Misure
 ---
 # Ripetibilità

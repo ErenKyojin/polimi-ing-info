@@ -48,12 +48,13 @@ Nel seguito denoteremo le relazioni di equivalenza con le lettere minuscole dell
 >2. $A =$ rette di un piano
 >	- $a R b \iff a \parallel b$
 >3. $A \in M_{(n,n)}(\mathbb{R})$
->4. $C \sim D \iff$
+> $C \sim D \iff \exists P \in M(n, \mathbb{R})\quad |P| \neq 0 : D = P^{-1}CP$
 
+Data una relazione di equivalenza possiamo definire le [[classi di equivalenza]]
 # ANKI
 
 ```anki
-id: 1694785476699
+id: 1695223921794
 deck: GAL
 ---
 # Relazione di equivalenza

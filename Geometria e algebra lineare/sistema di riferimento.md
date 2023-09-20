@@ -42,7 +42,8 @@ Chiamiamo $x,y,z$ le [[polimi-ing-info/Geometria e algebra lineare/componenti]] 
 # ANKI
 
 ```anki
-deck: GAL 
+id: 1695223920944
+deck: GAL
 ---
 # Sistema di riferimento
 ===

@@ -25,6 +25,7 @@ $$
 
 
 ```anki
+id: 1695223960819
 deck: Fisica
 ---
 # Velocità scalare istantanea
@@ -35,6 +36,7 @@ $$ v(t) \equiv \lim_{\Delta t \to 0} \frac{s(t + \Delta t)- s(t)}{\Delta t} = \l
 
 
 ```anki
+id: 1695223961445
 deck: Fisica
 ---
 # Calcolo della legge oraria a partire dalla velocità

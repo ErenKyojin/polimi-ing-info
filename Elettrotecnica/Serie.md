@@ -39,6 +39,7 @@ Dove la parte immaginaria si annulla per $\omega = \omega_R = \frac{1}{\sqrt{CL}
 
 # ANKI
 ```anki
+id: 1695223919068
 deck: Elettrotecnica
 ---
 # Serie

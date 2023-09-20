@@ -27,6 +27,7 @@ L'[[ammettenza]] equivalente di M ammettenze commesse in parallelo è invece ugu
 # ANKI
 
 ```anki
+id: 1695223919118
 deck: Elettrotecnica
 ---
 # Parallelo

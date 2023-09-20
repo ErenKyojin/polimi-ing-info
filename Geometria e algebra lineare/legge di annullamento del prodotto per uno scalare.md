@@ -20,6 +20,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
+id: 1695223921219
 deck: GAL
 ---
 # Legge di annullamento del prodotto per uno scalare

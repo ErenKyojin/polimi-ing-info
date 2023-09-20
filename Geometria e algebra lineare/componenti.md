@@ -38,6 +38,7 @@ Analogamente per le componenti $y$ e $z$.
 # ANKI
 
 ```anki
+id: 1695223921369
 deck: GAL
 ---
 # Componenti di un vettore
