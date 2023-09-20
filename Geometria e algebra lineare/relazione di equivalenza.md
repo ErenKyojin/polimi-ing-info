@@ -36,7 +36,21 @@ Una relazione di equivalenza divide un insieme in [[classi di equivalenza]]
 Osserviamo che la [[chiusura]] riflessiva, simmetrica e transitiva di una relazione $R$ è una relazione d'equivalenza ed è la minima relazione di equivalenza che contiene $R$, tale relazione viene anche chiamata chiusura di equivalenza di $R$ o piú comunemente relazione di equivalenza generata da $R$.
 
 Nel seguito denoteremo le relazioni di equivalenza con le lettere minuscole dell'alfabeto greco.
+# Logica e Algebra
+>[!def]
+>$R$ è una relazione di equivalenza se gode delle proprietà riflessiva, simmetrica e transitiva
 
+>[!def]
+>Data una relazione $R$ su $A$ la sua chiusura riflessiva, simmetrica e transitiva è detta relazione di equivalenza generata da $R$.
+
+>[!esempio] esempi
+>1. $A = \mathbb{N}$, la relazione di uguaglianza 
+>2. $A =$ rette di un piano
+>	- $a R b \iff a \parallel b$
+>3. $A \in M_{(n,n)}(\mathbb{R})$
+>4. $C \sim D \iff$
+
+# ANKI
 
 ```anki
 id: 1694785476699
@@ -45,7 +59,7 @@ deck: GAL
 # Relazione di equivalenza
 ===
 Una relazione $\mathfrak{R}$ è di equivalenza se gode delle seguenti proprietà:
-- riflessiva: $\forall a \in A, a = a$
-- simmetrica: $\forall a,b \in A, a = b \implies b = a$
-- transitiva: $\forall a,b,c \in A, a =b, b =c \implies a = c$
+- riflessiva: $\forall a \in A, a \sim a$
+- simmetrica: $\forall a,b \in A, a \sim b \implies b \sim a$
+- transitiva: $\forall a,b,c \in A, a \sim b, b \sim c \implies a \sim c$
 ```

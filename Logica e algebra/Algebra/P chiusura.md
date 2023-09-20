@@ -79,7 +79,11 @@ Vediamo allora di costruire queste $P$ chiusure:
 >
 >### riflessiva + simmetrica + transitiva
 >$$ S = \bigcup_{i > 0}(R \cup I_{A} \cup R^{-1})^i $$
->Transitiva in quanto $T \subseteq A \times A, T overse$
+>#Todo
+
+![[relazione di equivalenza#Logica e Algebra]]
+
+
 
 Dati $A = \{ a,b,c,d \}$ e $R = \{ (a,a),(a,b),(b,d),(c,d) \}$ costruire la chiusura transitiva di $R$. Risulta $R^2 = \{ (a,a),(a,b),(a,d) \}$ e $R^3 = R^2 = \{ (a,a),(a,b),(a,d) \}$, quindi la chiusura transitiva di $R$ è la relazione $\{ (a,a),(a,b),(b,d),(c,d),(a,d) \}$ (le potenze di esponente maggiore di $2$ non possono infatti aggiungere nuove coppie in questo caso).
 Il tutto poteva facilmente essere ottenuto con considerazioni sulla matrice di incidenza di $R$.
