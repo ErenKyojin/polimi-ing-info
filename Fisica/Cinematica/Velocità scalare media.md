@@ -50,6 +50,7 @@ deck: Fisica
 ---
 # velocità scalare media
 ===
-Possiamo definire
+Possiamo definire la velocità scalare media come
+$$ v_m(t_1,t_2) \equiv \frac{s_2 - s_1}{t_2 - t_1} = \frac{\Delta s}{\Delta t} $$
+notiamo che $v_m = tan(\alpha)$ con $\alpha$ angolo tra la retta passante per i due punti $(t_1, s_1)$ e $(t_2,s_2)$  e l'ascissa
 ```
-<% tp.file.cursor(3) %>
