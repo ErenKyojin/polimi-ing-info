@@ -70,11 +70,16 @@ Vediamo allora di costruire queste $P$ chiusure:
 >[!dim]
 >### riflessiva + simmetrica
 > $$ (R \cup I_{A}) \cup (R \cup I_{A})^{-1} = \dots $$
->### Riflessiva + transitiva
+>### riflessiva + transitiva
 >$R \cup I_{A} \to \text{chiudo transitivamente} \to \bigcup_{i > 0}(R \cup I_{A})^i = \bigcup R^i \cup I_{A} = \bigcup R^i$
 >### simmetrica + transitiva
->È facile osservare "sperimentalmente" che l'ordine in cui applichiamo le chiusure porta a risultati differenti
-
+>È facile osservare "sperimentalmente" che l'ordine in cui applichiamo le chiusure porta a risultati differenti, in effetti applicando prima la transitiva il risultato finale non sarà transitivo, si chiude sempre prima simmetricamente
+>
+>$$ S = \bigcup_{i > 0} (R \cup R^{-1})^{i} $$ chiusura simmetrica e transitiva di R
+>
+>### riflessiva + simmetrica + transitiva
+>$$ S = \bigcup_{i > 0}(R \cup I_{A} \cup R^{-1})^i $$
+>Transitiva in quanto $T \subseteq A \times A, T overse$
 
 Dati $A = \{ a,b,c,d \}$ e $R = \{ (a,a),(a,b),(b,d),(c,d) \}$ costruire la chiusura transitiva di $R$. Risulta $R^2 = \{ (a,a),(a,b),(a,d) \}$ e $R^3 = R^2 = \{ (a,a),(a,b),(a,d) \}$, quindi la chiusura transitiva di $R$ è la relazione $\{ (a,a),(a,b),(b,d),(c,d),(a,d) \}$ (le potenze di esponente maggiore di $2$ non possono infatti aggiungere nuove coppie in questo caso).
 Il tutto poteva facilmente essere ottenuto con considerazioni sulla matrice di incidenza di $R$.
