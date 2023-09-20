@@ -1,6 +1,14 @@
 >[!def]
 >data $A \in M_{(m,n)}(\mathbb{K})$, il determinante di $A$ è la funzione:
->$$ align $$
+>
+> $$ \begin{align}
+> \det : M_{(n,n)}\mathbb{K} &\to \mathbb{K} \\
+> A &\mapsto \det(A) = |A|
+> \end{align}$$
+> definita iterativamente su $n$ nel seguente modo
+> - $n = 1 : \det([a_{11}]) = a_{11}$
+> - $n > 1 : \det(A) = \sum_{i = 1}^n a_{1i}C_{1i}$ con $C_{ij} = (-1)^{i + j} \det(A_{\hat{ij}})$
+> con $A_{\hat{ij}}$ matrice A senza la i-esima riga e j-esima colonna.
 
 >[!teorema]
 >Esiste un'unica funzione 
@@ -167,3 +175,17 @@ $$ \det(A') = \begin{vmatrix}
 >1. Se $A'$ è sottomatrice di $A$ e $\det(A')\neq {0}$ allora le colonne o le righe di $A$ che contengono le colonne o le righe di $A'$ sono [[Dipendenza e indipendenza lineare|linearmente indipendenti]] 
 >2. Il rango della matrice $A$ è $r$ se e solo se esiste una sottomatrice $A'$ di tipo $r \times r$ t.c. $\det(A') \neq 0$ ed ogni altra sottomatrice del tipo $(r+1) \times (r+1)$ che contiene $A'$ ha determinante nullo
 
+# ANKI
+```anki
+deck: GAL
+---
+# Determinante
+===
+data $A \in M_(m,n)(\mathbb{K}$ il determinante di $A$ è la funzione:
+$$ \begin{align}
+\det : M_{(n,n)} \mathbb{K} &\to \mathbb{K} \\
+A &\mapsto \det(A) = |A|
+\end{align}$$
+definita iterativamente su $n$ nel seguente modo:
+- $n = 1 : \det([a_{11}]$
+```
