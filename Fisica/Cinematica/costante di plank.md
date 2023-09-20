@@ -12,4 +12,5 @@ $m gv = VI = V_{\text{ coil }} V_{R} / R$
 
 allora è possibile misurare $h$ dalla precedente conoscenza di grandezze meccaniche e delle grandezze elettriche. Le ultime sono difatto misurate riferendosi ai valori convenzionali $K_{J-90}$ $R_{K-90}$,
 
-$h = h_{90} \frac{R_{90}}{V_{\text{coil}-90}V_{R-90}} g \cdot v$
+$$h = h_{90} \frac{R_{90}}{V_{\text{coil}-90}V_{R-90}} g \cdot v \cdot m$$
+

@@ -40,3 +40,6 @@ e altre unità derivate:
 [[candela]]
 
 [[relazioni tra unità fondamentali]]
+
+# Nuovo SI
+![[Pasted image 20230920122316.png]]
