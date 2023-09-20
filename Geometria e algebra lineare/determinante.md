@@ -216,6 +216,12 @@ deck: GAL
 ---
 # Proprietà del determinante
 ===
-Sia $A = [a_{ij}] \in M_$
+Sia $A = [a_{ij}] \in M_{(n,n)}\mathbb{K}$ allora
+1. $\det(A) = \det(A^T)$
+2. Se $B \in M_{(n,n)}(\mathbb{K})$ allora $\det(A \cdot B) = \det(A)\det(B)$, ci si riferisce a questa proprietà come teorema di binet.
+	- In particolare se A è invertibile si ha $1 = \det(\mathbb{I}_n = \det(A^{-1}A) =\det(A^{-1})\det(A) => \det(A^{-1}) = \det(A)^{-1}$ 
+3. Se la matrice $A'$ è ottenuta dalla mtrice $A$ moltiplicando una colonna per $t \in \mathbb{K}$ allora $\det(A') = t\det(A)$
+	- in particolare $\det(tA) = t^n \det(A)$ (n numero di colonne)
+4. Se $A = [\mathbf{v}_1 | ... | t\mathbf{u} + s\mathbf{w}| ... | \mathbf{v}_n ]$ allora
+   $$ |A| = t \bigg\vert \mathbf{v}_1| ... | u | ... | \mathbf{v}_m \bigg\vert + s\bigg\vert\mathbf{v}_1 | ... | \mathbf{w} | ... | \mathbf{v}_m \bigg\vert $$
 ```
-<% tp.file.cursor(3) %>
