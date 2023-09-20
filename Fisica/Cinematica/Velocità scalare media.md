@@ -43,3 +43,13 @@ s(t)-s(0)}{t - 0} = v \implies \fbox{$s(t) = s(0) + v\cdot t$}
 
 
 [[velocità scalare istantanea]]
+
+
+```anki
+deck: Fisica
+---
+# velocità scalare media
+===
+Possiamo definire
+```
+<% tp.file.cursor(3) %>
