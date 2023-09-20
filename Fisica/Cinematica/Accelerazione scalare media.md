@@ -25,5 +25,15 @@ deck: Fisica
 ===
 
 Possiamo definire l'accelerazione scalare media come
-$$ a_m(t1,t2) \equiv \frac{v_2 - v_1}{t} $$
+$$ a_m(t1,t2) \equiv \frac{v_2 - v_1}{t_2 - t_1} = \frac{\Delta v}{ \Delta t} $$
+```
+
+
+```anki
+deck: Fisica
+---
+# Moto uniformemente accelerato
+===
+Se $a_m = \cost$ il moto si dice uniformemente accelerato e vale per ogni $t$:
+$$ \frac{v(t) - v(0)}{t - 0} = a \implies v(t) = v(0) + at \implies s(t) = s(0) + v(0)t + \frac{1}{2}at^2 $$
 ```

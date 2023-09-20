@@ -41,4 +41,3 @@ deck: Fisica
 ===
 $$s(t) = s(t_0) +\int_{t_0}^{t} v(t') \d t$$
 ```
-<% tp.file.cursor(3) %>
