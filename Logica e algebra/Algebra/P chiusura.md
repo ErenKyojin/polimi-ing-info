@@ -8,7 +8,13 @@ Consideriamo ora un [[Geometria e algebra lineare/insieme|insieme]] $P$ di propr
 1. $R \subseteq T$
 2. $T$ gode di tutte le proprietà in $P$
 3. Se $S \subseteq A \times A$ è una relazione che gode di tutte le proprietà in $P$ e contiene $R$ allora contiene anche $T$
-In altre parole la $P$-chiusura di $R$, se esiste, è la minima relazione che contiene $R$ e ha tutte le proprietà di $P$
+
+In altre parole la $P$-chiusura di $R$, se esiste, è la minima relazione che contiene $R$ e ha tutte le proprietà di $P$, quindi creiamo la più semplice relazione che rispetti tutte le proprietà su cui chiudere.
+
+>[!esempio]
+>$A = \{ a,b,c \}$
+> $R = \{(a,b), (c,c)\}$ non riflessiva
+> $T = \{(a,b), (a,a), (b,b), (c,c)\}$ chiusura riflessiva di R
 
 La $P$ chiusura di $R$ se esiste è unica, supponiamo infatti che $T$ ed $S$ siano due $P$-chiusure di $R$; dovendo soddisfare la (1) e la (2) entrambe contengono $R$ e godono di tutte le proprietà in $P$, ma allora per la (3) si ha $T \subseteq S$ e $S \subseteq T$, quindi $T = S$
 
@@ -97,6 +103,14 @@ A tal scopo basta considerare $A = \{ a,b,c \}, R = \{ (a,b),(b,c) \}$. Risulta 
 che non è transitiva.
 Allo stesso modo la chiusura riflessiva, simmetrica e transitiva di $R$ è la chiusura transitiva della chiusura riflessiva e simmetrica di $R$, se avessimo fatto la chiusura simmetrica della chiusura riflessiva e transitiva di $R$ in generale non avremmo trvato il risultato voluto.
 
+>[!esempio]
+>
+>### 1 P = {riflessiva}
+>$R \subseteq A \times A$
+>La $P$ chiusura di $R$ è $R \cup I_{A} = S$
+>
+>### 2 P = {simmetrica}
+
 # ANKI
 
 
@@ -106,7 +120,10 @@ deck: LeA
 $R \subseteq A \times A\quad P = \{proprietà\}$
 $x = \{x_c subseteq A \times A / R \subseteq x_i$ gode d pr in {, $i \ in I$ $\}$
 se $x \neq \varnothing$ e le proprietà in $P$ consentono per intersezioni allora
-$S = \bi$
+$S = \bigcap x$ è la P chiusura di $R$
+1. $\forall i R \subseteq X \implies R \subseteq \bigcap_{i \in I} x_i = S$
+2. poichè $\forall i, x_i$ gode della proprietà in $P$ e le proprietà si conservano per intersezioni allora $S$ gode delle proprietà in P
+3. Sia $T \subseteq A \times A : R \subseteq T$ e $T$ gode delle propriets in P allora per almeno un $T = x_i$ 
 ===
 <% tp.file.cursor(2) %>
 ```
