@@ -32,21 +32,27 @@ In generale invece non esiste la chisura seriale di una relazione $R$, basta con
 
 In generale non esiste neppure la chiusura antisimmetrica di una relazione $R$, infatti se $R$ non è antisimmetrica, nessuna relazione che contenga $R$ può essere antisimmetrica.
 
-Vogliamo ora dare un metodo per costruire la chiusura riflessiva, la chiusura simmetrica e la chiusura transitiva di $R$.
-- La chiusura riflessiva di $R$ è la relazione $R \cup I_{A}$
-- La chiusura simmetrica di $R$ è la relazione $R \cup R^{-1}$
-- La chiusura transitiva di $R$ è la relazione $\displaystyle\bigcup_{n > 0}R^n$ (ovviamente $n$ è un intero)
-Verifichiamo come esempio l'ultima di queste affermazioni, dobbiamo provare che la relazione $T = \bigcup_{n > 0} R^n$
-1. Contiene $R$ (immediato)
-2. È transitiva, infatti se $(a_{1},a_{2}) \in T$ e $(a_{2},a_{3}) \in T$ esistono due interi $m,n > 0$ tali che $(a_{1},a_{2}) \in R^n$ e $(a_{2},a_{3}) \in R^m \subseteq T$
-3. È contenuta in ogni relazione transitiva che contenga $R$, infatti sia $S$ una relazione transitiva che contegna $R$, si ha $R^2 \subseteq S^2$ perchè il prodotto di relazioni è compatibile con l'inclusione, inoltre $S^2 \subseteq S$ per la transitività di $S$, dunque $R^2 \subseteq S$. Di nuovo per la compatbilità del prodotto con l'inclusione e per la transitività di $S$ si ha $R^3 \subseteq S^2 \subseteq S$ e, ripetendo lo stesso ragionamento si ottiene $R^n \subseteq S$ per ogni $n > 0$ e dunque $T \subseteq S$
-
+> [!proposizione]
+> Vogliamo ora dare un metodo per costruire la chiusura riflessiva, la chiusura simmetrica e la chiusura transitiva di $R$.
+> - La chiusura riflessiva di $R$ è la relazione $R \cup I_{A}$
+> - La chiusura simmetrica di $R$ è la relazione $R \cup R^{-1}$
+> - La chiusura transitiva di $R$ è la relazione $\displaystyle\bigcup_{n > 0}R^n$ (ovviamente $n$ è un intero)
+>
+> Verifichiamo come esempio l'ultima di queste affermazioni, dobbiamo provare che la relazione $T = \bigcup_{n > 0} R^n$
+>
+>> [!dim]
+> > 1. Contiene $R$ (immediato)
+> > 2. È transitiva, infatti se $(a_{1},a_{2}) \in T$ e $(a_{2},a_{3}) \in T$ esistono due interi $m,n > 0$ tali che $(a_{1},a_{2}) \in R^n$ e $(a_{2},a_{3}) \in R^m \subseteq T$
+> > 3. È contenuta in ogni relazione transitiva che contenga $R$, infatti sia $S$ una relazione transitiva che contegna $R$, si ha $R^2 \subseteq S^2$ perchè il prodotto di relazioni è compatibile con l'inclusione, inoltre $S^2 \subseteq S$ per la transitività di $S$, dunque $R^2 \subseteq S$. Di nuovo per la compatbilità del prodotto con l'inclusione e per la transitività di $S$ si ha $R^3 \subseteq S^2 \subseteq S$ e, ripetendo lo stesso ragionamento si ottiene $R^n \subseteq S$ per ogni $n > 0$ e dunque $T \subseteq S$
+> > 
 
 Notare bene che in genere non basta fare $R \cup R^2$ per trovare la chiusura transitiva di $R$, a tal proposito basta considerare $A = \{ a,b,c,d \}$, $R = \{ (a,b),(b,c),(c,d) \}$. Risulta $R^2 = \{ (a,c),(b,d) \}$ quindi $R \cup R^2 = \{ (a,b),(b,c),(c,d),(a,c),(b,d) \}$ non è transitiva. Per avere una relazione transitiva bisogna aggiungere ad $R$ la coppia $(a,d)$ che appartiene ad $R^3$. In questo caso quindi la chiusura transitiva di $R$ è $R \cup R^2 \cup R^3$ (le potenze successive di $R$ sono infatti vuote).
 In generale il procedimento di unire nuove potenze di $R$ finisce quando non si introducono nuovi 1.
 
 
-Cosa succede se consideriamo $P$ come costituito da almeno due proprietà?
+> [!question]
+> Cosa succede se consideriamo $P$ come costituito da almeno due proprietà?
+
 Le stesse considerazioni fatte per provare che in genere non esiste la chiusura antisimmetrica di una relazione si possono usare anche quando $P$ non è costituito da una sola proprietà ma contiene la proprietà antisimmetrica. Analogamente le considerazioni sulla non esistenza della chiusura seriale si possono usare quando $P$ contiene la proprietà seriale (a meno che non capiti che la presenza di altre proprietà porti la serialità ad essere riflessività come accade quando si considera l'[[insieme]] delle proprietà seriale, riflessiva e transitiva).
 
 Escludendo queste due proprietà, consideriamo:
@@ -103,13 +109,6 @@ A tal scopo basta considerare $A = \{ a,b,c \}, R = \{ (a,b),(b,c) \}$. Risulta 
 che non è transitiva.
 Allo stesso modo la chiusura riflessiva, simmetrica e transitiva di $R$ è la chiusura transitiva della chiusura riflessiva e simmetrica di $R$, se avessimo fatto la chiusura simmetrica della chiusura riflessiva e transitiva di $R$ in generale non avremmo trvato il risultato voluto.
 
->[!esempio]
->
->### 1 P = {riflessiva}
->$R \subseteq A \times A$
->La $P$ chiusura di $R$ è $R \cup I_{A} = S$
->
->### 2 P = {simmetrica}
 
 # ANKI
 
