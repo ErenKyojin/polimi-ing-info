@@ -96,3 +96,18 @@ La chiusura simmetrica e transitiva di $R$ è la chiusura transitiva della chius
 A tal scopo basta considerare $A = \{ a,b,c \}, R = \{ (a,b),(b,c) \}$. Risulta $\displaystyle\bigcup_{n > 0} R^n = \{ (a,b),(b,c),(a,c) \}$ e dunque $$\bigcup_{n > 0}R^n \cup \left( \bigcup_{n > 0} R^n \right) ^{-1} = \{ (a,b),(b,c),(a,c),(b,a),(c,b),(c,a) \}$$
 che non è transitiva.
 Allo stesso modo la chiusura riflessiva, simmetrica e transitiva di $R$ è la chiusura transitiva della chiusura riflessiva e simmetrica di $R$, se avessimo fatto la chiusura simmetrica della chiusura riflessiva e transitiva di $R$ in generale non avremmo trvato il risultato voluto.
+
+# ANKI
+
+
+```anki
+deck: LeA
+---
+$R \subseteq A \times A\quad P = \{proprietà\}$
+$x = \{x_c subseteq A \times A / R \subseteq x_i$ gode d pr in {, $i \ in I$ $\}$
+se $x \neq \varnothing$ e le proprietà in $P$ consentono per intersezioni allora
+$S = \bi$
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
