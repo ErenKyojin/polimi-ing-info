@@ -50,8 +50,7 @@ Notare bene che in genere non basta fare $R \cup R^2$ per trovare la chiusura tr
 In generale il procedimento di unire nuove potenze di $R$ finisce quando non si introducono nuovi 1.
 
 
-> [!question]
-> Cosa succede se consideriamo $P$ come costituito da almeno due proprietà?
+> [!question] Cosa succede se consideriamo $P$ come costituito da almeno due proprietà?
 
 Le stesse considerazioni fatte per provare che in genere non esiste la chiusura antisimmetrica di una relazione si possono usare anche quando $P$ non è costituito da una sola proprietà ma contiene la proprietà antisimmetrica. Analogamente le considerazioni sulla non esistenza della chiusura seriale si possono usare quando $P$ contiene la proprietà seriale (a meno che non capiti che la presenza di altre proprietà porti la serialità ad essere riflessività come accade quando si considera l'[[insieme]] delle proprietà seriale, riflessiva e transitiva).
 
@@ -68,8 +67,13 @@ Vediamo allora di costruire queste $P$ chiusure:
 - La chiusura riflessiva e transitiva di $R$ è la relazione $\displaystyle \bigcup_{n \geq 0}R^n$
 - La chiusura simmetrica e transitiva di $R$ è la relazione $\displaystyle\bigcup_{n > 0} (R \cup R^{-1})^n$
 - La chiusura riflessiva, simmetrica e transitiva di $R$ è la relazione $\displaystyle\bigcup_{n > 0}(R \cup I_{A} \cup R^{-1})^{n}$
->[!dim]-
->#todo
+>[!dim]
+>### riflessiva + simmetrica
+> $$ (R \cup I_{A}) \cup (R \cup I_{A})^{-1} = \dots $$
+>### Riflessiva + transitiva
+>$R \cup I_{A} \to \text{chiudo transitivamente} \to \bigcup_{i > 0}(R \cup I_{A})^i = \bigcup R^i \cup I_{A} = \bigcup R^i$
+>### simmetrica + transitiva
+>È facile osservare "sperimentalmente" che l'ordine in cui applichiamo le chiusure porta a risultati differenti
 
 
 Dati $A = \{ a,b,c,d \}$ e $R = \{ (a,a),(a,b),(b,d),(c,d) \}$ costruire la chiusura transitiva di $R$. Risulta $R^2 = \{ (a,a),(a,b),(a,d) \}$ e $R^3 = R^2 = \{ (a,a),(a,b),(a,d) \}$, quindi la chiusura transitiva di $R$ è la relazione $\{ (a,a),(a,b),(b,d),(c,d),(a,d) \}$ (le potenze di esponente maggiore di $2$ non possono infatti aggiungere nuove coppie in questo caso).
