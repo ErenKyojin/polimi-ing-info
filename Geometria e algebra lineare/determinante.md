@@ -187,5 +187,5 @@ $$ \begin{align}
 A &\mapsto \det(A) = |A|
 \end{align}$$
 definita iterativamente su $n$ nel seguente modo:
-- $n = 1 : \det([a_{11}]$
+- $n = 1 : \det([a_{11}]) = a_{11}$
 ```
