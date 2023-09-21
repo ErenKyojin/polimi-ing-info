@@ -20,6 +20,16 @@ modification date: 2023-07-07 09:14
 
 La transazione è un insieme di operazioni elementari che hanno senso solo se fatte assieme. E quindi sono garantite.
 
+- Pianificazione strategica
+	- Scelta deli obiettivi aziendali
+	- Definizione delle politiche di comportamento aziendale
+- Programmazione e controlla
+	- Programmazione delle risorse disponibili
+	- Controllo sul conseguimento degli obiettivi programmati
+- Livello operazionale
+	- Condizione delle attività aziendali
+
+
 Per quanto riguarda la porgrammazione e controllo avremo chiaramente numerosi processi sia di programmazione che di controllo. Ci saranno chiaramente flussi di dati sia "orizzontali" tra i singoli processi che "verticali". 
 
 La piramide di anthony si divide verticalmente come
@@ -28,3 +38,5 @@ La piramide di anthony si divide verticalmente come
 	- Magazzini
 	- ...
 - Attività specifiche primarie
+
+Si può vedere la piramide di Anthony come un albero delle attività
