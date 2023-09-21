@@ -39,4 +39,4 @@ La piramide di anthony si divide verticalmente come
 	- ...
 - Attività specifiche primarie
 
-Si può vedere la piramide di Anthony come un albero delle attività
+Si può vedere la piramide di Anthony come un albero delle attività.
