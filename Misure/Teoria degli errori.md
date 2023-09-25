@@ -42,3 +42,11 @@ $$ \sigma(x) = \sqrt{ \sigma^2(x) } $$
 
 ---
 La PDF più comune è la [[Gaussiana|densità gaussiana]]
+
+Per trovare la probabilità che il valore cada in un intervallo della gaussiana è sufficiente integrare tra i due valori di cui siamo interessati a vedere se vi è contenimento
+
+| $1\sigma$ | $2 \sigma$ | $3 \sigma$ |
+| --------- | ---------- | ---------- |
+| 68%       | 95%        | 99%        | 
+
+Quindi ad esempio stando lontani 3 volte dalla deviazione standard abbiamo $$

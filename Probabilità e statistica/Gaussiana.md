@@ -37,7 +37,7 @@ $$
 >
 >Deduciamo dagli ultimi calcoli fatti che i due parametri di una variabile aleatoria $\mathcal{N}(\mu,\sigma^2)$ hanno una precisa intepretazione, la prima è la media e la seconda è la varianza.
 
-
+È la funzione densità di probabilità (PDF) migliore per la [[Teoria degli errori]]
 ## Approssimazione gaussina della [[funzione di ripartizione]] binomiale
 
 >[!teorema]
