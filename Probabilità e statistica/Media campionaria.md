@@ -15,7 +15,6 @@ La stima del valor medio dell'intera popolazione $\mu(x)$ attraverso lo stimator
 >>La media di un singolo valore è il singolo valore stesso
 
 
-
 [[media teorica]]
 
 

@@ -56,3 +56,5 @@ Quindi ad esempio stando lontani 3 volte dalla deviazione standard abbiamo $99\%
 Se uno strumento ha un'accuratezza di due sigma la maggior parte delle misure sarà.
 
 ![[Media campionaria]]
+
+[[Dispersione della media]]
