@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0zcg8cs" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.10.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.2.0">
+  <bpmn:process id="Process_0lienkc" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1" />
+    <bpmn:intermediateThrowEvent id="Event_1uhsv1w" />
+    <bpmn:endEvent id="Event_0cvgsu6" />
+    <bpmn:intermediateCatchEvent id="Event_1swoumr">
+      <bpmn:messageEventDefinition id="MessageEventDefinition_1046gnb" messageRef="Message_0ri6vqv" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:startEvent id="Event_1s9vgr7">
+      <bpmn:messageEventDefinition id="MessageEventDefinition_0ieezvc" messageRef="Message_0ri6vqv" />
+    </bpmn:startEvent>
+    <bpmn:endEvent id="Event_0vj4hfv">
+      <bpmn:messageEventDefinition id="MessageEventDefinition_0x2oa0r" />
+    </bpmn:endEvent>
+    <bpmn:startEvent id="Event_1tg363m">
+      <bpmn:signalEventDefinition id="SignalEventDefinition_0tsvq5j" />
+    </bpmn:startEvent>
+    <bpmn:intermediateCatchEvent id="Event_17vus50">
+      <bpmn:signalEventDefinition id="SignalEventDefinition_0aldpmw" signalRef="Signal_1f1a6pg" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:intermediateThrowEvent id="Event_1l7wavo">
+      <bpmn:signalEventDefinition id="SignalEventDefinition_0xm3dts" signalRef="Signal_1f1a6pg" />
+    </bpmn:intermediateThrowEvent>
+    <bpmn:endEvent id="Event_1dy35fq">
+      <bpmn:signalEventDefinition id="SignalEventDefinition_0zzi6bz" signalRef="Signal_1f1a6pg" />
+    </bpmn:endEvent>
+    <bpmn:intermediateCatchEvent id="Event_0w2ni13">
+      <bpmn:timerEventDefinition id="TimerEventDefinition_0eubydr">
+        <bpmn:timeDuration xsi:type="bpmn:tFormalExpression">P14D</bpmn:timeDuration>
+      </bpmn:timerEventDefinition>
+    </bpmn:intermediateCatchEvent>
+    <bpmn:startEvent id="Event_1unfehk">
+      <bpmn:timerEventDefinition id="TimerEventDefinition_0f4toov">
+        <bpmn:timeCycle xsi:type="bpmn:tFormalExpression">R/P1D</bpmn:timeCycle>
+      </bpmn:timerEventDefinition>
+    </bpmn:startEvent>
+    <bpmn:startEvent id="Event_0wxk979">
+      <bpmn:conditionalEventDefinition id="ConditionalEventDefinition_1ywyjye">
+        <bpmn:condition xsi:type="bpmn:tFormalExpression" />
+      </bpmn:conditionalEventDefinition>
+    </bpmn:startEvent>
+    <bpmn:intermediateCatchEvent id="Event_0tvc9ol">
+      <bpmn:conditionalEventDefinition id="ConditionalEventDefinition_0ooupkk">
+        <bpmn:condition xsi:type="bpmn:tFormalExpression" />
+      </bpmn:conditionalEventDefinition>
+    </bpmn:intermediateCatchEvent>
+    <bpmn:endEvent id="Event_156a780">
+      <bpmn:terminateEventDefinition id="TerminateEventDefinition_0u4qa92" />
+    </bpmn:endEvent>
+    <bpmn:endEvent id="Event_0vmjsk0">
+      <bpmn:errorEventDefinition id="ErrorEventDefinition_0t8sle8" errorRef="Error_1hycazh" />
+    </bpmn:endEvent>
+    <bpmn:group id="Group_01lbr6m" categoryValueRef="CategoryValue_12lckai" />
+    <bpmn:group id="Group_0njthh7" categoryValueRef="CategoryValue_16xbz00" />
+    <bpmn:group id="Group_14n8wf9" categoryValueRef="CategoryValue_0o0doxb" />
+    <bpmn:group id="Group_1b5lt9y" categoryValueRef="CategoryValue_0oep5rk" />
+    <bpmn:group id="Group_1r76fta" categoryValueRef="CategoryValue_0ykuahm" />
+    <bpmn:group id="Group_12rvnbx" categoryValueRef="CategoryValue_1w633pd" />
+    <bpmn:group id="Group_1yvqz7l" categoryValueRef="CategoryValue_01fgkhc" />
+  </bpmn:process>
+  <bpmn:category id="Category_0kbs3of">
+    <bpmn:categoryValue id="CategoryValue_12lckai" value="Generico" />
+  </bpmn:category>
+  <bpmn:category id="Category_0gwb7vh">
+    <bpmn:categoryValue id="CategoryValue_16xbz00" value="Messaggio" />
+  </bpmn:category>
+  <bpmn:category id="Category_0pcvs51">
+    <bpmn:categoryValue id="CategoryValue_0o0doxb" value="Segnale" />
+  </bpmn:category>
+  <bpmn:category id="Category_1p6wg0f">
+    <bpmn:categoryValue id="CategoryValue_0oep5rk" value="Tempo" />
+  </bpmn:category>
+  <bpmn:category id="Category_1lb8fp2">
+    <bpmn:categoryValue id="CategoryValue_0ykuahm" value="Condizione" />
+  </bpmn:category>
+  <bpmn:category id="Category_0oilu14">
+    <bpmn:categoryValue id="CategoryValue_1w633pd" value="Terminazione" />
+  </bpmn:category>
+  <bpmn:category id="Category_07u58vt">
+    <bpmn:categoryValue id="CategoryValue_01fgkhc" value="Errore" />
+  </bpmn:category>
+  <bpmn:message id="Message_0ri6vqv" name="Message_0ri6vqv">
+    <bpmn:extensionElements>
+      <zeebe:subscription correlationKey="=a" />
+    </bpmn:extensionElements>
+  </bpmn:message>
+  <bpmn:signal id="Signal_1f1a6pg" name="Signal_1f1a6pg" />
+  <bpmn:error id="Error_1hycazh" name="Error_1djgqlf" errorCode="q" />
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0lienkc">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="179" y="99" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1uhsv1w_di" bpmnElement="Event_1uhsv1w">
+        <dc:Bounds x="242" y="99" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0cvgsu6_di" bpmnElement="Event_0cvgsu6">
+        <dc:Bounds x="362" y="99" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1epc9v9_di" bpmnElement="Event_1swoumr">
+        <dc:Bounds x="242" y="202" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0xubozc_di" bpmnElement="Event_1s9vgr7">
+        <dc:Bounds x="179" y="202" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0qib6b3_di" bpmnElement="Event_0vj4hfv">
+        <dc:Bounds x="362" y="202" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_14zh1ym_di" bpmnElement="Event_1tg363m">
+        <dc:Bounds x="179" y="302" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1jfdzb7_di" bpmnElement="Event_17vus50">
+        <dc:Bounds x="242" y="302" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0s9j12k_di" bpmnElement="Event_1l7wavo">
+        <dc:Bounds x="302" y="302" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1xkcd5w_di" bpmnElement="Event_1dy35fq">
+        <dc:Bounds x="362" y="302" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0z5cn8f_di" bpmnElement="Event_0w2ni13">
+        <dc:Bounds x="242" y="402" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0gxs3c7_di" bpmnElement="Event_1unfehk">
+        <dc:Bounds x="179" y="402" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0hw9qca_di" bpmnElement="Event_0wxk979">
+        <dc:Bounds x="179" y="502" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1xza58v_di" bpmnElement="Event_0tvc9ol">
+        <dc:Bounds x="242" y="502" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1bi72vs_di" bpmnElement="Event_156a780">
+        <dc:Bounds x="362" y="602" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_0imohfa_di" bpmnElement="Event_0vmjsk0">
+        <dc:Bounds x="362" y="702" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Group_01lbr6m_di" bpmnElement="Group_01lbr6m">
+        <dc:Bounds x="160" y="80" width="260" height="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="268" y="87" width="45" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_0vaejcr" bpmnElement="Group_0njthh7">
+        <dc:Bounds x="160" y="185" width="260" height="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="264" y="192" width="54" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_1hobs9f" bpmnElement="Group_14n8wf9">
+        <dc:Bounds x="160" y="285" width="260" height="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="270" y="292" width="41" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_1cyntqw" bpmnElement="Group_1b5lt9y">
+        <dc:Bounds x="160" y="385" width="260" height="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="274" y="392" width="34" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_0zlrn7u" bpmnElement="Group_1r76fta">
+        <dc:Bounds x="160" y="485" width="260" height="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="263" y="492" width="56" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_1gn0nql" bpmnElement="Group_12rvnbx">
+        <dc:Bounds x="160" y="585" width="260" height="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="258" y="592" width="66" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_1b3ni1j" bpmnElement="Group_1yvqz7l">
+        <dc:Bounds x="160" y="685" width="260" height="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="275" y="692" width="31" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

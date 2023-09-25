@@ -30,3 +30,12 @@ enablepanzoom: false
 	- Consuma tutti i token per il (sotto)processo
 - Errore
 	- Situazione d'errore da gestire all'infuori del processo
+
+```bpmn
+url: [[eventi2.bpmn]]
+enablepanzoom: false
+```
+
+#### Catching vs Throwing events
+Catching events -> attivano il processo o la sua prosecuzione
+Throwing event -> eventi che indicano il raggiungimento di una condizione o di un risultato
