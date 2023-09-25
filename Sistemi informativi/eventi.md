@@ -39,3 +39,9 @@ enablepanzoom: false
 #### Catching vs Throwing events
 Catching events -> attivano il processo o la sua prosecuzione
 Throwing event -> eventi che indicano il raggiungimento di una condizione o di un risultato
+
+
+#### Boundary events
+eventi indicati ai bordi di un attività, devia il token durante la sua esecuzione in caso di catch. 
+-> di tipo interrupting, si indica con la "x" ed interrompe l'attività
+-> di
