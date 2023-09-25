@@ -23,7 +23,16 @@ In queste situazioni si calcola quando la corrente del diodo cambia corrente, ..
 \usepackage{circuitikz}
 \begin{document}
 \begin{tikzpicture}
-\draw(0,0) to [V] (0,4) to []
+\draw(0,0) to [V=$V_M(t)$] (0,4) to [R=$R_1$] (2,4) to [diode, l=$D_1$] (2,2) to [V=$V_{DD}$] (2,0);
+\draw (2,4) to (4,4) to [diode, invert,l=$D_2$,v<=$V_{D_2}$] (4,2) to [V=$V_{SS}$] (4,0);
+\draw(0,0) to (6,0) to (8,0) to [generic] (8,4) to (6,4);
+\draw(4,4) to (6,4);
+
+\node (A) at (6,4){$\bullet$};
+\node (B) at (6,0){$\bullet$};
+\node[above] at (A){A};
+\node[below] at (B){B};
 \end{tikzpicture}
 \end{document}
 ```
+V out tensione ad A B
