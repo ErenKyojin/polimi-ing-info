@@ -15,3 +15,18 @@ enablepanzoom: false
 - Evento iniziale: produce un token
 - Evento intermedio: occorrenza durante un processo
 - Evento finale: chiude un token
+
+## Eventi principali
+- Generico
+- Messaggio
+	- Passaggio di comunicazione o oggetti fisici
+- Segnale
+	- Comunicazione generica
+- Tempo
+	- Intervallo etmporale o momento specifico
+- Condizione
+	- Occorrenza di una condizione
+- Terminazione
+	- Consuma tutti i token per il (sotto)processo
+- Errore
+	- Situazione d'errore da gestire all'infuori del processo
