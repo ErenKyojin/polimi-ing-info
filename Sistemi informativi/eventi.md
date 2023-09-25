@@ -44,4 +44,7 @@ Throwing event -> eventi che indicano il raggiungimento di una condizione o di u
 #### Boundary events
 eventi indicati ai bordi di un attività, devia il token durante la sua esecuzione in caso di catch. 
 -> di tipo interrupting, si indica con la "x" ed interrompe l'attività
--> di
+-> di #todo 
+
+
+[[gateways#Event-based Gateway]]

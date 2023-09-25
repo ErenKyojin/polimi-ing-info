@@ -25,3 +25,9 @@ height: 170
 
 # Collegamento dei Gateway
 Il trattino indica il flusso di attività più probabile, o predefinito
+
+# Event-based Gateway
+
+- Event based XOR
+	- Richiede un evento su ogni ramo in split
+	- Ciascun evento costituisce la condizione di scelta del ramo
