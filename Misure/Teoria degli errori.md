@@ -10,3 +10,5 @@ La **teoria degli errori di misura** prevedva che un misurando non potesse mai e
 ![[errori sistematici]]
 
 ![[errori accidentali]]
+
+Err
