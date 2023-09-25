@@ -33,7 +33,7 @@ $$
 ```
 
 >[!def]
->UNa [[variabile aleatoria]] assolutamente continua $X$ con densità è detta gaussiana di parametri $\mu$ e $\sigma^2$ e si indica $X \sim \mathcal{N}(\mu,\sigma^2)$
+>Una [[variabile aleatoria]] assolutamente continua $X$ con densità è detta gaussiana di parametri $\mu$ e $\sigma^2$ e si indica $X \sim \mathcal{N}(\mu,\sigma^2)$
 >
 >Deduciamo dagli ultimi calcoli fatti che i due parametri di una variabile aleatoria $\mathcal{N}(\mu,\sigma^2)$ hanno una precisa intepretazione, la prima è la media e la seconda è la varianza.
 
