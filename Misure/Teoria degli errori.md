@@ -58,3 +58,5 @@ Se uno strumento ha un'accuratezza di due sigma la maggior parte delle misure sa
 ![[Media campionaria]]
 
 [[Dispersione della media]]
+
+[[Varianza]]
