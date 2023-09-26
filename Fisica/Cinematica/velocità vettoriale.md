@@ -119,6 +119,14 @@ deck: Fisica
 ---
 Scomposizione della velocità vettoriale istantanea in componenti cartesiane
 ===
-
+$$ \vec{v} = \frac{d}{dt}x\hat{u}_x + \frac{d}{dt}y\hat{u}_y + \frac{d}{dt}z\hat{u}_z = v_x\hat{u}_x + v_y\hat{u}_y + v_z\hat{u}_z$$
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: Fisica
+---
+Proprietà di tangenza della velocità vettoriale istantanea alla traiettoria del moto
+===
+Nella definizione di velocità vettoriale, passando al limite per $\Delta t \to 0$ si ha che lo spostamento diventa tangenziale alla traiettoria, e quindi anche la velocità vettoriale istantanea risults sempre essere tangente alla traiettoria
+```
