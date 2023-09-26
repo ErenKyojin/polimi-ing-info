@@ -203,6 +203,52 @@ deck: Fisica
 ---
 scomposizione dell'accelerazione in componenti vettoriali
 ===
-$$ \vec{v}(t) = v(t)\hat{u}_T(t) \implies \vec{a} = \frac{d}{dt}(v\hat{u}_T) = \frac{d}{dt}(v \hat{u}_T) =  $$
+$$ \vec{v}(t) = v(t)\hat{u}_T(t) \implies \vec{a} = \frac{d}{dt}(v\hat{u}_T) = \frac{dv}{dt} \hat{u}_T + v\frac{d}{dt} \hat{u}_T$$
+
+attraverso la dimostrazione del raggio del cerchio oscuratore
+$$ \frac{d}{dt}\hat{u}_T = \frac{v}{\rho}\hat{u}_N $$
+quindi $$\vec{a} = \vec{a}_T + \vec{a}_N$$
+```
+
+
+```anki
+deck: Fisica
+---
+Moto in coordinate polari
+===
+$r \equiv |\vec{r}| = \bar{OP}$ ragigo vettore, distanza del punto $P dall'origine e numero reale positivo
+$\theta \equiv \angle(\vec{r},\hat{u}_x)$ anomalia, angolo formato da $\vec{r}$ con $\hat{u}_x$ definito tra 0 e $2 \pi$
+
+Si ha che
+$$ \begin{align}
+r = \sqrt{x^2 + y^2} \qquad&\qquad   x = r\cos\theta \\
+&\!\!\!\!\!\!\iff \\
+\theta = \arctan(y/x) \qquad&\qquad  y = r\sin\theta
+\end{align}$$
+```
+
+
+```anki
+deck: Fisica
+---
+Legge oraria in coordinate polari
+===
+Possiamo scrivere la coppia di equazioni
+$$ \begin{cases}
+r = r(t)
+\theta = \theta(t)
+\end{cases} $$
+```
+
+
+```anki
+deck: Fisica
+---
+Traiettoria
+===
+Si può scrivere come
+$\theta = \theta(r)$
+o
+$r = r(\theta)$
 ```
 <% tp.file.cursor(3) %>
