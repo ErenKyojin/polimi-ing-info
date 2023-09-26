@@ -106,6 +106,19 @@ deck: Fisica
 ---
 Differenza tra velocità scalare e vettoriale
 ===
+Quando passiamo al limite per $\Delta t \to 0$ la misura della corda $|\Delta \vec{r}|$ può essere molto diversa rispetto a quella del corrispondente arco $|\Delta s|$. Si possono avere casi ad esempio:
+$$ \begin{align}
+\Delta \vec{r} = 0 \implies \vec{v}_m = 0 \\
+\Delta s \neq 0 \implies v_m \neq 0
+\end{align}$$
+```
+
+
+```anki
+deck: Fisica
+---
+Scomposizione della velocità vettoriale istantanea in componenti cartesiane
+===
 
 ```
 <% tp.file.cursor(3) %>
