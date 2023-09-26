@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-Il decibel, sottomultiplo $\frac{1}{10}$ del bel, esprime il rapporto di potenze o anche ampiezze mediante il logarimto in base dieci
+Il decibel, sottomultiplo $\frac{1}{10}$ del [[bel]], esprime il rapporto di potenze o anche ampiezze mediante il logarimto in base dieci
 
 $$ \left( \frac{P_{2}}{P_{1}} \right)_{(dB)} = 10 \log_{10}\left( \frac{P_{2}}{P_{1}} \right) $$
 I rapporti di ampiezze quando tensioni e correnti sono misurate su uno stesso carico si esprimono in decibl secondo la relazione
@@ -24,3 +24,16 @@ $P_{(\dB x)} = 10 \log_{10} (\frac{P}{P_{x}})$
 >
 >$P_{1(\dB m)} + P_{2(\dB m)} \neq P_{3(\dB m)}$
 >$1 W + 1 W = 2 \times 1 W = 3 \dB + 30 \dB m= 33 \dB m$
+
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+# Decibel
+===
+Il decibel è un decimo di bel, esprime il rapporto di potenze (o di ampiezze) mediante il logaritmo in base dieci, quindi
+$$ \left(\frac{P_2}{P_1}\right)_{dB} = 10 \log_{10} \left(\frac{P_2}{P_1}\right) $$
+```
+
