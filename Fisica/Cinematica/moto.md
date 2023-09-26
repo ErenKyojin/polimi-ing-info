@@ -244,11 +244,32 @@ r = r(t)
 ```anki
 deck: Fisica
 ---
-Traiettoria
+Traiettoria in coordinate polari
 ===
 Si può scrivere come
 $\theta = \theta(r)$
 o
 $r = r(\theta)$
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: Fisica
+---
+Versori in coordinate polari
+===
+Si definisce una coppia di versori:
+$\hat{u}_r  = \frac{\vec{r}}{r}$ detto versore radiale
+$\hat{u}_\theta = \hat{u}_z \times \hat{u}_r$ versore trasversale
+```
+
+
+```anki
+deck: Fisica
+---
+Velocità vettoriale in coordinate polari e velocità angolare:
+===
+$\vec{v} = \frac{d\vec{r}}{dt} = \vec{d}{dt}(r\hat{u}_r) = \vec{dr}{dt}\hat{u}_r + r \frac{d\hat{u}_r}{dt}$
+ma abbiamo che
+$$ \frac{d\hat{u}_r}{dt} = \frac{|\hat{u}_r|d\theta}{dt}\hat{u}_\theta = \frac{d\theta}{dt}\hat{u}_\theta = \omega \hat{u}_\theta \times \hat{u}_r = \vec{\omega} \times \hat{u}_r$$
+```
