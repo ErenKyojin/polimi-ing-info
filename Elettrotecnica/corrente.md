@@ -82,6 +82,18 @@ Consideriamo una superficie infinitesima $\dS$, con un **versore normale** $\hat
 La carica netta passante attraverso l'unità di area nell'unità di tempo è dunque
 $$ \rho_V \bar{v} \cdot \hat{u}_N dS = \bar{j}\cdot \hat{u}_N dS $$
 $\hat{j} = \rho_V v$ indica la densità di corrente. Indicando quindi con $S$ una superficie orientata che si trova in una regione dello spazio in cui è presente il campo $\bar{j}$ la corrente elettrica $I$ attraverso $S$ è espressa come
-$$ I = \Phi_S (\bar{j}) = \int_S \bar{j} \cdot \hat{u}_N dS $$
+$$ I = \Phi_S (\bar{j}) = \int_S \bar{j} \cdot \hat{u}_N dS $$.
+Se la superficie $S$ è perpendicolare al campo $\bar{j}$ in ogni suo punto, la corrente è lo scalare $I = \rho_V vS$
 ```
- 
+
+
+```anki
+deck: Elettrotecnica
+---
+# proprietà corrente
+===
+Indicando con $\sigma$ una superficie orientata e con $-\sigma$ la medesima supericie orientata nel verso opposto possiamo dire che le correnti passando per $\sigma$ e $-\sigma$ hanno le seguenti proprietà:
+- Disparità: $I^{- \sigma} = - I^{\sigma}$
+- Additività: dati $\sigma_1, \sigma_2$ e $\sigma_3$ tre superfici orientate tali che $\sigma_2$ sia discorde alle altre due, 
+```
+<% tp.file.cursor(3) %>
