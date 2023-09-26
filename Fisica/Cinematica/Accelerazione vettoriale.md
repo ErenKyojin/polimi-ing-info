@@ -31,6 +31,15 @@ deck: Fisica
 ---
 # Accelerazione vettoriale media
 ===
-$$ \vec{a}_m (t1,t2) = $$
+$$ \vec{a}_m (t1,t2) \equiv \frac{\vec{v}(t2)-\vec{v}_1 (t_1)}{t_2 - t_1}= \frac{\Delta \vec{v}(t_1,t_2)}{t_2 - t_1} = \frac{\Delta v_x}{\Delta t}\hat{u}_x + \frac{\Delta v_y}{\Delta t} \hat{u}_y + \frac{\Delta v_z}{\Delta t}\hat{u}_z$$
+```
+
+
+```anki
+deck: Fisica
+---
+# Accelerazione vettoriale istantanea
+===
+$$ \vec{a}(t) \equiv \lim_{\Delta t \to 0} \frac{\vec{v}(t+ \Delta t) - \vec{v}(t)}{\Delta t} = \lim_{\Delta t \to 0} \frac{\Delta \vec{v}}{\Delta t} = \frac{d\vec{v}}{dt} = \frac{d v_x}{dt}\hat{u}_x + \frac{d v_y}{dt}\hat{u_y} + \frac{d v_z}{dt}\hat{u}_z$$
 ```
 <% tp.file.cursor(3) %>
