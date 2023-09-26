@@ -130,3 +130,14 @@ Proprietà di tangenza della velocità vettoriale istantanea alla traiettoria de
 ===
 Nella definizione di velocità vettoriale, passando al limite per $\Delta t \to 0$ si ha che lo spostamento diventa tangenziale alla traiettoria, e quindi anche la velocità vettoriale istantanea risults sempre essere tangente alla traiettoria
 ```
+
+
+```anki
+deck: Fisica
+---
+Legame tra velocità vettoriale e velocità scalare istantanea
+===
+Definiamo versore tangente il versore $\hat{u}_T$, tangente punto per punto alla traiettoria con verso concorde a quello scelto per la misura dell'ascissa curvilinea $s$ osserviamo che
+$$ \lim_{\Delta t} $$
+```
+<% tp.file.cursor(3) %>
