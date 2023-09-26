@@ -91,3 +91,21 @@ deck: Fisica
 $$ \vec{v}_m (t_1,t_2) \equiv \frac{\vec{r}(t_2) - \vec{r}(t_1)}{t_2 - t_1} = \frac{\Delta \vec{r}(t_1,t_2)}{t_2 - t_1} $$
 ```
 
+
+```anki
+deck: Fisica
+---
+# Velocità vettoriale istantanea
+===
+$$ \vec{v}(t) \equiv \lim_{\Delta t \to 0} \frac{\vec{r}(t + \Delta t) -\vec{r}(t)}{\Delta t} = \lim_{\Delta t \to 0} \frac{\Delta \vec{r}}{\Delta t} = \frac{d}{dt}\vec{r} $$
+```
+
+
+```anki
+deck: Fisica
+---
+Differenza tra velocità scalare e vettoriale
+===
+
+```
+<% tp.file.cursor(3) %>
