@@ -18,6 +18,10 @@ Quindi il lavoro compiuto in un'ora da una forza della potenza di 1 $\text{kW}$
 >$$ W_{m} = \frac{\mathcal{L}}{\Delta t} $$
 
 # Potenza da componenti
+
+Consideriamo un generico bipolo, supponiamo che sia attraversato dalla carica $\Delta Q > 0$ nell'intrevallo di tempo $\Delta t$ presa con la convenzione degli utilizzatori.
+Supponiamo $V_{AB} = v > 0$ (quindi il campo elettrico all'interno del bipolo compie un lavoro positivo per muovere la carica $\Delta Q$) la carica perde una quantità di energia
+
  - Potenza istantanea assorbita da un [[bipolo]] $P_a = vi$,
  - Potenza istantanea erogata da un bipolo $P_e = -P_a = -vi$
  - Potenza assorbita da un n-terminali $$P_a(t) = \sum_{k=1}^nv_k(t)i_k(t)$$
