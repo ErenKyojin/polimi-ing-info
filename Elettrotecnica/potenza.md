@@ -20,7 +20,31 @@ Quindi il lavoro compiuto in un'ora da una forza della potenza di 1 $\text{kW}$
 # Potenza da componenti
 
 Consideriamo un generico bipolo, supponiamo che sia attraversato dalla carica $\Delta Q > 0$ nell'intrevallo di tempo $\Delta t$ presa con la convenzione degli utilizzatori.
-Supponiamo $V_{AB} = v > 0$ (quindi il campo elettrico all'interno del bipolo compie un lavoro positivo per muovere la carica $\Delta Q$) la carica perde una quantità di energia
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) to [short,i=$i$] (1,0) to [generic, v<=$v$] (1,-2) to (0,-2);
+\node[left] at (0,0) {A};
+\node[left] at (0,-2) {B};
+\end{tikzpicture}
+\end{document}
+```
+
+Supponiamo $V_{AB} = v > 0$ (quindi il campo elettrico all'interno del bipolo compie un lavoro positivo per muovere la carica $\Delta Q$) la carica perde una quantità di energia $\Delta w_{a}=v \Delta Q$ nell'attraversare il bipolo. Possiamo quindi definire $p_{a} = \frac{\Delta w_{a}}{dt}$ e, passando al limite:
+$$ p_{a}(t) = \lim_{ \Delta t \to 0 } \frac{\Delta w_{a}}{\Delta t} = \frac{d}{dt}w_{a}  $$
+che possiamo riscrivere come
+$$p_{a}(t) = \lim_{ \Delta t \to 0 } \frac{v\Delta Q}{\Delta t} = v \frac{d}{dt}Q = vi  $$
+
+$p_{a}(t)$ è la potenza istantanea assorbita dal bipolo e si misura in Watt.
+Possiamo poi definire la potenza istantanea erogata nel caso in cui la potenza assorbita dal bipolo sia negativa, in questo caso $p_{e}(t) = -p_{a}(t)$.
+
+>[!tip] importante
+>Se il bipolo è descritto con la convenzione dei generatori si ha $p_{e}(t) = vi$
+
+La potenza assorbita da un $n$-terminali è la somma delle potenze assorbite da ogni suo lato:
+$$ p_{a}(t) = \sum_{k=1}^n v_{k}(t)i_{} $$
 
  - Potenza istantanea assorbita da un [[bipolo]] $P_a = vi$,
  - Potenza istantanea erogata da un bipolo $P_e = -P_a = -vi$
