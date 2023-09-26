@@ -486,6 +486,30 @@ c
 
 # ANKI
 
+
+```anki
+deck: GAL
+---
+Rango
+===
+
+Data $A \in M_{(m,n)}(\mathbb{K})$ si chiama rango di $A$ e si indica con $r(A)$ il numero di righe non nulle di una sua ridotta a scala $U$, ovvero il numero di pivot di $U$
+
+Il rango di una matrice è il numero delle sue righe linearmente indipendenti, inoltre è univoco al sistema (e quindi uguale per ogni sistema equivalente).
+
+Si può anche definire come dimensione dell'immagine dell'applicazione lineare
+```
+
+
+```anki
+deck:GAL
+---
+# sottospazi vettoriali di una matrice qualsiasi
+===
+Ad ogni matrice possiamo associare tre spazi vettoriali, $\ker(A) = \{\mathbf{v} \inn \mathbb{K}^n : A \cdot \mathbf{v} = 0\}$
+```
+<% tp.file.cursor(3) %>
+
 ```anki
 id: 1694785480830
 deck: GAL
