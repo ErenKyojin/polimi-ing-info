@@ -118,7 +118,9 @@ C_{11} & C_{12} & \dots & C_{1n} \\
 \vdots  &  &  & \vdots\\
 \vdots  &  &  & \vdots \\
 C_{n1} & C_{n2} & \dots & C_{nn}
-\end{bmatrix}\right)^T \qquad\text{ è l'inversa di $A$} $$
+\end{bmatrix}\right)^T \qquad\text{ è l'inversa di $A$}
+$$
+
 Infatti: $[A \cdot A']_{ii} = \frac{1}{\det(A)}\sum_{j=1}^n a_{ij}C_{ij} = \frac{1}{\det(A)}\cdot \det(A) = 1$
 mentre $[A \cdot A']_{ii} = \frac{1}{\det(A)} \sum_{j=1}^n a_{ij}C_{i'j} = 0\quad se\ i \neq i'$
 
@@ -227,4 +229,21 @@ Sia $A = [a_{ij}] \in M_{(n,n)}\mathbb{K}$ allora
 	- in particolare $\det(tA) = t^n \det(A)$ (n numero di colonne)
 4. Se $A = [\mathbf{v}_1 | ... | t\mathbf{u} + s\mathbf{w}| ... | \mathbf{v}_n ]$ allora
    $$ |A| = t \bigg\vert \mathbf{v}_1| ... | u | ... | \mathbf{v}_m \bigg\vert + s\bigg\vert\mathbf{v}_1 | ... | \mathbf{w} | ... | \mathbf{v}_m \bigg\vert $$
+5. $\sum_{j=1}^n a_{i'j}C_{ij} = 0 \iff i \neq i'$
+$\sum_{i=1}^n a_{ij'}C_{ij} = 0 \iff j \neq j'$
+
+con $C_{ij}$ complemento algebrico del termina $a_ij$
+
+dalla 5 possiamo ricavare l'inversa di una matrice di rango $n$ come la trasposta della matrice dei complementi moltiplicata per l'inverso del determinante 
 ```
+
+
+```anki
+deck: GAL 
+---
+# Regola di Cramer
+===
+Se $A \in M_{\mathbb{K}}(n,n)$ e $r(A)=n$ allora il sistema lineare $A\mathbf{x}=\mathbf{b}$ ammette un'unica soluzione tale che
+$$ \mathbf{x} = A^{-1}\mathbf{b} = \frac{1}{\det(A)} $$
+```
+<% tp.file.cursor(3) %>
