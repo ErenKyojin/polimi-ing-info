@@ -273,3 +273,27 @@ $\vec{v} = \frac{d\vec{r}}{dt} = \vec{d}{dt}(r\hat{u}_r) = \vec{dr}{dt}\hat{u}_r
 ma abbiamo che
 $$ \frac{d\hat{u}_r}{dt} = \frac{|\hat{u}_r|d\theta}{dt}\hat{u}_\theta = \frac{d\theta}{dt}\hat{u}_\theta = \omega \hat{u}_\theta \times \hat{u}_r = \vec{\omega} \times \hat{u}_r$$
 ```
+
+
+
+```anki
+deck: Fisica
+---
+Casi particolari di moto
+===
+- Moto rettilineo
+	- Triettoria linea retta
+	- accelerazione solo componente tangenziale
+	$$\vec{r}(t) = x(t)\hat{u}_x\quad \vec{v}(t) = \frac{dx(t)}{dt}\hat{u}_x\quad \vec{a}(t) = \frac{d^2x(t)}{dt^2} \hat{u}_x$$
+- Moto rettilineo uniforme
+	- Velocità costante
+	$$\vec{r}(t) = (x_0 + vt)\hat{u}_x$$
+- Moto circolare
+	- traiettoria circonferenza di raggioR
+	- sdr preferibilmente cartesiano, origine nel centro e due assi complanari
+	- utile l'ascissa curvilinea $s$ o l'angolo $\theta$ ($s = R\theta$)
+	- velocità vettoriale:
+	$$ \vec{v} = v\hat{u}_T\quad\v = \frac{ds}{dt} = R \frac{d\theta}{dt} \quad \hat{u}_T \perp R $$
+	- velocità angolare:
+	$$ \vec{v} = \omega \times \vec{R} = \omega R\hat{u}_\theta = \omega R\hat{u}_T $$
+```
