@@ -44,13 +44,15 @@ Possiamo poi definire la potenza istantanea erogata nel caso in cui la potenza a
 >Se il bipolo è descritto con la convenzione dei generatori si ha $p_{e}(t) = vi$
 
 La potenza assorbita da un $n$-terminali è la somma delle potenze assorbite da ogni suo lato:
-$$ p_{a}(t) = \sum_{k=1}^n v_{k}(t)i_{} $$
+$$ p_{a}(t) = \sum_{k=1}^n v_{k}(t)i_{k}(t) $$
 
  - Potenza istantanea assorbita da un [[bipolo]] $P_a = vi$,
  - Potenza istantanea erogata da un bipolo $P_e = -P_a = -vi$
  - Potenza assorbita da un n-terminali $$P_a(t) = \sum_{k=1}^nv_k(t)i_k(t)$$
 
 Un n-terminali la cui potenza assorbita è positiva sempre si dice #passivo
+
+![[teorema di tellegen]]
 
 # Potenza in [[regime sinusoidale]]
 Prendendo un lato qualsiasi di un circuito lineare, tempo invariante, dinamico, che ammetta regime sinusoidale alla pulsazione $\omega$, un qualsiasi suo lato avrà una [[corrente]] ed una tensione descrittiva pari a
@@ -226,4 +228,17 @@ Non possiamo infatti affermare che la componente pulsante della potenza istantan
 
 Non dobbiamo quindi aspettarci che la potenza reattiva $Q_p$ per fase sia nulla. Essa è definita infatti in base alla 11.87, come il coefficiente del termine pulsante sinusoidale a pulsazione $2\omega$ che si ottiene, ad esempio, per la fase $a$, dalla potenza istantanea assorbita $v_\text{AN}i_a(t)$. Tale coefficiente è non nullo ma, raccolto a fattor comune per le fasi bilanciate, pesa una ternza di funzioni sinusoidali bilanciate a pulsazione 2$\omega$ la cui somma per definizione è nulla istante per istante
 
+# ANKI
+
+```anki
+deck: elettrotecnica
+---
+# Potenza
+===
+La potenza è quanta energia perde la carica per attraversando il bipolo
+Assunta la convenzione degli utilizzatori:
+- potenza istantanea assorbita da un bipolo $P_a(t) = vi$
+- potenza istantanea erogata da un bipolo $P_e(t) = - P_a(t) = -vi$
+- potenza assorbita da un $n$-terminali $\sum_{k=1}^n v_k(t) i_k(t)$
+```
 
