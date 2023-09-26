@@ -278,6 +278,5 @@ Data $A \in M_{\mathbb{K}}(n,n)$ una sottomatrice di $A$ si ottiene cancellando 
 >[!teorema] Teorema di Kronecker
 >Sia $A \in M_{\mathbb{K}}(m,n)$ allora:
 >1. Se $A'$ è sottomatrice di $A$ e $\det(A') \neq 0$ allora le colonne o le righe di $A$ che contengono le colonne o le righe di $A'$ sono linearmente indipendenti
->2. Il rango della matrice $A$ è $r$ se e solo se esist
+>2. Il rango della matrice $A$ è $r$ se e solo se esiste una sottomatrice $A'$ di tipo $r \times r$ tale che $\det(A') \neq 0$ ed ogni altra sottomatrice del tipo $(r + 1) \times (r + 1)$ che contiene $A'$ ha determinante nullo.
 ```
-<% tp.file.cursor(3) %>
