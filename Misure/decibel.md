@@ -61,6 +61,8 @@ deck: Misure
 ---
 # dBx
 ===
+Se fissiamo un livello di potenza possiamo utilizzarlo come riferimento e avremo quindi
+$$ P_{(\text{dB}x)} = 10\log_{10} \left(\frac{P}{P_x}\right $$
 
+Con la x ci si riferisce al prefisso dei watt, quindi ad esempio se scegliamo 1 milliwatt come valore di riferimento ci riferiremo ai $dBm$, altrimenti per un watt direttamente $dBW$
 ```
-<% tp.file.cursor(3) %>

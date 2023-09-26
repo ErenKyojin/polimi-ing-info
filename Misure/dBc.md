@@ -4,6 +4,20 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-esprime un rapporto di potenza rispetto al riferimento assunto $P_{C}$ potenza della portante
+Il $\dB c$ ($\dB$ from carrier) esprime un rapporto di potenza rispetto al riferimento assunto $P_{C}$ potenza della portante
 
-$$ p_{\dB c} = 10 \log_{10} \left( \frac{P}{P_{C}} \right) $$
+$$ P_{\dB c} = 10 \log_{10} \left( \frac{P}{P_{C}} \right) $$
+
+# ANKI
+
+
+```anki
+deck: Misure
+---
+dBc o decibel from carrier
+===
+Esprime un rapporto di potenza rispetto al riferimento assoluto $P_C$ potenza della portante
+
+$$ P_{\dB c} = 10 \log_{10}\left(\frac{P}{P_C}\right) $$
+
+```
