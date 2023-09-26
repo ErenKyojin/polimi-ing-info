@@ -42,4 +42,13 @@ deck: Fisica
 ===
 $$ \vec{a}(t) \equiv \lim_{\Delta t \to 0} \frac{\vec{v}(t+ \Delta t) - \vec{v}(t)}{\Delta t} = \lim_{\Delta t \to 0} \frac{\Delta \vec{v}}{\Delta t} = \frac{d\vec{v}}{dt} = \frac{d v_x}{dt}\hat{u}_x + \frac{d v_y}{dt}\hat{u_y} + \frac{d v_z}{dt}\hat{u}_z$$
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: Fisica
+---
+Calcolo della legge oraria a partire dall\accelerazione vettoriale
+===
+$$\vec{v}(t) = v_0 + \int_{t_0}^t \vec{a}(t') dt'\qquad \vec{r}(t) = \vec{r}_0 + \int_{t_0}^{t} \vec{v}(t')dt'$$
+```
+
