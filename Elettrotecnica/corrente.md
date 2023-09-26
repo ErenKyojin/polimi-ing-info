@@ -60,6 +60,7 @@ id: 1694785449376
 deck: elettrotecnica
 ---
 # Corrente elettrica
+con cariche a velocità costante
 ===
 Dato un piccolo cilindro di lunghezza $v \Delta t$, contenente $n$ cariche $q$, che si muovono a velocità costante $\bar{v}$ parallele all'asse del cilindro,
 Nell'intervallo di tempo $\Delta t$ tutte le cariche $n$ attraversano la superficie $dS$ "base" del cilindretto.
@@ -71,10 +72,16 @@ $$ I = \frac{d}{dt}Q $$
 
 
 ```anki
-deck: E
+deck: elettrotecnica
 ---
-<% tp.file.cursor(1) %>
+# corrente elettrica
+con cariche a velocità variabile
 ===
-<% tp.file.cursor(2) %>
+Consideriamo una superficie infinitesima $\dS$, con un **versore normale** $\hat{u}_N$ attraverso la quale sono in moto con velocità $\bar{v}$ particelle cariche con densità volumetrica $\rho_V$.
+
+La carica netta passante attraverso l'unità di area nell'unità di tempo è dunque
+$$ \rho_V \bar{v} \cdot \hat{u}_N dS = \bar{j}\cdot \hat{u}_N dS $$
+$\hat{j} = \rho_V v$ indica la densità di corrente. Indicando quindi con $S$ una superficie orientata che si trova in una regione dello spazio in cui è presente il campo $\bar{j}$ la corrente elettrica $I$ attraverso $S$ è espressa come
+$$ I = \Phi_S (\bar{j}) = \int_S \bar{j} \cdot \hat{u}_N dS $$
 ```
-<% tp.file.cursor(3) %>
+ 
