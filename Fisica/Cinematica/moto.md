@@ -187,4 +187,22 @@ deck: Fisica
 Fissato un opportuno sistema di riferimento cartesiano dello spazio, la posizione occupata dal punto materiale $P$ può essere descritta attraverso le tre coordinate cartesiano o attraverso il vettore posizione
 $\vec{r} \equiv \vec{OP} = x\hat{u}_x + y\hat{u}_y + z\hat{u}_z$
 ```
+
+
+```anki
+deck: Fisica
+---
+Scomposizione dell'accelerazione in componenti cartesiane
+===
+$$\vec{a}(t) = \frac{d}{dt}{\vec{v}} = \frac{d}{dt}\left(\frac{d\vec{r}}{dt}\right) = \frac{d^2\vec{r}}{dt^2} = \frac{d^2x}{dt^2}\hat{u}_x + \frac{d^2y}{dt}\hat{u}_y + \frac{d^2z}{dt^2}\hat{u}_z$$
+```
+
+
+```anki
+deck: Fisica
+---
+scomposizione dell'accelerazione in componenti vettoriali
+===
+$$ \vec{v}(t) = v(t)\hat{u}_T(t) \implies \vec{a} = \frac{d}{dt}(v\hat{u}_T) = \frac{d}{dt}(v \hat{u}_T) =  $$
+```
 <% tp.file.cursor(3) %>
