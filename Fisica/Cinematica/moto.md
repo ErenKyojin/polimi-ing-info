@@ -293,7 +293,30 @@ Casi particolari di moto
 	- sdr preferibilmente cartesiano, origine nel centro e due assi complanari
 	- utile l'ascissa curvilinea $s$ o l'angolo $\theta$ ($s = R\theta$)
 	- velocità vettoriale:
-	$$ \vec{v} = v\hat{u}_T\quad\v = \frac{ds}{dt} = R \frac{d\theta}{dt} \quad \hat{u}_T \perp R $$
+	$$ \vec{v} = v\hat{u}_T\quad v = \frac{ds}{dt} = R \frac{d\theta}{dt} \quad \hat{u}_T \perp \vec{R} $$
 	- velocità angolare:
 	$$ \vec{v} = \omega \times \vec{R} = \omega R\hat{u}_\theta = \omega R\hat{u}_T $$
+		applicando $\vec{\omega}$ in un altro punto dell'asse di rotazione:
+		$$ \vec{v} = \vec{\omega} \times \vec{r}' $$
+- Moto circolare uniforme
+	- velocità angolare costante nel tempo
+	- accelerazione puramente normale
+	$$
+	\omega = \cost \quad;\quad v = \omega R = \cost \implies \vec{a}_{T} = 0\quad;\quad\vec{a} = \vec{a}_{N} = \vec{a}_{C}
+	$$
+	$$a = a_{c} = \frac{v^2}{R} = \omega R$$
+	- si tratta di un moto periodico di periodo $\frac{v}{2\pi R} = \frac{\omega}{2 \pi}$
+	- legge oraria:
+		$$ \theta(t) = \theta_0 + \omega t \iff s(t) = s_0 + vt $$
+- Moto circolare accelerato
+	- si definisce un vettore accelerazione angolare
+	$$ \vec{\alpha} = \frac{d}{dt}(\frac{d\theta}{dt}\hat{u}_z) = \frac{d^2\theta}{dt^2}\hat{u}_z $$
+
+- moto armonico semplice
+	- legge oraria
+		$$x(t) = A\sin(\omega t  + \phi)$$
+	- $A$ ampiezza dell'oscillazione
+	- $\omega t = \phi$ fase dell'oscillazione
+	- $\$
 ```
+
