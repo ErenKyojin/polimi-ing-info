@@ -81,4 +81,13 @@ $\xrightarrow{\Delta t \to 0}$
 >$$
 
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+# Velocità vettoriale media
+===
+$$ \vec{v}_m (t_1,t_2) \equiv \frac{\vec{r}(t_2) - \vec{r}(t_1)}{t_2 - t_1} = \frac{\Delta \vec{r}(t_1,t_2)}{t_2 - t_1} $$
+```
 
