@@ -315,8 +315,17 @@ Casi particolari di moto
 - moto armonico semplice
 	- legge oraria
 		$$x(t) = A\sin(\omega t  + \phi)$$
-	- $A$ ampiezza dell'oscillazione
-	- $\omega t = \phi$ fase dell'oscillazione
-	- $\$
+		- $A$ ampiezza dell'oscillazione
+		- $\omega t = \phi$ fase dell'oscillazione
+		- $\phi$ fase iniziale o costante di fase
+		- $\omega$ pulsazione dell'oscillazione
+	- moto periodico di periodo $\omega / 2\pi$
+	$$ v(t) = \frac{dx}{dt} = A\omega \cos(\omega t + \phi) $$
+	$$ a(t) = \frac{dv}{dt} = -A\omega^2\sin(\omega t + \phi) = -\omega^2 x(t) $$
+	 quindi 
+	 $$ \frac{d^2x}{dt^2} + \omega^2 x(t) = 0 $$
+- Moto uniformemente accelerato
+	- moto tipico della dinamica
+	- accelerazione pari al rapporto tra la forza e la massa del punto materiale
 ```
 
