@@ -138,6 +138,17 @@ deck: Fisica
 Legame tra velocità vettoriale e velocità scalare istantanea
 ===
 Definiamo versore tangente il versore $\hat{u}_T$, tangente punto per punto alla traiettoria con verso concorde a quello scelto per la misura dell'ascissa curvilinea $s$ osserviamo che
-$$ \lim_{\Delta t} $$
+$$ \lim_{\Delta t \to 0} \Delta \vec{r} = \lim_{\Delta t \to 0} \Delta s \hat{u}_T \implies \vec{v}(t) = \lim_{\Delta t \to 0} \frac{\Delta s \hat{u}_T}{\Delta t} = \frac{d}{dt}s \hat{u}_T = v(t)\hat{u}_T(t) $$
+Cioè la velocità vettoriale ha per modulo il modulo della velocità vettoriale 
+```
+
+
+```anki
+deck: Fisica
+---
+Determinazione della legge oraria dalla velocità vettoriale istantanea
+===
+Conoscendo la posizione iniziale $\vec{r}_0$ e l'andamento nel tempo della velocità vettoriale istantanea $\vec{v}(t)$ possiamo ricavare la legge oraria $\vec{r} = \vec{r}(t)$ esattamente come nel caso scalare
+$$ \Delta \vec{r}_{tot} = \sum_i \Delta \vec{r}_i = \sum_i \vec{v}_{m,i}\Delta t_i $$
 ```
 <% tp.file.cursor(3) %>
