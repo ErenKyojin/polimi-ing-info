@@ -101,6 +101,6 @@ Indicando con $\sigma$ una superficie orientata e con $-\sigma$ la medesima supe
 - additività: considerando le superfici $\sigma_1$ e $\sigma_2$ orientate in modo concorde, condividenti parte della loro frontiera. Possiamo effettuarne l'unione per ricavarne la superficie $\sigma = \sigma_1 \cup \sigma_2$.
   Se $i_1 = I^{\sigma_1}$ e $i_2 = I^{\sigma_2}$ sono le correnti misurate attraverso le superfici parziale e $i = I^{\sigma}$ è la misura attraverso la superficie complessiva, la proprietà additiva dice che
   $$ i = I^{\sigma} = I^{\sigma_1 \cup \sigma_2} = I^{\sigma_1} + I^{\sigma_2} = i_1 + i_2 $$
-- Additività e disparità: dati $\sigma_1, \sigma_2$ e $\sigma_3$ tre superfici orientate tali che $\sigma_2$ sia discorde alle altre due, e sia $\sigma = \sgima_1 \cup (- \sigma_2) \cup \sigma_3$
+- Additività e disparità: dati $\sigma_1, \sigma_2$ e $\sigma_3$ tre superfici orientate tali che $\sigma_2$ sia discorde alle altre due, e sia $\sigma = \sgima_1 \cup (- \sigma_2) \cup \sigma_3$. Eseguite le relative misure di corrente $i_1,i_2,i_3$ dalla disparità abbiamo che $i(-\sigma_2) = -i_2$, dall'additività:
+  $$ i = I^{\sigma \cup (-\sigma_2) \cup \sigma_3} = i_1 - i_2 + i_3 $$
 ```
-<% tp.file.cursor(3) %>
