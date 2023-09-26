@@ -51,7 +51,11 @@ Grazie al concetto di corrente elettrica possiamo formalizzare il [[principio di
 Indichiamo con $\sigma$ una superficie orientata e con $-\sigma$ la stessa superficie ma orientata nel verso opposto.
 La misura di corrente lungo $-\sigma$ si ottiene invertendo l'inserimento dei morsetti dell'amperometro
 - disparità: $I^{-\sigma} = -I^{\sigma}$
-- additività: siano $\sigma_{1}, \sigma_{2}$ e $\sigma_{3}$ tre superfici orientate come in figura cioè con $\sigma_{2}$ orientata in modo discorde alle prime due e sia $\sigma=\sigma_{1} \cup (-\sigma_{2}) \cup \sigma_{3}$. Si sono eseguite le relative misure di corrente $i_{1},i_{2},i_{3}$. 
+- additiva: Consideriamo le superfici $\sigma_{1}$ e $\sigma_{2}$, orientate in modo concorde e che condividono parte della loro frontiera. La loro unione da origine alla superficie complessive $\sigma = \sigma_{1 } \cup \sigma_{2}$.
+  Se $i_{1} = I^{\sigma_{1}}$ e $i_{2} = I^{\sigma_{2}}$ sono le correnti misurate attraverso le superfici parziali e $i = I^{\sigma}$ è la misura attraverso la superficie complessiva, la proprietà additiva dice che
+  $$ i = I^{\sigma} = I^{\sigma_{1} \cup \sigma_{2}} = I^{\sigma_{1}} + I^{\sigma_{2}} = i_{1} + i_{2} $$
+- additività + disparità: siano $\sigma_{1}, \sigma_{2}$ e $\sigma_{3}$ tre superfici orientate come in figura cioè con $\sigma_{2}$ orientata in modo discorde alle prime due e sia $\sigma=\sigma_{1} \cup (-\sigma_{2}) \cup \sigma_{3}$. Si sono eseguite le relative misure di corrente $i_{1},i_{2},i_{3}$.  Dalla disparità abbiamo che $i(-v_{2}) = -i_{2}$, dall'additività:
+  $$ i = I^{\sigma_{1} \cup (-\sigma_{2}) \cup \sigma_{3}} = i_{1} - i_{2} + i_{3} $$
 
 # ANKI
 
@@ -94,6 +98,9 @@ deck: Elettrotecnica
 ===
 Indicando con $\sigma$ una superficie orientata e con $-\sigma$ la medesima supericie orientata nel verso opposto possiamo dire che le correnti passando per $\sigma$ e $-\sigma$ hanno le seguenti proprietà:
 - Disparità: $I^{- \sigma} = - I^{\sigma}$
-- Additività: dati $\sigma_1, \sigma_2$ e $\sigma_3$ tre superfici orientate tali che $\sigma_2$ sia discorde alle altre due, 
+- additività: considerando le superfici $\sigma_1$ e $\sigma_2$ orientate in modo concorde, condividenti parte della loro frontiera. Possiamo effettuarne l'unione per ricavarne la superficie $\sigma = \sigma_1 \cup \sigma_2$.
+  Se $i_1 = I^{\sigma_1}$ e $i_2 = I^{\sigma_2}$ sono le correnti misurate attraverso le superfici parziale e $i = I^{\sigma}$ è la misura attraverso la superficie complessiva, la proprietà additiva dice che
+  $$ i = I^{\sigma} = I^{\sigma_1 \cup \sigma_2} = I^{\sigma_1} + I^{\sigma_2} = i_1 + i_2 $$
+- Additività e disparità: dati $\sigma_1, \sigma_2$ e $\sigma_3$ tre superfici orientate tali che $\sigma_2$ sia discorde alle altre due, e sia $\sigma = \sgima_1 \cup (- \sigma_2) \cup \sigma_3$
 ```
 <% tp.file.cursor(3) %>
