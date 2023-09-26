@@ -14,12 +14,16 @@ $$ \left( \frac{A_{2}}{A_{1}} \right)_{(dB)} = 20 \log_{10}\left( \frac{A_{2}}{A
 $1 \dB = 1.25 = 1 + 25\%$.
 
 ## Alternative $dBx$"
+Possiamo scegliere un livello di potenza e usarlo come livello di riferimento
 
-se usiamo sempre 1 mW di potenza allora $\dB m$
-se usiamo sempre 1 W di potenza allora $\dB W$
-...
+$$P_{(\dB x)} = 10 \log_{10} \left(\frac{P}{P_{x}}\right)$$
 
-$P_{(\dB x)} = 10 \log_{10} (\frac{P}{P_{x}})$
+> [!def] nomenclatura
+> se usiamo sempre 1 mW di potenza allora $\dB m$
+> se usiamo sempre 1 W di potenza allora $\dB W$
+> 
+>$$ P_{(\dB m)} = 10 \log_{10}\left(\frac{P}{1 \text{ mW}}\right) $$
+
 
 >[!oss]
 >Le potenze in $dBx$ non si sommano!
@@ -47,6 +51,16 @@ deck: Misure
 # Decibel di potenze
 ===
 I rapporti di ampiezze sullo stesso carico si esprimono in decibel secondo la relazione. Infatti essendo la potenza proporzionale al quadrato della tensione o al quadrato della corrente
-$$ 10\log_{10} \left(\frac{W_1}{W_2}\right) = 10 \log_{10} \left(\frac{V_1}{V_2}\right)^2 = 20 \log \left(\frac{I_1}{I_2}\right)$$
+$$\left(\frac{W_1}{W_2}\right)_{dB}= 10\log_{10} \left(\frac{W_1}{W_2}\right) = 10 \log_{10} \left(\frac{V_1}{V_2}\right)^2 = 20 \log \left(\frac{V_1}{V_2}\right)$$
+(Si può dimostrare analogamente con la corrente)
 ```
 
+
+```anki
+deck: Misure
+---
+# dBx
+===
+
+```
+<% tp.file.cursor(3) %>
