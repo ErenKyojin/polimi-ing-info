@@ -235,7 +235,7 @@ deck: elettrotecnica
 ---
 # Potenza
 ===
-La potenza è quanta energia perde la carica per attraversando il bipolo
+La potenza è quanta energia perde (o assorbe dipendentemente dal segno) la carica in ogni istante di tempo attraversando il bipolo
 Assunta la convenzione degli utilizzatori:
 - potenza istantanea assorbita da un bipolo $P_a(t) = vi$
 - potenza istantanea erogata da un bipolo $P_e(t) = - P_a(t) = -vi$
