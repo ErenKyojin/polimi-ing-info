@@ -244,6 +244,40 @@ deck: GAL
 # Regola di Cramer
 ===
 Se $A \in M_{\mathbb{K}}(n,n)$ e $r(A)=n$ allora il sistema lineare $A\mathbf{x}=\mathbf{b}$ ammette un'unica soluzione tale che
-$$ \mathbf{x} = A^{-1}\mathbf{b} = \frac{1}{\det(A)} $$
+$$ \mathbf{x} = A^{-1}\mathbf{b} = \frac{1}{\det(A)} 
+\begin{bmatrix}
+C_{11} &C_{21} &... &C_{n1} \\
+C_{12} &C_{22} &... &C_{n2} \\
+\vdots &\vdots &\ddots &\vdots \\
+C_{1n} &C_{2n} &... &C_{nn} 
+\end{bmatrix}
+\begin{bmatrix}
+b_1 \\
+\vdots \\
+\vdots \\
+b_n
+\end{bmatrix} =
+\begin{bmatrix}
+\det(A_1)/\det(A) \\
+\det(A_2)/\det(A) \\
+\vdots \\
+\det(A_n)/\det(A) \\
+\end{bmatrix}
+$$
+
+```
+
+
+```anki
+deck: GAL
+---
+# Teorema di Kronecker
+===
+Data $A \in M_{\mathbb{K}}(n,n)$ una sottomatrice di $A$ si ottiene cancellando da $A$ un certo numero di righe e di colonne. 
+
+>[!teorema] Teorema di Kronecker
+>Sia $A \in M_{\mathbb{K}}(m,n)$ allora:
+>1. Se $A'$ è sottomatrice di $A$ e $\det(A') \neq 0$ allora le colonne o le righe di $A$ che contengono le colonne o le righe di $A'$ sono linearmente indipendenti
+>2. Il rango della matrice $A$ è $r$ se e solo se esist
 ```
 <% tp.file.cursor(3) %>
