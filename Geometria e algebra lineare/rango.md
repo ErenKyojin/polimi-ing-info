@@ -502,13 +502,18 @@ Si può anche definire come dimensione dell'immagine dell'applicazione lineare
 
 
 ```anki
-deck:GAL
+deck: GAL
 ---
-# sottospazi vettoriali di una matrice qualsiasi
+# spazi vettoriali associati ad una matrice qualsiasi
 ===
-Ad ogni matrice possiamo associare tre spazi vettoriali, $\ker(A) = \{\mathbf{v} \inn \mathbb{K}^n : A \cdot \mathbf{v} = 0\}$
+Ad ogni matrice possiamo associare tre spazi vettoriali, $\ker(A) = \{\mathbf{v} \in \mathbb{K}^n : A \cdot \mathbf{v} = 0\} \subseteq \mathbb{K}^n$
+$\text{Row}(A) = \Span(\mathbf{a}_1^T,...,\mathbf{a}_m^T) \subseteq \mathbb{K}^m$
+$\text{Col}(A) = \Span(\mathbb{c}_1,...,\mathbf{c}_n) \subseteq \mathbb{K}^n$
+
+Possiamo definire il rango per righe = $\dim(\Row(A))$ ed il rango per colonne di $A: \dim(\Col(A))$.
+Si può dimostrare $\dim(\Row(A)) = \dim(\Col(A)) = r(A)$
 ```
-<% tp.file.cursor(3) %>
+
 
 ```anki
 id: 1694785480830
