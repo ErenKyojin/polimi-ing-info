@@ -176,3 +176,15 @@ Con forza costante si ha:
 
 ### Moto lungo un [[piano inclinato]]
 Un peso di massa $m$ si trova a muoversi su un [[piano inclinato]] liscio di un angolo $\alpha$ rispetto all'orizzontale e di altezza $h$. Il punto materiale è inizialmente fermo sulla somimtà del piano inclinato. Determinare la legge oraria del suo moto e la velocità finale con cui giunge al suolo.
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+# Moto del punto materiale
+===
+Fissato un opportuno sistema di riferimento cartesiano dello spazio, la posizione occupata dal punto materiale $P$ può essere descritta attraverso le tre coordinate cartesiano o attraverso il vettore posizione
+$\vec{r} \equiv \vec{OP} = x\hat{u}_x + y\hat{u}_y + z\hat{u}_z$
+```
+<% tp.file.cursor(3) %>
