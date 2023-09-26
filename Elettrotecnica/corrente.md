@@ -59,6 +59,20 @@ La misura di corrente lungo $-\sigma$ si ottiene invertendo l'inserimento dei mo
 id: 1694785449376
 deck: elettrotecnica
 ---
+# Corrente elettrica
+===
+Dato un piccolo cilindro di lunghezza $v \Delta t$, contenente $n$ cariche $q$, che si muovono a velocità costante $\bar{v}$ parallele all'asse del cilindro,
+Nell'intervallo di tempo $\Delta t$ tutte le cariche $n$ attraversano la superficie $dS$ "base" del cilindretto.
+Vi sarà un intensità di corrente media $I$ attraverso la superficie $dS$ pari a $nq/\Delta t$.
+Assumendo $\Delta t = t - t_0$ e $\Delta Q = Q(t) - Q(t_0)$, cioè la carica che attraversa $dS$ in $\Delta t$ viene espressa come l'incremento della carica che aveva attraversato la superficie fino a $t_0$.
+Se passiamo al limite per $\Delta t \to 0$ abbiamo.
+$$ I = \frac{d}{dt}Q $$
+```
+
+
+```anki
+deck: E
+---
 <% tp.file.cursor(1) %>
 ===
 <% tp.file.cursor(2) %>
