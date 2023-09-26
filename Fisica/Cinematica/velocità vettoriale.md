@@ -149,6 +149,12 @@ deck: Fisica
 Determinazione della legge oraria dalla velocità vettoriale istantanea
 ===
 Conoscendo la posizione iniziale $\vec{r}_0$ e l'andamento nel tempo della velocità vettoriale istantanea $\vec{v}(t)$ possiamo ricavare la legge oraria $\vec{r} = \vec{r}(t)$ esattamente come nel caso scalare
-$$ \Delta \vec{r}_{tot} = \sum_i \Delta \vec{r}_i = \sum_i \vec{v}_{m,i}\Delta t_i $$
+$$ \Delta \vec{r}_{tot} = \sum_i \Delta \vec{r}_i = \sum_i \vec{v}_{m,i}\Delta t_i \implies \vec{r}(t) = \vec{r}_0 + \int_{t_0}^{t} \vec{v}(t') \mathrm{d}t' $$
+
+In termini di coordinate
+$$ \begin{align}
+x(t) = x_0 + \int_{t_0}^t v_x(t') dt' \\
+y(t) = y_0 + \int_{t_0}^t v_y(t')dt' \\
+z(t) = z_0 + \int_{t_0}^t v_z(t')dt'
+\end{align}$$
 ```
-<% tp.file.cursor(3) %>

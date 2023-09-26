@@ -15,7 +15,7 @@ $$
 
 
 >[!oss]
->Calcolo delal legge oraria a partire dall'accelerazione
+>Calcolo della legge oraria a partire dall'accelerazione
 > $$
 >\begin{align}
 >&\vec{v}(t) = v_{0} + \int _{t_{0}}^t \!\vec{a}(t') \, \mathrm{d}t' &\vec{r}(t) = \vec{r}_{0} + \int _{t_{0}}^t \!\vec{v}(t') \, \mathrm{d}t' 
@@ -23,4 +23,14 @@ $$
 >$$
 
 
+# ANKI
 
+
+```anki
+deck: Fisica
+---
+# Accelerazione vettoriale media
+===
+$$ \vec{a}_m (t1,t2) = $$
+```
+<% tp.file.cursor(3) %>
