@@ -48,3 +48,26 @@ Se invece la quantità di moto di un punto materiale varia, significa che esso �
 > $$ \vec{p} \equiv \sum_{i = 1}^n \vec{p}_{i} $$
 
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+Quantità di moto
+===
+
+Si definisce quantità di moto $\vec{p}$ di un punto materiale la grandezza vettoriale data dal prodotto della massa per la velocità istantanea del punto materiale:
+$$ \vec{p} = m\vec{v} $$
+```
+
+
+```anki
+deck: Fisica
+---
+Principio di conservazione della quantità di moto
+===
+La quantità di moto di un sistema isolato di $n$ punti materiali rimane costante nel tempo
+$$ \vec{p}_{\text{tot}} \equiv \sum_{i = 1}^n \vec{p}_i = \cost $$
+In un sistema inerziale un punto materiale non soggetto ad interazioni si muove con velocità costante e quindi ha anche quantità di moto costante, essendo co
+```
+<% tp.file.cursor(3) %>

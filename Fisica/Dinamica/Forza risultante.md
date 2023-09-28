@@ -47,4 +47,6 @@ Forza risultante
 
 Si dice forza risultante o forza agente su di un punto materiale dotato di quantità di moto $\vec{p}$ la grandezza vettoriale 
 $$\vec{F} = \frac{d\vec{p}}{dt}$$
+
+È possibile stabilire un legame lineare tra la $i$-esima forza agente su un corpo e la quantità di moto derivante da tale forza, possiamo quindi applicare il principio di sovrapposizione degli effetti alle forze.
 ```
