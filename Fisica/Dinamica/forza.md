@@ -40,3 +40,19 @@ Classifichiamole invece le forze con cui avremo a che fare:
 ![[forze di attrito]]
 
 [[Reazioni vincolari]]
+
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Tutte le forze in natura possono essere ricondotte a quattro interazioni fondamentali
+===
+Interazione gravitazionale: attrazione tra masse
+Interazione elettromagnetica: Tutti  i fenomeni di natura elettrica e o magnetica come la luce
+Interazione nucleare forte: unisce protoni e neutroni nei nuclei atomici
+Interazione nucleare debole: preseiede a molte reazioni nucleari
+```
+
+
