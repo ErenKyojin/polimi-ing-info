@@ -142,8 +142,33 @@ Sia $V$ uno spazio vettoriale su $\mathbb{K}$, un **[[insieme]] ordinato** $\mat
 ```anki
 deck: GAL
 ---
-Data una matrice $A \in M_{(n,n)}{$
+matrice inversa
 ===
-<% tp.file.cursor(2) %>
+Data una matrice $A \in M_{(n,n)}{\mathbb{K}}$ è detta inversa della matrice $A$ una matrice $A'$ tale che
+$$ AA' = \mathbb{I}_n $$
+```
+
+
+```anki
+deck: GAL
+---
+1. $B$ e $C$ sono rispettivamente inversa destra e sinistra di $A$ allora $B = C$
+2. Se $A$ è invertibile allora $A$ ammette un'unica matrice inversa che si denota con $A^{-1}$
+===
+$B = B$
+```
+<% tp.file.cursor(3) %>
+
+```anki
+deck: GAL
+---
+Sia $A \in M_{(n,n)}(\mathbb{K})$ allroa è equivalente affermare che:
+1. $\ker(A) = 0$
+2. $r(A) = n$
+3. $A$ invertibile
+4. $A$ ha inversa sinistra
+5. $A$ ha inversa destra
+===
+$B = B$
 ```
 <% tp.file.cursor(3) %>
