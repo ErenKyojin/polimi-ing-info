@@ -12,3 +12,14 @@ Detto anche principio di inerzia
 
 
 Che è strettamente connesso al [[principio di relatività]].
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Principio di inerzia o primo principio della dinamica
+===
+In un sistema di riferimento inerziale, un corpo non soggetto ad interazioni con altri corpi permane nello stato di quiete o in moto rettilineo uniforme
+```
+

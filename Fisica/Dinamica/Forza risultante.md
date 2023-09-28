@@ -35,4 +35,16 @@ modification date: 2023-03-23 15:15
 
 >[!oss]
 >Tale definizione stabilisce un legame lineare tra la forza considerata (causa) e la variazione di quantità di moto da essa prodotta (effetto), indipendentemente dalla natura di tale forza. Questo semplicemente perchè la [[derivata|derivazione]] è un operazione lineare. Dunque alle forze si applica il [[principio di sovrapposizione]] degli effetti
->
+
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Forza risultante
+===
+
+Si dice forza risultante o forza agente su di un punto materiale dotato di quantità di moto $\vec{p}$ la grandezza vettoriale 
+$$\vec{F} = \frac{d\vec{p}}{dt}$$
+```

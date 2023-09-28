@@ -203,6 +203,7 @@ deck: Fisica
 ---
 # Dinamica
 ===
-Si occupa del moto dei corpi in relazione alle cause che lo producono. Il moto di un corpo è il risultato delle sue interazioni con i corpiche lo circondano
+Si occupa del moto dei corpi in relazione alle cause che lo producono. Il moto di un corpo è il risultato delle sue interazioni con i corpiche lo circondano.
+
+Ogni interazione è descritta attraverso una grandezza fisica detta **forza**, ed è il risultato di una proprietà intrinesca di ogni corpo, l'**inerzia**, che descrive la tendenza del corpo a mantenere invariata la propria velocità.
 ```
-<% tp.file.cursor(3) %>

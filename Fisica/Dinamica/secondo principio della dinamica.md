@@ -19,3 +19,4 @@ $$
 
 >[!oss]
 >È possibile misurare dinamicamente la forza: nota infatti la massa del corpo soggetto alla [[forza]] da misurare, si misura la sua accelerazione e quindi si calcola la forza in base al secondo principio
+
