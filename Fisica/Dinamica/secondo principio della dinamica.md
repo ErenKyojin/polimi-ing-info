@@ -20,3 +20,16 @@ $$
 >[!oss]
 >È possibile misurare dinamicamente la forza: nota infatti la massa del corpo soggetto alla [[forza]] da misurare, si misura la sua accelerazione e quindi si calcola la forza in base al secondo principio
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+Secondo principio della dinamica
+===
+Come conseguenza diretta delle definizioni di forza risultante e quantità di moto abbiamo che
+$$ \vec{F} = \frac{d\vec{p}}{dt} = \frac{d(m \cdot \vec{v})}{dt} = m \frac{d\vec{v}}{dt} = m \cdot \vec{a} $$.
+
+La forza risultante agente su di un punto materiale è il prodotto della massa del punto materiale per la sua accelerazione
+```
+

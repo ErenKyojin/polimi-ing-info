@@ -137,4 +137,13 @@ Sia $V$ uno spazio vettoriale su $\mathbb{K}$, un **[[insieme]] ordinato** $\mat
 >Sia $A'$ l'inversa destra di $A$ allora per definizione $A \cdot A' = \mathbb{I}_n \implies A'$ ammette un'inversa sinistra $\implies A'$ ammette un inversa destra $A'' : A' \cdot A'' = \mathbb{I}_n \implies A = A''$ quindi $A \cdot A' = A' \cdot A = \mathbb{I}_n$ quindi $A$ è invertibile
 ```
 
+# ANKI
 
+```anki
+deck: GAL
+---
+Data una matrice $A \in M_{(n,n)}{$
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>

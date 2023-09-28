@@ -12,6 +12,14 @@ si può quindi enunciare il seguente:
 >[!def] Terzo principio della dinamica newtoniana
 >Nell'interazione tra due corpi la [[forza]] che il primo esercita sul secondo è ugual in [[Modulo]], ha la stessa [[direzione]] ed è opposta in verso rispetto a quella che il secondo esercita sul primo
 
+# ANKI
 
+```anki
+deck: Fisica
+---
+Terzo principio della dinamica
+===
+Nell'interazione tra due corpi la forza che il primo esecita sul secondo è uguale in modulo, con la stesa direzione e con verso opposto rispetto a quella che il secondo esercita sul primo
+```
 
 
