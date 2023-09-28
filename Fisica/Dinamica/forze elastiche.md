@@ -17,6 +17,8 @@ deck: Fisica
 ---
 Forze elastiche
 ===
-Considerando una molla avente una lunghezza di risposo $l$. Se produciamo una deformazione di ampiezza $x$, la molla reagisce con una forza pro
+Considerando una molla avente una lunghezza di risposo $l$. Se produciamo una deformazione di ampiezza $x$, la molla reagisce con una forza proporzionale ad $x$ e di verso contrario alla deformazione
+$$ \vec{F} = -kx\hat{u}_{x} $$
+
+La costante di proporzionalità $k$ è caratteristica della molla e prende il nome di costante elastica
 ```
-<% tp.file.cursor(3) %>

@@ -61,3 +61,31 @@ Il coefficiente di proporzionalità $\mu_{d}$ è il coefficiente di attrito dina
 >[!oss]
 >La forza necessaria per mantenere in moto un corpo vincendo le forze di attrito è sempre minore di quella necessaria per metterlo in moto
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+Forze di attrito
+===
+Forze che si oppongono al moto relativo di due corpi in contatto meccanico tra loro. Esistono molteplici modelli fenomenologici dell'attrito
+- **attrito radente** si manifestra tra le sue superfici di due corpi solidi a contatto, a sua volta si divide in attrito statico e dinamico
+- **attrito volvente** quando un corpo solido rotola su un altro corpo solido
+- **atrito del mezzo** o **attrito viscoso**: resistenza opposta da un fluido  al moto di un corpo solido
+- **attrito interno** agisce fra diversi strati di un fluido viscoso in moto
+```
+
+
+```anki
+deck: Fisica
+---
+Attrito radente statico
+===
+Considerando un corpo di massa $m$, avente una superficie $S$ appoggiata su un piano orizzontale. Se applichiamo al corpo una Forza $\vec{F}$ orizzontalmente si verifica che
+- Se il modulo di $F$ della forza è inferiore ad un certo valore $F_{\max}$ il corpo non si sposta, mentre se $F >F_{\max}$ il corpo si sposta nella direzione di $\vec{F}$
+- Il valore limite per equilibrio $F_{\max}$ risulta indipendente, almeno entro ampi limiti, dall'area della superficie di appoggio $S$
+- Variando invece il peso $W = mg = R_N$ del corpo e quindi la reazione vincolare normale del piano $F_{\max}$ cresce proporzionalmente secondo la legge $F_{\max} = \mu_s \cdot R_N$
+
+Il coefficiente di proporzionalità $\mu_s$ è detto coefficiente di attrito statico, è una caratteristica dei due mezzi posti in contatto e dipende fortemente dallo stato delle superfici
+```
+<% tp.file.cursor(3) %>
