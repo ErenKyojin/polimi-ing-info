@@ -15,6 +15,7 @@ deck: Fisica
 ---
 Forza peso
 ===
-Se consideriamo
+Se consideriamo la terra come una sfera omogenea di raggio $R_T$ e di massa $M_T$, un corpo di massa $m$  posto sulla superficie terrestre, sarà attratto verso il centro della terra con una forza gravitazionale pari a
+$$ W = \gamma \frac{M_T}{R_T^2} \cdot m = g_0 \cdot m $$
+$g_0 \approx 9.81 m/s^2$ come si vede, non dipende dalla massa del corpo considerato ma solo dalle caratteristiche della terra. Ed è essenzialmente cosante ovunque
 ```
-<% tp.file.cursor(3) %>

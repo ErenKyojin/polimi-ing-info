@@ -10,3 +10,13 @@ $$
 $$
 La costante di proporzionalità $k$ è una caratteristica della molla e prende il nome di costante elastica, si misura in $N\cdot m^{-1}$ (newton su [[metri|metro]])
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+Forze elastiche
+===
+Considerando una molla avente una lunghezza di risposo $l$. Se produciamo una deformazione di ampiezza $x$, la molla reagisce con una forza pro
+```
+<% tp.file.cursor(3) %>
