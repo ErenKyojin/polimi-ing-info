@@ -194,3 +194,15 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 \end{document}
 ```
 #todo animazione :3
+
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+# Dinamica
+===
+Si occupa del moto dei corpi in relazione alle cause che lo producono. Il moto di un corpo è il risultato delle sue interazioni con i corpiche lo circondano
+```
+<% tp.file.cursor(3) %>
