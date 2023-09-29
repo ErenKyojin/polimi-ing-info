@@ -88,4 +88,16 @@ Considerando un corpo di massa $m$, avente una superficie $S$ appoggiata su un p
 
 Il coefficiente di proporzionalità $\mu_s$ è detto coefficiente di attrito statico, è una caratteristica dei due mezzi posti in contatto e dipende fortemente dallo stato delle superfici
 ```
+
+
+```anki
+deck: Fisica
+---
+Attrito radente dinamico
+===
+Se un corpo si muove su una superficie piana, la forza di attrito $\vec{R}_T$ risulta proporzionale alla forza attiva normale al piano stesso ed indipendente dalla superficie di contatto e dalla velocità del corpo
+$$ R_T = \mu_d \cdot R_N $$
+
+Il coefficiente di attrito dinamico è sempre minore o uguale al coefficiente di attrito statico per una superficie
+```
 <% tp.file.cursor(3) %>
