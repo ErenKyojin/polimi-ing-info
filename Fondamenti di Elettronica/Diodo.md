@@ -1,7 +1,8 @@
 ---
-aliases: 
-creation date: 2023-07-07 09:14
-modification date: 2023-07-07 09:14
+id: "Diodo"
+aliases:
+  - "Ho creato una pila!"
+tags: []
 ---
 
 Il diodo è un elemento drogato metà P e metà N. Si generà uno squilibrio tra le due sezioni con gli elettroni in più. Gli atomi aggiunti si polarizzano (diventano ioni) ma rimangono bloccati nel cristallo. Quindi c'è un meccanismo di diffusione iniziale che automaticamente blocca il flusso.
@@ -145,3 +146,26 @@ $V_{SS} =-5V$
 Se $V_M$ molto alta ($10V$) in $D1$ potrà scorrere in $D2$ no.
 
 Il diodo è un componente 
+
+
+#todo condensatore
+
+
+Se $C$ e' molto piu' grande possiamo considerare la tensione su $V_{\text{out}} come una dente di sega
+
+$$(V_p - 0.7) e^{-t/e} = (V_P - 7) (1 - t/\tau)$$
+
+quanto $t = T$
+
+$$(1-\frac{T}{2\tau}(V_p-0.7)(1-\frac{T}{\tau}$$
+
+
+$$RF = \frac{\sqrt{V_{rms,out}^2}-V_{m,out}^2 }{V_{m,out}}\alpha = \frac{\Delta V}{V_m}$$
+
+- 0, $\Delta V ^2 = 0, C \infty$
+- grande $C = 0, \Delta V_m$
+- #todo $C = 0$
+
+
+$$RF = \frac{\Delta V_{\text{rms}}}{V_{\text{out}^m}} = $$
+
