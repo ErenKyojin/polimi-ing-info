@@ -7,6 +7,7 @@ modification date: 2023-05-02 10:36
 ```clike
 for j := 2 to A.length
 	key := A[j]
+	//inserisci A[j] nella sequenza ordinata
 	i := j - 1
 	while i > 0 and A[i] > key
 		A[i + 1] := A[i]
@@ -14,6 +15,22 @@ for j := 2 to A.length
 	A[i + 1] := key
 ```
 
+>[!C]-
+>```c
+>void insertion_sort(int* array, int size){
+>	for(int j = 1; j < size; j++)
+>		int key = A[max];
+>		int i = max - 1;
+>		while(i > 0 && A[i] > key)
+>		{
+>			A[i + 1] = A[i];
+>			i = i - 1;
+>		}
+>		A[i + 1] = key;
+>}
+>```
+
+Notiamo che in ogni dato momento le carte dalla 1 alla $j-1$-esima
 ## Costo di esecuzione
 
 > [!multi-column]
