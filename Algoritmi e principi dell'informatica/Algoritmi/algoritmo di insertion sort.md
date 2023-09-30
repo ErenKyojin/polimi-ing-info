@@ -3,6 +3,7 @@ aliases:
 creation date: 2023-05-02 10:36
 modification date: 2023-05-02 10:36
 ---
+L'insertion sort funziona come 
 
 ```clike
 for j := 2 to A.length
@@ -15,7 +16,7 @@ for j := 2 to A.length
 	A[i + 1] := key
 ```
 
->[!C]-
+>[!c]-
 >```c
 >void insertion_sort(int* array, int size){
 >	for(int j = 1; j < size; j++)
@@ -30,7 +31,8 @@ for j := 2 to A.length
 >}
 >```
 
-Notiamo che in ogni dato momento le carte dalla 1 alla $j-1$-esima
+Notiamo che in ogni dato momento le carte dalla 1 alla $j-1$-esima sono sempre ordinate, le restanti sono ancora quelle da considerare nell'array ordinato.
+Queste proprietà sono dette [[invarianti di ciclo]]
 ## Costo di esecuzione
 
 > [!multi-column]
