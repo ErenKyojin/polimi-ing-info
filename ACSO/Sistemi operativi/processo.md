@@ -111,8 +111,12 @@ Quando P riprenderà l'esecuzione Linux esegue il [[ripristino di contesto]]
 # Processo nei sistemi informativi
 
 > [!def]
-> Un **processo** è un'insieme di attività che l'rganizzazione nel suo compleso svolge p
+> Un **processo** è un'insieme di attività che l'rganizzazione nel suo compleso svolge per gestire il ciclo di vita di una risora o di un gruppo omogeneo di risorse per raggiungere un risultato definito e misurabile. 
+ 
 
+I processi sono classificabili secondo diversi modelli di classificazione
+- [[Piramide di Anthony]]
+- [[Catena di Porter]]
 
 ### Perchè modellare i processi?
 - Analisi e progettazione
