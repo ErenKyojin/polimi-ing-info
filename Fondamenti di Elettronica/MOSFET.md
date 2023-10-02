@@ -50,7 +50,11 @@ Tra drain e source applichiamo $V_{DS}$
 \usepackage{circuitikz}
 \begin{document}
 \begin{tikzpicture}
-\draw(0,0) to [npn] (0,3);
+\draw(0,0) node[pnp](Q){Q};
 \end{tikzpicture}
 \end{document}
 ```
+
+Se $V_{GS}$ è 0 la corrente è nulla
+Se $V_{GS}$ è positiva
+- Ci sarà attrazione tra gli elettroni dei due drogaggi N, che creano un canale di una zona arrichità che sembrer
