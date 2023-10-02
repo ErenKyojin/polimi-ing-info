@@ -12,4 +12,37 @@ Le risorse sono classificate come:
 #### Risorse esterne:
 - Ambiente sociale ed economico
 - Mercato
-- Cli
+- Clienti
+- ...
+
+#### Risorse interne:
+- Risorse di scambio, quindi prodotti (beni o servizi)
+- Risorse di struttura, quindi strumenti finanziari, persone (HR), infrastrutture
+- Risorse di gestione: norme, organigrammi, deleghe, piani, informazioni
+
+
+>[!oss]
+>Ogni risorsa ha un proprio ciclo di vita:
+>- Pianificazione
+>- Acqusizione
+>- Gestione
+>- Manutenzione
+>- ...
+
+
+>[!esempio]
+>Esempi di risorse sono:
+>- personale
+>- denaro
+>- macchinari
+>- dati
+>- informazioni
+
+### Informazione come risorsa
+L'informazione viene usata per la comunicazione, come supporto ai processi e come supporto alle decisioni.
+Può anche essere un prodotto.
+
+L'informazione ha le seguenti proprietà che la distinguono da qualsiasi altra risorsa:
+- è intangibile ()
+- non deperibile
+- auto rigenerante
