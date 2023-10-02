@@ -109,7 +109,9 @@ Quando P riprenderà l'esecuzione Linux esegue il [[ripristino di contesto]]
 
 
 # Processo nei sistemi informativi
-Insieme di attività che trasforano un input in un output
+
+> [!def]
+> Un **processo** è un'insieme di attività che l'rganizzazione nel suo compleso svolge p
 
 
 ### Perchè modellare i processi?

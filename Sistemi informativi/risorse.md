@@ -43,6 +43,16 @@ L'informazione viene usata per la comunicazione, come supporto ai processi e com
 Può anche essere un prodotto.
 
 L'informazione ha le seguenti proprietà che la distinguono da qualsiasi altra risorsa:
-- è intangibile ()
-- non deperibile
-- auto rigenerante
+- è intangibile
+- non deperibile (non si perde dopo il suo utilizzo)
+- auto rigenerante (il suo utilizzo genera altra informazione).
+
+Gestire l'informazione si traduce in innumerevoli attività come:
+- Creare informazione
+- Acquisire informazione
+- Elaborare informazione
+- Archiviare informazione
+- Trasmettere informazione
+- Presentare informazione
+
+Non sono attività che richiedono **necessariamente** strumenti IT. L'informazione spesso può essere gestita in modo implicito, basatndosi su esperienza e competenza dei singoli. Quando si tratta di attività difficilmente replicabili, oppure in modo esplicito ma non supportato da IT. Oppure ancora in modo esplicito e supportato da IT.
