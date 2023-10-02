@@ -50,7 +50,7 @@ Tra drain e source applichiamo $V_{DS}$
 \usepackage{circuitikz}
 \begin{document}
 \begin{tikzpicture}
-\draw(0,0) node[pnp](Q){Q};
+\draw(0,0) node[npn](Q){Q};
 \end{tikzpicture}
 \end{document}
 ```
@@ -70,7 +70,6 @@ Più $V_{gs}$ aumenta più aumenta la dimensione del canale, fino a quando non s
 \draw[-latex](0,0) -- (0,3) node[left]{$I_{DS}$};
 \draw[thick, red](0,0) -- (1.5,0);
 \draw[domain = 0:2] plot (\x,\x) node{$f(x)=x$};
-\draw[domain = 2:4] plot (\x,-(\x+4)**(\x+4));
 \end{tikzpicture}
 \end{document}
 ```
@@ -78,7 +77,13 @@ Più $V_{gs}$ aumenta più aumenta la dimensione del canale, fino a quando non s
 iniziamo con un andamento lineare, che poi diventa parabolico, infine raggiunto il picco avremo una corrente costante
 
 $$ \begin{cases}
-I_{DS} = 0 \\
-I_{DS} = 2k\left( V_{GS} - V_{T} - \frac{V_{DS}}{2} \right) \cdot V_{DS} \\
-I_{DS} = k(V_{GS} -V_{T})^2
+I_{DS} = 0 &V_{GS} < VT\\
+I_{DS} = 2k\left( \underbrace{ V_{GS} - V_{T} }_{ V_{OV} } - \frac{V_{DS}}{2} \right) \cdot V_{DS} &V_{DS } < V_{GS} - V_{T}\\
+I_{DS} = k(\underbrace{ V_{GS} -V_{T} }_{ V_{OV} })^2 & V_{DS} > V_{GS} - V_{T}
 \end{cases} $$
+
+Riducendo il valore di $V_{GS}$ si abbassa la parabola e si anticipa il momento di overdrive
+Aumentando il valore di $V_{GS}$ si alza la parabola e si ritarda il momento di overdrive.
+
+Zona ohmica la zona in cui $V_{GS} > V_{T}$ e $V_{DS} < V_{OV}$. Saturo se siamo nella zona lineare e spento 
+
