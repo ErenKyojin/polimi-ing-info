@@ -69,7 +69,16 @@ Più $V_{gs}$ aumenta più aumenta la dimensione del canale, fino a quando non s
 \draw[-latex](0,0) -- (4,0) node[below]{$V_{DS}$};
 \draw[-latex](0,0) -- (0,3) node[left]{$I_{DS}$};
 \draw[thick, red](0,0) -- (1.5,0);
+\draw[domain = 0:2] plot (\x,\x) node{$f(x)=x$};
+\draw[domain = 2:4] plot (\x,-(\x+4)**(\x+4));
 \end{tikzpicture}
 \end{document}
 ```
 
+iniziamo con un andamento lineare, che poi diventa parabolico, infine raggiunto il picco avremo una corrente costante
+
+$$ \begin{cases}
+I_{DS} = 0 \\
+I_{DS} = 2k\left( V_{GS} - V_{T} - \frac{V_{DS}}{2} \right) \cdot V_{DS} \\
+I_{DS} = k(V_{GS} -V_{T})^2
+\end{cases} $$
