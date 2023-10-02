@@ -15,3 +15,20 @@ Altra caratterizzazione possibile è l'unità di misura (ad esempio per una temp
 Si possono raccogliere grandi quantità di dati, e compito di ordinarli è la disciplina di [[basi di dati]]
 
 Al di sopra del dato vi è l'[[informazione]]
+
+
+# ANKI
+
+```anki
+deck: Sistemi informativi
+---
+# Dati
+===
+Un dato è una misura, ossia un elemento, che modella o descrive una porzione della realtà che si vuole rappresentare
+
+associato ad un dato vi è:
+- il dominio di apparteneza ("tipo")
+- Unità di misura quando necessaria
+
+Sono alla base della piramide della conoscenza
+```

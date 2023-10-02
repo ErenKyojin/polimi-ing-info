@@ -13,3 +13,14 @@ modification date: 2023-07-07 09:14
 
 
 Al di sopra della informazione vi è la [[conoscenza]]
+
+# ANKI
+
+```anki
+deck: Sistemi informativi
+---
+Informazione
+===
+L'informazione è l'interpretazione di un singolo dato o di un insieme di dati
+
+```

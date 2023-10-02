@@ -14,3 +14,13 @@ modification date: 2023-07-07 09:14
 La conoscenza guida decisioni che possono influire sulla situazione attuale.
 
 Superiore alla conoscenza vi è la [[saggezza]]
+
+# ANKI
+
+```anki
+deck: Sistemi informativi
+---
+# Conoscenza
+===
+Informazione integrata con l'esperienza
+```
