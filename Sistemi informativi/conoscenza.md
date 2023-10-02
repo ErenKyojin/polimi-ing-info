@@ -22,5 +22,5 @@ deck: Sistemi informativi
 ---
 # Conoscenza
 ===
-Informazione integrata con l'esperienza
+La conoscenza è l'informazione integrata con l'esperienza
 ```

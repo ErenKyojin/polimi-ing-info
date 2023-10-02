@@ -38,3 +38,18 @@ modification date: 2023-07-07 09:14
 ![[saggezza]]
 
 Principalmente lavoriamo nel corso sulle informazioni (che vengono gestite dai processi) e sulla conoscenza
+
+
+```anki
+deck: Sistemi informativi
+---
+Piramide della conoscenza
+===
+La piramide della conoscenza è un custrutto per capire come si evolvono i dati.
+
+È una piramide con, dalla base alla cima:
+- i dati
+- l'informazione
+- conoscenza
+- saggezza
+```
