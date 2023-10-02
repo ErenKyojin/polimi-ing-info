@@ -10,4 +10,6 @@
 ##### Caratterizzazione di un dato
 Associato ad un dato vi è sempre il suo tipo che specifica il dominio di valori che tale dato può assumere (ad esempio dati numerici)
 
-Altra caratterizzazione possibile è l'unità di misura (ad esempio per una temperatura)
+Altra caratterizzazione possibile è l'unità di misura (ad esempio per una temperatura).
+
+Si possono raccogliere grandi quantità di dati, ed è necessario ordinarli tramite le basi di dati
