@@ -18,6 +18,8 @@ I sistemi informativi presentano vari aspetti di complessità
 - progettuale
 - di controllo e di gestione.
 
+per affrontare questa complessità si progettano sistemi informativi **distribuiti**, con applicazioni e dati disponibili su diversi **nodi elaborativi**. Questo permette a diverse organizzazioni di lavorare in sinergia così da gestire 
+
 ## Segmentazione di un SI
 ### Moduli orizzontali
 Sono processi che non cambiano tradiversi settori, ad esempoi HR o aspetti amministrativi
