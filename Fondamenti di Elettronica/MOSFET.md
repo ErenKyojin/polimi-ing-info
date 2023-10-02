@@ -85,5 +85,5 @@ I_{DS} = k(\underbrace{ V_{GS} -V_{T} }_{ V_{OV} })^2 & V_{DS} > V_{GS} - V_{T}
 Riducendo il valore di $V_{GS}$ si abbassa la parabola e si anticipa il momento di overdrive
 Aumentando il valore di $V_{GS}$ si alza la parabola e si ritarda il momento di overdrive.
 
-Zona ohmica la zona in cui $V_{GS} > V_{T}$ e $V_{DS} < V_{OV}$. Saturo se siamo nella zona lineare e spento 
+Zona ohmica la zona in cui $V_{GS} > V_{T}$ e $V_{DS} < V_{OV}$. Saturo se siamo nella zona lineare e spento.
 
