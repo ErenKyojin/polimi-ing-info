@@ -38,12 +38,7 @@ Suooirto ad attività primarie -> sistemi informativi **verticali**
 Supporto ad Attività di supporto -> sistemi informativi **orizzontali**
 
 # Definizione e ruolo di sistema informativo
-**Risore**
-- esterne: ambiente, mercato, clienti
-- interne: 
-	- di scambio (prodotti)
-	- di struttura (strumenti finanziari, persone o risorse umane, infrastrutture)
-	- di gestione (norme, organigrammi, deleghe, piani, informazioni)
+
 
 ### Piramide di Anthony dei componenti per la gestione dei dati
 
@@ -57,3 +52,19 @@ Piramide con gerarchia (decrescente):
 
 
 ![[profilo informativo]]
+
+# ANKI
+
+```anki
+deck: Sistemi informativi
+---
+# Sistema informatio
+===
+Con sistema informativo si intendono tutti gli strumenti supportati dall'information technology (IT) e composti da:
+- applicazioni software
+- sistemi di gestione dati
+- interfacce utente
+- reti di comunicazione
+
+Con l'obiettivo di supportare le organizzazioni nella gestione dell'informazione
+```
