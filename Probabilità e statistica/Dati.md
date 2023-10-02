@@ -12,4 +12,6 @@ Associato ad un dato vi è sempre il suo tipo che specifica il dominio di valori
 
 Altra caratterizzazione possibile è l'unità di misura (ad esempio per una temperatura).
 
-Si possono raccogliere grandi quantità di dati, ed è necessario ordinarli tramite le basi di dati
+Si possono raccogliere grandi quantità di dati, e compito di ordinarli è la disciplina di [[basi di dati]]
+
+Al di sopra del dato vi è l'[[informazione]]
