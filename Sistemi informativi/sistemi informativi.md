@@ -4,6 +4,20 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
+>[!def]
+>Strumenti supportati dall'[[information technology]] (IT) e composti da:
+>- applicazioni software
+>- sistemi di gestione dati
+>- interfacce utente
+>- reti di comunicazione
+>
+>Con l'obiettivo di supportare le organizzazioni nella gestione dell'informazione.
+
+
+I sistemi informativi presentano vari aspetti di complessità 
+- progettuale
+- di controllo e di gestione.
+
 ## Segmentazione di un SI
 ### Moduli orizzontali
 Sono processi che non cambiano tradiversi settori, ad esempoi HR o aspetti amministrativi
