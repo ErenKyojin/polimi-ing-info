@@ -55,6 +55,21 @@ Tra drain e source applichiamo $V_{DS}$
 \end{document}
 ```
 
-Se $V_{GS}$ è 0 la corrente è nulla
-Se $V_{GS}$ è positiva
-- Ci sarà attrazione tra gli elettroni dei due drogaggi N, che creano un canale di una zona arrichità che sembrer
+###### Se $V_{GS}$ è 0 la corrente è nulla
+##### Se $V_{GS}$ è positiva
+Inizialmente ci sarà attrazione tra gli elettroni dei due drogaggi N, che creano un canale di una zona arrichita che sembrerà drogata di tipo $N$, ma questo non avviene con qualsiasi livello di tensione c'è una soglia minima da raggiungere, quindi
+
+quindi $V_{GS} < V_{T} > 0 \implies I = 0$.
+Più $V_{gs}$ aumenta più aumenta la dimensione del canale, fino a quando non si genera una corrente
+
+
+```tikz
+\begin{document}
+\begin{tikzpicture}[scale=1.25]
+\draw[-latex](0,0) -- (4,0) node[below]{$V_{DS}$};
+\draw[-latex](0,0) -- (0,3) node[left]{$I_{DS}$};
+\draw[thick, red](0,0) -- (1.5,0);
+\end{tikzpicture}
+\end{document}
+```
+
