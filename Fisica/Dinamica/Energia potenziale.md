@@ -12,7 +12,9 @@ E_{p}(Q) = mgy_{Q} + k
 $$
 con $y_{Q}$ quota della posizione $Q$ rispetto ad una quota di riferimento arbitrariamente scelta e $k$ è una costante additiva arbitraria che convenzionalmente poniamo a zero, attribuendo cosí valore nullo di energia potenziale della forza peso allo stato di riferimento corrispondente alla quota nel SdR inerziale considerato
 
->[]
+# Definizione
+>[!def]
+>Se una forza è tale che il lavoro da essa compiuto per portare un punto materiale da $A$ a $B$ non dipende dal cammino percorso o da altre circostanze, ma solo dalle coordinate di $A$ e di $B$, allora per ogni punto $Q$ dello spazio possiamo sempre definire una quantità scalare pari al lavoro fatto dalla forza per portare il punto materiale in questione da $Q$ ad un punto di riferimento $O$ nel quale tale quantità scalare abbia un valore costante arbitrario (eventualmente nullo) assunto come riferimento
 
 ## Energia potenziale [[forza gravitazionale|gravitazionale]]
 La forza gravitazionale generata da una massa puntiforme $M$ è una forza centrale e quindi conservativa; per introdurre la sua energia potenziale basta calcolare il lavoro compiuto dalla forza gravitazionale per spostare una massa $m$ da una distanza $r$ dalla massa che genera il campo ad un punto a distanza infinita, che prendiamo come stato di riferimento (ad energia potenziale nulla).
@@ -28,6 +30,5 @@ deck: Fisica
 ---
 Energia potenziale
 ===
-<% tp.file.cursor(2) %>
+Se il lavoro per portare un punto materiale tra $A$ e $B$ non dipende dal percorso, ossia se si tratta di una forza conservativa, allora la forza ammette energia potenziale.
 ```
-<% tp.file.cursor(3) %>

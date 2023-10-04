@@ -98,3 +98,13 @@ Condizione sufficiente ma non necessaria perchè un campo di forze sia **non** c
 ===
 La condizione è che la forza dipenda anche dalla velocità del punto materiale a cui è applicata
 ```
+
+
+```anki
+deck: Fisica
+---
+Condizione necessaria e sufficiente affinchè un campo di forze sia conservativo
+===
+Sappiamo che un campo è conservativo se e solo se ammette energia potenziale, quindi solo se il lavoro può essere scritto come il differenziale di una funzione scalare che è l'opposto dell'energia potenziale.
+Affinchè questa funzione e
+```
