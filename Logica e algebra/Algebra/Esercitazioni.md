@@ -61,5 +61,9 @@ La domanda è se $S$ è la chiusura d'ordine di R.
 
 S
 - Seriale
-- Riflessiva
-- transitività (analogo)
+- Riflessiva[^1]
+- transitività[^1] (analogo)
+- antisimmetrica[^1]
+
+[^1]: quindi è relazione d'ordine
+
