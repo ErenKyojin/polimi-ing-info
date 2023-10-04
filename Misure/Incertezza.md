@@ -29,7 +29,7 @@ $$ \sigma^2(\bar{x}) = \frac{\sigma^2(x)}{n} = \frac{s^2(x)}{n}\qquad \sigma(\ba
 
 In questo tipo di incertezza il risultato di misura è $x = \bar{x}$ con incertezza $\frac{s(x)}{\sqrt{ n }}$, e la qualità della misura migliora.
 
-### Incertezza relativa
+#### Incertezza relativa
 Si parla di incertezza relativa quando normalizziamo il valore di incertezza tipo al valore di misura
 $$ u_{r}(y) = \frac{u(y)}{\bar{y}} $$
 
@@ -38,7 +38,7 @@ $$ u_{r}(y) = \frac{u(y)}{\bar{y}} $$
 
 Questo tipo di incertezza indica il grado diconoscenza che abbiamo raggiunto sul valore di misura
 
-### Incertezza estesa
+#### Incertezza estesa
 Quando si vuole definire un intervallo di valori attorno al valore di misura $y=\bar{y}$ all'interno del quale si rietiene che il [[misurando]] debba cadere con un certo livello di confidenza si utilizza l'incertezza estesa
 $$ U(y) = ku(y) $$
 con $k$ fattore di copertura
@@ -47,3 +47,35 @@ con $k$ fattore di copertura
 
 >[!oss] Cifre significative per l'incertezza
 >Si esprime solitamente con al più due cifre significative, anche se nei calcoli intermedi è spesso utile conservarne di più
+
+
+### Incertezza di categoria B
+Basata sulla definizione "a priori" di un opportuno intervallo di valori entro il quale si suppone debbano cadere i valori del misurando
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[-latex] (0,0) -- ++ (5,0);
+\draw[fill = gray] (3.5,2) -- (3.5,0) -- (.5,0) -- (.5,2);
+\draw[ultra thick] (.5,0) node[below]{$a_0 - a$} -- ++ (0,.25);
+\draw[ultra thick] (3.5,0) node[below]{$a_0 + a$} -- ++ (0,.25);
+\draw[ultra thick] (2,0) -- ++ (0,-.25) node[below]{$\bar{x} = a_0$};
+\node at (2,1){P};
+\end{tikzpicture}
+\end{document}
+```
+
+L'intervallo fissato è tipicamento centrato attorno al valor medio
+$$\bar{x} = a_{0} = \frac{(a_{0} + a) + (a_{0} - a)}{2}$$
+e ha una piena larghezza 
+$$\Delta x = (a_{0} + a) - (a_{0} - a) = 2a$$
+alla cui sarà legata l'incertezza della misura
+
+
+##### Stima dell'incertezza di categoria B
+
+Intervallo -> PDF -> $\mu, \sigma$
+
+1. Definisco un intervallo di categoria B
+2. Associo una densità di probabilità PDF
+3. Di questa si calcolano media, varianza e deviazione standard
