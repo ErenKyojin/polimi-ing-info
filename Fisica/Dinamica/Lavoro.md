@@ -135,3 +135,32 @@ Si dice che una forza compie un lavoro quando il punto materiale al quale è app
 $$ d\mathcal{L} = \vec{F} \cdot d\vec{r} \cos \theta$$
 con $\theta$ angolo tra $\vec{F}$ e $d\vec{r}$
 ```
+
+
+```anki
+deck: Fisica
+---
+Lavoro resistente
+===
+Il lavoro compiuto da una forza si dice resistente se è negativo, quindi se la forza si oppone allo spostamento, ad esempio $\theta > \pi / 2$
+```
+
+
+```anki
+deck: Fisica
+---
+Lavoro di una forza lungo un cammino finito
+===
+Il lavoro $\mathcal{L}$ compiuto da una forza $\vec{F}$ nello spostamento dal punto $A$ al punto $B$ lungo la traiettoria $\gamma$ si definisce come l'integrale di linea del lavoro elementare lungo $\gamma$
+$$ \mathcal{L} = \int_{A,\gamma}^B \! \vec{F} \cdot d\vec{r} $$
+```
+
+
+```anki
+deck: Fisica
+---
+Lavoro di una forza costante
+===
+Considerata una forza costante $\vec{F}$ che lavora su un punto materiale di massa $m$, il lavoro compiuto da $\vec{F}$ quando il punto si sposta da $A$ a $B$ vale
+$$  \mathcal{L}_{A \to B,\gamma} = \int_{A,\gamma}^B \! \vec{F} \cdot d\vec{r} = \vec{F} \cdot \int_{A,\gamma}^B D\vec{r} = \vec{F} (\vec{r}_B - \vec{r}_A) = \vec{F} \cdot \Delta\vec{r}(A,B), \forall \gamma$$
+```
