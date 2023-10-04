@@ -69,3 +69,14 @@ Consideriamo un punto materiale in un campo di forze conservative, limitandoci p
 - se la derivata è **nulla** $\forall x$ di un intorno a $x_{0}$ l'equilibrio si dice **indifferente**
 
 Un punto di equilibrio si dice stabile, instabile o indifferente a seconda che, a seguito di uno spostamento infinitesimo del punto dalla posizione di euqilibrio, la risultante tenda a riportare il punto nella posizione di equilibrio, oppure ad allontanarlo, oppure resti ancora nulla.
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Un campo
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
