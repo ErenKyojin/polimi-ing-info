@@ -27,4 +27,23 @@ $$ \sigma^2(\bar{x}) = \frac{\sigma^2(x)}{n} = \frac{s^2(x)}{n}\qquad \sigma(\ba
 >Si definisce **incertezza di categoria $A$** la dispersione del valor medio delle misure ripetute, calcolabile come
 >$$ u_{A}(x) = s(\bar{x}) = \frac{s(x)}{\sqrt{ n }} = \sqrt{ \frac{1}{n(n-1)} \sum_{k=1}^n  (x_{k} -\bar{x})^2} $$
 
-In questo tipo di incertezza il risultato di misura è $x = \bar{x}$ con incertezza $\frac{s(x)}{\sqrt{ n }}$, e la qualità della misura migliora 
+In questo tipo di incertezza il risultato di misura è $x = \bar{x}$ con incertezza $\frac{s(x)}{\sqrt{ n }}$, e la qualità della misura migliora.
+
+### Incertezza relativa
+Si parla di incertezza relativa quando normalizziamo il valore di incertezza tipo al valore di misura
+$$ u_{r}(y) = \frac{u(y)}{\bar{y}} $$
+
+>[!oss] si tratta di un numero puro
+>Quindi le incertezze di grandezze diverse possono essere confrontate
+
+Questo tipo di incertezza indica il grado diconoscenza che abbiamo raggiunto sul valore di misura
+
+### Incertezza estesa
+Quando si vuole definire un intervallo di valori attorno al valore di misura $y=\bar{y}$ all'interno del quale si rietiene che il [[misurando]] debba cadere con un certo livello di confidenza si utilizza l'incertezza estesa
+$$ U(y) = ku(y) $$
+con $k$ fattore di copertura
+
+---
+
+>[!oss] Cifre significative per l'incertezza
+>Si esprime solitamente con al più due cifre significative, anche se nei calcoli intermedi è spesso utile conservarne di più
