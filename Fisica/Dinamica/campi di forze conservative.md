@@ -106,5 +106,28 @@ deck: Fisica
 Condizione necessaria e sufficiente affinchè un campo di forze sia conservativo
 ===
 Sappiamo che un campo è conservativo se e solo se ammette energia potenziale, quindi solo se il lavoro può essere scritto come il differenziale di una funzione scalare che è l'opposto dell'energia potenziale.
-Affinchè questa funzione e
+La condizione affinchè questa funzione esiste è che tra le componenti della forza del campo valcano
+
+$$
+\frac{ \partial F_{x} }{ \partial y }  = \frac{ \partial F_{y} }{ \partial x } ;\quad \frac{ \partial F_{x} }{ \partial z } = \frac{ \partial F_{z} }{ \partial x } ;\quad \frac{ \partial F_{y} }{ \partial x } = \frac{ \partial F_{z} }{ \partial y } 
+$$
+Che corrisponde all'operatore "rotore" applicato ad $\vec{F}$:
+$$ \text{rot}(\vec{F}) = \vec{\nabla} \times \vec{F} = 0$$
+Che equivale ad affermare che il campo è irrotazionale
+```
+
+
+```anki
+deck: Fisica
+---
+Equilibio di un corpo in un campo conservativo
+===
+Sappiamo che necessariamente affinchè un corpo sia in equilibrio la sua velocità deve essere nulla insieme alla risultante delle forze.
+Considerando un punto materiale in un campo di forze conservative, sia $E_P(x)$ l'andamento dell'energia potenziale rispetto all'asse $x$.
+Allora il punto si troverà in equilibrio se e solo se 
+$$ \frac{dE_p}{dx}_{x = x_0} = 0 $$
+Più precisamente si tratterà di
+- equilibrio instabile: se il punto della funzione sarà di massimo ("il corpo è in un picco")
+- equilibrio stabile: se il punto della funzione sarà di minimo ("il corpo è in una valle")
+- equilibrio indifferente se la derivata è nulla in un intorno di $x_0$ ("il corpo è in piano")
 ```
