@@ -79,5 +79,15 @@ In un sistema di riferimento inerziale, il lavoro compiuto dalla risultante di t
 >Moltiplicando scalarmente tale equazione per uno spostamento infinitesimo $d\vec{r}$ abbiamo
 >$$ \vec{F} \cdot d\vec{r} = m\vec{a} \cdot d\vec{r} = m \frac{d\vec{v}}{dt} \cdot d\vec{r} = md\vec{v} \cdot \frac{d\vec{r}}{dt} = md\vec{v} \cdot \vec{v} = \frac{1}{2}md(\vec{v} \cdot \vec{v}) = d \left( \frac{1}{2} mv^2\right) $$
 >Consideriamo quindi due punti arbitrari $A$ e $B$ della traiettoria del punto materiale, allora, in base alla definizione di lavoro lungo un cammino finito, possiamo scrivere
->$$ \mathcal{L}_{A \to B,\gamma} = \int_ $$
+>$$ \mathcal{L}_{A \to B,\gamma} = \int_{A, \gamma}^B \vec{F} \cdot d\vec{r} = \int_{A,\gamma}^B d(\frac{1}{2} mv^2) = \frac{1}{2m}v_B^2 - \frac{1}{2m}v_A^2 $$
+>Quindi avremo che il lavoro compiuto da $\vec{F}$ nello spostamento del punto materiale da $A$ a $B$ è pari alla variazione di energia cinetica del punto materiale tra queste due posizioni
+>$$ \mathcal{L}_{A \to B, \gamma} = E_C(B) - E_C(A) = \Delta E_C (A,B) $$
+```
+
+
+```anki
+deck: Fisica
+---
+Il lavoro dipende in generale dalla ~~traiettoria~~ e non solo dagli estremi $A$ e $B$, anche la variazione di ~~energia cinetica~~ subita dal punto materiale dipende in generale dalla ~~traiettoria~~ di esso seguita per giungere da $A$ a $B$.
+
 ```
