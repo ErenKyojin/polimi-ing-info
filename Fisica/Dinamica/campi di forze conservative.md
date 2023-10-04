@@ -75,8 +75,26 @@ Un punto di equilibrio si dice stabile, instabile o indifferente a seconda che, 
 ```anki
 deck: Fisica
 ---
-Un campo
+Campi di forze conservative
 ===
-<% tp.file.cursor(2) %>
+Un campo di forze che ammette energia potenziale si dice campo conservativo e si dice che la corrispondente forza è una forza conservativa
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: Fisica
+---
+Condizione necessaria ma non sufficiente perchè un campo di forze sia conservativo
+===
+La condizione è che l'espressione della forza dipenda solo dalla posizione del materiale
+$$ \vec{F} = \vec{F}(\vec{r}) $$
+```
+
+
+```anki
+deck: Fisica
+---
+Condizione sufficiente ma non necessaria perchè un campo di forze sia **non** conservativo
+===
+La condizione è che la forza dipenda anche dalla velocità del punto materiale a cui è applicata
+```
