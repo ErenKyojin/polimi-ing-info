@@ -129,3 +129,25 @@ Sia la larghezza dell'intervallo che la PDF si scelgono sulla base di
 Quando si disponde di una PDF per la grandezza $x$ è possibile calcolare $\mu(x)$ e $\sigma(x)$ che danno rispettivamente il valore di misura e la sua incertezza
 $$ x = x_{\text{MIS}} = \mu(x) $$
 $$ u_{B}(x) = \text{INC}_{B}(x) = \sigma(x) $$
+
+##### PDF Normale
+$1 \sigma$ level = P $\mu - \sigma \leq x \leq \mu + \sigma \approx 68.3\%$
+$2\sigma$ level = P $\mu- 2\sigma \leq x \leq \mu + 2 \sigma \approx 95.5 \%$
+$3\sigma$ level = P $\mu - 3\sigma \leq x \leq \mu + 3 \sigma \approx 99.7\%$
+
+##### PDF uniforme
+$$ p(x) = \begin{cases}
+0&x < a_{0} - a \\
+\frac{1}{2}a & a_{0} - a \leq x \leq a_{0} + a \\
+0  & x > a_{0} + a 
+\end{cases} $$
+Si verifica che
+$$\mu(x) = E[x] = \int _{-\infty}^{+\infty} \! x p(x)  \, \mathrm{d}x  = a_{0}$$
+$$ \sigma(x) = \frac{\Delta x}{\sqrt{ 12 }} $$
+
+##### PDF triangolare
+$$ \mu(x) = a_{0} $$
+$$ \sigma^2(x) = \frac{a^2}{6} = \frac{(\Delta x)^2}{24}$$
+$$ \sigma(x)  = \frac{\Delta x}{\sqrt{ 24 }}$$
+
+si ha naturalmente che la PDF triangolare è meno dispersa della PDF unfirome
