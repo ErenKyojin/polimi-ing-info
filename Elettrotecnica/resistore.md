@@ -13,3 +13,15 @@ ma $\overline{v} = R\overline{i}$ quindi $$\varphi_{\overline{v}} = \varphi_{\ov
 Il resistore $\bar v = Z(j\omega)\bar\imath = R\bar\imath$, quindi $\varphi_Z=0$, e quindi
 $$P = \frac{|\bar v||\bar\imath|}{2}\cos0 = \frac{R|\bar\imath|^2}{2} = \frac{|\bar v|^2}{2R}$$
 e $Q=0$. Allora il resistore non assorbe energia per poi scambiarla con gli altri componenti, ma utilizza tutta quella che assorbe.
+
+# ANKI
+
+```anki
+deck: Elettrotecnica
+---
+# Resistore
+===
+Il resistore è un bipolo la cui equazione costituitva è, in regime stazionario:
+$$ v = Ri $$
+dove il coefficiente $R$ è un numero positivo espresso in Ohm, $[R] = \Omega$
+```
