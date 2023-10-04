@@ -21,3 +21,13 @@ In base alla scelta fatta per il riferimento, l'energia optenziale gravitazional
 
 Questo concetto è utile per il [[Moto dei pianeti]]
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+Energia potenziale
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>

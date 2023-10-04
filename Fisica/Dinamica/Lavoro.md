@@ -123,3 +123,15 @@ Quindi il lavoro compiuto da una forza costante è indipendente dalla traiettori
 >\end{align} $$
 
 Possiamo quindi definire l'[[energia potenziale]] della forza peso
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Lavoro
+===
+Si dice che una forza compie un lavoro quando il punto materiale al quale è applicata si sposta. Si definice lavoro elementare $d\mathcal{L}$ di una forza $\vec{F}$ durante lo spostamento $d\vec{r}$ il prodotto scalare
+$$ d\mathcal{L} = \vec{F} \cdot d\vec{r} \cos \theta$$
+con $\theta$ angolo tra $\vec{F}$ e $d\vec{r}$
+```
