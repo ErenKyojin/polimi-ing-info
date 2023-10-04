@@ -163,4 +163,5 @@ Lavoro di una forza costante
 ===
 Considerata una forza costante $\vec{F}$ che lavora su un punto materiale di massa $m$, il lavoro compiuto da $\vec{F}$ quando il punto si sposta da $A$ a $B$ vale
 $$  \mathcal{L}_{A \to B,\gamma} = \int_{A,\gamma}^B \! \vec{F} \cdot d\vec{r} = \vec{F} \cdot \int_{A,\gamma}^B D\vec{r} = \vec{F} (\vec{r}_B - \vec{r}_A) = \vec{F} \cdot \Delta\vec{r}(A,B), \forall \gamma$$
+Quindi il lavoro compiuto da una forza costante è indipendente dalla traiettoria ma solo dagli estremi $A$ $B$ e precisamente dal vettore spostamento $\Delta \vec{r} = \overrightarrow{AB}$
 ```

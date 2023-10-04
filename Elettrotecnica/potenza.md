@@ -233,7 +233,7 @@ Non dobbiamo quindi aspettarci che la potenza reattiva $Q_p$ per fase sia nulla.
 ```anki
 deck: elettrotecnica
 ---
-# Potenza
+# Potenza elettrica
 ===
 La potenza è quanta energia perde (o assorbe dipendentemente dal segno) la carica in ogni istante di tempo attraversando il bipolo
 Assunta la convenzione degli utilizzatori:
@@ -242,3 +242,22 @@ Assunta la convenzione degli utilizzatori:
 - potenza assorbita da un $n$-terminali $\sum_{k=1}^n v_k(t) i_k(t)$
 ```
 
+
+```anki
+deck: Fisica
+---
+Potenza di una forza
+===
+La potenza istantanea $W$ di una forza $\vec{F}$ è la derivata temporale del lavoro compiuto dalla forza stessa
+$$ W = \frac{d\mathcal{L}}{dt} = \vec{F} \cdot \frac{d\vec{r}}{dt} = \vec{F} \cdot \vec{v} $$
+```
+
+
+```anki
+deck: Fisica
+---
+Potenza media di una forza
+===
+Se in un intervallo di tempo $\Delta t$ viene compiuto un lavoro $\mathcal{L}$ la potenza media vale per definizione
+$$ W_m = \frac{\mathcal{L}}{\Delta t} $$
+```
