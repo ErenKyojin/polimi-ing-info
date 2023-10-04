@@ -79,3 +79,35 @@ Intervallo -> PDF -> $\mu, \sigma$
 1. Definisco un intervallo di categoria B
 2. Associo una densità di probabilità PDF
 3. Di questa si calcolano media, varianza e deviazione standard
+
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw(0,0) -- ++ (3,0);
+\draw[dashed] (.5,0) -- ++ (0,2);
+\draw[dashed] (2.5,0) -- ++ (0,2);
+\draw[ultra thick] (0,.1) -- ++ (.6,0) -- ++ (0,2) -- ++ (1.8,0) -- ++ (0,-2) -- ++ (.6,0);
+
+\draw(5,0) -- ++ (3,0);
+\draw[dashed] (5.5,0) -- ++ (0,2);
+\draw[dashed] (7.5,0) -- ++ (0,2);
+\draw[ultra thick] (5,.1) -- ++ (.5,0) -- ++ (1,2) -- ++ (1,-2) -- ++ (.5,0);
+
+
+\draw(5,0) -- ++ (3,0);
+\draw[dashed] (5.5,0) -- ++ (0,2);
+\draw[dashed] (7.5,0) -- ++ (0,2);
+\draw[ultra thick] (5,.1) -- ++ (.5,0) -- ++ (1,2) -- ++ (1,-2) -- ++ (.5,0);
+
+
+\draw(0,-3) -- ++ (3,0);
+\draw[dashed] (0.5,-3) -- ++ (0,2);
+\draw[dashed] (2.5,-3) -- ++ (0,2);
+\draw[ultra thick] (0,-2.9) -- ++ (.5,0);
+\draw[ultra thick] (2.5,-2.9) -- ++ (.5,0);
+\draw[ultra thick, smooth] (0.5,-2.9) -- ++ (.1,1.2) -- ++ (.9,.3)
+
+\end{tikzpicture}
+\end{document}
+```
