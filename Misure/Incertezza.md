@@ -169,8 +169,24 @@ $$\bar{y} = f(\bar{x}_{1},\bar{x}_{2}, \dots,\bar{x}_{n})  $$
 Possiamo sviluppare in serie di taylor la relazione funzionale $f$
 $$ (y-\bar{y}) \approx \frac{ \partial f }{ \partial x_{1} }_{\bar{y}} (x_{1} -\bar{x}_{1}) + \dots + \frac{ \partial f }{ \partial x_{n} } (x_{N}- \bar{x}_{N}) $$
 
-Possiamo definire dei [[coefficienti di sensibilità]]
+Possiamo definire dei [[coefficienti di sensibilità]], e successivamente
+- Varianza o incertezza:
 
 $$ \begin{align}
-E\{ (y - \bar{y})^2 \} = E \left\{  \left[  \sum_{i=1}^n \frac{ \partial f }{ \partial x_{i}}  (x_{i} - \bar{x}) \right]  \right\}
+E\{ (y - \bar{y})^2 \} &= E \left\{  \left[  \sum_{i=1}^n \frac{ \partial f }{ \partial x_{i}}  (x_{i} - \bar{x}) \right] \cdot \left[ \sum_{j=1}^N \frac{ \partial f }{ \partial x_{j} } (x-\bar{x}_{j}) \right] \right\} = \\
+&=E\left\{  \sum_{i=1}^N \left[  \left( \frac{ \partial f }{ \partial x_{i} }\right)  (x_{i}-\bar{x}_{i}) ^2 + 2 \sum_{i =1}^{N-1}\sum_{j=i+1}^N \frac{ \partial f }{ \partial x_{i} } \frac{ \partial f }{ \partial x_{j} } (x_{i}-\bar{x}_{i} )(x_{j}-\bar{x}_{j})\right]  \right\}
 \end{align} $$
+- Covarianza
+$$ E\{ (x_{i} - \bar{x}_{i})^2 \} := \sigma^2(x_{i}) = u^2(x_{i}) $$
+
+e incertezza composta
+$$ u_{C}^2 (y) = \sum_{i=1}^N \left( \frac{ \partial f }{ \partial x_{i} }  \right)^2 u^2(x_{i}) + 2 \sum_{i = 1}^{N-1} \sum_{j = i + 1}^N \left( \frac{ \partial f }{ \partial x_{i} }  \right) \left( \frac{ \partial f }{ \partial x_{j} }  \right) u(x_{i},x_{j}) $$
+
+
+quindi avremo che il valore di misura della grandezza $Y$ è
+$$ y = \bar{y} = f(\bar{x}_{1},\bar{x}_{2},\dots,\bar{x}_{N}) $$
+con un incertezza composta
+$$ u_{C}(y) = \sqrt{ \sum_{i = 1}^N  c_{i}^2 u^2(x_{i}) + 2 \sum_{i = 1}^N \sum_{j = i + 1}^N c_{i }c_{j} u(x_{i},x_{j})}$$
+
+In generale ciascuna incertezza $u(x_{i})$è:
+$$ u_{C}(x_{I}) = \sqrt{ \frac{s^2(x_{i})}{n} + u_{B}^2(x_{i}) } $$
