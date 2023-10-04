@@ -106,8 +106,26 @@ Intervallo -> PDF -> $\mu, \sigma$
 \draw[dashed] (2.5,-3) -- ++ (0,2);
 \draw[ultra thick] (0,-2.9) -- ++ (.5,0);
 \draw[ultra thick] (2.5,-2.9) -- ++ (.5,0);
-\draw[ultra thick, smooth] (0.5,-2.9) -- ++ (.1,1.2) -- ++ (.9,.3)
+\draw[ultra thick] plot [smooth] coordinates {(0.5,-2.9) (0.7,-1.4) (1.5,-1) (2.3, -1.4) (2.5,-2.9) };
+
+\draw(5,-3) -- ++ (3,0);
+\draw[dashed] (5.5,-3) -- ++ (0,2);
+\draw[dashed] (7.5,-3) -- ++ (0,2);
+\draw[ultra thick] plot [smooth] coordinates {(5,-3) (5.5,-2.75) (5.7,-2.5) (6.5,-1) (7.3,-2.75) (8,-3)};
 
 \end{tikzpicture}
 \end{document}
 ```
+
+Sia la larghezza dell'intervallo che la PDF si scelgono sulla base di
+- conoscenza precedenti o dati di misura
+- esperienza sul comportamento del misurando
+- specifiche dei costruittori di materiali e strumenti coinvolti nella misura
+- dati di claibrazioni
+- informazioni da articoli scientifici
+- incertezza sui parametri di riferimento
+
+
+Quando si disponde di una PDF per la grandezza $x$ è possibile calcolare $\mu(x)$ e $\sigma(x)$ che danno rispettivamente il valore di misura e la sua incertezza
+$$ x = x_{\text{MIS}} = \mu(x) $$
+$$ u_{B}(x) = \text{INC}_{B}(x) = \sigma(x) $$
