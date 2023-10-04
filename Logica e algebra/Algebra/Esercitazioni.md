@@ -50,3 +50,16 @@ Quindi 'a' e 'b' non sono minimi, infatti 'b' non è $\leq$ di 'c', mentre 'a' n
 ### 1.16
 $R \subseteq \mathbb{N} \times \mathbb{N}$, $(n,m) \in R \iff n$ dispari e $\exists t \in \mathbb{N} \setminus \{ 0 \} \text{ pari } : n = m + t$
 $S \subseteq \mathbb{N} \times \mathbb{N} : (n,m) \in S$ se $(n,m) \in R$ oppure $n = m$
+
+- R
+	- non seriale per $(1,m)$ che non appartiene mai alla relazione $1 = n + t$ impossibile
+	- non riflessiva (irriflessiva in realtà)
+	- non simmetrica, $t$ deve essere sempre maggiore di zero quindi non si può "tornare in dietro" 
+	- è transitiva, infatti $(n,m), (m,k) \in R \implies n = m + a, m = k + b, \implies n = k + a + b \implies n = k + \underbrace{ (a + b) }_{ pari }$ 
+
+La domanda è se $S$ è la chiusura d'ordine di R.
+
+S
+- Seriale
+- Riflessiva
+- transitività (analogo)
