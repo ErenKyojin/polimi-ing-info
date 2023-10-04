@@ -88,3 +88,20 @@ Chiaramente non ineittiva
 $g$ inversa sinistra
 
 $g \circ f(x) = x$
+
+$\bar{g} \cdot f(n) = f(2n + 1) = \frac{2n + 1 - 1}{2}$
+
+$\ker(f)$ è una relazione sul dominio, quindi $\ker(f) \subseteq \mathbb{N}$
+
+$(n,m) \in  \ker(f)$ se $f(n) = f(m)$
+
+$\ker(f) = \{(2k, 2k+1), (2k+1,2k) | \forall k \in \mathbb{N}\}$
+
+È chiaramente una relazione d'equivalenza, facciamo quindi il quoziente:
+$$\frac{\mathbb{N}}{\ker(f)} = \{ \{ 0,1 \}, \{ 2,3 \}, \{ 4,5 \},\dots \} = \{ (2k, 2k+1) | \forall k \in \mathbb{N} \}$$
+
+### 1.25
+Quali relazioni sono funzioni e se sono funzioni sono iniettive e suriettive
+$R_{1} = \left\{  (x,y) \in \mathbb{R} \times \mathbb{Z} | y = \frac{2}{3}x + 1  \right\}$
+
+Non una funzione in quanto non è seriale, infatti per molti vlaori non vi è un valore corrispondente in $\mathbb{Z}$
