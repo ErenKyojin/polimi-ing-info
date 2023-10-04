@@ -160,3 +160,17 @@ Già si conosce il fattore id copertura $k$ e quindi si ricava $u_{B}(x) = U_{B}
 
 #### Incertezza composta
 Per comprendere l'incertezza composta è necessario definire le [[misure dirette]] e le [[misure indirette]]
+
+I valori della relazione (equazione della misura)
+$$ y = f(x_{1}, x_{2},\dots,x_{n}) $$
+in un intorno del valore di misura (punto di lavoro)
+$$\bar{y} = f(\bar{x}_{1},\bar{x}_{2}, \dots,\bar{x}_{n})  $$
+
+Possiamo sviluppare in serie di taylor la relazione funzionale $f$
+$$ (y-\bar{y}) \approx \frac{ \partial f }{ \partial x_{1} }_{\bar{y}} (x_{1} -\bar{x}_{1}) + \dots + \frac{ \partial f }{ \partial x_{n} } (x_{N}- \bar{x}_{N}) $$
+
+Possiamo definire dei [[coefficienti di sensibilità]]
+
+$$ \begin{align}
+E\{ (y - \bar{y})^2 \} = E \left\{  \left[  \sum_{i=1}^n \frac{ \partial f }{ \partial x_{i}}  (x_{i} - \bar{x}) \right]  \right\}
+\end{align} $$
