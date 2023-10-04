@@ -14,7 +14,20 @@ Alcuni vincolo sono monodimensionali:
 2. Una fune puó esercitare solo forze di tensione o trazione dirette parallelamente alla fune stessa. Una fune che sorregge un corpo fermo verticalmente esercita una tensione uguale e contraria alla forza peso
 3. un'asta puó esercitare sia forze di tensione che forze di compressione dirette parallelamente all'asta stessa. Un'asta che sorregge un corpo verticalmente esercita una compressione uguale e opposta alla forza peso
 
+# ANKI
 
+```anki
+deck: Fisica
+---
+Reazioni vincolari
+===
+La reazioni vincolari descrivono le limitazioni al moto dovute alla presenza di corpi circostanto, data una reazione vincolare:
+- il modulo è generalmente proporzionale a quello della forza attiva
+- la direzione dipende dal tipo di vincolo
+- il verso è sempre opposto rispetto al verso delle forze attive
 
+esempi di vincolo sono un piano d'appoggio, una fune o un asta
+
+```
 
 

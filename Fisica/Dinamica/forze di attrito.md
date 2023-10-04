@@ -100,4 +100,3 @@ $$ R_T = \mu_d \cdot R_N $$
 
 Il coefficiente di attrito dinamico è sempre minore o uguale al coefficiente di attrito statico per una superficie
 ```
-<% tp.file.cursor(3) %>
