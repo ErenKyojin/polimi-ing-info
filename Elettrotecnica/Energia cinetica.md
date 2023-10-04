@@ -50,3 +50,34 @@ questa euqazione esprime il seguente:
 
 Si definisce energia cinetica di un sistema di punti materiali in un dato SdR la somma delle energia cinetiche di tutti i punti rispetto allo stesso sistema di riferimento
 $$ E_{c} = \sum_{i = 1}^n \frac{1}{2}m_{i}v_{i}^2 $$
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Energia cinetica
+===
+Si definisce energia cinetica $E_C (P)$ un punto materiale di massa $m$ nella posizione $P$ l'indice di stato fisico:
+$$ E_C (P) = \frac{1}{2} mv_P^2 + k $$
+dove $v_P^2 = \vec{v}_P \cdot \vec{v}_P = |\vec{v}_P|^2$, essendo $\vec{v}_P$ la velocità istantanea del punto materiale nella posizione $P$ e $k$ una costante arbitraria con le dimensioni di un lavoro
+```
+
+
+```anki
+deck: Fisica
+---
+Teorema delle forze vive
+o
+Teorema dell'energia cinetica
+===
+In un sistema di riferimento inerziale, il lavoro compiuto dalla risultante di tutte le forze agenti su di un punto materiale quando esso si sposta dalla posizione $A$ alla posizione $B$ è pari alla variazione di energia cinetica del punto materiale tra le posizioni $A$ e $B$
+
+>[!dim]
+>assumiamo che $\vec{F}$ sia la risultante di tutte le forze applicate al punto materiale di massa $m$.
+>Sotto questa ipoetsi vale ovviamente il secondo principio della dinamica $\vec{F} = m\vec{a}$.
+>Moltiplicando scalarmente tale equazione per uno spostamento infinitesimo $d\vec{r}$ abbiamo
+>$$ \vec{F} \cdot d\vec{r} = m\vec{a} \cdot d\vec{r} = m \frac{d\vec{v}}{dt} \cdot d\vec{r} = md\vec{v} \cdot \frac{d\vec{r}}{dt} = md\vec{v} \cdot \vec{v} = \frac{1}{2}md(\vec{v} \cdot \vec{v}) = d \left( \frac{1}{2} mv^2\right) $$
+>Consideriamo quindi due punti arbitrari $A$ e $B$ della traiettoria del punto materiale, allora, in base alla definizione di lavoro lungo un cammino finito, possiamo scrivere
+>$$ \mathcal{L}_{A \to B,\gamma} = \int_ $$
+```
