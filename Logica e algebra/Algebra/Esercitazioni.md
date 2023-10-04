@@ -67,3 +67,24 @@ S
 
 [^1]: quindi è relazione d'ordine
 
+
+### 1.22
+
+$$f(n) = \begin{cases}
+\frac{n}{2} & n \text{ pari} \\
+\frac{n-1}{2}  & n \text{ dispari}
+\end{cases} $$
+
+```mermaid
+graph LR
+	01(0) --- 0
+	11(1) --- 0
+	21(2) --- 1
+	31(3) --- 1
+	41(4) --- 2
+	51(5) --- 2
+```
+Chiaramente non ineittiva
+$g$ inversa sinistra
+
+$g \circ f(x) = x$
