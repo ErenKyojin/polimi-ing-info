@@ -119,4 +119,15 @@ $t < t_{0}$ commutazione
 $V_{ir} = 0V$
 $i_{C }= C \frac{dV_{c}}{dt} = 0$ in quanto $V_C$ non cambia più  e allora la corrente sarà $0$.
 
-La corrente del PMOS invece è 0 e sarà quindi acceso in regione ohmica
+La corrente del PMOS invece è 0 e sarà quindi acceso in regione ohmica.
+
+
+#todo ...
+
+$$t_{p_{HL}} = \frac{C(V_{OH} - V_{M})}{K(V_{DD} - V_{TN})^2}$$
+
+$$ t_{p_{HL}} = \frac{C(V_{M} - V_{OL})}{|K|(V_{DD} - |V_{T,P}|)}$$
+
+Sono risultati approssimati.
+
+Il MOS rappresenta un generatore di corrente, non ideale in quanto funziona solo da $V_{OH}$ a $V_{OV}$, poi va in overdrive
