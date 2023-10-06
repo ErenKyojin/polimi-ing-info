@@ -113,5 +113,10 @@ L, analogico, H
 $0 \to 1, t_{0}$
 $1\to{0},t_{0} + \Delta t_{HL}$
 
-^due not
+%%due inverter%%
 
+$t < t_{0}$ commutazione
+$V_{ir} = 0V$
+$i_{C }= C \frac{dV_{c}}{dt} = 0$ in quanto $V_C$ non cambia più  e allora la corrente sarà $0$.
+
+La corrente del PMOS invece è 0 e sarà quindi acceso in regione ohmica
