@@ -41,18 +41,21 @@ $$\text{NMOS}\ V_{GS} = V_{IN}, V_{DS} = V_{out}  $$
 \addplot[domain=0:8,samples=2,red,dashed]{x + 2};
 \addplot[domain=0:8,samples=2,green,dashed]{x};
 \addplot[domain=0:8,samples=2,blue,dashed]{x-2};
+\draw[green, thick] (4,2) -- (4,6);
+\draw (4,6) arc (0:180:1);
+\draw (4,2) arc (180:0:1);
 \draw[dashed] (2,-.5) -- ++ (0,6);
 \draw[dashed] (6,-.5) -- ++ (0,6);
 \node at (1,7){1};
 \node at (3,6){3};
-\node at (4,3.5){5};
-\node at (4,1){4};
+\node at (4.25,3.5){5};
+\node at (5,1){4};
 \node at (7,.5){2};
 \end{axis}
 \end{tikzpicture}
 \end{document}
 ```
-
+grafico troppo allungato, #todo sistemarlo
 Questo è un C-MOS.
 
 Quando $V_{in} < V_{Tr}$
@@ -81,4 +84,16 @@ $$ V_{in} - V_{T,R} = \sqrt{ \frac{|K_{p}|}{K_{n}} }$$
 
 $$\frac{|K_{p}|}{K_{n}} = \frac{\mu_{p}}{\mu_{n}} \approx \frac{1}{2 - 3}$$
 
-		$$ V_{in}\left( 1 + \sqrt{ \frac{|k_{p}|}{k_{r}} } \right) = V_{tr} + \sqrt{ \frac{|k_{p}|}{k_{r}}} $$
+$$ V_{in}\left( 1 + \sqrt{ \frac{|k_{p}|}{k_{r}} } \right) = \frac{V_{tr} + \sqrt{ \frac{|k_{p}|}{k_{r}}}|V_{tp}| + \sqrt{ \frac{|k_{p}|}{k_{r}} }V_{DD}}{1 + \sqrt{ \frac{|k_{p}|}{k_{r}} }} $$
+
+```tikz
+\usepackage{pgfplots}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[axis lines = left, axis x line*=middle]
+\addplot[green,domain=0:1]
+\addplot[green,]
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```
