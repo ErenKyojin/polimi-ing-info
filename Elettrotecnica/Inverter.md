@@ -31,8 +31,12 @@ $$\text{NMOS}\ V_{GS} = V_{IN}, V_{DS} = V_{out}  $$
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[axis lines = left]
-\addplot[domain=0:2,samples=100]{6};
-\addplot[domain=2:4,samples=100]{exp(x)}
+\addplot[domain=0:2,samples=100,blue]{6};
+\addplot[domain=2:8,samples=100,blue]{1/(x-1.833)};
+\addplot[domain=0:2,samples=50,red]{-(x^2)/8 + 5.5};
+\addplot[domain=2:8,samples=25,red]{1/(x-1.82) -0.5};
+\draw[dashed] (2,0) -- ++ (0,6);
+\draw[dashed] (4,0) -- ++ (0,6);
 \end{axis}
 \end{tikzpicture}
 \end{document}
@@ -45,3 +49,11 @@ Quando $V_{in} < V_{Tr}$
 - p-mos o omico o saturo
 
 	Sicuramente la corrente non è zero, quindi non siamo sicuramente nella regione di saturazione => cmos = fissa a $V_{DD}$
+
+Abbiamo quindi che
+$$ \begin{cases}
+V_{OH} = V_{DD} \\
+V_{OL} = 0 V
+\end{cases} $$
+
+tra i 2 ed i 3 volt zona di indeterminazione
