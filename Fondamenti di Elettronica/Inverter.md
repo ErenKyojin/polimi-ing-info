@@ -104,4 +104,14 @@ per quanto riguarda la corrente
 con corrente massima
 $$ k(V_{in - V_{T,n}})^2 = |k_{p}| (V_{SCR}) - W_{T,p} $$
 
-$[0:V_{IL}], ?:$
+$[0:V_{IL}], ?,[V_{in}V_{DO}]$
+L, analogico, H
+
+
+## Quanto ci mette?
+
+$0 \to 1, t_{0}$
+$1\to{0},t_{0} + \Delta t_{HL}$
+
+^due not
+
