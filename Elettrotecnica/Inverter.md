@@ -86,14 +86,22 @@ $$\frac{|K_{p}|}{K_{n}} = \frac{\mu_{p}}{\mu_{n}} \approx \frac{1}{2 - 3}$$
 
 $$ V_{in}\left( 1 + \sqrt{ \frac{|k_{p}|}{k_{r}} } \right) = \frac{V_{tr} + \sqrt{ \frac{|k_{p}|}{k_{r}}}|V_{tp}| + \sqrt{ \frac{|k_{p}|}{k_{r}} }V_{DD}}{1 + \sqrt{ \frac{|k_{p}|}{k_{r}} }} $$
 
+per quanto riguarda la corrente
+
 ```tikz
 \usepackage{pgfplots}
 \begin{document}
 \begin{tikzpicture}
 \begin{axis}[axis lines = left, axis x line*=middle]
-\addplot[green,domain=0:1]
-\addplot[green,]
+\addplot[green,domain=0:2,samples=10] {0};
+\addplot[green,domain=2:2.5,samples=10] {3*x-6};
+\addplot[green,domain=2.5:3,samples=10] {-3*x+9};
 \end{axis}
 \end{tikzpicture}
 \end{document}
 ```
+
+con corrente massima
+$$ k(V_{in - V_{T,n}})^2 = |k_{p}| (V_{SCR}) - W_{T,p} $$
+
+$[0:V_{IL}], ?:$
