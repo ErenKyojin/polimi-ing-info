@@ -31,16 +31,23 @@ $$\text{NMOS}\ V_{GS} = V_{IN}, V_{DS} = V_{out}  $$
 \pgfplotsset{compat=1.16}
 \begin{document}
 \begin{tikzpicture}
-\begin{axis}[axis lines = left]
+\begin{axis}[axis lines = left, axis x line*=middle]
 \addplot[domain=0:2,samples=100,blue]{6};
 \addplot[domain=2:8,samples=100,blue]{1/(x-1.833)};
 \addplot[domain=0:2,samples=50,red]{-(x^2)/8 + 5.5};
 \addplot[domain=2:8,samples=25,red]{.3/(x-1.94)};
 \addplot[domain=0:2,samples=2,green,thick]{6};
 \addplot[domain=6:8,samples=2,green,thick]{0};
-\addplot[domani=0:6,samples=20,red,dashed]{x + 2};
+\addplot[domain=0:8,samples=2,red,dashed]{x + 2};
+\addplot[domain=0:8,samples=2,green,dashed]{x};
+\addplot[domain=0:8,samples=2,blue,dashed]{x-2};
 \draw[dashed] (2,-.5) -- ++ (0,6);
 \draw[dashed] (6,-.5) -- ++ (0,6);
+\node at (1,7){1};
+\node at (3,6){3};
+\node at (4,3.5){5};
+\node at (4,1){4};
+\node at (7,.5){2};
 \end{axis}
 \end{tikzpicture}
 \end{document}
@@ -62,11 +69,16 @@ V_{OL} = 0 V
 
 tra i 2 ed i 3 volt zona di indeterminazione
 
-|     | N MOS | P MOS |
-| --- | ----- | ----- |
-| 1   | off   | ohm   |
-| 2   | ohm   | off   |
-| 3   | sat   | ohm   |
-| 4   | ohm   | sat   |
-| 5   | sat   | sat   |
+|     | N MOS | P MOS |          |
+| --- | ----- | ----- | -------- |
+| 1   | off   | ohm   | $0$        |
+| 2   | ohm   | off   | $0$        |
+| 3   | sat   | ohm   | $\neq 0$ |
+| 4   | ohm   | sat   | $\neq 0$ |
+| 5   | sat   | sat   | $\neq 0$  (MAX)       |
 
+$$ V_{in} - V_{T,R} = \sqrt{ \frac{|K_{p}|}{K_{n}} }$$
+
+$$\frac{|K_{p}|}{K_{n}} = \frac{\mu_{p}}{\mu_{n}} \approx \frac{1}{2 - 3}$$
+
+		$$ V_{in}\left( 1 + \sqrt{ \frac{|k_{p}|}{k_{r}} } \right) = V_{tr} + \sqrt{ \frac{|k_{p}|}{k_{r}}} $$
