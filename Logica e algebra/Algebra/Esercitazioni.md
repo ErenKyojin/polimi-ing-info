@@ -105,3 +105,9 @@ Quali relazioni sono funzioni e se sono funzioni sono iniettive e suriettive
 $R_{1} = \left\{  (x,y) \in \mathbb{R} \times \mathbb{Z} | y = \frac{2}{3}x + 1  \right\}$
 
 Non una funzione in quanto non è seriale, infatti per molti vlaori non vi è un valore corrispondente in $\mathbb{Z}$
+
+$R_{2} = \{ (x,y) \in \mathbb{N} \times \mathbb{Z} : |y| = 2x \}$
+$x = \frac{|y|}{2}$
+- seriale
+
+Non è una funzione però, ad esempio per $x = 5$ ha corrispondenti $10$ e $-10$
