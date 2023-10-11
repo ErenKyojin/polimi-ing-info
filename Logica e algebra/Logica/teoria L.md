@@ -39,11 +39,13 @@ A3. $(\sim \mathcal{A} \implies \sim \mathcal{B}) \implies ((\sim A \implies \ma
 >[!esempio]
 >$\vdash_{L} \mathcal{A} \implies \mathcal{A}$
 >Per dimostrarlo dobbiamot rovare una dimostrazione in $L$ che finisca con la formula $\mathcal{A} \implies \mathcal{A}$ e tale che le formule della sequenza o siano assiomi o siano ricavate da formule precedenti per Modus Ponens.
->1. $\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A})$ è lo schema di assiomi A1 dove $\mathcal{B}$ è sostituito con $\mathcal{A}$
->2. $\mathcal{A} \implies ((\mathcal{A} \implies \mathcal{A}) \implies \mathcal{A})$ è lo schema di assiomi A1 dove $\mathcal{B}$ è stato sotituito con $\mathcal{A} \implies \mathcal{A}$
->3. $(\mathcal{A} \implies (( \mathcal{A} \implies \mathcal{A}) \implies \mathcal{A})) \implies ((\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A}))\implies (\mathcal{A} \implies \mathcal{A}))$ è lo schema di assiomi A2 dove $\mathcal{B}$ è stato sotituito con $\mathcal{A} \implies \mathcal{A}$ e $\mathcal{C}$ con $\mathcal{A}$
->4. $(\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A})) \implies (\mathcal{A} \implies \mathcal{A})$ applicando Modus Ponens tra le formule 2 e 3
->5. $\mathcal{A} \implies \mathcal{A}$ applicando Modus Ponens tra le formule 1 e la 4
+>1. $\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A})$ A1; è lo schema di assiomi A1 dove $\mathcal{B}$ è sostituito con $\mathcal{A}$
+>2. $\mathcal{A} \implies ((\mathcal{A} \implies \mathcal{A}) \implies \mathcal{A})$ A1; è lo schema di assiomi A1 dove $\mathcal{B}$ è stato sotituito con $\mathcal{A} \implies \mathcal{A}$
+>3. $(\mathcal{A} \implies (( \mathcal{A} \implies \mathcal{A}) \implies \mathcal{A})) \implies ((\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A}))\implies (\mathcal{A} \implies \mathcal{A}))$ A2; è lo schema di assiomi A2 dove $\mathcal{B}$ è stato sotituito con $\mathcal{A} \implies \mathcal{A}$ e $\mathcal{C}$ con $\mathcal{A}$
+>4. $(\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A})) \implies (\mathcal{A} \implies \mathcal{A})$ 2,3MP; applicando Modus Ponens tra le formule 2 e 3
+>5. $\mathcal{A} \implies \mathcal{A}$ 1,4MP; applicando Modus Ponens tra le formule 1 e la 4
+>
+>
 
 
 
