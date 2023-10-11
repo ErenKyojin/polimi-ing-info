@@ -33,7 +33,7 @@ deck: Fisica
 ---
 Teorema di conservazione dell'energia meccanica
 ===
-In oresenza di sole forza conservative l'energia mecanica totale del sistema si conserva
+In presenza di sole forza conservative l'energia mecanica totale del sistema si conserva
 
 >[!dim]
 >il lavoro di tutte le forze agenti su un punto materiale per uno spostamento da $A$ a $B$ è pari alla variazione dell'erngia cinetica, per il teorema delle forze vive abbiamo
