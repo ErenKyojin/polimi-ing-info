@@ -129,3 +129,29 @@ MP modus ponens, quindi
 se $a$ (è nelle righe precedenti) e $a \implies b$
 $b$ (riscrivo $b$ in una nuova riga singola)
 ```
+
+
+```anki
+deck: LeA
+---
+teorema di correttezza
+===
+Se $\vdash_L a$ allora $\vDash a$
+
+>[!dim]
+>ip: $\vdash_L a$
+>teo: $\vDash a$
+>Per ipotesi quindi esiste in L una dimostrazione di $a$, ossia avrò una sequenza finita di righe di cui $a$ è la formula finale.
+>Si dimostra con induzione sul numero di righe
+>Se $n=1$ allora $a$ è un assioma ma gli assiomi sono tautologia da cui $\vDash a$.
+>Ipotesi di induzione: ogni formula ottenuta con $m < n$ passi è una tautologia
+```
+
+```anki
+deck: LeA
+---
+teorema di completezza
+===
+Se $\vDash a$ allora $\vdash_L a$
+```
+

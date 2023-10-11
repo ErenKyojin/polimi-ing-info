@@ -9,3 +9,11 @@ modification date: 2023-05-07 13:04
 
 Questo teorema può essere facilmente ricavato dalla versione debole dei teoremi di completezza e correttezza, utilizzando il [[teorema di deduzione semantica]] e il [[teorema di deduzione sintattica]].
 
+# ANKI
+```anki
+deck: LeA
+---
+Teorema di correttezza e completezza di L versione forte
+===
+$\Gamma \vdash_L a$ se e solo se $\Gamma \vDash a$
+```
