@@ -51,7 +51,7 @@ Le righe della tavola di verità sono tutte le possibile interpretazioni della f
 
 
 Ad ogni tavola di verità corrisponde sempre una f.b.f. che la ammette come tavola di verità? La risposta è sí, ed il metodo per costrui la formula è il seguente:
-Ad ogni riga della tavolesi associa un termine costruito facendo l'and di ogni lettera enunciativa o della sua negazione, a seconda che le lettere assumano il valore 1 o 0, poichè i termini così costruiti hanno la caratteristica di valere $1$ solo in corrispondenza dell'assegnamento di valori di verità fassiato da quella riga, facendo l'or dei termini che corrispondono alle righe in cui la formula assume il valore $1$, si costruisce una f.b.f. che ha esattamente la tavola di verità assegnata. La formula così costruita ha una forma speciale detta forma normale disgiuntiva.
+Ad ogni riga della tavola si associa un termine costruito facendo l'and di ogni lettera enunciativa o della sua negazione, a seconda che le lettere assumano il valore 1 o 0, poichè i termini così costruiti hanno la caratteristica di valere $1$ solo in corrispondenza dell'assegnamento di valori di verità fassiato da quella riga, facendo l'or dei termini che corrispondono alle righe in cui la formula assume il valore $1$, si costruisce una f.b.f. che ha esattamente la tavola di verità assegnata. La formula così costruita ha una forma speciale detta forma **normale disgiuntiva**.
 
 > [!esempio]
 > Data la tavola
@@ -103,3 +103,23 @@ Possiamo quindi definire gli [[insiemi adeguati]]
 >- Se $\mathcal{A}$ è una f.b.f. anche $(\sim \mathcal{A}), (\forall x \mathcal{A}),(\exists x \mathcal{A})$ sono f.b.f.
 >- Se $\mathcal{A}$ e $\mathcal{B}$ sono f.b.f. anche $(\mathcal{A} \land \mathcal{B}),(\mathcal{A} \lor \mathcal{B}), (\mathcal{A} \implies \mathcal{B}), (\mathcal{A} \iff \mathcal{B})$ sono f.b.f.
 >- Nient'altro è una f.b.f.
+
+
+# ANKI
+
+```anki
+deck: LeA
+---
+Forma normale disgiuntiva
+===
+Una formula ben formata è in forma normale disgiuntiva se ha solo or di and
+```
+
+
+```anki
+deck: LeA
+---
+Forma normale congiuntiva
+===
+Una formula ben formata è in forma normale disgiuntiva se ha solo orma normale congiuntiva
+```
