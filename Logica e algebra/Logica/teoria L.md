@@ -44,8 +44,17 @@ A3. $(\sim \mathcal{A} \implies \sim \mathcal{B}) \implies ((\sim A \implies \ma
 >3. $(\mathcal{A} \implies (( \mathcal{A} \implies \mathcal{A}) \implies \mathcal{A})) \implies ((\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A}))\implies (\mathcal{A} \implies \mathcal{A}))$ A2; è lo schema di assiomi A2 dove $\mathcal{B}$ è stato sotituito con $\mathcal{A} \implies \mathcal{A}$ e $\mathcal{C}$ con $\mathcal{A}$
 >4. $(\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A})) \implies (\mathcal{A} \implies \mathcal{A})$ 2,3MP; applicando Modus Ponens tra le formule 2 e 3
 >5. $\mathcal{A} \implies \mathcal{A}$ 1,4MP; applicando Modus Ponens tra le formule 1 e la 4
->
->
+> (la parte tra la formula e la descrizione del processo si chiama giustificazione)
+
+>[!esempio]
+>$\{ a, (\sim b \implies \sim a) \} \vdash_{L} B$
+>1. $a$ ip
+>2. $(\sim b \implies \sim a)$ ip
+>3. $(\sim b \implies \sim a) \implies ((\sim b \implies a) \implies b)$ A3
+>4. $(\sim b \implies a) \implies b$ 2,3MP
+>5. $a \implies (\sim b \implies a)$ A1
+>6. $(\sim b \implies a)$ MP1,5
+>7. $b$ 4,6MP
 
 
 
@@ -54,6 +63,12 @@ La teoria formale $L$ che abbiamo così presentato ha tre importanti caratterist
 - È **completa**, cioè tutte le tautologie sono teoremi di $L$
 - È **decidibile**, cioè esiste un algoritmo (la tavole di verità) che con un numero finito di passi (con noto il limite superiore) permette di decidere se una data formula è o non è un teorema della teoria
 Le prime due affermazioni vengono solitamente chiamate (meta)teoremi di corretteza e completezza, il prefisso meta indica che sono teoremi sulla teoria che sono enunciati e non sono dimostrati utilizzando il linguaggio della teoria stessa.
+
+>[!teorema] teorema di correttezza
+>Se $\vdash_{L}a$ allora $\vDash a$
+
+>[!teorema] teorema di completezza
+>Se $\vDash a$ allora $\vdash_{L} a$
 
 > [!dim]
 > Accenniamo solo alla dimostrazione del teorema di correttezza:
