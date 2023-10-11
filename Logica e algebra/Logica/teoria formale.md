@@ -93,5 +93,41 @@ Teoria formale
 ===
 Una teoria formale è definita quando si ha:
 - un insieme di simboli detto alfabeto
-- un insieme di s
+- un insieme di stringhe privilegiate di simboli, formule ben formate
+- un insieme di f.b.f. priviliegiato detto assiomi, eventualmente vuoto
+- delle regole di inferenza o di riscrittura che permetta di scriverne in modo algoritmico altre
+```
+
+
+```anki
+deck: LeA
+---
+Dimostrazione nella teoria formale H
+===
+È una sequenza finita di formule ben formate di $H$ che siano:
+O assiomi
+O formule ottenute dalle precedenti formule mediante regole di inferenza
+```
+
+
+```anki
+deck: LeA
+---
+Teorema
+===
+Un teorema è l'ultima riga di una dimostrazione in H
+$$ \vdash_H a $$
+```
+
+```anki
+deck: LeA
+---
+Formula
+===
+Una formula $a$ si deduce sintatticamente da un insieme di fbf $\Gamma$ sulla teoria $H$ ($\Gamma \vdash_H a$) se esiste una dimostrazione di $a$ da $\Gamma$ cioè esiste una sequenza finita di cui $a$ è l'ultima riga nella uqale sequenza le fbf sono:
+- o asisomi di H
+- o formule ben formate dedotte mediante regole di inferenza di $H$
+- o fbf di $\Gamma$ (dell'insieme ipotesi)
+
+
 ```
