@@ -23,8 +23,7 @@ Per studiare le forze conservative obbiamo introdurre il concetto di campi, in p
 ```anki
 deck: Fisica
 ---
-
+Forza conservativa
 ===
-<% tp.file.cursor(2) %>
+Una forza si dice conservtiva se il rispettivo campo ammette energia potenziale
 ```
-<% tp.file.cursor(3) %>

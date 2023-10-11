@@ -26,3 +26,21 @@ modification date: 2023-03-26 18:16
 
 Questo teorema è parte del piú generale [[teorema di conservazione dell'energia]]
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+Teorema di conservazione dell'energia meccanica
+===
+In oresenza di sole forza conservative l'energia mecanica totale del sistema si conserva
+
+>[!dim]
+>il lavoro di tuttel e forze agenti su un punto materiale per uno spostamento da $A$ a $B$ è pari alla variazione dell'erngia cinetica, per il teorema delle forze vive abbiamo
+>$$\begin{align}
+>\mathcal{L}_{A \to B} &= \int_A^B \left(\sum_i \vec{F}_i\right) \cdot \mathrm{d}\vec{r} = \sum_i \int_A^B \vec{F}_i \mathrm{d}\vec{r} = \\
+>&=\sum_i \mathcal{L}_{i,A\to B} = E_C(B) - E_C(A) = \Delta E_C
+>\end{align} $$
+```
+
+
