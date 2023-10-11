@@ -339,7 +339,22 @@ deck: GAL
 ---
 Soluzione di un sistema lineare
 ===
-La soluzione di un sistema lineare è una $n$-upla ordinata $(\bar{x}_1, \$
+La soluzione di un sistema lineare è una $n$-upla ordinata $(\bar{x}_1, \bar{x}_2,...,\bar{x}_n \in \mathbb{K}^n$ le cui componenti soddisfino tutte le equazioni lineari del sistema.
+
+Due sistemi lineari sono equivalenti se hanno lo stesso insieme di soluzioni
+```
+
+
+```anki
+deck: GAL
+---
+Teorema di Cramer
+===
+Se $A \in M_{(n,n)}(\mathbb{K})$, $r(A) = n$ allora $
+\forall \mathbf{b} \in \mathbb{K}^n$ il sistema lineare $A\mathbf{x} = \mathbf{b}$ ammette una e una sol soluzione
+
+>[!dim]
+>Riduciamo $A$ a scala tramite il metodo di eliminazione di Gauss, essendo il suo rango $n$ avremo una matrice a scala con $n$ pivot $p_1,...,p_n$
 ```
 <% tp.file.cursor(3) %>
 
