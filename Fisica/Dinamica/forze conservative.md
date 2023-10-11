@@ -18,3 +18,13 @@ Per studiare le forze conservative obbiamo introdurre il concetto di campi, in p
 ![[campi di forze conservative]]
 
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
