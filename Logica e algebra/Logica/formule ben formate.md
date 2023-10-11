@@ -99,8 +99,21 @@ Possiamo quindi definire gli [[insiemi adeguati]]
 >[!esempio]
 >$$\begin{align}
 >&(A \land B \land C) \lor (A \land \sim B \land C) \lor (\sim A \land \sim B \land \sim C) \\
->\text{raccolo} \ a  \land C & =
->\end{align}$$
+>\text{raccolgo} \ (A  \land C):\quad &((A \land C) \land (B \lor \sim B)) \lor (\sim A \land \sim B \land \sim C) \\
+>&(A \land C) \lor (\sim A \land \sim B \land \sim C)
+>\end{align}
+>$$
+>Se voglio scriverla con solo or e not:
+>$$ \sim(\sim A \lor \sim C) \lor \sim(A \lor B \lor C) $$
+>
+>Se voglio scriverla solo con and e not
+>$$ \sim(\sim(A \land C) \land \sim (\sim A \land \sim B \land \sim C)) $$
+>
+>Usando solo implica e not
+>$$ \sim(A \implies \sim C) \lor (\sim (\sim A \implies B) \implies C) $$
+>$$ (A \implies \sim C) \implies (\sim (\sim A \implies B) \implies C) $$
+
+
 
 # Nel [[linguaggio del primo ordine]]
 

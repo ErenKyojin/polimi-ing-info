@@ -84,3 +84,14 @@ Da ultimo vogliamo osservare che la teoria L è solo uno dei tanti sistemi forma
 
 La teoria L è un sistema che non si presta bene alla dimostrazione automatica, richiede fantasia nella scelta delle istanze di assiomi da usare, il sistema piú utilizzato è la [[polimi-ing-info/Logica e algebra/Logica/risoluzione]]
 
+# ANKI
+
+```anki
+deck: LeA
+---
+Teoria formale
+===
+Una teoria formale è definita quando si ha:
+- un insieme di simboli detto alfabeto
+- un insieme di s
+```
