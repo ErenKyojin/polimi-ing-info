@@ -200,3 +200,15 @@ Per quanto riguarda le operazioni di intersezione, unione, prodotto, passaggio a
 |   Transitiva   |   Transitiva   |     Sì     |     No     |     No      |    Sì    |
 
 Definite queste proprietà possiamo definire la [[P chiusura]]
+
+# ANKI
+
+```anki
+deck: LeA
+---
+Relazione binaria
+===
+È detta binaria una relazione con arità $2$, se $R$ è una relazione binaria si può indicare la relazione tra due elementi con la notazione $a_1 R a_2$.
+
+Se $R \subseteq A_1 \times A_2$ con $|A_1| < \infty$ e $|A_2| < \infty$, una relazione binaria si può rappresentare con un grafo di adiacenza o una matrice di adiacenza
+```
