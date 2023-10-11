@@ -37,7 +37,7 @@ A3. $(\sim \mathcal{A} \implies \sim \mathcal{B}) \implies ((\sim A \implies \ma
 [[Modus Ponens]]. Dalle due formule $\mathcal{A}$ e $\mathcal{A} \implies \mathcal{B}$ si riscrive $\mathcal{B}$
 
 >[!esempio]
->$|_{-L} \mathcal{A} \implies \mathcal{A}$
+>$\vdash_{L} \mathcal{A} \implies \mathcal{A}$
 >Per dimostrarlo dobbiamot rovare una dimostrazione in $L$ che finisca con la formula $\mathcal{A} \implies \mathcal{A}$ e tale che le formule della sequenza o siano assiomi o siano ricavate da formule precedenti per Modus Ponens.
 >1. $\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A})$ è lo schema di assiomi A1 dove $\mathcal{B}$ è sostituito con $\mathcal{A}$
 >2. $\mathcal{A} \implies ((\mathcal{A} \implies \mathcal{A}) \implies \mathcal{A})$ è lo schema di assiomi A1 dove $\mathcal{B}$ è stato sotituito con $\mathcal{A} \implies \mathcal{A}$
@@ -97,8 +97,18 @@ deck: LeA
 ---
 Assiomi di L
 ===
-- _A1_ $A \implies (B \implies A)$
-- _A2_ $A \implies (B \implies C)) \implies ((A \implies B) \implies (A \implies C))$ (assomiglia ad una distributiva)
-- _A3_ $\sim A \implies \sim B \implies ((\sim a \implies B) \$
+- _A1_ $a \implies (b \implies a)$
+- _A2_ $a \implies (b \implies c)) \implies ((a \implies b) \implies (b \implies c))$ (assomiglia ad una distributiva)
+- _A3_ $(\sim a \implies \sim b) \implies ((\sim a \implies b) \implies a)$
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: LeA
+---
+Regole di inferenza di L
+===
+MP modus ponens, quindi
+se $a$ (è nelle righe precedenti) e $a \implies b$
+$b$ (riscrivo $b$ in una nuova riga singola)
+```
