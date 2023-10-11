@@ -94,7 +94,13 @@ Inoltre le due ultime formula si possono sostituire rispettivamente con:
 - $\perp \equiv \sim A \land A$ e $\perp \lor B \equiv B$
 - $\top \equiv \sim A \lor A$ e $\top \land B \equiv B$
 
-Possiamo quindi definire gli [[insiemi adeguati]] 
+Possiamo quindi definire gli [[insiemi adeguati]]
+
+>[!esempio]
+>$$\begin{align}
+>&(A \land B \land C) \lor (A \land \sim B \land C) \lor (\sim A \land \sim B \land \sim C) \\
+>\text{raccolo} \ a  \land C & =
+>\end{align}$$
 
 # Nel [[linguaggio del primo ordine]]
 
@@ -121,5 +127,29 @@ deck: LeA
 ---
 Forma normale congiuntiva
 ===
-Una formula ben formata è in forma normale disgiuntiva se ha solo orma normale congiuntiva
+Una formula ben formata è in forma normale congiuntiva se ha solo and di or 
+```
+
+```anki
+deck: LeA
+---
+# Equivalenze semantiche
+===
+$\sim (\sim A) = A$
+$A \lor A = A$
+$A \land A = A$
+$A \lor B = B \lor A$
+$A \land B = B \land A$
+$(A \lor B) \lor C = A \lor (C \lor B)$
+$(A \land B) \land C = A \land (B \land C)$
+$A \lor (B \land C) = (A \lor B) \land (A \lor C)$
+$A \land (B \lor C) = (A \land B) \lor (A \land C)$
+$A \lor \sim A = \top$
+$A \land \sim A = \perp$
+$A \lor (A \land B) = A$
+$A \land (A \lor B) = A$
+$A \implies B = \sim (A \lor B)$
+$A \implies B = \sim (A \land \sim B)$
+$\sim(A \lor B) = \sim A \land \sim B$
+$\sim(A \land B) = \sim A \lor \sim B$
 ```
