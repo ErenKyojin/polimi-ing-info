@@ -316,6 +316,34 @@ Le due rette coincidono
  
 
 # ANKI
+
+
+```anki
+deck: GAL
+---
+Sistema lineare
+===
+Un sistema lineare di $m$ equazioni in $n$ incognite è un insieme di $m$ equazioni lineare in $x_1,...,x_n$:
+$$ \begin{cases}
+a_{11}x_1 + a_{12}x_2 + ... + a_{1n}x_n = b_1 \\
+a_{21}x_1 + a_{22}x_2 + ... + a_{2n}x_n = b_2 \\
+\vdots
+a_{m1}x_1 + a_{m2}x_2 + ... + a_{mn}x_n = b_m
+\end{cases}$$
+con $a_{ij}b \in \mathbb{K} \forall i = 1,...,m \land j = 1,...,n$ dove $i$ è l'indice dell'equazione e $j$ l'indice dell'incognita
+```
+
+
+```anki
+deck: GAL
+---
+Soluzione di un sistema lineare
+===
+La soluzione di un sistema lineare è una $n$-upla ordinata $(\bar{x}_1, \$
+```
+<% tp.file.cursor(3) %>
+
+
 ```anki
 id: 1694785481412
 deck: GAL
