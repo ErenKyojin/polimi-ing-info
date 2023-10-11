@@ -145,6 +145,18 @@ Se $\vdash_L a$ allora $\vDash a$
 >Si dimostra con induzione sul numero di righe
 >Se $n=1$ allora $a$ è un assioma ma gli assiomi sono tautologia da cui $\vDash a$.
 >Ipotesi di induzione: ogni formula ottenuta con $m < n$ passi è una tautologia
+>1...
+>...
+>i... $c$
+>j... $c => a$
+>k... $a$ o assioma o ottenuta per MP da i e j
+>Per ipotesi di induzione sia $c$ che $c \implies a$ sono tautologie quindi $a$ è tautologia
+>
+>
+>>[!oss]
+>>Se $c$ tautologia e $c \implies a$ è tautologia allora $a$ è tautologia
+>>per assurdo
+>> $v ; v(a) = 0 \implies v(c) = 0$
 ```
 
 ```anki
