@@ -39,3 +39,6 @@ In filtro anti-aliasing è un filtro passa basse impostato a metà della frequen
 
 >[!oss]
 >Una volta eseguito il campionamento non è possibile risolvere eventuale problemi.
+
+
+superare la frequenza di shannon è come reiniziare a considerare lo spettro da 0
