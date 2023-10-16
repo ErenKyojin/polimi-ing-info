@@ -53,11 +53,19 @@ Possiamo relaizzare solo funzioni che avranno $Y= 0$ (o $=1$) se e solo se almen
 >\node[nmos] (a) at (3,-1){};
 >\node[nmos] (b) at (0,-.5){};
 >\node[nmos] (c) at (0,-1.5){};
+>\node[pmos] (d) at (-4,0){};
+>\node[pmos] (e) at (-4.5,-2){};
+>\node[pmos] (f) at (-3.5,-2){};
 >\draw (0,0) -| (a.C);
 >\node[left] at (a.B){C};
 >\node[left] at (b.B){A};
 >\node[left] at (c.B){B};
->\d
+>\node[left] at (d.B){C};
+>\node[left] at (e.B){A};
+>\node[left] at (f.B){B};
+>\draw (d.C) |- (e.E);
+>\draw (d.C) |- (f.E);
+>\draw(e.C) -| (c.E);
 >\end{tikzpicture}
 >\end{document}
 >```
@@ -72,4 +80,4 @@ C = 1 \\
 AB = 1
 \end{cases} $$
 
-La pull'up va aggiunta ed è complementare (C serie (A // B))
+La pull'up va aggiunta ed è complementare (C serie (A // B)) a sinistra.
