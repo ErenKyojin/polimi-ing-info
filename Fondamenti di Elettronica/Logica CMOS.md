@@ -81,3 +81,36 @@ AB = 1
 \end{cases} $$
 
 La pull'up va aggiunta ed è complementare (C serie (A // B)) a sinistra.
+
+Sostituisco la pull up con una resistenza
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+\node[nmos] (a) at (-1,-1){};
+\node[nmos] (b) at (-1,-2){};
+\node[nmos] (c) at (1,-1.5){};
+\draw (0,3) to [R] (0,0) -| (a.C);
+\draw (0,0) -| (c.C);
+\node[left] at (a){A};
+\node[left] at (b){B};
+\node[left] at (c){C};
+\end{tikzpicture}
+\end{document}
+```
+
+
+
+$\bar{Y} = AB \cdot C$
+
+### ABC = 001
+$$K_{eq}=K_{C}$$
+
+### ABC = 110
+$$K_{eq}=\frac{K_{A}K_{B}}{K_{A} + K_{B}}$$
+
+### ABC = 111
+$$K_{eq} = K_{C} + \frac{K_{A}K_{B}}{K_{A} + K_{B}}$$
+
+Analogo il discorso sostituendo la pull down network
