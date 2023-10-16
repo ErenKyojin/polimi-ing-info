@@ -105,12 +105,31 @@ Sostituisco la pull up con una resistenza
 $\bar{Y} = AB \cdot C$
 
 ### ABC = 001
-$$K_{eq}=K_{C}$$
+$$K_{eq,p}=K_{C}$$
 
 ### ABC = 110
-$$K_{eq}=\frac{K_{A}K_{B}}{K_{A} + K_{B}}$$
+$$K_{eq,p}=\frac{K_{A}K_{B}}{K_{A} + K_{B}}$$
 
 ### ABC = 111
-$$K_{eq} = K_{C} + \frac{K_{A}K_{B}}{K_{A} + K_{B}}$$
+$$K_{eq,p} = K_{C} + \frac{K_{A}K_{B}}{K_{A} + K_{B}}$$
 
 Analogo il discorso sostituendo la pull down network
+
+
+$$ K_{eq,n} = \begin{cases}
+\dfrac{K_{C}K_{B}}{K_{C}+ K_{B}} &ABC = 010\\ 
+\dfrac{K_{C}K_{A}}{K_{C} + K_{A}} &ABC = 100 \\
+\dfrac{K_{C}(K_{A} + K_{B})}{K_{C} + K_{A} + K_{B}} &ABC = 000
+\end{cases}
+$$
+
+
+|     | PUN | PND |
+| --- | --- | --- |
+| 000 | 1   | 0   |
+| 001 | 0   |     |
+| 010 | 1   |     |
+| 011 | 0   |     |
+| 100 | 1   |     |
+| 101 | 0   |     |
+| 110 | 0   |     | 
