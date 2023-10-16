@@ -9,5 +9,4 @@ modification date: 2023-07-07 09:14
 
 se $f_{\max} > F_{N}$ si avrà [[aliasing]] o equivocazione spaziale
 
-Raramente si lavora al limite di campionamento di Shannon in quanto si è comunque più proni ad errori, spesso conviene stare molto "larghi" coi campioni a meno di limiti hardware o software.
-
+Raramente si lavora al limite di campionamento di Shannon in quanto si è comunque più proni ad errori, spesso conviene stare molto "larghi" coi campioni a meno di limiti hardware o software (specialmente con interpolazione lineare)
