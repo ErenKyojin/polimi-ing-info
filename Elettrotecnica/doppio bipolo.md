@@ -115,7 +115,17 @@ i_{2}
 anche in questo caso si possono sfruttare le prove semplici
 
 ###### Matrice $\mathcal{T}$ di trasmissione diretta
-Quando dobbiamo ricavare $(v_{1},i_{1})$ date $v_{2}$
+Quando dobbiamo ricavare $(v_{1},i_{1})$ date $(v_{2},i_{2})$
+$$ \begin{bmatrix}
+v_{1} \\
+i_{1}
+\end{bmatrix} = \begin{bmatrix}
+T_{11} &T_{12} \\
+T_{21} & T_{22}
+\end{bmatrix} \begin{bmatrix}
+v_{2} \\
+-i_{2}
+\end{bmatrix}$$
 
 ## Doppio bipolo dinamici
 In [[regime sinusoidale]] diventa facile trattare i doppi bipoli lineari dinamici (ossia che contengono derivate rispetto al tempo nelle loro equazioni descrittive).
@@ -208,4 +218,17 @@ potenza assorbita da un doppio bipolo
 ===
 La potenza assorbita da un doppio bipolo è semplicemente
 $$ p_a = v_1 i_1 + v_2 i_2 $$
+```
+
+
+```anki
+deck: Elettrotecnica
+---
+Rappresentazione matriciale di un doppio bipolo
+===
+Le equazioni costitutive di un doppio bipolo formano un sistema, che da sua volta origine a delle matrici dette di rappresentazione del doppio bipolo:
+- Base tensione: Matrice $\mathcal{R}$ 
+- Base corrente: Matrice $\mathcal{G}$
+- Base mista $(i_1,v_2)$: Matrice $\mathcal{H}$
+- Base mista $(v_1,i_2)$: matrice $\mathcal{H}'$
 ```
