@@ -239,3 +239,29 @@ $$ R\cdot S \subseteq T \cdot S \quad e \quad V \cdot R \subseteq V \cdot T$$
 Da cui possiamo dedurre anche che se $R \subseteq T \subseteq A_1 \times A_2, S \subseteq U \subseteq A_2 \times A_3$ si ha $R \cdot S \subseteq T \cdot U$
 ```
 
+
+```anki
+deck: LeA
+---
+Relazioni binarie su un insieme A
+===
+Caso speciale delle relazioni binarie in cui gli insiemi $A_1$ e $A_2$ coincidono e che chiamiamo $A$.
+
+Tra le relazioni su $A$ ci sono la relazione vuota, indicata con $\varnothing$, la relazione identica su $A$, indicata con $I_A$ e la relazione $A \times A$, detta relazione universale su $A$ ed indicata con $\omega_A$
+```
+
+
+```anki
+deck: LeA
+---
+Potenza delle relazioni binarie su $A$
+===
+Possiamo definire le potenze add esponente positivo di $R$ ponendo
+$$ R^m = \underbrace{R \cdot R \cdot ... \cdot R}_{m \text{ volte}} $$.
+
+Possiamo porre per convenzione $R^0 = I_A$
+
+Sussistono le proprietà delle potenze per esponenti interi non negativi
+- $R^m \cdot R^n = R^{m + n} = R^n \cdot R^m$
+- $(R^m)^n = R^{m \cdot n}
+```
