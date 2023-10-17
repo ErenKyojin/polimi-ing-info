@@ -54,4 +54,13 @@ Leggi di Keplero
 1. Ogni pianeta descrive un'orbita ellittica ed il sole occupa uno dei due fuochi dell'ellissi
 2. Il vettore posizione di ogni pianeta rispetto al sole descrive aree uguali in tempi uguali
 3. il quadrato del tempo di rivoluzione di ciascun pianeta è proporzionale al cubo del semiasse maggiore della sua orbita $T^2 \propto a^3$
+
+>[!dim] Dimostrazione seconda legge 
+>Si può dimostrare che la veocità areolare $dA/dt$ è costante:
+>$$\vec{L} = mr^2\vec{\omega} = \vec{\text{cost}} \implies r^2 \frac{d\theta}{dt} = \text{cost}$$
+>ma
+>$$ dA = \frac{1}{2}r \cdot (rd\theta) = \frac{1}{2}r^2 d\theta $$
+>Possiamo pensare ad ogni areola $dA$ come un triangolo con altezza $r$ e come base l'arco di cerchio $rd\theta$.
+>Abbiamo quindi velocità areolare:
+>$$ \frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\theta}{dt} = \frac{1}{2} \frac{L}{m} = \text{co$$
 ```
