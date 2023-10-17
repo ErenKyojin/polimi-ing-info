@@ -129,6 +129,37 @@ Possiamo quindi definire gli [[insiemi adeguati]]
 ```anki
 deck: LeA
 ---
+Formula ben formata
+===
+Le formule ben formate o fbf sono sequenze di simboli con una buona struttura che si definiscono in maniera ricorsiva:
+- ogni lettera enunciativa è una fbf
+- Se $\mathcal{A}$ è una f.b.f. anche $\sim \mathcal{A}$ è una fbf
+- Se $\mathcal{A}$ è una f.b.f. anche $(\mathcal{A} \land \mathcal{B}), (\mathcal{A} \lor \mathcal{B}), (\mathcal{A} \implies \mathcal{B}),(\mathcal{A} \iff \mathcal{B})$ sono fbf
+- nient'altro è una fbf
+```
+
+
+```anki
+deck: LeA
+---
+Soddisfacibilità
+===
+Una f.b.f. $\mathcal{A}$ si dice soddisfacibile se esiste almeno una interpretazione $v$ tale che $v(\mathcal{A}) = 1$. L'interpretazione $v$ si dice in tal caso modello di $A$
+```
+<% tp.file.cursor(3) %>
+
+```anki
+deck: LeA
+---
+Tautologia
+===
+Una fbf $\mathcal{A}$ è una tautologia se e solo se $\sim \mathcal{A}$ è insoddisfacibile
+```
+
+
+```anki
+deck: LeA
+---
 Forma normale disgiuntiva
 ===
 Una formula ben formata è in forma normale disgiuntiva se ha solo or di and
