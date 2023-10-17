@@ -1,4 +1,14 @@
 # DOPPIO BIPOLO
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+\draw(0,0) rectangle (4,3);
+\draw(-2,0);
+\end{tikzpicture}
+\end{document}
+```
+
 Un doppio [[bipolo]] è un quadripolo con
 $$ 
 	\begin{cases}
@@ -70,3 +80,31 @@ $$
 -[[trasferitore ideale di potenza]]
 -[[amplificatore operazionale]]
 -[[Induttori mutualmente accoppiati]]
+
+# ANKI
+
+```anki
+deck: Elettrotecnica
+---
+Doppio bipolo
+===
+Un doppio bipolo è un qualsiasi quadripolo che soddisfi la seguente proprietà
+$$ 
+\begin{align}
+I_A = - I_b
+I_C = -I_D
+\end{align}
+$$
+
+Se è il circuito a imporre questo comportamento si definiscono **doppi bipoli impropri**, se invece è una proprietà intrinseca del componente si definiscono semplicemente doppi bipoli
+```
+
+
+```anki
+deck: Elettrotecnica
+---
+
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
