@@ -357,7 +357,7 @@ Se $A \in M_{(n,n)}(\mathbb{K})$, $r(A) = n$ allora $
 >[!dim]
 >Riduciamo $A$ a scala tramite il metodo di eliminazione di Gauss, essendo il suo rango $n$ avremo una matrice a scala con $n$ pivot $p_1,...,p_n$
 ```
-<% tp.file.cursor(3) %>
+
 
 
 ```anki
