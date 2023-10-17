@@ -44,3 +44,14 @@ Si noti che la costante di proporzionalità tra ilcubo del raggio dell'orbita ed
 
 Le dimostrazioni della prima e della terza legge nel caso generale delle orbite ellittiche sono piú laboriose e richiedono risoluzioni analitche del problema bidimensionale del moto del pianeta sotto l'effetto dell'attrazione gravitazionale del Sole.
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+Leggi di Keplero
+===
+1. Ogni pianeta descrive un'orbita ellittica ed il sole occupa uno dei due fuochi dell'ellissi
+2. Il vettore posizione di ogni pianeta rispetto al sole descrive aree uguali in tempi uguali
+3. il quadrato del tempo di rivoluzione di ciascun pianeta è proporzionale al cubo del semiasse maggiore della sua orbita $T^2 \propto a^3$
+```
