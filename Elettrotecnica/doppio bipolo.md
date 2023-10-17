@@ -59,7 +59,22 @@ i_{1} \\
 i_{2}
 \end{bmatrix}$$
 
-Possiamo ricavare i parametri della matrice R attraverso la sovrapposizione degli effetti,
+Possiamo ricavare i parametri della matrice R attraverso la sovrapposizione degli effetti, che in questo caso viene chiamata prove semplici, si interrompe quindi un ingresso alla volta delle correnti.
+
+###### Matrice G
+Quando il bipolo è definito su base corrente ammette la rappresentazione tramite matrice $G$
+$$ \begin{bmatrix}
+i_{1} \\
+i_{2}
+\end{bmatrix} = \begin{bmatrix}
+G_{11} & G_{12} \\
+G_{21} & G_{22}
+\end{bmatrix}\begin{bmatrix}
+v_{1} \\
+v_{2}
+\end{bmatrix}$$
+
+si può identificare tramite prove semplici.
 
 ## Doppio bipolo dinamici
 In [[regime sinusoidale]] diventa facile trattare i doppi bipoli lineari dinamici (ossia che contengono derivate rispetto al tempo nelle loro equazioni descrittive).
