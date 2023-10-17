@@ -32,7 +32,35 @@ f_{2} (i_{1},i_{2},v_{1},v_{2}) = 0
 
 Ci limitiamo allo studio di doppi bipoli lineari affini.
 
-$$ m_{11}v_{1} + m_{12}v_{2} + n_{11}i_{1} + n_{12} + c_{1} = 0 $$
+$$\begin{cases}
+ m_{11}v_{1} + m_{12}v_{2} + n_{11}i_{1} + n_{12}i_{2} + c_{1} = 0 \\
+m_{21}v_{1} + m_{22}v_{2} + n_{21}i_{1} + n_{22}i_{2} + c_{2} = 0
+\end{cases} $$
+
+### Rappresentazioni cardinali
+Un doppio bipolo in generale ammette 6 rappresentazioni, con quattro dette rappresentazioni cardinali:
+- base tensione $(v_{1},v_{2})$
+- base corrente $(i_{1},i_{2})$
+- basi miste $(v_{1},i_{2}), (i_{1},v_{2})$
+
+le due rimanenti sono $(v_{1},i_{1})$ e $(v_{2},i_{2})$
+
+###### matrice R
+Quando il bipolo è definito su base tensione ammette la rappresentazione tramite matrice $R$:
+$$ \begin{bmatrix}
+v_{1} \\
+v_{2} 
+\end{bmatrix} = \begin{bmatrix}
+R_{11} & R_{12} \\
+R_{21}  & R_{22}
+\end{bmatrix}
+\begin{bmatrix}
+i_{1} \\
+i_{2}
+\end{bmatrix}$$
+
+Possiamo ricavare i parametri della matrice R attraverso la sovrapposizione degli effetti,
+
 ## Doppio bipolo dinamici
 In [[regime sinusoidale]] diventa facile trattare i doppi bipoli lineari dinamici (ossia che contengono derivate rispetto al tempo nelle loro equazioni descrittive).
 Bipoli che descriveremo tramite matrici $\mathcal{Z,\ Y,\ H,\ H', T}$ di cui le prime due l'equivalente delle matrici $\mathcal{R}$ e $\mathcal{Z}$ e le altri equivalenti alle omonime.
