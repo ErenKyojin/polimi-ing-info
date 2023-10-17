@@ -30,7 +30,7 @@
 
 
 
-# criterio del rapporto per le [[serie]]
+# criterio del rapporto per le [[Serie]]
 Sia $\sum a_n$ una serie a termini positivi. Se esiste il limite
 $$\lim_{n\to+\infty}\frac{a_{n+1}}{a_n}=l$$
 e $l>1$ la serie diverge, se $l<1$ la serie converge, se $l = 1$ nulla si può dire

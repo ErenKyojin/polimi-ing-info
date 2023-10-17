@@ -47,7 +47,7 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 	- [ ] [[circuito aperto]]
 	- [ ] [[generatore indipendente]] 
 - [ ] Principio di equivalenza
-	- [ ] [[Elettrotecnica/Serie|Serie]]
+	- [ ] [[Connessione in serie|Connessione in serie]]
 	- [ ] [[partitore di tensione]]
 	- [ ] [[Assiomi di incidenza|parallelo]]
 	- [ ] [[partitore di corrente]]

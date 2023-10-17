@@ -327,7 +327,7 @@ Con $c$ punto qualunque
 
 
 
-### Divergenza della [[serie]] armonica
+### Divergenza della [[Serie]] armonica
 È facile dimostrare con gli integrali la divergenza della serie armonica
 $$
 \sum_{n=1}^{\infty} \frac{1}{n}

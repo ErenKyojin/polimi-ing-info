@@ -18,7 +18,7 @@ Per le variabili aleatorie discrete:
 >Altrimenti si dice che $X$ non amette valore atteso
 
 
-Facciamo qualche osservazione su questa definizione. Se $X$ è una [[variabile aleatoria]] discreta non è detto che $X$ abbia valore atteso. Questo dipende dalla [[Analisi 2/convergenza|convergenza]] della [[Elettrotecnica/Serie|serie]] $\sum_{k \in I} |x_{k}|p_{X}(x_{k})$.
+Facciamo qualche osservazione su questa definizione. Se $X$ è una [[variabile aleatoria]] discreta non è detto che $X$ abbia valore atteso. Questo dipende dalla [[Analisi 2/convergenza|convergenza]] della [[Connessione in serie|serie]] $\sum_{k \in I} |x_{k}|p_{X}(x_{k})$.
 Se $X$ assume un numero finito di valori questa serie è la somma finita sicuramente convergente e la media esiste, se la sommatoria precedente converge allora, passando dalla [[convergenza assoluta]] alla [[Analisi 1/Successioni/Convergenza|convergenza]] anche il valore atteso converge, ed quindi $E(x)$ è finito.
 
 

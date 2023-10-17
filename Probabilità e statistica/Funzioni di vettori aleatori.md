@@ -14,9 +14,9 @@ Se questo [[integrale]] è derivabile in p tutti r $\mathbf{t}$ di $\mathbb{R}^m
 $f_{\mathbf{y}}(\mathbf{t}) = \partial^m \int \dots \int  \! f_{\mathbf{x}}(\mathbf{s})\, \mathrm{d}\mathbf{s}$
 
 ## Minimo e massimo di variabili aleatorie
-$W = \min\{ x_{1},\dots,x_{n} \}$ è il tempo di guasto di un sistema in [[Elettrotecnica/Serie|serie]] di $n$ componenti tale che $c_{1}$ ha tempo di guasto $x_{1}$ ,..., $c_{n}$ ha tempo di guasto $x_{n}$.
+$W = \min\{ x_{1},\dots,x_{n} \}$ è il tempo di guasto di un sistema in [[Connessione in serie|serie]] di $n$ componenti tale che $c_{1}$ ha tempo di guasto $x_{1}$ ,..., $c_{n}$ ha tempo di guasto $x_{n}$.
 
-Dato un sistema in [[Elettrotecnica/Serie|serie]] quando si guasta? quando si guasta l'anello debole.
+Dato un sistema in [[Connessione in serie|serie]] quando si guasta? quando si guasta l'anello debole.
 
 
 $Y = \max \{ x_{1},\dots,x_{n} \}$ può essere usato per modellizzare il tempo di guasto di un sistema in [[parallelo]].

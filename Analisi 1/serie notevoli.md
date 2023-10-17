@@ -1,4 +1,4 @@
-# [[serie]] notevoli
+# [[Serie]] notevoli
 
 ### serie geometrica
 Sia $a_n = q^n,q\in\mathbb R$. Se $q \neq 1$ abbiamo:
