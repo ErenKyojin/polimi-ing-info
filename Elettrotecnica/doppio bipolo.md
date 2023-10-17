@@ -4,7 +4,10 @@
 \begin{document}
 \begin{tikzpicture}
 \draw(0,0) rectangle (4,3);
-\draw(-2,0);
+\draw(-2,1)node[left]{B} to (0,1);
+\draw(-2,2)node[left]{A} to (0,2);
+\draw(6,1)node[right]{D} to (4,1);
+\draw(6,2)node[right]{C} to (4,2);
 \end{tikzpicture}
 \end{document}
 ```
@@ -18,6 +21,18 @@ $$
 $$
 Se il loro comportarsi in questo modo dipende dal circuito si definiscono ==doppi bipoli impropri==, se invece sono le equazioni descrittive a imporlo si definiscono semplicemente ==doppi bipoli==
 
+Per quanto riguarda le tensioni la tensione $V_{BD}$ non è di particolare interesse, possiamo quindi trascurare quella tensione, e avremo quindi solo due porte da considerare (con $v_{AB}$ e $v_{CD}$ come tensioni). 
+
+## Equazioni costitutive
+Le equazioni costitutive sono 2 della forma
+$$ \begin{cases}
+f_{1} (i_{1},i_{2},v_{1},v_{2}) = 0 \\
+f_{2} (i_{1},i_{2},v_{1},v_{2}) = 0
+\end{cases} $$
+
+Ci limitiamo allo studio di doppi bipoli lineari affini.
+
+$$ m_{11}v_{1} + m_{12}v_{2} + n_{11}i_{1} + n_{12} + c_{1} = 0 $$
 ## Doppio bipolo dinamici
 In [[regime sinusoidale]] diventa facile trattare i doppi bipoli lineari dinamici (ossia che contengono derivate rispetto al tempo nelle loro equazioni descrittive).
 Bipoli che descriveremo tramite matrici $\mathcal{Z,\ Y,\ H,\ H', T}$ di cui le prime due l'equivalente delle matrici $\mathcal{R}$ e $\mathcal{Z}$ e le altri equivalenti alle omonime.
@@ -96,15 +111,17 @@ I_C = -I_D
 \end{align}
 $$
 
-Se è il circuito a imporre questo comportamento si definiscono **doppi bipoli impropri**, se invece è una proprietà intrinseca del componente si definiscono semplicemente doppi bipoli
+Se è il circuito a imporre questo comportamento si definiscono **doppi bipoli impropri**, se invece è una proprietà intrinseca del componente si definiscono semplicemente doppi bipoli.
+
+Per quanto riguarda la tensione possiamo ignorare $v_{BD}$ ed ottenere quindi un componenete con di fatto due porte.
 ```
 
 
 ```anki
 deck: Elettrotecnica
 ---
-
+potenza assorbita da un doppio bipolo 
 ===
-<% tp.file.cursor(2) %>
+La potenza assorbita da un doppio bipolo è semplicemente
+$$ p_a = v_1 i_1 + v_2 i_2 $$
 ```
-<% tp.file.cursor(3) %>
