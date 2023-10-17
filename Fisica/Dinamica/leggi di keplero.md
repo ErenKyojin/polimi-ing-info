@@ -62,5 +62,13 @@ Leggi di Keplero
 >$$ dA = \frac{1}{2}r \cdot (rd\theta) = \frac{1}{2}r^2 d\theta $$
 >Possiamo pensare ad ogni areola $dA$ come un triangolo con altezza $r$ e come base l'arco di cerchio $rd\theta$.
 >Abbiamo quindi velocità areolare:
->$$ \frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\theta}{dt} = \frac{1}{2} \frac{L}{m} = \text{co$$
+>$$ \frac{dA}{dt} = \frac{1}{2}r^2 \frac{d\theta}{dt} = \frac{1}{2} \frac{L}{m} = \text{cost}$$
+
+>[!dim] dimostrazione terza legge (caso particolare circolare)
+>Dalla prima equazione cardinale abbiamo:
+>$$ \vec{F} = m\vec{a}_N = m\vec{a}_C \implies - \frac{k}{R^2}\hat{u}_r = -m\omega^2 R\hat{u}_r \implies \frac{k}{R^3} = m \frac{4\pi^2}{T} \implies T^2 = \frac{4\pi^2m}{k}R^3 $$
+>dove $m$ è la massa del pianeta.
+>
+>Sostituendo l'espressione di $k$ per il sistema sole-pianeta, quindi $k=GM_s m$, dove $M_S$ è la massa del Sole, otteniamo
+>$$ T^2 = \frac{4\pi^2}{GM_S}R^3 $$
 ```
