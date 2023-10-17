@@ -45,8 +45,8 @@ Un doppio bipolo in generale ammette 6 rappresentazioni, con quattro dette rappr
 
 le due rimanenti sono $(v_{1},i_{1})$ e $(v_{2},i_{2})$
 
-###### matrice R
-Quando il bipolo è definito su base tensione ammette la rappresentazione tramite matrice $R$:
+###### matrice $\mathcal{R}$
+Quando il bipolo è definito su base tensione ammette la rappresentazione tramite matrice $\mathcal{R}$:
 $$ \begin{bmatrix}
 v_{1} \\
 v_{2} 
@@ -61,8 +61,8 @@ i_{2}
 
 Possiamo ricavare i parametri della matrice R attraverso la sovrapposizione degli effetti, che in questo caso viene chiamata prove semplici, si interrompe quindi un ingresso alla volta delle correnti.
 
-###### Matrice G
-Quando il bipolo è definito su base corrente ammette la rappresentazione tramite matrice $G$
+###### Matrice $\mathcal{G}$
+Quando il bipolo è definito su base corrente ammette la rappresentazione tramite matrice $\mathcal{G}$
 $$ \begin{bmatrix}
 i_{1} \\
 i_{2}
@@ -75,6 +75,47 @@ v_{2}
 \end{bmatrix}$$
 
 si può identificare tramite prove semplici.
+***
+>[!oss]
+>Se un doppio bipolo ammette sia base tensione che base corrente ammette sia la metrice $\mathcal{R}$ che la matrice $\mathcal{G}$, condizione necessaria e sufficiente è che $\mathcal{R}^{-1} = \mathcal{G} \iff \det(\mathcal{R}) = \det(\mathcal{G})=0$
+
+###### Matrice ibrida $\mathcal{H}$ di tipo 1
+
+$$ \begin{cases}
+v_{1}  = H_{11} i_{1}  + H_{12}v_{2} \\
+i_{2} = H_{21}i_{1} + H_{22} i_{2}
+\end{cases} $$
+che possiamo riscrivere in forma matriciale ome
+$$ \begin{bmatrix}
+v_{1} \\
+i_{2} 
+\end{bmatrix} = \begin{bmatrix}
+H_{11}  & H_{12} \\
+H_{21} &H_{22}
+\end{bmatrix} \begin{bmatrix}
+i_{1} \\
+v_{2}
+\end{bmatrix}$$
+
+anche in questo caso si possono sfruttare le prove semplici
+
+
+###### Matrice ibrida $\mathcal{H}'$ di tipo 2
+$$ \begin{bmatrix}
+i_{1} \\
+v_{2}
+\end{bmatrix} = \begin{bmatrix}
+H_{11}' &H_{12}' \\
+H_{21}' &H_{22}'
+\end{bmatrix} \begin{bmatrix}
+v_{1} \\
+i_{2}
+\end{bmatrix}$$
+
+anche in questo caso si possono sfruttare le prove semplici
+
+###### Matrice $\mathcal{T}$ di trasmissione diretta
+Quando dobbiamo ricavare $(v_{1},i_{1})$ date $v_{2}$
 
 ## Doppio bipolo dinamici
 In [[regime sinusoidale]] diventa facile trattare i doppi bipoli lineari dinamici (ossia che contengono derivate rispetto al tempo nelle loro equazioni descrittive).
