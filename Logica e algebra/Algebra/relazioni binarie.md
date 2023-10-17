@@ -265,3 +265,17 @@ Sussistono le proprietà delle potenze per esponenti interi non negativi
 - $R^m \cdot R^n = R^{m + n} = R^n \cdot R^m$
 - $(R^m)^n = R^{m \cdot n}
 ```
+
+
+```anki
+deck: LeA
+---
+Proprietà delle relazioni binaries su un insieme A
+===
+- **Proprietà seriale**: si dice che una relazione $R$ gode della proprietà seriale se per ogni $a \in A$ esiste almeno un $a_I \in A : (a,a_I) \in R$
+	- per il grafo di adiacenza significa che ogni vertice ha almeno un arco
+	- per la matrice di adiacenza significa che ogni riga ha almeno un elemento "1"
+	- $I_A$ e $\omega_A$ sono relazioni seriali
+- **Proprietà riflessiva**
+	- 
+```
