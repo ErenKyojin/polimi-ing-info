@@ -8,7 +8,9 @@
 \end{document}
 ```
 >[!def]
->Dato un bipolo adinamico, non impressivo, lineare affine, se ammete la base di definizione corrente lo si definisce circuito di Thevenin
+>Dato un bipolo adinamico, non impressivo, lineare affine, se ammete la base di definizione corrente lo si definisce circuito di Thevenin.
+>È il duale del [[Circuito di Norton]], e le equazioni per ricavare l'equivalente di thevenin sono
+>$$ R_{th} = \frac{1}{G_{nr}}\qquad E_{th} = - \frac{A_{nr}}{G_{nr}} $$
 
 # Circuito equivalente di thevenin
 Per ricavare il circuito equivalente di Thevenin imponiamo tra due morsetti una [[corrente]] $i$, ricaviamo quindi la $R_{\text{th}}$ e la $E_{\text{th}}$
@@ -18,3 +20,12 @@ E abbiamo quindi la formula della differenza di potenziale ai morsetti AB $v = R
 L'[[equazione costitutiva]] del circuito equivalente di Thevenin nel [[Analisi 1/Funzioni/dominio|dominio]] dei [[fasori]] diventa:
 $$\overline{v} = Z_\text{th}(j\omega)\overline{i} + \overline{E}_\text{th}(j\omega)$$
 
+# ANKI
+```anki
+deck: Elettrotecnica
+---
+Circuito di Thevenin
+===
+Dato un bipolo adniamico, non impressivo, lineare affine, se ammette le ba
+```
+<% tp.file.cursor(3) %>
