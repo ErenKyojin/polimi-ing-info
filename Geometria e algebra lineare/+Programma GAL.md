@@ -37,4 +37,4 @@ Di seguito vi è il programma di GAL in ordine di argomenti, con argomenti chiav
 	- [ ] [[Rango]]
 - [ ] Sistemi lineari di n-equazioni in $n$ incognite
 	- [ ] teorema di Cramer
-	- [ ] [[sistema omogeneo associato]] 
+	- [ ] [[sistema omogeneo]] 

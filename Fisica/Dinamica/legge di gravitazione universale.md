@@ -14,6 +14,13 @@ modification date: 2023-04-12 10:16
 
 Conseguenza diretta della legge di gravitazione univerale è la [[massa#massa gravitazionale]]
 
+# ANKI
 
-
-
+```anki
+deck: Fisica
+---
+Legge di gravitazione universale
+===
+Due corpi qualsiasi, di masse $m_1$ e $m_2$ e qdi dimensioni trascurabili rispetto alla loro distanza si attraggono con una forza diretta lungo la congiungente, di intensità direttamente proporzionale al prodotto delle masse ed inversamente proporzionale al quadrato della distanza
+$$ \vec{F} = -G \frac{m_1m_2}{r^2}\hat{u}_r $$
+```
