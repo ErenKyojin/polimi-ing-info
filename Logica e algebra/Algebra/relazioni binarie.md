@@ -220,6 +220,22 @@ deck: LeA
 Prodotto di due relazioni
 ===
 Date le due relazioni $R \subseteq A_! \times A_2, T \subseteq A_2 \times A_3$, si chiama prodotto delle due relazioni la relazione $R \cdot T \subseteq A_1 \times A_3$ così definita:
-$$ R \cdot T = \{(a_1,a_3) : \ex\} $$
+$$ R \cdot T = \{(a_1,a_3) : \exists a_2 : (a_1, a_2) \in R\text{ e } (a_2,a_3) \in T\} $$
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: LeA
+---
+Proprietà del prodotto di relazioni
+===
+##### Associativo:
+per ogni $R,T,S$ tali che $R \subseteq A_1 \times A_2, T \subseteq A_2 \times A_3, S \subseteq A_3 \times A_4$ si ha 
+$$ (R \cdot T) \cdot S = R \cdot (T \cdot S) $$
+
+##### Compatibilità con l'inclusione
+Se $R \subseteq T \subseteq A_1 \times A_2, S \subseteq A_2 \times A_3, V \subseteq A_4 \times A_1$ si ha
+$$ R\cdot S \subseteq T \cdot S \quad e \quad V \cdot R \subseteq V \cdot T$$
+Da cui possiamo dedurre anche che se $R \subseteq T \subseteq A_1 \times A_2, S \subseteq U \subseteq A_2 \times A_3$ si ha $R \cdot S \subseteq T \cdot U$
+```
+
