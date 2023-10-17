@@ -2,6 +2,7 @@
 id: "Sistemi lineari"
 aliases:
   - "sistemi lineari di $n$-equazioni in $n$-incognite"
+  - "sistema lineare"
 tags: []
 ---
 per definire un **sistema lineare** è necessario prima definire un'[[equazione lineare]] 

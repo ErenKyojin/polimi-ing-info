@@ -9,7 +9,10 @@
 ```
 
 >[!def]
->Dato un bipolo adinamico, 
+>Dato un bipolo adinamico, non impressivo, lineare affine, se ammette base di definizione tensione lo si definisce [[Circuito di Norton]] 
+>È il duale del [[Circuito di Thevenin]], dal quale si passa attraverso le seguenti formule
+>$$ G_{nr} = \frac{1}{R_{th}}\qquad A_{nr} = -\frac{E_{th}}{R_{th}} $$
+
 
 # Circuito equivalente di Northon
 Per ricavare il circuito equivalente di thevenin imponiamo tra i due morsetti AB una [[tensione]] $v$ , ricaviamo quindi la $G_\text{nr}$ e la $E_\text{nr}$  
@@ -17,3 +20,15 @@ E abbiamo quindi la formula della [[corrente]] ai morsetti AB $i = G_\text{nr}v
 
 # Circuito di Northon in [[regime sinusoidale]]
 $\overline{i} = Y_\text{nr}(j\omega)\overline{v} + \overline{A}_\text{nr}(j\omega)$
+
+# ANKI
+
+```anki
+deck: Elettrotecnica
+---
+Circuito di norton
+===
+Dato un bipolo adinamico, non impressivo, lineare affine, se ammette base di definizione tensione lo si definisce circuito di norton,
+È il duale del Circuito di Thevenin, dal quale si passa attraverso le seguenti formule
+$$ G_{nr} = \frac{1}{R_{th}}\qquad A_{nr} = -\frac{E_{th}}{R_{th}} $$
+```

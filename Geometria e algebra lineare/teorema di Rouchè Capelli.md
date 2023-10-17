@@ -1,10 +1,10 @@
 ---
-aliases: <% tp.file.cursor(0) %>
+aliases: 
 creation date: 2023-04-27 14:14
 modification date: 2023-04-27 14:14
 ---
 
-<% tp.file.cursor(1) %>
-
+>[!teorema]
+>Dato un sistema di $m$ equazioni in $n$ incognite, consideriamo la matrice rappresentativa del sistema,
 
 
