@@ -51,7 +51,7 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 	- [ ] [[partitore di tensione]]
 	- [ ] [[Assiomi di incidenza|parallelo]]
 	- [ ] [[partitore di corrente]]
-- [ ] [[Circuito di Northon]]
+- [ ] [[Circuito di Norton]]
 - [ ] [[Circuito di Thevenin]]
 
 ## Capitolo 4 - *tripli*
