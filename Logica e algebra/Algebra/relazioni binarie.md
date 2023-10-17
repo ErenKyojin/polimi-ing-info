@@ -280,5 +280,13 @@ Proprietà delle relazioni binaries su un insieme A
 	- In termini di grafo di incidenza una relazione è riflessiva se e solo se da ogni
 	- in termini di matrice di adiacenza una relazione è riflessiva se e solo se la diagonale principale è composta solo di termini uguali ad 1
 	- $I_A$ e $\omega_A$ sono relazioni riflessive
-- **Proprietà simmetrica**: si dice che una relazione R gode della proprietà simmetrica se per ogni $a_1, a_2 \in A, (a_1,a_2) \in R$. 
+- **Proprietà simmetrica**: si dice che una relazione R gode della proprietà simmetrica se per ogni $a_1, a_2 \in A, (a_1,a_2) \in R \implies (a_2,a_1) \in R$. 
+	- in termini di grafo di adiacenza una relazione è simmetrica se e solo se ogni arco ha la doppia freccia
+	- in termini di matrice di adiacenza una relazione è simmetrica se e solo la matrice di adiacenza coincide con la propria trasposta (e quindi è simmetrica)
+	- $\varnothing, I_A$ e $\omega_A$ sono relazioni simmetriche
+- **Proprietà antisimmetrica**: si dice che una relazione $R$ gode della proprietà antisimmetrica se per ogni $a_1,a_2 \in A (a_1,a_2) \in R$ implicano $a_1 = a_2$. Si può facilmente provare che una relazione è antisimmetrica se e solo se $R \cap R^{-1} \subseteq I_A$
+	- in termini di grafo di adiacenza una relazione è antisimmetrica se e solo se i suoi archi con doppiafreccia sono solo gli autoanelli
+	- in termini di matrice di adiacenza una relazione è antisimmetrica se e solo se la somma della matrice di adiacenza con la sua trasposta non ha due al di fuori della diagonale principale, in altri termini se e solo se ogni volta che nel posto $(i,k)$ con $i \neq k$ vi è un 1, l'elemento di posto $k,i$ è 0
+	- $\varnothing$ e $I_A$ sono roelazioni antisimmetriche
+- **proprietà transitiva**
 ```
