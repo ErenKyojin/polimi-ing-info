@@ -212,3 +212,14 @@ Relazione binaria
 
 Se $R \subseteq A_1 \times A_2$ con $|A_1| < \infty$ e $|A_2| < \infty$, una relazione binaria si può rappresentare con un grafo di adiacenza o una matrice di adiacenza
 ```
+
+
+```anki
+deck: LeA
+---
+Prodotto di due relazioni
+===
+Date le due relazioni $R \subseteq A_! \times A_2, T \subseteq A_2 \times A_3$, si chiama prodotto delle due relazioni la relazione $R \cdot T \subseteq A_1 \times A_3$ così definita:
+$$ R \cdot T = \{(a_1,a_3) : \ex\} $$
+```
+<% tp.file.cursor(3) %>
