@@ -10,9 +10,7 @@ Una teoria formale è definita quando sono fissati:
 - un insieme priviegiato di f.b.f. (assiomi o base della conoscenza) e
 - un insieme di regole di riscritture (o di **inferenza**) che in presenza di un certo insieme di f.b.f. permetta di scriverne in modo algoritmico altre (inferite o dedotte della precedenti)
 
-
-
-Data una teoria formale $H$ (cioè sono specificati tutti gli insiemi precedentemente elencati), chiamiamo **dimostrazione nella teoria formale** $H$ una sequenza finita di f.b.f. che siano o assiomi o formule dedotte dalle precedenti tramite regole di inferenaz, diciamo **teorema della teoria** una f.b.f. $\mathcal{A}$ (e scriviamo $\vdash_{H} \mathcal{A}$) che sia l'ultima formula di una dimostrazione.
+Data una teoria formale $H$ (cioè sono specificati tutti gli insiemi precedentemente elencati), chiamiamo **dimostrazione nella teoria formale** $H$ una sequenza finita di f.b.f. che siano o assiomi o formule dedotte dalle precedenti tramite regole di inferenza, diciamo **teorema della teoria** una f.b.f. $\mathcal{A}$ (e scriviamo $\vdash_{H} \mathcal{A}$) che sia l'ultima formula di una dimostrazione.
 
 Dato un insieme $\Gamma$ di f.b.f. diciamo che una formula $\mathcal{A}$ è (sintatticamente) **deducibile** in $H$ da $\Gamma$ (e scriviamo $\Gamma \vdash{H}\mathcal{A}$) se esiste una sequenza finita di f.b.f. che siano o assiomi o formule di $\Gamma$ o formule dedotte dalle precedenti tramite le regole di inferenza, la cui ultima formula sia $\mathcal{A}$.
 Un teorema di $H$ è dunque una formula deducibile da un insieme vuoto di f.b.f.
