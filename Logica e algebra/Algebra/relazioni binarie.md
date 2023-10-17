@@ -276,6 +276,9 @@ Proprietà delle relazioni binaries su un insieme A
 	- per il grafo di adiacenza significa che ogni vertice ha almeno un arco
 	- per la matrice di adiacenza significa che ogni riga ha almeno un elemento "1"
 	- $I_A$ e $\omega_A$ sono relazioni seriali
-- **Proprietà riflessiva**
-	- 
+- **Proprietà riflessiva**: una relazione $R$ gode della proprietà riflessiva se per ogni $a \in A$ si ha $(a,a) \in R$, una relazione è riflessiva se e solo se $I_A \subseteq R$
+	- In termini di grafo di incidenza una relazione è riflessiva se e solo se da ogni
+	- in termini di matrice di adiacenza una relazione è riflessiva se e solo se la diagonale principale è composta solo di termini uguali ad 1
+	- $I_A$ e $\omega_A$ sono relazioni riflessive
+- **Proprietà simmetrica**: si dice che una relazione R gode della proprietà simmetrica se per ogni $a_1, a_2 \in A, (a_1,a_2) \in R$. 
 ```
