@@ -26,6 +26,7 @@ deck: Elettrotecnica
 ---
 Circuito di Thevenin
 ===
-Dato un bipolo adniamico, non impressivo, lineare affine, se ammette le ba
+Dato un bipolo adniamico, non impressivo, lineare affine, se ammette la base di definizione corrente lo si definisce circuito di Thevenin.
+È il duale del circuito di norton, le equazioni per ricavare l'equivalente di thevenin sono
+$$ R_{th} = \frac{1}{G_{nr}}\qquad E_{th} = - \frac{A_{nr}}{G_{nr}} $$
 ```
-<% tp.file.cursor(3) %>
