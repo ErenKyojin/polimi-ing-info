@@ -288,5 +288,5 @@ Proprietà delle relazioni binaries su un insieme A
 	- in termini di grafo di adiacenza una relazione è antisimmetrica se e solo se i suoi archi con doppiafreccia sono solo gli autoanelli
 	- in termini di matrice di adiacenza una relazione è antisimmetrica se e solo se la somma della matrice di adiacenza con la sua trasposta non ha due al di fuori della diagonale principale, in altri termini se e solo se ogni volta che nel posto $(i,k)$ con $i \neq k$ vi è un 1, l'elemento di posto $k,i$ è 0
 	- $\varnothing$ e $I_A$ sono roelazioni antisimmetriche
-- **proprietà transitiva**
+- **proprietà transitiva**: si dice che una relazione $R$ gode della proprietà transitiva (o semplicemente è transitiva) se per ogni $a_1,a_2,a_3 \in A, (a_1,a_2) \in R$ e $(a_2,a_3) \in R$ implicano $(a_1,a_3) \in R$. Si può facilmente provare che una relazione è transitiva se e solo se ogni $R^2 \subseteq R$
 ```
