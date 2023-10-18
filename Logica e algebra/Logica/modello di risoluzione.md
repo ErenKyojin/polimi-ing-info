@@ -4,7 +4,7 @@ creation date: 2023-05-08 16:25
 modification date: 2023-05-08 16:25
 ---
 
-La risoluzione è alla base del PROLOG, verifica se una formula $\mathcal{A}$ sia una tautologia (e quindi un teorema di L) o se sia deducibile da un [[insieme]] di formule $\Gamma$, provando tramite tecniche di riscrittura, rispettivamente l'insoddisfacibilità di $\sim \mathcal{A}$ o di $\Gamma \cup \{  \sim \mathcal{A} \}$.
+La risoluzione è alla base del PROLOG, verifica se una formula $\mathcal{A}$ sia una tautologia (e quindi un teorema di L) o se sia deducibile da un [[insieme]] diq formule $\Gamma$, provando tramite tecniche di riscrittura, rispettivamente l'insoddisfacibilità di $\sim \mathcal{A}$ o di $\Gamma \cup \{  \sim \mathcal{A} \}$.
 
 Iniziamo ad introdurre un po' di terminologia:
 - Si dice **letterale** una lettera enunciativa o la negazione di una lettera anunciativa
@@ -236,7 +236,7 @@ $\Gamma \vDash A$
 
 indico con $S = \Delta \cup \{\sim A\}^C$
 - a. $F = S$
-- $S = Ris(S)$
--
+- b. $S = Ris(S)$
+	- $\square \in S$ e quindi $\Gamma \vDash A$
+	- $F = S$ e quindi $\Gamma \cancel{\Vdash} A$
 ```
-<% tp.file.cursor(3) %>

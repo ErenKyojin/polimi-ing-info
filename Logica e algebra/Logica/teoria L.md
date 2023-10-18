@@ -82,7 +82,7 @@ L'indipendenza di A3 da A1 ed A2 si dimostra con una tecnica diversa, si utilizz
 
 Da ultimo vogliamo osservare che la teoria L è solo uno dei tanti sistemi formali che possiamo introdurre per la logica proposizionale. Si hanno numerosi altri sistemi con scelte diverse come insiemi di connettivi, come assiomi (alcuni ne hanno un numero inferiore al prezzo di una piú complessa).
 
-La teoria L è un sistema che non si presta bene alla dimostrazione automatica, richiede fantasia nella scelta delle istanze di assiomi da usare, il sistema piú utilizzato è la [[polimi-ing-info/Logica e algebra/Logica/risoluzione]]
+La teoria L è un sistema che non si presta bene alla dimostrazione automatica, richiede fantasia nella scelta delle istanze di assiomi da usare, il sistema piú utilizzato è la [[modello di risoluzione]]
 
 
 
