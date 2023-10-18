@@ -128,3 +128,45 @@ L'albero che abbiamo disegnato è un albero lineare, un albero in cui ogni passo
 L'albero di risoluzione che abbiamo considerato precedentemente rappresenta un albero di risoluzione lineare, non per input (le clausole racchiuse in rettangoli rossi, ovvero le clausole $\{ \sim A \}$ e $\{ \sim C \}$, non sono di inpu ma clausole ottenute precedentemente per risoluzione).
 In generale la risoluzione lineare per input non è completa, nel senso che non sempre da un insieme insoddisfacibile di clausole è possibile ottenere la clausola vuota tramite risoluzione lineare per input.
 La derivazione lineare per input è completa quando l'insieme di clausole di partenza è costituito da **clausole di Horn**, ovvero da clausole che contengono al piú un letterale positivo (ovvero al più una lettera enunciativa non negata), questo significa che da un insieme di clausole di Horn possiamo ricavare la clausola vuota se e solo se la possiamo ricavare tramite una risoluzione lineare per input. In molti casi pratici le clausole che si incontrano sono clausole di Horn.
+
+
+# ANKI
+
+
+```anki
+deck: LeA
+---
+Letterale
+===
+Un letterale è una lettera enunciativa o la sua negazione
+```
+
+
+```anki
+deck: LeA
+---
+Clausola
+===
+Disgiungzione finita di 0 o un numero di letterali
+
+>[!esempio]
+>$A \lor \not B \lor C = \{A , \not B, C\}$
+```
+
+```anki
+deck: LeA
+---
+Clausola vuota
+===
+La clausola priva di letterali è detta clausola vuota e si indica con $\square$, la clausola vuota non è mai soddisfacibile.
+```
+
+
+```anki
+deck: LeA
+---
+Forma a clausole
+===
+Scrivere una formula in forma a clasuole significa scriverla in forma normale congiuntiva, ed utilizzare la notazione delle clausoe
+```
+
