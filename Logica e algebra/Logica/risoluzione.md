@@ -206,3 +206,37 @@ Regola di inferenza di R
 ===
 Risolvente
 ```
+```anki
+deck: LeA
+---
+Costruire il risolvente di una clasuola S
+===
+$Ris(S) = S \cup \{C_{ij} | C_{ij}$ è la risolvente delle clausole $C_i$ e $C_j \in S$
+
+Si può anche costruire il risolvente quadrato:
+$Ris^2(S) = Ris(Ris(S))$
+
+$Ris^n(S) = Ris(Ris^{n-1}(S))$
+infine
+$Ris^*(S) = \bigcup_{n > 0} Ris^n(S)$
+
+Diciamo che $S$ è insoddisfiacibile se e solo se
+$$ \square \in Ris^*(S) $$
+```
+
+
+```anki
+deck: LeA
+---
+Algoritmo di risoluzione
+===
+$\Gamma \vDash A$
+1. $\Delta = \{$ fbf di $\Gamma$ in forma a clausole$\}$
+2. $\{\sim A\}$
+
+indico con $S = \Delta \cup \{\sim A\}^C$
+- a. $F = S$
+- $S = Ris(S)$
+-
+```
+<% tp.file.cursor(3) %>

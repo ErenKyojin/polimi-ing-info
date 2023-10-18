@@ -34,6 +34,5 @@ deck: LeA
 ---
 Teorema dicorrettezza e completezza per refutazione
 ===
-$$S \vdash_R \square$$
+$S \vdash_R \square$ se e solo se $S$ è insoddisfacibile
 ```
-<% tp.file.cursor(3) %>

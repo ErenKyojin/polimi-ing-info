@@ -31,3 +31,5 @@ Se R è risolvente di $C_1$ e $C_2$ allora $\{C_1,C_2\} \vDash R$ (ogni modello 
 >- $v(l) = 1$ allora $v(\bar{l}) = 0$, allora $v(C_2 - \{\bar l\} = 1$ allora $v(R) = 1$
 >- $v(l) = 0$ allora $v(C_1 - \{l\} = 1$ da cui la tesi cioè $v(R) = $
 ```
+
+
