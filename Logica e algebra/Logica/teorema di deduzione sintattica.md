@@ -86,6 +86,26 @@ $\Gamma \cup \{B\} \vdash_L a$ se e solo se $\Gamma \vdash_L B \implies a$
 >2. $A \implies (B \implies A)$ a1
 >3. $B\implies A$ 1,2 MP
 >
->Ipotesi di induzione: se una fbf $c$ è dedotta da $\Gamma \cup B$ con $m < n$ passi allora
+>Ipotesi di induzione: se una fbf $c$ è dedotta da $\Gamma \cup B$ con $m < n$ passi allora $\Gamma \vdash_L B \implies C$.
+>Mostro la tesi per $n$
+>
+>1.
+>...
+>i. $C$
+>j. $C \implies A$
+>n. $A$ o assioma, o A = B, o A $\in \Gamma$ o dedotta per MP
+>Per ipotesi di induzione
+>$$\Gamma \vdash_L B \implies C$$
+>Per ipotesi d'induzione
+>$$ \Gamma \vdash_L B \implies (C \implies A) $$
+>
+>....
+>r. $B \implies C$
+>...
+>s. $B \implies (C\implies A)$
+>s + 1. $(B \implies (B \implies A)) \implies ((B \implies C) \implies (B \implies A))$
+>s + 2. $(B \implies C) \implies (B \implies A)$
+>2 + 3. $B \implies A$
+
+
 ```
-<% tp.file.cursor(3) %>
