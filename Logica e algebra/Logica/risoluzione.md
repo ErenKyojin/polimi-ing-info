@@ -9,7 +9,7 @@ La risoluzione è alla base del PROLOG, verifica se una formula $\mathcal{A}$ si
 Iniziamo ad introdurre un po' di terminologia:
 - Si dice **letterale** una lettera enunciativa o la negazione di una lettera anunciativa
 - Si dice **[[clausola]]** la disgiungzione (finita) di letterali
-- Una clasuola viene rappresentata come insieme di letterali; una [[clausola]] che non contenga letterali si dice **clausola vuota** e si indica con $\square$
+- Una clasuola viene rappresentata come [[insieme]] di letterali; una [[clausola]] che non contenga letterali si dice **clausola vuota** e si indica con $\square$
 - Una [[formule ben formate|f.b.f.]] si dice in **forma a clasuole** se è scritta come congiunzione di clausole ed in tal caso sarà denotata come insieme di insiemi
 
 Ogni formula ammette una formula equivalente in forma a clausole
@@ -34,7 +34,7 @@ Diamo ora una condizione necessaria e sufficiente affinchè un insieme di clauso
 >
 >>[!dim]
 >>Hp. $\Gamma \vdash_{R} \square$ ; Th: $\Gamma$ è insoddisfacibile
->>Se $\Gamma$ ammettesse un modello $v$, $v$ sarebbe modello per tutte le clausole derivate da $\Gamma$ e quindi anche per la clausola vuota che invece è sempre insoddisfacibile. Quindi $\Gamma$ non ammette alcun modello e pertanto è insoddisfacibile
+>>Se $\Gamma$ ammettesse un [[modello]] $v$, $v$ sarebbe modello per tutte le clausole derivate da $\Gamma$ e quindi anche per la clausola vuota che invece è sempre insoddisfacibile. Quindi $\Gamma$ non ammette alcun modello e pertanto è insoddisfacibile
 >>
 >>Th. $\Gamma$ è insoddisfacibile ; Hp. $\Gamma \vdash_{R} \square$
 >>Se $\Gamma$ è insoddisfacibile per il teorema di completezza esiste un suo sottoinsieme finito $\Delta$ insoddisfacibile e quindi basta dimostrare che $\Delta \vdash_{R} \square$, che ovviamente implica $\Gamma \vdash_{R} \square$
@@ -58,7 +58,7 @@ Ma se $\Gamma \vDash \mathcal{A}$ non è detto che $\Gamma^C \vdash_{R} \mathcal
 Per verificare se una clausola (in particolare la clausola vuota) si può ottenere per risoluzione da $\Gamma$ è utile introdurre la seguente definizione:
 $\Ris(\Gamma) = \Gamma \cup \{ C_{ij} | C_{ij} \text{ è risolvente di }C_{i},C_{j} \in \Gamma \}, \Ris n(\Gamma)=\Ris(\Ris n - 1(\Gamma))$
 $\Ris^*(\Gamma) = \cup_{n > 0} \Ris n (\Gamma)$.
-Osserviamo allora che $\Gamma \vdash_{R} C$ se e solo se $C \in \Ris^*(\Gamma)$. In conclusione abbiamo il seguente algoritmo per stabilire se $\Gamma \vDash \mathcal{A}$:
+Osserviamo allora che $\Gamma \vdash_{R} C$ se e solo se $C \in \Ris^*(\Gamma)$. In conclusione abbiamo il seguente [[algoritmo]] per stabilire se $\Gamma \vDash \mathcal{A}$:
 1. Trasformare le formule di $\Gamma$ in forma a clausole ottenendo un insieme $\Delta$ di clausole
 2. Trasformare $\sim A$ in forma a clausole $(\sim A)^C$
 3. $S := \Delta \cup \{ (\sim \mathcal{A})c \}$

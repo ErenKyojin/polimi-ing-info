@@ -15,7 +15,7 @@ Con $l + n - 1$ equazioni linearmente indipendenti e $2l + n - 1$ incognite con 
 2. Attraverso le equazioni costitutive dei componenti, assunti controllabili in tensione, si ricavano le correnti di lato in funzione del potenziale dei nodi
 3. Si risolvono le KCL in funzione dei potenziali di nodo'
 
-L'ultimo passo è la risoluzione di un sistema di $n - 1$ equazioni in $n - 1$ incognite (potenziali di nodo)
+L'ultimo passo è la [[polimi-ing-info/Logica e algebra/Logica/risoluzione|risoluzione]] di un sistema di $n - 1$ equazioni in $n - 1$ incognite (potenziali di nodo)
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
