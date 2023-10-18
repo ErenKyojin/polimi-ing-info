@@ -144,15 +144,19 @@ deck: LeA
 ---
 Soddisfacibilità
 ===
-Una f.b.f. $\mathcal{A}$ si dice soddisfacibile se esiste almeno una interpretazione $v$ tale che $v(\mathcal{A}) = 1$. L'interpretazione $v$ si dice in tal caso modello di $A$
+Una f.b.f. $\mathcal{A}$ si dice soddisfacibile se esiste almeno una interpretazione $v$ tale che $v(\mathcal{A}) = 1$. L'interpretazione $v$ si dice in tal caso modello di $\mathcal{A}$.
+
+Una f.b.f. che non ammette modelli è detta insoddisfacibile
 ```
-<% tp.file.cursor(3) %>
+
 
 ```anki
 deck: LeA
 ---
 Tautologia
 ===
+Una f.b.f. per cui ogni interpretazione è un modello si dice tautologia.
+
 Una fbf $\mathcal{A}$ è una tautologia se e solo se $\sim \mathcal{A}$ è insoddisfacibile
 ```
 
