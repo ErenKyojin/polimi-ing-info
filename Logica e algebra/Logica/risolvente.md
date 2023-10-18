@@ -22,4 +22,12 @@ Risolvente
 ===
 Siano $C_1$ e $C_2$ due clausole, sia $l$ un leterale di $C_1$ tale che $\bar{l}$ appartiene a $C_2$ allora la risolvente R è la seguente clausola:
 $$ R =( C_1 - \{l\}) \cup (C_2 - \{\bar l\}) $$
+
+Se R è risolvente di $C_1$ e $C_2$ allora $\{C_1,C_2\} \vDash R$ (ogni modello di $C_1, C_2$ è $R$)
+
+>[!dim] dimostriamo la seconda affermazione
+>$R = (C_1 - \{l\}) \cup (C_2 - \{\bar l\})$, per ipotesi $v : v(C_1) = 1$ e $v(C_2) = 1$
+>se 
+>- $v(l) = 1$ allora $v(\bar{l}) = 0$, allora $v(C_2 - \{\bar l\} = 1$ allora $v(R) = 1$
+>- $v(l) = 0$ allora $v(C_1 - \{l\} = 1$ da cui la tesi cioè $v(R) = $
 ```
