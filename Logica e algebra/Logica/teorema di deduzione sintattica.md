@@ -55,3 +55,37 @@ Possiamo quindi dimostrare il teorema:
 >
 >Hp: $\Delta \vdash_{L} \mathcal{B} \implies \mathcal{A}$ ; Th: $\Delta \cup \{ \mathcal{B} \} \vdash_{L}\mathcal{A}$
 >Basta banalmente scrivere $\mathcal{B}$, poi la deduzione di $\mathcal{B} \implies \mathcal{A}$ da $\Delta$ ed infine usare il modus ponens
+
+# ANKI
+
+```anki
+deck: LeA
+---
+Teorema di deduzione sintattica
+===
+$\Gamma \cup \{B\} \vdash_L a$ se e solo se $\Gamma \vdash_L B \implies a$
+
+>[!dim]
+>Ipotesi: $\Gamma \vdash_L B \implies a$
+>Tesi: $\Gamma \cup \{B\} \vdash A$
+>
+>1
+>...
+>...
+>n $B \implies A$
+>n+1 $B$
+>n+2 $a$ n,n+1 MP
+>
+>
+>Ipotesi: $\Gamma \cup \{B\} \vdash_L A$
+>Tesi: $\Gamma \vdash_L B \implies A$
+>Si dimostra per induzione sul numero di righe
+>$n = 1: A$ o assioma o $A \in \Gamma$ o $A = B$
+>- assiumiamo che $\vdash_L a = a$ perció $\Gamma \vdash_L B \implies A$
+>1. a
+>2. $A \implies (B \implies A)$ a1
+>3. $B\implies A$ 1,2 MP
+>
+>Ipotesi di induzione: se una fbf $c$ è dedotta da $\Gamma \cup B$ con $m < n$ passi allora
+```
+<% tp.file.cursor(3) %>

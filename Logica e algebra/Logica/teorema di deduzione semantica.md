@@ -41,3 +41,4 @@ Sia $v$ un modello per $\Gamma$. Distinguiamo due casi.
 >>Sia $v$ un modello per $\Gamma$, allora non dovendo essere un modello per $\Gamma \cup \{ \sim \mathcal{A} \}$ si ha $v(\sim \mathcal{A})=0$ e quindi $v(\mathcal{A})=1$, dunque ogni modello di $\Gamma$ è modello per $\mathcal{A}$.
 
 Notiamo che non abbiamo mai imposto limiti sulla cardinalità di $\Gamma$, ma se $\Gamma$ è un insieme infinito è importante il [[teorema di compattezza]]
+
