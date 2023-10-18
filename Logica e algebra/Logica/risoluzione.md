@@ -170,3 +170,39 @@ Forma a clausole
 Scrivere una formula in forma a clasuole significa scriverla in forma normale congiuntiva, ed utilizzare la notazione delle clausoe
 ```
 
+
+```anki
+deck: LeA
+---
+Alfabeto di R
+===
+Letterali
+{,}
+```
+
+
+```anki
+deck: LeA
+---
+fbf di R
+===
+Formule scritte in forma a clausole
+```
+
+
+```anki
+deck: LeA
+---
+Assiomi di R
+===
+$\varnothing$
+```
+
+
+```anki
+deck: LeA
+---
+Regola di inferenza di R
+===
+Risolvente
+```
