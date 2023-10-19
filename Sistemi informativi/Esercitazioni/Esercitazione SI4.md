@@ -12,4 +12,14 @@ Attraverso una app gli utenti devono offrire opsitalità:
 
 guadagno di punti durante l'ospitazione.
 L'associazione è piccolo quindi BI.
-Customizzazione CMR ospitato sui server virtuali dell'associazione
+Customizzazione CMR ospitato sui server virtuali e supportato da un database appropiato.
+
+Il forum va mantenuto ed integrato nel SI.
+
+Le registrazioni a forum e app (componenti) siano condivise.
+
+Offerte e app non saranno disponibili sul forum e viceversa.
+
+Prospettiva di Business
+
+Business -> Organizzazione -> Architettura -> Tecnologia ->  
