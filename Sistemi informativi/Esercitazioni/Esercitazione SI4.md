@@ -32,6 +32,13 @@ Partiamo dall'organizzazione in quanto vogliono mandare via i clienti che se ne 
  | partecipanti | customer2customer <br> (c2c) | associazione <br> di privati cittadini |
  | oggetti      | servizi                      | ospitalità                             |
  | tempo        | semi-dinamica                |                                        |
- | driver       |                              |                                        |
+ | driver       | efficienza                   |                                        |
 
-**controllare**
+**controllare** i free-riders -> sistema informativo tattico
+
+```mermaid
+graph TB
+	CUS[C\nU\nS\nT\nO\nM\nE\nR\n\n]
+	PROV[P\nR\nO\nV\nI\nD\nE\nR\n\n]
+	
+```
