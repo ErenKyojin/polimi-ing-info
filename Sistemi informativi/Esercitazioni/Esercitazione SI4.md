@@ -38,7 +38,7 @@ Partiamo dall'organizzazione in quanto vogliono mandare via i clienti che se ne 
 
 ```mermaid
 graph TB
-	CUS[C\nU\nS\nT\nO\nM\nE\nR\n\n]
-	PROV[P\nR\nO\nV\nI\nD\nE\nR\n\n]
-	
+	subgraph PROV[P\nR\nO\nV\nI\nD\nE\nR\n\n]
+		RA
+	end
 ```
