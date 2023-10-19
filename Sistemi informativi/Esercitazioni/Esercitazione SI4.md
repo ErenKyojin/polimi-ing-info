@@ -27,10 +27,11 @@ Organizzazione -> Architettura -> Tecnologia ->  Business
 Partiamo dall'organizzazione in quanto vogliono mandare via i clienti che se ne approfittano
 
 # DPIVER
- | Aspetto      | valore | note |
- | ------------ | ------ | ---- |
- | partecipanti |        |      |
- | oggetti      |        |      |
- | tempo        |        |      |
- | drivers      |        |      |
+ | Aspetto      | valore                       | note                                   |
+ | ------------ | ---------------------------- | -------------------------------------- |
+ | partecipanti | customer2customer <br> (c2c) | associazione <br> di privati cittadini |
+ | oggetti      | servizi                      | ospitalità                             |
+ | tempo        | semi-dinamica                |                                        |
+ | driver       |                              |                                        |
 
+**controllare**
