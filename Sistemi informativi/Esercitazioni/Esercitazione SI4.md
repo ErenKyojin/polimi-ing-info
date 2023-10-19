@@ -22,4 +22,15 @@ Offerte e app non saranno disponibili sul forum e viceversa.
 
 Prospettiva di Business
 
-Business -> Organizzazione -> Architettura -> Tecnologia ->  
+Organizzazione -> Architettura -> Tecnologia ->  Business
+
+Partiamo dall'organizzazione in quanto vogliono mandare via i clienti che se ne approfittano
+
+# DPIVER
+ | Aspetto      | valore | note |
+ | ------------ | ------ | ---- |
+ | partecipanti |        |      |
+ | oggetti      |        |      |
+ | tempo        |        |      |
+ | drivers      |        |      |
+
