@@ -23,6 +23,4 @@ Per come le f.b.f. sono definite appare chiaro che uno strumento importante per 
 
 ## Semantica
 Ovvero come stabilire che valore una f.b.f. a partire dai valori delle lettere enunciative che vi compaiono.
-Definiamo l'[[interpretazione]]
-
-
+Definiamo l'[[interpretazione]].
