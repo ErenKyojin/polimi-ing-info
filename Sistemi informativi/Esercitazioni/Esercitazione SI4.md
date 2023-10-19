@@ -37,8 +37,32 @@ Partiamo dall'organizzazione in quanto vogliono mandare via i clienti che se ne 
 **controllare** i free-riders -> sistema informativo tattico
 
 ```mermaid
-graph TB
-	subgraph PROV[P\nR\nO\nV\nI\nD\nE\nR\n\n]
-		RA
+graph LR
+	subgraph PV
+		RA[richiedi associazione]
+		SC[scambia consigli]
+		OO[offri ospitalità]
+		ROp[richiedi ospitalità]
+		CO[Convalida ospite]
 	end
+	subgraph C
+		R[registra]
+		NC[naviga consigli]
+		ROc[registra offerta]
+		IO[individua offerte]
+		AC[accredita punti]
+	end
+	RA <--> R
+	SC <--> NC
+	OO <--> ROc
+	ROp <--> IO
+	CO <--> AC
+	
+```
+
+party levle
+
+```mermaid
+graph LR
+	
 ```
