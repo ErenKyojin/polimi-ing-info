@@ -1,4 +1,7 @@
 # Memoria
+>[!def] #elettronica
+>Una memoria è una matrice di bit con indirizzi di riga e di colonna.
+
 Memoria indirizzabile al singolo byte ed è divisa in parole:
  - Una parola $32$ bit contiene $4$ byte
  - Una parola doppia $64$ bit contiene $8$ byte
