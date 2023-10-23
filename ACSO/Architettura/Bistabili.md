@@ -53,7 +53,7 @@ Quindi se S = R = 0, l'uscita Q ammette 2 stati stabili:
 >Hazard, ossia segnali non voluti casuali, possono cambiare i valori mantenuti nel bistabile, la soluzione è l'introduzione del'[[clock]], che ci  introduce il bistabile SR sincrono
 >![[Pasted image 20221010183827.png|300]]
 
-## Bistabile $\overline{\text{SR}}$
+## Bistabile SR negato
 ```tikz
 \usepackage{circuitikz}
 \begin{document}
@@ -118,15 +118,16 @@ logic ports/fill = darkgray,
 Se il clock vale 0, gli ingressi sono chiusi (opaco), ed il bistabile mantiene lo stato corrente, se il clock è 1 gli ingressi sono efficaci, ossia il [[latch]] è trasparente, ed il funzionamento è analogo ad un SR asincrono
 
 
-## Bistabile D sincrono
+## Latch D
 
 - 1 Ingresso D
-- 1 ingresso di sincronizzazione
+- 1 ingresso di sincronizzazione (in generale ingresso di enable)
 - 2 uscite: $Q$ e $\overline{Q}$ 
 
-Se il clock vale $0$ l'ingresso $D$ è inefficace (Il latch D è opaco)
-Se il clock vale uno l'ingresso $D$ è efficace e il bistabile memorizza il valore presente sull'ingresso $D$
+Se enable vale $0$ l'ingresso $D$ è inefficace (Il latch D è opaco)
+Se enable vale uno l'ingresso $D$ è efficace e il bistabile memorizza il valore presente sull'ingresso $D$.
 
+Un latch a cui è collegato un segnale di clock al posto che enable si dice [[flip flop]]
 
 ```tikz
 \usepackage{circuitikz}
