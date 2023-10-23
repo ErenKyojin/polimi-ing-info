@@ -53,6 +53,19 @@ Quindi se S = R = 0, l'uscita Q ammette 2 stati stabili:
 >Hazard, ossia segnali non voluti casuali, possono cambiare i valori mantenuti nel bistabile, la soluzione è l'introduzione del'[[clock]], che ci  introduce il bistabile SR sincrono
 >![[Pasted image 20221010183827.png|300]]
 
+## Bistabile $\overline{\text{SR}}$
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+\node[and port] (A1) at (1,1){};
+\node[and port] (A2) at (1,-1){};
+\draw (-1,1) to (A1.in 1);
+\draw (-1,-1) to (A2.in2);
+\end{tikzpicture}
+\end{document}
+```
+
 
 ## Bistabile SR sincrono
 In questo tipo di bistabile c'è un terzo ingresso oltre ad S ed R, chiamato [[clock]], che se uguale a 0 "blocca" gli ingressi, questo fornisce un "intervallo" in cui è possibile cambiare i valori.
