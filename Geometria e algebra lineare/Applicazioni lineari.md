@@ -431,10 +431,23 @@ deck: GAL
 ---
 immagine di un applicazione lineare
 ===
-Dati $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e data $\mathcal{L} : V \to W$ applicazione lineare diciamo che 
-$\forall \mathbf{v} \in V, \mathcal{L}(\mathbf{v})$ è l'immagine di $\mathbf{v}$ tramite l'applicazione $\mathcal{L}$
+Dati $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e data $\mathcal{L} : V \to W$ applicazione lineare diciamo che
+- $\forall \mathbf{v} \in V, \mathcal{L}(\mathbf{v})$ è l'immagine di $\mathbf{v}$ tramite l'applicazione $\mathcal{L}$
+
+e che
+- $\forall U \subseteq V, \mathcal{L}(U) = \{\mathcal{L}(\mathbf{u}) : \mathbf{u} \in U\}$ è l'immagine di U
+
 ```
 
+
+```anki
+deck: <% tp.file.cursor(0) %>
+---
+<% tp.file.cursor(1) %>
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
 
 ```anki
 id: 1694785481924
