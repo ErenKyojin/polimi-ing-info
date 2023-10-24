@@ -441,9 +441,19 @@ e che
 
 
 ```anki
-deck: <% tp.file.cursor(0) %>
+deck: GAL
 ---
-<% tp.file.cursor(1) %>
+Controimmagine di un applicazione
+===
+Dati $V$ e $W$ spazi vettoriali su $\mathbb{K}$, data $\mathcal{L} : V \to W$ applicazione lineare, diciamo che $\forall V$
+$\forall H \subseeq W, \mathcal{L}^{-1}(H) = \{\mathbf{v} \in V : \mathcal{L} (\mathbf{v}) \in H\}$ è la controimmagine di H. La controimmagine di un insieme può essere l'insieme vuoto.
+```
+
+
+```anki
+deck: GAL
+---
+Fibra di un applicazione
 ===
 <% tp.file.cursor(2) %>
 ```
