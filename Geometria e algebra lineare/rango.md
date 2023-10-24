@@ -6,7 +6,7 @@
 
 Il rango di una matrice è il numero delle sue righe [[Dipendenza e indipendenza lineare|linearmente indipendenti]] (che coincide con il numero di colonne linearmente indipendenti)
 
-Si puó anche definire come la [[Geometria e algebra lineare/Dimensione]] dell'immagine dell'applicazione lineare.
+Si puó anche definire come la [[Dimensione]] dell'immagine dell'applicazione lineare.
 Si calcola attraverso il [[Metodo di eliminazione di Gauss]]
 zz
 Data $A \in M_{\mathbb{K}(n,n)}$ possiamo considerarla come giustpposizione di $m$ righe o di $n$ colonne:
@@ -23,7 +23,7 @@ Associati ad $A$ abbiamo tre [[Spazi vettoriali]]:
 1. $\ker(A) = \left\{ \mathbf{v} \in \mathbb{K}^n : A \cdot \mathbf{v} = \mathbf{0} \right\} \subseteq \mathbb{K}^n$
 2. $\Row(A) = \Span(\mathbf{a_{1}}^T ,\dots, \mathbf{a}_{m}^T) \subseteq \mathbb{K}^n$
 3. $\Col(A) = \Span(\mathbf{c_{1}},\dots,\mathbf{c}_{n}) \subseteq \mathbb{K}^n$
-Abbiamo visto che la [[Geometria e algebra lineare/Dimensione]] $\dim(\ker(A)) = n - r(A)$ dal teorema di nullità piú rango. Vogliamo dimostrare che
+Abbiamo visto che la [[Dimensione]] $\dim(\ker(A)) = n - r(A)$ dal teorema di nullità piú rango. Vogliamo dimostrare che
 $$ \dim(\Row(A)) = \dim(\Col(A)) = r(A) $$
 
 >[!def]

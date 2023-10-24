@@ -353,7 +353,7 @@ Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 
 
 >[!def]
->Sia $\mathcal{L} : V \to W$ un'[[Applicazioni lineari|applicazione lineare]]. Il [[rango]] $r(\mathcal{L})$ di $\mathcal{L}$ è la	[[Geometria e algebra lineare/Dimensione]] dell'immagine $\Im(\mathcal{L})$ di $\mathcal{L}$
+>Sia $\mathcal{L} : V \to W$ un'[[Applicazioni lineari|applicazione lineare]]. Il [[rango]] $r(\mathcal{L})$ di $\mathcal{L}$ è la	[[Dimensione]] dell'immagine $\Im(\mathcal{L})$ di $\mathcal{L}$
 
 
 >[!oss]
@@ -508,7 +508,7 @@ Isomorfismo
 Un'applicazione lineare invertibile $\mathcal{L} : V \to W$ si dice isomorfismo.
 	Diciamo che due spazio vettoriali $V$ e $W$ sono isomorfismi se esiste un isomorfismo $\mathcal{L} : V \to W$ 
 ```
-<% tp.file.cursor(3) %>
+
 
 
 ```anki

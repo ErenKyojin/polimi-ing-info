@@ -8,7 +8,7 @@
 >  Possiamo anche scrivere: $\mathbf{v}_{\mathbf{w}} = (\cos(\alpha) \|\mathbf{v}\|\|\mathbf{w}\|) \frac{\mathbf{w}}{\|\mathbf{w}\|^2}$
 
 
-## Proiezione ortogonale su un sottospazio di [[Geometria e algebra lineare/Dimensione]] 1
+## Proiezione ortogonale su un sottospazio di [[Dimensione]] 1
 
 Sia $(V, <,>)$ spazio Euclideo. Siano $\mathbf{v},\mathbf{w} \in V$ vettori diversi da $\mathbf{0}$. Sia $H = \Span(\mathbf{w})$ sottospazio di $V$.
 1. Esiste un unico vettore $\mathbf{v}_{H} \in H$ tale che $\mathbf{v}- \mathbf{v}_{H} \perp \mathbf{h} \forall \mathbf{h} \in H$. 

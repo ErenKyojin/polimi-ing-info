@@ -94,7 +94,7 @@ $$ \begin{align}
 >>    Infatti ad esempio: $\mathbf{u}_{1} = \mathbf{u}_{1} + \mathbf{0} \in H_{1} + H_{2}$ quindi $\Span(\mathbf{u}_{1},\dots,\mathbf{u}_{d},\mathbf{v}_{1},..,\mathbf{v}_{m}) \subseteq H_{1} + H_{2}$
 
 
-# [[Geometria e algebra lineare/Dimensione]] di sottospazi vettoriali
+# [[Dimensione]] di sottospazi vettoriali
 
 >[!teorema] Formula di Grassman
 >Siano $H$ e $K$ due sottospazi vettoriali di $V$ spazio vettoriale su $\mathbb{K}$. Se $\dim(H) < +\infty$ e $\dim(K) < +\infty$ allora $\dim(H + K) = \dim(H) + \dim(K) - \dim(H \cap K)$ 

@@ -1,1 +1,0 @@
-La dimensione di un [[insieme]] è il numero di elementi di una [[Base]] dell'insieme stesso
