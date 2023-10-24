@@ -474,7 +474,9 @@ deck: GAL
 ---
 Iniettività di un'applicazione lineare
 ===
-Un applicazione lineare $\mathcal{L} : V \to W$ è iniettiva se e solo se $\forall \mathbf{v}_1, \mathbf{v}_2 \in V : \mathcal{L}(\mathbf{v}_1) = \mathcal{L}(\mathbf{v}_2) \iff $
+Un applicazione lineare $\mathcal{L} : V \to W$ è iniettiva se e solo se $\forall \mathbf{v}_1, \mathbf{v}_2 \in V : \mathcal{L}(\mathbf{v}_1) = \mathcal{L}(\mathbf{v}_2) \iff \mathbf{v}_1 = \mathbf{v}_2$.
+
+$\mathcal{L}$ è iniettiva se $\dim(\ker(\mathcal{L})) =  0$
 ```
 <% tp.file.cursor(3) %>
 
