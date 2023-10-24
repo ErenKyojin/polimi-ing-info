@@ -410,6 +410,17 @@ Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 >3. $\mathcal{L}$ è isomorfismo $\iff r(\mathcal{L}) = n = m$
 
 # ANKI
+
+
+```anki
+deck: GAL
+---
+Applicazione lineare
+===
+Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ diremo che una funzione $\mat$
+```
+<% tp.file.cursor(3) %>
+
 ```anki
 id: 1694785481924
 deck: GAL
