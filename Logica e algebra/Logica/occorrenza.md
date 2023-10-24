@@ -16,7 +16,7 @@ modification date: 2023-05-10 09:56
 
 
 >[!def]
->Un termine $t$ si dice **libero per una variabile** $x$ in una formula $\mathcal{A}$ se nessuna occorrenza libera di $x$ in $\mathcal{A}$ cade nel campo d'azione di un quantifiatore che quantifichi una variabile che compare in $t$.
+>Un termine $t$ si dice **libero per una variabile** $x$ in una formula ben formata $\mathcal{A}$ se nessuna occorrenza libera di $x$ in $\mathcal{A}$ cade nel campo d'azione di un quantifiatore che quantifichi una variabile che compare in $t$.
 
 
 >[!esempio]
@@ -40,5 +40,5 @@ deck: LeA
 ---
 termine libero per una variabile
 ===
-Un termine $t$ si dice **libero per una variabile** $x$ in una formula $\mathcal{A}$ se nessuna occorrenza libera di $x$ in $\mathcal{A}$ cade nel campo d'azione di un quantificatore che quantifichi una variabile che compare in $t$
+Un termine $t$ si dice **libero per una variabile** $x$ in una formula ben formata $\mathcal{A}$ se nessuna occorrenza libera di $x$ in $\mathcal{A}$ cade nel campo d'azione di un quantificatore che quantifichi una variabile che compare in $t$
 ```
