@@ -130,14 +130,7 @@ In generale la risoluzione lineare per input non è completa, nel senso che non 
 La derivazione lineare per input è completa quando l'insieme di clausole di partenza è costituito da **clausole di Horn**, ovvero da clausole che contengono al piú un letterale positivo (ovvero al più una lettera enunciativa non negata), questo significa che da un insieme di clausole di Horn possiamo ricavare la clausola vuota se e solo se la possiamo ricavare tramite una risoluzione lineare per input. In molti casi pratici le clausole che si incontrano sono clausole di Horn.
 
 
-```anki
-deck: LeA
----
-Clausole di Horn
-===
-Clausole con al più un letterale positivo (quindi al massimo una l)
-```
-<% tp.file.cursor(3) %>
+
 
 # ANKI
 
@@ -248,4 +241,12 @@ indico con $S = \Delta \cup \{\sim A\}^C$
 - b. $S = Ris(S)$
 	- $\square \in S$ e quindi $\Gamma \vDash A$
 	- $F = S$ e quindi $\Gamma \cancel{\Vdash} A$
+```
+
+```anki
+deck: LeA
+---
+Clausole di Horn
+===
+Clausole con al più un letterale positivo
 ```

@@ -72,3 +72,25 @@ Osservate che se $\mathcal{B}$ non contiene occorrenze libere di $x$ non serve f
 Osservate anche che data una f.b.f. non è unica la f.b.f. in forma normale prenessa ad essa equivalente, in quanto la forma ottenuta dipende dall'ordine con cui si applicano le trasformazioni precedenti
 
 Definiamo le formule in [[forma di Skolen]]
+
+# ANKI
+
+```anki
+deck: LeA
+---
+Linguaggio del primo ordine
+===
+- Costanti: a, b ,c (al più infinità numerabile)
+- variabili: x, y, z (al più infinita numerabile)
+- Lettere funzionali: $f_i ^n$
+	- l'apice indica la quantità di termini sulla quale lavora la lettera funzionale
+	- il pedice distingue diverse lettere funzionali
+- Lettere predicative: $\mathcal{A}_i^n$
+	- l'apice indica la quantità di termini
+	- il pedice distingue diverse lettere predicative
+- Connettivi: $\sim, \land, \lor, \implies, \iff$
+- quantificatori
+	- $\forall$ quantificatore universale
+	- $\exists$ quantificatore esistenziale
+- Simboli ausiliari: ( , )
+```
