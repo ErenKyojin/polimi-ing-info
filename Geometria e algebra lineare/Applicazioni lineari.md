@@ -470,6 +470,15 @@ $$\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_W) = \{\mathbf{v} \in V : \mat
 
 
 ```anki
+deck: GAL
+---
+Iniettività e suriettività di un applicazione lineare
+===
+Dati due insiemi $A$ e $B$ diremo che
+```
+<% tp.file.cursor(3) %>
+
+```anki
 id: 1694785481924
 deck: GAL
 ---
