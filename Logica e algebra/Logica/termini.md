@@ -16,10 +16,11 @@ modification date: 2023-05-09 19:36
 ```anki
 deck: LeA
 ---
+Termini
+===
 - ogni costante è un termine
 - Ogni variabile è un termine
-- Se $t1,t2,...,t_n$ sono termini e $f_1^n$ è una lettera funzionale, anche $f_i$
-===
-<% tp.file.cursor(2) %>
+- Se $t_1,t_2,...,t_n$ sono termini e $f_1^n$ è una lettera funzionale, anche $f_i^n(t_1,t_2,...,t_n)$ è un termine
+- nient'altro è un termine
 ```
-<% tp.file.cursor(3) %>
+

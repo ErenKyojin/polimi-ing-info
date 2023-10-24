@@ -201,3 +201,13 @@ $A \implies B = \sim (A \land \sim B)$
 $\sim(A \lor B) = \sim A \land \sim B$
 $\sim(A \land B) = \sim A \lor \sim B$
 ```
+
+
+```anki
+deck: LeA
+---
+Formule ben formate nel linguaggio del primo ordine
+===
+
+```
+<% tp.file.cursor(3) %>

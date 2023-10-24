@@ -16,7 +16,7 @@ modification date: 2023-05-09 19:19
 > 	- $\exists x$ detto quantificatore esistaziale
 > - Simboli ausiliari: $($,$)$
 
-Attraverso questi simboli possiamo definire i [[termini]], e attraverso lettere predicative e termini possiamo costruire delle frasi che giocano il ruolo di lettere enunciative, ossia mattoni costruittivi di frasi più complesse, dette le [[formule atomiche]],  infine definiamo ricorsivamente le [[formule ben formate]]
+Attraverso questi simboli possiamo definire i [[termini]], e attraverso lettere predicative e termini possiamo costruire delle frasi che giocano il ruolo di lettere enunciative, ossia mattoni costruittivi di frasi più complesse, dette le [[formule atomiche]],  infine definiamo ricorsivamente le [[formule ben formate#Nel linguaggio del primo ordine|formule ben formate nel linguaggio del primo ordine]]
 
 >[!esempio]
 >Sia $L$ un linguaggio del primo ordine, contenente le costanti $a,b,c$; le variabili $x,y$; le lettere funzionali $f_{1}^1,f_{1}^2,f_{2}^1$ e le lettere predicative $\mathcal{A}_{1}^2,\mathcal{A}_{2}^2$, le sequenze $a, x, f_{2}^2 (a,x), f_{1}^2(x,f_{2}^2(a,x)),f_{1}^1(f_{1}^2(x,f_{2}^2(a,x)))$ sono tutti [[termini]], infatti $a$ è una costante, $x$ è una variabile, $f_{2}^2(a,x)$ ed $f_{1}^2(x,f_{2}^2(a,x))$ sono formati da una lettera funzionale di apice 2 applicata a due termini, $f_{1}^1(f_{1}^2(x,f_{2}^2(a,x)))$ è una lettera funzionale di apice 1 applicata ad un termine. Invece $f_{1}^1(f_{1}^2(x,f_{2}^2(a,x)),b)$ non è un termine in quanto la lettera funzionale $f_{1}^1$ che ha come apice $1$ è applicata a due argomenti: $f_{1}^2(x,f_{2}^2(a,x))$ e $b$.
@@ -88,7 +88,7 @@ Linguaggio del primo ordine
 - Lettere predicative: $\mathcal{A}_i^n$
 	- l'apice indica la quantità di termini
 	- il pedice distingue diverse lettere predicative
-- Connettivi: $\sim, \land, \lor, \implies, \iff$
+- Connettivi: $\sim, \land, \lor, \Rightarrow, \Leftrightarrow$
 - quantificatori
 	- $\forall$ quantificatore universale
 	- $\exists$ quantificatore esistenziale
