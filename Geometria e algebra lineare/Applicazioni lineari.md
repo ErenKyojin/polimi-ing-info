@@ -472,11 +472,12 @@ $$\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_W) = \{\mathbf{v} \in V : \mat
 ```anki
 deck: GAL
 ---
-Iniettività e suriettività di un applicazione lineare
+Iniettività di un'applicazione lineare
 ===
-Dati due insiemi $A$ e $B$ diremo che
+Un applicazione lineare $\mathcal{L} : V \to W$ è iniettiva se e solo se $\forall \mathbf{v}_1, \mathbf{v}_2 \in V : \mathcal{L}(\mathbf{v}_1) = \mathcal{L}(\mathbf{v}_2) \iff $
 ```
 <% tp.file.cursor(3) %>
+
 
 ```anki
 id: 1694785481924
