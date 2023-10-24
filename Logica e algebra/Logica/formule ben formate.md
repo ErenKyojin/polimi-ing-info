@@ -124,6 +124,14 @@ Possiamo quindi definire gli [[insiemi adeguati]]
 >- Nient'altro è una f.b.f.
 
 
+- $\sim \mathcal{B}$
+- $\mathcal{B} \land \mathcal{C}$
+- $\mathcal{B} \lor \mathcal{C}$
+- $\mathcal{B} \implies \mathcal{C}$
+- $\mathcal{B} \iff \mathcal{C}$
+- $(\forall x) \mathcal{B}$
+- $(\exists x) \mathcal{B}$
+
 # ANKI
 
 ```anki
