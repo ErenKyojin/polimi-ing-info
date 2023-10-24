@@ -15,4 +15,17 @@ modification date: 2023-07-07 09:14
 
 
 >[!oss]
->Possiamo notare come l'immagine di un endomorfismo sia un sottoinsieme dell'insieme di partenza, possiamo quindi chiederci se esistono insiemi 
+>Possiamo notare come l'immagine di un endomorfismo sia un sottoinsieme dell'insieme di partenza, possiamo quindi chiederci se esistono sottospazi vettoriali di dimensione 1 invariati per l'azione dell'endomorfismo.
+
+
+# ANKI
+
+
+```anki
+deck: GAL
+---
+Endomorfismo di applicazioni lineari
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
