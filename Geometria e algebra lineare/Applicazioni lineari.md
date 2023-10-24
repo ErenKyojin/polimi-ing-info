@@ -464,9 +464,10 @@ deck: GAL
 ---
 Nucelo di un applicazionee lineare
 ===
-Dati $V$ e 
+Dati $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L} : V \to W$ applicazione lineare, definiamo il nucleo di $\mathcal{L}$
+$$\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_W) = \{\mathbf{v} \in V : \mathcal{L}(\mathbf{v}) = \mathbf{0}_W\} \subseteq V$$
 ```
-<% tp.file.cursor(3) %>
+
 
 ```anki
 id: 1694785481924
