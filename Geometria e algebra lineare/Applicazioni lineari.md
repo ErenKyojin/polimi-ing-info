@@ -426,6 +426,15 @@ $$ \forall t_1,t_2 \in \mathbb{K}, \forall \mathbf{v}_1,\mathbf{v}_2 \in V\quad 
 ```
 
 
+```anki
+deck: GAL
+---
+immagine di un applicazione lineare
+===
+Dati $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e data $\mathcal{L} : V \to W$ applicazione lineare diciamo che 
+$\forall \mathbf{v} \in V, \mathcal{L}(\mathbf{v})$ è l'immagine di $\mathbf{v}$ tramite l'applicazione $\mathcal{L}$
+```
+
 
 ```anki
 id: 1694785481924
