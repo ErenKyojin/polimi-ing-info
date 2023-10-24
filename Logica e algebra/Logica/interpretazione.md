@@ -18,4 +18,16 @@ Fissare un interpretazione corrisponde a:
 - Attribuire arbitrariamente un valore di verità ($1$ o $0$) a tutte le lettere enunciative (eccetto ai due simboli speciali $\perp$ e $\top$ che devono avere rispettivamente valori $0$ o $1$)
 - Passare dal valore di verità di $\mathcal{A}$ e $\mathcal{B}$ a quello di $\sim \mathcal{A}, \mathcal{A \land B}, \mathcal{A \lor B}, \mathcal{ A \implies B}, \mathcal{A \iff B}$ utilizzando le tavole di verità dei [[connettivi]]
 
+# Interpretazione in logica del primo ordine
+#todo
 
+# ANKI
+
+```anki
+deck: LeA
+---
+
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
