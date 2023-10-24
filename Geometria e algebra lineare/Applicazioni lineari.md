@@ -455,7 +455,16 @@ deck: GAL
 ---
 Fibra di un applicazione
 ===
-<% tp.file.cursor(2) %>
+Dati $V$ e $W$ spazi vettoriali su $\mathbb{K}$, data $\mathcal{L} : V \to W$ applicazione lineare, diciamo che dato $H = \{\mathbf{w}\}$ e con $\mathbf{w} \in W$ tale che $\mathcal{L}(\mathbf{v}) = \mathbf{w}$, allora $\mathcal{L}^{-1}(\mathbf{w}) = \{\mathbf{v} \in V : \mathcal{L}(\mathbf{v}) = \mathbf{w}\}$ si chiama fibra di $\mathcal{L}$ su $\mathbf{w}$
+```
+
+
+```anki
+deck: GAL
+---
+Nucelo di un applicazionee lineare
+===
+Dati $V$ e 
 ```
 <% tp.file.cursor(3) %>
 
