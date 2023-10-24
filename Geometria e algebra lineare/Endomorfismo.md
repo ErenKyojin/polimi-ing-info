@@ -15,4 +15,4 @@ modification date: 2023-07-07 09:14
 
 
 >[!oss]
->Possiamo notare come l'immagine di un endomorfismo sia un sottoinsieme del
+>Possiamo notare come l'immagine di un endomorfismo sia un sottoinsieme dell'insieme di partenza, possiamo quindi chiederci se esistono insiemi 
