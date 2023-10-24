@@ -29,6 +29,5 @@ Sottoformule nella logica del primo ordine
 ===
 - Se $\mathcal{A}$ è una formla atomica, $\text{stfm}(\mathcal{A}) = \mathcal{A}$
 - Se $\mathcal{A}$ è $\sim \mathcal{B}$ o $\forall x \mathcal{B}$ o $\exists x \mathcal{B}$, $\text{Stfm}(\mathcal{A}) = \{\mathcal{A}\} \cup \text{Stfm}(\mathcal{B})$
-- Se $\mathcal{A}$ è $\mathcal{B} \land \mathcal{C}, \mathcal{B} \lor \mathcal{C}, \mathcal{B} \implies \mathcal{C}, \mathcal{B} \iff \mathcal{C}$, $\text{Stfm}(\mathcal{A}) = \{\mathcal{A}\} \cup \text{Stfm}(\mathcal{B}) \cup \text{Stfm}(\mathcal{C}$
+- Se $\mathcal{A}$ è $\mathcal{B} \land \mathcal{C}, \mathcal{B} \lor \mathcal{C}, \mathcal{B} \implies \mathcal{C}, \mathcal{B} \iff \mathcal{C}$, $\text{Stfm}(\mathcal{A}) = \{\mathcal{A}\} \cup \text{Stfm}(\mathcal{B}) \cup \text{Stfm}(\mathcal{C})$
 ```
-<% tp.file.cursor(3) %>
