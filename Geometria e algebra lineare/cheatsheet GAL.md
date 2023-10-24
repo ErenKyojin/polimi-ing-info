@@ -13,4 +13,6 @@ $V$ e $W$ spazi vettoriali su $\mathbb{K}$, $\mathcal{L} : V \to W$
 
 
 ##### Iniettività e suriettività
-$Dim(V) > Dim (W)$
+- applicazione lineare da V a W, se $Dim(V) > Dim (W)$ allora sicuramente l'applicazione non è suriettiva
+- applicazione lineare da V a W, se $Dim(V) = dim(W)$ l'applicazione è iniettiva solo se è anche suriettiva 
+
