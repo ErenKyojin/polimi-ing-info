@@ -19,15 +19,25 @@ Fissare un interpretazione corrisponde a:
 - Passare dal valore di verità di $\mathcal{A}$ e $\mathcal{B}$ a quello di $\sim \mathcal{A}, \mathcal{A \land B}, \mathcal{A \lor B}, \mathcal{ A \implies B}, \mathcal{A \iff B}$ utilizzando le tavole di verità dei [[connettivi]]
 
 # Interpretazione in logica del primo ordine
-#todo
+>[!def]
+>$\left< D, I \right>$ Interpretazione
+>$D$ insieme non vuoto
+>$I = \{I_1,I_2,I_3\}$
+>$I_1 : \{\text{cost}\} \to D$
+>$I_2 : \{f_i^n\} \to \{\text{operazioni  n-arie su D}\}$
+>$I_3 : \{a_j^m\} \to \{\text{relazione m-aria su D}\}$
 
 # ANKI
 
 ```anki
 deck: LeA
 ---
-
+interpretazione in logica del primo ordine
 ===
-<% tp.file.cursor(2) %>
+$\left< D, I \right>$ Interpretazione
+$D$ insieme non vuoto
+$I = \{I_1,I_2,I_3\}$
+$I_1 : \{\text{cost}\} \to D$
+$I_2 : \{f_i^n\} \to \{\text{operazioni  n-arie su D}\}$
+$I_3 : \{a_j^m\} \to \{\text{relazione m-aria su D}\}$
 ```
-<% tp.file.cursor(3) %>
