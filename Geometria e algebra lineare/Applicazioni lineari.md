@@ -478,6 +478,36 @@ Un applicazione lineare $\mathcal{L} : V \to W$ è iniettiva se e solo se $\fora
 
 $\mathcal{L}$ è iniettiva se $\dim(\ker(\mathcal{L})) =  0$
 ```
+
+
+```anki
+deck: GAL
+---
+Applicazione lineare suriettiva
+===
+Un'applicazione lineare $\mathcal{L} : V \to W$ è suriettiva se $\forall \mathbf{w} \in W \exists \mathbf{v} \in V : \mathcal{L}(\mathbf{v}) = \mathbf{w}$
+```
+
+
+```anki
+deck: GAL
+---
+Applicazione lineare invertibile
+===
+Un'applicazione lineare $\mathcal{L} : V \to W$ è invertibile se esiste $\mathcal{L}^{-1} : W \to A$ tale che
+$$ \forall \mathbf{v} \in V \quad \mathcal{L}^{-1}(\mathcal{L}(\mathbf{v})) = \mathbf{v} $$
+$$ \forall \mathbf{w} \in W \quad \mathcal{L}(\mathcal{L}^{-1}(\mathbf{w})) = \mathbf{w} $$
+```
+
+
+```anki
+deck: GAL
+---
+Isomorfismo
+===
+Un'applicazione lineare invertibile $\mathcal{L} : V \to W$ si dice isomorfismo.
+	Diciamo che due spazio vettoriali $V$ e $W$ sono isomorfismi se esiste un isomorfismo $\mathcal{L} : V \to W$ 
+```
 <% tp.file.cursor(3) %>
 
 
