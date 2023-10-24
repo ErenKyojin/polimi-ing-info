@@ -417,9 +417,15 @@ deck: GAL
 ---
 Applicazione lineare
 ===
-Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ diremo che una funzione $\mat$
+Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ diremo che una funzione $\mathcal{L} : V \to W$ è lineare se valgono le seguenti proprietà:
+1. $\forall \mathbf{v}_1,\mathbf{v}_2 \in V\quad \mathcal{L} (\mathbf{v}_1 + \mathbf{v}_2) = \mathcal{L}(\mathbf{v}_1) + \mathcal{L}(\mathbf{v}_2)$, additività
+2. $\forall t \in K, \forall \mathbf{v} \in V\quad \mathcal{L}(t \cdot \mathbf{v}) = t\mathcal{L}(\mathbf{v})$ omogeneità
+
+E si può riassumere tutto come
+$$ \forall t_1,t_2 \in \mathbb{K}, \forall \mathbf{v}_1,\mathbf{v}_2 \in V\quad \mathcal{L}(t_1 \mathbf{v}_1 + t_2 \mathbf{v}_2) = t_1 \mathcal{L}(\mathbf{v}_1) + t_2 \mathcal{L}(\mathbf{v}_2) $$
 ```
-<% tp.file.cursor(3) %>
+
+
 
 ```anki
 id: 1694785481924
