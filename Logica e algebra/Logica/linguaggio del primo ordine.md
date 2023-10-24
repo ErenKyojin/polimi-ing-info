@@ -94,3 +94,12 @@ Linguaggio del primo ordine
 	- $\exists$ quantificatore esistenziale
 - Simboli ausiliari: ( , )
 ```
+
+
+```anki
+deck: LeA
+---
+Precedenza dei connettivi in logica del primo ordine
+===
+$\sim \forall\ \exists\land \lor \implies \iff$
+```

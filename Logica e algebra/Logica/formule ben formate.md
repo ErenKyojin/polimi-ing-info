@@ -208,6 +208,8 @@ deck: LeA
 ---
 Formule ben formate nel linguaggio del primo ordine
 ===
-
+1. Ogni formule atomica è una fbf
+2. Se $a$ è una fbf allora $\sim a, \forall a, \exists a$ sono fbf
+3. Se $a$ e $b$ sono fbf allora $a \land b, a \lor b, a \implies b, a \iff b$ sono fbf
+4. nient'altro è una fbf
 ```
-<% tp.file.cursor(3) %>
