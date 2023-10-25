@@ -14,3 +14,14 @@ Il procedimento da seguire è questo:
 - Portare $\mathcal{A}$ in forma prenessa
 - Se in testa c'è un quantificatore esistenziale eliminarlo sostituendo ogni occorrenza libera della variabile che era quantificata da quel quantificatore con una nuova costante e ripetere il procedimento fino a che o tutti i quantificatori esistenziali sono eliminati o il primo quantificatore di prefisso rimasto è un quantificatore universale
 - Se non sono rimasti quantificatori esistenziali, la formula è in forma di Skolen, altrimenti considerare il primo quantificatore esistenziale che si incontra percorrendo la formula da sinistra a destra, questo è preceduto da $n (n > 1)$ quantificatori universali, eliminare il quantificatore esistenziale sostituendo ogni occorrenza libera della variabile che era quantificata da quel quantificatore con un termine formato da una nuova lettera funzionale di apice $n$ applicata alle $n$ variabili quantificate dai quantificatori universali che precedevano il quantificatore esistenziale eliminato, ripetere il procedimento fino a che o tutti i quantificatori esistenziali sono eliminati
+
+# ANKI
+
+```anki
+deck: LeA
+---
+Forma normale di Skolen
+===
+La forma normale di Skolen è una forma normale premessa che **non** contiene quantificatori esistenziali
+```
+<% tp.file.cursor(3) %>
