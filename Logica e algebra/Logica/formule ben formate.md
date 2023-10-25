@@ -132,6 +132,10 @@ Possiamo quindi definire gli [[insiemi adeguati]]
 - $(\forall x) \mathcal{B}$
 - $(\exists x) \mathcal{B}$
 
+Una formula è soddisfacibile se esiste almeno un assegnamento che la soddisfa
+Una formula è vera se qualsiasi assegnamento diamo in quell'interpretazione è sempre soddisfatot
+Una formula è falsa se nessun assegnamento la soddisfa
+
 # ANKI
 
 ```anki

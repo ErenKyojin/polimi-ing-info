@@ -73,6 +73,7 @@ Osservate anche che data una f.b.f. non è unica la f.b.f. in forma normale pren
 
 Definiamo le formule in [[forma di Skolen]]
 
+
 # ANKI
 
 ```anki
