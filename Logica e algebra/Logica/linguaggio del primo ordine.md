@@ -104,3 +104,13 @@ Precedenza dei connettivi in logica del primo ordine
 ===
 $\sim \forall\ \exists\land \lor \implies \iff$
 ```
+
+
+```anki
+deck: LeA
+---
+<% tp.file.cursor(1) %>
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
