@@ -4,6 +4,8 @@
 >[!def] chiusura esistenziale
 >Data una formula $\mathcal{A}$ si ottiene la **chiusura eistenziale** di $\mathcal{A}$ facendo precedere $\mathcal{A}$ da quantificatori esistenziali che quantifichino le variabili che in $\mathcal{A}$ hanno occorrenze libere
 
+la chiusura universale di una fbf è vera se e solo se la fbf è vera
+
 >[!esempio]
 >Data la formula
 >$$ \mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2 (f_{1}^2(x,f_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2(x,x)) $$

@@ -148,7 +148,6 @@ Le formule ben formate o fbf sono sequenze di simboli con una buona struttura ch
 - nient'altro è una fbf
 ```
 
-
 ```anki
 deck: LeA
 ---
@@ -158,7 +157,6 @@ Una f.b.f. $\mathcal{A}$ si dice soddisfacibile se esiste almeno una interpretaz
 
 Una f.b.f. che non ammette modelli è detta insoddisfacibile
 ```
-
 
 ```anki
 deck: LeA
