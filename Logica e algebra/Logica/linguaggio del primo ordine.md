@@ -109,8 +109,13 @@ $\sim \forall\ \exists\land \lor \implies \iff$
 ```anki
 deck: LeA
 ---
-<% tp.file.cursor(1) %>
+Formula normale prenessa
 ===
-<% tp.file.cursor(2) %>
+Formula con i quantificatori in testa ad una fbf senza alcun quantificatore all'interno.
+
+Per passare da una formula qualsiasi alla forma normale prenessa:
+- $(\forall x) \mathcal{A}(x) \implies \mathcal{B} \equiv (\exists t)(\mathcal{A}(t) \implies \mathcal{B)}$
+- $(\exists x)\mathcal{A}(x) \implies \mathcal{B} \equiv (\forall t) (\mathcal{A}(t) \implies \mathcal{B)}$
+- $\mathcal{A} \implies (\forall x)\mathcal{B}(x) \equiv \forall(t)(\mathcal{A} \implies \mathcal{B}(t))$
+- $\mathcal{A} \implies (\exists x)\mathcal{B}(x) \equiv \exists(t)(\mathcal{A} \implies \mathcal{B(t)})$
 ```
-<% tp.file.cursor(3) %>
