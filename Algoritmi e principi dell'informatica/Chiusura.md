@@ -1,10 +1,10 @@
 >[!def] Chiusura universale
 >Data una formula $\mathcal{A}$ se ne può fare la **chiusura universale** facendo precedere $\mathcal{A}$ da [[quantificatori]] universali che quantifichino le variabili che in $\mathcal{A}$ hanno occorrenze libere
+>La chiusura universale di una fbf è vera se e solo se la fbf è vera.
 
 >[!def] chiusura esistenziale
 >Data una formula $\mathcal{A}$ si ottiene la **chiusura eistenziale** di $\mathcal{A}$ facendo precedere $\mathcal{A}$ da quantificatori esistenziali che quantifichino le variabili che in $\mathcal{A}$ hanno occorrenze libere
-
-la chiusura universale di una fbf è vera se e solo se la fbf è vera
+>La chiusura esistenziale di una fbf è vera se e solo se è soddisfacibile
 
 >[!esempio]
 >Data la formula
