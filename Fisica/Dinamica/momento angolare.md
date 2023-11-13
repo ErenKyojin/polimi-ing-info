@@ -1,4 +1,4 @@
-i---
+---
 aliases: 
 creation date: 2023-04-10 18:19
 modification date: 2023-04-10 18:19
@@ -141,5 +141,10 @@ Seconda equazione cardinale rispetto ad un polo mobile
 ===
 Consideriamo un polo O che si muove con velocità $\vec{v}_O$ in un sistema di riferimento inerziale. Il momento angolare di $P$ rispetto ad $O$ vale
 $$ \vec{L}_O = \vec{r} \times \vec{p}\ \vec{r} = \vec{r}_P - \vec{r}_O \implies \vec{v} = \frac{d\vec{r}}{dt} = \frac{d\vec{r}_P}{dt} - \frac{d\vec{r}_O}{dt} = \vec{v}_P - \vec{v}_O $$
-$$ \frac{d\vec{L}_O}{dt} = \vec{d\vec{r}}{dt} \times \vec{p} + \vec{r} \times \vec{F} = (\vec{}) $$
+$$ \frac{d\vec{L}_O}{dt} = \vec{d\vec{r}}{dt} \times \vec{p} + \vec{r} \times \vec{F} = (\vec{v}_P - \vec{v}_O) \times \vec{p} + \vec{\tau} = - \vec{v}_O \times \vec{p} + \vec{\tau} $$
+ma $\vec{v}_P \parallel \vec{p} \implies \vec{v}_p \times \vec{p} = 0$.
+Quindi la seconda equazione cardinale della dinamica rispetto ad un polo mobile con velocità $\vec{v}_O$ diventa per un singolo punto materiale
+$$ \frac{d\vec{L}_O}{dt} + \vec{v}_O \times \vec{p} = \vec{\tau} $$
+Per u nsistema di punti materiali, tale equazione varrà per ciascun punto del sistema. Sommando su tutti i punti otteniamo banalmente
+$$ \frac{d\vec{L}_O}{dt} + \vec{v}_O \times \vec{p} = \vec{\tau}^{(E)} $$
 ```

@@ -91,3 +91,13 @@ deck: Fisica
 Il lavoro dipende in generale dalla ~~traiettoria~~ e non solo dagli estremi $A$ e $B$, anche la variazione di ~~energia cinetica~~ subita dal punto materiale dipende in generale dalla ~~traiettoria~~ di esso seguita per giungere da $A$ a $B$.
 
 ```
+
+ 
+```anki
+deck: Fisica
+---
+Energia cinetica in un sistema di punti materiali
+===
+Si definisce energia cinetica di un sistema di punti materiali in un dato SdR la somma delle energie cinetiche di tutti i punti rispetto allo stesso sistema di riferimento
+$$ E_C = \sum_{i = 1}^n \frac{1}{2}m_i v_i^2 $$
+```
