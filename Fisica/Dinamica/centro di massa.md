@@ -37,7 +37,10 @@ deck: Fisica
 ---
 Centro di massa
 ===
-Il centro di massa CM è un puntofittizzio la cui posizione è la media delle posizioni dei punti materiali del sistema pesate rispetto alla massa, il vettore posizione corrispondente vale dunque:
-$$ \vec{r}_{CM} = \sum_{i = 1}^n \frac{m_i}{M}\vec{r}_i $$
+Il centro di massa CM è un punto fittizzio la cui posizione è la media delle posizioni dei punti materiali del sistema pesate rispetto alla massa, il vettore posizione corrispondente vale dunque:
+$$ \vec{r}_{CM} = \sum_{i = 1}^n \frac{m_i}{M}\vec{r}_i = \frac{\sum_{i = 1}^n m_i \vec{r}_i}{M} $$.
+Con $M$ = $\sum_{i = 1}^n m_i$ massa totale del sistema.
+
+Possiamo ricavare il moto del centrodi massa se conosciamo la risultante delle forze esterne grazie all'equazione cardinale
+$$ \vec{v}_{CM} \equiv \frac{d\vec{r}_{CM}}{dt} = \frac{\sum_{i = 1}^n m_i \vec{v}_i}{M} = = \ $$
 ```
-<% tp.file.cursor(3) %>
