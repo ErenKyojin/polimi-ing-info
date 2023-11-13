@@ -51,4 +51,22 @@ abbiamo quindi dimostrato il seguente:
 
 Nelle precedenti equazioni $\vec{L}_{O}^{(CM)} = \vec{r}_{CM} \times M \vec{v}_{CM}$ e $E_{c}^{(CM)} = \frac{1}{2}Mv_{CM}^2$ sono, rispettivamente, il momento angolare e l'energia cinetica del centro di massa nel sistema di riferimento considerato, mentre $\vec{L}_{CM}'$ e $E_{c}'$ sono il momento angolare e l'energia cinetica del sistema di punti materiali nel SdR C.
 
+# ANKI
+
+```anki
+deck: Fisia
+---
+Primo teorema di Konig
+===
+Consideriamo un SdR solidale con il centro di massa, con l'origine in esso e con orientazione fissa rispetto ad un sistema inerziale, il suo moto di trascinamento è traslatorio puro.
+Le leggi di composizione del vettore posizione e del vettore velocità per l'$i$-esimo punto sono
+$$ \vec{r}_i = \vec{r}_i' + \vec{r}_CM \quad \vec{v}_i = \vec{v}_i' + \vec{v}_{CM} $$
+essendo $\vec{r}_i'$ e $\vec{v}_i'$ la posizione e la velocità relative al sistema $C,\vec{r}_i$ e $\vec{v}_i$ quelle riferite al sistema inerziale fisso, $\vec{r}_{CM}$ e $\vec{v}_{CM}$ quelle del centro di massa. Il momento angolare nel riferimento inerziale si scrive:
+$$ 
+\begin{align}
+\vec{L} = \sum_{i = 1}^n \vec{r}_i' \times m_i\vec{v}_i' = \sum_{i = 1}^n (\vec{r}_i + \vec{r}_{CM}) \times m_i(\vec{v})
+\end{align}
+$$
+```
+<% tp.file.cursor(3) %>
 
