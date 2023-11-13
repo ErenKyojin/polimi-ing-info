@@ -117,7 +117,7 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di 
 ```anki
 deck: Fisica
 ---
-Momento angolare per sistemi di punti materiale
+Momento angolare per sistemi di punti materiale e seconda equazione cardinale per i sistemi di punti materiali
 ===
 Si definisce momento della quantità di moto, o mmomento angolare di un sistema di punti rispetto ad un polo $O$, la somma vettoriale dei momenti della quantità di moto dei singoli punti rispetto allo stesso polo:
 $$ \vec{L} \equiv \sum_{i=1}^n \vec{L}_i = \sum_{i = 1}^n \vec{r}_i \times \vec{p}_i $$
@@ -125,5 +125,21 @@ per ciascun punto materiale del sistema vale la seconda equazione cardinale vist
 $$ \frac{d\vec{L}_i}{dt} = \vec{\tau_i} $$
 sommando sull'indice $i$ tale equazione otteniamo:
 $$ \sum_{i = 1}^n \frac{d\vec{L}_i}{dt} = \frac{d\vec{L}}{dt} = \sum_{i = 1}^n \vec{\tau_i} = \vec{\tau} $$
-tenendo conto, inoltre, che il momento r
+tenendo conto, inoltre, che il momento risultante delle forze agenti sul sistema è pari al momento risultante delle sole forze esterne risulta
+$$ \frac{d\vec{L}}{dt} = \vec{\tau}^{(E)} $$
+
+Questa equazione è la **seconda equazione cardinale per i sistemi di punti materiali**:
+la derivata temporale del momento della quantità di moto di un sistma di punti rispetto ad un dato polo fisso è uguale al momento risultante rispetto allo stesso polo, delle forze esterne applicate al sistema
+
+```
+
+
+```anki
+deck: Fisica
+---
+Seconda equazione cardinale rispetto ad un polo mobile
+===
+Consideriamo un polo O che si muove con velocità $\vec{v}_O$ in un sistema di riferimento inerziale. Il momento angolare di $P$ rispetto ad $O$ vale
+$$ \vec{L}_O = \vec{r} \times \vec{p}\ \vec{r} = \vec{r}_P - \vec{r}_O \implies \vec{v} = \frac{d\vec{r}}{dt} = \frac{d\vec{r}_P}{dt} - \frac{d\vec{r}_O}{dt} = \vec{v}_P - \vec{v}_O $$
+$$ \frac{d\vec{L}_O}{dt} = \vec{d\vec{r}}{dt} \times \vec{p} + \vec{r} \times \vec{F} = (\vec{}) $$
 ```
