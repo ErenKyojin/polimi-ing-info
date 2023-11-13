@@ -79,6 +79,9 @@ deck: Fisica
 ---
 momento ne sistemi di punti materiali
 ===
-<% tp.file.cursor(2) %>
+Indichiamo con il simbolo $\vec{\tau}_i$ il momento risultante delle forze agenti sull $i$-esimo punto rispetto ad un dato polo O (omettiamo il pedice O, assumendo ovunque il medesimo polo O, fisso in un sistema di riferimento inerziale). Tale momento può essere scomposto nel risultante dei momenti delle forze interne e di quelle esterne relative allo stesso polo
+$$ \vec{\tau_i} = \vec{\tau_i}^{I} $$
+
+Sommando sull'indice $i$ i momenti risultanti delle forze interne otteniamo:
+$$ \vec{\tau}^{(I)} = \sum_{i = 1}^n \vec{\tau}_i^{(i)} $$
 ```
-<% tp.file.cursor(3) %>
