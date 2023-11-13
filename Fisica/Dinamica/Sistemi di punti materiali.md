@@ -121,3 +121,4 @@ Principio diconservazione della quantità di moto in un sistema di punti materia
 In un sistema di riferimenti inerziale, un sistema di punti materiali isolato oppure soggetto ad un sistema di foze esterne con risultante nulla conserva la quantità di moto totale
 $$ \vec{F}^{(E)} = 0 \implies \vec{p} = cost $$
 ```
+
