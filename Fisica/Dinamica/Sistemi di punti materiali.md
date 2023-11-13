@@ -83,6 +83,15 @@ deck: Fisica
 ---
 Sistema di punti
 ===
-<% tp.file.cursor(2) %>
+Un sistema di punti è costituito da un insieme di $n$ punti materiali soggetti a interazioni reciproche e con il mondo esterno.
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: Fisica
+---
+Risultante su un $i$-esimo punto materiale
+===
+La risultante delle forze agenti sull $i$-esimo punto è
+$$ \vec{F}_i = \vec{F}_i^{(I)} + \vec{F}_i^{(E)} $$
+```
