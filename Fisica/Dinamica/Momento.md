@@ -83,5 +83,11 @@ Indichiamo con il simbolo $\vec{\tau}_i$ il momento risultante delle forze agent
 $$ \vec{\tau_i} = \vec{\tau_i}^{I} $$
 
 Sommando sull'indice $i$ i momenti risultanti delle forze interne otteniamo:
-$$ \vec{\tau}^{(I)} = \sum_{i = 1}^n \vec{\tau}_i^{(i)} $$
+$$\begin{align}
+\vec{\tau}^{(I)} &= \sum_{i = 1}^n \vec{\tau}_i^{(I)} = \sum_{i = 1}^n \vec{r} \times \vec{F}_i^{(I)} = \sum_{i = 1}^n \sum_{j = 1, j \neq i}^n \vec{r}_i \times \vec{F}_{ij} = \\
+&= \sum_{i = 1}^{n-1} \sum_{j = i + 1}^n (\vec{r}_i \times \vec{F}_{ij} - \vec{r}_j \times \vec{F}_{ij}) = \\
+&= \sum_{i = 1}^{n-1} \sum_{j = i + 1}^n [(\vec{r}_i - \vec{r}_j) \times \vec{F}_{ij}] = 0
+\end{align}
+$$
+infatti le forze interne in base al terzo principio di newton sono a due a due uguali in modulo e direzione e contrarie in verso, e condividono anche la retta d'azione, quindi i rispettivi momenti si annullano a due a due.
 ```

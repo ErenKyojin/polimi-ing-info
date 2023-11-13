@@ -112,3 +112,18 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di 
 >$$ \vec{v}_{CM} \times \vec{p} = \vec{v}_{CM} \times M \vec{v}_{CM} = 0 \implies \frac{d\vec{L}_{CM}}{dt} = \vec{\tau}_{CM}^{(E)}  $$
 >Il [[centro di massa]] è un polo mobile ma gode di proprietà particolari
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+Momento angolare per sistemi di punti materiale
+===
+Si definisce momento della quantità di moto, o mmomento angolare di un sistema di punti rispetto ad un polo $O$, la somma vettoriale dei momenti della quantità di moto dei singoli punti rispetto allo stesso polo:
+$$ \vec{L} \equiv \sum_{i=1}^n \vec{L}_i = \sum_{i = 1}^n \vec{r}_i \times \vec{p}_i $$
+per ciascun punto materiale del sistema vale la seconda equazione cardinale vista in precedenza, cioè
+$$ \frac{d\vec{L}_i}{dt} = \vec{\tau_i} $$
+sommando sull'indice $i$ tale equazione otteniamo:
+$$ \sum_{i = 1}^n \frac{d\vec{L}_i}{dt} = \frac{d\vec{L}}{dt} = \sum_{i = 1}^n \vec{\tau_i} = \vec{\tau} $$
+tenendo conto, inoltre, che il momento r
+```
