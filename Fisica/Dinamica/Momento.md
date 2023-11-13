@@ -70,3 +70,15 @@ Abbiamo quindi dimostrato la seguente proprietà:
 >[!propietà]
 >In un SdR inerziale, il momento risultante delle forze agenti su un sistema è pari al momento risultante delle sole forze esterne rispetto allo stesso polo:
 >$$ \vec{\tau} = \sum_{i = 1}^n \vec{\tau}_{i} = \vec{\tau}^{(I)} + \vec{\tau}^{(E)} = \vec{\tau}^{(E)} = \sum_{i = 1}^{n} \vec{\tau}_{i}^{(E)} = \sum_{i = 1}^n \vec{r}_{i} \times \vec{F}_{i}^{(E)} $$
+
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+momento ne sistemi di punti materiali
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>

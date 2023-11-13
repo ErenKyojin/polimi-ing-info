@@ -53,4 +53,3 @@ Teorema del centro di massa
 ===
 In un sistema di riferimento inerziale, il centro di massa di un sistema di punti materiali si muove come un punto materiale di massa pari alla massa totale del sistema e soggetto alla risultante delle forze esterne applicate al sistema
 ```
-<% tp.file.cursor(3) %>
