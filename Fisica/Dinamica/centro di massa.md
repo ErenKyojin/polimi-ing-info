@@ -42,5 +42,15 @@ $$ \vec{r}_{CM} = \sum_{i = 1}^n \frac{m_i}{M}\vec{r}_i = \frac{\sum_{i = 1}^n m
 Con $M$ = $\sum_{i = 1}^n m_i$ massa totale del sistema.
 
 Possiamo ricavare il moto del centrodi massa se conosciamo la risultante delle forze esterne grazie all'equazione cardinale
-$$ \vec{v}_{CM} \equiv \frac{d\vec{r}_{CM}}{dt} = \frac{\sum_{i = 1}^n m_i \vec{v}_i}{M} = = \ $$
+$$ \vec{v}_{CM} \equiv \frac{d\vec{r}_{CM}}{dt} = \frac{\sum_{i = 1}^n m_i \vec{v}_i}{M} = = \frac{\sum_{i =1}^n \vec{p}_i}{M} = \frac{\vec{p}}{M} \implies \vec{p} = M \cdot \vec{v}_{CM} $$
 ```
+
+
+```anki
+deck: Fisica
+---
+Teorema del centro di massa
+===
+In un sistema di riferimento inerziale, il centro di massa di un sistema di punti materiali si muove come un punto materiale di massa pari alla massa totale del sistema e soggetto alla risultante delle forze esterne applicate al sistema
+```
+<% tp.file.cursor(3) %>
