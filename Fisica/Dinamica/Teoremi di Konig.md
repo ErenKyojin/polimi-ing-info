@@ -65,7 +65,7 @@ essendo $\vec{r}_i'$ e $\vec{v}_i'$ la posizione e la velocità relative al sist
 $$ 
 \begin{align}
 \vec{L} &= \sum_{i = 1}^n \vec{r}_i' \times m_i\vec{v}_i' = \sum_{i = 1}^n (\vec{r}_i + \vec{r}_{CM}) \times m_i(\vec{v}_i' + \vec{v}_{CM}) = \\
-&=
+&=\sum_{i = 1}^n \vec{r}_i \times m_i\vec{v}_i' + \sum_{i = 1}^n \vec{r}_i' \times m_i\vec{v}_{CM} + \sum_{i = 1}^n 
 \end{align}
 $$
 ```
