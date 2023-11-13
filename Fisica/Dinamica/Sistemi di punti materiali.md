@@ -111,3 +111,13 @@ Prima equazione cardinale della dinamica dei sistema
 In un sistema di riferimento iniziale, la risultante delle forze esterne applicate ad un sistema di punti materiali è pari alla derivata temporale della quantità di moto totale del sistema
 $$\vec{F}^{(E)} = \frac{d\vec{p}}{dt}$$
 ```
+
+
+```anki
+deck: Fisica
+---
+Principio diconservazione della quantità di moto in un sistema di punti materiali
+===
+In un sistema di riferimenti inerziale, un sistema di punti materiali isolato oppure soggetto ad un sistema di foze esterne con risultante nulla conserva la quantità di moto totale
+$$ \vec{F}^{(E)} = 0 \implies \vec{p} = cost $$
+```
