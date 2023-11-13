@@ -68,6 +68,11 @@ $$
 &=\sum_{i = 1}^n \vec{r}_i \times m_i\vec{v}_i' + \sum_{i = 1}^n \vec{r}_i' \times m_i\vec{v}_{CM} + \sum_{i = 1}^n \vec{r}_{CM} \times m_i \vec{v}_i + \sum_{i = 1}^n \vec{r}_CM \times m_i \vec{v}_{CM}
 \end{align}
 $$
+possiamo osservare che:
+$$ \begin{align}
+\bullet \sum_{i = 1}^n \vec{r}_i' \times m_i \vec{v}_i' = \vec{L}_{O'}' = \vec{L}_{CM}' \text{ trovandosi l'origine $O'$ del SdR C nel CM }
+\bullet \sum_{i = 1}^n \vec{r}'_i \times m_i \vec{v}_CM = 
+\end{align}$$
 ```
 
 
