@@ -93,5 +93,11 @@ deck: Fisica
 Risultante su un $i$-esimo punto materiale
 ===
 La risultante delle forze agenti sull $i$-esimo punto è
-$$ \vec{F}_i = \vec{F}_i^{(I)} + \vec{F}_i^{(E)} $$
+$$ \vec{F}_i = \vec{F}_i^{(I)} + \vec{F}_i^{(E)}$$
+
+Le forze interne sono dovute alle interazioni con gli altri $n-1$ punti del sistema:
+$$ \vec{F}_i^{(I)} = \sum_{j = 1, j \neq i}^n \vec{F}_{i,j}$$
+dove con $\vec{F}_{i,j}$ abbiamo indicato la forza interna esercitata sull'$i$-esimo punto dal $j$-esimo punto.
+
+Notiamo che per la terza legge della dinamica la risultante di tutte le forze interne è nulla
 ```
