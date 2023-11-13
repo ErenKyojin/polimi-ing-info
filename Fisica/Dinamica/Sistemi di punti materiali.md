@@ -101,3 +101,13 @@ dove con $\vec{F}_{i,j}$ abbiamo indicato la forza interna esercitata sull'$i$-e
 
 Notiamo che per la terza legge della dinamica la risultante di tutte le forze interne è nulla
 ```
+
+
+```anki
+deck: Fisica
+---
+Prima equazione cardinale della dinamica dei sistema
+===
+In un sis
+```
+<% tp.file.cursor(3) %>

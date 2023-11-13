@@ -71,3 +71,13 @@ $$ \vec{p}_{\text{tot}} \equiv \sum_{i = 1}^n \vec{p}_i = \cost $$
 In un sistema inerziale un punto materiale non soggetto ad interazioni si muove con velocità costante e quindi ha anche quantità di moto costante, essendo costante la sua massa.
 Se invece la quantità di moto varia significa che è soggetto ad interazioni.
 ```
+
+
+```anki
+deck: Fisica
+---
+Quantità di moto di un sistema di $n$ punti materiali
+===
+La quantità di moto totale del sistema è per definizione la somma delle quantità di moto dei singoli punti mateirali
+$$\vec{p} \equiv \sum_{i = 1}^n \vec{p}_i$$
+```
