@@ -58,21 +58,40 @@ deck: Fisia
 ---
 Primo teorema di Konig
 ===
-Consideriamo un SdR solidale con il centro di massa, con l'origine in esso e con orientazione fissa rispetto ad un sistema inerziale, il suo moto di trascinamento è traslatorio puro.
-Le leggi di composizione del vettore posizione e del vettore velocità per l'$i$-esimo punto sono
-$$ \vec{r}_i = \vec{r}_i' + \vec{r}_CM \quad \vec{v}_i = \vec{v}_i' + \vec{v}_{CM} $$
-essendo $\vec{r}_i'$ e $\vec{v}_i'$ la posizione e la velocità relative al sistema $C,\vec{r}_i$ e $\vec{v}_i$ quelle riferite al sistema inerziale fisso, $\vec{r}_{CM}$ e $\vec{v}_{CM}$ quelle del centro di massa. Il momento angolare nel riferimento inerziale si scrive:
-$$ 
-\begin{align}
-\vec{L} &= \sum_{i = 1}^n \vec{r}_i' \times m_i\vec{v}_i' = \sum_{i = 1}^n (\vec{r}_i + \vec{r}_{CM}) \times m_i(\vec{v}_i' + \vec{v}_{CM}) = \\
-&=\sum_{i = 1}^n \vec{r}_i \times m_i\vec{v}_i' + \sum_{i = 1}^n \vec{r}_i' \times m_i\vec{v}_{CM} + \sum_{i = 1}^n \vec{r}_{CM} \times m_i \vec{v}_i + \sum_{i = 1}^n \vec{r}_CM \times m_i \vec{v}_{CM}
-\end{align}
-$$
-possiamo osservare che:
-$$ \begin{align}
-\bullet \sum_{i = 1}^n \vec{r}_i' \times m_i \vec{v}_i' = \vec{L}_{O'}' = \vec{L}_{CM}' \text{ trovandosi l'origine $O'$ del SdR C nel CM }
-\bullet \sum_{i = 1}^n \vec{r}'_i \times m_i \vec{v}_CM = 
-\end{align}$$
+Il momento angolare di un sistema di punti materiali in un riferimento inerziale è pari alla somma del momento angolare del centro di massa e del momento angolare del sistema rispetto al centro di massa (ossia nel sistema di riferimento C)
+$$ \vec{L}_O = \vec{L}_O^{(CM)} + \vec{L}_{CM}' $$
+
+
+
+> [!dim]
+> Consideriamo un SdR solidale con il centro di massa, con l'origine in esso e con orientazione fissa rispetto ad un sistema inerziale, il suo moto di trascinamento è traslatorio puro.
+> Le leggi di composizione del vettore posizione e del vettore velocità per l'$i$-esimo punto sono
+> $$ \vec{r}_i = \vec{r}_i' + \vec{r}_CM \quad \vec{v}_i = \vec{v}_i' + \vec{v}_{CM} $$
+> essendo $\vec{r}_i'$ e $\vec{v}_i'$ la posizione e la velocità relative al sistema $C,\vec{r}_i$ e $\vec{v}_i$ quelle riferite al sistema inerziale fisso, $\vec{r}_{CM}$ e $\vec{v}_{CM}$ quelle del centro di massa. Il momento angolare nel riferimento inerziale si scrive:
+> $$ 
+> \begin{align}
+> \vec{L} &= \sum_{i = 1}^n \vec{r}_i' \times m_i\vec{v}_i' = \sum_{i = 1}^n (\vec{r}_i + \vec{r}_{CM}) \times m_i(\vec{v}_i' + \vec{v}_{CM}) = \\
+> &=\sum_{i = 1}^n \vec{r}_i \times m_i\vec{v}_i' + \sum_{i = 1}^n \vec{r}_i' \times m_i\vec{v}_{CM} + \sum_{i = 1}^n \vec{r}_{CM} \times m_i \vec{v}_i + \sum_{i = 1}^n \vec{r}_CM \times m_i \vec{v}_{CM}
+> \end{align}
+> $$
+> possiamo osservare che:
+> $$ \begin{align}
+> &\bullet \sum_{i = 1}^n \vec{r}_i' \times m_i \vec{v}_i' = \vec{L}_{O'}' = \vec{L}_{CM}' \text{ trovandosi l'origine $O'$ del SdR C nel CM } \\
+> &\bullet \sum_{i = 1}^n \vec{r}'_i \times m_i \vec{v}_CM = \left(\sum_{i = 1}^n \frac{m_i}{M}\right) \times M\vec{v}_CM = \vec{r}'_{CM} = \vec{r}_{CM} \times \vec{v}_{CM} \text{ essendo $\vec{r}_{CM}' = 0$ nel SdR C} \\
+> 
+> &\bullet \sum_{i = 1}^n \vec{r}_{CM} \times m_{i}\vec{v}_{i}' = M\vec{r}_{CM} \times \sum_{i = 1}^n \dfrac{m_{i}}{M}\vec{v}_{i}' = M\vec{r}_{CM} \times \vec{v}_{CM}' = 0 \text{ essendo $\vec{v}_{CM}' = 0$ nel SdR C} \\
+> &\bullet \sum_{i = 1}^n \vec{r}_{CM} \times m_{i}\vec{v}_{CM} = \vec{r}_{CM} \times \left( \sum_{i = 1}^n m_{i} \right) \vec{v}_{CM} = \vec{r}_{CM} \times M\vec{v}_{Cm} = \vec{L}_{O}^{(CM)}
+> \end{align}$$
+
 ```
 
 
+
+```anki
+deck: Fisica
+---
+Secondo teorema di Konig
+===
+L'energia cinetica di un sistema di punti materiali rispetto ad un riferimento inerziale è pari alla somma del
+```
+<% tp.file.cursor(3) %>
