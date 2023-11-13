@@ -108,6 +108,6 @@ deck: Fisica
 ---
 Prima equazione cardinale della dinamica dei sistema
 ===
-In un sis
+In un sistema di riferimento iniziale, la risultante delle forze esterne applicate ad un sistema di punti materiali è pari alla derivata temporale della quantità di moto totale del sistema
+$$\vec{F}^{(E)} = \frac{d\vec{p}}{dt}$$
 ```
-<% tp.file.cursor(3) %>
