@@ -64,7 +64,8 @@ $$ \vec{r}_i = \vec{r}_i' + \vec{r}_CM \quad \vec{v}_i = \vec{v}_i' + \vec{v}_{C
 essendo $\vec{r}_i'$ e $\vec{v}_i'$ la posizione e la velocità relative al sistema $C,\vec{r}_i$ e $\vec{v}_i$ quelle riferite al sistema inerziale fisso, $\vec{r}_{CM}$ e $\vec{v}_{CM}$ quelle del centro di massa. Il momento angolare nel riferimento inerziale si scrive:
 $$ 
 \begin{align}
-\vec{L} = \sum_{i = 1}^n \vec{r}_i' \times m_i\vec{v}_i' = \sum_{i = 1}^n (\vec{r}_i + \vec{r}_{CM}) \times m_i(\vec{v})
+\vec{L} &= \sum_{i = 1}^n \vec{r}_i' \times m_i\vec{v}_i' = \sum_{i = 1}^n (\vec{r}_i + \vec{r}_{CM}) \times m_i(\vec{v}_i' + \vec{v}_{CM}) = \\
+&=
 \end{align}
 $$
 ```
