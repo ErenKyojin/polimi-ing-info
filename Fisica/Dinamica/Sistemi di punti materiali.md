@@ -75,3 +75,14 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 ![[Teoremi di Konig]]
 
 ![[energia meccanica]]
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Sistema di punti
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
