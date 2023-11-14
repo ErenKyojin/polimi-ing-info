@@ -22,6 +22,12 @@ Possiamo vedere il corpo rigido come un insieme di masse infinitesime con l'elem
 
  inoltre possiamo definire la ![[densità#^f03abb]]
 
+## Moto dei corpi rigidi
+Per descrivere il moto di un corpo rigido bisogna descriver eposizione e orientamento di un sistema di riferimento $S'$ solidale con il corpo.
+Visto che il sistema $S'$ è solidale al corpo, che è inooltre rigido, ogni $\d m$ sarà fissato rispetto a $S'$, quindi basta descrivere il moto di $S'$ (ossia la posizione dell'origine $O'$ e l'orientamento di $x',y',z'$ rispetto a S)
+
+#### Legge di composizione delle velocità in cinematica relativa
+$$ \vec{v} = \vec{v}' + \vec{v}_{T} $$
 
 # ANKI
 
@@ -35,3 +41,15 @@ Ha 6 gradi di libertà:
 - 3 di posizione nello spazio
 - 3 di orientamento nello spazio
 ```
+
+
+```anki
+deck: Fisica
+---
+Parametri di un corpo rigido
+===
+- La massa totale $\iiint_V dm$
+- Il volume totale $\iiint_V dV$
+- posizione del centro di massa $\vec{r}_{CM} = \frac{1}{M} \iiint_V \vec{r}\ \d m$
+```
+
