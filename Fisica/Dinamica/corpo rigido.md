@@ -76,6 +76,18 @@ Possiamo quindi affermare che:
 > [!proposizione]
 > In un moto puramente traslatorio di un corpo rigido, il momento angolare rispetto al centro di massa è nullo
 
+### Moto unicamente rotatorio rispetto ad un asse fisso di un corpo rigido
+S' ed S sono arbitrari, possiamo quindi:
+- far coincidere O e O'
+- Posizionare O e O' lungo l'asse di rotazione
+- far coincidere un asse qualsiasi con l'asse di rotazione.
+- far coincidere le due assi scelte tra loro e con l'asse di rotazione
+
+Con queste condizioni $\vec{v}_{o'}$ sarà nulla e quindi
+$$ \vec{v} =  \cancel{ \vec{v}_{o'} } + \vec{\omega} \times \vec{r} = $$.
+L'asse di rotazione coincide con un asse qualsiasi (ad esempio z)
+
+
 # ANKI
 
 ```anki
@@ -123,5 +135,8 @@ $$ \vec{v} = \vec{v}_{CM} $$
 
 Possiamo poi considerare la quantità di moto dalla prima equazione cardinale della dinamica
 $$ \vec{P} = M \vec{v}_CM\quad M = \iiint_V \delta(\vec{r})\ \d $$
+derivando
+$$ \frac{d\vec{p}}{dt} = M \frac{d\vec{v}_{CM}}{dt} = M\vec{a}_{CM} = \vec{F} $$
+
+Infine si dimostra che il momento angolare totale rispetto al centro di massa è $0$.
 ```
-<% tp.file.cursor(3) %>
