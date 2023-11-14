@@ -70,7 +70,12 @@ $$ \vec{L}_{CM} = \left(\iiint \vec{r}\ \d m\right) \times \vec{v}_{CM} - \left(
 quindi considerando il primo termine, moltiplicando e dividendo per M otteniamo
 $$ \frac{M}{M}\left( \iiint \vec{r}\ \d m \right) = M\left( \frac{1}{M}  \iiint\vec{r}_{dm}\right) \times \vec{v}_{CM} = M \vec{r}_{CM} \times \vec{v}_{CM} $$
 Considerando invece il secondo termine:
-$$ -(\vec{r}_{CM} \times \vec{v}_{CM}) \iiint $$
+$$ -(\vec{r}_{CM} \times \vec{v}_{CM}) \iiint \d m = - (\vec{r}_{CM} \times \vec{v}_{CM})M $$
+quindi $$\vec{L}_{CM} = M \vec{r}_{CM} \times \vec{v}_{CM} - (\vec{r}_{CM} \times \vec{v}_{CM} M) = 0$$.
+Possiamo quindi affermare che:
+> [!proposizione]
+> In un moto puramente traslatorio di un corpo rigido, il momento angolare rispetto al centro di massa è nullo
+
 # ANKI
 
 ```anki
@@ -104,3 +109,19 @@ moto dei corpi rigidi
 Partendo dalla legge di composizione delle velocità in cinematica relativa, avendo un sistema di riferimento fisso ed un sistema di riferimento solidale con il corpo rigido, facendo coincidere il centro del secondo sistema con il centro di massa del corpo rigido possiamo scrivere la velocità del generico punto $dm$:
 $$ \vec{v} = \vec{v}_{CM} + \vec{\omega} \times (\vec{r} - \vec{r}_{CM}) $$
 ```
+
+
+```anki
+deck: Fisica
+---
+Moto unicamente traslatorio di un corpo rigido
+===
+La velocità di un corpo rigido in un moto unicamente traslatorio è:
+$$ \vec{v} = \vec{v_{o'}} $$
+che se coincide col centro di massa
+$$ \vec{v} = \vec{v}_{CM} $$
+
+Possiamo poi considerare la quantità di moto dalla prima equazione cardinale della dinamica
+$$ \vec{P} = M \vec{v}_CM\quad M = \iiint_V \delta(\vec{r})\ \d $$
+```
+<% tp.file.cursor(3) %>
