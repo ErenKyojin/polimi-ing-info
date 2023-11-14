@@ -107,7 +107,21 @@ Scomponendo $\vec{r}$ nelle sue componenti radiale e lungo z notando che $r \sin
 $$ \vec{L}_{o} = \iiint (p \hat{u}_{z}+ z\hat{u}_{z}) \times (\omega p \hat{u}_{\theta})\ \d m$$
 
 Sviluppando il prodotto vettoriale:
-$$ \vec{L}_{0} = \iiint p\hat{u}_{r} \times \omega \rho \hat{u}_{\theta}\ \d m $$
+$$ \vec{L}_{0} = \iiint p\hat{u}_{r} \times \omega \rho \hat{u}_{\theta}\ \d m  + \iiint z \hat{u}_{z} \times \omega \rho \hat{u}_{\theta}\ \d m$$
+Raccogliendo e procedendo con i prodotti vettoriali
+$$ \vec{L}_{o}  = \underbrace{ \omega \iiint \rho^2\ \d m\ \hat{u}_{z} }_{ \vec{L}_{\parallel} } - \underbrace{ \omega \iiint \rho z\ \d m\ \hat{u}_{z} }_{ \vec{L}_{\perp} } $$
+
+La componente parallela all'asse di rotazione del momento angolare
+$$ \vec{L}_{\parallel} = \vec{\omega} \iiint \rho^2\ \d m $$
+quindi $\vec{L}_{\parallel} = I \vec{\omega}$.
+
+La componente pependicolare all'asse di rotazione del momento angolare
+$$ \vec{L}_{\perp} = - \omega \iiint \rho z \ \d m\ \hat{u}_{r}  $$
+risulta essere nulla se l'asse di rotazione è anche asse di simmetria del corpo rigido.
+
+Quindi riassumendo il momento angolare di un corpo rigido che ruota intorno ad un asse fisso passante per O risulta essere
+$$ \vec{L}_{o} = I_{o} \vec{\omega} + \vec{L}_{\perp} $$
+dove $I_{o}$ è il [[momento di inerzia]] rispetto all'asse di rotazione passante per O 
 # ANKI
 
 ```anki
