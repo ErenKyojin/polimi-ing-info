@@ -14,4 +14,24 @@ $I_{o}$ è il momento di inerzia rispetto all'asse passante per il centro di mas
 >$$ I_{o} = I_{CM} + d^2 M $$
 >
 >>[!dim]
->>Si noti come le seguenti equazioni permettano di passare da un sistema 
+>>Si noti come le seguenti equazioni permettano di passare da un sistema di riferimento ad un altro
+>>$$x' = x-d; y' = y; z' =z$$
+>>mentre le distanze di $dm$ dagli assi z e z' possono essere scritte come:
+>>$$ p^2 = x^2 + y^2 \ ; \ p'^2 = x'^2 + y'^2 $$
+>>Consideriamo il momento di inerzia rispetto all'asse passante per O:
+>>$$ I_{o} = \iiint_{V} \rho^2 \ \d m= \iiint_{V} (x^2 + y^2)\ \d m $$
+>>Si cambino le variabile $x \to x'$, $y \to y'$, $z \to z'$ nell'equazione:
+>>$$ \begin{align}
+>>I_{o} &= \iiint_{V} (x^2 + y^2) \d m = \iiint_{V} [(x' + d)^2 + y^2] \d m = \\ 
+>>&= \iiint_{V} (x'^2 + 2x'd + d^2 + y'^2) \d m = \iiint_{V} (p'^2 + 2x'd + d^2)\d m
+\end{align}$$
+>>Si sviluppi il prodotto
+>>$$ \begin{align}
+>> I_{o} &= \iiint_{V} (p'^2 + 2x'd + d^2)\d m =  \\
+>> &= \iiint_{V} (p'^2 \d m) + \iiint_{V } 2x'd\ \d m + \iiint_{V} d^2 \ \d m = \\
+>>&= I_{CM} + 2d \iiint_{V}x' \ \d m + d^2 M
+>>\end{align} $$
+>>Moltiplicando e dividendo  per M il secondo elemento a destra dell'equazione:
+>>$$ I_{o} = I_{CM} + 2d \frac{M}{M} \iiint_{V} x' \ \d m + d^2M $$
+>>ma $\displaystyle\frac{1}{M} \iiint_{V} x' \ \d m = x'_{CM} = 0$ quindi abbiamo
+>>$$ I_{o} = I_{CM}  $$
