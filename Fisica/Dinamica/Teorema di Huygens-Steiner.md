@@ -34,4 +34,4 @@ $I_{o}$ è il momento di inerzia rispetto all'asse passante per il centro di mas
 >>Moltiplicando e dividendo  per M il secondo elemento a destra dell'equazione:
 >>$$ I_{o} = I_{CM} + 2d \frac{M}{M} \iiint_{V} x' \ \d m + d^2M $$
 >>ma $\displaystyle\frac{1}{M} \iiint_{V} x' \ \d m = x'_{CM} = 0$ quindi abbiamo
->>$$ I_{o} = I_{CM}  $$
+>>$$ I_{o} = I_{CM} + d^2M $$
