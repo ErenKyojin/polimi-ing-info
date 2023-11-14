@@ -61,7 +61,16 @@ $$ \vec{P} = M \vec{v}_{CM}\quad \text{ove}\ M = \iiint_{V} \delta(\vec{r}) \ \d
 Derivando la prima equazione cardinale della dinamica:
 $$ \frac{d\vec{p}}{dt} = M \frac{d\vec{v}_{CM}}{dt} = M\vec{a}_{CM} = \vec{F}  $$
 
-
+Possiamo quindi calcolare il [[momento angolare]] totale rispetto al centro di massa:
+$$ \vec{L}_{CM} = \iiint \vec{r}' \times \vec{v} \ \d m $$
+visto che $\vec{r}' = \vec{r}- \vec{r}_{CM}$ si ottiene
+$$ \vec{L}_{CM} = \iiint (\vec{r} - \vec{r}_{CM} ) \times \vec{v}_{CM} \ \d m = \iiint_{CM} \vec{r} \times \vec{v}_{CM} \ \d m - \iiint \vec{r}_{CM} \times \vec{v}_{CM}\ \d m $$
+possiamo raccogliere le costanti e portarle fuori:
+$$ \vec{L}_{CM} = \left(\iiint \vec{r}\ \d m\right) \times \vec{v}_{CM} - \left( \vec{r}_{CM} \times \vec{v}_{CM} \right) \iiint \d m   $$
+quindi considerando il primo termine, moltiplicando e dividendo per M otteniamo
+$$ \frac{M}{M}\left( \iiint \vec{r}\ \d m \right) = M\left( \frac{1}{M}  \iiint\vec{r}_{dm}\right) \times \vec{v}_{CM} = M \vec{r}_{CM} \times \vec{v}_{CM} $$
+Considerando invece il secondo termine:
+$$ -(\vec{r}_{CM} \times \vec{v}_{CM}) \iiint $$
 # ANKI
 
 ```anki
