@@ -7,8 +7,10 @@ modification date: 2023-07-07 09:14
 In un sistema di particelle abbiamo $3N$ gradi di libertà, dove $N$ è il numero di particelle.
 Inoltre abbiamo 6 equazioni scalari dalle equazioni della dinamica, e abbiamo quindi solo 7 condizioni.
 
->[!def]
+>[!def] corpo rigido
+>
 >un corpo rigido è un sistema di punti nel quale le distanze relative fra i punti sono fisse
+>
 
 Un corpo rigido può compiere [[roto-traslazioni]], ossia composizioni di una [[rotazione]] e una [[traslazione]].
 
@@ -17,8 +19,8 @@ Possiamo vedere il corpo rigido come un insieme di masse infinitesime con l'elem
 - La [[massa]] totale è $M = \iiint_{V} \d m$
 - Il [[volume]] totale è: $V = \iiint_{V} \d V$
 - la posizione del [[centro di massa]] è $\vec{r}_{CM} = \frac{1}{M} \iiint_{V} \vec{r} \d m$
-- la [[densità]] 
 
+ inoltre possiamo definire la ![[densità#^f03abb]]
 
 
 # ANKI
