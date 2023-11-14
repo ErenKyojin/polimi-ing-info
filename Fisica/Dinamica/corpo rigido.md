@@ -26,8 +26,27 @@ Possiamo vedere il corpo rigido come un insieme di masse infinitesime con l'elem
 Per descrivere il moto di un corpo rigido bisogna descriver eposizione e orientamento di un sistema di riferimento $S'$ solidale con il corpo.
 Visto che il sistema $S'$ è solidale al corpo, che è inooltre rigido, ogni $\d m$ sarà fissato rispetto a $S'$, quindi basta descrivere il moto di $S'$ (ossia la posizione dell'origine $O'$ e l'orientamento di $x',y',z'$ rispetto a S)
 
-#### Legge di composizione delle velocità in cinematica relativa
+#### [[legge di composizione delle velocità]]  in [[Cinematica]] relativa
 $$ \vec{v} = \vec{v}' + \vec{v}_{T} $$
+con
+- $\vec{v}$ velocità del sistema
+- $\vec{v}'$ velocità nel sistema S
+- $\vec{v}_{T}$ velocità di trascinamento
+
+Quest'ultima può essere scritta genericamente come
+$$ \vec{v}_{T} = \vec{v}_{o'} + \vec{\omega} \times \vec{r}' $$
+con
+- $\vec{v}_{o'}$ velocità del sistema S' rispetto ad S
+- $\vec{\omega}$ velocità angolare
+- $\vec{r}'$ posizione nel sistema S'
+
+consideriamo un singolo elemento $dm$ di un corpo rigido, avrà velocità rispetto ad S pari a
+$$ \vec{v} = \vec{v}' + \vec{v}_{T} = \vec{v}' + \vec{v}_{o'} + \vec{\omega} + \vec{r}' $$.
+Ma essendo $S'$ solidale al corpo ovviamente $\vec{v}'=0$ e quindi
+$$ \vec{v} = \vec{v}_{o'} + \vec{\omega} + \vec{r}' $$
+possiamo scegliere arbitrariamente il centro del sistema S', facendolo coincidere con il centro di massa abbiamo
+$$\vec{v} = \vec{v}_{CM} + \vec{\omega} \times \vec{r}'$$
+E la posizione di $dm$ diventa
 
 # ANKI
 
