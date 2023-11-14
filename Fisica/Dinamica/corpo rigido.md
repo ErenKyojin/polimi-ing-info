@@ -10,7 +10,16 @@ Inoltre abbiamo 6 equazioni scalari dalle equazioni della dinamica, e abbiamo qu
 >[!def]
 >un corpo rigido è un sistema di punti nel quale le distanze relative fra i punti sono fisse
 
-Un corpo rigido può compiere roto-traslazioni, ossia composizioni di una rotazione e una [[]]
+Un corpo rigido può compiere [[roto-traslazioni]], ossia composizioni di una [[rotazione]] e una [[traslazione]].
+
+### parametri di un corpo rigido
+Possiamo vedere il corpo rigido come un insieme di masse infinitesime con l'elemento infinitesimo $\d m$ sufficientemente piccolo possiamo dire che
+- La [[massa]] totale è $M = \iiint_{V} \d m$
+- Il [[volume]] totale è: $V = \iiint_{V} \d V$
+- la posizione del [[centro di massa]] è $\vec{r}_{CM} = \frac{1}{M} \iiint_{V} \vec{r} \d m$
+- la [[densità]] 
+
+
 
 # ANKI
 
