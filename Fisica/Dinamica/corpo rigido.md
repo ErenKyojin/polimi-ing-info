@@ -51,6 +51,17 @@ $$ \vec{r}' = \vec{r} - r_{CM}$$
 otteniamo quindi
 $$ \vec{v} = \vec{v}_{CM} + \vec{\omega} \times (\vec{r} - \vec{r}_{CM}) $$
 
+### Moto solo traslatorio di un corpo rigido
+Nel caso di una sola traslazione avremo velocità angolare nulla, e come espressione avremo
+$$ \vec{v} = \vec{v}_{o'} + \vec{\omega} \times \vec{r}' = \vec{v}_{o'} $$
+Se $O'$ coincide con il centro di massa:
+$$ \vec{v} = \vec{v}_{CM} $$
+considerando la prima equazione cardinale della dinamica:
+$$ \vec{P} = M \vec{v}_{CM}\quad \text{ove}\ M = \iiint_{V} \delta(\vec{r}) \ \d V $$
+Derivando la prima equazione cardinale della dinamica:
+$$ \frac{d\vec{p}}{dt} = M \frac{d\vec{v}_{CM}}{dt} = M\vec{a}_{CM} = \vec{F}  $$
+
+
 # ANKI
 
 ```anki
