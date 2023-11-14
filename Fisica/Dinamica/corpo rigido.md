@@ -97,6 +97,17 @@ $$ \vec{P} = M\vec{v}_{CM} = M(\vec{\omega} \times \vec{r}_{CM}) $$ dove il term
 
 Quindi se il corpo rigido ruota intorno ad un asse passante per il centro di massa allora
 $$ \vec{v}_{CM} = 0 \implies \vec{P} = 0 $$
+
+
+Per il momento angolare rispetto al polo O:
+$$ \vec{L}_{O} = \iiint \vec{r} \times \vec{v}\ \d m $$
+Se il moto è puramente rotatio $\vec{v} = \vec{\omega} \times \vec{r}$:
+$$ \vec{L}_{o} = \iiint \vec{r} \times (\vec{\omega} \times \vec{r}) \d m = \iiint \vec{r} \times [\omega r \sin \theta \hat{u}_{\theta}]\ \d m $$
+Scomponendo $\vec{r}$ nelle sue componenti radiale e lungo z notando che $r \sin \theta = \rho$ si ottiene
+$$ \vec{L}_{o} = \iiint (p \hat{u}_{z}+ z\hat{u}_{z}) \times (\omega p \hat{u}_{\theta})\ \d m$$
+
+Sviluppando il prodotto vettoriale:
+$$ \vec{L}_{0} = \iiint p\hat{u}_{r} \times \omega \rho \hat{u}_{\theta}\ \d m $$
 # ANKI
 
 ```anki
@@ -170,5 +181,10 @@ $$ \vec{v}_{CM} = \vec{\omega} \times \vec{r}_CM $$
 
 La prima equazione cardinale sarà
 $$ \vec{P} = M\vec{v}_CM = M(\vec{\omega} \times \vec{r}_{CM}) $$
-con il termine tra parentesi null
+con il termine tra parentesi nullo se:
+- $\vec{\omega} = 0$, ossia non c'è rotazione
+- $\vec{r}_{CM} = 0$, ossia il centro di massa coincide con O'
+- $\vec{\omega} \parallel \vec{r}_{CM}$, se il centro di massa è sull'asse di rotazione
+
+Quindi se il corpo rigido ruota attorno ad un asse passante per il proprio centro di massa $$\vec{v}_{CM} = 0 \implies \vec{P} = 0$$
 ```
