@@ -161,4 +161,14 @@ Scegliamo due SdR tali che:
 - Le origini O e O' coincidano
 - Le origini siano collocate lungo l'asse di rotazione
 - due assi dei due SdR coincidano tra di loro e con l'asse di rotazione
+
+$\vec{v}_{o'}$ sarà nulla e avremo
+\vec{v} = \vec{\omega} \times \vec{r}.
+
+L'asse di rotazione coincide con un asse qualsiasi (prendiamo z=z'). Quindi $\vec{\omega} = \omega\hat{u}$, inoltre l'espressione della velocità vale per qualsiasi punto del corpo rigido, centro di massa incluso, scriviamo quindi
+$$ \vec{v}_{CM} = \vec{\omega} \times \vec{r}_CM $$
+
+La prima equazione cardinale sarà
+$$ \vec{P} = M\vec{v}_CM = M(\vec{\omega} \times \vec{r}_{CM}) $$
+con il termine tra parentesi null
 ```
