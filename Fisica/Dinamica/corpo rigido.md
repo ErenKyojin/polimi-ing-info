@@ -85,9 +85,18 @@ S' ed S sono arbitrari, possiamo quindi:
 
 Con queste condizioni $\vec{v}_{o'}$ sarà nulla e quindi
 $$ \vec{v} =  \cancel{ \vec{v}_{o'} } + \vec{\omega} \times \vec{r} = $$.
-L'asse di rotazione coincide con un asse qualsiasi (ad esempio z)
+L'asse di rotazione coincide con un asse qualsiasi (ad esempio z=z'). Possiamo quindi dire che $\vec{\omega} = \omega \hat{u}_{z}$, inoltre l'espressione della velocità vale per qualsiasi punto del corpo rigido, centro di massa incluso, possiamo quindi scrivere
 
+$$ \vec{v}_{CM} = \vec{\omega} \times \vec{r}_{CM} $$.
 
+La prima equazione cardinale sarà
+$$ \vec{P} = M\vec{v}_{CM} = M(\vec{\omega} \times \vec{r}_{CM}) $$ dove il termine fra parentesi è nullo se:
+- $\vec{\omega} = 0$, ossia se non c'è rotazione
+- $\vec{r}_{CM} = 0$, ossia se il centro di massa coincide con O'
+- $\vec{\omega} \parallel \vec{r}_{CM}$, ossia se l'asse di rotazione passa per il centro di massa.
+
+Quindi se il corpo rigido ruota intorno ad un asse passante per il centro di massa allora
+$$ \vec{v}_{CM} = 0 \implies \vec{P} = 0 $$
 # ANKI
 
 ```anki
@@ -139,4 +148,17 @@ derivando
 $$ \frac{d\vec{p}}{dt} = M \frac{d\vec{v}_{CM}}{dt} = M\vec{a}_{CM} = \vec{F} $$
 
 Infine si dimostra che il momento angolare totale rispetto al centro di massa è $0$.
+```
+
+
+
+```anki
+deck: Fisica
+---
+Moto unicamente rotatorio rispetto ad un corpo rigido
+===
+Scegliamo due SdR tali che:
+- Le origini O e O' coincidano
+- Le origini siano collocate lungo l'asse di rotazione
+- due assi dei due SdR coincidano tra di loro e con l'asse di rotazione
 ```
