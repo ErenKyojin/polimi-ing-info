@@ -49,6 +49,9 @@ possiamo quindi definire la [[teoria L]]
 >[!teorema]
 >In ogni teoria del primo ordine non consistente ogni fbf è un teorema della teoria
 
+>[!teorema] teorema di correttezza e completezza per un calcolo predicativo del primo ordine
+>Teoria formale
+
 # ANKI
 
 ```anki
