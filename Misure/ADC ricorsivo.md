@@ -14,4 +14,3 @@ modification date: 2023-07-07 09:14
 
 collegando l'output del singolo stadio al proprio input abbiamo un ADC ricorsivo (dove diminuiamo la frequenza di conversione in modo lineare in base al numero di passaggi)
 
-それ
