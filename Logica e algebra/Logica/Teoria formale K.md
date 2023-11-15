@@ -18,7 +18,15 @@ $(,)$
 
 ### assiomi logici
 1. $\mathcal{A} \implies (\mathcal{B} \implies \mathcal{A})$
-2. $\mathcal{A} \implies (\mathcal{B} \implies \mathcal{C})) \implies ((\mathcal{A} \implies \mathcal{B})$
+2. $\mathcal{A} \implies (\mathcal{B} \implies \mathcal{C})) \implies ((\mathcal{A} \implies \mathcal{B}) \implies (\mathcal{A} \implies C))$
+3. $\mathcal{\sim \mathcal{A} \implies \sim \mathcal{B}} \implies ((\sim\mathcal{A} \implies \mathcal{B})\implies \mathcal{A})$
+4. $(\forall x) \mathcal{A}(x) \implies \mathcal{A}(t)$ dove $t$ è un termine libero per $x$ in $\mathcal{A}(x)$
+5. $(\forall x) (\mathcal{ A} \implies \mathcal{B}) \implies (\mathcal{A} \implies (\forall x) \mathcal{B})$ dove 
 
 ### assiomi propri
 (possono anche essere $\varnothing$)
+
+
+### Regole di inferenza
+- [[Modus Ponens]]
+- Gen a $(\forall x) \mathcal{A}$
