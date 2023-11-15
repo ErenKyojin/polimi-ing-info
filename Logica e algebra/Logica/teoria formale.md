@@ -28,8 +28,26 @@ possiamo quindi definire la [[teoria L]]
 >Una teoria formale è detta **consistente** se non esiste una fbf $\mathcal{A}$ tale che $\vdash \mathcal{A}$ e $\vdash \sim \mathcal{A}$
 
 >[!teorema]
->ogni calcolo predicativo del primo ordine è **consistente**
->
+>ogni calcolo predicativo K del primo ordine è **consistente**
+>>[!dim]
+>>operiamo per assurdo, abbiamo essenzialmente affermato che possiamo arrivare alle seguenti:
+>>1\.
+>>$\vdots$
+>>n. $\mathcal{A}$
+>>
+>>1\.
+>>$\vdots$
+>m. $\sim \mathcal{A}$
+>>
+>>1\.
+>>$\vdots$
+>>l. $\sim A$
+>>
+>>Si utilizza un operatore H che elimina i termini, i quantificatori e le parentesi non strutturali
+
+
+>[!teorema]
+>In ogni teoria del primo ordine non consistente ogni fbf è un teorema della teoria
 
 # ANKI
 
