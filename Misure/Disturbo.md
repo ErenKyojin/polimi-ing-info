@@ -15,3 +15,4 @@ t = \frac{|V_{d,m}}{V_{d,0}}|= \d
 #todo 
 
 [[reiezione]]
+
