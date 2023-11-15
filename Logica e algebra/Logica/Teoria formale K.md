@@ -69,3 +69,21 @@ $(,)$
 
 Hp: $\vdash_{K}\mathcal{A}$
 Th: $\mathcal{A}$ logicamente valida
+
+
+>[!teorema] Teorema di correttezza e completezza per un teoria del primo ordine K
+>I teoremi di K sono tutte e sole le fbf vere in ogni modello di K.
+
+>[!def] Modello di K
+>Un modello è una interpretazione nella quale tutti gli assiomi propri sono veri
+
+stiamo essenzialmente non considerando le interpretazioni scomode o comunque formulate in modo sconveniente.
+
+
+>[!lemma] Lemma 1
+>Una teoria K è consistente se e solo se ha un modello
+
+>[!Lemma] Lemma 2
+>Sia K una teoria del primo ordine consistente, ed $\mathcal{A}$ una fbf chiusa 
+
+>[!teorema] di completezza
