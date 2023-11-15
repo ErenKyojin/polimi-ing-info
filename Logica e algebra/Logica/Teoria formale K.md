@@ -30,7 +30,7 @@ $(,)$
 
 ### Regole di inferenza
 - [[Modus Ponens]]
-- Gen a $(\forall x) \mathcal{A}$
+- Gen (generalizzazione) a $(\forall x) \mathcal{A}$
 
 
 
@@ -93,5 +93,15 @@ stiamo essenzialmente non considerando le interpretazioni scomode o comunque for
 >>[!dim]
 >>Se K è non consistente allora $\vdash_{K} \mathcal{A}$ sia K consistente e per assurdo $\vdash_{K}\mathcal{A}$ suppongo che $\mathcal{A}$ sia chiusa per lemma 2 la teoria K' ottenuta aggiungendo $\sim \mathcal{A}$ agli assiomi propri è consistente.
 >>K' per lemma 1 ha un modello che è anche modello di K
->>$$
+>>$\sim \mathcal{A} \vDash_{K} \mathcal{A}$
+>>$(\sim \mathcal{A} \implies \mathcal{A}) \implies \mathcal{A}$
+>>1. $(\sim \mathcal{A} \implies \mathcal{A}) \implies \mathcal{A}$
+>>2. $\sim \mathcal{A} \implies \mathcal{A}$
+>>3. $\mathcal{A}$
+>>
+>>Posos applicare il teorema di deduzione sintattica perchè $\mathcal{A}$ è chiusa
 
+
+> [!teorema] Teorema di deduzione sintattica
+> $\Gamma \mathcal{A \vdash B}$ se e solo se $\Gamma \vdash \mathcal{A}\implies \mathcal{B}$
+> Se nessuna applicazione di GEN è fatta su fbf che dipendono da $\mathcal{A}$ quantificando variabili libere in $\mathcal{A}$
