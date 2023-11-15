@@ -84,6 +84,14 @@ stiamo essenzialmente non considerando le interpretazioni scomode o comunque for
 >Una teoria K è consistente se e solo se ha un modello
 
 >[!Lemma] Lemma 2
->Sia K una teoria del primo ordine consistente, ed $\mathcal{A}$ una fbf chiusa 
+>Sia K una teoria del primo ordine consistente, ed $\mathcal{A}$ una fbf chiusa di K che non sia un teorema di K ottenuta aggiungendo agli assiomi propri di K la fbf $\sim \mathcal{A}$ è ancora consistente
 
->[!teorema] di completezza
+>[!teorema] Teorema di completezza
+>IP: $\mathcal{A}$ fbff vera in ogni modello di K
+>TH: $\vdash_{K} \mathcal{A}$
+>
+>>[!dim]
+>>Se K è non consistente allora $\vdash_{K} \mathcal{A}$ sia K consistente e per assurdo $\vdash_{K}\mathcal{A}$ suppongo che $\mathcal{A}$ sia chiusa per lemma 2 la teoria K' ottenuta aggiungendo $\sim \mathcal{A}$ agli assiomi propri è consistente.
+>>K' per lemma 1 ha un modello che è anche modello di K
+>>$$
+
