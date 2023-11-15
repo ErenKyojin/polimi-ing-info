@@ -30,3 +30,6 @@ $(,)$
 ### Regole di inferenza
 - [[Modus Ponens]]
 - Gen a $(\forall x) \mathcal{A}$
+
+
+

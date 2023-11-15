@@ -21,6 +21,16 @@ Osserviamo che se $\Gamma \vdash_{H}\mathcal{A}$ allora:
 
 possiamo quindi definire la [[teoria L]]
 
+>[!def]
+>Una teoria del primo ordine priva di assiomi propri è detta [[calcolo predicativo del primo ordine]]
+
+>[!def]
+>Una teoria formale è detta **consistente** se non esiste una fbf $\mathcal{A}$ tale che $\vdash \mathcal{A}$ e $\vdash \sim \mathcal{A}$
+
+>[!teorema]
+>ogni calcolo predicativo del primo ordine è **consistente**
+>
+
 # ANKI
 
 ```anki
