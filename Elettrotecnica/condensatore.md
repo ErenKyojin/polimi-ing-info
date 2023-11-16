@@ -76,6 +76,6 @@ Dove $C$ è detta capacità elettrica.
 
 Se abbiamo due conduttori con cariche $Q^+$ e $Q^-$ con $V_1$ e $V_2$ potenziali rispettivi, la ddp $V = V_1 - V_2$, la capacità del sistema è
 $$ C = \frac{Q}{V_1 - V_2} $$
-questo sistema definisce 
+questo sistema definisce il bipolo detto condensatore
 ```
 <% tp.file.cursor(3) %>
