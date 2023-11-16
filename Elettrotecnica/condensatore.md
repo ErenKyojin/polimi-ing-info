@@ -94,6 +94,19 @@ deck: Elettrotecnica
 ---
 Condensatori in regime tempo variante
 ===
-Consideriamo il condensatore collegato ad un generatore di tensione tempo variante $V(t)$, che subisce una variazione $\Delta V$ in un intervallo di tempo $\Delta t$
+Consideriamo il condensatore collegato ad un generatore di tensione tempo variante $V(t)$, che subisce una variazione $\Delta V$ in un intervallo di tempo $\Delta t$, avremo quindi una corrente media
+$$ I = \frac{\Delta Q}{\Delta t} = C \frac{\Delta V}{\Delta t} $$
+Portando al limite per $\Delta t \to 0$:
+$$ I = \frac{dQ}{dt} = C \frac{dV}{dt} $$
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: Elettrotecnica
+---
+Potenza istantanea assorbita da un condensatore
+===
+La potenza istantanea assorbita da un condensatore è
+$$ p_a(t) = V(t)I(t) = CV(t)\frac{dV(t)}{dt} = \frac{d}{dt}\left(\frac{CV^2(t)}{2}\right) = \frac{dw_a^E}{dt}$$
+dove $w_a^E(t) = \frac{1}{2}CV^2(t)$ energia elettrica immagazzinata dal bipolo 
+```
