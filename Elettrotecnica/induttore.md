@@ -48,6 +48,40 @@ deck: Elettrotecnica
 ---
 induttore
 ===
-Consideriamo una spira attraverso cui fluisce una corrente I che produce un campo ma
+Consideriamo una spira attraverso cui fluisce una corrente I che produce un campo magnetico $\bar{B}$ proporzionale in ogni punto ad I, il flusso $\Phi_B$, chiamato flusso autoconcatenato è
+$$ \Phi_B = LI $$
+Con L autoinduttanza del circuito, $[L] = \frac{Wb}{A}$ o $H$ per henry.
+
+Se la corrente $I$ è una funzione del tempo $I(t)$ non costante, il flusso del campo magnetico aria anch'esso ed abbiamo una forza elettromotrice indotta secondo la legge dell'induzione elettromagnetica
+$$ V_{fem} = - \frac{d\Phi_B}{dt} = -L \frac{dI}{dt} $$
+anche l'induttore come il condensatore è un componente conservativo, immagazzina energia per poi rilasciarla
+```
+
+
+```anki
+deck: Elettrotecnica
+---
+Induttore in regime stazionario
+===
+L'induttore è faromato da un materiale cilindrico di lunghezza $l$ con un filo di rame avvolto con un numero $N \geq 1000$ di spire in modo molto compatto, avremo quindi un campo magnetico chiuso orientato lungo l'asse del cilindro con modulo $B = \frac{\mu N}{l} I$ con $\mu$ permeabilità magnetica del cilindro.
+
+Possiamo ottenere il flusso del campo attraverso la superficie orientata $\sigma$ delimitata dalla singola spira:
+$$ \Psi_B = \int_\sigma \bar{B} \cdot \hat{u}_N d\sigma \approx BS $$
+dove S è l'area della spira, ossia la sezione del cilindro.
+Possiamo quindi trovare il flusso totale moltiplicando per il numero di spire:
+$$ \Phi_B = N\Psi = \frac{\mu N^2 S}{l}I = LI $$
+Se è costante $I$ lo è anche $\Phi_B$, e quindi secondo la legge di faraday-henry non c'è nessuna forza elettromotrice indotta e quindi ai capi dell'induttore abbiamo che $V = -V_{fem} = 0$, quindi un cortocircuito
+```
+
+
+```anki
+deck: Elettrotecnica
+---
+Induttore in regime tempo variante
+===
+Un induttore legato ad una corrente $I(t)$ non costante nel tempo, il flusso magnetico arà $\Phi_B(t) = LI(t)$, per la legge di faraday si induce una forza elettromotrice $V_{fem} = - \frac{d\Phi_B(t)}{dt}$ lungo fili che ai morsetti viene misurata come:
+$$ V(t) = \frac{d\Psi_B}{dt}=L \frac{dI(t)}{dt} $$
+inoltre
+$$ I(t) = I(t_0) + 1/ $$
 ```
 <% tp.file.cursor(3) %>
