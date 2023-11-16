@@ -78,4 +78,3 @@ Se abbiamo due conduttori con cariche $Q^+$ e $Q^-$ con $V_1$ e $V_2$ potenziali
 $$ C = \frac{Q}{V_1 - V_2} $$
 questo sistema definisce il bipolo detto condensatore
 ```
-<% tp.file.cursor(3) %>
