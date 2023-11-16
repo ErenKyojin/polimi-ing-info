@@ -64,8 +64,18 @@ Quindi il dissipatore non dissipa la potenza che assorbe ma la scambia.
 ```anki
 deck: Elettrotecnica
 ---
-Condensatore
+Capacità elettrica
 ===
-<% tp.file.cursor(2) %>
+Una sfera che ha una carica equa $Q$ sulla propria superficie genera un campo elettrico radiale rispetto al centro della sfera con intensità
+$$ E = \frac{1}{4\pi\varepsilon_0} \frac{Q}{r^2} $$
+Il campo elettrico è in regime stazionario, ammetiamolo immerso in un dielettrico, quindi ammette un potenziale pari a
+$$ V(R) = \frac{1}{4\pi\varepsilon_0\varepsilon_r}\frac{Q}{R} $$
+Abbiamo 
+$$ \frac{Q}{V(R)} = \text{ cost. } = C $$
+Dove $C$ è detta capacità elettrica.
+
+Se abbiamo due conduttori con cariche $Q^+$ e $Q^-$ con $V_1$ e $V_2$ potenziali rispettivi, la ddp $V = V_1 - V_2$, la capacità del sistema è
+$$ C = \frac{Q}{V_1 - V_2} $$
+questo sistema definisce 
 ```
 <% tp.file.cursor(3) %>
