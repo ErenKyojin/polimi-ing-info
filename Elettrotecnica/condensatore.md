@@ -1,3 +1,8 @@
+---
+aliases: capacità
+---
+
+
 # Condensatore
 Una sfera con una [[carica]] equa $Q$ sulla sua superficie, detta conduttore sferico, genera un [[campo elettrico]] radiale rispetto al centro C con intensità
 $$E = \frac{1}{4\pi\varepsilon_0}\frac{Q}{r^2}$$
@@ -53,3 +58,14 @@ $$P = \frac{|\bar v||\bar\imath|}{2}\cos(\pi/_2) = 0$$
 e
 $$Q = \frac{|\bar{v}||\bar\imath|}{2}\sin(\pi/_2) = -\frac{|\bar\imath|^2}{2\omega C} = -\frac{|\bar v|^2\omega C}{2}$$
 Quindi il dissipatore non dissipa la potenza che assorbe ma la scambia.
+
+# ANKI
+
+```anki
+deck: Elettrotecnica
+---
+Condensatore
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
