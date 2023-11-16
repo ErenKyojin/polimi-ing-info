@@ -40,3 +40,14 @@ Per l'induttore abbiamo che $\bar v = Z(j\omega)\bar\imath = j\omega L \bar\imat
 $$P = \frac{|\bar v||\bar\imath|}{2}\cos(\pi/_2)$$
 E
 $$Q = \frac{|\bar v||\bar\imath|}{2}\sin(\pi/_2) = \frac{\omega L |\bar\imath|^2}{2} = \frac{|\bar v|^2}{2\omega L}$$
+
+# ANKI
+
+```anki
+deck: Elettrotecnica
+---
+induttore
+===
+Consideriamo una spira attraverso cui fluisce una corrente I che produce un campo ma
+```
+<% tp.file.cursor(3) %>
