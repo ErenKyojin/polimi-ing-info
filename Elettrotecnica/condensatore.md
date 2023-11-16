@@ -78,3 +78,22 @@ Se abbiamo due conduttori con cariche $Q^+$ e $Q^-$ con $V_1$ e $V_2$ potenziali
 $$ C = \frac{Q}{V_1 - V_2} $$
 questo sistema definisce il bipolo detto condensatore
 ```
+
+```anki
+deck: Elettrotecnica
+---
+Condensatore in regime stazionario
+===
+Colleghiamo un condensatore piano ad un generatore di tensione $V$, le cariche mosse dal generatore si accumulano su facce opposte, tra le quali si forma un campo elettrico, si cotninuano ad accumulare fino a quando la ddp tra le due facce non è uguale a quella del generatore indipendente, ossia quando $v_{AB} = V$.
+In questo momento arriviamo nuovamente ad un regime stazionario dove la carica Q ed il campo E non variano ed il condensatore si comporta da circuito aperto
+```
+
+
+```anki
+deck: Elettrotecnica
+---
+Condensatori in regime tempo variante
+===
+Consideriamo il condensatore collegato ad un generatore di tensione tempo variante $V(t)$, che subisce una variazione $\Delta V$ in un intervallo di tempo $\Delta t$
+```
+<% tp.file.cursor(3) %>
