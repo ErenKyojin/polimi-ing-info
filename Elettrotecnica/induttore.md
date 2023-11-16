@@ -82,6 +82,5 @@ Induttore in regime tempo variante
 Un induttore legato ad una corrente $I(t)$ non costante nel tempo, il flusso magnetico arà $\Phi_B(t) = LI(t)$, per la legge di faraday si induce una forza elettromotrice $V_{fem} = - \frac{d\Phi_B(t)}{dt}$ lungo fili che ai morsetti viene misurata come:
 $$ V(t) = \frac{d\Psi_B}{dt}=L \frac{dI(t)}{dt} $$
 inoltre
-$$ I(t) = I(t_0) + 1/ $$
+$$ I(t) = I(t_0) + 1/L\int_{t_0}^t V(\tau) d\tau$$
 ```
-<% tp.file.cursor(3) %>

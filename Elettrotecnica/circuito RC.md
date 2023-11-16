@@ -21,7 +21,7 @@ con $E_q$ l'integrale particolare.
 
 ### $\lambda$ - frequenza libera o pulsazione naturale della rete
 $$\lambda = -\frac{1}{R_{eq}C}$$
-$[\lambda] = \frac{1}{S}$ e allora definiamo ==> $\tau = |\frac{1}{\lambda}| = R_{eq}C$ come <u>costante di tempo</u>. Per calcolare $\lambda$ è sufficiente passivare i generatori indipendenti di $N_R$, e trasformandone il modello di norton alla sola resistenza equivalente.
+$[\lambda] = \frac{1}{S}$ e allora definiamo ==> $\tau = |\frac{1}{\lambda}| = R_{eq}C$ come [[costante di tempo]]. Per calcolare $\lambda$ è sufficiente passivare i generatori indipendenti di $N_R$, e trasformandone il modello di norton alla sola resistenza equivalente.
 
 ==osservazione==: per $\lambda$ negativa la soluzione dell'equazione di [[stato]] tende all'integrale particolare con $t \rightarrow \infty$ ossia quando arriviamo al [[regime stazionario]] e quindi le derivate sono uguali a $0$.
 $\Rightarrow v_C(t) = E_{eq}$
