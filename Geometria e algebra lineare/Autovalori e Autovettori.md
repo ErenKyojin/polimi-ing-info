@@ -209,4 +209,32 @@ $\lambda_{0}$ è un autovalore di $A$ se $\ker(A - \lambda_{0}\mathbb{1}_{n}) \n
 >Infatti: $$ M_{\mathcal{B}}^\mathcal{B}(\mathcal{L}_{A}) = M_{\mathcal{B}}^{\mathcal{\xi}_{n}}(id_{\mathbb{K}^n}) \cdot M_{\xi_{n}}^{\xi_{n}}(\mathcal{L}_{A}) \cdot M_{\xi_{n}}^\mathcal{B} (id_{\mathbb{K}^n})$$
 >Questa osservazione introduce la [[Geometria e algebra lineare/diagonalizzabilità]]
 
+# ANKI
 
+```anki
+deck: GAL
+---
+autovettori e autovalori
+===
+Sia $V$ spazio vettoriale su $\mathbb{K}$ e $\mathcal{L} : V \to V$ endomorfismo, si dice che $v \in V$ è autovettori di $\mathcal{L}$ se
+1. $\\mathbf{v} \neq 0$
+2. $\exists \lambda \in \mathbb{K} : \mathcal{L}(\mathbf{v}) = \lambda \mathbf{v}$
+
+$\lambda$ si chiama autovalore di $\mathcal{L}$ relativo all'autovettore $\mathbf{v}$
+```
+
+
+```anki
+deck: GAL
+---
+Autospazio
+===
+Sia $V$ spazio vettoriale su $\mathbb{K}$ e $\mathcal{L} : V \to V$ endomorfismo.
+Se $\lambda \in \mathbb{K}$, definiamo l'autospazio di $\mathcal{L}$ associato a $\lambda$
+$$\begin{align}
+ V\lambda &:= \{\mathbf{v} \in V : \mathcal{L}(\mathbf{v}) + \lambda \mathbf{v}\}= \\
+ &= \{\mathbf{v} \in V : \mathcal{L}(\mathbf{v}) - \lambda \mathbf{v} = 0\} = \ker(\mathcal{L} - \lambda \mathbb{1}_V)
+\end{align}
+$$
+```
+<% tp.file.cursor(3) %>
