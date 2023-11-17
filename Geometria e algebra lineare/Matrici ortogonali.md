@@ -34,10 +34,10 @@
 >
 >$U$ è la matrice di rotazione, $V$ la riflessione ortogonale che ha per asse la retta generata da $\begin{bmatrix}\cos\left( \frac{\theta}{2} \right) \\ \sin\left( \frac{\theta}{2} \right)\end{bmatrix}$
 
-## Matrici ortogonalmente [[Geometria e algebra lineare/diagonalizzabilità|diagonalizzabili]]
+## Matrici ortogonalmente [[diagonalizzabilità|diagonalizzabili]]
 
 >[!def]
->Sia $A \in M_{\mathbb{R},(n,n)}$ si dice che $A$ è ortogonalmente diagonalizzabile se esiste $U \in M_{\mathbb{R}(n,n)}$. Si dice che $A$ è ortogonalmente diagonalizzabile se esiste $U \in M_{\mathbb{R}(n,n)}$ ortogonale tale che $U^TAU = D$ ove $D$ è una [[Geometria e algebra lineare/diagonalizzabilità|matrice diagonale]] poichè $U^{-1} = U^{T}$ si ha che $U^TAU = U^{-1}AU$
+>Sia $A \in M_{\mathbb{R},(n,n)}$ si dice che $A$ è ortogonalmente diagonalizzabile se esiste $U \in M_{\mathbb{R}(n,n)}$. Si dice che $A$ è ortogonalmente diagonalizzabile se esiste $U \in M_{\mathbb{R}(n,n)}$ ortogonale tale che $U^TAU = D$ ove $D$ è una [[diagonalizzabilità|matrice diagonale]] poichè $U^{-1} = U^{T}$ si ha che $U^TAU = U^{-1}AU$
 
 
 >[!oss]

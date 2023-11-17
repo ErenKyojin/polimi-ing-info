@@ -3,7 +3,7 @@
 > $$ B = P^{-1}AP $$
 
 >[!oss]
->$A$ è [[Geometria e algebra lineare/diagonalizzabilità|diagonalizzabile]] se e solo se è simile ad una [[matrice]] diagonale
+>$A$ è [[diagonalizzabilità|diagonalizzabile]] se e solo se è simile ad una [[matrice]] diagonale
 
 >[!oss]
 >$B$ rappresenta la **stessa** [[Applicazioni lineari|applicazione lineare]] di $A$ rispetto ad una base diversa. $P$ è la matrice di cambio di base. Inoltre se $V$ è spazio vettoriale su $\mathbb{K}$, $\mathcal{L} : V \to V$ è endomorfismo, $\mathcal{B}$ e $\mathcal{C}$ basi su $V$ allora $M_{\mathcal{B}}^{\mathcal{B}}(\mathcal{L})$ è simile a $M_{\mathcal{C}}^{\mathcal{C}}(\mathcal{L})$.

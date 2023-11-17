@@ -207,7 +207,7 @@ $\lambda_{0}$ è un autovalore di $A$ se $\ker(A - \lambda_{0}\mathbb{1}_{n}) \n
 >\end{cases} 
 >$$
 >Infatti: $$ M_{\mathcal{B}}^\mathcal{B}(\mathcal{L}_{A}) = M_{\mathcal{B}}^{\mathcal{\xi}_{n}}(id_{\mathbb{K}^n}) \cdot M_{\xi_{n}}^{\xi_{n}}(\mathcal{L}_{A}) \cdot M_{\xi_{n}}^\mathcal{B} (id_{\mathbb{K}^n})$$
->Questa osservazione introduce la [[Geometria e algebra lineare/diagonalizzabilità]]
+>Questa osservazione introduce la [[diagonalizzabilità]]
 
 # ANKI
 
@@ -242,7 +242,7 @@ $$
 ```anki
 deck: GAL
 ---
-Ricerca degli autovalori
+Ricerca degli autovalori e degli autovettori
 ===
 $\lambda_0$ è un autovalore di $A$ se $A - \ker(\lambda_0\mathbb{1}_n) \neq \{\mathbf{0}\}$, quindi se il sistema lineare $(A - \lambda_0 \mathbb{1}_n)\mathbf{x} = 0$ ammette una soluzione non banale. Ma questo può avvenire se e solo se $r(A - \lambda_0 \mathbb{1}) < n \iff \det(A - \lambda \mathbb{1}_n) = 0$.
 Quindi $\lambda_0$ è autovalore se è soluzione dell'equazione $\det(A - \lambda \mathbb{1}_n)soluzione = \mathbf{0}$, risolto questo sistema otteniamo $k$ soluzioni che ci porteranno a $k$ rispettivi autovettori, che si possono trovare risolvendo
