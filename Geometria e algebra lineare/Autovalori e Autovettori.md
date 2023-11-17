@@ -237,4 +237,16 @@ $$\begin{align}
 \end{align}
 $$
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: GAL
+---
+Ricerca degli autovalori
+===
+$\lambda_0$ è un autovalore di $A$ se $A - \ker(\lambda_0\mathbb{1}_n) \neq \{\mathbf{0}\}$, quindi se il sistema lineare $(A - \lambda_0 \mathbb{1}_n)\mathbf{x} = 0$ ammette una soluzione non banale. Ma questo può avvenire se e solo se $r(A - \lambda_0 \mathbb{1}) < n \iff \det(A - \lambda \mathbb{1}_n) = 0$.
+Quindi $\lambda_0$ è autovalore se è soluzione dell'equazione $\det(A - \lambda \mathbb{1}_n)soluzione = \mathbf{0}$, risolto questo sistema otteniamo $k$ soluzioni che ci porteranno a $k$ rispettivi autovettori, che si possono trovare risolvendo
+$$ (A - \lambda_0 \mathbb{1}_n)\mathbf{x} = \mathbf{0} $$
+Il polinomio $\det(A - \lambda \mathbb{1}_n)$ è detto polinomio caratteristico di $A$.
+L'equazione $\det(A - \lambda \mathbb{1}_n) = 0$ è detta equazione caratteristica di $A$.
+```
