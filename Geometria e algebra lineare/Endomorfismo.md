@@ -26,6 +26,6 @@ deck: GAL
 ---
 Endomorfismo di applicazioni lineari
 ===
-<% tp.file.cursor(2) %>
+Dato $V$ spazio vettoriale, un endomorfismo di $V$ è un'applicazione lineare $\mathcal{L} : V \to V$
 ```
 <% tp.file.cursor(3) %>
