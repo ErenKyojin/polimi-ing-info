@@ -18,6 +18,7 @@ Superiore alla conoscenza vi è la [[saggezza]]
 # ANKI
 
 ```anki
+id: null
 deck: Sistemi informativi
 ---
 # Conoscenza

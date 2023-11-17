@@ -54,6 +54,7 @@ $$ E_{c} = \sum_{i = 1}^n \frac{1}{2}m_{i}v_{i}^2 $$
 # ANKI
 
 ```anki
+id: 1700212221045
 deck: Fisica
 ---
 Energia cinetica
@@ -65,6 +66,7 @@ dove $v_P^2 = \vec{v}_P \cdot \vec{v}_P = |\vec{v}_P|^2$, essendo $\vec{v}_P$ la
 
 
 ```anki
+id: 1700212222918
 deck: Fisica
 ---
 Teorema delle forze vive
@@ -86,6 +88,7 @@ In un sistema di riferimento inerziale, il lavoro compiuto dalla risultante di t
 
 
 ```anki
+id: 1700212224295
 deck: Fisica
 ---
 Il lavoro dipende in generale dalla ~~traiettoria~~ e non solo dagli estremi $A$ e $B$, anche la variazione di ~~energia cinetica~~ subita dal punto materiale dipende in generale dalla ~~traiettoria~~ di esso seguita per giungere da $A$ a $B$.
@@ -94,6 +97,7 @@ Il lavoro dipende in generale dalla ~~traiettoria~~ e non solo dagli estremi $A$
 
  
 ```anki
+id: 1700212225121
 deck: Fisica
 ---
 Energia cinetica in un sistema di punti materiali

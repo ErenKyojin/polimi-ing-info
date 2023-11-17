@@ -8,6 +8,7 @@ Si tratta di un bipolo adinamico, tempo invariante, lineare ed inerte, definito 
 # ANKI
 
 ```anki
+id: 1700212221995
 deck: Elettrotecnica
 ---
 Circuito aperto

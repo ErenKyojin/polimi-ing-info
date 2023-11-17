@@ -12,6 +12,7 @@ Una formula chiusa può essere solo o vera o falsa, in quanto non ha variabili
 # ANKI
 
 ```anki
+id: 1700212219295
 deck: LeA
 ---
 Formula chiusa

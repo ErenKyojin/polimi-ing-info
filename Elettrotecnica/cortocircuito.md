@@ -8,6 +8,7 @@ $$ v = Ri \bigg\vert_{R = 0} \equiv 0$$
 # ANKI
 
 ```anki
+id: 1700212221870
 deck: Elettrotecnica
 ---
 Cortocircuito

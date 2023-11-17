@@ -27,6 +27,7 @@ modification date: 2023-05-10 09:56
 # ANKI
 
 ```anki
+id: 1700212219095
 deck: LeA
 ---
 occorrenza di una variabile
@@ -36,6 +37,7 @@ Diciamo che una occorrenza di una variabile $x$ è **libera** se non è nel camp
 
 
 ```anki
+id: 1700212221095
 deck: LeA
 ---
 termine libero per una variabile

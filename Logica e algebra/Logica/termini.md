@@ -14,6 +14,7 @@ modification date: 2023-05-09 19:36
 # ANKI
 
 ```anki
+id: 1700212218845
 deck: LeA
 ---
 Termini

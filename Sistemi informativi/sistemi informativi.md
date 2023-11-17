@@ -56,6 +56,7 @@ Piramide con gerarchia (decrescente):
 # ANKI
 
 ```anki
+id: null
 deck: Sistemi informativi
 ---
 # Sistema informatio

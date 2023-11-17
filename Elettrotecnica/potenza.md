@@ -231,6 +231,7 @@ Non dobbiamo quindi aspettarci che la potenza reattiva $Q_p$ per fase sia nulla.
 # ANKI
 
 ```anki
+id: 1700212221595
 deck: elettrotecnica
 ---
 # Potenza elettrica
@@ -244,6 +245,7 @@ Assunta la convenzione degli utilizzatori:
 
 
 ```anki
+id: 1700212223369
 deck: Fisica
 ---
 Potenza di una forza
@@ -254,6 +256,7 @@ $$ W = \frac{d\mathcal{L}}{dt} = \vec{F} \cdot \frac{d\vec{r}}{dt} = \vec{F} \cd
 
 
 ```anki
+id: 1700212224621
 deck: Fisica
 ---
 Potenza media di una forza

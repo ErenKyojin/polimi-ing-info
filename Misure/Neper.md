@@ -10,6 +10,7 @@ $$R_{(NP)} = \ln\left( \frac{A_{1}}{A_{2}} \right) = \ln\left( \frac{V_{2}}{V_{1
 # ANKI
 
 ```anki
+id: 1700212217595
 deck: Misure
 ---
 Neper

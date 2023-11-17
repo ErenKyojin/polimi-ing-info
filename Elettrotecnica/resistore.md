@@ -30,6 +30,7 @@ e $Q=0$. Allora il resistore non assorbe energia per poi scambiarla con gli altr
 # ANKI
 
 ```anki
+id: 1700212221545
 deck: Elettrotecnica
 ---
 # Resistore

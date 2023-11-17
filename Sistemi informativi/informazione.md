@@ -17,6 +17,7 @@ Al di sopra della informazione vi è la [[conoscenza]]
 # ANKI
 
 ```anki
+id: null
 deck: Sistemi informativi
 ---
 Informazione

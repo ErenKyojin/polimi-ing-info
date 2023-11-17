@@ -35,6 +35,7 @@ $$P_{(\dB x)} = 10 \log_{10} \left(\frac{P}{P_{x}}\right)$$
 # ANKI
 
 ```anki
+id: 1700212217417
 deck: Misure
 ---
 # Decibel
@@ -46,6 +47,7 @@ $$ \left(\frac{P_2}{P_1}\right)_{dB} = 10 \log_{10} \left(\frac{P_2}{P_1}\right)
 
 
 ```anki
+id: 1700212217520
 deck: Misure
 ---
 # Decibel di potenze
@@ -57,6 +59,7 @@ $$\left(\frac{W_1}{W_2}\right)_{dB}= 10\log_{10} \left(\frac{W_1}{W_2}\right) = 
 
 
 ```anki
+id: 1700212217745
 deck: Misure
 ---
 # dBx

@@ -22,6 +22,7 @@ Il segno "$-$" deriva dalla convenzione degli utilizzatori, l'importante è mant
 # ANKI
 
 ```anki
+id: 1700212222269
 deck: Elettrotecnica
 ---
 generatore di corrente

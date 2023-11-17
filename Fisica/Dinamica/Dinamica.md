@@ -199,6 +199,7 @@ In figura è schematizzato il moto del punto materiale $P$ a partire dall'istant
 # ANKI
 
 ```anki
+id: 1700212221071
 deck: Fisica
 ---
 # Dinamica

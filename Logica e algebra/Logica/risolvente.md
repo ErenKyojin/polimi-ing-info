@@ -16,6 +16,7 @@ modification date: 2023-05-08 16:43
 # ANKI
 
 ```anki
+id: 1700212219045
 deck: LeA
 ---
 Risolvente

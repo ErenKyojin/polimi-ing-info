@@ -47,6 +47,7 @@ Le dimostrazioni della prima e della terza legge nel caso generale delle orbite 
 # ANKI
 
 ```anki
+id: 1700212220320
 deck: Fisica
 ---
 Leggi di Keplero

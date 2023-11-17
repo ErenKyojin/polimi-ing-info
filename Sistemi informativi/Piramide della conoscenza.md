@@ -41,6 +41,7 @@ Principalmente lavoriamo nel corso sulle informazioni (che vengono gestite dai p
 
 
 ```anki
+id: null
 deck: Sistemi informativi
 ---
 Piramide della conoscenza

@@ -60,7 +60,7 @@ La misura di corrente lungo $-\sigma$ si ottiene invertendo l'inserimento dei mo
 # ANKI
 
 ```anki
-id: 1694785449376
+id: 1700212223570
 deck: elettrotecnica
 ---
 # Corrente elettrica
@@ -76,6 +76,7 @@ $$ I = \frac{d}{dt}Q $$
 
 
 ```anki
+id: 1700212224720
 deck: elettrotecnica
 ---
 # corrente elettrica
@@ -92,6 +93,7 @@ Se la superficie $S$ è perpendicolare al campo $\bar{j}$ in ogni suo punto, la 
 
 
 ```anki
+id: 1700212225420
 deck: Elettrotecnica
 ---
 # proprietà corrente

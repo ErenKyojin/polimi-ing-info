@@ -16,6 +16,7 @@ Che è strettamente connesso al [[principio di relatività]].
 # ANKI
 
 ```anki
+id: 1700212220218
 deck: Fisica
 ---
 Principio di inerzia o primo principio della dinamica

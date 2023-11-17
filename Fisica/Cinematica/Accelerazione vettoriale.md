@@ -27,6 +27,7 @@ $$
 
 
 ```anki
+id: 1700212221421
 deck: Fisica
 ---
 # Accelerazione vettoriale media
@@ -36,6 +37,7 @@ $$ \vec{a}_m (t1,t2) \equiv \frac{\vec{v}(t2)-\vec{v}_1 (t_1)}{t_2 - t_1}= \frac
 
 
 ```anki
+id: 1700212223244
 deck: Fisica
 ---
 # Accelerazione vettoriale istantanea
@@ -45,6 +47,7 @@ $$ \vec{a}(t) \equiv \lim_{\Delta t \to 0} \frac{\vec{v}(t+ \Delta t) - \vec{v}(
 
 
 ```anki
+id: 1700212224521
 deck: Fisica
 ---
 Calcolo della legge oraria a partire dall\accelerazione vettoriale

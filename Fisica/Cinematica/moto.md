@@ -180,6 +180,7 @@ Un peso di massa $m$ si trova a muoversi su un [[piano inclinato]] liscio di un 
 # ANKI
 
 ```anki
+id: 1700212221170
 deck: Fisica
 ---
 # Moto del punto materiale
@@ -190,6 +191,7 @@ $\vec{r} \equiv \vec{OP} = x\hat{u}_x + y\hat{u}_y + z\hat{u}_z$
 
 
 ```anki
+id: 1700212222992
 deck: Fisica
 ---
 Scomposizione dell'accelerazione in componenti cartesiane
@@ -199,6 +201,7 @@ $$\vec{a}(t) = \frac{d}{dt}{\vec{v}} = \frac{d}{dt}\left(\frac{d\vec{r}}{dt}\rig
 
 
 ```anki
+id: 1700212224371
 deck: Fisica
 ---
 scomposizione dell'accelerazione in componenti vettoriali
@@ -212,6 +215,7 @@ quindi $$\vec{a} = \vec{a}_T + \vec{a}_N$$
 
 
 ```anki
+id: 1700212225196
 deck: Fisica
 ---
 Moto in coordinate polari
@@ -229,6 +233,7 @@ r = \sqrt{x^2 + y^2} \qquad&\qquad   x = r\cos\theta \\
 
 
 ```anki
+id: 1700212225668
 deck: Fisica
 ---
 Legge oraria in coordinate polari
@@ -242,6 +247,7 @@ r = r(t)
 
 
 ```anki
+id: 1700212225920
 deck: Fisica
 ---
 Traiettoria in coordinate polari
@@ -254,6 +260,7 @@ $r = r(\theta)$
 
 
 ```anki
+id: 1700212226142
 deck: Fisica
 ---
 Versori in coordinate polari
@@ -265,6 +272,7 @@ $\hat{u}_\theta = \hat{u}_z \times \hat{u}_r$ versore trasversale
 
 
 ```anki
+id: 1700212226318
 deck: Fisica
 ---
 Velocità vettoriale in coordinate polari e velocità angolare:
@@ -277,6 +285,7 @@ $$ \frac{d\hat{u}_r}{dt} = \frac{|\hat{u}_r|d\theta}{dt}\hat{u}_\theta = \frac{d
 
 
 ```anki
+id: 1700212226468
 deck: Fisica
 ---
 Casi particolari di moto

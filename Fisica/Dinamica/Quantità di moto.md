@@ -51,6 +51,7 @@ Se invece la quantità di moto di un punto materiale varia, significa che esso �
 # ANKI
 
 ```anki
+id: 1700212220918
 deck: Fisica
 ---
 Quantità di moto
@@ -62,6 +63,7 @@ $$ \vec{p} = m\vec{v} $$
 
 
 ```anki
+id: 1700212222869
 deck: Fisica
 ---
 Principio di conservazione della quantità di moto
@@ -74,6 +76,7 @@ Se invece la quantità di moto varia significa che è soggetto ad interazioni.
 
 
 ```anki
+id: 1700212224245
 deck: Fisica
 ---
 Quantità di moto di un sistema di $n$ punti materiali

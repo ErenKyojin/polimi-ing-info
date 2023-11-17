@@ -13,6 +13,7 @@ La costante di proporzionalità $k$ è una caratteristica della molla e prende i
 # ANKI
 
 ```anki
+id: 1700212220421
 deck: Fisica
 ---
 Forze elastiche

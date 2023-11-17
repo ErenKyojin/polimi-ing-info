@@ -6,6 +6,7 @@ Ossia la somma delle potenze assorbite da ogni componente è nulla.
 # ANKI
 
 ```anki
+id: 1700212221495
 deck: Elettrotecnica
 ---
 # Teorema di tellegen

@@ -15,6 +15,7 @@ si può quindi enunciare il seguente:
 # ANKI
 
 ```anki
+id: 1700212220071
 deck: Fisica
 ---
 Terzo principio della dinamica

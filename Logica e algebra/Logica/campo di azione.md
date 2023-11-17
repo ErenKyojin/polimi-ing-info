@@ -16,6 +16,7 @@ modification date: 2023-05-10 09:58
 # ANKI
 
 ```anki
+id: 1700212219396
 deck: LeA
 ---
 Campo di azione

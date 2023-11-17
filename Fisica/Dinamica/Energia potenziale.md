@@ -26,6 +26,7 @@ Questo concetto è utile per il [[Moto dei pianeti]]
 # ANKI
 
 ```anki
+id: 1700212221021
 deck: Fisica
 ---
 Energia potenziale

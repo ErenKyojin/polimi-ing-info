@@ -15,6 +15,7 @@ La formula atomica è analoga alla lettera enunciativa in logica proposizionale,
 # ANKI
 
 ```anki
+id: 1700212219270
 deck: LeA
 ---
 Formula atomica

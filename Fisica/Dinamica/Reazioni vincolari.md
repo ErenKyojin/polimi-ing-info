@@ -17,6 +17,7 @@ Alcuni vincolo sono monodimensionali:
 # ANKI
 
 ```anki
+id: 1700212220895
 deck: Fisica
 ---
 Reazioni vincolari

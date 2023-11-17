@@ -115,6 +115,7 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[sistemi di 
 # ANKI
 
 ```anki
+id: 1700212220269
 deck: Fisica
 ---
 Momento angolare per sistemi di punti materiale e seconda equazione cardinale per i sistemi di punti materiali
@@ -135,6 +136,7 @@ la derivata temporale del momento della quantità di moto di un sistma di punti 
 
 
 ```anki
+id: 1700212222593
 deck: Fisica
 ---
 Seconda equazione cardinale rispetto ad un polo mobile

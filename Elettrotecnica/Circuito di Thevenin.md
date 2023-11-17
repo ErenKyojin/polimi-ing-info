@@ -22,6 +22,7 @@ $$\overline{v} = Z_\text{th}(j\omega)\overline{i} + \overline{E}_\text{th}(j\ome
 
 # ANKI
 ```anki
+id: 1700212222367
 deck: Elettrotecnica
 ---
 Circuito di Thevenin

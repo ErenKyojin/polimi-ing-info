@@ -12,6 +12,7 @@ $$ P_{\dB c} = 10 \log_{10} \left( \frac{P}{P_{C}} \right) $$
 
 
 ```anki
+id: 1700212217442
 deck: Misure
 ---
 dBc o decibel from carrier

@@ -239,7 +239,8 @@ dalla 5 possiamo ricavare l'inversa di una matrice di rango $n$ come la traspost
 
 
 ```anki
-deck: GAL 
+id: 1700212226069
+deck: GAL
 ---
 # Regola di Cramer
 ===
@@ -269,6 +270,7 @@ $$
 
 
 ```anki
+id: 1700212226271
 deck: GAL
 ---
 # Teorema di Kronecker

@@ -212,6 +212,7 @@ $\lambda_{0}$ è un autovalore di $A$ se $\ker(A - \lambda_{0}\mathbb{1}_{n}) \n
 # ANKI
 
 ```anki
+id: 1700212218720
 deck: GAL
 ---
 autovettori e autovalori
@@ -225,6 +226,7 @@ $\lambda$ si chiama autovalore di $\mathcal{L}$ relativo all'autovettore $\mathb
 
 
 ```anki
+id: 1700212220145
 deck: GAL
 ---
 Autospazio
@@ -240,6 +242,7 @@ $$
 
 
 ```anki
+id: 1700212222518
 deck: GAL
 ---
 Ricerca degli autovalori e degli autovettori

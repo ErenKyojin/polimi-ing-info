@@ -64,6 +64,7 @@ Il coefficiente di proporzionalità $\mu_{d}$ è il coefficiente di attrito dina
 # ANKI
 
 ```anki
+id: 1700212220444
 deck: Fisica
 ---
 Forze di attrito
@@ -77,6 +78,7 @@ Forze che si oppongono al moto relativo di due corpi in contatto meccanico tra l
 
 
 ```anki
+id: 1700212222644
 deck: Fisica
 ---
 Attrito radente statico
@@ -91,6 +93,7 @@ Il coefficiente di proporzionalità $\mu_s$ è detto coefficiente di attrito sta
 
 
 ```anki
+id: 1700212224095
 deck: Fisica
 ---
 Attrito radente dinamico

@@ -14,6 +14,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
+id: 1700212219494
 deck: LeA
 ---
 Formula falsa
@@ -23,6 +24,7 @@ Una formula $a$ è falsa in un'interpretazione se nessun assegnamento di valori 
 
 
 ```anki
+id: 1700212221718
 deck: LeA
 ---
 Formula logicamente contraddittoria

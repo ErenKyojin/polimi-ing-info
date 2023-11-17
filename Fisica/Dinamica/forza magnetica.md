@@ -13,6 +13,7 @@ La [[forza]] magnetica è sempre ortogonale alla velocità della [[carica]] ed a
 # ANKI
 
 ```anki
+id: 1700212220568
 deck: Fisica
 ---
 Forza magnetica

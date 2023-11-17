@@ -197,13 +197,14 @@ E la matrice diagonale di $A$ è la matrice diagonale con gli autovalori presi c
 
 
 ```anki
+id: 1700212210429
 deck: GAL
 ---
-$A \in M_{\mathbb{K}}(n,n)$ è diagonalizzabile su $\mathbb{K}$ se esiste $S \in M_{\mathbb{K}}(n,n)$ invertibile tale che $S^{-1}AS = \diag(\lambda_1, ..., \lambda_n)$ dove $lambda_1,...,\lambda_n \in \mathbb{K}$
+Matrice diagonalizzabile
 ===
-<% tp.file.cursor(2) %>
+$A \in M_{\mathbb{K}}(n,n)$ è diagonalizzabile su $\mathbb{K}$ se esiste $S \in M_{\mathbb{K}}(n,n)$ invertibile tale che $S^{-1}AS = \diag(\lambda_1, ..., \lambda_n)$ dove $lambda_1,...,\lambda_n \in \mathbb{K}$
 ```
-<% tp.file.cursor(3) %>
+
 
 ```anki
 id: 1694785481371

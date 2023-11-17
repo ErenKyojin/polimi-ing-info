@@ -73,6 +73,7 @@ Un punto di equilibrio si dice stabile, instabile o indifferente a seconda che, 
 # ANKI
 
 ```anki
+id: 1700212220771
 deck: Fisica
 ---
 Campi di forze conservative
@@ -82,6 +83,7 @@ Un campo di forze che ammette energia potenziale si dice campo conservativo e si
 
 
 ```anki
+id: 1700212222793
 deck: Fisica
 ---
 Condizione necessaria ma non sufficiente perchè un campo di forze sia conservativo
@@ -92,6 +94,7 @@ $$ \vec{F} = \vec{F}(\vec{r}) $$
 
 
 ```anki
+id: 1700212224195
 deck: Fisica
 ---
 Condizione sufficiente ma non necessaria perchè un campo di forze sia **non** conservativo
@@ -101,6 +104,7 @@ La condizione è che la forza dipenda anche dalla velocità del punto materiale 
 
 
 ```anki
+id: 1700212225046
 deck: Fisica
 ---
 Condizione necessaria e sufficiente affinchè un campo di forze sia conservativo
@@ -118,6 +122,7 @@ Che equivale ad affermare che il campo è irrotazionale
 
 
 ```anki
+id: 1700212225620
 deck: Fisica
 ---
 Equilibio di un corpo in un campo conservativo

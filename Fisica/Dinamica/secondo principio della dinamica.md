@@ -23,6 +23,7 @@ $$
 # ANKI
 
 ```anki
+id: 1700212220171
 deck: Fisica
 ---
 Secondo principio della dinamica

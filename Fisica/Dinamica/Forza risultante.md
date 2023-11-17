@@ -40,6 +40,7 @@ modification date: 2023-03-23 15:15
 # ANKI
 
 ```anki
+id: 1700212220995
 deck: Fisica
 ---
 Forza risultante

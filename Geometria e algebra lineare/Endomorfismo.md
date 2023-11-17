@@ -22,6 +22,7 @@ modification date: 2023-07-07 09:14
 
 
 ```anki
+id: 1700212218546
 deck: GAL
 ---
 Endomorfismo di applicazioni lineari

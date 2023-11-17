@@ -20,6 +20,7 @@ Al di sopra del dato vi è l'[[informazione]]
 # ANKI
 
 ```anki
+id: null
 deck: Sistemi informativi
 ---
 # Dati

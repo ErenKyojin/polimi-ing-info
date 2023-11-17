@@ -33,6 +33,7 @@ Possiamo quindi enunciare il seguente
 # ANKI
 
 ```anki
+id: 1700212220744
 deck: Fisica
 ---
 Centro di massa
@@ -47,6 +48,7 @@ $$ \vec{v}_{CM} \equiv \frac{d\vec{r}_{CM}}{dt} = \frac{\sum_{i = 1}^n m_i \vec{
 
 
 ```anki
+id: 1700212222768
 deck: Fisica
 ---
 Teorema del centro di massa

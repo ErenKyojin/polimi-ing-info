@@ -54,7 +54,8 @@ Nelle precedenti equazioni $\vec{L}_{O}^{(CM)} = \vec{r}_{CM} \times M \vec{v}_{
 # ANKI
 
 ```anki
-deck: Fisia
+id: 1700212241670
+deck: Fisica
 ---
 Primo teorema di Konig
 ===
@@ -88,6 +89,7 @@ $$ \vec{L}_O = \vec{L}_O^{(CM)} + \vec{L}_{CM}' $$
 
 
 ```anki
+id: 1700212222818
 deck: Fisica
 ---
 Secondo teorema di Konig

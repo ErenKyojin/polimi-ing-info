@@ -24,6 +24,7 @@ $\overline{i} = Y_\text{nr}(j\omega)\overline{v} + \overline{A}_\text{nr}(j\omeg
 # ANKI
 
 ```anki
+id: 1700212222394
 deck: Elettrotecnica
 ---
 Circuito di norton

@@ -488,6 +488,7 @@ c
 
 
 ```anki
+id: 1700212217944
 deck: GAL
 ---
 Rango
@@ -502,6 +503,7 @@ Si può anche definire come dimensione dell'immagine dell'applicazione lineare
 
 
 ```anki
+id: 1700212218744
 deck: GAL
 ---
 # spazi vettoriali associati ad una matrice qualsiasi

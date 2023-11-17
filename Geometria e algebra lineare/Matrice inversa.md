@@ -92,6 +92,7 @@ Attraverso l'algoritmo di Gauss-Jordan otteniamo la matrice $[\mathbb{1}_{n}|C]$
 # ANKI
 
 ```anki
+id: 1700212218470
 deck: GAL
 ---
 matrice inversa

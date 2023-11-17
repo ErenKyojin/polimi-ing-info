@@ -13,6 +13,7 @@ Si tratta di un componente attivo.
 # ANKI
 
 ```anki
+id: 1700212221696
 deck: Elettrotecnica
 ---
 # Generatore indipendente di tensione

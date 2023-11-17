@@ -17,6 +17,7 @@ Conseguenza diretta della legge di gravitazione univerale è la [[massa#massa gr
 # ANKI
 
 ```anki
+id: 1700212220346
 deck: Fisica
 ---
 Legge di gravitazione universale

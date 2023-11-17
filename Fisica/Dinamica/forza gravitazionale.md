@@ -21,6 +21,7 @@ Possiamo cosí esprimere la [[legge di gravitazione universale]] di Newton, inol
 # ANKI
 
 ```anki
+id: 1700212220595
 deck: Fisica
 ---
 Forza gravitazionale

@@ -84,6 +84,7 @@ $\xrightarrow{\Delta t \to 0}$
 # ANKI
 
 ```anki
+id: 1700212221121
 deck: Fisica
 ---
 # Velocità vettoriale media
@@ -93,6 +94,7 @@ $$ \vec{v}_m (t_1,t_2) \equiv \frac{\vec{r}(t_2) - \vec{r}(t_1)}{t_2 - t_1} = \f
 
 
 ```anki
+id: 1700212222943
 deck: Fisica
 ---
 # Velocità vettoriale istantanea
@@ -102,6 +104,7 @@ $$ \vec{v}(t) \equiv \lim_{\Delta t \to 0} \frac{\vec{r}(t + \Delta t) -\vec{r}(
 
 
 ```anki
+id: 1700212224320
 deck: Fisica
 ---
 Differenza tra velocità scalare e vettoriale
@@ -115,6 +118,7 @@ $$ \begin{align}
 
 
 ```anki
+id: 1700212225146
 deck: Fisica
 ---
 Scomposizione della velocità vettoriale istantanea in componenti cartesiane
@@ -124,6 +128,7 @@ $$ \vec{v} = \frac{d}{dt}x\hat{u}_x + \frac{d}{dt}y\hat{u}_y + \frac{d}{dt}z\hat
 
 
 ```anki
+id: 1700212225643
 deck: Fisica
 ---
 Proprietà di tangenza della velocità vettoriale istantanea alla traiettoria del moto
@@ -133,6 +138,7 @@ Nella definizione di velocità vettoriale, passando al limite per $\Delta t \to 
 
 
 ```anki
+id: 1700212225893
 deck: Fisica
 ---
 Legame tra velocità vettoriale e velocità scalare istantanea
@@ -144,6 +150,7 @@ Cioè la velocità vettoriale ha per modulo il modulo della velocità vettoriale
 
 
 ```anki
+id: 1700212226119
 deck: Fisica
 ---
 Determinazione della legge oraria dalla velocità vettoriale istantanea

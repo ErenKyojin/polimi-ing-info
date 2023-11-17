@@ -45,6 +45,7 @@ Classifichiamole invece le forze con cui avremo a che fare:
 # ANKI
 
 ```anki
+id: 1700212220496
 deck: Fisica
 ---
 Tutte le forze in natura possono essere ricondotte a quattro interazioni fondamentali

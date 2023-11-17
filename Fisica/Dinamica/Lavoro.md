@@ -127,6 +127,7 @@ Possiamo quindi definire l'[[energia potenziale]] della forza peso
 # ANKI
 
 ```anki
+id: 1700212220967
 deck: Fisica
 ---
 Lavoro
@@ -138,6 +139,7 @@ con $\theta$ angolo tra $\vec{F}$ e $d\vec{r}$
 
 
 ```anki
+id: 1700212222895
 deck: Fisica
 ---
 Lavoro resistente
@@ -147,6 +149,7 @@ Il lavoro compiuto da una forza si dice resistente se è negativo, quindi se la 
 
 
 ```anki
+id: 1700212224273
 deck: Fisica
 ---
 Lavoro di una forza lungo un cammino finito
@@ -157,6 +160,7 @@ $$ \mathcal{L} = \int_{A,\gamma}^B \! \vec{F} \cdot d\vec{r} $$
 
 
 ```anki
+id: 1700212225097
 deck: Fisica
 ---
 Lavoro di una forza costante

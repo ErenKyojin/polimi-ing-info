@@ -11,6 +11,7 @@ L'accelerazione di gravità $g_{0} = \gamma M_{T} / R_{T}^2 \approx 9.81 m/s^2$ 
 # ANKI
 
 ```anki
+id: 1700212220545
 deck: Fisica
 ---
 Forza peso
