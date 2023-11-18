@@ -62,7 +62,20 @@ $$ E_{c} = \frac{1}{2} \iiint
 ossia
 $$ E_{c} = \frac{1}{2} \iiint \d m [v_{CM}^2 + |\vec{\omega} \times (\vec{r} - \vec{r}_{CM})|^2 + 2\vec{v}_{CM} \cdot (\vec{\omega} \times (\vec{r} - \vec{r}_{CM}))] $$
 poniamo $\vec{r}' = \vec{r} - \vec{r}_{CM}$, possiamo quindi scrivere
-$$ |\vec{\omega} \times (\vec{r} - \vec{r}_{CM}) |^2 = |\vec{\omega} \times \vec{r}'|^2 = |\omega r' \sin(\theta)\hat{u}_{\theta}|^2 =  $$
+$$ |\vec{\omega} \times (\vec{r} - \vec{r}_{CM}) |^2 = |\vec{\omega} \times \vec{r}'|^2 = |\omega r' \sin(\theta)\hat{u}_{\theta}|^2 = \omega^2p'^2 $$
+otteniamo sostituendo nell'espressione dell'energia cinetica
+$$ \begin{align}
+E_{c} &= \frac{1}{2} \iiint \d m [v_{CM}^2 + \omega^2p'^2 + 2\vec{v}_{CM} \cdot \vec{\omega} \times (\vec{r} - \vec{r}_{CM})]= \\
+&= \frac{1}{2}v_{CM}^2 \iiint \d m + \frac{1}{2}\omega^2 \iiint p'^2 \d m + \vec{v}_{CM} \cdot \vec{\omega} \times \iiint (\vec{r} - \vec{r}_{CM}) \d m
+\end{align} $$
+moltiplicando e dividendo per M il terzo elemento a destra:
+$$ E_{c} = \frac{1}{2}v_{CM}^2 \underbrace{ \iiint \d m }_{ M } + \frac{1}{2} \omega \underbrace{ \iiint p'^2 \d m  }_{ I_{CM} }+ \vec{v}_{CM} \cdot \omega^2 \times \underbrace{ \frac{M}{M} \iiint (\vec{r} - \vec{r}_{CM}) \d m  }_{ 0 }$$
+Quindi, in conclusione
+$$ E_{c}  = \frac{1}{2} Mv_{CM}^2 + \frac{1}{2}I_{CM}\omega^2$$
+Possiamo scriverla nei tre casi:
+- solo traslazione: $E_{c}  = \frac{1}{2} Mv_{cm}^2$
+- solo rotazione: $E_{c} = \frac{1}{2} I_{0} \omega^2$
+- roto traslazione: $E_{c} = \frac{1}{2} Mv_{CM}^2 + \frac{1}{2}I_{0}\omega^2$
 # ANKI
 
 ```anki
@@ -116,4 +129,16 @@ Energia cinetica in un sistema di punti materiali
 ===
 Si definisce energia cinetica di un sistema di punti materiali in un dato SdR la somma delle energie cinetiche di tutti i punti rispetto allo stesso sistema di riferimento
 $$ E_C = \sum_{i = 1}^n \frac{1}{2}m_i v_i^2 $$
+```
+
+
+```anki
+deck: Fisica
+---
+Energia cinetica di un corpo rigido
+===
+Si può scrivere nei tre diversi casi possibili di moto:
+- solo traslazione: $E_c = \frac{1}{2} Mv_{CM}^2$
+- solo rotazione: $E_c = \frac{1}{2} I_0 \omega^2$
+- roto traslazione: $E_c = \frac{1}{2} Mv_{CM}^2 + \frac{1}{2}I_0 \omega^2$
 ```
