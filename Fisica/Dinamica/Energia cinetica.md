@@ -52,7 +52,17 @@ Si definisce energia cinetica di un sistema di punti materiali in un dato SdR la
 $$ E_{c} = \sum_{i = 1}^n \frac{1}{2}m_{i}v_{i}^2 $$
 
 # energia ginetica in un [[corpo rigido]]
-
+Per ogni $\d m$ è possibile scriverne la velocità come
+$$ \vec{v} = \vec{v}_{CM} + \vec{\omega} \times (\vec{r} - \vec{r}_{CM}) $$
+per definizione di energia cinetica
+$$ E_{c} = \frac{1}{2}mv^2 $$
+per un corpo rigido l'energia cinetica totale è la somma dell'energia cinetica di ciascun $\d m$
+$$ E_{c} = \frac{1}{2} \iiint 
+\! \d m [v_{CM} + \omega^2 \times (\vec{r} - \vec{r}_{CM})] \cdot [2 \vec{v}_{CM}  + \vec{\omega} \times (\vec{r} - \vec{r}_{CM}) ]$$
+ossia
+$$ E_{c} = \frac{1}{2} \iiint \d m [v_{CM}^2 + |\vec{\omega} \times (\vec{r} - \vec{r}_{CM})|^2 + 2\vec{v}_{CM} \cdot (\vec{\omega} \times (\vec{r} - \vec{r}_{CM}))] $$
+poniamo $\vec{r}' = \vec{r} - \vec{r}_{CM}$, possiamo quindi scrivere
+$$ |\vec{\omega} \times (\vec{r} - \vec{r}_{CM}) |^2 = |\vec{\omega} \times \vec{r}'|^2 = |\omega r' \sin(\theta)\hat{u}_{\theta}|^2 =  $$
 # ANKI
 
 ```anki
