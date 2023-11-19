@@ -41,7 +41,7 @@ otteniamo $A = A^T$
 >\end{align} $$
 >Quindi $<\mathcal{L}(\mathbf{v}),\mathbf{w}> = <\mathbf{v},\mathcal{L}(\mathbf{w})>$ e $\mathcal{L}$ è simmetrica. Osserviamo che le proiezioni ortogonali sono endomorfismi simmetrici. Infatti se $H \subseteq V$ e $\begin{align}P_{H} : V &\to V \\\mathbf{v} &\mapsto \mathbf{v}_{H}\end{align}$ una base ortonormale di autovettori di $P_{H}$ si puó costruire accostando una base ortonormale per $H$ (autovettori relativi a $1$) e una base ortonormale per $H^\perp$ (autovettori relativi a $0$). Analogamente anche le riflessioni ortogonali sono endomorfismi simmetrici. Se $\mathcal{R} : V \to V (\mathbf{v} \mapsto \mathbf{v} - 2\mathbf{v}_{H^\perp})$ allora una base ortonormale di autovettori di $\mathcal{R}$ si puó costruire accostando una base ortonormale per $H(R | \mathbf{h}) = \mathbf{h} - 2\quad \mathbf{h}_{H^\perp} = \mathbf{h} \quad \forall \mathbf{h} \in H$ ed una base ortonormale per $H^\perp(\mathcal{R}(\mathbf{h}')=\mathbf{h}' - 2\mathbf{h}'_{H^\perp}=\mathbf{h}' -2\mathbf{h}'= -\mathbf{h}' \forall \mathbf{h}' \in H^\perp)$
 
-
+# ANKI
 
 ```anki
 id: 1694785481597
