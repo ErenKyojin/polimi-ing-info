@@ -122,7 +122,7 @@ Il lavoro dipende in generale dalla ~~traiettoria~~ e non solo dagli estremi $A$
 
  
 ```anki
-id: 1700212225121
+id: 1700409303504
 deck: Fisica
 ---
 Energia cinetica in un sistema di punti materiali
@@ -133,6 +133,7 @@ $$ E_C = \sum_{i = 1}^n \frac{1}{2}m_i v_i^2 $$
 
 
 ```anki
+id: 1700409303879
 deck: Fisica
 ---
 Energia cinetica di un corpo rigido

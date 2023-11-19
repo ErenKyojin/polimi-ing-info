@@ -29,7 +29,7 @@ Questo teorema è parte del piú generale [[teorema di conservazione dell'energi
 # ANKI
 
 ```anki
-id: 1700212220093
+id: 1700409280704
 deck: Fisica
 ---
 Teorema di conservazione dell'energia meccanica

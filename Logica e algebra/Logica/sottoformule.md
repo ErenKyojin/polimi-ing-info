@@ -23,7 +23,7 @@ Nel [[linguaggio del primo ordine]]:
 
 
 ```anki
-id: 1700212219020
+id: 1700409274578
 deck: LeA
 ---
 Sottoformule nella logica del primo ordine

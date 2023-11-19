@@ -14,7 +14,7 @@ modification date: 2023-05-08 16:46
 
 
 ```anki
-id: 1700212219346
+id: 1700409275278
 deck: LeA
 ---
 Derivazione per risoluzione

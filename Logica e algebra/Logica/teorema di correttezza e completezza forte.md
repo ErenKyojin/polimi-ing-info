@@ -21,7 +21,7 @@ Questo teorema può essere facilmente ricavato dalla versione debole dei teoremi
 
 # ANKI
 ```anki
-id: 1700212218970
+id: 1700409274528
 deck: LeA
 ---
 Teorema di correttezza e completezza di L versione forte
@@ -31,7 +31,7 @@ $\Gamma \vdash_L a$ se e solo se $\Gamma \vDash a$
 
 
 ```anki
-id: 1700212220796
+id: 1700409275803
 deck: LeA
 ---
 Teorema dicorrettezza e completezza per refutazione

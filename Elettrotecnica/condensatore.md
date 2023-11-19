@@ -62,7 +62,7 @@ Quindi il dissipatore non dissipa la potenza che assorbe ma la scambia.
 # ANKI
 
 ```anki
-id: 1700212221945
+id: 1700409285454
 deck: Elettrotecnica
 ---
 Capacità elettrica
@@ -80,7 +80,7 @@ $$ C = \frac{Q}{V_1 - V_2} $$
 questo sistema definisce il bipolo detto condensatore
 ```
 ```anki
-id: 1700212223596
+id: 1700409303355
 deck: Elettrotecnica
 ---
 Condensatore in regime stazionario
@@ -92,7 +92,7 @@ In questo momento arriviamo nuovamente ad un regime stazionario dove la carica Q
 
 
 ```anki
-id: 1700212224745
+id: 1700409304129
 deck: Elettrotecnica
 ---
 Condensatori in regime tempo variante
@@ -105,7 +105,7 @@ $$ I = \frac{dQ}{dt} = C \frac{dV}{dt} $$
 
 
 ```anki
-id: 1700212225445
+id: 1700409304404
 deck: Elettrotecnica
 ---
 Potenza istantanea assorbita da un condensatore

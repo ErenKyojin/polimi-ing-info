@@ -11,7 +11,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1700212223644
+id: 1700409305103
 deck: LeA
 ---
 Conseguenza logica nel linguaggio di primo ordine

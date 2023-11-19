@@ -35,7 +35,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1700212223619
+id: 1700409305004
 deck: LeA
 ---
 equivalenza logica

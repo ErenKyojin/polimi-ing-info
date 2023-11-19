@@ -125,7 +125,7 @@ dove $I_{o}$ è il [[momento di inerzia]] rispetto all'asse di rotazione passant
 # ANKI
 
 ```anki
-id: 1700212220720
+id: 1700409282079
 deck: Fisica
 ---
 Corpo rigido
@@ -138,7 +138,7 @@ Ha 6 gradi di libertà:
 
 
 ```anki
-id: 1700212222742
+id: 1700409283430
 deck: Fisica
 ---
 Parametri di un corpo rigido
@@ -150,7 +150,7 @@ Parametri di un corpo rigido
 
 
 ```anki
-id: 1700212224170
+id: 1700409285029
 deck: Fisica
 ---
 moto dei corpi rigidi
@@ -161,7 +161,7 @@ $$ \vec{v} = \vec{v}_{CM} + \vec{\omega} \times (\vec{r} - \vec{r}_{CM}) $$
 
 
 ```anki
-id: 1700212225021
+id: 1700409303205
 deck: Fisica
 ---
 Moto unicamente traslatorio di un corpo rigido
@@ -182,7 +182,7 @@ Infine si dimostra che il momento angolare totale rispetto al centro di massa è
 
 
 ```anki
-id: 1700212225597
+id: 1700409304003
 deck: Fisica
 ---
 Moto unicamente rotatorio rispetto ad un corpo rigido

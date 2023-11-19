@@ -127,7 +127,7 @@ Allo stesso modo la chiusura riflessiva, simmetrica e transitiva di $R$ è la ch
 
 
 ```anki
-id: 1695223920597
+id: 1700409276028
 deck: LeA
 ---
 $R \subseteq A \times A\quad P = \{proprietà\}$

@@ -48,7 +48,7 @@ Con il primo prodotto elemento per elemento (avremo 1 solo nelle posizioni che h
 
 
 ```anki
-id: 1695223920471
+id: 1700409275729
 deck: LeA
 ---
 # Matrice di adiacenza

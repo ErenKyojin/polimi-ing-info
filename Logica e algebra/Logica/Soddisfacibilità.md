@@ -10,7 +10,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1700212219420
+id: 1700409275379
 deck: LeA
 ---
 Formula soddisfacibile

@@ -204,7 +204,7 @@ Definite queste proprietà possiamo definire la [[P chiusura]]
 # ANKI
 
 ```anki
-id: 1700212219520
+id: 1700409275479
 deck: LeA
 ---
 Relazione binaria
@@ -216,7 +216,7 @@ Se $R \subseteq A_1 \times A_2$ con $|A_1| < \infty$ e $|A_2| < \infty$, una rel
 
 
 ```anki
-id: 1700212221771
+id: 1700409277078
 deck: LeA
 ---
 Prodotto di due relazioni
@@ -227,7 +227,7 @@ $$ R \cdot T = \{(a_1,a_3) : \exists a_2 : (a_1, a_2) \in R\text{ e } (a_2,a_3) 
 
 
 ```anki
-id: 1700212223467
+id: 1700409278479
 deck: LeA
 ---
 Proprietà del prodotto di relazioni
@@ -244,7 +244,7 @@ Da cui possiamo dedurre anche che se $R \subseteq T \subseteq A_1 \times A_2, S 
 
 
 ```anki
-id: 1700212224670
+id: 1700409279754
 deck: LeA
 ---
 Relazioni binarie su un insieme A
@@ -256,7 +256,7 @@ Tra le relazioni su $A$ ci sono la relazione vuota, indicata con $\varnothing$, 
 
 
 ```anki
-id: 1700212225395
+id: 1700409280379
 deck: LeA
 ---
 Potenza delle relazioni binarie su $A$
@@ -273,7 +273,7 @@ Sussistono le proprietà delle potenze per esponenti interi non negativi
 
 
 ```anki
-id: 1700212225818
+id: 1700409281729
 deck: LeA
 ---
 Proprietà delle relazioni binaries su un insieme A

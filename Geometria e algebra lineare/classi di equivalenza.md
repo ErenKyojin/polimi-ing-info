@@ -17,7 +17,7 @@ Si può quindi definire la [[Partizione]] di un insieme $A$.
 
 
 ```anki
-id: 1695223913672
+id: 1700409277679
 deck: LeA
 ---
 # Classi di equivalenza

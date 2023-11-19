@@ -197,7 +197,7 @@ E la matrice diagonale di $A$ è la matrice diagonale con gli autovalori presi c
 
 
 ```anki
-id: 1700212210429
+id: 1700409277579
 deck: GAL
 ---
 Matrice diagonalizzabile

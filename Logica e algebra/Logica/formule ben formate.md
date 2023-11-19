@@ -137,7 +137,7 @@ Possiamo quindi definire gli [[insiemi adeguati]]
 # ANKI
 
 ```anki
-id: 1700212219220
+id: 1700409275154
 deck: LeA
 ---
 Formula ben formata
@@ -149,7 +149,7 @@ Le formule ben formate o fbf sono sequenze di simboli con una buona struttura ch
 - nient'altro è una fbf
 ```
 ```anki
-id: 1700212221393
+id: 1700409276729
 deck: LeA
 ---
 Soddisfacibilità
@@ -158,9 +158,8 @@ Una f.b.f. $\mathcal{A}$ si dice soddisfacibile se esiste almeno una interpretaz
 
 Una f.b.f. che non ammette modelli è detta insoddisfacibile
 ```
-
 ```anki
-id: 1700212223220
+id: 1700409278328
 deck: LeA
 ---
 Tautologia
@@ -172,8 +171,9 @@ Una fbf $\mathcal{A}$ è una tautologia se e solo se $\sim \mathcal{A}$ è insod
 
 
 
+
 ```anki
-id: 1700212224495
+id: 1700409279679
 deck: LeA
 ---
 Forma normale disgiuntiva
@@ -183,7 +183,7 @@ Una formula ben formata è in forma normale disgiuntiva se ha solo or di and
 
 
 ```anki
-id: 1700212225320
+id: 1700409280279
 deck: LeA
 ---
 Forma normale congiuntiva
@@ -191,7 +191,7 @@ Forma normale congiuntiva
 Una formula ben formata è in forma normale congiuntiva se ha solo and di or 
 ```
 ```anki
-id: 1700212225744
+id: 1700409281428
 deck: LeA
 ---
 # Equivalenze semantiche
@@ -218,7 +218,7 @@ $\sim(A \land B) = \sim A \lor \sim B$
 
 
 ```anki
-id: 1700212225996
+id: 1700409283180
 deck: LeA
 ---
 Formule ben formate nel linguaggio del primo ordine

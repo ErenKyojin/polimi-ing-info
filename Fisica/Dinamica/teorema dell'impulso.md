@@ -11,7 +11,7 @@ modification date: 2023-04-12 15:48
 # ANKI
 
 ```anki
-id: 1700212220118
+id: 1700409280754
 deck: Fisica
 ---
 Teorema dell'impulso

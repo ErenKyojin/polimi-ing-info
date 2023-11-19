@@ -87,7 +87,7 @@ La teoria L è un sistema che non si presta bene alla dimostrazione automatica, 
 
 
 ```anki
-id: 1700212218894
+id: 1700409274428
 deck: LeA
 ---
 Alfabeto di L
@@ -99,7 +99,7 @@ $(,)$ simboli ausiliari
 
 
 ```anki
-id: 1700212220618
+id: 1700409275604
 deck: LeA
 ---
 Fbf di L
@@ -112,7 +112,7 @@ Fbf di L
 
 
 ```anki
-id: 1700212222696
+id: 1700409277353
 deck: LeA
 ---
 Assiomi di L
@@ -124,7 +124,7 @@ Assiomi di L
 
 
 ```anki
-id: 1700212224145
+id: 1700409278579
 deck: LeA
 ---
 Regole di inferenza di L
@@ -136,7 +136,7 @@ $b$ (riscrivo $b$ in una nuova riga singola)
 
 
 ```anki
-id: 1700212224995
+id: 1700409279854
 deck: LeA
 ---
 teorema di correttezza
@@ -164,7 +164,7 @@ Se $\vdash_L a$ allora $\vDash a$
 >> $v ; v(a) = 0 \implies v(c) = 0$
 ```
 ```anki
-id: 1700212225570
+id: 1700409280479
 deck: LeA
 ---
 teorema di completezza
