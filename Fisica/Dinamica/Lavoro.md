@@ -190,3 +190,15 @@ Considerata una forza costante $\vec{F}$ che lavora su un punto materiale di mas
 $$  \mathcal{L}_{A \to B,\gamma} = \int_{A,\gamma}^B \! \vec{F} \cdot d\vec{r} = \vec{F} \cdot \int_{A,\gamma}^B D\vec{r} = \vec{F} (\vec{r}_B - \vec{r}_A) = \vec{F} \cdot \Delta\vec{r}(A,B), \forall \gamma$$
 Quindi il lavoro compiuto da una forza costante è indipendente dalla traiettoria ma solo dagli estremi $A$ $B$ e precisamente dal vettore spostamento $\Delta \vec{r} = \overrightarrow{AB}$
 ```
+
+
+```anki
+deck: Fisica
+---
+Lavoro su di un corpo rigido
+===
+$$
+\delta \mathcal{L}^{\text{(ext)}}= \vec{F}_{tot}^{\text{(ext)}} \cdot \vec{v}_{cm}\ dt + \tau_{cm}^{\text{(ext)}} \cdot \vec{\omega} dt
+$$
+```
+

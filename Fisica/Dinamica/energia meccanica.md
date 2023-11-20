@@ -86,6 +86,7 @@ deck: Fisica
 ---
 Energia meccanica e conservazione dell'energia per un corpo rigido
 ===
-L'energia meccanica per un corpo rigido pu 
+L'energia meccanica per un corpo rigido può essere scritta come
+$$ E_m = \frac{1}{2} M v^2_{cm} + \frac{1}{2}I_{cm}\omega^2 + U^{\text{(ext)})} $$
 ```
 <% tp.file.cursor(3) %>
