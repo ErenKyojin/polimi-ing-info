@@ -39,5 +39,17 @@ $$ \mathcal{L}_{1,2}^{(I)} = \int _{A}^B \!\vec{F}_{12} \cdot \mathrm{d}\vec{r}_
 Più in generale, in un sistema di $n$ punti materiali, il lavoro compiuto dalle forze interne è una sommatoria (doppia) del tipo
 $$ \mathcal{L}^{(I)} - \underset{ j > i }{ \sum_{i,j} } \mathcal{L}_{ij}^{(I)} = \underset{j > i}{\sum_{i,j}} \int _{A}^B  \! \vec{F}_{ij} \cdot \, \mathrm{d}\vec{r}_{ij}  $$
 
+
 >[!oss]
 >Per un sistema
+## Conservazione dell'energia meccanica per un [[corpo rigido]]
+
+Si consideri il teorema dell'energia cinetica, suddividendo le forze esterne in forze conservative e non conservative
+$$ \d E_{c} = \delta \mathcal{L}^{(\text{ext})} = \delta \mathcal{L}_{cons}^{(ext)} + \delta \mathcal{L}^{\text{(ext)}}_{ncons} $$
+
+Sappiamo che una [[forze conservative|forza conservativa]] ammetet un [[Energia potenziale]] $\delta \mathcal{L}_{cons}^{\text{(ext)}} = \d U^{\text{(ext)}}$
+
+Sostituendo
+$$ \d\underbrace{ (E_{c} + U^{\text{(ext)}}) }_{ E_{m} } = \delta \mathcal{L}_{\text{non cons}}^{(\text{ext})} \implies \d E_{m} = \delta \mathcal{L}_{\text{non cons}}^{\text{(ext)}}$$
+Dove l'energia meccanica per un corpo rigido può essere scritta come
+$$ E_{m} = \frac{1}{2} Mv_{cm}^2 + \frac{1}{2}I_{cm} \omega^2 + I^{\text{(ext)}} $$
