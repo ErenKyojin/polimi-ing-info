@@ -136,8 +136,15 @@ $$ \delta L^{\text{(ext)}} = \left( \sum_{i} \vec{F}_{i}^{(ext)} \cdot \vec{v}_{
 Permutando gli operandi del prodotto scalare e vettoriale.
 $$ \delta \mathcal{L}^{(\text{ext})} = \left( \sum_{i} \vec{F}_{i}^{\text{(ext)}} \cdot \vec{v}_{cm} \right) \d t + \left( \sum_{i} \vec{\omega} \cdot (\vec{r}_{i} - \vec{r}_{cm}) \times \vec{F}_{i}^{(\text{ext})} \right) \d t$$
 Raccogliamo le costanti
-$$ \delta \mathcal{L}^{(\text{ext})} = \left(  \sum_{i}\vec{F}_{tot}^{(\text{ext})} \right) \cdot \vec{v}_{cm} $$
+$$ \delta \mathcal{L}^{(\text{ext})} = \left(  \sum_{i}\vec{F}_{tot}^{(\text{ext})} \right) \cdot \vec{v}_{cm} + \vec{\omega} \cdot \left( \sum_{i}(\vec{r}_{i} - \vec{r}_{cm}) \times \vec{F}_{i}^{(\text{ext})} \right) \d t$$
+Abbiamo nelle parentesi:
+- Forza totale esterna
+- Momento delle forze esterne totali rispetto al centro di massa
 
+$$ \delta\mathcal{L} ^{\text{(ext)}} = \vec{F}_{tot}^{\text{(ext)}} \cdot \vec{v}_{cm} + \tau_{CM}^{(\text{ext})} \cdot \vec{\omega}\ \d t$$
+possiamo quindi applicare il teorema dell'energia cinetica: $$ dE_{c} = \delta \mathcal{L}^{(\text{ext})} $$
+E possiamo quindi scrivere
+$$ d\left( \frac{1}{2} M v_{cm}^2 + \frac{1}{2}I_{cm} \omega^2 \right) = \vec{F}_{tot}^{(\text{ext})} \cdot \vec{v}_{cm} \d t + \tau_{cm}^{\text{(ext)}} \cdot \vec{\omega} \ \d t $$
 # ANKI
 
 ```anki
