@@ -23,6 +23,19 @@ $$ d\vec{F}_{x} = - [p(x+\d x, y, z) - p(x,y,z)]\d y \d z \hat{u}_{x} $$
 
 Moltiplicando e dividendo per $\d x$
 $$ \d \vec{F}_{x} = -\underbrace{  \frac{[p(x + \d x, y, z) - p(x,y,z)]}{\d x} }_{ \dfrac{ \partial p }{ \partial x }  } \d x\d y \d z \hat{u}_{x} $$
-Quindi $\d \vec{F}_{x} = - \dfrac{ \partial p }{ \partial x }\d x\$
+Quindi $\d \vec{F}_{x} = - \dfrac{ \partial p }{ \partial x }\d x\d y \d z \hat{u}_{x}$
+
+Ovviamente il discorso fatto lungo $x$ si può fare analogamente lungo $y$ e $z$:
+$$ \d \vec{F}_{y} = - \frac{ \partial p }{ \partial y } \d x\d y\d z \hat{u}_{y}\qquad \d \vec{F}_{z}= - \frac{ \partial p }{ \partial z } \d x \d y \d z \hat{u}_{z} $$
+
+Sostituendo tutte queste relazioni nel bilancio delle forze abbiamo
+$$\begin{align}
+ &-\left( \frac{ \partial p }{ \partial x } \hat{u}_{x} + \frac{ \partial p }{ \partial y } \hat{u}_{y} + \frac{ \partial p }{ \partial z } \hat{u}_{z} \right) \cancel{ \d x \d y \d z } + \vec{P} \cancel{ \d x \d y \d } z = \\
+= &- \left( \frac{ \partial p }{ \partial x } \hat{u}_{x} + \frac{ \partial p }{ \partial y } \hat{u}_{y} + \frac{ \partial p }{ \partial z } \hat{u}_{z}  \right) +  \hat{P} = 0
+\end{align}$$
+Quindi
+$$ -\vec{\nabla} p + \vec{P} = 0 \implies \vec{\nabla} p = \vec{P} $$
+
+Se il termine a destra è nullo, e quindi $\vec{\nabla} p = 0$, allora
 
 >[!legge] principio di Pascal
