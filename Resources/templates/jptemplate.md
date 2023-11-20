@@ -8,5 +8,5 @@ aliases: <% tp.file.cursor(0) %>
 	 display: flex;
 	 align-items: center;
 	 justify-content: center"
-	 > <% tp.file.title %>
+	 > <% await tp.file.title %>
 </div>
