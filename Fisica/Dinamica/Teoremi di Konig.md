@@ -12,7 +12,7 @@ $$ \vec{r}_{i} = \vec{r}_{i}' + \vec{r}_{CM}\qquad \vec{v}_{i} = \vec{v}_{i}' + 
 Essendo $\vec{r}_{i}'$ e $\vec{v}_{i}'$ la posizione e la velocità relative al sistema $C, \vec{r}_{i}$ e $\vec{v}_{i}$ quelle riferite al sistema inerziale (fisso), $\vec{r}_{CM}$ e $\vec{v}_{CM}$ quelle del centro di massa (nel sistema inerziale fisso).
 Il [[momento angolare]] del sistema, nel riferimento inerziale, si scrive
 $$ \begin{align}
-\vec{L} &= \sum_{i = 1}^n \vec{r}_{i} \times m_{i}\vec{v}_{i} = \sum^n_{i = 1}(\vec{r}_{i} + \vec{r}_{CM}) \times m_{i}(\vec{v}_{i}' + \vec{v}_{CM}) =  \\
+\vec{L} &= \sum_{i = 1}^n \vec{r}_{i} \times m_{i}\vec{v}_{i} = \sum^n_{i = 1}(\vec{r}_{i} + \vec{r}_{CM}) \times m_{i}(\vec{v}_{i}' + \vec{v}_{CM}) =  \
 &=\sum_{i = 1}^n \vec{r}_{i} \times m_{i}\vec{v}_{i}' + \sum_{i  =1}^n\vec{r}_{i}' \times m_{i}\vec{v}_{CM} +\sum_{i = 1}^n\vec{r}_{CM} \times m_{i}\vec{v}_{i}' + \sum_{i = 1}^n \vec{r}_{CM} \times m_{i}\vec{v}_{CM}
 \end{align}$$
 Osserviamo ora che:
