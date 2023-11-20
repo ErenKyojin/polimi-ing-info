@@ -35,6 +35,7 @@ deck: Fisica
 ---
 Legge di stevino
 ===
-La differenza di pressione tra due punti di un fluido in equilibrio è data dalla differenza dalla pressione esercitata dalla colonna di fluido di altezza $h$ uguale alla differenza di quota tra i due punti $$p_2 - p_1 = @d$$
+La differenza di pressione tra due punti di un fluido in equilibrio è data dalla differenza dalla pressione esercitata dalla colonna di fluido di altezza $h$ uguale alla differenza di quota tra i due punti $$p_2 - p_1 = \delta gh$$
+
+Le superfici con la medesima pressioen sono dette isobare
 ```
-<% tp.file.cursor(3) %>
