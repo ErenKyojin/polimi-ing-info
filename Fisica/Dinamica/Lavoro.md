@@ -124,6 +124,12 @@ Quindi il lavoro compiuto da una forza costante è indipendente dalla traiettori
 
 Possiamo quindi definire l'[[energia potenziale]] della forza peso
 
+# Lavoro su di un corpo rigido
+Le forze interne non compiono lavoro, quindi lo compiono solo quelle esterne:
+$$ \delta \mathcal{L}^{(\text{ ext })} = \sum_{i} \vec{F}_{i}^{(\text{ ext })} \cdot d\vec{r}_{i} $$
+
+Possiamo scrivere
+$$ d\vec{r}_{i} = \vec{v}_{i} \d t = [\vec{v}_{cm} + \vec{\omega} \times (\vec{r}_{i} - \vec{r}_{cm})] \d t $$
 # ANKI
 
 ```anki
