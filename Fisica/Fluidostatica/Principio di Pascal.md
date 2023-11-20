@@ -36,6 +36,7 @@ $$\begin{align}
 Quindi
 $$ -\vec{\nabla} p + \vec{P} = 0 \implies \vec{\nabla} p = \vec{P} $$
 
-Se il termine a destra è nullo, e quindi $\vec{\nabla} p = 0$, allora
+Se il termine a destra è nullo, e quindi $\vec{\nabla} p = 0$, allora $p$ è uguale in tutti i punti del fluido, possiamo quindi enunciare
 
 >[!legge] principio di Pascal
+>La pressione di un fluido in equilibrio non soggetto a forze di volume è la stessa in tutti i suoi punti
