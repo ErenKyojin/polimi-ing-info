@@ -109,9 +109,7 @@ deck: GAL
 ---
 Siano $\lambda_1,...,\lambda_r \in \mathbb{K}$ autovalori distinti di $A \in M_{\mathbb{K}(n,n)$. Siano $g_1,...,g_3$ le corrispettive molteplicità geometriche. Allorai l massimo numero N di autovettori linearmente indipendente è la somma delle ~~molteplciità geometriche~~
 ===
-
 ```
-
 
 ```anki
 id: 1694785481328
