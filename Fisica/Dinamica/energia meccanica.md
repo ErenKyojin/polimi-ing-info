@@ -52,4 +52,40 @@ Sappiamo che una [[forze conservative|forza conservativa]] ammetet un [[Energia 
 Sostituendo
 $$ \d\underbrace{ (E_{c} + U^{\text{(ext)}}) }_{ E_{m} } = \delta \mathcal{L}_{\text{non cons}}^{(\text{ext})} \implies \d E_{m} = \delta \mathcal{L}_{\text{non cons}}^{\text{(ext)}}$$
 Dove l'energia meccanica per un corpo rigido può essere scritta come
-$$ E_{m} = \frac{1}{2} Mv_{cm}^2 + \frac{1}{2}I_{cm} \omega^2 + I^{\text{(ext)}} $$
+$$ E_{m} = \frac{1}{2} Mv_{cm}^2 + \frac{1}{2}I_{cm} \omega^2 + U^{\text{(ext)}} $$
+e le forze non conservative non compiono lavoro allora l'energia meccanica si conserva:
+$$ \d E_{m} = \delta \mathcal{L}_{\text{non cons}}^{\text{(ext)}} \ \text{se}\ \delta \mathcal{L}_{\text{non cons}}^{(\text{ext})} = 0 \implies \d E_{m} = 0 \implies E_{m} = \cost$$
+
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Energia meccanica
+===
+L'energia meccanica $E$ di un sistema è la somma dell'energia cinetica e di tutte le energie potenziali delle forze conservative in gioco, cioè:
+$$ E = E_c + E_p $$
+```
+
+
+```anki
+deck: Fisica
+---
+Teorema dell'energia cinetica
+===
+Se un sistema di punti passa da una configurazione $A$ ad una configurazione $B$, il lavoro compiuo da tutte le forze applicate (interne ed esterne) è pari alla variazione di energia cinetica totale del sistema tra le configurazioni $A$ e $B$
+$$
+\mathcal{L}_{A \to B,\gamma} = \Delta E_c(A,B)
+$$
+```
+
+
+```anki
+deck: Fisica
+---
+Energia meccanica e conservazione dell'energia per un corpo rigido
+===
+L'energia meccanica per un corpo rigido pu 
+```
+<% tp.file.cursor(3) %>
