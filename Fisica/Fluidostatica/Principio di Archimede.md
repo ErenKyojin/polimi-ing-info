@@ -16,4 +16,15 @@ $$ \vec{F}_{p} = m'g = \delta'V\vec{g} $$
 - Se $\delta' < \delta \implies \vec{F}_{p}' < F_{A}$ allora il corpo riemerge
 
 $\vec{F}_{A}$ prende il nome di spinta di archimede ed è applicata nel centro di masas del volume di liquido occupato dal corpo.
-Il principio di Archimede afferma che un corpo immerso in un fluido riceve una sp
+Il principio di Archimede afferma che un corpo immerso in un fluido riceve una spinta verso l'altro pari al peso del fluido spostato. Tale spinta è applicata al centro di massa del fluido spostato, detto **centro di spinta**. La posizione del centro di spinta rispetto alla posizione del centro di massa del corpo immerso è utile per determinare le condizioni di equilibrio del corpo stesso immerso nel fluido.
+
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Principio di archimede
+===
+Un corpo immerso in un fluido riceve una spinta verso l'alto pari al peso del fluido spostato. Tale spinta è applicata al centro di massa del fluido spostato, detto centro di spinta.
+```

@@ -40,3 +40,13 @@ Se il termine a destra è nullo, e quindi $\vec{\nabla} p = 0$, allora $p$ è ug
 
 >[!legge] principio di Pascal
 >La pressione di un fluido in equilibrio non soggetto a forze di volume è la stessa in tutti i suoi punti
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Principio di Pascal
+===
+La pressione di un fluido in equilibrio non soggetto a forze di volume è la stessa in tutti i suoi punti
+```

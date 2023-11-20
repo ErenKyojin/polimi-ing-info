@@ -27,3 +27,14 @@ $\vec{\nabla} p = \vec{p}$
 se le forze di volume sono conservative allora $\vec{p} = - \nabla V$ (con V funzione potenziale), il principo di pascal diventa:
 $$ \vec{\nabla}p = - \vec{\nabla} V $$
 Quindi superfici isobare sono dette equipotenziali (e viceversa)
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Legge di stevino
+===
+La differenza di pressione tra due punti di un fluido in equilibrio è data dalla differenza dalla pressione esercitata dalla colonna di fluido di altezza $h$ uguale alla differenza di quota tra i due punti $$p_2 - p_1 = @d$$
+```
+<% tp.file.cursor(3) %>

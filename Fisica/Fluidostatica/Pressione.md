@@ -35,3 +35,16 @@ modification date: 2023-07-07 09:14
 >abbiamo
 >$$ p_{A} = p_{B} = p_{C} = p $$
 >La pressione è una quantità scalare che non dipende dall'orientamento della superficie
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Pressione
+===
+Consideriamo una supericie di area S, la pressione è definita come 
+$$ p = \frac{F_n}{S} = \left|\vec{F} \cdot \frac{\hat{n}}{S}\right| $$
+Lapressione è uno scalare la qui unità di misura è $[p] = N/m^2 = Pa$.
+La superficie si può definire come $dF_n = p dS$
+```
