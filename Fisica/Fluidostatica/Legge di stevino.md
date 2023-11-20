@@ -24,4 +24,6 @@ Quindi possiamo scrivere
 
 Considerando il principio di pascal
 $\vec{\nabla} p = \vec{p}$
-se
+se le forze di volume sono conservative allora $\vec{p} = - \nabla V$ (con V funzione potenziale), il principo di pascal diventa:
+$$ \vec{\nabla}p = - \vec{\nabla} V $$
+Quindi superfici isobare sono dette equipotenziali (e viceversa)
