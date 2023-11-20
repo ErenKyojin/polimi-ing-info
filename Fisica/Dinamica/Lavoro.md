@@ -130,6 +130,14 @@ $$ \delta \mathcal{L}^{(\text{ ext })} = \sum_{i} \vec{F}_{i}^{(\text{ ext })} \
 
 Possiamo scrivere
 $$ d\vec{r}_{i} = \vec{v}_{i} \d t = [\vec{v}_{cm} + \vec{\omega} \times (\vec{r}_{i} - \vec{r}_{cm})] \d t $$
+
+Sostituendo abbiamo
+$$ \delta L^{\text{(ext)}} = \left( \sum_{i} \vec{F}_{i}^{(ext)} \cdot \vec{v}_{cm}\right) \d t + \left( \sum_{i} \vec{F}_{i}^{(ext)} \cdot \vec{\omega} \times (\vec{r}_{i} - \vec{r}_{cm}) \right) \d t $$
+Permutando gli operandi del prodotto scalare e vettoriale.
+$$ \delta \mathcal{L}^{(\text{ext})} = \left( \sum_{i} \vec{F}_{i}^{\text{(ext)}} \cdot \vec{v}_{cm} \right) \d t + \left( \sum_{i} \vec{\omega} \cdot (\vec{r}_{i} - \vec{r}_{cm}) \times \vec{F}_{i}^{(\text{ext})} \right) \d t$$
+Raccogliamo le costanti
+$$ \delta \mathcal{L}^{(\text{ext})} = \left(  \sum_{i}\vec{F}_{tot}^{(\text{ext})} \right) \cdot \vec{v}_{cm} $$
+
 # ANKI
 
 ```anki
