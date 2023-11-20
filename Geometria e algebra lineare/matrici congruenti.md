@@ -13,7 +13,7 @@ Sia $S \in M_{\mathbb{R}(n,n)}$ invertibile. Posto $\mathbf{x} = S\mathbf{y}$ si
 
 
 >[!oss]
->Due matrici simmetriche congruenti rappresentano la stessa forma quadratica rispetto a coordinate diverse, quindi hanno lo stesso segno. La congruenza è una [[Geometria e algebra lineare/relazione di equivalenza]]. In generale due matrici simili non sono congruenti e viceversa, Tuttavia se la matrice di passaggio è ortogonale allora $S^T = S^{-1}$ e $B =S^TAS = S^{-1}AS$ quindi $B$ è sia congruente che simile ad $A$. Il [[teorema spettrale]] cgarantisce l'esistena di una matrice di passaggio ortogoanle che fornisce il cambiamento di coordinate per trasformare una forma quadratica assegnata in una forma qudaratica del tipo $(*)$ ove $d_{1},\dots,d_{n}$ sono gli [[Autovalori e Autovettori|autovalori]] della matrice associata alla forma quadratica, quindi il segno di tali autovalori determina il segno della forma quadratica
+>Due matrici simmetriche congruenti rappresentano la stessa forma quadratica rispetto a coordinate diverse, quindi hanno lo stesso segno. La congruenza è una [[relazione di equivalenza]]. In generale due matrici simili non sono congruenti e viceversa, Tuttavia se la matrice di passaggio è ortogonale allora $S^T = S^{-1}$ e $B =S^TAS = S^{-1}AS$ quindi $B$ è sia congruente che simile ad $A$. Il [[teorema spettrale]] cgarantisce l'esistena di una matrice di passaggio ortogoanle che fornisce il cambiamento di coordinate per trasformare una forma quadratica assegnata in una forma qudaratica del tipo $(*)$ ove $d_{1},\dots,d_{n}$ sono gli [[Autovalori e Autovettori|autovalori]] della matrice associata alla forma quadratica, quindi il segno di tali autovalori determina il segno della forma quadratica
 
 
 >[!Proposizione]

@@ -91,6 +91,26 @@ Diremo che l'intero positivo $m$ è la molteplicità algebrica di $\widetilde{\l
 >Se $\lambda$ è autovalore di $A \in M_{\mathbb{K}(n,n)}$ di molteplicità geometrica $g$ e molteplicità algebrica $m$ allora
 > $$ 1 \leq g \leq m $$
 
+# ANKI
+
+```anki
+deck: GAL
+---
+Molteplicità algebrica
+===
+Se $\lambda_0$ è radice di $p(\lambda)$, esiste un intero $m$ e un polinomio $q(\lambda)$, di grado $n-m$ tale che
+$$ p(\lambda) = (\lambda - lambda_0)^m q(\lambda)\quad(q\lambda_0)\neq 0 $$
+m è detta molteplicità algebrica di $\lambda_0$
+```
+
+
+```anki
+deck: GAL
+---
+Siano $\lambda_1,...,\lambda_r \in \mathbb{K}$ autovalori distinti di $A \in M_{\mathbb{K}(n,n)$. Siano $g_1,...,g_3$ le corrispettive molteplicità geometriche. Allorai l massimo numero N di autovettori linearmente indipendente è la somma delle ~~molteplciità geometriche~~
+===
+
+```
 
 
 ```anki
@@ -129,3 +149,4 @@ Siano $\mathbf{v}_{1},\dots,\mathbf{v}_{r}$ autovettori di $A \in M_{\mathbb{K}}
 >\end{align} $$
 >Ma allora $\mathbf{v}_{r+1} = \mathbf{0}$ assurdo. Quindi $\mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{v}_{r+1}$ non possono essere linearmente dipendenti e dunque sono linearmente indipendenti
 ```
+

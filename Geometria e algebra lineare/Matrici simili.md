@@ -10,7 +10,7 @@
 >Infatti: $\underbrace{ M_{\mathcal{C}}^\mathcal{C}(\mathcal{L}) }_{ B } = \underbrace{ M_{\mathcal{C}}^{\mathcal{B}}(id_{V}) }_{ P^{-1} }\underbrace{ M_{\mathcal{B}}^\mathcal{B}(\mathcal{L}) }_{ A } \underbrace{ M_{\mathcal{B}}^\mathcal{B}(id_{V}) }_{ P }$
 
 >[!proposizione]
->La similitudine è una [[Geometria e algebra lineare/relazione di equivalenza]] nell'[[insieme]] delle matrici $M_{\mathbb{K}}(n,n)$
+>La similitudine è una [[relazione di equivalenza]] nell'[[insieme]] delle matrici $M_{\mathbb{K}}(n,n)$
 >>[!dim]
 >>- **Proprietà riflessiva**: ogni matrice $A \in M_{\mathbb{K}(n,n)}$ è simile a se stessa. Infatti
 >> $$ A = (\mathbb{1}_{n})^{-1}A\mathbb{1}_{n} $$
@@ -139,19 +139,18 @@ deck: GAL
 ---
 Matrici simili
 ===
-$A,B \inn M_{\mathbb{K}}(n,n)$ si dice che $B$ è simile ad $A$ se esiste $P \in M_{\mathbb{K}}(n,n)$ invertibile tale che
+$A,B \in M_{\mathbb{K}}(n,n)$ si dice che $B$ è simile ad $A$ se esiste $P \in M_{\mathbb{K}}(n,n)$ invertibile tale che
 $$ B = P^{-1}AP $$
 ```
 
 
 ```anki
-deck: <% tp.file.cursor(0) %>
+deck: GAL
 ---
-<% tp.file.cursor(1) %>
+La similitudine è una ~~relazione di equivalenza~~ nell'insieme delle matrici $M_{\mathbb{K}}(n,n)$
 ===
-<% tp.file.cursor(2) %>
 ```
-<% tp.file.cursor(3) %>
+
 
 ```anki
 id: 1694785481490

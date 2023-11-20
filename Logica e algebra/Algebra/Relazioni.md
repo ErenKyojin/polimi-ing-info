@@ -18,7 +18,7 @@ Relazione universale su $A$: $\omega_{A}$ considera tutte le possibile $n$-uple 
 >Se $A = B$ allora $\mathfrak{R}$ è una relazione in $A$.
 
 
-Casi speciali di relazione sono [[Geometria e algebra lineare/relazione di equivalenza]] e [[relazione di funzione]]
+Casi speciali di relazione sono [[relazione di equivalenza]] e [[relazione di funzione]]
 
 Ricordiamo la definizione di [[prodotto cartesiano]] degli $n$ insiemi $A_{1},A_{2},\dots,A_{n}$ l'[[Geometria e algebra lineare/insieme|insieme]]
 $$ A_{1} \times A_{2} \times \dots \times A_{n} = \left\{ (a_{1},a_{2},\dots,a_{n}) | a_{i} \in A_{i}, i = 1,2,\dots,n \right\}  $$
@@ -64,7 +64,7 @@ $R \subseteq A_{1} \times A_{2}$, $T \subseteq A_{2} \times A_{3}$ definiamo:
 ### - [[relazione inversa]]
 ### - [[relazione identica]]
 ### - [[relazioni binarie]]
-### - [[Geometria e algebra lineare/relazione di equivalenza|relazione di equivalenza]]
+### - [[relazione di equivalenza|relazione di equivalenza]]
 ### - [[relazione d'ordine]]
 ### - [[Funzioni]]
 
