@@ -133,6 +133,26 @@ Abbiamo peró un problema, visto che due matrici simili rappresentano la stessa 
 
 # ANKI
 
+
+```anki
+deck: GAL
+---
+Matrici simili
+===
+$A,B \inn M_{\mathbb{K}}(n,n)$ si dice che $B$ è simile ad $A$ se esiste $P \in M_{\mathbb{K}}(n,n)$ invertibile tale che
+$$ B = P^{-1}AP $$
+```
+
+
+```anki
+deck: <% tp.file.cursor(0) %>
+---
+<% tp.file.cursor(1) %>
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
+
 ```anki
 id: 1694785481490
 deck: GAL
