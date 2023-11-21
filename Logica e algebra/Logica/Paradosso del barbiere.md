@@ -30,7 +30,19 @@ $$ \begin{align}
 
 clausole
 $$ \begin{align}
-\phi&: \{ \{ \sim B(x), R(y,y), R(x,y) \} \} \\
+\phi&: \{ \{ \sim B(x), R(y,y), R(x,y) \} \} =\{ \underbrace{ \{ \sim B(y), R(z,z), R(y,z) \} }_{ C } \} \\
 \psi &: \{ \{ \sim B(x), R(f(x), f(x)) \}, \{ \sim B(x),\sim R(x,f(x)) \}\} \\
-\sim \theta &: \{ \{ B \} \}
+\sim \theta &: \{ \{ B(a) \} \}
 \end{align} $$
+
+infine
+$$ \begin{align}
+\{ \cancel{ \sim B(x) }, R(x,f(x)) \}\quad&\{ \cancel{ B(a) } \} \ [a/x]\\
+&\{ \cancel{ \sim R(a,f(a) })\quad\{ R(z,z),\cancel{ R(a,z) } \} \}\ [ f(a) / z]
+\end{align}$$
+
+$$
+\begin{align}
+\{ C \}\quad \{ R(f(a), f(a) \}
+\end{align}
+$$
