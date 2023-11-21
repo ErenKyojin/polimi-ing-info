@@ -38,3 +38,12 @@ Per i condensatori in parallelo è sufficiente sommare
 
 Le induttanze equivalenti alle resistenze
 ```
+
+
+```anki
+deck: Elettrotecnica
+---
+Connessione in parallelo di ammetetnze
+===
+L'ammettenza equivalente ad M ammettenze $Y_k(j \omega)$ è pari alla somma delle ammettenze $Y_{eq}(j \omega) = \sum_{k = 1}^M Y_k(j \omega)$
+```

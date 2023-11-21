@@ -33,3 +33,14 @@ Dato un bipolo adinamico, non impressivo, lineare affine, se ammette base di def
 È il duale del Circuito di Thevenin, dal quale si passa attraverso le seguenti formule
 $$ G_{nr} = \frac{1}{R_{th}}\qquad A_{nr} = -\frac{E_{th}}{R_{th}} $$
 ```
+
+# ANKI
+
+```anki
+deck: Elettrotecnica
+---
+Circuito di norton in regime sinusoidale
+===
+$$ \bar{\imath} = Y_{nr} (j \omega) \bar{v} + \bar{A}_{nr}(j \omega) $$
+il bipolo a cui si riferisce il circuito equivalente deve essere controllabile in base tensione
+```

@@ -21,3 +21,14 @@ $$\begin{align}
 \overline i_2 = \frac{Z_1(j\omega)}{Z_1(j\omega)+Z_2(j\omega)}\overline i
 \end{align}
 $$
+
+
+# ANKI
+
+```anki
+deck: Elettrotecnica
+---
+partitore di corrente per ammettenze
+===
+$$\bar{\imath}_j = \frac{Y_j(j \omega)}{\sum_{k = 1}^M Y_k(j \omega)} \bar{\imath}$$
+```

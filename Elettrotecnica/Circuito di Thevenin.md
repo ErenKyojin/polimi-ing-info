@@ -31,3 +31,13 @@ Dato un bipolo adniamico, non impressivo, lineare affine, se ammette la base di 
 È il duale del circuito di norton, le equazioni per ricavare l'equivalente di thevenin sono
 $$ R_{th} = \frac{1}{G_{nr}}\qquad E_{th} = - \frac{A_{nr}}{G_{nr}} $$
 ```
+
+
+```anki
+deck: Elettrotecnica
+---
+Circuito equivalente di thevenin in regime sinusoidale
+===
+$$\bar{v} = Z_{th}(j \omega)\bar{\imath} + \bar{E}_{th}(j \omega)$$
+il bipolo a cui si riferisce il circuito equivalente deve essere controllabile in base corrente
+```
