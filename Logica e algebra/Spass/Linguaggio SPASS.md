@@ -42,9 +42,23 @@ Funzioni e predicati possono essere insiemi vuoti, inoltre vuole prima le funzio
 # Formule
 notazione prefissa
 - $\sim A \to$ `not(A)`
-- $A \land B \to$ `and(A,B)`
-- $A \lor B \to$ `or(A,B)`
+- $A \land B \to$ `and(A,B)` e `and(A,B,C)`
+- $A \lor B \to$ `or(A,B)` e `or(A,B,C)`
 - $A \implies B \to$ `implies(A,B)`
 - $A \iff B \to$ `equiv(A,B)`
 - $\forall x \to$ `forall([x], ...)`
 - $\exists x \to$ `exists([x], ...)`
+- $\exists x \exists y \exists z \to$ `exists([x,y,z], ...)`
+- $a = b \to$`equal(A,B)`
+
+`PProblem=1` importante(?)
+
+
+# Output
+`sk c5` <- skolemizzazione
+
+`SPASS beiseite`
+- proof found
+- completion found
+
+
