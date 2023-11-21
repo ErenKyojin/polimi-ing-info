@@ -22,8 +22,15 @@ $$ \begin{align}
 forma normale prenessa e skolemizzazione
 $$ \begin{align}
 \phi &= \forall x \forall y(B(x) \implies (\sim R(y,y) \implies R(x,y))) = \forall x\forall y(\sim B(x) \lor R(y,y) \lor R(x,y)) \\
-\psi &=\forall x(\sim B(x) )
+\psi &=\forall x(\sim B(x) \lor \sim(\exists y(R(y,y) \land \sim R(x,y))))= \forall x \exists y(\sim B(x) \lor (R(y,y) \lor \sim R(x,y))) = \\
+&= \forall x (\sim B(x) \lor (R(f(x),f(x)) \land \sim R(x,f(x)) = \\
+&= \sim B(x) \lor R(f(x),f(x)) \land(\sim B(x) \lor \sim R(x,f(x)))  \\
+\theta &=B(a)
 \end{align} $$
 
 clausole
-$$ \{ \{ \sim B(x), R(y,y), R(x,y) \} \} $$
+$$ \begin{align}
+\phi&: \{ \{ \sim B(x), R(y,y), R(x,y) \} \} \\
+\psi &: \{ \{ \sim B(x), R(f(x), f(x)) \}, \{ \sim B(x),\sim R(x,f(x)) \}\} \\
+\sim \theta &: \{ \{ B \} \}
+\end{align} $$
