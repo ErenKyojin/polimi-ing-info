@@ -92,7 +92,7 @@ Di seguito vi è il programma di Elettrotecnica in ordine di argomenti (non comp
 ## Capitolo 11 - *corrente alternata*
 - [ ] [[Richiami]]
 - [ ] [[fasori]]
-- [ ] [[Elettrotecnica/Impedenza|Impedenza]] e [[ammettenza]]
+- [ ] [[Impedenza|Impedenza]] e [[ammettenza]]
 - [ ] Doppi-bipoli con matrice di rappresentazione complessa
 - [ ] [[Regime multifrequenziale]]
 - [ ] [[Funzioni di rete]]

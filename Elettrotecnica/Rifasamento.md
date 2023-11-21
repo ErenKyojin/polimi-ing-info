@@ -1,7 +1,7 @@
 # Il rifasamento
 >[!example] Esempio 1
 >![[Pasted image 20220609105420.png]]
->Considerando il circuito in figura, in cui un [[generatore di tensione]] alla pulsazione $\omega$ è connesso ad un [[impedenza]] $Z(j\omega) = |Z|e^{j\varphi_Z}$ attraverso una linea di trasmissione (Che possiamo modellare come un [[resistore]] di resistenza R).Ipotizziamo che la l'impedenza sia un utilizzatore della [[potenza]] erogata da $\bar E$ ed il flusso di potenza tra i due bipoli avvenga attraverso un collegamento non ideale ma con perdite (assunto) puramente resistivo. 
+>Considerando il circuito in figura, in cui un [[generatore di tensione]] alla pulsazione $\omega$ è connesso ad un [[Impedenza]] $Z(j\omega) = |Z|e^{j\varphi_Z}$ attraverso una linea di trasmissione (Che possiamo modellare come un [[resistore]] di resistenza R).Ipotizziamo che la l'impedenza sia un utilizzatore della [[potenza]] erogata da $\bar E$ ed il flusso di potenza tra i due bipoli avvenga attraverso un collegamento non ideale ma con perdite (assunto) puramente resistivo. 
 >Attraverso il [[teorema di Boucherot]] scriviamo
 >$$
 >\begin{align}

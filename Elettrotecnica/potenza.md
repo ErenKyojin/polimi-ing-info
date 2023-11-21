@@ -82,7 +82,7 @@ Notare che i termini (noti) P e Q introducono un sistema fasoriale alla pulsazio
 
 
 >[!Tip]
->I lati del circuito che ammettono un [[impedenza]] $Z(j\omega) =\frac{\overline v}{\overline\imath} = |Z|e^{j\varphi_Z}$
+>I lati del circuito che ammettono un [[Impedenza]] $Z(j\omega) =\frac{\overline v}{\overline\imath} = |Z|e^{j\varphi_Z}$
 >Quindi $\varphi_V - \varphi_I = \varphi_Z$, ipotizzando un'impedenza totalmente immaginaria, la potenza media assorbita sarebbe nulla (dato che $\cos\varphi_Z = 0$ e $\langle P_a^{\text{a.i.}}(t)\rangle = 0$)
 >e quindi la potenza reattiva istantanea si osserva solo se non #resistiva
 
