@@ -22,3 +22,22 @@ L\frac{d}{dt}i \quad \leftrightarrow \quad j\omega L\overline{i}}$$
 >$$i(t) = Re\left\{|\overline{i}|e^{j\varphi_{\overline{i}}}e^{j\omega t}\right\} = |\overline{i}|\cos(\omega t + \varphi_{\overline{i}})$$
 
 In generale non dobbiamo per forza scrivere l'[[equazione di stato]] per poi passare nel dominio dei fasori, possiamo direttamente scrivere le equazioni complesse con l'equazioni dei componenti che già conosciamo come il [[resistore]], il [[condensatore]], e l'[[induttore]].
+
+
+# ANKI
+
+```anki
+deck: elettrotecnica
+---
+Algoritmo del metodo simbolico
+===
+- associamo i fasori ad ogni variabile
+	- $e(t) \to \bar{E} E_m e^{j\phi}$ (generatore)
+	- $i(t) \to \bar{i}$ (sconosciuta)
+	- $L\frac{d}{dt}i \to j\omega L \bar{i}$
+	- $C\frac{d}{dt}v \to \frac{1}{j\omega C} \bar{v}$
+- Riscriviamo l'equazione di stato con i fasori associato
+- calcoliamo il fasore di interesse
+- 
+```
+<% tp.file.cursor(3) %>

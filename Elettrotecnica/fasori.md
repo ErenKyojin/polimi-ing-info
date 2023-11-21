@@ -55,4 +55,3 @@ Proprietà dei fasori
 - linearità: il fasore di $a_1x_1(t) + a_2x_2(t)$ è $a_1 \bar{x}_1+ a_2\bar{x}_2$
 - derivazione: il fasore $\bar y$ associato a $y = \frac{d}{dt} x(t)$ è $\bar{x}j\omega$
 ```
-<% tp.file.cursor(3) %>
