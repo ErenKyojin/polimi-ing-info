@@ -14,7 +14,7 @@ $R \cdot R^{-1} \neq I_{A_{1}}$ e $R^{-1} \cdot R \neq I_{A_{2}}$.
 # ANKI
 
 ```anki
-id: 1700409275654
+id: 1700559637952
 deck: LeA
 ---
 # Relazione identica

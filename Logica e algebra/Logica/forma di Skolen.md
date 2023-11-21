@@ -18,7 +18,7 @@ Il procedimento da seguire è questo:
 # ANKI
 
 ```anki
-id: 1700409275229
+id: 1700559637325
 deck: LeA
 ---
 Forma normale di Skolen

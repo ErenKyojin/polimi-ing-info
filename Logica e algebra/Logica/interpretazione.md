@@ -30,7 +30,7 @@ Fissare un interpretazione corrisponde a:
 # ANKI
 
 ```anki
-id: 1700409275054
+id: 1700559637004
 deck: LeA
 ---
 interpretazione in logica del primo ordine

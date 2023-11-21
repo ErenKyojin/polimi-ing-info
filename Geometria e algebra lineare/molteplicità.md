@@ -94,6 +94,7 @@ Diremo che l'intero positivo $m$ è la molteplicità algebrica di $\widetilde{\l
 # ANKI
 
 ```anki
+id: 1700559637225
 deck: GAL
 ---
 Molteplicità algebrica
@@ -105,12 +106,11 @@ m è detta molteplicità algebrica di $\lambda_0$
 
 
 ```anki
+id: 1700559639378
 deck: GAL
 ---
 Siano $\lambda_1,...,\lambda_r \in \mathbb{K}$ autovalori distinti di $A \in M_{\mathbb{K}(n,n)$. Siano $g_1,...,g_3$ le corrispettive molteplicità geometriche. Allorai l massimo numero N di autovettori linearmente indipendente è la somma delle ~~molteplciità geometriche~~
-===
 ```
-
 ```anki
 id: 1694785481328
 deck: GAL
@@ -147,4 +147,5 @@ Siano $\mathbf{v}_{1},\dots,\mathbf{v}_{r}$ autovettori di $A \in M_{\mathbb{K}}
 >\end{align} $$
 >Ma allora $\mathbf{v}_{r+1} = \mathbf{0}$ assurdo. Quindi $\mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{v}_{r+1}$ non possono essere linearmente dipendenti e dunque sono linearmente indipendenti
 ```
+
 

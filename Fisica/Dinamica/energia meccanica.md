@@ -60,6 +60,7 @@ $$ \d E_{m} = \delta \mathcal{L}_{\text{non cons}}^{\text{(ext)}} \ \text{se}\ \
 # ANKI
 
 ```anki
+id: 1700559639178
 deck: Fisica
 ---
 Energia meccanica
@@ -70,6 +71,7 @@ $$ E = E_c + E_p $$
 
 
 ```anki
+id: 1700559642201
 deck: Fisica
 ---
 Teorema dell'energia cinetica
@@ -82,6 +84,7 @@ $$
 
 
 ```anki
+id: 1700559644226
 deck: Fisica
 ---
 Energia meccanica e conservazione dell'energia per un corpo rigido

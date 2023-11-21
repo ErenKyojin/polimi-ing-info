@@ -48,7 +48,7 @@ In particolare se partiamo da una relazione $R \subseteq A_{1} \times A_{2}$ si 
 # ANKI
 
 ```anki
-id: 1700409275779
+id: 1700559638102
 deck: LeA
 ---
 # Grafo di adiacenza

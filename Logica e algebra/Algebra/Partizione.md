@@ -30,7 +30,7 @@ Viceversa data una partizione di $A$ è sempre possibile definire una relazione 
 # ANKI
 
 ```anki
-id: 1700409276003
+id: 1700559638176
 deck: LeA
 ---
 Partizione

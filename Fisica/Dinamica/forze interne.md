@@ -10,7 +10,7 @@ modification date: 2023-04-12 15:05
 # ANKI
 
 ```anki
-id: 1700409281479
+id: 1700559641902
 deck: Fisica
 ---
 Forze interne

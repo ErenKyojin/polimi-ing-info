@@ -22,7 +22,7 @@ $$\overline{v} = Z_\text{th}(j\omega)\overline{i} + \overline{E}_\text{th}(j\ome
 
 # ANKI
 ```anki
-id: 1700409286078
+id: 1700559643902
 deck: Elettrotecnica
 ---
 Circuito di Thevenin
@@ -34,6 +34,7 @@ $$ R_{th} = \frac{1}{G_{nr}}\qquad E_{th} = - \frac{A_{nr}}{G_{nr}} $$
 
 
 ```anki
+id: 1700559645200
 deck: Elettrotecnica
 ---
 Circuito equivalente di thevenin in regime sinusoidale

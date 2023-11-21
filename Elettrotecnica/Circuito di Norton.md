@@ -24,7 +24,7 @@ $\overline{i} = Y_\text{nr}(j\omega)\overline{v} + \overline{A}_\text{nr}(j\omeg
 # ANKI
 
 ```anki
-id: 1700409286104
+id: 1700559643925
 deck: Elettrotecnica
 ---
 Circuito di norton
@@ -37,6 +37,7 @@ $$ G_{nr} = \frac{1}{R_{th}}\qquad A_{nr} = -\frac{E_{th}}{R_{th}} $$
 # ANKI
 
 ```anki
+id: 1700559645226
 deck: Elettrotecnica
 ---
 Circuito di norton in regime sinusoidale

@@ -77,7 +77,7 @@ Definiamo le formule in [[forma di Skolen]]
 # ANKI
 
 ```anki
-id: 1700409275004
+id: 1700559636900
 deck: LeA
 ---
 Linguaggio del primo ordine
@@ -99,7 +99,7 @@ Linguaggio del primo ordine
 
 
 ```anki
-id: 1700409276528
+id: 1700559641653
 deck: LeA
 ---
 Precedenza dei connettivi in logica del primo ordine
@@ -109,7 +109,7 @@ $\sim \forall\ \exists\land \lor \implies \iff$
 
 
 ```anki
-id: 1700409278253
+id: 1700559645302
 deck: LeA
 ---
 Formula normale prenessa

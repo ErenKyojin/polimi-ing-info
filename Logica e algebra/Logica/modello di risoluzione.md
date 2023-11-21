@@ -136,7 +136,7 @@ La derivazione lineare per input è completa quando l'insieme di clausole di par
 
 
 ```anki
-id: 1700409274904
+id: 1700559636824
 deck: LeA
 ---
 Letterale
@@ -146,7 +146,7 @@ Un letterale è una lettera enunciativa o la sua negazione
 
 
 ```anki
-id: 1700409276278
+id: 1700559641602
 deck: LeA
 ---
 Clausola
@@ -157,7 +157,7 @@ Disgiungzione finita di 0 o un numero di letterali
 >$A \lor \not B \lor C = \{A , \not B, C\}$
 ```
 ```anki
-id: 1700409278078
+id: 1700559645278
 deck: LeA
 ---
 Clausola vuota
@@ -168,7 +168,7 @@ La clausola priva di letterali è detta clausola vuota e si indica con $\square$
 
 
 ```anki
-id: 1700409279504
+id: 1700559646974
 deck: LeA
 ---
 Forma a clausole
@@ -178,7 +178,7 @@ Scrivere una formula in forma a clasuole significa scriverla in forma normale co
 
 
 ```anki
-id: 1700409280054
+id: 1700559648051
 deck: LeA
 ---
 Alfabeto di R
@@ -189,7 +189,7 @@ Letterali
 
 
 ```anki
-id: 1700409280954
+id: 1700559648801
 deck: LeA
 ---
 fbf di R
@@ -199,7 +199,7 @@ Formule scritte in forma a clausole
 
 
 ```anki
-id: 1700409282729
+id: 1700559649203
 deck: LeA
 ---
 Assiomi di R
@@ -209,7 +209,7 @@ $\varnothing$
 
 
 ```anki
-id: 1700409283955
+id: 1700559649426
 deck: LeA
 ---
 Regola di inferenza di R
@@ -217,7 +217,7 @@ Regola di inferenza di R
 Risolvente
 ```
 ```anki
-id: 1700409285754
+id: 1700559649603
 deck: LeA
 ---
 Costruire il risolvente di una clasuola S
@@ -237,7 +237,7 @@ $$ \square \in Ris^*(S) $$
 
 
 ```anki
-id: 1700409303528
+id: 1700559649752
 deck: LeA
 ---
 Algoritmo di risoluzione
@@ -253,7 +253,7 @@ indico con $S = \Delta \cup \{\sim A\}^C$
 	- $F = S$ e quindi $\Gamma \cancel{\Vdash} A$
 ```
 ```anki
-id: 1700409304179
+id: 1700559649877
 deck: LeA
 ---
 Clausole di Horn

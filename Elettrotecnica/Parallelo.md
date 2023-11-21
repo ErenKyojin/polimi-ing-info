@@ -41,6 +41,7 @@ Le induttanze equivalenti alle resistenze
 
 
 ```anki
+id: 1700559645075
 deck: Elettrotecnica
 ---
 Connessione in parallelo di ammetetnze

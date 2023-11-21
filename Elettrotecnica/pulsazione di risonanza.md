@@ -16,6 +16,7 @@ $$\omega  = \omega_R = \frac{1}{\sqrt{CL}}$$
 # ANKI
 
 ```anki
+id: 1700559640353
 deck: elettrotecnica
 ---
 Pulsazione di risonanza

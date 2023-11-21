@@ -9,6 +9,7 @@ Le funzioni di rete sono un rapporto tra due fasori qualsiasi, se un bipolo amme
 # ANKI
 
 ```anki
+id: 1700559641303
 deck: Elettrotecnica
 ---
 Funzioni di rete

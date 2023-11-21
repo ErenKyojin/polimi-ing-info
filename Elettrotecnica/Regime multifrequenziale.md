@@ -10,6 +10,7 @@ Nel caso di M pulsazioni $\omega_k$ va risolto un circuito per ogni pulsazione p
 # ANKI
 
 ```anki
+id: null
 deck: elettreotecnica
 ---
 Regime multifrequenziale

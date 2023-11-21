@@ -24,7 +24,7 @@ possiamo quindi definire la [[teoria L]]
 # ANKI
 
 ```anki
-id: 1700409274326
+id: 1700559636451
 deck: LeA
 ---
 Teoria formale
@@ -38,7 +38,7 @@ Una teoria formale è definita quando si ha:
 
 
 ```anki
-id: 1700409275454
+id: 1700559640477
 deck: LeA
 ---
 Dimostrazione nella teoria formale H
@@ -50,7 +50,7 @@ O formule ottenute dalle precedenti formule mediante regole di inferenza
 
 
 ```anki
-id: 1700409277029
+id: 1700559644849
 deck: LeA
 ---
 Teorema
@@ -59,7 +59,7 @@ Un teorema è l'ultima riga di una dimostrazione in H
 $$ \vdash_H a $$
 ```
 ```anki
-id: 1700409278428
+id: 1700559646676
 deck: LeA
 ---
 Formula

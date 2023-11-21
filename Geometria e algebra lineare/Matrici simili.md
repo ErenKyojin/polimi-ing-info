@@ -135,6 +135,7 @@ Abbiamo peró un problema, visto che due matrici simili rappresentano la stessa 
 
 
 ```anki
+id: 1700559637776
 deck: GAL
 ---
 Matrici simili
@@ -145,10 +146,10 @@ $$ B = P^{-1}AP $$
 
 
 ```anki
+id: 1700559640552
 deck: GAL
 ---
 La similitudine è una ~~relazione di equivalenza~~ nell'insieme delle matrici $M_{\mathbb{K}}(n,n)$
-===
 ```
 
 

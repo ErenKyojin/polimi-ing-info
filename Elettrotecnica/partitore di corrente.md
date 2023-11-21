@@ -26,6 +26,7 @@ $$
 # ANKI
 
 ```anki
+id: 1700559640451
 deck: Elettrotecnica
 ---
 partitore di corrente per ammettenze

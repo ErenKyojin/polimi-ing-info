@@ -59,7 +59,7 @@ Possiamo quindi dimostrare il teorema:
 # ANKI
 
 ```anki
-id: 1700409274478
+id: 1700559636500
 deck: LeA
 ---
 Teorema di deduzione sintattica

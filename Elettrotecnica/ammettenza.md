@@ -17,6 +17,7 @@ Con $G(\omega)$ e $B(\omega)$ sono la [[conduttanza]] e la suscettanza
 # ANKI
 
 ```anki
+id: null
 deck: elettreotecnica
 ---
 ammettenza
@@ -29,6 +30,7 @@ Si definisce come il rapporto tra il fasore della corrente descrittiva e quello 
 
 
 ```anki
+id: 1700559643702
 deck: elettrotecnica
 ---
 conduttanza e suscettanza

@@ -320,7 +320,7 @@ Le due rette coincidono
 
 
 ```anki
-id: 1700409277779
+id: 1700559640251
 deck: GAL
 ---
 Sistema lineare
@@ -337,7 +337,7 @@ con $a_{ij}b \in \mathbb{K} \forall i = 1,...,m \land j = 1,...,n$ dove $i$ è l
 
 
 ```anki
-id: 1700409279430
+id: 1700559644802
 deck: GAL
 ---
 Soluzione di un sistema lineare
@@ -349,7 +349,7 @@ Due sistemi lineari sono equivalenti se hanno lo stesso insieme di soluzioni
 
 
 ```anki
-id: 1700409280103
+id: 1700559646725
 deck: GAL
 ---
 Teorema di Cramer
