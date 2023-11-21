@@ -49,5 +49,18 @@ Se in due bipoli scorre la stessa corrente si parla di configurazione in serie.
 $n$ resistenze in serie formano una resistenza equivalente con valore uguale alla somma delle $n$ resistenze.
 
 $n$ condensatori in serie hanno capacità equivalente $C_{eq}= \frac{1}{\sum 1/c_i}$ 
+
+$n$ induttanze in serie hanno capacità equivalente $L_{eq} = \sum L_i$
 ```
- 
+
+
+```anki
+deck: Elettrotecnica
+---
+Connessione in serie di impedenze
+===
+L'impedenza equivalente ad M impedenze $Z_k(j \omega)$ in serie è pari alla somma delle M impedenze:
+$$ Z_{eq}(j\omega) = \sum_{k = 1}^{M} Z_{k}(j \omega) $$
+```
+
+

@@ -13,3 +13,12 @@ $$\omega  = \omega_R = \frac{1}{\sqrt{CL}}$$
 >[!Example]
 >TODO
 
+# ANKI
+
+```anki
+deck: elettrotecnica
+---
+Pulsazione di risonanza
+===
+La pulsazione di risonanza è una pulsazione $\omega_R$ alla cui la reattanza di un impedenza si annulla, ossia l'impedenza si comporta come un resistore
+```
