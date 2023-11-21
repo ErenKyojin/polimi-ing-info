@@ -13,3 +13,26 @@ Il concetto di ammettenza si può estendere a tutti i bipoli costituiti da N ter
 Essendo l'ammettenza un numero complesso ha sia una parte reale e immaginaria;
 $$Y(j\omega) = G(\omega) + jB(\omega)$$
 Con $G(\omega)$ e $B(\omega)$ sono la [[conduttanza]] e la suscettanza
+
+# ANKI
+
+```anki
+deck: elettreotecnica
+---
+ammettenza
+===
+Si definisce come il rapporto tra il fasore della corrente descrittiva e quello della tensione descrittiva, $Y(j \omega) = \frac{1}{Z(j \omega)}$
+- $Y_r = 1/R$
+- $Y_c = j\omega C$
+- $Y_L = 1/(j\omega L)$
+```
+
+
+```anki
+deck: elettrotecnica
+---
+conduttanza e suscettanza
+===
+L'ammettenza è un numero complesso, ha quindi sia parte reale che immaginare
+$$ Y(j \omega) = G(\omega) + jB(\omega) $$
+```

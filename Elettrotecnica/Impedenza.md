@@ -47,5 +47,8 @@ resistenza e reattanza
 La reattanza è la parte complessa di un impedenza, e ne classifica il tipo in base al proprio segno.
 La parte reale è detta resistenza
 $$ Z(j \omega) = R(\omega) + jX(\omega) $$
+- $X(\hat\omega) < 0$, l'impedenza per $\omega = \hat \omega$ è detta capacitiva (come il condensatore)
+- $X(\hat\omega) = 0$, l'impedenza per $\omega = \hat\omega$ è resistiva, come il resistore
+- $X(\hat\omega) > 0$, l'impedenza è detta induttiva, come per l'induttore
 ```
 <% tp.file.cursor(3) %>
