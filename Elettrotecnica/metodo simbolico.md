@@ -36,8 +36,7 @@ Algoritmo del metodo simbolico
 	- $i(t) \to \bar{i}$ (sconosciuta)
 	- $L\frac{d}{dt}i \to j\omega L \bar{i}$
 	- $C\frac{d}{dt}v \to \frac{1}{j\omega C} \bar{v}$
-- Riscriviamo l'equazione di stato con i fasori associato
+- Riscriviamo l'equazione di stato con i fasori associati (o la calcoliamo direttamente nel dominio dei fasori)
 - calcoliamo il fasore di interesse
-- 
+- troviamo la parte reale del fasore di interesse moltiplicato per $e^{j \omega t}$
 ```
-<% tp.file.cursor(3) %>
