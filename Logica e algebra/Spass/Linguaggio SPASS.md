@@ -12,8 +12,12 @@ SPASS è composto da 4 liste, contenute in un comando `begin_problem("nome")` e 
 - `list_of_symbols()`.
 	- `functions`
 	- `predicates`
+- `list_of_formulae(axioms)`
+- `list_of_formulae(conjectures)`
 
 ```SPASS
+begin_problem("a").
+
 list_of_descriptors.
 
 list_of_symbols.
@@ -21,11 +25,26 @@ list_of_symbols.
 	%singole lettere come nome (forse multiple)
 	%numeri come arità
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	functions[(nome_1, arità),(nome_2, arità),...]  
-	predicates[(nome_1, arità), (...,...),....]
-end_of_list
+	functions[(nome_1, arità),(nome_2, arità),...].
+	predicates[(nome_1, arità), (...,...),....].
+end_of_list.
+
+end_problem.
+
 ```
 >[!oss]
 >Sembrano mancare le costanti, in quanto formalmente sono funzioni di arità zero
->Funzioni e predicati possono essere insiem
->
+
+
+Funzioni e predicati possono essere insiemi vuoti, inoltre vuole prima le funzioni e poi i predicati
+
+
+# Formule
+notazione prefissa
+- $\sim A \to$ `not(A)`
+- $A \land B \to$ `and(A,B)`
+- $A \lor B \to$ `or(A,B)`
+- $A \implies B \to$ `implies(A,B)`
+- $A \iff B \to$ `equiv(A,B)`
+- $\forall x \to$ `forall([x], ...)`
+- $\exists x \to$ `exists([x], ...)`
