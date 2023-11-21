@@ -5,3 +5,14 @@ Nel caso di M pulsazioni $\omega_k$ va risolto un circuito per ogni pulsazione p
 >[!TIp]
 >I componenti le cui equazioni caratteristiche dipendono dalla pulsazione, avranno equazioni caratteristiche diverse per ogni risoluzione, ad esempio un [[condensatore]] la cui equazione costitutiva avrà in pulsazione $\omega_k$ equazione costitutiva $j\omega_k C$, e in pulsazione $\omega_k'$ pulsazione $j\omega_k'C$. Ma nel dominio del tempo l'equazione costitutiva sarà sempre $i = C\frac{d}{dt}v(t)$.
 > dobbiamo quindi stare attenti al passare tra i diversi domini (dobbiamo utilizzare la pulsazione corrispondente alla famiglia di generaori in considerazione)
+
+
+# ANKI
+
+```anki
+deck: elettreotecnica
+---
+Regime multifrequenziale
+===
+Per risolvere circuiti in regime multifrequenziale, si procede attraverso la sovrapposizione degli effetti, considerando iterativamente solo i generatori ad una certa frequenza
+```
