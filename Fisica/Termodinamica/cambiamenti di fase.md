@@ -1,5 +1,5 @@
 ---
-aliases: cambiamento di fase
+aliases: cambiamento di fase, sublimazione, brinamento, evaporazione, fusione, solidificazione, condensazione
 creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
@@ -39,10 +39,16 @@ graph LR
 # ANKI
 
 ```anki
-deck: cambiamenti di fase
+deck: Fisica
 ---
-<% tp.file.cursor(1) %>
+cambiamenti di fase
 ===
-<% tp.file.cursor(2) %>
+Solido -> liquido: fusione
+Liquido -> solido: solidificazione
+Liquido -> gassoso: evaporazione
+Gassoso -> liquido: condensazione
+solido -> gassoso: sublimazione
+gassoso -> solido: brinamento
+
+I cambiamenti di fase avvengono a temperatura costante, assorbendo o cedendo calore per cambiare la propria struttura. Nei cambiamenti di fase si definisce il calore latente
 ```
-<% tp.file.cursor(3) %>
