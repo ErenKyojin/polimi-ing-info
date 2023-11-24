@@ -27,3 +27,13 @@ Le [[coordinate termodinamice]] sono definite lungo tutta la trasformazione reve
 
 
 # ANKI
+
+```anki
+deck: Fisica
+---
+Trasformazioni termodinamiche reversibili
+===
+Affinchè una trasformazione sia reversibile:
+- non devono agire forze dissipative
+- deve essere una trasformazione quasi-statica, ossia la trasformazione avviene attraverso infiniti stati di equilibrio infinitamente vicini tra loro
+```

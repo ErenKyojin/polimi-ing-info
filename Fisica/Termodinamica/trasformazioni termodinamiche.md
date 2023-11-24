@@ -10,3 +10,9 @@ modification date: 2023-07-07 09:14
 >- Reversibile: nelle quali sistema e ambiente possono essere riportati allo stato iniziale
 >- Irreversibili: nelle quali è impossibile riportare sia il sistema sia l'ambiente allo stato iniziale
 
+## Tipi di trasformazioni
+- [[trasformazione isocora]]
+- [[trasformazione isobara]]
+- [[trasformazione isoterma]]
+- [[trasformazione adiabatica]]
+- [[trasformazione ciclica]]
