@@ -47,5 +47,8 @@ $$ \alpha = \beta = \frac{1}{273,15} \ ^o C^{-1} $$
 Possiamo scrivere
 $$ \begin{align}
 &V = V_{0}(1 + \beta T_{^oC}) = V_{0}\beta\left( \frac{1}{\beta} + T_{^o C}  \right) = V_{0} \beta T \\
-&p = p_{0}(1 + \beta T_{^o C}) = p_{o}\beta\left( \frac{1}{\beta} +T_{^o C} \right)
+&p = p_{0}(1 + \beta T_{^o C}) = p_{o}\beta\left( \frac{1}{\beta} +T_{^o C} \right) =p_{0}\beta T
 \end{align} $$
+dove $T$ è la temperatura espressa in gradi Kelvin:
+$$ T = \frac{1}{\beta} + T_{^o C} $$
+Quindi un gas perfetto a temperatura di $0 K$ ha pressione e volume nulli. Ovviamente nessun gas rimane ideale a temperatura cosí bassa, che rimane una temperatura limite non raggiungibile ne superabile

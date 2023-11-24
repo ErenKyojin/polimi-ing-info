@@ -24,3 +24,14 @@ Calore e lavoro dipendono dalla particolare trasformazione, mentre la variazione
 
 Possiamo considerare il principio anche in termini infinitesimi:
 $$ d U = \delta Q - \delta \mathcal{L} $$
+
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+primo principio della termodinamica
+===
+$$ \Delta U = Q - \mathcal{L} $$
+```
