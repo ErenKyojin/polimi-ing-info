@@ -1,5 +1,5 @@
 ---
-aliases: gas
+aliases: gas perfetto, gas ideale, gas ideali
 creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
@@ -25,4 +25,3 @@ Gas perfetti
 ===
 I Gas vengono definiti perfetti o ieali quando si comportano al medesimo modo indipendemente dal tipo di gas. Questo succese a basse pressioni e ad alte temperature
 ```
-<% tp.file.cursor(3) %>

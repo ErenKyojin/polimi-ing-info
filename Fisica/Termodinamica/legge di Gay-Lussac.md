@@ -52,3 +52,49 @@ $$ \begin{align}
 dove $T$ è la temperatura espressa in gradi Kelvin:
 $$ T = \frac{1}{\beta} + T_{^o C} $$
 Quindi un gas perfetto a temperatura di $0 K$ ha pressione e volume nulli. Ovviamente nessun gas rimane ideale a temperatura cosí bassa, che rimane una temperatura limite non raggiungibile ne superabile
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Legge di gay-lussac per le isobare
+===
+Se in un gas si mantiene la pressione costante allora il volume del gas è linearmente proporzionale alla T
+$$ V = V_0 (1 + \beta T) $$
+con
+- T in gradi celsius
+- $V_0$ volume a 0 gradi celsius
+
+In un piano di clapeyron abbiamo una retta orizzontale
+```
+
+
+```anki
+deck: Fisica
+---
+Legge di Gay-Lussac per le isocore
+===
+Se in un gas si mantiene il volume costante allora la pressione del gas è linearmente proporzionale alla T
+$$ p = p_0 (1 + \alpha T) $$
+con 
+- T temperatura in gradi celsius
+- $p_0$ pressione a 0 gradi celsius
+```
+
+
+
+```anki
+deck: Fisica
+---
+Leggi di Gay-Lussac per i gas ideali
+===
+Nelle leggi di Gay-Lussac, sia per le isocore che per le isobare, nelle condizioni di gas perfetto abbiamo $\alpha = \beta = \text{cost.}$,
+precisamente
+$$ \alpha = \beta = \frac{1}{273.15} \ ^o C^{-1}  $$
+possiamo inoltre dire che
+$$V = V_0 \beta T \quad;\quad  p =p_0 \beta T$$
+con T in Kelvin tale che
+$$ T = \frac{1}{\beta} + T_{^o C} $$
+Quindi un gas perfetto a temperatura di 0 gradi kelvin ha pressione e volume nulli. Tuttavia nessun gas può arrivare a questa temperatura rimanendo perfetto, ed in generale è una temperatura che non può essere raggiunta ne superata
+```

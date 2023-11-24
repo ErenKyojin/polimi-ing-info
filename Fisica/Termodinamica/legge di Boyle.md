@@ -25,3 +25,15 @@ modification date: 2023-07-07 09:14
 >\end{tikzpicture}
 >\end{document}
 >```
+
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Legge di Boyle
+===
+In condizioni ideali un gas durante una trasformazione isoterma:
+$$ pV = \text{cost.} $$
+```
