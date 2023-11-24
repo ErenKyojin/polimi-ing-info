@@ -15,3 +15,18 @@ Un sistema termodinamico può essere:
 - **APERTO**: sistema che può scambiare con l'ambiente sia materia sia energia
 - **CHIUSO**: sistema che può scambiare con l'ambiente solo energia
 - **ISOLATO**: sistema che non scambia nulla con l'ambiente
+
+
+![[coordinate termodinamice#^3304fb]]
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Sistemi termodinamici
+===
+Un sistema termodinamico
+- Un sistema formato da $N \approx 10^{23}$ particelle
+```
+<% tp.file.cursor(3) %>
