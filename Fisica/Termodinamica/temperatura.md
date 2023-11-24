@@ -23,6 +23,9 @@ Temperatura
 - Due sistemi all'equilibrio hanno la stessa temperatura
 - La temperatura descrive lo stato di equilibrio termico tra sistemi termodinamici
 - Due sistemi in equilibrio termico con un terzo sistema sono in equilibrio tra loro (questo viene detto **principio zero della termodinamica**)
-- Definizion operativa di temperatura, consideriamo un sistema campione 
+- Definizion operativa di temperatura, consideriamo un sistema campione che abbia grandezza misurabile che varia con la temperatura. Assumiamo una relazione tra la caratteristica termometrica $x$ e la temperatura
+  $$ T = \alpha x + c $$
+  possiamo quindi costuire una scala termometrica scegliendo punti fissi a cui assegnare i valori dati di T.
+  Per la scala celsius possiamo usare come punti fissi il ghiaccio fondente e l'acqua in ebollizione
 ```
-<% tp.file.cursor(3) %>
+
