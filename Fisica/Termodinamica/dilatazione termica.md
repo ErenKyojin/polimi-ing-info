@@ -29,8 +29,21 @@ Aumentando la temperatura osserviamo che i corpi generalmente si dilatano.
 ```anki
 deck: Fisica
 ---
-<% tp.file.cursor(1) %>
+Dilatazione lineare
 ===
-<% tp.file.cursor(2) %>
+Se un corpo ha una dimensione molto maggiore delle altra, al variare di T varia queste dimensione, in particolare
+$$
+\Delta l = l_0 \alpha \Delta T
+$$
+```
+
+
+```anki
+deck: Fisica
+---
+Dilatazione cubica
+===
+Se un corpo ha tre dimensioni simili ed il suo volume aumenta all'amentare di T, in particolare
+$$ V \approx V_0 (1 + \beta \Delta T)\qquad \beta = 3\alpha $$
 ```
 <% tp.file.cursor(3) %>
