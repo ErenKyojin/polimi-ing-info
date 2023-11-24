@@ -15,6 +15,5 @@ deck: Fisica
 ---
 Equilibrio chimico
 ===
-Si parla di equilibrio c
+Si parla di equilibrio chimico se non avvengono reazioni chimiche e quindi la composizione del sistema è costante
 ```
-<% tp.file.cursor(3) %>
