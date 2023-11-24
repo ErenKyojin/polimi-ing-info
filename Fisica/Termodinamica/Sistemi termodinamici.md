@@ -28,5 +28,17 @@ Sistemi termodinamici
 ===
 Un sistema termodinamico
 - Un sistema formato da $N \approx 10^{23}$ particelle
+- Un sistema termodinamico può essere descritto con le grandezze della meccanica statistica o, alternativamente, con le grandezze macroscopiche della termodinamica classica
+- un sistema termodinamico è racchiuso (idealmente o fisicamente) all'interno di confini definiti, tutto ciò che è all'esterno è detto ambiente.
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: Fisica
+---
+Tipi di sistemi termodinamici
+===
+Aperto: scambia energia e materia con l'ambiente
+Chiuso: sistema che scambia con l'ambiente solo energia
+Isolato: sistema che non scambia nulla con l'ambiente
+```
