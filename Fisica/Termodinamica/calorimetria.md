@@ -13,9 +13,10 @@ modification date: 2023-07-07 09:14
 > - Il sistema più caldo cede calore $Q_{2} < 0$
 > - Il sistema più freddo assorbe calore $Q_{1} > 0$
 
->[!def]
->Si definisce capacità termica di un sistema che passa da $T_{1}$ a $T_{2}$ scambiando una certa quantità $Q$ di calore:
->$$ C_{m} = \frac{Q}{\Delta T} $$
->Considerando variazioni infinitesime di $T$:
->$$ C = \frac{\delta Q}{dt}  $$
->Si può verificare che $C$ dipende dalal massa del sistema, possiamo de
+![[capacità termica#^2ecb8f]]
+![[calore specifico#^19b14d]]
+![[calore#^d411f6]]
+![[calorie#^67ea76]]
+
+[[termostati]]
+[[cambiamenti di fase]]
