@@ -6,11 +6,16 @@ modification date: 2023-07-07 09:14
 
 
 ## Per le isobare
+
+^3792a2
+
 >[!legge] Legge di Gay-Lussac per le [[trasformazione isobara|isobare]]
 >Se in un [[gas]] si mantiene la pressione costante allora il volume del gas è linearmente proporzionale alla temperatura
 >$$ V = V_{0}(1 + \beta T)  $$
 >Con $V_{0}$ voluem a $0^o C$ e T espressa in [[celsius]]
 >in condizioni ideali $\alpha = \beta$ è una costante uguale per tutti i gas perfetti
+
+^24ee84
 
 
 ```tikz
@@ -25,11 +30,15 @@ modification date: 2023-07-07 09:14
 
 ## Per le isocore
 
+^b5585f
+
 >[!legge] Legge di Gay-Lussac per le [[trasformazione isocora|isocore]]
 >Se in un [[gas]] si mantiene la pressione costante allora la pressione del gas è linearmente proporzionale alla temperatura
 >$$ p = p_{0} (1 + \alpha T) $$
 >Con $p_{0}$ pressione a $0^o C$ e T espressa in [[celsius]]
 >in condizioni ideali $\alpha = \beta$ è una costante uguale per tutti i gas perfetti
+
+^ea2591
 
 ```tikz
 \begin{document}
@@ -42,6 +51,9 @@ modification date: 2023-07-07 09:14
 ```
 
 # Per i gas ideali
+
+^afef85
+
 Avremo 
 $$ \alpha = \beta = \frac{1}{273,15} \ ^o C^{-1} $$
 Possiamo scrivere

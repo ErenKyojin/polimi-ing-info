@@ -13,7 +13,9 @@ modification date: 2023-07-07 09:14
 ## Equazione di stato dei gas perfetti:
 ![[legge di Boyle#^4d74cf]]
 
-![[legge di Gay-Lussac]]
+![[legge di Gay-Lussac#^24ee84]]
+![[legge di Gay-Lussac#^ea2591]]
+![[legge di Gay-Lussac#Per i gas ideali]]
 
 
 # ANKI
