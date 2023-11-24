@@ -12,3 +12,16 @@ modification date: 2023-07-07 09:14
 >Si può verificare che $C$ dipende dalal massa del sistema, possiamo definire capacità per unità di misura, detto [[calore specifico]]
 
 ^2ecb8f
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+capacità termica
+===
+Si definisce capacità termica di un sistema che passa da $T_1$ a $T_2$ scambiando una certa quantità $Q$ di calore:
+$$ C = \frac{\Delta Q}{dt} $$
+C dipende dalla massa del sistema
+```
+

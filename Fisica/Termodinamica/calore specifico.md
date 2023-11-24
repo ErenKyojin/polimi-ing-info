@@ -12,3 +12,14 @@ modification date: 2023-07-07 09:14
 
 ^19b14d
 
+# ANKI
+
+```anki
+deck: Fisica
+---
+Calore specifico
+===
+Il calore specifico è la capacità termica per unità di massa
+$$ c = \frac{C}{m} = \frac{1}{m} \frac{\delta Q}{dt} $$
+è una caratteristica del sistema e dipende dalla temperatura e dalla trasformazione subita dal sistema
+```
