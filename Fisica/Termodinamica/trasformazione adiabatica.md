@@ -23,6 +23,10 @@ La variazione di energia interna U
 $$ \Delta U = Q $$
 Possiamo quindi affermare che
 $$ Q = - \mathcal{L}_{\text{adiabatico}} $$
+
+Dimostrando in generale l'equivalenza tra il calore ed il lavoro
+
+
 # ANKI
 
 ```anki
