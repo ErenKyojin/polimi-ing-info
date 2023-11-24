@@ -62,3 +62,21 @@ notazione prefissa
 - completion found
 
 
+> [!esempio]
+> axioms vuota
+> $\varnothing \vDash Cong$ -> Connv valide? Proof found si, completion found no
+
+>[!esempio]
+>cong vuota
+>$\text{ axioms  }\vdash \square$ -> axioms insodd
+>completion found, prrof no
+
+
+# Esercizi
+verificare che siano tautologie (valide)
+(3 di logica proposizionale, 1 di logica del primo orine)
+
+1. $\sim(\sim P) \implies P$
+2. $P \lor \sim(\sim P)$
+3. $(P \implies Q) \iff \sim P \lor Q$
+4. $\exists x \forall y (F(x) \implies F(y))$
