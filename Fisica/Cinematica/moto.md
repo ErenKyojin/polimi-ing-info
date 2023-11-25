@@ -313,7 +313,7 @@ Casi particolari di moto
 	$$
 	\omega = \cost \quad;\quad v = \omega R = \cost \implies \vec{a}_{T} = 0\quad;\quad\vec{a} = \vec{a}_{N} = \vec{a}_{C}
 	$$
-	$$a = a_{c} = \frac{v^2}{R} = \omega R$$
+	$$a = a_{c} = \frac{v^2}{R} = \omega^2 R$$
 	- si tratta di un moto periodico di periodo $\frac{v}{2\pi R} = \frac{\omega}{2 \pi}$
 	- legge oraria:
 		$$ \theta(t) = \theta_0 + \omega t \iff s(t) = s_0 + vt $$

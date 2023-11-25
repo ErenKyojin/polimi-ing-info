@@ -21,7 +21,7 @@ Caso particolare di moto circolare estremamente importante, la velocità angolar
 $$
 \omega = \cost \quad;\quad v = \omega R = \cost \implies \vec{a}_{T} = 0\quad;\quad\vec{a} = \vec{a}_{N} = \vec{a}_{C}
 $$
-$$a = a_{c} = \frac{v^2}{R} = \omega R$$
+$$a = a_{c} = \frac{v^2}{R} = \omega^2 R$$
 Si tratta di un moto periodico in quanto
 $$\vec{r}(t + T) = \vec{r}(t)\quad\forall t\text{ con }T = \frac{2\pi R}{v}= \frac{2\pi}{\omega}\quad [T] = s\qquad\text{periodo del [[moto]]}$$
 La freuquenza del moto è
