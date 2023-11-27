@@ -20,3 +20,5 @@
 	 > 
 <% tp.frontmatter.aliases %>
 </div>
+
+[]
