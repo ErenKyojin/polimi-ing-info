@@ -80,3 +80,6 @@ verificare che siano tautologie (valide)
 2. $P \lor \sim(\sim P)$
 3. $(P \implies Q) \iff \sim P \lor Q$
 4. $\exists x \forall y (F(x) \implies F(y))$
+5. tutti gli uomini sono animali e alcuni animali sono carnivori, allora alcuni uomini sono carnivori
+	- A(x) x è animale
+	- C(y) y è carnivoro
