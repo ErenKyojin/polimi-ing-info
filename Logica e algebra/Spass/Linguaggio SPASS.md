@@ -94,8 +94,11 @@ una rete di comunicazione è fatta in modo tale da avere esattamente un nodo d'i
 Nodi che non sono ne d'inizio nè di fine si dicono nodi centrali, mentre un hub è un nodo collegato in entrata e uscita con tutti gli altri nodi centrali.
 Ogni hub è centrale?
 
-- O(x) x ha un nodo di uscita
-- I(x) x ha un nodo in entrata
 
-$\exists x (O(x) \land \sim I(x) \land \forall y (\sim(y = x)  \implies (O(y) \implies I(y))))$
-$\exists x (I(x) \land \sim O(x))$
+- I(x) x è nodo iniziale
+- L(x,y) collegamento tra x e y
+
+$\exists x (  I(x) \land \forall y (I(y) \implies y = x)$
+$\forall x (I (x) \iff (\exists y(L(x,y) \land \sim \exists y(L(y,x)))))$
+$C(x) \iff (I(x) \land O(x))$
+$H(x) \iff \forall y (C(y) \land L(x,y) \land L(y,x))$
