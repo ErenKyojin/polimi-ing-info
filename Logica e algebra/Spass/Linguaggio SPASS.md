@@ -87,3 +87,15 @@ verificare che siano tautologie (valide)
 6. ogni barbiere rade tutti coloro che non si radono da soli; nessun barbiere rade alcuna persona che si rade da sola
 	1. $\forall x (B(x) \implies \forall y(\sim R(y,y) \implies R(x,y))$
 	2. $\sim \exists x (B(x) \land \exists y(B(y,y) \implies R(x,y))$
+
+...
+#### Esercizio 7
+una rete di comunicazione è fatta in modo tale da avere esattamente un nodo d'inizio, ossia un nodo con almeno un collegamento in uscita ma nessun collegamento in entrata, ed almeno un nodo di fine, ossia un nodo con almeno un collegamento in entratà ma nessuno in uscita.
+Nodi che non sono ne d'inizio nè di fine si dicono nodi centrali, mentre un hub è un nodo collegato in entrata e uscita con tutti gli altri nodi centrali.
+Ogni hub è centrale?
+
+- O(x) x ha un nodo di uscita
+- I(x) x ha un nodo in entrata
+
+$\exists x (O(x) \land \sim I(x) \land \forall y (\sim(y = x)  \implies (O(y) \implies I(y))))$
+$\exists x (I(x) \land \sim O(x))$
