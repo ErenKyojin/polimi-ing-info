@@ -84,6 +84,6 @@ verificare che siano tautologie (valide)
 	- A(x) x è animale
 	- C(y) x è carnivoro
 	- U(x) x è umano
-6. ogni barbiere rade tutti coloro che non si radono da soli;
+6. ogni barbiere rade tutti coloro che non si radono da soli; nessun barbiere rade alcuna persona che si rade da sola
 	1. $\forall x (B(x) \implies \forall y(\sim R(y,y) \implies R(x,y))$
-7. nessu
+	2. $\sim \exists x (B(x) \land \exists y(B(y,y) \implies R(x,y))$

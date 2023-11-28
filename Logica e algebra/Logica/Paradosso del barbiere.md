@@ -15,7 +15,7 @@ $R^2 \to$ radere
 
 $$ \begin{align}
 \phi &= \forall x(B(x)  \implies (\forall y  (\sim R(y,y) \implies R(x,y)))) \\
-\psi&=\forall x(B(x) \implies \forall y(R(y,y) \implies \sim R(x,y))) \\
+\psi&=\forall x(B(x) \implies \exists y(R(y,y) \implies \sim R(x,y))) \\
 \theta &= \exists x B(x) 
 \end{align} $$
 
