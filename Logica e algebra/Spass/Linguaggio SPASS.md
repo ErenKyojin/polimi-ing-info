@@ -100,5 +100,8 @@ Ogni hub è centrale?
 
 $\exists x (  I(x) \land \forall y (I(y) \implies y = x)$
 $\forall x (I (x) \iff (\exists y(L(x,y) \land \sim \exists y(L(y,x)))))$
-$C(x) \iff (I(x) \land O(x))$
-$H(x) \iff \forall y (C(y) \land L(x,y) \land L(y,x))$
+$\forall (x)(F(x) \iff( \exists y(L(y,x))\land\sim \exists y(L(x,y))))$
+$\exists x(F(x))$
+$\forall x(C(x) \iff (\sim I(x) \land F(x))$
+$\forall y(C(y) \implies (L(x,y) \land L(y,x)))$
+$\forall x(H(x) \implies C(x))$
