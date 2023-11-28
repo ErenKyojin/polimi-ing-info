@@ -82,4 +82,8 @@ verificare che siano tautologie (valide)
 4. $\exists x \forall y (F(x) \implies F(y))$
 5. tutti gli uomini sono animali e alcuni animali sono carnivori, allora alcuni uomini sono carnivori
 	- A(x) x è animale
-	- C(y) y è carnivoro
+	- C(y) x è carnivoro
+	- U(x) x è umano
+6. ogni barbiere rade tutti coloro che non si radono da soli;
+	1. $\forall x (B(x) \implies \forall y(\sim R(y,y) \implies R(x,y))$
+7. nessu
