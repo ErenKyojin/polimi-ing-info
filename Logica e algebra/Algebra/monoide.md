@@ -13,7 +13,7 @@ creation date: 2023-11-29
 
 Il monoide è essenzialmente una struttura algebrica con due operazione
 - binaria associativa
-- 0-aria (attraverso l'elemento neutro, associa ad ogni elemento b un element c che lega $\cdot$ dalla relazione $a \cdot c = c \cdot a = a$ per qualsiasi $a$ nel sostegno).
+- 0-aria (attraverso l'elemento neutro, associa ad ogni elemento b un elemento e che lega $\cdot$ dalla relazione $a \cdot e = e \cdot a = a$ per qualsiasi $a$ nel sostegno).
 
 >[!oss]
 >per questo motivo i monoidi si indicano solitamente con $\left< A, \cdot, e \right>$ per risaltare l'operazione di arità 0

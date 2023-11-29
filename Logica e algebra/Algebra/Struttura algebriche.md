@@ -8,4 +8,11 @@ Gli elementi di $A$ sono detti **elementi della struttura**.
 La strottura si dice finita se il suo sostegno è finito
 
 ## Strutture algebriche notevoli
-[[semigruppo]]
+- [[semigruppo]]
+	- [[monoide]]
+- [[gruppo]]
+
+
+A volte per la legge di composizione si utilizza la notazione additiva $a + b$, ed in quel caso l'elemento neutro è 0 e l'inverso di $a$ è chiamato opposto ed indicato con il simbolo $-a$, mentre la potenza $n$-esima di $a$ è indicata con $na$.
+
+
