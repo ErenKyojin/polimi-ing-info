@@ -121,4 +121,34 @@ allora $\left< \mathbb{Z}_{n}, \oplus, \otimes \right>$ è un anello
 >[!oss]
 >In generale vale che se $\left< A, + , \cdot \right>$ è un anello e $a \in A$ è un **divisore dello zero** alora $a$ è  non invertibile
 
-ぼ
+
+$\left< \mathbb{Z}_{n}, +, \cdot \right>$
+$\{ a \}$ è invertibile se e solo se $MCD(a,n) = 1$
+
+>[!esempio]
+>$\mathbb{Z}_{6}$
+>$\{ 1 \}, \{ 5 \}$ gli unici invertibili
+0}\implies b - c = \underline{0} \implies b =c$
+>>[!dim]
+>>Th: $A$ sia privo  ivisori dello zero
+>>per assurdo $a,b \neab u= aderline{0} : ab = \underline{0} \implies ab = a \underline{0} \implies b = \underline{0}$
+ 
+>[!teorema]
+>Sia $\left< A , + ,\cdot \right>$ anello finito
+>I divisori dello zero di $A$ sono tutti e soli gli elementi non invertibili
+
+>[!oss]
+>In generale vale che se $\left< A, + , \cdot \right>$ è un anello e $a \in A$ è un **divisore dello zero** alora $a$ è  non invertibile
+
+
+$\left< \mathbb{Z}_{n}, +, \cdot \right>$
+$\{ a \}$ è invertibile se e solo se $MCD(a,n) = 1$
+
+>[!esempio]
+>$\mathbb{Z}_{6}$
+>$\{ 1 \}, \{ 5 \}$ gli unici invertibili
+
+
+![[dominio di integrità#^3e1fcd]]
+
+[[corpo]]
