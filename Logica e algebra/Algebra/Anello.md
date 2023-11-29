@@ -99,4 +99,26 @@ allora $\left< \mathbb{Z}_{n}, \oplus, \otimes \right>$ è un anello
 
 >[!teorema]
 >Un anello $\left< A , + , \cdot \right>$ è privo di divisori dello zero se e solo se valgono le leggi di cancellazione dello zero:
->$$ a \neq 0\qu $$
+>$$ a \neq 0\quad ab = ac \implies b = c $$
+>$$ a \neq 0\quad ba = ca \implies b = c $$
+>
+>>[!dim]
+>>Hp: $A$ sia privo di divisori dello zero
+>>Th: valgono leggi di cancellazione
+>>
+>>$a \neq 0$
+>>$ab = ac \implies ab-ac= \underline{0} \implies a(b-c)= \underline{0}\implies b - c = \underline{0} \implies b =c$
+>
+>>[!dim]
+>>Hp: Valgono leggi di cancellazione
+>>Th: $A$ sia privo di divisori dello zero
+>>per assurdo $a,b \neq  \underline{0} : ab = \underline{0} \implies ab = a \underline{0} \implies b = \underline{0}$
+ 
+>[!teorema]
+>Sia $\left< A , + ,\cdot \right>$ anello finito
+>I divisori dello zero di $A$ sono tutti e soli gli elementi non invertibili
+
+>[!oss]
+>In generale vale che se $\left< A, + , \cdot \right>$ è un anello e $a \in A$ è un **divisore dello zero** alora $a$ è  non invertibile
+
+ぼ
