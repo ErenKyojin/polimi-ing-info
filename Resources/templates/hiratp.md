@@ -1,4 +1,4 @@
 # > Hiragana
 <div  class="jpcontent"> 
-<% tp.frontmatter.title %>
+<% tp.file.title %>
 </div>
