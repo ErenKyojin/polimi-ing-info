@@ -1,6 +1,6 @@
 ---
 aliases: 
-creation date: 2023-11-29
+creation date: 2\underline{0}23-11-29
 ---
 
 >[!def]
@@ -23,7 +23,7 @@ creation date: 2023-11-29
 
 ## Proprietà
 $\left< A, +, \cdot \right>$ sia anello
-1. $\forall a \in A\quad a \cdot 0 = 0 \cdot a =0$
+1. $\forall a \in A\quad a \cdot \underline{0} = \underline{0} \cdot a =\underline{0}$
 2. $\forall a,b \in A\quad a\cdot (- b) = (-a) \cdot b = -(a\cdot b)$
 3. $\forall a,b \in A \forall n \in \mathbb{Z}\quad a\cdot(n\cdot b) = (n\cdot a)\cdot b = n\cdot(a\cdot b)$
 4. $\forall a,b,c \in A\quad$ 
@@ -31,9 +31,41 @@ $\left< A, +, \cdot \right>$ sia anello
 	2. $a(b-c)= ab - ac$
 
 >[!dim] dimostrazione di 1.
->$\cancel{ a\cdot b } = a\cdot(b + 0) = \cancel{ a\cdot b } + a \cdot0$
+>$\cancel{ a\cdot b } = a\cdot(b + \underline{0}) = \cancel{ a\cdot b } + a \cdot\underline{0}$
 >e quindi abbiamo
->$0 = a \cdot 0$
+>$\underline{0} = a \cdot \underline{0}$
 
 ***
-Se $\left< A, +, \cdot \right>$ è un anello in cui esiste l'elemento neutro indicato con $\underline{1}$ rispetto all'operazione $\left< A, +, \cdot \right>$
+
+> [!def]
+> Se $\left< A, +, \cdot \right>$ è un anello in cui esiste l'elemento neutro indicato con $\underline{1}$ rispetto all'operazione $\left< A, +, \cdot \right>$ è detto **anello con unità**
+
+>[!def]
+>Se $\left< A, + , \cdot \right>$ è un anello in cui l'operazione è commutativa allora $\left< A, +, \cdot \right>$ è detto **anello commutativo**
+
+
+
+$\mathbb{Z}_{n}$
+$\oplus \ f : \mathbb{Z}_{n} \times \mathbb{Z}_{n} \to Z_{n}$, $\{ a \}, \{ b \} \mapsto \{ a + b \}$
+
+$\{ a \}_{n} \oplus \{ b \}_{n} = \{ a + b \}_{n}$
+$\{ a' \} = \{ a \} \iff a' \equiv a (\mod n) \iff a' - a = Rn \quad R \in \mathbb{Z}$
+$\{ b' \} = \{ b \} \iff b' \equiv b \mod n \iff b' - b = Kn\quad K \in \mathbb{Z}$ 
+
+$$ \begin{align}
+a' - a + b' - b = (R+K)n \\
+a' + b' \equiv a + b (\mod n) \\
+\implies \{ a' + b' \} = \{ a + b \}
+\end{align} $$
+
+
+$\{ a \}_{n} \otimes \{ b \}_{n} = \{ a \cdot b \}_{n}$
+
+$\{ a' \}= \{ a \} \iff a' - a = hn$
+$\{ b' \} = \{ b \} \iff b'-b=kn$ $\quad h,k \in \mathbb{Z}$
+
+moltiplico il primo $\times b'$ ed il secondo per $\times a$:
+$$ \begin{align}
+a'b' - ab' = hb'm \\
+ab' - ab = kan
+\end{align} $$
