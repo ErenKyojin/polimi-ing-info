@@ -4,7 +4,7 @@ creation date: 2023-03-26 16:56
 modification date: 2023-03-26 16:56
 ---
 >[!def]
->Un [[Analisi 1/Insiemi numerici/Campo|campo]] di forze che ammette [[energia potenziale]] si dice **campo conservativo** e si dice che la [[forza]] corrispondente è una [[forze conservative|forza conservativa]]
+>Un [[Campo numerico|campo]] di forze che ammette [[energia potenziale]] si dice **campo conservativo** e si dice che la [[forza]] corrispondente è una [[forze conservative|forza conservativa]]
 
 >[!oss]
 >Condizione necessaria ma non sufficiente perchè un campo di [[forza|forze]] sia conservativo è che l'espressione della forza dipenda solo dalla posizione del [[punto materiale]] cui è applicata:
@@ -45,7 +45,7 @@ Queste tre identità scalari possono essere sintetizzate in un'unica identità v
 $$
 \text{rot}(\vec{F}) = \vec{\nabla} \times \vec{F} = 0
 $$
-Tale identità stabilisce che il rotore del [[Analisi 1/Insiemi numerici/Campo|campo]] $\vec{F}$ è identicamente nullo, o, equivalentemente, che il campo $\vec{F}$ è irrotazionale.
+Tale identità stabilisce che il rotore del [[Campo numerico|campo]] $\vec{F}$ è identicamente nullo, o, equivalentemente, che il campo $\vec{F}$ è irrotazionale.
 Infatti, per definizione, l'operatore rotore applicato ad un campo vettoriale $\vec{F}$ genera un nuovo campo vettoriale derivato, definito formalmente come segue:
 $$
 \vec{\nabla} \times \vec{F} = \begin{vmatrix}

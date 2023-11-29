@@ -47,7 +47,7 @@ Un #campo con queste 9 proprietà è detto #campo numerico
 $a = \frac{m}{n},\quad b=\frac{r}{s}$
 $$\begin{flalign}a \leq b \Leftrightarrow m\cdot s\leq r \cdot n \\
 a \lt b \Leftrightarrow m\cdot s \lt r\cdot n\end{flalign}$$
-Avendo una relazione d'ordine definita $\mathbb Q$ è un [[Analisi 1/Insiemi numerici/Campo]]
+Avendo una relazione d'ordine definita $\mathbb Q$ è un [[Campo numerico]]
 
 ## Teoremi riguardanti $\mathbb Q$
 - Proprietà di archimede:

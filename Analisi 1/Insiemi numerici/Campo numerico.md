@@ -1,5 +1,5 @@
 # Campo
-Un campo è un [[Analisi 1/Insiemi numerici/Insieme]] numerico in cui valgono le seguenti proprietà:
+Un campo è un [[insieme]] numerico in cui valgono le seguenti proprietà:
 
 #### Per la somma
 - Associativa
@@ -28,7 +28,7 @@ Tutti i campi hanno inoltre le seguenti proprietà:
 
 # Campo ordinato
 Un campo in cui è presente una [[relazione d'ordine]] si dice <u>campo ordinato</u>, campi ordinati sono:
-- $\mathbb Q$ - [[Analisi 1/Insiemi numerici/numeri razionali]]
+- $\mathbb Q$ - [[numeri razionali (a1)|numeri razionali (a1)]]
 - $\mathbb R$ - [[numeri reali]]
 
 Ai quali si aggiunge come campo non ordinato
@@ -41,3 +41,6 @@ Proprietà di un [[insieme]] come campo ordinato:
 -  L'equazione $x^2+1 = 0$ non ha soluzione in un campo ordinato
 - $a > 0 \Rightarrow a^-1 > 0\quad\quad a > b > 0\quad\quad b^{-1}>a^{-1}>0$
 
+# Campo in algebra
+>[!def]
+>un [[corpo]] in cui valga la proprietà commutativa dell'operazione è detto campo

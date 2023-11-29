@@ -130,7 +130,7 @@ $\{ a \}$ è invertibile se e solo se $MCD(a,n) = 1$
 >$\{ 1 \}, \{ 5 \}$ gli unici invertibili
 0}\implies b - c = \underline{0} \implies b =c$
 >>[!dim]
->>Th: $A$ sia privo  ivisori dello zero
+>>Th: $A$ sia privo  di divisori dello zero
 >>per assurdo $a,b \neab u= aderline{0} : ab = \underline{0} \implies ab = a \underline{0} \implies b = \underline{0}$
  
 >[!teorema]
@@ -152,3 +152,7 @@ $\{ a \}$ è invertibile se e solo se $MCD(a,n) = 1$
 ![[dominio di integrità#^3e1fcd]]
 
 [[corpo]]
+
+[[Campo numerico|Campo numerico]]
+
+[[reticolo]]
