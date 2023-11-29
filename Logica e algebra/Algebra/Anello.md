@@ -66,6 +66,37 @@ $\{ b' \} = \{ b \} \iff b'-b=kn$ $\quad h,k \in \mathbb{Z}$
 
 moltiplico il primo $\times b'$ ed il secondo per $\times a$:
 $$ \begin{align}
-a'b' - ab' = hb'm \\
-ab' - ab = kan
+a'b' - ab' = hb'm& \\
+ab' - ab = kan& \\
+\hline{a'b' - ab} & \\
+=(hb' + ka)n \implies \{ a'b \} = \{ ab \}
 \end{align} $$
+
+
+allora $\left< \mathbb{Z}_{n}, \oplus, \otimes \right>$ è un anello
+
+
+>[!def]
+>$\left< A, +, \cdot \right>$ anello
+>due elementi $a,b \in A$ si dicono **divisori dello zero** di $A$ se
+>$$ a \neq  \underline{0}\quad b \neq  \underline{0}\quad a\cdot b = 0 $$
+
+
+
+> [!esempio] divisori dello zero
+>1. $\mathbb{Z}_{8}: \{ 2 \}\{ 4 \} = \{ 8 \} = \{ 0 \}$
+> 
+> 2. $$ \begin{bmatrix}
+> 2 & 1 \\
+> 1 & 2
+> \end{bmatrix} \begin{bmatrix}
+> 2 & 2 \\
+> -4 & -4
+> \end{bmatrix} = \begin{bmatrix}
+> 0 & 0 \\
+> 0 & 0
+> \end{bmatrix}$$
+
+>[!teorema]
+>Un anello $\left< A , + , \cdot \right>$ è privo di divisori dello zero se e solo se valgono le leggi di cancellazione dello zero:
+>$$ a \neq 0\qu $$
