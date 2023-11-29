@@ -14,5 +14,5 @@ La strottura si dice finita se il suo sostegno è finito
 
 
 A volte per la legge di composizione si utilizza la notazione additiva $a + b$, ed in quel caso l'elemento neutro è 0 e l'inverso di $a$ è chiamato opposto ed indicato con il simbolo $-a$, mentre la potenza $n$-esima di $a$ è indicata con $na$.
-
+Un gruppo dove la legeg di composizione binaria ha la proprietà commutativa è detto [[gruppo abeliano]]
 
