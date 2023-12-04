@@ -31,6 +31,7 @@ $H \subseteq A, H \neq \varnothing$ è sottogruppo se
 - $1 \in H$
 - $\forall a \in H \implies a^{-1} \in H$
 
+vediamo dei criteri (sottointendiamo che $H \neq \varnothing$)
 ##### Criterio 1
 $\left< A, \cdot \right>$ gruppo
 $H \subseteq A$ è sottogrupop se
@@ -41,3 +42,44 @@ $H \subseteq A$ è sottogrupop se
 $\left< A, \cdot \right>$ gruppo
 $H \subseteq A$ sottogruppo se
 - $\forall A,b \in H \implies a \cdot b^{-1} \in H$
+
+##### Criterio 3
+$\left< A, \cdot \right>$ gruppo **finito**
+$H \subseteq A$ è sottogruppo se
+- $\forall a,b \in H \implies a \cdot b \in H$
+
+#### Anello
+$\left< A, +, \cdot \right>$ anello
+$H \subseteq A, H \neq \varnothing$ è sottoanello se
+- $\forall a,b \in H \implies a + b \in H$
+- $\underline{0} \in H$
+- $\forall a \in H \implies -a \in H$
+- $\forall a, b \in H \implies ab \in H$
+
+##### Criterio per i sottoanelli
+$\left< A, +, \dot{c} \right>$ sia anello
+$H \subseteq A$ è sottoanello se
+1. $\forall a,b \in H \implies a - b \in H$
+2. $\forall a,b \in H \implies a \cdot b \in H$
+
+#### Corpo
+$\left< A, +, \cdot \right>$ sia corpo
+$H \subseteq A$, $H \neq \varnothing$ è sottocorpo
+- $\forall a,b \in H\quad a + b \in H$
+- $\underline{0} \in H$
+- $\forall a \in H_{0} \quad - a \in H$
+- $\forall a,b \in H\quad a\cdot b\in H$
+- $1 \in H$
+- $\forall a \in H_{0}\quad a^{-1} \in H$
+
+##### Criterio per i sottocorpi
+$\left< A,+, \cdot \right>$ corpo
+$H \subseteq A$ è sottocorpo se
+1. $\forall a, b \in H\quad a - b \in H$
+2. $\forall a,b \in H_{0} \quad ab^{-1} \in H$
+
+#### Reticolo
+$\left< A, \cup , \cap\right>$ sia reticolo
+$H \subseteq A, H \neq \varnothing$ è sottoreticolo se
+- $\forall a,b \in H, a \cap b \in H$
+- $\forall a,b \in H, a \cup b \in H$
