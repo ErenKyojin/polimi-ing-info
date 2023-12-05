@@ -12,5 +12,5 @@ deck: GAL
 Molteplicità geometrica
 ===
 La molteplicità geometrica di $\lambda_0$, considerata una matrice quadrata $A$ di ordine $n$ con $\lambda_0$ un suo autovalore è la dimensione dell'autospazio relativo a $\lambda_0$, quindi il numero di elementi di una base dell'autospazio relativo a $\lambda_0$
-$$m_g(\lambda_0) = n - r(A - \lambda_0\mathbb{1}_n)$$
+𝟙mg(λ0)=n−r(A−λ01n)
 ```
