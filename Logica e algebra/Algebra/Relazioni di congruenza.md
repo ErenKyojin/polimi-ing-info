@@ -22,4 +22,16 @@ creation date: 2023-12-05
 considerando $\left< Z, +, \cdot \right>$, la relazione di congruenza modulo 3, e l'insieme quoziente $Z_{3}$ di Z rispetto alla congruenza modulo 3.
 Possiamo introdurre in modo semplice una somma ed un prodotto su $Z_{3}$ definendo come somma di due classi di resti modulo 3 la classe che ha come rappresentante la somma dei rappresentanti e come prodotto di due classi di resti la classe che ha come rappresentante il prodotto dei rappresentanti.
 Se invece consideriamo nella stessa struttura la relazione di equivalenza indotta dalla partizione $+, 0, -$non possiamo definire una somma tra queste tre classi.
-Se affermiamo che la somma di due classe è la classe che ha come rappresentante la somma dei rappresentanti non definiremmo correttamente u'
+Se affermiamo che la somma di due classe è la classe che ha come rappresentante la somma dei rappresentanti non definiremmo correttamente un'operazione, prendiamo ad esempio come rappresentanti di + e -, 1 e -1 rispettivamente.
+$+ \oplus -$ = 0 
+Ma se i rappresentanti fossero 3 e -1 rispettivamente avremmo 2 che è in +.
+La relazione non è compatibile con la somma.
+
+>[!def] operazione indotta
+>Dati un insieme $A$, una legge di composizione interna $\omega$ di arità $n$ su $A$ ed una relazione di equivalenza $p$ su $A$ compatibile con $\omega$, la funzione $\omega' : A/p \times A / p \times \dots \times A / p$ (n volte)-> $A / p$  definita da $\omega(p_{a_{1}},p_{a_{2}},\dots,p_{a_{n}}) = p_{\omega(a_{1},a_{2},\dots,a_{n})}$ è una legge di composizione interna $\omega'$ di arità $n$ su $A / p$ detta operazione indotta da $\omega$.
+>Dobbiamo verificare la definizione di $\omega'$ è ben posta, ovvero che $\omega'(p_{a_{1}},p_{a_{2}},\dots,p_{a_{n}})$ non dipende dai rappresentanti scelti per le p-classi.
+>Supponendo infatti $p_{a_{1}} = p_{b_{1}}, p_{a_{2}} = p_{b_{2}},\dots,p_{a_{n}} = p_{b_{n}}$ possiamo calcolare $\omega'(p_{b_{1}},p_{b_{2}},\dots,p_{b_{b}})$ essendo p compatibile con $\omega$ abbiamo $\omega(a_{1},a_{2},\dots,a_{n}),\omega(b_{1},b_{2},\dots,b_{n}) \in p$ quindi $\omega'(p_{b_{1}},p_{b_{2}},\dots,p_{b_{n}})= p_{\omega(b_{1},b_{2},\dots,b_{n})}=p_{\omega(a_{1},a_{2},\dots,a_{n})} = \omega'(p_{a_{1}},p_{a_{2}},\dots,p_{a_{n}})$
+
+
+>[!def]
+>data una struttura algebrica $\left< A, \Omega \right>$ ed una relazione di congruenza $p$ su $A$ si dice struttura quoziente di $A$ rispetto a $p$ la struttura $\left< A / p, \Omega' \right>$ avente come sostengo l'insieme quoziente di $A$ rispetto a $p$ e come insieme di operazioni l'insieme delle operazioni $\omega'$ indotte dalle operazioni $\omega$ di $\Omega$
