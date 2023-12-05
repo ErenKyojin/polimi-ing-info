@@ -43,8 +43,17 @@ La relazione non è compatibile con la somma.
 ```anki
 deck: LeA
 ---
-Relzione di congruenza
+ompatibilità
 ===
-Dato un insieme $A$, una $\rho$ relazione di equivalenzasu $A$ ed una operazione $\omega$ n-aria su $A$ dico che $\rho$ dico che $\rho$ è compatibile con $\omega$ se
+Dato un insieme $A$, una $\rho$ relazione di equivalenzasu $A$ ed una operazione $\omega$ n-aria su $A$ dico che $\rho$ è compatibile con $\omega$ se 
 $\forall a_1,...,a_n \in A, \forall b_1,...,b_n \in A \implies$ da $a \rho b$ segue $\omega(a_1,a_2,...,a_n)\rho\omega(b_1,b_2,...,b_n)$
+```
+
+
+```anki
+deck: LeA
+---
+congruenza
+===
+Sia $\left< A, \Omega \right>$ una struttura algebrica e sia $\rho$ una relazione di equivalenza su $A$. Si dice che $\rho$ è una congruenza su $A$ se è compatibile con ogni operazione $\omega \in \Omega$
 ```
