@@ -57,3 +57,23 @@ congruenza
 ===
 Sia $\left< A, \Omega \right>$ una struttura algebrica e sia $\rho$ una relazione di equivalenza su $A$. Si dice che $\rho$ è una congruenza su $A$ se è compatibile con ogni operazione $\omega \in \Omega$
 ```
+
+
+```anki
+deck: LeA
+---
+operazione indotta
+===
+Sia $A$ un insieme, sia $\omega$ un'operazione $n$-aria su $A$ e prima relazione di equivalenza si $A$ compatibile con $\omega$ allora sull'insieme quoziente $A / \rho$ è possibile definire una nuova operazione $n$-aria indotta da $\omega$ detta $\omega'$ nel seguente modo:
+$\omega' : A/ \rho \times A/ \rho \times ... \times A/ \rho \longrightarrow A/\rho$
+$\omega'(\rho_{a_1},\rho_{a_2},...,\rho_{a_n}) = \rho_{\omega( a_1,a_2,...,a_n)}$
+```
+
+
+```anki
+deck: LeA
+---
+Struttura quoziente
+===
+Data una struttura algebrica $\left< A, \Omega \right>$ ed una congruenza $\rho$ su $A$. È possibile definire sull'insieme $A / \rho$ una struttura quoziente $\left< A/\rho, \Omega' \right>$ nella quale l'insieme delle operazioni $\Omega'$ è costituito dalle operazioni indotte dalle $\omega \in \Omega$ 
+```
