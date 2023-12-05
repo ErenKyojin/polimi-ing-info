@@ -35,3 +35,16 @@ La relazione non è compatibile con la somma.
 
 >[!def]
 >data una struttura algebrica $\left< A, \Omega \right>$ ed una relazione di congruenza $p$ su $A$ si dice struttura quoziente di $A$ rispetto a $p$ la struttura $\left< A / p, \Omega' \right>$ avente come sostengo l'insieme quoziente di $A$ rispetto a $p$ e come insieme di operazioni l'insieme delle operazioni $\omega'$ indotte dalle operazioni $\omega$ di $\Omega$
+
+
+# ANKI
+
+
+```anki
+deck: LeA
+---
+Relzione di congruenza
+===
+Dato un insieme $A$, una $\rho$ relazione di equivalenzasu $A$ ed una operazione $\omega$ n-aria su $A$ dico che $\rho$ dico che $\rho$ è compatibile con $\omega$ se
+$\forall a_1,...,a_n \in A, \forall b_1,...,b_n \in A \implies$ da $a \rho b$ segue $\omega(a_1,a_2,...,a_n)\rho\omega(b_1,b_2,...,b_n)$
+```
