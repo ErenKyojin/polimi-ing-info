@@ -13,4 +13,4 @@ creation date: 2023-12-05
 
 >[!oss]
 >Consideriando tre strutture simili $\left< A_{1},\Omega_{1} \right>,\left< A_{2},\Omega_{2} \right>,\left< A_{3},\Omega_{3} \right>$ e due omorfismi $f$ e $g$ di $\left< A_{1},\Omega_{1} \right>$ in $\left< A_{2},\Omega_{2} \right>$, e di $\left< A_{2},\Omega_{2} \right>$ in $\left< A_{3},\Omega_{3} \right>$ rispettivamente. Allora la composizione $f\cdot g$ come funzione è un omorfismo di $\left< A_{1}, \Omega_{1} \right>$ in $\left< A_{3},\Omega_{3} \right>$.
->Se f è isomorfismo di $\left< A_{1},\Omega_{1} \right>$ in $\left< A_{2},\Omega_{2} \right>$ le funzione inversa di $f$ è un isomorfismo di $\left< A_{2},\Omega_{2} \right>$ in $\left< A_{1},\Omega_{1} \right>$
+>Se f è isomorfismo di $\left< A_{1},\Omega_{1} \right>$ in $\left< A_{2},\Omega_{2} \right>$ le funzione inversa di $f$ è un isomorfismo di $\left< A_{2},\Omega_{2} \right>$ in $\left< A_{1},\Omega_{1}z \right>$
