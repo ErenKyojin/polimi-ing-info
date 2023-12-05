@@ -17,3 +17,9 @@ creation date: 2023-12-05
 
 >[!oss]
 >È facile provare che l'intersezione di un numero qualsiasi di congruenze di $A$ è una congruenza di $A$. La relazione universale è una congruenza, dunque, data una qualsiasi relazione binaria $p$su $A$esiste sempre la minima congruenza di $A$ contenente $p$ detta congruenza generata da $p$ su $A$. Tale congruenza è l'intersezione di tuttel e congruenze di $A$ contenenti $p$.
+
+
+considerando $\left< Z, +, \cdot \right>$, la relazione di congruenza modulo 3, e l'insieme quoziente $Z_{3}$ di Z rispetto alla congruenza modulo 3.
+Possiamo introdurre in modo semplice una somma ed un prodotto su $Z_{3}$ definendo come somma di due classi di resti modulo 3 la classe che ha come rappresentante la somma dei rappresentanti e come prodotto di due classi di resti la classe che ha come rappresentante il prodotto dei rappresentanti.
+Se invece consideriamo nella stessa struttura la relazione di equivalenza indotta dalla partizione $+, 0, -$non possiamo definire una somma tra queste tre classi.
+Se affermiamo che la somma di due classe è la classe che ha come rappresentante la somma dei rappresentanti non definiremmo correttamente u'
