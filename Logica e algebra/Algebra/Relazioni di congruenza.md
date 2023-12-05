@@ -77,3 +77,4 @@ Struttura quoziente
 ===
 Data una struttura algebrica $\left< A, \Omega \right>$ ed una congruenza $\rho$ su $A$. È possibile definire sull'insieme $A / \rho$ una struttura quoziente $\left< A/\rho, \Omega' \right>$ nella quale l'insieme delle operazioni $\Omega'$ è costituito dalle operazioni indotte dalle $\omega \in \Omega$ 
 ```
+
