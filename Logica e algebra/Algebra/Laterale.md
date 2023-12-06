@@ -58,5 +58,28 @@ $\implies |A| = \ldots =|H| + |H| + |H| + |H| + \ldots + |H| = r |H|$
 
 ***
 
-$\left< A, \cdot \right>$ gruppo
-Un sottog
+> [!def]
+> $\left< A, \cdot \right>$ gruppo
+> Un sottogruppo $H$ di $A$ è detto **normale** in A, $H \vartriangleleft A$, se $\forall a \in A, \forall h \in H$ si ha $a^{-1}\cdot h\cdot a \in H$
+
+>[!oss]
+>caso particolare, se $\left< A, \cdot \right>$ è [[gruppo abeliano]] tutti i sottogruppi sono normali
+
+>[!oss]
+>Se $\left< A, \cdot \right>$ gruppo, $H \subseteq A$
+>$\forall a \in A, aH = Ha \iff H \vartriangleleft A$
+>$a\bar{h}  = h'a$
+>$\bar{h} = a^{-1}ha$
+
+
+>[!teorema]
+>Sia $\left< A, \cdot \right>$ gruppo, e $\rho$ una congruenza su $A$ allora
+>1. $\rho_{e} \subseteq A$ 
+>2. $\rho_{e} \vartriangleleft A$, poniamo $\rho_{e} = N$
+>3. Le classi di equivalenza di $\rho$ in $A$ sono tutte e sole i laterali di $N$ in $A$.
+> 
+>>[!dim]
+>>   
+
+È sufficiente conoscere la clase di equivalenza dell'elemento neutro per conoscere tutte le altre classi di equivalenza
+$\rho_{a} = Na$
