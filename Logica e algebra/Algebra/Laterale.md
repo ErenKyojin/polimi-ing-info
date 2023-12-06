@@ -79,7 +79,30 @@ $\implies |A| = \ldots =|H| + |H| + |H| + |H| + \ldots + |H| = r |H|$
 >3. Le classi di equivalenza di $\rho$ in $A$ sono tutte e sole i laterali di $N$ in $A$.
 > 
 >>[!dim]
->>   
+>>###### 1.
+>>$\rho_{e} \subseteq A$  $a,b \in \rho_{e} \implies a \rho e$, $b\rho e$ $\implies a b \rho e \implies a \cdot b \in \rho_{e}$
+>>$a \in \rho_{e} \implies a \rho e, a^{-1} \rho a^{-1} \implies e \rho a^{-1} \implies a^{-1} \rho e \implies a^{-1} \in \rho_{e}$
+>>
+>>###### 2.
+>>$\rho_{e} \vartriangleleft A$
+>>$b \in \rho_{e}, a \in A$
+>>$$ \begin{align} \\
+>>&a^{-1} \rho a \\
+>>&b \rho e \implies a^{-1}\rho ba \rho a^{-1}ea \to a^{-1}ba \rho e \implies a^{-1}ba \in \rho_{e}  \\
+>>&a \rho a
+>>\end{align} $$
+>>
+>>###### 3.
+>>tesi
+>>$\forall a \in A\quad \rho_{a} =Na$
+>>
+>>$b \in \rho_{a} \implies b \rho a$ so che $a^{-1}\rho a^{-1} \implies b^{-1}o\rho e \implies ba^{-1} \in \rho_{e} = N \implies b^{-1}a = n \in N \implies b = na \implies b \in Na$
+>>(Tutti gli $\implies$ in realtà sono $\iff$)
 
 È sufficiente conoscere la clase di equivalenza dell'elemento neutro per conoscere tutte le altre classi di equivalenza
 $\rho_{a} = Na$
+
+[[Prodotto di classi di equivalenza]]
+
+>[!teorema]
+>Sia $\left< A, \cdot \right>$ un gruppo ed $N$ un suo sotogruppo normale
