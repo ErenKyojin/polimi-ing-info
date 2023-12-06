@@ -105,4 +105,13 @@ $\rho_{a} = Na$
 [[Prodotto di classi di equivalenza]]
 
 >[!teorema]
->Sia $\left< A, \cdot \right>$ un gruppo ed $N$ un suo sotogruppo normale
+>Sia $\left< A, \cdot \right>$ un gruppo ed $N$ un suo sotogruppo normale, allora la relazione su $A$ così definita $$a \rho b \iff a\cdot b^{-1} \in N\qquad\forall a,b \in A$$ 
+>È una congruenza le cui classi di equivalenza sono tutti e soli i laterali di $N$ in $A$
+
+
+> [!esempio]
+> Dato $Q_{8} =\{ 1,-1,i,-i,j,-j,k,-k \}$ [[quaternoni]], si mostri che $H = \{ 1,-1 \}$ è un sottogruppo normale di $Q_{8}$ e si costruisca il gruppo quoziente $Q_{8} / H$
+> H chiuso rispetto al prodotto ($-1 \cdot 1 = -1, -1 \cdot -1 = 1, 1 \cdot 1 = 1$) quindi sottogruppo
+> 
+> se scelgo $1$:
+> $$a 1 a^{-1} = 1 \in H\qquad a^{-1}(-1)a$$
