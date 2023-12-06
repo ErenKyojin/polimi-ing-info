@@ -17,7 +17,7 @@ creation date: 2023-12-05
 >devo controllare che
 >$f(n_{1} + n_{2}) = f(n_{1}) + f(n_{2})$
 >$2(n_{1}+n_{2})=2n_{1} + 2n_{2} \quad\forall n_{1}n_{2} \in \mathbb{N}_{0}$
->Si per il +, no per il *
+>Si per il +, non lo sarebbe ad esempio per il $\cdot$
 >
 >Se avessi un monomio al posto del gruppo devo controllare **anche** che si conservi l'operazione 0-aria, ossia l'elemento neutro
 
