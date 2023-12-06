@@ -114,4 +114,16 @@ $\rho_{a} = Na$
 > H chiuso rispetto al prodotto ($-1 \cdot 1 = -1, -1 \cdot -1 = 1, 1 \cdot 1 = 1$) quindi sottogruppo
 > 
 > se scelgo $1$:
-> $$a 1 a^{-1} = 1 \in H\qquad a^{-1}(-1)a$$
+> $$a 1 a^{-1} = 1 \in H\qquad a^{-1}(-1)a=(-a)(-1)a = aa =a^2 = -1$$
+> 
+> per descrivere il gruppo quoziente si costruisce la tavola
+> 
+> | $Q_{8} / H$ | $H1$  | $Hi$  | $Hj$  | $H_{k}$ |
+> | ----------- | ----- | ----- | ----- | ------- |
+> | $H 1$       | $H$   | $H i$ | $H j$ | $Hk$    |
+> | $H i$       | $H i$ | $H$   | $Hk$  | $Hj$    |
+> | $H j$       | $H j$ | $H k$ | $H$   |  $H i$        |
+> | $H k$       | $Hk$  | $H j$ | $H i$      | $H$     |
+>
+>notiamo che $H1 = H(-1)$ infatti sono in relazione ($1 -1^{-1} = -1 \in H$), lo stesso vale per le coppie $i, -i$, $j,-j$,$k,-k$.
+> È il gruppo trirettangolare
