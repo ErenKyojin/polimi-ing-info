@@ -26,3 +26,4 @@ Se $mcd(a,n) \neq 1$
 >[!esempio]
 >$\mathbb{Z}_{8}$
 >$\{ 4 \} x = \{ 3 \}$ impossibile
+
