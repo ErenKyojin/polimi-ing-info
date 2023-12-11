@@ -46,3 +46,15 @@ In fase di HLD:
 non ha perdita informativa per Nyquist-Shannon
 
 
+[[pass transistor]]
+
+
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{tikzpicture}
+\node[nmos] at (4,3){Q};
+\draw (0,0) to[V] (0,2);
+\end{tikzpicture}
+\end{document}
+```
