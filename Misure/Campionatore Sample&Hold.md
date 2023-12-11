@@ -25,3 +25,8 @@ A interruttore chiuso la tenisione campionata viene memorizzata su un condensato
 \end{tikzpicture}
 \end{document}
 ```
+
+mantiene il valore campionato costante (a meno di un errore di [[LSB]]) per tutta la durata $$T_{s} = \frac{1}{F_{s}}$$
+
+Il tempo di conversione sarà
+$$ T_{conv} \leq \frac{1}{F_{s}} $$
