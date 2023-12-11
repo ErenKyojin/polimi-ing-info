@@ -48,13 +48,18 @@ non ha perdita informativa per Nyquist-Shannon
 
 [[pass transistor]]
 
-
-```tikz
-\usepackage{circuitikz}
-\begin{document}
-\begin{tikzpicture}
-\node[nmos] at (4,3){Q};
-\draw (0,0) to[V] (0,2);
-\end{tikzpicture}
-\end{document}
+```circuitjs
+$ 1 0.000005 382.76258214399064 50 5 50 5e-11
+g 448 288 448 320 0 0
+R 224 192 224 336 0 0 40 5 0 0 0.5
+f 336 128 336 192 32 1.5 0.02
+w 224 192 320 192 0
+w 352 192 448 192 0
+c 448 288 448 208 0 0.00001 -7.464318398686807 0.001
+w 448 208 448 192 0
+R 336 128 336 48 0 0 40 5 0 0 0.5
 ```
+
+
+[[pmos]]
+
