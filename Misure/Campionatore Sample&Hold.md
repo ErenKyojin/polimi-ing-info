@@ -30,3 +30,19 @@ mantiene il valore campionato costante (a meno di un errore di [[LSB]]) per tutt
 
 Il tempo di conversione sarà
 $$ T_{conv} \leq \frac{1}{F_{s}} $$
+
+L'interruttore si chiude ogni $nT_{s}$, la fase di sample ha una durata finita SMP: $0^+$ secondi 
+La fase di HLD $T_{s}^{-}$ secondi
+
+In fase di SMP:
+- $X_{in} = X_{out}$
+- $Q_{h} = C_{H} - X_{in}$
+
+In fase di HLD:
+- $\forall X_{in} \implies X_{out} = \frac{Q_{H}}{C_{H}} = X_{in}$
+
+
+
+non ha perdita informativa per Nyquist-Shannon
+
+
