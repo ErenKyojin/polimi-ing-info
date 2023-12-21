@@ -17,4 +17,22 @@ Possiamo quindi scrivere, in base all'espressione ricavata in precedenza
 $$ pV = p_{0}\beta TV_{0} $$
 ma $V_{0} = nV_{m}$:
 $$ pV = p_{0}n\beta V_{m} T = (\underbrace{ p_{0}\beta V_{m} }_{ R })nT $$
-Dove R è costante, e prende il nome di [[costante universale dei gas perfetti]]
+Dove R è costante, e prende il nome di [[costante universale dei gas perfetti]].
+
+Notiamo però che
+$$ n = \frac{N}{N_{a}} $$
+dove $N$ è il numero di componenti del gas e $N_{a}$ è il numero di avogardo. Possiamo quindi sostituire e otteniamo
+$$ pV = NK_{b}T $$
+dove $K_{b}$ è la [[costante di Boltzman]]
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Equazione di stato dei gas perfetti
+===
+Date n moli di un gas perfetto, possiamo scrivere la seguente legge
+$pV = NK_b T$
+dove N è il numero di componenti elementari ($N = n \cdot N_a$) e $K_b$ è la costante di Boltzman
+```
