@@ -233,3 +233,15 @@ deck: GAL
 - normalizzazione del prodotto scalare
   $$ 1\mathbf{v} = \mathbf{v} $$
 ```
+
+
+```anki
+deck: Fisica
+---
+Derivata di un vettore
+===
+la derivata di un vettore $\vec{v}$ è
+$$ \frac{d\vec{v}}{dt} = \lim_{\Delta t \to 0} \frac{\vec{v}(t + \Delta t) + \vec{v}(t)}{\Delta t}$$
+
+Se il modulo del vettore è costante la derivatà è perpendicolare al vettore stesso
+```
