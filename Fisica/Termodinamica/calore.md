@@ -31,7 +31,8 @@ $$\begin{align}
 \end{align}$$
 
 notiamo che dalla definizione di calore molare a pressione costante abbiamo $(\delta Q)_{p} = nc_{p}dT$.
-$n(c_{V} + R)$
+$$n(c_{V} + R) = dT = nc_{p}dT$$
+$$ c_{p}= c_{V} + R $$
 
 # ANKI
 
