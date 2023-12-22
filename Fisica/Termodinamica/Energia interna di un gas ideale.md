@@ -35,3 +35,13 @@ Essendo $dV$ non nulla, ne segue che $\dfrac{\delta U}{\delta V} = 0$.
 l'unica dipendenza dell'energia interna sarà quindi della temperatura: $U=U(T)$
 
 ![[Energia interna di un gas ideale 2023-12-22 12.56.09.excalidraw]]
+
+per calcolare $\Delta U = U_{B} - U_{A}$ dobbiam oconsiderare la seguente sequenza di trasformazioni:
+- Una trasformazione isoterma da A a C con volume intermedio C uguale al volume finale dello stato B
+- Una isocora tra C e B
+
+Avremo quindi:
+$$ \begin{align}
+\Delta U_{AC} = U_{C} - U_{A} = 0\quad T = \cost, \text{A e C isoterme} \\
+\Delta U_{CB} = U_{B} - U_{C} = Q_{CB} - 
+\end{align} $$
