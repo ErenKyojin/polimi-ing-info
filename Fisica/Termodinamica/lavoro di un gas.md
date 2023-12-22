@@ -80,6 +80,8 @@ In una trasformazione ciclica il gas è sempre in equilibrio con l'ambiente, qui
 $$ \delta \mathcal{L} = pdV $$
 
 Il lavoro è 
-- positivo se il ciclo nel piano di calpeiron è percorso in senso orario
-- negativo se i
+- positivo se il ciclo nel piano di clapeiron è percorso in senso orario
+- negativo se il ciclo nel piano di clapeiron è percorso in senso antiorario
+
+Inoltre equivale in modulo all'area compresa tra i due percorsi delle trasformazioni
 ```
