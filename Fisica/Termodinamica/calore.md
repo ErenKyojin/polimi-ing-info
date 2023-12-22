@@ -33,6 +33,8 @@ $$\begin{align}
 notiamo che dalla definizione di calore molare a pressione costante abbiamo $(\delta Q)_{p} = nc_{p}dT$.
 $$n(c_{V} + R) = dT = nc_{p}dT$$
 $$ c_{p}= c_{V} + R $$
+quest'ultima è detta [[relazione di Mayer]]
+
 
 # ANKI
 
@@ -47,3 +49,22 @@ Se possiamo considerarlo costante, diventa
 $$ Q = mc(T_2 - T_1) = mc\Delta t $$
 Si può misurare in calorie
 ```
+
+
+```anki
+deck: Fisica
+---
+Calore in una trasformazione reversibile
+===
+$$ \delta Q = nc_Vdt + pdV $$
+```
+
+
+```anki
+deck: Fisica
+---
+Calore in una trasformazione isocora
+===
+$$ (\partial Q)_V = nc_Vdt $$
+```
+
