@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-Si definisce trasformazione adiabatica una [[trasformazioni termodinamiche|trasformazione termodinamica]] senza alcuna interazione termica
+Si definisce trasformazione adiabatica una [[trasformazioni termodinamiche|trasformazione termodinamica]] senza alcuna interazione termica (ossia senza scambio di calore)
 
 
 ### Lavoro adiabatico 
@@ -27,6 +27,7 @@ $$ Q = - \mathcal{L}_{\text{adiabatico}} $$
 Dimostrando in generale l'equivalenza tra il calore ed il lavoro
 
 
+
 # ANKI
 
 ```anki
@@ -35,7 +36,7 @@ deck: Fisica
 trasformazione adiabatica
 ===
 
-Si definisce trasformazione adiabatica una trasformazione termodinamica senza alcuna interazione termica
+Si definisce trasformazione adiabatica una trasformazione termodinamica senza alcuna interazione termica, ossia con calore scambiato nullo
 ```
 
 
