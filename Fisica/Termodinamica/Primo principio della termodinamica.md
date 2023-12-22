@@ -8,7 +8,7 @@ modification date: 2023-07-07 09:14
 Un sistema termodinamico può scambiare energia con l'ambiente tramite:
 - Lavoro, quindi movimenti macroscopici
 - Calore, quindi senza movimenti macroscopici
-La variazione di [[energia interna]] tra i due stati di equilibrio per una generica trasformazione può essere scritta nel seguente modo, utilizzando le convenzioni di segno introdotte
+La variazione di [[polimi-ing-info/Fisica/Termodinamica/energia interna]] tra i due stati di equilibrio per una generica trasformazione può essere scritta nel seguente modo, utilizzando le convenzioni di segno introdotte
 $$ \Delta U = U_{p} - U_{i} = Q - \mathcal{L} $$
 Calore e lavoro dipendono dalla particolare trasformazione, mentre la variazione di energia interna dipende solo dagli stati iniziale e finale.
 

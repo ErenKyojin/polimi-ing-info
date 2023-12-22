@@ -20,7 +20,7 @@ $$ \vec{F}^{ext} = p_{e}S(-\hat{u}_{z}) $$
 avremo quindi
 $$ \begin{align}
 \delta L_{gas} &= - [p_{e} S (- \hat{u}_{z} ) \cdot d\vec{z}] \\
-\delta L_{gas} &= p_{e}Sdz = pedV
+\delta L_{gas} &= p_{e}Sdz = p_{e}dV
 \end{align} $$
 
 Quindi:
@@ -48,3 +48,38 @@ $$\mathcal{L}_{\text{ ciclo }} = \begin{cases}
 <0 &\text{ciclo percorso in senso antiorario}
 \end{cases}$$
 
+# ANKI
+
+
+```anki
+deck: Fisica
+---
+Lavoro di un gas
+===
+Il lavoro compiuto o subito da un GAS durante una trasformazione è 
+$$ \delta \mathcal{L} = p_e dV $$
+```
+
+
+```anki
+deck: Fisica
+---
+Lavoro di un gas in una trasformazione isocora
+===
+Il lavoro di un gas in una trasformazione isocora è nullo:
+$$ \delta V = 0 \implies \delta \mathcal{L} = 0 $$
+```
+
+
+```anki
+deck: Fisica
+---
+Lavoro di un gas in una trasformazione ciclica
+===
+In una trasformazione ciclica il gas è sempre in equilibrio con l'ambiente, quindi $p_{gas} = p_e$ allora il lavoro sarà
+$$ \delta \mathcal{L} = pdV $$
+
+Il lavoro è 
+- positivo se il ciclo nel piano di calpeiron è percorso in senso orario
+- negativo se i
+```

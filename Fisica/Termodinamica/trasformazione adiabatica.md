@@ -13,7 +13,7 @@ In queste condizioni il lavoro $\mathcal{L}$ non dipende dalla trasformazioni, m
 Convenzionalmente
 - $\mathcal{L} > 0$ lavoro eseguito dal sistema
 - $\mathcal{L} < 0$ lavoro fornito al sistema
-Possiamo definire una funzione chedipende dallo stato del sistema termodinamico, quindi una funzione di stato. La differenzza di questa funzione di stato è legata al lavoro durante la trasformazione adiabatica. Questa funzione prende il nome di [[energia interna]] $U$ del sistema
+Possiamo definire una funzione chedipende dallo stato del sistema termodinamico, quindi una funzione di stato. La differenzza di questa funzione di stato è legata al lavoro durante la trasformazione adiabatica. Questa funzione prende il nome di [[polimi-ing-info/Fisica/Termodinamica/energia interna]] $U$ del sistema
 
 Tipicamente durante una trasformazione adiabatica, la [[temperatura]] del sistema cambia:
 $$ \Delta T = T_{p} - T_{i} \propto \mathcal{L}_{\text{adiabatica}} $$
