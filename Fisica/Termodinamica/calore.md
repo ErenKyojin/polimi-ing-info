@@ -68,3 +68,11 @@ Calore in una trasformazione isocora
 $$ (\partial Q)_V = nc_Vdt $$
 ```
 
+
+```anki
+deck: Fisica
+---
+Calore in una trasformazione isobara
+===
+$$ (\delta Q)_p = n(c_V + R)dT = nc_pdT $$
+```
