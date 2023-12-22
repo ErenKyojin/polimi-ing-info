@@ -31,7 +31,27 @@ Consideriamo una trasformazione reversibile tale che
 $$ \delta Q = 0 \implies dU = \delta Q - \delta \mathcal{L} \implies dU = - \delta \mathcal{L} $$
 
 Possiamo sostituire
-$$ nc_{V}dT = -pdV $$
+$$ nc_{V}dT = -pdV $$ 
+e dall'equazione di stato dei gas perfetti abbiamo:
+$$ nc_{V}dT = -\frac{nRT}{V}dV $$
+$$ \frac{dT}{T} = -\frac{R}{c_{V}} \frac{dV}{V} $$
+
+integrando a sinistra per la temperatura e a destra per il volume:
+$$ \ln(T) = -\frac{R}{c_{V}} \ln(V) + \cost $$
+eleviamo tutto ad esponenziale:
+$$ T = e^{-R/c_{v} \ln(V) + C} \implies T = V^{-R/c_{V}}e^{\cost}$$
+che possiamo scrivere come
+$$ TV^{R/c_{V}} = \cost $$
+
+$$ \frac{R}{c_{V}} = \frac{c_{p} - c_{V}}{c_{V}} = \frac{c_{p}}{c_{V}} - 1 = \gamma - 1; \gamma > 1 $$
+quindi
+$$ TV^{\gamma - 1} = \cost $$
+applicando l'equazione di stato dei gas perfetti:
+$$\begin{align}
+ \left( \frac{pV}{nR} \right)V^{\gamma-1} &= \cost  \\
+pV^{\gamma} &= \cost \\
+
+\end{align}$$
 # ANKI
 
 ```anki
