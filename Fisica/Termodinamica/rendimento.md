@@ -14,3 +14,15 @@ Quindi il rendimento di un [[ciclo termico]]
 $$ 0 \leq \eta < 1 $$
 
 Importante notare lo strettamente minore, è impossibile avere una macchina con rendimento unitario
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Rendimento di un ciclo termico
+===
+$$\eta = 1 - \frac{|Q_C|}{Q_A}$$
+
+Il rendimento è sempre $0 \leq \eta < 1$, non può mai essere $=1$
+```
