@@ -28,4 +28,23 @@ Quindi:
 - Se la trasformazione è reversibile allora il sistema è sempre in equilibrio con l'ambiente, quindi la pressione del gas e quella esterna sono sempre uguali, quindi l'espressione del lavoro diventa:
 $$ p = p_{e} \implies \delta L_{gas} = pdV  $$
 
+### Ciclo reversibile
 Il signficiato geometrico del lavoro di un gas durante una trasformazione reversibile è visualizzabile attraverso un piano di clapeyron
+
+![[lavoro di un gas.excalidraw]]
+$\mathcal{L}_{AB}$ lungo la trasformazione da A a B il $\mathcal{L} > 0$
+$\mathcal{L}_{BA}$ lungo la trasformazione da $B$ ad $A$ => $\mathcal{L} < 0$
+$\mathcal{L}$ del ciclo è $$\mathcal{L} = \mathcal{L}_{AB} - |\mathcal{L}_{BA}| > 0$$
+
+
+$\mathcal{L}_{AB}$ Lungo la trasformazione da A a B => $\mathcal{L} > 0$
+$\mathcal{L}_{BA}$ lungo la trasformazione da A a B => $\mathcal{L} < 0$
+$\mathcal{L}$ del ciclo è $$\mathcal{L} = \mathcal{L}_{AB} - |\mathcal{L}_{BA}| < 0$$
+
+
+quindi in un ciclo termodinamico reversibile:
+$$\mathcal{L}_{\text{ ciclo }} = \begin{cases}
+>0 &\text{ciclo percorso in senso orario} \\
+<0 &\text{ciclo percorso in senso antiorario}
+\end{cases}$$
+
