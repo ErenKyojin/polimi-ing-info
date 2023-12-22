@@ -10,8 +10,8 @@ modification date: 2023-07-07 09:14
 ### Lavoro in una trasformazione isoterma
 - $dU = nc_{V}dT \implies dU = 0$
 - $dU = \delta Q - \delta \mathcal{L} = 0 \implies \delta Q = \delta \mathcal{L}$
-Si calcoli il lavoro lungo una trasformazione isoterma reversibile:
-$$ \mathcal{L}=\int _{V_{i}} \! \, \mathrm{d}x  $$
+Il lavoro lungo una trasformazione isoterma reversibile:
+$$ \mathcal{L}=\int _{V_{i}}^{V_{p}} \! p \, \mathrm{d}V = nRT \int_{V_{i}}^{V_{p}} \frac{dV}{V} = nRT\ln\left( \frac{V_{p}}{V_{i}} \right) $$
 
 # ANKI
 
@@ -21,4 +21,13 @@ deck: Fisica
 Trasformazione isoterma
 ===
 Si definisce trasformazione isoterma una trasformazione termodinamica che mantiene la temperatura costante
+```
+
+
+```anki
+deck: Fisica
+---
+Lavoro in una trasformazione isoterma reversibile
+===
+$$ \mathcal{L} = nRT \ln\left(\frac{V_p}{V_i}\right) $$
 ```
