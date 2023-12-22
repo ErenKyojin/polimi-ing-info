@@ -42,6 +42,47 @@ per calcolare $\Delta U = U_{B} - U_{A}$ dobbiam oconsiderare la seguente sequen
 
 Avremo quindi:
 $$ \begin{align}
-\Delta U_{AC} = U_{C} - U_{A} = 0\quad T = \cost, \text{A e C isoterme} \\
-\Delta U_{CB} = U_{B} - U_{C} = Q_{CB} - 
+&\Delta U_{AC} = U_{C} - U_{A} = 0\quad T = \cost, \text{A e C isoterme} \\
+&\Delta U_{CB} = U_{B} - U_{C} = Q_{CB} - \underbrace{ \mathcal{L}_{CB } }_{ =0, \text{isocora} }
 \end{align} $$
+
+quindi
+$$ \Delta U_{AB} = \Delta U_{AC} + \Delta U_{CB} = 0 + (Q_{CB})_{V =\text{cost}} = n\int _{T_{C} = T_{A}}^{T_{B}} \! C_{v}\, \mathrm{d}T  $$
+
+Considerando il calore molare costante abbiamo
+$$ \Delta U_{AB} = nc_{v} (T_{B} - T_{A}) $$
+Possiamo infine generalizzare (con $c_v$ costante)
+$$ \begin{align}
+\Delta U &= nc_{V}\Delta T \\
+dU &= nc_{V} dT
+\end{align} $$
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Energia interna di un gas in una trasformazione a temperatura costante
+===
+Nel caso di trasformazione a temperatura costante non c'è variazione di energia interna
+```
+
+
+```anki
+deck: Fisica
+---
+Energia interna di un gas in una una trasformazione a volume costante
+===
+La variazione di energia interna dipende unicamente dalla variazione del calore
+```
+
+
+```anki
+deck: Fisica
+---
+Energia interna di un gas ideale a calore molare costante
+===
+Con $c_V$ costante abbiamo
+$$ \Delta U = nc_V \Delta T $$
+$$ dU = nc_VdT $$
+```
