@@ -12,6 +12,25 @@ modification date: 2023-07-07 09:14
 
 ^d411f6
 
+# Calore durante una trasformazione
+##### Trasformazione reversibile
+$$\begin{align}
+ dU &= \delta Q - \delta \mathcal{L} \\
+nc_{v}dT &= \delta Q - pdV \\
+\delta Q &=nc_{V}dt + pdV
+\end{align} $$
+
+##### Trasformazione isocora
+$$ (\delta Q)_{V} = nc_{V}dT $$
+
+##### Trasformazione isobara
+$$\begin{align}
+ (\delta Q)_{p} &= nc_{V}dT + pdV \\
+&=nc_{V}dT + nRdT \\
+&=n(c_{V} + R)dT
+\end{align}$$
+
+
 # ANKI
 
 ```anki
