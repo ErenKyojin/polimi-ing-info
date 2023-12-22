@@ -34,6 +34,7 @@ deck: Fisica
 ---
 calore molare a volume costante e calolre molare a pressione costante
 ===
-$$ c_V = \frac{1}{n} \frac{\delta Q_{V \text{ = cost}}}{dT}$$
+$$ c_V = \frac{1}{n} \frac{\delta Q_{V \text{ = cost}}}
+{dT}$$
+analogo per il calore a pressione costante $c_p$
 ```
-<% tp.file.cursor(3) %>
