@@ -11,8 +11,8 @@ modification date: 2023-07-07 09:14
 Un sistema durante una trasformazione ciclica termina e inizia nello stesso stato termodinamico. Questo vale anche per l'ambiente solo per un ciclo reversibile. Considerando una trasformazione ciclica
 $$ \Delta U = 0 \implies \mathcal{L} = Q $$
 
-Se il lavoro è positivo, si definisce ciclo termico e la macchina che lo esegue è detta [[macchina termica]]
-Se il lavoro è negativo, si definisce ciclo frigorifero e la macchina che lo esegue prende il nome di macchina frigorigera
+Se il lavoro è positivo, si definisce [[ciclo termico]] e la macchina che lo esegue è detta [[macchina termica]]
+Se il lavoro è negativo, si definisce [[ciclo frigorifero]] e la macchina che lo esegue prende il nome di macchina frigorigera
 
 Un ciclo termodinamico è composto da più trasformazioni:
 
@@ -23,4 +23,4 @@ allora avremo:
 $$ \mathcal{L} = Q = Q_{A} + Q_{C} $$
 
 
-Possiamo definire il 
+Possiamo definire il [[rendimento]] di un ciclo termico, e l'[[efficienza frigorifera]] di un ciclo frigorigero
