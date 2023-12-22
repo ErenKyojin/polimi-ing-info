@@ -50,7 +50,7 @@ applicando l'equazione di stato dei gas perfetti:
 $$\begin{align}
  \left( \frac{pV}{nR} \right)V^{\gamma-1} &= \cost  \\
 pV^{\gamma} &= \cost \\
-
+pT^{\gamma/(1-\gamma)}&=\cost
 \end{align}$$
 # ANKI
 
@@ -75,4 +75,15 @@ convenzionalmente definiamo
 - $\mathcal{L} < 0$ lavoro fornito al sistema
 definita l'energia interna U del sistema possiamo affermare che
 $$ Q = - \mathcal{L}_{\text{adiabatico}} $$
+```
+
+
+```anki
+deck: Fisica
+---
+Relazione tra coordinate termodinamiche per una trasformazione adiabatica
+===
+$$ TV^{\gamma - 1} = \cost $$
+$$  pV^{\gamma} = \cost$$
+$$ pT^{\gamma /(1 - \gamma)}=  \cost $$
 ```
