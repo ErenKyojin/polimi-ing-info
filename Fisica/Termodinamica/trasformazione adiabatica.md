@@ -26,8 +26,12 @@ $$ Q = - \mathcal{L}_{\text{adiabatico}} $$
 
 Dimostrando in generale l'equivalenza tra il calore ed il lavoro
 
+### Trasformazione adiabatica reversibile
+Consideriamo una trasformazione reversibile tale che
+$$ \delta Q = 0 \implies dU = \delta Q - \delta \mathcal{L} \implies dU = - \delta \mathcal{L} $$
 
-
+Possiamo sostituire
+$$ nc_{V}dT = -pdV $$
 # ANKI
 
 ```anki
