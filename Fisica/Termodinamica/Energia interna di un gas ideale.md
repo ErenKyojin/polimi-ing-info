@@ -31,5 +31,7 @@ Differenziando abbiamo
 $$ dU = \left( \frac{\delta U}{dT} \right)_{V} \d T + \left( \frac{\delta U}{\delta V} \right)_{T}\d V $$
 Nell'espansione libera abbiamo che $dT = 0$ e $dU = 0$:
 $$ 0 = 0 + \underbrace{ \left( \frac{\delta U}{\delta V} \right)_{T} }_{ =0 }\underbrace{ dV }_{ \neq 0 } $$
-Essendo $dV$ non nulla, ne segue che $\dfrac{\delta U}{\delta V} = 0$
-l'unica dipendenza $$
+Essendo $dV$ non nulla, ne segue che $\dfrac{\delta U}{\delta V} = 0$.
+l'unica dipendenza dell'energia interna sarà quindi della temperatura: $U=U(T)$
+
+![[Energia interna di un gas ideale 2023-12-22 12.56.09.excalidraw]]
