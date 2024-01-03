@@ -36,3 +36,17 @@ Trasformazione ciclica
 Si definisce trasformazione ciclica una trasformazione termodinamica in cui lo stato iniziale e lo stato finale del sistema coincidono
 ```
 
+
+```anki
+deck: Fisica
+---
+Lavoro in una trasformazione ciclica
+===
+In una trasformazione ciclica
+$$ \Delta U = 0 \implies \mathcal{L} = Q $$
+
+Inoltre possiamo suddividere il caolre in:
+- $Q_A$ calore assorbito: somma di tutti i calori assorbiti durante il ciclo termodinamico
+- $Q_C$ calore ceduto: somma di tutti i calori ceduto durante il ciclo temodinamico
+
+```
