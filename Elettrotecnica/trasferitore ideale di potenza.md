@@ -1,4 +1,3 @@
-# TRASFERITORE DI POTENZA
 Il trasferitore ideale di potenza è un [[doppio bipolo]] notevole che assorbe in ogni istante di tempo $t$ potenza nulla ossia
 
 $$P_a(t) = i_1(t)v_1(t)+i_2(t)v_2(t) = 0$$
