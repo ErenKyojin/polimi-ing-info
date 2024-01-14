@@ -64,6 +64,20 @@ deck: Elettrotecnica
 ---
 Collegamento Y-Y
 ===
-Generatori e carico sono entrambi disposti a stella, abbiamo due centri $n$ e $N$ connessi attraverso un filo di neutro attraverso il quale non passa corrente, sono quin.
+Generatori e carico sono entrambi disposti a stella.
+Abbiamo due centri $n$ e $N$ connessi attraverso un filo di neutro attraverso il quale non passa corrente, sono quindi equipotenziali anche se vi è un impedenza sul filo di neutro.
+le correnti sono orientate con sequenza uguale alle tensioni del generatore.
+Si risolvono attraverso l'utilizzo del circuito equivalente monofase.
+```
+
+
+```anki
+deck: Elettrotecnica
+---
+Collegamento Y-$\Delta$
+===
+Le tensioni di linea si determinano attraverso la conversione da stella a triangolo:
+(lettere minuscole indicano generatori, maiuscole carichi)
+- $\bar{i}_{AB} = \dfrac{\bar{v}_{ab}}{Z_\Delta} = \dfrac{bar{v}}_{AB}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{an}}{Z_\Delta}$
 ```
 <% tp.file.cursor(3) %>
