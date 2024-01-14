@@ -278,5 +278,7 @@ E la potenza attiva
 $$ P_p = V_p I_p \cos \theta $$
 E quella reattiva
 $$ Q_p = V_p I_p \sin \theta $$
+
+Solo perchè la potenza assorbita è costante non significa che la potenza reattiva sia nulla
 ```
 
