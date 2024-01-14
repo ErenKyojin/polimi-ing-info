@@ -264,3 +264,13 @@ Potenza media di una forza
 Se in un intervallo di tempo $\Delta t$ viene compiuto un lavoro $\mathcal{L}$ la potenza media vale per definizione
 $$ W_m = \frac{\mathcal{L}}{\Delta t} $$
 ```
+
+
+```anki
+deck: Elettrotecnica
+---
+
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
