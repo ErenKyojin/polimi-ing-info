@@ -76,6 +76,7 @@ deck: Elettrotecnica
 ---
 Collegamento Y-$\Delta$
 ===
+![[Pasted image 20230616132600.png]]
 Le tensioni di linea si determinano attraverso la conversione da stella a triangolo:
 (lettere minuscole indicano generatori, maiuscole carichi)
 - $\bar{i}_{AB} = \dfrac{\bar{v}_{ab}}{Z_\Delta} = \dfrac{bar{v}}_{AB}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{an}}{Z_\Delta}$
