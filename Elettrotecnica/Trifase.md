@@ -149,6 +149,9 @@ deck: Elettrotecnica
 ---
 Da tensioni a stella a tensioni a triangolo
 ===
-$\bar{v}_{ab} = \sqrt{3}$
+se le tensioni a stella sono in sequenza positiva
+- $\bar{v}_{ab} = \sqrt{3}e^{j\pi/6}\bar{v}_{an}$
+- $\bar{v}_{bc} = \sqrt{3}e^{j\pi/6}\bar{v}_{bn}$
+- $\bar{v}_{ca} = \sqrt{3}e^{j\pi/6}\bar{v}_{cn}$
 ```
 <% tp.file.cursor(3) %>

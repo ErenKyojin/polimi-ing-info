@@ -1,5 +1,5 @@
 # Schemi di connessione generatore - carico
-Un generico circuito #trifase è costituito da un generatore trifase e da un [[Carico trifase bilanciato]], collegati attraverso tre conduttori definiti **linea trifase**, supposti equipotenziali. Le tensioni tra i conduttori della linea si dicono tensioni di linea, mentre sono dette correnti di linea quelle che scorrono nella linea trifase. Si chiamano invece tensioni di fase e correnti di fase le tensioni ai capi dei singoli bipoli del carico e le correnti che li attraversano.
+Un generico circuito #trifase è costituito da un generatore [[trifase]] e da un [[Carico trifase bilanciato]], collegati attraverso tre conduttori definiti **linea trifase**, supposti equipotenziali. Le tensioni tra i conduttori della linea si dicono tensioni di linea, mentre sono dette correnti di linea quelle che scorrono nella linea trifase. Si chiamano invece tensioni di fase e correnti di fase le tensioni ai capi dei singoli bipoli del carico e le correnti che li attraversano.
 
 Essendo sia generatori che carichi sia descrivibili a stella che a triangolo abbiamo 4 possibili casi
 
