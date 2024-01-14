@@ -147,11 +147,30 @@ $$ \hat{A}_{p} = P_{p} + j Q_{p} $$
 ```anki
 deck: Elettrotecnica
 ---
-Da tensioni a stella a tensioni a triangolo
+conversione da tensioni a stella in sequenza positiva a tensioni a triangolo
 ===
-se le tensioni a stella sono in sequenza positiva
 - $\bar{v}_{ab} = \sqrt{3}e^{j\pi/6}\bar{v}_{an}$
 - $\bar{v}_{bc} = \sqrt{3}e^{j\pi/6}\bar{v}_{bn}$
 - $\bar{v}_{ca} = \sqrt{3}e^{j\pi/6}\bar{v}_{cn}$
+```
+
+
+```anki
+deck: Elettrotecnica
+---
+conversione da tensioni a stella in sequenza negativa a tensioni a triangolo
+===
+- $\bar{v}_{ab} = \sqrt{3}e^{-j\pi/6}\bar{v}_{an}$
+- $\bar{v}_{bc} = \sqrt{3}e^{-j\pi/6}\bar{v}_{bn}$
+- $\bar{v}_{ca} = \sqrt{3}e^{-j\pi/6}\bar{v}_{cn}$
+```
+
+
+```anki
+deck: Elettrotecnica
+---
+Conversione
+===
+<% tp.file.cursor(2) %>
 ```
 <% tp.file.cursor(3) %>
