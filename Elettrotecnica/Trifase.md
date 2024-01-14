@@ -140,3 +140,15 @@ $$ Q_{p} = V_{p}I_{p}\sin\theta $$
 
 Grazia alla reazione corrente di fase-tensione di fase e corrente di linea-tensione di linea nella connessione $Y-Y$ possiamo scrivere $P_{p} = 3 \frac{V_{l}}{\sqrt{ 3 }} I_{l} \cos\theta = \sqrt{ 3 }V_{l}I_{l} \sin \theta$. La potenza complessa assorbita per fase è pari a
 $$ \hat{A}_{p} = P_{p} + j Q_{p} $$
+
+
+# ANKI
+
+```anki
+deck: Elettrotecnica
+---
+Da tensioni a stella a tensioni a triangolo
+===
+$\bar{v}_{ab} = \sqrt{3}$
+```
+<% tp.file.cursor(3) %>
