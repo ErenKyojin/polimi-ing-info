@@ -273,5 +273,10 @@ potenza assorbita da un carico trifase
 ===
 $$ p_a^{Z_y} = 3V_pI_p \cos(\theta) $$
 la potenza è assorbita è costante!
+(e la potenza per fase è un terzo della potenza totale)
+E la potenza attiva
+$$ P_p = V_p I_p \cos \theta $$
+E quella reattiva
+$$ Q_p = V_p I_p \sin \theta $$
 ```
 
