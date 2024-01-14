@@ -60,6 +60,7 @@ $$ \bar{\imath}_{a} = \frac{\frac{\bar{v}_{AB}}{\sqrt{ 3 }}e^{-j \pi/6}}{Z_{Y}} 
 
 
 ```anki
+id: 1705250520476
 deck: Elettrotecnica
 ---
 Collegamento Y-Y
@@ -72,6 +73,7 @@ Si risolvono attraverso l'utilizzo del circuito equivalente monofase.
 
 
 ```anki
+id: 1705250520518
 deck: Elettrotecnica
 ---
 Collegamento Y-$\Delta$
@@ -96,6 +98,7 @@ per la sequenza negativa
 
 
 ```anki
+id: 1705250520594
 deck: Elettrotecnica
 ---
 Collegamento $\Delta$-$\Delta$
@@ -108,6 +111,7 @@ Tensioni di linea coincidono con le tensioni di fase, quindi le correnti di fase
 
 
 ```anki
+id: 1705250520645
 deck: Elettrotecnica
 ---
 Collegamento $\Delta - Y$
@@ -115,5 +119,5 @@ Collegamento $\Delta - Y$
 Tensioni di linea coincidono con le tensioni di fase del generatore.
 Per le correnti di linea si può convertire ad uno schema Y-Y
 avremo quindi
-$$ \bar{i}_a = \frac{\frac{\bar{v}_AB}{\sqrt_3}e^{-j\pi/6}}{Z_Y} $$
+$$ \bar{i}_a = \frac{\frac{\bar{v}_{AB}}{\sqrt_3e^{-j\pi/6}}{Z_Y} $$
 ```
