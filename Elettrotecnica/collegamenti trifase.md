@@ -79,6 +79,7 @@ Collegamento Y-$\Delta$
 Le tensioni di linea si determinano attraverso la conversione da stella a triangolo:
 (lettere minuscole indicano generatori, maiuscole carichi)
 - $\bar{i}_{AB} = \dfrac{\bar{v}_{ab}}{Z_\Delta} = \dfrac{bar{v}}_{AB}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{an}}{Z_\Delta}$
-- - $\bar{i}_{BC} = \dfrac{\bar{v}_{ab}}{Z_\Delta} = \dfrac{bar{v}}_{AB}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{an}}{Z_\Delta}$
+- $\bar{i}_{BC} = \dfrac{\bar{v}_{bc}}{Z_\Delta} = \dfrac{bar{v}}_{BC}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{bn}}{Z_\Delta}$
+- $\bar{i}_{CA} = \dfrac{\bar{v}_{ca}}{Z_\Delta} = \dfrac{bar{v}}_{CA}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{cn}}{Z_\Delta}$
+- 
 ```
-<% tp.file.cursor(3) %>
