@@ -269,8 +269,9 @@ $$ W_m = \frac{\mathcal{L}}{\Delta t} $$
 ```anki
 deck: Elettrotecnica
 ---
-
+potenza assorbita da un carico trifase a stella
 ===
-<% tp.file.cursor(2) %>
+$$ p_a^{Z_y} = 3V_pI_p \cos(\theta) $$
+la potenza è assorbita è costante!
 ```
-<% tp.file.cursor(3) %>
+
