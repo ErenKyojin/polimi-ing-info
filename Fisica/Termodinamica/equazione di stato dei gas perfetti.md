@@ -28,6 +28,7 @@ dove $K_{b}$ è la [[costante di Boltzman]]
 # ANKI
 
 ```anki
+id: null
 deck: Fisica
 ---
 Equazione di stato dei gas perfetti

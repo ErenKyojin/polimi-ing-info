@@ -39,6 +39,7 @@ quest'ultima è detta [[relazione di Mayer]]
 # ANKI
 
 ```anki
+id: null
 deck: Fisica
 ---
 Calore
@@ -52,6 +53,7 @@ Si può misurare in calorie
 
 
 ```anki
+id: null
 deck: Fisica
 ---
 Calore in una trasformazione reversibile
@@ -61,6 +63,7 @@ $$ \delta Q = nc_Vdt + pdV $$
 
 
 ```anki
+id: null
 deck: Fisica
 ---
 Calore in una trasformazione isocora
@@ -70,6 +73,7 @@ $$ (\partial Q)_V = nc_Vdt $$
 
 
 ```anki
+id: 1705250723294
 deck: Fisica
 ---
 Calore in una trasformazione isobara

@@ -12,6 +12,7 @@ Sfruttando le trasformazioni stella triangolo $Z_{\Delta} = 3Z_{Y}$ e quindi $Z_
 
 # ANKI
 ```anki
+id: 1705250720792
 deck: Elettrotecnica
 ---
 Carico bilanciato
@@ -22,6 +23,7 @@ In un sistema trifase in regime sinusoidale il carico è formato da impedenze.
 
 
 ```anki
+id: 1705250723169
 deck: Elettrotecnica
 ---
 Trasformazioni tra carichi trifase bilanciati

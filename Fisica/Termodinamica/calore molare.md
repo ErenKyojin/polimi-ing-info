@@ -21,6 +21,7 @@ $$ c_{V} = \frac{1}{n} \frac{\delta Q_{V = \cost}}{dT}\qquad;\qquad c_{p} = \fra
 # ANKI
 
 ```anki
+id: null
 deck: Fisica
 ---
 Calore molare
@@ -28,8 +29,8 @@ Calore molare
 calore molare è il calore per unità molare:
 $$ c = \frac{1}{n}\frac{\delta Q}{dT} \qquad [c]=\frac{cal}{mol\ K} $$
 ```
-
 ```anki
+id: null
 deck: Fisica
 ---
 calore molare a volume costante e calolre molare a pressione costante
@@ -38,3 +39,4 @@ $$ c_V = \frac{1}{n} \frac{\delta Q_{V \text{ = cost}}}
 {dT}$$
 analogo per il calore a pressione costante $c_p$
 ```
+

@@ -11,6 +11,7 @@ creation date: 2023-12-22
 
 
 ```anki
+id: null
 deck: Fisica
 ---
 Efficienza firgorifera

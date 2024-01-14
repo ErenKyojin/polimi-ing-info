@@ -119,5 +119,6 @@ Collegamento $\Delta - Y$
 Tensioni di linea coincidono con le tensioni di fase del generatore.
 Per le correnti di linea si può convertire ad uno schema Y-Y
 avremo quindi
-$$ \bar{i}_a = \frac{\frac{\bar{v}_{AB}}{\sqrt_3e^{-j\pi/6}}{Z_Y} $$
+
+$$ \bar{i}_a = \frac{\frac{\bar{v}_{AB}}{\sqrt{3}}e^{-j\pi/6}}{Z_Y} $$
 ```

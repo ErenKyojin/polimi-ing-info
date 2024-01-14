@@ -20,6 +20,7 @@ dU &= \delta Q \\
 # ANKI
 
 ```anki
+id: null
 deck: Fisica
 ---
 Trasformazione isocora
@@ -29,6 +30,7 @@ Si definisce trasformazione isocora una trasformazione termodinamica che mantien
 
 
 ```anki
+id: null
 deck: Fisica
 ---
 Lavoro di una trasformazione isocora
@@ -38,6 +40,7 @@ il lavoro di una trasformazione isocora è nullo in quanto il volume è costante
 
 
 ```anki
+id: null
 deck: Fisica
 ---
 Calore di una trasformazione isocora

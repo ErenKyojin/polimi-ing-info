@@ -11,6 +11,7 @@ creation date: 2023-12-05
 >[!esempio]
 
 ```anki
+id: 1705250711918
 deck: LeA
 ---
 compatibilità
@@ -21,6 +22,7 @@ $\forall a_1,...,a_n \in A, \forall b_1,...,b_n \in A \implies$ da $a \rho b$ se
 
 
 ```anki
+id: 1705250713044
 deck: LeA
 ---
 congruenza
@@ -30,6 +32,7 @@ Sia $\left< A, \Omega \right>$ una struttura algebrica e sia $\rho$ una relazion
 
 
 ```anki
+id: 1705250714369
 deck: LeA
 ---
 operazione indotta
@@ -41,6 +44,7 @@ $\omega'(\rho_{a_1},\rho_{a_2},...,\rho_{a_n}) = \rho_{\omega( a_1,a_2,...,a_n)}
 
 
 ```anki
+id: 1705250716493
 deck: LeA
 ---
 Struttura quoziente

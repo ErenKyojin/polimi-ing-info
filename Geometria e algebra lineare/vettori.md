@@ -186,7 +186,6 @@ La somma tra due vettori $\vec{OP}$ e $\vec{PQ}$ tali che il secondo estremo del
 Dati invece due vettori liberi qualsiasi $\mathbf{v}$ e due vettori, fissiamo un punto $O$, sia $vec{OP} \equiv \mathbf{v}$ il vettore $\mathbf{v}$ applicato in $O$ e sia $
 \vec{PQ} = \mathbf{w}$ il vettore applicato in $P$. La somma $\mathbf{v} + \mathbf{w}$ è per definizione ilvettore libero rappresentato da $\vec{OQ}$. Questa somma non dipende dal punto di applicazione, il vettore libero sarà sempre equivalente ad $\vec{OQ}$
 ```
-
 ```anki
 id: 1695223922945
 deck: GAL
@@ -218,6 +217,7 @@ Analoga è la divisione per $t \neq 0$
 
 
 
+
 ```anki
 id: 1695223923195
 deck: GAL
@@ -236,6 +236,7 @@ deck: GAL
 
 
 ```anki
+id: 1705250728719
 deck: Fisica
 ---
 Derivata di un vettore

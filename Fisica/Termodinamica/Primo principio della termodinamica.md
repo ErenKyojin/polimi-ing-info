@@ -29,6 +29,7 @@ $$ d U = \delta Q - \delta \mathcal{L} $$
 # ANKI
 
 ```anki
+id: null
 deck: Fisica
 ---
 primo principio della termodinamica

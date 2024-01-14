@@ -27,6 +27,7 @@ Aumentando la temperatura osserviamo che i corpi generalmente si dilatano.
 # ANKI
 
 ```anki
+id: null
 deck: Fisica
 ---
 Dilatazione lineare
@@ -39,6 +40,7 @@ $$
 
 
 ```anki
+id: null
 deck: Fisica
 ---
 Dilatazione cubica

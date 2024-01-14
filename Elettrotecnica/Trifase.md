@@ -89,6 +89,7 @@ $$ \hat{A}_{p} = P_{p} + j Q_{p} $$
 # ANKI
 
 ```anki
+id: 1705250720043
 deck: Elettrotecnica
 ---
 conversione da tensioni a stella in sequenza positiva a tensioni a triangolo
@@ -100,6 +101,7 @@ conversione da tensioni a stella in sequenza positiva a tensioni a triangolo
 
 
 ```anki
+id: 1705250722568
 deck: Elettrotecnica
 ---
 conversione da tensioni a stella in sequenza negativa a tensioni a triangolo
@@ -111,6 +113,7 @@ conversione da tensioni a stella in sequenza negativa a tensioni a triangolo
 
 
 ```anki
+id: 1705250724092
 deck: Elettrotecnica
 ---
 Conversione da tensioni a triangolo a tensioni a stella in sequenza positiva
@@ -123,6 +126,7 @@ Conversione da tensioni a triangolo a tensioni a stella in sequenza positiva
 
 
 ```anki
+id: 1705250725342
 deck: Elettrotecnica
 ---
 Conversione da tensioni a triangolo a tensioni a stella in sequenza negativa

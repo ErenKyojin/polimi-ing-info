@@ -52,6 +52,7 @@ $$\mathcal{L}_{\text{ ciclo }} = \begin{cases}
 
 
 ```anki
+id: null
 deck: Fisica
 ---
 Lavoro di un gas
@@ -62,6 +63,7 @@ $$ \delta \mathcal{L} = p_e dV $$
 
 
 ```anki
+id: null
 deck: Fisica
 ---
 Lavoro di un gas in una trasformazione isocora
@@ -72,6 +74,7 @@ $$ \delta V = 0 \implies \delta \mathcal{L} = 0 $$
 
 
 ```anki
+id: null
 deck: Fisica
 ---
 Lavoro di un gas in una trasformazione ciclica
