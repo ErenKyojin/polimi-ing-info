@@ -75,7 +75,7 @@ Le correnti di linea si ottengono come nella connessione $Y-\Delta$
 >![[Pasted image 20220617105131.png]]
 
 
-Le tensioni di linea coincidono con le tensioni di fase, per ottenere le correnti di linea si può operare invece in diversi modi. Una possibilità è ricavare la configurazione a stella del generatore trifase e portarsi al collegamento $Y-Y$. Assumendo sequenza positiva per le tensioni di fase della configurazione a triangolo $\bar v_{AB},\ \bar v_{BC} \text{ e } \ \bar v_{CA}$. Le equivalenti [[tensione | Tensioni trifase]] si ricavano come visto in precedenza, ad esempio:
+Le tensioni di linea coincidono con le tensioni di fase, per ottenere le correnti di linea si può operare invece in diversi modi. Una possibilità è ricavare la configurazione a stella del generatore trifase e portarsi al collegamento $Y-Y$. Assumendo [[sequenza positiva di tensioni|sequenza positiva]] per le tensioni di fase della configurazione a triangolo $\bar v_{AB},\ \bar v_{BC} \text{ e } \ \bar v_{CA}$. Le equivalenti [[tensione | Tensioni trifase]] si ricavano come visto in precedenza, ad esempio:
 $$\bar v_{an} = \frac{\bar v_{ab}}{\sqrt 3}e^{-j\frac{\pi}{6}} = \frac{\bar v_{AB}}{\sqrt 3}e^{-j\frac{\pi}{6}}$$
 
 Utilizziando adesso il circuito equivalente monofase del collegamento $Y-Y$ si ricava

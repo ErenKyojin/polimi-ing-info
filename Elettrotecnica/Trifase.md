@@ -10,7 +10,7 @@ modification date: 2023-06-16 12:12
 > ![[Pasted image 20230616121955.png]]
 > 
 
-Somma delle tensioni a stella $\bar{v}_{an},\bar{v}_{bn},\bar{v}_{cn}$è 0 sia in sequenza positiva che in sequenza negativa
+Somma delle tensioni a stella $\bar{v}_{an},\bar{v}_{bn},\bar{v}_{cn}$è 0 sia in [[sequenza positiva di tensioni|sequenza positiva]] che in sequenza negativa
 
 Si può passare dalle tensioni a stella in sequenza positiva a quelle a triangolo attraverso le seguenti formule
 $$ \begin{align}

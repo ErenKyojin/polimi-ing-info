@@ -198,7 +198,7 @@ v_a(t)\quad &=\quad V_0\cos(\omega t + \phi_0) \\
 v_b(t) \quad &= \quad V_0\cos\left(\omega t + \phi_0 - \frac{2}{3}\pi\right) \\
 v_c(t) \quad &= \quad V_0\cos\left(\omega t + \phi_0 - \frac{4}{3}\pi\right)
 \end{flalign}$$
-Questa terna trifase, la cui fase $\phi_0$ può essere scelta arbitrariamente $0$ è detta *sequenza abc* o *sequenza positiva* in quanto $v_a(t)$ anticipa $v_b(t)$ di $\frac{2}{3}\pi$ e a sua volta $v_b(t)$ anticipa $v_c(t)$ di $\frac{2}{3}\pi$
+Questa terna trifase, la cui fase $\phi_0$ può essere scelta arbitrariamente $0$ è detta *sequenza abc* o *[[sequenza positiva di tensioni|sequenza positiva]]* in quanto $v_a(t)$ anticipa $v_b(t)$ di $\frac{2}{3}\pi$ e a sua volta $v_b(t)$ anticipa $v_c(t)$ di $\frac{2}{3}\pi$
 
 **analogamente**
 

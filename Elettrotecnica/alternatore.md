@@ -4,14 +4,14 @@
 >![[Pasted image 20220616120107.png]]
 >con i tre avvolgimenti nello statore che vanno dai terminali $a - a'$, $b -b'$ e $c-c'$, che tra loro sono spaziati di 120° lungo la circonferenza.
 >Quando il rotore ruota il [[campo magnetico]] che si forma produce un [[flusso]] nei tre avvolgimenti ad una tensione ai morsetti:
-> - Quando gira in senso antiorario viene generata la sequenza positiva
+> - Quando gira in senso antiorario viene generata la [[sequenza positiva di tensioni|sequenza positiva]]
 > - Quando gira in senso orario viene generata la sequenza negativa
 
 
 >[!tip] Connessione a stella
 >Connettendo i morsetti $a',\ b'$ e $c'$ ad un unico morsetto $n$ otteniamo una connessione "a stella" o ad Y
 >![[Pasted image 20220616122119.png]]
->Le tensioni della configurazione a stella (ossia le tensioni di fase) sono scrivibili senza il pedice n ($v_{an}(t) = v_a(t$) in quanto sia la sequenza positiva sia quella negativa godono della proprietà $v_a(t) + v_b(t) + v_c(t) = 0$ come dimostrabile:
+>Le tensioni della configurazione a stella (ossia le tensioni di fase) sono scrivibili senza il pedice n ($v_{an}(t) = v_a(t$) in quanto sia la [[sequenza positiva di tensioni|sequenza positiva]] sia quella negativa godono della proprietà $v_a(t) + v_b(t) + v_c(t) = 0$ come dimostrabile:
 >$$\begin{flalign}
 >\quad\quad\quad\quad v_a+v_b+v_c &= V_p\left(1 + e^{-j\frac{2}{3}\pi}+e^{-j\frac{4}{3}\pi}\right) &\\
 >
