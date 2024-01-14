@@ -102,6 +102,18 @@ Collegamento $\Delta$-$\Delta$
 ===
 Tensioni di linea coincidono con le tensioni di fase, quindi le correnti di fase sono
 - $\bar{i}_{AB} = \dfrac{\bar{v}_{ab}}{Z_\Delta} = \dfrac{\bar{v}_{AB}}{Z_\Delta}$
-- $\bar{i}_{BC}= \dfrac{\bar{v}_{bv}}{Z_\Delta} = \dfrac{\bar{v}_{CA}}{Z_\Delta}$
+- $\bar{i}_{BC}= \dfrac{\bar{v}_{bc}}{Z_\Delta} = \dfrac{\bar{v}_{BC}}{Z_\Delta}$
+- $\bar{i}_{CA}= \dfrac{\bar{v}_{ca}}{Z_\Delta} = \dfrac{\bar{v}_{CA}}{Z_\Delta}$
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: Elettrotecnica
+---
+Collegamento $\Delta - Y$
+===
+Tensioni di linea coincidono con le tensioni di fase del generatore.
+Per le correnti di linea si può convertire ad uno schema Y-Y
+avremo quindi
+$$ \bar{i}_a = \frac{\frac{\bar{v}_AB}{\sqrt_3}e^{-j\pi/6}}{Z_Y} $$
+```
