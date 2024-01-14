@@ -31,7 +31,8 @@ $$ \begin{align}
 Infine per passare dalla configurazione a triangolo a quella a stella abbiamo, in caso di sequenza positiva:
 $$ \begin{align}
 \bar{v}_{an} = \frac{\bar{v}_{ab}}{\sqrt{ 3 }}e^{-j \pi/6} \\
-\bar{v}_{bn} = \frac{\bar{v}_{bc}}{\sqrt{ 3 }}e^{-j\pi/6}
+\bar{v}_{bn} = \frac{\bar{v}_{bc}}{\sqrt{ 3 }}e^{-j\pi/6} \\
+\bar{v}_{cn} = \frac{\bar{v}_{ca}}{\sqrt{ 3 }}e^{-j\pi/6}
 \end{align} $$
 
 >[!oss]
@@ -170,9 +171,9 @@ deck: Elettrotecnica
 ---
 Conversione da tensioni a triangolo a tensioni a stella in sequenza positiva
 ===
-- $v_{ab}(t) = V_0 \cos(\omega t + \phi_0)$
-- $v_{bc}(t) = V_0 \cos(\omega t + \phi_0 - \dfrac{2}{3}\pi)$
-- $v_{ca}(t) = V_0 \cos(\omega t + \phi_0 - \dfrac{4}{3}\pi)$
+- $\bar{v}_{an} = \dfrac{\bar{v}_{ab}}{\sqrt{ 3 }}e^{-j \pi/6}$
+- $\bar{v}_{bn} = \dfrac{\bar{v}_{bc}}{\sqrt{ 3 }}e^{-j\pi/6}$
+- $\bar{v}_{cn} = \dfrac{\bar{v}_{ca}}{\sqrt{ 3 }}e^{-j\pi/6}$
 ```
 
 
@@ -182,7 +183,5 @@ deck: Elettrotecnica
 ---
 Conversione da tensioni a triangolo a tensioni a stella in sequenza negativa
 ===
-- $v_{ab}(t) = V_0 \cos(\omega t + \phi_0)$
-- $v_{ca}(t) = V_0 \cos(\omega t + \phi_0)$
+
 ```
-<% tp.file.cursor(3) %>
