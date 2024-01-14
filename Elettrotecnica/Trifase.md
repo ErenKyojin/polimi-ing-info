@@ -45,72 +45,9 @@ $$ \begin{align}
 >[!oss]
 >Le tensioni a stella sono scalate di un fattore $\frac{1}{\sqrt{ 3 }}$ in modulo e ciascuna è in ritardo di $\dfrac{\pi}{6}$ rispetto alla corrispondente tensione a triangolo nel caso di sequenza positiva (anticipo in caso di sequenza negativa)
 
-## Carico
-Il carico in un sistema trifase è formato da impedenze in quanto consideriamo regime sinusoidale permanente, è detto carico bilanciato se tutte impedenze di fase hanno tutte stesso modulo e argomento (uguali in campo complesso).
-Si ha quindi in un carico bilanciato a stella:
-$$ Z_{1} = Z_{2} = Z_{3} = Z_{Y} $$
-Ed in carico bilanciato a triangolo
-$$Z_{a} = Z_{b} = Z_{c} = Z_{\Delta}$$
-Sfruttando le trasformazioni stella triangolo $Z_{\Delta} = 3Z_{Y}$ e quindi $Z_{Y} = \frac{Z_{\Delta}}{3}$
 
 ## Collegamenti
-Sia i carichi che i generatori si possono connettere o a stella o a triangolo, si hanno quindi quattro possibili abbinamenti
-
-### Collegamento $Y-Y$
-Sia generatori che carico connessi a stella, si identificano due centri stella $n$ e $N$ connessi mediante un filo detto **filo di neutro**, se il filo di neutro è un cortocircuito le correnti di linea si ricavano come $$\bar{\imath}_{k}=\frac{\bar{v}_{kn}}{Z_{Y}}$$
-$k \in \{ a,b,c \}$, le correnti di linea sono orientate nella stessa sequenza delle tensioni del generatore trifase.
-![[Pasted image 20230616131841.png]]
-
-
-La somma delle correnti in fase è nulla istante per istante, quindi $\bar{\imath}_{n} = - (\bar{\imath}_{a} + \bar{\imath}_{b} + \bar{\imath}_{c})=0$. Notiamo che, essendo $n$ ed $N$ connessi da un cortocircuito, sono evidentemente equipotenziali. tuttavia questo vale anche se vi è un impedenza tra $n$ ed $N$
-![[Pasted image 20230616131856.png]]
-ed in generale vale per tutti i sistemi trifase simmetrici ed equilibrati indipendentemente dal fatto che vengano collegati tramite un filo neutro di impedenza $Z_n$ o da un cortocircuito. Questo si può provare attraverso le KVL-2.
-
-Utile per questo genere di circuiti è il'[[circuito equivalente monofase]] 
-
-### Collegamento $Y-\Delta$ bilanciato
-Generatore a stella e carico a triangolo entrambi bilanciati, è il più frequente. 
-![[Pasted image 20230616132600.png]]
-
-Le tensioni di linea si determinano attraverso la conversione da stella a triangolo, otteniamo quindi
-$$ \begin{align}
-\bar{\imath}_{AB} = \frac{\bar{v}_{ab}}{Z_{\Delta}} = \frac{\bar{v}_{AB}}{Z_{\Delta}} = \frac{\sqrt{ 3 }e^{j \pi/6}\bar{v}_{an}}{Z_{\Delta}} \\
-\bar{\imath}_{BC} = \frac{\bar{v}_{bc}}{Z_{\Delta}} = \frac{\bar{v}_{BC}}{Z_{\Delta}} = \frac{\sqrt{ 3 }e^{j \pi/6}\bar{v}_{bn}}{Z_{\Delta}} \\
-\bar{\imath}_{CA} = \frac{\bar{v}_{ca}}{Z_{\Delta}} = \frac{\bar{v}_{CA}}{Z_\Delta} = \frac{\sqrt{ 3 }e^{j \pi/6}\bar{v}_{cn}}{Z_{\Delta}}
-\end{align} $$
-
-Le correnti di linea si ricavano attraverso le KCL ai nodi A, B, e C.
-Da queste formula possiamo ricavare che $\bar{\imath}_{a} = \frac{\bar{v}_{CA}}{Z_{\Delta}} = \bar{\imath}_{AB}e^{-j (4 \pi/3)}$ e quindi possiamo scrivere che
-$$ \bar{\imath}_{a} = \bar{\imath}_{AB} - \bar{\imath}_{CA} = \bar{\imath}_{AB}\sqrt{ 3 }e^{-j \pi/6 } $$
-e allo stesso modo
-$$ \begin{align}
-\bar{\imath}_{b} = \bar{\imath}_{BC} \sqrt{ 3 }e^{-j \pi/6} \\
-\bar{\imath}_{c} = \bar{\imath}_{CA} \sqrt{ 3 }e^{-j \pi/6}
-\end{align} $$
-Per la sequenza negativa si dimostra:
-$$\begin{align}
- \bar{\imath}_{a} = \bar{\imath}_{AB} \sqrt{ 3 }e^{j \pi/6} \\
-\bar{\imath}_{b} = \bar{\imath}_{BC}\sqrt{ 3 }e^{j \pi/6} \\
-\bar{\imath}_{c} = \bar{\imath}_{CA}\sqrt{ 3 }e^{j \pi/6}
-\end{align} $$
-
-
-L'alternativa per risolvere un circuito di questo tipo è trasformare la connessione a triangolo in una a stella, riducendolo ad una connessione $Y$-$Y$
-
-### Collegamento $\Delta-\Delta$ bilanciato
-Le tensioni di linea coincidono con le tensioni di fase, quindi le correnti di fase sono
-$$ \begin{align}
-\bar{\imath}_{AB} = \frac{\bar{v}_{ab}}{Z_{\Delta}} = \frac{\bar{v}_{AB}}{Z_{\Delta}} \\
-\bar{\imath}_{BC} = \frac{\bar{v}_{bc}}{Z_{\Delta}} = \frac{\bar{v}_{BC}}{Z_{\Delta}} \\
-\bar{i}_{CA} = \frac{\bar{v}_{ca}}{Z_{\Delta}} = \frac{\bar{v}_{CA}}{Z_{\Delta}}
-\end{align} $$
-Mentre le correnti di linea si ottengono come nel caso $Y - \Delta$
-
-### Collegamento $\Delta-Y$ bilanciato
-Le tensioni di linea coincidono con le tensioni di fase del generatore. Per ottenere le correnti di linea è possibile operare in diversi modi. Ricavare le configurazione a stella del generatore trifase equivale al triangolo presente e riportarsi quindi ad uno schema $Y$-$Y$. Assumendo la sequenza positiva per le tensioni di fase della configurazione a triangolo $\bar{v}_{AB},\bar{v}_{BC},\bar{v}_{CA}$ le equivalenti tensioni rispetto al centro stella si può scrivere:
-$$ \bar{v}_{an} = \frac{\bar{v}_{ab}}{\sqrt{ 3 }}e^{-j \pi/6} = \frac{\bar{v}_{AB}}{\sqrt{ 3 }}e^{-j \pi/6} $$
-Utilizzando il circuito equivalente monofase del collegamento $Y-Y$ si ricava
-$$ \bar{\imath}_{a} = \frac{\frac{\bar{v}_{AB}}{\sqrt{ 3 }}e^{-j \pi/6}}{Z_{Y}} $$
+![[collegamenti trifase]]
 
 ## Potenza
 La potenza istantanea assorbita dal carico trifase, supponendolo collegato a $Y$, si scrive nel dominio del tempo a partire dalle tensioni di fase
@@ -196,11 +133,3 @@ Conversione da tensioni a triangolo a tensioni a stella in sequenza negativa
 ```
 
 
-```anki
-deck: Elettrotecnica
----
-Carico bilanciato
-===
-In un sistema trifase in regime sinusoidale il carico è formato da impedenze
-```
-<% tp.file.cursor(3) %>
