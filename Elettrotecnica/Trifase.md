@@ -34,13 +34,20 @@ $$ \begin{align}
 \bar{v}_{bn} = \frac{\bar{v}_{bc}}{\sqrt{ 3 }}e^{-j\pi/6} \\
 \bar{v}_{cn} = \frac{\bar{v}_{ca}}{\sqrt{ 3 }}e^{-j\pi/6}
 \end{align} $$
+in caso di sequenza negativa:
+$$ \begin{align}
+\bar{v}_{an} = \frac{\bar{v}_{ab}}{\sqrt{ 3 }}e^{j \pi/6} \\
+\bar{v}_{bn} = \frac{\bar{v}_{bc}}{\sqrt{ 3 }}e^{j\pi/6} \\
+\bar{v}_{cn} = \frac{\bar{v}_{ca}}{\sqrt{ 3 }}e^{j\pi/6}
+\end{align}  $$
+
 
 >[!oss]
 >Le tensioni a stella sono scalate di un fattore $\frac{1}{\sqrt{ 3 }}$ in modulo e ciascuna è in ritardo di $\dfrac{\pi}{6}$ rispetto alla corrispondente tensione a triangolo nel caso di sequenza positiva (anticipo in caso di sequenza negativa)
 
 ## Carico
 Il carico in un sistema trifase è formato da impedenze in quanto consideriamo regime sinusoidale permanente, è detto carico bilanciato se tutte impedenze di fase hanno tutte stesso modulo e argomento (uguali in campo complesso).
-Si ha quindi in un carica bilanciato a stella:
+Si ha quindi in un carico bilanciato a stella:
 $$ Z_{1} = Z_{2} = Z_{3} = Z_{Y} $$
 Ed in carico bilanciato a triangolo
 $$Z_{a} = Z_{b} = Z_{c} = Z_{\Delta}$$
@@ -183,5 +190,17 @@ deck: Elettrotecnica
 ---
 Conversione da tensioni a triangolo a tensioni a stella in sequenza negativa
 ===
-
+- $\bar{v}_{an} = \dfrac{\bar{v}_{ab}}{\sqrt{ 3 }}e^{j \pi/6}$
+- $\bar{v}_{bn} = \dfrac{\bar{v}_{bc}}{\sqrt{ 3 }}e^{j\pi/6}$
+- $\bar{v}_{cn} = \dfrac{\bar{v}_{ca}}{\sqrt{ 3 }}e^{j\pi/6}$
 ```
+
+
+```anki
+deck: Elettrotecnica
+---
+Carico bilanciato
+===
+In un sistema trifase in regime sinusoidale il carico è formato da impedenze
+```
+<% tp.file.cursor(3) %>
