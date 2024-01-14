@@ -79,9 +79,29 @@ Collegamento Y-$\Delta$
 ![[Pasted image 20230616132600.png]]
 Le tensioni di linea si determinano attraverso la conversione da stella a triangolo:
 (lettere minuscole indicano generatori, maiuscole carichi)
-- $\bar{i}_{AB} = \dfrac{\bar{v}_{ab}}{Z_\Delta} = \dfrac{bar{v}}_{AB}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{an}}{Z_\Delta}$
-- $\bar{i}_{BC} = \dfrac{\bar{v}_{bc}}{Z_\Delta} = \dfrac{bar{v}}_{BC}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{bn}}{Z_\Delta}$
-- $\bar{i}_{CA} = \dfrac{\bar{v}_{ca}}{Z_\Delta} = \dfrac{bar{v}}_{CA}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{cn}}{Z_\Delta}$
+- $\bar{i}_{AB} = \dfrac{\bar{v}_{ab}}{Z_\Delta} = \dfrac{\bar{v}_{AB}}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{an}}{Z_\Delta}$
+- $\bar{i}_{BC} = \dfrac{\bar{v}_{bc}}{Z_\Delta} = \dfrac{\bar{v}_{BC}}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{bn}}{Z_\Delta}$
+- $\bar{i}_{CA} = \dfrac{\bar{v}_{ca}}{Z_\Delta} = \dfrac{\bar{v}_{CA}}{Z_\Delta} = \dfrac{\sqrt{3} e^{j\pi/6}\bar{v}_{cn}}{Z_\Delta}$
 
-- $\bar{i}_a = \bar$
+per la sequenza positiva
+- $\bar{i}_a = \bar{i}_{AB}\sqrt{3}e^{-j\pi/6}$
+- $\bar{i}_b = \bar{i}_{BC}\sqrt{3}e^{-j\pi/6}$
+- $\bar{i}_c = \bar{i}_{CA}\sqrt{3}e^{-j\pi/6}$
+
+per la sequenza negativa
+- $\bar{i}_a = \bar{i}_{AB}\sqrt{3}e^{j\pi/6}$
+- $\bar{i}_b = \bar{i}_{BC}\sqrt{3}e^{j\pi/6}$
+- $\bar{i}_c = \bar{i}_{CA}\sqrt{3}e^{-j\pi/6}$
 ```
+
+
+```anki
+deck: Elettrotecnica
+---
+Collegamento $\Delta$-$\Delta$
+===
+Tensioni di linea coincidono con le tensioni di fase, quindi le correnti di fase sono
+- $\bar{i}_{AB} = \dfrac{\bar{v}_{ab}}{Z_\Delta} = \dfrac{\bar{v}_{AB}}{Z_\Delta}$
+- $\bar{i}_{BC}= \dfrac{\bar{v}_{bv}}{Z_\Delta} = \dfrac{\bar{v}_{CA}}{Z_\Delta}$
+```
+<% tp.file.cursor(3) %>
