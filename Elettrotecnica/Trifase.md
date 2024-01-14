@@ -28,11 +28,10 @@ $$ \begin{align}
 >[!oss]
 >Le tensioni a triangolo sono scalate di $\sqrt{ 3 }$ in modulo, e sono in anticipo di $\dfrac{\pi}{6}$ rispetto alla tensione a stella (rispettivamente in ritardo per la sequenza negativa)
 
-Infine per passare dalla configurazione a triangolo a quella a stella:
+Infine per passare dalla configurazione a triangolo a quella a stella abbiamo, in caso di sequenza positiva:
 $$ \begin{align}
-&v_{ab}(t) = V_{0}\cos(\omega t + \phi_{0}) &&v_{ab}(t) = V_{0} \cos(\omega t + \phi_{0}) \\
-&v_{bc}(t) = V_{0} \cos\left( \omega t + \phi_{0} - \frac{2}{3}\pi \right) &&v_{ca}(t) = V_{0}\cos\left( \omega t + \phi_{0} - \frac{2}{3}\pi  \right) \\
-&v_{ca}(t) = V_{0}\cos\left( \omega t + \phi_{0} - \frac{4}{3}\pi \right) &&v_{bc}(t) = V_{0} \cos\left( \omega t + \phi_{0} - \frac{4}{3}\pi \right)
+\bar{v}_{an} = \frac{\bar{v}_{ab}}{\sqrt{ 3 }}e^{-j \pi/6} \\
+\bar{v}_{bn} = \frac{\bar{v}_{bc}}{\sqrt{ 3 }}e^{-j\pi/6}
 \end{align} $$
 
 >[!oss]
@@ -169,8 +168,21 @@ conversione da tensioni a stella in sequenza negativa a tensioni a triangolo
 ```anki
 deck: Elettrotecnica
 ---
-Conversione
+Conversione da tensioni a triangolo a tensioni a stella in sequenza positiva
 ===
-<% tp.file.cursor(2) %>
+- $v_{ab}(t) = V_0 \cos(\omega t + \phi_0)$
+- $v_{bc}(t) = V_0 \cos(\omega t + \phi_0 - \dfrac{2}{3}\pi)$
+- $v_{ca}(t) = V_0 \cos(\omega t + \phi_0 - \dfrac{4}{3}\pi)$
+```
+
+
+
+```anki
+deck: Elettrotecnica
+---
+Conversione da tensioni a triangolo a tensioni a stella in sequenza negativa
+===
+- $v_{ab}(t) = V_0 \cos(\omega t + \phi_0)$
+- $v_{ca}(t) = V_0 \cos(\omega t + \phi_0)$
 ```
 <% tp.file.cursor(3) %>
