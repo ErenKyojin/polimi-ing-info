@@ -39,7 +39,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1700559638477
+id: 1705511621802
 deck: Fisica
 ---
 Pressione

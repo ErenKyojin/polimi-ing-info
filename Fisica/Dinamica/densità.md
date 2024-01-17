@@ -19,7 +19,7 @@ $$ M = \iiint_{V} \delta(\vec{r})\ \d V ; \frac{1}{m} \iiint_{V} \vec{r} \delta(
 # ANKI
 
 ```anki
-id: 1700559642228
+id: 1705511622400
 deck: Fisica
 ---
 densità

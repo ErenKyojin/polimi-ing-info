@@ -13,7 +13,7 @@ $$\overline v_q = \frac{Z_j(j\omega)}{\sum_{k=1}^M Z_k(J\omega)}\overline v$$
 # ANKI
 
 ```anki
-id: 1700559640428
+id: 1705511623275
 deck: Elettrotecnica
 ---
 Partitore di tensione per impedenze

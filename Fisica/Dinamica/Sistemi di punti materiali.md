@@ -79,7 +79,7 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 # ANKI
 
 ```anki
-id: 1700559642377
+id: 1705511622550
 deck: Fisica
 ---
 Sistema di punti
@@ -89,7 +89,7 @@ Un sistema di punti è costituito da un insieme di $n$ punti materiali soggetti 
 
 
 ```anki
-id: 1700559645550
+id: 1705511626552
 deck: Fisica
 ---
 Risultante su un $i$-esimo punto materiale
@@ -106,7 +106,7 @@ Notiamo che per la terza legge della dinamica la risultante di tutte le forze in
 
 
 ```anki
-id: 1700559647125
+id: 1705511628675
 deck: Fisica
 ---
 Prima equazione cardinale della dinamica dei sistema
@@ -117,7 +117,7 @@ $$\vec{F}^{(E)} = \frac{d\vec{p}}{dt}$$
 
 
 ```anki
-id: 1700559648176
+id: 1705511629876
 deck: Fisica
 ---
 Principio diconservazione della quantità di moto in un sistema di punti materiali

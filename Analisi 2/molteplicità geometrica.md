@@ -6,7 +6,7 @@ $$ m_{g}(\lambda_{0}) = n - \text{Rk}(A - \lambda_{0}I_{n}) $$
 # ANKI
 
 ```anki
-id: 1700559641503
+id: 1705511624201
 deck: GAL
 ---
 Molteplicità geometrica

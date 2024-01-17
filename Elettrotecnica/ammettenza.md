@@ -30,7 +30,7 @@ Si definisce come il rapporto tra il fasore della corrente descrittiva e quello 
 
 
 ```anki
-id: 1700559643702
+id: 1705511625700
 deck: elettrotecnica
 ---
 conduttanza e suscettanza

@@ -39,7 +39,7 @@ graph LR
 # ANKI
 
 ```anki
-id: null
+id: 1705511617476
 deck: Fisica
 ---
 cambiamenti di fase

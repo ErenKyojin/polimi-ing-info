@@ -19,7 +19,7 @@ possiamo quindi definire un [[Sistemi lineari|sistema lineare]]
 # ANKI
 
 ```anki
-id: 1700559640002
+id: 1705511620426
 deck: GAL
 ---
 Equazione lineare

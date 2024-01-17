@@ -44,7 +44,7 @@ Se il termine a destra è nullo, e quindi $\vec{\nabla} p = 0$, allora $p$ è ug
 # ANKI
 
 ```anki
-id: 1700559638453
+id: 1705511621728
 deck: Fisica
 ---
 Principio di Pascal

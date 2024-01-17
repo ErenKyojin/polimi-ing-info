@@ -31,7 +31,7 @@ Quindi superfici isobare sono dette equipotenziali (e viceversa)
 # ANKI
 
 ```anki
-id: 1700559638553
+id: 1705511621826
 deck: Fisica
 ---
 Legge di stevino

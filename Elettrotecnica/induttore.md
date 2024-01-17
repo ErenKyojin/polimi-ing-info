@@ -44,7 +44,7 @@ $$Q = \frac{|\bar v||\bar\imath|}{2}\sin(\pi/_2) = \frac{\omega L |\bar\imath|^2
 # ANKI
 
 ```anki
-id: 1700559643252
+id: 1705511623375
 deck: Elettrotecnica
 ---
 induttore
@@ -60,7 +60,7 @@ anche l'induttore come il condensatore è un componente conservativo, immagazzin
 
 
 ```anki
-id: 1700559645925
+id: 1705511626951
 deck: Elettrotecnica
 ---
 Induttore in regime stazionario
@@ -77,7 +77,7 @@ Se è costante $I$ lo è anche $\Phi_B$, e quindi secondo la legge di faraday-he
 
 
 ```anki
-id: 1700559647400
+id: 1705511628950
 deck: Elettrotecnica
 ---
 Induttore in regime tempo variante

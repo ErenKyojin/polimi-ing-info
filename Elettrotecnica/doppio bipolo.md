@@ -193,7 +193,7 @@ $$
 # ANKI
 
 ```anki
-id: 1700559643425
+id: 1705511623526
 deck: Elettrotecnica
 ---
 Doppio bipolo
@@ -213,7 +213,7 @@ Per quanto riguarda la tensione possiamo ignorare $v_{BD}$ ed ottenere quindi un
 
 
 ```anki
-id: 1700559646025
+id: 1705511627001
 deck: Elettrotecnica
 ---
 potenza assorbita da un doppio bipolo 
@@ -224,7 +224,7 @@ $$ p_a = v_1 i_1 + v_2 i_2 $$
 
 
 ```anki
-id: 1700559647476
+id: 1705511628975
 deck: Elettrotecnica
 ---
 Rappresentazione matriciale di un doppio bipolo

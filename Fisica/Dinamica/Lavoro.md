@@ -193,7 +193,7 @@ Quindi il lavoro compiuto da una forza costante è indipendente dalla traiettori
 
 
 ```anki
-id: 1700559648602
+id: 1705511630728
 deck: Fisica
 ---
 Lavoro su di un corpo rigido

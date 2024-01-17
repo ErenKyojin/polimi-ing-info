@@ -76,7 +76,7 @@ Se invece la quantità di moto varia significa che è soggetto ad interazioni.
 
 
 ```anki
-id: 1700559647150
+id: 1705511628701
 deck: Fisica
 ---
 Quantità di moto di un sistema di $n$ punti materiali

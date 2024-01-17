@@ -21,7 +21,7 @@ Per studiare le forze conservative obbiamo introdurre il concetto di campi, in p
 # ANKI
 
 ```anki
-id: 1700559642027
+id: 1705511622200
 deck: Fisica
 ---
 Forza conservativa

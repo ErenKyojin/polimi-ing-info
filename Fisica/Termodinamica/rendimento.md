@@ -18,7 +18,7 @@ Importante notare lo strettamente minore, è impossibile avere una macchina con 
 # ANKI
 
 ```anki
-id: null
+id: 1705511617050
 deck: Fisica
 ---
 Rendimento di un ciclo termico

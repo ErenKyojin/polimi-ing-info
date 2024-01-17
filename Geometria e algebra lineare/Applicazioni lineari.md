@@ -413,7 +413,7 @@ Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 
 
 ```anki
-id: 1700559641326
+id: 1705511621226
 deck: GAL
 ---
 Applicazione lineare
@@ -428,7 +428,7 @@ $$ \forall t_1,t_2 \in \mathbb{K}, \forall \mathbf{v}_1,\mathbf{v}_2 \in V\quad 
 
 
 ```anki
-id: 1700559645152
+id: 1705511626201
 deck: GAL
 ---
 immagine di un applicazione lineare
@@ -443,7 +443,7 @@ e che
 
 
 ```anki
-id: 1700559646925
+id: 1705511628451
 deck: GAL
 ---
 Controimmagine di un applicazione
@@ -454,7 +454,7 @@ $\forall H \subseeq W, \mathcal{L}^{-1}(H) = \{\mathbf{v} \in V : \mathcal{L} (\
 
 
 ```anki
-id: 1700559648002
+id: 1705511629751
 deck: GAL
 ---
 Fibra di un applicazione
@@ -464,7 +464,7 @@ Dati $V$ e $W$ spazi vettoriali su $\mathbb{K}$, data $\mathcal{L} : V \to W$ ap
 
 
 ```anki
-id: 1700559648753
+id: 1705511630602
 deck: GAL
 ---
 Nucelo di un applicazionee lineare
@@ -475,7 +475,7 @@ $$\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_W) = \{\mathbf{v} \in V : \mat
 
 
 ```anki
-id: 1700559649177
+id: 1705511631075
 deck: GAL
 ---
 Iniettività di un'applicazione lineare
@@ -487,7 +487,7 @@ $\mathcal{L}$ è iniettiva se $\dim(\ker(\mathcal{L})) =  0$
 
 
 ```anki
-id: 1700559649402
+id: 1705511631493
 deck: GAL
 ---
 Applicazione lineare suriettiva
@@ -497,7 +497,7 @@ Un'applicazione lineare $\mathcal{L} : V \to W$ è suriettiva se $\forall \mathb
 
 
 ```anki
-id: 1700559649577
+id: 1705511631723
 deck: GAL
 ---
 Applicazione lineare invertibile
@@ -509,7 +509,7 @@ $$ \forall \mathbf{w} \in W \quad \mathcal{L}(\mathcal{L}^{-1}(\mathbf{w})) = \m
 
 
 ```anki
-id: 1700559649727
+id: 1705511631875
 deck: GAL
 ---
 Isomorfismo

@@ -22,7 +22,7 @@ Il principio di Archimede afferma che un corpo immerso in un fluido riceve una s
 # ANKI
 
 ```anki
-id: 1700559638527
+id: 1705511621775
 deck: Fisica
 ---
 Principio di archimede

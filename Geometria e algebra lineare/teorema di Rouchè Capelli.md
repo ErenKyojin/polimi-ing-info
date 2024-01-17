@@ -15,7 +15,7 @@ modification date: 2023-04-27 14:14
 
 
 ```anki
-id: 1700559638402
+id: 1705511619076
 deck: GAL
 ---
 Teorema di Rouchè-Capelli

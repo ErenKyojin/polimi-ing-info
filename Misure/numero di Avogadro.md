@@ -9,7 +9,7 @@ $N_{A} = 6.022 \cdot 10^{23}$ numero di atomi contenuti in 12g di [[carbonio]]-1
 # ANKI
 
 ```anki
-id: null
+id: 1705511614152
 deck: Fisica
 ---
 Numero di Avogadro

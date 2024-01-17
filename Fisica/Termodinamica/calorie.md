@@ -9,7 +9,7 @@ Una caloria è la quantità di calore necessaria per innalzare la temperatura di
 # ANKI
 
 ```anki
-id: null
+id: 1705511617501
 deck: Fisica
 ---
 caloria

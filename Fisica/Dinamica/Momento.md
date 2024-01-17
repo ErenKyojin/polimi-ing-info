@@ -75,7 +75,7 @@ Abbiamo quindi dimostrato la seguente proprietà:
 # ANKI
 
 ```anki
-id: 1700559642453
+id: 1705511622651
 deck: Fisica
 ---
 momento ne sistemi di punti materiali

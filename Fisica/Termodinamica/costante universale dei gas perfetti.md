@@ -9,7 +9,7 @@ $$ R = p_{0}\beta V_{m} = 8,31 \frac{J}{mol\ K} $$
 # ANKI
 
 ```anki
-id: null
+id: 1705511617377
 deck: Fisica
 ---
 Costante universale dei gas perfetti

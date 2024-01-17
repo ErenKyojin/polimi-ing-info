@@ -236,7 +236,7 @@ deck: GAL
 
 
 ```anki
-id: 1705511266553
+id: 1705511631350
 deck: Fisica
 ---
 Derivata di un vettore

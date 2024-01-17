@@ -28,7 +28,7 @@ Inoltre notiamo come $\varphi_z \in [-\frac\pi2,\frac\pi2]$ visto che consideria
 # ANKI
 
 ```anki
-id: 1700559640152
+id: 1705511623951
 deck: elettrotecnica
 ---
 Impedenza
@@ -41,7 +41,7 @@ Definiamo quindi l'impedenza come il rapporto tra tensione e della corrente ai m
 
 
 ```anki
-id: 1700559642953
+id: 1705511627178
 deck: elettrotecnica
 ---
 resistenza e reattanza

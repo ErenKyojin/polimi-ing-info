@@ -60,7 +60,7 @@ $$ \bar{\imath}_{a} = \frac{\frac{\bar{v}_{AB}}{\sqrt{ 3 }}e^{-j \pi/6}}{Z_{Y}} 
 
 
 ```anki
-id: 1705250520476
+id: 1705511623675
 deck: Elettrotecnica
 ---
 Collegamento Y-Y
@@ -73,7 +73,7 @@ Si risolvono attraverso l'utilizzo del circuito equivalente monofase.
 
 
 ```anki
-id: 1705511260572
+id: 1705511627076
 deck: Elettrotecnica
 ---
 Collegamento Y-$\Delta$
@@ -98,7 +98,7 @@ per la sequenza negativa
 
 
 ```anki
-id: 1705511263974
+id: 1705511629600
 deck: Elettrotecnica
 ---
 Collegamento $\Delta$-$\Delta$
@@ -111,7 +111,7 @@ Tensioni di linea coincidono con le tensioni di fase, quindi le correnti di fase
 
 
 ```anki
-id: 1705511265272
+id: 1705511630500
 deck: Elettrotecnica
 ---
 Collegamento $\Delta - Y$

@@ -55,7 +55,7 @@ $n$ induttanze in serie hanno capacità equivalente $L_{eq} = \sum L_i$
 
 
 ```anki
-id: 1700559645176
+id: 1705511627225
 deck: Elettrotecnica
 ---
 Connessione in serie di impedenze

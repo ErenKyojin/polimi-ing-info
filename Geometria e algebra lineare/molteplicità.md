@@ -94,7 +94,7 @@ Diremo che l'intero positivo $m$ è la molteplicità algebrica di $\widetilde{\l
 # ANKI
 
 ```anki
-id: 1700559637225
+id: 1705511619600
 deck: GAL
 ---
 Molteplicità algebrica
@@ -106,7 +106,7 @@ m è detta molteplicità algebrica di $\lambda_0$
 
 
 ```anki
-id: 1700559639378
+id: 1705511625475
 deck: GAL
 ---
 Siano $\lambda_1,...,\lambda_r \in \mathbb{K}$ autovalori distinti di $A \in M_{\mathbb{K}(n,n)$. Siano $g_1,...,g_3$ le corrispettive molteplicità geometriche. Allorai l massimo numero N di autovettori linearmente indipendente è la somma delle ~~molteplciità geometriche~~

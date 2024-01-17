@@ -16,7 +16,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: null
+id: 1705511617025
 deck: Fisica
 ---
 Temperatura

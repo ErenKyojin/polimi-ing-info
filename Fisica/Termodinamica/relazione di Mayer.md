@@ -15,7 +15,7 @@ Attraverso questa  relazione si dimostra che:
 # ANKI
 
 ```anki
-id: null
+id: 1705511617076
 deck: Fisica
 ---
 Relazione di Mayer

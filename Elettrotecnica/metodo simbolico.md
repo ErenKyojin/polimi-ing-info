@@ -27,7 +27,7 @@ In generale non dobbiamo per forza scrivere l'[[equazione di stato]] per poi pas
 # ANKI
 
 ```anki
-id: 1700559640503
+id: 1705511623326
 deck: elettrotecnica
 ---
 Algoritmo del metodo simbolico

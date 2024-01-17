@@ -23,7 +23,7 @@ modification date: 2023-07-07 09:14
 
 
 ```anki
-id: null
+id: 1705511617427
 deck: Fisica
 ---
 Coordinate termodinamiche

@@ -37,7 +37,7 @@ I fasori e le loro proprietà ci permettono di sfruttare il [[metodo simbolico]]
 # ANKI
 
 ```anki
-id: 1700559640703
+id: 1705511623475
 deck: elettrotecnica
 ---
 Fasore
@@ -48,7 +48,7 @@ Dobbiamo lavorare sempre alla stessa pulsazione nel dominio dei fasori.
 
 
 ```anki
-id: 1700559643377
+id: 1705511626976
 deck: Elettrotecnica
 ---
 Proprietà dei fasori

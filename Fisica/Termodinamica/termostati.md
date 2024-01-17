@@ -16,7 +16,7 @@ Un sistema a contatto con un termostato a temperatura T che esegue una trasforma
 # ANKI
 
 ```anki
-id: null
+id: 1705511617001
 deck: Fisica
 ---
 Termostato

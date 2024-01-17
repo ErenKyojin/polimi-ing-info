@@ -68,7 +68,7 @@ Quindi un gas perfetto a temperatura di $0 K$ ha pressione e volume nulli. Ovvia
 # ANKI
 
 ```anki
-id: null
+id: 1705511617150
 deck: Fisica
 ---
 Legge di gay-lussac per le isobare
@@ -84,7 +84,7 @@ In un piano di clapeyron abbiamo una retta orizzontale
 
 
 ```anki
-id: null
+id: 1705511621500
 deck: Fisica
 ---
 Legge di Gay-Lussac per le isocore
@@ -99,7 +99,7 @@ con
 
 
 ```anki
-id: null
+id: 1705511624651
 deck: Fisica
 ---
 Leggi di Gay-Lussac per i gas ideali
