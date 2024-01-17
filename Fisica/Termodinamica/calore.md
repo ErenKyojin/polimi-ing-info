@@ -73,7 +73,7 @@ $$ (\partial Q)_V = nc_Vdt $$
 
 
 ```anki
-id: 1705250723294
+id: 1705511261223
 deck: Fisica
 ---
 Calore in una trasformazione isobara

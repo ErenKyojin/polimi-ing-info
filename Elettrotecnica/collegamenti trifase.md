@@ -73,7 +73,7 @@ Si risolvono attraverso l'utilizzo del circuito equivalente monofase.
 
 
 ```anki
-id: 1705250520518
+id: 1705511260572
 deck: Elettrotecnica
 ---
 Collegamento Y-$\Delta$
@@ -98,7 +98,7 @@ per la sequenza negativa
 
 
 ```anki
-id: 1705250520594
+id: 1705511263974
 deck: Elettrotecnica
 ---
 Collegamento $\Delta$-$\Delta$
@@ -111,7 +111,7 @@ Tensioni di linea coincidono con le tensioni di fase, quindi le correnti di fase
 
 
 ```anki
-id: 1705250520645
+id: 1705511265272
 deck: Elettrotecnica
 ---
 Collegamento $\Delta - Y$

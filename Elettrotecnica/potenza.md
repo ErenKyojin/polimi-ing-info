@@ -267,6 +267,7 @@ $$ W_m = \frac{\mathcal{L}}{\Delta t} $$
 
 
 ```anki
+id: 1705511263873
 deck: Elettrotecnica
 ---
 potenza assorbita da un carico trifase

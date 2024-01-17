@@ -197,7 +197,6 @@ deck: GAL
 3. Elemento neutro
 4. Elemento opposto
 ```
-
 ```anki
 id: 1695223923094
 deck: GAL
@@ -214,6 +213,7 @@ $$ ||t\mathbf{v}|| = |t|\cdot||\mathbf{v}|| $$
 ---
 Analoga è la divisione per $t \neq 0$
 ```
+
 
 
 
@@ -236,7 +236,7 @@ deck: GAL
 
 
 ```anki
-id: 1705250728719
+id: 1705511266553
 deck: Fisica
 ---
 Derivata di un vettore
