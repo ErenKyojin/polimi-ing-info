@@ -1,5 +1,5 @@
 
-Date due rette distinte, per gll'[[Assiomi di incidenza|assiomi di incidenza]], possono passare al massimo per un punto in comune.
+Date due rette distinte, per gli [[Assiomi di incidenza|assiomi di incidenza]], possono passare al massimo per un punto in comune.
 
 Due rette si dicono:
 - Incidenti: se hanno un punto in comune, sono anche [[complanari]]
