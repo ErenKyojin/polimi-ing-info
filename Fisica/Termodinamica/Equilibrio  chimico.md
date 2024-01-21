@@ -11,7 +11,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1705511617825
+id: 1705831178377
 deck: Fisica
 ---
 Equilibrio chimico

@@ -22,7 +22,7 @@ Un sistema termodinamico può essere:
 # ANKI
 
 ```anki
-id: 1705511617675
+id: 1705831178252
 deck: Fisica
 ---
 Sistemi termodinamici
@@ -35,7 +35,7 @@ Un sistema termodinamico
 
 
 ```anki
-id: 1705511621675
+id: 1705831183377
 deck: Fisica
 ---
 Tipi di sistemi termodinamici

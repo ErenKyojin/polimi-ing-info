@@ -16,7 +16,7 @@ $$ \mathcal{L}=\int _{V_{i}}^{V_{p}} \! p \, \mathrm{d}V = nRT \int_{V_{i}}^{V_{
 # ANKI
 
 ```anki
-id: 1705511616851
+id: 1705831177402
 deck: Fisica
 ---
 Trasformazione isoterma
@@ -26,7 +26,7 @@ Si definisce trasformazione isoterma una trasformazione termodinamica che mantie
 
 
 ```anki
-id: 1705511621376
+id: 1705831183102
 deck: Fisica
 ---
 Lavoro in una trasformazione isoterma reversibile

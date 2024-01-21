@@ -9,7 +9,7 @@ Il piano di Clapeyron è un piano Volume-Pressione su cui rappresentare [[trasfo
 # ANKI
 
 ```anki
-id: 1705511617100
+id: 1705831177677
 deck: Fisica
 ---
 Il piano di Clapeyron

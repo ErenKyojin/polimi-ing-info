@@ -29,7 +29,7 @@ creation date: 2023-12-05
 # ANKI
 
 ```anki
-id: 1705511250873
+id: 1705831174202
 deck: LeA
 ---
 Omomorfismo

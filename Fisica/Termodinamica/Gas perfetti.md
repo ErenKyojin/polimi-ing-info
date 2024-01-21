@@ -21,7 +21,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1705511617775
+id: 1705831178326
 deck: Fisica
 ---
 Gas perfetti

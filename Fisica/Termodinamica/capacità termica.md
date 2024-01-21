@@ -16,7 +16,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1705511617450
+id: 1705831178026
 deck: Fisica
 ---
 capacità termica

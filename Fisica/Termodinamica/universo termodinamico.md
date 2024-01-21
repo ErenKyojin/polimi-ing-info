@@ -10,7 +10,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1705511616800
+id: 1705831177352
 deck: Fisica
 ---
 Universo termodinamico

@@ -16,7 +16,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1705511617801
+id: 1705831178351
 deck: Fisica
 ---
 Equilibrio termodinamico

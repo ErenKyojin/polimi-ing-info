@@ -144,7 +144,7 @@ Possiamo quindi enunciare la [[Legge di Kirchhoff per le tensioni]]
 
 # Tensione - Anki
 ```anki
-id: 1694352771004
+id: 1705831179777
 deck: elettrotecnica
 ---
 Tensione introduzione

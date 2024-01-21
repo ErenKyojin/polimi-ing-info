@@ -15,7 +15,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1705511614176
+id: 1705831170402
 deck: Fisica
 ---
 mole

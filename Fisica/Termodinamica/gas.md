@@ -14,7 +14,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1705511617250
+id: 1705831177826
 deck: Fisica
 ---
 gas

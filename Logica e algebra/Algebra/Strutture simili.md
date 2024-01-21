@@ -9,7 +9,7 @@ creation date: 2023-12-05
 # ANKI
 
 ```anki
-id: 1705511250073
+id: 1705831172952
 deck: LeA
 ---
 Strutture simili

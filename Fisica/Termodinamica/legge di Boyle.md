@@ -30,7 +30,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1705511617201
+id: 1705831177777
 deck: Fisica
 ---
 Legge di Boyle

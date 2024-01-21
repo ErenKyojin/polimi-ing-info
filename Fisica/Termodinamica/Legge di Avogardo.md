@@ -19,7 +19,7 @@ Dalla legge di avogardo possiamo ottenere l[[equazione di stato dei gas perfetti
 # ANKI
 
 ```anki
-id: 1705511617750
+id: 1705831178302
 deck: Fisica
 ---
 Legge di Avogadro

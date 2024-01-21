@@ -29,7 +29,7 @@ Le [[coordinate termodinamice]] sono definite lungo tutta la trasformazione reve
 # ANKI
 
 ```anki
-id: 1705511616825
+id: 1705831177378
 deck: Fisica
 ---
 Trasformazioni termodinamiche reversibili

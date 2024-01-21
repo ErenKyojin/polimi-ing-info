@@ -55,7 +55,7 @@ pT^{\gamma/(1-\gamma)}&=\cost
 # ANKI
 
 ```anki
-id: 1705511616951
+id: 1705831177551
 deck: Fisica
 ---
 trasformazione adiabatica
@@ -66,7 +66,7 @@ Si definisce trasformazione adiabatica una trasformazione termodinamica senza al
 
 
 ```anki
-id: 1705511621475
+id: 1705831183202
 deck: Fisica
 ---
 Lavoro adiabatico
@@ -81,7 +81,7 @@ $$ Q = - \mathcal{L}_{\text{adiabatico}} $$
 
 
 ```anki
-id: 1705511624625
+id: 1705831185827
 deck: Fisica
 ---
 Relazione tra coordinate termodinamiche per una trasformazione adiabatica

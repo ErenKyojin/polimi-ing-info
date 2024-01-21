@@ -21,7 +21,7 @@ $$
 # ANKI
 
 ```anki
-id: 1705511616901
+id: 1705831177501
 deck: Fisica
 ---
 Trasformazione isobara
@@ -31,7 +31,7 @@ Si definisce trasformazione isobara una trasformazione termodinamica che mantien
 
 
 ```anki
-id: 1705511621429
+id: 1705831183152
 deck: Fisica
 ---
 Lavoro di una trasformazione isobara reversibile
@@ -41,7 +41,7 @@ $$ \mathcal{L} = nR(T_p - T_i) $$
 
 
 ```anki
-id: 1705511624600
+id: 1705831185802
 deck: Fisica
 ---
 Calore lungo unisobara

@@ -60,7 +60,7 @@ dU &= nc_{V} dT
 # ANKI
 
 ```anki
-id: 1705511617851
+id: 1705831178402
 deck: Fisica
 ---
 Energia interna di un gas in una trasformazione a temperatura costante
@@ -70,7 +70,7 @@ Nel caso di trasformazione a temperatura costante non c'è variazione di energia
 
 
 ```anki
-id: 1705511621700
+id: 1705831183402
 deck: Fisica
 ---
 Energia interna di un gas in una una trasformazione a volume costante
@@ -80,7 +80,7 @@ La variazione di energia interna dipende unicamente dalla variazione del calore
 
 
 ```anki
-id: 1705511624777
+id: 1705831185951
 deck: Fisica
 ---
 Energia interna di un gas ideale a calore molare costante

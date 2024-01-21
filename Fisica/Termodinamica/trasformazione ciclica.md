@@ -29,7 +29,7 @@ Possiamo definire il [[rendimento]] di un ciclo termico, e l'[[efficienza frigor
 # ANKI
 
 ```anki
-id: 1705511616926
+id: 1705831177526
 deck: Fisica
 ---
 Trasformazione ciclica
@@ -39,7 +39,7 @@ Si definisce trasformazione ciclica una trasformazione termodinamica in cui lo s
 
 
 ```anki
-id: 1705511621451
+id: 1705831183177
 deck: Fisica
 ---
 Lavoro in una trasformazione ciclica

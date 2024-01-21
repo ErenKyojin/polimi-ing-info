@@ -12,7 +12,7 @@ modification date: 2023-07-07 09:14
 # ANKI
 
 ```anki
-id: 1705511617625
+id: 1705831178202
 deck: Fisica
 ---
 Calore latente

@@ -56,7 +56,7 @@ $$ \begin{align}
 # ANKI
 
 ```anki
-id: 1705511623850
+id: 1705831180501
 deck: Elettrotecnica
 ---
 conversione da tensioni a stella in sequenza positiva a tensioni a triangolo
@@ -68,7 +68,7 @@ conversione da tensioni a stella in sequenza positiva a tensioni a triangolo
 
 
 ```anki
-id: 1705511627101
+id: 1705831184227
 deck: Elettrotecnica
 ---
 conversione da tensioni a stella in sequenza negativa a tensioni a triangolo
@@ -80,7 +80,7 @@ conversione da tensioni a stella in sequenza negativa a tensioni a triangolo
 
 
 ```anki
-id: 1705511629076
+id: 1705831186527
 deck: Elettrotecnica
 ---
 Conversione da tensioni a triangolo a tensioni a stella in sequenza positiva
@@ -93,7 +93,7 @@ Conversione da tensioni a triangolo a tensioni a stella in sequenza positiva
 
 
 ```anki
-id: 1705511630151
+id: 1705831187651
 deck: Elettrotecnica
 ---
 Conversione da tensioni a triangolo a tensioni a stella in sequenza negativa
