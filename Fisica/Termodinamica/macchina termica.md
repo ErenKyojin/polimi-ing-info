@@ -3,14 +3,7 @@ aliases:
 creation date: 2023-12-22
 ---
 
-```mermaid
-graph LR
+![[macchina termica.canvas|macchina termica]]
 
-T2["----T2----"] 
-T1["----T1----"]
-subgraph machine 
-M ---> L
-end
-T1 ---> M
-M ---> T2
-```
+- $Q_{2}$  calore assorbito da $M$ dalla fonte $T_{2} \implies Q_{2} > 0$
+- $Q_{1}$ calore ceduto da $M$ alla fonte $T_{1} \implies Q_{1} < 0$
