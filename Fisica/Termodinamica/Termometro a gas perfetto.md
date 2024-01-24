@@ -19,3 +19,5 @@ dove $p_{3}$ è la pressione del gas a conttato con il campione al punto triplo
 
 Quindi la caratteristica termometrica del termometro a gas perfetto sarà:
 $$ T = \frac{273.16}{p_{3}}p $$
+
+Se $p_{3} \to 0$ il valore misurato non dipende dal gas usato.
