@@ -25,6 +25,7 @@ gas reali
 ===
 A meno di condizioni di basse pressioni non seguono l'equazione di stato dei gas perfetti, a temperatura costante si può sfruttare lo sviluppo del Viriale
 $$ \frac{pV}{nRT} =  1 + K_{1}(T)p + K_{2}p^2 + \dots $$
-di cui solo i primi due termini contano a pressioni inferiori a $\pu{40 bar}$
+di cui solo i primi due termini contano a pressioni inferiori a $\pu{40 bar}$.
+
+Si può inoltre sfruttare l'equazione di Van der Waals
 ```
-<% tp.file.cursor(3) %>
