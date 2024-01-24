@@ -41,7 +41,7 @@ modification date: 2023-07-07 09:14
 - [ ] [[massa|massa inerziale]]
 - [ ] [[Quantità di moto]]
 - [ ] [[forza]]
-- [ ] [[secondo principio della dinamica]]
+- [ ] [[polimi-ing-info/Fisica/Dinamica/secondo principio della dinamica]]
 - [ ] [[terzo principio della dinamica]]
 - [ ] problema generale della dinamica del punto materiale
 - [ ] [[forza#Classificazione delle forze|forze]]

@@ -14,7 +14,7 @@ Ogni interazione è descritta formalmente attraverso una [[grandezza fisica]] ve
 
 ![[primo principio della dinamica]]
 
-![[secondo principio della dinamica]]
+![[polimi-ing-info/Fisica/Dinamica/secondo principio della dinamica]]
 
 ![[terzo principio della dinamica]]
 
@@ -23,7 +23,7 @@ Ogni interazione è descritta formalmente attraverso una [[grandezza fisica]] ve
 Il problema generale della dinamica del punto materiale consiste nella ricerca della [[legge oraria]] di un [[punto materiale]] di massa $m$ che si muove sotto l'azione della risultate $\vec{F}$ delle forze ad esso applicate.
 
 >[!success]
->Per il [[secondo principio della dinamica]] $\vec{F}(t) = m\vec{a}(t) = m\frac{d\vec{v}(t)}{dt} = m\frac{d^2\vec{r}(t)}{dt^2}$, dunque, se l'andamento temporale della risultante è noto basta eseguire una doppia integrazione vettoriale nel tempo, inserendo le condizioni iniziali di velocità e di posizione:
+>Per il [[polimi-ing-info/Fisica/Dinamica/secondo principio della dinamica]] $\vec{F}(t) = m\vec{a}(t) = m\frac{d\vec{v}(t)}{dt} = m\frac{d^2\vec{r}(t)}{dt^2}$, dunque, se l'andamento temporale della risultante è noto basta eseguire una doppia integrazione vettoriale nel tempo, inserendo le condizioni iniziali di velocità e di posizione:
 >$$ \begin{align} 
  m\int_{t_{0}}^t \!d\vec{v}(t') \, \mathrm{d}t = \int _{t_{0}}^t \!F(t') \, \mathrm{d}t' \implies &\vec{v}(t) = \vec{v}(t_{0}) + \frac{1}{m} \int _{t_{0}}^t \!\vec{F}(t') \, \mathrm{d}t'    \\
 >& \vec{r}(t) = \vec{r}(t_{0}) + \int _{t_{0}}^t \!\vec{v}(t') \, \mathrm{d}t' 
@@ -47,7 +47,7 @@ Il problema generale della dinamica del punto materiale consiste nella ricerca d
 
 # Dinamica in [[sistemi non inerziali]]
 
-Sappiamo che in un [[sistema di riferimento inerziale]] il [[secondo principio della dinamica]] si scrive come
+Sappiamo che in un [[sistema di riferimento inerziale]] il [[polimi-ing-info/Fisica/Dinamica/secondo principio della dinamica]] si scrive come
 $$
 \vec{F} = m\vec{a}
 $$

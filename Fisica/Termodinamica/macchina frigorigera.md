@@ -20,6 +20,9 @@ deck: Fisica
 ---
 Macchina frigorifera
 ===
-
+![[Pasted image 20240124143610.png]]
+- $T_2 > T_1$
+- $Q_2 < 0$
+- $Q_1 > 0$
+- $\mathcal{L} < 0$
 ```
-<% tp.file.cursor(3) %>
