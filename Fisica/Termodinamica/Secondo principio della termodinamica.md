@@ -18,3 +18,16 @@ Non si ha mai che $Q_{1} \geq 0$, infatti
 >Non è possibile trasferire calore da una sorgente fredda ad una sorgente calda senza compiere lavoro
 
 Ponendo a contatto 2 corpi a temperature $T_{1}$ e $T_{2}$ il corpo freddo assorbe calore, quello caldo lo cede
+
+
+>[!legge] Secondo principio della dinamica (**Kelvin**)
+>Non è possibile realizzare una trasformazione il cui unico risultato sia trasformare il calore da una sorgente a temperatura costante in lavoro
+
+>[!legge] Secondo principio della dinamica (**Clausius**)
+>Non è possibile realizzare una trasformazione che unicamente trasferisca calore da una sorgente fredda ad una calda
+
+>[!oss]
+>Il secondo principio afferma, in modo particolarmente visible da quello di Kelvin, che non è possibile avere una macchina termica che produca lavoro senza avere almeno due sorgenti di calore a temperature diverse
+
+# Equivalenza tra enunciati
+Neghiamo l'enunciato di kelvin
