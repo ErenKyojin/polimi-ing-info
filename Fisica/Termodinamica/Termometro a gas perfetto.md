@@ -15,3 +15,7 @@ Abbiamo ora bisogno di un punto di taratura, possiamo scegliere arbitrariamente 
 
 Otteniamo così:
 $$ \alpha = \frac{T_{3}}{p_{3}} = \frac{273.16}{p_{3}}K$$
+dove $p_{3}$ è la pressione del gas a conttato con il campione al punto triplo
+
+Quindi la caratteristica termometrica del termometro a gas perfetto sarà:
+$$ T = \frac{273.16}{p_{3}}p $$
