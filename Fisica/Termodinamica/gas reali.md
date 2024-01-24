@@ -13,4 +13,6 @@ $$ \frac{pV}{nRT} =  1 + K_{1}(T)p + K_{2}p^2 + \dots  $$
 
 Si osserva sperimentalmente che fino a $\pu{40 bar}$ di pressione non è necessario andare oltre al termine lienare per misurazioni accurate.
 
-Inoltre per i gas reali su può sfruttare l'[[equazione]]
+Inoltre per i gas reali su può sfruttare l'[[equazione di Van der Waals]]
+
+
