@@ -1,6 +1,6 @@
 ---
-aliases: <% tp.file.cursor(0) %>
+aliases: 
 creation date: 2023-12-22
 ---
 
-<% tp.file.cursor(1) %>
+Tarati termometri con sostanze 
