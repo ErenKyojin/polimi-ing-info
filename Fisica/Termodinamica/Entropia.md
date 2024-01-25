@@ -45,6 +45,9 @@ deck: Fisica
 ---
 Entropia definizione
 ===
-Dal calcolo dell'integrale di Clausius tra due stati A e B attraverso diverse trasformazioni, si osserva che per una trasformazione reversibile 
+Dal calcolo dell'integrale di Clausius tra due stati A e B attraverso diverse trasformazioni, si osserva che per una trasformazione reversibile l'integarle dipende solo da i due punti, possiamo quindi deifnire una funzione di stato $S$ tale che
+
+$$ \Delta S = S(B) - S(A) = \int_A^B \frac{\partial Q_{REV}}{T} $$
+
+S è definita a
 ```
-<% tp.file.cursor(3) %>
