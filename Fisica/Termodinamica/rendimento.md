@@ -52,9 +52,14 @@ con $[T_{1},] = [T_{2}] = K$
 >- DA compressione adiabatica
 >
 >$$Q_{AB} = \mathcal{L}_{AB} = nRT_{2}\ln\left( \frac{V_{b}}{Va} \right)$$
-
-
-
+>$$\mathcal{L} = nrT_{2}\ln\left( \frac{V_{b}}{V_{a}}  \right) + nrT_{1}\ln\left( \frac{V_{c}}{V_{d}} \right)$$
+>
+>Dall'adiabatica reversibile
+>$$ \frac{V_{B}}{V_{A}} = \frac{V_{C}}{V_{D}} $$
+>$$ \mathcal{L} = nR\ln\left( \frac{V_{B}}{V_{A}} \right)(T_{2}-T_{1}) $$
+>
+>Avremo quindi
+>$$ \eta = \frac{\mathcal{L}}{Q_{ass}} = 1-\frac{T_{1}}{T_{2}} $$
 
 # ANKI
 
@@ -67,4 +72,14 @@ Rendimento di un ciclo termico
 $$\eta = 1 - \frac{|Q_C|}{Q_A}$$
 
 Il rendimento è sempre $0 \leq \eta < 1$, non può mai essere $=1$
+```
+
+
+
+```anki
+deck: Fisica
+---
+Rendimento di una macchina reversibile
+===
+$$\eta = 1 - \frac{T_1}{T_2}$$
 ```
