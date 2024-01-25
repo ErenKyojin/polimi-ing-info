@@ -22,4 +22,6 @@ Sia $\gamma_{1}$ che $\gamma_{2}$ reversibili.
 
 Dal calcolo dell'[[integrale di Clausius]] otteniamo:
 $$ \int _{A,\gamma_{1}}^B \! \frac{\partial Q}{T}  = \int _{A,\gamma_{2}}^{B} \!\frac{\partial Q}{T}  $$ infatti la trasformazione è reverisibile.
-
+Quindi il generico integrale
+$$ \int _{i}^p \! \frac{dQ_{\text{rev}}}{T} $$
+dipende solo
