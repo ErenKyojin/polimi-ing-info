@@ -34,10 +34,27 @@ con $[T_{1},] = [T_{2}] = K$
 >\node (T2) at (4.3, 1.7){$T_{2}$};
 >
 >\node[above] at (A){A};
->\node[above] at (A){A};
+>\node[above] at (B){B};
+>\node[below] at (C){C};
+>\node[below] at (D){D};
+>\draw (A.center) to[out=310, in=180] (B.center);
+>\draw (B.center) to[out=290, in=130] (C.center);
+>\draw (A.center) to[out=270, in=100] (D.center);
+>\draw (D.center) to[out=350, in=180] (C.center);
+>\draw[dashed] (C.center) to (T1);
+>\draw[dashed] (B.center) to (T2);
 >\end{tikzpicture}
 >\end{document}
 >```
+>- AB espansione isoterma a T2
+>- BC espansione adiabatica
+>- CD compressione isoterma a T1
+>- DA compressione adiabatica
+>
+>$$Q_{AB} = \mathcal{L}_{AB} = nRT_{2}\ln\left( \frac{V_{b}}{Va} \right)$$
+
+
+
 
 # ANKI
 
