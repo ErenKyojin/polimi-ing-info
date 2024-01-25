@@ -3,8 +3,8 @@
 		{"id":"6366d327f82c0baa","type":"text","text":"$$T_{2}$$","x":-125,"y":-157,"width":250,"height":60,"color":"1"},
 		{"id":"65cc29a3dfcaf023","type":"text","text":"$$T_{2}$$","x":-125,"y":98,"width":250,"height":60,"color":"5"},
 		{"id":"417135c68697ceba","type":"text","text":"X","x":-154,"y":-42,"width":58,"height":60},
-		{"id":"18b4676202834102","type":"text","text":"R","x":96,"y":-42,"width":58,"height":60},
-		{"id":"3cc4372b03f22e07","x":-30,"y":-42,"width":60,"height":60,"color":"2","type":"text","text":"$$\\mathcal{L}$$"}
+		{"id":"18b4676202834102","type":"text","text":"$$ \\bar{R} $$","x":96,"y":-42,"width":64,"height":60},
+		{"id":"3cc4372b03f22e07","type":"text","text":"$$\\mathcal{L}$$","x":-30,"y":-42,"width":60,"height":60,"color":"2"}
 	],
 	"edges":[
 		{"id":"fc991db4a7852be2","fromNode":"6366d327f82c0baa","fromSide":"bottom","toNode":"417135c68697ceba","toSide":"top","label":"Q2"},
