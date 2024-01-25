@@ -19,6 +19,26 @@ Importante notare lo strettamente minore, è impossibile avere una macchina con 
 Possiamo calcolare il rendimento di una macchina reversibile tra 2 sorgenti considerando il rendimento di una macchina reversibile qualsiasi, ad esempio considerndo il ciclo di carnot abbiamo
 $$ \eta_{R} = 1 - \frac{T_{1}}{T_{2}} $$
 con $[T_{1},] = [T_{2}] = K$
+
+>[!dim]
+> ```tikz
+>\begin{document}
+>\begin{tikzpicture}
+>\draw[-latex](0,0) -- (0,4)node[left]{p};
+>\draw[-latex](0,0) -- (4,0)node[right]{V};
+>\node (D) at (1,1){$\bullet$};
+>\node (B) at (3,2){$\bullet$};
+>\node (A) at (.8,3){$\bullet$};
+>\node (C) at (3.7,.7){$\bullet$};
+>\node (T1) at (4.8,.5){$T_{1}$};
+>\node (T2) at (4.3, 1.7){$T_{2}$};
+>
+>\node[above] at (A){A};
+>\node[above] at (A){A};
+>\end{tikzpicture}
+>\end{document}
+>```
+
 # ANKI
 
 ```anki
