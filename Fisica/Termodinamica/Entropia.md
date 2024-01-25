@@ -30,4 +30,9 @@ Si può definire quindi una funzione di stato $S$ detta enrtopia tale che
 $$ \Delta S = S(B) - S(A) = \int _{A}^B \! \frac{\partial Q}{T} $$
 
 - S è definita a meno di una costante
-- $dS = \frac{\partial Q_{REV}}{T}$
+- $dS = \dfrac{\partial Q_{REV}}{T}$
+- $[S] = \pu{ J/K }$
+
+>[!important] Importante
+>Per calcolare $\Delta S$ tra due stati di equilibrio si deve considerare una trasformazione reversibile qualsiasi che unisca questi due stati, e calcolare poi l'integrale:
+>$$ \int _{A}^B \! \frac{\partial Q_{\text{REV}}}{T}  $$
