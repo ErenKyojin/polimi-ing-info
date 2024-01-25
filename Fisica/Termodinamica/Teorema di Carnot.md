@@ -18,11 +18,20 @@ creation date: 2024-01-24
 >>$$\eta_{R} = \frac{\mathcal{L}}{Q_{2}'}\quad;\quad \eta_{X} = \frac{\mathcal{L}}{Q_{2}}$$
 >>
 >>ipotizziamo per assurdo $\eta_{X} > \eta_{R}$ abbiamo quindi
->>$$ \eta_{X} > \eta_{R}  \implies \frac{\mathcal{L}}{Q_{2}} > \frac{\mathcal{L}}{Q_{1}'} \implies Q_{1}' > Q_{2}$$
+>>$$ \eta_{X} > \eta_{R}  \implies \frac{\mathcal{L}}{Q_{2}} > \frac{\mathcal{L}}{Q_{2}'} \implies Q_{2}' > Q_{2} \implies Q_{1}' > Q_{1}$$
 >>
 >>Essendo $R$ reversibile, possiamo considerare la sua inversa $\bar{R}$, e farle sfruttare il lavoro $\mathcal{L}$  
 >>![[Teorema di Carnot 2.canvas|Teorema di Carnot 2]]
-
+>
+>Considerando la macchina X+R abbiamo
+>$\mathcal{L}'' = 0$
+>$Q_{2}''=Q_{2} - Q_{2}' < 0$
+>$Q_{1}''=Q_{1} - Q_{1}' < 0 \implies Q_{1}' - Q_{1} > 0$
+>
+>La macchina X+R trasferisce calore da una sorgente fredda ad una sorgente calda senza compiere lavoro, in violazione del [[Secondo principio della termodinamica]]
+>Quindi $\eta_{X} \leq \eta_{R}$
+>
+>#todo
 
 # ANKI
 
