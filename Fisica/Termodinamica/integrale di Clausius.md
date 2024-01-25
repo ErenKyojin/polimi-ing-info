@@ -11,3 +11,4 @@ In particolare si ha che l'uguaglianza vale quando il ciclo è reversibile, ment
 
 Si può generalizzare con N sorgenti:
 
+![[Integrale di Clausius.canvas|Integrale di Carnot]]
