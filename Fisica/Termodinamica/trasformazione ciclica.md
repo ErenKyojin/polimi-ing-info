@@ -25,6 +25,10 @@ $$ \mathcal{L} = Q = Q_{A} + Q_{C} $$
 
 Possiamo definire il [[rendimento]] di un ciclo termico, e l'[[efficienza frigorifera]] di un ciclo frigorigero
 
+### Variazione dell'[[entropia]]
+Abbiamo che $\Delta S_{\text{sistema}} = 0$, tenendo a mente che $\Delta S \geq 0$ abbiamo due casi possibili:
+- $\Delta S_{\text{AMB}} = 0 \implies \Delta S_{U} = 0$ e abbiamo un **ciclo reversibile**
+- $\Delta S_{\text{AMB}} > 0 \implies \Delta S_{U} > 0$ e abbiamo un **ciclo irreversibile**
 
 # ANKI
 
@@ -51,4 +55,15 @@ Inoltre possiamo suddividere il caolre in:
 - $Q_A$ calore assorbito: somma di tutti i calori assorbiti durante il ciclo termodinamico
 - $Q_C$ calore ceduto: somma di tutti i calori ceduto durante il ciclo temodinamico
 
+```
+
+
+```anki
+deck: Fisica
+---
+Entropia in una trasformazione ciclica
+===
+$\Delta S_{\text{SIST}} = 0$, tenendo a mente che $\Delta S_U \geq 0$ abbiamo due possibilità
+- $\Delta S_{\text{AMB}} = 0 \implies \Delta S_U = 0$ ciclo reversibile
+- $\Delta S_{\text{AMB}} > 0 \implies \Delta S_U > 0$ ciclo irreversibile
 ```

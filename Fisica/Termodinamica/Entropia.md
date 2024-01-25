@@ -73,7 +73,12 @@ $$ \Delta S \geq 0  $$
 - $> 0$ se trasformazione irreversibile
 - $= 0$ se trasformazione reversibile
 
-Questo significa che in un sistema isolato termicamente l'entropia può solo aumentare**
+Questo significa che in un sistema isolato termicamente **l'entropia può solo aumentare**, questo include l'universo termodinamico (ossia sistema + ambiente)
+$$ S_{U} = S_{\text{SIST}} + S_{\text{AMB}} $$
+
+## Variazioni di entropia per diverse trasformazioni
+
+[[trasformazione ciclica#Variazione dell' entropia]]
 
 # ANKI
 
