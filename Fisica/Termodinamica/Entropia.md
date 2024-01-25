@@ -39,3 +39,12 @@ $$ \Delta S = S(B) - S(A) = \int _{A}^B \! \frac{\partial Q}{T} $$
 
 
 # ANKI
+
+```anki
+deck: Fisica
+---
+Entropia definizione
+===
+Dal calcolo dell'integrale di Clausius tra due stati A e B attraverso diverse trasformazioni, si osserva che per una trasformazione reversibile 
+```
+<% tp.file.cursor(3) %>
