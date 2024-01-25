@@ -63,8 +63,17 @@ $$ \begin{align}
 \end{align}$$
 
 abbiamo quindi che
-$$ \Delta S = \int _{A,\gamma_{2}}^B \! \frac{\partial Q_{IRR}}{T} $$
+$$ \Delta S = \int _{A,\gamma_{2}}^B \! \frac{\partial Q_{REV}}{T} $$
+e che
+$$ \Delta S >\int _{A,\gamma_{1}}^B \! \frac{\partial Q_{IRR}}{T} $$
 
+Consideriamo quindi un sistema isolato termicamente, avremo quindi $\partial S = 0$
+ossia
+$$ \Delta S \geq 0  $$
+- $> 0$ se trasformazione irreversibile
+- $= 0$ se trasformazione reversibile
+
+Questo significa che in un sistema isolato termicamente l'entropia può solo aumentare**
 
 # ANKI
 
