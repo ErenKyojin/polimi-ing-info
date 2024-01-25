@@ -56,6 +56,15 @@ Consideriamo le seguenti trasformazini
 \end{document}
 ```
 
+possiamo calcolare l'integrale di Clausius:
+$$ \begin{align}
+\oint \! \frac{\partial Q}{T} &= \int _{A,\gamma_{1}}^B \! \frac{\partial Q_{IRR}}{T} + \int _{B,\gamma_{2}}^A \! \frac{\partial Q_{REV}}{T} =\int _{A,\gamma_{1}}^B \! \frac{\partial Q_{IRR}}{T} -\int _{A,\gamma_{2}}^B \! \frac{\partial Q_{REV}}{T} < 0 \\
+&\implies \int _{A,\gamma_{1}}^B \! \frac{\partial Q_{IRR}}{T} < \int _{A,\gamma_{2}}^B \! \frac{\partial Q_{REV}}{T} \implies \Delta S > \int _{A,\gamma_{1}}^B \! \frac{\partial Q_{IRR}}{T}
+\end{align}$$
+
+abbiamo quindi che
+$$ \Delta S = \int _{A,\gamma_{2}}^B \! \frac{\partial Q_{IRR}}{T} $$
+
 
 # ANKI
 
