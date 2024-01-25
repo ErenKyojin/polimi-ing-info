@@ -36,3 +36,6 @@ $$ \Delta S = S(B) - S(A) = \int _{A}^B \! \frac{\partial Q}{T} $$
 >[!important] Importante
 >Per calcolare $\Delta S$ tra due stati di equilibrio si deve considerare una trasformazione reversibile qualsiasi che unisca questi due stati, e calcolare poi l'integrale:
 >$$ \int _{A}^B \! \frac{\partial Q_{\text{REV}}}{T}  $$
+
+
+# ANKI
