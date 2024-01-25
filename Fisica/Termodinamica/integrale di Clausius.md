@@ -12,3 +12,20 @@ In particolare si ha che l'uguaglianza vale quando il ciclo è reversibile, ment
 Si può generalizzare con N sorgenti:
 
 ![[Integrale di Clausius.canvas|Integrale di Carnot]]
+
+Da cui si ricava l'integrale di Clausius:
+
+$$ \oint \! \frac{\partial Q}{T} \leq 0 $$
+
+= 0 per cicli reversibili
+< 0 per cicli irreversibili
+
+# ANKI
+
+```anki
+deck: Fisica
+---
+Integrale di clausius
+===
+$$ \oint \frac{\partial Q}{T} \leq 0 $$
+```
