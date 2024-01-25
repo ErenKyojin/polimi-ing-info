@@ -15,6 +15,10 @@ $$ 0 \leq \eta < 1 $$
 
 Importante notare lo strettamente minore, è impossibile avere una macchina con rendimento unitario
 
+## Rendimento di una macchina reversibile
+Possiamo calcolare il rendimento di una macchina reversibile tra 2 sorgenti considerando il rendimento di una macchina reversibile qualsiasi, ad esempio considerndo il ciclo di carnot abbiamo
+$$ \eta_{R} = 1 - \frac{T_{1}}{T_{2}} $$
+con $[T_{1},] = [T_{2}] = K$
 # ANKI
 
 ```anki
