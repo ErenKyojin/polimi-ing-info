@@ -9,6 +9,16 @@ creation date: 2024-01-24
 >>[!dim]
 >>#### 1
 >>Consideriamo una macchina R reversibile e una macchina X non reversibile
+>>![[Teorema di carnot.canvas|Teorema di carnot]]
+>>avranno come rendimento
+>>- $\eta_{R} = \dfrac{\mathcal{L}'}{Q_{2}'}$
+>>- $\eta_{N} = \dfrac{\mathcal{L}}{Q_{2}}$
+>>
+>>Se poniamo $\mathcal{L} = \mathcal{L}'$
+>>$$\eta_{R} = \frac{\mathcal{L}}{Q_{2}'}\quad;\quad \eta_{X} = \frac{\mathcal{L}}{Q_{2}}$$
+>>
+>>Essendo $R$ reversibile, possiamo considerare la sua inversa $\bar{R}$, e farle sfruttare il lavoro $\mathcal{L}$  
+>>
 
 
 # ANKI
