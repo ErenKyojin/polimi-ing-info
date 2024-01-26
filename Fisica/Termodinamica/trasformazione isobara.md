@@ -18,6 +18,9 @@ considerando la definizione di calore molare a pressione costante
 $$
 Q = ncp(T_{p }-T_{i})
 $$
+
+### Entropia in una trasformazione isobara
+$$ p_{i} = p_{p} \implies nc_{p}\ln\left( \frac{T_{p}}{T_{i}} \right) $$
 # ANKI
 
 ```anki
@@ -49,4 +52,13 @@ Calore lungo unisobara
 $$
 Q = ncp(T_{p }-T_{i})
 $$
+```
+
+
+```anki
+deck: Fisica
+---
+Entropia in una trasformazione isobara
+===
+$$ p_i = p_p \implies nc_p \ln\left(\frac{T_p}{T_i}\right) $$
 ```

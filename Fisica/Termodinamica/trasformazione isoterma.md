@@ -13,6 +13,10 @@ modification date: 2023-07-07 09:14
 Il lavoro lungo una trasformazione isoterma reversibile:
 $$ \mathcal{L}=\int _{V_{i}}^{V_{p}} \! p \, \mathrm{d}V = nRT \int_{V_{i}}^{V_{p}} \frac{dV}{V} = nRT\ln\left( \frac{V_{p}}{V_{i}} \right) $$
 
+### Entropia in una trasformazione isoterma
+$$ T_{i} = T_{p} \implies nR \ln\left( \frac{V_{p}}{V_{i}} \right) $$
+
+
 # ANKI
 
 ```anki
@@ -32,4 +36,13 @@ deck: Fisica
 Lavoro in una trasformazione isoterma reversibile
 ===
 $$ \mathcal{L} = nRT \ln\left(\frac{V_p}{V_i}\right) $$
+```
+
+
+```anki
+deck: Fisica
+---
+Entropia in una trasformazione isoterma
+===
+$$ T_p = T_i \implies \Delta S =nR\ln\left(\frac{V_p}{V_i}\right) $$
 ```

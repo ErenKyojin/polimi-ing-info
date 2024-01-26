@@ -60,4 +60,3 @@ Variazione dell'entropia in una trasformazione isocora
 ===
 $$V_p = V_i \implies \Delta S =nc_V \ln\left(\frac{T_p}{T_i}\right)$$
 ```
-<% tp.file.cursor(3) %>
