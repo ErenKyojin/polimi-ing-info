@@ -14,7 +14,8 @@ Un sistema che interagisce termicamente con un termostato scambia calore portand
 Un sistema a contatto con un termostato a temperatura T che esegue una trasformazione quasi statica, avrà la temperatura costante $T$.
 
 ### Variazione dell'[[entropia]]
-Un termostato scambia calore a temperatura costante, quindi si può inte
+Un termostato scambia calore a temperatura costante, quindi si può interpretare come una trasformazione reversibile:
+$$ \Delta S = \int  \! \frac{\partial Q_{\text{rev}}}{T}  = \frac{Q}{T} $$
 # ANKI
 
 ```anki

@@ -36,6 +36,12 @@ graph LR
 \end{document}
 ```
 
+### Variazione dell'[[entropia]]
+Durante i cambiamenti di fase la temperatura è costante allora, così come per un termostato si ha
+$$ \Delta S =\int  \! \frac{\partial Q}{T} = \frac{Q}{T} = \frac{\lambda m}{T}  $$
+
+
+
 # ANKI
 
 ```anki
