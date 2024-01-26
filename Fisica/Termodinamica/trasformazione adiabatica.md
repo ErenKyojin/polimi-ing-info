@@ -52,6 +52,13 @@ $$\begin{align}
 pV^{\gamma} &= \cost \\
 pT^{\gamma/(1-\gamma)}&=\cost
 \end{align}$$
+
+### Variazione dell'[[entropia]]
+In una trasformazione adiabatica non c'è scambio di calore tra sistema e ambiente, abbiamo quindi due casi:
+
+- $\Delta S_{\text{sist}} = \Delta S_{\text{amb}} =0$ trasformazione reversibile
+- $\Delta S_{\text{sist}} > 0, \Delta S_{\text{amb}} \geq 0$ trasformazione irreversibile
+
 # ANKI
 
 ```anki

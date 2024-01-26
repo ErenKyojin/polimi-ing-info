@@ -79,6 +79,7 @@ $$ S_{U} = S_{\text{SIST}} + S_{\text{AMB}} $$
 ## Variazioni di entropia per diverse trasformazioni
 
 [[trasformazione ciclica#Variazione dell' entropia]]
+[[trasformazione adiabatica]]
 
 # ANKI
 
