@@ -174,10 +174,22 @@ $$\begin{align}
 \draw (A.center) to (B.center) to (C.center) to (D.center) to (A.center);
 \draw[dashed] (S2.center) to (B.center);
 \draw[dashed] (S1.center) to (A.center);
-\draw[das]
+\draw[dashed] (T1.center) to (A.center);
+\draw[dashed] (T2.center) to (D.center);
+\node[below] at (S1){$S_1$};
+\node[below] at (S2){$S_2$};
+\node[left] at (T1){$T_1$};
+\node[left] at (T2){$T_2$};
 \end{tikzpicture}
 \end{document}
 ```
+considerato il ciclo percorso in senso orario.
+
+Si tratta di due isoterme e di due adiabatiche
+
+avremo come lavoro
+$$ \mathcal{L} = \Delta T\Delta S = (T_{2}-T_{1})(S_{2}-S_{1}) $$
+
 # ANKI
 
 ```anki
