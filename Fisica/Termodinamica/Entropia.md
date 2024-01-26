@@ -133,7 +133,29 @@ In rosso $\mathcal{L} = Q$
 \end{tikzpicture}
 \end{document}
 ```
+$$ (\partial Q)_{\text{REV}} = 0 \implies dS =0 \implies S= \cost $$
+Quindi è un isotermica
 
+#### Isoterma Reversibile
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[-latex] (0,0) -- (4,0)node[right]{S};
+\draw[-latex] (0,0) -- (0,4)node[left]{T};
+\node (A) at (1,1) {$\bullet$};
+\node (B) at (3.5,1) {$\bullet$};
+\node[left] at (A){A};
+\node[right] at (B){B};
+\draw (A.center) to (B.center);
+\end{tikzpicture}
+\end{document}
+```
+
+$$\begin{align}
+(\partial Q)_{\text{rev}} = \partial \mathcal{L} = \frac{nRTdV}{V} \\
+\Delta S
+\end{align}$$
 # ANKI
 
 ```anki
