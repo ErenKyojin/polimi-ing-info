@@ -40,8 +40,6 @@ graph LR
 Durante i cambiamenti di fase la temperatura è costante allora, così come per un termostato si ha
 $$ \Delta S =\int  \! \frac{\partial Q}{T} = \frac{Q}{T} = \frac{\lambda m}{T}  $$
 
-
-
 # ANKI
 
 ```anki
@@ -58,4 +56,14 @@ solido -> gassoso: sublimazione
 gassoso -> solido: brinamento
 
 I cambiamenti di fase avvengono a temperatura costante, assorbendo o cedendo calore per cambiare la propria struttura. Nei cambiamenti di fase si definisce il calore latente
+```
+
+
+```anki
+deck: Fisica
+---
+Variazione dell'entropia nei cambiamenti di fase
+===
+I cambiamenti di fase avvengono a temperatura costante, si ha quindi
+$$ \Delta S = \int \frac{\partial Q}{T}=\frac{Q}{T} = \frac{\lambda m}{T} $$
 ```

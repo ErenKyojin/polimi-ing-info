@@ -28,3 +28,13 @@ Si definisce termostato un sistema con capacità termica infinita, definito da u
 
 Un sistema che interagisce termicamente con un termostato scambia calore portandosi alla stessa temperatura del termostato
 ```
+
+
+```anki
+deck: Fisica
+---
+Variazione dell'entropia per un termostato
+===
+In un termo
+```
+<% tp.file.cursor(3) %>
