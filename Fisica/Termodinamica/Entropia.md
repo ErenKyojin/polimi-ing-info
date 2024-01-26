@@ -88,7 +88,22 @@ $$ S_{U} = S_{\text{SIST}} + S_{\text{AMB}} $$
 [[trasformazione isoterma#Entropia in una trasformazione isoterma]]
 
 # Diagramma Lavoro-Entropia
-L'area sottesa al
+
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[-latex] (0,0) -- (4,0);
+\draw[-latex] (0,0) -- (0,4);
+\node (A) at (1,3) {$\bullet$};
+\node (B) at (3.5,3.5) {$\bullet$};
+\draw (A.center) to[out=50, in=220] (B.center);
+\draw[dashed] (A.center) -- ++ (0,-3);
+\draw[dashed] (B.center) -- ++ (0,-3.5);
+\draw[fill=]
+\end{tikzpicture}
+\end{document}
+```
+
 
 # ANKI
 
