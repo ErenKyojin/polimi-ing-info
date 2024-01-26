@@ -82,6 +82,9 @@ $$ S_{U} = S_{\text{SIST}} + S_{\text{AMB}} $$
 [[trasformazione adiabatica#Variazione dell' entropia]]
 [[termostati#Variazione dell' entropia|termostato, variazione dell'entropia]]
 [[cambiamenti di fase]]
+#### Trasformazioni di un [[Gas perfetti|gas perfetto]]
+[[trasformazione isocora|isocora]]
+
 # ANKI
 
 ```anki

@@ -17,6 +17,10 @@ dU &= \delta Q \\
 \delta Q &= nc_{V}dT
 \end{align} $$
 
+### Entropia in una trasformazione isocora
+$$ V_{P} = V_{i} \implies \Delta S = nc_{V}\ln\left( \frac{T_{p}}{T_{i}} \right) $$
+
+
 # ANKI
 
 ```anki
@@ -47,3 +51,13 @@ Calore di una trasformazione isocora
 ===
 $$ \delta Q = nc_VdT $$
 ```
+
+
+```anki
+deck: Fisica
+---
+Variazione dell'entropia in una trasformazione isocora
+===
+$$V_p = V_i \implies \Delta S =nc_V \ln\left(\frac{T_p}{T_i}\right)$$
+```
+<% tp.file.cursor(3) %>
