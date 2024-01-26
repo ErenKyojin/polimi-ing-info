@@ -87,6 +87,9 @@ $$ S_{U} = S_{\text{SIST}} + S_{\text{AMB}} $$
 [[trasformazione isobara#Entropia in una trasformazione isobara]]
 [[trasformazione isoterma#Entropia in una trasformazione isoterma]]
 
+# Diagramma Lavoro-Entropia
+L'area sottesa al
+
 # ANKI
 
 ```anki
