@@ -153,9 +153,31 @@ Quindi è un isotermica
 ```
 
 $$\begin{align}
-(\partial Q)_{\text{rev}} = \partial \mathcal{L} = \frac{nRTdV}{V} \\
-\Delta S
+(\partial Q)_{\text{rev}} &= \partial \mathcal{L} = \frac{nRTdV}{V} \\
+\Delta S &= \frac{Q}{T}
 \end{align}$$
+
+#### Ciclo di Carnot
+```tikz
+\begin{document}
+\begin{tikzpicture}
+\draw[-latex] (0,0) -- (4,0)node[right]{S};
+\draw[-latex] (0,0) -- (0,4)node[left]{T};
+\node (A) at (1,1) {$\bullet$};
+\node (B) at (3.5,1) {$\bullet$};
+\node (D) at (1,3) {$\bullet$};
+\node (C) at (3.5,3) {$\bullet$};
+\node (T1) at (0,1){};
+\node (T2) at (0,3){};
+\node (S1) at (1,0){};
+\node (S2) at (3.5,0){};
+\draw (A.center) to (B.center) to (C.center) to (D.center) to (A.center);
+\draw[dashed] (S2.center) to (B.center);
+\draw[dashed] (S1.center) to (A.center);
+\draw[das]
+\end{tikzpicture}
+\end{document}
+```
 # ANKI
 
 ```anki
