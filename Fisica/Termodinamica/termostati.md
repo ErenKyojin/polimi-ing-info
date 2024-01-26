@@ -35,6 +35,6 @@ deck: Fisica
 ---
 Variazione dell'entropia per un termostato
 ===
-In un termo
+In un termostato il calore è scambiato a temperatura costante, ossia lo scambio di calore avviene in modo "lento", quindi è una trasformazione reversibile
+$$ \Delta S = \int \frac{\partial Q}{T} = \frac{Q}{T} $$
 ```
-<% tp.file.cursor(3) %>
