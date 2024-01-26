@@ -97,3 +97,14 @@ $$ TV^{\gamma - 1} = \cost $$
 $$  pV^{\gamma} = \cost$$
 $$ pT^{\gamma /(1 - \gamma)}=  \cost $$
 ```
+
+
+```anki
+deck: Fisica
+---
+Variazione dell'entropia in una trasformazione adiabatica
+===
+In una trasformazione adiabatica non c'è scambio di calore tra ambiente e sistema, abbiamo quindi due possibilità.
+- $\Delta S_{\text{sistema}} = \Delta S_{\text{ambiente}} = 0$ trasformazione reversibile
+- $\Delta S_{\text{sistema}} > 0, \Delta S_{\text{ambiente}} \geq 0$ trasformazione irreversibile
+```
