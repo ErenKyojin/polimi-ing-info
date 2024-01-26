@@ -77,6 +77,7 @@ Il rendimento è sempre $0 \leq \eta < 1$, non può mai essere $=1$
 
 
 ```anki
+id: 1706271945045
 deck: Fisica
 ---
 Rendimento di una macchina reversibile

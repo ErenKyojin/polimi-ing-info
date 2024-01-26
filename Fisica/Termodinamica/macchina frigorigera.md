@@ -16,6 +16,7 @@ $$\Delta U = \mathcal{L} - Q = 0 \implies \mathcal{L} = Q \implies \mathcal{L} =
 # ANKI
 
 ```anki
+id: 1706271941645
 deck: Fisica
 ---
 Macchina frigorifera

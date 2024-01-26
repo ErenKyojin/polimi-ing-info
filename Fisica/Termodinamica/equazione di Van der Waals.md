@@ -9,6 +9,7 @@ $$ \left( p + a \frac{n^2}{V^2} \right)(V - bn) = nRT $$
 # ANKI
 
 ```anki
+id: 1706271936720
 deck: Fisica
 ---
 Equazione di Van der Waals

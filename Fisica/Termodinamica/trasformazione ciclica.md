@@ -59,6 +59,7 @@ Inoltre possiamo suddividere il caolre in:
 
 
 ```anki
+id: 1706271948545
 deck: Fisica
 ---
 Entropia in una trasformazione ciclica

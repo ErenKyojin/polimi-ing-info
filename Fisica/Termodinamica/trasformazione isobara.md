@@ -56,6 +56,7 @@ $$
 
 
 ```anki
+id: 1706271950545
 deck: Fisica
 ---
 Entropia in una trasformazione isobara

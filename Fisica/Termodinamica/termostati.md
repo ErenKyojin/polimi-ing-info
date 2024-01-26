@@ -31,6 +31,7 @@ Un sistema che interagisce termicamente con un termostato scambia calore portand
 
 
 ```anki
+id: 1706271945020
 deck: Fisica
 ---
 Variazione dell'entropia per un termostato

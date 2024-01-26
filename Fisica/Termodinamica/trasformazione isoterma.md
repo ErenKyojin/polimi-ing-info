@@ -40,6 +40,7 @@ $$ \mathcal{L} = nRT \ln\left(\frac{V_p}{V_i}\right) $$
 
 
 ```anki
+id: 1706271948470
 deck: Fisica
 ---
 Entropia in una trasformazione isoterma

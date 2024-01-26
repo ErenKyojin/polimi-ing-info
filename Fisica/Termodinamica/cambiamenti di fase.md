@@ -60,6 +60,7 @@ I cambiamenti di fase avvengono a temperatura costante, assorbendo o cedendo cal
 
 
 ```anki
+id: 1706271945270
 deck: Fisica
 ---
 Variazione dell'entropia nei cambiamenti di fase

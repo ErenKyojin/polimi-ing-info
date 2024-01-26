@@ -54,6 +54,7 @@ $$ \delta Q = nc_VdT $$
 
 
 ```anki
+id: 1706271950520
 deck: Fisica
 ---
 Variazione dell'entropia in una trasformazione isocora

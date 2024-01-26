@@ -100,6 +100,7 @@ $$ pT^{\gamma /(1 - \gamma)}=  \cost $$
 
 
 ```anki
+id: 1706271950571
 deck: Fisica
 ---
 Variazione dell'entropia in una trasformazione adiabatica

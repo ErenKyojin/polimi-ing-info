@@ -193,6 +193,7 @@ $$ \mathcal{L} = \Delta T\Delta S = (T_{2}-T_{1})(S_{2}-S_{1}) $$
 # ANKI
 
 ```anki
+id: 1706271937346
 deck: Fisica
 ---
 Entropia definizione
@@ -209,6 +210,7 @@ S è detta entropia ed è:
 
 
 ```anki
+id: 1706271941994
 deck: Fisica
 ---
 Calcolo dell'entropia

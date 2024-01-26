@@ -23,6 +23,7 @@ $$ \oint \! \frac{\partial Q}{T} \leq 0 $$
 # ANKI
 
 ```anki
+id: 1706271936627
 deck: Fisica
 ---
 Integrale di clausius

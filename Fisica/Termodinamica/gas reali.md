@@ -19,6 +19,7 @@ Inoltre per i gas reali su può sfruttare l'[[equazione di Van der Waals]]
 # ANKi
 
 ```anki
+id: 1706271936670
 deck: Fisica
 ---
 gas reali

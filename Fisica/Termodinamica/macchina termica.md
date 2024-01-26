@@ -16,6 +16,7 @@ $$ \Delta U = Q - \mathcal{L} = 0 \implies \mathcal{L} = Q \implies \mathcal{L} 
 # ANKI
 
 ```anki
+id: 1706271941619
 deck: Fisica
 ---
 macchina termica

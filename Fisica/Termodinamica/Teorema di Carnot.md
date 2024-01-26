@@ -36,6 +36,7 @@ creation date: 2024-01-24
 # ANKI
 
 ```anki
+id: 1706271937146
 deck: Fisica
 ---
 Teorema di Carnot
