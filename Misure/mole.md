@@ -24,5 +24,5 @@ mole
 La mole è la quantità di sostanza che contiene entità elementari quanti sono gli atomi contenuti in $0.012$ kg di carbonio-12.
 Dato un sistema con $N$ unità elementari:
 $$ n = \frac{N}{N_a} $$
-dove $n$ è il numero di avogadro
+dove $N_a$ è il numero di avogadro
 ```
