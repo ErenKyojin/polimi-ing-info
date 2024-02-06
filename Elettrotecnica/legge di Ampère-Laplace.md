@@ -36,3 +36,16 @@ Le linee di forza del campo magnetico di una spira di corrente circolare è rapp
 Se si hanno $N$ spire di raggio uguale e disposte coassialmente abbiamo un [[solenoide]] 
 
 [[legge di ampère]]
+
+
+# ANKI
+
+```anki
+deck: Elettrotecnica
+---
+Legge di Ampère-Laplace
+===
+La legge di Ampère-Laplace ci fornisce il campo magnetico per una spira chiusa di qualsiasi forma attraversata da una corrente I, in particolare abbiamo:
+$$ \bar{B} = \frac{\mu_0}{4\pi}I \oint \frac{\hat{u_r} \times \hat{u_T}} $$
+```
+<% tp.file.cursor(3) %>
