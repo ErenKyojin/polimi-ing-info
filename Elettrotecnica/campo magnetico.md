@@ -37,3 +37,14 @@ Attraverso la regola della mano destra possiamo ottenere il verso di $S$, per la
 invece $F = qvB \sin x$.
 
 Se una carica di prova si muove in una ragione dove vi è un campo elettrico $\bar{E}$ ed un campo magnetico $\bar{B}$ si ha una forza risultante sulla particella detta [[forza di lorentz]] 
+
+# ANKI
+
+```anki
+deck: <% tp.file.cursor(0) %>
+---
+<% tp.file.cursor(1) %>
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
