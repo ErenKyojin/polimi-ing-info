@@ -51,5 +51,7 @@ Il campo di induzione magnetica $\bar{B}$ è proporzionale alla somma dei due ca
 
 Si ha quindi
 $$ \bar{B} = \mu_0 (\bar{H} + \bar{\mathcal{M}}) $$
+
+L'effetto del campo magnetico su una carica di prova si vede attraverso la forza di Lorentz
+$$ \bar{F} = q\bar{v} \times \bar{B} $$
 ```
-<% tp.file.cursor(3) %>
