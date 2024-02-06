@@ -14,7 +14,7 @@ Questi 3 campi separano il valore del campo magnetico $\bar B$ complessivamente 
 
 La relazione che lega tutti questi campi è:
 $$\bar B =\mu_0(\bar H + \mathcal{\bar M}) \tag{1}$$
-Con $\mu_0$ è la permeabilità elettrica nel vuoto
+Con $\mu_0$ è la permeabilità  magnetica nel vuoto
 Essendo $\mathcal{\bar M}$ un campo dovuto alla presenza di un mezzo materiale, nel vuoto quindi tale campo è nullo e $\bar B= \mu_0\bar H$
 
 
@@ -43,8 +43,13 @@ Se una carica di prova si muove in una ragione dove vi è un campo elettrico $\b
 ```anki
 deck: Elettrotecnica
 ---
-Campo magnetico
+Campo di induzione magnetica
 ===
-Il campo magnetico $$
+Il campo di induzione magnetica $\bar{B}$ è proporzionale alla somma dei due campi $\bar{H}$ e $\bar{\mathcal{M}}$ detti rispettivamente:
+- $\bar{H}$ campo magnetico
+- $\bar{\mathcal{M}}$ campo di magnetizzazione
+
+Si ha quindi
+$$ \bar{B} = \mu_0 (\bar{H} + \bar{\mathcal{M}}) $$
 ```
 <% tp.file.cursor(3) %>
