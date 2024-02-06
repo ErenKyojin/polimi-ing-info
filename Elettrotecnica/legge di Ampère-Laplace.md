@@ -46,6 +46,8 @@ deck: Elettrotecnica
 Legge di Ampère-Laplace
 ===
 La legge di Ampère-Laplace ci fornisce il campo magnetico per una spira chiusa di qualsiasi forma attraversata da una corrente I, in particolare abbiamo:
-$$ \bar{B} = \frac{\mu_0}{4\pi}I \oint \frac{\hat{u_r} \times \hat{u_T}} $$
+$$ \bar{B} = \frac{\mu_0}{4\pi}I \oint \frac{\hat{u_T} \times \hat{u_r}}{r^2} d\bar{l} $$
+
+In particolare se la spira è circolare si ha: 
+$$\bar{B} = \frac{\mu_0 I s^2}{2r^3}$$
 ```
-<% tp.file.cursor(3) %>
