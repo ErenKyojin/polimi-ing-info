@@ -41,10 +41,10 @@ Se una carica di prova si muove in una ragione dove vi è un campo elettrico $\b
 # ANKI
 
 ```anki
-deck: <% tp.file.cursor(0) %>
+deck: Elettrotecnica
 ---
-<% tp.file.cursor(1) %>
+Campo magnetico
 ===
-<% tp.file.cursor(2) %>
+Il campo magnetico $$
 ```
 <% tp.file.cursor(3) %>
