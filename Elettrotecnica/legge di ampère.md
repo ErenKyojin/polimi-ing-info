@@ -16,3 +16,14 @@ Il ersore $\hat{u}_{N}$ che indica l'ordintamento di $S$ va orientata come il ve
 >La legge di Ampere applicata ad un Toro circondato da $N$ spire ugualmente distanziate ci da un valore costante del campo magnetico all'interno del toro $B = \mu_{0}nI$ con $n = \frac{N}{L}$ con $L$ cerchio contenuto nel toro, mentre per qualsiasi percorso al di fuori del toro $B = 0$
 
 [[Flusso magnetico]]  
+
+# ANKI
+
+```anki
+deck: Elettrotecnica
+---
+
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
