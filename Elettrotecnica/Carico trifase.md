@@ -31,9 +31,3 @@ Trasformazioni tra carichi trifase bilanciati
 Si passa da carichi trifase bilanciati a triangolo a carichi trifase bilanciati a stella (e viceversa) attraverso la formula:
 $Z_\Delta = 3Z_Y$
 ```
-
-# a
-## B
-### C
-#### D
-##
