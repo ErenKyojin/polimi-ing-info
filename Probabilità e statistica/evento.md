@@ -14,6 +14,7 @@
 
 Quindi ottengiamo $E \subseteq \mathbb{R}$   attraverso $\cap, \cup, \neg$ piú numerabili di intervalli.
 
+$\varepsilon$ insieme di tutti gli eventi
 
 # Eventi speciali
 
@@ -25,3 +26,12 @@ Partiamo dal sottoinsieme che li comprende tutti $\Omega$ (spazio campionario), 
 >
 
 
+# ANKI
+
+```anki
+deck: PSI
+---
+Evento
+===
+Un evento è una proposizione riguardo al risultato dell'esperimento, sottoinsieme di $\Omega$
+```

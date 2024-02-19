@@ -72,3 +72,12 @@
 >Obiettivo, calcolare la [[probabilità]] di un [[evento]]. 
 >
 
+# ANKI
+
+```anki
+deck: PSI
+---
+Esperimento Aleatorio
+===
+Un esperimento aleatorio è un esperimento il cui esito non è scontato
+```
