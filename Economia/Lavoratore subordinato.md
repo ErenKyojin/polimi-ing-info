@@ -9,6 +9,5 @@ deck: Elettrotecnica
 ---
 Lavoratore subordinato
 ===
-Un lavoratore subordinato è chi si obbliga tramite retribuzione a collaborare nell'imperesa, 
+Un lavoratore subordinato è chi si obbliga tramite retribuzione a collaborare nell'imperesa, tramite attività fisica o intelletturale, sotto la direzione dell'imprenditore e alle sue dipendenza
 ```
-<% tp.file.cursor(3) %>
