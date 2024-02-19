@@ -28,6 +28,12 @@ L'impresa
 
 Per fondare un'impresa non è strettamente necessario capitale proprio, l'imprendiore è libero di raccogliere capitale da esterni in base all'idea di business, ma avere una base di capitale è ben visto in quanto mostra quantomeno che l'imprenditore "fa sul serio" oltre a coprire da insolvenza ed eventuali debiti
 
+Per fondare un'impresa è necessario un [[business plan]]
+
+Un'impresa "muore" dopo un tempo indefinito, quando non è più in grado di generare profitti, può "morire" attraverso diverse procedure:
+- [[fallimento]]
+- [[liquidazione]]
+- [[Acquisizione]]
 # ANKI
 
 ```anki
