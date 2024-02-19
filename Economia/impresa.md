@@ -7,6 +7,12 @@ Un impresa affinchè sia un attività deve essere
 - Professionale (deve essere svolta in maniera sistematica)
 	- Questo non significa che debba essere a tempo pieno o svolta esclusivamente, ad esempio una spiaggia d'estate e un rifugio in inverno sono due imprese gestibili dallo stesso imprenditore
 	- Lo svolgimento inoltre può esere delegato
+- Organizzata (deve avere una struttura organizzativa per la gestione delle [[risorse]])
+
+>[!oss] differenza tra impresa, [[società]], [[azienda]], [[ditta]]
+> - Società è un impresa che richiede più persone
+> - Azienda è l'insieme dei beni disponibili all'impresa
+> - Ditta è il nome, univoco e registrato, utilizzabile solo dall'impresa
 
 # ANKI
 
@@ -15,6 +21,11 @@ deck: Economia
 ---
 Impresa
 ===
-L'impresa è l'attività economica svolta professionalmente al fine della produzione o dello scambio di beni o di insiemi
+L'impresa è l'attività economica svolta professionalmente al fine della produzione o dello scambio di beni o di servizi
+Affinchè un'attività sia detta impresa deve essere 
+- economica (deve avere valore per qualcuno)
+- professionale (deve essere sistematica)
+- organizzata (gestione delle risorse)
+
 ```
 
