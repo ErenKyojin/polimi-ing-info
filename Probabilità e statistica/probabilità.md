@@ -23,5 +23,7 @@ $$ P(A) := \sum_{\left\{ i :w_{i} \in A \right\} } P_{i} $$
 >$\implies P(\left\{ w_{i} \right\}) = P_{i}$
 >$\implies A,B\ t.c.\ |A|=|B|$ posso determinare $P(A), P(B)$? **Non** con questa funzione!
 
+>[!def] 
+>Una probabilità è una funzione qualsiasi $P : \varepsilon \to $
 
 # ![[Probabilità condizionata]]

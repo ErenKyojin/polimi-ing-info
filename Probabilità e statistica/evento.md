@@ -35,3 +35,43 @@ Evento
 ===
 Un evento è una proposizione riguardo al risultato dell'esperimento, sottoinsieme di $\Omega$
 ```
+
+
+```anki
+deck: PSI
+---
+Evento certo
+===
+Un evento o il suo negato, è scontato, si indica con $\Omega$
+```
+
+
+```anki
+deck: PSI
+---
+Evento impossibile
+===
+Un evento ed il suo negato, è impossibile $\varnothing$
+```
+
+
+```anki
+deck: PSI
+---
+Eventi incompatibili
+===
+due eventi E ed F si dicono incompatibili se
+$E \land F = \varnothing$
+```
+
+
+```anki
+deck: PSI
+---
+Implica
+===
+<% tp.file.cursor(2) %>
+```
+<% tp.file.cursor(3) %>
+
+
