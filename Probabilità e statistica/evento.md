@@ -14,7 +14,7 @@
 
 Quindi ottengiamo $E \subseteq \mathbb{R}$   attraverso $\cap, \cup, \neg$ piú numerabili di intervalli.
 
-$\varepsilon$ insieme di tutti gli eventi
+[[insieme di tutti i possibili eventi]]
 
 # Eventi speciali
 
