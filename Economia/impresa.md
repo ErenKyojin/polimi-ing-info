@@ -14,6 +14,18 @@ Un impresa affinchè sia un attività deve essere
 > - Azienda è l'insieme dei beni disponibili all'impresa
 > - Ditta è il nome, univoco e registrato, utilizzabile solo dall'impresa
 
+L'impresa
+1. Utilizza beni e servizi di input
+2. Li trasforma attraverso risorse in output
+	- Capitale fisico (strutture, macchinari, ...)
+	- Capitale umano (personale)
+	- Risorse immateriali (nuove tecnologie, [[brevetti]])
+3. Vende l'output
+4. Finanzia le proprie attività
+
+
+[[obiettivi di impresa]]
+
 # ANKI
 
 ```anki
