@@ -24,6 +24,9 @@ $$ P(A) := \sum_{\left\{ i :w_{i} \in A \right\} } P_{i} $$
 >$\implies A,B\ t.c.\ |A|=|B|$ posso determinare $P(A), P(B)$? **Non** con questa funzione!
 
 >[!def] 
->Una probabilità è una funzione qualsiasi $P : \varepsilon \to $
+>Una probabilità è una funzione qualsiasi $P  : \varepsilon \to \mathbb{R}$ :
+> - $P(E) \geq 0\ \forall E$ positività
+> - $P(\Omega) = 1$
+> - Se $E_{1},E_{2},E_{3}$ sono a due a due incompatibili:
 
 # ![[Probabilità condizionata]]
