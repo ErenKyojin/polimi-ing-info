@@ -1,6 +1,12 @@
 >[!def]
 >Si indica con $\Omega$, è l'[[insieme]] di tutti i [[caso elementare|casi elementari]]
 
+### Spazio campionario finito
+Se $\Omega < \infty$ la probabilità P è univocamente determinata dalle quantità
+$$ p(\omega) =P ({\omega})\qquad \omega \in \Omega $$
+
+In quanto
+$$P(E) = \sum_{\omega \in E} p(\omega) \quad\forall E \in \mathcal{P} (\Omega)$$
 
 # Spazio campionario equiprobabile o uniforme
 Definita una funzione di [[probabilità]], sapendo che
