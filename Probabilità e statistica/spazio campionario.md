@@ -8,6 +8,11 @@ $$ p(\omega) =P ({\omega})\qquad \omega \in \Omega $$
 In quanto
 $$P(E) = \sum_{\omega \in E} p(\omega) \quad\forall E \in \mathcal{P} (\Omega)$$
 
+#### Proprietà di $p : \Omega \to \mathbb{R}$
+- $p(\omega ) \geq 0\quad \forall \omega$ positività
+- $\sum_{\omega} p(\omega) = 1$ normalizzazione
+
+
 # Spazio campionario equiprobabile o uniforme
 Definita una funzione di [[probabilità]], sapendo che
  $$  \implies p_{1} = p_{2} = \dots = p_{n} = :p, \quad p=? $$
