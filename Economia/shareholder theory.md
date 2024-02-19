@@ -12,4 +12,3 @@ Shareholder theory
 L'obiettivo di un impresa è generare valore per i proprietari, remunerandoli in base alla loro capacità di generare utile, dove l'utile è
  $$\text{ utile } = \text{ ricavi } - \text{ costi }$$
 ```
-<% tp.file.cursor(3) %>
