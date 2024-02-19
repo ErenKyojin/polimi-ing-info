@@ -26,4 +26,5 @@ $$f : A \to B$$
 - Le assegnazioni possibili sono ora $b - 1$
 - ...
 
-$b\times(b-1)\times(b-2)\times\dots \times(b - a + 1) = b!$
+$$b\times(b-1)\times(b-2)\times\dots \times(b - a + 1) = \frac{b!}{(b-a)!}$$
+
