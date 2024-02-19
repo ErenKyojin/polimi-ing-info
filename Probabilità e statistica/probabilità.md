@@ -32,7 +32,7 @@ $$ P(A) := \sum_{\left\{ i :w_{i} \in A \right\} } P_{i} $$
 >Rispettivamente positività, normalizzazione e additività
 
 Di coneguenza abbiamo le seguenti proprietà:
-- $P(\bar{E}) = 1 - P(\bar{E})$
+- $P(\bar{E}) = 1 - P(E)$
 - $0 \leq P(E) \leq 1$
 - Se $E$ implica (che si indica con $\leq$) $F$, allora $P(E) \leq P(F)$
 
