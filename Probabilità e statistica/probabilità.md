@@ -36,7 +36,7 @@ Di coneguenza abbiamo le seguenti proprietà:
 - $0 \leq P(E) \leq 1$
 - Se $E$ implica (che si indica con $\leq$) $F$, allora $P(E) \leq P(F)$
 - $P(E \lor F) = P(E) + P(F) - P(E \land F)$
-$P(E \lor F) = P((E \land F) \lor (E \land \bar{F}) \land (\bar{E} \lor F)))$ sono tutti e tre incompatibili a coppie (facile da verificare), quindi possiamo riscrivere come sopra                                                                                                                                                                                                                                                                                                                            
+$P(E \lor F) = P((E \land F) \lor (E \land \bar{F}) \land (\bar{E} \lor F)))$ sono tutti e tre incompatibili a coppie (facile da verificare), quindi possiamo riscrivere come sopra                                         
 
 ![[Probabilità condizionata]]
 

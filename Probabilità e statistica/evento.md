@@ -26,6 +26,20 @@ Partiamo dal sottoinsieme che li comprende tutti $\Omega$ (spazio campionario), 
 >
 
 
+### Eventi e insiemi
+
+| Evento                             | insieme                                   |
+| ---------------------------------- | ----------------------------------------- |
+| Evento certo $\Omega$              | Insieme $\Omega$ [[spazio campionario]]   |
+| evento E                           | sottoinsieme E di Omega                   |
+| Evento impossibile   $\varnothing$ | insieme vuoto   $\varnothing$             |
+| Logica booleana $\varepsilon$      | Insieme delle parti $\mathcal{P}(\Omega)$ |
+| AND $\land$                        | intersezione                              |
+| OR   $\lor$                        | unione                                    |
+| NOT  $\bar{}$                      | complementare                             |
+| implicazione  $\leq$               | contenimento $\subseteq$                  |
+
+
 # ANKI
 
 ```anki
