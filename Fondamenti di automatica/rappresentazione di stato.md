@@ -44,4 +44,5 @@ Lo stato al tempo $k+1$ è funzione dello stato al tempo $k$, l'equazione di usc
 >[!esempio] [[Equazione logistica]]
 >Modello di crecità della popolazione
 >$x(k + 1) = x(k) + rx(k)\left[ 1 - \frac{x(k)}{K} \right]$ implementando risorse limitate
->
+
+
