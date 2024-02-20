@@ -12,6 +12,8 @@ un problema di controllo è costtuito quindi da:
 - variabili su cui agire per influenzare il sistema, ingresso
 - una descrizione dell'andamento desiderato
 
+Un problema di controllo si risolve attraverso strumenti  tecnologici, in particolare [[sensori]] e [[attuatori]], e attraverso [[leggi di controllo]] che comandano gli attuatori in base al comportamento desiderato
+
 # ANKI
 
 ```anki
