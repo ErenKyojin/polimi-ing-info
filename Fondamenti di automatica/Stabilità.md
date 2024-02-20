@@ -132,7 +132,18 @@ Quindi, generalizzando al caso non diagonalizzabile piú avanti, in generale è 
 ```anki
 deck: Automatica
 ---
-Stabilità di un equilibrio
+Stabilità
 ===
+Sistema: $\dot x = f(x,u)$ tempo invariante
+equilibrio: $(\bar x, \bar u)$ tale che $f(
+\bar x, \bar u) = 0$
+condizione iniziale $x(t_0) = \bar{x} + \delta$ stato perturbato.
+Uno stato $\bar x$ si dice stabile se per ogni $\varepsilon > 0$ esiste un $\delta > 0$ tale che per tutti gli stati iniziali
+$$ || x_0 - \bar x || < \delta $$
+risulta
+$$ || x(t) - \bar {x} || < \varepsilon $$
+per ogni $t > t_0$
+Allora si dice equilibrio stabile
 
+"se prendendo un qualsiasi numero, ed un numero minore di esso, in nessun punto del tempo mi allontano oltre il primo numero"
 ```
