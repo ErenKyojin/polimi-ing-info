@@ -11,5 +11,5 @@ creation date: 2024-02-20
 fissati gli ingressi conosciamo il valore di uscita
 
 
->[!esempio] valvo
->
+>[!esempio] valvola
+> #todo
