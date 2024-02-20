@@ -112,6 +112,30 @@ y(t) = g(x(t),u(t),t)
 >[!def]
 >$f$ e $g$ lineare in $x$ e $u$ allora il sitema dinamico è **lineare **
 
+>[!oss]- notazione
+>$\frac{d}{dt}x = \dot{x}$
+
+Quindi un sistema lineare sarà
+$$ \begin{cases}
+\dot{x}_{1} = a_{11} \dot{x_{1}} + \dots + a_{1n}\dot{x}_{n} + b_{11}u_{1} + \dots + b_{1m}u_{m} \\
+\vdots \\
+\dot{x}_{n} = a_{n1} \dot{x_{1}} + \dots + a_{nn}\dot{x}_{n} + b_{n1}u_{1} + \dots + b_{nm}u_{m}
+\end{cases} $$
+$$ \dot{x} = Ax + Bu $$
+con
+$$ A = \begin{bmatrix}
+a_{11}  & a_{12} & \dots & a_{1n} \\
+\vdots  & \vdots & \ddots  & \vdots\\
+a_{n1} & a_{n2}  & \dots & a_{nn}
+\end{bmatrix} \qquad B = \begin{bmatrix}
+b_{11}  & \dots &  b_{1m} \\
+\vdots &  & \vdots \\
+ b_{n1} & \dots & b_{nm}
+\end{bmatrix} $$
+
+Se il sistema è variante nel tempo
+$$ \dot{x} = A(t) x + B(t) u $$
+
 >[!def]
 >$f = f(x,u)$ e $g=g(x,u)$ il sistema dinamico è **tempo invariante** o **stazionario**.
 
@@ -258,6 +282,14 @@ deck: Automatica
 ---
 Sistema dinamico lineare
 ===
-Un sistema dinamico si dice lineare se la funzione di stato e la funzione d'uscita sono lineari
+Un sistema dinamico si dice lineare se la funzione di stato e la funzione d'uscita sono lineari, quindi se $f$ e $g$ sono funzioni lineari di $x$ e $u$
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: Automatica
+---
+Sistema dinamico non lineare
+===
+Se $f$ o $g$ non sono lineari di $x$ e $u$
+```
