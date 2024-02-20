@@ -16,6 +16,8 @@ Un problema di controllo si risolve attraverso strumenti  tecnologici, in partic
 
 ![[problema di controllo.canvas]]
 
+Il concetto chiave per risolvere il problema di controllo è che **non** vogliamo risolvere le equaizoni differenziali, ma vogliamo sfruttarne le proprietà per 
+
 # ANKI
 
 ```anki
