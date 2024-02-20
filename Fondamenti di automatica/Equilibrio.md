@@ -215,3 +215,12 @@ $Ax + b\hat{u} = 0$
 $Ax = b = 0$
 $x = -bA^{-1}$
 ```
+
+
+```anki
+deck: Automatica
+---
+Equilibrio per sistemi dinamici lineari a tempo discreto
+===
+$x(k+1) = x(k) = \bar{x}$
+```
