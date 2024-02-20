@@ -223,3 +223,32 @@ Lin,TI,SP come in TC
 
 ![[Equilibrio]]
 
+## [[MIMO]] e [[SISO]]
+>[!esempio]
+>forno,
+>$$ u(t) = \begin{bmatrix}
+v_{in}(t) \\
+\theta_{e}(t)
+\end{bmatrix} $$
+>
+>Un solo output ma due input $\implies$ MIMO
+
+
+>[!esempio]
+>pendolo
+>$$ \begin{align}
+>u(t)&= \text{coppia}  \\
+>y(t) &= l(1-\cos(x_{1}))
+>\end{align}$$
+>SISO
+
+# ANKI
+
+```anki
+deck: Automatica
+---
+Sistema dinamico invariante nel tempo o stazionario
+===
+Le funzioni $f$ e $g$ non dipendono dal tempo
+```
+
