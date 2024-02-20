@@ -26,10 +26,10 @@ Una valvola è un **sistema statico**, se cambio la rotazione il flusso cambia i
 
 
 >[!esempio] sistema pendolo
->$I \frac{d^2}{dt^2}x_{1}(t) = u(t) - mgl \cdot \sin(x_{1}(t)) - \beta x_{1}(t)$ 
->$u(t)$ - coppia d'ingresso
->coppia gravitazionale
->attrito viscoso
+>$I \frac{d^2}{dt^2}x_{1}(t) = u(t) - mgl \cdot \sin(x_{1}(t)) - \beta \frac{d}{dt}x_{1}(t)$ 
+>- $u(t)$ - coppia d'ingresso
+>- $mgl\cdot\sin(x_{1}(t))$ - coppia gravitazionale
+>- $\beta\dots$ -  attrito viscoso
 
 ## Sistema causale e non causale
 Un sistema dinamo è causale se $y(t)$ dipende dagli ingressi al tempo $t$ e dall'andamento passato
