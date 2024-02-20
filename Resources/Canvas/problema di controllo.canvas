@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"11dbc4ba2870ed44","x":-460,"y":-20,"width":250,"height":60,"type":"text","text":"Controllore"},
+		{"id":"058883ae0df8b0d2","type":"text","text":"Attuatori","x":-120,"y":-20,"width":250,"height":60},
+		{"id":"51e379f6f19fff20","type":"text","text":"sistema fisico e sensori","x":220,"y":-20,"width":250,"height":60}
+	],
+	"edges":[]
+}
