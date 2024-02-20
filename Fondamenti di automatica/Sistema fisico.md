@@ -22,3 +22,6 @@ Consideriamo i sistemi con due segnali, uno di input ed uno di uscità, entrambi
 >[!esempio] valvola
 >Ingresso rotazione della valvola
 >Uscita flusso del fluido
+
+- [[sistema statico]]
+- [[sistema dinamico]]
