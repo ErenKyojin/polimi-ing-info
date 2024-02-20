@@ -17,8 +17,7 @@ un problema di controllo è costtuito quindi da:
 ```anki
 deck: Automatica
 ---
-Si ha un problema di controllo quando si vuole imporre un comportamento desiderato ad un sistema fi
+problema di controllo
 ===
-<% tp.file.cursor(2) %>
+Si ha un problema di controllo ogni volta che si vuole imporre un comportamento desiderato ad un sistema fisico, ossia quando vogliamo imporre alle variabili associate ad un sistema fisico un andamento desiderato
 ```
-<% tp.file.cursor(3) %>
