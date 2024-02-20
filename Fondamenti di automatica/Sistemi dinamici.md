@@ -252,3 +252,12 @@ Sistema dinamico invariante nel tempo o stazionario
 Le funzioni $f$ e $g$ non dipendono dal tempo
 ```
 
+
+```anki
+deck: Automatica
+---
+Sistema dinamico lineare
+===
+Un sistema dinamico si dice lineare se la funzione di stato e la funzione d'uscita sono lineari
+```
+<% tp.file.cursor(3) %>
