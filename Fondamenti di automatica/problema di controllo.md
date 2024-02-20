@@ -14,7 +14,7 @@ un problema di controllo è costtuito quindi da:
 
 Un problema di controllo si risolve attraverso strumenti  tecnologici, in particolare [[sensore|sensori]] e [[attuatore|attuatori]], e attraverso [[leggi di controllo]] che comandano gli attuatori in base al comportamento desiderato
 
-[[problema di controllo.canvas]]
+![[problema di controllo.canvas]]
 
 # ANKI
 

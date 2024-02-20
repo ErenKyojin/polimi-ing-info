@@ -1,8 +1,20 @@
 {
 	"nodes":[
-		{"id":"11dbc4ba2870ed44","x":-460,"y":-20,"width":250,"height":60,"type":"text","text":"Controllore"},
-		{"id":"058883ae0df8b0d2","type":"text","text":"Attuatori","x":-120,"y":-20,"width":250,"height":60},
-		{"id":"51e379f6f19fff20","type":"text","text":"sistema fisico e sensori","x":220,"y":-20,"width":250,"height":60}
+		{"id":"11dbc4ba2870ed44","type":"text","text":"Controllore","x":-460,"y":-20,"width":140,"height":60},
+		{"id":"92781948e4e09415","type":"file","file":"polimi-ing-info/Resources/canvas icons/bullet.png","x":-680,"y":-15,"width":50,"height":50,"color":"4"},
+		{"id":"96512da8192082be","type":"text","text":"input","x":-1040,"y":-20,"width":250,"height":60},
+		{"id":"058883ae0df8b0d2","type":"text","text":"Attuatori","x":160,"y":-15,"width":140,"height":60},
+		{"id":"51e379f6f19fff20","type":"text","text":"sistema fisico e sensori","x":520,"y":-15,"width":250,"height":60},
+		{"id":"23ef374cfc9f7494","type":"file","file":"polimi-ing-info/Resources/canvas icons/bullet.png","x":1040,"y":-10,"width":50,"height":50,"color":"4"},
+		{"id":"7a3280c7e07fe08e","type":"text","text":"Output","x":1187,"y":-14,"width":250,"height":59}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"68fb28b1ca613b79","fromNode":"11dbc4ba2870ed44","fromSide":"right","toNode":"058883ae0df8b0d2","toSide":"left","label":"comando agli\n attuatori"},
+		{"id":"f6ee86bf574f0a7f","fromNode":"058883ae0df8b0d2","fromSide":"right","toNode":"51e379f6f19fff20","toSide":"left","label":"azione di\ncontrollo"},
+		{"id":"e6982ca9a686dd11","fromNode":"51e379f6f19fff20","fromSide":"right","toNode":"23ef374cfc9f7494","toSide":"left","label":"variabile da\ncontrollare"},
+		{"id":"d61f9df09c974a79","fromNode":"23ef374cfc9f7494","fromSide":"bottom","toNode":"92781948e4e09415","toSide":"bottom"},
+		{"id":"eea9467828a20078","fromNode":"96512da8192082be","fromSide":"right","toNode":"92781948e4e09415","toSide":"left"},
+		{"id":"be30f9a624fca71a","fromNode":"23ef374cfc9f7494","fromSide":"right","toNode":"7a3280c7e07fe08e","toSide":"left"},
+		{"id":"6888de7e9cd09924","fromNode":"92781948e4e09415","fromSide":"right","toNode":"11dbc4ba2870ed44","toSide":"left","label":"andamento\ndesiderato"}
+	]
 }
