@@ -207,8 +207,11 @@ $$
 ```anki
 deck: Automatica
 ---
-Equilibrio a tempo costante
+Equilibrio per sistemi dinamici lineari tempo invarianti con ingresso costante
 ===
-$u(t) = u$
+$u(t) = \bar{u}$
+$\dot{x} =0$
+$Ax + b\hat{u} = 0$
+$Ax = b = 0$
+$x = -bA^{-1}$
 ```
-<% tp.file.cursor(3) %>
