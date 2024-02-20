@@ -108,7 +108,7 @@ $$
 \dot{x}(t) = f(x(t_{1}),u(t),t) \\
 y(t) = g(x(t),u(t),t)
 \end{cases}$$
-
+### linearità
 >[!def]
 >$f$ e $g$ lineare in $x$ e $u$ allora il sitema dinamico è **lineare **
 
@@ -135,6 +135,19 @@ b_{11}  & \dots &  b_{1m} \\
 
 Se il sistema è variante nel tempo
 $$ \dot{x} = A(t) x + B(t) u $$
+
+- forno: non lineare - $v^2$
+- pendolo: non lineare - $\sin(\dots)$
+- modello logistico: non lineare - $x^2(k)$
+
+Modello dinamico lineare in forma di stato è definito da quattro matrici, $A$ e $B$ definiscono la dinamica, mentre $C$ e $D$ definiscono l'andamento dell'uscita.
+
+$$\begin{align}
+ \frac{d}{dt}x(t) = Ax(t) + Bu(t) \\
+y(t) = Cx(t) + Du(t)
+\end{align}$$
+
+---
 
 >[!def]
 >$f = f(x,u)$ e $g=g(x,u)$ il sistema dinamico è **tempo invariante** o **stazionario**.

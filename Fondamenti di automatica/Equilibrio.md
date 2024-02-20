@@ -19,6 +19,7 @@ Se esistono, tali $\bar{x}$ si dicono **stati di equilibrio** per $u = \bar{u}$
 
 Come trovare gli stati di equilibrio?
 
+
 ## Tempo continuo
 Se $x$ deve rimanere costante ($\bar{x}$) allora $\dot{x}$ deve essere zero quindi dato $\dot{x} = f(x,u)$
 con $u = \bar{u}$ costante
@@ -201,3 +202,13 @@ $$
 >[!oss]
 >Per sistemi di ordine maggiore di uno occorre calcolare $e^{At}$ con $A$ matrice. [[elevamento ad una matrice]]
 
+# ANKI
+
+```anki
+deck: Automatica
+---
+Equilibrio a tempo costante
+===
+$u(t) = u$
+```
+<% tp.file.cursor(3) %>
