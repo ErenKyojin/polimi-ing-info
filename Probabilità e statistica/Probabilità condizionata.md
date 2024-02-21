@@ -1,8 +1,23 @@
 Come la probabilità varia nel tempo, col passare del tempo certi eventi del futuro dipendono dal presente/passato.
 
+>[!def]
+>$E,F$ eventi t.c $P(E) > 0$ la probabilità condizionta di F rispetto ad E è il valore
+>$$ P(F | E) = \frac{P(F \cap E)}{P(E)} $$
+
+>[!esempio]
+>Lancio 2 monete con $P(T_{1}) = P(T_{2}) = q$
+>$P(T_{2} | T_{1}) = ??$
+>$\Omega = \{ 0,1 \} \times \{ 0,1 \}$
+>$$P(T_{2} | T_{1}) = \frac{P(T_{1} \cap T_{2})}{P(T_{1})}$$
+>$$= \frac{P(\{ (1,1) \})}{P(\{ (1,0),(1,1) \})} =\frac{q^2}{q(1-q)+q^2} = \frac{q^2}{q} = q$$
+>$p(i,j) = q^{i+j}(1 - q)^{2-i-j}$
+>
+>Se invece lanciassimo due monete in sequenza e sapessimo che è uscità una almeno una testa, ossia
+>$P(T_{1} \cap)$
+
 > [!esempio]
 > $\mathcal{E}$ esperimento = lancio di due dadi distinti, un dado $R$, un dado $B$
-> 
+>
 > $\Omega = \left\{ (b,r) : b,r = 1:6 \right\}$
 > $\mathcal{F} = \mathcal{P}(r)$
 > $|\Omega| = 6^2 = 36$
@@ -36,3 +51,6 @@ todo \\
 
 
 [[Formula delle probabilità totali]]
+
+
+>[!esempio]a
