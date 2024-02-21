@@ -46,5 +46,12 @@ dal 1990 arriva il web, che **rivoluziona il middle-tier**, è simile a RPC ma
 	- Interfacce generate dinamicamente 
 	- Processa aggiornamenti di dati 
 
-> [!important] Quini
-> Vince eliminando il problema di installazione di client, il browser va bene per qualsiasi documento, E
+> [!important] Quindi
+> Vince eliminando il problema di installazione di client, il browser va bene per qualsiasi documento, e lo fa attraverso un protocollo semplice (due funzioni)
+
+Limiti dell'architettura HTTP/HTML originale. #todo 
+
+### Rich internet applications
+Fusione di  web e applicazioni desktop
+
+Applicazioni in cui si può riprogrammare il browser (attravers)
