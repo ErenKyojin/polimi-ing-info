@@ -12,3 +12,16 @@ Si possono distinguere diverse istruzioni, con [[istruzioni|formati delle istruz
 6. [[istruzioni di confronto]]
 7. [[pseudo istruzioni]]
 
+# Architettura (tecnologie web)
+>[!def]
+>architettura mix di risorse hardware, software e di networking
+
+parametri di classificazione:
+- tipo, funzionalità e risorse hardware
+- Topologia dei collegamenti (link) che connettono le risorse hardware
+- Struttura dei moduli del software e relazioni tra essi
+
+### Storia delle architetture distribuite
+- anni 60-70: architetture one-tier ([[architettura main frame]])
+- anni 70-80:
+
