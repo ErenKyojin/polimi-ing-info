@@ -24,4 +24,4 @@ parametri di classificazione:
 ### Storia delle architetture distribuite
 - anni 60-70: architetture one-tier ([[architettura main frame]])
 - anni 80: [[architettura client-server]]
-- architettura tre-tier
+- [[architettura a tre-livelli]]
