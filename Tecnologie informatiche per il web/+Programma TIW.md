@@ -19,6 +19,14 @@ Opzionalmente: modelli e metologia, Domain Specific Modelling Languages, Web mod
 	- UML
 
 
+# Libri
+- JavaScript the definitive guide, activate your web pages
+- Learning web app development: build quickly with proven javascript techniques
+- Interaction Flow Modelling language: moder-driven ui engineering og web and mobile
+- ...
+- ...
+
 Piero fraternali mio padre totale
 - [ ] [[internet]]
 - [ ] [[web]]
+- [ ] [[architettura]]
