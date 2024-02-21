@@ -61,7 +61,16 @@ todo \\
 >  F &\mapsto P(F| E)
 > \end{align} $$
 > P è una probabilità
+> $P_{E}(\bullet) = P(\bullet | E)$
 > 
 >>[!dim]
->>Verificare che $P(B)$ soddisfa i tre assiomi della probabilità
->>1. Probabilità 
+>>Verificare che $P_{E}$ soddisfa i tre assiomi della probabilità
+>>1. $P_{E}(F) \geq 0$
+>> 	$P_{E}(F) = \dfrac{P(F \cap E)}{P(E)} \geq 0$
+>>2. $P_{E}(\Omega) = 1$
+>>    $P(\Omega | E) = \dfrac{P(\Omega \cap E)}{P(E)} = \dfrac{P(E)}{P(E)} =1$
+>>3. $F_{1},F_{2}$ sono a due a due disgiunti $P_E$ calcolata su $F_{1} \cup F_{2} \cup \dots = \sum_{k} P_{E}(F_{k})$ 
+>>   $P_{E}(F_{1} \cup F_{2} \cup \dots) = \dfrac{P((F_{1} \cup F_{2} \cup \dots) \cap E)}{P(E)} =$
+>>   $= \dfrac{P((F_{1} \cap E) \cup (F_{2} \cap E) \cup \dots )}{P(E)}$
+>>   P è una probabilità, F1 disgiunto da F2 disgiunto da F3... $\implies$ sono tutte unioni disgiunte, unioni di eventi a coppie incompatibili, applicando l'assioma 3 a P (che è probabilità).
+>>   $= \dfrac{P(F_{1} \cap E) + P(F_{2} \cap E)}{P(E)} =$$=\dfrac{P(F_{1} \cap E)}{P(E)} + \dfrac{P(F_{2} \cap E)}{P(E)} + \dots = P_{e}()$
