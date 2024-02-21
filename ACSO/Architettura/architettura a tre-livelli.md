@@ -54,4 +54,4 @@ Limiti dell'architettura HTTP/HTML originale. #todo
 ### Rich internet applications
 Fusione di  web e applicazioni desktop
 
-Applicazioni in cui si può riprogrammare il browser (attravers)
+Applicazioni in cui si può riprogrammare il browser (attraverso il javascript) si torna quindi in parte all'[[architettura client-server]]
