@@ -18,7 +18,7 @@ k
 Arriviamo quindi alla [[formula di newton]]
 
 ## Proprietà
-
+Ponendo il coefficiente uguale a 0 per $k < 0$ o per $k > n$ 
 $$ \begin{pmatrix}
 n \\
 k

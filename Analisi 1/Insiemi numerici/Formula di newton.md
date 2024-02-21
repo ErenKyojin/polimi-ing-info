@@ -30,3 +30,5 @@ $$\begin{pmatrix}
 	k
 \end{pmatrix}
 $$
+
+Si dimostra [[dimostrazione induttiva]]
