@@ -1,3 +1,4 @@
+Come la probabilità varia nel tempo, col passare del tempo certi eventi del futuro dipendono dal presente/passato.
 
 > [!esempio]
 > $\mathcal{E}$ esperimento = lancio di due dadi distinti, un dado $R$, un dado $B$
@@ -10,7 +11,7 @@
 > 
 > $A = \left\{6\text{ sul rosso}\right\} \implies P(A) = \frac{6}{36} = \frac{1}{6}$
 > $B = \left\{ \text{Punteggio totale }= 12 \right\} \implies P(B) = \frac{1}{36}$
-> $C = \left\{ \text{Esce un 6} \right\} \implies P(C)=\frac{11}{36}$
+> $C = \left\{ \text{Esce un 6} \right\} \implies P(C)=\frac{11}{36}$ 
 > 
 
 > [!def]
