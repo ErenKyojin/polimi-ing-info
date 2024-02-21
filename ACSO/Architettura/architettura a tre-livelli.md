@@ -26,5 +26,25 @@ Invece che remotizzare le funzioni, remotizziamo gli oggetti
 - Il server centrale è detto ORB (object request broker)
 
 ## Message oriented Middleware (MOM), architettura a messaggi
-- sistemi centrali RPC e OO, gestisce doppiette *request-response*  **sincrone**
-- 
+- sistemi centrali RPC e OO, gestisce doppiette *request-response*  **asincrone**
+	- Il client attende per la risposta del server
+- I sistemi MOM rendono disponibili scambi di messaggi attraverso client e server
+	- Un SENDER manda un messaggio di richiesta in una coda e prosegue
+	- Un RECEIVER prende il messaggio dalla coda, lo processa e inserisce una risposta nella coda
+	- Il SENDER riceve la risposta dalla coda e chiama una funzione per gestirla
+
+Permette di porre un wrapper su sistemi diversi, magari legacy e in linguaggi diversi, in modo da fornire una comunicazione basilare
+
+
+## Web based three-tier architectures
+dal 1990 arriva il web, che **rivoluziona il middle-tier**, è simile a RPC ma
+- Il client è un web browser standard e gestisce unicamente la presentazione
+- Il livello centrale include il web server che comunica attraverso un protocollo standard HTTP
+- Il client emette richieste HTTP per risorse
+- Il tier centrale
+	- risorse statiche del server (immagini, file...)
+	- Interfacce generate dinamicamente 
+	- Processa aggiornamenti di dati 
+
+> [!important] Quini
+> Vince eliminando il problema di installazione di client, il browser va bene per qualsiasi documento, E
