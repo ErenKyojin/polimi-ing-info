@@ -147,3 +147,14 @@ Allora si dice equilibrio stabile
 
 "se prendendo un qualsiasi numero, ed un numero minore di esso, in nessun punto del tempo mi allontano oltre il primo numero"
 ```
+
+
+
+```anki
+deck: Automatica
+---
+Stabilità asintotica
+===
+$\bar{x}$ è asintoticamente stabile se è stabile nel senso di Lyapunov ed inoltre
+$$\lim_{t \to \infty} || x(t) - \bar{x} ||$$
+```
