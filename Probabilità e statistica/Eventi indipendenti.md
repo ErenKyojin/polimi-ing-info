@@ -25,6 +25,7 @@ In questo caso $E,F$ sono detti indipendenti
 >>
 >>$P(E|F) = \frac{P(E \cap F)}{P(F)}$
 >>$P(E |F) = P(E) \iff \frac{P(E \cap F)}{P(F)}=P(E) \iff P(E  \cap F) = P(E)P(F) \iff$ E ed F indipendenti
+>>$\CVD$
 
 
 
@@ -61,6 +62,13 @@ In questo caso $E,F$ sono detti indipendenti
 >Lancio di due monete equilibrate ($q = \frac{1}{2}$)
 >$T_{i}$ esce testa all'$i$-esimo lancio
 >$E$ = esce la stessa faccia nei due lanci
+>
+>Mostro che T ed E sono indipendenti
+>$P(T_{1} \cap E) = P(T_{1} \cap T_{2}) = P(T_{1})P(T_{2}) = \left( \frac{1}{2} \right)^2$
+>$P(E) = P((T_{1} \cap T_{2}) \cup (T_{1}^C \cap T_{2}^C))$ eventi incompatibili $\implies$ terzo assioma 
+>$P(E)=P(T_{1} \cap T_{2}) + P(T_{1}^C \cap T_{2}^C) = \left( \frac{1}{2 }\right)^2 + \left( \frac{1}{2} \right)^2 = \frac{1}{2}$
+>$P(T_{1})P(E) = \frac{1}{2} \cdot \frac{1}{2} =P(T_{1} \cap E)$
+>$\iff T_{1}$ ed $E$ sono indipendenti
 
 Se abbiamo tre eventi $A,B,C$ quando questi sono indipendenti?
 1. Sono indipendenti a coppie:
@@ -83,6 +91,16 @@ $$
 >\end{align}
 >$$
 >B si è verificato
+
+>[!warning] Incompatibilità vs indipendenza
+>Sono "opposte"
+>
+>> [!esempio]
+> >prendo una persona a caso
+> >$E$ è un maschio
+> >$F$ è una femmina
+> >$E \cap F = \varnothing \implies$ incompatibili
+> >$P(F | E) = 0 \neq 50\% = P(F) \implies$ NON sono indipendenti
 
 
 ## Indipendenza condizionale
