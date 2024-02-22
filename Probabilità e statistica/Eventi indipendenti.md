@@ -119,8 +119,27 @@ $$
 >> ##### dim ($\impliedby$)
 >> Analgoo, scambio $(E,F)$ con $(E^C,F)$
 
+## Indipendenza multipla
 
+>[!def]
+>3 eventi $E,F,G$ sono indipendenti se e solo se:
+>1. $E$ ed $F$ sono indipendenti
+>2. $F$ e $G$ sono indipendenti
+>3. $E$ e $G$ sono indipendenti
+>4. ==$P(E \cap F \cap G) = P(E)P(F)P(G)$==
 
+>[!esempio]
+>Lancio 2 monete equilibrate $q = \frac{1}{2}$, sappiamo che $T_{1}$ e $T_{2}$ sono indipendenti, sappiamo che $T_{1}$ ed $E$ sono indipendente, e analogamente possiamo mostrare che $T_{2}$ ed $E$ sono indipendenti
+>- $T_{1}$ Esce testa al primo lancio
+>- $T_{2}$ Esce testa al secondo lancio
+>- $E$ esce la stessa faccia nei due lanci
+>
+>Ma $T_{1},T_{2},E$ non sono indipendenti tra di loro, infatti
+> $$\begin{align}
+> P(T_{1} \cap T_{2} \cap E) &= P(T_{1} \cap P(T_{2}) = \left( \frac{1}{2} \right)^2 \\
+> P(T_{1})P(T_{2})P(E) &= \frac{1}{2 } \cdot \frac{1}{2 } \cdot \frac{1}{2} = \left( \frac{1}{2} \right)^3 \\
+P(T_{1} \cap T_{2} \cap E ) & \neq P(T_{1})P(T_{2})P(E)
+> \end{align}$$
 
 ## Indipendenza condizionale
 $A,B,F$ con $P(F) > 0$
@@ -139,7 +158,3 @@ $A,B,F$ con $P(F) > 0$
 Se $A,B$ sono indipendenti $\implies A,B$ condizionalmente indipendenti dato un $F$.
 Ma se la terna $A,B,F$ sono indipendenti valgono le implicazioni.
 
-
-
->[!esempio]
->
