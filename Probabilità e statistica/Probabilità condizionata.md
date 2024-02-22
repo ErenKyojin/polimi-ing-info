@@ -73,4 +73,15 @@ todo \\
 >>   $P_{E}(F_{1} \cup F_{2} \cup \dots) = \dfrac{P((F_{1} \cup F_{2} \cup \dots) \cap E)}{P(E)} =$
 >>   $= \dfrac{P((F_{1} \cap E) \cup (F_{2} \cap E) \cup \dots )}{P(E)}$
 >>   P è una probabilità, F1 disgiunto da F2 disgiunto da F3... $\implies$ sono tutte unioni disgiunte, unioni di eventi a coppie incompatibili, applicando l'assioma 3 a P (che è probabilità).
->>   $= \dfrac{P(F_{1} \cap E) + P(F_{2} \cap E)}{P(E)} =$$=\dfrac{P(F_{1} \cap E)}{P(E)} + \dfrac{P(F_{2} \cap E)}{P(E)} + \dots = P_{e}()$
+>>   $= \dfrac{P(F_{1} \cap E) + P(F_{2} \cap E)}{P(E)} =$$=\dfrac{P(F_{1} \cap E)}{P(E)} + \dfrac{P(F_{2} \cap E)}{P(E)} + \dots = P_{e}(F_{1}) + P_{e}(F_{2}) + \dots$
+
+Da questo teorema possiamo derivare alcune proprietà
+- $P_{E}(E) = P(E | E = 1)$
+- Se $F \cap E = \varnothing \implies P(F|E) = 0$
+- Essendo E una probabilità possiamo condizionarla a sua volta!
+  $P_{E}(G | F)$ (Probabilità di G dopo che sia successo E e sia successo F)
+  $$\begin{align}
+ P_{E}(G | F) &= \frac{P_{E}(G \cap F)}{P_{E}(F)}  \\ 
+=&\frac{\frac{P((G \cap F) \cap E)}{P(E)}}{\frac{P(F \cap E)}{P(E)}} = \frac{P(E \cap (F \cap E))}{P(F \cap E)} = P(G | F \cap E)
+\end{align}$$
+Che è la probabilità di G sapendo che sono successi E ed F]
