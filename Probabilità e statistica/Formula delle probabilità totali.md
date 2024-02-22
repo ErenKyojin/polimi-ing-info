@@ -18,6 +18,13 @@
 >P(E) = \sum_{k=1}^nP(E|F_{k})P(F_{k})
 >$$
 >Media (delle singole probabilità sui sottospazi) pesata con le probabilità degli scenari
+>
+>>[!dim]
+>>$E = E \cap \Omega = E \cap (F_{1} \cup F_{2} \cup \dots \cup F_{n}) = (E \cap F_{1}) \cup (E \cap F_{2}) \cup \dots \cup (E \cap F_{n})$
+>>$(E \cap F_{i}) \cap (E \cap F_{j}) =\varnothing$ se $i \neq j$
+>>
+>>$P(E) = P(E \cap F_{1}) + P(E \cap F_{2}) + \dots + P(E \cap F_{n})$
+>>$P(E | F_{1}) = P(F_{1}) + P(E | F_{2}) + \dots + P()$
 
 
 Tornando all'esempio precedente, vogliamo capire la probabilità del risultato del lancio sapendo solo l'esito, ossia sapendo che il risultato è stato $2$, qual'è la probabilità della moneta:
@@ -26,3 +33,5 @@ Tornando all'esempio precedente, vogliamo capire la probabilità del risultato d
 
 Quindi la probabilità che sia uscità testa se il risultato è stato due è un terzo. 
 [[Formula di Bayes]].
+
+>[!def]
