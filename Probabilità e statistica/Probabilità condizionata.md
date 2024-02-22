@@ -34,6 +34,15 @@ todo \\
 >&=P(A_{1} \cap A_{2} \cap \dots \cap A_{n-1} \cap A_{n})
 >\end{align}$$
 >Se $P(A_{1} \cap \dots \cap A_{n-1}) > 0$
+>
+>Si dimostra per induzione
+>
+>>[!dim]
+>>1. Caso $n = 2$: 
+>>$\dfrac{P(E_{2} \cap E_{1})}{P(E_{1})} = P(E_{2} | E_{1})\! \Longrightarrow P(E_{2} \cap E_{1}) = P(E_{1})P(E_{2} | E_{1})$
+>>2.
+>>$P(E_{n+1} \cap E_{n} \cap \dots \cap E_{1}) = P((E))$
+>> 
 
 
 >[!esempio]
