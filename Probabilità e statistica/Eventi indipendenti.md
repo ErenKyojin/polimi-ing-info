@@ -17,6 +17,14 @@ In questo caso $E,F$ sono detti indipendenti
 > $$
 > P(E \cap F) = P(E)P(F)
 >$$
+>
+
+>[!teorema]
+>$P(E | F) = P(E)$
+>>[!dim] 5\.
+>>
+>>$P(E|F) = \frac{P(E \cap F)}{P(F)}$
+>>$P(E |F) = P(E) \iff \frac{P(E \cap F)}{P(F)}=P(E) \iff P(E  \cap F) = P(E)P(F) \iff$ E ed F indipendenti
 
 
 
@@ -46,8 +54,13 @@ In questo caso $E,F$ sono detti indipendenti
 > P(E \cap F) = P(F | E)P(E) = P(F)P(E)
 > $$
 > Quindi $E,F$ con $P(E) > 0, P(F)>0$ sono indipendenti $\iff$ $P(E|F) = P(E) \iff P(F|E) = P(F)$
+>
 
 
+>[!esempio]
+>Lancio di due monete equilibrate ($q = \frac{1}{2}$)
+>$T_{i}$ esce testa all'$i$-esimo lancio
+>$E$ = esce la stessa faccia nei due lanci
 
 Se abbiamo tre eventi $A,B,C$ quando questi sono indipendenti?
 1. Sono indipendenti a coppie:
