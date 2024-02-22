@@ -110,7 +110,14 @@ $$
 >>[!dim]
 >> $P(E \cap F) = P(E)P(F)$ ipotesi
 >> ##### dim$(\implies)$
->> $P(E^C \cap F)$
+>> $P(E^C \cap F)$ \[in insiemistica $E^C \cap F = F \setminus E = F \setminus (E \cap F)\ ] \implies$
+>> $P(F \setminus (E \cap F))= P(F) - P(E \cap F) \iff P(F \setminus (E \cap F)) + P(E \cap F ) = P(F)$
+>> $\implies$ terzo assioma: $P([F \setminus (E \cap F)] \cup (E \cap F)) = P(F)$ vera
+>> $P(E^C \cap F) = P(F | (E \cap F))= P(F)-P(E \cap F) = P(F) - P(E)P(F) =$
+>> $=P(F) - P(E)P(F) = P(F)(1 - P(E)) = P(F)P(E^C) \implies (E^C,F)$ indipendenti
+>> 
+>> ##### dim ($\impliedby$)
+>> Analgoo, scambio $(E,F)$ con $(E^C,F)$
 
 
 
