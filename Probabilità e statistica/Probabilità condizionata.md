@@ -41,8 +41,15 @@ todo \\
 >>1. Caso $n = 2$: 
 >>$\dfrac{P(E_{2} \cap E_{1})}{P(E_{1})} = P(E_{2} | E_{1})\! \Longrightarrow P(E_{2} \cap E_{1}) = P(E_{1})P(E_{2} | E_{1})$
 >>2.
->>$P(E_{n+1} \cap E_{n} \cap \dots \cap E_{1}) = P((E))$
->> 
+>>$P(E_{n+1} \cap E_{n} \cap \dots \cap E_{1}) = P((E_{n + 1} \cap E_{n}) \cap E_{n-1} \cap \dots \cap E_{1})$
+>>$= P(E_{n+1} \cap E_{n} | E_{n-1} \cap \dots \cap E_{1}) \times P(E_{n-1} | E_{n-2} \cap \dots \cap E_{1}) \times \dots$
+>>$\times P(E_{1}) = (*)$ 
+>>
+>> $P(E_{n + 1} \cap E_{n} | E_{n-1} \cap \dots \cap E_{1}) = P_{E_{n - 1} \cap \dots \cap E_{1}}(E_{n+1} \cap E_{n})=$
+>> $P_{E_{n-1} \cap \dots \cap E_{1}}(E_{n+1} | E_{n}) \times P_{E_{n-1} \cap \dots \cap E_{1}}(E_{n})=$
+>> $= P_{E_{n} \cap (E_{n - 1} \cap \dots \cap E_{1})}(E_{n+1}) \times P_{E_{n-1} \cap \dots \cap E_{1}} (E_{n})$ =
+>>$=P_{E_{n}}$
+>>
 
 
 >[!esempio]
