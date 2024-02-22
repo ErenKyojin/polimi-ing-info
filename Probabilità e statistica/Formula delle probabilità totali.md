@@ -35,3 +35,12 @@ Quindi la probabilità che sia uscità testa se il risultato è stato due è un 
 [[Formula di Bayes]].
 
 >[!def]
+>aaa
+
+
+>[!teorema]
+
+>[!dim]
+
+>[!oss]
+>a
