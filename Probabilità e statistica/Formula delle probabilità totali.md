@@ -33,11 +33,18 @@ Tornando all'esempio precedente, vogliamo capire la probabilità del risultato d
 2. $P(T|E) = \frac{P(T \cap E)}{P(E)} = 4(P(E|T)P(T)) = 4 \left( \frac{1}{6} \cdot\frac{1}{2} \right) = \frac{1}{3}$
 
 Quindi la probabilità che sia uscità testa se il risultato è stato due è un terzo. 
-[[Formula di Bayes]].
+
 
 >[!esempio]
 >Ho in tasca 2 monete, una bilanciata, una truccata con 2 teste. Prendo una moneta a caso e mi chiedo qual è la probabilità di vedere testa.
 >- $\mathcal{N}$ ho pescato la moneta normale
 >- $P(\mathcal{N}) = \frac{1}{2} = P(\mathcal{N}^C)$
 >- $T =$ la moneta mostra testa
->- $P(T) =\ ?$
+>- $P(T) = \ ?$
+>
+>$P(T) = P(T | N) P(N) + P(T | N^C)P(N^C)$
+>$P(T | N )= \frac{1}{2}$ (lo so)
+>$P(T |N^C) = 1$ (lo so)
+>$P(T) = \frac{1}{2 } \cdot \frac{1}{2 } + 1 \cdot \frac{1}{2 } =\frac{3}{4}$
+
+Possiamo quindi vedere la [[Formula di Bayes]].
