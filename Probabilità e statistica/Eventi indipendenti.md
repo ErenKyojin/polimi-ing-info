@@ -102,6 +102,18 @@ $$
 > >$E \cap F = \varnothing \implies$ incompatibili
 > >$P(F | E) = 0 \neq 50\% = P(F) \implies$ NON sono indipendenti
 
+ Se so che la coppia $(E,F)$ è una coppia di eventi indipendenti sono indipendenti anche le coppie $(E, F^C)$ o $(E^C, F)$ o $(E^C,F^C)$? Sì
+ 
+> [!proposizione]
+> $(E,F)$ indipendenti $\iff$ $(E^C,F)$ sono indipendenti
+> 
+>>[!dim]
+>> $P(E \cap F) = P(E)P(F)$ ipotesi
+>> ##### dim$(\implies)$
+>> $P(E^C \cap F)$
+
+
+
 
 ## Indipendenza condizionale
 $A,B,F$ con $P(F) > 0$
