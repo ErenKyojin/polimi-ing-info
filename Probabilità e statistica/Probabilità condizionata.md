@@ -52,7 +52,11 @@ todo \\
 >>
 >>Quindi
 >> $(*) = P(E_{n + 1} | E_{n \cap} E_{n + 1} \cap \dots \cap E_{1} )\times P(E_{n} | E_{n-1} \cap \dots \cap E_{1}) \times \dots \times$
+>> $\times P(E_{1})$
+>> $\CVD$
 
+>[!oss ]
+>La regola del prodotto è utile per l'estrazione senza reimmissione. Ad esempio la probabilità di estrarre sfere colorate da una scatola chiusa sapendo che ve ne sono $k$ dello stesso colore
 
 >[!esempio]
 >Lancio 2 monete con $P(T_{1}) = P(T_{2}) = q$
