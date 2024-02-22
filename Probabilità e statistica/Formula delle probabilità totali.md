@@ -35,17 +35,9 @@ Tornando all'esempio precedente, vogliamo capire la probabilità del risultato d
 Quindi la probabilità che sia uscità testa se il risultato è stato due è un terzo. 
 [[Formula di Bayes]].
 
->[!def]
->aaa
-
-
->[!teorema]
-
->[!dim]
-
->[!oss]
->a
-
->[!corollario]
-
->[!legge]
+>[!esempio]
+>Ho in tasca 2 monete, una bilanciata, una truccata con 2 teste. Prendo una moneta a caso e mi chiedo qual è la probabilità di vedere testa.
+>- $\mathcal{N}$ ho pescato la moneta normale
+>- $P(\mathcal{N}) = \frac{1}{2} = P(\mathcal{N}^C)$
+>- $T =$ la moneta mostra testa
+>- $P(T) =\ ?$
