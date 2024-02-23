@@ -22,3 +22,8 @@ creation date: 2024-02-23
 	- [[imprese agricole]]
 	- [[imprese industriali]]
 - servizi
+
+## Numero di output
+- [[impresa monoprodotto]]
+- [[impresa diversificata]]
+- [[imprese congolmerate]]
