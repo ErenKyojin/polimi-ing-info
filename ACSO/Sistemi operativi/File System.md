@@ -18,7 +18,7 @@ Inoltre sono importani le nozioni di:
 
 Il file system accede ai dispositivi fisici tramite l'invocazione di comandi messi a disposizione dal disk driver, e la memoria viene rappresentata e gestitia come un dispositivo logico detto volume (un vettore di blocchi logici multiplo di 512 Byte, il blocco viene trasferito in memoria con un unica operazione)
 
-Inoltre l'hard disk è diviso in [[traccia|tracce]] e [[settore|settori]].
+Inoltre l'hard disk è diviso in [[traccia|tracce]] e [[polimi-ing-info/ACSO/Sistemi operativi/settore|settori]].
 
 L'operazione di formattazione predispone tracce e settori per la lettura e la **scrittura**
 
