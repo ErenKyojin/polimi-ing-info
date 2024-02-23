@@ -45,3 +45,4 @@ creation date: 2024-02-23
 
 - ![[imprese individuali#^92680b]]
 - ![[società#^bf15b4]]
+

@@ -17,3 +17,6 @@ creation date: 2024-02-23
 - Tassa corporate, flat 27% e quindi nessuna progressione
 - Gli utili si distribuiscono nei momenti fiscalmente più convenienti
 #### CONTRO
+- Adempimenti burocratici e fiscali numerosi e complessi
+- Obbligatorio il conferimento di capitale iniziale
+- obblighi infomrativi, di trasparenza e di governance
