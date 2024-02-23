@@ -3,14 +3,14 @@
 		{"id":"f80f742a39792ecc","type":"text","text":"impresa","x":-424,"y":-98,"width":250,"height":60},
 		{"id":"79aaf35cc50135ca","type":"text","text":"individuale","x":-56,"y":-246,"width":250,"height":60},
 		{"id":"d39b32c0ce9cd1a4","type":"text","text":"collettiva","x":-61,"y":63,"width":250,"height":60},
-		{"id":"cf6557588d9ab779","type":"text","text":"s.n.c.","x":711,"y":-391,"width":250,"height":60},
-		{"id":"592741a3375a37c9","type":"text","text":"società di persone","x":340,"y":-391,"width":250,"height":60},
-		{"id":"09208d58c90c5f8e","type":"text","text":"s.a.s.","x":711,"y":-246,"width":250,"height":60},
-		{"id":"c7e2ecb1c960cc14","type":"text","text":"s.s.","x":711,"y":-560,"width":250,"height":60},
-		{"id":"8b70ba0fe87b531d","type":"text","text":"Cooperative","x":340,"y":440,"width":250,"height":60},
 		{"id":"8d844f761df05a07","type":"text","text":"società di capitali","x":340,"y":63,"width":250,"height":60},
-		{"id":"fbfc7a2797e3d84e","type":"text","text":"s.p.a.","x":711,"y":160,"width":250,"height":72},
-		{"id":"e8e268bb687736ed","type":"text","text":"s.r.l","x":711,"y":-68,"width":250,"height":68}
+		{"id":"e8e268bb687736ed","type":"text","text":"s.r.l","x":711,"y":-5,"width":250,"height":68},
+		{"id":"fbfc7a2797e3d84e","type":"text","text":"s.p.a.","x":711,"y":123,"width":250,"height":72},
+		{"id":"592741a3375a37c9","type":"text","text":"società di persone","x":340,"y":-246,"width":250,"height":60},
+		{"id":"cf6557588d9ab779","type":"text","text":"s.n.c.","x":711,"y":-246,"width":250,"height":60},
+		{"id":"c7e2ecb1c960cc14","type":"text","text":"s.s.","x":711,"y":-375,"width":250,"height":60},
+		{"id":"09208d58c90c5f8e","type":"text","text":"s.a.s.","x":711,"y":-131,"width":250,"height":60},
+		{"id":"8b70ba0fe87b531d","type":"text","text":"Cooperative","x":340,"y":360,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"4d4210470711b5d9","fromNode":"f80f742a39792ecc","fromSide":"right","toNode":"79aaf35cc50135ca","toSide":"left"},
