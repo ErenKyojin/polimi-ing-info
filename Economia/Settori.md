@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: settore
 creation date: 2024-02-23
 ---
 

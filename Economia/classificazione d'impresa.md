@@ -38,4 +38,7 @@ creation date: 2024-02-23
 
 
 ## Classificazione settoriale
-- [[codici ATECO]]
+- [[codici ATECO#^209dbb]]
+
+
+## [[forme giuridiche]]
