@@ -42,3 +42,6 @@ creation date: 2024-02-23
 
 
 ## [[forme giuridiche]]
+
+- ![[imprese individuali#^92680b]]
+- ![[società#^bf15b4]]

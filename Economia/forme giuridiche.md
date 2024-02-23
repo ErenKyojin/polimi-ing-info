@@ -18,3 +18,4 @@ e dei doveri:
 - Rispettare le leggi e la tutela dei lavoratori
 - Rispettare la normativa ambientale
 - ...
+
