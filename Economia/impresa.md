@@ -34,6 +34,9 @@ Un'impresa "muore" dopo un tempo indefinito, quando non è più in grado di gene
 - [[fallimento]]
 - [[liquidazione]]
 - [[Acquisizione]]
+
+
+
 # ANKI
 
 ```anki
