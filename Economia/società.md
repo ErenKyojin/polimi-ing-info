@@ -8,6 +8,10 @@ creation date: 2024-02-19
 
 ^bf15b4
 
+- ![[società di persone]]
+- ![[società di capitale]]
+- ![[società cooperative]]
+
 # ANKI
 
 ```anki
