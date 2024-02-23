@@ -16,3 +16,13 @@ Non vi è distinzione tra persona fisica e persona giuridica, il titolare è uni
 >- Medico
 >- Consulente
 >- ...
+
+
+#### PRO
+- **semplicità** nella costituzione e nello sciogliemnto
+- **pochi obblighi contabili**, risparmio di tempo (solitamente utilizzo di commercialista per gli obblighi rimanenit)
+- **autonomia e velocità decisionale**, c'è una sola persona a prendere le decisioni
+
+#### CONTRO
+- **responsabilità illimitata**
+- All'aumentare del reddito di impresa le **imposte** crescono (aliquote progressive sulla persona previste dall'irpef)
