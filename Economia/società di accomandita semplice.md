@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: s.a.s.
 creation date: 2024-02-23
 ---
 

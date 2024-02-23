@@ -12,6 +12,7 @@ creation date: 2024-02-19
 - ![[società di capitale]]
 - ![[società cooperative]]
 
+
 # ANKI
 
 ```anki
