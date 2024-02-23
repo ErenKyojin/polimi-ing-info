@@ -141,6 +141,11 @@ $$
 P(T_{1} \cap T_{2} \cap E ) & \neq P(T_{1})P(T_{2})P(E)
 > \end{align}$$
 
+>[!def]
+>$n$ eventi $E_{1},E_{2},\dots,E_{n}$ sono indipendenti se e solo se qualunque sottoinsieme di indici $I \subseteq\{1,2,3,\dots,n\}$ si ha che $$P\left(\bigcap_{k \in I} E_{k}\right) = \prod_{k \in I} P(E_{k})$$
+>Abbiamo inoltre $2^n - (n - 1)$ condizioni diverse per avere l'indipendenza di $n$ elementi.
+>Per l'indipendenza a coppie sono solo $\begin{pmatrix}2\\n\end{pmatrix} \ll 2^n - (n +1)$ condizioni
+
 ## Indipendenza condizionale
 $A,B,F$ con $P(F) > 0$
 
