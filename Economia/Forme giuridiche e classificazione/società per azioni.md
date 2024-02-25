@@ -10,3 +10,14 @@ creation date: 2024-02-23
 
 >[!def]
 >**Società in accomandita per azioni (s.a.p.a.)** distinzione tra accomandatari e accomandanti
+
+
+# ANKI
+
+```anki
+deck: Economia
+---
+Società per azioni
+===
+Patrimonio sociale diviso in azioni, che sono quote di partecipazione liberamente trasferibili, è quindi possibile la quotazione in borsa. È richiesto un capitale minimo di 50'000€
+```
