@@ -26,3 +26,14 @@ Non vi è distinzione tra persona fisica e persona giuridica, il titolare è uni
 #### CONTRO
 - **responsabilità illimitata**
 - All'aumentare del reddito di impresa le **imposte** crescono (aliquote progressive sulla persona previste dall'irpef)
+
+
+# ANKI
+
+```anki
+deck: Economia
+---
+impresa individuale
+===
+Un'impresa individuale è un'impresa costituita da un'unica persona, è detta anche partita IVA
+```
