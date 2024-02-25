@@ -8,7 +8,7 @@ creation date: 2024-02-23
 
 - ![[Società semplice#^b29411]]
 - ![[Società in nome collettivo#^5b4256]]
-- ![[società di accomandita semplice]]
+- ![[società di accomandita semplice#^ccf453]]
 
 #### PRO
 - Costituzione e tenuta della contabilità relativamente semplici
