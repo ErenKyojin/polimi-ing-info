@@ -17,3 +17,7 @@ La capacità delle imprese di massimizare il profito dipende da fattori di [[mer
 - numero di concorrenti (avrà effetti  sul ricavo marginale)
 - natura del prodotto (omogeneo o differenziato rispetto ai concorrenti)
 - grado di libertà (ci sono mercati con barriere d'ingresso)
+	- Ad esempio un [[brevetti|brevetto]] mi impedisce di entrare nel mercato specifico di quel brevetto (che garantisce esclusività)
+	- Ad esempio le compagnie di telecomunicazioni
+- informazione detenuta delle compagnie
+	- Ad esempio le compagnie aeree low cost hanno visto una crescita di popolarità rispetto agli anni passati grazie alla maggiore trasparenza dei prezzi (una volta reperibili solo in agenzie di viaggio, ora facilmente consultabili su internet)

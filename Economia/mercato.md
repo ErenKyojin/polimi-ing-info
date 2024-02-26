@@ -9,3 +9,7 @@ creation date: 2024-02-26
 Bisogna quindi comprendere
 - [[domanda]]: le scelte di acquisto dei [[consumatori]]
 - [[offerta]]: il comportamento delle altre imprese presenti sul mercato
+
+
+# forme di mercato
+Possiamo classificare i mercati partendo da due "estremi" e vedendo 
