@@ -33,4 +33,20 @@ $$ Q(p) = \sum_{i = 1}^N q_{i}(p) $$
 
 Una misurazione accurata della variazione della domanda al variare delle componenti consente di conoscere le reazioni dei consumatori e quindi l'impatto che tal variazione fa sui ricavi dell'anno
 
-$$ E_{i} $$
+$$ \varepsilon_{x}= \frac{\frac{\Delta q_{x}}{q_{x}}}{\frac{\Delta p_{x}}{p_{x}}} =\frac{\Delta q_{x}}{\Delta p_{x}} \frac{p_{x}}{q_{x}} \implies \varepsilon_{x} = \frac{ \partial q_{x} }{ \partial p_{x} } \frac{p_{x}}{q_{x}} $$
+
+Si tende a considerare il modulo, infatti è negativo (corrisponde alla pendenza della curva di domanda moltiplicata per il coefficiente p/q)
+
+
+- **Curva di domanda elastica**: per piccole variazioni di prezzo abbiamo grandi cali della domanda
+- **Curva di domanda anelastica**: per piccole variazioni di prezzo il calo della domanda è molto contenuto 
+
+
+La domanda di un bene con pochi sostituti è tendenzialmente anelastica.
+
+### Elasticità incrociata
+>[!def]
+>Elasticità incrociata del bene $x$ rispetto al bene $y$ è la variazione % della quantità di domanda del bene $x$ a seguito della variazione % del prezzo del bene $y$
+>
+
+Notiamo che se $x$
