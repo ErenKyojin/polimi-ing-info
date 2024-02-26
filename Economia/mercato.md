@@ -12,4 +12,6 @@ Bisogna quindi comprendere
 
 
 # forme di mercato
-Possiamo classificare i mercati partendo da due "estremi" e vedendo 
+Possiamo classificare i mercati partendo da due "estremi" e vedendo più avanti situazioni "intermedie"
+- [[Concorrenza perfetta]]: infinite imprese nel mercato, massimo livello di competizione
+- [[Monopolio]]: una sola impresa nel mercato, minimo livello di competizione
