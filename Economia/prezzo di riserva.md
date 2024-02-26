@@ -20,10 +20,10 @@ ylabel={$y$},
 xmin=1,xmax=10,
 ymin=1,ymax=10
 ]
-\addplot+[ycomb, domain=1:10, samples at={1,3,...,9}, blue]{-x+10};
+\addplot+[ycomb, domain=1:10, samples at={1,3,...,9}, blue]{-x*x/8+10};
 \end{axis}
 \end{tikzpicture}
 \end{document}
 ```
 
-Il prezzo di mercato di un bene
+Dato il prezzo di mercato di un bene la curva di domanda individuale consente di valutare il surplus del consumatore. Differenza fra il prezzo che un consumatore è disposto a pagare ed il [[prezzo di mercato]] del bene
