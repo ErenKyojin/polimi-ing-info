@@ -47,6 +47,15 @@ La domanda di un bene con pochi sostituti è tendenzialmente anelastica.
 ### Elasticità incrociata
 >[!def]
 >Elasticità incrociata del bene $x$ rispetto al bene $y$ è la variazione % della quantità di domanda del bene $x$ a seguito della variazione % del prezzo del bene $y$
+>$$ \varepsilon_{xy} = \frac{ \partial q_{x} }{ \partial p_{x} }  \frac{p_{y}}{q_{y}} $$
 >
 
-Notiamo che se $x$
+Notiamo che 
+- se $x$ è bene sostituto di $y \implies \varepsilon_{xy} > 0$
+- se $x$ è bene complementare di $y \implies \varepsilon_{xy} < 0$
+
+### Elasticità al reddito
+
+> [!def]
+> Elasticità al reddito di $x$
+> $$\varepsilon_{M} = \frac{ \partial q_{x} }{ \partial M } \frac{M}{q_{x}}$$
