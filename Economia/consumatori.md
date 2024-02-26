@@ -21,4 +21,6 @@ Ogni consumatore è disposto a pagare un prezzo massimo per unità di bene, dett
 	- Abbiamo sete (aumenta il prezzo di riserva)
 - Reddito o ricchezza del consumatore
 	- [[beni normali]]
+		- Per un bene normale la curva di domanda individuale si sposta verso l'alto
 	- [[beni inferiori]]
+		- Per un bene inferiore la curva di domanda individuale si sposta verso il basso
