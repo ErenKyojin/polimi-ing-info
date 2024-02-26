@@ -11,3 +11,6 @@ Perchè il consumatore acquista beni?
 - Per aumentare il proprio benessere
 
 Ossia per [[utilità]]
+
+
+Ogni consumatore è disposto a pagare un prezzo massimo per unità di bene, detto [[prezzo di riserva]]
