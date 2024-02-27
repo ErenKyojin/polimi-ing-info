@@ -26,3 +26,9 @@ Enumera i seguenti
 
 ### Proxy HTTP
 Programma intermediario sia server sia client che ha il fine di fare richieste da parte dell'altro client. Utile per controllare l'accesso alle risorse (chi vi può accedere) e per fare caching di risorse (salvo sul proxy le risorse usate di recente)
+
+### Gateway HTTP
+Server che fa da intermediario per qualche altro server, a differenza del proxy riceve le richieste come se fosse l'origine, non si può sapere se si sta comunicando con un gateaway
+
+>[!question] Come troviamo le risorse?
+>[[Uniform Resource Locator|URL]]
