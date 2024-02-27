@@ -16,3 +16,5 @@ Enumera i seguenti
 - Risorsa, un oggetto o servizio che può essere identificato da un [[uniform resource identifiers|URI]]
 
 ![[browser#browser http]]
+
+![[Server HTTP]]
