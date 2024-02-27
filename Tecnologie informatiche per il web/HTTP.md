@@ -36,3 +36,7 @@ Server che fa da intermediario per qualche altro server, a differenza del proxy 
 ![[Richiesta HTTP]]
 
 ![[Headers HTTP]]
+
+
+## HTTP 1.1
+[[tunnel]]
