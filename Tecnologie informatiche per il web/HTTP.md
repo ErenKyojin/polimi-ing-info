@@ -39,4 +39,8 @@ Server che fa da intermediario per qualche altro server, a differenza del proxy 
 
 
 ## HTTP 1.1
-[[tunnel]]
+- [[tunnel]]
+- [[chunked trasnfer encoding]]
+- connessione persistente (non si chiude il canale TCP/IP immediatamente, risposta alla scelta di apache non ortodossa di implementare keep-alive)
+- [[negoziazione del contenuto]]
+- [[cache managment]]
