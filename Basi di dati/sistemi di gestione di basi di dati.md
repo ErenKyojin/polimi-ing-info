@@ -12,4 +12,10 @@ I DBMS devono essere
 - **condivise**: devono poter servire più applicazioni ed utenze, implementando anche controlli di concorrenza per evitare modifiche simultanee
 	- ridurre la **ridondanza**
 	- ridurre le **inconsistenze**
-- 
+- **persistenti**: devono continuare ad esistere nel tempo a prescindere dallo stato esecutivo dei programmi che lo utilizzano
+- in grado di garantire **affidabilità**: i dati sono conservati nel loro stato, evitando corruzione dei dati. Questo viene ottenuto anche attraverso molteplici copie dei dati, mantenute aggiornate, in posti lontano dall'altro (ogni singolo dato ha un valore enorme!!)
+- in grado di garantire **Privatezza**: attraverso un sistema di autorizazzione, ogni utente può accedere e/o modificare una quantità di dati ridotta
+- **efficienti**: devono utilizzare risorse accettabili per l'utente (in termini di tempo e spazio)
+- **efficaci**: le attività degli utenti devono essere rese produttive al massimo.
+
+i DBMS sono progettati quindi per essere un estensione del sistema originale del [[File System]]
