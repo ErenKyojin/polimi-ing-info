@@ -21,3 +21,4 @@ Enumera i seguenti
 
 
 ### Limitazioni HTTP
+- HTTP non ha stati, ogni richiesta è indipendente da tutte le altre, inoltre significa che le sessioni sono anonime (inizialmente chiudeva anche immediatamente la connessione TCP dopo ogni scambio). Questo problema si risolve attraverso l'[[application server]]
