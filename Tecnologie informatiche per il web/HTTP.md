@@ -31,4 +31,6 @@ Programma intermediario sia server sia client che ha il fine di fare richieste d
 Server che fa da intermediario per qualche altro server, a differenza del proxy riceve le richieste come se fosse l'origine, non si può sapere se si sta comunicando con un gateaway
 
 >[!question] Come troviamo le risorse?
->[[Uniform Resource Locator|URL]]
+>[[uniform resource identifiers|URI]] e in modo più specifico [[Uniform Resource Locator|URL]]
+
+![[Richiesta HTTP]]
