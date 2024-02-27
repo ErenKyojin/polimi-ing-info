@@ -18,3 +18,6 @@ Enumera i seguenti
 ![[browser#browser http]]
 
 ![[Server HTTP]]
+
+
+### Limitazioni HTTP

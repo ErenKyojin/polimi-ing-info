@@ -8,3 +8,5 @@ Server perennemente attivo che ascolta le richieste dalla rete, le interpreta, l
 - se va calcolata [[risorse calcolate dinamicamente]]
 
 Inoltre fa logging, monitoraggio ed eventualmente virtual hosting...
+
+Non va confuso con l'[[application server]]
