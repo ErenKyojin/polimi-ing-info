@@ -32,7 +32,7 @@ modification date: 2023-07-07 09:14
 >**Knowledge**: se vogliamo estrarre delle informazioni ci dobbiamo affidare ad un data wharehouse ad esmpio
 >**Wisdom**: avere l'esperienza per poter usare la conoscenza
 
-![[Dati#Sistemi informativi]]
+![[polimi-ing-info/Probabilità e statistica/Dati#Sistemi informativi]]
 ![[informazione]]
 ![[conoscenza]]
 ![[saggezza]]
