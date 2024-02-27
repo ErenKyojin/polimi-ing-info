@@ -34,3 +34,5 @@ Server che fa da intermediario per qualche altro server, a differenza del proxy 
 >[[uniform resource identifiers|URI]] e in modo più specifico [[Uniform Resource Locator|URL]]
 
 ![[Richiesta HTTP]]
+
+![[Headers HTTP]]
