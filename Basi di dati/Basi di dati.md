@@ -14,3 +14,6 @@ Possiamo ridefinire le basi di dati come
 
 >[!def]
 >Una base di dati è una collezione di dati gestita da un DBMS
+
+
+Per organizzare una struttura utilizziamo [[modelli dei dati]]
