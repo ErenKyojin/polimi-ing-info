@@ -17,7 +17,29 @@ k
 >definisco che l'evento $F_{m,K}=$*ho $k$ successi nelle prime $m$ prove*
 >
 >Dimostro per induzione su $m$:
->m
+>$$\begin{align}
+P(F_{1,k})= \begin{cases}
+P(E_{i})&k=1 \\
+P(E_{i}^C) &k=0
+\end{cases} = \begin{cases}
+q  &k=1\\
+1-q &k=0
+\end{cases}  = \begin{pmatrix}
+1 \\
+k 
+\end{pmatrix} q^k (1-q)^{1-k}
+\end{align}$$
+>quindi è vero per $m=1$.
+>
+>Supposto vero per $m$, ossia $$P(F_{m,k})=\begin{pmatrix}
+m\\
+k
+\end{pmatrix}q^k (1-q)^{m-k}$$
+>Posso quindi dividere il problema in due e calcolare:
+>$$ \begin{align}
+>P(F_{m+1,k}) = >\sum_{h}P(F_{m+1,k}|F_{m,h})P(F_{m,h})= \\
+>= P(F_{m+1,k}|F_{m,k-1}) P(F_{m} ,k-1) + P(F_{m+1,k}F_{m,k})
+>\end{align} $$
 
 >[!esempio] Esperimento
 >
