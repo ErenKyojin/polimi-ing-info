@@ -146,6 +146,14 @@ P(T_{1} \cap T_{2} \cap E ) & \neq P(T_{1})P(T_{2})P(E)
 >Abbiamo inoltre $2^n - (n - 1)$ condizioni diverse per avere l'indipendenza di $n$ elementi.
 >Per l'indipendenza a coppie sono solo $\begin{pmatrix}2\\n\end{pmatrix} \ll 2^n - (n +1)$ condizioni
 
+Se $(E, F, G)$ sono indipendenti allora
+- $(E \cap F, G)$ sono indipendenti
+- $(E \cup F, G)$ indipendenti
+- $(E, F | G)$ indipendenti
+
+>[!dim]
+>
+
 ## Indipendenza condizionale
 $A,B,F$ con $P(F) > 0$
 
