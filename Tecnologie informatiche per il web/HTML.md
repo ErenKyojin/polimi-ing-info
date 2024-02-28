@@ -83,5 +83,7 @@ Implementazione di \<div> + class
 
 
 ```html
-<div class="boxed">  </div>
+<div class="boxed"> esempio </div>
 ```
+
+definisce l'equivalente di un nuovo tag boxed
