@@ -1,8 +1,25 @@
 >[!def]
+>uno schema di $n$ prove di bernoulli sono $n$ prove in cui
+>1. ogni prova può avere due esiti: successo o insuccesso, indichiamo con $E_{i}$ l'evento *"avrò successo all'i-esima prova"*
+>2. Tutte le prove hanno sempre la stessa probabilità di successo, $P(E_{i}) = q\quad \forall i=1,\dots,n$
+>3. Le prove non si influenzano tra di loro, $E_{1},\dots,E_{n}$ indipndenti
 >
 
+Definisco l'evento $F_{n,k} =$ *"nelle $n$ prove ottengo $k$ successi"*
+
+Abbiamo che
+$$ P(F_{n,k}) = \begin{pmatrix}
+n \\
+k
+\end{pmatrix} q^k (1-q)^{n-k}$$
+
+>[!dim]
+>definisco che l'evento $F_{m,K}=$*ho $k$ successi nelle prime $m$ prove*
+>
+>Dimostro per induzione su $m$:
+>m
+
 >[!esempio] Esperimento
->$n$ prove in condizioni analoga, prove di tipo dicotomico ossia con due possibili risultati, successo (1) e fallimento (0)
 >
 >$\Omega = \left\{ a_{1},\dots,a_{n} \right\} : a_{i} = 0,1;\quad i=1,\dots,n$
 >$E \subseteq \Omega$ è un [[evento]] $\mathcal{F} = \mathcal{P}(\Omega)$,
@@ -36,5 +53,3 @@
 > \Omega \to x : \Omega \to \mathbb{R}\quad e\quad E=\left\{ x \in I \right\} 
 >$$
 >Dove $I$ è un'intervallo, $E_{k} = \left\{ x \in {k} \right\}$, in questo caso intervallo con estremi coincidenti $=k$
-
-
