@@ -1,5 +1,9 @@
-Notazione$\{w : x(w) \in I\} = "x \in I"$
+---
+aliases: variabili aleatoriee
+---
 
+
+Notazione$\{w : x(w) \in I\} = "x \in I"$
 
 >[!def]
 >$(\Omega,\mathcal{F},P)$ chiamo **varaibile aleatoria** una [[Funzioni|funzione]] $x : \Omega \to \mathbb{R}$ tale che 
