@@ -65,5 +65,13 @@ in alcuni casi, dei tag specifici accettano modificatori
 ---
 
 Da HTML 3 si sono evoluti due sistemi differenti
-- HTML4, CSS, ...
-- 
+- **HTML**: HTML4, CSS, ...
+- **XML**: XSL, XLL, RDF
+
+
+## HTML4
+divide gli elementi della pagina in livelli differenti:
+
+- comportamento -> JS
+- Stile -> CSS, JS + DOM
+- Contenuto e struttura -> XHTML
