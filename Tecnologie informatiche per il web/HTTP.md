@@ -67,3 +67,8 @@ Principalmente sviluppato per l'ottimizzazione di performance. HTTP1.1 fa pipeli
 > 	 host = example.org
 > 	 accept = image/jpeg
 > ```
+
+
+
+>[!tldr]
+>Protocollo semplice, trasparente, ...
