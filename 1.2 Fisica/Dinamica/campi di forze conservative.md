@@ -1,0 +1,138 @@
+---
+aliases: campo di forza conservativa, campo conservativo, campi conservativi
+creation date: 2023-03-26 16:56
+modification date: 2023-03-26 16:56
+---
+>[!def]
+>Un [[Campo numerico|campo]] di forze che ammette [[Energia potenziale]] si dice **campo conservativo** e si dice che la [[forza]] corrispondente è una [[forze conservative|forza conservativa]]
+
+>[!oss]
+>Condizione necessaria ma non sufficiente perchè un campo di [[forza|forze]] sia conservativo è che l'espressione della forza dipenda solo dalla posizione del [[Punto materiale]] cui è applicata:
+>$$ \vec{F} = \vec{F}(\vec{r}) $$
+
+>[!oss]
+>Condizione sufficiente ma non necessaria perchè un campo di forze sia non conservativo è che l'espressione della forza dipende anche dalla velocità del punto materiale cui è applicata
+>
+>>[!esempio]
+>>Le [[forze di attrito]] ad esempio sono certamente non [[forze conservative|conservative]]
+
+
+>[!oss]
+>Per una forza conservativa il lavoro corrispondente ad uno spostamento da $A$ a $B$ è sempre uguale alla variazione di [[Energia potenziale]], cambiata di segno, ed il lavoro elementare è il [[differenziale]] dell'energia potenziale, cambiato di segno (si dice che il [[Lavoro]] elementare è un differenziale esatto)
+>$$ \mathcal{L}_{A\to B} = E_{p}(A)- E_{p}(B) = -\Delta E_{p}\quad; \quad d\mathcal{L} = \vec{F} \cdot d\vec{r} = -dE_{p} $$
+>Infatti essendo in tal modo il lavoro elementare una differenziale esatto, integrando fra $A$ e $B$ si ottiene
+>$$ \mathcal{L}_{A\to B} = \int _{A}^B \! \, \mathrm{d}\mathcal{L} = - \int _{A}^B \! \, \mathrm{d}E_{p}   = -E_{p}\bigg |_{A}^B = -E_{p}(B) + E_{p}(A) = -\Delta E_{p}$$
+
+>[!oss]
+>In un campo di forze [[forze conservative|conservative]] il [[Lavoro]] non dipende dalla [[Traiettoria]] ma solo dagli estremi!
+
+>[!oss]
+>In un campo di forze conservative il lavoro compiuto su un cammino chiuso è nullo:
+>$$ \mathcal{L}_{A\to A} = \oint \mathrm{d}\mathcal{L} = 0 $$
+
+### Condizione affinchè un campo sia conservativo
+Abbiamo già osservato che un campo è conservativo (quindi ammette energia potenziale(se e solo se il lavoro elementare può essere scritto come il differenziale di una [[Funzioni|funzione]] scalare, che è poi proprio l'[[Energia potenziale]] cambiata di segno, cioè:
+$$
+d\mathcal{L} = F_{x}dx + F_{y}dy + F_{z}dz = -dE_{p}
+$$
+
+#### Condizione necessaria e sufficiente
+affinchè tale [[Funzioni|funzione]] [[scalare]] esiste è che tra le componenti della forza del campo valgano identicamente le seguenti relazioni
+$$
+\frac{ \partial F_{x} }{ \partial y }  = \frac{ \partial F_{y} }{ \partial x } ;\quad \frac{ \partial F_{x} }{ \partial z } = \frac{ \partial F_{z} }{ \partial x } ;\quad \frac{ \partial F_{y} }{ \partial x } = \frac{ \partial F_{z} }{ \partial y } 
+$$
+Queste tre identità scalari possono essere sintetizzate in un'unica identità vettoriale per mezzo dell'operatore vettoriale "rotore" $[\text{ rot}(\dots) = \vec{\nabla} \times \dots]$ applicato ad $\vec{F}$ e cioè dall'equazione:
+$$
+\text{rot}(\vec{F}) = \vec{\nabla} \times \vec{F} = 0
+$$
+Tale identità stabilisce che il rotore del [[Campo numerico|campo]] $\vec{F}$ è identicamente nullo, o, equivalentemente, che il campo $\vec{F}$ è irrotazionale.
+Infatti, per definizione, l'operatore rotore applicato ad un campo vettoriale $\vec{F}$ genera un nuovo campo vettoriale derivato, definito formalmente come segue:
+$$
+\vec{\nabla} \times \vec{F} = \begin{vmatrix}
+\hat{u}_{x} & \hat{u}_{y} & \hat{u}_{z} \\
+\frac{ \partial  }{ \partial x }  & \frac{ \partial  }{ \partial x }  & \frac{ \partial  }{ \partial x }  \\
+F_{x}  & F_{y} & F_{z}  
+\end{vmatrix} = \hat{u}_{x} \begin{bmatrix}
+\dfrac{ \partial F_{z} }{ \partial y } - \dfrac{ \partial F_{y} }{ \partial z } 
+\end{bmatrix} + \hat{u}_{y} \begin{bmatrix}
+\frac{ \partial F_{x} }{ \partial y }  - \frac{ \partial F_{z} }{ \partial x } 
+\end{bmatrix} + \hat{u}_{z}\left[ \frac{ \partial F_{y} }{ \partial x }  - \frac{ \partial F_{x} }{ \partial y }  \right]
+$$
+È chiaro quindi che avere la condizione soddisfatta equivale ad avere $\vec{\nabla} \times \vec{F} = 0$
+Quindi un [[campi vettoriali|campo vettoriale]] è conservativo se e solo se è irrotazionale
+
+### [[Equilibrio]] di un corpo in un campo conservativo
+Sappiamo già che la condizione necessaria e sufficiente affinchè un [[Punto materiale]] stia in equilibrio in una certa posizione è, in generale, che la sua velocità sia nulla ad un certo istante e che la risultante delle forze ad esso applicate sia nulla.
+Consideriamo un punto materiale in un campo di forze conservative, limitandoci per semplicità ad un caso monodimensionale, sia $E_{p}(x)$ l'andamento dell'energia potenziale lungo l'asse $x$. Poichè in questo caso la forza è pari alla derivata dell'energia potenziale rispetto a $x$, cambiata di segno, essa sarà nulla in un punto di ascissa $x_{0}$ se e solo se $\left( \dfrac{dE_{p}}{dx} \right)_{x = x_{0}} =0$ ossia se il punto considerato è un punto stazionario per la funzione $E_{p}(x)$. Precisamente:
+- se si tratta di un punto di **massimo** l'equilibrio si dice **instabile**
+- se si tratta di un punto di **minimo** l'equilibrio si dice **stabile**
+- se la derivata è **nulla** $\forall x$ di un intorno a $x_{0}$ l'equilibrio si dice **indifferente**
+
+Un punto di equilibrio si dice stabile, instabile o indifferente a seconda che, a seguito di uno spostamento infinitesimo del punto dalla posizione di euqilibrio, la risultante tenda a riportare il punto nella posizione di equilibrio, oppure ad allontanarlo, oppure resti ancora nulla.
+
+# ANKI
+
+```anki
+id: 1700212220771
+deck: Fisica
+---
+Campi di forze conservative
+===
+Un campo di forze che ammette energia potenziale si dice campo conservativo e si dice che la corrispondente forza è una forza conservativa
+```
+
+
+```anki
+id: 1700212222793
+deck: Fisica
+---
+Condizione necessaria ma non sufficiente perchè un campo di forze sia conservativo
+===
+La condizione è che l'espressione della forza dipenda solo dalla posizione del materiale
+$$ \vec{F} = \vec{F}(\vec{r}) $$
+```
+
+
+```anki
+id: 1700212224195
+deck: Fisica
+---
+Condizione sufficiente ma non necessaria perchè un campo di forze sia **non** conservativo
+===
+La condizione è che la forza dipenda anche dalla velocità del punto materiale a cui è applicata
+```
+
+
+```anki
+id: 1700212225046
+deck: Fisica
+---
+Condizione necessaria e sufficiente affinchè un campo di forze sia conservativo
+===
+Sappiamo che un campo è conservativo se e solo se ammette energia potenziale, quindi solo se il lavoro può essere scritto come il differenziale di una funzione scalare che è l'opposto dell'energia potenziale.
+La condizione affinchè questa funzione esiste è che tra le componenti della forza del campo valcano
+
+$$
+\frac{ \partial F_{x} }{ \partial y }  = \frac{ \partial F_{y} }{ \partial x } ;\quad \frac{ \partial F_{x} }{ \partial z } = \frac{ \partial F_{z} }{ \partial x } ;\quad \frac{ \partial F_{y} }{ \partial x } = \frac{ \partial F_{z} }{ \partial y } 
+$$
+Che corrisponde all'operatore "rotore" applicato ad $\vec{F}$:
+$$ \text{rot}(\vec{F}) = \vec{\nabla} \times \vec{F} = 0$$
+Che equivale ad affermare che il campo è irrotazionale
+```
+
+
+```anki
+id: 1700212225620
+deck: Fisica
+---
+Equilibio di un corpo in un campo conservativo
+===
+Sappiamo che necessariamente affinchè un corpo sia in equilibrio la sua velocità deve essere nulla insieme alla risultante delle forze.
+Considerando un punto materiale in un campo di forze conservative, sia $E_P(x)$ l'andamento dell'energia potenziale rispetto all'asse $x$.
+Allora il punto si troverà in equilibrio se e solo se 
+$$ \frac{dE_p}{dx}_{x = x_0} = 0 $$
+Più precisamente si tratterà di
+- equilibrio instabile: se il punto della funzione sarà di massimo ("il corpo è in un picco")
+- equilibrio stabile: se il punto della funzione sarà di minimo ("il corpo è in una valle")
+- equilibrio indifferente se la derivata è nulla in un intorno di $x_0$ ("il corpo è in piano")
+```

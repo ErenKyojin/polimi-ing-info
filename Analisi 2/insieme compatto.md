@@ -1,1 +1,0 @@
-[[Insieme]] chiuso e limitato in $\mathbb{R}^2$
