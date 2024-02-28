@@ -46,7 +46,7 @@ in alcuni casi, dei tag specifici accettano modificatori
 ```
 
 
-## Formattazione testuale
+## Formattazione testuale in HTML 3
 - <i\> corsivo <\/i> --> *corsivo* \*
 - <b\> grassetto <\/b> --> **grassetto** \*
 - <u\> sottolineature <\/u> --> <u> sottolineatura </u> \*
@@ -56,3 +56,14 @@ in alcuni casi, dei tag specifici accettano modificatori
 - paragrafi 
 - <a href="https://en.wikipedia.org/wiki/Hyperlink">hyperlinks! </a>
 	- rivoluzione per la rete, concetto di rete più forte che mai
+	- motore di ricerca, una pagina è più importante se è puntata da pagine importanti
+- comunicazione bidirezionale <a href = "mailto:mail@example.com">mail </a>
+- media
+- media interattivi
+- tabella
+
+---
+
+Da HTML 3 si sono evoluti due sistemi differenti
+- HTML4, CSS, ...
+- 
