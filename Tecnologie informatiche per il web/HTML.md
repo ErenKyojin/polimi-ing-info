@@ -75,3 +75,13 @@ divide gli elementi della pagina in livelli differenti:
 - comportamento -> JS
 - Stile -> CSS, JS + DOM
 - Contenuto e struttura -> XHTML
+
+Implementazione di \<div> + class
+
+- class: conferisce attributi specifici ad qualsiasi elemento html attraverso classificazione
+- div: delimita porzioni di contenuto, può essere classificato
+
+
+```html
+<div class="boxed">  </div>
+```
