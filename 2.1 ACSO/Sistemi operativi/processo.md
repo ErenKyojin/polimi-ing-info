@@ -127,3 +127,8 @@ I processi sono classificabili secondo diversi modelli di classificazione
 
 - Esecuzione
   può essere direttamente tradotto in un'implementazione eseguibile
+
+
+# Processo in ingegneria del software
+>[!def]
+>Il processo è come avviene lo sviluppo industriale del software
