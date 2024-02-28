@@ -1,3 +1,6 @@
+>[!def]
+>
+
 >[!esempio] Esperimento
 >$n$ prove in condizioni analoga, prove di tipo dicotomico ossia con due possibili risultati, successo (1) e fallimento (0)
 >

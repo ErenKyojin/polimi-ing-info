@@ -165,8 +165,13 @@ Se $(E, F, G)$ sono indipendenti allora
 >&P((E \cup G) \cap G) = P((E \cap G) \cup (F \cap G)) =  \\
 >=&P(E \cap G) + P(F \cap G) - P((E \cap G) \cap (F \cap G))= \\
 >=& P(E \cap G) + P(F \cap G) - P(E \cap F \cap G) = \\
->=& P(E)P(G) + P(F)P(G) - P(E)P(F)P(G)
+>=& P(E)P(G) + P(F)P(G) - P(E)P(F)P(G) = \\
+>= & P(G)[P(E) + P(F) - P(E) P(F)] =  \\
+>=&P(G)[P(E) + P(F) - P(E \cap F)] = P(G)P(E \cup F)
 >\end{align} $$
+
+>[!oss]
+>Se $E_{1},\dots,E_{n}$ sono indipendenti e $1 = i_{1}< i_{2} < i_{3} < \dots < i_{k} = n$ ed $F_{h}$ è una combinazionie (attraverso unione, intersezione, complementare) degli eventi $E_{i_{h}}, E_{i_{h}+1},\dots, E_{i_{h+1}}$ allora la n-upla $F_{1},F_{2},\dots,F_{h}$ sono indipendenti
 
 ## Indipendenza condizionale
 $A,B,F$ con $P(F) > 0$
