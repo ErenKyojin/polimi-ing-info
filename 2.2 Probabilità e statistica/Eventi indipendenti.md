@@ -152,7 +152,21 @@ Se $(E, F, G)$ sono indipendenti allora
 - $(E, F | G)$ indipendenti
 
 >[!dim]
+>$(E,F,G)$ indipendenti $\implies$ $(E \cap F, G)$ indipendente:
+>$$ \begin{align}
+>&P((E \cap F) \cap G) \overset{?}{=} P(E \cap F)P(G) \\
+>&P((E \cap F) \cap G) = P(E \cap F \cap G) = P(E)P(F)P(G)= \\
+&= P(E \cap F) P(G) \implies (E \cap F , G) \text{ indipendenti}
+>\end{align} $$
 >
+>Ora dimostriamo $(E,F,G)$ indip $\implies (E \cup F, G)$
+>$$ \begin{align}
+>&P((E \cup F) \cap G) \overset{?}{=} P(E \cup F)P(G) \\
+>&P((E \cup G) \cap G) = P((E \cap G) \cup (F \cap G)) =  \\
+>=&P(E \cap G) + P(F \cap G) - P((E \cap G) \cap (F \cap G))= \\
+>=& P(E \cap G) + P(F \cap G) - P(E \cap F \cap G) = \\
+>=& P(E)P(G) + P(F)P(G) - P(E)P(F)P(G)
+>\end{align} $$
 
 ## Indipendenza condizionale
 $A,B,F$ con $P(F) > 0$
