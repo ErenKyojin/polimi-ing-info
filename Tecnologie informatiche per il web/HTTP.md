@@ -48,7 +48,22 @@ Server che fa da intermediario per qualche altro server, a differenza del proxy 
 ## HTTP 2
 Principalmente sviluppato per l'ottimizzazione di performance. HTTP1.1 fa pipelining e non multiplexing, ossia posso fare più richieste sulla stessa connessione, ma le risposte devono tornare nello stesso ordine. Se una risorsa è lenta alla testa della coda rallenterà tutte le richieste successive. HTTP2 aggiunge quindi:
 - Framing: Richieste e risposte sono impacchettate in frames, di tipi diversi per headers, dati, priorità... 
-- Multiplexing: La trasmissione è organizzata in flussi; sequenze indipendenti e bidirezionali di frame
+- Multiplexing: La trasmissione è organizzata in flussi. C'è uno scambio di sequenze indipendenti e bidirezionali di frame
 - Flow control e priorità
 - Compressione
-- Server push
+- Server push: ad esempio includere automaticamente i file CSS
+
+
+>[!esempio] esempio di frame
+>`GET /resource HTTP/1.1 Host: example.org Accept: image/jpeg`
+> 
+> ```
+> HEADERS
+> 	+ END_STREAM
+> 	+ END_HEADERS
+> 	 :method = get
+> 	 :scheme = https
+>      :path = /resource
+> 	 host = example.org
+> 	 accept = image/jpeg
+> ```
