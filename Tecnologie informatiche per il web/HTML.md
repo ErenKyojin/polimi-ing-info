@@ -44,3 +44,15 @@ in alcuni casi, dei tag specifici accettano modificatori
 </body>
 </html>
 ```
+
+
+## Formattazione testuale
+- <i\> corsivo <\/i> --> *corsivo* \*
+- <b\> grassetto <\/b> --> **grassetto** \*
+- <u\> sottolineature <\/u> --> <u> sottolineatura </u> \*
+- font size \*
+- font color \*
+- headings 
+- paragrafi 
+- <a href="https://en.wikipedia.org/wiki/Hyperlink">hyperlinks! </a>
+	- rivoluzione per la rete, concetto di rete più forte che mai
