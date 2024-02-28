@@ -44,3 +44,11 @@ Server che fa da intermediario per qualche altro server, a differenza del proxy 
 - connessione persistente (non si chiude il canale TCP/IP immediatamente, risposta alla scelta di apache non ortodossa di implementare keep-alive)
 - [[negoziazione del contenuto]]
 - [[cache managment]]
+
+## HTTP 2
+Principalmente sviluppato per l'ottimizzazione di performance. HTTP1.1 fa pipelining e non multiplexing, ossia posso fare più richieste sulla stessa connessione, ma le risposte devono tornare nello stesso ordine. Se una risorsa è lenta alla testa della coda rallenterà tutte le richieste successive. HTTP2 aggiunge quindi:
+- Framing: Richieste e risposte sono impacchettate in frames, di tipi diversi per headers, dati, priorità... 
+- Multiplexing: La trasmissione è organizzata in flussi; sequenze indipendenti e bidirezionali di frame
+- Flow control e priorità
+- Compressione
+- Server push
