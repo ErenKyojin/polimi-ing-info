@@ -24,3 +24,17 @@ Perchè usare Java?
 È un vero e proprio [[framework]].
 
 ![[architettura-servlet.canvas]]
+
+
+I servlet sono gestiti da thread differenti di processi persistenti.
+C'è solo un processo (la JVM che hosta il servlet)
+- quando il servlet è caricato è caricata solo un'istanza
+- richiesta HTTP concorrenti sono tratta attraverso chiamate ad un metodo di servlet
+- Un thread per richiesta è allocato
+
+È sicuramente un miglioramento di performance. 
+
+
+> [!warning]
+>
+>I dati dei membri delle classi servlet sono condivise tra tutti i client HTTP, non vanno usate per thread safety
