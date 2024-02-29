@@ -33,7 +33,12 @@ $\tau(x)$ è la stringa che si trova nel nastro di scrittura dopo aver scandito 
 Possiamo sfruttare la pila per leggere le stringhe di tipo $a^nb^n$, 
 
 >[!def]
->Un a
+>Un automa a pila è una sestupla $\left< Q, I, \Gamma, q_{0}, \delta, F \right>$
+>- $Q$ insieme finito di stati
+>- $I$ alfabeto (insieme finito di simboli)
+>- $\Gamma$ insieme finito di simboli ausiliari tali che $\Gamma \cap I = \varnothing$
+>- $q_{0}$ stato iniziale
+>- $\delta$ funzione di transizione $: Q \times (I \cup \{ \varepsilon \}) \times \Gamma \to Q$
 
 # Automa traduttore a pila
 ![[Pasted image 20230223095250.png]]
