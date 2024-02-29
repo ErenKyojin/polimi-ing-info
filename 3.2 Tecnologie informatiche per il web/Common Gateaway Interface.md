@@ -34,7 +34,7 @@ Attraverso
 
 Per allegare nel body una request si utilizza 
 ```html
-<form action="" method="post">
+<form action="" method=POST>
 	...
 </form> 
 ```
