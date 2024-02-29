@@ -19,4 +19,17 @@ Il server inizializza l'interfaccia (tramite [[fork]]). Il server comunicherà c
 
 Il programma stampa su STDOUT, il webserver legge e manda indietro terminando il processo.
 
+### Svantaggi
 È una tecnologia estremamente dispendiosa in termine di risorse (ad ogni interazione possibilmente corrisponde una fork, reinizializzare il database...)
+
+---
+
+Come comunica il browser con CGI?
+Attraverso
+- HTTP GET
+	- parametri nell'URL
+	- https://example.com?par=val
+- HTTP POST
+	- Parametri inseriti come un entità HTTP nel body della richiesta, richiede l'utilizzo di HTML
+
+Per allegare nel body una request si utilizza \<form action=""></form> (funziona sia tramite GET che tramite POST)
