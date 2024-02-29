@@ -1,1 +1,1 @@
-Diamo la descrizione di alcune proprietà del sistema direttamente, sono piú astratti rispetto ai [[Modelli operazionali]]
+Diamo la descrizione di alcune proprietà del sistema direttamente, sono piú astratti rispetto ai [[polimi-ing-info/2.2 Algoritmi e principi dell'informatica/Modelli operazionali/Modelli operazionali]]
