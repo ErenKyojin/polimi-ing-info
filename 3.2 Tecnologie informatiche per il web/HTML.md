@@ -87,3 +87,6 @@ Implementazione di \<div> + class
 ```
 
 definisce l'equivalente di un nuovo tag boxed
+
+
+HTML4 è quindi un misto tra HTML3 e XML, dove il primo ha tag completamente statici, mentre il secondo ha i tag dinamici e scelti da chi scrive. In HTML4 attraverso le classi e i div e span è possibile fare dei tag "customizzati", ma la struttura rimane uguale per tutti.
