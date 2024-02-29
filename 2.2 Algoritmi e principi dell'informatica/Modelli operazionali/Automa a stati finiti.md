@@ -55,7 +55,9 @@ Possiamo rappresentarlo cosí:
 
 definiamo una [[sequenza di mosse]] induttivamente tramite $\delta$ ([[Funzioni|funzione]] di transizione)
 
-Un tipo notevole di automi FSA, sono gli automi traduttori
+Un tipo notevole di automi FSA, sono gli [[accettori]] ed i traduttori
+
+
 
 >[!tldr]
 >Se $A$ automa a stati finiti:
