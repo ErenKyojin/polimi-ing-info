@@ -1,1 +1,2 @@
-Diamo la descrizione di alcune proprietà del sistema direttamente, sono piú astratti rispetto ai [[polimi-ing-info/2.2 Algoritmi e principi dell'informatica/Modelli operazionali/Modelli operazionali]]
+>[!def]
+>I modelli desrittivi descrivono le proprietà e gli obiettivi che vogliamo raggiungere dal sistema, sono quindi più astratti rispetto ai [[Modelli operazionali]]. Descriviamo come vogliamo che il sistema si comporti
