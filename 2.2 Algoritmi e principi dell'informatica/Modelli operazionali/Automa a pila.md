@@ -32,6 +32,8 @@ $\tau(x)$ è la stringa che si trova nel nastro di scrittura dopo aver scandito 
 
 Possiamo sfruttare la pila per leggere le stringhe di tipo $a^nb^n$, 
 
+>[!def]
+>Un a
 
 # Automa traduttore a pila
 ![[Pasted image 20230223095250.png]]

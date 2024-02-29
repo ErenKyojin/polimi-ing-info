@@ -1,5 +1,5 @@
 >[!def] Chiusura
->Si dice che un operazione $\circ$ è chiusa su un insieme $X$ se $\forall x_{1}, x_{2} \in X$ $x_{1} \circ x_{2} \in X$ 
+>Si dice che un insieme $X$  è chiuso su un operazione $\circ$ se $\forall x_{1}, x_{2} \in X$ $x_{1} \circ x_{2} \in X$ 
 
 
 >[!def] Chiusura universale
@@ -37,7 +37,6 @@ Vediamo la costruzione di alcune operazioni:
 
 ## Automi
 
-Dati due au
 #### Deterministici
 
 AFD | APD | MTD 
