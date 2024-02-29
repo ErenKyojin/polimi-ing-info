@@ -108,8 +108,8 @@ graph LR
 	q1 -->|a| q3
 ```
 Formalmente $\delta(q_{1},a) = \left\{ q_{2},q_{3} \right\}$
-$\delta : Q \times I \to \mathcal{P}(Q)$
-
+$$\delta : Q \times I \to \mathcal{P}(Q)$$
+Dove $\mathcal{P}(Q)$ è l'insieme delle parti di $Q$
 Praticamente l'automa è in q1, legge 'a' e decide se andare in q2 o in q3, sono un sovrainsieme dei FSA deterministici, se l'automa non legge niente rimaniamo nello stesso stato, se dobbiamo leggere una stringa $x$ chiadiamo $y$ la prima parte della stringa e $i$ l'ultimo carattere
 
 $\delta^*(q,x) = \delta^*(q,y.i)$
