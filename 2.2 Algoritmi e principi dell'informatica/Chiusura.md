@@ -1,3 +1,7 @@
+>[!def] Chiusura
+>Si dice che un operazione $\circ$ è chiusa su un insieme $X$ se $\forall x_{1}, x_{2} \in X$ $x_{1} \circ x_{2} \in X$ 
+
+
 >[!def] Chiusura universale
 >Data una formula $\mathcal{A}$ se ne può fare la **chiusura universale** facendo precedere $\mathcal{A}$ da [[Quantificatori]] universali che quantifichino le variabili che in $\mathcal{A}$ hanno occorrenze libere
 >La chiusura universale di una fbf è vera se e solo se la fbf è vera.
@@ -31,8 +35,9 @@ Vediamo la costruzione di alcune operazioni:
 - [[Intersezione]]
 
 
-# Automi
+## Automi
 
+Dati due au
 #### Deterministici
 
 AFD | APD | MTD 
