@@ -32,4 +32,20 @@ Attraverso
 - HTTP POST
 	- Parametri inseriti come un entità HTTP nel body della richiesta, richiede l'utilizzo di HTML
 
-Per allegare nel body una request si utilizza \<form action=""></form> (funziona sia tramite GET che tramite POST)
+Per allegare nel body una request si utilizza 
+```html
+<form action="" method="post">
+	...
+</form> 
+```
+(funziona sia tramite GET che tramite POST)
+
+1. leggi variabili d'ambiente 
+2. esegui il programma 
+3. stampa heading (`content-type: text/html`) 
+4. stampa HTML
+
+Per la lettura di variabili in particolare:
+![[CGI-2.canvas]]
+
+per superare le limitazioni di CGI nasce [[servlet]]

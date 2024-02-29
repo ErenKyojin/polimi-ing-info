@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"acd4123a8e4cb38d","x":-137,"y":-241,"width":250,"height":60,"type":"text","text":"leggi request_method"},
+		{"id":"83dac77ffde5e38f","x":-12,"y":-60,"width":250,"height":60,"type":"text","text":"Leggi content_length"},
+		{"id":"e4528b83e657b892","x":-12,"y":140,"width":250,"height":60,"type":"text","text":"leggi n byte con n = content_length"},
+		{"id":"929587cc6fbe071c","x":-280,"y":-60,"width":250,"height":60,"type":"text","text":"Leggi query_string"}
+	],
+	"edges":[
+		{"id":"1ccc5f42a31a2bba","fromNode":"acd4123a8e4cb38d","fromSide":"bottom","toNode":"83dac77ffde5e38f","toSide":"top","label":"post"},
+		{"id":"b44d80653a20dbb7","fromNode":"83dac77ffde5e38f","fromSide":"bottom","toNode":"e4528b83e657b892","toSide":"top"},
+		{"id":"75aea4b1fb4a602a","fromNode":"acd4123a8e4cb38d","fromSide":"bottom","toNode":"929587cc6fbe071c","toSide":"top","label":"get"}
+	]
+}
