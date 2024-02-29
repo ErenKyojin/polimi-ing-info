@@ -19,3 +19,8 @@ Perchè usare Java?
 >Vantaggi:
 >- supporto per java richiesto solo sul server
 >- portatili su diversi sistemi operativi
+>- il resto dei benefici di java
+
+È un vero e proprio [[framework]].
+
+![[architettura-servlet.canvas]]

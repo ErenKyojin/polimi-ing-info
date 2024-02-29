@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"6ce3df81c07c004b","type":"group","x":120,"y":-200,"width":335,"height":178,"label":"JVM"},
+		{"id":"609f23e030d8bee8","type":"group","x":140,"y":-146,"width":295,"height":104,"label":"Servlet container"},
+		{"id":"103c00e73d81e74e","type":"text","text":"Servlet","x":165,"y":-122,"width":250,"height":60},
+		{"id":"4ffd185cf56ac6f0","type":"text","text":"Client","x":-480,"y":-122,"width":135,"height":60},
+		{"id":"3f4ccc85d2f42da9","type":"text","text":"web server","x":-200,"y":-122,"width":140,"height":60}
+	],
+	"edges":[
+		{"id":"820faaa6f7075fbf","fromNode":"4ffd185cf56ac6f0","fromSide":"top","toNode":"3f4ccc85d2f42da9","toSide":"top"},
+		{"id":"b33ba87fc0c6f69f","fromNode":"3f4ccc85d2f42da9","fromSide":"bottom","toNode":"4ffd185cf56ac6f0","toSide":"bottom"},
+		{"id":"82f3a511219e90f3","fromNode":"3f4ccc85d2f42da9","fromSide":"top","toNode":"6ce3df81c07c004b","toSide":"top"},
+		{"id":"6c8129bac56daa19","fromNode":"6ce3df81c07c004b","fromSide":"bottom","toNode":"3f4ccc85d2f42da9","toSide":"bottom"}
+	]
+}
