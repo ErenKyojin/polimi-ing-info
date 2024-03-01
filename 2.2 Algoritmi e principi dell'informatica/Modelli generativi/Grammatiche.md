@@ -87,8 +87,12 @@ Sono sicuramente utili per la definizione (e la compilazione!!) della sintassi d
 # Classi di grammatiche
 
 
-### Grammatiche non ristrette
+## Grammatiche non ristrette
 Non hanno alcuna restrizione o regola specifica.
+
+### Grammatiche sensibili al contesto
+Le grammatiche sensibili al contesto sono grammatiche del tipo
+$$\alpha A \beta \to \alpha \gamma \beta$$ con $A$ simbolo non terminale e $\alpha, \beta, \gamma$ stringhe formate da simboli terminali e non terminali
 
 ### Grammatiche non contestuali
 Ogni produzione ha la forma $\alpha \to \beta$ con $|\alpha| = 1$, con $\alpha$  elemento di $V_{N}$.
