@@ -38,3 +38,5 @@ Curva di offerte del mercato
 
 >[!risultato]
 >rimangono nel mercato solo le imprese più efficienti, e queste imprese NON fanno profitti
+
+Nessuno vuole questo risultato, si cerca quindi (ad esempio attraverso il marketing, o fornendo uno svantaggio informativo al consumatore) di evitare le 4 assunzioni iniziali
