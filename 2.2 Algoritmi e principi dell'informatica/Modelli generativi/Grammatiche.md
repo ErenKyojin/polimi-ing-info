@@ -87,6 +87,9 @@ Sono sicuramente utili per la definizione (e la compilazione!!) della sintassi d
 # Classi di grammatiche
 
 
+### Grammatiche non ristrette
+Non hanno alcuna restrizione o regola specifica.
+
 ### Grammatiche non contestuali
 Ogni produzione ha la forma $\alpha \to \beta$ con $|\alpha| = 1$, con $\alpha$  elemento di $V_{N}$.
 Non contestuale perchè la riscrittura di $\alpha$ non dipende dal contesto in cui si trova, sono di fatto la stessa cosa della BNF usata per definire la sitassi dei linguaggi di programmazione.
