@@ -261,10 +261,3 @@ in questo modo se e solo se $x\$ \alpha B qAC\beta \implies x\$\alpha BA'q'C\bet
 Aggiungo infine produzioni che permettano a $G$ di derivare da $x\$\alpha Bq_{F}AC\beta$ la sola $x$ se e solo se M giunge a una nuova configurazione di accettazione $\alpha Bq_{F}AC\beta$ cancellando tutto ciò che si trova a destra di $, questi incluso.
 
 
-| Automa SF                 | Automa SF non deterministico    | grammatiche regolari          |
-| ------------------------- | ------------------------------- | ----------------------------- |
-| **automa a pila**         |                                 |                               |
-| **Automa a pila non det** | **grammatiche non contestuali** |                               |
-| **Grammatiche monotone**  |                                 |                               |
-| **Macchine di turing**    | **Macchine di Turing ND**       | **grammatiche non ristrette** |
-

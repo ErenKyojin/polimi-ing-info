@@ -48,6 +48,10 @@ Con le seguenti abbreviazioni:
 - Parole, di almeno 3 simboli, in cui il terzultimo simbolo è $a$:
 	- $\exists x(a(x) \land \exists y(y = x + 2 \land \text{last}(y)))$
 
+>[!oss]
+>Non c'è un modo facile per passare da una formula in logica del primo ordine partendo da un linguaggio, tuttavia è utile tenere a mente che
+>- quando è importante **come si susseguono le lettere** in un linguaggio si possono sfruttare formule con stringhe decomposte nella concatenazione di sottostringhe di altri linguaggi
+>- Quando è importante **contare** le occorrenze di alcune lettere è utile definire funzioni ausiliarie che contano i simboli di cui abbiamo interesse
 
 # Logica monadica MFO
 
