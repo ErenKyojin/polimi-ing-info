@@ -205,10 +205,8 @@ subgraph D
 dq0["{q0}"] --> dq1["{q?}"] 
 end
 ```
-#todo foto
 
-
-## A cosa serve un automa a stati finiti deterministico?
+## A cosa serve un automa a stati finiti non deterministico?
 Puó essere piú semplice progettarlo e ricavarne, attraverso un [[Algoritmo]], l'equivalente deterministico.
 
 >[!Esempio]
