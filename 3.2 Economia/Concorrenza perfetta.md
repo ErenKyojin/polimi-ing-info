@@ -30,3 +30,6 @@ Condizione di minima produzione: $\pi = pq - CT(q) > 0$
 Il prezzo deve essere superiore al costo medio affinchè l'impresa sia in grado di ottenere profitti positivi.
 
 $p > \frac{CT(q)}{q}$
+
+
+Curva di offerte del mercato
