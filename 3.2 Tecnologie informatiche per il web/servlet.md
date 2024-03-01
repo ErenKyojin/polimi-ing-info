@@ -38,3 +38,31 @@ C'è solo un processo (la JVM che hosta il servlet)
 > [!warning]
 >
 >I dati dei membri delle classi servlet sono condivise tra tutti i client HTTP, non vanno usate per thread safety
+
+
+>[!esempio] Esempio di una classe Servlet che stampa hello world
+>```java
+>import java.io.*;
+>import javax.servlet.*;
+>import javax.servlet.http.*;
+>
+>public class HelloWorldServlet extends HttpServlet {
+>	public void doGet(HttpServletRequest request,
+ >                        HttpServletResponse response)
+>			throws ServletException, IOException {
+>		response.setContentType("text/html");
+>		PrintWriter out = response.getWriter();
+>		
+>		out.println("<HTML>");
+>		out.println("<HEAD><TITLE>Hello World Servlet </TITLE></HEAD>");
+>		out.println("<BODY>");
+>		out.println("Hello, World!");
+>		out.println("</BODY>");
+>		out.println("</HTML>");
+>		out.close();
+>	}
+>}
+>```
+
+
+Per informare java di uqando deve chiamare una servlet devo usare l'annotazione `@WebServlet("/HelloWorld")`
