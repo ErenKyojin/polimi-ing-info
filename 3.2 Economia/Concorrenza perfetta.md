@@ -33,3 +33,8 @@ $p > \frac{CT(q)}{q}$
 
 
 Curva di offerte del mercato
+
+[[prezzo di mercato]]
+
+>[!risultato]
+>rimangono nel mercato solo le imprese più efficienti, e queste imprese NON fanno profitti
