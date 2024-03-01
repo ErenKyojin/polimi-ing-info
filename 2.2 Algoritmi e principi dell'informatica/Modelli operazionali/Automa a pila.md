@@ -204,7 +204,7 @@ Ciclo di epsilon mosse significa che lavora solo sulla pila, ma sono inutili. (S
 >Per accettare la stringa epsilon semplicemente mandiamo l'input in q1 e possiamo eliminare il caso di parentesi aperta con Z0
 
 # Automi a pila non deterministici
-Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]], possiamo quindi semplicemente rimuoverlo
+Nascono non deterministici di natura, aggiungiamo noi il [[determinismo]], possiamo quindi semplicemente rimuoverlo modificando la funzione di transizione. Prima se per una determinata configurazione era definita una $\varepsilon$-mossa non poteva essere definita nessun'altra mossa
 
 ```mermaid
 graph TB
@@ -225,6 +225,8 @@ $$\delta : Q \times (I \cap \left\{ \varepsilon \right\}) \times \Gamma \to \mat
 - $c_{0} \vdash^* \left< q,\varepsilon,\gamma \right>, q \in F$
 - $\vdash$ non è univoca!
 
+>[!teorema]
+>il linguaggio $L= \{ a^nb^n | n \geq 1 \} \cup \{ a^nb^{2n} | n \geq 1 \}$ è accettato da un APND, ma non da un APD
 
 >[!oss]
 >Gli automi a pila non deterministici possono riconoscere un [[Linguaggio]] non riconoscibile dagli automi a pila deterministici, quindi sono piú potenti.
