@@ -1,4 +1,4 @@
-$x =$ numero di successi su $n$ [[Prove di Bernoulli]] di percentuale $p$
+$X =$ numero di successi su $n$ [[Prove di Bernoulli]] di percentuale $p$
 
 $\implies S = \left\{ 0,1,\dots,n \right\}$
 $\implies f_{X} (k) = P(x=k) = P(x =k)= \begin{pmatrix}n\\k\end{pmatrix}p^k(1-p)^{n-k}$, $k = 0$
