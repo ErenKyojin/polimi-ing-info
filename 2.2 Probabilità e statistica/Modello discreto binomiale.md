@@ -19,7 +19,11 @@ $$
 
 Quindi
 >[!def] 
->La densità discreta di una variabile aleatoria binomiale di parametri $n,p$ è data da
+>La densità discreta di una variabile aleatoria binomiale di parametri $(n,p)$ è data dalla
+>$$ \quad p(i) = \begin{pmatrix}
+n \\
+i 
+\end{pmatrix} p^i(1-p)^{n-i}\qquad i = 0,1,\dots,n$$
 
 Casi particolari:
 1. $n = 1, x \sim \Bi(1,p) \equiv$ **Bernoulliana**(p), vista in precedenza è un caso speciale del
