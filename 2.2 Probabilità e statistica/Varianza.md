@@ -5,16 +5,18 @@ modification date: 2023-03-20 15:20
 ---
 Date le seguenti variabili aleatorie con [[Densità discreta]]  tale che:
 $$ \begin{align}
-&p(X = 0) = 1 \\
+&\ \ \ p(X = 0) = 1 \\
 &\begin{cases}
 p(Y = 1) = \frac{1}{2} \\
-P(Y = -1) = \frac{1}{2}
+p(Y = -1) = \frac{1}{2}
 \end{cases} \\
 &\begin{cases}
-P(Z = 100) = \frac{1}{2} \\
-P(Z = 100) = \frac{1}{2}
+p(Z = 100) = \frac{1}{2} \\
+p(Z = -100) = \frac{1}{2}
 \end{cases}
 \end{align} $$
+
+Hanno tutte lo stesso valore atteso, nonostante abbiano intuitivamente una distanza diversa dal valore atteso stesso.
 >[!def]
 >Sia $X$ una [[variabile aleatoria]] discreta o assolutamente continua tale che esista $E(X)$ se inoltre esiste $E((X - E(X))^2)$ allora si pone:
 > $$
