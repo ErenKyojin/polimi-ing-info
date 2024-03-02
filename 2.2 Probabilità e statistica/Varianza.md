@@ -33,7 +33,7 @@ Se $X$ è una variabile aleatorai discreta con densità $p_{X}$ e media $E(X) = 
 >1. $\var(X) = 0$ se e solo se $P(X = c) =1$ per qualche costante $c$. In questo caso $c = E(X)$
 >2. Se $X$ ammette varianza e $\alpha \in \mathbb{R}$ allora $\var(\alpha X) = \alpha^2\var(X)$
 >3. Se $X$ ammette varianza e $\beta \in \mathbb{R}$ allora $\var(X + \beta) = \var(X)$
->4. Se $X$ ammette varia enza allora $X^2$ ammette [[Valore atteso|media]] e $\var(X) = E(X^2)- E(X)^2$
+>4. Se $X$ ammette varianza allora $X^2$ ammette [[Valore atteso|media]] e $\var(X) = E(X^2)- E(X)^2$
 
 ## Varianza campionaria
 Stima della variazione dell'intera popolazione $\sigma^2(x)$ attraverso lo stimatore
