@@ -8,6 +8,13 @@ $$
 X \sim \Bi(n,p)
 $$
 
+>[!def]
+>Data una prova o un esperimento con esito positivo o negativo, ossia un prova di bernoulli. Posto $X=1$ quando l'esito è positivo e $X=0$ quando l'esito è negativo, diciamo che $X$ è una **variabile aleatoria di Bernoulli** se $\exists p \in [0,1]$ tale che
+>$$ \begin{cases}
+>p(0) = P(X=0) = 1 - p \\
+>p(1) = P(X = 1) = p
+>\end{cases} $$
+
 Casi particolari:
 1. $n = 1, x \sim \Bi(1,p) \equiv$ **Bernoulliana**(p)
    $$f_{x} :\begin{pmatrix}
