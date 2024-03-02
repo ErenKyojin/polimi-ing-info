@@ -42,7 +42,8 @@ Sia $X$ una variabile aleatoria definita sullo [[Spazio di probabilità]] $(\Ome
 1. se $P(X=c)=1 \implies E(X)=c$ 
 2. se $X$ è una variabile aleatoria e $B \subset \mathbb{R}$ tale che $\left\{ X \in B \right\} \in \mathcal{F}$ allora $E(\mathbb{1}_{B}(X)) = P(X \in B)$
 3. Se $X$ è una variabile aleatoria tale che $E(X)$ esiste e $\alpha$ è una costante allora $E(\alpha X)=\alpha E(X)$
-4. Se $X$ è una variabile aleatoria, $g$ e $h$ sono funzioni tali che $E(g(X))$ e $E(h(X))$ esistono allora $E(g(X)+h(x)) = E(g(X)) + E(h(X))$
+4. Se $X$ è una variabile aleatoria, $g$ e $h$ sono funzioni tali che $E(g(X))$ e $E(h(X))$ esistono allora $E(g(X)+h(x)) = E(g(X)) + E(h(X))$a
+	1. se $X$ è una variabile aleatoria e $a,b$ sono costanti, $E(aX + b) = aE(X) + b$ 
 5. Se $X$ è una variabile aleatore tale che $P(X \geq 0) = 1$ e $E(X)$ esiste, allora $E(X) \geq 0$. Se in aggiunta $E(X) = 0$ allora $P(X =0)=1$
 6. se $a,b \in \mathbb{R}$ sono tali che $P(a \leq X \leq b) = 1$allora $a \leq E(X) \leq b$
 7. siano $g$ e $h$ funzioni tali che $E(g(X))$ e $E(h(x))$ esistono. Se $P(h(X) \geq g(x)) = 1$ allora $E(h(X)) \geq E(g(x))$
