@@ -3,9 +3,9 @@ aliases:
 creation date: 2023-03-20 15:20
 modification date: 2023-03-20 15:20
 ---
-
+Date le seguenti variabili aleatorie con
 >[!def]
->Sia $X$ una variabile aleatoria discreta o assolutamente continua tale che esista $E(X)$ se inoltre esiste $E((X - E(X))^2)$ allora si pone:
+>Sia $X$ una [[variabile aleatoria]] discreta o assolutamente continua tale che esista $E(X)$ se inoltre esiste $E((X - E(X))^2)$ allora si pone:
 > $$
 >\var(X) := E((X - E(X))^2)
 >$$
