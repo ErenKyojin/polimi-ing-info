@@ -17,6 +17,7 @@ Per le variabili aleatorie discrete:
 >
 >Altrimenti si dice che $X$ non amette valore atteso
 
+Il valore atteso è la media pesata della probabilità di ogni valore che X può assumere, ognuno pesato per la probabilità che X lo assuma.
 
 Facciamo qualche osservazione su questa definizione. Se $X$ è una [[Variabile aleatoria]] discreta non è detto che $X$ abbia valore atteso. Questo dipende dalla [[polimi-ing-info/2.1 Analisi 2/convergenza|convergenza]] della [[Connessione in serie|serie]] $\sum_{k \in I} |x_{k}|p_{X}(x_{k})$.
 Se $X$ assume un numero finito di valori questa serie è la somma finita sicuramente convergente e la media esiste, se la sommatoria precedente converge allora, passando dalla [[Convergenza assoluta]] alla [[polimi-ing-info/1.1 Analisi 1/Successioni/Convergenza|convergenza]] anche il valore atteso converge, ed quindi $E(x)$ è finito.
