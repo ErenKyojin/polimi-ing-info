@@ -42,7 +42,8 @@ Notazione$\{w : x(w) \in I\} = "x \in I"$
 >\end{align}$$
 
 
-Riepilogo $$
+Riepilogo 
+$$
 \begin{align}
 (\Omega, \mathcal{F},P  ) \\
 P : \Omega \to \mathbb{R} \\
@@ -50,6 +51,7 @@ P : \Omega \to \mathbb{R} \\
 \end{align} \implies
 \mathbb{R} x \text{ probabilizzabile}
 $$
+
 # Variabili aleatorie assolutamente continue
 #todo
 
