@@ -52,10 +52,17 @@ P : \Omega \to \mathbb{R} \\
 \mathbb{R} x \text{ probabilizzabile}
 $$
 
-# Variabili aleatorie assolutamente continue
+# Variabili aleatoriee continue
+Fino ad ora abbiamo considerato variabili aleatoriee discrete, ossia che possono assumere valori numerabili. Tuttavia ci sono innumerevoli casi in cui non è sufficiente, basi pensare a tutti i casi in cui la variabile aleatoria descrive un tempo (ad esempio i secondi per terminare un attività). Per questi casi dobbiamo definire le variabili aleatoriee come continue:
+
+>[!def]
+>Sia $X$ una variabile aleatoria che assume valori non numerabili, diciamo che $X$ è una **variabile aleatoria continua** se esiste una funzione $f$ detta [[funzione di distribuzione]]
+
+
+## Variabili aleatorie assolutamente continue
 #todo
 
-## Funzioni di variabili aleatorie assolutamente continue
+### Funzioni di variabili aleatorie assolutamente continue
 
 >[!esempio]
 > $x$ variabile aleatoria assolutamente continua, carica batterica di un campione di liquidio da un bacino di lavorazione alimentare, $u(a,b)$
