@@ -23,6 +23,13 @@ valore atteso
 ?
 Sia $X$ una variabile aleatoria, sia $p(x)$ la sua densità discreta, il valore atteso di $X$ è definito come $$E(X) = \sum_{x : p(x) > 0} x p(x)$$
 
-valore atteso di una funzione di una variabile aleatoria
+varianza
 ?
-Sia $X$ una variabile aleatoria, sia $g(X)$ una funzione
+Data una variabile aleatoria $X$ con valore atteso $\mu$, definiamo la varianza di $X$ come
+$$ \delta(X) = E[(X - \mu)^2] $$
+alternativamente $\delta(X) = E(X^2) - (E(X))^2$
+
+deviazione standard
+?
+La deviazione standard di $X$ è $\sqrt{ \delta (X) }$
+
