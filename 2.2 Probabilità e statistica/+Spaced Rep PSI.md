@@ -45,4 +45,8 @@ Una bernoulliana è una variabile aleatoria binomiale con parametri $(1,p)$
 
 valore atteso di una variabile aleatoria binomiale
 ?
-Data una variabile aleatoria binomiale $X$, il suo valore atteso è dato da $$
+Data una variabile aleatoria binomiale $X$, il suo valore atteso è dato da $E(X)=np$. Con $n$ numero di prove e $p$ probabilità di successo di una prova
+
+Varianza di una variabile aleatoria binomiale
+?
+Data una variabile aleatoria binomiale $X$, la sua varianza è data dalla formula $\delta(X) = np(1 - p)$
