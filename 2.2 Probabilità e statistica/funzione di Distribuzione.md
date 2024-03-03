@@ -22,3 +22,13 @@ creation date: 2024-03-03
 - $\lim_{ a \to \infty } F(a) = 1$
 - $\lim_{ a \to -\infty } F(a) = 0$
 - $F$ è una funzione continua a destra
+
+## Funzione di distribuzione per variabili aleatorie continue
+
+^f9173c
+
+> [!def]
+> Sia $X$ variabile aleatoria continua, sia $f(x)$ la sua funzione di densità. La funzione di distribuzione è ricavabile tramite la relazione
+> $$ P\{ X < a \} = F(a) = \int _{-\infty}^{a} \! f(x) \, \mathrm{d}x  $$
+
+^61c769

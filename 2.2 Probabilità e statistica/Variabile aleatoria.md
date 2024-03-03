@@ -74,6 +74,9 @@ $$ P\{ a \leq X \leq b \} = \int _{a}^b \!f(x) \, \mathrm{d}x  $$
   $$ P\{ X=a \}=\int _{a}^a \!f(x) \, \mathrm{d}x =0 ! $$
 
 Quindi una variabile aleatoria continua ha probabilità 0 per qualsiasi assegnazione! 
+
+![[funzione di Distribuzione#^61c769]]
+
 ## Variabili aleatorie assolutamente continue
 #todo
 
