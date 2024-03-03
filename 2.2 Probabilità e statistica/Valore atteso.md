@@ -53,3 +53,13 @@ la prima proprietà ci dice chei l valore atteso di una costante è la costante 
 
 Considerata una variabile aleatoria continua $X$ con funzione di densità $f(x)$, definiamo il valore atteso come 
 $$ E[x] = \int _{-\infty}^{\infty} \! xf(x) \, \mathrm{d}x  $$
+
+Se $X$ è una variabile aleatoria con funzione di densità $f(x)$, per qualsiasi funzione $g$ a valori reali vale
+$$ E[g(x)] = \int _{-\infty}^{\infty} \!g(x)f(x) \, \mathrm{d}x  $$
+
+Se $Y$ è una variabile aleatoria non negativa:
+$$ E[Y]= \int   \! P\{ Y > y \}\, \mathrm{d}y  $$
+
+Se $a,b$ costanti
+$$ E[aX + b] = aE[X] + b $$
+analogamente a quanto visto per le variabili aleatoriee discretez
