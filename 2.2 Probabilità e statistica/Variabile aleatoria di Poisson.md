@@ -19,3 +19,8 @@ $$\delta(X)= E[X^2] - E[X]^2 = \lambda $$
 
 >[!oss]
 >La variabile aleatoria di Poisson rimane una buona approssimazione anche quando le variabili sono debolmente dipendenti
+
+
+>[!legge] Paradigma di Poisson
+>Considerando $n$ eventi con probabilità $p_{i}$ di accadere, considerati essi indipendenti o debolmente dipendenti; allora il numero di eventi che si verifica è approosimativamente distribuito come la legge di Poisson di media
+>$$ \sum_{i=1}^n p_{i} $$
