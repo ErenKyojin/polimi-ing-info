@@ -56,8 +56,13 @@ $$
 Fino ad ora abbiamo considerato variabili aleatoriee discrete, ossia che possono assumere valori numerabili. Tuttavia ci sono innumerevoli casi in cui non è sufficiente, basi pensare a tutti i casi in cui la variabile aleatoria descrive un tempo (ad esempio i secondi per terminare un attività). Per questi casi dobbiamo definire le variabili aleatoriee come continue:
 
 >[!def]
->Sia $X$ una variabile aleatoria che assume valori non numerabili, diciamo che $X$ è una **variabile aleatoria continua** se esiste una funzione $f$ detta [[funzione di distribuzione]]
+>Sia $X$ una variabile aleatoria che assume valori non numerabili, diciamo che $X$ è una **variabile aleatoria continua** se esiste una funzione $f$ detta [[funzione di densità]] di $X$ definita per ogni $x \in (-\infty,+\infty)$ tale che per ogni insieme $B \subseteq \mathbb{R}$
+>$$ P\{ X \in B \} = \int _{B} \!f(x) \, \mathrm{d}x  $$
 
+
+>[!oss]
+>$f$ deve soddisfare 
+>$1 = P\{ X \in  \}$
 
 ## Variabili aleatorie assolutamente continue
 #todo
