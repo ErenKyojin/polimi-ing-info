@@ -1,16 +1,3 @@
-> [!esempio]
-> L'obiettivo è modellizzare la durata di una macchine che:
-> 1. è inizialmente funzionante
-> 2. è monitarata nel discreta ai tempi 1,2,...
-> 3. non è soggetto ne a ne a
-> 4. d
-> 5.
-> 
-> 
-
-$S = \left\{ 1,2,\dots \right\}$
-3. $P(A$ durante $h$ funzioni) = $P(B$ nuova dello stesso tipo funzioni fra $k$ istanti)
-
-$X =$ durata della macchina
-$P(A$ in $h$ funzione fra $k$ istanti$)$ =
-= $P(X > k + h | X > h) = P(X > k)$
+Vogliamo modellare i casi in cui una prova viene ripetuta fino a quando non si verifica. Sia $X$ la variabile aleatoria che indica la quantità di prove da effettuare prima che vi sia un riscontro positivo, sia $p > 0$ la probabilità di verificarsi di ogni singola prova vale che:
+$$ P\{ X = n \} = (1 - p)^{n-1}p \quad n =1,2,\dots $$
+Ogni 

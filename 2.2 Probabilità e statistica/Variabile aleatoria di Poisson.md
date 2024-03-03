@@ -24,3 +24,10 @@ $$\delta(X)= E[X^2] - E[X]^2 = \lambda $$
 >[!legge] Paradigma di Poisson
 >Considerando $n$ eventi con probabilità $p_{i}$ di accadere, considerati essi indipendenti o debolmente dipendenti; allora il numero di eventi che si verifica è approosimativamente distribuito come la legge di Poisson di media
 >$$ \sum_{i=1}^n p_{i} $$
+
+## Calcolo della funzione di distribuzione
+Se $X$ è una variabile aleatoria di Poisson di parametro $\lambda$ allora
+$$ \frac{P\{ X=i+1 \}}{P\{ X=i \}} = \frac{\lambda}{i+1} $$
+
+Iniziando da $P\{ X=0 \}=e$ si calcola ricorsivamente
+$$P\{ X=1 \} = \lambda P\{ X = 0 \} \to P\{ X=2 \} = \frac{\lambda}{2}P\{ X=0 \}$$
