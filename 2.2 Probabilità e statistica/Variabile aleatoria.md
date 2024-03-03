@@ -60,9 +60,16 @@ Fino ad ora abbiamo considerato variabili aleatoriee discrete, ossia che possono
 >$$ P\{ X \in B \} = \int _{B} \!f(x) \, \mathrm{d}x  $$
 
 
->[!oss]
->$f$ deve soddisfare 
->$1 = P\{ X \in  \}$
+
+Osseriviamo alcune proprietà:
+
+- $f$ deve soddisfare 
+$$1 = P\{ X \in [-\infty,+\infty] \}= \int _{-\infty}^{\infty} \! f(x)\, \mathrm{d}x$$
+
+-  se $B=[a,b]$ 
+$$ P\{ a \leq X \leq b \} = \int _{a}^b \!f(x) \, \mathrm{d}x  $$
+- se $B =[a,a]$
+  $$ P $$
 
 ## Variabili aleatorie assolutamente continue
 #todo
