@@ -45,4 +45,4 @@ Una bernoulliana è una variabile aleatoria binomiale con parametri $(1,p)$
 
 valore atteso di una variabile aleatoria binomiale
 ?
-Una variabile aleatoria binomiale $X$ è 
+Data una variabile aleatoria binomiale $X$, il suo valore atteso è dato da $$
