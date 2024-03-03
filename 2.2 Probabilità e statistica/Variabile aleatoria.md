@@ -59,6 +59,8 @@ Fino ad ora abbiamo considerato variabili aleatoriee discrete, ossia che possono
 >Sia $X$ una variabile aleatoria che assume valori non numerabili, diciamo che $X$ è una **variabile aleatoria continua** se esiste una funzione $f$ detta [[funzione di densità]] di $X$ definita per ogni $x \in (-\infty,+\infty)$ tale che per ogni insieme $B \subseteq \mathbb{R}$
 >$$ P\{ X \in B \} = \int _{B} \!f(x) \, \mathrm{d}x  $$
 
+^a0cf7e
+
 
 
 Osseriviamo alcune proprietà:
@@ -69,8 +71,9 @@ $$1 = P\{ X \in [-\infty,+\infty] \}= \int _{-\infty}^{\infty} \! f(x)\, \mathrm
 -  se $B=[a,b]$ 
 $$ P\{ a \leq X \leq b \} = \int _{a}^b \!f(x) \, \mathrm{d}x  $$
 - se $B =[a,a]$
-  $$ P $$
+  $$ P\{ X=a \}=\int _{a}^a \!f(x) \, \mathrm{d}x =0 ! $$
 
+Quindi una variabile aleatoria continua ha probabilità 0 per qualsiasi assegnazione! 
 ## Variabili aleatorie assolutamente continue
 #todo
 
