@@ -8,12 +8,10 @@ tags: flashcards
 variabile aleatoria
 ?
 Una variabile aleatoria è una funzione $X : \Omega \to \mathbb{R}$ tale che $\{ X \leq t \}$ è un evento per ogni $t \in \mathbb{R}$
-<!--SR:!2024-03-06,3,250-->
 
 funzione di ripartizione
 ?
 Una funzione di ripartizione della variabile aleatoria $X$ è una funzione $F$ tale che $$F(x) = P(X \leq x)$$, ossia la probabilità che la variabile aleatoria sia minore di $x$
-<!--SR:!2024-03-06,3,250-->
 
 densità discreta
 ?
@@ -33,3 +31,12 @@ deviazione standard
 ?
 La deviazione standard di $X$ è $\sqrt{ \delta (X) }$
 
+variabile aleatoria binomiale
+?
+Sia $X$ una variabile aleatoria tale che possa assumere solo $X=1$ successo dell'esperimento, $X=0$ insuccesso. Date $n$ prove con probabilità di successo $p$, la densità discreta di una variabile aleatoria binomiale di parametri $n,p$ per $i$ successi è
+$$ p(i) = \begin{pmatrix}
+n \\
+i
+\end{pmatrix} p^{i}p(1 - p)^{n-1}$$
+
+bernoulliana
