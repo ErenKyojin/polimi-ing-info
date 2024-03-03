@@ -9,4 +9,4 @@ creation date: 2024-03-03
 > dove $p(i)$ definisce la densità discretà essendo $\sum_{i=0}^\infty p(i)=1$ (dimostrazione immediata attraverso serie di taylor)
 
 
-La variabile aleatoria di Poisson ha molteplici applicazioni, in particolar modo per il fatto che, per $n$ grande e $p$ piccolo, è una buona approssimazione di una [[Modello discreto binomiale^|variabile aleatoria binomiale]]
+La variabile aleatoria di Poisson ha molteplici applicazioni, in particolar modo per il fatto che, per $n$ grande e $p$ piccolo, è una buona approssimazione di una [[Modello discreto binomiale|variabile aleatoria binomiale]]
