@@ -78,3 +78,7 @@ P = 0.2 è simmetrica con P = 0.8, P = 0.5 simmetrica con se stessaz
 >[!def]
 >$x \sim$ Poisann
 
+## Proprietà
+$X$ variabile aleatoria binomiale:
+- $E(X^k) = npE[(Y + 1)^{k-1}]$, con $Y$ variabile aleatoria binomiale di parametri $n-1,p$
+	- per $k=1$

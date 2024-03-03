@@ -40,3 +40,7 @@ i
 \end{pmatrix} p^{i}p(1 - p)^{n-1}$$
 
 bernoulliana
+?
+Una bernoulliana è una variabile aleatoria binomiale con parametri $(1,p)$
+
+valore atteso di una variabile alea
