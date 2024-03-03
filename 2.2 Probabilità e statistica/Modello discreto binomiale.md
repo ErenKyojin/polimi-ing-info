@@ -83,3 +83,5 @@ $X$ variabile aleatoria binomiale:
 - $E(X^k) = npE[(Y + 1)^{k-1}]$, con $Y$ variabile aleatoria binomiale di parametri $n-1,p$
 	- per $k=1, E(X) = np$
 - $\delta(X) = E(X^2) - E(X)^2 = np(1-p)$
+
+>[!proposizione]
