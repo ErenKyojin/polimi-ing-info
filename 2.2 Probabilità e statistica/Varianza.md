@@ -57,4 +57,8 @@ Vediamo 3 motivi validi per cui è opportuno dividere la somma degli $n$ scarti 
 2. Nella formula di $s^2(x)$ calcoliamo gli scarti quadratici della media campionaria $\bar{x}$ nota e non dalla media della popolazione (ignota). Ne segue che degli $n$ scarti quadratici solo $n-1$ sono tra loro indipendenti
 3. Si dimostra che il valore atteso dalla varianza campionaria con $n-1$ al denominatore è la varianza della popolazione
    $$ E \{ s^2 (x) \} = \sigma^2(x) $$
-   
+
+## Varianza per variabili continue
+Analogamente alla varianza per variabili aleatoriee discrete
+$$\delta(X) = E[(X-\mu)^2] $$
+$$ \delta(X) = E[X^2] - E[X]^2 $$

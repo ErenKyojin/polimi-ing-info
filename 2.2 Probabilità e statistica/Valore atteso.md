@@ -62,4 +62,4 @@ $$ E[Y]= \int   \! P\{ Y > y \}\, \mathrm{d}y  $$
 
 Se $a,b$ costanti
 $$ E[aX + b] = aE[X] + b $$
-analogamente a quanto visto per le variabili aleatoriee discretez
+analogamente a quanto visto per le variabili aleatoriee discrete.
