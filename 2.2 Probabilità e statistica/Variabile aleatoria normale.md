@@ -1,5 +1,5 @@
 ---
-aliases: densità gaussiana
+aliases: densità gaussiana, gaussiana, 
 creation date: 2023-03-15 09:32
 modification date: 2023-03-15 09:32
 ---
@@ -33,11 +33,17 @@ $$
 ```
 
 >[!def]
->Una [[Variabile aleatoria]] assolutamente continua $X$ con densità è detta gaussiana di parametri $\mu$ e $\sigma^2$ e si indica $X \sim \mathcal{N}(\mu,\sigma^2)$
+>Una [[Variabile aleatoria]] assolutamente continua $X$ con densità
+>$$ f(x) = \frac{1}{\sqrt{ 2\pi \sigma^2 }}e^{-(x-\mu)^2/2\sigma^2} $$
+>è detta **variabile aleatoria normale** o **gaussiana** di parametri $\mu$ e $\sigma^2$ e si indica $X \sim \mathcal{N}(\mu,\sigma^2)$
 >
 >Deduciamo dagli ultimi calcoli fatti che i due parametri di una variabile aleatoria $\mathcal{N}(\mu,\sigma^2)$ hanno una precisa intepretazione, la prima è la media e la seconda è la varianza.
 
-È la funzione densità di probabilità (PDF) migliore per la [[Teoria degli errori]]
+È la funzione densità di probabilità (PDF) migliore per la [[Teoria degli errori]], ed è stata inizialmente sfruttata per l'ottima approsimazione della [[Modello discreto binomiale|variabile aleatoria binomiale]].
+
+>[!Oss]
+>Una variabile aleatoria normale è simmetrica rispetto a $\sigma$
+
 ## Approssimazione gaussina della [[Funzione di ripartizione]] binomiale
 
 >[!teorema]

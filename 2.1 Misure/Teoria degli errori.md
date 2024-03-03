@@ -41,7 +41,7 @@ $$ \sigma^2(x) = \sigma_{x}^2 = E(|x - \mu_{x}|^2) = \int _{\infty}^\infty \!|x 
 $$ \sigma(x) = \sqrt{ \sigma^2(x) } $$
 
 ---
-La PDF più comune è la [[Gaussiana|densità gaussiana]]
+La PDF più comune è la [[Variabile aleatoria normale|densità gaussiana]]
 
 Per trovare la probabilità che il valore cada in un intervallo della gaussiana è sufficiente integrare tra i due valori di cui siamo interessati a vedere se vi è contenimento.
 
