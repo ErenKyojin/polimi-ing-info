@@ -10,3 +10,6 @@ creation date: 2024-03-03
 
 
 La variabile aleatoria di Poisson ha molteplici applicazioni, in particolar modo per il fatto che, per $n$ grande e $p$ piccolo, è una buona approssimazione di una [[Modello discreto binomiale|variabile aleatoria binomiale]]
+
+### Valore atteso e varianza di una variabile aleatoria di Poisson
+Considerando il fatto che una variabile aleatoria di Poisson ne approssima una binomiale con $n$ grande, $p$ piccolo e con $\lambda=np$. Essendo una variabile aleatoria binomiale con valore attos
