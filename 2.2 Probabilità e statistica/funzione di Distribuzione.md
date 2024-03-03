@@ -11,4 +11,4 @@ creation date: 2024-03-03
 > \end{pmatrix}p^k(1-p)^{n-k}\quad i=0,1,\dots,n$$
 > 
 > Si può utilizzare la formula ricorsiva:
-> $$ P\{ X = k + 1 \} = \frac{p}{1-p} \frac{n-k}{k+1}P\{  \} $$
+> $$ P\{ X = k + 1 \} = \frac{p}{1-p} \frac{n-k}{k+1}P\{ X=k \} $$

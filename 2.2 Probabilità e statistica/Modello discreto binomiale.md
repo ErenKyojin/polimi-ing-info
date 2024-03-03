@@ -73,10 +73,7 @@ $$
 \end{document}
 ```
 FdR di $X$
-P = 0.2 è simmetrica con P = 0.8, P = 0.5 simmetrica con se stessaz
-
->[!def]
->$x \sim$ Poisann
+P = 0.2 è simmetrica con P = 0.8, P = 0.5 simmetrica con se stessa
 
 ## Proprietà
 $X$ variabile aleatoria binomiale:
