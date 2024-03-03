@@ -59,6 +59,8 @@ Vediamo 3 motivi validi per cui è opportuno dividere la somma degli $n$ scarti 
    $$ E \{ s^2 (x) \} = \sigma^2(x) $$
 
 ## Varianza per variabili continue
-Analogamente alla varianza per variabili aleatoriee discrete
-$$\delta(X) = E[(X-\mu)^2] $$
-$$ \delta(X) = E[X^2] - E[X]^2 $$
+
+> [!def]
+> Analogamente alla varianza per variabili aleatoriee discrete
+> $$\delta(X) = E[(X-\mu)^2] $$
+> $$ \delta(X) = E[X^2] - E[X]^2 $$ ^25665d

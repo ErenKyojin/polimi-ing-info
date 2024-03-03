@@ -51,11 +51,12 @@ la prima proprietà ci dice chei l valore atteso di una costante è la costante 
 
 # Valore atteso di una [[Variabile aleatoria#^a0cf7e|variabile aleatoria continua]]
 
-Considerata una variabile aleatoria continua $X$ con funzione di densità $f(x)$, definiamo il valore atteso come 
-$$ E[x] = \int _{-\infty}^{\infty} \! xf(x) \, \mathrm{d}x  $$
+> [!def]
+> Considerata una variabile aleatoria continua $X$ con funzione di densità $f(x)$, definiamo il valore atteso come 
+> $$ E[x] = \int _{-\infty}^{\infty} \! xf(x) \, \mathrm{d}x  $$ ^9f67c7
 
 Se $X$ è una variabile aleatoria con funzione di densità $f(x)$, per qualsiasi funzione $g$ a valori reali vale
-$$ E[g(x)] = \int _{-\infty}^{\infty} \!g(x)f(x) \, \mathrm{d}x  $$
+$$ E[g(x)] = \int _{-\infty}^{\infty} \!g(x)f(x) \, \mathrm{d}x  $$ ^93c68b
 
 Se $Y$ è una variabile aleatoria non negativa:
 $$ E[Y]= \int   \! P\{ Y > y \}\, \mathrm{d}y  $$

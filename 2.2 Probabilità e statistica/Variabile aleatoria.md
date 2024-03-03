@@ -77,6 +77,10 @@ Quindi una variabile aleatoria continua ha probabilità 0 per qualsiasi assegnaz
 
 ![[funzione di Distribuzione#^61c769]]
 
+![[Valore atteso#^9f67c7]]
+
+![[Varianza#^25665d]]
+
 ## Variabili aleatorie assolutamente continue
 #todo
 
