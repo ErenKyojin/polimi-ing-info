@@ -48,13 +48,13 @@ $$
 Data $X$ variabile aleatoria normale con coefficienti $(\mu,\sigma^2)$, sia $Y = aX + b$ variabile aleatoria, anch'essa è una variabile aleatoria normale con coeficienti $a\mu + b, a^2\sigma^2$
 
 
-## Approssimazione gaussina della [[Funzione di ripartizione]] binomiale
+## Approssimazione gaussina della [[funzione di ripartizione]] binomiale
 
 >[!teorema] Teorema di DeMoivre-Laplace
 >Sia $S_{n}$ il numero di successi in $n$ [[Prove di Bernoulli]], in ognuna delle quali il successo ha probabilità $p \in (0,1)$. Allora per ogni $a < b$
 > $$
 > P \left\{ a < \frac{S_{n} - np}{\sqrt{ np(1-p) }} \leq b \right\}  \to \Phi(b) - \Phi(a)
 >$$
->dove $\Phi$ è la [[Funzione di ripartizione]] di una gaussiana standard
+>dove $\Phi$ è la [[funzione di ripartizione]] di una gaussiana standard
 
 Questo teorema afferma che, per $n$ abbastanza grande (l'approssimazione inzia ad essere di rilievo per $np(1 -p) \geq 10$), una variabile aleatoria binomiale $(n,p)$ ha distribuzione analoga a quella di una variabile aleatoria normale, con media e varianza della binomiale.

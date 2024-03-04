@@ -4,7 +4,17 @@ creation date: 2024-03-03
 ---
 
 >[!def]
->Una funzione di ditribuzione $F$ di una variabile aleatoria $X$, indica che $F(a)$ sia la probabilità che $X$ assuma valore minore o uguale ad $a$
+>Sia $X$ una variabile aleatoria, definiamo la sua **funzione di ditribuzione** o **funzione di ripartizione** come $F_{X} : \mathbb{R} \to [0,1]$ 
+>$$ F_{X}(t) = P(X \leq t) $$
+>
+
+### Proprietà
+- Non decrescente
+- $\lim_{ a \to \infty } F(a) = 1$
+- $\lim_{ a \to -\infty } F(a) = 0$
+- $F$ è una funzione continua a destra 
+- $s < t \implies P(s < X \leq t) = F_{X}()$
+
 
 > [!def]
 > Data $X$ variabile aleatoria binomiale di parametri $p,n$, la sua funzione di distribuzione è data dalla seguente:
@@ -17,11 +27,6 @@ creation date: 2024-03-03
 > $$ P\{ X = k + 1 \} = \frac{p}{1-p} \frac{n-k}{k+1}P\{ X=k \} $$
 
 
-### Proprietà
-- Non decrescente
-- $\lim_{ a \to \infty } F(a) = 1$
-- $\lim_{ a \to -\infty } F(a) = 0$
-- $F$ è una funzione continua a destra
 
 ## Funzione di distribuzione per variabili aleatorie continue
 

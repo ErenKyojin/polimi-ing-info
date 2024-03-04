@@ -13,7 +13,7 @@ Notazione$\{w : x(w) \in I\} = "x \in I"$
 >Cioè posso calcolare la sua [[probabilità]], cioè $\left\{ x \leq t \right\} \in \mathcal{F}$
 
 
-![[Funzione di ripartizione]]
+![[funzione di ripartizione]]
 
 
 >[!esempio]
@@ -78,7 +78,7 @@ $$ P\{ a \leq X \leq b \} = \int _{a}^b \!f(x) \, \mathrm{d}x  $$
 
 Quindi una variabile aleatoria continua ha probabilità 0 per qualsiasi assegnazione! 
 
-![[funzione di Distribuzione#^61c769]]
+![[funzione di ripartizione#^61c769]]
 
 ![[Valore atteso#^9f67c7]]
 

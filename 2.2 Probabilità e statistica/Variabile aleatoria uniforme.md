@@ -17,7 +17,7 @@ Caso particolare $(\alpha, \beta) = (0,1)$, si ha quindi $f(x) = 1$ se $X$ cade 
 >$$ P\{ a \leq X \leq b \} =   \int _{a}^b \!f(x) \, \mathrm{d}x = b - a$$
 > quindi la probabilità che una variabile aleatoria continua uniforme $X$ cada all'interno di un intervallo è la lunghezza dell'intervallo stesso.
 
-Dalla definizione di [[funzione di Distribuzione]] per una variabile continua, considerando un intervallo $\alpha, \beta$
+Dalla definizione di [[funzione di ripartizione]] per una variabile continua, considerando un intervallo $\alpha, \beta$
 $$ F(a) = \begin{cases}
 0  &a \leq \alpha\\
 \dfrac{a-\alpha}{b-\beta}&\alpha < a < \beta \\
