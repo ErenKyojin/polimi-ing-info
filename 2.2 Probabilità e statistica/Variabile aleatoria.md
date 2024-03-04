@@ -52,6 +52,9 @@ P : \Omega \to \mathbb{R} \\
 \mathbb{R} x \text{ probabilizzabile}
 $$
 
+Una variabile aleatoria si trasporta $\Omega$ in $\mathbb{R}$
+$$ (\Omega, P(\Omega), \mathbb{P}) \to (\mathbb{R}, P(\mathbb{R}), \mathbb P_{X}) $$
+
 # Variabili aleatoriee assolutamente continue
 Fino ad ora abbiamo considerato variabili aleatoriee discrete, ossia che possono assumere valori numerabili. Tuttavia ci sono innumerevoli casi in cui non è sufficiente, basi pensare a tutti i casi in cui la variabile aleatoria descrive un tempo (ad esempio i secondi per terminare un attività). Per questi casi dobbiamo definire le variabili aleatoriee come continue:
 
