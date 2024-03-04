@@ -10,10 +10,10 @@ creation date: 2024-03-03
 
 ### Proprietà
 - Non decrescente
-- $\lim_{ a \to \infty } F(a) = 1$
-- $\lim_{ a \to -\infty } F(a) = 0$
-- $F$ è una funzione continua a destra 
-- $s < t \implies P(s < X \leq t) = F_{X}()$
+- $\lim_{ t \to \infty } F_{X}(t) = 1$
+- $\lim_{ t \to -\infty } F_{X}(t) = 0$
+- $F_{X}$ è una funzione continua a destra 
+- $s < t \implies P(s < X \leq t) = F_{X}(t) - F_{X}(s)$
 
 
 > [!def]
