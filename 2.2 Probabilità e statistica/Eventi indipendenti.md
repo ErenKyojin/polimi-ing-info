@@ -179,7 +179,7 @@ $A,B,F$ con $P(F) > 0$
 >[!def]
 >DIco che $A,B$ sono condizionalmente indipendenti dato $F$ se $A,B$ sono indipendenti rispetto alla [[Probabilità condizionata]]. 
 > $$
-> P(F) = \left[ \frac{P(A\cap F)}{P(F)} \right] 
+> P(F) = \left[ \frac{P(A\cap  B |F)}{P(F)} \right] 
 >$$
 >Cioè $P(A \cap B | F) = P(A|F)P(B|F)$
 
@@ -189,7 +189,3 @@ $A,B,F$ con $P(F) > 0$
 
 Se $A,B$ sono indipendenti $\implies A,B$ condizionalmente indipendenti dato un $F$.
 Ma se la terna $A,B,F$ sono indipendenti valgono le implicazioni.
-
-$$ \begin{pmatrix}
- a + b = c 123
-\end{pmatrix} $$
