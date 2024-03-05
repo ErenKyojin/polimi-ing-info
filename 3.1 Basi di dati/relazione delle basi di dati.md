@@ -15,11 +15,22 @@ Le relazioni con cui lavoriamo in un [[DBMS]] tendono ad avere qualche specifici
 Inoltre una relazione matematica $n$-aria distingue gli $n$ domini unicamente attraverso la loro posizione, questo è scomodo in informatica, dove preferiremmo poter distinguere gli $n$ domini attraverso nomi identificativi, ad esempio:
 
 > [!esempio]
-> Data la seguente tabella, che descrive uno studente, l'ultimo voto preso e la tabella, questa di fatto descrive una relazione matematica, ma è di difficile leggibilità.
+> Data la seguente tabella, che descrive uno studente, l'ultimo voto ricevuto e la media, questa di fatto descrive una relazione matematica, ma è di difficile leggibilità.
 > 
 > | Alice        | 28  | 25   |
 > | ------------ | --- | ---- |
 > | Beatrice | 30  | 29.5 |
 > | Carlo    | 30  | 19     |
-> 
-> 
+>
+>Sarebbe preferibile la seguente:
+>
+>| studente | ultimo voto | media
+>| ------------ | --- | ---- |
+> | Alice        | 28  | 25   |
+> | Beatrice | 30  | 29.5 |
+> | Carlo    | 30  | 19     |
+
+Ed in effetti, le tabelle per il modello relazionale sfruttano la definizione di attributi per indicare i vari domini.
+
+>[!def]
+>Sia $\mathcal{D}$ l'insieme dei domini, sia $\text{dom} : X \to \mathcal{D}$ funzione che associa ad ogni attributo $x \in X$ un dominio. Una relazione su $X$ è l'insieme di  [[tupla|tuple]] su $X$
