@@ -34,3 +34,5 @@ Ed in effetti, le tabelle per il modello relazionale sfruttano la definizione di
 
 >[!def]
 >Sia $\mathcal{D}$ l'insieme dei domini, sia $\text{dom} : X \to \mathcal{D}$ funzione che associa ad ogni attributo $x \in X$ un dominio. Una relazione su $X$ è l'insieme di  [[tupla|tuple]] su $X$
+
+Una base di dati è molto raramente costituita da una sola relazione, e quando
