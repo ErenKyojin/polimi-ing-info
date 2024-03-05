@@ -21,7 +21,7 @@ Il concetto chiave per risolvere il problema di controllo è che **non** vogliam
 
 Per risolvere un problema di controllo:
 1. Riformularlo matematicaemente
-2. Determinare il modello matematico che descrive il controllore [[problema della sintesi]]
+2. Determinare il modello matematico che descrive il controllore  ([[problema della sintesi]])
 3. Realizzare il controllore
 # ANKI
 
