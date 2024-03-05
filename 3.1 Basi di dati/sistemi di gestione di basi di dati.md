@@ -19,3 +19,6 @@ I DBMS devono essere
 - **efficaci**: le attività degli utenti devono essere rese produttive al massimo.
 
 i DBMS sono progettati quindi per essere un estensione del sistema originale del [[File System]]
+
+
+Vi è una architettura proposta, detta a [[architettura a tre livelli]]
