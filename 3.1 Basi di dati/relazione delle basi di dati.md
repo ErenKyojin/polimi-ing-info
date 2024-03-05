@@ -35,4 +35,27 @@ Ed in effetti, le tabelle per il modello relazionale sfruttano la definizione di
 >[!def]
 >Sia $\mathcal{D}$ l'insieme dei domini, sia $\text{dom} : X \to \mathcal{D}$ funzione che associa ad ogni attributo $x \in X$ un dominio. Una relazione su $X$ è l'insieme di  [[tupla|tuple]] su $X$
 
-Una base di dati è molto raramente costituita da una sola relazione, e quando
+Una base di dati è molto raramente costituita da una sola relazione, e quando la relazione è più di una, i riferimenti fra le diverse relazioni vengono rappresentati per mezzo di valori dei domini
+
+>[!esempio]
+>Si consideri la seguente base di dati, che descrive una rete LAN.
+>
+> | ID  | utente  | password |
+> | --- | ------- | -------- |
+> | 01  | antonio | 1234     |
+> | 02  | bart    | paswd    |
+> | 03  | carlo   | 0000     | 
+> 
+> | utente | MAC   | last_login |
+> | ------ | ----- | ---------- |
+> | 01     | A:F:C | 1970-01-01 |
+> | 02     | 0:H:B | 2023-04-30 |
+> | 03     | A:8:C | 2023-04-30 |
+> | 03     | 1:L:B | 2021-02-17 |
+> 
+> | MAC   | IP            |
+> | ----- | ------------- |
+> | A:F:C | 192.168.1.2   |
+> | 0:H:B | 192.168.1.100 |
+> | A:8:C | 192.168.1.156 |
+> | 1:L:B | 192.168.1.253 | 
