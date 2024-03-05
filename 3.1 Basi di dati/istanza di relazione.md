@@ -59,3 +59,4 @@ Una base di dati è molto raramente costituita da una sola relazione, e quando l
 > | 0:H:B | 192.168.1.100 |
 > | A:8:C | 192.168.1.156 |
 > | 1:L:B | 192.168.1.253 | 
+
