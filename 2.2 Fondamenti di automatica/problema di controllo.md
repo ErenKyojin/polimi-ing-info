@@ -18,6 +18,11 @@ Un problema di controllo si risolve attraverso strumenti  tecnologici, in partic
 
 Il concetto chiave per risolvere il problema di controllo è che **non** vogliamo risolvere le equaizoni differenziali, ma vogliamo sfruttarne le proprietà per capire l'andamento delle uscite
 
+
+Per risolvere un problema di controllo:
+1. Riformularlo matematicaemente
+2. Determinare il modello matematico che descrive il controllore [[problema della sintesi]]
+3. Realizzare il controllore
 # ANKI
 
 ```anki
