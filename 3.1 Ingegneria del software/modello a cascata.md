@@ -56,4 +56,8 @@ Da cui è possibile eseguire la [[decomposizione]] in [[moduli]]
 
 ## Fasi basse
 ### Codifica e test
-Il software viene codificato tramite linguaggio di programmazione scelto, ogni modulo deve offrire la propria documentazione
+Il software viene codificato tramite linguaggio di programmazione scelto, ogni modulo deve offrire la propria documentazione. In questa fase iniziano le prime verifiche cosidette statiche, ossia  verifiche di compilazione e di inizializzazione delle variabili. Si procede poi con
+- [[test di unità]]
+	- Si testano i moduli seaparatamente, fino a quando non si è certi della sua funzionalità
+- [[test di integrazione]]
+- [[test di sistema]]
