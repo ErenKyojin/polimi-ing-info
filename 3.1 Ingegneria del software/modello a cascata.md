@@ -21,7 +21,7 @@ graph TB
 	A(studio di fattibilità e pianificazione) --> B(analisi e specifica dei requisiti) --> C(progettazione, sia di alto livello che di dettaglio) --> D(implementazione e test di unità e di integrazione) --> E(Messa in esercizio, deployement) --> F(manutenzione)
 ```
 
-
+## Fasi alte
 
 ### Studio di fattibilità e pianificazione
 In questa fase si inizia effettuando uno studio di fattibilità, si decide ossia se il progetto sia realizzabile con uno studio dei costi benefici, si controllano eventuali alternative e si studiano le risorse necessarie.
@@ -53,3 +53,7 @@ Vuole definire l'architettura software, ossia i singoli componenti e come comuni
 L'output è il **documento di progetto**, che descrive l'architettura complessiva e come i singoli moduli compongono il sistema
 
 Da cui è possibile eseguire la [[decomposizione]] in [[moduli]]
+
+## Fasi basse
+### Codifica e test
+Il software viene codificato tramite linguaggio di programmazione scelto, ogni modulo deve offrire la propria documentazione
