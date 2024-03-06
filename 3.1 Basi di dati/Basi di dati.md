@@ -19,6 +19,7 @@ Possiamo ridefinire le basi di dati come
 Per organizzare una struttura utilizziamo [[modelli dei dati]]
 
 
-Attraverso il concetto di [[istanza di relazione|relazione]] del [[modello relazionale]], possiamo definire un'istanza di base di dati (o direttamente base di dati) con:
+Attraverso il concetto di [[istanza di relazione|relazione]] del [[modello relazionale]], possiamo definire un'istanza di base di dati (o direttamente base di dati).
+
 >[!def]
->>
+>Sia $\mathbf{B} = \{ R_{1}(X_{1}), R_{2}(X_{2}),\dots,R_{m}(X_{m}) \}$ uno schema di una base di dati, una **istanza di base di dati** è un insieme $\mathbf{r} = \{ r_{1},r_{2},\dots,r_{n} \}$ di relazioni, con $r_{i}$ relazione sullo schema $R_{i}(X)$
