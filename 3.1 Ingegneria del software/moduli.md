@@ -15,3 +15,4 @@ Un modulo deve essere ben descritto e conosciuto da chi ci lavora.
 > Per utilizzare una funzione è necessario conoscere
 > - la **sintassi**, ossia come si invoca e quali parametri accetta
 > - la **semantica**
+

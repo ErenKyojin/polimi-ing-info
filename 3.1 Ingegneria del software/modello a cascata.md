@@ -8,6 +8,16 @@ Inizialmente si costituiscono dei livelli, composti da fasi e attività, si sceg
 
 ```mermaid
 graph TB
+	subgraph "fasi alte"
+		A
+		B
+		C
+	end
+	subgraph "fasi basse"
+		D
+		E
+		F
+	end
 	A(studio di fattibilità e pianificazione) --> B(analisi e specifica dei requisiti) --> C(progettazione, sia di alto livello che di dettaglio) --> D(implementazione e test di unità e di integrazione) --> E(Messa in esercizio, deployement) --> F(manutenzione)
 ```
 
@@ -31,4 +41,15 @@ Cosa vuole il cliente e come verrà fornito? ASR individua i requisiti caratteri
 
 L'output è una **specifica**, successivamente convalidata tramite analisi e verifiche.
 
-La **speci**
+La **specifica** indica cosa deve svolgere il software
+
+>[!oss]
+>dalla specifica derivano i casi di test
+
+
+### Progettazione
+Vuole definire l'architettura software, ossia i singoli componenti e come comunicano. Vuole farlo attraverso sviluppo parallelo e suddivisione della responsabilità. 
+
+L'output è il **documento di progetto**, che descrive l'architettura complessiva e come i singoli moduli compongono il sistema
+
+Da cui è possibile eseguire la [[decomposizione]] in [[moduli]]
