@@ -35,3 +35,11 @@ graph TB
 ### ![[deployment]]
 
 ### ![[manutenzione]]
+
+
+# Problemi del ciclo a cascata
+- La manutenzione è finale, non disciplinata da un processo (non è divisa in attività fondamentali)
+- Va comunque adattato ad ogni progetto
+- Non è flessibile, è richiesto sapere tutto (dominio, requisiti determinati, stabilità dei requisiti)
+
+Sarebbe utile coinvolgere gli utenti durante il ciclo di vita affinchè i requisiti possano essere interpretati nel modo più oggettivo possibile, ossia è necessaria [[trasparenza]]
