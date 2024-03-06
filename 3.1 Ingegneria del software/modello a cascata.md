@@ -34,4 +34,4 @@ graph TB
 
 ### ![[deployment]]
 
-### ![[manu]]
+### ![[manutenzione]]
