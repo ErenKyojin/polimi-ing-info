@@ -35,6 +35,13 @@ Ed in effetti, le tabelle per il modello relazionale sfruttano la definizione di
 >[!def]
 >Sia $\mathcal{D}$ l'insieme dei domini, sia $\text{dom} : X \to \mathcal{D}$ funzione che associa ad ogni attributo $x \in X$ un dominio. Una relazione su $X$ è l'insieme di  [[tupla|tuple]] su $X$
 
+o, attraverso le definizioni date rispetto alle basi di dati
+>[!def]
+>Una **relazione** o **istanza di relazione** su uno [[schema di relazione]] $R(X)$ è un insieme di tuple $r$ su $X$.
+>Si indica con la notazione $r(X)$
+
+
+
 Una base di dati è molto raramente costituita da una sola relazione, e quando la relazione è più di una, i riferimenti fra le diverse relazioni vengono rappresentati per mezzo di valori dei domini
 
 >[!esempio]

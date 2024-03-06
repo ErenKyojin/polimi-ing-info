@@ -17,3 +17,8 @@ Possiamo ridefinire le basi di dati come
 
 
 Per organizzare una struttura utilizziamo [[modelli dei dati]]
+
+
+Attraverso il concetto di [[istanza di relazione|relazione]] del [[modello relazionale]], possiamo definire un'istanza di base di dati (o direttamente base di dati) con:
+>[!def]
+>>
