@@ -13,4 +13,5 @@ In particolare diciamo
 Vediamo dei vincoli particolari:
 
 [[vincoli di tupla]]
-[[vincolo di chiave]]
+[[vincoli di chiave]]
+[[vincoli di integrità referenziale]]
