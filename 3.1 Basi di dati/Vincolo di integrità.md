@@ -13,3 +13,4 @@ In particolare diciamo
 Vediamo dei vincoli particolari:
 
 [[vincoli di tupla]]
+[[vincolo di chiave]]
