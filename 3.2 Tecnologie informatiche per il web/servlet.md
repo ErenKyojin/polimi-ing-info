@@ -66,3 +66,11 @@ C'è solo un processo (la JVM che hosta il servlet)
 
 
 Per informare java di uqando deve chiamare una servlet devo usare l'annotazione `@WebServlet("/HelloWorld")`
+
+Come fa un servlet sapere l'applicazione web a cui appartiene? 
+Ogni applicazione web è collegata ad un oggetto `ServletContext` che definisce la vision che il servlet ha dell'applicazione. Questo oggetto permetto di ottenere risorse tramite URL e impostare attributi a cui altri servlet nello stesso contesto possono accedere.
+
+Un servlet ha un root, ossia un percorso nel web server
+
+>[!esempio]
+>localhost:8080/examples nostra webapp. La dicitura /examples è detta **context path**, e coincide con un percorso sul web server
