@@ -92,3 +92,4 @@ L'URI richiesto sarà quindi
 - `servletPath`
 - `pathInfo`
 
+[[sintassi di mapping]]
