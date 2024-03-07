@@ -5,6 +5,9 @@ aliases:
   - "sistema lineare"
 tags: []
 ---
+
+Lo studio dei sistemi lineari è fondamentale in quanto le equazioni lineari che li compongono sono tra le poche equazioni che possono essere risolte in maniera algoritmica, quindi lo studio di innumerevoli fenomeni, dalla fisica all'informatica alla probabilità, cerca di portare o approssimare lo studio di eventi a equazioni lineari
+
 per definire un **sistema lineare** è necessario prima definire un'[[equazione lineare]] 
 
 >[!def]
