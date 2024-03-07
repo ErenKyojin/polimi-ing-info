@@ -42,4 +42,9 @@ graph TB
 - Va comunque adattato ad ogni progetto
 - Non è flessibile, è richiesto sapere tutto (dominio, requisiti determinati, stabilità dei requisiti)
 
-Sarebbe utile coinvolgere gli utenti durante il ciclo di vita affinchè i requisiti possano essere interpretati nel modo più oggettivo possibile, ossia è necessaria [[trasparenza]]
+Sarebbe utile coinvolgere gli utenti durante il ciclo di vita affinchè i requisiti possano essere interpretati nel modo più oggettivo possibile, ossia è necessaria trasparenza e flessibilità.
+
+Soluzioni:
+- [[rilascio incrementale]]
+- [[prototipazione]]
+- [[ciclo di vita a spirale]]
