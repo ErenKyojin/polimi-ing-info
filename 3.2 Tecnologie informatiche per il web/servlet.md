@@ -93,3 +93,9 @@ L'URI richiesto sarà quindi
 - `pathInfo`
 
 [[sintassi di mapping]]
+
+Il server trova una corrispondenza dall'URI richiesto al servlet attraverso le seguenti regole:
+1. Se è trovata una corrispondenza esatta del percorso richiesto il servlet corrispondente viene scelto
+2. Se non si riesce a soddisfare il primo requisito, si procede attraversando le directory una ad una, sfruttando `/` come separatore, il servlet che mantiene la corrispondenza più a lungo vince
+3. Se non si riescono a siddisfare i requisiti `1.` e `2.`, e la richiesta termina con un `.*` ed esiste un servlet che si occupa dell'estensione corrispondente, viene scelto quest'ultimo
+4. Se non si riesce a soddisfare nessun altro requisito il servlet base è scelto
