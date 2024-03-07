@@ -73,4 +73,7 @@ Ogni applicazione web è collegata ad un oggetto `ServletContext` che definisce 
 Un servlet ha un root, ossia un percorso nel web server
 
 >[!esempio]
->localhost:8080/examples nostra webapp. La dicitura /examples è detta **context path**, e coincide con un percorso sul web server
+>localhost:8080/examples nostra webapp. La dicitura /examples è detta [[context path]]
+
+
+Il servlet java può servire una richiesta HTTP determinando l'[[uniform resource identifiers|URI]] di richiesta e un URI pattern, specificato tramite un'[[annotazione]] sul servlet
