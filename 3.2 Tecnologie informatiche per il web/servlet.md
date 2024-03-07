@@ -77,5 +77,18 @@ Un servlet ha un root, ossia un percorso nel web server
 
 
 Il servlet java può servire una richiesta HTTP determinando l'[[uniform resource identifiers|URI]] di richiesta e un URI pattern, specificato tramite un'[[annotazione]] sul servlet
-
+```java
+@WebServlet("/examples")
+public class Servlet1 extends HttpServlet {
+	...
+}
+```
 Alternativamente si può assegnare attraverso XML
+
+
+L'URI richiesto sarà quindi
+`rURI = contextPath + servletPath + pathInfo`
+- `contextPath`
+- `servletPath`
+- `pathInfo`
+
