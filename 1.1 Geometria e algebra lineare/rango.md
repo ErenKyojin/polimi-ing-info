@@ -1,6 +1,8 @@
 >[!def]
 >Data $A \in M_{(m,n)}(\mathbb{K})$ si chiama rango di $A$ e si indica con $r(A)$ il numero di righe non nulle di una sua ridotta a scala $U$, ovvero il numero di pivot di $U$
 
+Il rango quindi è il numero di equazioni che hanno rilevanza nel sistema, le restanti sono sono superflue.
+
 >[!oss]
 >Il rango è un numero **univoco**, non dipende direttamente dalla matrice ottenuta, ma dal sistema
 
