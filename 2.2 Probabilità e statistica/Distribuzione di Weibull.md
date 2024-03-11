@@ -14,5 +14,5 @@ $$ F(x) = \begin{cases}
 E, derivandola, troviamo la funzione di distribuzione
 $$ f(x) = \begin{cases}
 0 & x \leq \nu \\
-\frac{\beta}{\alpha} \left( \frac{x-\nu}{} \right)
+\frac{\beta}{\alpha} \left( \frac{x-\nu}{\alpha} \right)^{\beta - 1} e^{[(x - \nu)/\alpha]^\beta} & x > \nu
 \end{cases} $$
