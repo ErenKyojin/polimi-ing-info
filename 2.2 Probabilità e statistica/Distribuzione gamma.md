@@ -16,4 +16,4 @@ $$ \Gamma(n) = (n-1)! $$
 
 
 ### Utilizzo
-La distribuzione Gamma è sfruttata solitamente per problemi del determinare quando avvengono $n$ eventi. Una distribuzione gamma notevole è la distribuzione con parametri $\left( \frac{n}{2}, \frac{1}{2} \right)$, detta [[distribuzione chi quadro]]
+La distribuzione Gamma è sfruttata solitamente per problemi del determinare quando avvengono $n$ eventi. Una distribuzione gamma notevole è la distribuzione con parametri $\left( \frac{n}{2}, \frac{1}{2} \right)$, detta [[distribuzione chi-quadro]]
