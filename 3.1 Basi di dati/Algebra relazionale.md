@@ -38,4 +38,6 @@ Vi sono tuttavia alcuni casi in cui l'unione avrebbe senso logico, consideriamo 
 Per risolvere questo problema è stato introdotto l'operatore ridenominazione, che, come il nome suggerisce, permette di rinominare gli attributi.
 
 >[!def]
->Dati $X$ ed $Y$ insieme di attributi tali che $|X| = |Y|$, sia $r$ relazione tale che $r : X \to X$, sia $x_{1},\dots,x_{k}$, $y_{1},\dots,y_{k}$ un ordinamento di 
+>Dati $X$ ed $Y$ insieme di attributi tali che $|X| = |Y| = k$, sia $r$ relazione tale che $r : X \to X$, sia $x_{1},\dots,x_{k}$, $y_{1},\dots,y_{k}$ un ordinamento di $X$ ed $Y$ rispettivamente. Definiamo la ridenominazione $\rho$
+>$$ \rho_{y_{1},\dots,y_{k} \leftarrow x_{1},\dots,x_{k}}(r) $$
+>contiene una tupla $t'$
