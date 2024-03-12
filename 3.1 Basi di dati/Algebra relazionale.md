@@ -35,4 +35,7 @@ Vi sono tuttavia alcuni casi in cui l'unione avrebbe senso logico, consideriamo 
 >Se volessimo unire queste due tabelle in un unica non ci sarebbe concesso. Tuttavia sarebbe molto utile avere una tabella dei prezzi completa
 
 
-Per risolvere questo problema è stato introdotto l'operatore ridenominazione, che, come il nome suggerisce, permette di rinominare gli attributi
+Per risolvere questo problema è stato introdotto l'operatore ridenominazione, che, come il nome suggerisce, permette di rinominare gli attributi.
+
+>[!def]
+>Dati $X$ ed $Y$ insieme di attributi tali che $|X| = |Y|$, sia $r$ relazione tale che $r : X \to X$, sia $x_{1},\dots,x_{k}$, $y_{1},\dots,y_{k}$ un ordinamento di 
