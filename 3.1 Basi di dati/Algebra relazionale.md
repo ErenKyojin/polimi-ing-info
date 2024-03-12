@@ -14,4 +14,9 @@ Definiamo quindi
 - La **differenza** $\setminus$ di due relazioni $r_{1}$ ed $r_{2}$, scritta come $r_{1} \setminus r_{2}$ è l'insieme di tuple di $r_{1}$ tranne quelle contenute anche in $r_{2}$
 
 
-## Operazioni ridenominazione
+## Operazione di ridenominazione
+Vi sono tuttavia alcuni casi in cui l'unione avrebbe senso logico, consideriamo l'esempio seguente:
+
+>[!esempio]
+ 
+| oggetto | prezzo | 
