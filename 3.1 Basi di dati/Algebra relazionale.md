@@ -43,3 +43,10 @@ La [[selezione]] produce un sottoinsieme di tuple su tutti gli attributi
 
 ## Operazione di proiezione
 [[proiezione]]
+
+
+## Join
+Permette di correlare dati di relazioni diverse, ne esistono due versioni principali:
+
+- [[join naturale]]
+- [[theta join]]
