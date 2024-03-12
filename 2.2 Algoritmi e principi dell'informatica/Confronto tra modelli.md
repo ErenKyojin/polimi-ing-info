@@ -21,8 +21,9 @@ Inoltre vale che
 | ------------------- | ------ | ------ | ------ | --- | --- |
 | MFO, starfree       | ✔      | ✔      | ✔      | ✗   | ✔   |
 | FAS, FASND, GR, MSO | ✔      | ✔      | ✔      | ✔   | ✔   |
-| automa a pila       |        |        | ✔      | ✔    |  ✔   |
-| APND, GNC           | ✔      |        |        | ✔   | ✔   |
-| Grammatiche                     |        |        |        |     |     |
+| automa a pila       |   ✗     |    ✗    | ✔      | ✔   | ✔   |
+| APND, GNC           | ✔      |   ✗     |  ✗      | ✔   | ✔   |
+| G monotone          | ✔      | ✔      | ✔      | ✔   | ✔   |
+| GRE, MT, MTND       | ✔      | ✔      |    ✗    |   ✗  | ✔    |
 
 
