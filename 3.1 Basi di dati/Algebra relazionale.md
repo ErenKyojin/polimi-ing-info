@@ -37,4 +37,5 @@ Vi sono tuttavia alcuni casi in cui l'unione avrebbe senso logico, consideriamo 
 
 Per risolvere questo problema è stato introdotto l'operatore [[ridenominazione]], che, come il nome suggerisce, permette di rinominare gli attributi.
 
-## Selezione
+## operazione di selezione
+La [[selezione]] produce un sottoinsieme di tuple su tutti gli attributi
