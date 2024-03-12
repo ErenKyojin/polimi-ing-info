@@ -18,5 +18,21 @@ Definiamo quindi
 Vi sono tuttavia alcuni casi in cui l'unione avrebbe senso logico, consideriamo l'esempio seguente:
 
 >[!esempio]
- 
-| oggetto | prezzo | 
+>> [!multi-column]
+>>  
+>> | oggetto      | prezzo |
+>> | ------------ | ------ |
+>> | penna        | 1      |
+>> | foglio       | 0.50   |
+>> | calcolatrice | 10       |
+>> 
+>> | servizio      | prezzo |
+>> | ------------- | ------ |
+>> | stampa bn     | 0.50   |
+>> | stampa colori | 1      |
+>> | delivery      | 2       |
+>
+>Se volessimo unire queste due tabelle in un unica non ci sarebbe concesso. Tuttavia sarebbe molto utile avere una tabella dei prezzi completa
+
+
+Per risolvere questo problema è stato introdotto l'operatore ridenominazione, che, come il nome suggerisce, permette di rinominare gli attributi
