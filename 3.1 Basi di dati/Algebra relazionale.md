@@ -1,6 +1,6 @@
 ---
-aliases: <% tp.file.cursor(0) %>
+aliases: 
 creation date: 2024-03-12
 ---
 
-<% tp.file.cursor(1) %>
+L'algebra relazionale è un linguaggio procedurale definito su concetti algebrici. È un insieme di operazioni che sono [[endomorfismo|endomorfismi]]
