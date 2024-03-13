@@ -50,3 +50,9 @@ Permette di correlare dati di relazioni diverse, ne esistono due versioni princi
 
 - [[join naturale]]
 - [[theta join]]
+
+### Proprietà
+La definizione di join completo ci permette di analizzare alcune proprietà, in particolare, siano $r_{1}, r_{2}$ relazioni.
+- $0 \leq |r_{1} \bowtie r_{2}| \leq |r_{1}|  |r_{2}|$
+- se il join è completo, $r_{1} \bowtie r_{2} = \max(r_{1},r_{2})$
+- S
