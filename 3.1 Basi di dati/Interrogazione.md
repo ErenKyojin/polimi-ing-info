@@ -23,6 +23,7 @@ $$ \pi_{\text{matr, corso, anno iscr}}(\sigma_{\text{media} > 25}(\text{STUDENTI
 
 che produce
 
-| matricola | corso | anno di iscrizione |
-| --------- | ----- | ------------------ |
-| 130589    | ing-inf | 2020               | 29    |
+| matricola | corso   | anno di iscrizione |
+| --------- | ------- | ------------------ |
+| 130589    | ing-inf | 2020               | 
+| 486403    | ing-ele | 2020               |
