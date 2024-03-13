@@ -61,3 +61,5 @@ La definizione di join completo ci permette di analizzare alcune proprietà, in 
 - Se l'intersezione degli attributi $X_{1} \cap X_{2}$ è una chiave per $r_{2}$ ed ha un vincolo di riferimento, allora $|r_{1}(X_{1}) \bowtie r_{2}(X_{2})| = |r_{1}|$
 - commutativo: $r_{1} \bowtie r_{2} = r_{2} \bowtie r_{1}$
 - associativo: $r_{1} \bowtie (r_{2} \bowtie r_{3}) = (r_{1} \bowtie r_{2}) \bowtie r_{3}$
+- se $X_{1} = X_{2} \implies r_{1}(X_{1}) \bowtie r_{2}(X_{2}) \implies r_{1}(X_{1}) \cup r_{2}(X_{2})$
+- se $X_{1} \cap X_{2} = \varnothing \implies r_{1}(X_{1}) \bowtie r_{2}(X_{2}) = r_{1}(X_{1}) \times r_{2}(X_{2})$, insieme di tutte le possibili tuple concatenando le tuple della prima relazione con quelle della seconda 
