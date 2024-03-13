@@ -4,7 +4,7 @@ Come la probabilità varia nel tempo, col passare del tempo certi eventi del fut
 > [!esempio]
 > $\mathcal{E}$ esperimento = lancio di due dadi distinti, un dado $R$, un dado $B$
 >
-> $\Omega = \left\{ (b,r) : b,r = 1:6 \right\}$
+> $\Omega = \left\{ (b,r) : b,=r = 1:6 \right\}$
 > $\mathcal{F} = \mathcal{P}(r)$
 > $|\Omega| = 6^2 = 36$
 > 
