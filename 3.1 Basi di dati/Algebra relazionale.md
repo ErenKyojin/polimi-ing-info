@@ -54,5 +54,6 @@ Permette di correlare dati di relazioni diverse, ne esistono due versioni princi
 ### Proprietà
 La definizione di join completo ci permette di analizzare alcune proprietà, in particolare, siano $r_{1}, r_{2}$ relazioni.
 - $0 \leq |r_{1} \bowtie r_{2}| \leq |r_{1}|  |r_{2}|$
-- se il join è completo, $r_{1} \bowtie r_{2} = \max(r_{1},r_{2})$
-- S
+- se il join è completo, $|r_{1} \bowtie r_{2}| = \max(r_{1},r_{2})$
+- se l'intersezione degli attributi $X_{1} \cap X_{2}$ coincide con una chiave per $r_{2}$, allora $r_{1}(X_{1}) \bowtie r_{2}(X_{2})$ cotniene al più $|r_{1}|$ tuple
+- Se l'intersezione degli attributi $X_{1} \cap X_{2}$ è una chiave per $r_{2}$ ed ha un vincolo di riferimento, allora $|r_{1}(X_{1}) \bowtie r_{2}(X_{2})| = |r_{1}|$
