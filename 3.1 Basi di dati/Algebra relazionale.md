@@ -49,6 +49,8 @@ La [[selezione]] produce un sottoinsieme di tuple su tutti gli attributi
 Permette di correlare dati di relazioni diverse, ne esistono due versioni principali:
 
 - [[join naturale]]
+	- [[Join completo]]
+	- [[join esterno]]
 - [[theta join]]
 
 ### Proprietà
@@ -57,3 +59,5 @@ La definizione di join completo ci permette di analizzare alcune proprietà, in 
 - se il join è completo, $|r_{1} \bowtie r_{2}| = \max(r_{1},r_{2})$
 - se l'intersezione degli attributi $X_{1} \cap X_{2}$ coincide con una chiave per $r_{2}$, allora $r_{1}(X_{1}) \bowtie r_{2}(X_{2})$ cotniene al più $|r_{1}|$ tuple
 - Se l'intersezione degli attributi $X_{1} \cap X_{2}$ è una chiave per $r_{2}$ ed ha un vincolo di riferimento, allora $|r_{1}(X_{1}) \bowtie r_{2}(X_{2})| = |r_{1}|$
+- commutativo: $r_{1} \bowtie r_{2} = r_{2} \bowtie r_{1}$
+- associativo: $r_{1} \bowtie (r_{2} \bowtie r_{3}) = (r_{1} \bowtie r_{2}) \bowtie r_{3}$
