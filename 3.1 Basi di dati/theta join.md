@@ -12,12 +12,16 @@ creation date: 2024-03-13
 > 
 >
 > > [!multi-column]
+> > > `corsi`
+> > >
 > > >| corso       | professore |
 > > >| ----------- | ---------- |
 > > >| analisi 1   | A. Rossi   |
 > > >| analisi 2   | A. Rossi   |
 > >> | informatica | W. Bianchi | 
 > > 
+> >> `iscrizioni`
+> >>
 > >> | materia     | iscritti |
 > >> | ----------- | -------- |
 > >> | analisi 1   | 200      |
@@ -25,9 +29,12 @@ creation date: 2024-03-13
 > >> | informatica | 210      | 
 > > 
 >
+> La relazione `corsi` $\bowtie_{\text{corso = materia}}$ `iscrizioni`
+>
 > | corso       | professore | materia     | iscritti |
 > | ----------- | ---------- | ----------- | -------- |
 > | analisi 1   | A. Rossi   | analisi 1   | 200      |
 > | analisi 2   | A. Rossi   | analisi 2   | 150      |
 > | informatica | W. Bianchi | informatica | 210      | 
 > 
+> In particolare questo è un [[equi join]]
