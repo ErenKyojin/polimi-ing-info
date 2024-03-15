@@ -72,4 +72,11 @@ Nell'algebra relazionale l'equivalenza possiamo definire l'equivalenza come:
 Le equivalenze sono utilizzate in quanto le interrogazioni vengono convertite in algebra relazionale e ne viene quindi calcolato il costo in termini di risorse, in particolare sfruttando le seguenti trasformazioni:
 - Atomizzazione delle selezioni: Una selezione di AND è una serie di selezioni
   $$ \sigma_{F_{1} \land F_{2}}(E) = \sigma_{F_{1}}(\sigma_{F_{2}}(E)) $$
-- idempotenza delle proiezioni: Una proiezioni è una cascata eliminata
+- idempotenza delle proiezioni: Una proiezione può essere eliminata a cascata
+  $$ \Pi_{X}(E) = \Pi_{X}(\Pi_{XY}(E)) $$
+- pushing selections down
+  $$ \sigma_{F}(E_{1} \bowtie E_{2}) = E_{1} \bowtie \sigma_{F}(E_{2}) $$
+- pushing projections down
+  $$ \Pi_{X_{1}Y_{2}}(E_{1} \bowtie E_{2}) = E_{1} \bowtie \Pi_{Y_{2}}(E_{2}) $$
+- definizione di [[theta join]]
+  $$ \sigma_{F}(E_{1} \bowtie E_{2}) = E_{1} \bowtie_{F}E_{2} $$
