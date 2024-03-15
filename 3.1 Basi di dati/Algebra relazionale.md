@@ -64,3 +64,6 @@ La definizione di join completo ci permette di analizzare alcune proprietà, in 
 - se $X_{1} = X_{2} \implies r_{1}(X_{1}) \bowtie r_{2}(X_{2}) \implies r_{1}(X_{1}) \cup r_{2}(X_{2})$
 - se $X_{1} \cap X_{2} = \varnothing \implies r_{1}(X_{1}) \bowtie r_{2}(X_{2}) = r_{1}(X_{1}) \times r_{2}(X_{2})$, insieme di tutte le possibili tuple concatenando le tuple della prima relazione con quelle della seconda 
 
+## Equivalenza
+Nell'algebra relazionale l'equivalenza possiamo definire l'equivalenza come:
+$$ E_{1} \equiv_{R}  $$
