@@ -70,4 +70,5 @@ Nell'algebra relazionale l'equivalenza possiamo definire l'equivalenza come:
 - $E_{1} \equiv E_{2}$ se $\forall \mathbf{R}$ vale $E_{1} \equiv_{\mathbf{R}} E_{2}$
 
 Le equivalenze sono utilizzate in quanto le interrogazioni vengono convertite in algebra relazionale e ne viene quindi calcolato il costo in termini di risorse, in particolare sfruttando le seguenti trasformazioni:
-- Atomizzazione delle selezioni: 
+- Atomizzazione delle selezioni: Una selezione di AND è una serie di selezioni
+  $$ \sigma_{F_{1} \land F_{2}}(E) = \sigma_{F_{1}}(\sigma_{F_{2}}(E)) $$
