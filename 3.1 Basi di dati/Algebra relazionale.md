@@ -66,4 +66,5 @@ La definizione di join completo ci permette di analizzare alcune proprietà, in 
 
 ## Equivalenza
 Nell'algebra relazionale l'equivalenza possiamo definire l'equivalenza come:
-$$ E_{1} \equiv_{R}  $$
+- $E_{1} \equiv_{\mathbf{R}} E_{2}$ se $\forall r \in \mathbf{R}$ vale $E_{1}(r) = E_{2}(r)$
+- $E_{1} \equiv E_{2}$ se $\forall \mathbf{R}$ vale $E_{1} \equiv_{\mathbf{R}} E_{2}$
