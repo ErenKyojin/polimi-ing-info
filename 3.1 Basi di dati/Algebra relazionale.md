@@ -80,3 +80,5 @@ Le equivalenze sono utilizzate in quanto le interrogazioni vengono convertite in
   $$ \Pi_{X_{1}Y_{2}}(E_{1} \bowtie E_{2}) = E_{1} \bowtie \Pi_{Y_{2}}(E_{2}) $$
 - definizione di [[theta join]]
   $$ \sigma_{F}(E_{1} \bowtie E_{2}) = E_{1} \bowtie_{F}E_{2} $$
+- proprietà distributiva della selezione rispetto all'unione
+  $$ \sigma _{F} $$
