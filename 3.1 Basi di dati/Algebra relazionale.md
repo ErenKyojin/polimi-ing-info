@@ -84,4 +84,5 @@ Le equivalenze sono utilizzate in quanto le interrogazioni vengono convertite in
   $$ \sigma _{F}(E_{1} \cup E_{2}) = \sigma_{F}(E_{1}) \cup \sigma_{F}(E_{2}) $$
 - proprietà distributiva della selezione rispetto alla differenza
   $$ \sigma_{F}(E_{1} \setminus E_{2}) = \sigma_{F}(E_{1}) \setminus \sigma_{F}(E_{2}) $$
-- 
+- proprietà disitrbutiva della proiezione rispetto all'unione
+  $$ \Pi_{X}(E_{1} \cup E_{2}) = \Pi_{X}(E_{1}) \cup \Pi_{X}(E_{2}) $$
