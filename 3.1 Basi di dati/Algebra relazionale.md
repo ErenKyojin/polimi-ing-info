@@ -90,7 +90,11 @@ Le equivalenze sono utilizzate in quanto le interrogazioni vengono convertite in
   $$ \sigma_{F}(E_{1} \setminus E_{2}) = \sigma_{F}(E_{1}) \setminus \sigma_{F}(E_{2}) $$
 - proprietà disitrbutiva della proiezione rispetto all'unione
   $$ \Pi_{X}(E_{1} \cup E_{2}) = \Pi_{X}(E_{1}) \cup \Pi_{X}(E_{2}) $$
+- proprietà distributiva del join rispetto all'unione
+  $$ E \bowtie (E_{1} \cup E_{2}) = (E \bowtie E_{1}) \cup (E \bowtie E_{2}) $$
 
 
 ##### Proprietà insiemistiche
-- $\sigma _{F_{1} \land F_{2}}(R) = \sigma_{F_{1}}(R) \cup \sigma_{F_{2}}(R)$
+- $\sigma _{F_{1} \land F_{2}}(R) = \sigma_{F_{1}}(R) \cap \sigma_{F_{2}}(R) = \sigma_{F_{1}}(R) \bowtie \sigma_{F_{2}}(R)$
+- $\sigma_{F_{1} \lor F_{2}}(R) = \sigma_{F_{1}}(R) \cup \sigma_{F_{2}}(R)$
+- $\sigma_{F_{1} \land  \neg F_{2}}(R) = \sigma_{F_{1}}(R) \setminus \sigma_{F_{2}}(R)$
