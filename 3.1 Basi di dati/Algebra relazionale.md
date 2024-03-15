@@ -68,3 +68,6 @@ La definizione di join completo ci permette di analizzare alcune proprietà, in 
 Nell'algebra relazionale l'equivalenza possiamo definire l'equivalenza come:
 - $E_{1} \equiv_{\mathbf{R}} E_{2}$ se $\forall r \in \mathbf{R}$ vale $E_{1}(r) = E_{2}(r)$
 - $E_{1} \equiv E_{2}$ se $\forall \mathbf{R}$ vale $E_{1} \equiv_{\mathbf{R}} E_{2}$
+
+Le equivalenze sono utilizzate in quanto le interrogazioni vengono convertite in algebra relazionale e ne viene quindi calcolato il costo in termini di risorse, in particolare sfruttando le seguenti trasformazioni:
+- Atomizzazione delle selezioni: 
