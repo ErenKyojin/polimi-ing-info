@@ -81,4 +81,7 @@ Le equivalenze sono utilizzate in quanto le interrogazioni vengono convertite in
 - definizione di [[theta join]]
   $$ \sigma_{F}(E_{1} \bowtie E_{2}) = E_{1} \bowtie_{F}E_{2} $$
 - proprietà distributiva della selezione rispetto all'unione
-  $$ \sigma _{F} $$
+  $$ \sigma _{F}(E_{1} \cup E_{2}) = \sigma_{F}(E_{1}) \cup \sigma_{F}(E_{2}) $$
+- proprietà distributiva della selezione rispetto alla differenza
+  $$ \sigma_{F}(E_{1} \setminus E_{2}) = \sigma_{F}(E_{1}) \setminus \sigma_{F}(E_{2}) $$
+- 
