@@ -26,4 +26,4 @@ La lista di coppie $A_{1} : x_{1}, A_{2} : x_{2},\dots, A_{n} : x_{n}$ è detta 
 
 In generale il calcolo relazionale dipende dal dominio, mentre l'algebra relazionale no. Limitandoci ad analizzare il calcolo relazionale per le espressioni indipendenti dal dominio, abbiamo un linguaggio equivalente all'algebra relazionale.
 
-Per diminuire il numero di variabili e risolvere il problema del calcolo sui domini
+Per diminuire il numero di variabili e risolvere il problema del calcolo sui domini si è sviluppato il [[calcolo relazionale su tuple]]
