@@ -15,4 +15,12 @@ Possono esistere due tipi di relazioni derivate:
 	- ✅ sono immediatamente disponibili
 	- ❗ devono essere aggiornate ogni volta che vengono aggiornati i dati di riferimento
 - [[relazioni virtuali]] 
-	- ✅ no
+	- ✅ non occupano memoria fisica
+	- ❗devono essere calcolate ogni volta
+
+Le viste sono definite tramite una espressione del linguaggio di interrogazione. Verrano quindi sostituite nelle varie operazioni dalla formula che descrivono.
+
+>[!esempio]
+>$R = \sigma_{\text{età-curr > età-pensione }}(R_{1} \bowtie R_{2})$
+>Avremo che
+>$$ \sigma_{stipendio > 40k} (R) = \sigma_{stipendio>40k}(\sigma_{\text{età-curr > età-pens}}(R_{1} \bowtie R_{2})) $$
