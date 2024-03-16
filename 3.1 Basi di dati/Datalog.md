@@ -4,6 +4,12 @@ creation date: 2024-03-16
 ---
 
 >[!def]
->Il datalog è un adattamento per basi di dati del linguaggio per la logica "prolog", è composto da due tipo di rpedicati
+>Il datalog è un adattamento per basi di dati del linguaggio per la logica "prolog", è composto da due tipo di predicati
 >- estensionali, equivalgono alla relazione nelle basi di dati
 >- intensionali, specificati attraverso regole logiche dette [[regole Datalog]], sono simili alle [[relazioni virtuali]]
+
+- I predicati estensionali possono comparire unicamente nel corpo delle regole
+- Se una variabile è nella testa di una regola, deve essere anche nel suo corpo
+- Se una variabile compare in un atomo di un confronto, deve comparire anche in un atomo della stessa regola
+
+Il datalog consente la ricorsività, un predicato intensionale può essere definito attraverso se stesso.
