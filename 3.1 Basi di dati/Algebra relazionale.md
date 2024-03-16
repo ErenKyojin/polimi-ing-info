@@ -101,3 +101,39 @@ Le equivalenze sono utilizzate in quanto le interrogazioni vengono convertite in
 
 ## Valore nullo
 Fino ad ora abbiamo parlato di algebra senza approfondire il caso di [[Valore nullo|valori nulli]], come dobbiamo considerare ad esempio una selezione in una relazione dove un valore che stiamo confrontando è nullo? Per risolvere il problema introduciamo un terzo valore di verità, oltre a *vero* (V) e *falso* (F), detto **unknown** (U). Un predicato assuma il valore $U$ quando almeno un termine è valore nullo.
+
+
+
+> [!multi-column]
+> > | $A$ | $\neg A$ |
+> > | --- | -------- |
+> > | F   | V        |
+> > | V   | F        |
+> > | U   | U        | 
+> 
+> 
+> > | $A$ | $B$ | $A \land B$ |
+> > | --- | --- | ----------- |
+> > | V   | V   | V           |
+> > | V   | F   | F           |
+> > | V   | U   | U           |
+> > | F   | V   | F           |
+> > | F   | F   | F           |
+> > | F   | U   | F           |
+> > | U   | V   | U           |
+> > | U   | F   | F           |
+> > | U   | U   | U           | 
+> 
+> 
+> > | $A$ | $B$ | $A \lor B$ |
+> > | --- | --- | ---------- |
+> > | V   | V   | V          |
+> > | V   | F   | V          |
+> > | V   | U   | V          |
+> > | F   | V   | V          |
+> > | F   | F   | F          |
+> > | F   | U   | U          |
+> > | U   | V   | V          |
+> > | U   | F   | U          |
+> > | U   | U   | U           |
+> 
