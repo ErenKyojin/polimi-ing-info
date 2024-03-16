@@ -14,4 +14,4 @@ creation date: 2024-03-16
 >	- connettivi $\lor, \land, \neg$
 >	- quantificatori $\exists x (R) (f), \forall x(R)(f)$
 >		- esiste nella relazione $R$ una tupla $x$ tale che $f$
->		- 
+>		- per ogni tupla $x$ in $R$, $f$ è vera.
