@@ -18,4 +18,4 @@ creation date: 2024-03-16
 >		- per ogni tupla $x$ in $R$, $f$ è vera.
 
 
-Il calcolo su tuple non è equivalente all'algebra relazionale, questo perchè le interrogazioni che in algebra relazionale sono figlie dell'unione, e quindi che provengono da due relazioni differenti, non sono realizzabili con il range fisso imposto nell'espressione. Si può ovviare a questo problema, e così è stato fatto ad esempio in SQL, per esprimere interrogazioni non altrimenti esprimibili.
+Il calcolo su tuple non è equivalente all'algebra relazionale, questo perchè le interrogazioni che in algebra relazionale sono figlie dell'unione, e quindi che provengono da due relazioni differenti, non sono realizzabili con il range fisso imposto nell'espressione. Si può ovviare a questo problema, e così è stato fatto ad esempio in SQL, per esprimere interrogazioni non altrimenti esprimibili, con un costrutto di unione definito a parte.
