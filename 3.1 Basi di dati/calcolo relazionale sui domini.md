@@ -20,3 +20,6 @@ La lista di coppie $A_{1} : x_{1}, A_{2} : x_{2},\dots, A_{n} : x_{n}$ è detta 
 
 - $R(A_{1} : x_{1}, \dots ,A_{p} : x_{p})$ è vera rispetto ai valori $x_{1},\dots,x_{p}$ se formano una tupla sullo schema $R$ nell'istanza su cui viene applicata la formula
 - $x \theta y$ con $\theta$ operazione di confronto è vera sui valori $a_{1},a_{2}$ se è verificata su di essi
+- Per $\lor, \land, \neg$ valgono le classiche tabelle di verità
+- $\exists x(f)$ se esiste almeno un'assegnazione di $x$ che rende vera $f$
+- $\forall x(f)$ se per qualsiasi assegnazione di $x$, $f$ è vera
