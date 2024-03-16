@@ -23,3 +23,5 @@ La lista di coppie $A_{1} : x_{1}, A_{2} : x_{2},\dots, A_{n} : x_{n}$ è detta 
 - Per $\lor, \land, \neg$ valgono le classiche tabelle di verità
 - $\exists x(f)$ se esiste almeno un'assegnazione di $x$ che rende vera $f$
 - $\forall x(f)$ se per qualsiasi assegnazione di $x$, $f$ è vera
+
+In generale il calcolo relazionale dipende dal dominio, mentre l'algebra relazionale no. Limitandoci ad analizzare il calcolo relazionale per le espressioni indipendenti dal dominio, abbiamo un linguaggio equivalente all'algebra relazionale.
