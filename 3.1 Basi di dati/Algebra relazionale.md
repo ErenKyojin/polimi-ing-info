@@ -98,3 +98,6 @@ Le equivalenze sono utilizzate in quanto le interrogazioni vengono convertite in
 - $\sigma _{F_{1} \land F_{2}}(R) = \sigma_{F_{1}}(R) \cap \sigma_{F_{2}}(R) = \sigma_{F_{1}}(R) \bowtie \sigma_{F_{2}}(R)$
 - $\sigma_{F_{1} \lor F_{2}}(R) = \sigma_{F_{1}}(R) \cup \sigma_{F_{2}}(R)$
 - $\sigma_{F_{1} \land  \neg F_{2}}(R) = \sigma_{F_{1}}(R) \setminus \sigma_{F_{2}}(R)$
+
+## Valore nullo
+Fino ad ora abbiamo parlato di algebra senza approfondire il caso di [[Valore nullo|valori nulli]], come dobbiamo considerare ad esempio una selezione in una relazione dove un valore che stiamo confrontando è nullo? Per risolvere il problema introduciamo un terzo valore di verità, oltre a *vero* (V) e *falso* (F), detto **unknown** (U). Un predicato assuma il valore $U$ quando almeno un termine è valore nullo.
