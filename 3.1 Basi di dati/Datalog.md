@@ -23,4 +23,4 @@ Le interrogazioni Datalog sono semplicemente tutte le tuple della relazione R ch
 ## Potenza
 Affinchè il datalog non ricorsivo acquisisca lo stesso potere espressivo del [[calcolo relazionale sui domini]] è necessario aggiungere la possibiltà di negazioni di condizioni atomiche nel corpo, che indichiamo con l'operatore `NOT`.
 
-Se invece consideriamo la versione di Datalog in cui la ricorsività è definita, possiamo usare la
+Se invece consideriamo la versione di Datalog in cui la ricorsività è definita la potenza è maggiore.
