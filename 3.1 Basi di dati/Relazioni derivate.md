@@ -12,6 +12,7 @@ creation date: 2024-03-16
 
 Possono esistere due tipi di relazioni derivate:
 - [[viste materializzate]]
-	-  sono immediatamente disponibili
-	- devono essere
+	- ✅ sono immediatamente disponibili
+	- ❗ devono essere aggiornate ogni volta che vengono aggiornati i dati di riferimento
 - [[relazioni virtuali]] 
+	- ✅ no
