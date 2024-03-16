@@ -136,4 +136,9 @@ Fino ad ora abbiamo parlato di algebra senza approfondire il caso di [[Valore nu
 > > | U   | V   | V          |
 > > | U   | F   | U          |
 > > | U   | U   | U           |
-> 
+
+Inoltre introduciame due condizioni:
+- `IS NULL`
+  A `IS NULL` è vero su una tupla $t$ se t.A è nullo, falso altrimenti
+- `IS NOT NULL`
+  A `IS NOT NULL` è vero su una tupla $t$ se t.A è specificato, falso altrimenti.
