@@ -12,4 +12,8 @@ creation date: 2024-03-16
 - Se una variabile è nella testa di una regola, deve essere anche nel suo corpo
 - Se una variabile compare in un atomo di un confronto, deve comparire anche in un atomo della stessa regola
 
-Il datalog consente la ricorsività, un predicato intensionale può essere definito attraverso se stesso.
+Il datalog consente la ricorsività, un predicato intensionale può essere definito attraverso se stesso. 
+
+Le interrogazioni Datalog sono semplicemente tutte le tuple della relazione R che possono essere ottenute sostituendo variabili e costanti, spesso si indicano con un ? che precede l'interrogazione.
+
+Affinchè il datalog acquisisca lo stesso potere espressivo dell'algebra relazionale, è necessario aggiungere
