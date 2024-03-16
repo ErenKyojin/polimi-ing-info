@@ -83,7 +83,7 @@ $$
 > \mathcal{L}[\text{imp}(t)] &= \lim_{ \varepsilon \to 0 }\mathcal{L}[f_{\varepsilon}(t)] = \lim_{ \varepsilon \to 0 } \int _{0}^\infty e^{-st} \, dt = \lim_{ \varepsilon \to 0 } \int _{0}^{\varepsilon} \frac{1}{\varepsilon}e^{-st} \, dt = \lim_{ \varepsilon \to 0 } \left[ \frac{e^{-st}}{-s\varepsilon} \right]_{0}^{\varepsilon} = \\
 > &= \lim_{ \varepsilon \to 0 } \left( \frac{e^{-s\varepsilon}}{-s\varepsilon} - \frac{1}{-s\varepsilon}  \right) = \lim_{ \varepsilon \to 0 } \frac{1-e^{-s\varepsilon}}{s\varepsilon} = \lim_{ \varepsilon \to 0 } \frac{se^{-s\varepsilon}}{s} = 1   
 > \end{align}   $$
-> Sfruttando [[Teorema di de l'Hospital]]
+> Sfruttando [[Teorema di de l'Hopital]]
 > 
 
 

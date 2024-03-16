@@ -138,7 +138,7 @@ Invece se $f$ è continua non possiamo trarre conclusioni sulla derivabilità di
 ## [[calcolo delle derivate]]
 ## [[massimi e minimi]] e [[punti stazionari]]
 ## [[Teorema del valor medio]] e [[test di monotonia]]
-## [[Teorema di de l'Hospital]]
+## [[Teorema di de l'Hopital]]
 
 ## Limite della derivata e derivabilità
 >[!esempio]

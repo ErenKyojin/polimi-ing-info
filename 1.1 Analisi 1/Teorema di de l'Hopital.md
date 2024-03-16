@@ -1,4 +1,4 @@
-# Teorema di de l'Hospital 
+# Teorema di de l'Hopital 
 Una notevole applicazione del [[polimi-ing-info/1.1 Analisi 1/Calcolo differenziale]] si ha nel calcolo dei [[Limite|limiti]] con forme di indecisione $\frac{0}{0}$ e $\frac\infty\infty$
 
 >[!teorema]
