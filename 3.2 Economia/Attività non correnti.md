@@ -15,3 +15,5 @@ A sua volta diviso in
 	- avviamento
 - altre attività non ricorrenti
 	- partecipazione
+
+ 
