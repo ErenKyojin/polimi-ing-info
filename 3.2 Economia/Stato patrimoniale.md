@@ -32,3 +32,8 @@ Impegno irrevocabili a tenere un certo comportamento.
 >[!def]
 >Identità fondamentale:
 >Totale attività = Totale passività + patrimonio netto
+
+
+## struttura secondo IFRS/IAS 
+- attività riportate sulle base del [[Criterio di liquidità-esigibilità|criterio di liquidità]]
+- passività riportate sulla base del [[Criterio di liquidità-esigibilità|criterio di esigibilità]]

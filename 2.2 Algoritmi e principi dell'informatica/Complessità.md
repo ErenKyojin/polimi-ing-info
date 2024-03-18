@@ -228,3 +228,4 @@ SAT è NP difficile, quindi NP-completo, quindi codificando le computazioni di u
 
 HC è anch'esso NP-difficile (e NP completo, che si dimostra riducendo SAT a HC), tanti altri problemi di interesse pratico sono NP-completi.
 
+
