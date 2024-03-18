@@ -18,4 +18,6 @@ Queste informazioni sono
 
 #todo 
 
-
+## Limiti
+Il bilancio non è analitico ne tempestivo
+Il bilanicio ha informazioni sintetiche e aggregate, non costituiscono un supporto adeguato per le singole decisioni.
