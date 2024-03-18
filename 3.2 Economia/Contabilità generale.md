@@ -14,3 +14,7 @@ Queste informazioni sono
 
 >[!oss]
 >Il bilancio d'esercizio è il documento principale di contabilità esterna. Ha lo scopo i fornire informazioni sull'andamento ai soggetti esterni.
+
+
+#todo 
+
