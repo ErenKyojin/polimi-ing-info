@@ -19,6 +19,7 @@ Lo stato patrimoniale è una tabella descrittiva dell'impresa generata nella dat
 > >[!passivo]
 > >diritti vantati sulle risorse dell'impresa
 > >- proprietari ed azionisti che hanno fornito soldi (patrimonio netto)
+> >- debito
 > >- ...
 > 
 
