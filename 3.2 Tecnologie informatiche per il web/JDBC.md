@@ -96,3 +96,17 @@ result = pstatement.executeQuery();
 
 
 >[!warning] [[SQL injection]]
+
+
+## Gestione delle transazioni
+
+ACID
+- Atomicity
+- Consistency
+- Isolation
+- Durability
+
+Commita ogni scrittura, questo permette di evitare code troppo lunghe per l'accesso alle tabelle. Ogni statement è trattato come una transazione.
+
+
+Disabilitazione autocommit.
