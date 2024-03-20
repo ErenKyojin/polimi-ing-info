@@ -23,6 +23,9 @@ Abbiamo già usato questo meccanismo varie volte, dall'indecibilità del [[probl
 >Avremmo potuto ridimostrare in modo diretto l'indecidibilità della terminazione dei programmi $C$ enumerando i programmi e applicando la stessa tecnica diagonale (con parecchi dettagli notazionali in piú)
 
 
+>[!def]
+>$A$ riducibile a $B$ se e solo se esiste una funziona $t$ totale e computabile tale che $\forall x, x \in A$ se e solo se $t(x) \in B$
+
 #### Formalmente
 Voglio risolvere $x \in S'$?
 So risolvere $y \in S$?
