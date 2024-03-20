@@ -48,4 +48,29 @@ public class ServletEsempioQuery extends HttpServlet {
 
 ```
 
-### Inizializz
+### Inizializzazione
+
+### Esecuzione di una query
+```java
+public void doGet(httpServlet req, HttpServletResponse res) trows ServletException, IOException  //!!!
+{ 
+	String query = "SELECT firstname, lastname FROM utente";
+	ReulstSet result = null;
+	Statement statement = null;
+	res.setContentType("text/plane");
+}
+```
+
+
+### Chiudere la connessione
+```java
+public void destroy() {
+	try {
+		if(connection != null) {
+			connection.close()
+		}
+	} catch ...
+}
+```
+
+Se una connessione è aperta con init, viene chiusa con destroy
