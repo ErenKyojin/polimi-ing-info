@@ -28,9 +28,9 @@ Questo significa che non esiste un formalismo in grado di definire tutte e sole 
 
 Possiamo fare adesso un altro tentativo per rimuovere le scomode funzioni non totali ([[Algoritmo|algoritmi]] in loop)
 
-Estendiamo una funzione, ad esempio arricchendo $\mathbb{N}$ con il nuovo valore $\perp$, oppure attribuendo a $f$ un valore convenzionale quando $f$ è indefinita. Matematicamente l'operazione è sensata, ma il trucco non funziona. Non esiste una funzione totale e calcolabile che sia un'estensione della funzione calcolabile ma non totale $g(x) = \text{se }f_{x}(x)\neq \perp$ allora $f_{x}(x) + 1$ altrimento $\perp$.
+Estendiamo una funzione, ad es mpio arricchendo $\mathbb{N}$ con il nuovo valore $\perp$, oppure attribuendo a $f$ un valore convenzionale quando $f$ è indefinita. Matematicamente l'operazione è sensata, ma il trucco non funziona. Non esiste una funzione totale e calcolabile che sia un'estensione della funzione calcolabile ma non totale $g(x) = \text{se }f_{x}(x)\neq \perp$ allora $f_{x}(x) + 1$ altrimento $\perp$.
 
-Posso sempre prendere una funzione parziale e farla diventare totale, ma potrei perderne la calcolabilità
+Posso sempre prendere una funzione parziale e farla diventare totale, ma potrei perderne la calcolabilità 
 
 ---
 
@@ -39,7 +39,6 @@ S è $RE$ se e solo se
   *detto dominio di definizione o controimmagine di $h$* 
 - $\iff S$ $I_{g}$ con $g$ calcolabile e parziale $S = \{ g(y) | y \in \mathbb{N} \}$
   *detto in altro modo: $S$ è RE se la sua funzione semi caratteristia è calcaolabile*
-
 
 Da qui il legame con i linguaggi riconosciuti dalle macchine di turing
 

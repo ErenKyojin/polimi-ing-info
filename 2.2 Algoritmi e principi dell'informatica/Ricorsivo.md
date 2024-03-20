@@ -61,3 +61,6 @@ Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 > > Se costruisco l'enumerazione
 > > $\{ g_{S}(0), g_{\neg S}(0), g_{S}(1), g_{\neg S}(1), g_{S}(2),\dots \}$
 > > Sono sicuro di trovarvi qualsiasi $x$: a quel punto se trovo $x$ in un posto dispari concludo $x \in S$, se lo trovo in un posto pari $x \in \neg S$, so quindi calcolare $c_{S}(CVD)$
+
+
+Le funzioni ricorsive primitive sono un sottoinsieme proprio dalla funzioni computabili totali.
