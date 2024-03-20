@@ -28,3 +28,24 @@ libreria java.ql
 - Preparazione ed esecuzione della query
 - Processo del risultato
 - Disconnessione dal database (Importante!)
+
+
+## code
+
+```java
+import java.io.*;
+import java.sql.*; // !!! 
+import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.*;
+
+@WebServlet("/ServletEsempioQuery")
+public class ServletEsempioQuery extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	private Connection connection = null; //!!!
+
+}
+
+```
+
+### Inizializz
