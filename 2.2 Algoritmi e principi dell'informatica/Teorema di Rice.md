@@ -10,4 +10,6 @@ modification date: 2023-04-05 16:49
 >Se $S \neq \varnothing$ e $S \neq \mathbb{N}$ allora $S$ non è decidibile.
 >(Se $F = \varnothing$ e $F$ non è l'insieme di tutte le funzioni computabili)
 
-Quindi in tutti i casi non banali, S non è decidibile
+Quindi in tutti i casi non banali, S non è decidibile.
+
+Non è opssibile stabilire se un algoritmo risolve un problema almeno che abbia una proprietà banale (se il problema è nell'insieme dei problemi inesistenti o se è nell'insieme di tutti i problemi risolvibili)
