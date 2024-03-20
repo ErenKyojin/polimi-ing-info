@@ -73,4 +73,12 @@ public void destroy() {
 }
 ```
 
-Se una connessione è aperta con init, viene chiusa con destroy
+Se una connessione è aperta con `init`, è corretto chiuderla con `destroy`
+Se una connessione è aperta in `doGet()` o `doPost()`, è corretto chiuderla quando il metodo termina
+
+
+## Prepared statement
+Separare la fase di compilazione dalla fase di esecuzione.
+- Prepare statement, prepara un piano d'accesso per eseguire la base di dati
+- Il [[sistemi di gestione di basi di dati|DBMS]] compila il template e mantiene il risultato senza compilarlo
+- Eseguire
