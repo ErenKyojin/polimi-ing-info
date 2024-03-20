@@ -79,6 +79,20 @@ Se una connessione è aperta in `doGet()` o `doPost()`, è corretto chiuderla qu
 
 ## Prepared statement
 Separare la fase di compilazione dalla fase di esecuzione.
-- Prepare statement, prepara un piano d'accesso per eseguire la base di dati
+- Prepare statement, prepara un piano d'accesso per eseguire la base di dati (eventuali variabili non ancora conosciute indicate con `?` e dette *bind variables*)
 - Il [[sistemi di gestione di basi di dati|DBMS]] compila il template e mantiene il risultato senza compilarlo
-- Eseguire
+- Eseguire lo statement, solo ed escluisavemnte quando l'applicazione fornisce tutti i valori per  i parametri
+
+```java
+...
+String city = req.getParameter("city");
+String query = "SELECT * FROM person WHERE city = ?";
+...
+pstatement = connection.prepareStatement(query);
+pstatement.setString(1, city);
+result = pstatement.executeQuery();
+...
+```
+
+
+>[!warning] [[SQL injection]]
