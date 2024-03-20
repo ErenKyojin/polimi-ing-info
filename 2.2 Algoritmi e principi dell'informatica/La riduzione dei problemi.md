@@ -97,3 +97,5 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 >```
 
 L'assenza di errori non solo non è decidibile ma non è neanche semidecidibile, otteniamo quindi un modo sistematico per dimostrare che un probema non è RE: dimostrare che lo è il suo complemento
+
+La riduzione definisce un reticolo superiore.
