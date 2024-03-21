@@ -109,4 +109,4 @@ ACID
 Commita ogni scrittura, questo permette di evitare code troppo lunghe per l'accesso alle tabelle. Ogni statement è trattato come una transazione.
 
 
-Disabilitazione autocommit.
+Disabilitazione autocommit per raggiungere la proprietà dell'atomicità. Commito solo dopo essermi assicurato di nessuna exception, altrimenti rollback
