@@ -108,3 +108,5 @@ Il server trova una corrispondenza dall'URI richiesto al servlet attraverso le s
 - HTML mischiato con codice applicativo, che previene gli editor HTML per mostrare correttamente.
 - Facile fare errori e difficile da mantenere.
 - Pessima [[moduli|modulazione]], contro i principi dell'ingegneria del software
+
+La soluzione è il [[templating]]
