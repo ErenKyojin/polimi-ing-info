@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: JSP
 creation date: 2024-03-21
 ---
 

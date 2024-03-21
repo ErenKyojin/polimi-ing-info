@@ -26,3 +26,5 @@ Sfrutta gli attributi applicativi di HTML
 </html>
 
 ```
+
+L'HTML funziona normalmente, ma se eseguito sul processore, il valore delle variabili di tipo th vengono eseguiti ed iniettati al posto dei valori d'esempio

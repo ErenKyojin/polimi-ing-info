@@ -9,6 +9,6 @@ Separare presentazione e design dalla generazione del contenuto, seguendo idealm
 3. Il designer può sempre modificare il lato grafico attraverso il template fornito dal programmatore
 
 Storicamente evoluzione:
-- [[JSP]]
+- [[Java server pages]]
 - [[JSTL]]
 - [[Thymeleaf]]

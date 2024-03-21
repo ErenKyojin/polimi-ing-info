@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-21
 ---
 
-Evoluzione di [[JSP]], codice viene scritto attraverso marks HTML
+Evoluzione di [[Java server pages]], codice viene scritto attraverso marks HTML
 
 ```html
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
