@@ -99,3 +99,12 @@ Il server trova una corrispondenza dall'URI richiesto al servlet attraverso le s
 2. Se non si riesce a soddisfare il primo requisito, si procede attraversando le directory una ad una, sfruttando `/` come separatore, il servlet che mantiene la corrispondenza più a lungo vince
 3. Se non si riescono a siddisfare i requisiti `1.` e `2.`, e la richiesta termina con un `.*` ed esiste un servlet che si occupa dell'estensione corrispondente, viene scelto quest'ultimo
 4. Se non si riesce a soddisfare nessun altro requisito il servlet base è scelto
+
+
+## Limitazioni
+- Complesso e i programmi sono difficilmente leggibili. 
+- Il codice produce codice statico e contenuto dinamico.
+- La produzione del mark-up richiede l'uso massiccio del metodo printLn
+- HTML mischiato con codice applicativo, che previene gli editor HTML per mostrare correttamente.
+- Facile fare errori e difficile da mantenere.
+- Pessima [[moduli|modulazione]], contro i principi dell'ingegneria del software
