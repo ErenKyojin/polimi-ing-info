@@ -30,3 +30,11 @@ Al posto che programmare e infilarci dentro HTML, scriviamo HTML inserendoci all
 </body>
 </html>
 ```
+
+Genera una [[servlet]]. 
+- Valuta un espressione
+- Esegui uno scriplet
+
+direttiva @page
+
+JSP ha degli o
