@@ -58,4 +58,4 @@ Di queste direttive, gli attributi `ID` e [[scope attribute|scope]] regolano
 - come un oggeto è ottenuto (dal proprio ID)
 - la visibilità o scopo dell'oggetto stesso
 
-
+con forward la variabile richiesta del componente web destinazione è identica a quella del forwarding. Se l'utente ricaarica la pagina, la stessa richiesta viene inviata al server. Con il metodo sendRedirect #todo
