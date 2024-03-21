@@ -37,4 +37,13 @@ Genera una [[servlet]].
 
 direttiva @page
 
-JSP ha degli o
+JSP ha degli oggetti predefiniti:
+- request
+- response
+- out
+- session
+- application
+- config
+- pageContext
+- page
+- exception
