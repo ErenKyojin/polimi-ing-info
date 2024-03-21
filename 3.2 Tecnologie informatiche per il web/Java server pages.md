@@ -47,3 +47,14 @@ JSP ha degli oggetti predefiniti:
 - pageContext
 - page
 - exception
+
+Le azioni sono funzioni predefinite rappresentatecome elementi [[XML]], non vanno confuse con le direttive di tipo `<\%@...\%>`
+`<jsp:useBean>` inizializza un javabean o trovalo
+`<jsp:setProperty>`
+`<jsp:getProperty>`
+`<jsp:forward>`
+
+Di queste direttive, gli attributi `ID` e [[scope attribute|scope]] regolano
+- come un oggeto è ottenuto (dal proprio ID)
+- la visibilità o scopo dell'oggetto stesso
+
