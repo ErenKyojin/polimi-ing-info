@@ -11,5 +11,3 @@ y(t) = Cx(t) + Du(t)
 
 >[!esempio]
 >Rete elettrica
-> - $u(t)$ tensione d'ingresso
-> - $$
