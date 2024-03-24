@@ -5,3 +5,6 @@
 
 
 ovviamente vale anche per $n$ eventi positivi fino a quando non ve ne è uno negativo. 
+
+
+Ha [[valore atteso]] $$E(X) = \sum_{k=1}^n k(1-p)^{k-1}p = \frac{1}{p}$$
