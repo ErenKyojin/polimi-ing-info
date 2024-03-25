@@ -26,4 +26,7 @@ $$ F(a) = \begin{cases}
 
 ## Somma di variabili aleatorie uniformi indipendenti
 
-Siano  $X_{1},X_{2},\dots,X_{n}$ variabili aleatorie uniformi indipendenti su $(0,1)$.
+Siano  $X_{1},X_{2},\dots,X_{n}$ variabili aleatorie uniformi indipendenti su $(0,1)$, sia $$F_{n}(x) = P\{ X_{1} + X_{2} + \dots + X_{n} \}$$
+consideriamo il caso $0 \leq x \leq 1$, fuori da questo caso la formula è infatti notevolmente complessa.
+Abbiamo, dimostrabile per induzione, che 
+$$F_{n}(x) = \frac{x^n}{n!} \quad 0 \leq x \leq 1$$
