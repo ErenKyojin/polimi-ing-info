@@ -23,3 +23,4 @@ $$ f_{X+Y}(a) = \frac{d}{da} \int _{-\infty}^{\infty} \!F_{X}(a-y)f_{Y}(y) \, \m
 
 ## Somme notevoli
 - [[Variabile aleatoria uniforme#Somma di variabili aleatorie uniformi indipendenti]]
+- [[Variabile aleatoria normale#Somma di variabili aleatorie normali indipendenti]]
