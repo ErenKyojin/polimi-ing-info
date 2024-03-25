@@ -75,5 +75,11 @@ Questo teorema afferma che, per $n$ abbastanza grande (l'approssimazione inzia a
 >>Allora
 >>$$\large\begin{align}
 >>f_{X}(a-y)f_{Y}(y) &= \frac{1}{\sqrt{ 2 \pi}\sigma} e^{-(a-y)^2/2\sigma^2} \frac{1}{\sqrt{ 2\pi }}e^{-y^2/2} = \\
-&=\frac{1}{2\pi \sigma}e^{- a^2/2\sigma^2}e^{-c(y^2 -2y) }
+&=\frac{1}{2\pi \sigma}e^{- a^2/2\sigma^2}e^{-c[y^2 - (2ya)/(1-\sigma^2)] }
+>>\end{align}$$
+>>sfruttando la [[somma di variabili aleatorie indipendenti]]
+>>$$ \large\begin{align}
+>>f_{X+Y}(a) &= \frac{1}{2 \pi \sigma}e^{-a^2/2\sigma^2} e^{a^2/[2\sigma^2(1 + \sigma^2)]} \int _{-\infty}^{\infty} \!e^{-c(y-a/1+\sigma^2)^2} \, \mathrm{d}y= \\
+&= \frac{1}{2\pi \sigma}e^{- a^2/2(1 + \sigma^2)} \int _{-\infty}^{\infty} \!e^{-cx^2} \, \mathrm{d}x = \\
+&= C e^{- a^2/2(1+\sigma^2)} 
 >>\end{align}$$
