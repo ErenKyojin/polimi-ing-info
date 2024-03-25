@@ -23,3 +23,7 @@ $$ F(a) = \begin{cases}
 \dfrac{a-\alpha}{b-\beta}&\alpha < a < \beta \\
 1 & a \geq \beta
 \end{cases} $$
+
+## Somma di variabili aleatorie uniformi indipendenti
+
+Siano  $X_{1},X_{2},\dots,X_{n}$ variabili aleatorie uniformi indipendenti su $(0,1)$.
