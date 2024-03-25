@@ -64,3 +64,16 @@ Questo teorema afferma che, per $n$ abbastanza grande (l'approssimazione inzia a
 
 >[!proposizione]
 >Date $X_{i}, i = 1,\dots,n$ variabili aleatorie che seguono la distribuzione normale di parametri $\mu_{i}, \sigma^2_{i}$, allora $\sum_{i=1}^n X_{i}$ è una variabile aleatoria normale di parametri $\sum_{i=1}^n \mu_{i}, \sum_{i=1}^n \sigma^2_{i}$
+>
+>>[!dim]
+>>$X,Y$ variabili aleatorie normali ed indipendenti tali che
+>>- $X$ media pari a $0$, varianza pari a $\sigma^2$ 
+>>- $Y$ media pari a $0$, varianza pari a $1$
+>>
+>>posto 
+>>$$c = \frac{1}{2\sigma} + \frac{1}{2} = \frac{1 + \sigma^2}{2\sigma^2}$$
+>>Allora
+>>$$\large\begin{align}
+>>f_{X}(a-y)f_{Y}(y) &= \frac{1}{\sqrt{ 2 \pi}\sigma} e^{-(a-y)^2/2\sigma^2} \frac{1}{\sqrt{ 2\pi }}e^{-y^2/2} = \\
+&=\frac{1}{2\pi \sigma}e^{- a^2/2\sigma^2}e^{-c(y^2 -2y) }
+>>\end{align}$$
