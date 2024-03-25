@@ -9,5 +9,8 @@ creation date: 2024-03-12
 >che è verificata se $\forall a,b \in \mathbb{R}$
 >$$P\{ X \leq a, Y \leq b \} = P\{ X \leq a \} P\{ Y \leq b \}$$
 
-Due variabili aleatorie $X$ e $Y$ sono indipendenti se e solo se la loro densità congiunta può essere espressa come
-$$ f_{X,Y}(x,y) = h(x)g(y)\qquad \forall x,y \in (-\infty, +\infty) $$
+Vale inoltre la seguente:
+
+> [!proposizione]
+> Due variabili aleatorie $X$ e $Y$ sono indipendenti se e solo se la loro densità congiunta può essere espressa come
+> $$ f_{X,Y}(x,y) = h(x)g(y)\qquad \forall x,y \in (-\infty, +\infty) $$
