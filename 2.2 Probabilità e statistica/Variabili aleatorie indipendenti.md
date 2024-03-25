@@ -15,4 +15,15 @@ Vale inoltre la seguente:
 > Due variabili aleatorie $X$ e $Y$ sono indipendenti se e solo se la loro densità congiunta può essere espressa come
 > $$ f_{X,Y}(x,y) = h(x)g(y)\qquad \forall x,y \in (-\infty, +\infty) $$
 
-È utile tenere a mente che l'indipendenza tra variabili aleatorie è simmetrica, date due variabili aleatorie $X$ ed
+È utile tenere a mente che l'indipendenza tra variabili aleatorie è simmetrica, date due variabili aleatorie $X$ ed $Y$, se $X$ è indipendente rispetto ad $Y$ anche $Y$ è indipendente rispetto ad $X$.
+Questo è in particolar modo utile nella verifica dell'indipendenza, se sembra particolarmente complicato dimostrare l'indipendenza in una via, è possibile provarla nell'altra.
+
+L'indipendenza di più variabili aleatorie si può provare ricorsivamente
+- $X_{2}$ indipendente da $X_{1}$
+- $X_{3}$ indipendente da $X_{2},X_{1}$
+- $\dots$ 
+- $X_{n}$ indipendente da $X_{n-1},\dots,X_{2},X_{1}$
+
+## Somma di v.a. indipendenti
+>[!def]
+>Siano $X$ ed $Y$ variabili aleatorie,
