@@ -12,6 +12,7 @@ $$
 \fbox{$v(t) = v(t_{0}) + \int _{t_{0}}^t \!a(t') \, \mathrm{d}t'$}
 $$
 
+# ANKI
 
 ```anki
 id: 1695223960870
