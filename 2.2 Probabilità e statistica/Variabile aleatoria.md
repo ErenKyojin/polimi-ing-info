@@ -74,7 +74,7 @@ $$1 = P\{ X \in [-\infty,+\infty] \}= \int _{-\infty}^{\infty} \! f(x)\, \mathrm
 -  se $B=[a,b]$ 
 $$ P\{ a \leq X \leq b \} = \int _{a}^b \!f(x) \, \mathrm{d}x  $$
 - se $B =[a,a]$
-  $$ P\{ X=a \}=\int _{a}^a \!f(x) \, \mathrm{d}x =0 ! $$
+  $$ P\{ X=a \}=\int _{a}^a \!f(x) \, \mathrm{d}x =0\quad (!!!) $$
 
 Quindi una variabile aleatoria continua ha probabilità 0 per qualsiasi assegnazione! 
 
