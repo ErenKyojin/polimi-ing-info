@@ -11,7 +11,7 @@ $$ F(x) = \begin{cases}
 1 - e^{-[(x- \nu)/\alpha]^\beta}&x > \nu
 \end{cases} $$
 
-E, derivandola, troviamo la funzione di distribuzione
+E, derivandola, troviamo la densità
 $$ f(x) = \begin{cases}
 0 & x \leq \nu \\
 \frac{\beta}{\alpha} \left( \frac{x-\nu}{\alpha} \right)^{\beta - 1} e^{[(x - \nu)/\alpha]^\beta} & x > \nu
