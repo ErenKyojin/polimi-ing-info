@@ -1,5 +1,5 @@
 function daily_note_pin(){
-  const activeFile = app.workspace.getActiveFile();
+  //const activeFile = app.workspace.getActiveFile();
   app.workspace.iterateAllLeaves((leaf) => {
     leaf.detach();
   })
