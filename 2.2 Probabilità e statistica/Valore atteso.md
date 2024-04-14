@@ -56,7 +56,8 @@ Sia $p(s) = P(\{ s \})$ con $s \in \Omega$ la probabilità che l'esperimento abb
 $$ P(A) = \sum_{s \in A}p(s) $$
 In particolare, se $A = \Omega$
 $$ 1 = \sum_{s \in S} p(s) $$
-Consideriamo $X$ variabile aleatoria con valore atteso $E[X]$, $X(s)$ è il valore di $X$ quando avviene $s$
+Consideriamo $X$ variabile aleatoria con valore atteso $E[X]$, $X(s)$ è il valore di $X$ quando avviene $s$ vale la seguente
+>[!proposizione]
 # Valore atteso di una [[Variabile aleatoria#^a0cf7e|variabile aleatoria continua]]
 
 > [!def]
