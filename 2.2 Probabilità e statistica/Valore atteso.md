@@ -50,6 +50,9 @@ Sia $X$ una variabile aleatoria definita sullo [[Spazio di probabilità]] $(\Ome
 la prima proprietà ci dice chei l valore atteso di una costante è la costante stessa, la seconda sottolinia un legame tra valore atteso e probabilità, la 3 e la 4 dicono come si comporta il valore atteso con operazioni lineari, la 5 è la positività del valore atteso e la 6 è l'internalità del valore atteso
 
 ### Valore atteso della somma di variabili aleatorie
+Il valore atteso della somma di un numero finito di variabili aleatorie è uguale alla somma dei loro valori attesi
+
+Sia $p(s) = $
 
 
 # Valore atteso di una [[Variabile aleatoria#^a0cf7e|variabile aleatoria continua]]
