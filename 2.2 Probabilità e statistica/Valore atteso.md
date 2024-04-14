@@ -52,8 +52,11 @@ la prima proprietà ci dice chei l valore atteso di una costante è la costante 
 ### Valore atteso della somma di variabili aleatorie
 Il valore atteso della somma di un numero finito di variabili aleatorie è uguale alla somma dei loro valori attesi
 
-Sia $p(s) = $
-
+Sia $p(s) = P(\{ s \})$ con $s \in \Omega$ la probabilità che l'esperimento abbia $s$ come esito, per gli assiomi della probabilità abbiamo che:
+$$ P(A) = \sum_{s \in A}p(s) $$
+In particolare, se $A = \Omega$
+$$ 1 = \sum_{s \in S} p(s) $$
+Consideriamo $X$ variabile aleatoria, possiamo definire $X(S)$ come
 
 # Valore atteso di una [[Variabile aleatoria#^a0cf7e|variabile aleatoria continua]]
 
