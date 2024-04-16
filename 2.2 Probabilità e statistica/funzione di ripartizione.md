@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: funzione di distribuzione
 creation date: 2024-03-03
 ---
 
