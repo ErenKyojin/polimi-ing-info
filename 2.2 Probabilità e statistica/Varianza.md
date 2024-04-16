@@ -26,6 +26,9 @@ Hanno tutte lo stesso valore atteso, nonostante abbiano intuitivamente una dista
 
 Se $X$ è una variabile aleatoria discreta con densità $p_{X}$ e media $E(X) = \mu$ allora $\var(X) = \sum_{k}(x_{k}-\mu)^2p_{X}(x_{K})$ mentre deduciamo che se $X$ è una variabile aleatoria assolutamente continua con densità $f_{X}$ e media $E(X) = \mu$ allora $\var(X)= \int  \!(x-\mu)^2f_{X}(x) \, \mathrm{d}x$
 
+>[!tldr]
+>La varianza indica la distanza dei possibili valori di una variabile aleatoria rispetto al proprio valore medio
+
 ## Proprietà della varianza
 
 >[!proposizione]
