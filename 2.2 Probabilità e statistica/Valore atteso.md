@@ -80,7 +80,9 @@ E[X] &= \sum_{i} x_{i}P\{ X=x_{i} \} \\
 >>>poniamo $Z = X_{1} + X_{2} + \dots + X_{n} = \sum_{i} X_{i}$, avremo quindi
 >>>$$ \begin{align}
 E[Z] &= \sum_{s \in S} Z(s)p(s) \\
-&= \sum_{s \in S} (X_{1}(s) + X_{2}(s) +\dots + X_{n}(s))
+&= \sum_{s \in S} (X_{1}(s) + X_{2}(s) +\dots + X_{n}(s))p(s) \\
+&=\sum_{s \in S} X_{1}(s)p(s) + \sum_{s \in S} X_{2}(s)p(s) + \dots + \sum_{s \in S} X_{n}(s)p(s) \\
+&=E[X_{1}] + E[X_{2}] + \dots + E[X_{n}]
 \end{align} $$
 
 
