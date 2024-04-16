@@ -9,7 +9,7 @@ creation date: 2024-03-03
 > dove $p(i)$ definisce la densità discretà essendo $\sum_{i=0}^\infty p(i)=1$ (dimostrazione immediata attraverso serie di taylor)
 
 
-La variabile aleatoria di Poisson ha molteplici applicazioni, in particolar modo per il fatto che, per $n$ grande e $p$ piccolo, è una buona approssimazione di una [[Modello discreto binomiale|variabile aleatoria binomiale]] con $\lambda = np$
+La variabile aleatoria di Poisson ha molteplici applicazioni, in particolar modo per il fatto che, per $n$ grande e $p$ piccolo, è una buona approssimazione di una [[variabile aleatoria binomiale|variabile aleatoria binomiale]] con $\lambda = np$
 
 ### Valore atteso e varianza di una variabile aleatoria di Poisson
 Considerando il fatto che una variabile aleatoria di Poisson ne approssima una binomiale con $n$ grande, $p$ piccolo e con $\lambda=np$. Essendo una variabile aleatoria binomiale con valore atteso $np$ e varianza pari a $np(1-p)$ possiamo aspettarci che varianza e valore attesso siano entrambi pari a $\lambda=np$ (la varianza grande al fatto che $p\to 0$) si può in effetti verificare che

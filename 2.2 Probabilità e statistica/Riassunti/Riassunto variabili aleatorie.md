@@ -22,8 +22,16 @@ $$ E[g(x)] = \sum g(x)f(x) $$
 
 ### Varianza
 La varianza di una variabile aleatoria è definita come
-$$ \var[X] = \text{Var}(X) = E[(X-E[X])^2] = E[X^2] -(E[X])^2 $$
+$$ \var[2](X) = \text{Var}(X) = E[(X-E[X])^2] = E[X^2] -(E[X])^2 $$
 
-### Covarianza
-La covarianza è la radice quadrata della varianza
-$$ \cov(X) = \sqrt{ \var[X]4} $$
+### Deviazione standard
+La deviazione standard è la radice quadrata della varianza
+$$ \cov(X) = \sqrt{ \var[2](X)} $$
+
+
+### Variabili aleatorie discrete notevoli
+- [[variabile aleatoria binomiale]]  - indica la probabilità di $k$ successi su $n$ prove
+	- bernulliana, $n = 1$
+- [[Variabile aleatoria Geometrica]] - indica la probabilità di $n$ insuccessi prima del primo succeso
+- [[Variabile aleatoria di Poisson]] - approssima il modello binomiale per $n$ grande e $p$ piccolo
+- [[Variabile aleatoria ipergeometrica]] - descrive la probabilità di estrarre $n$ palline senza reimissione di cui $m$ palline vincenti su un totale di $N$ palline contenute nell'urna
