@@ -71,6 +71,12 @@ E[X] &= \sum_{i} x_{i}P\{ X=x_{i} \} \\
 &=\sum_{s \in S} X(s)p(s)
 \end{align} $$
 >dove $S$ è l'unione di tutti gli eventi disgiunti $S_{1},S_{2},\dots$
+>
+>>[!corollario]
+>>siano $X_{1},\dots,X_{n}$ variabili aleatorie
+>>$$ E\left[ \sum_{i}X_{i} \right] = \sum_{i}E[X_{i}] $$
+
+
 
 
 # Valore atteso di una [[Variabile aleatoria#^a0cf7e|variabile aleatoria continua]]
