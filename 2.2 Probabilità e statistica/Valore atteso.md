@@ -61,6 +61,17 @@ Consideriamo $X$ variabile aleatoria con valore atteso $E[X]$, $X(s)$ è il valo
 >$$ E[X] = \sum_{s \in S} X(s)p(s) $$
 >
 >>[!dim]
+>>$X$ assumerà valore $x_{i}$, possiamo definire quindi l'evento $S_{i} = \{ s : X(s) = x_{i} \}$, avremo:
+>>$$ \begin{align}
+E[X] &= \sum_{i} x_{i}P\{ X=x_{i} \} \\
+&= \sum_{i}x_{i}P(S_{i}) \\
+&=\sum_{i}x_{i}\sum_{s \in S_{i}}p(s) \\
+&=\sum_{i}\sum_{s \in S}x_{i}p(s) \\
+&=\sum_{i}\sum_{s \in S}X(s)p(s) \\
+&=\sum_{s \in S} X(s)p(s)
+\end{align} $$
+>dove 
+
 
 # Valore atteso di una [[Variabile aleatoria#^a0cf7e|variabile aleatoria continua]]
 
