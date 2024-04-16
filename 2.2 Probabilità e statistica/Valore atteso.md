@@ -70,7 +70,7 @@ E[X] &= \sum_{i} x_{i}P\{ X=x_{i} \} \\
 &=\sum_{i}\sum_{s \in S}X(s)p(s) \\
 &=\sum_{s \in S} X(s)p(s)
 \end{align} $$
->dove 
+>dove $S$ è l'unione di tutti gli eventi disgiunti $S_{1},S_{2},\dots$
 
 
 # Valore atteso di una [[Variabile aleatoria#^a0cf7e|variabile aleatoria continua]]
