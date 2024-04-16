@@ -75,6 +75,14 @@ E[X] &= \sum_{i} x_{i}P\{ X=x_{i} \} \\
 >>[!corollario]
 >>siano $X_{1},\dots,X_{n}$ variabili aleatorie
 >>$$ E\left[ \sum_{i}X_{i} \right] = \sum_{i}E[X_{i}] $$
+>>
+>>>[!dim]
+>>>poniamo $Z = X_{1} + X_{2} + \dots + X_{n} = \sum_{i} X_{i}$, avremo quindi
+>>>$$ \begin{align}
+E[Z] &= \sum_{s \in S} Z(s)p(s) \\
+&= \sum_{s \in S} (X_{1}(s) + X_{2}(s) +\dots + X_{n}(s))
+\end{align} $$
+
 
 
 
