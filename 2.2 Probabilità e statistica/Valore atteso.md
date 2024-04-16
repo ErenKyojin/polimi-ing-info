@@ -58,6 +58,10 @@ In particolare, se $A = \Omega$
 $$ 1 = \sum_{s \in S} p(s) $$
 Consideriamo $X$ variabile aleatoria con valore atteso $E[X]$, $X(s)$ è il valore di $X$ quando avviene $s$ vale la seguente
 >[!proposizione]
+>$$ E[X] = \sum_{s \in S} X(s)p(s) $$
+>
+>>[!dim]
+
 # Valore atteso di una [[Variabile aleatoria#^a0cf7e|variabile aleatoria continua]]
 
 > [!def]
