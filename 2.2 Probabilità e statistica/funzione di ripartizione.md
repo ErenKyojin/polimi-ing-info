@@ -39,4 +39,9 @@ creation date: 2024-03-03
 ^61c769
 
 ## Funzione di ripartizione multidimensionale
-Sia $\mathbf{X} = (X_{1},\dots,X_{n})$ un vettore aleatorio $n$-dimensionale definito su uno spazio di probabilità $(\Omega,\mathcal{F},P)$. È detta funzione di ripartizione di $X$ la funzione $F_{\mathbf{X}} = F_{(X_{1},\dots,X_{n})} : \mathbb{R}^n \to [0,1]$ definita per ogni $(x_{1},\dots,x_{n}) \in \mathbb{R}^n$ come $F_{(X_{1},\dots,X_{n})} := P(X_{1} \leq x_{1},\dots,X_{n} \leq x_{n})$
+
+> [!def]
+> Sia $\mathbf{X} = (X_{1},\dots,X_{n})$ un vettore aleatorio $n$-dimensionale definito su uno spazio di probabilità $(\Omega,\mathcal{F},P)$. È detta funzione di ripartizione di $X$ la funzione $F_{\mathbf{X}} = F_{(X_{1},\dots,X_{n})} : \mathbb{R}^n \to [0,1]$ definita per ogni $(x_{1},\dots,x_{n}) \in \mathbb{R}^n$ come $F_{(X_{1},\dots,X_{n})}(x_{1},\dots,x_{n}) := P(X_{1} \leq x_{1},\dots,X_{n} \leq x_{n})$
+
+>[!proposizione]
+>Sia $\mathbf{X}=(X_{1},\dots,X_{n})$ un vettore ale
