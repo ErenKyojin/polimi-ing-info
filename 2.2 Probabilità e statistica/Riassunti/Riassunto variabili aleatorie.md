@@ -58,4 +58,3 @@ $$ \text{var}(X) = E[(X-E[X])^2] $$
 - [[Variabile aleatoria esponenziale]]
 - [[Funzione di rischio]]
 - [[Distribuzione gamma]]
-- 
