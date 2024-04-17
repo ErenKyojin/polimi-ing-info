@@ -50,3 +50,12 @@ $$ E[g(x)] = \int _{-\infty}^{\infty} \!g(x)f(g) \, \mathrm{d}x  $$
 
 ### Varianza di una variabile aleatoria continua
 $$ \text{var}(X) = E[(X-E[X])^2] $$
+
+### Variabile aleatorie continue notevoli
+- [[Variabile aleatoria uniforme]]
+- [[Variabile aleatoria normale]] 
+	- normale standard
+- [[Variabile aleatoria esponenziale]]
+- [[Funzione di rischio]]
+- [[Distribuzione gamma]]
+- 
