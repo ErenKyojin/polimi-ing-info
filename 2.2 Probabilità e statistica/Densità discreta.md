@@ -27,3 +27,5 @@ creation date: 2024-03-02
 >  $$ F_{\mathbf{X}}(\mathbf{x})= \sum_{\mathbf{y} \in S : \mathbf{y} \leq \mathbf{x}} p(\mathbf{x})(\mathbf{y})\quad\forall \mathbf{x} \in \mathbb{R}^n $$
 >- se $B \subseteq \mathbb{R}^n$
 >  $$ P(\mathbf{X} \in B) = \sum_{\mathbf{x} \in B \cap S }p_{\mathbf{X}}(\mathbf{x}) $$
+
+Questa proposizione, in particolare l'ultimo punto, è utile al calcolo delle densità marginali, ossia le densità dei componenti $X_{i}$ del vettore aleatorio
