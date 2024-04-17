@@ -47,7 +47,7 @@ Sia $X$ una variabile aleatoria definita sullo [[Spazio di probabilità]] $(\Ome
 5. Se $X$ è una variabile aleatore tale che $P(X \geq 0) = 1$ e $E(X)$ esiste, allora $E(X) \geq 0$. Se in aggiunta $E(X) = 0$ allora $P(X =0)=1$
 6. se $a,b \in \mathbb{R}$ sono tali che $P(a \leq X \leq b) = 1$allora $a \leq E(X) \leq b$
 7. siano $g$ e $h$ funzioni tali che $E(g(X))$ e $E(h(x))$ esistono. Se $P(h(X) \geq g(x)) = 1$ allora $E(h(X)) \geq E(g(x))$
-la prima proprietà ci dice chei l valore atteso di una costante è la costante stessa, la seconda sottolinia un legame tra valore atteso e probabilità, la 3 e la 4 dicono come si comporta il valore atteso con operazioni lineari, la 5 è la positività del valore atteso e la 6 è l'internalità del valore atteso
+la prima proprietà ci dice che il valore atteso di una costante è la costante stessa, la seconda sottolinia un legame tra valore atteso e probabilità, la 3 e la 4 dicono come si comporta il valore atteso con operazioni lineari, la 5 è la positività del valore atteso e la 6 è l'internalità del valore atteso
 
 ### Valore atteso della somma di variabili aleatorie
 Il valore atteso della somma di un numero finito di variabili aleatorie è uguale alla somma dei loro valori attesi

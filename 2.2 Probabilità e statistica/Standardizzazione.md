@@ -1,5 +1,5 @@
 ---
-aliases: Standardizzazione di una variabile aleatoria
+aliases:  Standardizzazione di una variabile aleatoria
 creation date: 2023-03-20 15:28
 modification date: 2023-03-20 15:28
 ---
