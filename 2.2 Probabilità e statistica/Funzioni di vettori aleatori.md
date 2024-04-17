@@ -9,6 +9,18 @@ Consideriamo $\mathbf{X}$ un vettore aleatorio discreto con densità $p_{\mathbf
 $\mathbf{Y}$ è un vettore aleatorio discreto a valori in $g(S)$
 Abbiamo che la densità $p_{\mathbf{Y}}$
 $$ p_{\mathbf{Y}}(\mathbf{y}) = \sum_{\mathbf{x} \in S : g(\mathbf{x})=\mathbf{y}} p_{\mathbf{X}}(\mathbf{x}) $$
+
+### Somme di variabili aleatorie discrete
+Il caso di può estendere facilmente in modo ricorsivo, quindi possiamo limitarci allo studio della somma di due variabili aleatorie $X_{1}$ e $X_{2}$.
+
+Sia $(X_{1},X_{2})$ vettore aleatorio con densità $p_{X_{1} + X_{2}}$ e sia $Y=X_{1} + X_{2}$
+$$p_{X_{1} + X_{2}}(y) = \sum_{x_{1},x_{2} : x_{1}+x_{2}=y}p_{X_{1},X_{2}}(x_{1},x_{2}) = \sum_{x_{2}} p_{X_{1},X_{2}}(y-x_{2},x_{2})$$
+
+>[!oss]
+>Se $X_{1}$ ed $X_{2}$ sono indipendenti vale
+>$$P_{X_{1}+X_{2}}(y) = \sum_{x_{2}}p_{X_{1}}(y-x_{2})p_{X_{2}}(x_{2})$$
+
+
 ## Caso assolutamente continuo
 $$Y = \mathbf{g}(\mathbf{x}) = \begin{bmatrix}g_{1}(\mathbf{x})\\\vdots\\g_{m}(\mathbf{x})\end{bmatrix} = \begin{bmatrix}y_{1}\\\vdots \\y_{m}\end{bmatrix}$$
 
