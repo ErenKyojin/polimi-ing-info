@@ -1,5 +1,5 @@
 ---
-aliases: variabili aleatoriee
+aliases: variabili aleatorie
 ---
 
 
