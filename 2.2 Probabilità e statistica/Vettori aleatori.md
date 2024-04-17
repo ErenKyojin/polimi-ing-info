@@ -18,4 +18,11 @@ creation date: 2024-04-17
 ## Vettori aleatori assolutamente continui
 
 >[!def]
->$X$ 
+>Un vettore aleatorio $\mathbf{X}$ di $n$ componenti si dice assolutamente continuo se esiste una funzione $f_{\mathbf{X}} : \mathbb{R}^n \to \mathbb{R}^+$ integrabile tale che la funzione di ripartizione di $\mathbf{X}$ si può scrivere come
+>$$ F_{\mathbf{X}} = \int _{-\infty}^{\infty} \!\!\!\!\!\!\dots\int _{-\infty}^{\infty} \!f_{X}(s_{1},\dots,s_{n}) \, \mathrm{d}s_{1}  \dots \, \mathrm{d}s_n \forall \mathbf{x} = (x_{1},\dots,x_{n}) $$
+>$f_{\mathbf{X}}$ è detta densità del vettore aleatorio assolutamente continuo
+
+
+>[!proposizione]
+>Sia $f_{\mathbf{X}}$ la densità di un vettore aleatorio assolutamente continuo $\mathbf{X}$, valgono le seguenti:
+>- $\large \int _{\mathbb{R}^n} \!f(x_{1},\dots,x_{n}) \, \mathrm{d}x_{1} \mathrm{d}$
