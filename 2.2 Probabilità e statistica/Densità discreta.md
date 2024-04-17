@@ -15,5 +15,8 @@ creation date: 2024-03-02
 
 ## Densità discreta di un vettore aleatorio
 >[!def]
->Sia $\mathbf{X}$ vettore aleatorio discreto, è detta densità discreta di $\mathbf{X}$ la funzione
+>Sia $\mathbf{X}$ [[vettore aleatorio]] discreto, è detta **densità discreta** di $\mathbf{X}$ la funzione
 >$$p_{\mathbf{X}}(\mathbf{x}) = p(X_{1}=x_{1},X_{2} = x_{2},\dots,X_{n}=x_{n})$$
+
+>[!proposizione]
+>Se $p_{\mathbf{X}}$ è densità di un vettore aleatorio $n-$dimensionale $\mathbf{X}$ tale che, dato un insieme $S$ al più numerabile, $P(\mathbf{X} \in S) = 1$
