@@ -24,4 +24,14 @@ L'indipendenza di più variabili aleatorie si può provare ricorsivamente
 - $\dots$ 
 - $X_{n}$ indipendente da $X_{n-1},\dots,X_{2},X_{1}$
 
+
+>[!proposizione]
+>Variabili aleatorie $X_{1},\dots,X_{n}$ sono indipendenti se e solo se vale che
+>$$P(X_{1} \leq x_{1}, \dots, X_{n} \leq x_n)=P(X_{1} \leq x_{1})\dots P(X_{n} \leq x_{n})$$
+>per ogni $x_{1},\dots,x_{n} \in \mathbb{R}$
+
+>[!proposizione]
+>Variabili aleatorie **discrete** $X_{1},\dots,X_{n}$ sono indipendenti se e solo se vale che
+>$$ P(X_{1} = x_{1}, \dots,X_{2}= x_{2})=P(X_{1}=x_{1})\dots P(X_{2}=x_{2}) $$
+
 ## Somma di v.a. indipendent
