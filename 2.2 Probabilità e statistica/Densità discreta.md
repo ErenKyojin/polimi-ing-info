@@ -28,4 +28,11 @@ creation date: 2024-03-02
 >- se $B \subseteq \mathbb{R}^n$
 >  $$ P(\mathbf{X} \in B) = \sum_{\mathbf{x} \in B \cap S }p_{\mathbf{X}}(\mathbf{x}) $$
 
-Questa proposizione, in particolare l'ultimo punto, è utile al calcolo delle densità marginali, ossia le densità dei componenti $X_{i}$ del vettore aleatorio
+Questa proposizione, in particolare l'ultimo punto, è utile al calcolo delle densità marginali, ossia le densità dei componenti $X_{i}$ del vettore aleatorio.
+$$p_{X_{i}}(x_{i}) = P(X_{1} \in \mathbb{R}, X_{2} \in \mathbb{R},\dots, X_{i} = x_{i} \dots)=p(X \in B)$$
+dove $B=\{ x_{i} \} \times \mathbb{R}^{n-1}$
+
+
+>[!proposizione]
+>Le componenti di un vettore aleatorio discreto $X=(X_{1},\dots,X_{n})$sono indipendenti se la densità discreta coincide con il prodotto delle densità marginali
+>$$ p_{\mathbf{X}} = p_{X_{1}} P_{x_{2}}\dots p_{X_{n}} $$
