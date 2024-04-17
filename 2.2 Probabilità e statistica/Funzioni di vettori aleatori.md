@@ -5,8 +5,10 @@ modification date: 2023-03-30 11:31
 ---
 
 ## Funzioni di vettori aleatori discreti
-
-
+Consideriamo $\mathbf{X}$ un vettore aleatorio discreto con densità $p_{\mathbf{X}}(\mathbf{x})$ e $P(\mathbf{X} \in S) = 1$, considerando $S$ al più numerabile ed una funzione $g : S \to \mathbb{R}^m$, definiamo $\mathbf{Y} = g(\mathbf{X})$.
+$\mathbf{Y}$ è un vettore aleatorio discreto a valori in $g(S)$
+Abbiamo che la densità $p_{\mathbf{Y}}$
+$$ p_{\mathbf{Y}}(\mathbf{y}) = \sum_{\mathbf{x} \in S : g(\mathbf{x})=\mathbf{y}} p_{\mathbf{X}}(\mathbf{x}) $$
 ## Caso assolutamente continuo
 $$Y = \mathbf{g}(\mathbf{x}) = \begin{bmatrix}g_{1}(\mathbf{x})\\\vdots\\g_{m}(\mathbf{x})\end{bmatrix} = \begin{bmatrix}y_{1}\\\vdots \\y_{m}\end{bmatrix}$$
 
