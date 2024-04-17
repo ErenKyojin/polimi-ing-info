@@ -10,7 +10,7 @@ Una [[Variabile aleatoria]] è una funzione a valori reali definita sullo spazio
 La [[funzione di ripartizione|funzione di distribuzione]] o **funzione di ripartizione** di una variabile aleatoria $X$ è una funzione: $$F(t) =p(X \leq t), t \in \mathbb{R}$$
 
 ### Distribuzione discreta
-La [[distribuzione]] di una variabile aleatoria **discreta** è definita come $$ p(x) = P\{ X = x \} $$ 
+La [[distribuzione]] di una variabi le aleatoria **discreta** è definita come $$ p(x) = P\{ X = x \} $$ 
 
 ### Valore atteso
 Il valore atteso di $X$, indicato con $E(X)$ e riferitosi anche come media di $X$ è definito come
