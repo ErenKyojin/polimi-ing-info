@@ -3,7 +3,6 @@ aliases:
 creation date: 2024-04-16
 ---
 
-
 ### Variabile aleatoria
 Una [[Variabile aleatoria]] è una funzione a valori reali definita sullo spazio campionario: $$X : \Omega \to \mathbb{R} $$
 
