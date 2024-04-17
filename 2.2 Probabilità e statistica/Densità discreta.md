@@ -11,3 +11,9 @@ creation date: 2024-03-02
 >[!esempio]
 >Dato un dado a 6 facce bilanciato, sia $X$ la variabile aleatoria che indica il valore del lancio. La densità discreta del valore 4 è
 >$$ p(4) = P\{x = 4\} = \frac{1}{6}$$
+
+
+## Densità discreta di un vettore aleatorio
+>[!def]
+>Sia $\mathbf{X}$ vettore aleatorio discreto, è detta densità discreta di $\mathbf{X}$ la funzione
+>$p_{\mathbf{X}}(\mathbf{x}) = p$ 
