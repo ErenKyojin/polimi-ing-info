@@ -34,3 +34,5 @@ creation date: 2024-04-17
 >[!proposizione]
 >sia $f_{\mathbf{X}}$ densità di un vettore aleatorio $n$-dimensionale assolutamente continuo $\mathbf{X}=(X_{1},\dots,X_{n})$, allora $X_{i}$ è una variabile aleatoria assolutamente continua con densità
 >$$ f_{X_{i}}(x_{i}) = \int _{\mathbb{R}^{n-1}} \! f_{X}(s_{1},\dots,s_{i-1},s_{i+1},\dots,s_{n}) \, \mathrm{d}s_{1}\dots\mathrm{d}s_{i-1}\mathrm{d}s_{i+1}\dots\mathrm{ds_{n}}  $$
+
+# Vettori aleatori indipendenti
