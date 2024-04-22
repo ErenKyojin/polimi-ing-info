@@ -138,3 +138,6 @@ $$ E\left(\prod_{i=1}^n X_{i} \right)= \prod_{i=1}^n E(X_{i}) $$
 >$$ \text{var}(X_{1} + X_{2}) = \text{var}(X_{1}) + \text{var}(X_{2}) + 2E[(X_{1} - E(X_{1}))(X_{2} - E(X_{2}))] $$
 >in particolare se $X_{1}$ ed $X_{2}$ sono indipendenti allora
 >$$ \text{var}(X_{1} + X_{2}) = \text{var}(X_{1}) + \text{var}(X_{2}) $$
+
+In particolare la varianza della somma di $n$ variabili aleatorie $X_{1},\dots,X_{n}$ è data dalla formula
+$$ \text{var}(X_{1} +\dots+X_{n})= \sum_{1}^n \text{var}(X_{i}) +2 \sum_{i=1}^{n-1} \sum_{j=i+1}^nE(X_{i} - E(X_{i})(X_{j} - E(X_{j})))$$
