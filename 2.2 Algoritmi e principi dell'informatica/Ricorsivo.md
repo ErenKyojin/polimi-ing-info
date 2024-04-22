@@ -18,7 +18,7 @@ Si! È calcolabile attraverso un programma / una [[Macchine di Turing|macchina d
 
 Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 
->[!theorem]
+>[!teorema]
 >1. Se $S$ è ricorsivo è anche [[Ricorsivamente enumerabile]]
 >2. $S$ è ricorsivo se e solo se $S$ stesso ed il suo complemento $\neg S = N - S$ sono ricorsivamente enumerabili.
 >

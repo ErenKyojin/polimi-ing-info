@@ -20,7 +20,7 @@ Quindi ottengiamo $E \subseteq \mathbb{R}$   attraverso $\cap, \cup, \neg$ piú 
 
 Partiamo dal sottoinsieme che li comprende tutti $\Omega$ (spazio campionario), che è detto **evento certo**, è sempre vero in quanto contiene tutti i possibili risultati, l'opposto è $\varnothing$ che è detto **evento impossibile**, abbiamo poi gli **eventi elementari** $\left\{ w_{i} \right\}$ ossia i singoli eventi (nucleo dello spazio); infine abbiamo l'evento somma $A \cup B$, $\neg A$, $B \setminus A = B \cap \neg A$ 
 
->[!theorem] leggi di de morgan
+>[!teorema] leggi di de morgan
 >1. Qual è il contrario di tutto vero? Qualcosa falso $\implies \neg[\bigcap_{i}A_{i}] = \bigcup_{i}\neg A_{i}$
 >2. Contrario di qualcosa vero? tutto falso $\implies \neg[\bigcup_{i}A_{i}] = \bigcap_{i}\neg A_{i}$
 >

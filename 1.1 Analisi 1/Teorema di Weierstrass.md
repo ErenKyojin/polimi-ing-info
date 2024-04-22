@@ -1,7 +1,7 @@
 # Teorema di weierstrass
 Importante proprietà delle funzioni [[polimi-ing-info/1.1 Analisi 1/continuità|continue]] su un intervallo
 
->[!theorem] Teorema di weierstrass
+>[!teorema] Teorema di weierstrass
 >Sia $f : [a,b] \to \mathbb R$ una funzione continua. Allora $f$ assume massimo e minimo in $[a,b]$, ossia esistono $x_m, x_M \in [a,b]$ tali che $f(x_m) \leq f(x) \leq f(x_M)$ per ogni $x\in[a,b]$
 >Si dice che $x_m$ è punto di minimo per $f$ e $m= f(x_m)$ è il minimo di $f$; analogamente si dice che $x_M$ è punto di massimo per $f$ e $m = f(x_M)$ è il massimo di $f$
 >

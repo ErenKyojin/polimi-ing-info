@@ -19,7 +19,7 @@ Possiamo quindi affermare che una serie $\sum_{n=0}^\infty a_n$ a termini non ne
 >Una serie $\sum a_n$, si dirà assolutamente convergente se converge la serie (a termini non negativi) $\sum |a_n|$
 
 Vale il seguente il teorema
->[!theorem]
+>[!teorema]
 >Se la serie $\sum a_n$ converge assolutamente, allora converge
 
 

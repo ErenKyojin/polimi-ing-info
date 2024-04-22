@@ -4,7 +4,7 @@ creation date: 2023-05-02 12:33
 modification date: 2023-05-02 12:33
 ---
 
-> [!theorem]
+> [!teorema]
 > Data la ricorrenza
 > $$T(n) = aT(n / b) + f(n)$$
 > Con $a \geq 1, b > 1$ e $n/b$ uguale o a $\lfloor n / b \rfloor$ o $\lceil n / b \rceil$

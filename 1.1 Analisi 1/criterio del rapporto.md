@@ -1,5 +1,5 @@
 # Criterio del rapporto per le [[successione]]
->[!theorem]
+>[!teorema]
 >Data $a_n$ successione positiva ($a_n>0 \forall n$)
 >$$\lim_{n\to\infty}\frac{a_n}{a_{n+1}}=l$$
 >Se $l > 1\quad\Rightarrow\quad a_n \to\infty$

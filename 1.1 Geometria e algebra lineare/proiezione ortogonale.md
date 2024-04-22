@@ -56,14 +56,15 @@ P_{H} : \mathbb{R}^n &\to \mathbb{R}^n \\
 \end{align} $$
 è lineare e dunque ammette una [[matrice rappresentativa]]
 
->[!proposition sottospazio di $\mathbb{R}^n$ e sia $\left\{ \mathbf{q}_{1},\dots,\mathbf{q}_{d} \right\}$ una base ortonormale di $H$. Sia $A = [\mathbf{q}_{1}|\dots|\mathbf{q}_{d}]$ allora
+>[!proposizione]
+>Sia $H$ un sottospazio di $\mathbb{R}^n$ e sia $\left\{ \mathbf{q}_{1},\dots,\mathbf{q}_{d} \right\}$ una base ortonormale di $H$. Sia $A = [\mathbf{q}_{1}|\dots|\mathbf{q}_{d}]$ allora
 > $$ P_{H} = A A^T = \mathbf{q}_{1} \mathbf{q}_{1}^T + \dots + \mathbf{q}_{d}\mathbf{q}_{d}^T $$
 > è la matrice che rappresenta la proiezione ortogonale di $\mathbb{R}^n$ sul sottospazio $H$
 > 
 >>[!dim]
 
 >[!proposizione]
-> !proposition}(n,n)}$ è la matrice di proiezione ortogonale su un sottospazio $H$ di $\mathbb{R}^n$ se e solo se
+> $P \in M_{\mathbb{R}(n,n)}$ è la matrice di proiezione ortogonale su un sottospazio $H$ di $\mathbb{R}^n$ se e solo se
 > 1. $P$ è idempotente, quindi $P^2 = P$
 > 2. $P$ è simmetrica, quindi $P^T = P$
 >

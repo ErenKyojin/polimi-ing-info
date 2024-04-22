@@ -25,7 +25,7 @@ quindi
 
 esistono altre definizioni di gruppo:
 
->[!proposition]
+>[!proposizione]
 >$A$ insieme con una legge di composizione interna binaria associativa, è equivalente affermare che:
 >1. A è un gruppo
 >2. esiste un $e \in A : \forall a \in A, a \cdot e =a\ \ \ \ (e\cdot a = a)$ e $\forall a \in A,\ \exists\ b \in A : a \cdot b = e\ \ \ \ (b \cdot a = e)$.

@@ -1,6 +1,6 @@
 Sappiamo che il [[Teorema di fermat]] indica i punti candidati di estremo libero, allo stesso modo il metodo dei moltiplicatori fornisce i punti candidati di estremo vincolato. Tra i candidati di estremo vincolato l selezioniamo massimo e minimo assoluti confrontando i valori di $f$
 
->[!theorem]
+>[!teorema]
 >$A \subseteq \mathbb{R}^2$ aperto $f,F \in C^1(A)$
 >Sia $\mathbf{x_{0}} = (x_{0},y_{0})$ punto di estremo vincolato per $f$ sul vincolo
 > $$ Z = \{(x,y) \in A : F(x,y) = 0\} $$

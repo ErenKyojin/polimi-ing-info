@@ -16,7 +16,7 @@
 
 
 ## Teoremi
->[!theorem] #Teorema di unicità del limite
+>[!Teorema] #Teorema di unicità del limite
  >{$a_n$} successione convergente $\Rightarrow$ il limite è unico
 >
 >>[!dim] Dimostrazione
@@ -31,7 +31,7 @@
 > $\Rightarrow L_1 = L_2$
 
 
->[!theorem] #Teorema di algebra dei limiti
+>[!teorema] #Teorema di algebra dei limiti
 >$a_n\rightarrow A, b_n\rightarrow B \qquad (A \land B \in \mathbb R)$
 >- $(a_n+b_n) \rightarrow A + B \longrightarrow$ Il limite della somma (differenza) è la somma (differenza) dei limiti
 >- $(a_n\cdot b_n) \longrightarrow A\cdot B$
@@ -86,7 +86,7 @@ Possiamo definirlo più sinteticamente:
 
 Una funzione che per $x\to c$ Tende a $0$ si dice [[infinito|infinitesimo]], analogamente una funzione che tende a $\pm\infty$ si dice [[infinito]]
 
->[!theorem] Teorema di unicità del limite
+>[!teorema] Teorema di unicità del limite
 >se esiste $\lim_{x\to c}f(x) = l$, tale limite $l$ è unico
 >D
 >>[!dim]

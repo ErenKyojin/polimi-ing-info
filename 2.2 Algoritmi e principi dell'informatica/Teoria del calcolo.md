@@ -11,7 +11,7 @@ Sembra una domanda troppo generica, cos'è un problema? Quali macchine dobbiamo 
 
 In quanto ai modelli sembra che la [[potenza]] espressiva massima trovata siano le [[Macchine di Turing]] e le [[Grammatiche]] generali, da cui:
 
->[!theorem] Tesi di Curch (e Turing)
+>[!teorema] Tesi di Curch (e Turing)
 >Non esiste meccanismo di calcolo automatico superiore alla macchina di Turing o di formalismi a lei corrispondenti, ne algoritmi per risolvere problemi non risolvibili da una macchina di Turing
 
 $\lambda$calcolo è un modello basato su funzioni ricorsive

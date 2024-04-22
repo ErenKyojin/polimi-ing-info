@@ -15,7 +15,7 @@ Dato un [[insieme]] $A$, teniamo a mente il concetto di [[cardinalità]] di ques
 > $$ \left\{ x^{m-1}, x^{m-2}, \dots , x, 1\right\}  $$ 
 > è linearmente indipendente
 
->[!theorem] Teorema 1 (lemma fondamentale)
+>[!teorema] Teorema 1 (lemma fondamentale)
 >Sia $V$ spazio vettoriale su $\mathbb{K}$. Se $V$ ammette un'insieme di generatori di cardinalità $m$ allora ogni altro insieme di cardinalità maggiore di $m$ è linearmente dipendente
 >
 >>[!dim]
@@ -52,7 +52,7 @@ t_{m}
 >Se $V$ ammette un insieme di generatori con cardinalità $m$ allora $\dim(V) \leq m$. Quindi, tornando al caso $\mathbb{K}[x]_{\leq n}$ possiamo dire che $\dim(\mathbb{K}[x]_{\leq n}) \leq n+1$
 >Poichè $\left\{ x^n,x^{n-1},\dots,x,1 \right\}$ sono un insieme di generatori, ma allora $\dim(\mathbb{K}[x]_{\leq n}) \leq n + 1$
 
->[!theorem] Teorema 2
+>[!teorema] Teorema 2
 >Se $V$ spazio vettoriale su $\mathbb{K}$ ammette una [[Base]] di cardinalità $n$ allora $\dim(V)=n$
 >
 >>[!dim]
@@ -62,7 +62,7 @@ t_{m}
 >>Quindi $dim(V)=n$
 
 
->[!theorem] Teorema 3
+>[!teorema] Teorema 3
 >Se $\dim(V)=n$ allora
 >1. $V$ contiene una base di cardinalità $n$
 >2. Ogni altra base di $V$ ha cardinalità $n$
@@ -79,7 +79,7 @@ t_{m}
 > $$ \dim(\mathbb{K}^n) = n,  \dim(M_{\mathbb{K}(n,n)}) = n \times n, \dim(\mathbb{K}[x]_{\leq n}) =  n + 1$$
 > $$ \dim(\ker(A)) = n - r(A)\quad (se\ A \in M_{\mathbb{K}}(n,n) \text{ per il teorema di nullità piú rango}) $$
 
->[!theorem] teorema 3
+>[!teorema] teorema 3
 >Se $\dim(V) = n$ allora
 > 1. $V$ contiene una base di cardinalità $n$
 > 2. Ogni altra base di $V$ ha cardinalità $n$

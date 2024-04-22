@@ -11,7 +11,8 @@
 > %%grafico di intersezione%% 
 > Abbiamo applicato e dimostrato la formula delle probabilità totali
 
->[!proposition>Sia $(\Omega,\mathcal{F},P)$ uno spazio di probabilità e $F_{1},F_{2},\dots,F_{n} \in \mathcal{F}$ una partizione finita di $\Omega$, $\bigcup_{k=1}^n F_{k} = \Omega$ e $F_{h} \cap F_{k} = \varnothing$ per $h \neq k$. 
+>[!proposizione]
+>Sia $(\Omega,\mathcal{F},P)$ uno spazio di probabilità e $F_{1},F_{2},\dots,F_{n} \in \mathcal{F}$ una partizione finita di $\Omega$, $\bigcup_{k=1}^n F_{k} = \Omega$ e $F_{h} \cap F_{k} = \varnothing$ per $h \neq k$. 
 >$P(F_{k})>0$ per $k = 1,\dots,n$. Allora per ogni evento $E \in \mathcal{F}$ si ha
 > $$
 >P(E) = \sum_{k=1}^nP(E|F_{k})P(F_{k})

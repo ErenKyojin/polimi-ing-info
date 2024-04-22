@@ -24,7 +24,7 @@ modification date: 2023-07-07 09:14
 >...
 
 
->[!proposition proprietà
+>[!proposizione] proprietà
 >$(\forall x)(\forall y)\mathcal{A}= (\forall y)(\forall x) \mathcal{A}$
 >$(\exists x)(\exists y) \mathcal{A} \equiv (\exists y)(\exists x) \mathcal{A}$
 >$(\exists x)(\forall y) \mathcal{A} \implies (\forall y)(\exists x)a$ (l'implicazione opposta non è logicamente valida)

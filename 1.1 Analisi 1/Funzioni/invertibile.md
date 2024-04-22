@@ -11,7 +11,7 @@ Se $f : B \rightarrow \mathbb R$ è invertibile in D chiamiamo [[funzione invers
 Sia $f : I \to\mathbb R$ con $I$ intervallo. Occupiamoci ancora del problema dell'intertibilità di $f$, vedendo ora il problema dal punto di vista della continuità.
 Sappiamo che una funzione definita su un intervallo e [[monotonia|strettamente monotona]] è invertibile. Il viceversa invece non è generalmente vero, ma se aggiungiamo l'ipotesi della continuità è invertibile.
 
->[!theorem] #Teorema 
+>[!teorema] #Teorema 
 >Sia $f: I \to \mathbb R$, con $I$ intervallo, una funzione continua in $I$. Allora $f$ è invertibile in $I$ se e solo se è strettamente monotona. In tal caso la sua inversa è ancora strettamente monotona e continua.
 >
 >>[!dim]

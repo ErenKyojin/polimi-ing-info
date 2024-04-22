@@ -225,7 +225,7 @@ $$\delta : Q \times (I \cap \left\{ \varepsilon \right\}) \times \Gamma \to \mat
 - $c_{0} \vdash^* \left< q,\varepsilon,\gamma \right>, q \in F$
 - $\vdash$ non è univoca!
 
->[!theorem]
+>[!teorema]
 >il linguaggio $L= \{ a^nb^n | n \geq 1 \} \cup \{ a^nb^{2n} | n \geq 1 \}$ è accettato da un APND, ma non da un APD
 
 >[!oss]

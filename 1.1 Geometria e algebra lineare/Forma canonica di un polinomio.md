@@ -2,7 +2,7 @@ Abbiamo visto che dato un polinomio di secondo grado
  $$ q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} + 2\mathbf{b} \mathbf{x} + c $$
  Dove $A \in M_{\mathbb{R}(n,n)}$ è simmetrica, $\mathbf{b} \in \mathbb{R}^n$ e $c \in \mathbb{R}$ data una rototraslazione: $F(\mathbf{y}) = Q\mathbf{y} + \mathbf{v}$ ove $Q \in M_{\mathbb{R}(n,n)}$ è invertibile e $\mathbf{v} \in \mathbb{R}^n$ allora
   $$ \hat{q}(\mathbf{y}) = q(F(\mathbf{y})) =\mathbf{y}^TQ^TAQ\mathbf{y} + 2(A\mathbf{v}+\mathbf{b})^TQ\mathbf{y} + \mathbf{v}^TA\mathbf{v} + 2\mathbf{b}^T\mathbf{v} + c$$ 
-  >[!theorem]
+  >[!teorema]
   >Dato un polinomio di secondo grado
   > $$ q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} + 2\mathbf{b}^T \mathbf{x} + c $$
   > ove $A \in M_{\mathbb{R}(n,n)}$ è simmetrica, $\mathbf{b} \in \mathbb{R}^n$ e $c \in \mathbb{R}$, data una rototraslazione: $F(\mathbf{y})=Q\mathbf{y}+\mathbf{v}$ dove $Q \in M_{\mathbb{R}(n,n)}$ è ortogonale con $\det(Q) = 1$ e $\mathbf{v} \in \mathbb{R}^n$ posto

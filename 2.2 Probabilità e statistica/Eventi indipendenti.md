@@ -19,7 +19,7 @@ In questo caso $E,F$ sono detti indipendenti
 >$$
 >
 
->[!theorem]
+>[!teorema]
 >$P(E | F) = P(E)$
 >>[!dim] 5\.
 >>
@@ -104,7 +104,8 @@ $$
 
  Se so che la coppia $(E,F)$ è una coppia di eventi indipendenti sono indipendenti anche le coppie $(E, F^C)$ o $(E^C, F)$ o $(E^C,F^C)$? Sì
  
-> [!proposition> $(E,F)$ indipendenti $\iff$ $(E^C,F)$ sono indipendenti
+> [!proposizione]
+> $(E,F)$ indipendenti $\iff$ $(E^C,F)$ sono indipendenti
 > 
 >>[!dim]
 >> $P(E \cap F) = P(E)P(F)$ ipotesi

@@ -21,7 +21,7 @@ Iniziamo a lavorare nell'intorno di $x_0 = 0$ per semplicità e dividiamo il pro
 
 1. Troviamo un polinomio che approssimi bene la funzione, cercando un polinomio che abbia tutte le derivate fino all'ordine $n$ uguali a quelle di $f(x)$ nel punto $x = 0$. Ovviamente perchè sia possibile il polinomio deve essere di grado almeno $n$ (essendo la derivata $n$ di un polinomio di grado minore di $n$ automaticamente nulla). Così troviamo il polinomio di MacLaurin
 
->[!theorem]
+>[!teorema]
 >Data una funzione $f$ derivabile $n$ volte in $x = 0$, esiste uno ed un solo polinomio di grado $\leq n$, chiamiamolo $T_n$ con la proprietà che:
 >$$T_n(0) = f(0), T_n'(0) = f'(0),\ldots,T_n^{(n)}(0) = f^{(n)}(0)$$
 E il polinomio, detto di MacLaurin di $f(x)$ di grado $n$ è:
@@ -32,7 +32,7 @@ E il polinomio, detto di MacLaurin di $f(x)$ di grado $n$ è:
 
 2. Proviamo ora che il polinomio trovato approssima bene $f(x)$ in un intorno di $x = 0$:
 
->[!theorem] Formula di MacLaurin all'ordine $n$ con resto secondo Peano
+>[!teorema] Formula di MacLaurin all'ordine $n$ con resto secondo Peano
 >Sia $f : (a,b)\to\mathbb R$ derivabile $n$ volte in $0 \in (a,b)$. Allora
 >$$f(x) = T_n(x) + o(x^n)\text{ per } x \to 0$$
 >La formula precedente si dice formula di MacLaurin di ordine $n$ con resto secondo peano
@@ -43,7 +43,7 @@ Funzione da approssimare = polinomio approssimante + errore di approssimazione, 
 ### formula di Taylor
 Tutto questo discorso si può generalizzare anche ad un punto $x_0\neq 0$: data una funzione derivabile $n$ volte in $x_0$ si può costruire il suo polinomio di Taylor:
 $$T_{n,x_0}(x) = \sum_{k = 0}^n\frac{f^{(k)}(x_0)}{k!}(x - x_0)^k$$
->[!theorem] Formula di Taylor all'ordine $n$ con resto secondo Peano
+>[!teorema] Formula di Taylor all'ordine $n$ con resto secondo Peano
 >Sia $f : (a,b) \to\mathbb R$ derivabile $n$ volte in $x_0 \in (a,b)$ allora:
 >$$f(x) = T_{n,x_0}(x)+o((x-x_0)^n)\text{ per } x\to x_0$$
 
@@ -71,7 +71,7 @@ Nella formula con il resto secondo Peano l'errore è "dinamico", ossia cambia ed
 >$$e^\frac{1}{2}\text{ con } T_3\left(\frac{1}{2}\right) = \frac{79}{48}$$
 >Come possiamo stimare l'errore In questo caso?
 
->[!theorem] Formula di Taylor all'ordine $n$ con resto secondo Lagrange
+>[!teorema] Formula di Taylor all'ordine $n$ con resto secondo Lagrange
 >Sia $f : [a,b]\to\mathbb R$ derivabile $n+1$ volte in $[a,b]$, e sia $x_0 \in [a,b]$. Allora esiste un punto $c$ compreso tra $x_0$ e $x$ tale che
 >$$f(x) = T_{n,x_0}(x) + \frac{f^{(n+1)(c)}}{(n+1)!}(x-x_0)^{n+1}$$ 
 >Questa formula è detta "formula di Taylor (o di MacLaurin se $x_0 = 0$) di ordine $n$ con resto secondo Lagrange"

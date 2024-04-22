@@ -57,7 +57,7 @@ La somma di una serie di potenze è derivabile ad ogni ordine:
 > - $z \in \mathbb{C}$
 > - $z_{0} \in \mathbb{C}$
 
->[!theorem]
+>[!teorema]
 >
 >
 >```tikz

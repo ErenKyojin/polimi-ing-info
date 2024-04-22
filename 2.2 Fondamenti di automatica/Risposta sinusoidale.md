@@ -68,7 +68,7 @@ y(t) &= \frac{U}{2j}(\underbrace{ M e^{j\varphi} }_{ G(j\omega) } e^{j\omega t} 
 
 Il risultato è il teorema fondamentale della [[risposta in frequenza]]:
 
->[!theorem]
+>[!teorema]
 >Dato il SD LTI a TC (SISO):
 > $$\begin{cases}
 > \dot{x} = Ax + bu \\

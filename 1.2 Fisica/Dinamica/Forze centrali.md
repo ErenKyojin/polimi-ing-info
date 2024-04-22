@@ -12,7 +12,7 @@ $$
 e quindi il moto è piano
 Si tratta di una delle caratteristiche principali dei campi di [[forza|forze]] centrali:
 
->[!proposition
+>[!proposizione]
 >In un campo di forze centrali il momento angolare rispetto al centro di una forza si conserva.
 
 >[!oss]

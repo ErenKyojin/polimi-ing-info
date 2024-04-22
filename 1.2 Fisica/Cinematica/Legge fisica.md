@@ -14,7 +14,7 @@ modification date: 2023-03-02 16:50
 >Le equazioni che traducono leggi fisiche quantitative devono essere scrittein modo da risultare inidpendenti dalle unità di misura scelte per le diverse grandezze fisiche in gioco.
 
 
->[!theorem]
+>[!teorema]
 >Condizione necessaria e sufficiente affinchè l'equazione che esprime una legge fisica soddisfi il principio di omogeneità è che sia dimensionalmente omogenea, ossia che tutti i suoi membri abbiano le stesse dimensioni, in termini di grandezze fondamentali
 
 >[!oss]
@@ -47,7 +47,7 @@ deck: Fisica
 ===
 Le equazioni che traducono leggi fisiche quantitative devono essere scritte in modo da essere indipendenti dalle unità di misura scelte per le disverse grandezze fisiche in gioco.
 
->[!theorem]
+>[!teorema]
 >Condizione necessaria e sufficiente affinchè l'equazione che esprime una legge fisica soddisfi il principio di omogeneità è che sia dimensionalmente omogenea, quindi tutti i suoi membri devono avere le stesse dimensioni in termini di grandezze fondamentali
 ```
 

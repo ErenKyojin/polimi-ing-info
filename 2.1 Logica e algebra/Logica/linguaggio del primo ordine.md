@@ -52,7 +52,7 @@ Data una formula $\mathcal{A}$ sarebbe interessante poterla trasformare in una f
 Una formula di questo tipo si dice in **forma normale prenessa**. La stringa iniziale di quantificatoi si dice **prefisso** della formula, mentre la f.b.f. $\mathcal{B}$ si chiama **matrice** della formula.
 Sussiste il seguente
 
->[!theorem]
+>[!teorema]
 >Una qualsiasi f.b.f. può essere sempre trasformata in modo algoritmico in una f.b.f. semanticamente quivalente in forma normale prenessa
 
 Per effettuare la trasformazione, usiamo equivalenze che permettano di invertire l'ordine di applicazione di quantificatori e connettivi:

@@ -87,7 +87,7 @@ $q(\mathbf{x})$ è indefinita
 >4. $A$ è semidefinita negativa se i minori principali di ordine $k$ sono nulli e hanno segno $(-1)^k$ ed almeno un minore di N.O. è nullo
 
 
->[!theorem]
+>[!teorema]
 >1. Due matrici simmetriche sono congruenti se e solo se hanno lo stesso numero di autovalori negativi
 >2. Una matrice simmetrica $A \in M_{\mathbb{R}(n,n)}$ che abbia $t$ autovalori negativi, $s$ autovalori negativi e dunque $n-s-t$ autovalori nulli è congruente ad una matrice diagonale di ordine $n$ con:
 >	* 1 nei primi $s$ termini della diagonale

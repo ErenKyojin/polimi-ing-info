@@ -86,7 +86,7 @@ f(1,2) &= 1   \\
 >Se $\frac{ \partial f }{ \partial x }$ e$\frac{ \partial f }{ \partial y }$ sono continue in $A$ diciamo che $f$ è di [[classe C]]$^1$ in A e scriviamo $f \in C^1(A)$
 
 
->[!theorem] Teorema del differenziale totale
+>[!teorema] Teorema del differenziale totale
 >$A \subseteq \mathbb{R}^2$ aperto e $f \in C^1(A)$ allora $f$ è differenziabile in ogni punti di $A$
 
 
@@ -111,7 +111,7 @@ Ci sono due casi in cui è necessario ricorrere alla definizione: gli stessi uti
 La definizione richiede di verificare il limite di due variabili:
 $$ \lim_{ \mathbf{h} \to \mathbf{0} } \frac{R(\mathbf{h})}{||\mathbf{h}||} = \lim_{ \mathbf{h} \to \mathbf{0} } \frac{f(\mathbf{x_{0}+h}) - f(\mathbf{x_{0}} )- \langle\nabla f(\mathbf{x_{0},\mathbf{h}})\rangle}{||\mathbf{h}||} = 0$$
 
->[!theorem] Teorema differenziabile implica continua
+>[!teorema] Teorema differenziabile implica continua
 Siano $A \subseteq \mathbb{R}^2$ aperto
  $\mathbf{x_{0}} \in A$
  $f : A \to \mathbb{R}$ differenziabile in $\mathbf{x_{0}}$

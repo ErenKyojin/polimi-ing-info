@@ -4,12 +4,12 @@ creation date: 2023-05-03 11:31
 modification date: 2023-05-03 11:31
 ---
 
->[!theorem]
+>[!teorema]
 >$\mathcal{A}$ è conseguenza semantica di $\mathcal{B}$ se e solo se $\mathcal{B \implies A}$ è una tautologia
 
 Scritto in forma piú generale:
 
->[!theorem]
+>[!teorema]
 >$\mathcal{A}$ è conseguenza semantica di $\Gamma \cup \{ \mathcal{B} \}$ se e solo se $\mathcal{B \implies A}$ è conseguenza semantica di $\Gamma$
 >
 >>[!dim]
@@ -26,7 +26,7 @@ Sia $v$ un modello per $\Gamma$. Distinguiamo due casi.
 
 È interessante il legame fra deduzione semantica ed insoddisfacibilità, dato dal seguente teorema:
 
->[!theorem]
+>[!teorema]
 >$\mathcal{A}$ è conseguenza semantica di $\Gamma$ se e solo se $\Gamma \cup \{  \sim A \}$ è insoddisfacibile
 >
 >>[!dim]

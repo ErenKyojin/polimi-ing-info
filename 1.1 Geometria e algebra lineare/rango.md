@@ -31,7 +31,7 @@ $$ \dim(\Row(A)) = \dim(\Col(A)) = r(A) $$
 >[!def]
 >Data $A \in M_{\mathbb{K}(n,n)}$ definiamo il rango per righe di $A$: $\dim(\Row(A))$ ed il rango per colonne di $A$: $\dim(\Col(A))$
 
->[!propositionproposizione 1
+>[!proposizione] proposizione 1
 >Sia $A \in M_{\mathbb{K}(m,n)}$ e sia $U$ una sua ridotta a scala. Allora $\Row(A) = \Row(U)$ inoltre le righe non nulle di $U$ formano una base di $\Row(A)$. Quindi il rango per righe di $A$ coincide con il rango per righe di $U$ che a sua volta coincide con il rango di $A$:
 > ($\dim(\Row(A)) = \dim(\Row(U)) = r(A)$)
 > 
@@ -200,7 +200,7 @@ Quindi $$ \mathbf{u}_{1} = \begin{bmatrix}
 Possiamo infine dire che $\Col(A) = \left\{ \mathbf{b} \in \mathbb{K}^n: A\mathbf{v} = \mathbf{b}\right\}$
 
 
->[!theorem]
+>[!teorema]
 >Data $A \in M_{\mathbb{K}}(m,n)$ allora $\dim(\Row(A)) = \dim(\Col(A))$
 >
 >>[!dim]
@@ -232,7 +232,7 @@ Allora:
 2. $\mathcal{L}_{A}$ è [[Funzione suriettiva|suriettiva]] se e solo se $r(A) = m$ quindi se $\Im(\mathcal{L}_{A}) = \Col(A) = \mathbb{K}^m$
 3. $\mathcal{L}_{A}$ è [[Funzione biunivoca|biettiva]] se e solo se $r(A) = m = n$ quindi se $\mathcal{L}_{A}$ è [[Applicazioni lineari#Isomorfismi|isomorfismo]]
 
->[!theorem] Teorema di Rappresentazione
+>[!teorema] Teorema di Rappresentazione
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ t.c. $\dim(V) = n$
 >e $\dim(W) = m$. Sia $\mathcal{B} = \left\{ \mathbf{b}_{1}, \dots, \mathbf{b}_{n} \right\}$ una base di $V$ e sia $\mathcal{C} = \left\{ \mathbf{c}_{1}, \dots, \mathbf{c}_{m} \right\}$ una base di $W$. Sia $\mathcal{L} : V \to W$ un'applicazione lineare. Consideriamo il seguente diagramma
 > ```tikz
@@ -289,7 +289,7 @@ c \\
 >\end{align} $$
 
 
->[!theorem] Teorema di Rappresentazione di un'applicazione ineare
+>[!teorema] Teorema di Rappresentazione di un'applicazione ineare
 >Siano $V,W$ spazi vettoriali su $\mathbb{K}$ tali che $\dim(V) = n$ e $\dim(W) = m$.
 >Siano $\mathcal{B} = \left\{ \mathbf{b_{1}},\dots,\mathbf{b}_{n} \right\}$ una base di $V$ e $\mathcal{C} = \left\{ \mathbf{c}_{1},\dots,\mathbf{c}_{m} \right\}$ una base di $W$. Siano $\mathbf{x}=[x_{1} \dots x_{n}]^T$ le coordinate di $\mathbf{v} \in V$ rispetto a $\mathcal{B}$ e $\mathbf{y} = [y_{1} \dots y_{m}]^T$ le coordinate di $\mathcal{L}(\mathbf{v}) \in W$ rispetto a $\mathcal{C}$. Allora esiste un'unica matrice $A \in M_{\mathbb{K}}(m,n)$ tale che $\mathbf{y} = A \mathbf{x}$.
 >$A$ si chiama **matrice rappresentativa** di $\mathcal{L}$ rispetto alle basi $\mathcal{B}$ e $\mathcal{C}$ e si puó indicare con: $A = M_{\mathcal{C}}^{\mathcal{B}}(\mathcal{L})$
@@ -464,7 +464,7 @@ c
 >\mathbf{b}_{1}&\dots&\mathbf{b}_{n}
 >\end{array} \right]  $$
 
->[!proposition] proposizione 1
+>[!proposizione] proposizione 1
 >Siano $\mathcal{L}_{1} : V \to W$ e $\mathcal{L}_{2} : W \to Z$ due applicazioni lineare ove $V,W$ e $Z$ spazi vettoriali su $\mathbb{K}$. Siano $\mathcal{B}_{1}, \mathcal{B}_{2}, \mathcal{B}_{3}$ rispettivamente basi finite per $V,W$ e $Z$. Allora si ha che
 > $$ M_{\mathcal{B}_{3}}^{\mathcal{B}_{1}}(\mathcal{L}_{2} \circ \mathcal{L}_{1}) = M_{\mathcal{B_{3}}}^{\mathcal{B}_{2}} (\mathcal{L}_{2}) \circ M(\mathcal{L}_{1})_{\mathcal{B}_{2}}^{\mathcal{B}_{1}}$$
 > Diagramma: 

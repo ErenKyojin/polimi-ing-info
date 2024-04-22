@@ -11,7 +11,8 @@ creation date: 2024-03-12
 
 Vale inoltre la seguente:
 
-> [!propositione variabili aleatorie $X$ e $Y$ sono indipendenti se e solo se la loro densità congiunta può essere espressa come
+> [!proposizione]
+> Due variabili aleatorie $X$ e $Y$ sono indipendenti se e solo se la loro densità congiunta può essere espressa come
 > $$ f_{X,Y}(x,y) = h(x)g(y)\qquad \forall x,y \in (-\infty, +\infty) $$
 
 È utile tenere a mente che l'indipendenza tra variabili aleatorie è simmetrica, date due variabili aleatorie $X$ ed $Y$, se $X$ è indipendente rispetto ad $Y$ anche $Y$ è indipendente rispetto ad $X$.
@@ -25,12 +26,12 @@ L'indipendenza di più variabili aleatorie si può provare ricorsivamente
 
 
 >[!proposizione]
->V!propositionrie $X_{1},\dots,X_{n}$ sono indipendenti se e solo se vale che
+>Variabili aleatorie $X_{1},\dots,X_{n}$ sono indipendenti se e solo se vale che
 >$$P(X_{1} \leq x_{1}, \dots, X_{n} \leq x_n)=P(X_{1} \leq x_{1})\dots P(X_{n} \leq x_{n})$$
 >per ogni $x_{1},\dots,x_{n} \in \mathbb{R}$
 
 >[!proposizione]
->V!propositiontorie **discrete** $X_{1},\dots,X_{n}$ sono indipendenti se e solo se vale che
+>Variabili aleatorie **discrete** $X_{1},\dots,X_{n}$ sono indipendenti se e solo se vale che
 >$$ P(X_{1} = x_{1}, \dots,X_{2}= x_{2})=P(X_{1}=x_{1})\dots P(X_{2}=x_{2}) $$
 
 ## Somma di v.a. indipendent

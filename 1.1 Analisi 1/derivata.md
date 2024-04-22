@@ -123,7 +123,7 @@ La seconda formula è analoga
 ## derivabilità e [[polimi-ing-info/1.1 Analisi 1/continuità]]
 Vale il seguente importante teorema:
 
->[!theorem] ### Relazione tra derivabilità e continuità
+>[!teorema] ### Relazione tra derivabilità e continuità
 >Se $f$ è derivabile in un punto $x_0$ allora $f$ è continua in $x_0$
 >
 >>[!dim]
@@ -167,7 +167,7 @@ Rimane da studiare la derivabilità di $f$ in $x = 1$. È facile osservare che
 >y=x\abs(\ln x)
 >```
 
->[!theorem]
+>[!teorema]
 >Sia $f : [a,b)\to\mathbb R$, continua in $a$, derivabile in $(a,b)$, ed esista finito o infinito
 >$$\lim_{x\to a^+}f'(x) = m\in\mathbb R^*$$
 >Allora esiste
@@ -183,16 +183,16 @@ Per definire la convessità possiamo considerare una funzione $f : I \to \mathbb
 $$\text{epi} f = \{(x,y)\in\mathbb R^2 : x \in I \text{ e } y \geq f(x)\}$$
 In questo modo definiamo l'area "sopra" al grafico di una funzione, a questo punto possiamo dire che $f$ è convessa in $I$ se il suo epigrafico è un insieme convesso, ossia se per ogni coppia di punti $P_1,P_2 \in \text{epi}f$ il segmento che le congiunge è contenuto totalmente nell'$\text{epi}f$. Alternativamente si dice concava se $-f$ è convessa.
 
->[!theorem]
+>[!teorema]
 >Una funzione convessa su un intervallo $I$ è continua in $I$ salvo al più negli estremi dell'intervallo. Inoltre possiede derivata destra e sinistra in ogni punto dell'intervallo.
 
 
 ### convessità e derivate
->[!theorem] sia $f : (a,b) \to\mathbb R$
+>[!teorema] sia $f : (a,b) \to\mathbb R$
 >Se $f$ è derivabile in $(a,b)$ allora $f$ è convessa (concava) in $(a,b)$ se e solo se $f'$ è crescente (decrescente) in $(a,b)$
 >Se $f$ è derivabile due volta in $(a,b)$ allora $f$ è convessa (concava) in $(a,b)$ se e solo se $f''(x)\geq 0$ ($\leq 0$) per ogni $x\in(a,b)$
 
->[!theorem]
+>[!teorema]
 >Una funzione $f : (a,b)\to\mathbb R$, derivabile in $(a,b)$ è convessa (concava) in $(a,b)$ se e solo se comunque si scelga un punto $x_0 \in (a,b)$ si ha che il grafico di $f$ si mantiene in tutto $(a,b)$ sopra (sotto) il grafico della retta tangente in $(x_0,f(x_0))$
 ### punti di [[flesso]]
 

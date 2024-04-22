@@ -98,7 +98,7 @@ $$ f(x,y) = 3x^2 + y^2 - x^3y $$
 
 # Classifficazione di punti critici
 Criterio hessiana:
->[!theorem]
+>[!teorema]
 >$A \subseteq \mathbb{R}^2$ aperto
 >$f \in C^2(A)$ [[classe C]]
 >$x_{0} = (x_{0},y_{0}) \in A$ punto critico per $f$ ($\nabla f(\mathbf{x_{0}}) = \mathbf{0}$)

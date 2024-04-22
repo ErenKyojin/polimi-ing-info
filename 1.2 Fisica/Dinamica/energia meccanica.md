@@ -22,7 +22,7 @@ avendo ricordato la definizione di energia cinetica totale del sistema, data in 
 
 Concludiamo quindi che anche per i sistemi di punti materiali vale il seguente:
 
->[!theorem] Teorema dell'energia cinetica
+>[!teorema] Teorema dell'energia cinetica
 >Se un sistema di punti passa da una configurazione $A$ ad una configurazione $B$, il lavoro compiuto da tutte le forze applicate (interne ed esterne) è pari alla variazione di energia cinetica totale del sistema tra le configurazioni $A$ e $B$
 >$$ \mathcal{L}_{A \to B,\gamma} = \Delta E_{c} (A,B) $$
 

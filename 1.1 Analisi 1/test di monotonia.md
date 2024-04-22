@@ -1,7 +1,7 @@
 # test di monotonia
 Pensando al significato geometrico di derivata, è immediato che se una funzione derivabile è crescente o decrescente in un intervallo $(a,b)$ la sua derivata è $\geq 0$ o $\leq 0$ rispettivamente. Grazie al [[Teorema del valor medio|teorema di Lagrange]] possiamo dimostrare il viceversa
 
->[!theorem] Test di monotonia
+>[!teorema] Test di monotonia
 >Sia $f : (a,b) \longrightarrow\mathbb R$ derivabile, allora
 >$$\begin{align}
 >&f \text{ crescente } &&\Longleftrightarrow\quad f'(x) \geq 0 \\

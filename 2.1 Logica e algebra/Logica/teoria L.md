@@ -64,10 +64,10 @@ La teoria formale $L$ che abbiamo così presentato ha tre importanti caratterist
 - È **decidibile**, cioè esiste un algoritmo (la tavole di verità) che con un numero finito di passi (con noto il limite superiore) permette di decidere se una data formula è o non è un teorema della teoria
 Le prime due affermazioni vengono solitamente chiamate (meta)teoremi di corretteza e completezza, il prefisso meta indica che sono teoremi sulla teoria che sono enunciati e non sono dimostrati utilizzando il linguaggio della teoria stessa.
 
->[!theorem] teorema di correttezza
+>[!teorema] teorema di correttezza
 >Se $\vdash_{L}a$ allora $\vDash a$
 
->!theorem teorema di completezza
+>[!teorema] teorema di completezza
 >Se $\vDash a$ allora $\vdash_{L} a$
 
 > [!dim]

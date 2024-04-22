@@ -32,7 +32,7 @@ Per farlo abbiamo determinare alcune cose:
 
 
 
->[!theorem]
+>[!teorema]
 >Sia $A \in M_{\mathbb{K}(n,n)}$ allora è equivalente affermare che
 >1. $Ker(A) = {\mathbf{0}}$
 >2. $r(A) = n$

@@ -6,9 +6,9 @@
 
 Attraversando un punto di flesso, la [[derivata]] seconda di $f$ se esiste cambia segno, e quindi in questo punto $f''$ si deve annullare:
 
->[!theorem]
+>[!teorema]
 >Sia $x_0$ punto di flesso per $f$, se esiste $f''(x_0)$ allora $f''(x_0) = 0$, non è detto il viceversa
 
->[!theorem]
+>[!teorema]
 >Se $f : (a,b) \to \mathbb R$ è derivabile in $(a,b)$ e $x_0\in(a,b)$ è un punto di flesso, allora il grafico di $f(x)$ attraversa la propria retta tangente in $(x_0,f(x_0))$
 

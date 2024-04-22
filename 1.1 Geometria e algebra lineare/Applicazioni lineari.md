@@ -374,7 +374,7 @@ Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 > Dunque $\left\{ \mathcal{L}(\mathbf{b}_{1}),\dots,\mathcal{L}(\mathbf{b}_{n}) \right\}$ è un insieme di generatori per $Im(\mathcal{L})$ e quindi $\dim(\Im(\mathcal{L})) \leq n$
 
 
->[!theorem] Teorema di nullità piú rango
+>[!teorema] Teorema di nullità piú rango
 >Sia $\mathcal{L}:V \to W$ un'applicazione lineare. Se $V$ ha dimensione finita, allora $\dim(V) = \dim(\ker(\mathcal{L})) + \dim(\Im(\mathcal{L}))$
 >
 >>[!dim]

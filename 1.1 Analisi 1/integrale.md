@@ -51,14 +51,14 @@ $x$ è la variabile di integrazione ed è muta (ossia $\int_{a}^b  \! \,f(x) \d 
 ## classi di funzioni integrabili
 La definizione di integrale che abbiamo dato non ci dice quali funzioni sono integrabili e come stabilirlo, valgono i seguenti teoremi:
 
->[!theorem]
+>[!teorema]
 >Se $f : [a,b] \to \mathbb{R}$ è [[polimi-ing-info/1.1 Analisi 1/continuità|continua]], allora è integrabile
 
->[!theorem]
+>[!teorema]
 >Se $f:[a,b] \to \mathbb{R}$ è [[monotonia|monotona]] e limitata, allora è integrabile
 
 Conosciamo quindi alcune funzioni che sono certamente integrabili, inoltre ne possiamo costruire altre con varie operazioni, ad esempio:
->[!theorem]
+>[!teorema]
 >Se $f_{1} : [a,b]  \to \mathbb{R}$ e $f_{2}:(b,c] \to \mathbb{R}$ sono integrabili, allora la funzione
 >$$
 >f(x) = \begin{cases}
@@ -72,7 +72,7 @@ Conosciamo quindi alcune funzioni che sono certamente integrabili, inoltre ne po
 ## Proprietà dell'integrale
 Dalla definizione stessa si possono dimostrare le seguenti proprietà dell'integrale
 
->[!theorem]
+>[!teorema]
 >siano $f,g$ integrabili in $[a,b]$ valgono le seguenti proprietà:
 >1. **linearità dell'integrale**: se $\alpha, \beta$ sono costanti, allora anche la funzione $\alpha f(x) + \beta g(x)$ è integrabile, e vale l'identità: $$
 >\int_{a}^b  \! [\alpha f(x)+\beta g(x)] \, \d x = \alpha \int_{a}^b \! f(x) \, \d x + \beta \int_{a}^b  \!g(x) \, \d x  
@@ -94,7 +94,7 @@ f \geq g \in[a,b]\Longrightarrow \int_{a}^b \!f(x) \, \d x \geq \int_{a}^b  \!g(
 >in particolare
 >$$\fbox{$\vert\int_{a}^b \!f(x) \, \d x\vert \leq \int_{a}^b  \!|f(x)| \, \d x$}$$
 
->[!theorem]
+>[!teorema]
 >![[teorema della media]]
 
 
@@ -120,7 +120,7 @@ Non tutte,se una funzione possiede punti di discontinuità a salto in un interva
 
 Questi risultati sulle primitive ci permettono di elaborare il **teorema fondamentale del calcolo integrale**
 
->[!theorem] [[polimi-ing-info/1.1 Analisi 1/teorema fondamentale del calcolo integrale]]
+>[!teorema] [[polimi-ing-info/1.1 Analisi 1/teorema fondamentale del calcolo integrale]]
 
 
 # [[calcolo degli integrali]]
@@ -150,7 +150,7 @@ s_{n}\to \int_{a}^{b} \! f(x) \, \d x \text{ per } n \to \infty
 $$
 Ci aspettiamo un valore numerico di $s_n$ per $n$ "molto grande" sia una buona approssimazione dell'integrale. $S_{n}$ può essere alcolato facilmente attraverso ad esempio un computer, noti\amo però che con questa procedura otteniamo un errore incalcolabile anche in magnitudine.
 
->[!theorem] Calcolo numerico di un integrale col metodo del punto medio
+>[!teorema] Calcolo numerico di un integrale col metodo del punto medio
 >Sia $f : [a,b]\to \mathbb{R}$ una funzione due volte derivabile con [[polimi-ing-info/1.1 Analisi 1/continuità]] e sia $K$ una costante tale che $\vert f''(x)\vert \leq K$ per ogni $x \in [a,b]$, essendo $f''$ continua in $[a,b]$, è anche limitata, quindi una costante tale esiste certamente. Consideriamo ora, per un qualsiasi intero positivo $n$ la [[somma di Cauchy-Riemann]] $s_{n}$ per $f$ costruita scegliendo come punti $\xi_{i} \in [x_{i-1},x_{i}]$ il punto medio di $[x_{i-1},x_{i}]$ per ogni $i = 1,2,3,\dots,n$
 >$$s_{n} = \sum_{i=1}^{n}f\left( \frac{x_{i-1}+x_{i}}{2} \right)\frac{(b-a)}{n}$$
 >Allora vale:
@@ -244,7 +244,7 @@ I seguenti criteri permettono di decidere se un integrale è convergente o diver
 
 ### [[criterio del confronto#criterio del confronto integrale]]
 
->[!theorem]
+>[!teorema]
 >$$
 >\int_{a}^{b} \! \left\vert f(x) \right\vert \, \d x \quad\text{convergente}\quad \Longrightarrow\qquad \int_{a}^{b} \! f(x) \, \d x\qquad \text{convergente}  
 >$$

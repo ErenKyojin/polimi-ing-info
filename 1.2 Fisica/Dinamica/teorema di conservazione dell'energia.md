@@ -4,7 +4,7 @@ creation date: 2023-03-26 18:27
 modification date: 2023-03-26 18:27
 ---
 
->[!theorem]
+>[!teorema]
 >L'energia non puó essere mai creata ne distrutta, solo trasformata da una forma ad un'altra.
 
 

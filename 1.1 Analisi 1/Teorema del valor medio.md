@@ -4,7 +4,7 @@ aliases: teorema di Lagrange
 ## Teorema del valor medio
 Pensiamo di fare un viaggio da $A$ a $B$, distanti tra loro $200 \text{km}$, ci impieghiamo esattamente due ore in un viaggio senza fermate, abbiamo viaggiato con una velocità media di $100 \text{km/h}$ e possiamo affermare con certezza che in un qualche istante la velocità sarà stata di $100 \text{km/h}$
 
->[!theorem]  #Teorema del valor medio o di lagrange
+>[!teorema]  #Teorema del valor medio o di lagrange
 >Sia $f$ derivabile in $(a,b)$ e continua in $[a,b]$. Allora
 >$$\fbox{$\text{esiste }c \in (a,b)\quad\text{tale che}\quad\frac{f(b)-f(a)}{b-a} = f'(c)$}$$
 >

@@ -1,5 +1,5 @@
 # criterio di Leibniz
->[!theorem]
+>[!teorema]
 >Sia data la serie
 $$\sum_{n = 0}^\infty(-1)^n a_n\quad\text{con } a_n \geq 0\ \forall n$$
 Se valgono i seguenti:

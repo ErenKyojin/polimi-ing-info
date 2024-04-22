@@ -44,7 +44,7 @@ evey node/.style={draw}
 Ci sono $n!$ permutazioni ma alcune possono comparire piú volte, ci sono quindi $>n!$ foglie nell'albero di decisione
 
 #todo
->[!theorem]
+>[!teorema]
 >Ogni albero di decisione di ordinamento di $n$ elementi ha altezza $\Omega(n \log(n))$
 >
 >>[!dim]

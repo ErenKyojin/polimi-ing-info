@@ -1,4 +1,4 @@
->[!theorem]
+>[!teorema]
 >Sia $(V,<,>)$ uno [[Spazi euclidei|spazio euclideo]] con $\dim(V) < +\infty$ e $\mathcal{L} : V \to V$ un endomorfismo simmetrico. Allora esiste una base ortonormale di $V$ formata da autovettori di $\mathcal{L}$. In particolare una matrice simmetrica reale è ortogonalmente diagonalizzabile
 >
 >>[!dim]

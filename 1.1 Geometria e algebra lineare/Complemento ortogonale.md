@@ -48,7 +48,7 @@
 
 ## Complemento ortogonale degli spazi associati ad una matrice
 
->[!theorem]
+>[!teorema]
 >Sia $A \in M_{\mathbb{K}}(m,n)$ allora, in $\mathbb{R}^n$ munito del [[prodotto scalare]] standard si ha che:
 > 1. $\ker(A) = (\Row(A))^\perp \implies \ker(A)^\perp = \Row(A)$
 > 

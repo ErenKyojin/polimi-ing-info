@@ -81,5 +81,5 @@ $X$ variabile aleatoria binomiale:
 	- per $k=1, E(X) = np$
 - $\delta(X) = E(X^2) - E(X)^2 = np(1-p)$
 
->[!proposition]
+>[!proposizione]
 >$X$ variabile aleatoria binomiale di parametri $(n,p)$ dove $0 < p < 1$, considerato $k$ che varia da $0$ a $n$, la densità discreta per $P(X = k)$ sarà inizialmente strettamente crescente, e poi strettamente decrescente. Il massimo sarà in corrispondenza del $k$ massimo tale che $k \leq (n + 1)p$

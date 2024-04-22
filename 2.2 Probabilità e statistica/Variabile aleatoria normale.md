@@ -50,7 +50,7 @@ Data $X$ variabile aleatoria normale con coefficienti $(\mu,\sigma^2)$, sia $Y =
 
 ### Approssimazione gaussina della [[funzione di ripartizione]] binomiale
 
->[!theorem] Teorema di DeMoivre-Laplace
+>[!teorema] Teorema di DeMoivre-Laplace
 >Sia $S_{n}$ il numero di successi in $n$ [[Prove di Bernoulli]], in ognuna delle quali il successo ha probabilità $p \in (0,1)$. Allora per ogni $a < b$, con $n \to +\infty$
 > $$
 > P \left\{ a < \frac{S_{n} - np}{\sqrt{ np(1-p) }} \leq b \right\}  \to \Phi(b) - \Phi(a)
@@ -62,7 +62,7 @@ Questo teorema afferma che, per $n$ abbastanza grande (l'approssimazione inzia a
 
 ## Somma di variabili aleatorie normali indipendenti
 
->[!proposition
+>[!proposizione]
 >Date $X_{i}, i = 1,\dots,n$ variabili aleatorie che seguono la distribuzione normale di parametri $\mu_{i}, \sigma^2_{i}$, allora $\sum_{i=1}^n X_{i}$ è una variabile aleatoria normale di parametri $\sum_{i=1}^n \mu_{i}, \sum_{i=1}^n \sigma^2_{i}$
 >
 >>[!dim]

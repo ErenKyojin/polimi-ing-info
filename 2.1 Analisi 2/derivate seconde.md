@@ -21,7 +21,7 @@ Possiamo arrangiare le derivate parziali nella [[matrice hessiana]]
 >In teoria se $f$ è definita per casi o se compare $t^\alpha$ con $\alpha \in (0,2)$ bisognerebbe verificare a mano la classe di appartenenza di $f$
 
 
->[!theorem] teorema di schwartz
+>[!teorema di schwarz]
 >$A \subseteq \mathbb{R}^2$ aperto, $f \in C^2(A)$ allora
 > $$ \frac{ \partial^2 f }{ \partial x\partial y } (x,y) = \frac{ \partial^2 f }{ \partial y\partial x }(x,y)\quad \forall (x,y) \in A   $$
 > Cioè $A\dots ?$

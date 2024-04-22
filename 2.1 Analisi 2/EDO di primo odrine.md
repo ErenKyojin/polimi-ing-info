@@ -90,7 +90,7 @@ Per la soluzione [[formula risolutiva per EDO lineari del 1° ordine]]
 
 ## Esistenza e unicità globale per EDO del primo ordine non lineari
 
->[!theorem]
+>[!teorema]
 >$y'(t) = f(t,y(t))$
 >$$ f : A \to \mathbb{R}\ con\ A = [a,b] \times \mathbb{R} $$
 >

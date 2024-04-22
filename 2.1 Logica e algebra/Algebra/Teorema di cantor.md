@@ -4,7 +4,7 @@ creation date: 2023-04-29 15:30
 modification date: 2023-04-29 15:30
 ---
 
-> [!theorem]
+> [!teorema]
 > Ogni [[insieme]] $A$ ha [[cardinalità]] strettamente inferiore al suo insieme delle parti $\mathcal{P}(A)$.
 > 
 >

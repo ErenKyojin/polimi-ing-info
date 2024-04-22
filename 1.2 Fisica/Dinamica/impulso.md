@@ -30,7 +30,7 @@ $$
 \fbox{$\Delta \vec{p}(t_{1},t_{2}) = \vec{I}_{F}(t_{1},t_{2})$}
 $$
 
->[!theorem] Teorema dell'impulso
+>[!teorema] Teorema dell'impulso
 >La variazione della quantità di moto di un [[Punto materiale]] è pari all'impulso della risultante delle [[forza|forze]] agenti su quel punto materiale
 
 >[!oss]

@@ -1,5 +1,5 @@
 # Teorema di [[monotonia]] per funzioni
->[!theorem] #teorema di monotonia per funzioni
+>[!teorema] #teorema di monotonia per funzioni
 >Sia $f : (a,b) \to\mathbb R$ una funzione monotona. Allora per ogni $c \in (a,b)$ esistono finiti i limiti destro e sinistro, per $x \to c$; ai due estremi $a ,b$ esistono i limiti destro (in $a$) e sinistro (in $b$) eventualmente infiniti
 >
 >>[!dim]

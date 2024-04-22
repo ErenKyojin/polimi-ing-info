@@ -19,7 +19,7 @@ Le forze interne sono quelle dovute alle interazioni con gli altri $n-1$ punti d
 $$ \vec{F}_{i}^{(I)} = \underset{ j \neq i }{ \sum_{j=1}^n } \vec{F}_{ij} $$
 Dove con $\vec{F}_{i,j}$ abbiamo indicato la forza (interna) esercitata sull'$i$-esimo punto dal $j$-esimo punto.
 
->[!proposition
+>[!proposizione]
 >Per la terza legge della [[Dinamica]] di Newton avremo che $\vec{F}_{ji} = -\vec{F}_{ij}$ e quindi la risultante di tutte le [[forza|forze]] interne è nulla:
 > $$ \vec{F}^{(I)} \equiv \sum_{i = 1}^n \vec{F}_{i}^{(I)} = \sum_{i = 1}^n \underset{ j \neq i }{ \sum_{j = 1}^n } \vec{F}_{ij} = \underset{ j \neq i }{ \sum_{\text{coppie }ij} } (\vec{F}_{ij} + \vec{F}_{ji} = 0)$$
 
@@ -37,7 +37,7 @@ Sommando sull'indice $i$ tutte queste equazioni si ottiene:
 $$ \vec{F}^{(E)} = \sum_{i = 1}^n \vec{F}_i = \sum_{i = 1}^n \frac{d\vec{p}_{i}}{dt} = \frac{d\vec{p}}{dt}  $$
 Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei sistemi**
 
->[!theorem]
+>[!teorema]
 >In un sistema di riferimento inerziale, la risultante delle forze esterne applicate ad un sistema di punti materiali è pari alla derivata temporale della quantità di moto totale del sistema
 > $$ \fbox{$\vec{F}^{(E)} = \frac{d\vec{p}}{dt}$} $$
 
@@ -45,7 +45,7 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 ![[teorema dell'impulso]]
 
 ### Principio di conservazione della quantità di moto
->[!theorem]
+>[!teorema]
 >In un sistema di riferimento inerziale, un sistema di punti materiali isolato oppure soggetto ad un sistema di forze esterne con risultante nulla conserva la quantità di moto totale.
 > $$ \fbox{$\vec{F}^{(E)} = 0 \implies \vec{p} = \cost$} $$
 >

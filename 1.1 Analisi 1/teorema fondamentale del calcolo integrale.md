@@ -1,5 +1,5 @@
 # teorema fondamentale del calcolo integrale
->[!theorem]
+>[!teorema]
 >Se $f : [a,b] \in \mathbb{R}$ è continua e $G$ è una sua primitiva su $\left[ a,b \right]$ allora:
 >$$
 >\int_{a}^b \!f(x) \, \d x  = G(b) - G(a)
@@ -41,7 +41,7 @@ Applichiamo adesso il [[Teorema del valor medio|teorema di Lagrange]] alla funzi
 
 
 # teorema fondamentale del calcolo integrale 2
->[!theorem]
+>[!teorema]
 >Sia $f:[a,b]\to \mathbb{R}$ una funzione integrabile, sia $x_{0} \in [a,b]$ e sia
 >$$
 >F(x) = \int_{x_{0}}^{x} \! f(t) \, \d t

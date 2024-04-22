@@ -18,7 +18,7 @@ Nel calcolo differenziale il simbolo di $o$ è utile per comparare due funzioni 
 >>		$\Rightarrow f(x) = o(g(x))$ per $x \to 0$
 
 ### Relazione tra o piccolo e [[asintotico]]
->[!theorem]
+>[!teorema]
 >$$\text{Per } x\to x_0, f(x)\sim g(x) \text{ se e solo se } f(x) = g(x) + o(g(x))$$
 
 Questo teorema ci permette di rivedere tutti i [[limiti notevoli]].

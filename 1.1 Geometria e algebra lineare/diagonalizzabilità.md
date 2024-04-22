@@ -86,7 +86,7 @@ alias: diagonalizzabile
 > 	 4. **Teorema fondamentale dell'algebra**: un polinomio a coefficienti complessi di grado $n$ ammette $n$ radicicomplesse contate con la loro molteplicità
 
 
->[!theorem] Condizione necessaria e sufficiente per la diagonalizzabilità
+>[!teorema] Condizione necessaria e sufficiente per la diagonalizzabilità
 >Sia $A \in M_{\mathbb{K}(n,n)}$ allora $A$ è diagonalizzabile su $\mathbb{K}$ se e solo se
 >1. Il polinomio caratteristico di $A$ ha $n$ radici su $\mathbb{K}$ (contate con le loro [[molteplicità]] algebriche)
 >2. Ogni autovalore di $A$ è regolare
@@ -101,7 +101,7 @@ alias: diagonalizzabile
 >>\end{cases}
 >>\end{align}$$
 >>Viceversa se $m_{a}(\lambda_{1}) + \dots + m_{a}(\lambda_{r}) = n$ e $m_{a}(\lambda_{i})=m_{g}(\lambda_{i}) \forall i = 1,\dots,r$ allota $N=m_{g}(\lambda_{1}) + \dots + m_{g}(\lambda_{r}) = n$
->>$\CVD$>[!theorem] Condizione necessaria e sufficiente per la diagonalizzabilità
+>>$\CVD$>[!teorema] Condizione necessaria e sufficiente per la diagonalizzabilità
 >Sia $A \in M_{\mathbb{K}(n,n)}$ allora $A$ è diagonalizzabile su $\mathbb{K}$ se e solo se
 >1. Il polinomio caratteristico di $A$ ha $n$ radici su $\mathbb{K}$ (contate con le loro [[molteplicità]] algebriche)
 >2. Ogni autovalore di $A$ è regolare
@@ -179,7 +179,7 @@ $\Rightarrow$ è diagonalizzabile
 E la matrice diagonale di $A$ è la matrice diagonale con gli autovalori presi con la propria molteplicità algebrica
 
 
->[!theorem]
+>[!teorema]
 >$A \in M_{n,n}\mathbb{R}$ diagonalizzabile reale con autovalori $\lambda_{1},\dots,\lambda_{n} \in \mathbb{R}$ e relativi autovettori linearmente indipendenti $\mathbf{v}_{1},\dots,\mathbf{v}_{n} \in \mathbb{R}^n$
 >
 >Un sistema fondamentale di soluzioni del sistema omogeneo $\mathbf{y}'(t) = A\mathbf{y}(t)$ è:

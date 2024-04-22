@@ -69,7 +69,7 @@ La stessa tecnica puó essere applicata per dimostrare l'indecidiblità di molte
 - Tipici errori a run-time
 
 
->[!theorem]
+>[!teorema]
 >Il problema di stabilire se $\exists z | f_{x}(z) \neq \perp$ è [[Ricorsivamente enumerabile|semidecidibile]] $M_{x}$
 >
 >*Schema di dimostrazione:*

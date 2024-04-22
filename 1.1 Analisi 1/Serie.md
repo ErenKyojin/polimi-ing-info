@@ -28,12 +28,12 @@ L'ultima formula scritta spiega in che modo il concetto di serie traduce l'idea 
 Esempi di serie in [[serie notevoli]]
 
 
->[!theorem]
+>[!teorema]
 >Condizione necessaria affinchè una serie $\sum_{n = 0}^\infty a_n$ sia convergente è che il termine generale $a_n$ tenda a $0$
 
 Notiamo che la condizione non è sufficiente, basta pensare alla [[serie notevoli|serie armonica]], tuttavia se il termine generale non tende a zero sicuramente la serie non converge
 
->[!theorem]
+>[!teorema]
 >Supponiamo che
 >$$\sum_{k=0}^\infty a_k$$ sia convergente, allora per ogni $n$ risulta convergente anche la serie per ogni $n$ (Che si dice resto della serie di partenza)
 >$$R_n = \sum_{k=n}^\infty a_k; \text{inoltre }R_n\to0\text{ per } n \to\infty$$

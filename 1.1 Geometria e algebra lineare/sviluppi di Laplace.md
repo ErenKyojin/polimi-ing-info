@@ -4,7 +4,7 @@ $$ C_{ij}  = (-1)^{i+j} \det(A_{ij})$$
 >Il segno da anteporre a $\det(A_{ij})$ è + se $i+j$ è pari e - se $i + j$ è dispari
 
 
->[!theorem]
+>[!teorema]
 >Sia $A \in M_{\mathbb{K}(n,n)}$
 >Si ha che fissato un indice $i$ compreso tra $1$ e $n$ allora
 > $$ \det(A) = \sum_{j=1}^n a_{ij}C_{ij}$$

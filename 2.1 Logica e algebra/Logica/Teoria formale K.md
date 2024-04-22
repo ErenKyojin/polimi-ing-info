@@ -41,7 +41,7 @@ $(,)$
 >[!def]
 >Una teoria formale è detta **consistente** se non esiste una fbf $\mathcal{A}$ tale che $\vdash \mathcal{A}$ e $\vdash \sim \mathcal{A}$
 
->[!theorem]
+>[!teorema]
 >ogni calcolo predicativo K del primo ordine è **consistente**
 >>[!dim]
 >>operiamo per assurdo, abbiamo essenzialmente affermato che possiamo arrivare alle seguenti:
@@ -60,10 +60,10 @@ $(,)$
 >>Si utilizza un operatore H che elimina i termini, i quantificatori e le parentesi non strutturali
 
 
->[!theorem]
+>[!teorema]
 >In ogni teoria del primo ordine non consistente ogni fbf è un teorema della teoria
 
->[!theorem] teorema di correttezza e completezza per un calcolo predicativo K del primo ordine
+>[!teorema] teorema di correttezza e completezza per un calcolo predicativo K del primo ordine
 >I teoremi di K sono tutte e sole le fbf logicamente valide
 
 
@@ -71,7 +71,7 @@ Hp: $\vdash_{K}\mathcal{A}$
 Th: $\mathcal{A}$ logicamente valida
 
 
->[!theorem] Teorema di correttezza e completezza per un teoria del primo ordine K
+>[!teorema] Teorema di correttezza e completezza per un teoria del primo ordine K
 >I teoremi di K sono tutte e sole le fbf vere in ogni modello di K.
 
 >[!def] Modello di K
@@ -86,7 +86,7 @@ stiamo essenzialmente non considerando le interpretazioni scomode o comunque for
 >[!Lemma] Lemma 2
 >Sia K una teoria del primo ordine consistente, ed $\mathcal{A}$ una fbf chiusa di K che non sia un teorema di K ottenuta aggiungendo agli assiomi propri di K la fbf $\sim \mathcal{A}$ è ancora consistente
 
->[!theorem] Teorema di completezza
+>[!teorema] Teorema di completezza
 >IP: $\mathcal{A}$ fbff vera in ogni modello di K
 >TH: $\vdash_{K} \mathcal{A}$
 >
@@ -102,6 +102,6 @@ stiamo essenzialmente non considerando le interpretazioni scomode o comunque for
 >>Posos applicare il teorema di deduzione sintattica perchè $\mathcal{A}$ è chiusa
 
 
-> [!theorem] Teorema di deduzione sintattica
+> [!teorema] Teorema di deduzione sintattica
 > $\Gamma \mathcal{A \vdash B}$ se e solo se $\Gamma \vdash \mathcal{A}\implies \mathcal{B}$
 > Se nessuna applicazione di GEN è fatta su fbf che dipendono da $\mathcal{A}$ quantificando variabili libere in $\mathcal{A}$
