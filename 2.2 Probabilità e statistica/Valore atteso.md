@@ -132,3 +132,6 @@ $$ E(X_{1} + \dots + X_{n}) = E(X_{1}) + \dots + E(X_{n}) $$
 
 La media del prodotto di $n$ variabili aleatorie vale
 $$ E\left(\prod_{i=1}^n X_{i} \right)= \prod_{i=1}^n E(X_{i}) $$
+
+>[!cor]
+>Se $X_{1}$ e $X_{2}$ hanno varianza finita $\text{var}(X),\text{var}(X_{2})$
