@@ -119,5 +119,8 @@ Siamo interessati a calcolare il valore atteso di una variabile $Y$ tale che $Y 
 >$$ E(Y) =\int _{\mathbb{R}^n} \! g(x_{1},\dots,x_{n})f_{\mathbf{X}}(x_{1},\dots,x_{n})\, \mathrm{d}x_{1}\dots x_{n}  $$
 
 
->[!teorema]
->dimostrazione
+>[!cor]
+
+
+>[!t] 
+>

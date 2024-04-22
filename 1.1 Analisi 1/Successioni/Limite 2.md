@@ -16,7 +16,7 @@
 
 
 ## Teoremi
->[!Teorema] #Teorema di unicità del limite
+>[!theorem] #Teorema di unicità del limite
  >{$a_n$} successione convergente $\Rightarrow$ il limite è unico
 >
 >>[!dim] Dimostrazione
@@ -31,7 +31,7 @@
 > $\Rightarrow L_1 = L_2$
 
 
->[!teorema] #Teorema di algebra dei limiti
+>[!theorem] #Teorema di algebra dei limiti
 >$a_n\rightarrow A, b_n\rightarrow B \qquad (A \land B \in \mathbb R)$
 >- $(a_n+b_n) \rightarrow A + B \longrightarrow$ Il limite della somma (differenza) è la somma (differenza) dei limiti
 >- $(a_n\cdot b_n) \longrightarrow A\cdot B$
@@ -48,7 +48,7 @@
 >$\Rightarrow |a_n - A| < \varepsilon\qquad A-\varepsilon < a_n < A < A\varepsilon$
 >$|a_n|<|A|$ 
 
->[!Teorema] Teorema dell'aritmetizzazione parziali di [[infinito]]
+>[!theorem] Teorema dell'aritmetizzazione parziali di [[infinito]]
 >$$\begin{flalign} a_n \to A\qquad b_n\to\infty\qquad&\Rightarrow (a_n \pm b_n)\to\pm\infty \\
 >a_n,b_n\to +\infty \qquad&\Rightarrow(a_n+b_n)\to+\infty \\
 >a_n,b_n\to -\infty \qquad&\Rightarrow(a_n+b_n)\to-\infty \\
