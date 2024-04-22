@@ -134,4 +134,7 @@ La media del prodotto di $n$ variabili aleatorie vale
 $$ E\left(\prod_{i=1}^n X_{i} \right)= \prod_{i=1}^n E(X_{i}) $$
 
 >[!cor]
->Se $X_{1}$ e $X_{2}$ hanno varianza finita $\text{var}(X),\text{var}(X_{2})$
+>Se $X_{1}$ e $X_{2}$ hanno varianza finita $\text{var}(X_{1}),\text{var}(X_{2})$, allora la loro somma ha varianza finita pari a
+>$$ \text{var}(X_{1} + X_{2}) = \text{var}(X_{1}) + \text{var}(X_{2}) + 2E[(X_{1} - E(X_{1}))(X_{2} - E(X_{2}))] $$
+>in particolare se $X_{1}$ ed $X_{2}$ sono indipendenti allora
+>$$ \text{var}(X_{1} + X_{2}) = \text{var}(X_{1}) + \text{var}(X_{2}) $$
