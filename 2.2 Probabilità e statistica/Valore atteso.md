@@ -104,3 +104,11 @@ $$ E[Y]= \int   \! P\{ Y > y \}\, \mathrm{d}y  $$
 Se $a,b$ costanti
 $$ E[aX + b] = aE[X] + b $$
 analogamente a quanto visto per le variabili aleatoriee discrete.
+
+
+# Valore atteso di funzioni di vettori aleatori
+Siamo interessati a calcolare il valore atteso di una variabile $Y$ tale che $Y := g(\mathbf{X})$, dove $\mathbf{X}$ è un vettore aleatorio e $Y$ è una variabile aleatoria.
+
+>[!proposizione]
+>Sia $\mathbf{X}$ un vettore aleatorio **discreto**, sia $g : \mathbb{R}^n \to \mathbb{R}$ e sia $Y := g(\mathbf{X})$, se abbiamo che $\sum_{\mathbf{x} \in S} |g(\mathbf{x})|p_{\mathbf{X}}(\mathbf{x}) < \infty$, allora:
+>$$ \sum $$
