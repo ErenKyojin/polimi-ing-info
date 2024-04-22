@@ -117,3 +117,7 @@ Siamo interessati a calcolare il valore atteso di una variabile $Y$ tale che $Y 
 >[!proposizione]
 >Sia $\mathbf{X}$ vettore aleatorio **assolutamente continuo** con densità $f_{\mathbf{X}}$, considerati $g : \mathbb{R}^n \to \mathbb{R}$ e $Y = g(\mathbf{X})$ variabile aleatoria. Se abbiamo che $\int _{\mathbb{R}^n} \!|g(x_{1},\dots,x_{n})|f_{\mathbf{X}}(x_{1},\dots,x_{n}) \, \mathrm{d}x_{1}\dots x_{n} < \infty$ allora
 >$$ E(Y) =\int _{\mathbb{R}^n} \! g(x_{1},\dots,x_{n})f_{\mathbf{X}}(x_{1},\dots,x_{n})\, \mathrm{d}x_{1}\dots x_{n}  $$
+
+
+>[!teorema]
+>dimostrazione
