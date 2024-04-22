@@ -104,8 +104,7 @@ $$
 
  Se so che la coppia $(E,F)$ è una coppia di eventi indipendenti sono indipendenti anche le coppie $(E, F^C)$ o $(E^C, F)$ o $(E^C,F^C)$? Sì
  
-> [!proposizione]
-> $(E,F)$ indipendenti $\iff$ $(E^C,F)$ sono indipendenti
+> [!proposition> $(E,F)$ indipendenti $\iff$ $(E^C,F)$ sono indipendenti
 > 
 >>[!dim]
 >> $P(E \cap F) = P(E)P(F)$ ipotesi

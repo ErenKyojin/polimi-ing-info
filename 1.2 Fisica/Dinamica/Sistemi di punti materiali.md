@@ -19,7 +19,7 @@ Le forze interne sono quelle dovute alle interazioni con gli altri $n-1$ punti d
 $$ \vec{F}_{i}^{(I)} = \underset{ j \neq i }{ \sum_{j=1}^n } \vec{F}_{ij} $$
 Dove con $\vec{F}_{i,j}$ abbiamo indicato la forza (interna) esercitata sull'$i$-esimo punto dal $j$-esimo punto.
 
->[!proposizione]
+>[!proposition
 >Per la terza legge della [[Dinamica]] di Newton avremo che $\vec{F}_{ji} = -\vec{F}_{ij}$ e quindi la risultante di tutte le [[forza|forze]] interne è nulla:
 > $$ \vec{F}^{(I)} \equiv \sum_{i = 1}^n \vec{F}_{i}^{(I)} = \sum_{i = 1}^n \underset{ j \neq i }{ \sum_{j = 1}^n } \vec{F}_{ij} = \underset{ j \neq i }{ \sum_{\text{coppie }ij} } (\vec{F}_{ij} + \vec{F}_{ji} = 0)$$
 

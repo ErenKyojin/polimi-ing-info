@@ -38,7 +38,7 @@ $$\begin{rcases}
 >Funzione <u>non</u> crescente ma <u>definitivamente</u> crescente (inizia a crescere all'infinito dopo un certo punto)
 
 ### #Teorema di monotonia
->[!teorema]
+>[!theorem]
 >Ogni serie $\{a_n\}$ monotonia e limitata ammette limite $L$.
 >	$\{a_n\}$ crescente $\Rightarrow L = \sup\{a_n\}$
 >	$\{a_n\}$ decrescente $\Rightarrow L = \inf\{a_n\}$ 
@@ -53,7 +53,7 @@ $$\begin{rcases}
 >$$|a_n-S| < \varepsilon \Rightarrow a_n \rightarrow S
 >$$
 
->[!Teorema] Corollario - Teorema di monotonia
+>[!theorem] Corollario - Teorema di monotonia
 >Se $\{a_n\}$ monotono
 >$\rightarrow$ se crescente $\Rightarrow \lim a_n = \sup\{a_n\}$
 >$\rightarrow$ se decrescente $\Rightarrow \lim a_n = \inf\{a_n\}$

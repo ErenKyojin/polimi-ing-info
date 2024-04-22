@@ -27,8 +27,7 @@
 
 Come trasformiamo un polinomio di secondo grado componendolo con una rototraslazione?
 
->[!proposizione]
->Dato un polinomio di secondo grado in $n$-variabili $x_{1},\dots,x_{n}: q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} + 2\mathbf{b}^T\mathbf{x} + c$
+>[!proposition>Dato un polinomio di secondo grado in $n$-variabili $x_{1},\dots,x_{n}: q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} + 2\mathbf{b}^T\mathbf{x} + c$
 >ed una rototraslazione : $F(\mathbf{y})=Q\mathbf{y} + \mathbf{v}$ allora
 > $$ \hat{q}(\mathbf{y}) = q(Q\mathbf{y} + \mathbf{v}) = \mathbf{y}^T\hat{A}\mathbf{y} + 2\hat{b}^T\mathbf{y} + \hat{c} $$
 > Dove $\hat{A}=Q^TAQ, \hat{b} = Q^TA\mathbf{v} +Q^T\mathbf{b}$ e $\hat{c} = \mathbf{v}^T A \mathbf{v} + 2\mathbf{b}^T\mathbf{v} + c$

@@ -31,7 +31,7 @@ $$ \dim(\Row(A)) = \dim(\Col(A)) = r(A) $$
 >[!def]
 >Data $A \in M_{\mathbb{K}(n,n)}$ definiamo il rango per righe di $A$: $\dim(\Row(A))$ ed il rango per colonne di $A$: $\dim(\Col(A))$
 
->[!proposizione] proposizione 1
+>[!propositionproposizione 1
 >Sia $A \in M_{\mathbb{K}(m,n)}$ e sia $U$ una sua ridotta a scala. Allora $\Row(A) = \Row(U)$ inoltre le righe non nulle di $U$ formano una base di $\Row(A)$. Quindi il rango per righe di $A$ coincide con il rango per righe di $U$ che a sua volta coincide con il rango di $A$:
 > ($\dim(\Row(A)) = \dim(\Row(U)) = r(A)$)
 > 
@@ -464,7 +464,7 @@ c
 >\mathbf{b}_{1}&\dots&\mathbf{b}_{n}
 >\end{array} \right]  $$
 
->[!proposizione] proposizione 1
+>[!proposition] proposizione 1
 >Siano $\mathcal{L}_{1} : V \to W$ e $\mathcal{L}_{2} : W \to Z$ due applicazioni lineare ove $V,W$ e $Z$ spazi vettoriali su $\mathbb{K}$. Siano $\mathcal{B}_{1}, \mathcal{B}_{2}, \mathcal{B}_{3}$ rispettivamente basi finite per $V,W$ e $Z$. Allora si ha che
 > $$ M_{\mathcal{B}_{3}}^{\mathcal{B}_{1}}(\mathcal{L}_{2} \circ \mathcal{L}_{1}) = M_{\mathcal{B_{3}}}^{\mathcal{B}_{2}} (\mathcal{L}_{2}) \circ M(\mathcal{L}_{1})_{\mathcal{B}_{2}}^{\mathcal{B}_{1}}$$
 > Diagramma: 

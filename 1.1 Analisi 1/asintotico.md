@@ -35,7 +35,7 @@ $$
 $$
 
 ### Gerarchia degli [[infinito|infiniti]]
->[!teorema]
+>[!theorem]
 >Consideriamo le tre famiglie di funzioni
 >$$(\log_a x)^\alpha\qquad x^b\qquad b^x\quad\text{con } \alpha,\beta > 0, a,b>1  $$
 >Allora, per $x \to +\infty$, ognuna è un infinito di ordine maggiore della precedente (sx $\to$ dx). Esplicitamente:

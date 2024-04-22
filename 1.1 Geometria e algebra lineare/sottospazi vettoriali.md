@@ -70,7 +70,7 @@ $$ \begin{align}
 &H_{1} \cup H_{2} = \left\{ \mathbf{u} \in V : \mathbf{u} \in H_{1} \text{ e } \mathbf{u} \in H_{2} \right\} \\
 &H_{1} + H_{2} = \left\{ \mathbf{h_{1}} + \mathbf{h_{2}} \in V : \mathbf{h_{1}} \in H_{1} \text{ e } \mathbf{h}_{2} \in H_{2}\right\}  
 \end{align} $$
->[!proposizione]
+>[!proposition]
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e siano $H_{1}$ e $H_{2}$ sottospazi di $V$. Allora $H_{1} \cap H_{2}$ e $H_{1} + H_{2}$ sono sottospazi vettoriali di $V$. Inoltre se $H_{1}  = \Span(\mathbf{u}_{1},\dots,\mathbf{u}_{d})$ e $H_{2} = \Span(\mathbf{v}_{1},\dots,\mathbf{v}_{m})$ si ha:
 > $$ H_{1} + H_{2} = \Span(\mathbf{u}_{1},\dots,\mathbf{u}_{d},\mathbf{v}_{1},\dots,\mathbf{v}_{m}) $$
 > 
@@ -131,7 +131,7 @@ $$ \begin{align}
 > E si scrive $V = H \oplus K$ 
 
 
->[!proposizione]
+>[!proposition
 >Sia $V$ spazio vettoriale di dimensione finita su $\mathbb{K}$ e siano $H$ e $K$ due sottospazio vettoriali di $V$ tali che $V$ è somma diretta di $H$ e $K$. L'unione delle basi di $H$ e $K$ è una base di $V$. Inoltre per ogni elemento $\mathbf{v} \in V$ esistono unici $\mathbf{h} \in H$ e $\mathbf{k} \in K$ tali che $\mathbf{v} = \mathbf{h} + \mathbf{k}$
 >
 >>[!dim]

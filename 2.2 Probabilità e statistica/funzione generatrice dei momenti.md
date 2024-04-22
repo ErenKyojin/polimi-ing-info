@@ -11,6 +11,6 @@ creation date: 2024-04-17
 La funzione generatrice di $X$ coinide con la [[trasformata di Laplace]] della densità di probabilità di $X$
 
 
->[!proposizione]
+>[!proposition
 >Se $X$ ammette funzione generatrice dei momenti, allora esistono tutti i momenti di $X$ e vale che
 >$$ E(X) = m'_{X}(0), E(X^2) = m''_{X}(0),\dots $$

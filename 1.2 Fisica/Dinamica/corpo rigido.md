@@ -73,8 +73,7 @@ Considerando invece il secondo termine:
 $$ -(\vec{r}_{CM} \times \vec{v}_{CM}) \iiint \d m = - (\vec{r}_{CM} \times \vec{v}_{CM})M $$
 quindi $$\vec{L}_{CM} = M \vec{r}_{CM} \times \vec{v}_{CM} - (\vec{r}_{CM} \times \vec{v}_{CM} M) = 0$$.
 Possiamo quindi affermare che:
-> [!proposizione]
-> In un moto puramente traslatorio di un corpo rigido, il momento angolare rispetto al centro di massa è nullo
+> [!proposition In un moto puramente traslatorio di un corpo rigido, il momento angolare rispetto al centro di massa è nullo
 
 ### Moto unicamente rotatorio rispetto ad un asse fisso di un corpo rigido
 S' ed S sono arbitrari, possiamo quindi:

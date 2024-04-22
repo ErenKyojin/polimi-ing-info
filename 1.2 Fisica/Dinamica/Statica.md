@@ -6,8 +6,7 @@ modification date: 2023-03-23 16:43
 ## Statica del punto materiale
 Consideriamo un [[Punto materiale]] con velocità iniziale nulla in un riferimento inerziale, se allora la risultante delle [[forza|forze]] applicate è nulla il punto materiale resta fermo. Ovvero vale la seguente
 
->[!proposizione]
->Condizione necessaria e sufficiente affinchè un punto materiale resti in quiete in una certa posizione è che
+>[!proposition>Condizione necessaria e sufficiente affinchè un punto materiale resti in quiete in una certa posizione è che
 >- Sia nulla la velocità all'istante considerato e
 >- Sia nulla la risultante delle forze applicate
 

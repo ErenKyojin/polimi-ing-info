@@ -62,7 +62,7 @@ Questo teorema afferma che, per $n$ abbastanza grande (l'approssimazione inzia a
 
 ## Somma di variabili aleatorie normali indipendenti
 
->[!proposizione]
+>[!proposition
 >Date $X_{i}, i = 1,\dots,n$ variabili aleatorie che seguono la distribuzione normale di parametri $\mu_{i}, \sigma^2_{i}$, allora $\sum_{i=1}^n X_{i}$ è una variabile aleatoria normale di parametri $\sum_{i=1}^n \mu_{i}, \sum_{i=1}^n \sigma^2_{i}$
 >
 >>[!dim]

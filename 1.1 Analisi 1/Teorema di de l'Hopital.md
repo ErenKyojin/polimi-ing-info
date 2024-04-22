@@ -1,7 +1,7 @@
 # Teorema di de l'Hopital 
 Una notevole applicazione del [[polimi-ing-info/1.1 Analisi 1/Calcolo differenziale]] si ha nel calcolo dei [[Limite|limiti]] con forme di indecisione $\frac{0}{0}$ e $\frac\infty\infty$
 
->[!teorema]
+>[!theorem]
 Siano $f,g$ due funzioni derivabili in un intervallo $(a,b)$ con $g, g'\neq0$ in $(a,b)$. Se
 $i)\underset{x\to a^+}{\lim}f(x) = \underset{x\to a^-}{\lim} g(x) = 0$ oppure $\pm\infty$
 $ii)\underset{x\to a^+}{\lim}f'(x)/g'(x) = L \in\mathbb R^*$
