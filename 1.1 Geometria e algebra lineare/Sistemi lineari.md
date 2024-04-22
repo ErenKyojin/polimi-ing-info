@@ -33,7 +33,7 @@ Dato un sistema lineare $A \cdot \mathbf{x} = \mathbf{b}$ si hanno i seguenti tr
 - Infinite soluzioni dipendenti da un certo numero di parametri -> sistema sottodeterminato
 - Nessuna soluzione -> impossibile
 
->[!teorema] Teorema di Cramer
+>[!theorem] Teorema di Cramer
 >Se $A \in M_{(n,n)}(\mathbb{K})$ e $r(A) = n$, allora $\forall \mathbf{b} \in \mathbb{K}^n$ il sistema lineare $A \mathbf{x} = \mathbf{b}$ ammette una e una sola soluzione
 >
 >>[!dim] 

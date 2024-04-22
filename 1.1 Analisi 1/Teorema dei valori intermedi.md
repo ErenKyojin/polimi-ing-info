@@ -1,5 +1,5 @@
 # Teorema dei valori intermedi
->[!Teorema]
+>[!theorem]
 >Se $f$ è continua su $[a,b]$, allora per ogni valore $\lambda$ compreso tra $m$ e $M$ (minimo e massimo di $f$ in $[a,b]$ rispettivamente), esiste un ingresso $x$ in $[a,b]$, che ha il valore di $\lambda$ come uscita
 >
 >>[!dim]
@@ -12,6 +12,6 @@
 
 Il teorema dei valori intermedi ed il teorema di weierstrass si possono riassumere nel seguente teorema
 
->[!teorema]
+>[!theorem]
 >Se $f:[a,b]\to\mathbb R$ è continua, allora $f([a,b]) = [m,M]$; cioè l'immagine di un intervallo $[a,b]$ è l'intervallo di estremi $m = \underset{[a,b]}{\min}f$ e $M = \underset{[a,b]}\max f$
 

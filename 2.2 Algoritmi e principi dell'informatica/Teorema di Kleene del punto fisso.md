@@ -4,7 +4,7 @@ creation date: 2023-04-11 12:36
 modification date: 2023-04-11 12:36
 ---
 
->[!teorema]
+>[!theorem]
 >Sia $t$ una funzione totale e calcolabile, è sempre possibile trovare un numero naturale $p$ tale che
 >$$f_{p} = f_{t(p)}$$
 >La funzione $f_{p}$ è detta punto fisso di $t$

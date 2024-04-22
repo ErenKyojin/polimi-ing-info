@@ -8,7 +8,7 @@ Cioè se $\nabla f(\mathbf{x_{0}}) \neq 0$ allora la derivata direzionale di $f$
 
 %%#TODO tikzjax issue pgfplots%%
 
->[!teorema] Teorema ortogonalità del gradiente alle curve di livello. Ossia direzione di crescita nulla.
+>[!theorem] Teorema ortogonalità del gradiente alle curve di livello. Ossia direzione di crescita nulla.
 >Sia $A \subseteq \mathbb{R}^2$ aperto, $f : A \to \mathbb{R}$ differenziabile in $A$ 
 >l'[[insieme]] di livello $I_{k}$ è il sostegno di una curva regolare $\mathbf{r}$ allora:
 > $$ \langle \nabla f(\mathbf{r}(t)), \mathbf{r}'(t)\rangle = 0\quad \forall t$$
@@ -33,7 +33,7 @@ Questo teorema dice che:
 >  $$\implies\langle \nabla f(\mathbf{r}(t)), \mathbf{r}'(t)\rangle =0$$
 
 
->[!teorema] Teorema di direzioni di massima e minima crescita
+>[!theorem] Teorema di direzioni di massima e minima crescita
 >$A \subseteq \mathbb{R}^2$ aperto, $\mathbf{x_{0}} \in A$
 >$f : A \to \mathbb{R}$ differenziabile in $\mathbf{x_{0}}$
 >$\nabla f(\mathbf{x_{0}}) \neq 0$

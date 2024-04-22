@@ -8,7 +8,7 @@ Due rette si dicono:
 
 
 Più genericamente
->[!teorema] Assioma delle parallele - generale
+>[!theorem] Assioma delle parallele - generale
 >Dati una retta $\mathbf{r}$ ed un punto $P$, esiste un'unica retta passante per $P$ che sia parallela a $\mathbf{r}$. Si dice che tale retta è ottenuta traslando $\mathbf{r}$ in $P$
 
 Il parallelismo è una [[relazione di equivalenza]], infatti gode delle proprietà:

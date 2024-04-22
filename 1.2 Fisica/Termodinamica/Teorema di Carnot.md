@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-01-24
 ---
 
->[!teorema]
+>[!theorem]
 >Tutte le macchine che operano tra due sorgenti hanno efficienza minore o uguale ad una macchina reversibile che opera tra le medesime sorgenti, inoltre tutte le macchine reversibili hanno la stessa efficienza per le medesime sorgenti.
 >
 >>[!dim]

@@ -1,5 +1,5 @@
 # Convergenza assoluta
->[!teorema]
+>[!theorem]
 >La convergenza assoluta implica la convergenza semplice in $\overline{x}$
 
 

@@ -650,7 +650,7 @@ $$ \begin{align}
 \end{align} $$
 
 
->[!teorema]
+>[!theorem]
 >Data $T(n) = aT\left( \frac{n}{b} \right) + \Theta(n^k \log^h(n))$ si ha
 >1. Se $\log_{b}(a) > k : T(n) = \Theta(n^{\log_{b}(a)})$
 >2. Se $\log_{b}(a) = k : T(n) = \Theta(n^k\log^{h+1}(n))$

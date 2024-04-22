@@ -2,7 +2,7 @@
 Approfondiamo proprietà fondamentali dei limiti e della continuità, verrà spesso utilizzata la nozione di [[definitivamente]], mentre verrà dato per scontato che $x_0$ ed $l$ siano punti appartenenti ad $\mathbb R^*$:
 
 
->[!teorema] Teorema del confronto o dei due carabinieri
+>[!theorem] Teorema del confronto o dei due carabinieri
 >Se:
 > 1. Per $x\to c, f(x) \to l$ e $g(x)\to l$
 > 2. $f(x) \leq h(x)\leq g(x)$ definitivamente per $x\to c$
@@ -18,24 +18,24 @@ Approfondiamo proprietà fondamentali dei limiti e della continuità, verrà spe
 >>
 
 
->[!teorema] Teorema di permanenza del segno, prima forma
+>[!theorem] Teorema di permanenza del segno, prima forma
 >Se per $x \to c, f(x)\to l>0$ allora $f(x)>0$ definitivamente per $x \to c$
 
->[!teorema] Teorema di permanenza del segno, seconda forma
+>[!theorem] Teorema di permanenza del segno, seconda forma
 >Se per $x\to c$, $f(x)\to l$ e $f(x) \geq 0$ definitivamente per $x \to c$, allora $l \geq 0$
 
->[!teorema] Teorema di permanenza del segno per [[Funzioni]] continue
+>[!theorem] Teorema di permanenza del segno per [[Funzioni]] continue
 >Se $f$ è continua in $c$ e $f(c)>0$, allora $f(x)>0$ definitivamente per $x \to c$
 >
 
->[!teorema] Algebra dei limiti con limiti finiti
+>[!theorem] Algebra dei limiti con limiti finiti
 >Se per $x\to c, f(x)\to l_1$ e $g(x) \to l_2\qquad (l_1,l_2\in \mathbb R)$, allora per $x \to c$ si ha:
 >1. $f(x) \pm g(x) \to l_1 \pm l_2$
 >2. $f(x)g(x)\to l_1l_2$
 >3. $f(x)/g(x)\to l_1/l_2$ (Solo se $l_2\neq0$, $g(x)\neq 0$ definitivamente per $x \to c$)
 >
 
->[!teorema] Aritmetizzazione parziale di $\infty$
+>[!theorem] Aritmetizzazione parziale di $\infty$
 >Valgono per le funzioni allo stesso modo di quelli per le successioni, vedasi [[infinito]]
 
  Dimostrazione dei teoremi precedenti
@@ -60,7 +60,7 @@ Tutti questi teoremi si basano sui teoremi equivalenti delle successioni e sulla
 >Sia $x_n$ una qualsiasi successione tale che $x_n \neq c$ per ogni $n$ e $x_n \to c$, allora per l'ipotesi si ha che $f(x_n) \to l_1$ e $g(x_n) \to l_2$, dal teorema sull'algebra dei limiti per successioni concludiamo quindi che $f(x_n) \pm g(x_n)\to l_1 \pm l_2$ e quindi $f(x)+g(x) \to l_1 \pm l_2$
 >In modo analogo si dimostrano prodotto e quoziente e l'aritmetizzazione parziali di $\infty$
 
->[!teorema] Algebra delle funzioni continue
+>[!theorem] Algebra delle funzioni continue
 >Siano $f, g$ due funzioni definite almeno in un intorno di $x_0\in\mathbb R$ e continue in $x_0$, allora:
 >1. $f(x) \pm g(x)$ è continua in $x_0$
 >2. $f(x)g(x)$ è continua in $x_0$
@@ -77,7 +77,7 @@ Tutti questi teoremi si basano sui teoremi equivalenti delle successioni e sulla
 >>$$\frac{f(x)}{g(x)}\to\frac{f(x_0)}{g(x_0)}\text{ per }x \to x_0$$
 >>Ossia $\frac fg$ è continua in $x_0$
 
->[!teorema] Teorema di continuità delle funzioni elementari
+>[!theorem] Teorema di continuità delle funzioni elementari
 >Le seguenti funzioni elementari sono continue in tutti i punti del proprio [[insieme]] di definizione:
 >1. Potenze a esponente [[numeri interi|intero]], [[numeri razionali (a1)|razionale]], o [[numeri reali|reale]].
 >2. [[Funzioni notevoli|Funzioni esponenziali]].
@@ -105,7 +105,7 @@ Tutti questi teoremi si basano sui teoremi equivalenti delle successioni e sulla
 >>I termini $|\sinx_0$ e $|\cos x_0|$ sono invece costanti
 >>Quindi $\sin(x_0 + h) - \sin(x_0) \to 0$ quindi $\sin(x_0 + h)\to\sin x_0$ per $h \to 0$, e $\sin x$ è continua in $x_0$. È analoga la catena di disuguaglianze per la continuità di $\cos x$.
 
->[!teorema] Teorema di cambio di variabile nel limite
+>[!theorem] Teorema di cambio di variabile nel limite
 >Siano $f,g$ due funzioni per cui è ben definita la [[composte|composizione]] $f \circ g$, almeno definitivamente per $x \to x_0, (x_0 \in\mathbb R^*)$, e supponiamo che:
 >$$\begin{flalign}
 >&i)g(x)\to t_0 \text{ per } x \to x_0& \\
@@ -126,7 +126,7 @@ Tutti questi teoremi si basano sui teoremi equivalenti delle successioni e sulla
 >E quindi la convergenza $f(g(x_n))\to l$ sarebbe comunque garantita.
 
 Dalla proprietà precedente, segue subito il prossimo:
->[!teorema] Teorema di continuità della funzione composta
+>[!theorem] Teorema di continuità della funzione composta
 >Siano: $g$ una funzione definita almeno in un intorno di $x_0$ e continua in $x_0, f$ una funzione definita almeno in un intorno di $t_0 = g(x_0)$ e continua in $t_0$, allora $f \circ g$ è definita almeno in un intorno di $x_0$ ed è continua in $x_0$.
 >
 >>[!dim]

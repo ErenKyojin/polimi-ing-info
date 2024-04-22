@@ -1,5 +1,5 @@
 # Teorema di struttura per equazioni omogenee
->[!teorema]
+>[!theorem]
 >L'integrale generale di 
 >$$ a(t)y''+b(t)y'+c(t)y = 0 $$
 >Con $a,b,c$ funzioni continua in $I$ e $a(t) \neq 0$ in $I$
@@ -10,7 +10,7 @@
 
 # Teorema di struttura per equazioni complete
 
->[!teorema]
+>[!theorem]
 >L'integrale generale di
 >$$ a(t)y''+b(t) y' +c(t) y = f(t) $$
 >con $a,b,c$ ed $f$ continue in $I$ e $a(t) \neq 0$ in $I$

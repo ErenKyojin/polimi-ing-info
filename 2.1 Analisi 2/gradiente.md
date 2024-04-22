@@ -16,7 +16,7 @@ Per calcolare il gradiente di una funzione derivabile in $\mathbf{x_{0}}$ sempli
 
 
 
->[!teorema] Formula del gradiente
+>[!theorem] Formula del gradiente
 >$A \subseteq \mathbb{R}^2$ aperto, $\mathbf{x_{0}} = (x_{0},y_{0}) \in A$
 >$f : A \to R$ differenziabile in $\mathbf{x_{0}}$ allora $f$ ammette [[derivate direzionali]] in ogni direzione $\mathbf{v}$ ed inoltre
 >$$ \fbox{$\frac{ \partial f }{ \partial \mathbf{v}}(\mathbf{x_{0}})= \langle \nabla f(\mathbf{x_{0}}),\mathbf{v} \rangle$}$$

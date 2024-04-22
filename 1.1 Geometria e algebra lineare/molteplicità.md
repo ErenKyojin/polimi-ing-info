@@ -65,7 +65,7 @@ Diremo che l'intero positivo $m$ è la molteplicità algebrica di $\widetilde{\l
 >>Ma allora $\mathbf{v}_{r+1} = \mathbf{0}$ assurdo. Quindi $\mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{v}_{r+1}$ non possono essere linearmente dipendenti e dunque sono linearmente indipendenti
 >> $\CVD$
 
->[!teorema]
+>[!theorem]
 >Sia $A \in M_{\mathbb{K}(n,n)}$. Supponiamo che $A$ ammetta $n$ autovalori distinti in $\mathbb{K}$ allora $A$ è diagonalizzabile in $\mathbb{K}$
 >
 >>[!dim]
