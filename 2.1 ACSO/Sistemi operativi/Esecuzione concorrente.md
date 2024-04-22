@@ -89,7 +89,7 @@ Terminazione di un `pthread_join` simile a `waitid()`
 
 
 
->[!esempio] slide 5 (1.3)
+>[!example] slide 5 (1.3)
 
 
 [[sequenze critiche]]

@@ -32,7 +32,7 @@ end_of_list.
 end_problem.
 
 ```
->[!oss]
+>[!remark]
 >Sembrano mancare le costanti, in quanto formalmente sono funzioni di arità zero
 
 
@@ -62,11 +62,11 @@ notazione prefissa
 - completion found
 
 
-> [!esempio]
+> [!example]
 > axioms vuota
 > $\varnothing \vDash Cong$ -> Connv valide? Proof found si, completion found no
 
->[!esempio]
+>[!example]
 >cong vuota
 >$\text{ axioms  }\vdash \square$ -> axioms insodd
 >completion found, prrof no

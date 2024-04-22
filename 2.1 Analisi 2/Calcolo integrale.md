@@ -34,7 +34,7 @@ Quindi la formula per l'area è
 $$ Area(D) = \int_{a}^b \! (g_{2}(x) - g_{1}(x))\, \mathrm{d}x  $$
 analogamente per le regioni $x$-semplici
 
->[!oss]
+>[!remark]
 >Il volume del solido che ha $D$ come base
  e altezza $h$ è
  > $$ Volume = Area(D) \cdot h $$
@@ -52,20 +52,20 @@ Significato geometrico dell'integrale doppio è il volume con segno sottostante 
 Siano $D \subseteq \mathbb{R}^2$ è una regione semplice $f : D \to \mathbb{R}$ continua in $D$ allora $f$ è integrabile in $D$
 
 
->[!oss]
+>[!remark]
 >Le regioni semplici per come le abbiamo definite sono chiuse e limitate, $f$ è continua, quindi per il [[polimi-ing-info/2.1 Analisi 2/Teorema di Weierstrass]] $f$ è limitata su $D$
 >- è possibile costruire una [[Funzioni|funzione]] limitata non continua non integrabile simile alla funzione di Dirichlet
 
 
->[!oss]
+>[!remark]
 >Non vale l'implicazione opposta
->>[!ESEMPIO]
+>>[!example]
 >>
 >>$f(x,y) = 2$ sulla parte alta di un quadrato
 >>$f(x,y) = 1$ sulla parte bassa di un quadrato
 >>L'integrale di $f$ è la somma degli integrali
 
->[!oss]
+>[!remark]
 >Se $\Omega \subseteq \mathbb{R}^2$ è unione di regioni semplici posso integrare sui vari pezzi separatamente e poi fare le somme
 
 
@@ -82,11 +82,11 @@ Siano $D \subseteq \mathbb{R}^2$ è una regione semplice $f : D \to \mathbb{R}$ 
 # Integrali tripli
 Integrale di una funzione di tre variabili in una regione spaziale
 $$ \iiint_{E} f(x,y,z) \mathrm{d}x\ \mathrm{d}y\ \mathrm{d}z \quad E \subseteq \mathbb{R}^3 $$
->[!oss]
+>[!remark]
 >Se $f \geq 0$ interpretazione fisica: E è un corpo rigido nello spazio, f densità di massa
 
 
->[!oss]
+>[!remark]
 >Se $f(x,y,z)=1$ costante
 > $$ \iiint_{D} 1 \mathrm{d}x\,\mathrm{d}y\,\mathrm{d}z$$
 

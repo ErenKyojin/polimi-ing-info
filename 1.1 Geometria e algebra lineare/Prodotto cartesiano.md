@@ -9,7 +9,7 @@
 > \end{flalign}$$
 > 
 
->[!esempio]
+>[!example]
 >$(1,\sqrt{2},-1,3) \in R^4$
 
 

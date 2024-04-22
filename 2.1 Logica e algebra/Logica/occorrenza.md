@@ -9,7 +9,7 @@ modification date: 2023-05-10 09:56
 
 
 
->[!esempio]
+>[!example]
 >Nella formula
 >$$ \mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,ff_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2(x,x)) $$
 >Tutte le occorrenze di $y$ sono vincolate, la prima e la seconda occorrenza di $x$ sono libere e le altre sono vincolate.
@@ -19,7 +19,7 @@ modification date: 2023-05-10 09:56
 >Un termine $t$ si dice **libero per una variabile** $x$ in una formula ben formata $\mathcal{A}$ se nessuna occorrenza libera di $x$ in $\mathcal{A}$ cade nel campo d'azione di un quantifiatore che quantifichi una variabile che compare in $t$.
 
 
->[!esempio]
+>[!example]
 >Data la formula
 >$$\mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2(x,x))$$
 >Il termine $f_{2}^2(x,y)$ è libero per $y$, infatti in tutta la formula non ci sono occorrenze libere di $y$, ma non è libero per $x$ infatti la prima occorrenza di $x$ che è libera cade nel campo d'azione del quantificatore $\exists y$ che quantifica una variaible presente nel termine $f_{2}^2(x,y)$.

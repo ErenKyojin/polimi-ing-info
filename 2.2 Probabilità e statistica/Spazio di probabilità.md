@@ -9,13 +9,13 @@
 >   $E_{i} \cap E_{j} \neq \varnothing \forall i \neq j\qquad \implies P\left( \bigcup_{1}^\infty E_{k} \right) = \sum_{k=1}^{\infty}P(E_{k})$
 
 
->[!oss]
+>[!remark]
 >La probabilità dell'evento impossibile deriva da questi assiomi, **non ne fa parte**
 
 da questi assiomi derivano le [[regole di calcolo della probabilità]]
 
 
->[!oss]
+>[!remark]
 >$P_{F}(A \cup B) = P_{F}(A) + P_{F}(B) - P_{F}(A \cap B)$
 >$P_{F}(A^C) = 1 - P_{F}(A)$
 >$\cancel{ P_{F^C}(A) = 1 - P_{F}(A) }$ se cambi $F$ hai un'altra legge di [[probabilità]]

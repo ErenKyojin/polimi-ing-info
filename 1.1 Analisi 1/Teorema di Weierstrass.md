@@ -45,11 +45,11 @@ Importante proprietà delle funzioni [[polimi-ing-info/1.1 Analisi 1/continuità
 >> $$\lim_{n\to+\infty}f(t_n) = f(x_0)$$
 >> Ma per la $(\text{TW2}) \lim_{n\to+\infty}f(t_n) = +\infty$, assurdo perchè in $x_0$ la funzione deve avere un valore finito
 
->[!esempio]
+>[!example]
 >$f(x) = x$ in $(0,1)$
 >La funzione è continua su un intervallo limitato, ma non chiuso. La funzione non ha ne massimo ne minimo, non essendo il uso estremo superiore ed il suo estremo inferiore assunti
 
->[!esempio]
+>[!example]
 >$f(x) = x$ in $\mathbb R$, la funzione è continua su un intervallo non lmitato, la funzione non ha ne massimo ne minimo
 
 

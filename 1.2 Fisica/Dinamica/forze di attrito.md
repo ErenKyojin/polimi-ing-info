@@ -13,7 +13,7 @@ Sono [[forza|forze]] che si oppongono al [[moto]] relativo di due corpi in conta
 
 Vediamo in dettaglio l'attrito radente
 
->[!oss]
+>[!remark]
 >Nel caso di un [[Punto materiale]] vincolato a muoversi sulla superficie di un corpo solido, l'attrito radente sperimentato dal punto materiale per effetto del contatto con tale superficie puó essere riguardato a tutti gli effetti come una relazione vincolare della superficie stessa, diretta tangenzialmente alla superficie invece che lungo la normale.
 
 
@@ -55,10 +55,10 @@ $$
   
 Il coefficiente di proporzionalità $\mu_{d}$ è il coefficiente di attrito dinaimco
 
->[!oss]
+>[!remark]
 >Si verifica che $\mu_{d} \leq \mu_{s}$
 
->[!oss]
+>[!remark]
 >La forza necessaria per mantenere in moto un corpo vincendo le forze di attrito è sempre minore di quella necessaria per metterlo in moto
 
 # ANKI

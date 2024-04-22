@@ -2,7 +2,7 @@
 Approssimare una data quantità, che dipende in modo non lineare da una o più variabili, con una che dipende da queste in modo lineare.
 Vogliamo però aggiungere informazioni sull'errore commesso, in quanto si tratta comunque di un'approssimazione.
 
->[!esempio]
+>[!example]
 Un esempio molto semplice di linearizzazione è approssimare l'incremento di una funzione $f$ da $x_0$ ad $x_0 + dx$ sostituendo la retta tangente in $x_0$
 >Più precisamente sia $f : (a,b) \to\mathbb R$ derivabile in un punto $x_0$ e diamo a $x_0$ un incremento $dx$, molto piccolo in valore assoluto ($|dx|\ll1$)
 >Di conseguenza $f$ subisce un incremento $\Delta f$:

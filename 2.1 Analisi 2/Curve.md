@@ -20,12 +20,12 @@ La parametrizzazione di una curva piana sono due funzioni di $t$ (In generale pe
 > 	$\gamma = \{(x_{1},x_{2},x_{3}) \in \mathbb{R}^3 : (x_{1},x_{2},x_{3})=r_{1}(t),r_{2}(t),r_{3}(t)$ per qualche $t \in I\}$
 > 	è il **sostegno** della curva e coincide con il percorso della curva
 
->[!oss]
+>[!remark]
 >Come caso particolare quando $r_{3}(t) = 0 \forall t$ otteniamo una curva piana
 
 
 
->[!esempio]
+>[!example]
 >Circonferenza nel piano
 >$I = [0,2\pi)$ $$\mathbf{r(t)} = \begin{pmatrix}
 > r_{1}(t) \\
@@ -45,10 +45,10 @@ R\sin t
 >
 >
 >
->>[!oss]
+>>[!remark]
 >>Il sostegno non è il grafico di una funzione
 
->[!esempio]
+>[!example]
 >$I = [0,2\pi)$ 
 >$$ \mathbf{r}(t) = \begin{pmatrix}
 >r_{1}(t) \\
@@ -60,7 +60,7 @@ b \sin t
 \end{pmatrix}$$
 Il sostegno è un ellisse che passa per $(0,b)$ e $(a,0)$
 
->[!oss]
+>[!remark]
 >Se $f : I \subseteq \mathbb{R} \to \mathbb{R}$ continua $\implies$ il suo grafico è il sostegno di una curva piana
 
 Partiamo da un esempio
@@ -83,16 +83,16 @@ r_{2}(t)
 t \\
 f(t)
 \end{pmatrix}\qquad t \in I$$
->[!oss]
+>[!remark]
 >Nessuna ipotesi sull'[[intervallo]] $I$
 
->[!oss]
+>[!remark]
 >Il sostegno è univocamente determinato dalla [[parametrizzazione]]
 
 
 Il viceversa non è vero, esistono infinite parametrizzazioni associate al medesimo sostegno
 
->[!esempio]
+>[!example]
 >Riprendiamo il primo esempio
 > $$ \begin{cases}
 > r_{1}(t) = R \cos t \\
@@ -134,7 +134,7 @@ Nell'esempio:
 $\mathbf{v}(s) = \mathbf{r} (2s) \quad s=\frac{t}{2} \iff t = 2s$ cioè $\phi(s) = 2s$
 $\mathbf{w}(s) = \mathbf{r}(-s)$ $s = -t \iff t = -s$ cioè $\phi(s) = -s$
 
->[!oss]
+>[!remark]
 >$\phi$ biunivoca $\iff \phi$ monotona
 > - crescenete $\implies$ stesso verso
 > - decrescente $\implies$ verso opposto
@@ -158,7 +158,7 @@ r_{2}'(t)
 \end{bmatrix} $$
 
 
->[!esempio]
+>[!example]
 >$I = \mathbb{R}$ $$
 >\mathbf{r}(t) = \begin{bmatrix}
 > r_{1}(t) \\
@@ -180,13 +180,13 @@ Dico che la direzione tangente alla curva nel punto $$\mathbf{r}(t) = \begin{bma
 > $t=2\quad \mathbf{r}(2) = [2\quad 4]^T \implies \mathbf{r}'(2)=[2\quad 4]^T$
 > Ovviamente dobbiamo traslare al punto $t$ in quanto la soluzione è il vettore applicato nell'origine
 >
->>[!oss]
+>>[!remark]
 >>la direzione tangente ha il verso uguale a dove si sta spostando il punto, inoltre il modulo non è di nostro interesse.
 
 
 Inoltre $r_{1},r_{2}$ devono essere almeno #derivabili
 
->[!esempio]
+>[!example]
 >$I = \mathbb{R}$
 >$$ \mathbf{r}(t) = \begin{bmatrix}
 >r_{1}(t) \\
@@ -268,7 +268,7 @@ $$ lunghezza(\gamma) = \int_{a}^b \! \,||\mathbf{r}'(t)|| \mathrm{d}t  $$
 >>$$ lunghezza(\delta) = \int_{b}^a \! ||\mathbf{r}'(t)||\, (-\mathrm{d}t) = \int_{a}^b \! ||\mathbf{r}'(t)|| \, \mathrm{d}t = lunghezza(\gamma)   $$
 
 
->[!oss]
+>[!remark]
 >Essendo $$ \begin{align}
 >&r_{1},r_{2},r_{3} &\in C^1([a,b]) \\
 >&v_{1},v_{2},v_{3} &\in C^1([a,b]) \\

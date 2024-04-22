@@ -12,7 +12,7 @@
 - Restituisce tramite jr ra, ret
 
 
->[!esempio]
+>[!example]
 >
 >#### chiamata:
 >```armasm

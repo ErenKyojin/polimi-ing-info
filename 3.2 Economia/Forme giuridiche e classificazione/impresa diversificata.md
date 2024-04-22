@@ -9,5 +9,5 @@ creation date: 2024-02-23
 ^67a720
 
 
->[!esempio]
+>[!example]
 >azienda che produce patatine fritte

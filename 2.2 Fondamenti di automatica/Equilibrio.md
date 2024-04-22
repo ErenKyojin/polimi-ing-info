@@ -48,7 +48,7 @@ Nel caso LTI $\exists$ sempre $\bar{y} = c\bar{x} + d\bar{u}$
 
 
 
->[!esempio] Esempio 1 - Massa molla
+>[!example] Esempio 1 - Massa molla
 > $$
 >\begin{cases}
 >\dot{x}_{1} = x_{2} \\
@@ -80,7 +80,7 @@ x_{2}
 >Pongo $u = \bar{u} : \exists \bar{x}$?
 
 
->[!esempio] Esempio 2 - pendolo
+>[!example] Esempio 2 - pendolo
 > ```tikz
 >\begin{document}
 >\begin{tikzpicture}[scale=2]
@@ -199,7 +199,7 @@ $$
 \end{align}
 $$
 
->[!oss]
+>[!remark]
 >Per sistemi di ordine maggiore di uno occorre calcolare $e^{At}$ con $A$ matrice. [[elevamento ad una matrice]]
 
 # ANKI

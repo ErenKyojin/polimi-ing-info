@@ -2,7 +2,7 @@
 >Un esperimento aleatorio è un esperimento non deterministico, ossia non possiamo essere certi a priori dei risultati. Ma è comunque possibile determinare tutti i possibili risultati, che sono detti [[caso elementare|casi elementari]]
 
 
->[!esempio] Esempio 1, tempo di esecuzione di un programma
+>[!example] Esempio 1, tempo di esecuzione di un programma
 > Vogliamo studiare il tempo di esecuzione di un programma, l'esperimento aleatorio in questo caso è l'avvio del programma e l'attesa che esso finisca, quali sono i possibili risultati?
 > $\omega = t$ tempo di esecuzione del programma
 > $\Omega = (0, +\infty)$ l'[[insieme]] dei tempi possibili di esecuzione
@@ -11,7 +11,7 @@
 > $\Omega = (0, +\infty) \cup \left\{ +\infty \right\}$ aggiungiamo il punto di aggregazione.
 > $\Omega$ ha dimensione infinita con la potenza del continuo
 
->[!esempio] Esempio 2, schedina totocalcio
+>[!example] Esempio 2, schedina totocalcio
 >Giochiamo la schedina totocalcio Sisal, con la formula  f13, dove per 13 partite in blocchi da 8 devi selezionare questi risultati: (1,x,2) dove:
 >- 1 vince la squadra in casa
 >- x in caso di pareggio
@@ -26,7 +26,7 @@
 > $e_{i}^j=1,x,2=1 \cdot 5$ 
 > Quindi cos'è lo [[spazio campionario]]?
 > 
->>[!oss]
+>>[!remark]
 >>$|\Omega| =$ finita, per calcolarlo iniziamo prima a farlo con un sottoinsieme $j$ fisso.
 >>abbiamo tre risultati per tredici possibilità, quindi $3^{13}$, aggiungendo la possiblità di scegliere sottoinsieme abbiamo
 >> $$ 3^{13} \begin{pmatrix}
@@ -35,7 +35,7 @@
 >>\end{pmatrix} $$
 
 
->[!esempio] Esempio 3, schedine
+>[!example] Esempio 3, schedine
 >È casuale il numero di schedine giocate per fare $13$ la prima volta
 >$\omega = (V_{1}) \to 1$ caso in cui vinciamo subito
 >$\omega = (P_{1},V_{1}) \to {2}$ 
@@ -46,7 +46,7 @@
 >$\Omega = (1,2,\dots,N,\dots) = \mathbb{N} \cup \left\{ +\infty \right\}$ Coincide con i numeri naturali e il punto di accumulazione
 
 
->[!esempio] Esempio 4, tempo di esecuzione di un programma e risultato (successo o fallimento)
+>[!example] Esempio 4, tempo di esecuzione di un programma e risultato (successo o fallimento)
 >È un esperimento che è caratterizzato da due variabili, una discreta e una continua.
 > Consideriamo le etichette:
 >  - Successo: 1

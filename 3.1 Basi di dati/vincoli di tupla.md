@@ -8,6 +8,6 @@ creation date: 2024-03-06
 >Per definire un vincolo di tupla si usa la [[sintassi booleana]]
 
 
->[!esempio]
+>[!example]
 >`(Prezzo > 0) AND (Quantità >= 1)`
 >`(NOT(nome =  NULL)) or (iscritto = false)`

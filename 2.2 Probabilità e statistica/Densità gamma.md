@@ -38,7 +38,7 @@ $$\begin{align}
 &= \frac{\alpha}{\lambda^2}
 \end{align}$$
 
->[!oss]
+>[!remark]
 >$Y \sim \exp(\lambda)\qquad\begin{align}E(y)=\frac{1}{\lambda}\\ \delta(y) = \frac{1}{\lambda ^2} \end{align}$
 >Allora
 >$X \sim \Gamma(1, \lambda)\quad m_{X}(t) = \frac{\lambda}{\lambda-t} \implies x \sim \exp(\lambda)$

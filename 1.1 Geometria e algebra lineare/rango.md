@@ -3,7 +3,7 @@
 
 Il rango quindi è il numero di equazioni che hanno rilevanza nel sistema, le restanti sono sono superflue.
 
->[!oss]
+>[!remark]
 >Il rango è un numero **univoco**, non dipende direttamente dalla matrice ottenuta, ma dal sistema
 
 Il rango di una matrice è il numero delle sue righe [[Dipendenza e indipendenza lineare|linearmente indipendenti]] (che coincide con il numero di colonne linearmente indipendenti)
@@ -31,7 +31,7 @@ $$ \dim(\Row(A)) = \dim(\Col(A)) = r(A) $$
 >[!def]
 >Data $A \in M_{\mathbb{K}(n,n)}$ definiamo il rango per righe di $A$: $\dim(\Row(A))$ ed il rango per colonne di $A$: $\dim(\Col(A))$
 
->[!proposizione] proposizione 1
+>[!proposition] proposizione 1
 >Sia $A \in M_{\mathbb{K}(m,n)}$ e sia $U$ una sua ridotta a scala. Allora $\Row(A) = \Row(U)$ inoltre le righe non nulle di $U$ formano una base di $\Row(A)$. Quindi il rango per righe di $A$ coincide con il rango per righe di $U$ che a sua volta coincide con il rango di $A$:
 > ($\dim(\Row(A)) = \dim(\Row(U)) = r(A)$)
 > 
@@ -132,7 +132,7 @@ p_{r} \\
 >>Quindi $\dim(\Row(U)) = r(A) = \dim(\Row(A))$
 
 
->[!oss]
+>[!remark]
 >La precedente dimostrazione ci fornisce un [[Algoritmo]] per determinare una base di un sottospazio vettoriale di $\mathbb{K}^n$ generato da un certo numero di vettori $\mathbf{v}_{1},\dots,\mathbf{v}_{d} \in \mathbb{K}^n$. Sia $H = \Span(\mathbf{v}_{1},\dots,\mathbf{v}_{})$
 >definiamo:
 > $$ A = \begin{bmatrix}
@@ -151,7 +151,7 @@ p_{r} \\
 Con $U$ matrice a scala
 Per la proposizione precedente $\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r} \right\}$ è una base per $H$
 
->[!esempio]
+>[!example]
 >Determinare una base pper $H=\Span=\left( \begin{bmatrix}1 \\2\\1\\1\end{bmatrix},\begin{bmatrix}-1 \\1\\0\\1\end{bmatrix},\begin{bmatrix}0 \\3\\1\\2\end{bmatrix} \right)$
 >Poniamo
 > $$ A = \begin{bmatrix}
@@ -180,7 +180,7 @@ Quindi $$ \mathbf{u}_{1} = \begin{bmatrix}
 2
 \end{bmatrix}$$  formano una base di $H$, in particolare $\dim(H) = 2$
 
->[!oss]
+>[!remark]
 >1.
 >Essendo $r(A) = \dim(\Row(A))$, il rango di $A$ non dipende da come ho effettuato le operazioni elementari, ovvero non dipende da $U$
 >
@@ -206,7 +206,7 @@ Possiamo infine dire che $\Col(A) = \left\{ \mathbf{b} \in \mathbb{K}^n: A\mathb
 >>[!dim]
 
 In generale $\Row(A) \neq \Col(A)$, consideriamo ad esempio il caso $A \in M_{\mathbb{K}}(m,n)$ con $m \neq n : \Row(A) \subseteq \mathbb{R}^n \neq \mathbb{R}^m \supseteq \Col(A)$. Anche nel caso $m = n$ non è detto che siano equivalenti:
->[!esempio]
+>[!example]
 >$A = \begin{bmatrix}1 & 1\\-1 & -1\end{bmatrix}$ allora:
 > $$ \Row(A) = \Span \left( \begin{bmatrix}1\\-1\end{bmatrix} \right) \neq \Span \left( \begin{bmatrix}1 \\ 1\end{bmatrix} \right) = \Col(A)  $$
 > 
@@ -252,7 +252,7 @@ Allora:
 >```
 >Ci chiediamo: esiste $A \in M_{\mathbb{K}(m,n)}$ tale che per ogni $\mathbf{v} \in V$ si ha $x_{e}(\mathcal{L}(\mathbf{v})) = A \cdot x_{\mathcal{B}}(\mathbf{v})$ o $\mathbf{y} = A \mathbf{x}$
 
->[!esempio]
+>[!example]
 >$V = \mathbb{R}[x] \leq 2$ e $\mathcal{B} = \left\{ 1,x,x^2 \right\}$ allora
 > $$\begin{align}
  x_{\mathcal{B}} : \mathbb{R}[x]_{\leq 2} &\to \mathbb{R}^3 \\
@@ -331,7 +331,7 @@ c \\
 >> a_{m 1} & a_{m2} & \dots & a_{mn}
 \end{bmatrix} = [x_{\mathcal{C}} (\mathcal{L}(\mathbf{b_{1}}))| \dots | x_{\mathcal{C}}(\mathcal{L}(\mathbf{b}_{n}))]$$
 
->[!oss]
+>[!remark]
 >1.
 >La matrice $M_{\mathcal{C}}^\mathcal{B}(\mathcal{L})$ ha come colonne le coordinate di $\mathcal{L}(\mathbf{b}_{1},\dots,\mathbf{b}_{n})$ rispetto alla base $\mathcal{C}$ quindi è completamente caratterizata: $x_{\mathcal{C}}(\mathcal{L}(\mathbf{b}_{1})), x_{\mathcal{C}}(\mathcal{L}(\mathbf{b}_{2})),\dots, x_\mathcal{C}(\mathcal{L}(\mathbf{b}_{n}))$. Ovvero note queste cordinate sapiamo scrivere $\mathcal{L}(\mathbf{v}) \forall \mathbf{v} \in V$
 >
@@ -339,7 +339,7 @@ c \\
 >Ogni applicazione lineare da $\mathbb{K}^n$ a $\mathbb{K}^m$ si ottiene per moltiplicazione a sinistra di una matrice $A \in M_{\mathbb{K}(m,n)}$. Infatti se $\mathcal{B}$ e $\mathcal{C}$ sono le basi canoniche di $\mathbb{K}^n$ e $\mathbb{K}^m$ allora:
 > $\forall \mathbf{x} \in \mathbb{K}^n, x_{\mathcal{B}}(\mathbf{x})=\mathbf{x}$ e $\forall \mathbf{y} \in K^m, x_{\mathcal{C}}(\mathbf{y}) = \mathbf{y}$. Quindi $x_{\mathcal{C}}(\mathcal{L}(\mathbf{x})) = \mathcal{L}(\mathbf{x}) = A \cdot \mathbf{x} \implies \mathcal{L}(\mathbf{x}) = A \mathbf{x}$
 
->[!esempio] esempi
+>[!example] esempi
 >1. 
 >Sia $V = \mathbb{R}^3$ e $W = \mathbb{R}^2$, $\xi_{3} = \{\mathbf{e}_{1},\mathbf{e}_{2},\mathbf{e}_{3}\}$ la base canonica di $\mathbb{R}^3$ e $\mathcal{C} = \left\{ \mathbf{e}_{1}', \mathbf{e}_{2}' \right\}$ la base canonica di $\mathbb{R}^2$. Scrivere la matrice rappresentativa di $\mathcal{L} : V to W$ tale che:
 > $$ \begin{cases}
@@ -437,10 +437,10 @@ c
 >>0 & 0 & 0
 >>\end{bmatrix} $$
 
->[!oss]
+>[!remark]
 >Quando si ha un'applicazione lineare $\mathcal{L} : \mathbb{K}^n \to \mathbb{K}^m$ e non si precisano le basisi sottointendono le basi canoniche
 
->[!oss]
+>[!remark]
 >Se $id_{V} : V \to V\ (\mathbf{v} \mapsto \mathbf{v})$ è l'identità e si considera una stessa base per dominio e codominio $\mathcal{B}$, allora:
 > $$ M_{\mathcal{B}}^\mathcal{B}(id_{V}) = \mathbb{1}_{n}\quad\text{se}\quad|\mathcal{B}| = n $$
 > Se considero una base diversa $\mathcal{C} = \left\{ \mathbf{c}_{1},\dots,\mathbf{c}_{n} \right\}$ per il codominio allora per determinare $M_{\mathcal{C}}^\mathcal{B}(id_{V})$ devo determinare le coordinate dei $\mathbf{b}_{i}$  rispetto a $\mathcal{C} = \left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$
@@ -458,13 +458,13 @@ c
 >Quindi se conosco le coordinate di $\mathbf{v}$ rispetto alla base $\mathcal{B} : \mathbf{x} = [x_{1} \dots x_{n}]^T$ e voglio determinare le coordinate di $\mathbf{v}$ rispetto alla base $\mathcal{C} : \mathbf{y} = [y_{1},\dots,y_{n}]^T$, calcolo: $\mathbf{y} = P\mathbf{x}$. $P$ è detta [[matrice di passaggio]] dalla base $C$ alla base $B$
 
 
->[!oss]
+>[!remark]
 >Se $V = \mathbb{K}^n, \xi = \left\{ \mathbf{e}_{1},\dots,\mathbf{e}_{n} \right\}$ è la base canonica e $\mathcal{B} = \left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è un'altra base di $\mathbb{K}^n$ allora:
 > $$ M_{\mathcal{C}}^\mathcal{B}(id_{\mathbb{K}^n}) = \left[ \begin{array}{c|c|c}
 >\mathbf{b}_{1}&\dots&\mathbf{b}_{n}
 >\end{array} \right]  $$
 
->[!proposizione] proposizione 1
+>[!proposition] proposizione 1
 >Siano $\mathcal{L}_{1} : V \to W$ e $\mathcal{L}_{2} : W \to Z$ due applicazioni lineare ove $V,W$ e $Z$ spazi vettoriali su $\mathbb{K}$. Siano $\mathcal{B}_{1}, \mathcal{B}_{2}, \mathcal{B}_{3}$ rispettivamente basi finite per $V,W$ e $Z$. Allora si ha che
 > $$ M_{\mathcal{B}_{3}}^{\mathcal{B}_{1}}(\mathcal{L}_{2} \circ \mathcal{L}_{1}) = M_{\mathcal{B_{3}}}^{\mathcal{B}_{2}} (\mathcal{L}_{2}) \circ M(\mathcal{L}_{1})_{\mathcal{B}_{2}}^{\mathcal{B}_{1}}$$
 > Diagramma: 
@@ -479,7 +479,7 @@ c
 >>$$
 >> $$ \CVD $$
 
->[!oss]
+>[!remark]
 >Se $\mathcal{L} : V \to W$ è lineare ed invertibile e $\mathcal{B}$ e $\mathcal{C}$sono basi finite per $V$ e $W$ allora per $\mathcal{L}^{-1} : W \to V$ si ha: $M_{\mathcal{B}}^\mathcal{C}(\mathcal{L}^{-1}) = (M_{\mathcal{C}}^\mathcal{B} (\mathcal{L}))^{-1}$. Infatti
 > $id_{V} = \mathcal{L}^{-1} \cdot \mathcal{L}$ e $M_{\mathcal{B}}^\mathcal{B}(id_{V}) = \mathbb{1}_{n}$ inoltre
 >  $$ M_{\mathcal{B}}^\mathcal{B}(id_{V}) = M_{\mathcal{B}}^\mathcal{B}(\mathcal{L}^{-1} \circ \mathcal{L} ) = M_{\mathcal{B}}^\mathcal{C}(\mathcal{L}^{-1}) \circ M_{\mathcal{C}}^\mathcal{B}(\mathcal{L}) = \mathbb{1}_{n} \implies M_{\mathcal{B}}^\mathcal{C}(\mathcal{L}^{-1}) = (M_{\mathcal{C}}^\mathcal{B}(\mathcal{L}))^{-1}$$

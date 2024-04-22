@@ -9,7 +9,7 @@ creation date: 2024-02-27
 
 È possibile servire più risorse allo stesso URI per far ricever all'utente la versione più adatta
 
->[!esempio]
+>[!example]
 >Reindirizzare al sito nella lingua correta.
 >Versione mobile/versione desktop
 >...

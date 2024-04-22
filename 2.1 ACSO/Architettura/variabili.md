@@ -6,14 +6,14 @@
 
 Le variabili globali sono allocate a partire dall'indirizzo di [[memoria]] 0x0000 0000 1000 0000
 
- >[!esempio]
+ >[!example]
  >```armasm
  >A: .dword ;a: indirizzo 0x0000 0000 1000 0000
  >B: .dword ;b: indirizzo 0x0000 0000 1000 0008
 >```
 >Infatti tra una double word e l'altra ci sono 8 Byte di distanza
 
->[!esempio]
+>[!example]
 >>[!multi column]
 >>>[!c]
 >>>```c
@@ -79,7 +79,7 @@ Si dichiarano le variabili tramite le [[Direttive]] di compilazione, sotto la ta
 >>>STR: .zero 10
 >>>```
 
->[!esempio]
+>[!example]
 >>[!multi-column]
 >>
 >>>[!c]

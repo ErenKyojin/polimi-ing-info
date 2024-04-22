@@ -30,11 +30,11 @@ modification date: 2023-03-25 17:06
 >L'unità di misura nel sistema internazionale è il [[Joule]], pari ad un newton x un [[metri|metro]]
 
 
->[!oss]
+>[!remark]
 >Non è detto che sia la forza $\vec{F}$ a determinare lo spostamento $d\vec{r}$, se ad esempio $\theta > \pi / 2$, avremo $d\mathcal{L} < 0$ ossia la forza $\vec{F}$ si oppone allo spostamento, provocato da altre interazioni.
 >In generale se $d\mathcal{L}< 0$ il lavoro elementare compito da $\vec{F}$ si dice lavoro resistente, viceverse se $d\mathcal{L} > 0$ si dice lavoro motore. Ad esempio le [[forze di attrito]] compiono sempre un lavoro resistente (negativo)
 
->[!oss]
+>[!remark]
 >Per calcolare il prodotto scalare possiamo scomporre la forza e lo spostamento in diversi modi:
 >1. Nelle componenti parallela e normale alla [[Traiettoria]]:
 >   $$ \vec{F} = F_{T} \hat{u}_{T} + F_{N}\hat{u}_{N}\quad ;\quad d\vec{r} = ds \hat{u}_{T} \implies d\mathcal{L} = F_{T}ds \quad \text{Il lavoro non dipende da }F_{N}!$$
@@ -42,10 +42,10 @@ modification date: 2023-03-25 17:06
 >2. Nelle componenti cartesiane:
 > $$ \vec{F} = F_{x}\hat{u}_{x} + F_{y}\hat{u}_{y} + F_{z}\hat{u}_{z}\quad;\quad d\vec{r} = dx\hat{u}_{x} + dy\hat{u}_{y} + dz\hat{u}_{z} \implies d\mathcal{L} = F_{x}dx + F_{y}dy + F_{z}dz $$
 
->[!oss]
+>[!remark]
 >Il lavoro elemntare risulta nullo se la forza e lo spostamento sono ortogonali, come ad esempio nel caso del [[moto circolare]] unfirome, in cui l'unica forza è centripeta, ortogonale in ogni punto alla traiettoria. Altrimenti il lavoro elemntare è positivo per angoli minori dell'angolo retto, negativo per angoli superiori all'angolo retto.
 
->[!oss]
+>[!remark]
 >Se un certo numero $n$ di forze agiscono sul [[Punto materiale]] $P$, il lavoro elemntare della [[Forza risultante]] è la somma dei singoli lavori:
 > $$
 > d\mathcal{L} = \vec{F} \cdot d\vec{r} = \left( \sum_{i=1}^n \vec{F}_{i}\right) \cdot d\vec{r} = \sum_{i=1}^n (\vec{F}_{i} \cdot d\vec{r}) = \sum_{i=1}^n d\mathcal{L}_{i}
@@ -80,7 +80,7 @@ modification date: 2023-03-25 17:06
 >```
 >
 
->[!oss]
+>[!remark]
 >In generale $\mathcal{L}$ non dipende solo da $A$ e $B$ ma anche che il lavoro elementare $d\mathcal{L}$ non è differenziale esatto e per distinguere questa sua natura inesatta andrebbe indicato piú propriamente con la notazione $\delta \mathcal{L}$
 
 Se sono note la dipendenza dalla posizione delle componenti cartesiane di $\vec{F}$ e la legge oraria in coordinate cartesiane scriveremo:
@@ -104,17 +104,17 @@ $$
 $$
 Quindi il lavoro compiuto da una forza costante è indipendente dalla traiettoria ma dipende solo dagli estremi $A$ e $B$, precisamente dal vettore spostamento $\Delta \vec{r} = \overrightarrow{AB}$
 
->[!esempio] Forza peso
+>[!example] Forza peso
 >$\vec{W} = m\vec{g} = -mg\vec{u}_{y} = \vec{\cost}$
 >$$ \begin{align}
 >\mathcal{L}_{A\to B} &= \vec{F} \cdot \Delta \vec{r} = F_{x}\Delta x + F_{y}\Delta y = F_{y}\Delta y = \\
 >&= -mg(y_{B} - y_{A}) = +mg(y_{A} - y_{B})
 >\end{align} $$
 >
->>[!oss]
+>>[!remark]
 >>Il lavoro compiuto dipende solo dalle quote dei punti $A$ e $B$ e risulta indipendente dalla traiettoria seguita (caduta libera, moto lungo piano inclinato)
 
->[!oss]
+>[!remark]
 >In base al teorema dell'energia cinetica si dimostra ora, in modo del tutto generale, che un corpo che ccade da una data altezza subendo solo ed esclusivamente il lavoro della forza peso giunge a terra con la stessa velocità indipendentemente dalla traiettoria da esso seguita.
 >Se supponiamo che il punto materiale abbia in $A$ velocità $v_{A}$ e in $B$ velocità $v_{B}$ in base al teorema dell'energia cinetica avremo:
 >$$ \begin{align}

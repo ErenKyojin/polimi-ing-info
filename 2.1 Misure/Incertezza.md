@@ -33,7 +33,7 @@ In questo tipo di incertezza il risultato di misura è $x = \bar{x}$ con incerte
 Si parla di incertezza relativa quando normalizziamo il valore di incertezza tipo al valore di misura
 $$ u_{r}(y) = \frac{u(y)}{\bar{y}} $$
 
->[!oss] si tratta di un numero puro
+>[!remark] si tratta di un numero puro
 >Quindi le incertezze di grandezze diverse possono essere confrontate
 
 Questo tipo di incertezza indica il grado diconoscenza che abbiamo raggiunto sul valore di misura
@@ -45,7 +45,7 @@ con $k$ fattore di copertura
 
 ---
 
->[!oss] Cifre significative per l'incertezza
+>[!remark] Cifre significative per l'incertezza
 >Si esprime solitamente con al più due cifre significative, anche se nei calcoli intermedi è spesso utile conservarne di più
 
 

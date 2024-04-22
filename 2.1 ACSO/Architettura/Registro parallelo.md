@@ -1,6 +1,6 @@
 # Registro parallelo
 
->[!esempio] Registro parallelo a 4 bit
+>[!example] Registro parallelo a 4 bit
 >Composto da 4 [[flipflop D master-slave]]
 >
 >```tikz
@@ -56,7 +56,7 @@
 
 Sincroni sul fronte di discesa del [[clock]]
 
->[!oss]
+>[!remark]
 >Se usassimo dei [[Bistabili]] D avremmo il problema della trasparenza, non potremmo garantire il comportamento corretto
 
 ## Registro parallelo con load
@@ -76,7 +76,7 @@ Realizzato da
 - $n \geq 1$ uscite parallele $Q_{0},\dots,Q_{n}$
 - L'ingresso del clock
 
->[!esempio] Registro a scorrimento a 4 bit
+>[!example] Registro a scorrimento a 4 bit
 >Composto da 4 [[flipflop D master-slave]]
 >
 >```tikz

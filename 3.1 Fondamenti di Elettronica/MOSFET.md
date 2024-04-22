@@ -35,7 +35,7 @@ MOSFET unipolari
 
 Ci sarà quindi un ingresso GB (gate body) ed un uscita AB (source e drain)
 
->[!oss]
+>[!remark]
 >Fino ad ora il MOSFET è **totalmente simmetrico**, quindi source e drain fino ad ora possono essere scambiate 
 
 Tuttavia per ridurre il numero di terminali possiamo collegare source a body ed avere quindi $S \equiv B$.

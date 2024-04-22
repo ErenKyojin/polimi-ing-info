@@ -29,7 +29,7 @@ In questo caso $E,F$ sono detti indipendenti
 
 
 
-> [!oss]
+> [!remark]
 > 1. Se $E,F$ sono indipendenti allora $$
 > P(E \cup F) = P(E) + P(F) - P(E)P(F) 
 > $$
@@ -58,7 +58,7 @@ In questo caso $E,F$ sono detti indipendenti
 >
 
 
->[!esempio]
+>[!example]
 >Lancio di due monete equilibrate ($q = \frac{1}{2}$)
 >$T_{i}$ esce testa all'$i$-esimo lancio
 >$E$ = esce la stessa faccia nei due lanci
@@ -95,7 +95,7 @@ $$
 >[!warning] Incompatibilità vs indipendenza
 >Sono "opposte"
 >
->> [!esempio]
+>> [!example]
 > >prendo una persona a caso
 > >$E$ è un maschio
 > >$F$ è una femmina
@@ -104,7 +104,7 @@ $$
 
  Se so che la coppia $(E,F)$ è una coppia di eventi indipendenti sono indipendenti anche le coppie $(E, F^C)$ o $(E^C, F)$ o $(E^C,F^C)$? Sì
  
-> [!proposizione]
+> [!proposition]
 > $(E,F)$ indipendenti $\iff$ $(E^C,F)$ sono indipendenti
 > 
 >>[!dim]
@@ -128,7 +128,7 @@ $$
 >3. $E$ e $G$ sono indipendenti
 >4. ==$P(E \cap F \cap G) = P(E)P(F)P(G)$==
 
->[!esempio]
+>[!example]
 >Lancio 2 monete equilibrate $q = \frac{1}{2}$, sappiamo che $T_{1}$ e $T_{2}$ sono indipendenti, sappiamo che $T_{1}$ ed $E$ sono indipendente, e analogamente possiamo mostrare che $T_{2}$ ed $E$ sono indipendenti
 >- $T_{1}$ Esce testa al primo lancio
 >- $T_{2}$ Esce testa al secondo lancio
@@ -170,7 +170,7 @@ Se $(E, F, G)$ sono indipendenti allora
 >=&P(G)[P(E) + P(F) - P(E \cap F)] = P(G)P(E \cup F)
 >\end{align} $$
 
->[!oss]
+>[!remark]
 >Se $E_{1},\dots,E_{n}$ sono indipendenti e $1 = i_{1}< i_{2} < i_{3} < \dots < i_{k} = n$ ed $F_{h}$ è una combinazionie (attraverso unione, intersezione, complementare) degli eventi $E_{i_{h}}, E_{i_{h}+1},\dots, E_{i_{h+1}}$ allora la n-upla $F_{1},F_{2},\dots,F_{h}$ sono indipendenti
 
 ## Indipendenza condizionale
@@ -184,7 +184,7 @@ $A,B,F$ con $P(F) > 0$
 >Cioè $P(A \cap B | F) = P(A|F)P(B|F)$
 
 
->[!oss]
+>[!remark]
 >Se $A,B$ sono indipendenti condizionalmente ad $F$ allora $A,B$ sono indipendenti? Non è detto
 
 Se $A,B$ sono indipendenti $\implies A,B$ condizionalmente indipendenti dato un $F$.

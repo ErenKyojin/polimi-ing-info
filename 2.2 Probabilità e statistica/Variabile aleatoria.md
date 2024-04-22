@@ -16,7 +16,7 @@ Notazione$\{w : x(w) \in I\} = "x \in I"$
 ![[funzione di ripartizione]]
 
 
->[!esempio]
+>[!example]
 >$x$ = tempo di eseguzione di un programma in secondi
 >
 >Esempi di eventi di interesse:
@@ -86,7 +86,7 @@ Quindi una variabile aleatoria continua ha probabilità 0 per qualsiasi assegnaz
 
 ### Funzioni di variabili aleatorie assolutamente continue
 
->[!esempio]
+>[!example]
 > $x$ variabile aleatoria assolutamente continua, carica batterica di un campione di liquidio da un bacino di lavorazione alimentare, $u(a,b)$
 > $c$ limite massimo di legge
 > 

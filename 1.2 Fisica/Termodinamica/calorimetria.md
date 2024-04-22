@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-> [!esempio]
+> [!example]
 > Si considerino due sistemi che interagiscono tra di loro
 > inizialmente $T_{1} < T_{2}$, ma dopo aver messo in contatto i due corpi, si porteranno alla stessa temperatura $T_{e}$ tale che
 > $$ T_{1} < T_{e} < T_{2} $$

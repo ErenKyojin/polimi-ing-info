@@ -17,7 +17,7 @@ Possiamo arrangiare le derivate parziali nella [[matrice hessiana]]
 >[!def]
 >Se $f$ è derviabile due volte in $A$ e tutte le derivate parziali seconde sono continue in $A$ diciamo che $f$ è di [[classe C]]$^2$ in $A : f \in C^2(a)$
 
->[!oss]
+>[!remark]
 >In teoria se $f$ è definita per casi o se compare $t^\alpha$ con $\alpha \in (0,2)$ bisognerebbe verificare a mano la classe di appartenenza di $f$
 
 

@@ -11,12 +11,12 @@ Chiamiamo regolare una curva che ammette una prametrizzazione $\mathbf{r}(t)$ ta
 >\end{bmatrix} \neq \mathbf{0} \forall t$$
 
 
->[!oss]
+>[!remark]
 >tendenzialmente basta la prima condizione, inoltre:
 >$||\mathbf{r}'(t)|| = \sqrt{ r'_{1}(t)^2 + r'_{2}(t)^2 + r'_{3}(t)^2 } \neq 0 \forall t$
 >Se la curva è regolare
 
->[!oss]
+>[!remark]
 >Una curva regolare ammette sempre parametrizzazioni non regolare
 
 [[versore tangente]]

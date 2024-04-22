@@ -1,11 +1,11 @@
 In questa sezione vogliamo determinare i massimi ed i minimi di una funzione $f(x,y)$ quando $(x,y)$ verifica una condizione aggiuntiva della forma $$F(x,y) = 0$$
 cioè il vincolo è espresso come [[insieme]] di livello nullo di una funzione $F(x,y)$
 
->[!esempio] Vincolo circonferenza $F(x,y) = x^2 + y^2 - R^2$
+>[!example] Vincolo circonferenza $F(x,y) = x^2 + y^2 - R^2$
 
- >[!esempio] Vincolo triangolo $P_{1}, P_{2}, P_{3}$
+ >[!example] Vincolo triangolo $P_{1}, P_{2}, P_{3}$
  
- >[!esempio]
+ >[!example]
  >$$ f(x,y) = x^2 y $$
  >Vincolo $F(x,y) = 0$ con $F(x,y) = x^2 + y^2 - 1$
  >Chiamiamo $Z$ il vincolo nel piano $x,y$
@@ -39,7 +39,7 @@ cioè il vincolo è espresso come [[insieme]] di livello nullo di una funzione $
 > - punto di estremo vincolato: un massimo vincolato od un minimo vincolato
 
 
->[!esempio] Ottimizzazione con vincolo di uguaglianza tramite metodo di sostituzione
+>[!example] Ottimizzazione con vincolo di uguaglianza tramite metodo di sostituzione
 >
 >Nel modello di Cobb-Douglas si vuole massimizzare la funzione profitto
 > $$ P(x,y) = \sqrt{ xy } $$

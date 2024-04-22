@@ -41,7 +41,7 @@ E quindi la formula per il cambio di variabile è
 $$ \iint_{E} \! f(x,y)\, \mathrm{d}x \, \mathrm{d}y = \iint_{D} \!f(r \cos \theta, r \sin \theta)\fbox{$r$}\, \mathrm{d}r \, \mathrm{d}\theta $$
 Con $r$ evidenziato determinante della jacobiana
 
->[!esempio]
+>[!example]
 >$$ \iint_{E} \! \frac{xy^2}{x^2+y^2}\, \mathrm{d}x \, \mathrm{d}y = \iint_{D} \! r \cos \theta \sin^2 \theta\ r\, \mathrm{d}r \, \mathrm{d}\theta $$
 
 
@@ -83,7 +83,7 @@ Poichè il volume è base per altezza devo tener conto di come cambia la misura 
 
 - Se la trasformazione non è lineare approssimo con la derivata prima
 
->[!oss]
+>[!remark]
 >Condizione sulla trasformazione $\phi$ per poter fare il cambio di variabile nell'integrale $\phi$ di classe $C^1$ [[Funzione biunivoca|biunivoca]] tra aperti
 >$\det J_{\phi(u,v)} \neq 0$ e limitato $\forall u,v$
 >

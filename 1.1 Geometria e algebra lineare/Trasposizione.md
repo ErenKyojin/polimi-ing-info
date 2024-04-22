@@ -3,7 +3,7 @@
 
 La trasposizione è l'operazione che inverte le colonne con le righe e viceversa
 
->[!esempio]
+>[!example]
 >
 > $$ \begin{bmatrix}
 > 0 \\

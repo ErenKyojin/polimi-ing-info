@@ -5,7 +5,7 @@ flowchart LR
 ```
 I registri sono gli elementi di memoria della CPU
 
->[!esempio] Registri [[RISC-V]]
+>[!example] Registri [[RISC-V]]
 >32 registri generali in parola dobbia (64 bit) da x0 a x31, codificati in 5 bit
 >
 >Indirizzo | Registro (64 bit)

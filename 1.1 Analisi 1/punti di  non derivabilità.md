@@ -31,7 +31,7 @@ Se $f$ è continua in un punto $x_0$ e
 $$\lim_{h\to0}\frac{f(x_0+h)-f(x_0)}{h}=\infty\quad(\text{o}\ -\infty)$$
 $f$ non è derivabile in $x_0$ ma geometricamente il grafico di $f$ ha una tangente ben definita e parallela all'asse delle ordinate, ammettiamo comunque la scrittura $f'(x) = \pm\infty$ e parleremo di flesso a tangente verticale
 
->[!esempio] esempio - $\sqrt[3]{x}$
+>[!example] esempio - $\sqrt[3]{x}$
 >```desmos-graph
 >top = 3
 >bottom = -3

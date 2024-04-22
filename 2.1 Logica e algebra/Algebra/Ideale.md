@@ -9,7 +9,7 @@ creation date: 2023-12-06
 >$$ \forall a \in A, \forall i \in I,\qquad a\cdot i \in I\quad e \quad i \cdot a \in I $$
 
 
->[!oss]
+>[!remark]
 >Negli esercizi spesso va prima dimostrato che $I$ sia sottoanello (ovviamente se non già specificato2)
 
 

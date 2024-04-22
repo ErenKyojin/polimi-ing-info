@@ -4,7 +4,7 @@ alias: serie di Taylor, serie di MacLaurin, serie di Taylor-MacLaurin, sviluppi 
 # Formule di Taylor-MacLaurin con resto secondo peano
 Vogliamo generalizzare l'approssimazione per [[polimi-ing-info/1.1 Analisi 1/linearizzazione]] ad un'approssimazione polinomiale, vogliamo quindi sapere, data una funzione, derivabile quanto necessario, esiste un polinomio che intorno ad un punto fissato, approssima la funzione meglio della sua tangente?
 
->[!esempio]
+>[!example]
 >Prendiamo la funzione $\cos x$, è approssimata in $x=0$ dalla funzione $y = 1 - \frac{1}{2}x^2$ piuttosto che dalla retta $y = 1$
 >```desmos-graph
 >top = 1.5; bottom = -1.5; left = -2.5; right = 2.5
@@ -48,7 +48,7 @@ $$T_{n,x_0}(x) = \sum_{k = 0}^n\frac{f^{(k)}(x_0)}{k!}(x - x_0)^k$$
 >$$f(x) = T_{n,x_0}(x)+o((x-x_0)^n)\text{ per } x\to x_0$$
 
 
->[!esempiO]
+>[!example]
 >$f(x) = e^x$ quindi $f^{(n)}(x) = e^x\forall n$, quindi $f^{(n)}(0) = 1$ per ogni $n$:
 >$$e^x = T_{n,0}(x) = 1 + x + \frac{x^2}{2!}+\frac{x^3}{3!}+\ldots+\frac{x^n}{n!}+o(x^n)$$ 
 >per $x\to0$
@@ -64,7 +64,7 @@ In blu $e^x$, in verde $T_{3,0}$
 # formula di Taylor-MacLaurin con resto secondo Lagrange
 Nella formula con il resto secondo Peano l'errore è "dinamico", ossia cambia ed è sempre più veloce del più veloce incremento $(x-x_0)^n$, questo è utile nel calcolo dei limiti, ma per un valore fisso dell'incremento $(x-x_0)$ non abbiamo informazioni sull'entità dell'errore commesso. Noi vogliamo invece stimarlo in questi casi, facciamo un esempio
 
->[!esempio]
+>[!example]
 >Consideriamo il polinomio di MacLaurin di ordine $3$ di $e^x$
 >$$T_3(x) = 1 + x + \frac{1}{2}x^2+\frac{1}{6}x^3$$
 >Se volessimo usare questo fatto per calcolare ad esempio $\sqrt e$, ossia approssimassimo

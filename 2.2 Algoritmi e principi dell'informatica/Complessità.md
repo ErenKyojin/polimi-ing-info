@@ -16,7 +16,7 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 - ![[Complessità temporale]]
 - ![[Complessità spaziale]]
 
-> [!esempio] Riconoscimento di $\{ wcw^R \}$
+> [!example] Riconoscimento di $\{ wcw^R \}$
 > ```tikz
 > \usetikzlibrary{chains,fit,shapes}
 > \begin{document}
@@ -60,7 +60,7 @@ Cominciamo da un analisi di complessità per le MT (deterministiche):
 Cerchiamo un modo di semplificare:
 Definiamo la complessità in $f(x)$ come complessità in $f(n)$ con $n$ dimensione dei dati di ingresso
 
->[!esempio]
+>[!example]
 >- $n$ numero di lettere in una stringa
 >- $n$ numero di righe / colonne in una matrica
 >- $n$ numero di record di un file
@@ -82,7 +82,7 @@ Tendenzialmente è il **caso pessimo** quello di interesse, è sia più rilevant
 ## Tasso di crescita
 Il valore di $T_{M}(n)$ esatto non ci interessa, vogliamo solo sapere il suo tasso di crescita rispetto ad $n$, ossia il comportamento asintotico per $n$ grandi.
 
->[!esempio]
+>[!example]
 >Non ci interessa se $T_{M}(n) = 3n^2 + 12n + 35$ o se $T_{M}(n) = 6n^2 + 26$ in quanto entrambi si comportano come $n^2$, ne distinguere $T_{M}(n)=(0.001)n^2$ da $T_{M}(n) = 500!n^2$.
 >Vogliamo separare invece $T_{M}(n) = 3n^3 + 2$ da $T_{M}(n) = 12n^2 + 22n$.
 
@@ -117,7 +117,7 @@ allora $f(n) = O(g(n))$ ma $f(n) \neq \Theta(g(n))$ quindi $\Theta(f(n)) < \Thet
 
 Possiamo quindi sfruttare l'ordine di grandezza per evidenziare la parte più importante di una funzione di complessità.
 
->[!esempio]
+>[!example]
 >Tornando all'esempio precedente possiamo 
 > ```tikz
 > \usetikzlibrary{chains,fit,shapes}

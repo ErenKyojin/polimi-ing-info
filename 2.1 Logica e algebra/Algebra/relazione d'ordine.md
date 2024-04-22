@@ -12,7 +12,7 @@ modification date: 1682663220
 
 tramite la relazione d'ordine si definiscono gli [[insiemi parzialmente ordinati]]
 
->[!esempio]
+>[!example]
 >- la [[Relazioni|relazione]] $\leq$ è una relazione d'ordine totale su tutti gli insiemi numerici $\mathbb{N},\mathbb{Z},\mathbb{Q}, \mathbb{R}$
 
 La proprietà riflessiva può sembrare una richiesta un po' forte in quanto richiedendo questa proprietà non sono chiamate relazioni d'ordine la relazione $<$ in $\mathbb{N},\mathbb{Z},\mathbb{Q},\mathbb{R}$ e l'[[Inclusione]] forte $\subset$ di insiemi in $\mathcal{P}(A)$.
@@ -20,7 +20,7 @@ Alcuni testi non la richiedono, ma in tal caso risulta essere una relazione d'or
 
 Se $R$ è una relazione d'ordine su $A$ si usa per convenzione scrivere $a \leq b$ o $b \geq a$ per dire che $(a,b) \in R$
 
->[!oss]
+>[!remark]
 >Data una relazione $R$ non esiste in genere una relazione d'ordine che contenga $R$ perchè se $R$ non è antisimmetrica tutte le relazioni che contengono $R$ non sono antisimmetriche. Ci si potrebbe allora chiedere se una relazione antisimmetrica $R$ possa sempre essere contenuta in una relazione d'ordine. Poichè una relazione d'ordine è riflessiva e transitiva, se esistesse una relazione d'ordine contenente $R$, questa conterrebbe la [[Chiusura]] riflessiva e transitiva di $R$. Se tale chiusura non risulta antisimmetria è anche una relazione d'ordine e quindi abbiamo trovato una relazione d'ordine che contiene $R$ (che è tra l'altro la minima relazione d'ordine che contiene $R$)
 
 Quando si lavora con relazioni d'ordine $\leq$ su un insieme finito $A$, si utilizza spesso una versione semplificata del [[grafo di adiacenza]] di $\leq$, detto [[diagramma di Hasse]]

@@ -32,7 +32,7 @@ g_{p}(x,u)
 \end{bmatrix}
 \end{align} $$
 
->[!Oss]
+>[!remark]
 >l'equazione di uscita è un sistema statico, mentre l'equazione di stato è un sistema dinamico infatti no nci son oderivate
 
 ## Modello dinamico a tempo discreto
@@ -41,7 +41,7 @@ $y(k) = g(x(k),u(k),k)$
 
 Lo stato al tempo $k+1$ è funzione dello stato al tempo $k$, l'equazione di uscita è invece un legame istantaneo dello stato (come nel temop continuo)
 
->[!esempio] [[Equazione logistica]]
+>[!example] [[Equazione logistica]]
 >Modello di crecità della popolazione
 >$x(k + 1) = x(k) + rx(k)\left[ 1 - \frac{x(k)}{K} \right]$ implementando risorse limitate
 

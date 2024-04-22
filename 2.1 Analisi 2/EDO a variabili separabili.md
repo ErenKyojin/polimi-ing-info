@@ -21,7 +21,7 @@
 >```
 
 
->[!esempio]
+>[!example]
 >$$y'(t) = \frac{1}{t}\qquad h(t) = \frac{1}{t} \qquad g(y) = 1$$ 
 >$f$ è definita
 >$(\mathbb{R} \setminus \{0\}) \times \mathbb{R}$

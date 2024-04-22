@@ -15,7 +15,7 @@ Notiamo che:
 - minimo e massimo globale di $f$ se esistono sono unici
 - Massimi e minimi locali possono essere più di uno, ed ogni estremo globale lo è anche locale
 
->[!esempio]
+>[!example]
 >![[E197D5D5-E828-482F-BCDB-06CA2C452391.jpeg]]
 > La funzione a sinistra ha:
 > - Massimo globale in $M = f(x_2)$, $x_2$ unico punto di massimo globale

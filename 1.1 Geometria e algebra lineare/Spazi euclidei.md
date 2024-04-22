@@ -38,7 +38,7 @@ Sia $V$ [[Spazi vettoriali|spazio vettoriale]] su $\mathbb{R}$
 >>2. dal teorema di Carnot, essendo $\mathbf{v} \perp \mathbf{w}$ si ha: 
 >>   $$\|\mathbf{v} + \mathbf{w}\|^2 = \|\mathbf{v}\|^2 + \|\mathbf{w}\|^2 + 2<\mathbf{v},\mathbf{w}> = \|\mathbf{v}\|^2 + \|\mathbf{w}\|^2  $$
 >
->>[!corollario]
+>>[!cor]
 >>$<\mathbf{v},\mathbf{w}> = \frac{1}{2}(\|\mathbf{v}+\mathbf{w}\|^2 - \|\mathbf{v}\|^2 - \|\mathbf{w}\|^2)$ (conseguenza del teorema di carnot)
 
 >[!theorem] Teorema di pitagora generalizzato
@@ -73,7 +73,7 @@ Sia $(V,<,>)$ spazio euclideo per ogni $\mathbf{v},\mathbf{w} \in V$ si ha che:
 > &\implies \lvert \left< \mathbf{v},\mathbf{w} \right>  \rvert \leq \lvert \lvert \mathbf{v} \rvert  \rvert \lvert \lvert \mathbf{w} \rvert  \rvert 
 >\end{align} $$
 
->[!oss]
+>[!remark]
 >Possiamo dimostrare la disuguaglianza triangolare
 >$$\begin{align}
 > \lvert \lvert \mathbf{v} + \mathbf{w} \rvert  \rvert ^2 = \lvert \lvert \mathbf{v} \rvert  \rvert ^2 + \lvert \lvert \mathbf{w} \rvert  \rvert ^2 + 2 \left< \mathbf{v}, \mathbf{w} \right>  &\leq \lvert \lvert  \mathbf{v} \rvert  \rvert ^2 + \lvert \lvert \mathbf{w} \rvert  \rvert ^2 + 2\lvert \lvert \mathbf{v} \rvert  \rvert\ \lvert \lvert \mathbf{w} \rvert  \rvert  \\
@@ -89,7 +89,7 @@ Sia $(V,<,>)$ spazio euclideo per ogni $\mathbf{v},\mathbf{w} \in V$ si ha che:
 > Sia $(V,<,>)$ uno spazio Euclideo e $\dim(V)=n$. Sia $\mathcal{B} = \left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ una base di $V$. Diremo che $\mathcal{B}$ è base ortogonale se $\mathbf{b}_{i} \perp \mathbf{b}_{j} \forall i,j = 1,\dots,n$ e $i \neq j$. Se inoltre $\|\mathbf{b}_{i}\|=1\quad\forall i = 1,\dots,n$, diremo che la base è ortonormale
 > 
 
->[!esempio]
+>[!example]
 >Sia $V = \mathbb{R}^n$ munito del prodotto scalare standartd allora $\xi_{n} = \left\{ \mathbf{e}_{1},\dots,\mathbf{e}_{n} \right\}$ la base canonica è una base ortonormale
 
 

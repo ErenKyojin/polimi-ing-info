@@ -20,7 +20,7 @@ Quando un processo vuole accedere ad una pagina virtuale mappata su un file il s
 I dati vengono scritti sulla pagina fisica condivisa tramite la page cache quindi viene modificata la pagina fisica e marcata dirty, i processi che mappano tale pagina fisica vedono immediatamente le modifiche, la pagina modificata viene riscritta su file
 
 
->[!oss]
+>[!remark]
 >La VMA deve essere abilitata in scrittura, quindi
 >```c
 >base = mmap(mapaddress1, PAGESIZE * 3, PROT_WRITE, MAP_SHARED, fd, PAGESIZE) //PROT_WRITE al posto di PROT_READ
@@ -38,7 +38,7 @@ Meccanismo detto copy-on-write (COW) è necessario intercettare le scritture su 
 	- La scrittura effettuata da P viene applicata solo alla pagina fisica privata PFz
 	- La pagina fisica originale PFx ed il file F sono **inalterati**
 
->[!oss]
+>[!remark]
 >Per creare la VMA del processo P di tipo private bisogna:
 >```c
 >base = mmap(mapaddress1, PAGESIZE * 3, PROT_WRITE, MAP_PRIVATE, fd, PAGESIZE); //PROT_WRITE, MAP_PRIVATE

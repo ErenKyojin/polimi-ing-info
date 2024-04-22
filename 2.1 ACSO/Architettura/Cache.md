@@ -39,7 +39,7 @@ Dato un indirizzo di un blocco nella memoria principale, qual è la sua posizion
 
 
 ## - Cache a indirizzamento diretto
->[!esempio]
+>[!example]
 >Memoria: 32 blocchi
 >Cache: 8 blocchi
 >
@@ -64,7 +64,7 @@ Dati N bit per l'indirizzo di memoria dobbiamo dividerlo in 4 campi:
 - L'indice: indica l'indirizzo del blocco in Cache
 - Etichetta (Tag): Si confronta con il campo etichetta del blocco di cache selezionato dall'indice
 
->[!esempio]
+>[!example]
 >- Indirizzo di memoria N = 32 bit
 >- Dimensione cache = 4K Byte
 >- Dimensione blocco = 1 parola $\implies$ K = 0
@@ -76,7 +76,7 @@ Dati N bit per l'indirizzo di memoria dobbiamo dividerlo in 4 campi:
 ## - Cache completamente associativa
 Il blocco può essere inserito ovunque nella cache, dobbiamo quindi esaminare ogni blocco della cache tramite tag, non esiste il campo indice e abbiamo solo tag e offset, ed il tag coincide con l'indirizzo
 
->[!esempio]
+>[!example]
 > - N = 32 bit
 > - Dim cache = 256 Byte
 > - Dim blocco = 128 bit = 16 Byte
@@ -85,7 +85,7 @@ Il blocco può essere inserito ovunque nella cache, dobbiamo quindi esaminare og
 
 ## - Cache set associativa a $n$ vie
 
->[!esempio] esempio a 2 vie
+>[!example] esempio a 2 vie
 >Memoria: 32 blocchi
 >Cache: 8 blocchi
 >
@@ -108,13 +108,13 @@ numero di set = dim cache / (n * dim blocco)
 Ogni blocco di memoria è un unico [[insieme]] della cache di indirizzo:
  $$\text{ind set = ind blocco$_{mem}$ $\mod{(\text{num set})}$}$$
  L'indirizzo è assolutamente analogo a quello della cache ad indirizzamento diretto, ed in effetti:
->[!oss]
+>[!remark]
 >La cache set associativa ad $n$ vie è essenzialmente equivalente ad avere $n$ cache ad accesso diretto
 
 
 
 
->[!oss]
+>[!remark]
 >All'aumentare dell'associatività diminuisce la percentuale di miss rate:
  >
  > | n | miss rate |

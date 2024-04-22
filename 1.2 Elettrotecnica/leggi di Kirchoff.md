@@ -19,7 +19,7 @@ Dove si è definita la tensione magnetica sul tratto $A \to B$ come
 $$v_{H_{BA}} = - \int^{A}_{B} \! \bar{H} \cdot \d\bar{l} = -v_{H_{AB}}$$
 
 
->[!esempio]
+>[!example]
 >![[Pasted image 20220830175258.png]]
 >Considerando il circuito in figura si ha che
 >$$\oint_{\gamma}\!\bar{H} \cdot \d \bar{l} = N_{4}i_{4}$$

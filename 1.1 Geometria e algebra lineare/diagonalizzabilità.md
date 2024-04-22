@@ -5,7 +5,7 @@ alias: diagonalizzabile
 >$A \in M_{\mathbb{K}}(n,n)$ è diagonalizzabile su $\mathbb{K}$ se esiste $S \in M_{\mathbb{K}(n,n)}$ [[Matrice inversa|invertibile]] tale che $S^{-1}AS = \diag(\lambda_{1},\dots,\lambda_{n})$ dove $\lambda_{1},\dots,\lambda_{n} \in \mathbb{K}$
 
 
->[!proposizione] Proposizione 1
+>[!proposition] Proposizione 1
 >$A \in M_{\mathbb{K}(n,n)}$ è diagonalizzabile su $\mathbb{K}$ se e solo se esiste una [[Base]] $\mathcal{B} = \left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ di $\mathbb{K}^n$ formata da [[Autovalori e Autovettori|autovettori]] di $A$
 >
 >>[!dim]
@@ -15,7 +15,7 @@ alias: diagonalizzabile
 >>  Si ha che $S$ è invertibile inoltre $A\mathbf{b}_{i} = \lambda_{i}\mathbf{b}_{i}$ quindi $AS = [\lambda_{1}\mathbf{b}_{1}|\dots|\lambda_{n}\mathbf{b}_{n}] = SD$ dove $D = \diag(\lambda_{1},\dots,\lambda_{n})$. In conlusione si ha $S^{-1}AS=D$ e $A$ è diagonalizzabile
 >>  $\CVD$
 
->[!oss]
+>[!remark]
 >1. 0 è autovalore di $A \in M_{\mathbb{K}(n,n)}$ se e solo se $\ker(A) = \ker(A - 0\mathbb{1}_{n}) \neq \left\{ \mathbf{0} \right\}$
 >2. Se $A \in M_{\mathbb{R}(n,n)}$ è diagonalizzabile su $\mathbb{R}$ allora $A$ è diagonalizzabile su $\mathbb{C}$. Il viceversa non è vero. Se $A$ è diagonalizzabile in $\mathbb{C}$ allora $\exists S \in M_{\mathbb{C}(n,n)}$ e $\lambda_{1},\dots,\lambda_{n} \in \mathbb{C}$ tale che $S^{-1}AS = \diag(\lambda_{1},\dots,\lambda_{n})$. In questo caso $A$ non è detto che sia diagonalizzabile in $\mathbb{R}$. Ad esempio: $$A = \begin{bmatrix}
 >	0 & 1 \\
@@ -120,17 +120,17 @@ alias: diagonalizzabile
 >>Viceversa se $m_{a}(\lambda_{1}) + \dots + m_{a}(\lambda_{r}) = n$ e $m_{a}(\lambda_{i})=m_{g}(\lambda_{i}) \forall i = 1,\dots,r$ allota $N=m_{g}(\lambda_{1}) + \dots + m_{g}(\lambda_{r}) = n$
 >>$\CVD$
 
->[!esempio]
+>[!example]
 >1. Verificare se $A = \begin{bmatrix}3 & 1\\0 & 3\end{bmatrix}$ è diagonalizzabile, calcoliamo il polinomio caratteristico $p_{\lambda}=\det(A - \lambda \mathbb{1}_{2})=(3-\lambda)^2$, quindi $\lambda=3$ è autovalore con molteplicità geometrica $2$. Quindi la prima proprietà del precedente teorema è soddisfatta. Tuttavia $3$ non è autovalore regolare, infatti:
 >  $m_{g}(3) = \dim(V_{3}) = \dim(\ker(A - 3\mathbb{1})) = \dim \left( \ker \left( \begin{bmatrix}0 &1\\0&0\end{bmatrix} \right) \right) = 2 - 1 = 1 \neq m_{a}(3) = 2$ quindi non esiste una base di $\mathbb{R}^2$ di autovettori di $A$. Possiamo calcolare esplicitamente l'autospazio di $3$.
 >  $$ V_{3} = \ker(A - 3\mathbb{1}_{n}) = \ker \left( \begin{bmatrix}0 &1 \\1&0\end{bmatrix} \right) = \Span \left( \begin{bmatrix}1\\0\end{bmatrix} \right)  $$
 
 
->[!oss]
+>[!remark]
 >Calcolare la potenza $n$-esima di una matrice $A \in M_{\mathbb{K}}(n,n)$ puó essere un processo tedioso e complesso. Se $A$ è diagonalizzabile peró i conti si possono rendere molto piú semplici. Se $A$ è diagonalizzabile esiste $S \in M_{\mathbb{K}(n,n)}$ invertibile tale che:
 > $$ D = S^{-1}AS \implies A = SDS^{-1} \implies A^n = (SD\cancel{ S }^{-1})(\cancel{ S }D\cancel{ S }^{-1})\dots(\cancel{ S }DS^{-1}) = SD^nS^{-1} $$
 
->[!esempio]
+>[!example]
 >Posto $A = \begin{bmatrix}2 & 1 \\1 & 2\end{bmatrix}$ una base di autovettori di $A$ è $\mathcal{B}=\left\{ \begin{bmatrix}1\\-1\end{bmatrix}, \begin{bmatrix}1 \\1\end{bmatrix} \right\}$. Posto $S = \begin{bmatrix}1 & 1\\-1 & 1\end{bmatrix}$ si ha che $D = \begin{bmatrix}1 & 0 \\0 & 3\end{bmatrix} = S^{-1}AS$ con $S^{-1} = \begin{bmatrix}1/ 2 & -1/ 2 \\1/ 2 & 1 / 2\end{bmatrix}$. Dunque
 > $$ \begin{align}
 >A^n = SD^nS^{-1} &= \begin{bmatrix}
@@ -163,7 +163,7 @@ Se e solo esistono $n$ autovettori di $A$ che formano una base di $\mathbb{R}^n$
 
 $\lambda$ Autovalore di A si dice regolare se la sua [[molteplicità algebrica]] coincide con la [[molteplicità geometrica]], ossia
 
->[!oss]
+>[!remark]
 >$$ p(\lambda) = \det(A - \lambda I) = c(\lambda-\lambda_{1})^{\alpha_{1}}(\lambda-\lambda_{2})^{\alpha_{2}}\dots(\lambda-\lambda_{k})^{\alpha_{k}} $$
 >Con $\alpha_{1}+\alpha_{2}+\dots+\alpha_{k} = n$
 >
@@ -191,7 +191,7 @@ E la matrice diagonale di $A$ è la matrice diagonale con gli autovalori presi c
 >$$ \mathbf{y}_{o}(t) = c_{1}e^{\lambda_{1}}\mathbf{v}_{1} + \dots+ c_{n}e^{\lambda_{n}t}\mathbf{v}_{n}\qquad(c_{1},\dots,c_{n} \in \mathbb{R})$$
 >
 
->[!oss]
+>[!remark]
 >$A\quad n \times n$ diagonalizzabile reale $\Rightarrow$ soluzioni esponenziali $\Rightarrow$ Generalizzando il caso $\Delta > 0$ delle [[EDO del secondo ordine]] lineari
 
 

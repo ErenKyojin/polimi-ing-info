@@ -5,7 +5,7 @@
 >  $$ t_{1}\mathbf{v}_{1} + \dots + t_{d}\mathbf{v}_{d} = \mathbf{0} \text{ e } t_{i} \neq 0 \text{ per qualche } i = 1,\dots,d$$
 >
 
->[!esempio] esempi
+>[!example] esempi
 >1. $d = 1$
 >	Abbiamo un solo vettore:
 >	- se $\mathbf{v}_{1} \neq \mathbf{0}, t_{1} \cdot \mathbf{v}_{1} = \mathbf{0} \implies t_{1} = 0$, quindi $\mathbf{v}_{1}$ è linearmente indipendente
@@ -57,13 +57,13 @@ $$ A = \begin{bmatrix}
 \end{bmatrix}$$
 	$r(A)=2 \implies p_{1}(x),p_{2}(x)$ linreamente indipendenti
 
->[!proposizione]
+>[!proposition]
 >Se $d \geq 2, \mathbf{v}_{1},\dots,\mathbf{v}_{d}$ sono linearmente indipendenti se e solo se $\mathbf{v}_{1},\dots,\mathbf{v}_{d-1}$ sono linearmente indipendenti e $\mathbf{v}_{d}$ non è combinazione lineare di $\mathbf{v}_{1},\dots,\mathbf{v}_{d-1}$
 >
 >>[!dim]
 
 
->[!proposizione] Proposizione 1
+>[!proposition] Proposizione 1
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e siano $\mathbf{v}_{1},\dots,\mathbf{v}_{d} \in V$ vettori fissati allora si ha che la mappa di parametrizzazione associata a $\mathbf{v}_{1},\dots,\mathbf{v}_{d} :$ $$\begin{align}
 >\mathcal{P} &: \mathbb{K}^d \to V \\
 >&\begin{bmatrix}
@@ -83,14 +83,14 @@ t_{d}
 >> Quindi $\text{Ker}(\mathcal{P}) = \left\{ \mathbf{0} \right\} \iff \mathbf{v}_{1},\dots,\mathbf{v}_{d}$ sono linearmente indipendenti
  
 
->[!proposizione] Proposizione 2
+>[!proposition] Proposizione 2
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e siano $\mathbf{b}_{1},\dots,\mathbf{b}_{n}$ vettori fissati di $V$. allora $\mathcal{B} = {\mathbf{b}_{1},\dots,\mathbf{b}_{n}}$ è una [[Base]] se e solo se:
 >1. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è linearmente indipendente
 >2. $\left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ è un [[insieme]] di generatori per $V$ ($\Span(\mathbf{b}_{1},\dots,\mathbf{b}_{n}) = V$)
 >
 >>[!dim]
 
->[!proposizione] Proposizione 3
+>[!proposition] Proposizione 3
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L} : V \to W$ applicazione lineare iniettiva. Se $\{\mathbf{v}_{1},\dots,\mathbf{v}_{d}\} \subseteq V$ è linearmente indipendente allora
 >$\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\} \leq W$ è linearmente indipendente
 >>[!dim]

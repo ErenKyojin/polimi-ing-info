@@ -5,7 +5,7 @@ slli rd, rs1, k ; rd <-- rs1 << k, shift left k bit, ossia moltiplica per 2^k
 slrd rd, rs1, k ; rd <-- rs1 >> k, shift right k bit, ossia moltiplica per k^{-2} bit
 ```
 
->[!esempio]
+>[!example]
 >```armasm
 >slli  s0, s0, 2    ; shift left due bit
 >```

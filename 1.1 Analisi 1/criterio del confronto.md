@@ -19,7 +19,7 @@ Inoltre la serie $b_n$ viene detta maggiorante, la serie $a_n$ viene detta minor
 Se le due successioni a termini positivi $\{a_n\},\{b_n\}$ sono asintotiche
 $$a_n \sim b_n$$
 Allora le corrispondenti serie $\sum a_n,\sum b_n$ hanno lo stesso carattere, ossia sono entrambe convergenti o divergenti
->[!esempio]
+>[!example]
 > - La serie $\sum_{n = 1}^\infty\frac{1}{n^2}$ converge in quanto $\frac{1}{n^2}\sim\frac{1}{n(n+1)}$ e la [[serie notevoli|serie di mengoli]] $\sum \frac{1}{n(n+1)}$ converge.
 > - La serie $\sum \frac{1}{n^\alpha}$ con $\alpha \geq 2$ converge per il criterio del confronto, infatti $\frac{1}{n^\alpha} \leq \frac{1}{n^2}$ e $\sum \frac{1}{n^2}$ converge, sappiamo quind il carattere della serie armonica per $\alpha \leq 1$ (divergente) e per $\alpha \geq 2$ (convergente), si può infine dimostrare che per $1<\alpha<2$ converge, quindi
 > $$\sum \frac{1}{n^\alpha}\text{ converge se $\alpha > 1$, diverge se $\alpha \leq 1 $}$$

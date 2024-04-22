@@ -1,7 +1,7 @@
 ---
 alias: autovalori, autovettori, autospazi, autovalore, autovettore, autospazio
 ---
->[!esempio]
+>[!example]
 >Nel piano fissiamo un sistema di riferimento ortogonale ed una retta $r$ per l'origine. Sia $S : \mathbb{R}^2 \to \mathbb{R}^2$ la riflessione ortogonale rispetto alla retta $r$	.
 >Vogliamo determinare la [[matrice rappresentativa]] di $S$ rispetto alla [[base canonica]].
 > ```tikz
@@ -75,7 +75,7 @@ $$ \diag(\lambda_{1},\dots,\lambda_{n}) := \begin{bmatrix}
 \end{bmatrix}$$
 
 
->[!proposizione]
+>[!proposition]
 >Sia $V$ spazio vettoriale su $\mathbb{K}, \dim(V)=n$, sia $\mathcal{B}=\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{n} \right\} \subseteq V$ una [[Base]] di $V$ allora
 > $$ M_{\mathcal{B}}^\mathcal{B} =\diag(\lambda_{1},\dots,\lambda_{n}) \iff \mathcal{L}(\mathbf{v}_{1}) = \lambda_{i}\mathbf{v}_{i} \forall i = 1,\dots,n $$
 >
@@ -109,7 +109,7 @@ $$ \diag(\lambda_{1},\dots,\lambda_{n}) := \begin{bmatrix}
 > 
 >$\lambda$ si chiama autovalore di $\mathcal{L}$ relativo all'autovettore $\mathbf{v}$
 
->[!oss]
+>[!remark]
 >nell'esempio ad inizio file $\mathbf{b}_{1}$ è autovettore per $S$ ($S(\mathbf{b}_{1}) = 1\mathbf{b}_{1}$) e $1$ è l'autovalore ad esso associato, anche $\mathbf{b}_{2}$ è autovettore per $S$ $(S (\mathbf{b}_{2}=-1 \mathbf{b}_{2}))$ e $-1$ è l'autovalore ad esso associato
 
 
@@ -139,7 +139,7 @@ $\lambda_{0}$ è un autovalore di $A$ se $\ker(A - \lambda_{0}\mathbb{1}_{n}) \n
  $$ (A - \lambda_{0}\mathbb{1}_{n})\mathbf{x}=\mathbf{0} $$Il polinomio $p_{A}(\lambda) = \det(A - \lambda \mathbb{1}_{n})$ è detto **polinomio caratteristico** di $A$. L'equazione
  $\det(A - \lambda \mathbb{1}_{n}) = 0$ si dice equazione caratteristica di $A$
 
->[!esempio]
+>[!example]
 >Determiniamo gli autovalori e gli autovettori di $A = \begin{bmatrix}2 & 1 \\1 & 2\end{bmatrix}$
 > $$p_{\lambda} = \det(A - \lambda\mathbb{1}_{2}) = \begin{vmatrix}
 >2-\lambda & 1 \\
@@ -190,7 +190,7 @@ $\lambda_{0}$ è un autovalore di $A$ se $\ker(A - \lambda_{0}\mathbb{1}_{n}) \n
 >\end{align} $$
 
 
->[!oss]
+>[!remark]
 >La proposizione $1$, nel caso in  cui $\mathcal{L}$ sia un'applicazione lineare: $$\begin{align}
 >\mathcal{L}_{A} : \mathbb{K}^n &\to \mathbb{K}^n \\
 >\mathbf{x} &\mapsto A\mathbf{x}

@@ -9,10 +9,10 @@ E quindi possiamo scrivere
 $$ \Lambda_{B} = u_{0} \int _{S} \!\bar{\jmath} \cdot \, \hat{u}_{N}\mathrm{d}S  $$
 Il ersore $\hat{u}_{N}$ che indica l'ordintamento di $S$ va orientata come il verso positivo delle correnti.
 
->[!oss]
+>[!remark]
 >La circolazione in un campo magnetico non è nulla e quindi non ammette un potenziale magnetico nello stesso senso in cui il campo elettrico ammette un potenziale elettrico
 
->[!esempio]
+>[!example]
 >La legge di Ampere applicata ad un Toro circondato da $N$ spire ugualmente distanziate ci da un valore costante del campo magnetico all'interno del toro $B = \mu_{0}nI$ con $n = \frac{N}{L}$ con $L$ cerchio contenuto nel toro, mentre per qualsiasi percorso al di fuori del toro $B = 0$
 
 [[Flusso magnetico]]  

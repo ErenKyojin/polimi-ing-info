@@ -91,15 +91,15 @@ $$
 \end{align}
 $$
 
->[!oss]
+>[!remark]
 >Il moto è uniformemente accelerato ed il diagramma spazio-tempo è di tipo parabolico
 
->[!oss]
+>[!remark]
 >Nota la lunghezza $L$ del piano inclinato possiamo determinare l'intervallo di tempo $t_{f}$ che il corpo impiega a percorrerlo e quindi la sua velocità finale $v_{f}$:
 > $$
 > L = \frac{h}{\sin \alpha} = \frac{1}{2}g\sin \alpha t^2_{f} \implies t_{f} = \sqrt{ \frac{2h}{g\sin^2 \alpha} }\qquad v_{f} = v(t_{f})= \sqrt{ 2gh }
 >$$
 
->[!oss]
+>[!remark]
 >La velocità finale non dipende ne dalla massa ne dall'inglinazione, è la stessa di un peso in caduta libera dalla quota $h$.
 

@@ -29,7 +29,7 @@ Un processo è in esecuzione in [[modo]] S quando il Sistema operativo è in ese
 - Attesa: un processo è in attesa se non si può mandare in esecuzione perchè sta attendendo un evento (ad esempio un input dell'utente)
 
 
->[!esempio]
+>[!example]
 >
 >```mermaid
 >graph TB
@@ -56,7 +56,7 @@ Lo scheduler del sistema operativo stabilisce quale dei processi accodati nello 
 
 
 Quindi
->[!oss]
+>[!remark]
 >Un processo di stato di esecuzione abbandona il processo:
 >- o per l'attesa di un evento
 >- o per il termine del quanto di tempo

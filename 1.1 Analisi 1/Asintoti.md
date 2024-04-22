@@ -2,7 +2,7 @@
 Si dice che $f$ ha un asintoto orizzontale di equazione $y = l$ con $l \in \mathbb R$ per $x \to +\infty$ oppure per $x\to-\infty$ se $\lim_{x\to+\infty}f(x) = l$ oppure $\lim_{x\to-\infty} f(x) = l$ rispettivamente.
 Ogni situazione di [[Limite]] finito, all'infinito, è un asintoto orizzontale
 
->[!esempio]
+>[!example]
 >```desmos-graph
 >y = \ln(x)
 >```

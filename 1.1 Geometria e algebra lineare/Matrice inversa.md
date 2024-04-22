@@ -21,7 +21,7 @@ Per farlo abbiamo determinare alcune cose:
 >A è invertibile se ammette una matrice inversa
 
 
->[!proposizione]
+>[!proposition]
  >1. $B$ e $C$ sono rispettivamente inversa destra e sinistra di $A$ allora $B = C$
 >
 > 2. Se $A$ è invertibile allora $A$ ammette un'unica matrice inversa che si denota con $A^{-1}$
@@ -66,7 +66,7 @@ Per farlo abbiamo determinare alcune cose:
 >>Sia $A'$ l'inversa destra di $A$ allora per definizione $A \cdot A' = \mathbb{1}_{n} \implies A'$ ammette un'inversa sinistra $\implies A'$  ammette un'inversa destra $A'': A' \cdot A'' = \mathbb{1}_{n} \implies A = A''$ quindi $A \cdot A' = A' \cdot A = \mathbb{1}_{n}$ quindi $A$ è invertibile
 
 
->[!proposizione]
+>[!proposition]
 >Date $A,B \in M_{\mathbb{K}(n,n)}$ allora $A \cdot B$ è invertibile se e solo se $A$ è invertibile e $B$ è invertibile. In tal caso $(A \cdot B)^{-1} = B^{-1}\cdot A^{-1}$
 >
 >>[!dim]
@@ -78,7 +78,7 @@ Per farlo abbiamo determinare alcune cose:
 >Quindi per il teorema precedente $A$ è invertibile
 
 
->[!oss] oss (inversa della [[Trasposizione|trasposta]])
+>[!remark] oss (inversa della [[Trasposizione|trasposta]])
 > $$ (A^{-1})^{T} = (A^T){-1} \text{  infatti  } (A^{-1})^{T} \cdot A^{T} = (A \cdot A^{-1})^{T} = \mathbb{1}_{n} $$
 
 ## determinare l'inversa

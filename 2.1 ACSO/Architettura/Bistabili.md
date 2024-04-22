@@ -46,7 +46,7 @@ Quindi se S = R = 0, l'uscita Q ammette 2 stati stabili:
 - Se S = 0, R = 1, $Q_{t+1}=0$ a prescindere
 - Se S = 1, R = 1, il sistema non è definito, in teoria dovremmo avere $Q = 0$ e $\overline{Q} =0$
 
->[!oss] ritardo di propagazione di un bistabile SR asincrono
+>[!remark] ritardo di propagazione di un bistabile SR asincrono
 >![[Pasted image 20221010183149.png|200]]
 
 >[!error] Problema
@@ -167,7 +167,7 @@ logic ports/fill = darkgray,
 ```
 
 
->[!oss]
+>[!remark]
 >I [[latch]] (ossia i bistabili con [[relazione stato uscita]] basata sul livello del clock) sincroni, presentano durante l'intervallo di tempo in cui il clock è attivo, un fenomeno detto "trasparenza delle uscite".
 >Ossia durante ogni ciclo di clock se gli ingressi si modificano anche le uscite possono cambiare, per questo si introducono i [[flipflop D master-slave]]
 

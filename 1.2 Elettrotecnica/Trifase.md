@@ -25,7 +25,7 @@ $$ \begin{align}
 \bar{v}_{ca} = \sqrt{ 3 }e^{-j \pi/6}\bar{v}_{cn}
 \end{align} $$
 
->[!oss]
+>[!remark]
 >Le tensioni a triangolo sono scalate di $\sqrt{ 3 }$ in modulo, e sono in anticipo di $\dfrac{\pi}{6}$ rispetto alla tensione a stella (rispettivamente in ritardo per la sequenza negativa)
 
 Infine per passare dalla configurazione a triangolo a quella a stella abbiamo, in caso di sequenza positiva:
@@ -42,7 +42,7 @@ $$ \begin{align}
 \end{align}  $$
 
 
->[!oss]
+>[!remark]
 >Le tensioni a stella sono scalate di un fattore $\frac{1}{\sqrt{ 3 }}$ in modulo e ciascuna è in ritardo di $\dfrac{\pi}{6}$ rispetto alla corrispondente tensione a triangolo nel caso di sequenza positiva (anticipo in caso di sequenza negativa)
 
 

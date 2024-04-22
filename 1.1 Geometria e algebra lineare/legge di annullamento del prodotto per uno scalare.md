@@ -11,7 +11,7 @@ modification date: 2023-07-07 09:14
 >>Se $t \neq 0$, allora $\mathbf{0} = 1/t \cdot \mathbf{0} = 1 / t \cdot(t\cdot \mathbf{v}) = (1 / t \cdot t) \cdot \mathbf{v} = 1 \cdot \mathbf{v} = \mathbf{v}$
 >>$\CVD$
 
->[!oss]
+>[!remark]
 >$$\begin{align}
 > &(-1) \cdot \mathbf{v} = - \mathbf{v} \qquad((-1)\cdot \mathbf{v} \text{ è l'opposto di $\mathbf{v}$, infatti}) \\ 
 > &\mathbf{v} + (-1)\cdot v = 1 \cdot \mathbf{v} + (-1) \cdot \mathbf{v} = (1 - 1) \cdot \mathbf{v} = 0 \cdot \mathbf{v} = \mathbf{0}

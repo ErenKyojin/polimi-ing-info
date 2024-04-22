@@ -22,7 +22,7 @@ Quando [[PFRA]] chiede di deallocare una pagina fisica (swap_out):
 
 Negli esercizi lo SWPN delle pagine swappate è indicato nella TP preceduto da una **S** per distinguerlo da un normale NPF
 
->[!esempio]
+>[!example]
 >Un processo swappa d0 nel page slot 1, nella TP ci sarà <d0:s1>
 
 

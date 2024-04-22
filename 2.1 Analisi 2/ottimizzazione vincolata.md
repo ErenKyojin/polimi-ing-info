@@ -13,7 +13,7 @@ Strategia:
 >[!success] Buona notizia
 >In ottimizzazione vincolata solitamente è richiesto di determinare solo massimo e minimo assoluti
 
->[!oss]
+>[!remark]
 Se il vincolo è :
 > - lineare $\implies$ sostituzione
 > - non lineare $\implies$ [[Moltiplicatori di Lagrange]]

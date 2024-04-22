@@ -21,7 +21,7 @@ Formula di eulero
 $$ \fbox{$e^{ix}=\cos x + i \sin x\qquad \forall x \in \mathbb{R}$} $$
 
 
->[!oss]
+>[!remark]
 >$$e^{-ix} = e^{i(-x)} = \cos(x) - i\sin(x)$$
 >Notiamo quindi che $e^{ix} + e^{-ix} = 2\cos x$, quindi
 >$$ \cos(x) = \frac{e^{ix} + e^{-ix}}{2} $$

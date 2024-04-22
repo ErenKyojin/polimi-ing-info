@@ -31,7 +31,7 @@ Se $X$ è una variabile aleatoria discreta con densità $p_{X}$ e media $E(X) = 
 
 ## Proprietà della varianza
 
->[!proposizione]
+>[!proposition]
 >Sia $X$ una variabile aleatoria allora
 >1. $\var(X) = 0$ se e solo se $P(X = c) =1$ per qualche costante $c$. In questo caso $c = E(X)$
 >2. Se $X$ ammette varianza e $\alpha \in \mathbb{R}$ allora $\var(\alpha X) = \alpha^2\var(X)$

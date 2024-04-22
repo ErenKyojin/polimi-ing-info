@@ -7,7 +7,7 @@ $N,D$ polinomio in $s$
 
 Idea: scomponiamo $V(s)$ #todo 
 
-> [!esempio]
+> [!example]
 > 
 > $$V(S) = \frac{s+2}{s(s+1)(s+3)}\qquad v(t)?$$
 > 1. Scrivo $v(s) = \frac{\alpha}{s } + \frac{\beta}{s+1} + \frac{\gamma}{s + 3}$
@@ -36,7 +36,7 @@ radici di $D(s)$ sono poli della trasformata di Laplace
 	- I casi complessi non li trattiamo
 - Si antitrasformano gli addendi e si somma
 
-> [!esempio]
+> [!example]
 > 
 > $$
 > V(s) = \frac{2}{(s-1)^2(s+2)}\quad v(t)?
@@ -57,7 +57,7 @@ radici di $D(s)$ sono poli della trasformata di Laplace
 > \bigg(&-\frac{2}{9}e^t + &&\frac{2}{3}te^t + &\frac{2}{4}e^{-2t}\bigg)\text{sca}(t)
 > \end{align}$$
 
-> [!esempio]
+> [!example]
 > ```tikz
 > \begin{document}
 > \begin{tikzpicture}

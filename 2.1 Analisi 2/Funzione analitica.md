@@ -22,7 +22,7 @@ Se $f$ è analitica in $(a,b)$
 >Inoltre detto $R$ il raggio di convergenza della serie, l'identità è verificata per ogni $x \in (x_{0}- R, x_{0}+R)$ 
 
 
->[!esempio]
+>[!example]
 >Serie espononenziale
 
 

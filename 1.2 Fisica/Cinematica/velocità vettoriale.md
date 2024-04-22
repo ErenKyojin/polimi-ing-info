@@ -24,13 +24,13 @@ $$
 \end{align}
 $$
 
->[!oss] Scomposizione della velocità vettoriale istantanea in componenti cartesiane
+>[!remark] Scomposizione della velocità vettoriale istantanea in componenti cartesiane
 >Dall'espressione del vettore posizione in componenti cartesiani ricaviamo immediatamente
 > $$
 > \overrightarrow{v} = \frac{dx}{dt}  \hat{u}_{x} + \frac{dy}{dt} \hat{u}_{y} + \frac{dz}{dt} \hat{u}_{z} = v_{x}\hat{u}_{x} + v_{y}\hat{u}_{y} + v_{z}\hat{u}_{z}
 >$$
 
->[!oss] Proprietà di tangenza della velocità vettoriale istantanea alla traiettroia del [[moto]]
+>[!remark] Proprietà di tangenza della velocità vettoriale istantanea alla traiettroia del [[moto]]
 > Nella definizione di velocità vettoriale, passando al [[Limite]] per $\Delta t \to 0$  si ha che lo spostamento diventa tangenta alla traiettoria, e quindi anche la velocità vettoriale istantanea risultà sempre essere tangente alla traiettroia
 
 
@@ -58,7 +58,7 @@ $\xrightarrow{\Delta t \to 0}$
 
 
 
->[!oss] Legame tra velocità vettoriale e velocità scalare istantanee.
+>[!remark] Legame tra velocità vettoriale e velocità scalare istantanee.
 >Definiamo [[versore tangente]] il versore $\hat{u}_{T}$, tangente punto per punto alla [[Traiettoria]] con verso concorde a quello scelto per la misura dell'[[ascissa curvilinea]] $s$.
 >Osserviamo che
 > $$
@@ -66,7 +66,7 @@ $\xrightarrow{\Delta t \to 0}$
 >$$
 >Cioè la velocità vettoriale ha per modulo il modulo della velocità scalare
 
->[!oss] Determinazione della legge oraria della velocità vettoriale istantanea
+>[!remark] Determinazione della legge oraria della velocità vettoriale istantanea
 >Se conosciamo la posizione iniziale $\overrightarrow{r}_{0}$ e l'andamento nel tempo della velocità vettoriale istantanea $\vec{v}(t)$ possiamo ricavare la legge orario $\vec{r} = \vec{r}(t)$ esattamente come nel caso scalare
 > $$
 > \Delta \vec{r}_{tot}= \sum_{i}\Delta \vec{r}_{i} = \sum_{i}\vec{v}_{m,i}\Delta t_{i} \implies \vec{r}(t) = \overrightarrow{r}_{0} + \int _{t_{0}}^t \!\vec{v}(t') \, \mathrm{d}t' 

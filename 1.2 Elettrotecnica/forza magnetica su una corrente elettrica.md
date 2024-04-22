@@ -13,10 +13,10 @@ $$ \bar{F} = \int_{V}   \!\bar{\jmath} \times \, \bar{B} \mathrm{d}V  $$
 Se vi è corrente in un filo di lunghezza $L$, un elemento di volume $\d V$ è dato da $S\d l$ ed il vettore densità di corrente $\bar{\jmath}$ ha la direzione del versore $\hat{u}_{T}$ tangente all'asse del filamento. Pertanto assumendo l'intensità di corrente $I$ lungo il filo uguale in tutti i punti del conduttore l'equazione dà
 $$ \bar{F} = \int _{V} \! \jmath\hat{u}_{T} \times  \, \bar{B}S \mathrm{d}l  = \int _{V} \! \underbrace{ \jmath S }_{ I } \hat{u}_{T} \times \, \bar{B}\mathrm{d}l = I \int _{L} \hat{u}_{T} \times \! \, \bar{B}\mathrm{d}l  $$
 
->[!esempio]
+>[!example]
 >Nel caso di conduttore rettilineo e di campo magnetico $\bar{B}$ costante l'intensità della forza è $F = ILB\sin \theta$ mentre la direzione è perpendicolare al piano definito da $\hat{u}_{T}$ e $\bar{B}$ 
 
->[!oss]
+>[!remark]
 >Data una spira chiusa (consideriamola rettangolare) in cui scorre corrente, con la normale (orientata con la regola della mano destra rispetto alla corrente che scorre nella spira) al piano della spira orientata che forma un angolo $\theta$ con la direzione del campo, mentre due dei quattro lati del circuito sono perpendicolari al campo stesso, le forze sui due lati perpendicolari generano una coppia, mentre le forze sugli altri due lati non producono nessuna coppia. Quindi la spira tende ad autoorientarsi perpendicolarmente a $\bar{B}$
 
 [[legge di Ampère-Laplace]] 

@@ -26,7 +26,7 @@ Se $X$ assume un numero finito di valori questa serie è la somma finita sicuram
 ## Valore atteso di funzioni di variabili aleatorie
 Sia $X$ una variabile aleatoria, g una funzione reale e $Y:= g(X)$. Ci poniamo il problema di calcolare $E(Y)$. Supponiamo che $X$ sia discreta, possiamo calcolare la densita $p_{Y}$ di $Y$ e affermare in seguito che $E(Y) = \sum_{y}yp_{Y}(y)$. In realtà se siamo interessati solamente a $E(Y)$ e non alla densità di $Y$ possiamo evitare di determinare esplicitamente $p_{Y}$.
 
->[!proposizione]
+>[!proposition]
 > Siano $X$ una variabile aleatoria discreta a valori in $S = \left\{ x_{k} : k \in I \right\}$ con $I \subset \mathbb{Z}$ e densità $p_{X}$. $g$ una funzione reale e $Y :=g(X)$. Se $\sum_{k \in I}|g(x_{k})|p_{X}(x_{k}) < +\infty$ allora $Y$ ammette valore atteso e
 > $$
 > E(Y) = \sum_{k \in I}g(x_{k})p_{X}(x_{k})
@@ -57,7 +57,7 @@ $$ P(A) = \sum_{s \in A}p(s) $$
 In particolare, se $A = \Omega$
 $$ 1 = \sum_{s \in S} p(s) $$
 Consideriamo $X$ variabile aleatoria con valore atteso $E[X]$, $X(s)$ è il valore di $X$ quando avviene $s$ vale la seguente
->[!proposizione]
+>[!proposition]
 >$$ E[X] = \sum_{s \in S} X(s)p(s) $$
 >
 >>[!dim]
@@ -72,7 +72,7 @@ E[X] &= \sum_{i} x_{i}P\{ X=x_{i} \} \\
 \end{align} $$
 >dove $S$ è l'unione di tutti gli eventi disgiunti $S_{1},S_{2},\dots$
 >
->>[!corollario]
+>>[!cor]
 >>siano $X_{1},\dots,X_{n}$ variabili aleatorie
 >>$$ E\left[ \sum_{i}X_{i} \right] = \sum_{i}E[X_{i}] $$
 >>
@@ -109,18 +109,26 @@ analogamente a quanto visto per le variabili aleatoriee discrete.
 # Valore atteso di funzioni di vettori aleatori
 Siamo interessati a calcolare il valore atteso di una variabile $Y$ tale che $Y := g(\mathbf{X})$, dove $\mathbf{X}$ è un vettore aleatorio e $Y$ è una variabile aleatoria.
 
->[!proposizione]
+>[!proposition]
 >Sia $\mathbf{X}$ un vettore aleatorio **discreto**, sia $g : \mathbb{R}^n \to \mathbb{R}$ e sia $Y := g(\mathbf{X})$, se abbiamo che $\sum_{\mathbf{x} \in S} |g(\mathbf{x})|p_{\mathbf{X}}(\mathbf{x}) < \infty$, allora:
 >$$ E(Y) =\sum_{\mathbf{x} \in S} g(\mathbf{x})p_{X}(\mathbf{x}) $$
 
 
->[!proposizione]
+>[!proposition]
 >Sia $\mathbf{X}$ vettore aleatorio **assolutamente continuo** con densità $f_{\mathbf{X}}$, considerati $g : \mathbb{R}^n \to \mathbb{R}$ e $Y = g(\mathbf{X})$ variabile aleatoria. Se abbiamo che $\int _{\mathbb{R}^n} \!|g(x_{1},\dots,x_{n})|f_{\mathbf{X}}(x_{1},\dots,x_{n}) \, \mathrm{d}x_{1}\dots x_{n} < \infty$ allora
 >$$ E(Y) =\int _{\mathbb{R}^n} \! g(x_{1},\dots,x_{n})f_{\mathbf{X}}(x_{1},\dots,x_{n})\, \mathrm{d}x_{1}\dots x_{n}  $$
 
 
 >[!cor]
+>$X_{1}$ e $X_{2}$ variabili aleatorie, allora $X_{1} + X_{2}$ ammette media
+>$$ E(X_{1} + X_{2}) = E(X_{1}) + E(X_{2}) $$
 
+La media della somma di due variabili dipende unicamente dalle densità del vettore composto unicamente da esse, inoltre in generale
+$$ E(X_{1} + \dots + X_{n}) = E(X_{1}) + \dots + E(X_{n}) $$
 
->[!t] 
->
+>[!cor]
+>$X_{1}$ e $X_{2}$ variabili aleatorie indipendenti che ammettono media. $X_{1}X_{2}$ ammette media e vale
+>$$ E(X_{1}X_{2}) = E(X_{1})E(X_{2}) $$
+
+La media del prodotto di $n$ variabili aleatorie vale
+$$ E\left(\prod_{i=1}^n X_{i} \right)= \prod_{i=1}^n E(X_{i}) $$

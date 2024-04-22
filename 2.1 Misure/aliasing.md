@@ -37,7 +37,7 @@ In filtro anti-aliasing è un filtro passa basse impostato a metà della frequen
 
 
 
->[!oss]
+>[!remark]
 >Una volta eseguito il campionamento non è possibile risolvere eventuale problemi.
 
 

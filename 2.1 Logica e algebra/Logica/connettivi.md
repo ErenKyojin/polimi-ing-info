@@ -19,7 +19,7 @@ modification date: 2023-05-03 09:17
 - $\sim$ precede $\land$ che precede $\lor$ che precede $\implies$ che precede $\iff$
 - Connettivi uguali si associano a sinistra
 
->[!esempio] 
+>[!example] 
 >Possiamo riscrivere la formula $((\sim(A \land B)) \iff (A \implies (B \lor A)))$ come
 >$$  \sim(A \lor B) \iff A \implies B \lor A $$, notare che abbiamo costituito questa formula mettendo insieme [[sottoformule]]. 
 

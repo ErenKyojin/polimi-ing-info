@@ -9,7 +9,7 @@ creation date: 2024-02-23
 
 Non vi è distinzione tra persona fisica e persona giuridica, il titolare è unico ed è illimitatamente responsabile delle obbligazioni dell'impresa con tutto il patrimonio personale.
 
->[!esempio]
+>[!example]
 >Esempi di **imprese individuali**
 >- commercialista
 >- Ingegnere

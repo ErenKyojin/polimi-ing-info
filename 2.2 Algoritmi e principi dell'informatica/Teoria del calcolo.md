@@ -34,7 +34,7 @@ Enumerazione di un insieme S:
 $E : S \leftrightarrow \mathbb{N}$
 Enumerazione algoritmica: E può essere calcolata mediante un [[Algoritmo]], cioè mediante una MT
 
->[!esempio]
+>[!example]
 > Enumerazione algoritmica di $\left\{ a,b \right\}^*$
 > $$
 >\begin{array}{ccc}
@@ -48,11 +48,11 @@ Una macchina di turing è identificata univocamente dalla tabella della sua funz
 $$\delta : Q \times A \to Q \times A \times \left\{ L,R,S \right\} \cup \left\{ \perp \right\}$$
 Ordiniamo per numero di stati, inoltre scegliamo un ordinamento arbitrario delle tuple, ade sempio quello lessicografico.
 
->[!oss] $\perp$ significa indefinito, ossia non ci sono frecce
+>[!remark] $\perp$ significa indefinito, ossia non ci sono frecce
 
 In generale, quante sono le $f : D \to R$? Sono $|R|^{|D|}$
 
->[!esempio]
+>[!example]
 >Con $|Q| = 1, |A|=3, (3\cdot3 + 1)^{1 \cdot 3} = 1000$ macchine di Turing ad un solo stato
 >
 >Mettiamo in ordine queste macchine di Turing: $\left\{ M_{0}, M_{1}, \dots, M_{999} \right\}$
@@ -104,7 +104,7 @@ Quindi, riassumendo
 - Problema: calcolo di una funzione $f : \mathbb{N} \to \mathbb{N}$
 - $f_{y}$ funzione calcolata dalla $y$-esima macchina di Turing
 
->[!oss]
+>[!remark]
 >$f_{y}(x)=\perp$ se e solo se $M_{y}$ non si ferma quando riceve in ingresso $x$
 
 
@@ -112,14 +112,14 @@ Quindi, riassumendo
 Esiste una macchina di Turing universale che calcola la funzione $g(y,x) = f_{y}(x)$.
 Ad essere precisi la MTU così definita non appartiene a $\left\{ M_{y} \right\}$ perchè $f_{y}$ è funzione di una variabile mentre $g$ è funzione di due variabili
 
->[!oss]
+>[!remark]
 >Non ci deve sorprendere che possiamo simulare una qualsiasi macchina di Turing con un'altra macchina di Turing, è l'equivalente di eseguire un programma su un computer.
 
 
 
 Noi sappiamo che $\mathbb{N} \times \mathbb{N} \leftrightarrow \mathbb{N}$
 
->[!esempio]
+>[!example]
 >$$d(x,y) = \frac{x+y)(x+y+1}{2} + x$$
 >
 > ```tikz
@@ -190,7 +190,7 @@ Quanti e quali sono i problemi risolvibili algoritmicamente:
 
 
 
->[!oss]
+>[!remark]
 >Se un problema è irrisolvibile può darsi che un suo caso particolare diventi risolvibile (vedremo essempi irrisolvibili per linguaggi qualsiasi, risolvibili per linguaggi regolari).
 >
 >Se un problema è irrisolvibile una sua generalizzazione è necessariamente irrisolvibile, se un problema è risolvibile, può darsi che una sua generalizzazione diventi irrisolvibile mentre una sua particolarizzazione rimane certamente risolvibile.
@@ -201,7 +201,7 @@ Dal punto di vista dell'impatto pratico, questo teorema è ancora piú significa
 Dato un programma voglio sapere se esso terminerà l'esecuzione per qualsiasi dato in ingresso o corre il rischio pre qualche dato di andare in loop.
 Nel caso precedente invece mi interessava sapere se un certo programma con certi dati avrebbe terinato o meno l'esecuzione.
 
->[!oss]
+>[!remark]
 >È simile al problema precedente, ma la differenza è che in questo caso abbiamo dato una quantificazione rispetto a tutti i possibili dati in ingresso
 
 
@@ -232,7 +232,7 @@ VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure 
 >Contraddizione
 
 
->[!oss]
+>[!remark]
 >Sapere che un problema è risolvibile non significa saperlo risolvere, un problema è risolvibile se esiste una MT che lo risolve. Formalmente una funzione $f : N \to N$ è calcolabile se esiste una MT che la calcola, ossia esiste $y \in N : \dots$
 
 - È vero che il numero di molecole dell'universo è $10^{{10^{10}}^{10}}$? è risolvibile ma non calcolabile
@@ -240,7 +240,7 @@ VIceversa potrei essere in grado ci concludere che $f_{y}$ non è totale eppure 
 
 Una funzione $f : N \to N$ è calcolabile se e solo se esiste una macchina di Turing che la calcola, ossia esiste un valore $y \in N$ taleche $f_{y} = f$
 
->[!esempio]
+>[!example]
 >$$ g(y,x) = \begin{cases}1\quad &\text{se }f_{y}(x) \neq 1\\0&se f_{y}(x) = 1\end{cases} $$
 >$g(3,8)$ calcolabile? SI, in quanto si tratta di una funzione costante, (è un valore di fatto)
 

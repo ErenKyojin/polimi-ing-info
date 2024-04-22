@@ -6,7 +6,7 @@ Data una serie di potenze reali $\sum \frac{a_{n}}(x-x_{0})^n$ si verifica sempr
 	   $$ |x-x_{0}| < R $$
 	2. La serie non converge per $|x-x_{0}| > R$
 
->[!oss]
+>[!remark]
 >Questo teorema non dice nulla su $|x-x_0|=R$
 >
 >
@@ -38,6 +38,6 @@ Allora la serie di partenza ha raggio di convergenza $R$
 
 
 
->[!oss]
+>[!remark]
 >Raggio di convergenza $R=2$ sicuramente la serie converge in $(-2,2)$
 >$x=2,x=-2$ studiati a parte

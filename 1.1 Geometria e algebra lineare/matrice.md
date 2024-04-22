@@ -55,7 +55,7 @@ $$ \begin{align}
 (t, A)  & \mapsto t\cdot A := [t\cdot a_{ij}]
 \end{align} $$
 
-> [!esempio]
+> [!example]
 > $$A = \begin{bmatrix}
 > 1 & 3 & 0 \\
 > \pi & 4 & 9
@@ -70,7 +70,7 @@ $$ \begin{align}
 3. **Proprietà distributiva rispetto al prodotto di scalari**: $(t\cdot s)\cdot A = t\cdot(S \cdot A)$
 4. **Elemento neutro**: $1 \cdot A = A$ ($1 \in \mathbb{K}$)
 
->[!oss]
+>[!remark]
 >Possiamo ottenere la [[matrice opposta]] di una matrice $A$ attraverso il prodotto: $-1 \cdot A = [-a_{ij}]$, si indica con $-A$
 
 
@@ -78,7 +78,7 @@ $$ \begin{align}
 >Diciamo che una matrice $A$ è combinazione lineare delle matrici $B_{1},\dots,B_{d} \in M_{(m,n)}(\mathbb{K})$ se esistono $x_{1},\dots,x_{d} \in \mathbb{K}$ tali che
 >$$ A = x_{1}B_{1} + x_{2}B_{2} + \dots + x_{d}B_{d} $$
 
-> [!esempio]
+> [!example]
 > A titolo di esempio la matrice $A =\begin{bmatrix}12 \\e\end{bmatrix}$ è combinazione lineare di $\begin{bmatrix}1\\0\end{bmatrix}$ e $\begin{bmatrix}0\\1\end{bmatrix}$ infatti:
 > $$ A = 12\begin{bmatrix}
 > 1 \\
@@ -102,7 +102,7 @@ $$ [A \cdot B]_{il} = \sum_{j = 1}^n a_{ij} \cdot b_{jl} $$
 
 ### Esempi
 
->[!esempio] $(1 \times n) \cdot (n \times 1)$
+>[!example] $(1 \times n) \cdot (n \times 1)$
 >$A \in M_{(1,n)}(\mathbb{K})$ e $B \in M_{(n,1)}(\mathbb{K})$ allora
 >$$A = \begin{bmatrix}a_{11} & a_{12} & \dots & a_{1n}\end{bmatrix} \quad B = \begin{bmatrix}b_{11}\\b_{21}\\\vdots \\ b_{n 1}\end{bmatrix}$$
 >allora il prodotto riga per colonna sarà una matrice ($1\times1$):
@@ -112,7 +112,7 @@ $$ [A \cdot B]_{il} = \sum_{j = 1}^n a_{ij} \cdot b_{jl} $$
 >$$ A = \begin{bmatrix}3 & 1 & 2\end{bmatrix} \qquad B= \begin{bmatrix}0\\2\\ \pi\end{bmatrix}$$
 >Allora il prodotto $A \cdot B = [3\cdot 0 + 1 \cdot 2 +  2 \cdot \pi] = [3 + 2\pi]$
 
->[!esempio] $(m \times n) \cdot (n \times p)$
+>[!example] $(m \times n) \cdot (n \times p)$
 >
 >$$A = \begin{bmatrix}
 >1 & 2  & 1 \\
@@ -133,7 +133,7 @@ $$ =\begin{bmatrix}
 0 & 0 & 0 & 1
 \end{bmatrix} $$
 
->[!oss]
+>[!remark]
 >Grazie a questo possiamo riscrivere un sistema lineare in forma matriciale. Dato il sistema lineare
 >$$ \begin{cases}
 >a_{11}x_{1} + a_{12}x_{2} + \dots + a_{1n}x_{n} = b_{1} \\
@@ -177,7 +177,7 @@ $\forall t \in \mathbb{R}, \forall A \in M_{(m,n)}(\mathbb{K})$ e $\forall B \in
 $$ t \cdot (A \cdot B) = (t \cdot A) \cdot B $$
 
 
->[!Oss] 4\. NON VALE LA PROPRIETÀ COMMUTATIVA
+>[!remark] 4\. NON VALE LA PROPRIETÀ COMMUTATIVA
 > 1. Se $A \in M_{(m,n)}(\mathbb{K})$ e $B\in M_{n,r}(\mathbb{K})$ 
 > 	- $A \cdot B \in M_{(m,r)}(\mathbb{K})$ 
 > 	- $B\cdot A$ non è definita
@@ -190,14 +190,14 @@ $$ t \cdot (A \cdot B) = (t \cdot A) \cdot B $$
 > 	  
 > 	 Ma in generale la matrice risultante sarà diversa
 
->[!oss] 5\. NON VALE LA LEGGE DI ANNULLAMENTO DEL PRODOTTO
+>[!remark] 5\. NON VALE LA LEGGE DI ANNULLAMENTO DEL PRODOTTO
 >
 >Quindi $A \cdot B = 0 \cancel{ \iff } A = 0 \lor B = 0$
 
 #### 6. Elemento neutro
 L'elemento neutro del prodotto riga per colonna è la [[matrice identità]], tuttavia:
 
->[!Oss]
+>[!remark]
 >Data $A \in M_{(m,n)}(\mathbb{K})$ non esiste $A' \in M_{\mathbb{K}}(n,m)$ tale che $A \cdot A' = \mathbb{1}_{m}$
 
 La 4 e la 5 valgono nel caso di matrici $1\times1$, inoltre qualsiasi matrice $1\times 1$ diversa da $[ 0]$ è invertibile
@@ -243,12 +243,12 @@ Ad esempio $A = \begin{bmatrix}0 & -1 & 2\\1 & 0 & 0\\-2  & 0 & 0\end{bmatrix}$
 >1. se due righe $A_{i}$ e $A_{i+1}$ sono non nulle, il pivot di $A_{i+1}$ è a destra del pivot di $A_{i}$ 
 >2. Se $A_{i} = 0$ anche $A_{i + 1} = 0$ 
 
->[!Oss]
+>[!remark]
 >$A \in M_{(n,n)}(\mathbb{K})$ a scala $\implies$ $A$ è triangolare superiore, non vale però il viceversa.
 
 Partendo da una matrice a scala è possibile risolvere il sistema "all'indietro", partendo dal fondo della matrice otteniamo il valore dell'ultima variabile, che possiamo usare per ottenere il valore della penultima e così via.
 
->[!esempio]
+>[!example]
 >$$ \begin{cases}
 >x_{1} + x_{2} + x_{3} = 3 \\
 >x_{2} - x_{3} = 1 \\

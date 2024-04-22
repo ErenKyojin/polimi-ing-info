@@ -101,10 +101,10 @@ Riassumendo
 2. I suoi poli sono autovalori di $A$ (e non tutti gli autovalori lo sono se radici del numeratore)
 3. grado numeratore = grado denominatore $\iff d \neq 0$ altrimenti il grado del numeratore è strettamente minore del grado del numerator
 
->[!oss] Le radici del numeratore si dicono **zeri** della FdT
+>[!remark] Le radici del numeratore si dicono **zeri** della FdT
 
 
->[!esempio]
+>[!example]
 >Dato il SD LTI a TL SISO descritto nello spazio di tato che
 > $$
 >A = \begin{bmatrix}
@@ -150,7 +150,7 @@ s-4 \\
 >$$
 >$\CVD$
 
-> [!esempio]
+> [!example]
 > Dato il SD a TC con ingresso $u$, uscita $y$ e stato $x$
 > $$
 > A = \begin{bmatrix}
@@ -210,7 +210,7 @@ s+1 & 0
 
 
 
->[!oss]
+>[!remark]
 >La FDT rappresenta le parti raggiungibili e osservabili del sistema
 >Gli autvoalori delle parti non raggiungibili e o non osservabili del sistema nel calcolo della FdT sono cancellati
 

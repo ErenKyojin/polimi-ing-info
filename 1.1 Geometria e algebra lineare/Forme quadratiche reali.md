@@ -5,7 +5,7 @@
 >Si dice che $A$ rappresenta la forma quadratica $q(\mathbf{x})$ e che $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x}$ è la forma quadratica associata alla matrice $A$.
 
 
->[!oss]
+>[!remark]
 >1. Per ogni forma quadratica $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x}$ allora
 >	1. $q(\mathbf{0}) = 0$
 >	2. $q(t\mathbf{x})=t^2q(\mathbf{x})$

@@ -28,7 +28,7 @@ Vogliamo definire una struttura algebrica che descriva la struttura dell'[[insie
 >   
 >   Gli elementi di uno spazio vettoriale sono detti **[[vettori]]**
 
->[!esempio] Esempi di spazi vettoriali
+>[!example] Esempi di spazi vettoriali
 >1. L'insieme dei vettori liberi $V$ dello spazio euclideo è spazio vettoriale su $\mathbb{R}$
 >2. $V = M_{\mathbb{K}(m,n)}$ è spazio vettoriale su $\mathbb{K}$ rispetto alla somma di matrici e alla moltiplicazione di una matrice per uno scalare, in questo esempio rientra anche $\mathbb{K}^n$ identificato dai vettori colonna $M_{\mathbb{K}(n,1)}$vettori
 >3. $\mathbb{K}^\mathbb{N} = \left\{ [a_{1}\quad a_{2}\quad\dots \quad a_{n}\quad \dots]  : \forall k \in \mathbb{N}, a_{k} \in \mathbb{K}\right\}$ Ossia l'insieme delle successioni in $\mathbb{K}$ (con vettori ad infiniti componenti), infatti è possibile definire somma e prodotto scalare tra successioni: 
@@ -43,7 +43,7 @@ Vogliamo definire una struttura algebrica che descriva la struttura dell'[[insie
 >
 
 
->[!oss]
+>[!remark]
 >In uno spazio vettoriale $V$ su $\mathbb{K}$ valgono:
 >- legge di cancellazione:
 > 	  $\mathbf{u}+\mathbf{w} = \mathbf{v} + \mathbf{w} \implies \mathbf{u} = \mathbf{v}$

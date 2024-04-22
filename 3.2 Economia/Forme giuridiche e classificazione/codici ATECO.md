@@ -9,7 +9,7 @@ creation date: 2024-02-23
 
 ^209dbb
 
->[!esempio]
+>[!example]
 >Codice ATECO: C11.02.1
 >- C: attività manifatturiera
 >	- 11\. industria delle bevande

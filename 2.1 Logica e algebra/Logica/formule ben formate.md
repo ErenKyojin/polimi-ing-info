@@ -14,7 +14,7 @@ modification date: 2023-05-03 09:25
 
 Le lettere in stampatello indicano lettere enunciative, le lettere corsive indicano una f.b.f
 
->[!esempio]
+>[!example]
 > $((\sim(A \land B)) \iff(A \implies (B \lor A)))$ è una formula ben formata, ma contiene troppe parentesi, introduciamo quindi [[connettivi#precedenza]]
 > 
 
@@ -26,7 +26,7 @@ Una f.b.f. $\mathcal{A}$ per cui ogni interpretazione è un modello si dice **ta
 
 Una f.b.f. $\mathcal{A}$ che non ammette modelli si dice **insoddisfacibile**
 
-> [!oss]
+> [!remark]
 > $\mathcal{A}$ è una tautologia se e solo $\sim \mathcal{A}$ è insoddisfacibile
 
 A questo punto se vogliamo ottenere tutte le possibile interpretazioni della formula esempio $\sim (A \land B) \iff (A \implies (B \lor A))$ possiamo costruire la seguente tavola di verità:
@@ -53,7 +53,7 @@ Le righe della tavola di verità sono tutte le possibile interpretazioni della f
 Ad ogni tavola di verità corrisponde sempre una f.b.f. che la ammette come tavola di verità? La risposta è sí, ed il metodo per costrui la formula è il seguente:
 Ad ogni riga della tavola si associa un termine costruito facendo l'and di ogni lettera enunciativa o della sua negazione, a seconda che le lettere assumano il valore 1 o 0, poichè i termini così costruiti hanno la caratteristica di valere $1$ solo in corrispondenza dell'assegnamento di valori di verità fassiato da quella riga, facendo l'or dei termini che corrispondono alle righe in cui la formula assume il valore $1$, si costruisce una f.b.f. che ha esattamente la tavola di verità assegnata. La formula così costruita ha una forma speciale detta forma **normale disgiuntiva**.
 
-> [!esempio]
+> [!example]
 > Data la tavola
 > 
 > | A   | B   | C   | f(A,B,C) |
@@ -96,7 +96,7 @@ Inoltre le due ultime formula si possono sostituire rispettivamente con:
 
 Possiamo quindi definire gli [[insiemi adeguati]]
 
->[!esempio]
+>[!example]
 >$$\begin{align}
 >&(A \land B \land C) \lor (A \land \sim B \land C) \lor (\sim A \land \sim B \land \sim C) \\
 >\text{raccolgo} \ (A  \land C):\quad &((A \land C) \land (B \lor \sim B)) \lor (\sim A \land \sim B \land \sim C) \\

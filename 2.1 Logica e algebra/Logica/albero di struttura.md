@@ -4,7 +4,7 @@ creation date: 2023-05-03 09:56
 modification date: 2023-05-03 09:56
 ---
 
->[!esempio]
+>[!example]
 >La formula $\sim (A \land B) \iff A \implies B \lor A$ ha come albero di struttura:
 >
 >```tikz
@@ -37,7 +37,7 @@ Ogni nodo inoltre può essere visto come la radice di un sottoalbero massimale c
 
 ## In [[linguaggio del primo ordine|logica del primo ordine]]
 
-> [!esempio]
+> [!example]
 > L'albero di struttura della formula
 > $$ (\mathcal{A}_{2}^2(a,b)\lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y,),f_{2}^2(a,x))) \implies \forall x(\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2(x,x)) $$
 > È

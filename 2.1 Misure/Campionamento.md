@@ -13,13 +13,13 @@ graph LR
 Col campionatore sample & hold abbiamo la discretizzazione nel tempo
 Col quantizzatore in ampiezza c'è una discretizzazinoe in ampiezza
 
->[!oss]
+>[!remark]
 >Sempre in quest'ordine!
 
 ##### Discretizzazione nel tempo
 Il segnale campionato si ottiene idealmente prelevando campioni in un tempo infinitesimo, in realtà occorre un tempo finito $(T_{W}) \neq 0$ per prelevare da $v(t)$ il segnale campionato $v(t_{k})$ e per quantizzarlo
 
->[!esempio]
+>[!example]
 >Un segnale di tensione $v(t) = x(t)$ è reale e continuo.
 >
 >Ipotizziamo di lavorare con uno spettro del segnale limitato: trasformata $X(f)$ tale che $X(f) = 0$ per $|f| = f_{\max}$

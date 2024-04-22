@@ -8,7 +8,7 @@ modification date: 2023-07-07 09:14
 >La saggezza rappresenta una estensione della conoscenza, è l'esperienzaa **applicata** alla conoscenza per guidare il soggetto ad intraprendere l'azione più adatta in un determinato momento
 
 
->[!esempio]
+>[!example]
 >Se la temperatura in un aula è di 32 gradi a dicembre, quindi oltre il valore normale, spegnamo il riscaldamento.
 
 

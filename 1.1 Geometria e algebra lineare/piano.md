@@ -32,7 +32,7 @@ Anche nel piano come per le rette un piano ha infinite parametrizzazioni.
 
 Scriviamo i parametri $t$ ed $s$ in funzione delle coordinate $x,y,z$ per ottenere l'equazione cartesiana
 
->[!esempio]
+>[!example]
 >$$ \begin{cases}
 >x = 1 + 2t \\
 >y = 2t + 4s \\
@@ -44,5 +44,5 @@ Scriviamo i parametri $t$ ed $s$ in funzione delle coordinate $x,y,z$ per ottene
 >\end{cases}  \implies -x + y - 4z - 3 = 0$$
 >È l'equazione cartesiana del piano
 
->[!oss]
+>[!remark]
 >Un piano si può sempre descrivere con una sola equazione cartesiana, una retta si può sempre descrivere attraverso due equazioni cartesiane, i punti di una retta sono dati dall'intersezione di due piani

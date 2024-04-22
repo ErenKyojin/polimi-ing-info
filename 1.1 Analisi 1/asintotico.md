@@ -50,7 +50,7 @@ $$\fbox{$\lim_{y\to0^+}y^\beta(-\log y)^\alpha = 0$}\quad (\beta > 0, \forall \a
 ## Stime asintotiche e grafici
 Le stime asintotiche non sono utili solo a calcolare limiti, ma anche per tracciare grafici **qualitativi** generali o attorno ad un ceto punto
 
->[!esempio]
+>[!example]
 >$$f(x) = \sqrt[3]{x} + x^2$$
 >Osserviamo che la funzione è definita e continua in $\mathbb R$, per $x \to \infty, f(x) \sim x^2$, quindi $f(x) \to +\infty$. La funzione si annulla invece in $x = 0$ e per $x \to 0, f(x) \sim \sqrt[3]{x}$, in particolare tangente verticale nell'origine.
 
@@ -59,7 +59,7 @@ y = x^{\frac{1}{3}} + x^2
 
 ```
 
->[!oss]
+>[!remark]
 >Spesso l'andamento di una funzione intorno ad un punto si può prevedere con un'opportuna stima asintotica
 
 ### Crescita di una funzione all'[[infinito]]

@@ -12,7 +12,7 @@ Per costruire le proposizioni usiamo un [[Linguaggio]] il cui alfabeto è compos
 - Connettivi $\sim$, $\land$, $\lor$, $\implies$, $\iff$
 - Simboli ausiliari: (, )
 
->[!oss]
+>[!remark]
 >Spesso si aggiungono alle lettere enunciativi altri due siboli $\perp$ e **T**
 
 Dobbiamo considerare le possibili sequenze di simboli che hanno una buona struttura (dette [[formule ben formate]], o f.b.f). 

@@ -9,7 +9,7 @@ aliases: relazioni di equivalenza
 
 Una relazione di equivalenza divide un insieme in [[classi di equivalenza]]
 
->[!esempio] [[Numeri razionali]]
+>[!example] [[Numeri razionali]]
 >$A = \mathbb{Z} \times (\mathbb{Z} \setminus \lbrace 0 \rbrace)$ con $\mathbb{Z} = \lbrace ... -1, 0, 1, ... \rbrace$
 >$$\begin{align}
 >
@@ -43,7 +43,7 @@ Nel seguito denoteremo le relazioni di equivalenza con le lettere minuscole dell
 >[!def]
 >Data una relazione $R$ su $A$ la sua chiusura riflessiva, simmetrica e transitiva è detta relazione di equivalenza generata da $R$.
 
->[!esempio] esempi
+>[!example] esempi
 >1. $A = \mathbb{N}$, la relazione di uguaglianza 
 >2. $A =$ rette di un piano
 >	- $a R b \iff a \parallel b$

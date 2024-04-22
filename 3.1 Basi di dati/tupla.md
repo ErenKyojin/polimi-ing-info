@@ -10,7 +10,7 @@ creation date: 2024-03-05
 $t[x]$ o $t.\!x$ indica il valore di $t$ rispetto ad $x$
 $t[x,y]$ indica i valori di $t$ rispetto alle tabelle $x,y$
 
->[!esempio]
+>[!example]
 >
 > |oggetto | quantità | prezzo |
 > | --- | --- | --- |

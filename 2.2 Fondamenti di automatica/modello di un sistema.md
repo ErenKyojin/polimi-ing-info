@@ -9,7 +9,7 @@ creation date: 2024-02-20
 > [!def] modello matematico
 > insieme di equazioni che descrivono le relazioni tra variabili d'ingresso e uscità di un sistema
 
->[!esempio] pendolo
+>[!example] pendolo
 >$$I \frac{d^2}{dt^2}x_{1} = u(t) - mlg\sin(x_{1})-\beta \frac{d}{dt}x_{1}$$
 >Problema, equazione di secondo ordine
 >stato:

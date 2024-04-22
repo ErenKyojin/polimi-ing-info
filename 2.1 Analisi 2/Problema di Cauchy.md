@@ -18,7 +18,7 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 2. impongo $y(t_{0}) = y_{0}$ e determino $C$
 3. Sostituisco $C$ nell' integrale generale
 
->[!esempio]
+>[!example]
 >data $$y'(t) = ty(t)^3$$
 >quindi $f(t,y) = ty^3$ definita in tutto $\mathbb{R}^2$ (il che significa che posso impostare il problema di Cauchy $\forall (t_{0},y_{0}) \in \mathbb{R}$)
 >
@@ -109,10 +109,10 @@ Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione 
 >\end{document}
 >```
 >
->>[!oss]
+>>[!remark]
 >> Per determinare quale delle soluzioni usare dobbiamo guardare il segno della $y(t_0)$ così da determinare quale tra le soluzioni possa ammetere quel segno.
 
->[!oss]
+>[!remark]
 >Se il dominio di $f$ è disconnesso è utile determinare solo le soluzioni che giaccono nella stessa regione di $t_0$
 
 >[!theorem] Esistenza e unicità globale di Cauchy
@@ -153,7 +153,7 @@ $$
 2. Imponiamo le condizioni iniziali
 3. Sostituire i valori nella formula dell'integrale generale
 
->[!esempio]
+>[!example]
 >$$ y'' - 3y' + 2y = t $$
 >con $y(0) = 1, y'(0) = -1$ e l'integrale generale
 >$$y(t) = c_{1}e^t+c_{2}e^{2t}+\frac{t}{2}+\frac{3}{4} \qquad c_{1},c_{2} \in \mathbb{R}$$
@@ -184,7 +184,7 @@ c_{2} = -\frac{7}{4}
 
 Come si scrive un problema di Cauchy in un [[Sistemi differenziali lineari|sistema differenziale lineare]]? 
 Partiamo da un esempio:
->[!esempio]
+>[!example]
 >$$ y''(t) - 2y'(t) = t $$
 >E diamo un generico problema di Cauchy
 >$$ \begin{cases}
@@ -214,7 +214,7 @@ Partiamo da un esempio:
 >\mathbf{y}(t_{0}) = \mathbf{y}_{0}
 >\end{cases}$$
 >
->>[!esempio]
+>>[!example]
 >>Al tempo $t_{0} = 0$ posizione $1$ e velocità nulla
 >>$$ \begin{cases}
 >>y_{1}'(t) = y_{2}(t) \\
@@ -241,5 +241,5 @@ Partiamo da un esempio:
 0
 \end{bmatrix} $$
 
->[!oss]
+>[!remark]
 >In un problema di Cauchy di un sistema lineare avremo sempre derivate prime di ogni funzione.

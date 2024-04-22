@@ -40,7 +40,7 @@ Più in generale, in un sistema di $n$ punti materiali, il lavoro compiuto dalle
 $$ \mathcal{L}^{(I)} - \underset{ j > i }{ \sum_{i,j} } \mathcal{L}_{ij}^{(I)} = \underset{j > i}{\sum_{i,j}} \int _{A}^B  \! \vec{F}_{ij} \cdot \, \mathrm{d}\vec{r}_{ij}  $$
 
 
->[!oss]
+>[!remark]
 >Per un sistema
 ## Conservazione dell'energia meccanica per un [[corpo rigido]]
 

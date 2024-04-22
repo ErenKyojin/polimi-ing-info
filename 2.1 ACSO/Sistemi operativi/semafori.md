@@ -1,6 +1,6 @@
 Incluso nella libreria `<pthread.h>` è una variabile di tipo `sem_t`
 Per le operazioni è considerato simile ad un `unsigned int`, viene inizializzato come `sem_init()`
->[!esempio]
+>[!example]
 >`sem_init(&sem1,0,0)`
 
 
@@ -14,7 +14,7 @@ Per le operazioni è considerato simile ad un `unsigned int`, viene inizializzat
 Il valore del semaforo rappresenta il numero di risorse disponibili, quando uguali a zero non ce ne sono
 
 
->[!esempio]
+>[!example]
 >Due thread stampano `abc` e `xyz` rispettivamente, noi vogliamo farli stampare esattamente `axbycz`
 >- tf1 stampa x, y, z
 >- tf2 stampa a, b, c

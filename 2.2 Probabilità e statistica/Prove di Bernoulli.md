@@ -75,7 +75,7 @@ k
 >quindi vale per $m+1$
 >$\CVD$
 
->[!esempio] Esperimento
+>[!example] Esperimento
 >
 >$\Omega = \left\{ a_{1},\dots,a_{n} \right\} : a_{i} = 0,1;\quad i=1,\dots,n$
 >$E \subseteq \Omega$ è un [[evento]] $\mathcal{F} = \mathcal{P}(\Omega)$,

@@ -49,7 +49,7 @@ Quindi, piú $|L(j\omega_{N})|$ è piccolo, meno sia ha aliasing
 
 Questo permette di scegliere $T_{s}$
 
->[!esempio]
+>[!example]
 >Voglio che $|L(j\omega_{N})| < 40 \dB$
 >Progetto a TC:
 > ```tikz

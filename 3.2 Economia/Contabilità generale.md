@@ -12,7 +12,7 @@ Queste informazioni sono
 - Storiche -> relative ad eventi avventui in un dato periodo di tempo
 
 
->[!oss]
+>[!remark]
 >Il bilancio d'esercizio è il documento principale di contabilità esterna. Ha lo scopo i fornire informazioni sull'andamento ai soggetti esterni.
 
 

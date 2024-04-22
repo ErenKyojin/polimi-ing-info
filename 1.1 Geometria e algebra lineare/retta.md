@@ -75,14 +75,14 @@ z = z_{A} + (z_{B} - z_{A})t
 
 Le [[polimi-ing-info/1.1 Geometria e algebra lineare/componenti]] di $\mathbf{v}$ sono detti parametri direttori in quanto descrivono la **direzione** della retta
 
->[!oss]
+>[!remark]
 >La parametrizzazione di una retta non è univoca:
 > - I parametri direttori possono essere sostituiti da un qualsiasi multiplo non nullo
 > - Le coordinate del punto possono essere sostituite per un qualsiasi altro punto attravero il quale passa la retta
 
 Se scriviamo il parametro $t$ in funzione di una coordinata possiamo trovare la equazioni cartesiane
 
->[!esempio]
+>[!example]
 >$$r : \begin{cases}
 >x = 2 - t \\
 y = 3t \\

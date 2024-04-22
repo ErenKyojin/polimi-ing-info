@@ -15,6 +15,6 @@ $$s = s(t)$$
 descrive completamente il [[moto]] del [[Punto materiale]]. Questa legge che si rappresenta graficametne come un diagramma orario o un diagramma spazio tempo viene detta (impropriamente) [[Legge oraria]]
 
 
->[!oss]
+>[!remark]
 >La legge oraria definita rispetto all'ascissa curvilinea non da alcuna informazione sulla traiettoria del punto materiale, si tratta di una legge unidimensionale mentre il moto è compiuto nello spazio tridimensionale
 

@@ -6,7 +6,7 @@ modification date: 2023-07-07 09:14
 
 #todo 
 
->[!esempio]
+>[!example]
 > $Y =A \cdot B + C \cdot B$
 >
 >|     | 00  | 01  | 11  | 10  |
@@ -38,7 +38,7 @@ OR -> NOR negata
 Possiamo relaizzare solo funzioni che avranno $Y= 0$ (o $=1$) se e solo se almeno uno degli N ingressi è a 1 (oppure 0).
 
 
->[!esempio]
+>[!example]
 >$$Y = \overline{AB + C}$$
 >
 >in cmos conviene chiedersi quando l'uscità è 0: $\bar{Y}=AB + C$

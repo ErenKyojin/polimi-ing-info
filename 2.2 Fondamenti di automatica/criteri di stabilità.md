@@ -13,7 +13,7 @@ $$\det(A) = \prod_{i}^n S_{i} \implies \text{Se }\det(A)=0 \exists s_{i} = 0 \im
 3. Se $Re(S) < 0 \forall i$ lalora i coefficienti di $\Pi(s)$ sono tutti concordi (e non nulli), cioè il sistema AS = coefficienti concordi
 
 
->[!esempio]
+>[!example]
 >1. $\Pi(S) = 5s^2 + s \implies$ non asintoticamente stabile, c'è un autovalore nullo
 >2. $\Pi(S) = s^3 -s^2 + s+4 \implies$  Non asinticamente stabile, coefficiente discorde
 >3. $\Pi(S) = s^5 + 4s^3 + 3s^2 + s + 5 \implies$ Non asintoticamente stabile, manca il termine $s^4$ (un coeff nullo)

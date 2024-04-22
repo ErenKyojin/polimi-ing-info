@@ -20,7 +20,7 @@ y_{1}'(t) = y_{2}(t) \\
 y_{2}'(t) = \frac{F}{m}
 \end{cases} $$
 Arriviamo quindi all'osservazione di introduzione:
->[!oss]
+>[!remark]
 >Una generica EDO lineare, di ordine $n$, può essere trasformato in un sistema di $n$ EDO lineari del 1° ordine.
 >
 
@@ -156,10 +156,10 @@ $$ \mathbf{y}'(t) = A\mathbf{y}(t) $$
 $$ \mathbf{y}_{o_{1}} = Re(e^{\lambda t}\mathbf{v})\qquad \mathbf{y_{o_{2}}}= Im(e^{\lambda t} \mathbf{v}) $$
 Equivalentemente l'integrale generale è dato dalla combinazione:
 $$ y_{o}(t) = c_{1}Re(e^{\lambda t}\mathbf{v}) + c_{2}Im(e^{\lambda t}\mathbf{v}) $$
->[!oss]
+>[!remark]
 >Nel caso di un sistema che deriva da una [[EDO del secondo ordine]], questo caso corrisponde al caso $\Delta < 0$.
 
->[!oss]
+>[!remark]
 >$$ ay''+by' + cy = 0\qquad\qquad y = y_{1},\quad y_{2} = y_{1}' $$
 >$$ \begin{cases}
 >y_{1}' = y_{2} \\
@@ -172,7 +172,7 @@ $$ y_{o}(t) = c_{1}Re(e^{\lambda t}\mathbf{v}) + c_{2}Im(e^{\lambda t}\mathbf{v}
 >\end{bmatrix} $$
 >Per le [[EDO del secondo ordine]] lineari, osservando come le impostiamo, avremo sempre 0 ed 1 nella colonna superiore
 
->[!esempio]
+>[!example]
 >$$ \begin{cases}
 y_{1}' = 2y_{1} + y_{2} \\
 y_{2}' = -y_{1} + 2y_{2}
@@ -253,7 +253,7 @@ y(t) &= W(t) \left( \int \! [W(\tau)]^{-1} \cdot \mathbf{b}(\tau)\, \mathrm{d} \
 $$ W(t) = e^{At},\qquad\mathbf{y}(t) = e^{At}\left[ \int \! e^{-A \tau} \cdot \mathbf{b} (\tau)\, \mathrm{d}\tau + \mathbf{c} \right] $$
 Analogo alla [[formula risolutiva per EDO lineari del 1° ordine]]
 
->[!oss]
+>[!remark]
 >Questa formula ci richiede di integrare un vettore componente per componente
 
->[!esempio]
+>[!example]

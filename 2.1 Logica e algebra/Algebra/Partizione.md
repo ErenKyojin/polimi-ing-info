@@ -7,18 +7,18 @@ modification date: 2023-04-28 13:13
 > [!def]
 > Si dice partizione di $A$ un [[insieme]] $\{ B_{i} | i \in I \}$ di sottoinsiemi di $A$ tale che sia $\displaystyle \bigcup_{i \in I} B_{i} = A$ e $B_{i} \cap B_{j} \neq \varnothing$ implichi $B_{i} = B_{j}$
 
->[!esempio]
+>[!example]
 >- La suddivisione di $Z$ nei due sottoinsiemi degli interi [[pari]] e degli interi [[dispari]] è una partizione di $Z$
 >- La suddivisione di tutti gli uomini nei sottoinisemi di coloro che sono coetanei è una partizione dell'[[insieme]] degli  uomini
 
->[!Oss] Proprietà
+>[!remark] Proprietà
 >Se $\rho$ è  relazione di equivalenza su $A$ allora $\{ \rho_{a} \}_{a \in A}$ è una partizione di $A$
 >1. $\forall a \in A, \rho_{a} \subseteq A \implies \bigcup_{a \in A}\rho_{a} \subseteq A$.
 >   Considerando $a \in A \implies a \in \rho_{a} \implies a \in \bigcup_{a \in A} \rho_{a} \implies A \subseteq \bigcup_{a \in A}\rho_{a}$
 >2. $\rho_{a},\rho_{b} x \in \rho_{a} \cap \rho_{b} \implies x \in \rho_{a} \land x \in \rho_{b} \implies x \rho a \land x\rho b \implies b \rho x \implies b \rho a \implies b \in \rho_{a}$
 
 
->[!oss]
+>[!remark]
 >$\forall y : y \rho b \implies y \rho a \implies y \in \rho_{a} \implies \rho_{b} \subseteq \rho_{a}$
 
 

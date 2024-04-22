@@ -14,7 +14,7 @@ $$
 $$
 
 
->[!oss]
+>[!remark]
 >Calcolo della legge oraria a partire dall'accelerazione
 > $$
 >\begin{align}

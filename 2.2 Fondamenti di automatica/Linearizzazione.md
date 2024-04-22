@@ -40,7 +40,7 @@ $y - \bar{y}= \delta y =  g_{x}\bigg|_{\bar{x},\bar{u}} + g_{u}\bigg|_{\bar{x},\
 Con $\delta u = u - \bar{u}, \delta x = x - \bar{x}, \delta y = y - \bar{y}$
 
 
->[!oss] Interpretazione 
+>[!remark] Interpretazione 
 >
 > 
 > 

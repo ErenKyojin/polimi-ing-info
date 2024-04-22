@@ -39,7 +39,7 @@ Diremo che $\mathbf{v}_{h}$ è la proiezione ortogonale di $\mathbf{v}$ su $H$ e
 
 
 
->[!oss]
+>[!remark]
 >Lo scalare $\frac{<\mathbf{v},\mathbf{w}>}{\|\mathbf{w}\|^2}$ si chiama coefficiente di Fourier di $\mathbf{v}$ rispetto a $\mathbf{w}$
 
 ## Proiezione ortogonale su un sottospazio $H$
@@ -56,14 +56,14 @@ P_{H} : \mathbb{R}^n &\to \mathbb{R}^n \\
 \end{align} $$
 è lineare e dunque ammette una [[matrice rappresentativa]]
 
->[!proposizione]
+>[!proposition]
 >Sia $H$ un sottospazio di $\mathbb{R}^n$ e sia $\left\{ \mathbf{q}_{1},\dots,\mathbf{q}_{d} \right\}$ una base ortonormale di $H$. Sia $A = [\mathbf{q}_{1}|\dots|\mathbf{q}_{d}]$ allora
 > $$ P_{H} = A A^T = \mathbf{q}_{1} \mathbf{q}_{1}^T + \dots + \mathbf{q}_{d}\mathbf{q}_{d}^T $$
 > è la matrice che rappresenta la proiezione ortogonale di $\mathbb{R}^n$ sul sottospazio $H$
 > 
 >>[!dim]
 
->[!proposizione]
+>[!proposition]
 > $P \in M_{\mathbb{R}(n,n)}$ è la matrice di proiezione ortogonale su un sottospazio $H$ di $\mathbb{R}^n$ se e solo se
 > 1. $P$ è idempotente, quindi $P^2 = P$
 > 2. $P$ è simmetrica, quindi $P^T = P$
@@ -71,7 +71,7 @@ P_{H} : \mathbb{R}^n &\to \mathbb{R}^n \\
 >Se $P$ è tale per cui 1 e 2 valgono allora $H = \Col(P)$ e $H^\perp = \ker(P)$
 
 
->[!oss]
+>[!remark]
 >Se $P_{H}$ è la matrice di proiezione ortogonale su $H$ allora $\mathbb{1}_{n} - P_{H}$ è la matrice della proiezione ortogonale su $H^\perp$ infatti:
 > $$ (\mathbb{1}_{n} - P_{H})\mathbf{v} = \mathbf{v} - \mathbf{v}_{H} = \mathbf{v}_{H^\perp} \quad (P_{H}(\mathbf{v}) = \mathbf{v}_{H}) $$
 

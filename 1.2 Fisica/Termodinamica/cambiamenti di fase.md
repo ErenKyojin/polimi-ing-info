@@ -18,7 +18,7 @@ graph LR
 	
 ```
 
->[!oss]
+>[!remark]
 >i cambiamenti di fase avvengono a [[temperatura]] costante, il corpo che cambia fase assorbe o cede [[calore]] senza ambiare temperatura, ma cambiando la propria struttura.
 >Durante i cambiamenti di fase si introduce il [[calore latente]]
 

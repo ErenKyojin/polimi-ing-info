@@ -28,7 +28,7 @@ $$
 - quando $x = 0, |v| = v_{max}$ e $a = 0$
 - quando $|x| = x_{max} = A, v = 0$ e $|a| = a_{max} = \omega^2 A \implies$ punti di inversione del moto
 
->[!oss]
+>[!remark]
 >Se descriviamo in coordinate cartesiane un moto circolare uniforme di raggio $A$ otteniamo
 >$$ x(t) = A\cos(\omega t + \varphi) = A\sin\left( \omega t + \varphi + \frac{\pi}{2} \right)\quad y(t) = A\sin(\omega t + \varphi) $$
 >Si tratta della composizione di due moti armonici semplici lungo le due direzioni ortogonali, di pari ampiezza e pulsazione ma con differenza di fase pari a $\frac{\pi}{2}$

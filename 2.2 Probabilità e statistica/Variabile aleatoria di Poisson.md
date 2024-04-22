@@ -17,7 +17,7 @@ $$E[X] = \lambda, E[X^2]=\lambda(\lambda + 1)$$
 e quindi
 $$\delta(X)= E[X^2] - E[X]^2 = \lambda $$
 
->[!oss]
+>[!remark]
 >La variabile aleatoria di Poisson rimane una buona approssimazione anche quando le variabili sono debolmente dipendenti
 
 

@@ -1,7 +1,7 @@
 Come la probabilità varia nel tempo, col passare del tempo certi eventi del futuro dipendono dal presente/passato.
 
 
-> [!esempio]
+> [!example]
 > $\mathcal{E}$ esperimento = lancio di due dadi distinti, un dado $R$, un dado $B$
 >
 > $\Omega = \left\{ (b,r) : b,=r = 1:6 \right\}$
@@ -55,10 +55,10 @@ todo \\
 >> $\times P(E_{1})$
 >> $\CVD$
 
->[!oss ]
+>[!remark ]
 >La regola del prodotto è utile per l'estrazione senza reimmissione. Ad esempio la probabilità di estrarre sfere colorate da una scatola chiusa sapendo che ve ne sono $k$ dello stesso colore
 
->[!esempio]
+>[!example]
 >Lancio 2 monete con $P(T_{1}) = P(T_{2}) = q$
 >$P(T_{2} | T_{1}) = ??$
 >$\Omega = \{ 0,1 \} \times \{ 0,1 \}$

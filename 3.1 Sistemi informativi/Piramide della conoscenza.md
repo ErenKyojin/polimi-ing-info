@@ -25,7 +25,7 @@ modification date: 2023-07-07 09:14
 \end{document}
 ```
 
->[!esempio]
+>[!example]
 >Temperatura della stanza
 >**Datas**: 27 gradi, non ci viene fornito nient'altro (unità di misura qual'è?)
 >**Information**: 27 gradi celsius alle ore 15

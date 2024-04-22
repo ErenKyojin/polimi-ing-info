@@ -65,7 +65,7 @@ $$
 $$
 
 
->[!esempio] Esempio 1
+>[!example] Esempio 1
 > $$
 > \begin{cases}
 > \dot{x}_{1} = - x_{1} + u \\

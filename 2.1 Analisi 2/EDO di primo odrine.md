@@ -10,14 +10,14 @@ alias
 >$$ y'(t) = f(t,y(t)) $$
 
 
->[!esempio]
+>[!example]
 >$$ y'(t) = t \sqrt{ y(t)^2 + 1 } $$
 >è in forma normale con $f(t,s)= t\sqrt{ s^2 + 1 }$.
 >Guardiamo poi il [[polimi-ing-info/2.1 Analisi 2/dominio]], per il quale dobbiamo considerare entrambe le variabili, abbiamo $S^2 + 1>0\ \ \forall s \in \mathbb{R}$.
 >E invece $t$ che ha chiaramente $\mathbb{R}$ come dominio, il dominio di definizione dell'equazione differenziale è: $\mathbb{R} \times \mathbb{R} = \mathbb{R}^2$.
 > $s$ inoltre dipende da $t$, abbiamo quindi $s = y(t)$.
 
->[!esempio]
+>[!example]
 >$$ y'(t) = \frac{1}{t}\qquad t>0  \Longrightarrow f(t,s) = \frac{1}{t} \cdot \fbox1$$
 >$f$ non dipende esplicitamente da $s$. Il dominio di $f$:
 >$$D = \{(t,s) : \mathbb{R}^2 : t \neq 0, s \in \mathbb{R}\} $$
@@ -54,7 +54,7 @@ Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovar
 >$$ y'(t) = a(t)y(t) $$
 >Quindi con $b(t) = 0$
 
->[!esempio]
+>[!example]
 >$$ \begin{align}
 >&y'(t) + \frac{y(t)}{1+t} = \frac{2}{1+t}  \\
 >&y'(t) = -\frac{y(t)}{1+t} + \frac{2}{1+t}  \\
@@ -102,7 +102,7 @@ Per la soluzione [[formula risolutiva per EDO lineari del 1° ordine]]
 >$$ |\frac{ \partial f }{ \partial y } (t,y)| \leq M\quad \forall (t,y) \in A $$
 >Allora $\forall (t_{0},y_{0}) \in A$ il problema di cauchy $y(t_{0}) = y_{0}$ ha soluzione unica, definita $\forall t \in [a,b]$
 
->[!oss]
+>[!remark]
 >Se la EDO è lineare $f(t,y) = a(t)y + b(t)$ con $a,b : J \to \mathbb{R}$ continue, abbiamo già enunciato esistenza e unicità globale infatti:
 >$$ [c,d] \subseteq J\quad \frac{ \partial f }{ \partial y } (t,y) = a(t) $$
 >$$ |\frac{ \partial f }{ \partial y } (t,y)| = |a(t)| \leq \underset{t \in [c,d]}{\max}|a(t)| = M $$

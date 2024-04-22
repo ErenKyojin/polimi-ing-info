@@ -14,7 +14,7 @@ Le relazioni con cui lavoriamo in un [[DBMS]] tendono ad avere qualche specifici
 
 Inoltre una relazione matematica $n$-aria distingue gli $n$ domini unicamente attraverso la loro posizione, questo è scomodo in informatica, dove preferiremmo poter distinguere gli $n$ domini attraverso nomi identificativi, ad esempio:
 
-> [!esempio]
+> [!example]
 > Data la seguente tabella, che descrive uno studente, l'ultimo voto ricevuto e la media, questa di fatto descrive una relazione matematica, ma è di difficile leggibilità.
 > 
 > | Alice        | 28  | 25   |
@@ -44,7 +44,7 @@ o, attraverso le definizioni date rispetto alle basi di dati
 
 Una base di dati è molto raramente costituita da una sola relazione, e quando la relazione è più di una, i riferimenti fra le diverse relazioni vengono rappresentati per mezzo di valori dei domini
 
->[!esempio]
+>[!example]
 >Si consideri la seguente base di dati, che descrive una rete LAN.
 >
 > | ID  | utente  | password |

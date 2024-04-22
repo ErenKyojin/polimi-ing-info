@@ -19,11 +19,11 @@ Le forze interne sono quelle dovute alle interazioni con gli altri $n-1$ punti d
 $$ \vec{F}_{i}^{(I)} = \underset{ j \neq i }{ \sum_{j=1}^n } \vec{F}_{ij} $$
 Dove con $\vec{F}_{i,j}$ abbiamo indicato la forza (interna) esercitata sull'$i$-esimo punto dal $j$-esimo punto.
 
->[!proposizione]
+>[!proposition]
 >Per la terza legge della [[Dinamica]] di Newton avremo che $\vec{F}_{ji} = -\vec{F}_{ij}$ e quindi la risultante di tutte le [[forza|forze]] interne è nulla:
 > $$ \vec{F}^{(I)} \equiv \sum_{i = 1}^n \vec{F}_{i}^{(I)} = \sum_{i = 1}^n \underset{ j \neq i }{ \sum_{j = 1}^n } \vec{F}_{ij} = \underset{ j \neq i }{ \sum_{\text{coppie }ij} } (\vec{F}_{ij} + \vec{F}_{ji} = 0)$$
 
->[!oss]
+>[!remark]
 >Di conseguenza, la somma di tutte le forze agenti sul sistema è pari alla risultante delle sole [[forze esterne]]:
 >$$ \vec{F} \equiv \sum_{i = 1}^n \vec{F}_{i} = \sum_{i = 1}^n \vec{F}_{i}^{(I)} + \sum_{i=1}^n \vec{F}_{i}^{(E)} = \sum_{i = 1}^n \vec{F}_{i}^{(E)} = \vec{F}^(E)$$
 
@@ -49,11 +49,11 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 >In un sistema di riferimento inerziale, un sistema di punti materiali isolato oppure soggetto ad un sistema di forze esterne con risultante nulla conserva la quantità di moto totale.
 > $$ \fbox{$\vec{F}^{(E)} = 0 \implies \vec{p} = \cost$} $$
 >
->>[!corollario]
+>>[!cor]
 >>Più in generale, se si annulla la componente della risultante delle forze esterne lungo un dato asse, allora si conserva la componente della quantità di moto totale lungo quell'asse e viceversa:
 >> $$ F_{z}^{(E)} = 0 \implies p_{z} = \cost $$
 
->[!oss]
+>[!remark]
 >Notiamo infine che, in base al teorema dell'impulso, la quantità di moto di un sistema di punti materiali si conserva in un intervallo di tempo infinitesimo anche in presenza di una risultante delle forze esterne non nulla purchè tale risultante sia non impulsiva. Vedremo che tale circostanza assumerà un ruolo chiave nello tudio degli [[urti]] tra punti materiali.
 
 ## Centro di massa e teorema del centro di massa

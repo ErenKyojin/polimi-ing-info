@@ -10,7 +10,7 @@ otteniamo $A = A^T$
 >Sia $(V,<,>)$ uno spazio euclideo. Un endomorfismo $\mathcal{L} : V \to V$ si dice simmetrico se $<\mathcal{L}(\mathbf{v}),\mathbf{w}> = <\mathbf{v},\mathcal{L}(\mathbf{w})>$ per ogni $\mathbf{v},\mathbf{w} \in V$.
 > Gli endomorfismi simmetrici vengono anche chiamati operatori autoaggiunti
 
->[!proposizione]
+>[!proposition]
 >Sia $(V, \langle, \rangle)$ uno spazio euclideo di dimensione finita e sia $\mathcal{B}$ una base ortonormale. Un endomorfismo $\mathcal{L} : V \to V$ è simmetrico se e solo se $M_{\mathcal{B}}^\mathcal{B}(\mathcal{L})$ è simmetrica
 >
 >>[!dim]
@@ -27,7 +27,7 @@ otteniamo $A = A^T$
 
 
 
->[!oss]
+>[!remark]
 >Sia $(V,<,>)$ spazio euclideo, $\dim(V) < +\infty$ e sia $\mathcal{L} : V \to V$ un endomorfismo. Se esiste una base ortonormale di autovettori per $\mathcal{L}$ allora $\mathcal{L}$ è simmetrico. Infatti su $\mathcal{B} =\left\{ \mathbf{q}_{1},\dots,\mathbf{q}_{n} \right\}$ è base ortonormale di autovettori per $\mathcal{L}$ si ha che $\forall \mathbf{v} =x_{1}\mathbf{q}_{1} + \dots + x_{n}\mathbf{q}_{n}$ e $\mathbf{w} = y_{1}\mathbf{q}_{1} + \dots + y_{n}\mathbf{q}_{n}$
 > $$ \begin{align}
 ><\mathcal{L}(\mathbf{v}),\mathbf{w}> &= <x_{1}\mathcal{L}(\mathbf{q}_{1})+\dots + x_{n}\mathcal{L}(\mathbf{q}_{n}),y_{1}\mathbf{q}_{1} + \dots + y_{n}\mathbf{q}_{n}> \\

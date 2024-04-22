@@ -6,7 +6,7 @@
 >- un'operazione di prodotto tra un qualsiasi ente ed un qualsiasi numero reale
 >Allora questi enti formano una classe (o tipo) di grandezze fisiche
 
->[!esempio]
+>[!example]
 >Esempi di classi di grandezze fisiche sono
 >- lunghezza
 >- massa
@@ -20,7 +20,7 @@ Una grandezza fisica si definisce mediante un preciso procedimento operativo, in
 >Misurare una grandezza fisica significa mettere in atto un procedimento per caratterizzarla quantitavamente
 
 
->[!esempio]
+>[!example]
 >Per avere una precisa stima quantitvamente parlando di una grandezza fisica $G$ dobbiamo determinare il numero di volte in cui un'altra grandezza arbitraria ma omogenea (ossia della stessa classe o tipo) a $G$ 
 >$U$ prende il nome di unità di misura e deve essere definita una unità di misura convenuta per ogni classe di grandezze
 >G si esprime mediante il rapporto
@@ -29,14 +29,14 @@ Una grandezza fisica si definisce mediante un preciso procedimento operativo, in
 >$$
 
 
->[!oss] Cambiamento di unità di misura
+>[!remark] Cambiamento di unità di misura
 >L'unità di misura puó essere cambiata, scegliendo una $U'$ diversa da $U$, la misura di $G$ diventa
 > $$
 > n' \equiv \frac{G}{U'} = \frac{G}{U} \frac{U}{U'} = \frac{U}{U'}n
 >$$
 >Il rapporto $\frac{U}{U'}$ si chiama [[fattore di ragguaglio]] per oassare da $U$ ad $U'$
 
->[!oss]
+>[!remark]
 >Misura di una grandezza fisica come la differenza tra i valori di [[Indice di stato fisico]]
 
 
@@ -67,7 +67,7 @@ Per altre grandezze, oltre ad associare un numero reale detto [[Modulo]] bisogna
 ---
 
 
->[!oss] Rapporto tra grandezze scalari e grandezze vettoriali
+>[!remark] Rapporto tra grandezze scalari e grandezze vettoriali
 >È sempre possibile riguardare una grandezza scalare come una grandezza vettoriale di uno spazio geometrico euclideo unidimensionale. In un tale spazio,quello della retta dei numeri reali, la direzione è fissa, il modulo è rappresentato dal modulo algebrico della misura della grandezza, il verso può essere solo positivo o negativo, e viene individuato dal segno della misura
 
 
@@ -78,7 +78,7 @@ In fisica la dimensione ha un significato duplice:
 >La dimensione di una grandezza fisica è rappresentata dalla classe di appartenenza della grandezza in esame
 
 
->[!esempio]
+>[!example]
 >Diremo che la dimensione di una distanza, come la dimensione di un'altezza o di una profondità o del perimetro di un tavolo è una lunghezza. 
 >Allo stesso modo il volume di un edificio sarà con le dimensioni di una lunghezza al cubo, è utile formalizzare queste relazioni in equazioni dimensionali, sfruttando il simbolo dimensionale della grandezza fisica
 
@@ -94,7 +94,7 @@ Tuttavia ci puó essere una seconda definizione di dimensione in fisica:
 >Si definisce dimensione di grandezze fisiche $G$ rispetto alla classe di grandezze fisiche fondamentale $A$, l'esponente della classe di grandezze fisiche fondamentali considerata nell'equazione che descrive il procedimento indiretto di misura di $G$
 
 
->[!esempio]
+>[!example]
 >Consideriamo ad esempio la velocità, essa è una classe di grandezze fisiche detivate definita dalla relazione velocità = lunghezza / intervallo di tempo, che corrisponde alla equazione imensionale $[v] = [L][T]^{-1}$, potremo quindi dire che la velocità ha dimensione $1$ rispetto alla lunghezza e dimensione $-1$ rispetto al tempo, o che la velocità ha dimensionei di una lunghezza per un tempo alla meno 1.
 
 # ANKI

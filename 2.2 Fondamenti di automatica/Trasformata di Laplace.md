@@ -11,7 +11,7 @@ L'antitrasformata è
 $$
 v(t) = \mathcal{L}^{-1}[V(s)] = \frac{1}{2\pi j}\int_{\alpha - j \infty}^{\alpha + j\infty} V(s)e^{st}\, ds 
 $$
->[!oss]
+>[!remark]
 >è un [[integrale]] complesso, dobbiamo dire su che linea ci muoviamo, ossia $\alpha$
 >
 > ```tikz
@@ -27,7 +27,7 @@ $$
 >```
 >In rosso alpha col percorso di percorrenza
 
->[!oss]
+>[!remark]
 >
 >$$
 >\int _{0}^{\infty} \! \fbox{FILL}e^{-st} \, \mathrm{d}x 
@@ -35,7 +35,7 @@ $$
 
 ## Esempi notevoli di TDL
 
-> [!Esempio]
+> [!example]
 > 
 > $$
 > v(t) = \text{sca}(t) := \begin{cases}
@@ -57,7 +57,7 @@ $$
 > \mathcal{L}(\text{sca(t)}) = \int _{0}^\infty \text{sca}(t) e^{-st}\, dt = \frac{1}{s}
 > $$
 
-> [!esempio]
+> [!example]
 > $$
 > v(t) = \text{imp}(t)\qquad \begin{cases}
 > \text{imp}(t) = 0\quad \forall t \neq 0 \\

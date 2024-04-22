@@ -22,7 +22,7 @@ $$s_n = \sum_{k=0}^na_k\qquad\text{per }n = 0,1,2,...$$
 L'ultima formula scritta spiega in che modo il concetto di serie traduce l'idea di somma di infiniti addendi, si calcola il [[Limite]] per $n \to+\infty$ Della somma finita dei primi $n$ addendi.
 >"studiare il carattere della serie" significa stabilire se la serie è convergente, divergente o irregolare.
 
->[!oss]
+>[!remark]
 >Parlare di una serie numerica coinvolge sempre due diverse successioni, la successione $\{a_n\}$ dei termini della serie, e la successione $\{s_n\}$ delle sue sue somme parziali, ad esempio $\sum a_n$ è convergente se la successione $\{s_n\}$ è convergente, NON se lo è $\{a_n\}$
 
 Esempi di serie in [[serie notevoli]]
@@ -41,12 +41,12 @@ Notiamo che la condizione non è sufficiente, basta pensare alla [[serie notevol
 
 È importante studiare i vari [[criteri di convergenza]] che ci permettono di affermare attraverso condizioni sufficienti che una serie converga, vedremo solo poi come calcolarne la somma.
 
->[!oss]
+>[!remark]
 >È utile ricordare la differenza tra stabilire il carattere della serie (ossia convergente, divergente, irregolare) e lo stabilire la somma della serie (se convergente).
 >Ad esempio quando usiamo il [[criteri di convergenza|criterio di convergenza asintotico]] per affermare che $\sum a_n$ converge perchè $\sum b_n$ converge, non significa che le due serie abbiano la stessa somma.
 >Intuitivamente sembrerebbe aver senso in quanto dire che $a_n \sim b_n$ afferma che gli addendi sono simili quando $n$ è grande, ma il valore di una serie dipende anche dai primi addendi, che possono essere diversi
 >
->>[!esempio]
+>>[!example]
 >>Consideriamo
 >>$$\sum\frac{1}{n(n+1)}=1\text{ e sappiamo che }\frac{1}{n(n+1)}\sim\frac{1}{n^2}$$
 >>Tuttavia si può dimostrare che
@@ -59,7 +59,7 @@ Notiamo che la condizione non è sufficiente, basta pensare alla [[serie notevol
 >Osserviamo infine che tutte le [[asintotico|stime asintotiche]] viste precedentemente per le funzioni e gli strumenti per svilupparle possono essere usate anche per le serie
 
 Proviamo a studiare qualche serie attraverso tecniche sviluppate per le [[Funzioni]]
->[!esempio]
+>[!example]
 >$$\text{a)} \sum_{n=1}^\infty\left(\frac{e^{1/n}-1}{n}\right);\quad \text{b)} \sum_{n=1}^\infty(\frac{1}{n}-\sin \frac{1}{n}); \quad\text{c)}\sum_{n=1}^\infty\log\left(\frac{n+1}{n+2}\right)$$
 >a) $\frac{e^{1/n}-1}{n}\sim \frac{1}{n^2}$ per il [[limiti notevoli|limite notevole]] $e^{\varepsilon(x)} - 1 \sim \varepsilon(x)$ , quindi la serie converge per il [[criterio del confronto|criterio del confronto asintotico]] rispetto a $1/n^2$ converge.
 >

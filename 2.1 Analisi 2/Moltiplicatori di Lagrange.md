@@ -10,7 +10,7 @@ Sappiamo che il [[Teorema di fermat]] indica i punti candidati di estremo libero
 >  $$ \fbox{$\nabla f(\mathbf{x_{0}}) = \lambda_{0} \nabla F(\mathbf{x_{0}})$} $$
 > 
 
->[!oss] 
+>[!remark] 
 >scriviamo le condizioni
 > $$ \nabla f(x_{0},y_{0}) = \lambda_{0} \nabla F(x_{0},y_{0})\quad e \quad(x_{0},y_{0}) \in Z $$
 > in modo più esplicito:
@@ -38,9 +38,9 @@ F(\mathbf{x_{0}}) = 0
 
 
 
->[!oss] $\lambda_{0} = 0$ è ammissibile
+>[!remark] $\lambda_{0} = 0$ è ammissibile
 
->[!esempio]
+>[!example]
 >$f(x,y) = x^2y$
 > $$ Z = {(x,y) \in \mathbb{R}^2 : F(x,y) = 0}\quad F(x,y) = x^2 +y^2 - 1 $$
 > 

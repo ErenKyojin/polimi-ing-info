@@ -21,7 +21,7 @@ Le risorse sono classificate come:
 - Risorse di gestione: norme, organigrammi, deleghe, piani, informazioni
 
 
->[!oss]
+>[!remark]
 >Ogni risorsa ha un proprio ciclo di vita:
 >- Pianificazione
 >- Acqusizione
@@ -30,7 +30,7 @@ Le risorse sono classificate come:
 >- ...
 
 
->[!esempio]
+>[!example]
 >Esempi di risorse sono:
 >- personale
 >- denaro

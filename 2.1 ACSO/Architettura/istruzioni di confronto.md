@@ -1,7 +1,7 @@
 # istruzioni di confronto
 Istruzioni per il confronto di due variabili, ad esempio:
 
->[!esempio] verifica se `rs1 < rs2`
+>[!example] verifica se `rs1 < rs2`
 >```armasm
 >slt rd, rs1, rs2  ; set on less than, assegna ad rd 1 se rs1 < rs2, altrimenti assegna 0
 >```

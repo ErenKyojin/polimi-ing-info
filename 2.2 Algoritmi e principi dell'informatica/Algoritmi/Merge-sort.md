@@ -74,7 +74,7 @@ sum ...
 Quindi il totale è $\log_{2}(n) + cn$
 Quindi la [[Complessità]] totale è $\Theta(n \log_{2}(n))$
 
->[!oss]
+>[!remark]
 >Non c'è un caso ottimo ed un caso pessimo, inoltre ha un alta complessità spaziale dovendo generare nuovi array
 
 Questo è uno dei molteplici casi di [[soluzioni di ricorrenze]]

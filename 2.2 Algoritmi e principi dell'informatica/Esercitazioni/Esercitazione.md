@@ -337,7 +337,7 @@ Se i non terminali diventavano stati gli stati saranno i non terminali, lo stato
 \end{document}
 ```
 
->[!oss]
+>[!remark]
 >Per accettare dobbiamo aggiungere uno stato dove mandare S e C quando hanno terminato, lo manteniamo quindi non deterministico.
 
 
@@ -618,7 +618,7 @@ t(1) = d
 con $c,d$ costanti positive derivate dalla divisione del problema
 $T(n) = \Theta(\log n)$
 
->[!oss]
+>[!remark]
 >Ovviamente non conviene ordinare un array ($n\log(n)$) per poi applicare una ricerca binaria (complessità $\log(n)$), a meno che non sia un array che riceve molte ricerce, conviene direttamente cercare l'elemento (complessità $n$).
 
 ---

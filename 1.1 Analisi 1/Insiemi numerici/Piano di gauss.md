@@ -9,7 +9,7 @@ Quindi si tratta di un piano con l'asse dei numeri reali sull'ascisse e l'asse d
 >[!example] Piano di Gauss - somma di numeri complessi
 >![[Pasted image 20220713122330.png]]
 
->[!oss] NON SI TRATTA DI VETTORI
+>[!remark] NON SI TRATTA DI VETTORI
 > Infatti prodotto e divisione di numeri complessi sono validi, non sono invece definiti per i vettori
 
 

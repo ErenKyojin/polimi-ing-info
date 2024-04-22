@@ -20,7 +20,7 @@ La stringa di ingresso $x$ viene riconosciuta se
 Inoltre se l'automa è pure traduttore
 $\tau(x)$ è la stringa che si trova nel nastro di scrittura dopo aver scandito totalmente $x$, (se $x$ non viene accettata $\tau(x) = \perp$ , $\perp$ significa indefinito) 
 
->[!esempio]
+>[!example]
 >Riconoscimento della stringa $a^nb^n$
 >```mermaid
 >graph LR
@@ -102,14 +102,14 @@ I linguaggi di programmazione reali sono tutti basati su automi a pila, memoria 
 
 Quindi la classe dei linguaggi riconosciuti dagli automi a pila $LP$ non è [[Chiusura|chiusa]] rispetto all'intersezione e rispetto all'unione
 
->[!oss]
+>[!remark]
 >Questo non significa che non è mai possibile l'unione di linguaggi riconosciuti da automi a pila
 
->[!oss]
+>[!remark]
 >$\mathcal{L}(AF) \subset \mathcal{L}(AP)$
 >Si dimostra prima $\subseteq$ e poi che $\neq$, e si aggiunge poi una pila stupida a qualsiasi tipo di automa a stati finiti, ossia una pila che aggiunge e rimuove ad ogni passaggio, questo rende inalterato il FSA, per dimostrare che non è uguale è semplice
 
->[!oss]
+>[!remark]
 >Il fatto che una classe sia sottoinsieme di un altra non implica che la seconda abbia piú proprietà
 
 ### Chiusura rispetto a $\neg$?
@@ -228,7 +228,7 @@ $$\delta : Q \times (I \cap \left\{ \varepsilon \right\}) \times \Gamma \to \mat
 >[!theorem]
 >il linguaggio $L= \{ a^nb^n | n \geq 1 \} \cup \{ a^nb^{2n} | n \geq 1 \}$ è accettato da un APND, ma non da un APD
 
->[!oss]
+>[!remark]
 >Gli automi a pila non deterministici possono riconoscere un [[Linguaggio]] non riconoscibile dagli automi a pila deterministici, quindi sono piú potenti.
 >
 >Hanno la chiusura rispetto all'[[Unione]]

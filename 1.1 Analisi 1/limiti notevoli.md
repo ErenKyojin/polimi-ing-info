@@ -54,7 +54,7 @@ I limiti notevoli si possono esprimere anche usando il simbolo di equivalenza [[
 ## [[o piccolo]]
 Dalla conoscenza di O piccolo possiamo portare i limiti notevoli ad un nuovo livello, infatti poter passare da tendenze e stime asintotiche al simbolo $=$ è di vitale importanza, questo simbolo infatti ci permette di fare molte più operazioni e deduzioni rispetto ai precedenti.
 
->[!esempio]
+>[!example]
 >Per $x \to 0$
 >$$\begin{align}
 >&\sin x \sim x \Longrightarrow \sin x = x + o(x)\\

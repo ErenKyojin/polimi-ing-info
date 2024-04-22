@@ -25,5 +25,5 @@ I(t) &= \begin{bmatrix}
 
 \end{align}
 $$
->[!esempio]
+>[!example]
 Prendiamo come esempio il ramo di iperbole:

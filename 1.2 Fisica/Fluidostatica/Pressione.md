@@ -11,7 +11,7 @@ modification date: 2023-07-07 09:14
 >
 >Quindi la forza di superficie si può definire come $dF_n = p\ \d S$
 
->[!oss]
+>[!remark]
 >La pressione dipende o meno dall'orientazione della superficie considerata in un fluido all'equilibrio? Per rispondere consideriamo un elemento $\d m$ di fluido
 >Tutte le forze orizzontali e verticali all'equilibrio si devono compensare:
 >$$ \begin{cases}

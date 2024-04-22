@@ -10,5 +10,5 @@ L'output è una **specifica**, successivamente convalidata tramite analisi e ver
 
 La **specifica** indica cosa deve svolgere il software
 
->[!oss]
+>[!remark]
 >dalla specifica derivano i casi di test

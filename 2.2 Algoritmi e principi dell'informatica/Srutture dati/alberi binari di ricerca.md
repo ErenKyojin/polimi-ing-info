@@ -7,7 +7,7 @@ modification date: 2023-05-16 10:46
 Un [[Albero binario]] di ricerca è un albero binario che soddisfa le seguenti proprietà:
 Per tutti i nodi $x$ del BST se $l$ è un nodo nel sottoalbero sinistro allora `l.key` $\leq$ `x.key`
 
-> [!esempio]
+> [!example]
 > ```tikz
 > \begin{document}
 > \begin{tikzpicture}
@@ -68,7 +68,7 @@ Quindi se il sottoalbero destro di un oggetto `x` dell'albero dell'albero non è
 \end{tikzpicture}
 \end{document}
 ```
->[!oss] x predecessore di $\text{ succ}(x)$.
+>[!remark] x predecessore di $\text{ succ}(x)$.
 
 Per trovare un successore:
 se esiste il sottoalbero destro

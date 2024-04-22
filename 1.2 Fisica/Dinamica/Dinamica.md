@@ -29,7 +29,7 @@ Il problema generale della dinamica del punto materiale consiste nella ricerca d
 >& \vec{r}(t) = \vec{r}(t_{0}) + \int _{t_{0}}^t \!\vec{v}(t') \, \mathrm{d}t' 
 \end{align} $$
 
->[!oss]
+>[!remark]
 >In generale tuttavia l'andamento temporale della risultante delle forze non è noto esplicitamente ma si conosce ad esempio la sua dipendenza dalla posizione e dalla velocità del [[Punto materiale]], oltre che del tempo.
 >Quindi in quanto il secondo principio della dinamica permette di scrivere un'equazione vettoriale del tipo 
 >$$
@@ -61,7 +61,7 @@ con
 - $\vec{a}_{c}$ [[accelerazione di Coriolis]]
 - $\vec{a}_{t}$ accelerazione di trascinamento
 
->[!oss]
+>[!remark]
 >L'accelerazione relativa misurata in un sistema di riferimento non inerziale non coincide con l'accelerazione assoluta riferita al sistema inerziale. Poichè la forza $\vec{F}$ è la stessa in enrambi i sistemi di riferimento, nel sistema non inerziale non puó valere il secondo principio della dinamica:
 >$$ \vec{F} = m\vec{a}_{a} \neq m\vec{a}_{r} $$
 
@@ -76,7 +76,7 @@ $$
 
 ### Sistema in moto traslatorio puro
 
->[!esempio] ascensore in discesa accelerata.
+>[!example] ascensore in discesa accelerata.
 >Come sistema inerziale si puó escegliere un sistema solidale con la terra, come sistema mobile quello dell'ascensore, studiamo le forze che agiscono sul passeggero.
 >
 > ```tikz

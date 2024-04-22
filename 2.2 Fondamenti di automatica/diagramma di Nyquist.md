@@ -44,7 +44,7 @@ Quindi il numero di giri antiorario che l'immagine $\Delta$ della curva divisa $
 compie attorno all'origine del uso piano $\mathbb{C}$ è uguale al numero di poli di $G$ circondati de $\Gamma$ in senso orario meno il numero di zeri di $G$ circondati da $\Gamma$ in senso orario
 
 
->[!oss]
+>[!remark]
 >Un giro orario = -1 giro antiorario e viceversa
 
 

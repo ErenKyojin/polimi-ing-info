@@ -33,7 +33,7 @@ $$\begin{rcases}
 \bullet\text{ decrescente } &a_{n+1} \leq a_n \\
 \bullet\text{ decrescente } &a_{n+1} < a_n
 \end{rcases}\text{se }\forall n \geq \bar n \text{ definitivamente}$$
->[!esempio]
+>[!example]
 >$a_n = (n-8)^2 = 64, 49, 36,25, 16,9,4,1,0,1,4,9,16,25,36,49...$
 >Funzione <u>non</u> crescente ma <u>definitivamente</u> crescente (inizia a crescere all'infinito dopo un certo punto)
 

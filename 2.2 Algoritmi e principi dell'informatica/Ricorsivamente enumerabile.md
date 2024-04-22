@@ -65,6 +65,6 @@ Esistono insiemi semidecidibili che non sono decidibili:
 Conclusione:
 i contenimenti sono tutti stretti
 
->[!corollario]
+>[!cor]
 >Gli insiemi RE (linguaggi riconosciuti dalle MT) non sono chiusi rispetto al complemento
 

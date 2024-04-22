@@ -9,7 +9,7 @@ modification date: 2023-04-12 10:16
 > $$ \vec{F} = -G \frac{m_{1}m_{2}}{r^2}\hat{u}_{r} $$
 
 
->[!oss]
+>[!remark]
 >La forza gravitazionale non richiede contatto fra i due corpi interagenti, ma agisce a distanza; anzi, ha raggio d'azione infinito.
 
 Conseguenza diretta della legge di gravitazione univerale è la [[massa#massa gravitazionale]]

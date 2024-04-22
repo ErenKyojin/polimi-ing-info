@@ -11,7 +11,7 @@ Consideriamo i sistemi con due segnali, uno di input ed uno di uscità, entrambi
 - tempo continuo: $t \in \mathbb{R}$
 - tempo discreto: $k \in \mathbb{Z}$
 
->[!esempio] Forno
+>[!example] Forno
 >Resistenza elettrica che fornisce potenza in forma di calore
 >uscità: temperatura interna
 >- Approssimata uniforme in un modello più approssimato
@@ -19,7 +19,7 @@ Consideriamo i sistemi con due segnali, uno di input ed uno di uscità, entrambi
 >
 >Disturbi di temperatura esterna/flussi di calore/irraggiamento
 
->[!esempio] valvola
+>[!example] valvola
 >Ingresso rotazione della valvola
 >Uscita flusso del fluido
 

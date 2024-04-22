@@ -12,7 +12,7 @@ creation date: 2024-03-03
 
 Caso particolare $(\alpha, \beta) = (0,1)$, si ha quindi $f(x) = 1$ se $X$ cade nell'intervallo $(a,b)$ e $f(x)=0$ altrimenti.
 
->[!oss]
+>[!remark]
 >Considerati $0 < a < b < 1$
 >$$ P\{ a \leq X \leq b \} =   \int _{a}^b \!f(x) \, \mathrm{d}x = b - a$$
 > quindi la probabilità che una variabile aleatoria continua uniforme $X$ cada all'interno di un intervallo è la lunghezza dell'intervallo stesso.

@@ -40,7 +40,7 @@ modification date: 2023-05-09 10:43
 > [!multi-column]
 >  
 >
->> [!Esempio]
+>> [!example]
 > >  | pos  | 1   | 2   | 3   | 4   |
 > >  | ---- | --- | --- | --- | --- |
 > >  | elem | 5   | 7   | 2   | 1    |
@@ -58,7 +58,7 @@ modification date: 2023-05-09 10:43
 >
 >
 
->[!oss]
+>[!remark]
 >L'albero sarà sempre completo ad eccezione del livello inferiore che potrebbe avere degli elementi mancanti verso destra:
 >
 > ```tikz

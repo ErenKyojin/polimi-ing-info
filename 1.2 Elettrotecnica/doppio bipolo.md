@@ -76,7 +76,7 @@ v_{2}
 
 si può identificare tramite prove semplici.
 ***
->[!oss]
+>[!remark]
 >Se un doppio bipolo ammette sia base tensione che base corrente ammette sia la metrice $\mathcal{R}$ che la matrice $\mathcal{G}$, condizione necessaria e sufficiente è che $\mathcal{R}^{-1} = \mathcal{G} \iff \det(\mathcal{R}) = \det(\mathcal{G})=0$
 
 ###### Matrice ibrida $\mathcal{H}$ di tipo 1

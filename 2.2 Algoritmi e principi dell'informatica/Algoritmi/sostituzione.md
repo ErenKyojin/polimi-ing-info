@@ -4,7 +4,7 @@ creation date: 2023-05-02 11:40
 modification date: 2023-05-02 11:40
 ---
 
->[!esempio]
+>[!example]
 >Cerchiamo un [[Limite]] superiore per la seguente $T(n):$
 >$$ T(n) = 2T(\lfloor n / 2\lfloor) + n $$
 >- Supponiamo $T(n) = O(n \log_{2}(n))$
@@ -18,7 +18,7 @@ modification date: 2023-05-02 11:40
 > - Ci basta quindi determinare una costante $c$ tale che $T(2) - 4 \leq c_{2} \log_{2}(2)$ e $T(3) - 5 \leq c_{3} \log_{2}(3)$
 > - Per ciò basta prendere $c \geq 2$
 
->[!esempio]
+>[!example]
 >$T(n) = 2T(\lfloor \sqrt{ n } \rfloor) + \log_{2}(n)$
 > - poniamo $m = \log_{2}(n)$, quindi $n = 2^m$, otteniamo
 > - $T(2^m)=2T(2^{m/2}) + m$

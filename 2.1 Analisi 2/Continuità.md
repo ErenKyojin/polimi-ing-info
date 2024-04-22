@@ -4,7 +4,7 @@
 >$f$ è continua in $A$ se è continua in $\mathbf{x}_{0}\ \forall\ \mathbf{x}_{0} \in A$ 
 
 
->[!oss]
+>[!remark]
 >Tutte le [[Funzioni]] elementari sono continue sul loro dominio di definizione $\implies$ dovremo verificare la continuità per definizione solo tramite le funzioni definite per casi
 
 

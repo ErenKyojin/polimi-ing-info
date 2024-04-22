@@ -35,7 +35,7 @@ $$ \int_{h_{1}(\overline{x},\overline{y})}^{h_{2}(\overline{x},\overline{y})} \!
 Se $f \geq 0$ è la massa del filo
 Poi svolgo l'integrale doppio, lasciando variare $(x,y) \in D$
 
->[!esempio]
+>[!example]
 >$$ I = \iiint_{E} \! x^2z\, \mathrm{d}x \, \mathrm{d}y\, \mathrm{d}z $$
 $$ E = \{\underbrace{ 0  }_{ h_{1}(x,y) }\leq z \leq \underbrace{ \sqrt{ R^2 - x^2 - y^2 } }_{ h_{2}(x,y) }\} $$
 Il testo ci comunica $h_{1}, h_{2}$, tuttavia non abbiamo il dominio $D$
@@ -65,7 +65,7 @@ I &=  \int_{0}^{2\pi} \! \left( \int_{0}^R \! (r\cos \theta)^2 \cdot \frac{R^2-r
 
 - Determino $D$ cercando l'intersezione tra $h_{1}$ ed $h_{2}$
 
->[!oss]
+>[!remark]
 >x semplice $E = \{(y,z) \in D, h_{1}(y,z) \leq x \leq h_{2}(y,z)\}$
 >$$ \iint_{D} \! \left( \int_{h_{1}(y,z)}^{h_{2}(y,z)} \!f(x,y,z) \, \mathrm{d}x  \right)\, \mathrm{d}y \, \mathrm{d}z $$
 >Analogo per y semplice

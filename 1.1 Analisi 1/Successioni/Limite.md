@@ -8,7 +8,7 @@
 > - Limite sinistro
 > $a_n \rightarrow L^-$ se $a_n \rightarrow L \Longrightarrow a_n \leq L$ definitivamente
 
->[!Esempio]
+>[!example]
 >$\{a_n\} = \frac{1}{n} \rightarrow 0^+$, tende a $0$ da sopra
 >
 >Anche la serie: $1, 0, \frac{1}{2},0,\frac{1}{3},0... \longrightarrow 0^+$
@@ -48,7 +48,7 @@
 >$\Rightarrow |a_n - A| < \varepsilon\qquad A-\varepsilon < a_n < A < A\varepsilon$
 >$|a_n|<|A|$ 
 
->[!oss]
+>[!remark]
 >Non necessariamente una successione limitata appartenente a $\mathbb Q$ ha limite $\in \mathbb Q$, un esempio è la successione $\lbrace a_n \rbrace$
 >$$
 >\begin{flalign}
@@ -118,13 +118,13 @@ La definizione rigorosa è:
 >	E in questo caso si dice che $f(x)$ end e a $l$ per eccesso (per difetto) per $x$ tendente a $c$, se per ogni successione $\{x_n\}$ di punti di $I$ diversi da $c$, tale che $x_n\to c$, si ha che $f(x_n)\to l^+$ (rispettivamente $l^-$) per $n\to\infty$.
 >	Inoltre osserviamo come affermare che $f(x_n)\to l^+$ significa che $f(x_n)\to l$ e inoltre $f(x_n) \geq l$ definitivamente
 >
->>[!esempio]
+>>[!example]
 >>$$\lim_{x\to -\infty}e^x = 0$$
 
 Notiamo che $0^+$ e $0^-$ NON indicano due numeri differenti, a loro volta diversi da zero, il limite è sempre zero, ma aggiunge informazioni sulla parte da cui stiamo approcciando il punto
 
 Inoltre non tutti i limiti possono essere necessariamente descritti per eccesso o per difetto:
->[!esempio]
+>[!example]
 >$$\lim_{x\to\infty}\frac{\sin x}{x}$$
 >Semplicemente $0$ 
 >```desmos-graph
@@ -170,7 +170,7 @@ Questo ci porta sul discorso della [[polimi-ing-info/2.1 Analisi 2/Continuità]]
 ### non esistenza del limite
 Il limite di una funzione può anche non esistere
 
->[!esempio]
+>[!example]
 >$$\lim_{x\to+\infty}\sin x\qquad\text{non esiste}$$
 >Per dimostrarlo, ci basta, sempre rifacendosi alla definizione successionale del limite, trovare due successioni divergenti  a $+\infty\{x_n\},\{y_n\}$ tali che $\sin x_n \neq \sin y_n$ 
 >Ad esempio

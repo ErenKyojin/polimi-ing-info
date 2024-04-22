@@ -40,5 +40,5 @@ Per elevare alla potenza di una matrice $A$ vediamo prima il caoso in cui sia di
 >I termini $e^{\lambda_{i}t}$ si chiamano **modi** del seistema
 
 
->[!esempio]
+>[!example]
 >$\dot{x} = Ax$, $A = \begin{bmatrix}1 & 1\\4 & 1\end{bmatrix}$

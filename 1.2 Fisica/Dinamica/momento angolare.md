@@ -19,7 +19,7 @@ Vi sono casi però in cui il punto materiale compie un moto [[piano]]. Se anche 
 Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una [[direzione]] costante, allora il moto di $P$ è un moto piano, infatti sarà costante la direzione del prodotto vettore $\vec{r} \times \vec{p}$, cioè il piano in cui giacciono $\vec{r}$ e $\vec{p}$ è lo stesso in tutti gli istanti del moto.
 
 
->[!esempio] [[moto circolare]]
+>[!example] [[moto circolare]]
 >Consideriamo il moto lungo una circonferenza di raggio $r$ e centro $O$: il momento angolare di $P$ rispetto al centro $O$ vale
 >$$ \vec{L} = m\vec{r} \times \vec{v}= mr^2\vec{\omega}$$
 >
@@ -37,7 +37,7 @@ Viceversa, se il momento angolare $\vec{L}$ di un punto materiale $P$ ha una [[d
 >\end{document}
 >```
 
->[!esempio] moto piano non circolare
+>[!example] moto piano non circolare
 >Conviene utilizzare le [[coordinate polari]] del piano, e scomporre la velocità secondo le componenti
 >$$ v_{r} = \frac{dr}{dt}\quad;\quad v_{\theta} = r \frac{d\theta}{dt} = r\omega   $$
 >Il momento angolare rispetto all'origine vale quindi:
@@ -89,7 +89,7 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[Sistemi di 
 >La derivata temporale del momento della quantità di moto di un sistema di punti rispetto ad un dato polo fisso è uguale al momento risultante, rispetto allo stesso polo, delle forze esterne applicate al sistema
 
 
->[!oss]
+>[!remark]
 >Un sistema è isolato se si annullano sia la risultante delle forze esterne, sia il momento risultante delle forze esterne. In generale il fatto che la risultante delle [[forze esterne]] sia nulla non implica che si annulli anche il momento risultante delle forze esterne:
 >$$ \vec{F}^{(E)} = 0 \cancel{ \implies } \vec{\tau}^{(E)} = 0 $$
 >Per un sistema isolato si conservano sia la [[Quantità di moto]] sia il [[Momento]] angolare
@@ -107,7 +107,7 @@ Tale equazione prende il nome di seconda equazione cardinale per i [[Sistemi di 
 >con ovvio significato dei simboli utilizzati per le grandezze totali del sistema
 
 
->[!oss]
+>[!remark]
 >Se il polo mobile coincide con il centro di massa del sistema di punti materiali $(O = CM)$
 >$$ \vec{v}_{CM} \times \vec{p} = \vec{v}_{CM} \times M \vec{v}_{CM} = 0 \implies \frac{d\vec{L}_{CM}}{dt} = \vec{\tau}_{CM}^{(E)}  $$
 >Il [[centro di massa]] è un polo mobile ma gode di proprietà particolari

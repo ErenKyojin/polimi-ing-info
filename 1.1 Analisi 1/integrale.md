@@ -1,6 +1,6 @@
 # Integrale
 $\newcommand{d}{\mathrm{d}}$
->[!esempio]
+>[!example]
 >Come si potrebbe calcolare l'area compresa tra l'asse $x$ e l'arco di parabola $y=x^2$ per $x\in[0,1]$.
 >```desmos-graph
 >top = 1; left = -1; right = 2; bottom = -1
@@ -42,7 +42,7 @@ Si legge integrale da $a$ a $b$ di $f(x)$ in $\d x$. il segno $\int$ (una esse a
 La scrittura quindi indica in modo molto intuitivo la definizione che abbiamo dato di integrale.
 $x$ è la variabile di integrazione ed è muta (ossia $\int_{a}^b  \! \,f(x) \d x = \int f(t) \! \, \d t)$.
 
->[!oss]
+>[!remark]
 >L'integrale di una funzione su un intervallo fissato è un numero e non una funzione.
 
 [[interpretazioni di intergrali]]
@@ -108,7 +108,7 @@ La definizione di integrale non ci è utile al proprio calcolo. Per calcolare un
 >G'(x) = f(x) \quad\text{per ogni } x \in [a,b]
 >$$
 >
->>[!esempio]
+>>[!example]
 >>$G(x)=x^2$ è una **primitiva** di $f(x)=2x$, e $G(x)=\sin x$ è una primitiva di $f(x) = \cos x$.
 >
 >è importante notare che se $G$ è una primitiva di $f$ lo è anche $G + c$ con $c$ costante. Invece se $G_{1}, G_{2}$ sono due primitive di $f$ in $[a,b]$ allora $G_{1}'-G_{2}' = 0$ in $[a,b]$, quindi per le proprietà delle derivate $[G_{1}-G_{2}]' = 0$ e quindi $G_{1}-G_{2}$ costante. 
@@ -169,7 +169,7 @@ $$
 $$
 (analogo è il caso $\lim_{ x \to b^{-} }f(x)=-\infty$)
 
->[!esempio]
+>[!example]
 >```desmos-graph
 >top = 15; bottom = -1; left = -1; right = 22; hideAxisNumbers; grid = false;
 >---
@@ -259,7 +259,7 @@ $$
 \fbox{$  
 \int_{a}^{+\infty} \! f(x) \, \d x = \lim_{ \omega  \to +\infty }\int_{a}^{\omega} \! f(x) \, \d x  $}
 $$
->[!esempio]
+>[!example]
 >```desmos-graph
 >top = 2.25; bottom = -2.25; left = -0.5; right = 6.5
 >---
@@ -333,7 +333,7 @@ $$
 \sum_{n=1}^{\infty} \frac{1}{n}
 $$
 infatti:
->[!oss]
+>[!remark]
 >```desmos-graph
 >top = 1.5; bottom = -1; left = -1; right = 10;
 >---

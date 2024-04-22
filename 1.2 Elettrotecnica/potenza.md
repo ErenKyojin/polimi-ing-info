@@ -6,14 +6,14 @@ Le dimensioni sono $[W] = [F][v] = [L]^2 [M][T]^{-3}$ e l'unità di misura è il
 Associata al watt è un'unità di misura del **LAVORO** è il chilowatt-ora ($kWh$) con $1 \text{ kWh } = 3.6 \cdot 10^6 J$.
 Quindi il lavoro compiuto in un'ora da una forza della potenza di 1 $\text{kW}$
 
->[!oss]
+>[!remark]
 >La potenza è la grandezza fisica con cui si misura la capacità di una macchina di compiere lavoro in un determinato tempo
 
->[!oss]
+>[!remark]
 >Come diretta conseguenza della definizione di potenza istantanea si ha che se una macchina sviluppa una potenza istantanea $W(t)$, il lavoro che essa compie nell'intervallo di tempo $(t_{1},t_{2})$ si calcola come:
 >$$ \mathcal{L} = \int _{t_{1}}^{t_{2}} \!W(t) \, \mathrm{d}t  $$
 
->[!oss]
+>[!remark]
 >Se complessivamente in un intervallo di tempo $\Delta t$ viene compiuto un lavoro $\mathcal{L}$ la potenza media vale per definizione
 >$$ W_{m} = \frac{\mathcal{L}}{\Delta t} $$
 
@@ -104,7 +104,7 @@ con la $A = |\hat A|$ potenza #apparente, che si misura in $VA$ e non in $W$, la
 >[!info]
 >La potenza complessa è indicata con $\hat A$ e non con $\bar A$ perchè, pur essendo di fatto un fasore, si riferisce alla pulsazione $2\omega$ in un circuito che è alla pulsazione $\omega$
 
->[!oss]
+>[!remark]
 >La potenza attiva è quella che consiste in un trasferimento di energia vero e proprio. La potenza reattiva invece è l'energia che viene immagazzinata periodicamente per poi essere rilasciata dai componenti dinamici
 
 
@@ -200,7 +200,7 @@ $$\begin{flalign}
 
 con $\gamma = 2\omega t-\theta$.
 
->[!oss] La potenza istantanea totale di un sistema #trifase bilanciato è costante
+>[!remark] La potenza istantanea totale di un sistema #trifase bilanciato è costante
 >*"un generatore trifase bilanciato che alimenta carichi bilanciati eroga una potenza istantanea costante, anzichè pulsante come nel caso monofase"*
 
 Questo risultato è valido anche per un carico a triangolo e costituisce un'importante ragione per utilizzare un sistema trifase per generare e distribuire la potenza elettrica. Essendo la potenza istantanea totale indipendente dal tempo, la potenza assorbita per fase per il carico a stella o a triangolo è $\frac{p_a^{Z_Y}}{3} =\frac{p_a^{Z_\Delta}}{3} = V_pI_p\cos\theta$.
@@ -218,7 +218,7 @@ $$\begin{flalign}
 La potenza complessa assorbita per fase è:
 $$\hat A_p = P_p + jQ_p$$
 
->[!oss]
+>[!remark]
 >il fatto che la potenza istantanea assorbita dal carico trifase sia costante non implica che la potenza attiva istantanea e reattiva istantanea, calcolate per il singolo bipolo del carico siano nulle istante per istante
 
 Non possiamo infatti affermare che la componente pulsante della potenza istantanea assorbita sia nulla. Ma, dato che il carico è bilanciato e le tensioni impresse dal generatore di fase sono bilanciate, i contributi pulsanti di potenza attiva e reattiva istantanea hanno:

@@ -23,7 +23,7 @@ $$
 con $\Gamma$ alfabeto di pila, notare che sono tanti quanti i nastri di memoria, prima indichiamo i k caratteri letti dai k nastri, e poi i k caratteri scritti dai k nastri.
 $k+1$ Movimenti in quanto c'è anche il nastro in ingresso.
 
->[!oss]
+>[!remark]
 >$S$ sul nastro di ingresso è una [[Epsilon]] mossa, inoltre posso leggere piú volte il contenuto del nastro di ingresso.
 
 Quindi:
@@ -52,13 +52,13 @@ Quindi:
 	- La macchina non si forma
 
 ----
->[!Esempio]
+>[!example]
 >Automa che riconosce $\left\{ a^nb^nc^n | n > 0 \right\}$
 >Slide 88 #todo 
 
 Negli automi a pila possiamo scrivere piú di un elemento in pila ad ogni mossa, per replicare questo comportamento sfruttiamo epsilon mosse
 
->[!esempio]
+>[!example]
 >Calcolo del successore di un numero codificato in decimali. S91
 >
 >- $M$ copia tutte le cifre di $n$ su $T$ alla destra di $Z_{0}$, cosi facendo sposta la testina di $T_{2}$ dello stesso numero di posizioni
@@ -150,7 +150,7 @@ $$
 Configurazioni, transizioni, sequenze di transizioni e accettazione sono definite come al solito.
 Infine chiediamoci se il non [[determinismo]] aumenta la potenza delle macchine di Turing.
 
-> [!esempio] Albero delle computazioni
+> [!example] Albero delle computazioni
 > ```mermaid
 > graph TB
 > 	c0 --> n0((.))
@@ -184,7 +184,7 @@ Infine chiediamoci se il non [[determinismo]] aumenta la potenza delle macchine 
 
 E le linee tratteggate computazioni non terminate
 
->[!oss]
+>[!remark]
 >L'albero di computazione di una macchina di turing (deterministica e non) puó: non fermarsi, fermarsi o accettare.
 >
 >Se la macchina è deterministica l'albero sarà lineare

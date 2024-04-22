@@ -24,7 +24,7 @@ Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 >
 >Quindi due semidecidibilità fanno una decidibilità, quando rispondere No equivale a rispondere si.
 >
->>[!corollario]
+>>[!cor]
 >>Gli insiemi decidibili sono chiusi rispetto al [[complemento]]
 >
 >>[!dim]

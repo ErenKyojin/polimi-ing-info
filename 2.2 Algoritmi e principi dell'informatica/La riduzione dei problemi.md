@@ -7,7 +7,7 @@ modification date: 2023-04-06 09:51
 Se ho un [[Algoritmo]] per risolvere il [[problema]] $P$ posso sfruttarlo per risolvere il [[problema]] $P'$.
 
 
->[!esempio]
+>[!example]
 >Se so risolvere il problema della ricerca di un elemento in un [[insieme]] posso risolvere il problema dell'[[Intersezione]]
 
 
@@ -19,7 +19,7 @@ Abbiamo già usato questo meccanismo varie volte, dall'indecibilità del [[probl
 - Se sapessi decidere se $P$ termina il suo calcolo su $f$ saprei risolvere nanche il problema dell'halt della MT
 
 
->[!oss]
+>[!remark]
 >Avremmo potuto ridimostrare in modo diretto l'indecidibilità della terminazione dei programmi $C$ enumerando i programmi e applicando la stessa tecnica diagonale (con parecchi dettagli notazionali in piú)
 
 
@@ -45,7 +45,7 @@ ne concludo che $x \in S'$ non è decidibile, altrimenti ne ricaverei la consegu
 dimostrare decidibilità -> riduciamo a problema conosciuto risolvibile
 dimostrare indecidibilità -> mostriamo che è il ridotto di un problema indecidibile
 
->[!esempio]
+>[!example]
 >Generico programma $P$, è decidibile se durante l'esecuzione di un generico programma $P$ si acceda ad una variabile non inizializzata.
 >Supponiamo per assurdo che sia decidibile. Consideriamo il [[problema]] dell'halt e riduciamolo a questo problema come segue:
 >Dato un generico $P^\land$ dove tutte le variabili sonoinizializzate costruisco $P$:

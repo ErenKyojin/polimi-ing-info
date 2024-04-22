@@ -40,5 +40,5 @@ Devo considerare
 	- rischio
 	- obiettivi
 
->[!oss]
+>[!remark]
 >La forma giuridica può cambiare nella vita dell'azienda

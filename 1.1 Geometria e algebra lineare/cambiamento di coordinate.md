@@ -1,4 +1,4 @@
->[!proposizione] 
+>[!proposition] 
 >Sia $\mathcal{L} : V \to W$ applicazione lineare e $\mathcal{B}_{1},\mathcal{B}_{2}$ basi finite per $V$ e $\mathcal{C}_{1},\mathcal{C}_{2}$ basi finite per $W$. Allora posto $S = M_{\mathcal{B}_{1}}^{\mathcal{B}_{2}}(id_{V})$ e $T = M_{\mathcal{C}_{1}}^{\mathcal{C}_{2}}(id_{W})$ si ha che
 >$$ M_{\mathcal{C}_{2}}^{\mathcal{B}_{2}}(\mathcal{L}) = T^{-1} \circ M_{\mathcal{C}_{1}}^{\mathcal{B}_{1}} \circ S $$
 >
@@ -30,7 +30,7 @@
 
 
 
->[!oss]
+>[!remark]
 >Sia $\mathcal{L} : V \to V$ applicazione lineare, supponiamo di scegliere la stessa base $\mathcal{B}$ su $V$ in dominio e codominio e di scegliere un altra base $\mathcal{B}'$ per $V$ su dominio e codominio. Allora
 > $$\begin{align}
 > M_{\mathcal{B}'}^{\mathcal{B}'} &= M_{\mathcal{B}'}^\mathcal{B} (id_{V})M_{\mathcal{B}}^\mathcal{B} (\mathcal{L}) M_{\mathcal{B}}^{\mathcal{B}'} \\ \\
@@ -38,7 +38,7 @@
 \end{align}$$
 >Quando viene scelta la stessa base $\mathcal{B}$ per dominio e codominio diciamo che $M_{\mathcal{B}}^\mathcal{B}(\mathcal{L})$ è la [[matrice rappresentativa]] di $\mathcal{L}$ rispetto a $\mathcal{B}$
 
->[!esempio]
+>[!example]
 >Sia $\mathcal{L} : \mathbb{R}^2 \to \mathbb{R}^2, \mathcal{B} = \left\{ \mathbf{b}_{1}, \mathbf{b}_{2} \right\} = \mathcal{C}$. Scrivere la matrice di rappresentazione di $\mathcal{L}$ tale che
 > $$ \begin{align}
 > &\mathcal{L}(\mathbf{b}_{1}) = 2 \mathbf{b}_{1} \\

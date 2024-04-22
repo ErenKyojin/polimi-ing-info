@@ -6,7 +6,7 @@ $$ \nabla f(x_{0},y_{0}) = \begin{bmatrix}
 \end{bmatrix}  \in \mathbb{R}^2$$
 Per calcolare il gradiente di una funzione derivabile in $\mathbf{x_{0}}$ semplicemente is applicano le regole di derivazione di analisi 1, svolgendo i calcoli per variabili diverse.
 
->[!esempio]
+>[!example]
 >Potenziale elettrico $V(\mathbf{x}) = \frac{1}{||\mathbf{x}||}$
 >$$ V(x_{1},x_{2},x_{3}) = \frac{1}{\sqrt{ x_{1}^2+x_{2}^2+x_{3}^2 }} \qquad E(\mathbf{x}) = -\nabla V(\mathbf{x})$$
 >$$\begin{align}
@@ -36,7 +36,7 @@ Per calcolare il gradiente di una funzione derivabile in $\mathbf{x_{0}}$ sempli
 &= \langle \nabla f(\mathbf{x_{0}}), \mathbf{v}\rangle + 0
 >>\end{align} $$
 
->[!esempio]
+>[!example]
 >$f(x,y) = e^{x^2y}$
 >$\mathbf{x_{0}} = (1,1)$, $\mathbf{v}=\frac{1}{\sqrt{ 2 }}[1,1]^T$
 >$$ \begin{align}

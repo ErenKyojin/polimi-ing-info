@@ -46,7 +46,7 @@ Comportamento per $\omega \to 0$ se $G(0)$ è definito o asintoticamente per $\o
 - $g < 0$, $G(0) = 0$ $\qquad$ il diagramma polare parte nell'origine
 - $g > 0, G(0)$ non è definita $\qquad$ il diagramma polare parte all'[[infinito]] con fase $-g 90^o$
 
->[!oss]
+>[!remark]
 >non vuole dire che il diagramma polare all [[infinito]] si appoggia su uno degli assi
 
   ```tikz
@@ -80,7 +80,7 @@ Lo si puó dedurre dai diagrammi di bode:
 - l'andamento del modulo mi da la distanza dall'origine
 - l'andamento della fase mi da la distanza dell'argomento
 
->[!esempio]-
+>[!example]-
 >$G(s) = \frac{1}{1+s}$
 >
 >DBM sopram

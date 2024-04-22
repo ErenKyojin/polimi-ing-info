@@ -61,7 +61,7 @@ Queste proprietà sono dette [[invarianti di ciclo]]
 >>c8
 >>```
 
->[!oss] Numero di volte
+>[!remark] Numero di volte
 > c1: $n$
 > c2: $n-1$
 > c4: $n-1$

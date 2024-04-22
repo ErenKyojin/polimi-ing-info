@@ -8,12 +8,12 @@ Approfondiamo proprietà fondamentali dei limiti e della continuità, verrà spe
 > 2. $f(x) \leq h(x)\leq g(x)$ definitivamente per $x\to c$
 > Allora anche $h(x)\to l$ per $x\to c$
 >
->>[!corollario]
+>>[!cor]
 >>1. per $x\to c, g(x)\to 0$
 >>2. $|h(x)|\leq g(x)$ definitivamente per $x\to c$
 >>Allora anche $h(x) \to 0$ per $x\to c$
 >
->>[!corollario]
+>>[!cor]
 >>se $f(x)\to 0$ per $x\to 0$ e $g(x)$ è limitata definitivamente da per $x \to c$, allora $f(x)g(x)\to 0$ per $x\to 0$
 >>
 
@@ -84,7 +84,7 @@ Tutti questi teoremi si basano sui teoremi equivalenti delle successioni e sulla
 >3. [[Logaritmo|Funzioni logaritmiche]]
 >4. [[Funzioni triogonometriche]] elementari
 >
->>[!oss]
+>>[!remark]
 >>Vedremo in seguito come combinando tra loro in vari modi queste funzioni, ci permetterà di ottenere altre funzioni continue, e quindi potremo spesso capire "a colpo d'occhio" se stiamo lavorando con una funzione continua o meno
 >
 >>[!dim]
@@ -145,7 +145,7 @@ Dalla proprietà precedente, segue subito il prossimo:
 # Esempio di calcoli dei limiti
 Di seguito esempi utili di applicazioni di teoremi visti fino ad ora
 
->[!esempio]- limiti di polinomi
+>[!example]- limiti di polinomi
 >Per calcolare il limite di un polinomio per $x \to +\infty$ è sufficiente calcolare il limite del termine di grado massimo.
 >Infatti dato un polinomio 
 >$$\begin{flalign}
@@ -153,7 +153,7 @@ Di seguito esempi utili di applicazioni di teoremi visti fino ad ora
 >&P(x) = a_0x^n \left\lbrace1+\frac{a_1}{a_0 x}+\frac{a_2}{a_0x^2}+...+\frac{a_n}{x^n}\right\rbrace
 >\end{flalign}$$
 
->[!esempio]- limiti di funzioni razionali
+>[!example]- limiti di funzioni razionali
 >Sia ora $f(x) = P_n(x)/Q_m(x)$ dove $P_n$ e $Q_m$ sono >polinomi rispettivamente di grado $n$ ed $m$ dati da:
 >$$\begin{flalign}
 P_n(x) &= a_0x^n+a_1x^{n-1}+...+a_n\\
@@ -174,13 +174,13 @@ Q_m(x) &= b_0x^m+b_1x^{m-1}+...+b_m
 >
 >Per i limiti $\to 0$ è analogo, ma in questo caso "vincono" gli esponenti più piccoli
 
->[!esempio]-
+>[!example]-
 >$$\lim_{x\to0}x\sin\frac{1}{x} = 0$$
 >Essendo $\left|\sin\frac{1}{x}\right|\leq 1$ si ha che
 >$$\left|x\sin\frac{1}{x}\right|\leq |x|$$
 >Quindi, per il teorema del confronto $x\sin \frac{1}{x}\to 0$, notiamo che $\sin \frac{1}{x}$ di per se non ammette limite, quindi il teorema del prodotto non è applicabile
 
->[!esempio]
+>[!example]
 >$$\lim_{x\to0^\pm} e^\frac{1}{x} = 
 >\begin{cases}
 >+\infty\\

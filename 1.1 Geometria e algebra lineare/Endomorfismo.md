@@ -14,7 +14,7 @@ modification date: 2023-07-07 09:14
 >Dato $V$ spazio vettoriale, un endomorfismo di $V$ è un'applicazione lineare $\mathcal{L} : V \to V$
 
 
->[!oss]
+>[!remark]
 >Possiamo notare come l'immagine di un endomorfismo sia un sottoinsieme dell'insieme di partenza, possiamo quindi chiederci se esistono sottospazi vettoriali di dimensione 1 invariati per l'azione dell'endomorfismo, da qui la ricerca per gli [[Autovalori e Autovettori|autovettori]].
 
 

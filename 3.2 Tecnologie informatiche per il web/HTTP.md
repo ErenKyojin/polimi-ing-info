@@ -54,7 +54,7 @@ Principalmente sviluppato per l'ottimizzazione di performance. HTTP1.1 fa pipeli
 - Server push: ad esempio includere automaticamente i file CSS
 
 
->[!esempio] esempio di frame
+>[!example] esempio di frame
 >`GET /resource HTTP/1.1 Host: example.org Accept: image/jpeg`
 > 
 > ```

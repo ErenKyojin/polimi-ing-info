@@ -14,7 +14,7 @@ Iniziamo ad introdurre un po' di terminologia:
 
 Ogni formula ammette una formula equivalente in forma a clausole
 
->[!esempio]
+>[!example]
 >Si scriva in forma a clausole la f.b.f. $((A \implies B) \land (A \iff C)) \lor \sim B$
 >Si ha $((A \implies B) \land (A \iff C)) \lor \sim B \equiv ((\sim A \lor B) \land (\sim A \lor C) \land(\sim C \lor A)) \lor \sim B \equiv$
 >$\equiv ((\sim A \lor B \lor \sim B) \land (\sim A \lor C \lor \sim B) \land (\sim C \lor A \lor \sim B)$.
@@ -68,7 +68,7 @@ Osserviamo allora che $\Gamma \vdash_{R} C$ se e solo se $C \in \Ris^*(\Gamma)$.
     Finchè $\square \in S$ o $S = F$
 4. Se $\square \in S$ allora $\Gamma \vDash \mathcal{A}$, altrimenti $\mathcal{A}$ non è conseguenza semantica di $\Gamma$.
 
-> [!esempio]
+> [!example]
 > Dire applicando l'algoritmo, se $A \land B \land D$ è conseguenza semantica di $(\sim B \lor C) \land \sim (A \land \sim B) \land (A \lor ((B \lor C) \land \sim C))$
 > 
 > Trasformiamo $(\sim B \lor C) \land \sim (A \land \sim B) \land (A \lor ((B \lor C) \land \sim C))$ in forma in clausole:
@@ -153,7 +153,7 @@ Clausola
 ===
 Disgiungzione finita di 0 o un numero di letterali
 
->[!esempio]
+>[!example]
 >$A \lor \not B \lor C = \{A , \not B, C\}$
 ```
 ```anki

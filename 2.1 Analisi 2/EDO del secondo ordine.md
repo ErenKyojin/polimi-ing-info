@@ -21,7 +21,7 @@ Hanno forma
 $$ a(t)y''(t) + b(t)y'(t) + c(t)y(t) = f(t) $$
 $a \neq 0, f$ definito forzante.
 
->[!esempio]
+>[!example]
 >```tikz
 >\usepackage{circuitikz}
 >\begin{document}
@@ -48,7 +48,7 @@ $a \neq 0, f$ definito forzante.
 # Soluzioni di una EDO del secondo ordine lineare
 
 Partiamo da un esempio
->[!esempio]
+>[!example]
 >$$ y'' = 0 $$
 >Che ha come soluzione ogni equazione lineare $y = c_{1}t+c_{2}$ per ogni $c_{1},c_{2} \in \mathbb{R}$
 >Ed, abbiamo quindi infinite soluzioni.
@@ -64,7 +64,7 @@ Proprietà importante di $L$ è la linearità, ossia $L(c_{1}y_{1}+ c_{2}y_{2}) 
 $Ly = 0 \Leftrightarrow ay'' + by' + cy = 0$
 Quindi ogni combinazione lineare delle soluzioni è a sua volta soluzione, ossia l'[[insieme]] $S$ delle soluzioni forma uno [[spazio vettoriale]], di dimensione uguale all'ordine dell'equazione ([[teorema di struttura]]).
 
->[!esempio]
+>[!example]
 >$$ y'' + 4y = 0 $$
 >verifichiamo che l'integrale generale è
 >$$ \begin{align}
@@ -87,7 +87,7 @@ $$ a(t)y''+b(t)y'+c(t)y = f(t) $$
 
 In questo caso il [[principio di sovrapposizione]] si può applicare solo se una delle due soluzioni è dell'omogenea, ossia
 
->[!Esempio] 1
+>[!example] 1
 >$$ \begin{align}
 >&y_{0} \text{ soluzione di } Ly = 0  \\
 >&Ly_{0} = 0 \\
@@ -100,7 +100,7 @@ In questo caso il [[principio di sovrapposizione]] si può applicare solo se una
 >$L(y_{0} + y_{P}) = Ly_{0} + Ly_{P} = 0 + f = f$
 
 Alternativamente, avendo due soluzioni non omogenee, possiamo trovare l'omogenea tramite la differenza
->[!esempio] 2
+>[!example] 2
 >$$ \begin{align}
 >&y_{1} \text{ soluzione di } Ly = f  \\
 >&Ly_{1} = f \\
@@ -119,7 +119,7 @@ QUINDI, data una soluzione qualsiasi $y_{P}$, tutte le altre soluzioni è della 
 $$ ay'' + by' + cy = 0 $$
 con $a,b,c \in \mathbb{R}$. Dal [[teorema di struttura]] per trovare ogni soluzione è sufficiente trovare due soluzioni linearmente indipendenti, ossia non multiple l'una dell'altra.
 
->[!esempio]
+>[!example]
 >$$ y'' + 4y' +3y = 0 $$
 >Possiamo pensare di trovare funzioni la cui derivata è proporzionale alla funzione stessa, ossia $e^{\lambda t}$
 >$$ \begin{align}
@@ -151,7 +151,7 @@ Dall'[[equazione caratteristica]] otteniamo $\lambda_{1},\lambda_{2}$ complessi,
 $$ \lambda_{1} = \alpha + i\beta\qquad \lambda_{2} = \alpha - i\beta$$
 E l'integrale generale è:
 $$ y(t) = e^{\alpha t} (C_{1} \cos(\beta t)+ C_{2} \sin(\beta t)) $$
->[!esempio]
+>[!example]
 >$$ y''+2y'+10y=0  \longrightarrow \lambda^2+2\lambda + 10 = 0 $$
 >$\Delta = -36 < 0 \Rightarrow \lambda_{1,2} = -1 \pm 3i$
 >$$\begin{align}

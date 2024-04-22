@@ -55,7 +55,7 @@ Nelle aree C, K ed S viene associato il file .exe come backing store con offset 
 
 ---
 
->[!esempio] Mappa di memoria di un processo in esecuzione (cat /proc/NN/maps)
+>[!example] Mappa di memoria di un processo in esecuzione (cat /proc/NN/maps)
 >
 >| start-end page            | perm  | offset | device | i-node | file-name        |
 >| ------------------------- | ----- | ------ | ------ | ------ | ---------------- |
@@ -82,7 +82,7 @@ Nelle aree C, K ed S viene associato il file .exe come backing store con offset 
 - Le VMA possono essere mappate su file o anonime
 - Le VMA possono essere shared o private
 
->[!oss]
+>[!remark]
 >Tutte le combinazioni sono valide ma ANONYMOUS | SHARED
 >Quindi consideriamo:
 >- VMA **mappate su file**: o **private** o **shared**
@@ -111,7 +111,7 @@ Nelle aree C, K ed S viene associato il file .exe come backing store con offset 
 
 
 
->[!esempio]
+>[!example]
 >Uso mmap per  creazion di VMA v1 di un processo P mappato su file F
 >
 >```c
@@ -136,7 +136,7 @@ C, K ed S sono mappate sull'eseguibile e sono tutte VMA PRIVATE
 - Le pagine dei dati statici **S** devibi essere di tipo PRIVATE perchè le scritture non devono modificare ovviamente l'eseguibile e non devono essere osservabili se più processi sfruttano lo stesso programma.
   Saranno duplicate al momento della scrittura tramite copy on write
 
->[!oss]
+>[!remark]
 >Se due processi eseguono lo stesso programma contemporaneamente le pagine di codice (C) saranno condivise, il secondo processo troverà tali pagine già lette e presenti nella PageCache, ed è addirittura possibile risalire al codice della pagecache
 
 

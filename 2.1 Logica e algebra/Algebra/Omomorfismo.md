@@ -11,7 +11,7 @@ creation date: 2023-12-05
 > Un omorfismo $f$ si dice **isomorfismo** se $f$ è una funzione biunivoca
 
 
->[!esempio]
+>[!example]
 >$f : \left< \mathbb{N}_{0} , + \right> \to \left< R_{0}, + \right>$
 >$f: n \mapsto 2n$
 >devo controllare che
@@ -21,7 +21,7 @@ creation date: 2023-12-05
 >
 >Se avessi un monomio al posto del gruppo devo controllare **anche** che si conservi l'operazione 0-aria, ossia l'elemento neutro
 
->[!oss]
+>[!remark]
 >Consideriando tre strutture simili $\left< A_{1},\Omega_{1} \right>,\left< A_{2},\Omega_{2} \right>,\left< A_{3},\Omega_{3} \right>$ e due omorfismi $f$ e $g$ di $\left< A_{1},\Omega_{1} \right>$ in $\left< A_{2},\Omega_{2} \right>$, e di $\left< A_{2},\Omega_{2} \right>$ in $\left< A_{3},\Omega_{3} \right>$ rispettivamente. Allora la composizione $f\cdot g$ come funzione è un omorfismo di $\left< A_{1}, \Omega_{1} \right>$ in $\left< A_{3},\Omega_{3} \right>$.
 >Se f è isomorfismo di $\left< A_{1},\Omega_{1} \right>$ in $\left< A_{2},\Omega_{2} \right>$ le funzione inversa di $f$ è un isomorfismo di $\left< A_{2},\Omega_{2} \right>$ in $\left< A_{1},\Omega_{1}z \right>$
 

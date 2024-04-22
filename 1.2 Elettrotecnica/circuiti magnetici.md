@@ -9,7 +9,7 @@ alias: circuito magnetico
 3. Il materiale del nucleo è lineare
 
 
->[!esempio]
+>[!example]
 >![[Pasted image 20220830112758.png]]
 >Consideriamo questo nucleo toroidale con due avvolgimenti di spire $N_1,N_2$. 
 >Indichiamo la lunghezza [[Valore atteso|media]] e l'area del nucleo con $L = 2\pi r$ ed $S$ rispettivamente.

@@ -6,11 +6,11 @@
 > 3. $$\forall t \in \mathbb{K}$ e $\forall \mathbf{u} \in U \implies t \cdot \mathbf{u} \in U$$
 >     (si dice che $U$ è chiuso rispetto al prodotto per uno scalare, ossia presi un elemento di $U$ qualsiasi ed uno scalare di $\mathbb{K}$ qualsiasi, allora il  loro prodott deve appartenere ancora ad $U$ )
 
->[!oss]
+>[!remark]
 >Dato $V$ spazio vettoriale su $\mathbb{K}$ i sottospazi vettoriali banali sono $V$ e ${\mathbf{0}}$
 
 
->[!esempio]
+>[!example]
 >$V = M_{\mathbb{K}}(n,n)$, $U = \left\{ A \in M_{\mathbb{K}(n,n)}:A = A^T \right\}$
 >A è simmetrica se $[A]_{ij} = [A]_{ji}$
 > $$ A = \begin{bmatrix}
@@ -70,7 +70,7 @@ $$ \begin{align}
 &H_{1} \cup H_{2} = \left\{ \mathbf{u} \in V : \mathbf{u} \in H_{1} \text{ e } \mathbf{u} \in H_{2} \right\} \\
 &H_{1} + H_{2} = \left\{ \mathbf{h_{1}} + \mathbf{h_{2}} \in V : \mathbf{h_{1}} \in H_{1} \text{ e } \mathbf{h}_{2} \in H_{2}\right\}  
 \end{align} $$
->[!proposizione]
+>[!proposition]
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e siano $H_{1}$ e $H_{2}$ sottospazi di $V$. Allora $H_{1} \cap H_{2}$ e $H_{1} + H_{2}$ sono sottospazi vettoriali di $V$. Inoltre se $H_{1}  = \Span(\mathbf{u}_{1},\dots,\mathbf{u}_{d})$ e $H_{2} = \Span(\mathbf{v}_{1},\dots,\mathbf{v}_{m})$ si ha:
 > $$ H_{1} + H_{2} = \Span(\mathbf{u}_{1},\dots,\mathbf{u}_{d},\mathbf{v}_{1},\dots,\mathbf{v}_{m}) $$
 > 
@@ -115,7 +115,7 @@ $$ \begin{align}
 >>Ma essendo $\{ \mathbf{v}_{1}, \dots, \mathbf{v}_{r}, \mathbf{h}_{1},\dots,\mathbf{h}_{t-r} \}$ e $\{ \mathbf{v}_{1},\dots,\mathbf{v}_{r},\mathbf{k}_{1},\dots,\mathbf{k}_{s-r} \}$ linearmente indipendenti si ha che:
 >>$t_{1}'=\dots= t_{r}' = t_{1}=\dots=t_{r}=\alpha_{1} = \dots = \alpha_{t-r} = \beta_{1} = \dots = \beta_{s-r} =0$
 
->[!esempio]
+>[!example]
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e $\dim(V)=4$. Siano $H$ e $K$ sottospazi vettoriali di $V$ di dimensione irspettivamenter $3$ e $2$. Allora $\dim(U \cap V) \geq 1$, infatti:
 > $$\begin{align}
 > &4=\dim(V) \geq \dim(H + K) = \dim(H) + \dim(K)-\dim(H \cap K) \\
@@ -131,7 +131,7 @@ $$ \begin{align}
 > E si scrive $V = H \oplus K$ 
 
 
->[!proposizione]
+>[!proposition]
 >Sia $V$ spazio vettoriale di dimensione finita su $\mathbb{K}$ e siano $H$ e $K$ due sottospazio vettoriali di $V$ tali che $V$ è somma diretta di $H$ e $K$. L'unione delle basi di $H$ e $K$ è una base di $V$. Inoltre per ogni elemento $\mathbf{v} \in V$ esistono unici $\mathbf{h} \in H$ e $\mathbf{k} \in K$ tali che $\mathbf{v} = \mathbf{h} + \mathbf{k}$
 >
 >>[!dim]
@@ -166,7 +166,7 @@ $$ \begin{align}
 >>$\CVD$
 
 
->[!oss]
+>[!remark]
 >Se $H$ e $K$ sono sottospazi di $V$ tali che l'unione delle loro basi è una base di $V$ allora $V = H \oplus K$ infatti:
 >l'unione delle basi di $H$ e $K$ è un'insieme generatore per $H + K$ e per $V$ quindi $V = H + K$. Inoltre se $\dim(H) = r$ e $\dim(K) = s$
 > $$ \begin{align}

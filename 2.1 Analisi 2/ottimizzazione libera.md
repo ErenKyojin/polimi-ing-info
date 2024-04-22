@@ -20,7 +20,7 @@ Per l'ottimizzazione libera sono necessarie le [[derivate seconde]] e la [[matri
 >Il valore $f(x_{0},y_{0})$ è il valore di massimo locale o relativo.
 
 
->[!oss]
+>[!remark]
 > i punti di massimo appartengono all'[[insieme]] $A$ e possono essere interni o di frontiera
 >
 >Il valore di massimo assoluto è **unico** ma potrebbe essere assunto in più punti
@@ -32,7 +32,7 @@ Analogamente minimo girando le disuguaglianze
 >Se $x_{0},y_{0}$ è punto di massimo o di minimo, locale o globale per $f \in A$ allora è detto punto di estremo
 
 # Ottimizzazione libera
->[!oss] Anticipazione:
+>[!remark] Anticipazione:
 Se voglio determinare
 > $$ \max f(x,y)\quad\text{e}\quad \min f(x,y) $$
 > Con $A$ chiuso e limitato considero separatamente:

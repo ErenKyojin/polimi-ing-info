@@ -26,7 +26,7 @@ Ponendo a contatto 2 corpi a temperature $T_{1}$ e $T_{2}$ il corpo freddo assor
 >[!legge] Secondo principio della dinamica (**Clausius**)
 >Non è possibile realizzare una trasformazione che unicamente trasferisca calore da una sorgente fredda ad una calda
 
->[!oss]
+>[!remark]
 >Il secondo principio afferma, in modo particolarmente visible da quello di Kelvin, che non è possibile avere una macchina termica che produca lavoro senza avere almeno due sorgenti di calore a temperature diverse
 
 # Equivalenza tra enunciati

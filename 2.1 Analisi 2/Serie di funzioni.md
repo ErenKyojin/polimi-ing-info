@@ -1,6 +1,6 @@
 # Serie di funzioni
 Partiamo da un esempio
->[!esempio]
+>[!example]
 >$$\begin{align}
 > e^x &= \sum_{n=0}^{+\infty} \frac{x^n}{n!} = 1 + x + \frac{x^2}{2} + \frac{x^3}{6} + \dots \qquad&&\forall x \in \mathbb{R} \\
 > \frac{1}{1-x} &= \sum_{n=0}^{+\infty} x^n = 1 + x + x ^2 + x^3 + \dots \qquad&&\text{serie geometrica per } x \in (-1,1)
@@ -13,7 +13,7 @@ Partiamo da un esempio
 > La serie di funzioni di termine generale $f_{n}(x)$ è la successione delle somme parziali
 > $$ S_{0} (x) = f_{0}(x)\qquad S_{1}(x) = f_{0}(x) + f_{1}(x) \qquad \dots\qquad S_{k}^{(x)} = \sum_{n=0}^k f_{n}(x) \quad\dots$$
 
->[!oss]
+>[!remark]
 >Fissato $\overline{x} \in J$ si tratta di una serie numerica, e la serie di funzioni [[convergenza semplice|converge]] puntualmente (o semplicemente) nel punto $\overline{x} \in J$ se la serie numerica di termine generale $f_{n}(\overline{x})$ è convergente, ossia esiste finito il limite delle somme parziali:
 >$$ \lim_{ k \to \infty } S_{k}(\overline{x}) = \lim_{ k \to \infty } \sum_{n=0}^k f_{n}(\overline{x})$$
 >Chiamiamo [[insieme]] di convergenza puntuale (o semplice) l'insieme $E \subseteq J$ di punti in cui la serie converge puntualmente.
@@ -21,14 +21,14 @@ Partiamo da un esempio
 >$$ f(x) = \sum_{n=0}^{+\infty}f_{n}(x) \qquad (x \in E) $$
 >$\Rightarrow f(x) = \lim_{ k \to \infty }S_{k}(x)$
 
->[!oss]
+>[!remark]
 >La serie converge assolutamente in $\overline{ x} \in J$ se la serie numerica di termini generale $\mid f_{n}(z)\mid$ converge.
 
->[!oss]
+>[!remark]
 >La convergenza assoluta implica la convergenza semplice in $\overline{x}$
 
 
->[!esempio] Esempio fondamentale
+>[!example] Esempio fondamentale
 >Questo esempio servirà per le [[serie di potenze]] –> le serie di taylor ne sono un caso particolare
 >$$ \sum_{n=0}^{+\infty} x^n $$
 >

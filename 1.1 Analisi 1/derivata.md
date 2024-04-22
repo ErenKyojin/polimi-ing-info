@@ -4,7 +4,7 @@ $$\frac{\text{variazione quota}}{\text{variazione percorso}}$$
 Questo rapporto indica il tasso di variazione *in media*, inoltre se il tasso è positivo indica *salita*, se il tasso è negativo indica *discesa.*
 
 
->[!oss] approfondiamo
+>[!remark] approfondiamo
 >Ipozziamo che il percorso sia descritto dal grafico  $y=f(x)$
 >![[FCBF5F49-FD65-4D76-9CE3-8A09DE90DA07.jpeg]] 
 >Consideriamo $A = (x, f(x)), B = (x+h,f(x+h))$, avremo allora
@@ -107,7 +107,7 @@ La seconda formula è analoga
 >\end{flalign}$$
 >Dal [[limiti notevoli|limite notevole]] $\dfrac{e^h-1}{h}\to 1$ per $h \to 0$
 >
->>[!oss]
+>>[!remark]
 >>Da questa formula notiamo che la funzione $x \mapto e^x$ soddisfa l'equazione $y' = y$. Importante tenerlo a mente
 
 >[!dim]- Proviamo la 12.
@@ -141,7 +141,7 @@ Invece se $f$ è continua non possiamo trarre conclusioni sulla derivabilità di
 ## [[Teorema di de l'Hopital]]
 
 ## Limite della derivata e derivabilità
->[!esempio]
+>[!example]
 >Ipotizziamo di voler studiare la derivabilità o meno di una funzione come
 >$$f(x) = x|\log x|$$
 >La funzione è definita e continua per $x > 0$ ed è certamente derivabile per $x \neq 1$, in $x = 1$, sospettiamo la presenza di un punto angoloso in quanto è dove si annulla l'argomento del modulo.

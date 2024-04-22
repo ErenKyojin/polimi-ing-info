@@ -4,7 +4,7 @@
 >Gli scalari $t_{1},\dots,t_{d}$ sono i coefficienti della combinazione lineare
 
 
->[!esempio] esempi
+>[!example] esempi
 >1.
 >Il vettore $[3\quad 1\quad 1]^T \in \mathbb{R}^3$ è combinazione lineare di $[1\quad 1/2\quad 0]^T$ e di $[1\quad 0\quad 0]^T$, infatti:
 > $$ \begin{bmatrix}

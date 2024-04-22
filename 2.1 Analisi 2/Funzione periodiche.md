@@ -1,7 +1,7 @@
 $f : \mathbb{R} \to \mathbb{R}$ è periodica di periodo $T$ se:
 $$ f(x+T) = f(x) \qquad \forall x \in \mathbb{R}$$
 
->[!oss]
+>[!remark]
 >non ci sono ipotesi di regolarità
 >Se $f$ periodica di periodot $T$ è anche periodica di periodo $nT$
 

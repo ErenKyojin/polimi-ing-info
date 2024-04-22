@@ -88,7 +88,7 @@ Quindi il processore che genera un indirizzo virtuale deve attraversare tutta la
 
 
 
->[!esempio] ### Decomposizione di un indirizzo virtuale
+>[!example] ### Decomposizione di un indirizzo virtuale
 >
 ><p style = "text-align:center">0x0000 <font COLOR = gree>7FFF B0D4 2<font COLOR = red>118 </font></font></p>
 >

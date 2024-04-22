@@ -16,7 +16,7 @@ R | 10 | sub | $01 (0)^5$ | $000$| sottraz | 0110
 R | 10 |and | $0^7$ | $111$ | AND | 0000
 R | 10 | or | $0^7$ |$110$ | OR | 0001
 
->[!esempio] Struttura del processore con unità di controllo
+>[!example] Struttura del processore con unità di controllo
 >![[Pasted image 20221025173623.png|600]]
 
 

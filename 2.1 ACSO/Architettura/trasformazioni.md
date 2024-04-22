@@ -1,7 +1,7 @@
 # Trasformazione di una [[funzione logica]]
 
 
->[!esempio]
+>[!example]
 >F(a,bc) = !a!bc + !abc + !ab!c
 >
 >**Applichiamo idempotenza**

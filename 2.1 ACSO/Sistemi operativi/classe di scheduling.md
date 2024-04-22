@@ -29,7 +29,7 @@ Classe di scheduling non preemptive, quando un task entra in esecuzione non ha l
 # SCHEDULING NORMAL
 Completely fair scheduler (CFS) ha il seguente obiettivo per ogni CPU:
 
->[!oss]
+>[!remark]
 >Dati $N \geq 1$ task tutti assegnati ad una CPU di potenza 1 dedicare a ciascun task una CPU virtuale di potenza $1 / N$, ovviamente idealmente non è realizzabile con un numero di CPU $< N \implies$ assegnare un opportuno quanto di tempo in base all'evoluzione della task. Se la CPU è multi core ad ogni CPU ha la propria [[runqueue]]
 
 
@@ -39,7 +39,7 @@ Ha come obiettivi
 3. tornare rapidamente in esecuzione quando un processo in attesa viene risvegliato.
 
 
->[!oss]
+>[!remark]
 >è essenzialmente un round robin con in aggiunta il tempo virtuale per l'evoluzione di ogni task
 
 ## Durata del quanto
