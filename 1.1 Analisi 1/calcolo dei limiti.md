@@ -2,7 +2,7 @@
 Approfondiamo proprietà fondamentali dei limiti e della continuità, verrà spesso utilizzata la nozione di [[definitivamente]], mentre verrà dato per scontato che $x_0$ ed $l$ siano punti appartenenti ad $\mathbb R^*$:
 
 
->[!teorema] Teorema del confronto o dei due carabinieri
+>[!theorem] Teorema del confronto o dei due carabinieri
 >Se:
 > 1. Per $x\to c, f(x) \to l$ e $g(x)\to l$
 > 2. $f(x) \leq h(x)\leq g(x)$ definitivamente per $x\to c$

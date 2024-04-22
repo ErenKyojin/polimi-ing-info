@@ -2,7 +2,7 @@
 La relazione tra l'operazione di derivata e le principali operazioni già note ossia operazioni algebriche, composizione ed inversione
 
 ### algebra delle derivate
->[!teorema]
+>[!theorem]
 >Siano $f,g : (a,b) \to\mathbb R$ derivabili in $(a,b)$; allora $f \pm g,f\cdot g, f / g (g \neq 0)$ sono derivabili in $(a,b)$ e valgono le seguenti formule:
 >$$\begin{flalign}
 >&\tag{CDV1}\fbox{$(f\pm g)' = f' \pm g'\qquad\qquad$} \\
@@ -50,7 +50,7 @@ La relazione tra l'operazione di derivata e le principali operazioni già note o
 
 ### derivata di una funzione composta
 
->[!teorema] Regola della catena
+>[!theorem] Regola della catena
 >Sia $g\circ f$ la composta di due [[Funzioni]] $f$ e $g$. Se $f$ è derivabile in un punto $x$ e $g$ è derivabile in $y=f(x)$ allora $g \circ f$ è derivabile in $x$e vale la formula:
 >$$\fbox{$(g\circ f)'(x) = g'(f(x))\cdot f'(x)$}$$
 
@@ -61,7 +61,7 @@ Possiamo generalizzare per un numero qualunque di composte:
 $$[f(g(h(x)))]' =f'(g(h(x)))\cdot g'(h(x)) \cdot h'(x)$$
 
 ### derivata di un inversa
- >[!teorema]
+ >[!theorem]
  >$f : (a,b) \to \mathbb R$ continua e invertibile in $(a,b)$ e $g=f^{-1}$ la sua inversa, definita in $f(a,b)$. Supponiamo inoltre che esista $f'(x_0)\neq0$ per un certo $x\in(a,b)$. Allora $g$ è derivabile in $y_0 = f(x_0)$ e
  >$$g'(y_0) = \frac{1}{f'(x_0)}$$
  

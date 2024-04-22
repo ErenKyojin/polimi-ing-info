@@ -1,7 +1,7 @@
 # Teorema della media
 Vale per le funzioni integrabili [[polimi-ing-info/1.1 Analisi 1/continuità|continue]]
 
->[!teorema]
+>[!theorem]
 >Sia $f : [a,b] \to \mathbb{R}$ continua, allora esiste $c \in [a,b]$ tale che
 >$$
 \frac{>1}{b-a}\int_{a}^b  \! f(x)\, \d x = f(c)

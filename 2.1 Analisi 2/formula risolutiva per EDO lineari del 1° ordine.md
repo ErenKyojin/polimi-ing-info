@@ -1,5 +1,5 @@
 worlds 20# formula risolutiva EDO del 1° ordine
->[!teorema] teorema
+>[!theorem] teorema
 >$a,b : J \subseteq \mathbb{R} \to \mathbb{R}\qquad y'(t) = a(t)y(t)+b(t)$
 >L'integrale generale è dato dalla formula:
 > $$ y(t) = e^{A(t)}\left(\int \! e^{-A(t)}b(x) \, \mathrm{d}x + C\right)\qquad C \in \mathbb{R} $$

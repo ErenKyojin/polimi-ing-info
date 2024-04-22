@@ -29,7 +29,7 @@ Ogni formula ammette una formula equivalente in forma a clausole
 
 Diamo ora una condizione necessaria e sufficiente affinchè un insieme di clausole e quindi ogni f.b.f. associata a quell'insieme di clausole sia insoddisfacibile.
 
->[!teorema]
+>[!theorem]
 >Un insieme di clausole $\Gamma$ è insoddisfacibile se è solo $\Gamma \vdash_{R} \square$
 >
 >>[!dim]

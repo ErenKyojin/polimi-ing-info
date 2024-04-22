@@ -4,7 +4,7 @@ creation date: 2023-03-26 18:16
 modification date: 2023-03-26 18:16
 ---
 
->[!teorema]
+>[!theorem]
 >In presenza di sole [[forze conservative]] l'[[energia meccanica]] (totale del sistema si conserva)
 >
 >>[!dim]
