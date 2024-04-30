@@ -1,11 +1,11 @@
 {
 	"nodes":[
 		{"id":"8e7ebcbf905df2b3","type":"text","text":"Un sistema di particelle è composto da $n$ particelle che interagiscono tra loro","x":-100,"y":-280,"width":250,"height":90},
-		{"id":"508f72eb06297648","type":"text","text":"Forze esterne\nForze tra un altro sistema e quello in considerazione","x":-350,"y":-100,"width":250,"height":80},
-		{"id":"0bf806b97dae9987","type":"text","text":"Forze interne\nForze tra due particelle del sistema","x":150,"y":-105,"width":250,"height":85},
+		{"id":"508f72eb06297648","type":"text","text":"Forze esterne\nForze tra un altro sistema e quello in considerazione","x":-350,"y":-100,"width":250,"height":100},
+		{"id":"0bf806b97dae9987","type":"text","text":"Forze interne\nForze tra due particelle del sistema","x":150,"y":-105,"width":250,"height":105},
 		{"id":"9c0c1afd8740209e","type":"text","text":"La somma di tutte le forze interne, detta risultante delle forze interne è nulla per il [[terzo principio della dinamica]]","x":150,"y":40,"width":250,"height":141},
-		{"id":"482f424aa6b6412c","x":-351,"y":51,"width":250,"height":130,"type":"text","text":"La risultante delle forze esterne è uguale alla derivata della quantità di moto totale del sistema"},
-		{"id":"105a7e45726be141","x":-760,"y":86,"width":250,"height":60,"type":"text","text":"La quantità di moto di un sistema di particelle è uguale alla somma delle singole quantità di moto"}
+		{"id":"482f424aa6b6412c","type":"text","text":"La risultante delle forze esterne è uguale alla derivata della quantità di moto totale del sistema","x":-350,"y":51,"width":250,"height":130},
+		{"id":"105a7e45726be141","type":"text","text":"La quantità di moto di un sistema di particelle è uguale alla sommatoria delle singole quantità di moto","x":-760,"y":36,"width":250,"height":160}
 	],
 	"edges":[
 		{"id":"87c2620f26d5a4af","fromNode":"8e7ebcbf905df2b3","fromSide":"bottom","toNode":"508f72eb06297648","toSide":"top"},
