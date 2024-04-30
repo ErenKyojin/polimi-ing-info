@@ -9,7 +9,7 @@
 		{"id":"7229e47d25f3d95c","x":-350,"y":410,"width":250,"height":250,"color":"2","type":"text","text":"Il centro di massa in un sistema di punti materiali si comporta come un punto materiale con massa totale pari alla somma delle masse dei singoli punti e con forza risultante pari alla risultante delle forze esterne"},
 		{"id":"0bf806b97dae9987","type":"text","text":"Forze interne\nForze tra due particelle del sistema","x":150,"y":-105,"width":250,"height":105},
 		{"id":"c37002821b57be2c","x":-760,"y":434,"width":250,"height":202,"type":"text","text":"Il centro di massa di un sistema di punti materiali è un punto fittizio con posizione uguale alla posizione media dei punti materiali pesata rispetto alla loro massa"},
-		{"id":"7d76c49d20329ac5","x":580,"y":36,"width":250,"height":149,"type":"text","text":"Si definisce l'energia cinetica di un sis"}
+		{"id":"7d76c49d20329ac5","x":580,"y":36,"width":250,"height":149,"type":"text","text":"Si definisce l'energia cinetica di un sistema di punti materiali come la somma delle energie cinetiche dei singoli punti"}
 	],
 	"edges":[
 		{"id":"87c2620f26d5a4af","fromNode":"8e7ebcbf905df2b3","fromSide":"bottom","toNode":"508f72eb06297648","toSide":"top"},
