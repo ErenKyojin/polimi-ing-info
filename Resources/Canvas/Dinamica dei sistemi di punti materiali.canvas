@@ -2,16 +2,20 @@
 	"nodes":[
 		{"id":"8e7ebcbf905df2b3","type":"text","text":"Un sistema di particelle è composto da $n$ particelle che interagiscono tra loro","x":-100,"y":-280,"width":250,"height":90},
 		{"id":"508f72eb06297648","type":"text","text":"Forze esterne\nForze tra un altro sistema e quello in considerazione","x":-350,"y":-100,"width":250,"height":100},
-		{"id":"0bf806b97dae9987","type":"text","text":"Forze interne\nForze tra due particelle del sistema","x":150,"y":-105,"width":250,"height":105},
-		{"id":"9c0c1afd8740209e","type":"text","text":"La somma di tutte le forze interne, detta risultante delle forze interne è nulla per il [[terzo principio della dinamica]]","x":150,"y":40,"width":250,"height":141},
-		{"id":"482f424aa6b6412c","type":"text","text":"La risultante delle forze esterne è uguale alla derivata della quantità di moto totale del sistema","x":-350,"y":51,"width":250,"height":130},
-		{"id":"105a7e45726be141","type":"text","text":"La quantità di moto di un sistema di particelle è uguale alla sommatoria delle singole quantità di moto","x":-760,"y":36,"width":250,"height":160}
+		{"id":"9c0c1afd8740209e","type":"text","text":"La somma di tutte le forze interne, detta risultante delle forze interne è nulla per il [[terzo principio della dinamica]]","x":150,"y":40,"width":250,"height":141,"color":"2"},
+		{"id":"482f424aa6b6412c","type":"text","text":"#### Prima equazione cardinale della dinamica dei sistemi\nLa risultante delle forze esterne è uguale alla derivata della quantità di moto totale del sistema","x":-350,"y":51,"width":250,"height":269,"color":"1"},
+		{"id":"b8106d944f881017","type":"text","text":"La quantità di moto in un sistema di punti materiali si conserva","x":-760,"y":320,"width":250,"height":90,"color":"2"},
+		{"id":"105a7e45726be141","type":"text","text":"La quantità di moto di un sistema di particelle è uguale alla sommatoria delle singole quantità di moto","x":-760,"y":106,"width":250,"height":160},
+		{"id":"7229e47d25f3d95c","x":-350,"y":410,"width":250,"height":250,"color":"2","type":"text","text":"Il centro di massa in un sistema di punti materiali si comporta come un punto materiale con massa totale pari alla somma delle masse dei singoli punti e con forza risultante pari alla risultante delle forze esterne"},
+		{"id":"0bf806b97dae9987","type":"text","text":"Forze interne\nForze tra due particelle del sistema","x":150,"y":-105,"width":250,"height":105}
 	],
 	"edges":[
 		{"id":"87c2620f26d5a4af","fromNode":"8e7ebcbf905df2b3","fromSide":"bottom","toNode":"508f72eb06297648","toSide":"top"},
 		{"id":"66625b7fc8a88e9e","fromNode":"8e7ebcbf905df2b3","fromSide":"bottom","toNode":"0bf806b97dae9987","toSide":"top"},
 		{"id":"aee3ff44c230d73d","fromNode":"0bf806b97dae9987","fromSide":"bottom","toNode":"9c0c1afd8740209e","toSide":"top"},
 		{"id":"aaa32ec6abdcf422","fromNode":"508f72eb06297648","fromSide":"bottom","toNode":"482f424aa6b6412c","toSide":"top"},
-		{"id":"e07da2d0a08e8c21","fromNode":"105a7e45726be141","fromSide":"right","toNode":"482f424aa6b6412c","toSide":"left"}
+		{"id":"e07da2d0a08e8c21","fromNode":"105a7e45726be141","fromSide":"right","toNode":"482f424aa6b6412c","toSide":"left"},
+		{"id":"fbe3bd09c08195af","fromNode":"105a7e45726be141","fromSide":"bottom","toNode":"b8106d944f881017","toSide":"top"},
+		{"id":"04e712138e02eddc","fromNode":"482f424aa6b6412c","fromSide":"bottom","toNode":"7229e47d25f3d95c","toSide":"top"}
 	]
 }
