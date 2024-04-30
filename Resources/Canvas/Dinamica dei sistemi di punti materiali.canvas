@@ -7,7 +7,9 @@
 		{"id":"b8106d944f881017","type":"text","text":"La quantità di moto in un sistema di punti materiali si conserva","x":-760,"y":320,"width":250,"height":90,"color":"2"},
 		{"id":"105a7e45726be141","type":"text","text":"La quantità di moto di un sistema di particelle è uguale alla sommatoria delle singole quantità di moto","x":-760,"y":106,"width":250,"height":160},
 		{"id":"7229e47d25f3d95c","x":-350,"y":410,"width":250,"height":250,"color":"2","type":"text","text":"Il centro di massa in un sistema di punti materiali si comporta come un punto materiale con massa totale pari alla somma delle masse dei singoli punti e con forza risultante pari alla risultante delle forze esterne"},
-		{"id":"0bf806b97dae9987","type":"text","text":"Forze interne\nForze tra due particelle del sistema","x":150,"y":-105,"width":250,"height":105}
+		{"id":"0bf806b97dae9987","type":"text","text":"Forze interne\nForze tra due particelle del sistema","x":150,"y":-105,"width":250,"height":105},
+		{"id":"c37002821b57be2c","x":-760,"y":434,"width":250,"height":202,"type":"text","text":"Il centro di massa di un sistema di punti materiali è un punto fittizio con posizione uguale alla posizione media dei punti materiali pesata rispetto alla loro massa"},
+		{"id":"7d76c49d20329ac5","x":580,"y":36,"width":250,"height":149,"type":"text","text":"Si definisce l'energia cinetica di un sis"}
 	],
 	"edges":[
 		{"id":"87c2620f26d5a4af","fromNode":"8e7ebcbf905df2b3","fromSide":"bottom","toNode":"508f72eb06297648","toSide":"top"},
@@ -16,6 +18,8 @@
 		{"id":"aaa32ec6abdcf422","fromNode":"508f72eb06297648","fromSide":"bottom","toNode":"482f424aa6b6412c","toSide":"top"},
 		{"id":"e07da2d0a08e8c21","fromNode":"105a7e45726be141","fromSide":"right","toNode":"482f424aa6b6412c","toSide":"left"},
 		{"id":"fbe3bd09c08195af","fromNode":"105a7e45726be141","fromSide":"bottom","toNode":"b8106d944f881017","toSide":"top"},
-		{"id":"04e712138e02eddc","fromNode":"482f424aa6b6412c","fromSide":"bottom","toNode":"7229e47d25f3d95c","toSide":"top"}
+		{"id":"04e712138e02eddc","fromNode":"482f424aa6b6412c","fromSide":"bottom","toNode":"7229e47d25f3d95c","toSide":"top"},
+		{"id":"f7ff08608cc2182b","fromNode":"c37002821b57be2c","fromSide":"right","toNode":"7229e47d25f3d95c","toSide":"left"},
+		{"id":"43f72b4eea628a8c","fromNode":"8e7ebcbf905df2b3","fromSide":"right","toNode":"7d76c49d20329ac5","toSide":"top"}
 	]
 }
