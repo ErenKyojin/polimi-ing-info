@@ -123,4 +123,3 @@ Siamo interessati a calcolare il valore atteso di una variabile $Y$ tale che $Y 
 
 
 >[!t] 
->
