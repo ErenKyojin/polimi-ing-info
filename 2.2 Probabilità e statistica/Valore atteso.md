@@ -47,6 +47,7 @@ Sia $X$ una variabile aleatoria definita sullo [[Spazio di probabilità]] $(\Ome
 5. Se $X$ è una variabile aleatore tale che $P(X \geq 0) = 1$ e $E(X)$ esiste, allora $E(X) \geq 0$. Se in aggiunta $E(X) = 0$ allora $P(X =0)=1$
 6. se $a,b \in \mathbb{R}$ sono tali che $P(a \leq X \leq b) = 1$allora $a \leq E(X) \leq b$
 7. siano $g$ e $h$ funzioni tali che $E(g(X))$ e $E(h(x))$ esistono. Se $P(h(X) \geq g(x)) = 1$ allora $E(h(X)) \geq E(g(x))$
+
 la prima proprietà ci dice che il valore atteso di una costante è la costante stessa, la seconda sottolinia un legame tra valore atteso e probabilità, la 3 e la 4 dicono come si comporta il valore atteso con operazioni lineari, la 5 è la positività del valore atteso e la 6 è l'internalità del valore atteso
 
 ### Valore atteso della somma di variabili aleatorie
@@ -71,14 +72,14 @@ E[X] &= \sum_{i} x_{i}P\{ X=x_{i} \} \\
 &=\sum_{s \in S} X(s)p(s)
 \end{align} $$
 >dove $S$ è l'unione di tutti gli eventi disgiunti $S_{1},S_{2},\dots$
+
+>[!corollary]
+>siano $X_{1},\dots,X_{n}$ variabili aleatorie
+>$$ E\left[ \sum_{i}X_{i} \right] = \sum_{i}E[X_{i}] $$
 >
->>[!corollary]
->>siano $X_{1},\dots,X_{n}$ variabili aleatorie
->>$$ E\left[ \sum_{i}X_{i} \right] = \sum_{i}E[X_{i}] $$
->>
->>>[!dim]
->>>poniamo $Z = X_{1} + X_{2} + \dots + X_{n} = \sum_{i} X_{i}$, avremo quindi
->>>$$ \begin{align}
+>>[!dim]
+>>poniamo $Z = X_{1} + X_{2} + \dots + X_{n} = \sum_{i} X_{i}$, avremo quindi
+>>$$ \begin{align}
 E[Z] &= \sum_{s \in S} Z(s)p(s) \\
 &= \sum_{s \in S} (X_{1}(s) + X_{2}(s) +\dots + X_{n}(s))p(s) \\
 &=\sum_{s \in S} X_{1}(s)p(s) + \sum_{s \in S} X_{2}(s)p(s) + \dots + \sum_{s \in S} X_{n}(s)p(s) \\
@@ -122,3 +123,5 @@ Siamo interessati a calcolare il valore atteso di una variabile $Y$ tale che $Y 
 >[!cor]
 >$X_{1}$ e $X_{2}$ variabili aleatorie definite sul medesimo spazio di probabilità e che ammettono media. ALlora $X_{1} + X_{2}$ ammette media e si ha
 >$$ E(X_{1} + X_{2}) = E(X_{1}) + E(X_{2}) $$
+
+in generale la media della somma di 
