@@ -38,5 +38,8 @@ creation date: 2024-04-17
 # Vettori aleatori indipendenti
 $X_{1},\dots,X_{n}$ variabili aleatorie indipendenti. Se $m < n$ consideriamo due funzioni $\mathbf{g} : \mathbb{R}^m \to \mathbb{R}^k$ ed $\mathbf{h} : \mathbb{R}^{n-m} \to \mathbb{R}^l$ tali che $\mathbf{W} = \mathbf{g}(X_{1},\dots,X_{m})$ e $\mathbf{Z} = \mathbf{h}(X_{m+1}, \dots, X_{n})$ sono vettori aleatori. Gli sprementi esprimibili attraverso $\mathbf{W}$ ed attraverso $\mathbf{Z}$ sono indipendenti. (i primi dipendono da $X_{1},\dots,X_{m}$ e i secondi dipendono da $X_{m+1},\dots,X_{n}$)
 
->[!def]
->Siano $\mathbf{X}_{1},\dots,\mathbf{X}_{n}$ $n$ vettori aleatori definiti sullo stesso spazio di probabilità $(\Omega, \mathcal{F}, P)$
+>[!def] vettori aleatori indipendenti
+>Siano $\mathbf{X}_{1},\dots,\mathbf{X}_{n}$ $n$ vettori aleatori definiti sullo stesso spazio di probabilità $(\Omega, \mathcal{F}, P)$ di dimensione rispettivamente $m_{1},\dots,m_{n}$. Sono indipendenti se
+>$$ P(\mathbf{X}_{1} \in B_{1},\dots,\mathbf{X}_{n} \in B_{n}) = P(\mathbf{X}_{1} \in B_{1}) \dots P(\mathbf{X}_{n} \in B_{n}) $$
+>per ogni scelta di domini regolari $B_{1} \subset \mathbb{R}^{m_{1}},\dots,B_{n} \subset \mathbb{R}^M_{n}$
+
