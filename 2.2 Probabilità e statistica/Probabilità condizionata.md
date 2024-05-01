@@ -76,7 +76,7 @@ todo \\
 
 [[Formula delle probabilità totali]]
 
-> [!teorema]
+> [!theorem]
 > Consideriamo la probabilità come funzione del primo evento, quindi dato un evento $E$ abbiamo:
 > $$ \begin{align}
 > P(\bullet | E) P(R) &\to \mathbb{R} \\

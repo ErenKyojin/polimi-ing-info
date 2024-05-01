@@ -14,7 +14,7 @@
 
 Se un ciclo si può percorrere una volta allora lo stesso ciclo si può percorrere infinite volte, formalmente:
 
->[!teorema] Pumping lemma nei FSA
+>[!theorem] Pumping lemma nei FSA
 >Se $x \in L$ e $|x| > |Q|$
 > esistono $q \in Q$ e $w \in I^+$ tali che:
 > - $x = ywz$

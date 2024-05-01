@@ -42,7 +42,7 @@ e analogamente si dimostra che la classe di equivalenza di questa relazione sono
 
 ***
 
-> [!teorema] Teorema di Lagrange
+> [!theorem] Teorema di Lagrange
 > Supponiamo $\left< A, \cdot \right>$ gruppo finito; avrà un certo ordine $n$ $|A| = n$.
 > Se $H \subseteq A$ allora $|H| / |A|$ (l'ordine di $H$ divide l'ordine di $A$)
 
@@ -72,7 +72,7 @@ $\implies |A| = \ldots =|H| + |H| + |H| + |H| + \ldots + |H| = r |H|$
 >$\bar{h} = a^{-1}ha$
 
 
->[!teorema]
+>[!theorem]
 >Sia $\left< A, \cdot \right>$ gruppo, e $\rho$ una congruenza su $A$ allora
 >1. $\rho_{e} \subseteq A$ 
 >2. $\rho_{e} \vartriangleleft A$, poniamo $\rho_{e} = N$
@@ -104,7 +104,7 @@ $\rho_{a} = Na$
 
 [[Prodotto di classi di equivalenza]]
 
->[!teorema]
+>[!theorem]
 >Sia $\left< A, \cdot \right>$ un gruppo ed $N$ un suo sotogruppo normale, allora la relazione su $A$ così definita $$a \rho b \iff a\cdot b^{-1} \in N\qquad\forall a,b \in A$$ 
 >È una congruenza le cui classi di equivalenza sono tutti e soli i laterali di $N$ in $A$
 

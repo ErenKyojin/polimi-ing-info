@@ -96,7 +96,7 @@ $$ \begin{align}
 
 # [[Dimensione]] di sottospazi vettoriali
 
->[!teorema] Formula di Grassman
+>[!theorem] Formula di Grassman
 >Siano $H$ e $K$ due sottospazi vettoriali di $V$ spazio vettoriale su $\mathbb{K}$. Se $\dim(H) < +\infty$ e $\dim(K) < +\infty$ allora $\dim(H + K) = \dim(H) + \dim(K) - \dim(H \cap K)$ 
 >
 >>[!dim]

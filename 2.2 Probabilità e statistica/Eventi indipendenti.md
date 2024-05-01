@@ -19,7 +19,7 @@ In questo caso $E,F$ sono detti indipendenti
 >$$
 >
 
->[!teorema]
+>[!theorem]
 >$P(E | F) = P(E)$
 >>[!dim] 5\.
 >>

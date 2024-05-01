@@ -15,7 +15,7 @@ Se $f$ è analitica in $(a,b)$
 \end{align} $$
 
 
->[!teorema] Funzioni analitiche totali
+>[!theorem] Funzioni analitiche totali
 >Se $f$ è analitica reale in un intervallo non vuoto $(a,b)$ allora è derivabile ad ongi ordine in $(a,b)$ e per ogni $x_{0} \in (a,b)$ è sviluppabile in [[serie di taylor]]
 >$$ f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(x_{0})}{n!} (x-x_{0})^n\qquad x \in (a,b)$$ 
 >

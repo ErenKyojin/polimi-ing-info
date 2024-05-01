@@ -6,7 +6,7 @@ Graficamente la $\text{TZ1}$ significa trovare tutte le intersezioni di $f$ con 
 
 Questo teorema ci permette di garantire uno zero di $f$ ed un modo per calcolarlo in una funzione [[polimi-ing-info/1.1 Analisi 1/continuità|continua]] su un intervallo e di segno opposto sugli estremi di tale intervallo.
 
->[!teorema] Teorema degli zeri
+>[!theorem] Teorema degli zeri
 >Sia
 >$$\begin{flalign}
 >&i)\ f \text{ continua in }[a,b]\\

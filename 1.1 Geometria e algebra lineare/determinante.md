@@ -10,7 +10,7 @@
 > - $n > 1 : \det(A) = \sum_{i = 1}^n a_{1i}C_{1i}$ con $C_{ij} = (-1)^{i + j} \det(A_{\hat{ij}})$
 > con $A_{\hat{ij}}$ matrice A senza la i-esima riga e j-esima colonna.
 
->[!teorema]
+>[!theorem]
 >Esiste un'unica funzione 
 > $$ \det : M_{\mathbb{K}}(n,n) \to \mathbb{K} $$
 > Con le seguenti proprietà:
@@ -63,7 +63,7 @@ a_{n 1} &\dots & a_{nn}
 > $$ = (-1)(-5)\left( \frac{2}{5} \right) = 2 $$
 
 
->[!teorema]
+>[!theorem]
 >Sia $A \in M_{\mathbb{K}}(n,n)$ sono equivalenti le seguenti affermazioni:
 >1. $r(A) = n$
 >2. $\det(A) \neq 0$
@@ -173,7 +173,7 @@ $$ \det(A') = \begin{vmatrix}
 \end{vmatrix}= 5 -1 = 4 $$
 Dove $A'$ è ottenuta da $A$ cancellando la prima e la quarta riga e la prima e la terza colonna
 
->[!teorema] Teorema di Kronecker
+>[!theorem] Teorema di Kronecker
 >Sia $A \in M_{\mathbb{K}(m,n)}$ allora:
 >1. Se $A'$ è sottomatrice di $A$ e $\det(A')\neq {0}$ allora le colonne o le righe di $A$ che contengono le colonne o le righe di $A'$ sono [[Dipendenza e indipendenza lineare|linearmente indipendenti]] 
 >2. Il rango della matrice $A$ è $r$ se e solo se esiste una sottomatrice $A'$ di tipo $r \times r$ t.c. $\det(A') \neq 0$ ed ogni altra sottomatrice del tipo $(r+1) \times (r+1)$ che contiene $A'$ ha determinante nullo
@@ -277,7 +277,7 @@ deck: GAL
 ===
 Data $A \in M_{\mathbb{K}}(n,n)$ una sottomatrice di $A$ si ottiene cancellando da $A$ un certo numero di righe e di colonne. 
 
->[!teorema] Teorema di Kronecker
+>[!theorem] Teorema di Kronecker
 >Sia $A \in M_{\mathbb{K}}(m,n)$ allora:
 >1. Se $A'$ è sottomatrice di $A$ e $\det(A') \neq 0$ allora le colonne o le righe di $A$ che contengono le colonne o le righe di $A'$ sono linearmente indipendenti
 >2. Il rango della matrice $A$ è $r$ se e solo se esiste una sottomatrice $A'$ di tipo $r \times r$ tale che $\det(A') \neq 0$ ed ogni altra sottomatrice del tipo $(r + 1) \times (r + 1)$ che contiene $A'$ ha determinante nullo.

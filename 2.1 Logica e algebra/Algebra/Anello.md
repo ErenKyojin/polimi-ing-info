@@ -97,7 +97,7 @@ allora $\left< \mathbb{Z}_{n}, \oplus, \otimes \right>$ è un anello
 > 0 & 0
 > \end{bmatrix}$$
 
->[!teorema]
+>[!theorem]
 >Un anello $\left< A , + , \cdot \right>$ è privo di divisori dello zero se e solo se valgono le leggi di cancellazione dello zero:
 >$$ a \neq 0\quad ab = ac \implies b = c $$
 >$$ a \neq 0\quad ba = ca \implies b = c $$
@@ -114,7 +114,7 @@ allora $\left< \mathbb{Z}_{n}, \oplus, \otimes \right>$ è un anello
 >>Th: $A$ sia privo di divisori dello zero
 >>per assurdo $a,b \neq  \underline{0} : ab = \underline{0} \implies ab = a \underline{0} \implies b = \underline{0}$
  
->[!teorema]
+>[!theorem]
 >Sia $\left< A , + ,\cdot \right>$ anello finito
 >I divisori dello zero di $A$ sono tutti e soli gli elementi non invertibili
 
@@ -133,7 +133,7 @@ $\{ a \}$ è invertibile se e solo se $MCD(a,n) = 1$
 >>Th: $A$ sia privo  di divisori dello zero
 >>per assurdo $a,b \neab u= aderline{0} : ab = \underline{0} \implies ab = a \underline{0} \implies b = \underline{0}$
  
->[!teorema]
+>[!theorem]
 >Sia $\left< A , + ,\cdot \right>$ anello finito
 >I divisori dello zero di $A$ sono tutti e soli gli elementi non invertibili
 

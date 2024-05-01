@@ -17,7 +17,7 @@ $\mathbf{v}$ e $\mathbf{w}$ formano un angolo retto se le rette uscenti da $0$ Ã
 le lunghezze sono semplicemente definite tramite i [[versore|versori]]
 
 
->[!teorema] Teorema di pitagora
+>[!theorem] Teorema di pitagora
 >Se $\mathbf{v}$ e $\mathbf{w}$ sono vettori ortogonali allora:
 > $$ ||\mathbf{v} + \mathbf{w}||^2 = ||\mathbf{v}||^2 + ||\mathbf{w}||^2 $$
 

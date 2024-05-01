@@ -22,7 +22,7 @@ Sia $V$ [[Spazi vettoriali|spazio vettoriale]] su $\mathbb{R}$
 > $$ <\mathbf{v},\mathbf{w}> = 0 $$
 
 
->[!teorema]
+>[!theorem]
 >Sia $(V,<,>)$ spazio euclideo e $\mathbf{v}_{1},\mathbf{v}_{2} \in V$ allora:
 >1. **Carnot**: $\|\mathbf{v}_{1}+\mathbf{v}_{2}\|^2 = \|\mathbf{v}_{1}\|^2 + \|\mathbf{v}_{2}\|^2 + 2<\mathbf{v}_{1},\mathbf{v}_{2}>$
 >2. **Pitagora**: se $\mathbf{v}_{1} \perp \mathbf{v}_{2}$ allora $\|\mathbf{v}_{1} + \mathbf{v}_{2}\|^2 = \|\mathbf{v}_{1}\|^2 + \|\mathbf{v}_{2}\|^2$
@@ -41,7 +41,7 @@ Sia $V$ [[Spazi vettoriali|spazio vettoriale]] su $\mathbb{R}$
 >>[!corollario]
 >>$<\mathbf{v},\mathbf{w}> = \frac{1}{2}(\|\mathbf{v}+\mathbf{w}\|^2 - \|\mathbf{v}\|^2 - \|\mathbf{w}\|^2)$ (conseguenza del teorema di carnot)
 
->[!teorema] Teorema di pitagora generalizzato
+>[!theorem] Teorema di pitagora generalizzato
 >Sia $(V,<,>)$ spazio Euclideo e siano $\mathbf{v}_{1},\dots,\mathbf{v}_{d} \in V$
 >1. Se $\mathbf{v}_{i} \perp \mathbf{v}_{j}\quad \forall i \neq j, i,j = 1,\dots,d$ allora
 > $$ \|\mathbf{v}_{1} + \dots + \mathbf{v}_{d}\|^2 = \|\mathbf{v}_{1}\|^2 + \dots + \|\mathbf{v}_{d}\|^2 $$

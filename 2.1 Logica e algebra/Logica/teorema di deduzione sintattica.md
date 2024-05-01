@@ -4,7 +4,7 @@ creation date: 2023-05-07 13:05
 modification date: 2023-05-07 13:05
 ---
 
-> [!teorema]
+> [!theorem]
 > Sia $\Gamma = \Delta \cup \{ \mathcal{B} \}$ un [[insieme]] [[formule ben formate|f.b.f.]] $\Gamma \vdash_{L}  \mathcal{A}$ se e solo se $\Delta \vdash_{L} \mathcal{B} \implies \mathcal{A}$
 > 
 

@@ -29,7 +29,7 @@ Notiamo che:
 
 ### Teorema di Fermat
 
->[!teorema] #Teorema di Fermat
+>[!theorem] #Teorema di Fermat
 >Sia $f : [a,b] \to\mathbb R$, derivabile in $x \in (a,b)$. Se $x$ è estremo locale allora
 >$$f'(x) = 0$$ 
 >>[!dim]
