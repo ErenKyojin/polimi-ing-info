@@ -43,3 +43,5 @@ $X_{1},\dots,X_{n}$ variabili aleatorie indipendenti. Se $m < n$ consideriamo du
 >$$ P(\mathbf{X}_{1} \in B_{1},\dots,\mathbf{X}_{n} \in B_{n}) = P(\mathbf{X}_{1} \in B_{1}) \dots P(\mathbf{X}_{n} \in B_{n}) $$
 >per ogni scelta di domini regolari $B_{1} \subset \mathbb{R}^{m_{1}},\dots,B_{n} \subset \mathbb{R}^M_{n}$
 
+>[!proposizione]
+>$\mathbf{X}_{1},\dots,\mathbf{X}_{n}$ $n$ vettori aleatori indipendenti di dimensione rispettivamente $m_{1},\dots,m_{n}$ e siano $\mathbf{g}_{1},\dots,\mathbf{g}_{n}$ delle funzioni definite da $\mathbf{g}_{1} : \mathbb{R}^{m_{1}} \to \mathbb{R}^{k_{1}},\dots,\mathbf{g}_{n} : \mathbb{R}^{m_{n}} \to \mathbb{R}^{k_{n}}$. Allora i vettori aleatori $\mathbf{Y}_{1} = \mathbf{g}_{1}(X_{1}),\dots,\mathbf{Y}_{n} =$ 
