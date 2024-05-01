@@ -119,6 +119,6 @@ Siamo interessati a calcolare il valore atteso di una variabile $Y$ tale che $Y 
 >$$ E(Y) =\int _{\mathbb{R}^n} \! g(x_{1},\dots,x_{n})f_{\mathbf{X}}(x_{1},\dots,x_{n})\, \mathrm{d}x_{1}\dots x_{n}  $$
 
 
->[!corollario]
+>[!cor]
 >$X_{1}$ e $X_{2}$ variabili aleatorie definite sul medesimo spazio di probabilità e che ammettono media. ALlora $X_{1} + X_{2}$ ammette media e si ha
 >$$ E(X_{1} + X_{2}) = E(X_{1}) + E(X_{2}) $$
