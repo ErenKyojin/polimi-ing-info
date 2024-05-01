@@ -124,4 +124,12 @@ Siamo interessati a calcolare il valore atteso di una variabile $Y$ tale che $Y 
 >$X_{1}$ e $X_{2}$ variabili aleatorie definite sul medesimo spazio di probabilità e che ammettono media. ALlora $X_{1} + X_{2}$ ammette media e si ha
 >$$ E(X_{1} + X_{2}) = E(X_{1}) + E(X_{2}) $$
 
-in generale la media della somma di 
+in generale la media della somma di $n$ variabili aleatorie dipende unicamente dalle densità marginale.
+
+> [!corollary]
+> $X_{1}$ ed $X_{2}$ variabili aleatorie indipendenti che ammettono media. Allora anche $X_{1}X_{2}$ ammette media e
+> $$ E(X_{1}X_{2}) =E(X_{1})E(X_{2}) $$
+
+>[!corollary]
+>Se $X_{1}$ e $X_{2}$ hanno varianza finita, rispettivamente $\text{var}(X_{1}), \text{var}(X_{2})$ allora $X_{1} + X_{2}$ ha varianza finita e vale che
+>$$  $$
