@@ -132,4 +132,6 @@ in generale la media della somma di $n$ variabili aleatorie dipende unicamente d
 
 >[!corollary]
 >Se $X_{1}$ e $X_{2}$ hanno varianza finita, rispettivamente $\text{var}(X_{1}), \text{var}(X_{2})$ allora $X_{1} + X_{2}$ ha varianza finita e vale che
->$$  $$
+>$$ \text{var}(X_{1} + X_{2}) = \text{var}(X_{1}) + \text{var}(X_{2}) + 2E[(X_{1} - E(X_{1}))(X_{2} - E(X_{2}))] $$
+>se inoltre $X_{1}$ ed $X_{2}$ sono indipendenti, allora
+>$$ \text{var}(X_{1} + X_{2}) = \text{var}(X_{1}) + \text{var}(X_{2})$$
