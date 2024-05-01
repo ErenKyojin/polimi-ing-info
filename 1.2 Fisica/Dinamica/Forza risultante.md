@@ -4,7 +4,7 @@ creation date: 2023-03-23 15:15
 modification date: 2023-03-23 15:15
 ---
 
->[!def]
+>[!definition]
 >Si dice forza risultante o totale agente su di un [[Punto materiale]] dotato di [[Quantità di moto]] 
 >$\vec{p}$ la grandezza vettoriale
 >$\vec{F} = \frac{d\vec{p}}{dt}$
@@ -23,17 +23,17 @@ modification date: 2023-03-23 15:15
 >\end{document}
 >```
 
->[!oss]
+>[!remark]
 >come $\vec{a}$ anche $d\vec{p}$ e quindi $\vec{F}$ è sempre diretto verso la concavità della [[Traiettoria]].
 
->[!oss]
+>[!remark]
 >La [[forza]] è una misura dell'entità dell'interazione è rappresentata da un vettore applicato, cioè possiede sempre un punto di applicazione, oltre che modulo direzione e verso
 
->[!oss]
+>[!remark]
 >Spesso non conosciamo direttamente la forza risultante agente su di un punto materiale, ma spesso sappiamo che esso è soggetto a diverse interazioni. Da un punto di vista operativo è sempre possibile definire per ognuna di queste interazioni un vettore forza corrisponde. Infatti se compiamo esperimenti sul puno materiale in modo da far agire di volta in volta solo una di tali interazioni, essa sarà di volta in volta la forza risultante, e potremo definirla operativamente come la $i$-esima forza $\vec{F}_{i}$, responsabile della variazione infinitesima $i$-esima della quantità di moto del punto materiale $d\vec{p}_{i}$, cioè
 >$$ \vec{F}_{i} \equiv \frac{d\vec{p}_{i}}{dt}  $$
 
->[!oss]
+>[!remark]
 >Tale definizione stabilisce un legame lineare tra la forza considerata (causa) e la variazione di quantità di moto da essa prodotta (effetto), indipendentemente dalla natura di tale forza. Questo semplicemente perchè la [[derivata|derivazione]] è un operazione lineare. Dunque alle forze si applica il [[principio di sovrapposizione]] degli effetti
 
 

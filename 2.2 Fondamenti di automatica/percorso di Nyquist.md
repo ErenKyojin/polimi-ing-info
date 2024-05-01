@@ -4,7 +4,7 @@ creation date: 2023-03-29 11:30
 modification date: 2023-03-29 11:30
 ---
 
->[!def]
+>[!definition]
 >Il **percorso di Nyquist** di una FdT $G(s)$
 > ```tikz
 > \usepackage{amsfonts}
@@ -24,7 +24,7 @@ modification date: 2023-03-29 11:30
 
 Il semicercio blu è infinito, le circonferenze rosse sono infinitesimi
 
->[!Oss]
+>[!remark]
 >il percorso di nyquist circonda in senso orario il semipiano destro
 
 

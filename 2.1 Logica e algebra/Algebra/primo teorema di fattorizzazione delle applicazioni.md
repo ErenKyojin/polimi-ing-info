@@ -27,14 +27,14 @@ Siano $f : A \to B$ una funzione e $h_{\ker(f)} : A \to A / \ker(f)$ la proiezio
 ```
 Inoltre $g$ è iniettiva ed è biunivoca se e solo se $f$ è suriettiva.
 
->[!oss]
+>[!remark]
 >Dire che un diagramma è commutativo significa che comunque comunque ci muoviamo lungo le direzioni permesse da quel diagramma, quando arriviamo allo stesso punto otteniamo lo stesso risultato
 
 
 Osserviamo che come conseguenza del teorema di fattorizzazione si ottiene che $f(A)$ è in corrispondenza biunivoca con $A / \ker(f)$.
 Inoltre il teorema dice che una qualsiasi funzione $f$ può essere pensata come il prodotto di una funzione suriettiva per una funzione iniettiva
 
->[!oss]
+>[!remark]
 >Nel corso di GAL la nozione di [[kernel]] di un applicazione lineare $f$ da uno [[spazio vettoriale]] $V$ ad uno spazio vettoriale $V'$ . In tal caso il $\ker f$ è l'insieme delle controimmagini dello 0 di $V'$. La deifnizone può sembrare molto diversa ma possiamo notare che $(v_{1},v_{2}) \in \ker (f)$ secondo la definizione qui data di $\ker (f)$ se e solo se $v_{1} - v_{2} \in \ker(f)$ secondo la definizione data nel corso di GAL
 
 [[cardinalità]]

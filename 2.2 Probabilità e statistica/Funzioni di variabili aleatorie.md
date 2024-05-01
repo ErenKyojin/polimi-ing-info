@@ -7,7 +7,7 @@ Una funzione di una variabile aleatoria è a sua volta una [[variabile aleatoria
 
 Data una variabile aleatoria di cui conosciamo la distribuzione, vogliamo determinare quella di una sua funzione
 
->[!esempio]
+>[!example]
 >Sia $X$ variabile aleatoria uniforme, sia $Y$ una sua funzione tale che $Y = |X|$:
 >$$ F_{Y}(t) = P \{ Y \leq t \} = P\{ |X| \leq t \}= F_{X}(y) - F_{X}(-y)$$
 >

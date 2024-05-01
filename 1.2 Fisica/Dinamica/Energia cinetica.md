@@ -4,7 +4,7 @@ creation date: 2023-03-25 18:14
 modification date: 2023-03-25 18:14
 ---
 
-> [!def]
+> [!definition]
 > Si definisce energia cinetica $E_{C}(P)$ di un [[Punto materiale]] di [[massa]] $m$ nella posizione $P$ l'[[Indice di stato fisico]]:
 > $$
 > E_{C}(P) = \frac{1}{2}mv^2_{P} + k
@@ -13,7 +13,7 @@ modification date: 2023-03-25 18:14
 > 
 
 
->[!oss]
+>[!remark]
 >L'energia cinetica in $P$ è funzione della sola velocità in $P$, non del vettore posizione in $P$
 
 
@@ -37,11 +37,11 @@ questa euqazione esprime il seguente:
 >[!theorem] Teorema delle [[forza|forze]] vive o teorema dell'energia cinetica
 >In un [[sistema di riferimento inerziale]], il lavoro compiuto dalla risultatnte di tutte le forze agenti su di un punto materiale quando esso si sposta dalla posizione $A$ alla posizione $B$ è pari alla variazione di energia cinetica del punto materiale tra le posizioni $A$ e $B$
 
->[!oss]
+>[!remark]
 >Poichè come osservato in precedenza il lavoro dipende in generale dalla traiettoria e non solo dagli estremi $A$ e $B$, anche la variazione di energia cinetica subita dal punto materiale dipende in generale dalla traiettoria da esso seguita per giungere da $A$ a $B$
 
 
->[!oss]
+>[!remark]
 >L'arbitrarietà della costante additiva $k$ introdotta nella definizione dell'energia cinetica non ha alcun effetto di rilevanza fisica , il teorema dell'energia cinetica dice che il lavoro è una differenza tra due valori dell'energia cinetica, e dunque non dipende da $k$.
 >Visto che tale costante può essere inoltre scelta in modo arbitrario, fissiamola al valor nullo, quindi $E_{c} = \frac{1}{2}mv^2$. Anche se questa è la scelta piú comune, è comunque arbitraria.
 

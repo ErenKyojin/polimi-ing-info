@@ -37,7 +37,7 @@ x_{n} = v_{n0} + t_{1}v_{n1} + \dots + t_{d}v_{nd}
 ## Forma cartesiana
 Sono dati $A \in M_{\mathbb{K}(m,n)}$ e $\mathbf{b} \in M_{\mathbb{K}(m,1)}$ allora $L= \left\{ \mathbf{x} \in \mathbb{K}^n | A\mathbf{x} = \mathbf{b}\right\} = \mathbf{v}_{0} + \ker(A)$ è sottospazio affine di $\mathbb{K}^n$ con $\mathbf{v}_{0}$ soluzione particolare e $\ker(A)$ giacitura se $r(A) = r([A|\mathbf{b}])$
 
->[!esempio]
+>[!example]
 >Determinare equazioni cartesiane e parametrica del sottospazio affino $L$ di $\mathbb{R}^4$ passante per $\mathbf{v}_{0} = \begin{bmatrix}1 & 0 & 2 & 1\end{bmatrix}^T$  e avente giacitura $H=\Span(\begin{bmatrix}1 & 1 & -1 & 0\end{bmatrix}^T,\begin{bmatrix}-1 & 1 & 0 & 1\end{bmatrix}^T)$
 >
 >Le equazioni parametriche si ricavano subito ponendo:
@@ -116,7 +116,7 @@ a_{1}x + b_{1}y + c_{1}z = 0 \\
 a_{2}x + b_{2}y + c_{2}z = 0 \\
 a_{3}x + b_{3}y + c_{3}z =0
 \end{cases} $$
->[!oss] oss: la dimensione delle giaciture è due
+>[!remark] oss: la dimensione delle giaciture è due
 
 Abbiamo i seguenti casi:
 1. $r(A) = 3 = r([A|\mathbf{d}])$

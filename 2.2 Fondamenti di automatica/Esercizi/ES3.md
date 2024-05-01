@@ -35,7 +35,7 @@ frequenze d'angolo
 $0,3,1 \implies 1z \sx, 1z \dx, 3p \sx$
 
 
->[!oss]
+>[!remark]
 >La retta ha pendenza iniziale $-g$
 
 ![[Drawing 2023-03-20 11.09.20.excalidraw]]

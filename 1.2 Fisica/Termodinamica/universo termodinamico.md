@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >L'universo termodinamico è l'insieme unione di sistema termodinamico e ambiente
 
 # ANKI

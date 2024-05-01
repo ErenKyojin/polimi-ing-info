@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-28
 ---
 
->[!def]
+>[!definition]
 >Un software è di qualità quando ha le seguenti caratteristiche
 >- affidabile
 >- efficient

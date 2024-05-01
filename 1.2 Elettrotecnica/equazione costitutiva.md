@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Un'**equazione costitutiva** è un'equazione costituita da una o più relazioni che legano tra loro le [[variabili descrittive]] del [[polimi-ing-info/1.2 Elettrotecnica/Componenti|Componente]].
 
 Quante correnti e quante tensioni sono necessarie per descrivere in modo esaustivo il comportamento di un $n$-terminali?

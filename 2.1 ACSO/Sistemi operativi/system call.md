@@ -51,7 +51,7 @@ Cambia il valore restituito dalla fork:
 >}
 >```
 >
->>[!oss]
+>>[!remark]
 >>Dopo la fork i due processi padre e figlio proseguiranno in parallelo, eseguendo la stessa porzione di codice sullo stesso stdoutput, l'ordine delle print sarà casuale
 
 
@@ -65,7 +65,7 @@ Termina il processo corrente (che può terminare anche senza la chiamata ad exit
 Ottiene il proprio PID (getpid) o il PID del parent (getppid)
 
 
->[!esempio] Fork-getpid
+>[!example] Fork-getpid
 >
 >>[!c]
 >>```c
@@ -102,7 +102,7 @@ sospende l'esecuzione del processo e attende che termini qualsiasi figlio, se un
 >Restituisce il pid del figlio terminato, e riceve il codice di terminazione del figlio (tramite indirizzo della variabile) * 256
 
 
->[!esempio] fork-wait
+>[!example] fork-wait
 >>[!c]
 >>```c
 >>void main()

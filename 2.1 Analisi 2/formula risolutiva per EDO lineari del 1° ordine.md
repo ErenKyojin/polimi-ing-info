@@ -18,7 +18,7 @@ con $A(t)$ primitiva di $a$
 
 
 
->[!esempio]
+>[!example]
 >$y'(t) + y(t) + \sin(t) = 0$
 > $$ \begin{align}
 > &e^t[y'(t) + y(t)] = -\sin(t)e^t \\

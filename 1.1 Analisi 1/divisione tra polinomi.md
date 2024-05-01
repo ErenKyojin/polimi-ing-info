@@ -32,7 +32,7 @@ $$
 & & & & & +x^2 
 \end{array}
 $$
->[!oss]
+>[!remark]
 >Se $P(x)$ è un polinomio non completo, scriviamo uno $0$ nella tabella al posto dei termini mancanti, ad esempio
 >$$
 >P(x) = x^{20}+1

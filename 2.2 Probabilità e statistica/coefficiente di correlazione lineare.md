@@ -5,7 +5,7 @@ modification date: 2023-03-30 13:41
 ---
 
 
->[!def]
+>[!definition]
 >$$ \rho(x,y) = \frac{\cov(x,y)}{\sigma_{x}\sigma_{y}} $$
 
 

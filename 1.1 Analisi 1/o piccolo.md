@@ -1,19 +1,19 @@
 # O piccolo
->[!def]
+>[!definition]
 >$$\lim \frac{a_n}{b_n} = 0\Rightarrow a_n = o(b_n)$$
 >Questo significa che $a_n$ è trascurabile rispetto a $b_n$
 
 ## [[polimi-ing-info/1.1 Analisi 1/Calcolo differenziale]]
 Nel calcolo differenziale il simbolo di $o$ è utile per comparare due funzioni che tendono ad $x_0$
 
->[!def]
+>[!definition]
 >Date due [[Funzioni|funzioni]] $f(x), g(x)$ definite in un [[intorno]] di $x_0$, si dice che
 >$$f(x) = o(g(x)) \text{ per } x \to x_0$$
 >Se
 >$$\frac{f(x)}{g(x)}\to 0 \text{ per } x \to x_0$$
 >Se $g(x)$ è un infinitesimo dire che $f(x) = o(g(x))$ significa che $f(x)$ è un [[infinito|infinitesimo]] di ordine superiore rispetto a $g(x)$
 >
->>[!esempio]
+>>[!example]
 >>$f(x) = x^2, g(x) = x$
 >>		$\Rightarrow f(x) = o(g(x))$ per $x \to 0$
 
@@ -36,7 +36,7 @@ $o()$ detonata quindi qualsiasi funzione abbia la proprietà espressa dalla defi
 
 Per somme e prodotti invece 
 $$f \cdot o(g) = o(f\cdot g)$$
->[!esempio]
+>[!example]
 >$$xo(x^2) = o(x^3)\qquad\frac{o(x^3)}{x}=o(x^2)\qquad\frac{o(x^2)}{x^2} = o(1)$$
 >Ed anche
 >$$o(x)o(x^2)=o(x^3)$$

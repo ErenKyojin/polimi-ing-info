@@ -3,7 +3,7 @@ aliases: forma giuridica
 creation date: 2024-02-23
 ---
 
-> [!def]
+> [!definition]
 > Per **forma giuridica** si intende la tipologia dei soggetti a cui fa capo l'attività e le norme ad essa conseguenti
 
 Le principali forme giuridiche, con altre tipologie più specifiche sottostanti sono
@@ -40,5 +40,5 @@ Devo considerare
 	- rischio
 	- obiettivi
 
->[!oss]
+>[!remark]
 >La forma giuridica può cambiare nella vita dell'azienda

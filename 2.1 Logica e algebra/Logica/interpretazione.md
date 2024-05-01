@@ -4,7 +4,7 @@ creation date: 2023-05-03 10:33
 modification date: 2023-05-03 10:33
 ---
 
->[!def]
+>[!definition]
 >Si dice interpretazione una [[Funzioni|funzione]] $v$: [[formule ben formate|f.b.f]] $\to \{ 0,1 \}$ che soddisfi le seguenti proprietà:
 > - $v(\perp) = 0$
 > - $v(\top) = 1$
@@ -19,7 +19,7 @@ Fissare un interpretazione corrisponde a:
 - Passare dal valore di verità di $\mathcal{A}$ e $\mathcal{B}$ a quello di $\sim \mathcal{A}, \mathcal{A \land B}, \mathcal{A \lor B}, \mathcal{ A \implies B}, \mathcal{A \iff B}$ utilizzando le tavole di verità dei [[connettivi]]
 
 # Interpretazione in logica del primo ordine
->[!def]
+>[!definition]
 >$\left< D, I \right>$ Interpretazione
 >$D$ insieme non vuoto
 >$I = \{I_1,I_2,I_3\}$

@@ -1,6 +1,6 @@
 Un processo è un "calcolatore virtuale", ossia calcolatori realizzati attraverso il sistema operativo.
 
->[!def]
+>[!definition]
 >Un istanza di un programma in esecuzione, identifiicato da un [[PID]] (process ID)
 
 Tutti i processi sono creati da altri processi, allora tutti i processi hanno un processo padre ad esclusione di "init" che è avviato con il sistema operativo.
@@ -20,7 +20,7 @@ Ogni progesso ha:
 Normalmente un processo è in esecuzione in modo U, se il processo corrente richiede un servizio di sistema viene attivata tramite [[SYSCALL]] una funzione del [[sistema operativo]] che esegue il servizio per il processo chiamante.
 Un processo è in esecuzione in [[modo]] S quando il Sistema operativo è in esecuzione nel contesto di tale processo, o per una SYSCALL o per un [[Interrupt]].
 
->[!DEF]
+>[!definition]
 >Contesto di un processo si intende l'[[insieme]] di informazioni relative ad ogni processo che il Sistema operativo deve mantenere.
 
 # Stato di un processo
@@ -29,7 +29,7 @@ Un processo è in esecuzione in [[modo]] S quando il Sistema operativo è in ese
 - Attesa: un processo è in attesa se non si può mandare in esecuzione perchè sta attendendo un evento (ad esempio un input dell'utente)
 
 
->[!esempio]
+>[!example]
 >
 >```mermaid
 >graph TB
@@ -56,7 +56,7 @@ Lo scheduler del sistema operativo stabilisce quale dei processi accodati nello 
 
 
 Quindi
->[!oss]
+>[!remark]
 >Un processo di stato di esecuzione abbandona il processo:
 >- o per l'attesa di un evento
 >- o per il termine del quanto di tempo
@@ -110,7 +110,7 @@ Quando P riprenderà l'esecuzione Linux esegue il [[ripristino di contesto]]
 
 # Processo nei sistemi informativi
 
-> [!def]
+> [!definition]
 > Un **processo** è un'insieme di attività che l'rganizzazione nel suo compleso svolge per gestire il ciclo di vita di una risora o di un gruppo omogeneo di risorse per raggiungere un risultato definito e misurabile. 
  
 
@@ -130,5 +130,5 @@ I processi sono classificabili secondo diversi modelli di classificazione
 
 
 # Processo in ingegneria del software
->[!def]
+>[!definition]
 >Il processo è come avviene lo sviluppo industriale del software

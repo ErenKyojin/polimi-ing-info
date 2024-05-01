@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >un gas è un fluido senza forma e volume propri, facilmente comprimibile. Lo stato di un gas è definito dalla sua [[Pressione]], [[volume]] e [[temperatura]]. La pressione è uguale in tutti i punti del gas.
 >Si nota che a basse pressioni e alte temperature tutti i gas si comportano allo stesso modo, e sono definiti [[Gas perfetti]] o ideali
 

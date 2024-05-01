@@ -7,7 +7,7 @@
 \end{tikzpicture}
 \end{document}
 ```
->[!def]
+>[!definition]
 >Dato un bipolo adinamico, non impressivo, lineare affine, se ammete la base di definizione corrente lo si definisce circuito di Thevenin.
 >È il duale del [[Circuito di Norton]], e le equazioni per ricavare l'equivalente di thevenin sono
 >$$ R_{th} = \frac{1}{G_{nr}}\qquad E_{th} = - \frac{A_{nr}}{G_{nr}} $$

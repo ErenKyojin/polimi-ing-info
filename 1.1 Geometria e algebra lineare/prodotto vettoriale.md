@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >dati due vettori $\mathbf{v},\mathbf{w}$ l'operazione prodotto vettoriale associa un vettore $\mathbf{v} \times \mathbf{w}$ tale che se $\mathbf{v}$ non è parallelo a $\mathbf{w}$ allora:
 >1. $\|\mathbf{v} \times \mathbf{w}\| = \|\mathbf{v}\|\|\mathbf{w}\|\sin(\alpha)$
 >2. $\mathbf{v} \times \mathbf{w} \perp \mathbf{v}$ e $\mathbf{v} \times \mathbf{w} \perp \mathbf{w}$

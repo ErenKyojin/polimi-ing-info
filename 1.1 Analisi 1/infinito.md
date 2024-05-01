@@ -1,5 +1,5 @@
 # Infiniti ed infinitesimi
->[!def]
+>[!definition]
 >si dice infinito ogni successione $a_n \to \pm \infty$
 >si dice infinitesimo ogni successione $a_n\to 0$
 
@@ -13,7 +13,7 @@ L \neq0 &\Leftrightarrow &a_n, b_n \text{ infiniti dello stesso ordine}\\
 \nexists &\Leftrightarrow &a_nb_n\text{ infiniti non confrontabili }
 
 \end{cases} $$
->[!Esempio] infiniti non confrontabili
+>[!example] infiniti non confrontabili
 >$a_n = n^2(2+\sin n)$
 >$b_n = n^2+2$
 >$$\lim\frac{a_n}{b_n} = \lim\frac{n^2\mspace{-13mu}/(\overbrace{2+\sin n}^\text{oscillante})}{n^2\mspace{-15mu}/\left(\underbrace{1+\frac{2}{n^2}}_1\right)} = \nexists$$
@@ -32,15 +32,15 @@ L \neq 0 &\Leftrightarrow \quad &a_n,b_n \text{ infinitesimi dello stesso ordine
 $$
 
 # Misurare infiniti ed infinitesimi
-> [!def] infinito campione
+> [!definition] infinito campione
 > $C_n = \{n\}$
 
->[!def] infinitesimo campione
+>[!definition] infinitesimo campione
 >$c_n =\{n\}$
 
 $$\lim \frac{a_n}{C_n^\alpha} = L \neq 0 \text{ e finito}$$
 Allora $\alpha$ è l'ordine della successione $a_n$
->[!esempio]
+>[!example]
 >$a_n = \{\sqrt{n^7+n-\sin n}\}$
 >$\lim a_n= +\infty$
 >$$\lim \frac{a_n}{n^\alpha} = \lim\frac{n^\frac{7}{2}\sqrt{1 +\frac{1}{n^\alpha}-\frac{\sin n}{n^7}}}{n^\alpha} =
@@ -81,7 +81,7 @@ y = \ln(x)
 y = x^2
 ```
 
->[!oss]
+>[!remark]
 >$\forall a > 1\quad \lim\frac{a^n}{n!} = 0 \Rightarrow \lim n! > \lim a^n \quad\forall n$
 >$\forall a > 1 \quad\lim\frac{n!}{n^n} = 0 \Rightarrow \lim n^n > \lim n! \quad\forall n$
 >

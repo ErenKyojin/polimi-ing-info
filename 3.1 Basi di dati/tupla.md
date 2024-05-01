@@ -3,14 +3,14 @@ aliases: tuple
 creation date: 2024-03-05
 ---
 
->[!def]
+>[!definition]
 >Una tupla su un insieme di attributi $X$ è una funzione $t : X \to \text{dom}(A)$ tale che $x \mapsto t[x]$
 
 
 $t[x]$ o $t.\!x$ indica il valore di $t$ rispetto ad $x$
 $t[x,y]$ indica i valori di $t$ rispetto alle tabelle $x,y$
 
->[!esempio]
+>[!example]
 >
 > |oggetto | quantità | prezzo |
 > | --- | --- | --- |

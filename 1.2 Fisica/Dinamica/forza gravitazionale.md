@@ -13,7 +13,7 @@ con
 - $r_{12}$ distanza tra i due punti materiali
 - $\gamma = 6.67 \times 10^{-11} N m^2 / kg^2$ costante di gravitazione universale
 
->[!oss]
+>[!remark]
 >per corpi di dimensione non trascurabile la forza gravitazionale è la stessa che si avrebbe se la massa fosse concentrata nel baricentro del corpo
 
 Possiamo cosí esprimere la [[legge di gravitazione universale]] di Newton, inoltre studiarne l'[[Energia potenziale#Energia potenziale forza gravitazionale gravitazionale|energia potenziale gravitazionale]].

@@ -3,11 +3,11 @@ aliases:
 creation date: 2024-03-06
 ---
 
-> [!def]
+> [!definition]
 > Dato un insieme $K$ di attributi, lo definiamo **superchiave** di una relazione $r$ se quest'ultimo non contiene tuple distinte $t_{1},t_{2} : t_{1}(K) = t_{2}(K)$.
 > Altrimenti lo definiamo **chiave** di $r$ se è una superchiave minimale di $r$ (quindi non esiste $K'$ di $r$ tale che $K' \subset K$ )
 
->[!esempio]
+>[!example]
 >
 >| id   | username | email               | data di nascita | nome     |
 >| ---- | -------- | ------------------- | --------------- | -------- |

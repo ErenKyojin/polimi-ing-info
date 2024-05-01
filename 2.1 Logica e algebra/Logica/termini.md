@@ -4,7 +4,7 @@ creation date: 2023-05-09 19:36
 modification date: 2023-05-09 19:36
 ---
 
->[!def]
+>[!definition]
 >Attraverso la definizione di [[linguaggio del primo ordine]] definiamo i **termini**, insiemi di espressioni definito ricorsivamente:
 >- Ogni costante è un termine
 >- Ogni variabile è un termine

@@ -5,7 +5,7 @@ alias:
 [[Legge di Kirchhoff per le tensioni]]
 [[Legge di Kirchhoff per le correnti]] 
 # KCL magnetica
->[!def] Legge di Kirchoff magnetica per le correnti 
+>[!definition] Legge di Kirchoff magnetica per le correnti 
 >La somma dei flussi entranti in un nodo è nulla, quindi
 >$$\sum_{k} \Psi_{k}= 0$$
 
@@ -19,7 +19,7 @@ Dove si è definita la tensione magnetica sul tratto $A \to B$ come
 $$v_{H_{BA}} = - \int^{A}_{B} \! \bar{H} \cdot \d\bar{l} = -v_{H_{AB}}$$
 
 
->[!esempio]
+>[!example]
 >![[Pasted image 20220830175258.png]]
 >Considerando il circuito in figura si ha che
 >$$\oint_{\gamma}\!\bar{H} \cdot \d \bar{l} = N_{4}i_{4}$$
@@ -32,6 +32,6 @@ Notiamo inoltre come considerata la tensione magnetica $v_{H_1}$ tra i punti 1 e
 
 
 # KVL magnetica
->[!def]
+>[!definition]
 >La somma di cadute di tensione magnetica su un percorso chiuso è pari alla somma delle forze magnetomotrici presenti sul percorso prese con l'opportuno segno
 

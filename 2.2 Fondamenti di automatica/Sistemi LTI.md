@@ -9,5 +9,5 @@ $$ \begin{align}
 y(t) = Cx(t) + Du(t)
 \end{align}  $$
 
->[!esempio]
+>[!example]
 >Rete elettrica

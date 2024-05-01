@@ -39,7 +39,7 @@ e utilizando il criterio di Sylvester, si ricava facilmente che imporre $w_a(t)>
 Oltre ad M si può definire il coefficiente di accoppiamento.
 $$k=\frac{|M|}{\sqrt{L_1L_2}}$$ che varia nell'intervallo $[0, 1]$ in ragione della condizione $M^2\leq L_1L_2$
 
->[!oss]
+>[!remark]
 >Prendiamo in considerazione dell'induttanza equivalente che si ottiene collegando in serie equiversa o controvers ed in parallelo equiverso o controverso gli induttori primario e secondario
 ![[Pasted image 20220617170529.png]]![[Pasted image 20220617170540.png]]
 >

@@ -1,5 +1,5 @@
 
-> [!def]
+> [!definition]
 > $$c = <q,x,\gamma>$$
 > Con:
 > - $q$ stato 
@@ -25,13 +25,13 @@ Quindi $c' = <q',y,\beta \alpha>$
 $\gamma(q,\varepsilon,A) = (q',\alpha)$
 Quindi $c'= <q',i.y,\beta \alpha>$ semplicemente non lavoriamo con l'ingresso
 
->[!oss]
+>[!remark]
 >$$\forall q,A (\delta(q,\varepsilon,A)) \neq \perp \implies \forall i\ \delta(q,i,A) = \perp$$ altrimenti finiremmo in casi [[determinismo|non deterministici]]
 >
 
 ### [[Chiusura]] riflessiva della transizione
 
->[!oss]
+>[!remark]
 >Una relazione è riflessiva se
 > $$
 > c \vdash ^*c

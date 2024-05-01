@@ -14,7 +14,7 @@ La mappa di memoria di un processo in [[Memoria virtuale]] è una tabella rappre
 
 
 
->[!esempio]
+>[!example]
 >
 >| VMA | start address | dim | R/W | P/S | M/A | mapping |
 | --- | ------------- | --- | --- | --- | --- | ------- |

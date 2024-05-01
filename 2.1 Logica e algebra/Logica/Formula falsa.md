@@ -4,11 +4,11 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-> [!def]
+> [!definition]
 > Una formula $a$ è falsa in un'interpretazione se nessun assegnamento di valori alle variabili la soddisfa
 
 
->[!def]
+>[!definition]
 >Una fbf $a$ è logicamente contraddittoria se è falsa in ogni interpretazione
 
 # ANKI

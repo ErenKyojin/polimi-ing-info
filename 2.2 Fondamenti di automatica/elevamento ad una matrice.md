@@ -1,6 +1,6 @@
 Per elevare alla potenza di una matrice $A$ vediamo prima il caoso in cui sia diagonalizzabile.
 
->[!def]
+>[!definition]
 >$$e^M := I + M + \frac{M^2}{2!} + \frac{M^3}{3!} + \dots$$ 
 >
 >Se $M$ è diagonalizzabile vuol dire che $\exists T^{-1} : T^{-1}MT = \text{diag}(\lambda _{i})=D \implies M = TDT^{-1}$. Quindi possiamo scrivere
@@ -40,5 +40,5 @@ Per elevare alla potenza di una matrice $A$ vediamo prima il caoso in cui sia di
 >I termini $e^{\lambda_{i}t}$ si chiamano **modi** del seistema
 
 
->[!esempio]
+>[!example]
 >$\dot{x} = Ax$, $A = \begin{bmatrix}1 & 1\\4 & 1\end{bmatrix}$

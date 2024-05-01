@@ -3,7 +3,7 @@ aliases: problemi di controllo
 creation date: 2024-02-20
 ---
 
-> [!def]
+> [!definition]
 > Si ha un problema di controllo ogni volta che si vuole imporre un comportamento desiderato ad un sistema fisico, ossia quando vogliamo imporre alle variabili associate ad un sistema fisico un andamento desiderato
 
 un problema di controllo è costtuito quindi da:

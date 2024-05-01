@@ -3,7 +3,7 @@ aliases:
 creation date: 2023-11-29
 ---
 
->[!def]
+>[!definition]
 >Un anello commutativo privo di divisori dello zero è detto **dominio di integrità**
 
 ^3e1fcd

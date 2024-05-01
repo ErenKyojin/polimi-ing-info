@@ -4,7 +4,7 @@ creation date: 2023-04-06 09:44
 modification date: 2023-04-06 09:44
 ---
 
->[!def]
+>[!definition]
 >un [[insieme]] $S$ è **ricorsivamente enumerabile** se e solo se:
 >- $S$ è l'insieme vuoto
 >- $S$ è l'insieme immagine di una funzione totale e calcolabile:
@@ -65,6 +65,6 @@ Esistono insiemi semidecidibili che non sono decidibili:
 Conclusione:
 i contenimenti sono tutti stretti
 
->[!corollario]
+>[!corollary]
 >Gli insiemi RE (linguaggi riconosciuti dalle MT) non sono chiusi rispetto al complemento
 

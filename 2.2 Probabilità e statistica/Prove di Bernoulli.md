@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >uno schema di $n$ prove di bernoulli sono $n$ prove in cui
 >1. ogni prova può avere due esiti: successo o insuccesso, indichiamo con $E_{i}$ l'evento *"avrò successo all'i-esima prova"*
 >2. Tutte le prove hanno sempre la stessa probabilità di successo, $P(E_{i}) = q\quad \forall i=1,\dots,n$
@@ -75,7 +75,7 @@ k
 >quindi vale per $m+1$
 >$\CVD$
 
->[!esempio] Esperimento
+>[!example] Esperimento
 >
 >$\Omega = \left\{ a_{1},\dots,a_{n} \right\} : a_{i} = 0,1;\quad i=1,\dots,n$
 >$E \subseteq \Omega$ è un [[evento]] $\mathcal{F} = \mathcal{P}(\Omega)$,

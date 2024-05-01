@@ -17,11 +17,11 @@ int fd = creat(file_name, mode);
 
 ------
 
->[!oss]
+>[!remark]
 >Se `file_name` esiste allora il contenuto del file viene cancellato e la dimensione diventa 0
 
 
->[!oss]
+>[!remark]
 >Per file speciali si usa `mknod` e per le directory si usa `mkdir`
 
 

@@ -34,7 +34,7 @@ Per rappresentare gli indirizzi virtuali NPV che riempiono la memoria fisica usi
 - `n` il numero della pagina
 
 A maiuscolo => REF = 1 ([[PFRA]]) altrimenti 0
->[!esempio] Esempio Qc0: prima pagina del codice del processo Q 
+>[!example] Esempio Qc0: prima pagina del codice del processo Q 
 >
 
 >[!important] Convenzioni

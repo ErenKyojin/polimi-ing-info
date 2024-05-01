@@ -1,16 +1,16 @@
 Dato un [[insieme]] $A$, teniamo a mente il concetto di [[cardinalità]] di questo [[insieme]], allora possiamo dare la seguente definizione:
 
->[!def]
+>[!definition]
 >Diremo che uno spazio vettoriale $V$ ha dimensione $n < +\infty$ (indicando $\dim(V) = n$) se esiste un insieme di $n$ [[vettori]] [[Dipendenza e indipendenza lineare|linearmente indipendenti]] ed ogni altro insieme linearmente indipendente ha cardinalità $\leq n$. Si dice che $V$ ha dimensione infinita se per ogni $m \in \mathbb{N}$ esiste un insieme linearmente indipendente di cardinalità $m$ 
 
 
->[!esempio]
+>[!example]
 >Se $V = \left\{ \mathbf{0}_{V} \right\}$ allora $\dim(V)=0$, infatti $\left\{ \mathbf{0}_{V} \right\}$ è linearmente dipendente quindi $V$ non ammette sottoinsiemi linearmente indipendenti.
 
->[!esempio]
+>[!example]
 >Se esiste un elemento $\mathbf{v} \neq \mathbf{0}_{V}$ allora $\dim(V) \geq 1$, infatti $\left\{ \mathbf{v} \right\}$ è linearmente indipendente
 
->[!esempio]
+>[!example]
 >$K[x] = \{$ [[insieme]] dei polinomi a coefficienti in $\mathbb{K} \}$, ha dimensione infinita infatti $\forall m > 0$ l'insieme:
 > $$ \left\{ x^{m-1}, x^{m-2}, \dots , x, 1\right\}  $$ 
 > è linearmente indipendente
@@ -48,7 +48,7 @@ t_{m}
 >>Quindi $\mathbf{w}_{1},\dots,\mathbf{w}_{n}$ sono linearmente dipendenti
 
 
->[!oss]
+>[!remark]
 >Se $V$ ammette un insieme di generatori con cardinalità $m$ allora $\dim(V) \leq m$. Quindi, tornando al caso $\mathbb{K}[x]_{\leq n}$ possiamo dire che $\dim(\mathbb{K}[x]_{\leq n}) \leq n+1$
 >Poichè $\left\{ x^n,x^{n-1},\dots,x,1 \right\}$ sono un insieme di generatori, ma allora $\dim(\mathbb{K}[x]_{\leq n}) \leq n + 1$
 
@@ -74,7 +74,7 @@ t_{m}
 >> Quindi $\mathbf{w}=-t_{1} / t_{n+1} \mathbf{v}_{1} - \dots - t_{n} / t_{n+1} \mathbf{v}_{n} \implies \left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{n} \right\}$ sono generatori di $V \implies \left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{n} \right\}$ sono una base di $V$
 >> 2. Se $B'$ è una base di $V$ allora per il teorema 2 $|\mathcal{B'} = \dim(V)=n|$ 
 
->[!esempio]
+>[!example]
 >Di ogni spazio vettoriale per il quale conosciamo una base possiamo stabilire la sua dimensione:
 > $$ \dim(\mathbb{K}^n) = n,  \dim(M_{\mathbb{K}(n,n)}) = n \times n, \dim(\mathbb{K}[x]_{\leq n}) =  n + 1$$
 > $$ \dim(\ker(A)) = n - r(A)\quad (se\ A \in M_{\mathbb{K}}(n,n) \text{ per il teorema di nullità piú rango}) $$
@@ -96,7 +96,7 @@ t_{m}
 >>
 
 
->[!proposizione] proposizione 4
+>[!proposition] proposizione 4
 >1. Ogni insieme di generatori di $V$ contiene una base
 >2. Se $\dim(V) = n, S = \left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d} \right\}$ è linearmente indipendente e $\mathcal{G} \subseteq V$ è un insieme di generatori, allora esistono: $\mathbf{w}_{1},\dots,\mathbf{w}_{n-d} \in \mathcal{G}$ tali che
 > $$ \left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{d},\mathbf{w}_{1},\dots,\mathbf{w}_{n-d} \right\}  $$
@@ -105,12 +105,12 @@ t_{m}
 >>[!dim]
 >
 >
->>[!corollario] corollario 1
+>>[!corollary] corollario 1
 >>Se $\dim(V)=n$ allora
 >>1. Un insieme di $n$ vettori linearmente indipendenti è una base
 >>2. Un insieme di $n$ che sono generatori per $V$ è una base
 >
->>[!corollario] corollario 2
+>>[!corollary] corollario 2
 >>Siano $H \subseteq V$ spazi vettoriali di dimensione finita.
 >>Se $\dim(H) = \dim(V) = n$ allora $H = WV$
 >>
@@ -118,7 +118,7 @@ t_{m}
 >>>Sia $\mathcal{B} = \left\{ \mathbf{b_{1}},\dots,\mathbf{b_{n}} \right\}$ una base di $H$. Allora $H = \Span(\mathbf{v}_{1},\dots,\mathbf{v}_{n})$. Essendo $\left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{n} \right\}$ linearmente indipendente e essendo la $\dim(V) = n, \left\{ \mathbf{v}_{1},\dots,\mathbf{v}_{n} \right\}$ è una base di $V$ per il corollario $1$, quindi si ha che:
 >>> $$ V = \Span(\mathbf{v}_{1},\dots,\mathbf{v}_{n}) = H $$
 
->[!esempio]
+>[!example]
 >I sottospazi vettoriali di $\mathbb{R}^3$ sono l'origine, le rette per l'origine, i piani per l'origine, $\mathbb{R}^3$ stesso.
 >Se $H$ è sottospazio di $\mathbb{R}^3$ allora $\dim(H)$ può essere solo 0, 1, 2, 3"
 >1. Se $\dim(H) = 0$ allora $\{\mathbf{0}\} \subseteq H$ e $\dim({\mathbf{0}})= 0 = \dim(H) \implies H = \left\{ \mathbf{0} \right\}$
@@ -128,7 +128,7 @@ t_{m}
 >
 
 
->[!proposizione] proposizione 5
+>[!proposition] proposizione 5
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ lineare e [[Funzione iniettiva|iniettiva]]. Se $\dim(V)$ è finita e $H$ è sottospazio di $V$ allora $\dim(H) = \dim(\mathcal{L}(H))$
 >
 >>[!dim]
@@ -136,7 +136,7 @@ t_{m}
 >>Poichè $\mathcal{L}$ è lineare: $\mathcal{L}(H) = \Span\{\mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d})\}$.
 >>Essendo $\mathcal{L}$ iniettiva: $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_d) \right\}$ sono linearmente indipendenti. Quindi $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\}$ sono una base di $\mathcal{L}(H) \implies \dim(\mathcal{L}(H)) = d = \dim(H)$
 >
->>[!corollario] corollario 3
+>>[!corollary] corollario 3
 >>1. Se $\dim(V) = n$ allora $V$ è [[Applicazioni lineari#Isomorfismi|isomorfo]] a $\mathbb{K}^n$.
 >>2. Se $\dim(V), \dim(W) < +\infty$ allora $V$ è isomorfo a $\mathbb{K}^n$ allora $V$ è isomorfo a $W$ se e solo se $\dim(V) = \dim(W)$11
 >>
@@ -198,7 +198,7 @@ Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ l
 >>Poichè $\mathcal{L}$ è lineare: $\mathcal{L}(H) = \Span\{\mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d})\}$.
 >>Essendo $\mathcal{L}$ iniettiva: $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_d) \right\}$ sono linearmente indipendenti. Quindi $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\}$ sono una base di $\mathcal{L}(H) \implies \dim(\mathcal{L}(H)) = d = \dim(H)$
 
->[!corollario] corollario 3
+>[!corollary] corollario 3
 >1. Se $\dim(V) = n$ allora $V$ è [[Applicazioni lineari#Isomorfismi|isomorfo]] a $\mathbb{K}^n$.
 >>2. Se $\dim(V), \dim(W) < +\infty$ allora $V$ è isomorfo a $\mathbb{K}^n$ allora $V$ è isomorfo a $W$ se e solo se $\dim(V) = \dim(W)$11
 >

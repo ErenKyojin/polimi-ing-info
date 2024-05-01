@@ -1,6 +1,6 @@
 Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vettoriali]] che preservano la struttura di spazi vettoriali che mantengono la struttura di spazio vettoriale.
 
->[!esempio]
+>[!example]
 >$A \in M_{{\mathbb{K}}(m,n)}$ consideriamo l'applicazione 
 > $$ \begin{align}
 > \mathcal{L}_{A} : &\mathbb{K}^n \to \mathbb{K}^m \\
@@ -11,7 +11,7 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 >2. $\mathcal{L}_{A}(t\mathbf{v}) = A\cdot(t\mathbf{v}) = tA\cdot\mathbf{v} = t\mathcal{L}_{A}(\mathbf{v}) \forall t \in \mathbb{K}\quad \forall \mathbf{v} \in \mathbb{K}^n$
 
 
->[!def]
+>[!definition]
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ diremo che una **funzione** $\mathcal{L} : V \to W$ è **lineare** se valgono le seguenti
 > 1. $\forall \mathbf{v}_{1}, \mathbf{v}_{2} \in V\quad \mathcal{L}(\underbrace{ \mathbf{v}_{1}+\mathbf{v}_{2} }_{ \text{somma in }V })= \underbrace{ \mathcal{L}(\mathbf{v}_{1})+\mathcal{L}(\mathbf{v}_{2}) }_{ \text{somma in }W }\quad$ detta additività
 > 2. $\forall t \in K, \forall \mathbf{v} \in V\quad \mathcal{L}(\underbrace{ t\cdot\mathbf{v} }_{ \text{prodotto in }V }) = \underbrace{ t\mathcal{L}(\mathbf{v}) }_{ \text{prodotto in }W }\quad$ detta omogeneità
@@ -20,7 +20,7 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 > $$ \forall t_{1},t_{2} \in \mathbb{K}\ e \ \forall \mathbf{v}_{1},\mathbf{v}_{2} \in V\qquad\mathcal{L}(t_{1}\mathbf{v}_{1}+t_{2}\mathbf{v}_{2}) = t_{1}\mathcal{L}(\mathbf{v}_{1})+t_{2}\mathcal{L}(\mathbf{v}_{2})$$
 
 
->[!oss]
+>[!remark]
 >1.
 >Se $\mathcal{L} : V \to W$ è lineare allora $\mathcal{L}(\mathbf{0}_{V}) = \mathcal{L}(\mathbf{0}\mathbf{w})$:
 > $$ \mathcal{L}(\mathbf{0}_{v}) = \mathcal{L}(\mathbf{0}_{v}+\mathbf{0}_{v}) = \mathcal{L}(\mathbf{0}_{v}) + \mathcal{L}(\mathbf{0}_{V}) \implies \mathcal{L}(\mathbf{0_{v}}) + \mathbf{0}_{W} = \mathcal{L}(\mathbf{0}_{V})+\mathcal{L}(\mathbf{0}_{V}) $$ 
@@ -29,7 +29,7 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 >  $$ \mathcal{L}(t_{1}\mathbf{v}_{1}+t_{2}\mathbf{v}_{2}+\dots+t_{d}\mathbf{v}_{d}) = t_{1}\mathcal{L}(\mathbf{v}_{1})+t_{2}\mathcal{L}(\mathbf{v}_{2}) +\dots+ t_{d}\mathcal{L}(\mathbf{v}_{d})$$
 
 
->[!esempio] 
+>[!example] 
 >
 >$V = \mathbb{R}_{[x]\leq 2} = \{\text{polinomi in }x \text{ a coefficienti in }\mathbb{R} \text{ di grado}\leq 2\}$
 >$W = \mathbb{R}_{[x]\leq 1}\quad D:V \to W$ è la derivata rispetto a $x$:
@@ -45,7 +45,7 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 > $W = f = \{f : \mathbb{R} \to \mathbb{R}\}$ allora $D : V \to W$ è applicazione lineare
 
 ## immagine, controimmagine, fibra e kernel di un applicazione
->[!def]
+>[!definition]
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ un'applicazione lineare. Allora diremo che
 >- $\forall \mathbf{v} \in V, \mathcal{L}(\mathbf{v})$ è l'**immagine** di $\mathbf{v}$ tramite $\mathcal{L}$
 >- $\forall U \subseteq V, \mathcal{L}(U) = \{\mathcal{L}(\mathbf{u}) : \mathbf{u} \in U\}$ è l'**immagine** di $U$
@@ -53,7 +53,7 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 >Se $H = \{\mathbf{w}\}$ allora $L^{-1}(\mathbf{w})=\{\mathbf{v} \in V : \mathcal{L}(\mathbf{v})=\mathbf{w}\}$ si chiama   **fibra** di $\mathcal{L}$ su $\mathbf{w}$
 
 
->[!def]
+>[!definition]
 >Dati $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $L:V \to W$ applicazione lineare, definiamo il **nucleo** di $\mathcal{L}$
 > $$ \text{Ker}(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_{\mathbf{w}}) = \{\mathbf{v} \in V: \mathcal{L}(\mathbf{v})=\mathbf{0}_{\mathbf{w}}\} \subseteq V $$
 > e l'**immagine** di $\mathcal{L}$:
@@ -87,7 +87,7 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 
 
 
->[!proposizione]
+>[!proposition]
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ un'applicazione lineare:
 >1. Se $H$ è sottospazio vettoriale di $W$ allora $\mathcal{L}^{-1}(H)$ è sottospazio vettoriale di $V$
 >2. Se $U$ è sottospazio vettoriale di $V$ allora $\mathcal{L}(U)$ è sottospazio vettoriale di $W$
@@ -99,11 +99,11 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 >>infatti: $\forall t_{1},t_{2} \in \mathbb{K}$ e $\forall\mathbf{v}_{1},\mathbf{v}_{2} \in \mathcal{L}^{-1}(H)$.
 >>
 
->[!oss]
+>[!remark]
 >Se $V$ e $W$ sono spazi vettoriali su $\mathbb{K}$ e $\mathcal{L} : V \to W$ è un'applicazione lineare allora $\text{Ker}(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_{W})$ e $\text{Im}(\mathcal{L}) = \mathcal{L}(V)$ sono sottospazi vettoriali rispettivamente di $V$ e $W$
 
 
->[!esempio]
+>[!example]
 >Vogliamo dimostrare che la funzione
 >$$\begin{align}
 >\mathcal{L} &: \mathbb{R}^3 \to \mathbb{R}^3 \\
@@ -187,13 +187,13 @@ y =-z
 Posto $z = t, \text{Ker}(A) = \left\{ \begin{bmatrix}0 \\-t\\>t\end{bmatrix}  \in \mathbb{R}^3 : t \in \mathbb{R}\right\}$
 La fibra di $\mathcal{L}$ sopra $\mathbf{w}$ è $\mathcal{L}^{-1}(\mathbf{w}) = \{\mathbf{v} \in \mathbb{R}^3 : A \cdot \mathbf{v} = \mathbf{w}\}$ quindi sono i vettori $\begin{bmatrix}x\\y\\z\end{bmatrix} \in \mathbb{R}^3 : A \begin{bmatrix}x \\y\\z\end{bmatrix} = \begin{bmatrix}3 \\ 1\\1\end{bmatrix} \iff \begin{cases}2x = 3 \\x=1\\y+z=1\end{cases} \iff \begin{cases}x=1\\ \fcolorbox{red}{}{2=3}\text{ impossibile} \\y+z=1\end{cases}$ quindi $\mathcal{L}^{-1} (\mathbf{w}) = \varnothing$
 
->[!proposizione]
+>[!proposition]
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L}:V \to W$ applicazione lineare. Sia $\mathbf{w} \in W$ tale che $\mathcal{L}^{-1}(\mathbf{w}) \neq \varnothing$ e sia $\mathbf{v}_{0} \in \mathcal{L}^{-1}(\mathbf{w})$. Allora:
 > $$ \mathcal{L}^{-1}(\mathbf{w}) = \mathbf{v}_{0} + \text{Ker}(\mathcal{L}) := \{\mathbf{v}_{0}+ \mathbf{v}_{h} : \mathbf{v}_{h} \in \text{Ker}(\mathcal{L})\} $$
 >
 >>[!dim]
 
->[!proposizione]
+>[!proposition]
 >Dati tre spazi vettoriali su $\mathbb{K} : V, W$ e $Z$, siano $f: V \to W$ e $g : W \to Z$ due applicazioni lineari allora:
 > $$ \begin{align}
 > g \circ f : &V \to Z \text{ è applicazione lineare} \\
@@ -204,7 +204,7 @@ La fibra di $\mathcal{L}$ sopra $\mathbf{w}$ è $\mathcal{L}^{-1}(\mathbf{w}) = 
 
 
 ## Iniettività e suriettività
->[!def]
+>[!definition]
 >Dati due insiemi $A$ e $B$ diremo che una funzione $f : A \to B$ è **[[Funzione iniettiva|iniettiva]]** se $\forall a_{1},a_{2} \in A : f(a_{1})=f(a_{2}) \implies a_{1}=a_{2}$.
 >Diremo che una funzione $f:A \to B$ è **[[Funzione suriettiva|suriettiva]]** se $\forall b \in B\ \exists a \in A : f(a) = b$. Diremo che $f : A \to B$ è **invertibile** se esiste $f^{-1}: B \to A$ t.c.
 > $$ \begin{align}
@@ -216,7 +216,7 @@ La fibra di $\mathcal{L}$ sopra $\mathbf{w}$ è $\mathcal{L}^{-1}(\mathbf{w}) = 
 ## criterio di invertibilità
 Una funzione è invertibile se e solo se è iniettiva e suriettiva
 
->[!proposizione] linearità dell'inversa di un'applicazione lineare
+>[!proposition] linearità dell'inversa di un'applicazione lineare
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $\mathcal{L}(V) \to W$ un'applicazione lineare iniettiva e suriettiva. Allora la funzione inversa $\mathcal{\mathcal{L}}^{-1} : W \to V$ è lineare
 >
 >>[!dim]
@@ -231,7 +231,7 @@ Una funzione è invertibile se e solo se è iniettiva e suriettiva
 # Isomorfismi
 Un'applicazione lineare invertibile  $\mathcal{L} : V \to W$ è detta isomorfismo. Diremo che $V$ e $W$ sono isomorfi se esiste un isomorfismo $\mathcal{L} : V \to W$
 
->[!proposizione]
+>[!proposition]
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$. Sia $\mathcal{L} : V \to W$ un'applicazione lineare. Allora $\mathcal{L}$ è iniettiva se e solo se $\text{Ker}(\mathcal{L})=\{\mathbf{0}_{W}\}$
 >>[!dim]
 >>$\mathcal{L}$ è iniettiva se $\forall \mathbf{w} \in W, \mathcal{L}^{-1}(\mathbf{w})$ è vuoto o è un unico elemento. Essendo $\mathbf{0}_{V} \in \mathcal{L}^{-1}(\mathbf{0_{w}})$ si ha $\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_{\mathbf{w}})$ si ha $\ker(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_{W}) = \{ \mathbf{0}_{W} \}$.
@@ -242,7 +242,7 @@ Un'applicazione lineare invertibile  $\mathcal{L} : V \to W$ è detta isomorfism
 
 ## Altre osservazioni riguardo le applicazioni lineari
 
-> [!proposizione]
+> [!proposition]
 > Sia $V$ spazio vettoriale su $\mathbb{K}$ e sia $\mathcal{B} = \left\{ \mathbf{b}_{1},\dots,\mathbf{b}_{n} \right\}$ una base di $V$. Siano $\mathbf{w}_{1},\dots,\mathbf{w}_{n}$ vettori arbitrari di uno spazio vettoriale $W$ su $\mathbb{K}$ . Allora esiste una ed una sola applicazione lineare $\mathcal{L} : V \to W$ tale che:
 > $$ \mathcal{L}(\mathbf{b}_{1}) = \mathbf{w}_{1},\dots, \mathcal{L}(\mathbf{b}_{n}) = \mathbf{w}_{n} $$
 > L'applicazione $\mathcal{L}$ è definita dalla formula:
@@ -272,7 +272,7 @@ Un'applicazione lineare invertibile  $\mathcal{L} : V \to W$ è detta isomorfism
 >>Quindi $g(\mathbf{v}) = \mathcal{L}(\mathbf{v})\quad\forall \mathbf{v} \in V$
 >> $\CVD$
 
->[!esempio]
+>[!example]
 >Determinare per quali valori di $k \in \mathbb{R}$ esiste ed è unica l'applicazione lineare $\mathcal{T} : \mathbb{R}^3 \to \mathbb{R}^3$ tale per cui
 > $$ \mathcal{T}\left( \begin{bmatrix}
 >1 \\
@@ -330,7 +330,7 @@ k+1
 Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 > $\CVD$
 
->[!oss]
+>[!remark]
 >Se $V$ e $W$ sono spazi vettoriali su $\mathbb{K}$, definiamo $Hom_{\mathbb{K}}(V,W) = \left\{ \mathcal{L} : V \to W, \mathcal{L} \text{ è applicazione lineare} \right\}$
 >Se $\dim(V) = n$ e $\dim(W) = m$ fissata $\mathcal{B}$ una base di $V$ e $\mathcal{C}$ una base di $W$ allora posiamo considerare l'applicazione:
 > $$ \begin{align}
@@ -352,11 +352,11 @@ Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 >3. $\mathcal{G}$ è un isomorfismo
 
 
->[!def]
+>[!definition]
 >Sia $\mathcal{L} : V \to W$ un'[[Applicazioni lineari|applicazione lineare]]. Il [[rango]] $r(\mathcal{L})$ di $\mathcal{L}$ è la	[[Dimensione]] dell'immagine $\Im(\mathcal{L})$ di $\mathcal{L}$
 
 
->[!oss]
+>[!remark]
 >1.
 >Se $A \in M_{\mathbb{K}}(m,n)$ e 
 > $$ \begin{align}
@@ -403,7 +403,7 @@ Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 >>\end{align} $$
 >>$\CVD$
 
->[!oss]
+>[!remark]
 >Come per le matrici si ha che se $\mathcal{L}: V \to W$ è applicazione lineare tra spazi vettoriali di dimensione finita rispettivamente $n$ ed $m$:
 >1. $\mathcal{L}$ è iniettiva $\iff r(\mathcal{L}) = n$
 >2. $\mathcal{L}$ è suriettiva $\iff r(\mathcal{L}) = m$

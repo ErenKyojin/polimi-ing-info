@@ -3,7 +3,7 @@ aliases: sistema
 creation date: 2024-02-20
 ---
 
-> [!def]
+> [!definition]
 > Un sistema è un oggetto fisico che interagisce con il mondo attraverso $n$ variabili d'ingresso e $m$ variabili d'uscita
 
 
@@ -11,7 +11,7 @@ Consideriamo i sistemi con due segnali, uno di input ed uno di uscità, entrambi
 - tempo continuo: $t \in \mathbb{R}$
 - tempo discreto: $k \in \mathbb{Z}$
 
->[!esempio] Forno
+>[!example] Forno
 >Resistenza elettrica che fornisce potenza in forma di calore
 >uscità: temperatura interna
 >- Approssimata uniforme in un modello più approssimato
@@ -19,7 +19,7 @@ Consideriamo i sistemi con due segnali, uno di input ed uno di uscità, entrambi
 >
 >Disturbi di temperatura esterna/flussi di calore/irraggiamento
 
->[!esempio] valvola
+>[!example] valvola
 >Ingresso rotazione della valvola
 >Uscita flusso del fluido
 

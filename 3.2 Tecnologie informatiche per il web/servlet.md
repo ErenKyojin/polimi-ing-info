@@ -14,7 +14,7 @@ Perchè usare Java?
 	- Possiamo quindi oggettificare HTTP
 - architetture network e enterprise
 
->[!def]
+>[!definition]
 >Un servlet è un estensione ad un server che ne migliora le funzionalità, gira su un processo persistente in un a JVM sul server
 >Vantaggi:
 >- supporto per java richiesto solo sul server
@@ -40,7 +40,7 @@ C'è solo un processo (la JVM che hosta il servlet)
 >I dati dei membri delle classi servlet sono condivise tra tutti i client HTTP, non vanno usate per thread safety
 
 
->[!esempio] Esempio di una classe Servlet che stampa hello world
+>[!example] Esempio di una classe Servlet che stampa hello world
 >```java
 >import java.io.*;
 >import javax.servlet.*;
@@ -72,7 +72,7 @@ Ogni applicazione web è collegata ad un oggetto `ServletContext` che definisce 
 
 Un servlet ha un root, ossia un percorso nel web server
 
->[!esempio]
+>[!example]
 >localhost:8080/examples nostra webapp. La dicitura /examples è detta [[context path]]
 
 

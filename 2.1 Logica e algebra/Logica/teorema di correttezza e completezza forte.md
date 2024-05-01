@@ -10,7 +10,7 @@ modification date: 2023-05-07 13:04
 
 Questo teorema può essere facilmente ricavato dalla versione debole dei teoremi di completezza e correttezza, utilizzando il [[teorema di deduzione semantica]] e il [[teorema di deduzione sintattica]].
 
->[!Oss]
+>[!remark]
 >possiamo pensare a $\Gamma = \{ B_{1},B_{2},\dots,B_{n} \}$ numero finito di fbf
 >$$\vdash_L a \iff \{B_1,...,B_{n-1}\} \vdash_L B_{n-1} \iff ... \iff $$
 

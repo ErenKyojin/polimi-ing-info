@@ -42,5 +42,5 @@ Proprietà di un [[insieme]] come campo ordinato:
 - $a > 0 \Rightarrow a^-1 > 0\quad\quad a > b > 0\quad\quad b^{-1}>a^{-1}>0$
 
 # Campo in algebra
->[!def]
+>[!definition]
 >un [[corpo]] in cui valga la proprietà commutativa dell'operazione è detto campo

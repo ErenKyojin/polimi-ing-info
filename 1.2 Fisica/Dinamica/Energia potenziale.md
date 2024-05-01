@@ -13,7 +13,7 @@ $$
 con $y_{Q}$ quota della posizione $Q$ rispetto ad una quota di riferimento arbitrariamente scelta e $k$ è una costante additiva arbitraria che convenzionalmente poniamo a zero, attribuendo cosí valore nullo di energia potenziale della forza peso allo stato di riferimento corrispondente alla quota nel SdR inerziale considerato
 
 # Definizione
->[!def]
+>[!definition]
 >Se una forza è tale che il lavoro da essa compiuto per portare un punto materiale da $A$ a $B$ non dipende dal cammino percorso o da altre circostanze, ma solo dalle coordinate di $A$ e di $B$, allora per ogni punto $Q$ dello spazio possiamo sempre definire una quantità scalare pari al lavoro fatto dalla forza per portare il punto materiale in questione da $Q$ ad un punto di riferimento $O$ nel quale tale quantità scalare abbia un valore costante arbitrario (eventualmente nullo) assunto come riferimento
 
 ## Energia potenziale [[forza gravitazionale|gravitazionale]]

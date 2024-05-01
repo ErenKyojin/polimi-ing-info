@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >Considerate le tre fasi della materia:
 >- Solida, possiede [[volume]] e forma propri
 >- Liquida, possiede [[volume]] proprio

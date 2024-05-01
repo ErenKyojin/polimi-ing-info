@@ -21,15 +21,15 @@ $$ p(q) - \frac{CM(q)}{P(q)} = \frac{1}{q} $$
 
 Il monopolista è in grado di fissare un prezzo al di sopra dei costi marginali al diminuire di epsilon. Epislon va a zero se la domanda non è elastica
 
->[!esempio]
+>[!example]
 >farmaco importantissimo, elasticità bassissima, imprese fissano prezzi ben superiori rispetto al costo di servizio.
 >Se un impresa **brevetta** un farmaco ad un costo di 10 euro, può venderlo a 1000 euro
 
->[!oss]
+>[!remark]
 >In [[Concorrenza perfetta]] l'elasticità della domanda al prezzo è infinita
 
 
->[!esempio]
+>[!example]
 >C'è un solo distributore di bottiglie in un aeroporto dopo i controlli, date 100 persone che aspettano di imbarcarsi con le seguenti statistiche di domanda
 >- 60 persone disposte a pagare 0.50€
 >- 30 persone disposte a pagare 1.00€

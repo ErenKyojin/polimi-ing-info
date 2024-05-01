@@ -16,7 +16,7 @@ int byte_letti = read(fd, buf, num_byte)
 - *num_byte:* numero di byte da leggere
 
 ---
->[!oss]
+>[!remark]
 >Il file system mantiene un indicatore alla posizione nel filei n cui deve essere eeffettuata la lettura scrittura successiva
 
 

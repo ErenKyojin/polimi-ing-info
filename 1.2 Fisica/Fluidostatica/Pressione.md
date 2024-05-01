@@ -4,14 +4,14 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-> [!def]
+> [!definition]
 > Consideriamo una superficie di area S, la pressione è definita come
 > $$ p = \frac{F_{n}}{S} = |\vec{F} \cdot \frac{\hat{n}|}{S} $$
 > La pressione è uno scalare la qui unità di misura è $[p] = \frac{N}{m^2} = Pa$ ([[pascal]])
 >
 >Quindi la forza di superficie si può definire come $dF_n = p\ \d S$
 
->[!oss]
+>[!remark]
 >La pressione dipende o meno dall'orientazione della superficie considerata in un fluido all'equilibrio? Per rispondere consideriamo un elemento $\d m$ di fluido
 >Tutte le forze orizzontali e verticali all'equilibrio si devono compensare:
 >$$ \begin{cases}

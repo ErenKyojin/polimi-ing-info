@@ -25,7 +25,7 @@ $$ Q(p) = \sum_{i = 1}^N q_{i}(p) $$
 
 
 ### Elasticità della domanda
->[!def]
+>[!definition]
 >variazione della quantità di domanda rispetto al variare di una delle sue componenti
 >- prezzo del bene
 >- prezzo degli altri beni
@@ -45,7 +45,7 @@ Si tende a considerare il modulo, infatti è negativo (corrisponde alla pendenza
 La domanda di un bene con pochi sostituti è tendenzialmente anelastica.
 
 ### Elasticità incrociata
->[!def]
+>[!definition]
 >Elasticità incrociata del bene $x$ rispetto al bene $y$ è la variazione % della quantità di domanda del bene $x$ a seguito della variazione % del prezzo del bene $y$
 >$$ \varepsilon_{xy} = \frac{ \partial q_{x} }{ \partial p_{x} }  \frac{p_{y}}{q_{y}} $$
 >
@@ -56,6 +56,6 @@ Notiamo che
 
 ### Elasticità al reddito
 
-> [!def]
+> [!definition]
 > Elasticità al reddito di $x$
 > $$\varepsilon_{M} = \frac{ \partial q_{x} }{ \partial M } \frac{M}{q_{x}}$$

@@ -4,7 +4,7 @@ creation date: 2023-03-29 11:30
 modification date: 2023-03-29 11:30
 ---
 
-> [!def]
+> [!definition]
 > È l'immagine secondo $G(\bullet)$ del [[percorso di Nyquist]] relativo a $G(s)$.
 > Il diagramma di Nyquist è simmetrico rispetto all'asse $\mathbb{R}$ ed è fatto dal [[Diagramma polare]] ...
 
@@ -44,7 +44,7 @@ Quindi il numero di giri antiorario che l'immagine $\Delta$ della curva divisa $
 compie attorno all'origine del uso piano $\mathbb{C}$ è uguale al numero di poli di $G$ circondati de $\Gamma$ in senso orario meno il numero di zeri di $G$ circondati da $\Gamma$ in senso orario
 
 
->[!oss]
+>[!remark]
 >Un giro orario = -1 giro antiorario e viceversa
 
 

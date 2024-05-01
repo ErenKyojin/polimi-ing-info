@@ -4,7 +4,7 @@ creation date: 2023-05-25 18:25
 modification date: 2023-05-25 18:25
 ---
 
->[!def]
+>[!definition]
 >Una **[[carica]] di prova** è una carica puntiforme $q$ positiva posizionabile in una regione dello spazio in modo di studiare eventuali effetti su di essa
 
 

@@ -2,7 +2,7 @@
 aliases: PSE
 ---
 # Principio di sovrapposizione
->[!def]
+>[!definition]
 >Sia $a : J \subset \mathbb{R}$ continua su $J$, l'applicazione lineare
 >$$y \overset{L}{\mapsto} L(y) = y' - a(t) \cdot y$$
 >Più esplicitamente, dati $c_{1}, c_{2} \in \mathbb{R}$
@@ -16,7 +16,7 @@ aliases: PSE
 >$\Longrightarrow (c_{1}y_{1}+c_{2}y_{2})'=a(t)(c_{1}y_{1}+c_{2}y_{2})+c_{1}b_{1}+c_{2}b_{2}$
 
 
->[!esempio]
+>[!example]
 >Prendo due soluzioni distinte della EDO
 > $$ y' = a(t)y + b(t) \Rightarrow
 >\begin{align}
@@ -33,7 +33,7 @@ aliases: PSE
 >$\Rightarrow$ non basta sommare le soluzioni trovate in una <u>non omogenea</u> per trovare altre soluzioni
 >
 
->[!oss] caso particolare - omogenea
+>[!remark] caso particolare - omogenea
 > $$ (c_{1}y_{1} + c_{2}y_{2})' = a(t)(c_{1}y_{1}+c_{2}y_{2}) + \xcancel{c_{1}b_{1}+c_{2}b_{2}}$$
 >Se $y_{1}$ e $y_{2}$ sono soluzioni distinte della stessa EDO lineare omogenea
 > $$ y'(t) = a(t)y(t) 
@@ -44,7 +44,7 @@ aliases: PSE
 >Qualunque combinazione lineare
 > $$ y(t) = c_{1}y_{1}(t) + c_{2}y_{2}(t)\qquad c_{1},c_{2} \in \mathbb{R} $$ è ancora soluzione dell omogenea
 
->[!esempio]
+>[!example]
 >Sommando due forze otteniamo la somma degli effetti delle singole forze.
 >Moltiplicando una forza per una costante $k$ otteniamo il risultato per $k$ volte
 

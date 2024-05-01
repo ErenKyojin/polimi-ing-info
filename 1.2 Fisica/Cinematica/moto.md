@@ -6,7 +6,7 @@ modification date: 2023-03-16 13:48
 
 Opposoto di quiete, sono entrambi concetti relativi dipendenti dal sistema di riferimento stesso. Per desrivere il moto di un [[Punto materiale]] occorre fissare un **sistema di riferimento** e disporre di un **orologio**
 
->[!def]
+>[!definition]
 >moto uniforme => moto in cui la [[Velocità scalare media]] è costante
 
 
@@ -17,10 +17,10 @@ $$
  \overrightarrow{r}\equiv\overrightarrow{OP} = x\hat{u}_{x} + y\hat{u}_{y} + z\hat{u}_{z}
 $$
 
->[!oss] Componenti scalari del vettore posizione
+>[!remark] Componenti scalari del vettore posizione
 >Il vettore posizione ha per componenti scalari cartesiane le coordinate cartesiane del punto materiale da esso individuato.
 
->[!oss] Modulo direzione e verso del vettore posizione
+>[!remark] Modulo direzione e verso del vettore posizione
 >Il modulo del vettore posizione vale $r \equiv |r| = \sqrt{ x^2 + y^2 + z^2 }$.
 >La sua direzione ed il suo verso sono individuati dagli angoli $(\alpha,\beta,\gamma)$ formati con i versori degli assi cartesiani, che sono legati alle coordinate del punto attraverso i coseni direttori:
 > $$
@@ -78,10 +78,10 @@ Per determinare $\vec{a}_{N}$ basta ora moltiplicare $\frac{d\hat{u}_{T}}{dt}$ p
 $$
 \vec{a} = \vec{a}_{T} + \vec{a}_{N} \qquad \vec{a}_{T} = \frac{dv}{dt}\hat{u}_{T}\qquad\vec{a}_{N} = \frac{v^2}{\rho}\hat{u}_{N} 
 $$
->[!oss] Significato della scomposizione in componenti tangenziale e normale
+>[!remark] Significato della scomposizione in componenti tangenziale e normale
 >La componente tangente dell'accelerazione rende conto della variabile del [[Modulo]] della velocità, mentre la componente normale dipende dalla variazione in [[direzione]] della [[velocità vettoriale]]
 
->[!oss] Alcuni importanti tipi di moto
+>[!remark] Alcuni importanti tipi di moto
 >
 > 1. $\rho \to \infty \implies \vec{a}_{N} = 0$ moto rettilineo
 > 2. $v = \cost \implies \vec{a}_{T }=0$ moto uniforme
@@ -89,7 +89,7 @@ $$
 ## Moto in [[coordinate polari]]
 Se il moto avviene in un piano le sole coordinate cartesiane $x$ ed $y$ sono sufficienti a descriverlo. Alternativamente possiamo utilizzare le [[coordinate polari]] nel [[piano]] che a volte risultano piú convenienti delle cartesiane.
 Le definiamo cosí:
->[!def]
+>[!definition]
 >- $r \equiv |\vec{r}| = \overline{OP}$ raggio vettore, distanza del punto $P$ dall'origine e numero reale positivo
 >- $\theta \equiv \angle(\vec{r},\hat{u}_{x})$ anomalia, angolo formato da $\vec{r}$ con $\hat{u}_{x}$ definito tra 0 e $2\pi$
 
@@ -142,7 +142,7 @@ $\hat{u}_{\theta} = \hat{u}_{z} \times \hat{u}_{r}$ versore trasversale
 \end{tikzpicture}
 \end{document}
 ```
->[!oss]
+>[!remark]
 >I versori $\hat{u}_{r}$ e $\hat{u}_{\theta}$ variano con il punto $P$ al contrario di $\hat{u}_{x}$ e $\hat{u}_{y}$. Non vanno inotlre confusi con la coppia $\hat{u}_{N}$ e $\hat{u}_{r}$ che è riferita alla traiettoria e non al sistema di riferimento scelto
 
 

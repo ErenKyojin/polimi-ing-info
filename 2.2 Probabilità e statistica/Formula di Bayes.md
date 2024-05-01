@@ -14,7 +14,7 @@ tags: review
 >>Quindi
 >>$P(F_{i} \cap E) = P(E | F_{i})P(E)$
 
->[!esempio]
+>[!example]
 >Una moneta con due teste, ed una moneta con una testa ed una croce, sapendo che la moneta sul tavolo mostra testa, qual è la probabilità che sotto ci sia croce?
 >- $N$ evento moneta normale
 >- $T$ evento mostra testa

@@ -10,7 +10,7 @@ modification date: 2023-07-07 09:14
 
 ^4d74cf
 
->[!oss]
+>[!remark]
 >Nel [[piano di Clapeyron]] le trasformazioni isotermiche sono iperboli
 >
 >```tikz

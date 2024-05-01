@@ -1,7 +1,7 @@
 # differenziale
 $\newcommand{\d}{\mathrm d}$
 	L'incremento della tangente ad una funzione in un punto $x_0$ rispetto a $x_0 + dx$ con $dx \ll 0$, il differenziale di $f$ in $x_0$ si indica col simbolo $$\fbox{$\d f(x_0) = f'(x_0)\d x$}$$
->[!esempio]
+>[!example]
 >![[72992E10-1613-4DA5-9BF5-1E2937A93B76.jpeg]]
 
 

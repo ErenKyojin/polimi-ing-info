@@ -7,7 +7,7 @@ modification date: 2023-03-29 11:29
 Prima di vedere il criterio dobbiamo studiare il [[diagramma di Nyquist]] di una FdT $G(s)$
 
 
-> [!def]
+> [!definition]
 > 
 > Si consideri il sistema dinamico
 > ```tikz
@@ -33,7 +33,7 @@ Prima di vedere il criterio dobbiamo studiare il [[diagramma di Nyquist]] di una
 
 Proviamo ad applicarlo:
 
-> [!esempio]
+> [!example]
 > 
 > $$
 > L(s) = \frac{1}{s+1}\qquad p_{D}=0\ (\text{anello aperto non ha poli con }\Re>0)
@@ -59,7 +59,7 @@ Proviamo ad applicarlo:
 > polo -2
 > 
 
-> [!esempio]
+> [!example]
 > 
 > 
 > $L(s) = \frac{4}{1 - S}$ e $p_{D} = 1$
@@ -85,7 +85,7 @@ Proviamo ad applicarlo:
 >  Instabile?
 
 
-> [!esempio]
+> [!example]
 > $L(s) = \frac{4}{s - 1} ( = -\frac{4}{1 - 5} \text{ come per d. Bode})$, $p_{D} = 1$ (anello aperto instabile)
 > 
 >  ```tikz

@@ -16,7 +16,7 @@ Tiene traccia delle traduzioni NPV ed NPF utilizzate di recente per la [[memory 
 #todo slide 32
 
 
->[!oss]
+>[!remark]
 >Essendo il TLB una cache, se si effettua l'accesso ad un elemento non in memoria si genera un **TLB miss** che richiede di accede alla tabella delle pagine per prendere l'elemento corretto, rallentando il sistema. 
 >Per ridurre le probabilità di un miss la dimensione del TLB per processo deve essere almeno uguale al numero di pagine R residenti in memoria del processo
 

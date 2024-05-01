@@ -138,7 +138,7 @@ A partire dall'inizio di esecuzione di un programma si carica il working set dop
 ### - LRU (least recently used)
 Sostituiamo la pagine meno utile nel prossimo futuro, ossia quella usata meno di recente (principio di località)
 
->[!oss]
+>[!remark]
 Può essere poco efficiente in caso di working set R leggermente maggiore delle pagine salvate in memoria
 
 ### FIFO (first in first out)
@@ -153,7 +153,7 @@ Per mantenere queste politiche è necessario avere
 
 Ad ogni programma viene sempre assegnato un numero intero di pagine, rimangono aree di memoria assegnate ma non occupate,
 
->[!esempio]
+>[!example]
 >un programma ha bisogno di 6.34 pagine, gliene vengono assegnate 7, sprechiamo 2/3 di una pagina.
 >
 
@@ -210,7 +210,7 @@ Un file linux è una sequenza di byte, un file diviso in pagine è un modo di in
 _________
 
 
->[!esempio] Read("Pk0", "Ps0, "Pd0", "Pd1", Write("Pp1", "Pp2", "pp3")
+>[!example] Read("Pk0", "Ps0, "Pd0", "Pd1", Write("Pp1", "Pp2", "pp3")
 >Processo: P
 >VMA:
 >

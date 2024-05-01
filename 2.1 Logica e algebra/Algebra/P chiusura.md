@@ -11,7 +11,7 @@ Consideriamo ora un [[insieme|insieme]] $P$ di proprietà di cui le [[Relazioni]
 
 In altre parole la $P$-chiusura di $R$, se esiste, è la minima relazione che contiene $R$ e ha tutte le proprietà di $P$, quindi creiamo la più semplice relazione che rispetti tutte le proprietà su cui chiudere.
 
->[!esempio]
+>[!example]
 >$A = \{ a,b,c \}$
 > $R = \{(a,b), (c,c)\}$ non riflessiva
 > $T = \{(a,b), (a,a), (b,b), (c,c)\}$ chiusura riflessiva di R
@@ -32,7 +32,7 @@ In generale invece non esiste la chisura seriale di una relazione $R$, basta con
 
 In generale non esiste neppure la chiusura antisimmetrica di una relazione $R$, infatti se $R$ non è antisimmetrica, nessuna relazione che contenga $R$ può essere antisimmetrica.
 
-> [!proposizione]
+> [!proposition]
 > Vogliamo ora dare un metodo per costruire la chiusura riflessiva, la chiusura simmetrica e la chiusura transitiva di $R$.
 > - La chiusura riflessiva di $R$ è la relazione $R \cup I_{A}$
 > - La chiusura simmetrica di $R$ è la relazione $R \cup R^{-1}$

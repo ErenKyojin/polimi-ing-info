@@ -9,7 +9,7 @@ alias: linguaggi
 	  - Note musicali: alfabeto
 	  - Parole italiane: alfabeto
 	  - Caratteri ASCII: alfabeto
-	>[!oss]
+	>[!remark]
 	>In un alfabeto, i singoli elementi sono detti simboli
 
 
@@ -21,7 +21,7 @@ alias: linguaggi
   - A = {0,1}, A* = {$\varepsilon$, 0, 1, 00, 01, 10, 11, ...}
 - **Operazioni su stringe**, 
 	- concatenazione x.y:
->[!esempio]
+>[!example]
 >
 >x = abb, y = baba, => x.y = abbbaba,
 >- è associativa: (x.y).z = x(.y.z)
@@ -29,21 +29,21 @@ alias: linguaggi
 >  
 
 - **Potenza di una stringa**
-  >[!esempio]
+  >[!example]
   >$a^3 = aaa$, $(ab)^3 = ababab$, $a^0 = \varepsilon$
 	
 
->[!oss]
+>[!remark]
 >A* è costruito su A semplicemente usando la concatenazione.
 >Tuttavia se A fosse l'insieme delle parole italiane, A* sarebbe un insieme di parole a caso concatenate, se vogliamo seguire una **logica** è necessario ottenerne un sottoinsieme tramite una grammatica formale
 
 
->[!def]
+>[!definition]
 >**Linguaggio**: $L$ sottoinsieme di $A^*$: $L \subseteq A^*$
 
 ## classi di linguaggi
 
->[!def]
+>[!definition]
 >Un linguaggio è detto **regolare** se viene riconosciuto da un [[Automa a stati finiti]]
 >$ab^na$ regolare
 >$a^nb^n$ irregolare 
@@ -61,14 +61,14 @@ alias: linguaggi
 - **Concatenazione tra linuaggi**:
 $L_{1}.L_{2} = \left\{ x.y | x \in L_{1}, y \in L_{2} \right\}$
 
->[!esempio]
+>[!example]
 >$L_{1} = \left\{ 0,1 \right\}^*, L_{2} = \left\{ a,b \right\}^*$
 >$L_{1}.L_{2} = \left\{ \varepsilon, 0,1,0a,11b,10ba, \dots \right\}$, In questo linguaggio non rientrano stringe del tipo $ab1$, o lettere seguita da numeri in generale, otteniamo un sottoinsieme di A*
 
 
 - **Potenza di linguaggi**:
   $L^0 = \left\{ \varepsilon \right\}, L^i = L^{i-1}.L$, si risolve quindi in modo ricorsivo
->[!esempio]
+>[!example]
 >$L = \{aba,bb,a\}$
 >$L^2 = \left\{ abaaba, ababb, abaa, bbaba, bbbb, bba, aaba, abb, aa \right\}$
 - **Unione**, quando l'asterisco si riferisce ad un linguaggio e non ad una alfabeto si ha che:
@@ -98,7 +98,7 @@ L(G) = \left\{ x \in V_{T}^* | S \implies^* x \right\}
 $$
 Consiste di tutte le stringhe costituite da soli simboli terminali derivabili da $S$
 
->[!esempio] Esempio 1
+>[!example] Esempio 1
 >$G_{1} = (\left\{ S, A, B \right\}, \left\{ a,b,0 \right\}, \left\{ S \to aA, A \to aS, S \to bB, B \to bS, S \to 0 \right\},S)$ 
 >
 >Alcune derivazioni:
@@ -111,7 +111,7 @@ Consiste di tutte le stringhe costituite da soli simboli terminali derivabili da
 >$L(G_{1})= \left\{ \text{aa}, \text{bb} \right\}^*.0$, un numero qualsiasi di coppie di a e di coppie di b terminate da uno zero
 
 
->[!esempio] Esempio 2
+>[!example] Esempio 2
 >$G_{2} = (\left\{ \text{S} \right\}, \left\{ \text{a,b} \right\}, \left\{ \text{S} \to \text{aSb}, \text{S} \to \text{ab} \right\})$ abbreviazione per $\text{S} \to \text{aSb},\text{S} \to \text{ab}$
 >Alcune derivazioni
 >- $\text{S} \implies \text{ab}$
@@ -123,7 +123,7 @@ Consiste di tutte le stringhe costituite da soli simboli terminali derivabili da
 >Se sostituiamo $\text{S} \to \text{{ab}}$ con $\text{S} \to \varepsilon$ otteniamo
 >$L(G_{2}) = \left\{ \text{a}^n\text{b}^n | n \geq 0 \right\}$
 
->[!esempio] Esempio 3
+>[!example] Esempio 3
 >$S \to aACD, A \to aAC, A \to \varepsilon$
 >$CD \to BDDc, CB \to BC, B \to b, D \to \varepsilon$
 >

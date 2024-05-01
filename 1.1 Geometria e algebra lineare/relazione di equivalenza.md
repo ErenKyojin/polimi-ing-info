@@ -1,7 +1,7 @@
 ---
 aliases: relazioni di equivalenza
 ---
->[!def]
+>[!definition]
 >Una [[Relazioni|relazione]] $\mathfrak{R}$ è di equivalenza se gode delle seguenti proprietà:
 >- Riflessiva: $\forall a \in A\qquad a \sim a$
 >- Simmetrica: $\forall a,b \in A$ se $a \sim b \Rightarrow b \sim a$
@@ -9,7 +9,7 @@ aliases: relazioni di equivalenza
 
 Una relazione di equivalenza divide un insieme in [[classi di equivalenza]]
 
->[!esempio] [[Numeri razionali]]
+>[!example] [[Numeri razionali]]
 >$A = \mathbb{Z} \times (\mathbb{Z} \setminus \lbrace 0 \rbrace)$ con $\mathbb{Z} = \lbrace ... -1, 0, 1, ... \rbrace$
 >$$\begin{align}
 >
@@ -37,13 +37,13 @@ Osserviamo che la [[Chiusura]] riflessiva, simmetrica e transitiva di una relazi
 
 Nel seguito denoteremo le relazioni di equivalenza con le lettere minuscole dell'alfabeto greco.
 # Logica e Algebra
->[!def]
+>[!definition]
 >$R$ è una relazione di equivalenza se gode delle proprietà riflessiva, simmetrica e transitiva
 
->[!def]
+>[!definition]
 >Data una relazione $R$ su $A$ la sua chiusura riflessiva, simmetrica e transitiva è detta relazione di equivalenza generata da $R$.
 
->[!esempio] esempi
+>[!example] esempi
 >1. $A = \mathbb{N}$, la relazione di uguaglianza 
 >2. $A =$ rette di un piano
 >	- $a R b \iff a \parallel b$

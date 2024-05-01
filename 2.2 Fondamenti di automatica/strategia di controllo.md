@@ -13,7 +13,7 @@ Puó contenere disturbi $d$ ed incertezza di modello (legame $(u,d) \to y$ ) non
 
 
 4. ![[Controllo in anello chiuso con compensazione.canvas]]
->[!esempio]
+>[!example]
 > Grafico molla
 > 
 > 1. modello statico (all'equilibrio)
@@ -42,7 +42,7 @@ Puó contenere disturbi $d$ ed incertezza di modello (legame $(u,d) \to y$ ) non
 > Il polinomio caratteristico dipende da $\alpha$ e $\beta$, quindi possiamo **cambiare la natura delle soluzioni**
 
 
->[!esempio] di controllo in Anello chiuso
+>[!example] di controllo in Anello chiuso
 > variabile di controllo proporzionale all'errore $\to (y^o - y)$ (convenzione quello che voglio meno quello che ho)
 > $$F = \alpha(y^o-y)\quad \alpha > 0$$
 > otetengo

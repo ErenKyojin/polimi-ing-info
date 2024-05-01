@@ -2,7 +2,7 @@
 aliases: vettore
 ---
 # Vettori geometrici
->[!def] vettore applicato
+>[!definition] vettore applicato
 >Un vettore applicato è un segmento orientato e si rappresenta con una freccia
 
 
@@ -62,11 +62,11 @@ La direzione di $\vec{AB}$ è la direzione della retta che passa per $A$ e $B$: 
 
 Da tutte queste definizioni possiamo tradurre l'[[Assioma delle parallele]] per i vettori, esiste un solo vettore applicato con punto di applicazione, modulo, direzione e verso assegnati.
 
->[!esempio]
+>[!example]
 >I vettori sono stati utilizzati per la prima volta in fisica, ad esempio per una forza applicata su una particella, dove il punto di applicazione è la posizione della particella, il modulo l'intensità della forza, e la direzione ed il verso sono le rispettive della forza.
 
 # Vettore libero
->[!def] 
+>[!definition] 
 >Un vettore libero è una grandezza dotata di modulo, direzione, e verso. Si perde però l'informazione sul punto di applicazione.
 >I vettori liberi in realtà si possono definire come una [[relazione di equivalenza|classe di equivalenza]] dei vettori applicati, infatti due vettori applicati $\vec{AB}$ si definiscono equivalenti se hanno stesso modulo, direzione e verso.
 >
@@ -85,7 +85,7 @@ Il punto $P$ è identificato tramite il vettore posizione $\vec{OP}$
 
 
 ## Somma
->[!esempio]
+>[!example]
 >Considerati due vettori applicati $\vec{OP}$ e $\vec{PQ}$ tali che il secondo estremo del primo vettore coincida con il punto di applicazione del secondo vettore. La loro somma è per definizione, il vettore $\vec{OQ}$. 
 
 ```tikz

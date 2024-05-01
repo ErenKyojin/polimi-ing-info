@@ -2,7 +2,7 @@
 
 >[!multi-column]
 >
->>[!esempio] Shift left
+>>[!example] Shift left
 >>
 >>I3 | I2 | I1 | I0
 >>--- | ---|---|---
@@ -12,7 +12,7 @@
 >>--- | ---| --- | --- | ---
 >><s> -0 -</s>  | 1 | 0 | 0 | 0 
 >
->>[!esempio] Shift right
+>>[!example] Shift right
 >> 
 >> I3 | I2 | I1 | I0
 >> --- | --- | --- | ---

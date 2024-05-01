@@ -5,7 +5,7 @@ Il lavoro svolto in una CPU pipeline per eseguire un'[[istruzioni|istruzione]] Ã
 
 
 
->[!esempio]
+>[!example]
 >![[Pasted image 20221025183252.png]]
 
 
@@ -53,7 +53,7 @@ Notiamo come abbiamo 5 fasi di esecuzione, ma alcune istruzioni ne usino solo 4,
 
 Vogliamo scomporre il processori in 5 stadi di esecuzione, ognuno che corrisponde ad una fase, Ã¨ necessario quindi introdurre i registri di pipeline che separano i diversi stadi essendo in esecuzione ad ogni ciclo 5 istruzioni diverse
 
->[!oss]- Registri di pipeline
+>[!remark]- Registri di pipeline
 >
 >![[Pasted image 20221025193607.png]]
 >

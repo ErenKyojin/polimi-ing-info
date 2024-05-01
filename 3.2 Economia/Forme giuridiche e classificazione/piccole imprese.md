@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-23
 ---
 
->[!def]
+>[!definition]
 >Impresa con < 50 dipendenti e < 10 milioni €
 
 ^fa50c5

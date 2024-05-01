@@ -1,7 +1,7 @@
 # Traferro
 Visto che gli induttori realizzati con un nucleo ferromagnetico o ferimagnetico non sono solitamente lineare non sono adatti a molti utilizzi in elettronica, introducendo una distorsione. Per risolvere a questo problema si utilizza un breve tratto d'aria nel nucleo, tratto chiamato **traferro** o **intraferro**
 
->[!esempio]
+>[!example]
 >![[Pasted image 20220830201626.png]]
 
 La riluttanza del nucleo si esprime con

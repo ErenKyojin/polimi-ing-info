@@ -2,7 +2,7 @@ La matrice hessiana è la matrice delle derivate delle derivate parziali
 $$ H_{f} (x_{0},y_{0}) = \begin{bmatrix}
 \end{bmatrix}$$
 
->[!esempio]
+>[!example]
 > $$ \begin{align}
 > &\nabla f(x,y) = \begin{bmatrix}
 \sin y \\
@@ -19,7 +19,7 @@ x \cos y
 
 
 # Forme quadratiche
->[!def]
+>[!definition]
 >Sia $f \in C^2(A)$ chiamiamo forma quadratica indotta da $H_{f}(x_{0},y_{0})$
 >$q : \mathbb{R}^2 \to \mathbb{R}$
 > $$
@@ -77,7 +77,7 @@ Definita positiva $\implies$ minimo
 semidefinita negativa $\implies$ flesso (sella di cavallo)
 
 
->[!esempio]
+>[!example]
 >$f(x,y) = x \sin y$
 >$$ H_{f}(x,y) = \begin{bmatrix}
 > 0 & \cos y \\

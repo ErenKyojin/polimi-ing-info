@@ -67,7 +67,7 @@ Riconosce l'identità => 1 <==> A == B
 ![[Pasted image 20220928094431.png]]
 
 
->[!oss]
+>[!remark]
 >Lo XNOR è equivalente a questo circuto
 >![[Pasted image 20220928094757.png]]
 

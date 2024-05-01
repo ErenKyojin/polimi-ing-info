@@ -12,7 +12,7 @@
 - Restituisce tramite jr ra, ret
 
 
->[!esempio]
+>[!example]
 >
 >#### chiamata:
 >```armasm
@@ -80,14 +80,14 @@ classDiagram
 ```
 I dati vengono inseriti con push ed estratti con pop
 
->[!def] Push
+>[!definition] Push
 >```armasm
 >addi sp, sp, -16
 >sd t1, 8(sp)
 >sd t2, 0(sp)
 >```
 
->[!def] Pop
+>[!definition] Pop
 >```armasm
 >ld t2, 0(sp)
 >ld t1, 8(sp)

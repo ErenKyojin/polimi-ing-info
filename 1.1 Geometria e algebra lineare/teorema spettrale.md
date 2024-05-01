@@ -7,16 +7,16 @@
 >>$$ \left< \mathcal{L}(\mathbf{v}),\mathbf{q}_{1} \right> = \left< \mathbf{v},\mathcal{L}(\mathbf{q}_{1}) \right> = \lambda_{1}\left< \mathbf{v},\mathbf{q}_{1} \right> =0 $$
 >>Quindi per ipotesi induttiva, essendo $\mathcal{L}$ un endomorfismo di $H$ e $\dim(H) = n-1$, esiste una base ortonormae di $H$ formata da autovettori di $\mathcal{L} : \{ \mathbf{q}_{2},\dots,\mathbf{q}_{n} \}$. Siccome $H = (\Span(\mathbf{q}_{1}))^\perp$, si ha che $\{ \mathbf{q}_{1},\mathbf{q}_{2},\dots,\mathbf{q}_{n} \}$ è una base ortonormale di $V$ formata da autovettori di $\mathcal{L}$. Se $A \in M_{\mathbb{R}}(n,n)$ è una matrice simmetrica allora $\begin{align}\mathcal{L}_{A} : \mathbb{R}^n &\to \mathbb{R}^n\\\mathbf{x} &\mapsto A \mathbf{x}\end{align}$ è un endomorfismo simmetrico (infatti $A$ è la matrice rappresentativa di $\mathcal{L}_{A}$ rispetto alla base canonica $\mathcal{E}_{n} = \{ \mathbf{e}_{1},\dots,\mathbf{e}_{n} \}$ che è base ortonormale di $\mathbb{R}^n$). Dunque per quanto appena visto, esiste una base ortonormale di $\mathbb{R}^n$ formata da autovettori di $A: \{ \mathbf{q}_{1},\dots,\mathbf{q}_{n} \}$. Poniamo $U = [\mathbf{q}_{1} | \dots | \mathbf{q}_{n}]$ allora $A \cdot U = [A\mathbf{q}_{1} | \dots | A\mathbf{q}_{n}]=[\lambda_{1}\mathbf{q}_{1} | \dots | \lambda_{n}\mathbf{q}_{n}] = U \diag(\lambda_{1},\dots,\lambda_{n})$.
 >>Dunque $U^TAU = \diag(\lambda_{1},\dots,\lambda_{n})$ e quindi $A$ è ortogonalmente diagonalizzabile
->
->>[!corollario]
->>Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e $\lambda_{1},\dots,\lambda_{s} \in \mathbb{R}$ i suoi autovalori distinti. Sia
->> $$ V_{j} = \left\{ \mathbf{v} \in V: A\mathbf{v} = \lambda_{j}\mathbf{v} \right\} \forall j = 1,\dots,s  $$
->> e $\mathcal{B}_{j}$ una base ortonormale di $V_{j}$ allora:
->> 1. $\mathcal{B_{1}} \cup \dots \cup \mathcal{B_{s}}$ è base ortonormale di $V$
->> 2. $V_{1} + V_{2} + \dots + V_{s} = \mathbb{R}^n$
->> 3. $V_{j} \perp V_{i}$ se $i \neq j$ e $i,j = 1,\dots,s$
 
->[!oss]
+>[!corollary]
+>Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e $\lambda_{1},\dots,\lambda_{s} \in \mathbb{R}$ i suoi autovalori distinti. Sia
+> $$ V_{j} = \left\{ \mathbf{v} \in V: A\mathbf{v} = \lambda_{j}\mathbf{v} \right\} \forall j = 1,\dots,s  $$
+> e $\mathcal{B}_{j}$ una base ortonormale di $V_{j}$ allora:
+> 1. $\mathcal{B_{1}} \cup \dots \cup \mathcal{B_{s}}$ è base ortonormale di $V$
+> 2. $V_{1} + V_{2} + \dots + V_{s} = \mathbb{R}^n$
+> 3. $V_{j} \perp V_{i}$ se $i \neq j$ e $i,j = 1,\dots,s$
+
+>[!remark]
 >Data $A \in M_{\mathbb{R}(n,n)}$ simmetrica per determinare una base ortonormale di $\mathbb{R}^n$ autovettori di $A$ si puó procedere nel seguente modo:
 >1. Determino gli autovalori di $A: \lambda_{1},\dots,\lambda_{s}$
 >2. Determino le basi $\mathcal{B}_{1}',\dots,\mathcal{B}_{s}'$ degli autospazi associati a $\lambda_{1},\dots ,\lambda_{s}$
@@ -26,7 +26,7 @@
 
 ## Decomposizione spettrale
 
->[!corollario]
+>[!corollary]
 >Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e siano $\lambda_{1},\dots,\lambda_{s}$ i suoi autovalori distinti. Sia $P_{j}$ la matrice della proiezione ortogonale sull'autospazio $V_{j}$ relativo a $\lambda_{j}$. Allora
 >1. $A = \lambda_{1}P_{1} + \dots + \lambda_{s}P_{s}$
 >2. $\mathbb{1}_{n} = P_{1} + \dots + P_{s}$
@@ -35,7 +35,7 @@
 >>[!dim]
 
 
->[!oss]
+>[!remark]
 >1. L'[[insieme]] degli autovalori di $A$ si dice lo spettro di $A$ e la decomposizione  $A =\lambda_{1}P_{1} + \dots + \lambda_{s}P_{s}$ si dice **decomposizione spettrale** di $A$
 >
 >2. Dalla proprietà 3. del precedente corollario si ha che, per ogni $A \in M_{\mathbb{R}(n,n)}$ simmetrica e per ogni intero $m > 0$, $A^m = \lambda_{1}^mP_{1} +\dots + \lambda_{s}^m P_{s}$ 

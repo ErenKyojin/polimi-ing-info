@@ -4,11 +4,11 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >$\mathcal{A}$ è logicamente equivalente a $\mathcal{B}$ se $\mathcal{A} \vDash \mathcal{B}$ e $\mathcal{B} \vDash \mathcal{A}$
 
 
->[!Oss]-
+>[!remark]-
 >#### Riguardo alla [[Logica proposizionale]]
 >$\mathfrak F = \{ \text{fbf del calcolo proposizionale} \}$
 >$\dfrac{\mathfrak{F}}{\equiv}$ [[insieme quoziente]] dell'insieme F sull'equivalenza logica
@@ -24,7 +24,7 @@ modification date: 2023-07-07 09:14
 >...
 
 
->[!proposizione] proprietà
+>[!proposition] proprietà
 >$(\forall x)(\forall y)\mathcal{A}= (\forall y)(\forall x) \mathcal{A}$
 >$(\exists x)(\exists y) \mathcal{A} \equiv (\exists y)(\exists x) \mathcal{A}$
 >$(\exists x)(\forall y) \mathcal{A} \implies (\forall y)(\exists x)a$ (l'implicazione opposta non è logicamente valida)

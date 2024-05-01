@@ -65,15 +65,15 @@ Quindi
    \end{align} $$
     - $R^*(z) = c(Z I - A^*)^{-1}b^* + d$
 
->[!oss]
+>[!remark]
 >Quanto al ML questa discretizzazione è esatta per davvero?
 >Preserva le caratteristiche di stabilità
 
->[!oss]
+>[!remark]
 >Infatti se $A^* = e^{ AT_{s} }$ se $\lambda$ è autovalore di $A$, $e^{ \lambda T_{s} }$ è autovalore di $A^*$
 >$\implies \Re(\lambda) 0 \iff |e^{ \lambda T_{s} }| 1$
 
->[!oss]
+>[!remark]
 >La discretizzazione non è invece...?
 
 

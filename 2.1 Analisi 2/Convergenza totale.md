@@ -1,7 +1,7 @@
 /# Convergenza totale di una serie di funzioni
 
  Partiamo con un esempio
- >[!esempio]
+ >[!example]
  >$$ \frac{\sin nx}{n^3},\qquad x \in (-1,1) $$
  >```tikz
  >\begin{document}
@@ -37,15 +37,15 @@
 >```
 
 
->[!def] Definizione importante
+>[!definition] Definizione importante
 >La serie di termini generali $f_{n}(x), x \in J$, converge, totalmente nell'intervallo non vuoto $I \subseteq J$ se esiste una successione numerica $a_{n} \geq 0$ tale che:
 >1. $|f_{n}(x)| \leq a_{n}\qquad \forall x \in I, \forall n = 0,1,2,3,\dots$
 >2. $\sum_{n=0}^\infty a_{n} < +\infty$ 
 
->[!oss]
+>[!remark]
 >Si parla di convergenza totale nel riguardo di un intervallo, non di un punto (motivo per cui non è un criterio presente nelle serie numeriche)
 
->[!oss]
+>[!remark]
 >La convergenza totale in $I$ implica la [[Convergenza assoluta]] e quindi [[convergenza semplice]].
 >
 >>[!error]
@@ -64,10 +64,10 @@ Allora
 >[!important] importante
 >Non è necessario studiare la convergenza totale per una serie di potenze!
 
->[!oss]
+>[!remark]
 >Nel primo caso la serie potrebbe non convergetre totalmente su $\mathbb{R}$
 >
->>[!esempio]
+>>[!example]
 >>$$ \begin{align}
 >> &\sum \frac{\sin(nx)}{n^3} \quad\text{converge totalmente su }\mathbb{R} \\
 >> e^x = &\sum \frac{x^n}{n!} \quad\text{converge totalmente su ogni insieme }[c,d], \text{non su }\mathbb{R}

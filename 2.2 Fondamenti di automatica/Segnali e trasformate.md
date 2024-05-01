@@ -32,5 +32,5 @@ Quindi gli ingredienti di un segnale:
   - Seni e rette (come $\mathcal{F}$) ($\alpha = 0, \omega =0 / \omega \neq 0$ rispettivamente)
     
 
->[!oss]
+>[!remark]
 >Trasformabile secondo $\mathcal{F} \implies$ trasformabile secondo $\mathcal{L}$

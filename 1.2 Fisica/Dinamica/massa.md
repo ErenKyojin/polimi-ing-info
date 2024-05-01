@@ -31,16 +31,16 @@ Concludiamo dicendo che se si considerano due corpi puntiformi soggetti alla sol
 - Il rapporto tra tali variazioni è una costante caratteristica dei due corpi
 
 
->[!def] Massa inerziale
+>[!definition] Massa inerziale
 >La quantità $c_{21} (c_{31})$ può essere assunta come misura della massa inerziale, una grandezza scalare caratteristica del corpo $2(3)$ rispetto alla medesima grandezza del corpo 1, scelto come unità campione
 >
 >Dette ora $m_{1},m_{2}$ e $m_{3}$ le masse dei carrelli avremo:
 >$$ \left| \frac{\vec{a}_{1}}{\vec{a}_{2}} \right| =c_{21} = \frac{m_{2}}{m_{1}}\qquad \left| \frac{\vec{a}_{1}}{\vec{a}_{3}} \right|= c_{31} = \frac{m_{3}}{m_{1}} \qquad  \left| \frac{\vec{a}_{3}}{\vec{a}_{2}} \right| =c_{23} = \frac{m_{2}}{m_{3}}$$
 
->[!oss]
+>[!remark]
 >Si dice inerziale perchè esprime l'[[inerzia]] del corpo, ossia la resistenza a cambiare velocità quanto è soggetto ad interazioni
 
->[!oss]
+>[!remark]
 >Nel sistema internazionale la massa è una grandezza fonamentale misurata in [[chilogrammi]]
 
 ### Proprietà additiva della massa inerziale

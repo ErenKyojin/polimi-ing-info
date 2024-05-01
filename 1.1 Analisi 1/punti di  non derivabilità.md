@@ -14,7 +14,7 @@ y = \abs(x)
 ```
 Tuttavia esistono finiti sia limite destro che sinistro ed il grafico presenta un angolo in $(0,0)$
 
->[!def]
+>[!definition]
 >Siano $f : (a,b)\to\mathbb R, x_0 \in (a,b)$. Se esiste finito $\lim_{h \to 0^+}\dfrac{f(x_0 + h) - f(x_0)}{h}$ (oppure $\lim_{h\to 0^-}\dfrac{f(x+h) - f(x)}{h}$) allora $f$ si dice derivata destra (oppure derivata sinistra) e si indica col simbolo $f_{+}'$ (oppure con $f_{-}'$).
 >
 >
@@ -31,7 +31,7 @@ Se $f$ è continua in un punto $x_0$ e
 $$\lim_{h\to0}\frac{f(x_0+h)-f(x_0)}{h}=\infty\quad(\text{o}\ -\infty)$$
 $f$ non è derivabile in $x_0$ ma geometricamente il grafico di $f$ ha una tangente ben definita e parallela all'asse delle ordinate, ammettiamo comunque la scrittura $f'(x) = \pm\infty$ e parleremo di flesso a tangente verticale
 
->[!esempio] esempio - $\sqrt[3]{x}$
+>[!example] esempio - $\sqrt[3]{x}$
 >```desmos-graph
 >top = 3
 >bottom = -3
@@ -49,7 +49,7 @@ y = \sqrt[3]{\abs(x)}
 ```
 In questo caso abbiamo che $f_+'(0) = +\infty$, mentre $f_-'(0) = -\infty$ in queste caso si parla di cuspide per $x = 0$.
 
->[!def] cuspide
+>[!definition] cuspide
 >Se $f$ è continua in $x_0$ e $f_+'(x_0)=\pm\infty$,$f_-'(x_0)=\mp\infty$ si dice che $f$ ha in $x_0$ una cuspide.
 
 ### casi misti

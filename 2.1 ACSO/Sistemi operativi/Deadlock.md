@@ -3,7 +3,7 @@ La soluzione al deadlock è il [[mutex#thread favorito]]
 
 In particolare si genera un deadlock quando due thread devono bloccare due risorse A e B con due mutex diversi ma le bloccano in ordine inverso
 
->[!esempio]
+>[!example]
 >t1 blocca $A$ ed attende di poter bloccare $B$
 >t2 blocca $B$ ed attende di poter bloccare $A$
 

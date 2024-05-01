@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >Si definisce trasformazione isocora una [[trasformazioni termodinamiche|tasformazione termodinamica]] che mantiene costante il volume
 
 ### Lavoro di una trasformazione isocora

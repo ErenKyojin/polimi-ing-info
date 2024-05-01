@@ -20,7 +20,7 @@ Il blocco è 'unita di informazione trasferita con un solo accesso al disco, mul
 # Blocchi logici
 Il file è visto dal [[File System]] come una sequenza di blocchi logici numerati a partire dal blocco 0, le operazioni sui file fanno riferimento.
 
->[!esempio]
+>[!example]
 >Ricerca del byte 520:
 >- Blocco = $floor(\dfrac{520}{512}) = 1 \implies$ blocco 1
 >- Offset: 520 % 512 = 8 $\implies$ offset di 8 byte

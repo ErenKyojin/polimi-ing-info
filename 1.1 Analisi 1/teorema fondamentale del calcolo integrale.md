@@ -8,7 +8,7 @@
 >$$\left[ G(x) \right]_{b}^a $$
 >Che si legge $G(x)$ valutato tra $a$ e $b$
 >
->>[!esempio]
+>>[!example]
 >>Consideriamo di voler calcolare
 >>$$\int_{1}^2 \! x^2 \, \d x $$
 >>Essendo $\left( \frac{x^3}{3} \right)' = x^2, G(x)=\frac{x^3}{3}$ è una primitiva di $x^2$ in $\left[ 0,1 \right]$, quindi

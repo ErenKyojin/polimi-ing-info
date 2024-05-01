@@ -4,7 +4,7 @@ creation date: 2023-03-26 18:14
 modification date: 2023-03-26 18:14
 ---
 
->[!def]
+>[!definition]
 >Definiamo energia meccanica $E$ di un sistema la somma dell'[[Energia cinetica]] e di tutte le energie potenziali delle [[forze conservative]] in gioco, cioè: $E = E_{c} + E_{p}$
 
 
@@ -40,7 +40,7 @@ Più in generale, in un sistema di $n$ punti materiali, il lavoro compiuto dalle
 $$ \mathcal{L}^{(I)} - \underset{ j > i }{ \sum_{i,j} } \mathcal{L}_{ij}^{(I)} = \underset{j > i}{\sum_{i,j}} \int _{A}^B  \! \vec{F}_{ij} \cdot \, \mathrm{d}\vec{r}_{ij}  $$
 
 
->[!oss]
+>[!remark]
 >Per un sistema
 ## Conservazione dell'energia meccanica per un [[corpo rigido]]
 

@@ -7,7 +7,7 @@ Il calcolo combinatorio consiste nel contare tutte le funzioni tra due insiemi
 Dato un insieme A di a elementi e un insieme B di b elementi è facile osservare che ci sono $b^a$ possibili funzioni.
 
 
->[!def] principio fondamentale del calcolo combinatorio
+>[!definition] principio fondamentale del calcolo combinatorio
 >Il principio fondamentale del calcolo combinatorio afferma che dati $r$ esperimenti, contando che il primo abbia $n_{1}$ risultati possibili, il secondo $n_{2}$ per ogni risultato $n_{1}$, il terzo $n_{3}$ per ogni risultato dei due precedenti, ecc. Allora il numero di risultati possibili degli $r$ esperimenti è
 >$$ n = n_{1} \cdot n_{2} \cdot n_{3} \dots n_{r}  $$
 

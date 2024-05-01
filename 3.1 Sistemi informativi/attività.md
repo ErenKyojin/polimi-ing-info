@@ -35,6 +35,6 @@ Si inserisce tramite logo in basso
 	- Ad hoc: Noti solo i task interni, senza un flusso stabilito
 
 
->[!oss]
+>[!remark]
 >Ciclo -> si esce in base ad una condizione
 >Multi-istanza -> si esce in base al numero di ripetizioni

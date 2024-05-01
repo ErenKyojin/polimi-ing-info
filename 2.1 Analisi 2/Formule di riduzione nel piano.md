@@ -6,10 +6,10 @@ Integriamo prima in $\mathrm{d}y$ perchè D è $y$-semplice, se fosse $x$-sempli
 2. $D$ $x$-semplice $D = \{y \subseteq [c,d], h_{1}(y) \leq x \leq h_{2}(y)\}$
 $$ \int\!\int_{D} \! f(x,y) \, \mathrm{d}x  \! \, \mathrm{d}y =  \int_{c}^d \left( \int_{h_{1}(y)}^{h_{2}(y)} \! f(x,y)\, \mathrm{d}x  \right)\! \, \mathrm{d}y $$
 
->[!esempio]
+>[!example]
 >$T$ triangolo di vertici $(0,0), (1,0), (1,1)$ 
 >$$ T = \{x \in [0,1], 0 \leq y \leq x\} $$
 
 
->[!oss]
+>[!remark]
 >Le formule di riduzione trasformano un integrale doppio in due variabile a due integrali di una variabile l'uno dentro l'altro

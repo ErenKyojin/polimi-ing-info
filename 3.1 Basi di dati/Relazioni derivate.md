@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-16
 ---
 
-> [!def]
+> [!definition]
 > In una base di dati possiamo avere due tipi differenti di relazioni
 > - relazioni di base, ossia relazione autonome i cui valori non dipendono da altre relazioni
 > - relazioni derivate, i cui valori dipendono da un'altra relazione
@@ -20,7 +20,7 @@ Possono esistere due tipi di relazioni derivate:
 
 Le viste sono definite tramite una espressione del linguaggio di interrogazione. Verrano quindi sostituite nelle varie operazioni dalla formula che descrivono.
 
->[!esempio]
+>[!example]
 >$R = \sigma_{\text{età-curr > età-pensione }}(R_{1} \bowtie R_{2})$
 >Avremo che
 >$$ \sigma_{stipendio > 40k} (R) = \sigma_{stipendio>40k}(\sigma_{\text{età-curr > età-pens}}(R_{1} \bowtie R_{2})) $$

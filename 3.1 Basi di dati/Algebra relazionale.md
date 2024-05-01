@@ -17,7 +17,7 @@ Definiamo quindi
 ## Operazione di ridenominazione
 Vi sono tuttavia alcuni casi in cui l'unione avrebbe senso logico, consideriamo l'esempio seguente:
 
->[!esempio]
+>[!example]
 >> [!multi-column]
 >>  
 >> | oggetto      | prezzo |

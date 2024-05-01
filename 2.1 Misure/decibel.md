@@ -18,14 +18,14 @@ Possiamo scegliere un livello di potenza e usarlo come livello di riferimento
 
 $$P_{(\dB x)} = 10 \log_{10} \left(\frac{P}{P_{x}}\right)$$
 
-> [!def] nomenclatura
+> [!definition] nomenclatura
 > se usiamo sempre 1 mW di potenza allora $\dB m$
 > se usiamo sempre 1 W di potenza allora $\dB W$
 > 
 >$$ P_{(\dB m)} = 10 \log_{10}\left(\frac{P}{1 \text{ mW}}\right) $$
 
 
->[!oss]
+>[!remark]
 >Le potenze in $dBx$ non si sommano!
 >
 >$P_{1(\dB m)} + P_{2(\dB m)} \neq P_{3(\dB m)}$

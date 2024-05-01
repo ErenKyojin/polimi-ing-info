@@ -1,9 +1,9 @@
->[!def]
+>[!definition]
 >Sia $A \subseteq \mathbb{R}^2$ aperto
 >$f : A \to \mathbb{R}$ derivabile in $(X_{0},y_{0}) \in A$
 >Se $\nabla f (x_{0},y_{0}) = \begin{bmatrix}0 & 0\end{bmatrix}^T$ allora $(x_{0},y_{0})$ è detto punto critico o punto stazionario
 
->[!def]
+>[!definition]
 >Un punto critico di $f$ che non è punto estremale di $f$ è detto punto di sella
 
 
@@ -30,7 +30,7 @@ In pratica se cerco i punti estremavi di una funzione $f$ in un [[insieme]] $A$ 
 - Se $f$ è derivabile in tutto A: determino i punti critici di $f$ in $A$ e poi stabilisco quali sono massimo minimo e selle.
 - Se $f$ ha punti di non derivabilità li includo tra i candidati
 
->[!oss]
+>[!remark]
 > Se $f$ è anche differenziabile li includo tra i candidati
 > 1. Il piano tangente al grafico di $f$ in $(x_{0},y_{0},f(x_{0},y_{0}))$ è orizzontale
 > 	$$ z = f(x_{0},y_{0}) + \underbrace{ \langle \nabla f(x_{0},y_{0}), \begin{bmatrix}
@@ -42,7 +42,7 @@ y-y_{0}
 > $$ \frac{ \partial f }{ \partial \mathbf{v} } (x_{0},y_{0}) = \langle \nabla f(x_{0},y_{0}), \mathbf{v}\rangle = 0 $$
 
 
->[!esempio]
+>[!example]
 >Determinare tutti i punti critici di
 >
 $$ f(x,y) = 3x^2 + y^2 - x^3y $$
@@ -145,7 +145,7 @@ Allora:
 >$\det(H_{f}(x_{0},y_{0})) = 0$ precedere in altro modo
 
 
->[!esempio]
+>[!example]
 >$f(x,y) = 3x^2 + y^2 - x^3y$
 >voglio trovare i punti di estremo locale di $f$ in $\mathbb{R}^2$
 >Per il [[Teorema di fermat#2D]] i punti di estremo vanno ricercati tra i punti critici.
@@ -186,7 +186,7 @@ g(x) &= f(x,x) = 4x^2 - x^4 \\
 Cosa fare quando troviamo un punto ciritico della funzione $f$ ma il [[criterio dell'hessiana]] non si applica, ossia quando $\det H_{f}(\mathbf{x_{0}}) = 0$
 ($\nabla f (\mathbf{x_{0}}) = \mathbf{0}, \mathbf{x_{0}} \in A$ aperto)
 
->[!esempio]
+>[!example]
 >determinare i punti di estremo
 >$$ f(x,y) = x^4 - 6 x^2 y^2 + y^4 $$
 >e classificarli

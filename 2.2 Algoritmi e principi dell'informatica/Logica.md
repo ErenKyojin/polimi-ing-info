@@ -48,7 +48,7 @@ Con le seguenti abbreviazioni:
 - Parole, di almeno 3 simboli, in cui il terzultimo simbolo è $a$:
 	- $\exists x(a(x) \land \exists y(y = x + 2 \land \text{last}(y)))$
 
->[!oss]
+>[!remark]
 >Non c'è un modo facile per passare da una formula in logica del primo ordine partendo da un linguaggio, tuttavia è utile tenere a mente che
 >- quando è importante **come si susseguono le lettere** in un linguaggio si possono sfruttare formule con stringhe decomposte nella concatenazione di sottostringhe di altri linguaggi
 >- Quando è importante **contare** le occorrenze di alcune lettere è utile definire funzioni ausiliarie che contano i simboli di cui abbiamo interesse
@@ -64,7 +64,7 @@ $\forall(x)$ significa per ogni posizione nella parola
 $\exists x$ significa che esiste una posizione nella parola
 
 
->[!esempio]
+>[!example]
 >formula che è soddisfatta da tutte le parole in cui ogni $a$ è seguita da una $b$
 > $$
 > \forall x(a(x) \to \exists y(\text{succ}(x,y) \cap b(y)))
@@ -77,7 +77,7 @@ Con una formula chiusa non ci serve una valutazione:
 ## [[Linguaggio]] di una formula chiusa
 $$L(\varphi) = \left\{ w \in I^* | w \vDash \varphi\right\}$$
 
->[!oss]
+>[!remark]
 >La stringa vuota [[Epsilon]] non puó soddisfare [[Quantificatori|quantificazioni]] esistenziali, quindi soddisfa solo quantificazioni universali.
 
 
@@ -87,7 +87,7 @@ Che linguaggi definisce questa logica? Si tratta di linguaggi molto deboli
 
 I linguaggi esprimibili mediante MFO sono chiusi rispetto a [[Unione]], [[Intersezione]] e [[complemento]] (basta usare or, and e not)
 
->[!esempio]
+>[!example]
 >$L(\varphi) : L(\varphi_{3}) = L(\varphi_{1}) \cap L(\varphi_{2}) \iff \varphi_{3} = \varphi_{1} \land \varphi_{2}$
 >analogo per unione (and)
 
@@ -96,7 +96,7 @@ In MFO non si può esprimere il linguaggio $L_{P}$ fatto di tutte e sole le paro
 
 MFO è strettamente meno potente degli FSA, data una formula MFO costruire un FSA equivalente è sempre possibile e $L_{P}$ può sempre essere riconosciuto tramite FSA
 
->[!esempio]
+>[!example]
 >$L_{pari}= \left\{ aa, aaaa, aaaaaa, \dots \right\}$
 >$I = \left\{ a,b \right\}$
 >$$\forall x(a(x) \implies \exists y(\text{succ}(x,y) \land b(y))) \land \forall x (b(x) \implies \exists y(\text{succ})(x,y) \land a(y)) \land a(0)$$
@@ -122,7 +122,7 @@ Ammettiamo quindi formule del tipo $\exists x(\varphi)$ dove $x$ è una variabil
 
 [[semantica#Semantica MSO]]
 
-> [!esempio]
+> [!example]
 > Con questa logica possiamo dunque scrivere la formula per il [[Linguaggio]] $L_{pari}$
 > $\exists P(\forall x (\neg P(0) \land (\neg P(x+1)) \land a(x) \land (\text{ last }(x) \implies P(x))))$
 
@@ -130,7 +130,7 @@ Ammettiamo quindi formule del tipo $\exists x(\varphi)$ dove $x$ è una variabil
 ## Da FSA a MSO
 
 In generale, grazie alle quantificazione del secondo ordine è possibile trovare, per ogni FSA, una formula MSO equivalente
-> [!esempio]
+> [!example]
 >```tikz
 > \usetikzlibrary{automata, arrows.meta,positioning}
 > \begin{document}
@@ -167,7 +167,7 @@ Programma o frammento di programma: P
 
 Se vale PRE prima dell'esecuzione di P si vuole che P sia tale da far valere POST dopo la sua esecuzione
 
->[!esempio]
+>[!example]
 >Ordinamento di un array di $n$ elementi senza ripetizioni
 >$\left\{ \neg i,j (1 \leq i \leq n  \land 1 \leq j \leq n \land i \neq j \land a[i] = a[j] = a[j]) \right\}$
 >ORD

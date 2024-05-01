@@ -8,7 +8,7 @@
 \end{document}
 ```
 
->[!def]
+>[!definition]
 >Dato un bipolo adinamico, non impressivo, lineare affine, se ammette base di definizione tensione lo si definisce [[Circuito di Norton]] 
 >È il duale del [[Circuito di Thevenin]], dal quale si passa attraverso le seguenti formule
 >$$ G_{nr} = \frac{1}{R_{th}}\qquad A_{nr} = -\frac{E_{th}}{R_{th}} $$

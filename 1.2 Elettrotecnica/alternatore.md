@@ -1,5 +1,5 @@
 # Alternatore
->[!def] Alternatore | #definizione
+>[!definition] Alternatore | #definizione
 >Generatore di [[tensione | tensione trifase]] costituito da un magnete rotante detto *rotore* circondato da un sistema di avvolgimenti fisso detto *statore*
 >![[Pasted image 20220616120107.png]]
 >con i tre avvolgimenti nello statore che vanno dai terminali $a - a'$, $b -b'$ e $c-c'$, che tra loro sono spaziati di 120° lungo la circonferenza.

@@ -20,7 +20,7 @@ modification date: 2023-03-26 18:16
 >>Quindi $E(A) = E_{c}(A) + E_{p}(A) = E_{c}(B) + E_{p}(B) = E(B)$
 >>$\CVD$
 
->[!oss]
+>[!remark]
 >in presenza di tutte e sole forze conservative, una variazione dell'energia cinetica puó avvenire solo a scapito dell'energia potenziale e viceversa
 >$$\Delta E_{c} > 0 (< 0) \iff \Delta E_{p} < 0 (>0)$$
 

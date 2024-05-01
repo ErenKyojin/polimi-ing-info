@@ -17,7 +17,7 @@ modification date: 2023-04-11 12:36
 >>La procedura è effettiva, quindi esiste una macchina di turing per essa:
 >>possiamo costruirle e poi cercare (per confronto) il suo indice $g(u)$ per ogni possibile $u$, usando la solita enumerazione $E$.
 >>
->>>[!oss]
+>>>[!remark]
 >>>$g$ è totale, esiste per ogni $u$, e calcolabile.
 >>
 >>Otteniamo quindi la funzione $f_{g(u)}(x) = \text{se} f_{u}(u) \neq \perp \implies f_{f_{u}(u)}(x)$ altrimenti $\perp$

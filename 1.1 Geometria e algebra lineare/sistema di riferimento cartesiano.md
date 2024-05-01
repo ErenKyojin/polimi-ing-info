@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Un sistema di riferimento $(0,\mathbf{i},\mathbf{j},\mathbf{k})$ si dice cartesiano se:
 >1. $\|\mathbf{i}\| = \|\mathbf{j}\| = \|\mathbf{k}\|=1$
 >2. $\mathbf{i} \perp \mathbf{j}, \mathbf{j} \perp \mathbf{k}, \mathbf{k} \perp \mathbf{i}$
@@ -17,7 +17,7 @@
 
 
 
->[!oss]
+>[!remark]
 >Una terna di vettori $\left\{ \mathbf{i},\mathbf{j},\mathbf{k} \right\}$, si chiama base ortonormale per l'[[insieme]] dei [[vettori]] liberi se:
 > $$ \|\mathbf{i}\| = \|\mathbf{j}\| = \|\mathbf{k}\| = 1\quad e \quad \mathbf{i} \perp \mathbf{j} , \mathbf{j} \perp \mathbf{k},\mathbf{i} \perp \mathbf{k} $$
 

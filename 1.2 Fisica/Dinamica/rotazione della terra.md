@@ -46,14 +46,14 @@ $$
 \end{document}
 ```
 
->[!oss]
+>[!remark]
 >il termine **centrifugo** dovuto all'accelerazione di trascinamento riduce il valore dell'accelerazione di gravità di un fattore che dipende dalla latitudine
 
->[!oss]
+>[!remark]
 >La variazione indotta dall'accelerazione di trascinamento è comunque abbastanza piccola infatti
 > $$|\vec{a}_{t}| \leq \omega^2 R_{T} \approx 3.3 \cdot 10^{-2} m \cdot s^{-2} \ll 9.81 m\cdot s^{-2} = |\vec{g}_{0}|$$
 
->[!oss]
+>[!remark]
 >Lo stesso termine centrifugo, sposta la verticale rispetto alla congiungente con il centro della Terra, nell'emisfero boreale la [[direzione]] di $\vec{g}$ punta lievemente verso sud mentre nell'emisfero australe punta lievemente verso nord.
 >Ai poli l'effetto è nullo in quanto è nullo il termine centrifugo
 
@@ -66,18 +66,18 @@ $$
 $$
 Per analizzarne gli effetti dal punto di vista qualitativo immaginiamo che la [[velocità relativa]] sia diretta verticalmente, come l'accelerazione di gravità effettiva (perturbata dall'accelerazione di trascinamento), cosa che avrebbe in assenza della [[forza]] di Coriolis. SI noti che:
 
->[!oss]
+>[!remark]
 >La forza di Coriolis ha direzione perpendicolare alla verticale, oltre che all'asse di rotazione della Terra (risulta quindi ortogonale al piano mediano passante per $P$) ed è diretta verso oriente in entrambi gli emisferi.
 >Quindi la direzione di caduta dei gravi risulta spostata verso est rispetto alla verticale.
 
->[!oss]
+>[!remark]
 >Il modulo della forza di Coriolis vale circa $F_{c} = 2m\omega v_{r}\cos(\lambda)$ (l'angolo tra i vettori $\vec{\omega}$ e $\vec{v}_{r}$ è $\pi / 2 \pm \lambda$) dove il segno $+$ vale per l'emisfero boreale ed il segno $-$ per quello australe, da cui $\sin(\pi / 2 \pm \lambda) = \cos(\lambda)$. Esso dipende oltre che dalla velocità relativa del grave anche dalla latitudine. In particolare è, a parità di altre condizioni, massimo all'equatore e nullo ai poli
 
->[!oss]
+>[!remark]
 >Per quanto riguarda il caso della Terra, la forza di Coriolis ha una grande influenza sui moti dei venti e delle correnti d'acqua, in particolare nell'emisfero boreale (*rispettivamente australe*):
 > - La sponda destra (*rispettivamente sinistra*) dei fiumi è piú erosa della sponda sinistra (*rispettivamente destra*)
 > - I cicloni ruotano in senso antiorario *(rispettivamente orario)*
 > - Gli anticicloni ruotano in senso orario *(rispettivamente antiorario)*
 
->[!oss]
+>[!remark]
 >L'origine della forza di Coriolis risiede nella differente [[velocità di trascinamento]] dei diversi punti della traiettoria del corpo

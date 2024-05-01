@@ -18,7 +18,7 @@ Abbiamo visto che dato un polinomio di secondo grado
   > 
   >>[!dim]
 
->[!oss]
+>[!remark]
 >Data una quadrica $\mathcal{2} = \left\{ \mathbf{x} \in \mathbb{R}^n: q(\mathbf{x}) = 0 \right\}$ diremo che è a centro se $r(A) = r([A|-\mathbf{b}])$
 >Infatti in questo caso la sua forma canonica è del tipo: 
 > $$ \lambda_{1}y_{1}^2 + \dots + \lambda_{r}y_{r}^2 + \hat{c} = 0\qquad \hat{c} \neq 0 $$
@@ -26,7 +26,7 @@ Abbiamo visto che dato un polinomio di secondo grado
 > La successiva rotazione $\mathbf{x} = Q\mathbf{y}$ fa si che i nuovi assi coordinati siano paralleli agli autovettori, Nelle nuove cordinate se $P = \begin{bmatrix}y_{1} & \dots & y_{n}\end{bmatrix}$ è soluzione di: $\lambda_{1}y_{1}^2 + \dots + \lambda_{r}y_{r}^2 + \hat{c} = 0$, allora anche le sue riflessione di $P$ rispetto all'asse $y_{1}$ è : $P = \begin{bmatrix}y_{1} & -y_{2} & \dots & -y_{n}\end{bmatrix}$ che sivede essere ancora soluzione di $\lambda_{1}y_{1}^2 + \dots + \lambda_{r}y_{r}^2 + \hat{c} = 0$
 > Dunque le rette che passano per un centro e hanno come direzione un autovettore di $A$ sono assi di simmetria per la quadrica
 
->[!oss]
+>[!remark]
 >Data $\mathcal{2} = \left\{ \mathbf{x} \in \mathbb{R}^n : q(\mathbf{x}) = 0 \right\}$ una quadrica diremo che non è a centro se $r(A) < r([A|-\mathbf{b}])$. In questo caso la rototraslazione che trasforma $q(\mathbf{x}) = 0$ nella sua forma canonica:
 > $$ \lambda_{1}y_{1}^2 + \dots + \lambda_{r}y_{r}^2 + 2py_{r+1} = 0$$
 > Trasforma il sottospazio affine $A\mathbf{x} = - \mathbf{b}_{\ker(A)^\perp}$ nel sottospazio: $y_{1} = \dots = y_{r} = 0$

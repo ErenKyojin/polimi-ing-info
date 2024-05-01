@@ -24,7 +24,7 @@ Essendo $\mathcal{\bar M}$ un campo dovuto alla presenza di un mezzo materiale, 
 >Inoltre il materiale magnetizzato diventa a sua volta una sorgente di campo magnetico; a seguito di questo all'interno del materiale si produrrà perciò un campo $\bar H_m$ e il campo totale prodotto sarà $\bar H = \bar H_s +\bar H_m$.
 >Inoltre dalla [[Relazioni|relazione]] di prima sappiamo che all'interno nel materiale il valore di induzione magnetica risente sia del contributo dato dalle sorgenti ($\bar H$) che del contributo della magnetizzazione del materiale ($\mathcal{\bar M}$). Se invece cerchiamo di capire cosa succeda quando consideriamo un punto che si trova al di fuori del materiale, in questo caso il valore di $\bar H$ risentirà ancora del contributo della sorgente di campo magnetico ($\bar H_s$) e dal contributo dato dal  materiale ($\bar{H}_m$). Viceversa $\mathcal {\bar M}$ sarà nullo in quanto ci troviamo fuori dal materiale.
 
->[!oss]
+>[!remark]
 >Per $\mathcal{\bar M}$ esistono materiali che si definiscono lineari, per i quali la $(1)$ si traduce in $$\bar{B} = \mu_r\mu_0\bar{H}$$
 >con $\mu_r$ permeabilità relativa del materiale. L'introduzione di questa è dovuta alla relazione $\bar{M} = \chi_m\bar{H}$ con $\chi_m$ suscettività magnetica, costante adimensionale che quantifica il grado di magnetizzazione di un materiale. Possiamo quindi scrivere
 >$$\bar{B} = \mu_{0}(\bar{H}+ \chi_{m}\bar{H})=\mu_0\underbrace{(1-\chi_m)}_{\mu_r}\bar{H}$$

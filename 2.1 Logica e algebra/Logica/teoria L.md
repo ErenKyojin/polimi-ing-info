@@ -20,7 +20,7 @@ Vogliamo a questo punto definire una teoria sostanzialmente basata sul [[Linguag
 - Nient'altro è una f.b.f.
 In realtà si accettano tra le f.b.f. formule del tipo $(\mathcal{A} \land \mathcal{B}), (\mathcal{A} \lor \mathcal{B}), (\mathcal{A} \iff \mathcal{B})$, ma tali formule vengono pensate come abbreviazioni di una formula ad esse equivalente che usi solo i connettivi $\sim$, $\implies$
 
->[!oss]
+>[!remark]
 >Al solito, se non diversamente indicato dalle parentesi, $\sim$ precede $\implies$
 
 
@@ -30,13 +30,13 @@ A2. $(\mathcal{A} \implies (\mathcal{B} \implies \mathcal{C})) \implies ((\mathc
 A3. $(\sim \mathcal{A} \implies \sim \mathcal{B}) \implies ((\sim A \implies \mathcal{B}) \implies \mathcal{A})$
 
 
->[!oss] 
+>[!remark] 
 >A1, A2, A3 non sono tre formule ma tre schemi di formule perchè al loro interno le sottoformule $\mathcal{A},\mathcal{B},\mathcal{C}$ sono qualsiasi.
 
 ### Regola di inferenza di L
 [[Modus Ponens]]. Dalle due formule $\mathcal{A}$ e $\mathcal{A} \implies \mathcal{B}$ si riscrive $\mathcal{B}$
 
->[!esempio]
+>[!example]
 >$\vdash_{L} \mathcal{A} \implies \mathcal{A}$
 >Per dimostrarlo dobbiamot rovare una dimostrazione in $L$ che finisca con la formula $\mathcal{A} \implies \mathcal{A}$ e tale che le formule della sequenza o siano assiomi o siano ricavate da formule precedenti per Modus Ponens.
 >1. $\mathcal{A} \implies (\mathcal{A} \implies \mathcal{A})$ A1; è lo schema di assiomi A1 dove $\mathcal{B}$ è sostituito con $\mathcal{A}$
@@ -46,7 +46,7 @@ A3. $(\sim \mathcal{A} \implies \sim \mathcal{B}) \implies ((\sim A \implies \ma
 >5. $\mathcal{A} \implies \mathcal{A}$ 1,4MP; applicando Modus Ponens tra le formule 1 e la 4
 > (la parte tra la formula e la descrizione del processo si chiama giustificazione)
 
->[!esempio]
+>[!example]
 >$\{ a, (\sim b \implies \sim a) \} \vdash_{L} B$
 >1. $a$ ip
 >2. $(\sim b \implies \sim a)$ ip
@@ -158,7 +158,7 @@ Se $\vdash_L a$ allora $\vDash a$
 >Per ipotesi di induzione sia $c$ che $c \implies a$ sono tautologie quindi $a$ è tautologia
 >
 >
->>[!oss]
+>>[!remark]
 >>Se $c$ tautologia e $c \implies a$ è tautologia allora $a$ è tautologia
 >>per assurdo
 >> $v ; v(a) = 0 \implies v(c) = 0$

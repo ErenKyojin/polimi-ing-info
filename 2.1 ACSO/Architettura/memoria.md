@@ -1,5 +1,5 @@
 # Memoria
->[!def] #elettronica
+>[!definition] #elettronica
 >Una memoria è una matrice di bit con indirizzi di riga e di colonna.
 
 Memoria indirizzabile al singolo byte ed è divisa in parole:
@@ -11,7 +11,7 @@ Visto che le istruzioni occupano 32 bit hanno indirizzi allineati alla parola, m
 
 ### Come assegnamo gli indirizzi ai byte?
 
->[!def] #### big endian
+>[!definition] #### big endian
 >
 >...|...|...|...|indirizzo
 >---|-|-|-|-|
@@ -27,7 +27,7 @@ Visto che le istruzioni occupano 32 bit hanno indirizzi allineati alla parola, m
 
 
 
->[!def] #### little endian
+>[!definition] #### little endian
 >
 >|...|...|...|...|indirizzo
 >---|---|---|---|---
@@ -106,7 +106,7 @@ Area dati e area testo vengono dichiarate tramite direttive all'assemblatore:
 >>;la stack non va dichiarata
 >>```
 
->[!oss]
+>[!remark]
 >Ricordiamo che le variabili all'interno della CPU sono nei [[registro|registri]], le variabili esterne alla CPU sono nella memoria.
 
 ## Dimensioni [[variabili]]
@@ -157,14 +157,14 @@ Per le linee di dato e gli ingressi di indirizzo vanno rispettati i tempi di set
 
 >[!multi-column]
 >
->>[!esempio] Ciclo di lettura
+>>[!example] Ciclo di lettura
 >> - Indirizzo della parola da leggere
 >> - Comando di lettura (WE = 0)
 >> - Non isolare le uscite dati (OE = 1)
 >> - Abilitare il componente (CS = 1)
 >> - Conenuto della parola disponibile sulle uscite con ritardo di lettura $8/20$ ns
 >
->>[!esempio] Ciclo di scrittura
+>>[!example] Ciclo di scrittura
 >>- indirizzo della parola da scrivere
 >>- dato da scrivere in ingresso
 >>- comando di scrittura (WE = 1)
@@ -202,7 +202,7 @@ Simile alla dram, ma persistente
 # Interferenza tra [[Gestione della memoria fisica]] e [[scheduler|scheduling]]
 L'allocazione e la deallocazione della memoria interferisce con i meccanismi di scheduling
 
->[!esempio]
+>[!example]
 >Supponiamo che Q a bassa priorità consumi molta memoria e sia funzione di un processo P molto interattivo
 >
 >Può succedere che mentre P è in attesa Q carichi tutte le sua pagine forzando fuori memoria quelle di P, quando P si risveglia entra rapidamente in esecuzione ma perderà tempo ad accedere ai dati su disc

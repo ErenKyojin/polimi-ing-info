@@ -3,14 +3,14 @@ aliases: laterale destro, laterale sinistro
 creation date: 2023-12-06
 ---
 
->[!def]
+>[!definition]
 >$\left< A, \cdot \right>$ [[gruppo]], $H \subseteq A$. Consideriamo $a \in A$, si definisce **laterale destro** di $H$ in $A$ il seguente insieme:
 >$$Ha = \{ ha : h \in H \}$$
 >In modo analogo si definisce il **laterale sinsitro** di $H$ in $A$
 >$$ aH = \{ ah : h \in H \} $$
 
 
->[!oss]
+>[!remark]
 >In generale il laterale destro e sinsitro non coincidono
 
 
@@ -58,14 +58,14 @@ $\implies |A| = \ldots =|H| + |H| + |H| + |H| + \ldots + |H| = r |H|$
 
 ***
 
-> [!def]
+> [!definition]
 > $\left< A, \cdot \right>$ gruppo
 > Un sottogruppo $H$ di $A$ è detto **normale** in A, $H \vartriangleleft A$, se $\forall a \in A, \forall h \in H$ si ha $a^{-1}\cdot h\cdot a \in H$
 
->[!oss]
+>[!remark]
 >caso particolare, se $\left< A, \cdot \right>$ è [[gruppo abeliano]] tutti i sottogruppi sono normali
 
->[!oss]
+>[!remark]
 >Se $\left< A, \cdot \right>$ gruppo, $H \subseteq A$
 >$\forall a \in A, aH = Ha \iff H \vartriangleleft A$
 >$a\bar{h}  = h'a$
@@ -109,7 +109,7 @@ $\rho_{a} = Na$
 >È una congruenza le cui classi di equivalenza sono tutti e soli i laterali di $N$ in $A$
 
 
-> [!esempio]
+> [!example]
 > Dato $Q_{8} =\{ 1,-1,i,-i,j,-j,k,-k \}$ [[quaternoni]], si mostri che $H = \{ 1,-1 \}$ è un sottogruppo normale di $Q_{8}$ e si costruisca il gruppo quoziente $Q_{8} / H$
 > H chiuso rispetto al prodotto ($-1 \cdot 1 = -1, -1 \cdot -1 = 1, 1 \cdot 1 = 1$) quindi sottogruppo
 > 

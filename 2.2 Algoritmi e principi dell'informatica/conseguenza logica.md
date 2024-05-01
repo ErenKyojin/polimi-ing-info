@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >$B$ è conseguenza logica di $\mathcal{A} (\mathcal{A \vDash B)}$ se ogni modello di $\mathcal{A}$ è modello di $\mathcal{B}$
 
 

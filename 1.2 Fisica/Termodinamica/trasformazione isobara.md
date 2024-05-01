@@ -5,7 +5,7 @@ modification date: 2023-07-07 09:14
 ---
 
 
-> [!def] 
+> [!definition] 
 > Si definisce trasformazione isobara una [[trasformazioni termodinamiche|trasformazione termodinamica]] che mantiene la pressione costante
 
 ### Lavoro in una trasformazione isobara reversibile

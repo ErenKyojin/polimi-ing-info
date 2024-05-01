@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-> [!def]
+> [!definition]
 > Un confine viene detto adiabatico se i due sistemi a contatto non interagiscono
 
 # ANKI

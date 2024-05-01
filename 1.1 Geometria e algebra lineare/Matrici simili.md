@@ -1,15 +1,15 @@
->[!def]
+>[!definition]
 >$A,B \in M_{\mathbb{K}}(n,n)$ si dice che $B$ è simile ad $A$ se esiste $P \in M_{\mathbb{K}(n,n)}$ invertibile tale che
 > $$ B = P^{-1}AP $$
 
->[!oss]
+>[!remark]
 >$A$ è [[diagonalizzabilità|diagonalizzabile]] se e solo se è simile ad una [[matrice]] diagonale
 
->[!oss]
+>[!remark]
 >$B$ rappresenta la **stessa** [[Applicazioni lineari|applicazione lineare]] di $A$ rispetto ad una base diversa. $P$ è la matrice di cambio di base. Inoltre se $V$ è spazio vettoriale su $\mathbb{K}$, $\mathcal{L} : V \to V$ è endomorfismo, $\mathcal{B}$ e $\mathcal{C}$ basi su $V$ allora $M_{\mathcal{B}}^{\mathcal{B}}(\mathcal{L})$ è simile a $M_{\mathcal{C}}^{\mathcal{C}}(\mathcal{L})$.
 >Infatti: $\underbrace{ M_{\mathcal{C}}^\mathcal{C}(\mathcal{L}) }_{ B } = \underbrace{ M_{\mathcal{C}}^{\mathcal{B}}(id_{V}) }_{ P^{-1} }\underbrace{ M_{\mathcal{B}}^\mathcal{B}(\mathcal{L}) }_{ A } \underbrace{ M_{\mathcal{B}}^\mathcal{B}(id_{V}) }_{ P }$
 
->[!proposizione]
+>[!proposition]
 >La similitudine è una [[relazione di equivalenza]] nell'[[insieme]] delle matrici $M_{\mathbb{K}}(n,n)$
 >>[!dim]
 >>- **Proprietà riflessiva**: ogni matrice $A \in M_{\mathbb{K}(n,n)}$ è simile a se stessa. Infatti
@@ -26,7 +26,7 @@
 
 Abbiamo peró un problema, visto che due matrici simili rappresentano la stessa applicazione lineare rispetto a due basi diverse. Cosa altro hanno in comune?
 
->[!proposizione]
+>[!proposition]
 >Siano $A$ e $B$ in $M_{\mathbb{K}(n,n)}$ matrici simili, allora:
 >1. le due matrici hanno lo stesso polinomio caratteristico, la stessa traccia, lo stesso [[determinante]] e gli stessi autovalori con la stessa molteplicità algebrica
 >2. Le due matrici hanno lo stesso [[rango]]
@@ -53,18 +53,18 @@ Abbiamo peró un problema, visto che due matrici simili rappresentano la stessa 
 >>\end{align}$$è isomorfismo. Quindi $m_{g}^B(\lambda) = \dim(V_{\lambda}') = m_{g}^A(\lambda)$
 >> $\CVD$
 
->[!oss]
+>[!remark]
 >Sia $A \in M_{\mathbb{K}(n,n)}$ se $\lambda$ è autovalore di $A$ allora $\lambda^m$ è autovalore di $A^m$. Infatti se $\lambda$ è un autovalore di $A$ allora esiste $\mathbf{v} \in \mathbb{K}^n$ e $\mathbf{v} \neq 0$ tale che $A \mathbf{v} = \lambda \mathbf{v}$. Si ha che $$A^m \mathbf{v} = A^{m-1}(A\mathbf{v})= \lambda A^{m-1}\mathbf{v} = \ldots = \lambda^m\mathbf{v} $$ 
 >Se $A$ è invertibile e $\lambda$ è autovalore di $A$ allora $\lambda^{-1}$ è autovalore di $A^{-1}$. Infatti: $A\mathbf{v} = \lambda \mathbf{v} \implies A^{-1}(A\mathbf{v}) = A^{-1}(\lambda \mathbf{v}) \implies \mathbf{v}=\lambda A^{-1}\mathbf{v} \implies A^{-1}\mathbf{v} = \frac{1}{\lambda}\mathbf{v}$
 
->[!oss]
+>[!remark]
 >Se $A \in M_{\mathbb{K}(n,n)}$ è invertibile allora $A^{-m} =( A ^{-1})^{m}$
 
->[!oss]
+>[!remark]
 >$A$ è diagonalizzabile e $B$ è simile ad $A$ allora $B$ è diagonalizzabile. Infatti se $A$ è diagonalizzabile allora $A$ è simile a $\diag(\lambda_{1},\dots,\lambda_{n})$. Essendo $A$ simile a $B$, per la proprietà transitiva è simile a $B$ e quindi $B$ è diagonalizzabile. Inoltre se $A$ è diagonalizzabile e $B$ non è diagonalizzabile allora $A$ non puó essere simile a $B$ perchè altrimenti $B$ sarebbe diagonalizzabile
 >
 
->[!proposizione]
+>[!proposition]
 >$A$ e $B$ in $M_{\mathbb{K}(n,n)}$ diagonalizzabili, allora $A$ e $B$ sono simili se e solo se hanno lo stesso polinomio caratteristico
 >
 >>[!dim]
@@ -77,7 +77,7 @@ Abbiamo peró un problema, visto che due matrici simili rappresentano la stessa 
 >>$\CVD$
 
 
->[!oss]
+>[!remark]
 >In generale se due matrici hanno lo stesso polinomio caratteristico ma non sono diagonalizzabili allora non è detto che siano simili. Ad esempio:
 > $$ A = \begin{bmatrix}
 >1 & 0 \\
@@ -88,13 +88,13 @@ Abbiamo peró un problema, visto che due matrici simili rappresentano la stessa 
 \end{bmatrix}, p_{B}(\lambda) = (\lambda-1)^2$$
 >ma $A$ non è simile a $B$ perchè $m_{g}^{A}(1) = 2 \neq 1 = m_{g}^B(1)$
 
->[!oss]
+>[!remark]
 >In generale se $A$ e $B$ non sono diagonalizzabili non abbiamo dato condizione necessarie e sufficienti affinchè le due matrici siano simili. Tale problema viene affrontato e risolto dalla teoria di Jordan (non trattata qui). Tuttavia alcune matrici, dette blocchi di Jordan, sono introducibili e definite nel seguente modo:
 >
->>[!def]
+>>[!definition]
 >>Una blocco di jordan è una matrice $m\times m$ in cui sulla diagonale principale troviamo un valore $\lambda \in \mathbb{K}$ e sulle diagonali sopra a quella principale troviamo il valore $1$, in tutte le altre posizioni il valore è $0$
 >
->>[!esempio]
+>>[!example]
 >> $$ J_{m}(\lambda) = \begin{bmatrix}
 >>\lambda & 1 & 0 & \dots & 0 \\
 >>0 & \lambda & 1 & \ddots &\vdots \\

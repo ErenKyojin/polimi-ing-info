@@ -13,7 +13,7 @@ con $M = \displaystyle\sum_{i = 1}^n m_{i}$ massa totale del sistema
 Nota la risultante delle [[forze esterne]], senza bisogno di conoscere le singole interazioni interne ed esterne, possiamo ricavare il [[moto]] del CM grazia alla prima equazione cardinale. Infatti, se deriviamo l'equazione che definisce il vettore posizione del centro di massa rispetto al tempo otteniamo:
 $$ \vec{v}_{CM} \equiv \frac{d\vec{r}_{CM}}{dt} = \frac{\sum_{i = 1}^n m_{i}\vec{v}_{i}}{M} = \frac{\sum_{i = 1}^{n}\vec{p}_{i}}{M} = \frac{\vec{p}}{M} \implies \vec{p} = M \cdot \vec{v}_{CM}  $$
 
->[!oss]
+>[!remark]
 >La [[Quantità di moto]] totale è pari al prodotto della massa totale per la velocità del centro di massa.
 >Derivando ancora rispetto al tempo e tenendo conto della prima equazione cardinale si ottiene:
 > $$ \vec{F}^{(E)} = \frac{d\vec{p}}{dt} = M \cdot \vec{a}_{CM}  $$
@@ -23,11 +23,11 @@ Possiamo quindi enunciare il seguente
 >[!theorem] Teorema del centro di massa
 >In un sistema di riferimento inerziale, il centro di massa di un sistema di punti materiali si muove come un punto materiale di massa pari alla massa totale del sistema e soggetto alla risultante delle forze esterne applicate al sistema
 
->[!oss]
+>[!remark]
 >L'utilità del CM si comprende immediatamente alla luce del suddetto teorema, infatti il moto del CM, al contrario del moto dell'$i$-esimo punto del sistema, dipende solo dalla risultante delle forze esterne, non dalla configurazione di tali forze e neppure dalle forze interne.
 >Tale moto fornisce tuttavia solo delle informazioni medie sul sistema
 
->[!oss]
+>[!remark]
 >Dal teorema del centro di massa discende immediatamente un'importante proprietà: se il sistema è isolato le forze esterne sono nulle e quindi il CM si muove di moto rettilineo uniforme oppure è in quiete in un sistema di riferimento inerziale.
 
 # ANKI

@@ -13,7 +13,7 @@ Questo problema in [[RISC-V]] non esiste, in primis la [[memoria]] istruzioni è
 
 Se le istruzioni nella pipeline hanno dipendenze sui dati possono nascere problemi di conflitto sui dati.
 
->[!esempio]
+>[!example]
 >Vediamo questo esempio dove abbiamo più dati che dipendono dal risultato nel registro $x2$
 >
 >```armasm
@@ -116,7 +116,7 @@ Per implementarlo a livello hardware dobbiamo:
 ### Forwarding
 Sistema in runtime più efficiente, osserviamo il caso esempio in cui abbiamo due [[istruzioni#Formato R]] di seguito e dipendenti:
 
->[!esempio]
+>[!example]
 >Consideriamo le due istruzioni:
 >```armasm
 >add s0, t0, t1
@@ -165,7 +165,7 @@ Con la pipeline attuale abbiamo due opzioni:
 * #### via hardware:
 	3 stalli di stadio IF
 
->[!esempio]-
+>[!example]-
 >![[Pasted image 20221027142619.png]]
 
 
@@ -195,7 +195,7 @@ Il PC e l'offset sono disponibili già dal primo interstadio IF/ID, quindi possi
 #### Anticipazione condizione sul salto
 Necessario confrontare il contenuto dei registri letto nello stadio ID attraverso uno [[XNOR]] bit a bit nello stadio ID
 
->[!oss] Pipeline ottimizzata
+>[!remark] Pipeline ottimizzata
 >![[Pasted image 20221027153545.png]]
 
 

@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >Strumenti supportati dall'[[information technology]] (IT) e composti da:
 >- applicazioni software
 >- sistemi di gestione dati

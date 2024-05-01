@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-13
 ---
 
->[!def]
+>[!definition]
 >Dato uno schema di base di dati $\mathbf{R}$, un'interrogazione è una funzione tale che $\forall \mathbf{r}$ istanza di $\mathbf{R}$, produce una relazione su un insieme di attributi $X$.
 
 

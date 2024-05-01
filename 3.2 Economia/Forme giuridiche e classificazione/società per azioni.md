@@ -3,12 +3,12 @@ aliases: s.p.a.
 creation date: 2024-02-23
 ---
 
->[!def]
+>[!definition]
 >**Società per azioni (S.p.a.)** il patrimonio sociale è costituito da azioni, le azioni sono quote di partecipazione liberamente trasferibili ed è quindi possibile la quotazione in borsa. Vi è un capitale minimo di 50'000€
 
 ^810c66
 
->[!def]
+>[!definition]
 >**Società in accomandita per azioni (s.a.p.a.)** distinzione tra accomandatari e accomandanti
 
 

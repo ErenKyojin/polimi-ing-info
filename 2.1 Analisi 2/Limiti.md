@@ -1,6 +1,6 @@
 # Limiti per funzioni di due variabili
 
->[!def]
+>[!definition]
 >$A \subseteq \mathbb{R}^2$ una funzione di due variabili a valori reali $f:A \to \mathbb{R}$ è una relazione che associa ad $(x,y) \in A$ un unico valore reale
 > $$ \begin{align}
 >f : A \subseteq \mathbb{R}^2 &\to \mathbb{R} \\
@@ -13,19 +13,19 @@ $$ grafico(f) = \{(x,y,z) \in \mathbb{R}^3 : (x,y) \in A, z = f(x)\} \subseteq \
 Per ogni $k \in \mathbb{R}$ l'insieme di livello di $f$ al livello $k$ 
 $$ I_{k} = \{(x,y) \in A \subseteq \mathbb{R}^2 : f(x,y) = k\} $$
 
->[!def] Definizione di limite
+>[!definition] Definizione di limite
 >Ripasso limiti 1 variabile:
 >$$\begin{align}
 >|x-x_{0}| < \delta &\iff (x_{0}- \delta; x_{0} + \delta) \\
 >0 < | x - x_{0}| < \delta &\iff (x_{0}-\delta,x_{0}+\delta) \setminus \{x_{0}\} 
 >\end{align}$$
 
->[!esempio]
+>[!example]
 >$f(x,y) = \frac{x^2-y^2}{x^2+y^2}\qquad dominio(f) = \mathbb{R}^2 \setminus \{(0,0)\}$
 > $$ \lim_{ (x,y) \to (0,0) }  \frac{x^2 - y^2}{x^2 + y^2} $$
 
 
->[!def] 
+>[!definition] 
 >siano $A \subseteq \mathbb{R}^2$ aperto,$\mathbf{x}_{0} \in A$
 > $$ f : A \setminus {\mathbf{x}_{0}} \to \mathbb{R} $$
 > diciamo che $f$ tende al limite $l \in \mathbb{R}$ per $\mathbf{x}$ che tende a $\mathbf{x}_{0}$ e scriviamo
@@ -34,11 +34,11 @@ $$ I_{k} = \{(x,y) \in A \subseteq \mathbb{R}^2 : f(x,y) = k\} $$
 >  $$ \mathbf{x} \in B_{\delta} (\mathbf{x}_{0}) \setminus \{\mathbf{x}_{0}\}\qquad \text{ allora }\quad \mid f(x) - l\mid < \varepsilon$$
 
 
->[!oss] parafrasando
+>[!remark] parafrasando
 >Per ogni $\varepsilon > 0$ esiste una palletta $B_{\delta}$  contenuta nel piano $x,y$ avente la proprietà che l'immagina tramite $f$ di $B_{\delta}(\mathbf{x}_{0}) \setminus \{\mathbf{x}_{0}\}$ si trova a distanza inferiore a $\varepsilon$ dal numero $l$
 
 
->[!oss]
+>[!remark]
 >
 >$$\begin{align}
 \mathbf{x} \in B_{\delta}(x_{0}) \setminus \{\mathbf{x}_{0}\} &\iff 0 < dist(\mathbf{x, >\mathbf{x_{0}}}) < \delta \\
@@ -47,12 +47,12 @@ $$ I_{k} = \{(x,y) \in A \subseteq \mathbb{R}^2 : f(x,y) = k\} $$
 Si esclude il punto $\mathbf{x}_{0}$ nel quale $f$ potrebbe non essere definita
 
 ## non esistenza di un limite
->[!oss]
+>[!remark]
 Per stabilire che un limite $2D$
  $$ \lim_{ \mathbf{x} \to \mathbf{x_{0}} }f(x)  $$ non esiste è sufficiente esibire due cammini che arrivino in $\mathbf{x_{0}}$ tale che i limiti $1D$ lungo i due cammini siano diversi. Questi cammini possono essere rette o altre curve.
 
 # Calcolo dei limiti con coordinate polari
->[!esempio]
+>[!example]
 >$$ \lim_{ (x,y) \to (0,0) } \frac{ax^2+y}{x^2+y^2}  $$
 >
 >1. Calcolo i limiti 1D lungo gli assi
@@ -77,11 +77,11 @@ Per stabilire che un limite $2D$
 >$$ \lim_{ (x,y) \to 0 } \frac{2x^2y}{x^2+y^2} = 0$$
 
 
->[!oss]
+>[!remark]
 >Se dobbiamo calcolare il limite in un punto $\mathbf{x}_{0} = (x_{0},y_{0})$ diverso dall'origine vanno utilizzate le [[coordinate polari]] centrate intorno ad $\mathbf{x}_{0}$
 
 
->[!oss]
+>[!remark]
 >Se non si tratta di un quoziente di polinomi può essere necessario utilizzare i limiti notevoli di analisi 1 in uno "step 0"
 >
 >>[!warning]

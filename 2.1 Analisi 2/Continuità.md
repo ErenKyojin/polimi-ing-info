@@ -1,10 +1,10 @@
->[!def]
+>[!definition]
 >$A \subseteq \mathbb{R}^2$ aperto, $\mathbf{x_{0}} \in A, f : A \to \mathbb{R}$ diciamo che $f$ è continua in $\mathbf{x_{0}}$ se 
 >$$ \lim_{ \mathbf{x} \to \mathbf{x_{0}} } f(\mathbf{x}) = f(\mathbf{x}_{0}) $$
 >$f$ è continua in $A$ se è continua in $\mathbf{x}_{0}\ \forall\ \mathbf{x}_{0} \in A$ 
 
 
->[!oss]
+>[!remark]
 >Tutte le [[Funzioni]] elementari sono continue sul loro dominio di definizione $\implies$ dovremo verificare la continuità per definizione solo tramite le funzioni definite per casi
 
 

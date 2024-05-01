@@ -106,7 +106,7 @@ $$ |\mathbf{u} \cdot(\mathbf{v} \times \mathbf{w})| = \overset{\text{altezza}}{(
 \end{document}
 ```
 
->[!oss]
+>[!remark]
 >Consideriamo tre vettori liberi $\mathbf{u},\mathbf{v},\mathbf{w}$ alolra il loro prodotto misto è nullo se e solo se i tre vettori sono [[Dipendenza e indipendenza lineare|linearmente dipendenti]]. Se $\mathbf{v} \times \mathbf{w} \neq 0$ e $\mathbf{u} \cdot (\mathbf{v} \times \mathbf{w}) = 0$ allora $\mathbf{u}$ è combinazione lineare di $\mathbf{v}$ e $\mathbf{w}$. Se $r_{1}$ è la retta passante per $P$ e diretta come $\mathbf{v}$ e $r_{2}$ è la retta passante per $Q$ e diretta come $\mathbf{w}$, posto $\mathbf{u} = P -Q$ allora:
 >1. $r_{1}$ è parallela a $r_{2}$ se $\mathbf{v} \times \mathbf{w} = \mathbf{0}$ ($\implies \mathbf{v} = k\mathbf{w}$ dove $k \in \mathbb{R}$)
 >2. $r_{1}$ è ortogonale a $r_{2}$ se $\mathbf{v}\mathbf{w} = 0$

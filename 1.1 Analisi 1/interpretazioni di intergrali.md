@@ -7,7 +7,7 @@ $$
 $$
 Più preisamente, è l'integrale che costituisce un definizione precisa dell'area del trapezoide individuato da una curva $y = f(x)$ e non viceversa. Quindi è il calcolo infinitesimale che ci permette di dare senso all'area di una figura piana generica. Se $f$ dovesse cambiare segno l'integrale rappresenta una somma di aree con segno, ad esempio
 
->[!esempio]
+>[!example]
 >```desmos-graph
 >top = 4; left = -1.5; bottom = -4; right = 7.5;
 >---

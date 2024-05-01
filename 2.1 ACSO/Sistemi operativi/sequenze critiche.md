@@ -12,7 +12,7 @@ Sequenza critica, ossia sequenze di istruzioni eseguite dai thread paralleli che
 Eseguiamo quindi la sequenza tra i vari thread in modo che
 - Se un qualsiasi thread comincia l'esecuzione della sequenza tutta la sequenza viene eseguita dal thread prima di essere eseguita da qualsiasi altro thread
 
->[!esempio]
+>[!example]
 >Dati due conti bancari `contoA` e `contoB` vogliamo realizzare una funzione `trasferisci` che prelevi da `contoB` e depositi sul `contoA`, la somma dei due conti dovrà essere invariata (proprietà #invariante)
 >1. `contoA` nella variabile locale `cA`
 >2. `contoB` nella variabile locale `cB`

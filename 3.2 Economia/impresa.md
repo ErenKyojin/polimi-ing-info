@@ -1,4 +1,4 @@
-> [!def] definizione legale
+> [!definition] definizione legale
 > Attività economica organizzata svolta professionalmente al fine della produzione o dello scambio di beni o di servizi 
 
 Un impresa affinchè sia un attività deve essere
@@ -9,7 +9,7 @@ Un impresa affinchè sia un attività deve essere
 	- Lo svolgimento inoltre può esere delegato
 - Organizzata (deve avere una struttura organizzativa per la gestione delle [[risorse]])
 
->[!oss] differenza tra impresa, [[società]], [[azienda]], [[ditta]]
+>[!remark] differenza tra impresa, [[società]], [[azienda]], [[ditta]]
 > - Società è un impresa che richiede più persone
 > - Azienda è l'insieme dei beni disponibili all'impresa
 > - Ditta è il nome, univoco e registrato, utilizzabile solo dall'impresa

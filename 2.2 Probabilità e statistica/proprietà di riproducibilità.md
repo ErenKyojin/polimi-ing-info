@@ -4,7 +4,7 @@ creation date: 2023-03-22 09:11
 modification date: 2023-03-22 09:11
 ---
 
->[!def]
+>[!definition]
 >Una famiglia di variabili aleatorie ha probaprietà di riproducibilità se la somma $X_{1} + X_{2}$ di due variabili aleatorie $X_{1},X_{2}$ indipendenti di quella famiglia è uguale all
 
 
@@ -32,4 +32,4 @@ applichiamo a qualche modello notevole
 
 
 
->[!def]
+>[!definition]

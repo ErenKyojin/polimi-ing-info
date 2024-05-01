@@ -5,10 +5,10 @@ modification date: 2023-07-07 09:14
 ---
 
 
-> [!def]
+> [!definition]
 >Una fbf $a$ è vera in un interpretazione se ogni assegnamento di valori alle variabili la soddisfa
 
->[!def]
+>[!definition]
 >Una fbf $a$ è logicamente valida se è vera in ogni interpretazione
 
 # ANKI

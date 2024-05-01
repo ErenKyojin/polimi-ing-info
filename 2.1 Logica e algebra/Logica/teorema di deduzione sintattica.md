@@ -10,7 +10,7 @@ modification date: 2023-05-07 13:05
 
 Il teorema di deduzione sintattica è uno strumento molto utile nel cercare di stabilire se una formula è conseguenza sintattica di altre.
 
->[!esempio]
+>[!example]
 >Provare che $\mathcal{A} \implies \mathcal{B} \vdash_{L} (\mathcal{B} \implies \mathcal{C}) \implies (\mathcal{A} \implies \mathcal{C})$
 >Per il teorema di deduzione sintattica $\mathcal{A} \implies \mathcal{B} \vdash_{L} (\mathcal{B} \implies \mathcal{C}) \implies (\mathcal{A} \implies \mathcal{C})$ se e solo se $\mathcal{A} \implies \mathcal{B}$, $\mathcal{B} \implies \mathcal{C} \vdash_{L} \mathcal{A} \implies \mathcal{C}$; ma ancora per il teorema di deduzione sintattica $\mathcal{A} \implies \mathcal{B}$, $\mathcal{B} \implies \mathcal{C}$,$\mathcal{B} \implies \mathcal{C}$, $\mathcal{A} \vdash_{L} \mathcal{C}$.
 >Quest'ultima deduzione risulta molto semplice, infatti possiamo scrivere

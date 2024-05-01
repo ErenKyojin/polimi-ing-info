@@ -29,7 +29,7 @@ Impegno irrevocabili a tenere un certo comportamento.
 - Patrimonio netto
 
 
->[!def]
+>[!definition]
 >Identità fondamentale:
 >Totale attività = Totale passività + patrimonio netto
 

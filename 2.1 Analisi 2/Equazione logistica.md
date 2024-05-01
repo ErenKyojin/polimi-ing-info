@@ -28,6 +28,6 @@ axis x line = center,
 ```
 Che in effetti approssima bene inizialmente l'andamento epidemiologico, tuttavia non prende in considerazione la mancanza di risorse, per questo si utilizza l'equazione logistica
 
->[!def] Equazione logistica
+>[!definition] Equazione logistica
 >$$ y'(t) = ky(t) - hy(t)^2 $$
 >Con il secondo termine $hy(t)^2$ che caratterizza la competizione, ha coe soluzioni $\frac{h}{k}$ costante 

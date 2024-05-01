@@ -1,3 +1,3 @@
->[!esempio]
+>[!example]
 
 

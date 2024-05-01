@@ -1,10 +1,10 @@
->[!def]
+>[!definition]
 >Sia $V$ [[spazio vettoriale]] su $\mathbb{K}$, diciamo che $\mathbf{v}$ è **combinazione lineare** di $\mathbf{v}_{1},\dots,\mathbf{v}_{d} \in V$ se esistono $t_{1}, \dots, t_{d} \in \mathbb{K} t.c.$ 
 >$$\mathbf{v} = t_{1}\mathbf{v}_{1} + \dots + t_{d}\mathbf{v}_{d}$$
 >Gli scalari $t_{1},\dots,t_{d}$ sono i coefficienti della combinazione lineare
 
 
->[!esempio] esempi
+>[!example] esempi
 >1.
 >Il vettore $[3\quad 1\quad 1]^T \in \mathbb{R}^3$ è combinazione lineare di $[1\quad 1/2\quad 0]^T$ e di $[1\quad 0\quad 0]^T$, infatti:
 > $$ \begin{bmatrix}

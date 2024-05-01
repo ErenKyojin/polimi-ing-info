@@ -13,7 +13,7 @@ Inoltre un'impresa può avere **obiettivi intermedi**, strumentali alla sharehol
 
 Sorge un problema, un impresa deve **solo ed unicamente** concentrarsi per generare valore economico a discapito dei dipendenti o di ideali positivi? Oppure deve perseguire l'obiettivo economico lavorando contemporaneamente per temi positivi? O ancora, il benessere economico deve essere posto in secondo piano rispetto a temi come quello ambientale o sociale?
 
->[!esempio] dieselgate
+>[!example] dieselgate
 >Con il dieselgate si intende lo scandalo, venuto a galla nel 2015, che ha visto Volkswagen falsificare tramite software i test di emissioni affinchè sembrassero più bassi, questo ha fatto perdere nel giro di pochi giorni il 30% del valore azionario. 
 
 # ANKI

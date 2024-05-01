@@ -10,7 +10,7 @@ In questo caso $f(0)$ non esiste, inoltre il limite destro e sinistro non coinci
 Y = \frac{x}{|x|}
 ```
 
->[!def]
+>[!definition]
 >Si dice che c'è un punto di discontinuità a salto per $f(x)$ quando i limiti destro e sinistro in $c$ esistono finiti, ma diversi tra loro. Il salto è costituito dalla differenza dei limiti e precisamente
 >$$\text{salto in } c = \lim_{x\to c^+}f(x)-\lim_{x\to c^-}f(x)$$
 >Se uno dei due limiti coincide effettivamente con $f(c)$ si dice che $f$ è continua da destra o da sinistra.

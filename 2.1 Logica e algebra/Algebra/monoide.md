@@ -3,7 +3,7 @@ aliases:
 creation date: 2023-11-29
 ---
 
-> [!def]
+> [!definition]
 > Monoide è un semigruppo $\left< A, \cdot \right>$ dotato di elemento neutro rispetto all'operazione binaria
 
 
@@ -15,7 +15,7 @@ Il monoide è essenzialmente una struttura algebrica con due operazione
 - binaria associativa
 - 0-aria (attraverso l'elemento neutro, associa ad ogni elemento b un elemento e che lega $\cdot$ dalla relazione $a \cdot e = e \cdot a = a$ per qualsiasi $a$ nel sostegno).
 
->[!oss]
+>[!remark]
 >per questo motivo i monoidi si indicano solitamente con $\left< A, \cdot, e \right>$ per risaltare l'operazione di arità 0
 
 

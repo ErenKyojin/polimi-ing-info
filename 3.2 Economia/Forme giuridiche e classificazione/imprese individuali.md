@@ -3,13 +3,13 @@ aliases: impresa individuale
 creation date: 2024-02-23
 ---
 
->[!def]
+>[!definition]
 >Le **Imprese individuali** sono imprese costituite da un'unica persona, detta anche "partita IVA"
 ^92680b
 
 Non vi è distinzione tra persona fisica e persona giuridica, il titolare è unico ed è illimitatamente responsabile delle obbligazioni dell'impresa con tutto il patrimonio personale.
 
->[!esempio]
+>[!example]
 >Esempi di **imprese individuali**
 >- commercialista
 >- Ingegnere

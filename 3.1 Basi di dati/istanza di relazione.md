@@ -14,7 +14,7 @@ Le relazioni con cui lavoriamo in un [[DBMS]] tendono ad avere qualche specifici
 
 Inoltre una relazione matematica $n$-aria distingue gli $n$ domini unicamente attraverso la loro posizione, questo è scomodo in informatica, dove preferiremmo poter distinguere gli $n$ domini attraverso nomi identificativi, ad esempio:
 
-> [!esempio]
+> [!example]
 > Data la seguente tabella, che descrive uno studente, l'ultimo voto ricevuto e la media, questa di fatto descrive una relazione matematica, ma è di difficile leggibilità.
 > 
 > | Alice        | 28  | 25   |
@@ -32,11 +32,11 @@ Inoltre una relazione matematica $n$-aria distingue gli $n$ domini unicamente at
 
 Ed in effetti, le tabelle per il modello relazionale sfruttano la definizione di attributi per indicare i vari domini.
 
->[!def]
+>[!definition]
 >Sia $\mathcal{D}$ l'insieme dei domini, sia $\text{dom} : X \to \mathcal{D}$ funzione che associa ad ogni attributo $x \in X$ un dominio. Una relazione su $X$ è l'insieme di  [[tupla|tuple]] su $X$
 
 o, attraverso le definizioni date rispetto alle basi di dati
->[!def]
+>[!definition]
 >Una **relazione** o **istanza di relazione** su uno [[schema di relazione]] $R(X)$ è un insieme di tuple $r$ su $X$.
 >Si indica con la notazione $r(X)$
 
@@ -44,7 +44,7 @@ o, attraverso le definizioni date rispetto alle basi di dati
 
 Una base di dati è molto raramente costituita da una sola relazione, e quando la relazione è più di una, i riferimenti fra le diverse relazioni vengono rappresentati per mezzo di valori dei domini
 
->[!esempio]
+>[!example]
 >Si consideri la seguente base di dati, che descrive una rete LAN.
 >
 > | ID  | utente  | password |

@@ -4,7 +4,7 @@ creation date: 2023-05-09 19:19
 modification date: 2023-05-09 19:19
 ---
 
->[!def]  [[Linguaggio]] del primo ordine
+>[!definition]  [[Linguaggio]] del primo ordine
 >Per ovviare alle carenze espressive della [[Logica proposizionale]] introduciamo il linguaggio del primo ordine, con alfabeto composto da:
 > - Costanti: $a,b, \dots$ (al più un infinità numerabile e quindi spesso indicate con $a_{i}$)
 > - Variabili: $x,y, \dots$ (al più un infinità numerabile e quindi spesso indicate con $x_{i}$)
@@ -18,7 +18,7 @@ modification date: 2023-05-09 19:19
 
 Attraverso questi simboli possiamo definire i [[termini]], e attraverso lettere predicative e termini possiamo costruire delle frasi che giocano il ruolo di lettere enunciative, ossia mattoni costruittivi di frasi più complesse, dette le [[formule atomiche]],  infine definiamo ricorsivamente le [[formule ben formate#Nel linguaggio del primo ordine|formule ben formate nel linguaggio del primo ordine]]
 
->[!esempio]
+>[!example]
 >Sia $L$ un linguaggio del primo ordine, contenente le costanti $a,b,c$; le variabili $x,y$; le lettere funzionali $f_{1}^1,f_{1}^2,f_{2}^1$ e le lettere predicative $\mathcal{A}_{1}^2,\mathcal{A}_{2}^2$, le sequenze $a, x, f_{2}^2 (a,x), f_{1}^2(x,f_{2}^2(a,x)),f_{1}^1(f_{1}^2(x,f_{2}^2(a,x)))$ sono tutti [[termini]], infatti $a$ è una costante, $x$ è una variabile, $f_{2}^2(a,x)$ ed $f_{1}^2(x,f_{2}^2(a,x))$ sono formati da una lettera funzionale di apice 2 applicata a due termini, $f_{1}^1(f_{1}^2(x,f_{2}^2(a,x)))$ è una lettera funzionale di apice 1 applicata ad un termine. Invece $f_{1}^1(f_{1}^2(x,f_{2}^2(a,x)),b)$ non è un termine in quanto la lettera funzionale $f_{1}^1$ che ha come apice $1$ è applicata a due argomenti: $f_{1}^2(x,f_{2}^2(a,x))$ e $b$.
 >$\mathcal{A}_{2}^2(a,b),\mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b)$ sono formule atomiche e quindi f.b.f. essendo costituite da lettera predicativa di apice 2 applicta a due termini.
 >Anche $((\mathcal{A}_{2}^2(a,b)) \implies (\forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b))))$ è una f.b.f, infatti $(\mathcal{A}_{2}^2(a,b))$ è una f.b.f. ed anche $(\forall x (\sim \mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b)))$ è una f.b.f. perchè ottenuta applicando alla f.b.f. $\mathcal{A}_{1}^2(f_{1}^2(x,f_{2}^2(a,x)),b)$ prima il connettivo $\sim$ poi il quantificatore $\forall x$.
@@ -30,7 +30,7 @@ Se non diversamente indicato dalle parentesi varranno le seguenti regole:
 - $\sim$ ed i quantificatori applicati nell'ordine in cui si trovano precedono $\land$ che precede $\lor$ che precede $\Rightarrow$ che precede $\Leftrightarrow$
 - Connettivi uguali si intendono associati a sinistra e quantificatori contigui si intendono applicati nell'ordine in cui si trovano
 
->[!esempio]
+>[!example]
 >Consideriamo la formula
 >$$ ((\mathcal{A}_{2}^2(a,b) \lor (\exists y (\mathcal{A}_{1}^2 (f_{1}^2(x,y),f_{2}^2(a,x)))))\! \Rightarrow\! (\forall x ((\sim\! \mathcal{A}1^2(f_{1}^2(x,f_{2}^2(a,x)),b)) \land \mathcal{A}_{2}^2 (x,x)))) $$
 >Può essere riscritta come

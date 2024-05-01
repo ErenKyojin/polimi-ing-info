@@ -1,6 +1,6 @@
 # EQUAZIONI DI BERNOULLI
 
->[!def]
+>[!definition]
 >Si chiamano equazioni di Bernoulli le [[EDO]] del 1° ordine non lineari del tipo:
 > $$ y'(t) = k(t)y(t) + h(t)y(t)^\alpha\qquad \left(\alpha \in \mathbb{R}, \qquad\begin{align}
 >\alpha \neq 1  \\

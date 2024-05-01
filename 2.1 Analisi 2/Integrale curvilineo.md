@@ -5,7 +5,7 @@ Rappresenti un filo avente densità di massa
  Massa del filo: $$\int_{a}^b \delta(t) \! ||\mathbf{r}(t)|| \, \mathrm{d}t$$
 
 
->[!esempio]
+>[!example]
 >
 > $$\mathbf{r}(t) = \begin{bmatrix}
 >t \\
@@ -19,7 +19,7 @@ Rappresenti un filo avente densità di massa
 
 Introduciamo quindi l'integrale curvilineo:
 
->[!def]
+>[!definition]
 >$[a,b] \subset \mathbb{R}$ limitato
 >$\mathbf{r}:[a,b] \to \mathbb{R}^3$ curva regolare di sostegno $\gamma$
 >$f(\mathbf{(t)})$ continua, $t \in[a,b]$
@@ -27,7 +27,7 @@ Introduciamo quindi l'integrale curvilineo:
 > $$ \int_{a}^b \! f(\mathbf{r}(t))\ ||\mathbf{r}'(t)||\, \mathrm{d}t  $$
 
 
->[!oss]
+>[!remark]
 >- $\int \! f\, \mathrm{d}s \implies \mathrm{d}s \to ||\mathbf{r}'(t) dt||$
 >- Quando $f(\mathbf{r}(t)) \leq 0$ l'integrale curvilineo ha comunque sanso
 >- Se $\gamma$ è regolare a tratti

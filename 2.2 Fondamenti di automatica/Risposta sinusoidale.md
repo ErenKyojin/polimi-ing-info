@@ -56,7 +56,7 @@ $$
 $$
 y(t) = \frac{U}{2j}(G(j\omega)e^{j\omega t} - G(-j\omega)e^{-j\omega t})
 $$
->[!oss]
+>[!remark]
 >$G(s)$ è razionale fratta, quindi $G(-j\omega) = \overline{G(j\omega)}$
 
 allora $$\begin{align}
@@ -79,7 +79,7 @@ Il risultato è il teorema fondamentale della [[risposta in frequenza]]:
 >E applicatogli l'ingresso $u(t) = U\sin(\omega t)\quad t \geq 0$
 >Allora:
 >1. Se $\pm j\omega$ non sono autovalori di $A$ allora esiste uno ed un solo stato iniziale $x(0)$ tale che $$y(t) = |G(j\omega)|U \sin (\omega t + \arg(G(j\omega))\qquad t \geq 0$$
->   >[!oss] anche per [[Sistemi]] instabili!
+>   >[!remark] anche per [[Sistemi]] instabili!
 >
 >2. Se **inoltre** il sistema è asintoticamente stabile allora $\forall x(0)$:
 >   $$

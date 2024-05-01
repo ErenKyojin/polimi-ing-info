@@ -2,7 +2,7 @@ Solitamente un [[Algoritmo]] è considerato come una sequenza di istruzioni e op
 
 >[!multi-column]
 >
->>[!esempio]
+>>[!example]
 >>```c
 >>if x > y
 >>	max = x;
@@ -10,7 +10,7 @@ Solitamente un [[Algoritmo]] è considerato come una sequenza di istruzioni e op
 >>	max = y;
 >>```
 >
->>[!esempio]
+>>[!example]
 >>```c
 >>if x >= y
 >>	max = x;

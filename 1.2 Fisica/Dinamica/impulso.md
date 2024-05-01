@@ -4,14 +4,14 @@ creation date: 2023-03-23 17:02
 modification date: 2023-03-23 17:02
 ---
 
->[!def]
+>[!definition]
 >Si definisce impulso di una [[forza]] in un certo [[intervallo]] di tempo l'[[integrale]] vettoriale della forza nello stesso intervallo di tempo.
 > $$
 >\vec{I}_{F}(t_{1},t_{2}) = \int _{t_{1}}^{t_{2}} \!\vec{F}(t) \, \mathrm{d}t 
 >$$
 >
 
->[!oss]
+>[!remark]
 >Nel sistema internazionale l'impulso si misura dunque in $kg \cdot m \cdot s^{-1}$ oppure in $N \cdot s$
 
 
@@ -33,12 +33,12 @@ $$
 >[!theorem] Teorema dell'impulso
 >La variazione della quantità di moto di un [[Punto materiale]] è pari all'impulso della risultante delle [[forza|forze]] agenti su quel punto materiale
 
->[!oss]
+>[!remark]
 >Questo teorema è diretta conseguenza delle definizioni di forza e di impulso, trova applicazioni nei casi in cui forze intense si manifestano per intervalli molto brevi ([[urti]])
 
->{!oss}
+>{!remark}
 >Forze impulsive sono le [[Reazioni vincolari]]
 
->[!esempio]
+>[!example]
 >Una palla che cadendo dall'alto colpisce il suolo rimbalzando mostra ad ogni rimbalzo una repentina variazione della quantità di moto (e inversione del segno della velocità). È l'impulso della forza di [[Reazioni vincolari|reazione vincolare]] del [[piano]] la causa di tale variazione.
 

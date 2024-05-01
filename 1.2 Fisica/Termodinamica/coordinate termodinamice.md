@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def] coordinate termodinamiche
+>[!definition] coordinate termodinamiche
 >un sistema termodinamico è descritto da variabili macroscopiche dette coordinate termodinamiche.
 >Esistono due tipi di coordinate termodinamiche:
 >- Intensive: Sono di carattere locale e non dipendono dalle dimensioni

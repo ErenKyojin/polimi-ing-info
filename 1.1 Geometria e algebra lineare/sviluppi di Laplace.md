@@ -1,6 +1,6 @@
 Sia $A = [a_{ij}] \in M_{\mathbb{K}(n,n)}$ denotiamo con $A_{ij}$ la matrice ottenuta da $A$ eliminando la $i$-esima riga e la $j$-esima colonna. Il complemento algebrico di $a_{ij}$ è:
 $$ C_{ij}  = (-1)^{i+j} \det(A_{ij})$$
->[!oss]
+>[!remark]
 >Il segno da anteporre a $\det(A_{ij})$ è + se $i+j$ è pari e - se $i + j$ è dispari
 
 
@@ -12,7 +12,7 @@ $$ C_{ij}  = (-1)^{i+j} \det(A_{ij})$$
 > Che si dice sviluppo di Laplace del determinante di $A$ rispetto alla colonna $j$
 
 
->[!esempio]
+>[!example]
 >$$A = \begin{bmatrix}
 >a_{11} & a_{12} \\
 >a_{21}  & a_{22}

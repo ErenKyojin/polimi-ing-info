@@ -1,4 +1,4 @@
-> [!def]
+> [!definition]
 > Sia $(0,\mathbf{i},\mathbf{j})$ un sistema di riferimento cartesiano nel piano e sia $\mathcal{C}$ la circonferenza unitaria centrata in $0$. Sia $\alpha$ l'angolo formato da $\mathbf{v}$ vettore con origine in $O$ che punta su $P \in \mathcal{C}$ e $\mathbf{i}$. Allora si ha che $\mathbf{v} = x \mathbf{i} + y \mathbf{j}$ e diremo che $x = \cos(\alpha)$
 > ```tikz
 >\begin{document}

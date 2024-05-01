@@ -1,4 +1,4 @@
->[!esempio]
+>[!example]
 >Consideriamo un corpo solido riscaldato e che scambia calore con un ambiente a temperatura imposto
 >
 > Potenza termica --> [$T$] -->  Temperatura esterna $T_e$. (Potenza scambiata $G(T-T_e)$)

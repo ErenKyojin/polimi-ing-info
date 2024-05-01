@@ -32,7 +32,7 @@ Le forme canoniche sono due:
 Data una forma booleana esistono una ed una sola forma canonica SoP ed una e una sola forma PoS che la rappresenta
 
 
->[!esempio]
+>[!example]
 >Ricaviamo la SoP 1 dalla seguente funzione:
 >
 > a | b | f(a,b)

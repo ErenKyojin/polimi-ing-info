@@ -5,7 +5,7 @@ modification date: 2023-05-11 10:05
 ---
 
 
-> [!def] Title
+> [!definition] Title
 > 
 >[[Funzioni|Funzione]] utilizzata nelle [[hash table|tabelle hash]] come funzione intermedia tra chiave e dato
 >$h : U \to \{ 0, \dots, m \}$
@@ -19,7 +19,7 @@ Per scegliere la funzione hash ce ne conviene scegliere una che soddisfi l'ipote
 $$ h(k) = k \mod m $$
 facile da realizzare e veloce (essendo una sola operazione) è necessario però evitare certi valori di $m$, come le potenze di 2 ($m$ non deve essere della forma $2^p$) altrimenti $k \mod m$ sarebbero i $p$ bit meno significativi di $k$, conviene prendere un numero primo non troppo vicino ad una potenza esatta di 2.
 
-> [!esempio]
+> [!example]
 > $m = 5$
 > $key : \{ 38,12,18 \}$
 > $h(38) = 3, h(12) = 2, h(18) = 3$ quindi

@@ -1,7 +1,7 @@
 # Metodo simbolico
 Per risolvere un circuito costituito da N-terminali lineari, che ammette [[regime sinusoidale]] permanente e regime isofrequenziale (stessa $\omega$) trattiamo tutte le tensione e le correnti con gli opportuni [[fasori]], e passiamo quindi da un circuito dinamico a parametri reali ad un circuito adinamico a parametri complessi
 
->[!esempio]
+>[!example]
 >consideriamo il circuito
 >![[Pasted image 20220523160724.png]]
 >con $e(t)= E_m\cos\omega t$. L'equazione di stato è $$L\frac{d}{dt}i = e(t) - Ri \Rightarrow L\frac{d}{dt}i + Ri = e(t)$$

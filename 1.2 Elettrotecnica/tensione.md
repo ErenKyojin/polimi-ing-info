@@ -49,7 +49,7 @@ Se dividiamo il percorso $\gamma_{1}$ in tanti piccoli tratti $d\bar{l}_{k}$ ret
 $$ \mathcal{L}_{AB}^{\gamma_{1}} \approx -q \sum_{k = 1}^N E_{k}\d l_{k} \cos \alpha k$$
 Al [[Limite]] in cui consideriamo infinitesimi i singoli tratti $\d \bar{l}_{k}$, possiamo riscrivere quella sopra in forma [[integrale]]:
 $$ \mathcal{L}_{AB}^{\gamma_{1}} = -q \int _{\gamma_{1}} \!\bar{E} \cdot \, \mathrm{d}\bar{l}  $$
->[!def]
+>[!definition]
 >La **tensione** è il lavoro, normalizzato rispetto alla carica, necessario per spostare una carica lungo un determinato percorso in una regione in cui vi sia un campo elettrico. La tensione è quindi una grandezza di linea e si misura in Volt $[V] = JC^{-1}$
 
 Una tensione ha senso solo dopo aver definito la linea lungo cui la si misura. Non dobbiamo essere stupiti da questa cosa, ci sono diverse grandezze di linea, come ad esempio la distanza.
@@ -57,7 +57,7 @@ Una tensione ha senso solo dopo aver definito la linea lungo cui la si misura. N
 Se prendo un altro percorso per andare da $A$ a $B$ e lo chiamo $\gamma_{2}$ in generale si avrà $\mathcal{L}_{AB}^{\gamma_{2}} \neq \mathcal{L}_{AB}^{\gamma_{1}}$. Siamo interessati a quelle situazioni in cui il lavoro per portare una carica elettrica da $A$ a $B$ non dipende dal percorso. In quel caso il campo elettrico si dice [[campi di forze conservative|campo conservativo]] e, come ad esempio accade per il campo gravitazionale, possiamo definire un'**[[Energia potenziale]]** $W(P) [J]$ che dipende dal generico punto $P$ della regione di spazio in cui viene definita ed in cui è presente il campo. Tale funzione consente di esprimere il lavoro che si deve compiere per muovere una carica da $A$ a $B$ lungo un qualunque percorso come $\mathcal{L}_{AB}^{\gamma_{1}} = \mathcal{L}_{AB}^{\gamma_{2}} = W(B) - W(A)$.
 Normalizzando la funzione $W$ rispetto alla carica $q$ si definisce il potenziale elettrico:
 
->[!def]
+>[!definition]
 >Normalizzando la funzione $W$ rispetto alla carica $q$ si definisce la funzione $V(P) = W(P) / q$ che è detta **potenziale elettrico**, definiamo inoltre $V_{BA}$ la differenza di potenziale  $V_{B} - V_{A}$, che è il lavoro normalizzato rispetto alla carica ed indipendente dalla linea che dobbiamo compiere per muovere una carica da $A$ a $B$.
 
 Verifichiamo adesso che il campo elettrico generato da una carica puntiforme $Q$ ammette un potenziale ovvero è conservativo. Suddividendo il percorso $\gamma$ in figura in tratti rettilinei $\d \bar{l}$ può essere scritto come
@@ -104,7 +104,7 @@ $$ \begin{align}
 \end{align} $$
 Che non dipende dal percorso ma solo dagli estremi $A$ e $B$. Il campo elettrico generato da una carica puntiforme ammette quindi un potenziale radiale $V(r) = \frac{Q}{4\pi \varepsilon_{0} r}$
 
->[!oss]
+>[!remark]
 >Qualsiasi energia potenziale, quindi anche il potenziale elettrico, è una grandezza definita a meno di una costante additiva, ossia se partendo da una funzione $V(p)$ scrivessimo la funzione potenziale $\tilde{V} (P) = V(P) + V_{0}$ con $V_{0}$ costante, il lavoro necessario per spostare una carica $q$ da $A$ a $B$ (normalizzato rispetto alla carica) resterebbe invariato essendo $\frac{\mathcal{\tilde{L}}_{AB}}{q} = \tilde{V}(B) - \tilde{V}(A) = V(B) + V_{0} - (V(A) + V_{0}) = \frac{\mathcal{L}_{AB}}{q}$. Per convenzione $V(\infty) = 0$, quindi:
 >$$ \frac{\mathcal{L}_{\infty,A}}{q} = \int _{\infty}^A \! \bar{E} \cdot  \, \mathrm{d}\bar{l} = V_{A} - V(\infty) = V_{A}  $$
 >e quindi $qV_{A}$ è il lavoro necessario per portare una carica $q$ dall'infinito al punto $A$ nell'ipotesi che in tutto lo spazio ci sia il medesimo campo elettrico conservativo.
@@ -174,7 +174,7 @@ Prendendo percorsi diversi tra due punti, il lavoro per portare una carica tra e
 Il lavoro per muovere una carica da $A$ a $B$ lungo un percorso qualunque sarà
 $$ \mathcal{L}_{AB}^{\gamma_1} = \mathcal{L}_{AB}^{\gamma_2} = W(B) - W(A) $$.
 
->[!def]
+>[!definition]
 >Normalizzando $W$ rispetto alla carica $q$ si definisce la funzione $V(P) = W(P)/q$ detta potenziale elettrico, possiamo poi definire la differenza di potenziale tra due punti A e B come $$V_{BA} = V_B - V_A$$
 >che ci fornisce il lavoro normalizzato alla carica a prescindere dal percorso
 

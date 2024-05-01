@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-> [!def]
+> [!definition]
 > Risora è tutto ciò, fisico o meno, con cui un'[[organizzazioni|organizzazione]] opera per perseguire i propri obiettivi.
 
 Le risorse sono classificate come:
@@ -21,7 +21,7 @@ Le risorse sono classificate come:
 - Risorse di gestione: norme, organigrammi, deleghe, piani, informazioni
 
 
->[!oss]
+>[!remark]
 >Ogni risorsa ha un proprio ciclo di vita:
 >- Pianificazione
 >- Acqusizione
@@ -30,7 +30,7 @@ Le risorse sono classificate come:
 >- ...
 
 
->[!esempio]
+>[!example]
 >Esempi di risorse sono:
 >- personale
 >- denaro

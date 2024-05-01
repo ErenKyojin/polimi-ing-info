@@ -54,7 +54,7 @@ Con sinusoidi e rumore componenti armoniche
 
 Vediamo degli esempi:
 
-> [!esempio]
+> [!example]
 > 
 > Caso $w(t) = \sca(t) : e_{\infty}?$
 > $$\begin{align}
@@ -70,14 +70,14 @@ Vediamo degli esempi:
 > \end{align}$$
 > 
 
->[!esempio]
+>[!example]
 >$$\begin{align}
 > &\text{FdT} = \frac{E(s)}{D_{r}(s)}  \\
 > & \frac{E}{D_{r}} = \frac{W - Y}{D_{r}} = \underbrace{ \frac{W}{D_{r}} }_{\mathclap{= 0,\ w \text{ non dipende da }D_{r}} } - \frac{Y}{D_{r}}
 >\end{align}$$
 >
 
->[!oss]
+>[!remark]
 >Se $e_{\infty}$ è prodotto da piú cuse le condizioni risultanti su $\mu_{L}$ e o $g_{L}$ vanno imposte individualmente perchè a priori non è noto quando le cause si presentano 
 
 ### 2. Progetto dinamico (PD)

@@ -1,5 +1,5 @@
 # Continuità
->[!def] Definizione - continuità
+>[!definition] Definizione - continuità
 >Se $f : I \to \mathbb R$ con $I$ intervallo e $c \in I$ si dice che $f$ è continua in $c$ se esiste
 >$$\lim_{x\to c}f(x) = f(c)$$
 >Si dice invece che $f$ è continua sull'intervallo $I$ se è continua in ogni punto di $I$. Una funzione non continua in un punto $c$ si dice [[punto di discontinuità]]

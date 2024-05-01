@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-16
 ---
 
->[!def]
+>[!definition]
 >Il **calcolo relazionale su tuple con dichiarazione di range** è un tipo di [[Calcolo relazionale]] tale che le espressioni hanno forma
 >$$ \{ \mathcal{T} | \mathcal{L} | f \} $$
 >- $\mathcal{T}$ è la target list, una lista con elementi del tipo $Y = x.Z$, $x$ variabile e $Y$ e $Z$ sequenze di attributi. 

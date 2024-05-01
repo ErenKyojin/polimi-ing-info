@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Una funzione di una variabile reale $f$ è detta nalaitcica reale nell'intervallo non vuoto $(a,b)$ se è somma di una serie di potenza in $(a,b)$; cioè se esistono $x_{0} \in(a,b), a_{n} \in \mathbb{R}:$
 >$$ f(x) = \sum_{n=0}^\infty a_{n}(x-x_{0})^n\qquad\forall x \in(a,b) $$
 
@@ -22,7 +22,7 @@ Se $f$ è analitica in $(a,b)$
 >Inoltre detto $R$ il raggio di convergenza della serie, l'identità è verificata per ogni $x \in (x_{0}- R, x_{0}+R)$ 
 
 
->[!esempio]
+>[!example]
 >Serie espononenziale
 
 

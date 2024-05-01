@@ -1,16 +1,16 @@
->[!def] Chiusura
+>[!definition] Chiusura
 >Si dice che un insieme $X$  è chiuso su un operazione $\circ$ se $\forall x_{1}, x_{2} \in X$ $x_{1} \circ x_{2} \in X$ 
 
 
->[!def] Chiusura universale
+>[!definition] Chiusura universale
 >Data una formula $\mathcal{A}$ se ne può fare la **chiusura universale** facendo precedere $\mathcal{A}$ da [[Quantificatori]] universali che quantifichino le variabili che in $\mathcal{A}$ hanno occorrenze libere
 >La chiusura universale di una fbf è vera se e solo se la fbf è vera.
 
->[!def] chiusura esistenziale
+>[!definition] chiusura esistenziale
 >Data una formula $\mathcal{A}$ si ottiene la **chiusura eistenziale** di $\mathcal{A}$ facendo precedere $\mathcal{A}$ da quantificatori esistenziali che quantifichino le variabili che in $\mathcal{A}$ hanno occorrenze libere
 >La chiusura esistenziale di una fbf è vera se e solo se è soddisfacibile
 
->[!esempio]
+>[!example]
 >Data la formula
 >$$ \mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x)) \implies \forall x (\sim \mathcal{A}_{1}^2 (f_{1}^2(x,f_{2}^2(a,x)),b)\land \mathcal{A}_{2}^2(x,x)) $$
 >La sua chiusura universale è

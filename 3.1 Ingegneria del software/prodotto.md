@@ -3,5 +3,5 @@ aliases:
 creation date: 2024-02-28
 ---
 
->[!def]
+>[!definition]
 >Cosa viene prodotto dal software

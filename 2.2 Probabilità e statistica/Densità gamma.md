@@ -4,7 +4,7 @@ creation date: 2023-03-22 09:18
 modification date: 2023-03-22 09:18
 ---
 
->[!def]
+>[!definition]
 >$X$ variabile aleatoria assoluta continua positiva ha densità gamma di parametri $\alpha >0, \lambda > 0$ se la sua densità è
 > $$
 >f(x) = \frac{\lambda^\alpha}{P(\alpha)} \underbrace{ x^{\alpha-1} e^{-\lambda x} }_{ \text{nucleo} } \mathbb{1}(x)
@@ -38,7 +38,7 @@ $$\begin{align}
 &= \frac{\alpha}{\lambda^2}
 \end{align}$$
 
->[!oss]
+>[!remark]
 >$Y \sim \exp(\lambda)\qquad\begin{align}E(y)=\frac{1}{\lambda}\\ \delta(y) = \frac{1}{\lambda ^2} \end{align}$
 >Allora
 >$X \sim \Gamma(1, \lambda)\quad m_{X}(t) = \frac{\lambda}{\lambda-t} \implies x \sim \exp(\lambda)$

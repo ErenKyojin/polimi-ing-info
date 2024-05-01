@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-> [!def]
+> [!definition]
 > Le invarianti di ciclo sono proprietà di un ciclo che sono sempre vere prima e dopo il ciclo stesso
 
 In particolare affinchè una proprietà sia un **invariante di ciclo** dobbiamo mostrare tre cose a riguardo:

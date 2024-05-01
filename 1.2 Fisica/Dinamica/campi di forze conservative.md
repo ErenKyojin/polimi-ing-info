@@ -3,30 +3,30 @@ aliases: campo di forza conservativa, campo conservativo, campi conservativi
 creation date: 2023-03-26 16:56
 modification date: 2023-03-26 16:56
 ---
->[!def]
+>[!definition]
 >Un [[Campo numerico|campo]] di forze che ammette [[Energia potenziale]] si dice **campo conservativo** e si dice che la [[forza]] corrispondente è una [[forze conservative|forza conservativa]]
 
->[!oss]
+>[!remark]
 >Condizione necessaria ma non sufficiente perchè un campo di [[forza|forze]] sia conservativo è che l'espressione della forza dipenda solo dalla posizione del [[Punto materiale]] cui è applicata:
 >$$ \vec{F} = \vec{F}(\vec{r}) $$
 
->[!oss]
+>[!remark]
 >Condizione sufficiente ma non necessaria perchè un campo di forze sia non conservativo è che l'espressione della forza dipende anche dalla velocità del punto materiale cui è applicata
 >
->>[!esempio]
+>>[!example]
 >>Le [[forze di attrito]] ad esempio sono certamente non [[forze conservative|conservative]]
 
 
->[!oss]
+>[!remark]
 >Per una forza conservativa il lavoro corrispondente ad uno spostamento da $A$ a $B$ è sempre uguale alla variazione di [[Energia potenziale]], cambiata di segno, ed il lavoro elementare è il [[differenziale]] dell'energia potenziale, cambiato di segno (si dice che il [[Lavoro]] elementare è un differenziale esatto)
 >$$ \mathcal{L}_{A\to B} = E_{p}(A)- E_{p}(B) = -\Delta E_{p}\quad; \quad d\mathcal{L} = \vec{F} \cdot d\vec{r} = -dE_{p} $$
 >Infatti essendo in tal modo il lavoro elementare una differenziale esatto, integrando fra $A$ e $B$ si ottiene
 >$$ \mathcal{L}_{A\to B} = \int _{A}^B \! \, \mathrm{d}\mathcal{L} = - \int _{A}^B \! \, \mathrm{d}E_{p}   = -E_{p}\bigg |_{A}^B = -E_{p}(B) + E_{p}(A) = -\Delta E_{p}$$
 
->[!oss]
+>[!remark]
 >In un campo di forze [[forze conservative|conservative]] il [[Lavoro]] non dipende dalla [[Traiettoria]] ma solo dagli estremi!
 
->[!oss]
+>[!remark]
 >In un campo di forze conservative il lavoro compiuto su un cammino chiuso è nullo:
 >$$ \mathcal{L}_{A\to A} = \oint \mathrm{d}\mathcal{L} = 0 $$
 

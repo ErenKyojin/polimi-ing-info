@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >Si definisce trasformazione isoterma una [[trasformazioni termodinamiche|trasformazione termodinamica]] che mantiene la temperatura costante
 
 ### Lavoro in una trasformazione isoterma

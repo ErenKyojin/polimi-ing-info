@@ -649,7 +649,7 @@ Questo è un [[Heapsort]] "step by step"
 # Tabelle hash
 To hash signfica sminuzzare/tritare, vogliamo sminuzzare i dati per trarne qualche tipo di "essenza".
 
->[!esempio]
+>[!example]
 >Ho un database di foto di 1Mb, devo essere pronto ad avere $2^{1'000'000}$ foto diverse? No, la stragrande maggioranza saranno foto "inutili", rumore bianco o foto senza senso. 
 
 Costruiamo un array con elementi teste di liste che indicano elementi puntati dalla stessa hash.
@@ -837,7 +837,7 @@ for(i = 1, 2i <= n, i++)
 	
 ```
 
->[!oss]
+>[!remark]
 >mergesort mantiene l'ordinamento degli elementi ripetuti, heap e quicksort invece no.
 
 ## 3

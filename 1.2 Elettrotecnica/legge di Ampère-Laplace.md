@@ -9,7 +9,7 @@ $$ \bar{\d B} = \frac{\mu_{0}}{4 \pi} I \frac{\d l}{r^2} \hat{u}_{T} \times \hat
 che possiamo integrare per ottenere il contributo della spira in generale 
 $$ \bar{B} = \frac{\mu_{0}}{4 \pi} I \oint \! \frac{\hat{u}_{T} \times \hat{u}_{r}}{r^2} \,\d l $$
 
->[!esempio]
+>[!example]
 >Il campo magnetico prodotto da una corrente lungo un conduttore rettilineo di lunghezza infinita e sezione infinitesima si ha:
 > $$ B = \frac{\mu_{0}}{4 \pi}I \int _{-\infty}^{\infty} \! \frac{\sin \theta}{r^2} \, \mathrm{d}l = \frac{\mu_{0}I}{2 \pi R}$$
 > 

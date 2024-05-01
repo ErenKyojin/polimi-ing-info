@@ -37,14 +37,14 @@ L'operazione di formattazione predispone tracce e settori per la lettura e la **
 
 Esiste una tabella per ogni [[processo]] attivo nel sistema. Indice dell tabella è il descrittore del file (fd), ed ogni entry contiene un puntatore relativo al file
 
->[!oss]
+>[!remark]
 >Per convenzione ogni precosse ha 3 descrittori aperti automaticamente, associato ai primi tre elementi della tabella:
 >- stdin (0)
 >- stdout (1)
 >- stderr (2)
 >  
 
->[!esempio] fd1
+>[!example] fd1
 >
 >0 | stdin
 >--- | ---
@@ -71,7 +71,7 @@ Tabella globale del sistema che contiene una copia in memoria degli i-node relat
 Ogni entry della tabella contiene una copia in memoria degli i-node statici presenti su disco nella i-list.
 Ogni entry della tabella contiene il contatore al numero di riferimenti che indica il numero di istanze del file che sono attivi.
 
->[!esempio]
+>[!example]
 >Due processi P0 e P1 aprono il file F, P0 ottiene il descrittore fd1 mentre P1 il descrittore fd7, nella tabella globale dei file aperti ognuno di questi descrittori avrà un riferimento, ma nella tabella degli i-node il file F avrà due riferimenti
 
 Oltre alla copia delle informazioni presenti nel corrispondente i-node statico sono presenti informazioni riguardanti lo stato dell'i-node.

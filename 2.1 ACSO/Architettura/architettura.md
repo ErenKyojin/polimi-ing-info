@@ -13,7 +13,7 @@ Si possono distinguere diverse istruzioni, con [[istruzioni|formati delle istruz
 7. [[pseudo istruzioni]]
 
 # Architettura (tecnologie web)
->[!def]
+>[!definition]
 >architettura mix di risorse hardware, software e di networking
 
 parametri di classificazione:

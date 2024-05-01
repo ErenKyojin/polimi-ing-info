@@ -4,7 +4,7 @@ creation date: 2023-04-28 15:46
 modification date: 2023-04-28 15:46
 ---
 
->[!def]
+>[!definition]
 >Una [[Funzioni|funzione]] $f$ è **iniettiva** se rispetta queste analoghe condizioni:
 > - Se ogni $b \in B$ al piú una controimmagine in $A$
 > - $f(a_{1}) = f(a_{2}) \implies a_{1} = a_{2}$

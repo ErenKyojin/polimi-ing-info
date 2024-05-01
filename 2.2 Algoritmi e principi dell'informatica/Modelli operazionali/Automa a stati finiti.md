@@ -16,7 +16,7 @@ graph TB
 
 >[!multi-column]
 >
->>[!esempio]
+>>[!example]
 >>```mermaid
 >>graph LR
 >> On -->|T| Off -->|T| On
@@ -24,7 +24,7 @@ graph TB
 >>
 >>```
 >
->>[!esempio]
+>>[!example]
 >>```mermaid
 >>graph LR
 >>	On -->|R| Off -->|S| On
@@ -38,7 +38,7 @@ Quindi un automa a stati finiti è costituito da:
 - un insieme finito ([[Linguaggio|alfabeto]]) di ingressi 
 - una [[funzione di transizione]] (parziale) $\gamma:Q \times I \to Q$
 
->[!esempio]
+>[!example]
 Possiamo rappresentarlo cosí:
 >```mermaid
 >graph LR
@@ -90,7 +90,7 @@ Problemi di:
 ![[Ciclo]]
 
 
->[!oss]
+>[!remark]
 >Gli automi a stati finiti riconoscono i [[linguaggi regolari]] ([[Chiusura#famiglia di linguaggi]]).
 >Ad esempio l'automa che riconosce $L(A_{1}) \cap L(A_{2})$ è ottenuto simulando il funzionamento parallelo dei due automi $A_{1}$ e $A_{2}$ attraverso il prodotto cartesiano degli stati e tramite una funzione di transizione per $A$ definita solo dove sono definite le funzioni di transizione di $A_{1}$ ed $A_{2}$
 
@@ -168,7 +168,7 @@ graph LR
 ```
 Partendo da $q_{1}$ e leggendo `ab` l'automa si trova in uno stato dell'insieme $\left\{ q_{4},q_{5},q_{6} \right\}$
 
->[!def]
+>[!definition]
 >Ridefiniamo uno stato per essere l'insieme dei possibili stati in cui si può trovare l'automa ND durante il suo funzionamento
 
 - Dato un FSA ND ne costruiamo automaticamente uno equivalente deterministico, quindi non sono piú efficaci a differenza degli automi a pila
@@ -178,7 +178,7 @@ Partendo da $q_{1}$ e leggendo `ab` l'automa si trova in uno stato dell'insieme 
 $\mathcal{L}(AFN) \supseteq \mathcal{L}(AFD)$ ma vale anche $\mathcal{L}(AFN) \subseteq \mathcal{L}(AFD)$ infatti posso simulare un automa non deterministico con uno deterministico, quindi $\mathcal{L}(AFN) = \mathcal{L}(AFD)$
 
 
->[!esempio]
+>[!example]
 >AFN con insieme di stati Q
 >Possiamo simularlo tenendo traccia dell'insieme di stati in cui è quell'automa.
 >
@@ -209,6 +209,6 @@ end
 ## A cosa serve un automa a stati finiti non deterministico?
 Puó essere piú semplice progettarlo e ricavarne, attraverso un [[Algoritmo]], l'equivalente deterministico.
 
->[!Esempio]
+>[!example]
 >Da un AND a 5 stati ne ricaiamo nel peggiore dei casi uno con $2^5$ stati
 

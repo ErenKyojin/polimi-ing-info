@@ -1,5 +1,5 @@
 
->[!def]
+>[!definition]
 > Una relazione tra due [[insieme|insiemi]] $A,B$ è una funzione se
 >$$\forall a \in A\ \exists!\ b \in B : a \sim b$$
 >Scriviamo in questo caso 

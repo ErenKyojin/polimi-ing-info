@@ -1,7 +1,7 @@
 Le directory sono dei [[file]] (d) caratterizzati da nome e diritti d'accesso, ogni directory contiene informazioni sui file e sulle directory che contiene.
 Una directory fornisce le corrispondenze tra nome di file/directory e file/directory stesse su disco, con una entry per ogni file/directory, ed è quindi essenzialmente una tabella.
 
->[!Esempio]
+>[!example]
 `<nome_file/nome_dir, riferimento>`
 >
 > | nome_file / nome_dir | Riferimento [[i-node]] (posizione file su disco) |

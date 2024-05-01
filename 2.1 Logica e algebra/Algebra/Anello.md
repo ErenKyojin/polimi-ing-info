@@ -3,7 +3,7 @@ aliases:
 creation date: 2\underline{0}23-11-29
 ---
 
->[!def]
+>[!definition]
 >$\left< A, +, \cdot \right>$ anello se
 >- $\left< A, + \right>$ sia un [[gruppo abeliano]]
 >- $\left< A, \cdot \right>$ sia un [[semigruppo]]
@@ -12,13 +12,13 @@ creation date: 2\underline{0}23-11-29
 >	- $(a + b) \cdot c = a \cdot c + b \cdot c$
 
 
->[!oss]
+>[!remark]
 >non si parla solo di moltiplicazione o addizione ordinaria 
 
 - $\left< \mathbb{Z}, +, \cdot \right>$ è anello (come lo sono tutti i sovrainsiemi di Z, $\mathbb{C}$ incluso)
 - $\left< M_{(n\times n)}(\mathbb{R}), +, \cdot \right>$ è anello
 
->[!oss]
+>[!remark]
 >Se $A$ è un anello allora $\left< A[x],+, \cdot \right>$, posso costruire l'[[insieme]] dei polinomi ad un incognita con coefficienti nell'anello e sarà comunque un anello (proprietà di trasposizione)
 
 ## Proprietà
@@ -37,10 +37,10 @@ $\left< A, +, \cdot \right>$ sia anello
 
 ***
 
-> [!def]
+> [!definition]
 > Se $\left< A, +, \cdot \right>$ è un anello in cui esiste l'elemento neutro indicato con $\underline{1}$ rispetto all'operazione $\left< A, +, \cdot \right>$ è detto **anello con unità**
 
->[!def]
+>[!definition]
 >Se $\left< A, + , \cdot \right>$ è un anello in cui l'operazione è commutativa allora $\left< A, +, \cdot \right>$ è detto **anello commutativo**
 
 
@@ -76,14 +76,14 @@ ab' - ab = kan& \\
 allora $\left< \mathbb{Z}_{n}, \oplus, \otimes \right>$ è un anello
 
 
->[!def]
+>[!definition]
 >$\left< A, +, \cdot \right>$ anello
 >due elementi $a,b \in A$ si dicono **divisori dello zero** di $A$ se
 >$$ a \neq  \underline{0}\quad b \neq  \underline{0}\quad a\cdot b = 0 $$
 
 
 
-> [!esempio] divisori dello zero
+> [!example] divisori dello zero
 >1. $\mathbb{Z}_{8}: \{ 2 \}\{ 4 \} = \{ 8 \} = \{ 0 \}$
 > 
 > 2. $$ \begin{bmatrix}
@@ -118,14 +118,14 @@ allora $\left< \mathbb{Z}_{n}, \oplus, \otimes \right>$ è un anello
 >Sia $\left< A , + ,\cdot \right>$ anello finito
 >I divisori dello zero di $A$ sono tutti e soli gli elementi non invertibili
 
->[!oss]
+>[!remark]
 >In generale vale che se $\left< A, + , \cdot \right>$ è un anello e $a \in A$ è un **divisore dello zero** alora $a$ è  non invertibile
 
 
 $\left< \mathbb{Z}_{n}, +, \cdot \right>$
 $\{ a \}$ è invertibile se e solo se $MCD(a,n) = 1$
 
->[!esempio]
+>[!example]
 >$\mathbb{Z}_{6}$
 >$\{ 1 \}, \{ 5 \}$ gli unici invertibili
 0}\implies b - c = \underline{0} \implies b =c$
@@ -137,14 +137,14 @@ $\{ a \}$ è invertibile se e solo se $MCD(a,n) = 1$
 >Sia $\left< A , + ,\cdot \right>$ anello finito
 >I divisori dello zero di $A$ sono tutti e soli gli elementi non invertibili
 
->[!oss]
+>[!remark]
 >In generale vale che se $\left< A, + , \cdot \right>$ è un anello e $a \in A$ è un **divisore dello zero** alora $a$ è  non invertibile
 
 
 $\left< \mathbb{Z}_{n}, +, \cdot \right>$
 $\{ a \}$ è invertibile se e solo se $MCD(a,n) = 1$
 
->[!esempio]
+>[!example]
 >$\mathbb{Z}_{6}$
 >$\{ 1 \}, \{ 5 \}$ gli unici invertibili
 

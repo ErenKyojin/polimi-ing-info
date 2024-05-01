@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-19
 ---
 
-> [!def]
+> [!definition]
 > Scioglimento coatto, l'impresa è sciolta per ordine del tribunale e i suoi beni vengono venduti all'asta giudiziaria
 
 # ANKI

@@ -5,7 +5,7 @@ creation date: 2024-03-06
 
 La produzione di un software a livello industriale è costituita da molteplici fasi, che vogliamo descrivere attraverso un "ciclo di vita" del software
 
->[!def]
+>[!definition]
 >Il ciclo di vita di un software è la descrizione della sua produzione, quindi dalla progettazione iniziale al suo ritiro
 
 

@@ -21,7 +21,7 @@ Prima di occuparci di tecniche di integrazione complesse, partiamo con le basi d
 |$$\frac{1}{\sinh^2 x}$$|$$\coth x$$
 
 
->[!oss]
+>[!remark]
 >Quella fornita in questa tabella è **una** primitiva, per scrivere la soluzione di un integrale definito, essendo questo un [[insieme]] di [[Funzioni]], dobbiamo sempre aggiungere una costante, solitamente $c$, quindi ad esempio:
 >$$\int \!x^2 \, \d x = \frac{x^3}{3} \fbox{$+c$}$$
 
@@ -64,7 +64,7 @@ Dove la scrittura $[\varphi(a),\varphi(b)]$ indica che $\varphi(a),\varphi(b)$ s
 # simmetrie
 Consideriamo l'integrale di una funzione simmetrica ([[pari]] o [[dispari]]) su un intervallo simmetrico $[-k,k]$, ad esempio:
 
->[!esempio] Funzione pari
+>[!example] Funzione pari
 >```desmos-graph
 >top = 7; bottom = -2; left = -6; right = 6;hideAxisNumbers
 >---
@@ -74,7 +74,7 @@ Consideriamo l'integrale di una funzione simmetrica ([[pari]] o [[dispari]]) su 
 >(-5.31,0)|#43835c|label: -k
 >```
 
->[!esempio] Funzione dispari
+>[!example] Funzione dispari
 >```desmos-graph
 >top = 3; bottom = -3;left = -4; right = 4; hideAxisNumbers
 >---
@@ -96,7 +96,7 @@ $$
 $$
 
 Consideriamo infine un esempio:
->[!esempio]
+>[!example]
 >$$\int_{-1}^1 \!e^{-\vert x\vert} \, \d x =2\int_{0}^1 \!e^{-\vert x \vert} \, \d x = \int_{0}^1 \!e^{-x} \, \d x =\left[-e^{-x}\right]_{0}^{1} $$
 >In cui attraverso la simmetria abbiamo spostato l'intervallo di integrazione in $[0,1]$ trattandosi di una funzione pari.
 > Questo cambio ci ha permesso di rimuovere il valore assoluto, in quanto stavamo già considerando solo $x \geq 0$
@@ -104,7 +104,7 @@ Consideriamo infine un esempio:
 ## Valori assoluti
 Vogliamo trovare un modo, in generale, si può calcolare l'integrale definito di una funzione con valore assoluto, quindi consideriamo il prossimo esempio
 
->[!esempio]
+>[!example]
 >$$
 >\int_{0}^{2} \!\vert(x-1)(x+3)\vert \, \d x 
 >$$
@@ -124,7 +124,7 @@ Vogliamo trovare un modo, in generale, si può calcolare l'integrale definito di
 >\end{align}
 >$$
 
->[!oss]
+>[!remark]
 >Per calcolare l'integrale indefinito di una funzione contenente uno o più valori assoluti, si spezza l'integrale nella somma di integrali su sottointervalli, in modo che in ogni sottointervallo l'argomento di ogni valore assoluto abbia segno costante, e che quindi possano essere evitati nell'interanda
 
 # Funzioni razionali
@@ -135,7 +135,7 @@ $$
 
 Se il grado del numeratore è $\geq$ del grado del denominatore si esegue la [[divisione tra polinomi]], quindi riscriviamo l'integranda come somma di un polinomio più una funzione razionale con lo stesso denominatore di quello di partenza
 
->[!esempio]
+>[!example]
 >$$
 >\int \!\frac{x^{3}+x}{x^{2}+x+1} \, \d x 
 >$$
@@ -153,7 +153,7 @@ Distinguiamo a questo punto vari casi:
 $$
 \int \! \frac{1}{ax+b} \, \d x = \frac{1}{a}\log|ax+b|+c
 $$
->[!esempio]
+>[!example]
 >$$\int \! \frac{3}{4x+2} \, \d x = \frac{3}{4}\log|4x+2| + c $$
 
 ## denominatore di secondo grado e numeratore di grado $\leq 1$
@@ -161,7 +161,7 @@ Dobbiamo distinguerlo a sua volta in 3 diversi casi, in base al segno del discri
 
 1. Il denominatore ha due radici distinte. La frazione si scompone in fratti semplici e si integra mediante somma di logaritmi
 
->[!esempio]
+>[!example]
 >$$\int \! \frac{x+2}{x^{2}+5x+6} \, \d x \xRightarrow{\Delta > 0} \int \! \frac{x+2}{(x-2)(x+3)} \, \d x $$
 >
 >Per risolverla dobbiamo scrivere:
@@ -184,7 +184,7 @@ Quindi la soluzione dell'integrale è:
 
 2. il denominatore è un quadrato perfetto, mediante sostituzione si torna alla somma di potenze che si integra immediatamente:
 
->[!esempio]
+>[!example]
 >$$\begin{align}
 > &\int \! \frac{x+1}{(3x+2)^{2}} \, \d x = \left[ 3x+2=t, 3dx = dt, x = \frac{t-2}{3} \right] =  \\
 > &= \int \! \frac{\left( \frac{t-2}{3}+1 \right)}{t^{2}} \, \frac{\d t}{3} = \frac{1}{9} \int \!\frac{(t+1)}{t^{2}}  \, \d t  =\frac{1}{9} \int \! \left( \frac{1}{t} + \frac{1}{t^{2}} \right) \, \d t = \\
@@ -194,7 +194,7 @@ Quindi la soluzione dell'integrale è:
 
 3. Il denominatore non si annulla mai $(\Delta < 0)$. Vediamo alcuni esempi:
 
->[!esempio]
+>[!example]
 >$$\int \! \frac{1}{x^{2}+3} \, \d x = \frac{1}{3} \int \! \frac{1}{\left( \frac{x}{\sqrt{ 3 }}\right)^{2}+1} \, \d x = \frac{\sqrt{ 3 }}{3} \arctan\left( \frac{x}{\sqrt{ 3 }} \right)+c$$
 
 In generale
@@ -229,7 +229,7 @@ $$
 \fbox{$\int_{a}^{b} \! f(x)g'(x) \, \d x = \left[ f(x)g(x) \right]_{a}^{b}-\int_{a}^{b} \! f'(x)g(x) \, \d x$}
 $$
 
->[!esempio]
+>[!example]
 >$$\int \! x\sin x \, \d x $$
 >$x =f, \sin x=g'$ (è solitamente utile ridurre il grado dell'integranda piuttoto che aumentarlo)
 >$$\int \! x\sin x \, \d x = -x\cos x - \int \! -\cos x \, \d x  = -x\cos x+\sin x + c$$

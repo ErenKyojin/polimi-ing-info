@@ -14,7 +14,7 @@
 >y = \cosh(x)
 >```
 
->[!oss] 
+>[!remark] 
 >Il coseno iperbolico è detto anche catenaria, in quanto un filo appeso a due vincoli assumerà la forma del coseno iperbolico
 
 >[!Graph] Tangente iperbolica

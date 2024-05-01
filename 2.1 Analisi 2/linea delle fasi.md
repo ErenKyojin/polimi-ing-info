@@ -1,5 +1,5 @@
 
->[!esempio]
+>[!example]
 >$$ y'(t) = y(t) $$
 >Tre famiglie di soluzioni
 >$\color{cyan} ke^{t+c}$

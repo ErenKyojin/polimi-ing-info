@@ -1,6 +1,6 @@
 # compilazione
 
->[!esempio]
+>[!example]
 >Da C a simbolico
 >
 > Programma C

@@ -5,7 +5,7 @@ Impossibilità di prevedere con certezza gli esiti futuri delle decisioni in mer
 
 Il rischio d'impresa dipende dai [[fattori di rischio]]
 
->[!oss]
+>[!remark]
 >È l'imprenditore ad assumersi il rischio d'impresa
 >- In senso positivo: appropria dei guadagni
 >- In senso negativo: è responsabile delle perdite

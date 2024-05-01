@@ -35,7 +35,7 @@ Sia $\sum a_n$ una serie a termini positivi. Se esiste il limite
 $$\lim_{n\to+\infty}\frac{a_{n+1}}{a_n}=l$$
 e $l>1$ la serie diverge, se $l<1$ la serie converge, se $l = 1$ nulla si può dire
 
->[!esempio]
+>[!example]
 >$\sum \frac{1}{n!}$:
 >$$\lim_{n\to+\infty}\frac{1/(n+1)!}{1/n!} = lim_{n\to+\infty}\frac{1}{n+1}=0$$
 >Quindi la serie converge

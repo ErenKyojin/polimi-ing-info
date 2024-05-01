@@ -1,7 +1,7 @@
 
 Iniziamo con un esempio:
 
->[!esempio]
+>[!example]
 >Segnale sonoro periodico:
 >$$ f(x) = 3\cos(x) + \sin(2x) + \cos(10x) $$
 >
@@ -15,13 +15,13 @@ Iniziamo con un esempio:
 >Così facendo si può ricomporre il segnale
 
 
->[!oss]
+>[!remark]
 >Non si può decomporre attraverso [[serie di taylor]], in quanto vogliamo lavorare anche con segnali che non hanno derivabilità garantita, inoltre vogliamo avere la possibilità di isolare frequenze diverse.
 
 
 La teoria di Fourier ci permette di decomporre un segnaler periodico (non necessariamente regolare) nella combinazione lineare di infinite funzioni trigonometriche:
 $$ f(x) = a_{0} + \sum_{n=1}^\infty [a_{n} \cos(nx) + b_{n} \sin(nx)]$$
- >[!oss]
+ >[!remark]
  >La proprietà di periodicità passa al limite
  
  

@@ -1,4 +1,4 @@
->[!esempio]
+>[!example]
 >Lancio una moneta regolare e se esce testa lancio un dado regolare a 6 facce da 1 a 6, se escre croce lancio un dado con una faccia numerata 1, due facce numerate 2, e tre facce numeratre 3.
 >
 >L'evento è "Esce 2"
@@ -11,7 +11,7 @@
 > %%grafico di intersezione%% 
 > Abbiamo applicato e dimostrato la formula delle probabilità totali
 
->[!proposizione]
+>[!proposition]
 >Sia $(\Omega,\mathcal{F},P)$ uno spazio di probabilità e $F_{1},F_{2},\dots,F_{n} \in \mathcal{F}$ una partizione finita di $\Omega$, $\bigcup_{k=1}^n F_{k} = \Omega$ e $F_{h} \cap F_{k} = \varnothing$ per $h \neq k$. 
 >$P(F_{k})>0$ per $k = 1,\dots,n$. Allora per ogni evento $E \in \mathcal{F}$ si ha
 > $$
@@ -35,7 +35,7 @@ Tornando all'esempio precedente, vogliamo capire la probabilità del risultato d
 Quindi la probabilità che sia uscità testa se il risultato è stato due è un terzo. 
 
 
->[!esempio]
+>[!example]
 >Ho in tasca 2 monete, una bilanciata, una truccata con 2 teste. Prendo una moneta a caso e mi chiedo qual è la probabilità di vedere testa.
 >- $\mathcal{N}$ ho pescato la moneta normale
 >- $P(\mathcal{N}) = \frac{1}{2} = P(\mathcal{N}^C)$

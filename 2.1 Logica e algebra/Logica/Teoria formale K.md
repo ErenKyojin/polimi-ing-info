@@ -35,10 +35,10 @@ $(,)$
 
 
 
->[!def]
+>[!definition]
 >Una teoria del primo ordine priva di assiomi propri è detta [[calcolo predicativo del primo ordine]]
 
->[!def]
+>[!definition]
 >Una teoria formale è detta **consistente** se non esiste una fbf $\mathcal{A}$ tale che $\vdash \mathcal{A}$ e $\vdash \sim \mathcal{A}$
 
 >[!theorem]
@@ -74,7 +74,7 @@ Th: $\mathcal{A}$ logicamente valida
 >[!theorem] Teorema di correttezza e completezza per un teoria del primo ordine K
 >I teoremi di K sono tutte e sole le fbf vere in ogni modello di K.
 
->[!def] Modello di K
+>[!definition] Modello di K
 >Un modello è una interpretazione nella quale tutti gli assiomi propri sono veri
 
 stiamo essenzialmente non considerando le interpretazioni scomode o comunque formulate in modo sconveniente.

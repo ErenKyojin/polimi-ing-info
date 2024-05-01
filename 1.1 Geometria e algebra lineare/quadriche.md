@@ -1,18 +1,18 @@
->[!def]
+>[!definition]
 >Una quadrica in $\mathbb{R}^n$ è il luogo dei punti di $\mathbb{R}^n$ che soddisfano un'equazione di secondo grado in $x_{1},\dots,x_{n}:$
 > $$ q(\mathbf{x}) = \sum_{i=1}^n a_{ii}x_{i}^2 + \sum_{1 \leq i \leq j \leq n}2a_{ij}x_{i}x_{j}  + \sum_{i = 1}^n 2b_{i}x_{i} + c=0, a_{ij} \in \mathbb{R}$$
 > e $a_{ij} \neq0$ per almeno una coppia di indici $i,j$
 > Definiamo la matrice simmetrica $A \in M_{\mathbb{R}(n,n)}$ come $[A]_{ij} := a_{ij}$ se $i \leq j$ e $[A]_{ji} := [A]_{ij}$. Inoltre poniamo $\mathbf{b} = \begin{bmatrix}b_{1} & \dots & b_{n}\end{bmatrix}^T$. Con queste definizioni un'equazione di secondo grado puó essere definita in forma matriciale:
 >  $$ q(\mathbf{x}) = \mathbf{x}^T A \mathbf{x} + 2 \mathbf{b}^T \mathbf{x} + c = 0 $$
 
->[!oss]
+>[!remark]
 >Le quadratiche in $\mathbb{R}^2$ sono dette coniche
 
 
->[!oss]
+>[!remark]
 >Per studiare le forme quadratiche abbiamo considerato cambiamenti di coordinate lineari del tipo $\mathbf{x} = S\mathbf{y}$ ove $S \in M_{\mathbb{R}(n,n)}$ invertibile e $\mathbf{v} \in \mathbb{R}^n$ tali che: $F(\mathbf{y})=S\mathbf{y}+\mathbf{v}$. Un cambiamento di coordinate affine si dice rototraslazione se $S$ è una [[matrice ortogonale]] ed il suo determinante è 1
 
->[!oss]
+>[!remark]
 >Nel caso $n=3$, le  matrici ortogonali con determinante uguale ad $1$ sono rotazioni, inoltre:
 >1. La matrice identica è un'affinità (e una rotottraslazione)
 >2. La composizione di due affinità (o di due rototraslazioni) è ancora un'affinità (o una rototraslazione)
@@ -20,14 +20,14 @@
 >$$ F(F^{-1}(\mathbf{x})) = S (S^{-1}\mathbf{x}-S^{-1}\mathbf{v}) + \mathbf{v} = SS^{-1}\mathbf{x} - SS^{-1}\mathbf{v} + \mathbf{v} = \mathbf{x} - \mathbf{v} + \mathbf{v} = \mathbf{x} $$
 
 
->[!oss]
+>[!remark]
 >Le rototraslazioni sono delle isometrie:
 > $$ \|F(\mathbf{x}_{1})-F(\mathbf{x}_{2})\| = \|S\mathbf{x}_{1} + \mathbf{v} -S\mathbf{x}_{2} - \mathbf{v}\| = \|S(\mathbf{x}_{1} - \mathbf{x}_{2})\| = \|\mathbf{x}_{1} - \mathbf{x}_{2}\|$$
 
 
 Come trasformiamo un polinomio di secondo grado componendolo con una rototraslazione?
 
->[!proposizione]
+>[!proposition]
 >Dato un polinomio di secondo grado in $n$-variabili $x_{1},\dots,x_{n}: q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} + 2\mathbf{b}^T\mathbf{x} + c$
 >ed una rototraslazione : $F(\mathbf{y})=Q\mathbf{y} + \mathbf{v}$ allora
 > $$ \hat{q}(\mathbf{y}) = q(Q\mathbf{y} + \mathbf{v}) = \mathbf{y}^T\hat{A}\mathbf{y} + 2\hat{b}^T\mathbf{y} + \hat{c} $$
@@ -36,13 +36,13 @@ Come trasformiamo un polinomio di secondo grado componendolo con una rototraslaz
 >>[!dim]
 
 
->[!oss]
+>[!remark]
 >C'è un modo ancora piú compatto per scrivere un polinomio di secondo grado: $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} + 2\mathbf{b}^T\mathbf{x}+c$
 >Definiamo $B = \begin{bmatrix}A & \mathbf{b}\\\mathbf{b}^t & c\end{bmatrix}$ simmetrica di ordine $n+1$ allora
 > $$ q(\mathbf{x}) = \begin{bmatrix}\mathbf{x}^T & 1\end{bmatrix} B \begin{bmatrix}\mathbf{x}\\1\end{bmatrix} $$
 
 
->[!oss]
+>[!remark]
 >Le rotazioni in $\mathbb{R}^3$ attorno agli assi coordinati sono:
 > $$ 
 > \text{asse }z:\begin{bmatrix} 
@@ -69,10 +69,10 @@ Data $\mathcal{2} = \left\{ \mathbf{x} \in \mathbb{R}^n : \mathbf{x}^TA\mathbf{x
 	* Se $r(A) = r([A|-\mathbf{b}])$ si trovano gli autovalori non nulli di $A$ e si calcola $\hat{c} = \mathbf{b}^T = \mathbf{w} +c$ con $\mathbf{w}$ soluzione di $A\mathbf{x} = -\mathbf{b}$. L'equazione è: $\lambda_{1}x_{1}^2 + \dots + \lambda_{r}x_{r}^2 + \hat{c} = 0$
 	* Se $r(A) < r([A|-\mathbf{b}])$ si trovano gli autovalori non nulli di $A$ e si calcola $p = \|\mathbf{b}_{H^\perp}\|$ dove $\mathbf{b}_{H^\perp}$ è la proiezione ortogonale di $\mathbf{b}$ sul $\ker(A)$. L'equazione è: $$\lambda_{1}x_{1}^2 + \dots + \lambda_{r}x_{r}^2 - 2px_{r+1} = 0$$
 
->[!def]
+>[!definition]
 >Una quadrica si dice degenere se $\det(B) =0$
 
->[!oss]
+>[!remark]
 >Se la quadrica è non degenere e a centro si ha che
 > $$ \hat{c} = \frac{\det(B)}{\det(A)} $$ 
 > Se la quadrica è non degenere e non a centro si ha che $p^2 = -\dfrac{\det(B)}{\lambda_{1}\cdot\ldots \cdot \lambda_{r}}$ con $\lambda_{1},\dots,\lambda_{r}$ autovettori non nulli di $A$
@@ -100,7 +100,7 @@ $$ sgn(x) : \begin{cases}
 	 - Tipo affine: $sgn(\lambda_{1})\hat{y}_{1}^2 + \dots + sgn(\lambda_{2})\hat{y}_{r}^2 - \hat{y}_{r+1} =0$
 
 
->[!oss]
+>[!remark]
 >Per determinare il tipo affine è sufficiente determinare:
 > $$ r(A), r([A|-\mathbf{b}]), \sigma(A) \text{ segnatura di }A \text{ e il segno di $\hat{c}$ nel caso di ranghi uguali} $$ 
 > Moltiplicando per $-1$ l'equazione descrive la stessa quadrica. Quindi ad ogni tipo affine rimangono associate due coppie di segnature e di segni di $\hat{c}$
@@ -130,7 +130,7 @@ Definiamo: #cheatsheet
 2. $I_{2} = \det(A) = \det(\hat{A}) = \lambda_{1}\lambda_{2}$ invariante quadratico
 3. $I_{3}= \det(B) = \det(\hat{B})$ invariante cubico
 
->[!oss]
+>[!remark]
 >Se moltiplichiamo per una costante $k$ l'equazione di una conica $I_{1}$ viene moltiplicato per $K,I_{2}$ viene moltiplicato per $k^2$ e $I_{3}$ viene moltiplicato per $k^3$
 
 

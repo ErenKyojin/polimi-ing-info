@@ -4,14 +4,14 @@ creation date: 2023-04-28 15:21
 modification date: 2023-04-28 15:21
 ---
 
->[!def]
+>[!definition]
 >Un **reticolo** è un [[insiemi parzialmente ordinati|insieme parzialmente ordinato]] tale che per ogni sua coppia di elementi $a,b$ esistono $\inf\{ a,b \}$ e $\sup\{ a,b \}$
 
 
 insieme con intersezione e unione
 
 
->[!def] reticolo come anello
+>[!definition] reticolo come anello
 >$\left< A, \cap, \cup \right>$ si dice reticolo se
 >1. $a \cap b = b \cap a; a \cup b = b \cup a \forall a,b \in A$
 >2. $(a \cap b) \cap c = a \cap (b \cap c); (a \cup b) \cup c = a \cup (b \cup c)\quad \forall a,b,c \in A$

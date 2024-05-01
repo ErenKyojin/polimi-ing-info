@@ -1,7 +1,7 @@
 # Calcolo differenziale
 Vediamo e riflettiamo sui problemi che hanno portato al calcolo differenziale
 
->[!esempio] Cos'è la retta tangente in un punto ad una curva?
+>[!example] Cos'è la retta tangente in un punto ad una curva?
 >Geometricamente il concetto sembra intuitivo, non è ovvia invece la definizione. Data la più semplice curva, ossia una circonferenza, di cui conosciamo la definizione di tangente in un punto $P$:
 >1. La retta passante per $P$ e perpendicolare al raggio passante $P$.
 >2. La retta passante per $P$ e che non interseca la circonferenza in altri punti

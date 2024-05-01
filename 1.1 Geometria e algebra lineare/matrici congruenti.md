@@ -8,15 +8,15 @@ $$
 Esiste un cambiamento di coordinate chhe trasferisce una forma quadratica in una del tipo $(*)$ forma quadratica data in una del tipo $(*)$?
 Sia $S \in M_{\mathbb{R}(n,n)}$ invertibile. Posto $\mathbf{x} = S\mathbf{y}$ si ha che
  $$ q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} = (S\mathbf{y})^T A (S\mathbf{y}) = \mathbf{y}^T (S^TAS)\mathbf{y}B = \overline{q}(\mathbf{y})$$
->[!def]
+>[!definition]
 >Una matrice simmetrica $B \in M_{\mathbb{R}}(n,n)$ si dice congruente ad $A$ se esiste $S \in M_{\mathbb{R}(n,n)}$ invertibile tale che $B = S^TAS$
 
 
->[!oss]
+>[!remark]
 >Due matrici simmetriche congruenti rappresentano la stessa forma quadratica rispetto a coordinate diverse, quindi hanno lo stesso segno. La congruenza è una [[relazione di equivalenza]]. In generale due matrici simili non sono congruenti e viceversa, Tuttavia se la matrice di passaggio è ortogonale allora $S^T = S^{-1}$ e $B =S^TAS = S^{-1}AS$ quindi $B$ è sia congruente che simile ad $A$. Il [[teorema spettrale]] cgarantisce l'esistena di una matrice di passaggio ortogoanle che fornisce il cambiamento di coordinate per trasformare una forma quadratica assegnata in una forma qudaratica del tipo $(*)$ ove $d_{1},\dots,d_{n}$ sono gli [[Autovalori e Autovettori|autovalori]] della matrice associata alla forma quadratica, quindi il segno di tali autovalori determina il segno della forma quadratica
 
 
->[!Proposizione]
+>[!proposition]
 >Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} \forall \mathbf{x} \in \mathbb{R}$ allora
 >1. se $\mathbf{v}$ è autovettore di $A$ allora $q(\mathbf{v}) = \lambda \|\mathbf{v}\|^2$
 >2. se $\lambda_{\min}$ e $\lambda_{\max}$ sono gli autovalori minimo e massimo di $A$ allora $\lambda_{min} \|\mathbf{x}\|^2 \leq(\mathbf{x}) \leq \lambda_{\max}\|\mathbf{x}\|^2$ 
@@ -34,7 +34,7 @@ Sia $S \in M_{\mathbb{R}(n,n)}$ invertibile. Posto $\mathbf{x} = S\mathbf{y}$ si
 >> \lambda_{min} \lvert \lvert \mathbf{x} \rvert  \rvert ^2 \leq q(\mathbf{x}) \leq \lambda_{max}\lvert \lvert \mathbf{x} \rvert  \rvert ^2
 >>\end{align} $$
 >
->>[!corollario]
+>>[!corollary]
 >>Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x}$ allora
 >>1. $q(\mathbf{x})$ è definita positiva (rispettivamente definita negativa) se e solo se tutti gli autovalori di $A$ sono strettamente positivi (rispettivamente negativi)
 >>2. $q(\mathbf{x})$ è semidefinita positiva se e solo se gli autovalori di $A$ sono $\geq 0$ e uno di essi è nullo
@@ -79,7 +79,7 @@ $q(\mathbf{x})$ è indefinita
 
 * Caso $n \geq 3$. Data $A \in M_{\mathbb{R}(n,n)}$, un minore principale è il determinante di una sottomatrice che si ottiene eliminando da $A$ le stesse righe e colonne. Un minore principale di nord-ovest di ordine $k$ è il determinante della sottomatrice che si ottiene elmininando le ultime $n -k$ righe e colonne di $A$
 
->[!proposizione] Segno di una matrice e minori principali
+>[!proposition] Segno di una matrice e minori principali
 >Sia $A \in M_{\mathbb{R}(n,n)}$ simmetria allora
 >1. $A$ è definita positiva $\iff$ tutti i minori principali di N.O. sono positivi
 >2. $A$ è semidefinita positiva se tutti i minori principali sono $\geq 0$ ed almeno un minore di N.O. è nullo
@@ -97,7 +97,7 @@ $q(\mathbf{x})$ è indefinita
 >La terna $(s,t,n-t-s)$ si chiama **segnatura** di $A$ o della forma quadratica $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x}$. Se $\sigma(A) = (s,t,n-t-s)$ allora esiste $S \in M_{\mathbb{R}(n,n)}$ invertibile tale che posto $\mathbf{x} = S\mathbf{y}$ si ha:
 > $$ q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} = (S\mathbf{y})^TA(S\mathbf{y}) = \mathbf{y}^T S^T AS \mathbf{y} = y_{1}^2 + \dots + y_{s}^2 - y_{s+1}^2 - \dots - y^2_{s+t}$$
 
->[!oss]
+>[!remark]
 > Determinare la segnatura di una matrice significa simmetrica significa stabilire il suo segno. Data $A \in M_{\mathbb{K}(n,n)}$ simmetrica:
 > 1. $A$ è definita positiva se $\sigma(A) = (n,0,0)$
 > 2. $A$ è definita negativa se $\sigma(A) = (0,n,0)$
@@ -105,7 +105,7 @@ $q(\mathbf{x})$ è indefinita
 > 4. $A$ è indefinita se $\sigma(A) = (s,t,n-t-s)$ con $s > 0$ e $t > 0$
 
 
->[!oss]
+>[!remark]
 >Il sottospazio generato dagli autovettori associati ed autovalori positivi è tale per cui $q(\mathbf{x})$ ristretta a questo sottospazio è positiva. La dimensione di tale sottospazio è $s$. Non esistono sottospazi che abbiano dimensione maggiore di $s$ sopra i quali $q(\mathbf{x})$ è definita positiva. Tuttavia il sottospazio di dimensione $s$ sopra cui $q(\mathbf{x})$ ë definita positiva puó non essere unico.
 >Ad esempio: $q(x,y) = x^2 - y^2$ è definita positiva su tutte le rette $y = mx$ con $|m| < 1 (q(x,mx)=(1-m^2)x^2)$. Un ragionamento analogo vale per il sottospazio generato dagli autovettori relativi ad autovalori negativi 
 

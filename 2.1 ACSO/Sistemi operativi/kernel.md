@@ -6,7 +6,7 @@
 > glibc libreria [[gnu]] per il C
 
 
->[!esempio] Invocazione del servizio read()
+>[!example] Invocazione del servizio read()
 >1. Programma -> read(fd, buf, len)
 >2. read(fd, buf, len) -> syscall(sys_read, fd, buf, len) 
 >3. syscall():
@@ -24,7 +24,7 @@ Passiamo da modalità U a modalità S dopo la SYSCALL (maiuscola)
 
 ## Wake Up
 
->[!esempio]
+>[!example]
 >```c
 >void wake_up(wait_queue_head_t * wq) {
 >	for each task in waitqueue wq {

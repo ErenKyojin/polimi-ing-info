@@ -1,11 +1,11 @@
 # massimi e minimi
->[!def]
+>[!definition]
 >Si dice che $M$ è massimo di una [[Funzioni|funzione]] $f$ in $[a,b]$ è punto di massimo se
 >$$f(x_0) = M \geq f(x),\quad \text{ per ogni } x \in [a,b]$$
 
 Analogo per il minimo, ci sono poi gli estremi locali
 
->[!def]
+>[!definition]
 >Si dice che $M$ è un massimo locale (o relativo) per $f$ e che $x_0$ è un punto di massimo locale se:
 >Esiste un intervallo $(x_0-\delta, x_0 + \delta)$ tale che $M = f(x_0) \geq f(x)$ per ogni $x \in (x_0-\delta, x_0+\delta)\cap[a.b]$
 
@@ -15,7 +15,7 @@ Notiamo che:
 - minimo e massimo globale di $f$ se esistono sono unici
 - Massimi e minimi locali possono essere più di uno, ed ogni estremo globale lo è anche locale
 
->[!esempio]
+>[!example]
 >![[E197D5D5-E828-482F-BCDB-06CA2C452391.jpeg]]
 > La funzione a sinistra ha:
 > - Massimo globale in $M = f(x_2)$, $x_2$ unico punto di massimo globale

@@ -3,11 +3,11 @@ aliases:
 creation date: 2024-02-23
 ---
 
->[!def]
+>[!definition]
 >Impresa che produce vari prodotti "imparentati"
 
 ^67a720
 
 
->[!esempio]
+>[!example]
 >azienda che produce patatine fritte

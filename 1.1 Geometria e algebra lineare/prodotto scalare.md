@@ -1,9 +1,9 @@
->[!def]
+>[!definition]
 >$\mathbf{v} \cdot \mathbf{w} = \|\mathbf{v}\| \cdot \|\mathbf{w}\| \cos(\alpha)$ se $\mathbf{v} \neq \mathbf{0}$ e $\mathbf{w} \neq \mathbf{0}$
 >Se $\mathbf{v} = \mathbf{0}$ o $\mathbf{w}=\mathbf{0}$ allora $\mathbf{v} \cdot \mathbf{w} = 0$ e si puó indicare con $<\mathbf{v},\mathbf{w}>$
 
 
->[!oss]
+>[!remark]
 >Sia ${\mathbf{i},\mathbf{j},\mathbf{k}}$ una base ortonormale dello spazio. Se $\mathbf{v}$ ha coordinate $x,y,z \in \mathbb{R} ; \mathbf{v} = x \mathbf{i} + y \mathbf{j} + z \mathbf{k}$ allora:
 > $$ x = \mathbf{v} \cdot\mathbf{i} , y = \mathbf{v} \cdot \mathbf{j} , z = \mathbf{v} \cdot\mathbf{k}$$
 
@@ -16,7 +16,7 @@
    
 3. **Positività**: $\mathbf{v} \cdot \mathbf{v} = \|\mathbf{v}\| \cdot \|\mathbf{v}\| \cos(0) = \|\mathbf{v}\|^2 \geq 0$  e l'uguaglianza vale solo se $\mathbf{v} = \mathbf{0}$
 
->[!proposizione] Prodotto scalare in coordinate
+>[!proposition] Prodotto scalare in coordinate
 >Sia $\left\{ \mathbf{i},\mathbf{j},\mathbf{k} \right\}$ una base ortonormale e siano $\mathbf{v}_{1},x_{1}\mathbf{i} + y_{1}\mathbf{j} + z_{1}\mathbf{k}$ e $\mathbf{v}_{2} = x_{2}\mathbf{i} + y_{2}\mathbf{j} + z_{2}\mathbf{k}$ due vettori allora $\mathbf{v}_{1} \cdot \mathbf{v}_{2} = x_{1} x_{2} + y_{1}y_{2} + z_{1}z_{2}$
 >
 >>[!dim]
@@ -27,7 +27,7 @@
 >> $\CVD$
 
 
->[!oss]
+>[!remark]
 >1. Con il prodotto scalare possiamo calcolare tutto quello introdotto fino ad ora:
 > 	1. $\|\mathbf{v}\| = \sqrt{ \mathbf{v} \cdot \mathbf{v} }$
 > 	2. $\cos(\alpha) = \frac{\mathbf{v} \cdot \mathbf{w}}{\|\mathbf{v}\|\|\mathbf{w}\|}$

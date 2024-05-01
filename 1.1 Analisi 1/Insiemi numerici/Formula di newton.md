@@ -62,6 +62,6 @@ k
 \end{align} $$
 
 
->[!esempio]
+>[!example]
 > - numero di anagrammi con k lettere "a"  e n - k lettere "b" è il coefficiente binomiale 
 > - Insieme di $n$ elementi di lunghezza fissa $k$ ha cardinalità pari al coefficiente binomiale di $n$ su $k$

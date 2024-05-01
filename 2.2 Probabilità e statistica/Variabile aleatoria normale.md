@@ -32,7 +32,7 @@ $$
 \end{document}
 ```
 
->[!def]
+>[!definition]
 >Una [[Variabile aleatoria]] assolutamente continua $X$ con densità
 >$$ f(x) = \frac{1}{\sqrt{ 2\pi \sigma^2 }}e^{-(x-\mu)^2/2\sigma^2} $$
 >è detta **variabile aleatoria normale** o **gaussiana** di parametri $\mu$ e $\sigma^2$ e si indica $X \sim \mathcal{N}(\mu,\sigma^2)$
@@ -41,7 +41,7 @@ $$
 
 È la funzione densità di probabilità (PDF) migliore per la [[Teoria degli errori]], ed è stata inizialmente sfruttata per l'ottima approsimazione della [[variabile aleatoria binomiale|variabile aleatoria binomiale]] quando $n$ è alto.
 
->[!Oss]
+>[!remark]
 >Una variabile aleatoria normale è simmetrica rispetto a $\sigma$
 
 
@@ -62,7 +62,7 @@ Questo teorema afferma che, per $n$ abbastanza grande (l'approssimazione inzia a
 
 ## Somma di variabili aleatorie normali indipendenti
 
->[!proposizione]
+>[!proposition]
 >Date $X_{i}, i = 1,\dots,n$ variabili aleatorie che seguono la distribuzione normale di parametri $\mu_{i}, \sigma^2_{i}$, allora $\sum_{i=1}^n X_{i}$ è una variabile aleatoria normale di parametri $\sum_{i=1}^n \mu_{i}, \sum_{i=1}^n \sigma^2_{i}$
 >
 >>[!dim]

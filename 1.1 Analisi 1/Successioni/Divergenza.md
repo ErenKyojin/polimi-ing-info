@@ -1,6 +1,6 @@
 # Divergenza
 
->[!def] Definizione metrica limite infinito - Divergenza
+>[!definition] Definizione metrica limite infinito - Divergenza
 >$\{a_n\}$ tende a $+\infty$ ($\lim a_n = +\infty\qquad a_n\rightarrow+\infty$)
 >se
 >$\forall\ k>0, \exists\ n_k \in \mathbb N : \forall n > n_k, a_n < -k$

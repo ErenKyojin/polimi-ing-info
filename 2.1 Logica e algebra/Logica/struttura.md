@@ -4,12 +4,12 @@ creation date: 2023-05-11 16:13
 modification date: 2023-05-11 16:13
 ---
 
->[!def]
+>[!definition]
 >Una **struttura** (o interpretazione) è una coppia $\left< D,I \right>$ dove 
 >- $D$ è un [[insieme]] detto dominio
 >- $I$ è formato da tre [[Funzioni]] $I_{1},I_{2},I_{3}$ che associano rispettivamente ad ogni costante un elemento di $D$, ad ogni lettera funzionale con apice $n$ una operazione di arità $n$ su $D$, ad ogni lettera predicativa con apice $n$ una [[Relazioni|relazione]] di arità $n$ su $D$.
 
->[!esempio]
+>[!example]
 >Sia $L$ un [[linguaggio del primo ordine]], contenente le costanti $a,b,c$, le variabili $x,y$ le lettere funzionali $f_{1}^1,f_{1}^2,f_{2}^2$ e le lettere predicative $\mathcal{A}_{1}^2,\mathcal{A}_{2}^2$, una interpretazione per le formule di tale linguaggio si ottiene ad esempio fissando come [[polimi-ing-info/2.1 Analisi 2/dominio|dominio]] l'insieme dei [[numeri naturali]] $N$, come costante $a$ il numero $1$, come costante $b$ il numero $2$, come costance $c$ il numero $3$, come lettera funzionale $f_{1}^1$ l'operazione di arità $1$ che associa ad ogni numero il suo successivo, come lettera funzionali $f_{1}^2$ e $f_{2}^2$ rispettivamente le operazioni di prodotto e somma, come lettere predicative $\mathcal{A}_{1}^2$, $\mathcal{A_{2}^2}$ rispettivamente le relazioni di [[Uguaglianza]] e di minore. In tale interpretazione la formula $\mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x))$ si legge come $x \cdot y = 1 + x$,
 >$$ \mathcal{A}_{2}^2(a,b) \lor \exists y \mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x))\implies \forall x(\sim \mathcal{A_{1}^2}(f_{1}^2(x,f_{2}^2(a,x)),b)\land \mathcal{A_{2}^2(x,x)}) $$
 >si legge come "Se $1$ è minore di $2$ o esiste un numero naturale $y$ tale che $x \cdot y = 1 + x$, allora per ogni numero naturale $x$ è $x \cdot (1 + x) \neq 2$ e $x < x$.
@@ -24,7 +24,7 @@ $s* : \text{Ter} \to D$
 Fissato un assegnamento di valori in $D$ alle variabili, possiamo dire se per i valori assegnati alle variabili una formula atomica è soddisfatta o no. Più precisamente:
 - Data una formula atomica $\mathcal{A}_{i}^n(t_{1},t_{2},\dots,t_{n})$ ed una interpretazione $\left< D,I \right>$ un assegnamento $s$ di valori alle variabili che occorrono nella formula sodddisfa la formula $\mathcal{A}_{i}^n (t_{1},t_{2},\dots,t_{n})$ se la $n$-upla $(s^*(t_{1}),s^*(t_{2}),\dots,s^*(t_{n}))$ di elementi di $D$ appartiene alla relazione $I_{3}(\mathcal{A}_{i}^n)$ che interpreta la lettera $\mathcal{A}_{i}^n$
 
->[!esempio]
+>[!example]
 >$\mathcal{A}_{1}^2(f_{1}^2(x,y),f_{2}^2(a,x))$ nella interpretazione sopra descritta è soddisfatta se si assegnano ad $x$ e ad $y$ per decidere se un assegnamento $s$ di valori alle variabili di $\mathcal{A}$ soddisfa la formula dobbiamo considerarne la struttura:
 >- Se la formula $\mathcal{A}$ è del tipo $\sim \mathcal{B}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se $s$ non soddisfa $\mathcal{B}$
 >- Se la formula $\mathcal{A}$ è del tipo $\mathcal{B} \land \mathcal{C}$, l'assegnamento $s$ soddisfa $\mathcal{A}$ se e solo se $s$ soddisfa sia $\mathcal{B}$ sia $\mathcal{C}$
@@ -36,7 +36,7 @@ Fissato un assegnamento di valori in $D$ alle variabili, possiamo dire se per i 
 
 In questo modo la valutazione di una formula è sempre riportata alla valutazione di formule più semplici ed il procedimento si può iterare fino ad arrivare alla valutazione di formule atomiche.
 
->[!def]
+>[!definition]
 >Dati un [[Linguaggio]] del primo ordine, una sua interpretazione ed una [[formule ben formate|f.b.f.]] $\mathcal{A}$
 >- $\mathcal{A}$ si dice **soddisfacibile in quella interpretazione** se esiste una assegnamento di valori di variabili che soddisfa la f.b.f.
 >- $\mathcal{A}$ si dice **vera in quell'interpretazione** se ogni assegnamento di valori alle variabili soddisfa la f.b.f. $\mathcal{A}$.
@@ -47,7 +47,7 @@ In questo modo la valutazione di una formula è sempre riportata alla valutazion
 
 
 
->[!oss]
+>[!remark]
 >$\mathcal{A}$ è logicamente valida se e solo se $\sim\mathcal{A}$ è insoddisfacibile
 
 Una [[formula chiusa]] in una data interpretazione non può essere soddisfacibile ma non vera, inoltre è facile verificare che data una f.b.f. $\mathcal{A}$ ed una interpretazione $\left< D,I \right>$
@@ -65,17 +65,17 @@ Sia $\Gamma$ un insieme di f.b.f.
 - Le f.b.f. $\mathcal{A}$ e $\mathcal{B}$ sono semanticamente equivalenti ($\mathcal{A} \equiv \mathcal{B}$) se $\mathcal{A}\vDash \mathcal{B}$ e $\mathcal{B} \vDash \mathcal{A}$
 	- Osserviamo che le f.b.f. $\mathcal{A}$ e $\mathcal{B}$ sono semanticamente equivalenti se e solo se la f.b.f. $\mathcal{A} \iff \mathcal{B}$ è una f.b.f. logicamente valida.
 
->[!esempio]
+>[!example]
 >Dire se la formula $\exists x (\mathcal{A}_{1}^2(x,y) \land \mathcal{A}_{1}^2(x,z)) \implies \forall t\ \forall v \ \mathcal{A}_{1}^2(x,f_{1}^2(f_{2}^2(y,t),f_{2}^2(z,v)))$ è vera, falsa o soddisfacibile nella interpretazione che ha come dominio l'insieme $Z$ degli interi relativi, in cui $f_{1}^2,f_{2}^2$, sono le operazione di somma e prodotto, e $\mathcal{A}_{1}^2$ è la relazione di minore.
 >In tale interpretazione l'antecedente dice che esiste un intero minore di $y$ e minore di $z$ ed è soddisfatto da ogni assegnamento, infatti qualsiasi valore diamo ad $y$ e a $z$ troviamo un intero relativo minore di entrambi quei valori, dunque l'antecedente è vero. Il conseguente dice che, qualsiasi valore diamo a $t$ e $v$, si ha $x < yt + zv$. Dunque il conseguente è falso e la formula è falsa in questa interpretazione. Le sue chiusure universali ed esistenziali sono quindi entrambe false in questa interpretazione.
 >La formula non è logicamente valida visto che abbiamo una interpretazione in cui non è vera.
 >Potremmo chiederci se è insoddisfacibile (o logicamente contraddittoria). A tal scopo consideriamo una interpretazione così fatta: dominio qualsiasi, $f_{1}^2,f_{2}^2$ operazioni qualsiasi sul dominio, $\mathcal{A}_{1}^2$ relazione universale sul dominio. In tale interpretazione il conseguente è sempre vero e dunque la formula è vera. La formula dunque non è insoddisfacibile
 
->[!esempio]
+>[!example]
 >Mostrare che la f.b.f. $\exists x (\mathcal{A}(x) \land \mathcal{B}(x)) \iff \exists x \mathcal{A}(x) \land \exists x \mathcal{B(x)}$ non è logicamente valida.
 >Basta considerare un'interpretazione con dominio $N$ dove $\mathcal{A}(x)$ sia la formula atomica "$x$ è pari" e $\mathcal{B}(x)$ sia la formula atomica $x$ è dispari. In tale interpretazione $\exists x(\mathcal{A}(x) \land \mathcal{B}(x))$ è falsa, mentre $\exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$ è vera. Ne consegue anche che le due formule $\exists x (\mathcal{A}(x)\land \mathcal{B}(x))$, $\exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$ non sono semanticamente equivalente
 
->[!esempio]
+>[!example]
 >Mostrare che la f.b.f. $\exists x(\mathcal{A}(x) \land \mathcal{B}(x)) \implies \exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$ è logicamente valida.
 >Si considerino una interpretazione ed un assegnamento $s$ che soddisfi $\exists x(\mathcal{A}(x) \land \mathcal{B}(x))$ nell'interpretazione data, allora esiste un assegnamento $s'$ che differisce da $s$ al più per il valore dato ad $x$ che soddisfa $\mathcal{A}(x) \land \mathcal{B}(x)$ quindi soddisfa entrambe le formule $\mathcal{A}(x),\mathcal{B}(x)$ dunque $s$ soddisfa $\exists x \mathcal{A}(x)$ e $\exists x \mathcal{B}(x)$ ep ertanto soddisfa $\exists x \mathcal{A}(x) \land \exists x \mathcal{B}(x)$. Dunque la formula $x\mathcal{A}(x) \land \exists x \mathcal{B}(x)$ è conseguenza semantica di $\exists x(\mathcal{A}(x) \land \mathcal{B}(x))$
 

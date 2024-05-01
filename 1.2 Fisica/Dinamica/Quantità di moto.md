@@ -19,7 +19,7 @@ $\vec{p} = m\vec{v}$
 
 
 
->[!def]
+>[!definition]
 >Un sistema di $n$ punti materiali si dice isolato quando non è soggetto a interazioni con l'esterno, cioè gli $n$ punti materiali interagiscono solo fra di loro e non con altri. Diciamo anche che essi sono soggetti alla mutua interazione
 
 
@@ -43,7 +43,7 @@ In un sistema inerziale un punto materiale non soggetto ad interazioni si muove 
 Se invece la quantità di moto di un punto materiale varia, significa che esso è soggetto ad interazioni
 
 ## Quantità di moto in un sistema di punti materiali
->[!def] Quantità di moto di un sistema di $n$ punti materiali
+>[!definition] Quantità di moto di un sistema di $n$ punti materiali
 >La quantità di moto totale del sistema è per definizione la somma delle quantità di moto dei singoli punti materiali:
 > $$ \vec{p} \equiv \sum_{i = 1}^n \vec{p}_{i} $$
 

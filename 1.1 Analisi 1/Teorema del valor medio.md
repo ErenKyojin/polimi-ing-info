@@ -8,7 +8,7 @@ Pensiamo di fare un viaggio da $A$ a $B$, distanti tra loro $200 \text{km}$, ci 
 >Sia $f$ derivabile in $(a,b)$ e continua in $[a,b]$. Allora
 >$$\fbox{$\text{esiste }c \in (a,b)\quad\text{tale che}\quad\frac{f(b)-f(a)}{b-a} = f'(c)$}$$
 >
->>[!esempio]
+>>[!example]
 >>![[FD9C7F18-AC1B-4439-87FC-0CAB69817274.jpeg]]
 >>Significato grafico del teorema,
 >>- $\dfrac{f(b)-f(a)}{b-a} =$ pendenza della retta $AB$ 

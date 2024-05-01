@@ -1,5 +1,5 @@
 
->[!def]
+>[!definition]
 >Data una [[funzione di trasferimento|FdT]] $G(s)$
 >$b$ sua restrizione al suo semiasse positivo $y^+$ si dice **RISPOSTA IN FREQUENZA** (RF) di $G(S)$
 
@@ -49,7 +49,7 @@ Piani complessi
 ```
 
 Si tratta di un asse [[Logaritmo]], pari distanza significa pari rapporto
->[!def]
+>[!definition]
 >$x|_{dB} := 20 \log_{10}|x|$
 >$100|_{dB} = 40;\quad 0.1|_{dB} = -20,$
 
@@ -72,7 +72,7 @@ $$\large G(s)= \frac{\fcolorbox{red}{}{ $ \mu $}}{s^{\fcolorbox{yellow}{}{ $ g $
 - $\omega, \sigma$: frequenze naturali
 - $\xi, I$ frequenze di smorzamento
 
->[!esempio]
+>[!example]
 > $$
 > G(s) = \frac{s+2)(s^2 - 3s + 2}{s^3 + 4s^2 + s}
 >$$
@@ -265,7 +265,7 @@ la distanza tra il centro e le radici è $\omega_n$
 $|G_{d}| \to \infty$ come $\omega ^2$ e 
 $\angle G_{d} \to 180$
 
->[!oss]
+>[!remark]
 > $|j\omega - s_{2}|$ è monotona crescente
 > $|j\omega - s_{1}|$ ha un minimo
 >

@@ -4,7 +4,7 @@ creation date: 2023-03-29 10:36
 modification date: 2023-03-29 10:36
 ---
 
->[!oss]
+>[!remark]
 >$T = \frac{L}{1+L} = \frac{Y}{W}$
 >$S = \frac{1}{1 + L} = \frac{Y}{D_{a}}$
 >$\frac{Y}{D_{r}} = -\frac{L}{1+L} = -T$, quindi a meno del segno $w$ e $d_{r}$ hanno lo stesso effetto su $y$
@@ -35,11 +35,11 @@ con $e_{\infty}$ detto errore a regime o errore a [[transitorio]] esaurito.
 
 Si richiede tipicamente $e_{\infty} = 0$ o $|e_{\infty}| < tot$
 
->[!oss]
+>[!remark]
 >Si può estendere a ingressi canonici
 
 
->[!esempio]
+>[!example]
 > ```tikz
 >\begin{document}
 >\begin{tikzpicture}

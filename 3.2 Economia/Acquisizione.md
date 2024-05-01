@@ -3,7 +3,7 @@ aliases: Fusione
 creation date: 2024-02-19
 ---
 
->[!def]
+>[!definition]
 >L'impresa viene assorbita da un'altra impresa
 
 

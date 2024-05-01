@@ -7,7 +7,7 @@ modification date: 2023-07-07 09:14
 In un sistema di particelle abbiamo $3N$ gradi di libertà, dove $N$ è il numero di particelle.
 Inoltre abbiamo 6 equazioni scalari dalle equazioni della dinamica, e abbiamo quindi solo 7 condizioni.
 
->[!def] corpo rigido
+>[!definition] corpo rigido
 >
 >un corpo rigido è un sistema di punti nel quale le distanze relative fra i punti sono fisse
 >
@@ -73,7 +73,7 @@ Considerando invece il secondo termine:
 $$ -(\vec{r}_{CM} \times \vec{v}_{CM}) \iiint \d m = - (\vec{r}_{CM} \times \vec{v}_{CM})M $$
 quindi $$\vec{L}_{CM} = M \vec{r}_{CM} \times \vec{v}_{CM} - (\vec{r}_{CM} \times \vec{v}_{CM} M) = 0$$.
 Possiamo quindi affermare che:
-> [!proposizione]
+> [!proposition]
 > In un moto puramente traslatorio di un corpo rigido, il momento angolare rispetto al centro di massa è nullo
 
 ### Moto unicamente rotatorio rispetto ad un asse fisso di un corpo rigido

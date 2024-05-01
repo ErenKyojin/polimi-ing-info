@@ -21,7 +21,7 @@ Gli elementi neutri:
 - $(m, n) \cdot (1, 0) = (m, n)$
 - $(m,n)+(n,m) = (0,0)$
 
->[!esempio]
+>[!example]
 >$(5,2) = (3,0)$
 >$(4,9) = (0, 5)$
 

@@ -3,7 +3,7 @@ aliases:
 creation date: 2023-12-06
 ---
 
->[!def]
+>[!definition]
 >Si definisce come prodotto di classi di equivalenza il prodotto di [[Laterale|laterali]]
 >$\left< A, \cdot \right>$ gruppo $\rho$ congruenza $\rho_{e} = N \vartriangleleft A$
 >$$ \frac{A}{N} = \{ Na_{i} : a \in A \} $$

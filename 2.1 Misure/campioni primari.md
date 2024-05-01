@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 > Realizzano l'unità con i migliori livelli di accuratezza praticamente ottenibili
 
 

@@ -2,13 +2,13 @@
 
 
 ## Limite destro e sinistro
->[!DEF]
+>[!definition]
 >- Limite destro
 >$a_n \rightarrow L^+$ se $a_n \rightarrow L \Longrightarrow a_n \geq L$ definitivamente
 > - Limite sinistro
 > $a_n \rightarrow L^-$ se $a_n \rightarrow L \Longrightarrow a_n \leq L$ definitivamente
 
->[!Esempio]
+>[!example]
 >$\{a_n\} = \frac{1}{n} \rightarrow 0^+$, tende a $0$ da sopra
 >
 >Anche la serie: $1, 0, \frac{1}{2},0,\frac{1}{3},0... \longrightarrow 0^+$
@@ -48,7 +48,7 @@
 >$\Rightarrow |a_n - A| < \varepsilon\qquad A-\varepsilon < a_n < A < A\varepsilon$
 >$|a_n|<|A|$ 
 
->[!oss]
+>[!remark]
 >Non necessariamente una successione limitata appartenente a $\mathbb Q$ ha limite $\in \mathbb Q$, un esempio è la successione $\lbrace a_n \rbrace$
 >$$
 >\begin{flalign}
@@ -79,7 +79,7 @@
 
 
 Possiamo definirlo più sinteticamente:
->[!def] Definizione successionale di limite
+>[!definition] Definizione successionale di limite
 >$$\lim_{x\to c}f(x) = l$$
 >Con $c$ ed $l\in \mathbb R^*$
 >Se per ogni successione $\{x_n\}$ di punti $\in I$ diversi da $c$, tale che $x_n\to c$ si ha che $f(x_n)\to c$ per $n\to\infty$
@@ -112,19 +112,19 @@ Quando una funzione ha limite finito $l$, talvolta è possibile precisare se que
 Il significato grafico di quest'espressione è uguale all'avvicinarsi dal grafico rispettivamente dall'alto o dal basso alla quota $l$.
 La definizione rigorosa è:
 
->[!def]
+>[!definition]
 >Se $l\in\mathbb R$ e $c\in\mathbb R^*$ si dice che
 >	$$\lim_{x\to c}f(x) = l^+ \quad(\text{rispettivamente } l^-)$$
 >	E in questo caso si dice che $f(x)$ end e a $l$ per eccesso (per difetto) per $x$ tendente a $c$, se per ogni successione $\{x_n\}$ di punti di $I$ diversi da $c$, tale che $x_n\to c$, si ha che $f(x_n)\to l^+$ (rispettivamente $l^-$) per $n\to\infty$.
 >	Inoltre osserviamo come affermare che $f(x_n)\to l^+$ significa che $f(x_n)\to l$ e inoltre $f(x_n) \geq l$ definitivamente
 >
->>[!esempio]
+>>[!example]
 >>$$\lim_{x\to -\infty}e^x = 0$$
 
 Notiamo che $0^+$ e $0^-$ NON indicano due numeri differenti, a loro volta diversi da zero, il limite è sempre zero, ma aggiunge informazioni sulla parte da cui stiamo approcciando il punto
 
 Inoltre non tutti i limiti possono essere necessariamente descritti per eccesso o per difetto:
->[!esempio]
+>[!example]
 >$$\lim_{x\to\infty}\frac{\sin x}{x}$$
 >Semplicemente $0$ 
 >```desmos-graph
@@ -136,7 +136,7 @@ Y=\frac{\sin x}{x}
 Una funzione si comporta diversamente a seconda che $x$ si avvicina a $c$ da destra o da sinistra, ad esempio consideriamo la funzione $\frac{1}{x}$ per $x\to 0$ tende a $+\infty$ o $-\infty$ a seconda che $x$ sia $>$ o $<$ di 0.
 Per queste situazioni si definiscono il limite destro e sinistro.
 
->[!def]
+>[!definition]
 >Se $c\in\mathbb R$ e $l \in \mathbb R^*$ si dice che
 >$$\lim_{x\to c^+}f(x) = l\qquad (\text{rispettivamente, }\lim_{x\to c^-}f(x)=l)$$
 >
@@ -170,7 +170,7 @@ Questo ci porta sul discorso della [[polimi-ing-info/2.1 Analisi 2/Continuità]]
 ### non esistenza del limite
 Il limite di una funzione può anche non esistere
 
->[!esempio]
+>[!example]
 >$$\lim_{x\to+\infty}\sin x\qquad\text{non esiste}$$
 >Per dimostrarlo, ci basta, sempre rifacendosi alla definizione successionale del limite, trovare due successioni divergenti  a $+\infty\{x_n\},\{y_n\}$ tali che $\sin x_n \neq \sin y_n$ 
 >Ad esempio
@@ -180,7 +180,7 @@ Il limite di una funzione può anche non esistere
 
 Possiamo quindi introdurre una nuova definizione di limite, ma prima dobbiamo approfondire il concetto di [[intorno]] e di [[definitivamente]]
 
->[!def] Definizione topologica di limite
+>[!definition] Definizione topologica di limite
 >Sia $c\in \mathbb R^*$ e sia $f$ una funzione definita almeno definitivamente per $x\to c$ si dice che
 >$$\lim_{x\to c}f(x) = l\qquad(\text{ con l }\in \mathbb R^*)$$
 >se per ogni intorno $U_l$ di $l$ esiste un intorno $V_c$ take che:

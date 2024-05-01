@@ -2,13 +2,13 @@
 
 
 ## Limite destro e sinistro
->[!DEF]
+>[!definition]
 >- Limite destro
 >$a_n \rightarrow L^+$ se $a_n \rightarrow L \Longrightarrow a_n \geq L$ definitivamente
 > - Limite sinistro
 > $a_n \rightarrow L^-$ se $a_n \rightarrow L \Longrightarrow a_n \leq L$ definitivamente
 
->[!Esempio]
+>[!example]
 >$\{a_n\} = \frac{1}{n} \rightarrow 0^+$, tende a $0$ da sopra
 >
 >Anche la serie: $1, 0, \frac{1}{2},0,\frac{1}{3},0... \longrightarrow 0^+$

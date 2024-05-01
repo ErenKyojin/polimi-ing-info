@@ -17,7 +17,7 @@ graph LR
 ```
 
 
->[!esempio] Esempio intersezione
+>[!example] Esempio intersezione
 >```mermaid
 >graph LR
 >  i_s ---> s0

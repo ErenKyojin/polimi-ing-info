@@ -4,7 +4,7 @@ Se conosco $u(t)$ sull'intervallo $[t_{0},t]$ queso mi basta per conoscere $y(t)
 - Si $\implies$ sistema **non dinamico**
 - No $\implies$ sistema **dinamico**
 
->[!esempio] Esempio 1
+>[!example] Esempio 1
 > ![[Segnali.canvas]]
 > $y(t) = \frac{1}{R}v(t)$
 > Quindi $u(t)$ su $[t_{0},t] \implies$ noto $y(t)$ su $[t_{0},t]$ quindi il sistema non è dinamico
@@ -13,27 +13,27 @@ Se conosco $u(t)$ sull'intervallo $[t_{0},t]$ queso mi basta per conoscere $y(t)
 >
 
 
->[!esempio] Esempio 2
+>[!example] Esempio 2
 >
 >[[circuito RC]]
 >Per conoscere $y(t)$ su $[t_{0},t]$ mi ocorrono $u(t)$ su $[t_{0},t]$ e la condizione iniziale $y(t_{0})$ tensione iniziale sul [[condensatore]]. Sistema dinamico.
 
->[!esempio] Esempio 3
+>[!example] Esempio 3
 >Sistema massa molla
 >
 >Per conoscere $y([t_{0},t])$ mi occorrono $u([t_{0},t])$ oltre posizione e velocità iniziali
 >
->>[!oss]
+>>[!remark]
 >>I parametri fisici non sono variabili e si considerano noti
 
->[!esempio] Esempio 4
+>[!example] Esempio 4
 >Fermate di un tram
 >$0,\dots,N$ con l'indice $k$ che conta le fermate
 >$u(k) =$ numero di passaggeri saliti - passeggeri scesi alla fermata k
 >$y(k) =$ numero di passeggeri a bordo quando si lascia la fermata $k$
 >è necessario conoscere le condizioni iniziali $y(k_{0})$ e $u[k_{0},k]$, quindi è un sistema dinamico
 
->[!esempio] Esempio 5
+>[!example] Esempio 5
 >Nastro trasportatore su cui una tramoggia deposita polvere
 >
 >$u(t) \quad [\frac{kg}{s}]$
@@ -44,11 +44,11 @@ Se conosco $u(t)$ sull'intervallo $[t_{0},t]$ queso mi basta per conoscere $y(t)
 >Per l'esattezza $u[t_{0},t - \tau]$
 >
 
->[!esempio] Esempio 6
+>[!example] Esempio 6
 >Lampada con un pulsante
 >Il pulsante accende o spegne in base allo stato, per conoscere l'andamento dell'accensione $y(t)$ su $[t_{0},t]$ occore conoscere l'ingresso, ossia gli istanti di rilascio del pulsante entro $[t_{0},t]$ e lo stato di accensione iniziale a $t_{0}$ (che è un booleano). Si tratta di un sistema dinamico
 >
->>[!oss]
+>>[!remark]
 >> ```tikz
 >>\begin{document}
 >>\begin{tikzpicture}
@@ -58,7 +58,7 @@ Se conosco $u(t)$ sull'intervallo $[t_{0},t]$ queso mi basta per conoscere $y(t)
 >>```
 >>Se gli istanti di rilascio sono l'ingresso è equivalente
 >
->>[!oss]
+>>[!remark]
 >>Se non interessa tutta $y([t_{0},t])$ ma soltanto $y(t)$ l'informazione che occorre è $y(t_{0})$ ed il fatto che il numero di rilasci sia pari o dispari
 
 
@@ -109,10 +109,10 @@ $$
 y(t) = g(x(t),u(t),t)
 \end{cases}$$
 ### linearità
->[!def]
+>[!definition]
 >$f$ e $g$ lineare in $x$ e $u$ allora il sitema dinamico è **lineare **
 
->[!oss]- notazione
+>[!remark]- notazione
 >$\frac{d}{dt}x = \dot{x}$
 
 Quindi un sistema lineare sarà
@@ -149,17 +149,17 @@ y(t) = Cx(t) + Du(t)
 
 ---
 
->[!def]
+>[!definition]
 >$f = f(x,u)$ e $g=g(x,u)$ il sistema dinamico è **tempo invariante** o **stazionario**.
 
->[!def]
+>[!definition]
 >$g = g(x,t)$ allora il sistema dinamico è **strettamente proprio**
 >
 >>[!warning]
 >>L'ingresso influenza comunque l'uscita **attraverso** lo stato!
 
 
->[!esempio]
+>[!example]
 >circuito RC
 >
 >$x + Ri = u$
@@ -176,7 +176,7 @@ y(t) = Cx(t) + Du(t)
 >Sistema dinamico, lineare, tempo invariante
 
 
->[!esempio]
+>[!example]
 > $$
 > m\ddot{y} + ky + h\dot{y} = F
 >$$
@@ -194,7 +194,7 @@ y(t) = Cx(t) + Du(t)
 > Dinamico lineare, tempo invariante, strettamente proprio, secondo ordine
 
 
->[!Esempio] Esempio 3
+>[!example] Esempio 3
 >Pendolo
 > ```tikz
 >\begin{document}
@@ -254,14 +254,14 @@ x_{n}(k) = f_{n}(x_{1}(k-1),\dots,x_{n}(k-1),u(k-1),k)
 $$
 Lin,TI,SP come in TC
 
->[!oss]
+>[!remark]
 >L + TI importante, [[sistemi dinamici LTI]]
 
 
 ![[Equilibrio]]
 
 ## [[MIMO]] e [[SISO]]
->[!esempio]
+>[!example]
 >forno,
 >$$ u(t) = \begin{bmatrix}
 v_{in}(t) \\
@@ -271,7 +271,7 @@ v_{in}(t) \\
 >Un solo output ma due input $\implies$ MIMO
 
 
->[!esempio]
+>[!example]
 >pendolo
 >$$ \begin{align}
 >u(t)&= \text{coppia}  \\

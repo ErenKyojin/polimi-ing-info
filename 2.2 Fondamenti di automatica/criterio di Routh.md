@@ -4,13 +4,13 @@ Si basa sulla [[tabella di Routh]] che si costruiisce a partire dal polinomio ca
 
 
 
->[!def]
+>[!definition]
 >Il sistema dinamico con polinomio caratteristico $\Pi(s)$ è asintoticamente stabile $\iff$ tutti gli elementi della prima colonna della tabella sono concordi e non nulli.
 >
->>[!corollario]
+>>[!corollary]
 >>Se nonci sono elementi nulli in prima colonna il numero di inversioni di segno su quella colonna è pari al numero di radici di $\Pi(s)$ con $Re> 0$
 
->[!esempio] Esempio 1
+>[!example] Esempio 1
 > $$
 > \Pi (s) = s^4 + 2s^3 + 4s^2 + s + 5
 >$$
@@ -45,7 +45,7 @@ Si basa sulla [[tabella di Routh]] che si costruiisce a partire dal polinomio ca
 >Due radici di segno
 
 
->[!esempio] Esempio 2
+>[!example] Esempio 2
 >Dato il SD LTI a TC con PC $\Pi(s) = s^3 + 2s^2 + hs + k$ dire per quali coppie $(h,k)$ è asintoticamente stabile
 > $$
 > \begin{array}{}

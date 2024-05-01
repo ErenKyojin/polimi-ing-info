@@ -5,7 +5,7 @@ aliases: variabili aleatorie
 
 Notazione$\{w : x(w) \in I\} = "x \in I"$
 
->[!def]
+>[!definition]
 >$(\Omega,\mathcal{F},P)$ chiamo **varaibile aleatoria** una [[Funzioni|funzione]] $x : \Omega \to \mathbb{R}$ tale che 
 > $$
 > \left\{ x \leq t \right\} \text{ evento} \quad \forall t \in \mathbb{R}
@@ -16,7 +16,7 @@ Notazione$\{w : x(w) \in I\} = "x \in I"$
 ![[funzione di ripartizione]]
 
 
->[!esempio]
+>[!example]
 >$x$ = tempo di eseguzione di un programma in secondi
 >
 >Esempi di eventi di interesse:
@@ -58,7 +58,7 @@ $$ (\Omega, P(\Omega), \mathbb{P}) \to (\mathbb{R}, P(\mathbb{R}), \mathbb P_{X}
 # Variabili aleatoriee assolutamente continue
 Fino ad ora abbiamo considerato variabili aleatoriee discrete, ossia che possono assumere valori numerabili. Tuttavia ci sono innumerevoli casi in cui non è sufficiente, basi pensare a tutti i casi in cui la variabile aleatoria descrive un tempo (ad esempio i secondi per terminare un attività). Per questi casi dobbiamo definire le variabili aleatoriee come continue:
 
->[!def]
+>[!definition]
 >Sia $X$ una variabile aleatoria che assume valori non numerabili, diciamo che $X$ è una **variabile aleatoria assolutamente continua** se esiste una funzione $f$ detta [[funzione di densità]] di $X$ definita per ogni $x \in (-\infty,+\infty)$ tale che per ogni insieme $B \subseteq \mathbb{R}$
 >$$ P\{ X \in B \} = \int _{B} \!f(x) \, \mathrm{d}x  $$
 
@@ -86,7 +86,7 @@ Quindi una variabile aleatoria continua ha probabilità 0 per qualsiasi assegnaz
 
 ### Funzioni di variabili aleatorie assolutamente continue
 
->[!esempio]
+>[!example]
 > $x$ variabile aleatoria assolutamente continua, carica batterica di un campione di liquidio da un bacino di lavorazione alimentare, $u(a,b)$
 > $c$ limite massimo di legge
 > 

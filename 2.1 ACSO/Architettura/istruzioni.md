@@ -20,7 +20,7 @@ Essendo [[RISC-V]] un architettura little endian, le istruzioni vanno lette dal 
 Funct7, Funct3 ed OPCODE distinguono il comando.
 rd, rs1, rs2 distinguono i [[registro|registri]].
 
->[!esempio] 
+>[!example] 
 >```asmarm
 >add t0, s1, s2
 >```
@@ -31,7 +31,7 @@ rd, rs1, rs2 distinguono i [[registro|registri]].
 >|0000000         | 10010     | 01001    |  000      | 00011    |   0110011     |
 >
 >
->>[!oss]
+>>[!remark]
 >>Possiamo raggrupare i bit a gruppi di 4 per ottenere l'equivalente istruzione hex:
 >>
 >>|0000| 0001 | 0010 | 0100 | 1000 | 0001 | 1011 | 0011 |
@@ -39,7 +39,7 @@ rd, rs1, rs2 distinguono i [[registro|registri]].
 >>| 0 | 1 | 2 | 4 | 8  | 1 | B | 3  
 
 
->[!esempio]
+>[!example]
 >```armasm
 >sub t0, s1, s2
 >```
@@ -60,7 +60,7 @@ Ossia i formati che coinvolgono costanti positive a 12 bit, per costanti positiv
 | 000000000100 | 01001 | 000    | 01001 | 0010011 |
 | 12 bit       | 5 bit | 3 bit  | 5 bit | 7 bit   | 
 
->[!esempio]
+>[!example]
 >```armasm
 >addi s1, s1, 4
 >```
@@ -71,7 +71,7 @@ Ossia i formati che coinvolgono costanti positive a 12 bit, per costanti positiv
 >| ------------ | ----- | --- | ------ | ------- |
 >| 4            | s1       | funct3    | s1        | OPCODE         |
 
->[!esempio]
+>[!example]
 >```armasm
 >ld t0, off, rb
 >```
@@ -136,12 +136,12 @@ Istruzioni che ci permettono di "saltare" attraverso il codice.
 
  **imm = offset:** distanza di salto, in positivo o in negativo, rispetto al [[program counter]], in termini di half word, quindi va aggiunto uno 0 nel bit meno significativo per ottenere la distanza in byte.
 
->[!oss]
+>[!remark]
 >Non è incluso il bit 0, che è dato per scontato essere 0, in quanto il valore del bit meno significativo indirizza i byte (essendo l'indirizzamento della memoria a byte)
 
 
 
->[!esempio]
+>[!example]
 >```armasm
 >beq s1, s2, 100
 >```
@@ -199,7 +199,7 @@ imm[31:12] | rd | OPCDOE
 --- | --- | ---
 20 bit | 5 bit | 7 bit
 
->[!esempio]
+>[!example]
 >```armasm
 >lui rd cost20             ;rd = cost20
 >auipc rd off20            ;rd = pc + off20
@@ -290,7 +290,7 @@ prelievo istruzioni, incremento PC | Lettura rs1 | OP ALU (rs1 + off) | Prelievo
 4. Prelievo del dato nella memoria dati utilizzando come indirizzo di lettura il risultato dell'ALU
 5. Scrittura del dato proveniente dalla memoria nel registro destinazione rd indirizzato dai bit [11-7] 
 
->[!oss] 
+>[!remark] 
 >Esecuzione più lunga
 
 >[!Esecuzione delle istruzioni di load:]

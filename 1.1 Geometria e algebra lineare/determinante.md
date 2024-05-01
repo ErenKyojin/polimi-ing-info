@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >data $A \in M_{(m,n)}(\mathbb{K})$, il determinante di $A$ è la funzione:
 >
 > $$ \begin{align}
@@ -30,13 +30,13 @@ a_{11} & \dots & 1_{1n} \\
 a_{n 1} &\dots & a_{nn}
 \end{vmatrix}$$
 
->[!oss]
+>[!remark]
 >Il teorema  precedente fornisce un metodo per calcolare il determinante di una matrice quadrata. Sia $A \in M_{\mathbb{K}(n,n)}$ se $U$ è una ridotta a scala di $A$ e $t$ è il numero di scambi di righe utilizzati nel [[Metodo di eliminazione di Gauss]] per ridurre $A$ ad $U$ allora:
 > $$ \det(A) = (-1)^t \det(U) $$
 > dove $\det(U)$ è il prodotto di termini sulla diagonale.
 #1d283b
 
->[!esempio]
+>[!example]
 >Calcolare il determinante di
 > $$ \begin{bmatrix}
 >0 & 1 & 2 \\
@@ -74,7 +74,7 @@ a_{n 1} &\dots & a_{nn}
 >>Sia $U$ una ridotta a scala di $A$. Allora $\det(A) = (-1)^t \det(U)$ si ha che: $\det(A) \neq 0 \iff \det(U) \iff$ gli elementi della diagonale principale di $U$ sono tutti non nulli $\iff r(A) = n$
 >>$\CVD$
 
->[!oss]
+>[!remark]
 >Per una matrice $A \in M_{\mathbb{K}}(n,n)$ se una riga è combinazione lineare delle altre righe allora $r(A)$ non è massimo e quindi $\det(A) = 0$. La stessa considerazione vale per le colonne. In particolare se una matrice ha due righe o due colonne uguali oppure ha una riga ed una colonna nulle allora il determinante è nullo
 
 Un altro metodo per calcolare il determinante di una matrie sono gli [[sviluppi di Laplace]]

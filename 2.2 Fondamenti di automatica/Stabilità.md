@@ -24,7 +24,7 @@ Si può applicare il concetto a [[Equilibrio|equilibri]], (movimenti) e qualche 
 	-  Equilibrio  instabile (I) altrimenti
 
 
->[!oss]
+>[!remark]
 >La stabilità è una proprietà dell'equilibrio e viene misurata sullo stato (non sull'uscita)
 
 # Stabilita nei [[sistemi dinamici LTI]] (STC)
@@ -56,7 +56,7 @@ Quindi $x_{\Delta}(t) - \bar{x} = e^{At} \Delta \bar{x}$ dove a sinistra abbiamo
 >Inoltre la stabilità del sistema dipende soltanto dal copmortamento (convergente, limitato o divergente) di $e^{At}\Delta \bar{x}$ cioè $e^{At}$ ($\Delta \bar{x}$ è solo un fattore di scala), cioè dalla matrice $A$ (in particolare dai suoi autovalori)
 
 
->[!esempio]
+>[!example]
 >Sistema LTI a TC di ordine $1$: $\dot{x} = ax$ con $a$ sclaare, l'equilibrio è $\bar{x} = 0$
 > $$
 > x(0) = \Delta \bar{x} \implies x(t) = e^{at}\Delta \bar{x} = \begin{cases}

@@ -16,7 +16,7 @@ Il caso di può estendere facilmente in modo ricorsivo, quindi possiamo limitarc
 Sia $(X_{1},X_{2})$ vettore aleatorio con densità $p_{X_{1} + X_{2}}$ e sia $Y=X_{1} + X_{2}$
 $$p_{X_{1} + X_{2}}(y) = \sum_{x_{1},x_{2} : x_{1}+x_{2}=y}p_{X_{1},X_{2}}(x_{1},x_{2}) = \sum_{x_{2}} p_{X_{1},X_{2}}(y-x_{2},x_{2})$$
 
->[!oss]
+>[!remark]
 >Se $X_{1}$ ed $X_{2}$ sono indipendenti vale
 >$$P_{X_{1}+X_{2}}(y) = \sum_{x_{2}}p_{X_{1}}(y-x_{2})p_{X_{2}}(x_{2})$$
 
@@ -81,7 +81,7 @@ $$= 1 - \prod_{i = 1}^n e^{-\lambda_{i}t} = 1 - e^{-t}\sum_{i = 1}^n \lambda_{i}
 $\implies P(W > t) = e^{-t\Lambda}$
 $\implies W \sim \exp\left( \sum_{i = 1}^n \lambda_{i} \right)$
 
->[!oss]
+>[!remark]
 >Se $x_{1},x_{2},\dots,x_{n} \underset{ ind }{ \sim } \text{Weibul}(\alpha,\lambda_{i})$  allora $W \sim \text{Weibull}\left( \alpha, \sum_{i = 1}^n \lambda_{i} \right)$
 >
 >6. $x_{1},x_{2},\dots,x_{n} \underset{ ind }{ \sim } \text{Geom}(P_{i})\quad i = 1 : n$
@@ -156,7 +156,7 @@ $$
 \int _{\mathbb{R}} \! \, \longrightarrow \int \dots \int _{\mathbb{R}^n}   
 $$
 
->[!esempio]
+>[!example]
 >Se $\mathbf{x} \sim f_{\mathbf{x}}$ assolutamente continua allora
 >$$ E(y) \exists \text{se }\int \dots \int _{\mathbb{R}^n} \! \, \mathrm{d}x \mathrm{d}x  $$ 
 
@@ -180,7 +180,7 @@ $1^o$ addendo = $$\int _{\mathbb{R}} \!|x_{1}| \, = \left\{
 $\implies \sum_{j} x_{j}$ ammette medie $E$ se e solo se ogni $x_{j}$ ammette media e $E\left( \sum_{j =1}^n x_{j} \right) = \sum_{j}E(x_{j})$
 SEMPRE
 
->[!oss]
+>[!remark]
 >$E\left( \sum_{j} \right)$ dipendesolo dalle marginali. Diverso è il discorso se ci interessa la varianza della somma, che in generale dipende dalla congiunta $f_{\mathbf{x}}$
 
 

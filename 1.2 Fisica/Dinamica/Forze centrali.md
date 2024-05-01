@@ -12,10 +12,10 @@ $$
 e quindi il moto è piano
 Si tratta di una delle caratteristiche principali dei campi di [[forza|forze]] centrali:
 
->[!proposizione]
+>[!proposition]
 >In un campo di forze centrali il momento angolare rispetto al centro di una forza si conserva.
 
->[!oss]
+>[!remark]
 >Non è vera, in generale, l'implicazione inversa. Se infatti il momento angolare è costante, avremo certamente che il [[Momento]] della [[Forza risultante]] si annulla, ma ciò puó corrispondere a due situazioni differenti:
 >1. $\vec{F}(\vec{r}) \parallel \vec{r} \implies$ il [[Punto materiale]] $P$ si muove effettivamente in un [[Geometria e algebra lineare/campo|campo]] di forze centrali di centro di forza $O$
 >2. Il punto materiale $P$ non è soggetto ad alcuna interazione e quindi si muove di [[Moto rettilineo]] uniforme
@@ -31,7 +31,7 @@ $$ E = E_{p}(r) + \frac{1}{2}m\left( \frac{dr}{dt}  \right)^2 + \frac{1}{2}mr^2\
 Consideriamo ora il momento angolare del punto materiale rispetto al centro di forza del campo
 $$ \vec{L}= m \vec{r} \times \vec{v} = m(\vec{r} \times v_{r}\hat{u}_{r} + \vec{r} \times v_{\theta}\hat{u}_{\theta}) = mrv_{\theta}\hat{u}_{r} \times \hat{u}_{\theta} = mr^2 \frac{d\theta}{dt}\hat{u}_{z} $$
 
->[!oss]
+>[!remark]
 >Osserviamo che l'ultimo termine nell'espressione dell'energia meccanica può essere riscritto in funzione del modulo del momento angolare, che è anche una costante del moto. Tale termine energetico prende il nome di energia potenziale centrifuga del punto materiale $P$ nel campo di forze centrali
 >$$ \frac{1}{2}mr^2\left( \frac{d\theta}{dt}  \right)^2 = \frac{L^2}{2mr^2} = E_{p} $$
 >Poichè infatti questo termine non dipende esplicitamente dal modulo della velocità scalare, ma solo dalla distanza $r$, come l'energia potenziale, può essere interpretato come se fosse un'energia potenziale, benchè sia in realtà ricavato dall'espressione dell'[[Energia cinetica]].

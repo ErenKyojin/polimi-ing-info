@@ -10,7 +10,7 @@ Settore dell'informatica che studia sistemi software
 - durata di vita di anni
 - soggetti a modifiche frequenti
 
->[!def]
+>[!definition]
 >Definisce un approccio sistmeatico allo sviluppo, alal messa in opera e alla manutenzione del software, attraverso metodi tenici e di gestione per prevedere e tenetere sotto controllo i costi per tutta la vita del prodotto software.
 
 

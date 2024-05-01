@@ -11,10 +11,10 @@ Ipotizsziamo adesso di disporre un avvolgimento di $N$ spire su $\gamma$: se l'a
 $$\Phi = 2\Psi = 2\int_{\Upsigma}\! \bar{B}\cdot \hat{u}_{N}\, \d \sigma$$
 O, più in generale, il flusso concatenato con un avvolgimento di $N$ spire è dato da $N$ volte il flusso concatenato con un solo avvolgimento
 $$\Phi = N \Sigma = N \int_{\Sigma}\! \bar{B} \cdot\hat{n}\,\d \sigma$$
->[!esempio]
+>[!example]
 >![[Pasted image 20220830182705.png]]
 
->[!esempio] calcolo della matrice di induttanza
+>[!example] calcolo della matrice di induttanza
 >![[Pasted image 20220830184532.png]]
 >Per calcolare la matrice d'induttanza della struttura sopra dobbiamo prima definire le riluttanze $\mathcal{R}$ e $\mathcal{R_1}$ come
 >$$\begin{align}

@@ -28,7 +28,7 @@ In modo sostanzialmente simile ai normali meccanismi linguistici, una grammatica
 Questo tipo di regole linguistiche descrive un oggetto principale come una sequenza di oggetti componenti. Ognuno di questi viene poi raffinato, rimpiazzandolo con altri oggetti più dettagliati fino a quando non si raggiunge una sequenza di elementi base.
 Le varie riscritture possono presentare alternativo, un soggetto può essere un nome, un pronome o altro, un'istruzione può essere di assegnamento, di lettura, di output...
 
->[!def] Definizione formale di grammatica
+>[!definition] Definizione formale di grammatica
 > $$
 > G = (V_{N},V_{T}, P,S)
 >$$
@@ -40,12 +40,12 @@ Le varie riscritture possono presentare alternativo, un soggetto può essere un 
 >- $P \subseteq V_{N}^+ \times V^*$ [[insieme]] delle regole di **riscrittura** o **produzioni**
 >Scriveremo per comodità $\alpha \to \beta$ al posto di $(\alpha,\beta)$
 
->[!oss]
+>[!remark]
 >$$P \subseteq V_{N}^+ \times V^*$$
 >$(\alpha,\beta)$ con $\alpha \in V_{N}^+$ e $\beta \in V^*$
 >Ossia le parti sinistre $\alpha$ sono stringhe di caratteri non terminali senza l'elemento vuoto, mentre $\beta$ è una stringa qualunque.
 
->[!esempio]
+>[!example]
 >$V_{N} = \left\{ S,A,B,C \right\}$
 >$V_{T} = \left\{ a,b,c,d \right\}$
 >$S$
@@ -66,7 +66,7 @@ oppure
  aaBAS => aaBAAB
 oppure
  aaBAS => aaBS
->[!oss]
+>[!remark]
 >La freccia singola $\to$ indica una produzione
 >La freccia doppia $\implies$ indica la relazione di derivazione 
 
@@ -99,7 +99,7 @@ Ogni produzione ha la forma $\alpha \to \beta$ con $|\alpha| = 1$, con $\alpha$ 
 Non contestuale perchè la riscrittura di $\alpha$ non dipende dal contesto in cui si trova, sono di fatto la stessa cosa della BNF usata per definire la sitassi dei linguaggi di programmazione.
 Le $G_{1}$ e $G_{2}$ precedenti sono non contestuali, non è così invece la $G_{3}$
 
->[!oss] Una grammatica non contestuale ha sempre un solo elemento a sinistra delle produzioni
+>[!remark] Una grammatica non contestuale ha sempre un solo elemento a sinistra delle produzioni
 
 ### Grammatiche regolari
 Ogni produzione ha la forma $\alpha \to \beta$ dove
@@ -156,10 +156,10 @@ Data $G$ costruiamo a grandi linee una macchina di Turing non deterministica, M,
 Quindi seguiamo la regola di derivazione da destra verso sinistra.
 Quando, se succede, il contenuto del nastro diventa solo l'assioma $S$, $x$ viene accettata.
 
->[!oss]
+>[!remark]
 >Nel caso di una grammatica monotona, la massima memoria occupata è il numero di celle occupate da $x$.
 
->[!oss]
+>[!remark]
 >Se $x \notin L(G)$ è possibile che la macchina di Turing tenti infinite strade, possibilmente anche non terminanti, senza arrivare ad una conclusione
 ### Da MT a G
 Data $G$ costruiamo una macchina di turing a nastro singolo non deterministica $M$ che accetti $L(G)$.
@@ -171,7 +171,7 @@ Data $G$ costruiamo una macchina di turing a nastro singolo non deterministica $
 Se il contenuto del nastro diventa l'assioma $S$, $x$ viene accettata, cioè $\left< q_{0},x \right> \vdash^* \left< q_{F},S \right>$, altrimenti questa sequenza di mosse non porta all'accettazione
 
 
->[!oss]
+>[!remark]
 >In caso di grammatiche monotone si utilizza solo la memoria occupata inizialmente da $x$ a pparte il caso della stringa vuota
 
 

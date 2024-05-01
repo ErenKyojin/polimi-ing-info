@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-19
 ---
 
->[!def]
+>[!definition]
 >Nome commerciale scelto dall'imprenditore per esercitare l'impresa
 >- Segno distintivo che consente ai consumatori di identificare l'impresa
 >- Ha un valore commerciale, per questo la legge ne garantisce uso esclusivo
