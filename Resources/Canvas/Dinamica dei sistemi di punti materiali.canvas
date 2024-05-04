@@ -1,6 +1,7 @@
 {
 	"nodes":[
 		{"id":"1c8bbb686c4b24a6","type":"group","x":-867,"y":-620,"width":290,"height":680,"label":"Teoremi di Konig"},
+		{"id":"63ac09f14164f59f","x":-360,"y":-1140,"width":530,"height":320,"type":"group","label":"Seconda equazione cardinale per i SdP"},
 		{"id":"508f72eb06297648","type":"text","text":"Forze esterne\nForze tra un altro sistema e quello in considerazione","x":-350,"y":-100,"width":250,"height":100},
 		{"id":"482f424aa6b6412c","type":"text","text":"#### Prima equazione cardinale della dinamica dei sistemi\nLa risultante delle forze esterne è uguale alla derivata della quantità di moto totale del sistema","x":-350,"y":51,"width":250,"height":269,"color":"1"},
 		{"id":"b8106d944f881017","type":"text","text":"La quantità di moto in un sistema di punti materiali si conserva","x":-760,"y":320,"width":250,"height":90,"color":"2"},
@@ -13,9 +14,11 @@
 		{"id":"9c0c1afd8740209e","type":"text","text":"La somma di tutte le forze interne, detta risultante delle forze interne è nulla per il [[terzo principio della dinamica]]","x":150,"y":40,"width":250,"height":141,"color":"2"},
 		{"id":"8e7ebcbf905df2b3","type":"text","text":"Un sistema di particelle è composto da $n$ particelle che interagiscono tra loro","x":-100,"y":-295,"width":250,"height":90},
 		{"id":"7d76c49d20329ac5","type":"text","text":"Si definisce l'energia cinetica di un sistema di punti materiali come la somma delle energie cinetiche dei singoli punti","x":500,"y":-127,"width":250,"height":149},
-		{"id":"3f5d814da18634ee","x":-100,"y":-620,"width":250,"height":223,"type":"text","text":"È detto momento angolare o momento della quantità di moto di un sistema di punti materiali rispetto ad un polo la somma dei momenti angolari di tutti i punti materiali rispetto al medesimo polo"},
-		{"id":"72dd3e04cd46c993","x":-100,"y":-900,"width":250,"height":160,"type":"text","text":"Per la seconda equazione cardinale della dinamica la derivata"},
-		{"id":"730c910eff640d8e","x":275,"y":-628,"width":250,"height":240,"type":"text","text":"Il momento meccanico risultanto è dato unicamente dal momento risultante delle forze esterne rispetto allo stesso polo, in quanto il momento risultante delle forze interne è nullo"}
+		{"id":"730c910eff640d8e","x":275,"y":-628,"width":250,"height":240,"type":"text","text":"Il momento meccanico risultanto è dato unicamente dal momento risultante delle forze esterne rispetto allo stesso polo, in quanto il momento risultante delle forze interne è nullo"},
+		{"id":"3f5d814da18634ee","x":-100,"y":-731,"width":250,"height":223,"type":"text","text":"È detto momento angolare o momento della quantità di moto di un sistema di punti materiali rispetto ad un polo la somma dei momenti angolari di tutti i punti materiali rispetto al medesimo polo"},
+		{"id":"72dd3e04cd46c993","x":-100,"y":-1120,"width":250,"height":280,"type":"text","text":"Per la seconda equazione cardinale della dinamica applicata ai singoli punti, si ottiene che la derivatà rispetto al tempo del momento angolare è uguale al momento meccanico delle forze esterne rispetto allo stesso polo"},
+		{"id":"f4b3adff77cf4362","x":275,"y":-1180,"width":250,"height":240,"color":"4","type":"text","text":"Un sistema è isolato se la risultante delle forze esterne ed il momento meccanico delle forze esterne sono nulli, per un sistema isolato quantità di moto e momento angolare si conservano"},
+		{"id":"b779aaff5f3d131a","x":-350,"y":-1120,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"87c2620f26d5a4af","fromNode":"8e7ebcbf905df2b3","fromSide":"bottom","toNode":"508f72eb06297648","toSide":"top"},
@@ -30,6 +33,10 @@
 		{"id":"b110366d67282624","fromNode":"8e7ebcbf905df2b3","fromSide":"left","toNode":"1c8bbb686c4b24a6","toSide":"right"},
 		{"id":"a5ae2cebcbe3a865","fromNode":"8e7ebcbf905df2b3","fromSide":"top","toNode":"3f5d814da18634ee","toSide":"bottom"},
 		{"id":"ec3d062858ace05f","fromNode":"3f5d814da18634ee","fromSide":"top","toNode":"72dd3e04cd46c993","toSide":"bottom"},
-		{"id":"621d5d929e5e5aec","fromNode":"0bf806b97dae9987","fromSide":"top","toNode":"730c910eff640d8e","toSide":"bottom","color":"#c0bfbf"}
+		{"id":"621d5d929e5e5aec","fromNode":"0bf806b97dae9987","fromSide":"top","toNode":"730c910eff640d8e","toSide":"bottom","color":"#616161"},
+		{"id":"b1464056441cade8","fromNode":"730c910eff640d8e","fromSide":"top","toNode":"72dd3e04cd46c993","toSide":"right"},
+		{"id":"3dbb195ef8d0653d","fromNode":"508f72eb06297648","fromSide":"top","toNode":"730c910eff640d8e","toSide":"left","color":"#6b6b6b"},
+		{"id":"9e9a7e8770b5172d","fromNode":"3f5d814da18634ee","fromSide":"top","toNode":"f4b3adff77cf4362","toSide":"bottom","color":"#4f4f4f"},
+		{"id":"075301186bccd76c","fromNode":"730c910eff640d8e","fromSide":"top","toNode":"f4b3adff77cf4362","toSide":"bottom","color":"#4f4f4f"}
 	]
 }
