@@ -49,13 +49,13 @@ Quest'ultima equazione esprime la **Prima equazione cardinale delle dinamica dei
 >In un sistema di riferimento inerziale, un sistema di punti materiali isolato oppure soggetto ad un sistema di forze esterne con risultante nulla conserva la quantità di moto totale.
 > $$ \fbox{$\vec{F}^{(E)} = 0 \implies \vec{p} = \cost$} $$
 >
-<<<<<<< HEAD
->>[!cor]
-=======
->>[!corollary]
->>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
->>Più in generale, se si annulla la componente della risultante delle forze esterne lungo un dato asse, allora si conserva la componente della quantità di moto totale lungo quell'asse e viceversa:
->> $$ F_{z}^{(E)} = 0 \implies p_{z} = \cost $$
+
+
+
+>[!corollary]
+>
+>Più in generale, se si annulla la componente della risultante delle forze esterne lungo un dato asse, allora si conserva la componente della quantità di moto totale lungo quell'asse e viceversa:
+> $$ F_{z}^{(E)} = 0 \implies p_{z} = \cost $$
 
 >[!remark]
 >Notiamo infine che, in base al teorema dell'impulso, la quantità di moto di un sistema di punti materiali si conserva in un intervallo di tempo infinitesimo anche in presenza di una risultante delle forze esterne non nulla purchè tale risultante sia non impulsiva. Vedremo che tale circostanza assumerà un ruolo chiave nello tudio degli [[urti]] tra punti materiali.
