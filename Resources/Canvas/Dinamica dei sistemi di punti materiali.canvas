@@ -13,12 +13,13 @@
 		{"id":"c95d36b50d5f304d","type":"text","text":"#### Secondo teorema di Konig\nL'energia cinetica di un sistema di punti materiali è pari all'energia cinetica del centro di massa sommata all'energia cinetica del sistema rispetto al centro di massa ","x":-847,"y":-250,"width":250,"height":290,"color":"1"},
 		{"id":"9c0c1afd8740209e","type":"text","text":"La somma di tutte le forze interne, detta risultante delle forze interne è nulla per il [[terzo principio della dinamica]]","x":150,"y":40,"width":250,"height":141,"color":"2"},
 		{"id":"8e7ebcbf905df2b3","type":"text","text":"Un sistema di particelle è composto da $n$ particelle che interagiscono tra loro","x":-100,"y":-295,"width":250,"height":90},
-		{"id":"7d76c49d20329ac5","type":"text","text":"Si definisce l'energia cinetica di un sistema di punti materiali come la somma delle energie cinetiche dei singoli punti","x":500,"y":-127,"width":250,"height":149},
-		{"id":"730c910eff640d8e","x":275,"y":-628,"width":250,"height":240,"type":"text","text":"Il momento meccanico risultanto è dato unicamente dal momento risultante delle forze esterne rispetto allo stesso polo, in quanto il momento risultante delle forze interne è nullo"},
 		{"id":"3f5d814da18634ee","x":-100,"y":-731,"width":250,"height":223,"type":"text","text":"È detto momento angolare o momento della quantità di moto di un sistema di punti materiali rispetto ad un polo la somma dei momenti angolari di tutti i punti materiali rispetto al medesimo polo"},
 		{"id":"72dd3e04cd46c993","x":-100,"y":-1120,"width":250,"height":280,"type":"text","text":"Per la seconda equazione cardinale della dinamica applicata ai singoli punti, si ottiene che la derivatà rispetto al tempo del momento angolare è uguale al momento meccanico delle forze esterne rispetto allo stesso polo"},
 		{"id":"f4b3adff77cf4362","x":275,"y":-1180,"width":250,"height":240,"color":"4","type":"text","text":"Un sistema è isolato se la risultante delle forze esterne ed il momento meccanico delle forze esterne sono nulli, per un sistema isolato quantità di moto e momento angolare si conservano"},
-		{"id":"b779aaff5f3d131a","x":-380,"y":-1060,"width":250,"height":140,"type":"text","text":"Se il polo è mobile bisogna sommare il prodotto vettoriale della velocità del polo con la sua quantità di modo"}
+		{"id":"b779aaff5f3d131a","x":-380,"y":-1050,"width":250,"height":140,"type":"text","text":"Se il polo è mobile bisogna sommare il prodotto vettoriale della velocità del polo con la sua quantità di modo"},
+		{"id":"730c910eff640d8e","x":275,"y":-628,"width":250,"height":240,"type":"text","text":"Il momento meccanico risultanto è dato unicamente dal momento risultante delle forze esterne rispetto allo stesso polo, in quanto il momento risultante delle forze interne è nullo"},
+		{"id":"7d76c49d20329ac5","type":"text","text":"Si definisce l'energia cinetica di un sistema di punti materiali come la somma delle energie cinetiche dei singoli punti","x":583,"y":-105,"width":250,"height":149},
+		{"id":"01053c23faade010","x":583,"y":-558,"width":250,"height":170,"type":"text","text":"L'impulso della risultante delle forze esterne in un sistema di punti materiali tra due istanti è uguale alla differenza della quantità di moto nei rispettivi istanti"}
 	],
 	"edges":[
 		{"id":"87c2620f26d5a4af","fromNode":"8e7ebcbf905df2b3","fromSide":"bottom","toNode":"508f72eb06297648","toSide":"top"},
@@ -37,6 +38,7 @@
 		{"id":"b1464056441cade8","fromNode":"730c910eff640d8e","fromSide":"top","toNode":"72dd3e04cd46c993","toSide":"right"},
 		{"id":"3dbb195ef8d0653d","fromNode":"508f72eb06297648","fromSide":"top","toNode":"730c910eff640d8e","toSide":"left","color":"#6b6b6b"},
 		{"id":"9e9a7e8770b5172d","fromNode":"3f5d814da18634ee","fromSide":"top","toNode":"f4b3adff77cf4362","toSide":"bottom","color":"#4f4f4f"},
-		{"id":"075301186bccd76c","fromNode":"730c910eff640d8e","fromSide":"top","toNode":"f4b3adff77cf4362","toSide":"bottom","color":"#4f4f4f"}
+		{"id":"075301186bccd76c","fromNode":"730c910eff640d8e","fromSide":"top","toNode":"f4b3adff77cf4362","toSide":"bottom","color":"#4f4f4f"},
+		{"id":"47abf0c2e4b2441e","fromNode":"8e7ebcbf905df2b3","fromSide":"right","toNode":"01053c23faade010","toSide":"bottom"}
 	]
 }
