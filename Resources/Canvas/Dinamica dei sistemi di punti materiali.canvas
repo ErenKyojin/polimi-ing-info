@@ -13,7 +13,9 @@
 		{"id":"9c0c1afd8740209e","type":"text","text":"La somma di tutte le forze interne, detta risultante delle forze interne è nulla per il [[terzo principio della dinamica]]","x":150,"y":40,"width":250,"height":141,"color":"2"},
 		{"id":"8e7ebcbf905df2b3","type":"text","text":"Un sistema di particelle è composto da $n$ particelle che interagiscono tra loro","x":-100,"y":-295,"width":250,"height":90},
 		{"id":"7d76c49d20329ac5","type":"text","text":"Si definisce l'energia cinetica di un sistema di punti materiali come la somma delle energie cinetiche dei singoli punti","x":500,"y":-127,"width":250,"height":149},
-		{"id":"730c910eff640d8e","x":80,"y":415,"width":250,"height":240,"type":"text","text":"Il momento meccanico risultanto è dato unicamente dal momento risultante delle forze esterne rispetto allo stesso polo, in quanto il momento risultante delle forze interne è nullo"}
+		{"id":"3f5d814da18634ee","x":-100,"y":-620,"width":250,"height":223,"type":"text","text":"È detto momento angolare o momento della quantità di moto di un sistema di punti materiali rispetto ad un polo la somma dei momenti angolari di tutti i punti materiali rispetto al medesimo polo"},
+		{"id":"72dd3e04cd46c993","x":-100,"y":-900,"width":250,"height":160,"type":"text","text":"Per la seconda equazione cardinale della dinamica la derivata"},
+		{"id":"730c910eff640d8e","x":275,"y":-628,"width":250,"height":240,"type":"text","text":"Il momento meccanico risultanto è dato unicamente dal momento risultante delle forze esterne rispetto allo stesso polo, in quanto il momento risultante delle forze interne è nullo"}
 	],
 	"edges":[
 		{"id":"87c2620f26d5a4af","fromNode":"8e7ebcbf905df2b3","fromSide":"bottom","toNode":"508f72eb06297648","toSide":"top"},
@@ -26,7 +28,8 @@
 		{"id":"f7ff08608cc2182b","fromNode":"c37002821b57be2c","fromSide":"right","toNode":"7229e47d25f3d95c","toSide":"left"},
 		{"id":"43f72b4eea628a8c","fromNode":"8e7ebcbf905df2b3","fromSide":"right","toNode":"7d76c49d20329ac5","toSide":"top"},
 		{"id":"b110366d67282624","fromNode":"8e7ebcbf905df2b3","fromSide":"left","toNode":"1c8bbb686c4b24a6","toSide":"right"},
-		{"id":"01939179b309b7d1","fromNode":"0bf806b97dae9987","fromSide":"left","toNode":"730c910eff640d8e","toSide":"top"},
-		{"id":"fda297670544fae0","fromNode":"508f72eb06297648","fromSide":"right","toNode":"730c910eff640d8e","toSide":"left"}
+		{"id":"a5ae2cebcbe3a865","fromNode":"8e7ebcbf905df2b3","fromSide":"top","toNode":"3f5d814da18634ee","toSide":"bottom"},
+		{"id":"ec3d062858ace05f","fromNode":"3f5d814da18634ee","fromSide":"top","toNode":"72dd3e04cd46c993","toSide":"bottom"},
+		{"id":"621d5d929e5e5aec","fromNode":"0bf806b97dae9987","fromSide":"top","toNode":"730c910eff640d8e","toSide":"bottom","color":"#c0bfbf"}
 	]
 }
