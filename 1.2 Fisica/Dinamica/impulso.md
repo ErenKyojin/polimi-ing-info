@@ -36,7 +36,7 @@ $$
 >[!remark]
 >Questo teorema è diretta conseguenza delle definizioni di forza e di impulso, trova applicazioni nei casi in cui forze intense si manifestano per intervalli molto brevi ([[urti]])
 
->{!remark}
+>[!remark]
 >Forze impulsive sono le [[Reazioni vincolari]]
 
 >[!example]

@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"1c8bbb686c4b24a6","type":"group","x":-867,"y":-620,"width":290,"height":680,"label":"Teoremi di Konig"},
-		{"id":"63ac09f14164f59f","x":-360,"y":-1140,"width":530,"height":320,"type":"group","label":"Seconda equazione cardinale per i SdP"},
+		{"id":"63ac09f14164f59f","x":-400,"y":-1140,"width":570,"height":320,"type":"group","label":"Seconda equazione cardinale per i SdP"},
 		{"id":"508f72eb06297648","type":"text","text":"Forze esterne\nForze tra un altro sistema e quello in considerazione","x":-350,"y":-100,"width":250,"height":100},
 		{"id":"482f424aa6b6412c","type":"text","text":"#### Prima equazione cardinale della dinamica dei sistemi\nLa risultante delle forze esterne è uguale alla derivata della quantità di moto totale del sistema","x":-350,"y":51,"width":250,"height":269,"color":"1"},
 		{"id":"b8106d944f881017","type":"text","text":"La quantità di moto in un sistema di punti materiali si conserva","x":-760,"y":320,"width":250,"height":90,"color":"2"},
@@ -18,7 +18,7 @@
 		{"id":"3f5d814da18634ee","x":-100,"y":-731,"width":250,"height":223,"type":"text","text":"È detto momento angolare o momento della quantità di moto di un sistema di punti materiali rispetto ad un polo la somma dei momenti angolari di tutti i punti materiali rispetto al medesimo polo"},
 		{"id":"72dd3e04cd46c993","x":-100,"y":-1120,"width":250,"height":280,"type":"text","text":"Per la seconda equazione cardinale della dinamica applicata ai singoli punti, si ottiene che la derivatà rispetto al tempo del momento angolare è uguale al momento meccanico delle forze esterne rispetto allo stesso polo"},
 		{"id":"f4b3adff77cf4362","x":275,"y":-1180,"width":250,"height":240,"color":"4","type":"text","text":"Un sistema è isolato se la risultante delle forze esterne ed il momento meccanico delle forze esterne sono nulli, per un sistema isolato quantità di moto e momento angolare si conservano"},
-		{"id":"b779aaff5f3d131a","x":-350,"y":-1120,"width":250,"height":60,"type":"text","text":""}
+		{"id":"b779aaff5f3d131a","x":-380,"y":-1060,"width":250,"height":140,"type":"text","text":"Se il polo è mobile bisogna sommare il prodotto vettoriale della velocità del polo con la sua quantità di modo"}
 	],
 	"edges":[
 		{"id":"87c2620f26d5a4af","fromNode":"8e7ebcbf905df2b3","fromSide":"bottom","toNode":"508f72eb06297648","toSide":"top"},
