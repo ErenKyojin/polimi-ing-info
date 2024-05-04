@@ -20,9 +20,3 @@ modification date: 2023-03-26 18:27
 
 >[!remark]
 >Se vale il teorema di conservazione dell'energia, la diminuzione di energia meccanica deve corrispondere ad un'aumento di qualche altra forma di energia del sistema. Tipicamente il lavoro compiuto dalle forze non conservative va ad aumentare l'energia termica del sistema, ossia la temperatura dei corpi
-
-
-
-
-
-
