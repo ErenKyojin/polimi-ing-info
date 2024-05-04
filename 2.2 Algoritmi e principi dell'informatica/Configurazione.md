@@ -1,5 +1,5 @@
 
-> [!def]
+> [!definition]
 > $$c = <q,x,\gamma>$$
 > Con:
 > - $q$ stato 

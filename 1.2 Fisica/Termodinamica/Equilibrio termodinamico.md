@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >Devono essere garantite 3 condizioni:
 >- [[Equilibrio meccanico]]
 >- [[equilibrio termico]]

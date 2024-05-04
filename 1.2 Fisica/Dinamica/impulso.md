@@ -4,7 +4,7 @@ creation date: 2023-03-23 17:02
 modification date: 2023-03-23 17:02
 ---
 
->[!def]
+>[!definition]
 >Si definisce impulso di una [[forza]] in un certo [[intervallo]] di tempo l'[[integrale]] vettoriale della forza nello stesso intervallo di tempo.
 > $$
 >\vec{I}_{F}(t_{1},t_{2}) = \int _{t_{1}}^{t_{2}} \!\vec{F}(t) \, \mathrm{d}t 

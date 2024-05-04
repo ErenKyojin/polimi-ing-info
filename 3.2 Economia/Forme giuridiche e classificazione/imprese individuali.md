@@ -3,7 +3,7 @@ aliases: impresa individuale
 creation date: 2024-02-23
 ---
 
->[!def]
+>[!definition]
 >Le **Imprese individuali** sono imprese costituite da un'unica persona, detta anche "partita IVA"
 ^92680b
 

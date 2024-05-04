@@ -3,7 +3,7 @@ aliases: contabilità esterna
 creation date: 2024-03-18
 ---
 
->[!def]
+>[!definition]
 >Informazioni pubbliche redatte da imprese ed altri soggetti e misura gli scambi con l'esterno. Le informazioni sono redatte atraverso criteri omogenei stabiliti dalla legge
 
 Queste informazioni sono

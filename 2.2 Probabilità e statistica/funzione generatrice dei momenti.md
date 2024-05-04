@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-04-17
 ---
 
->[!def]
+>[!definition]
 >Sia $X$ variabile aleatoria per la quale esiste un intervallo aperto $\mathcal{O}$, contenente lo $0$ tale che $e^{tX}$ ammette media per ogni $t$ in $\mathcal{O}$
 >$$m_{X}(t) := E(e^{tX})\qquad \forall t \in \mathcal{O}$$
 >ed è detta funzione generatrice dei momenti di $X$

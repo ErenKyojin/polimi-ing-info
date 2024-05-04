@@ -3,13 +3,13 @@ aliases: Relazione
 creation date: 2023-04-26 08:48
 modification date: 2023-04-26 08:48
 ---
->[!def]
+>[!definition]
 >dati $n$ insiemi $A_{1},A_{2},\dots,A_{n}$ si definisce relazione $n$-aria o di arità $n$ tra gli $n$ insiemi $A_{1},A_{2},\dots,A_{n}$ un qualunque sottoinsieme del prodotto cartesiano $A_{1} \times A_{2} \times \dots \times A_{n}$
 
 Relazione vuota: $\varnothing$
 Relazione universale su $A$: $\omega_{A}$ considera tutte le possibile $n$-uple ordinate
 
->[!def]
+>[!definition]
 >Dati due [[insieme|insiemi]] $A$ e $B$, una relazione da $A$ in $B$ è:
 >$$\mathfrak{R} \subseteq A \times B$$
 >Diciamo che $a \in A$ è in relazione $b \in B$ se $(a,b) \in \mathfrak{R}$

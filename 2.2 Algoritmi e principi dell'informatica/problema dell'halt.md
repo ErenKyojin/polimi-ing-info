@@ -40,7 +40,11 @@ int h(int x){
 ```
 
 
+<<<<<<< HEAD
 >[!cor]
+=======
+>[!corollary]
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >La funzione $h'(x) = g(x,x)\quad\begin{align}=1\ \text{se}\ f_{x}(x) \neq \perp\\=0\ \text{se }f_{x}(x) = \perp\end{align}$ non è calcolabile
 >
 >In realtà, rigorosamente parlando, si tratta piuttosto di un lemma che di un corollario, esso costituisce il cuore della dimostrazione del teorema precedente. Di per se l'enunciato non significa molto, è però importante menzionarlo per sottolineare che il suo enunciato non può essere ricavato come conseguenza immediata del teorema precedent.e

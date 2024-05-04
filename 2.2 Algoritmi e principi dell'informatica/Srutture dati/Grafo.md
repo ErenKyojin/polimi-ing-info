@@ -4,7 +4,7 @@ creation date: 2023-05-22 12:55
 modification date: 2023-05-22 12:55
 ---
 
-> [!def]
+> [!definition]
 > Un grafo è una coppia $G = (V, E)$ in cui:
 > - $V$ è un insieme di nodi detti anche vertici
 > - $E$ è un insieme di archi deti anche lati o edges
@@ -127,14 +127,14 @@ Abbiamo un array di liste, con una lista per ogni nodo del grafo, per ogni verti
 ### matrice di adiancenza
 
 > [!multi-column]
-> > [!def]
+> > [!definition]
 > > $$ \begin{align}
 > > V &= \{ a,b,c,d,e \} \\
 > > E &= \{ (a,b),(a,d)(d,a),(b,e) \\
 > >   &\quad (c,e),(e,d),(e,e)\}
 > > \end{align}$$
 > 
-> > [!def] Matrice di adiacenza
+> > [!definition] Matrice di adiacenza
 > > $$ \begin{flalign}
 > > &\begin{array}{ccc}
 > >  &\ \ a & b & c & d & e

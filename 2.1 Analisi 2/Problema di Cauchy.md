@@ -1,7 +1,7 @@
 # Problema di Cauchy
 Possiamo introdurre il problema di Cauchy pensando al come trovare la soluzione che passa per un determinato punto del piano, più precisamente:
 
->[!def]
+>[!definition]
 >Data una generica [[EDO]] del $1°$ ordine
 >$$y'(t) = f(t,y(t))$$
 >E dato $(t_0, y_0) \in$ dominio di definizione di $f$.
@@ -203,7 +203,7 @@ Partiamo da un esempio:
 
 
 
->[!def]
+>[!definition]
 >Dato $\mathbf{y}'(t) = A \cdot \mathbf{y(t)} + \mathbf{b}(t)\qquad n\times n$
 >con $b_{j} : J \subseteq \mathbb{R} \to \mathbb{R}$
 >

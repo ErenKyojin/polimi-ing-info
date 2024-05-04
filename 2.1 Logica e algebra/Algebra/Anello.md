@@ -3,7 +3,7 @@ aliases:
 creation date: 2\underline{0}23-11-29
 ---
 
->[!def]
+>[!definition]
 >$\left< A, +, \cdot \right>$ anello se
 >- $\left< A, + \right>$ sia un [[gruppo abeliano]]
 >- $\left< A, \cdot \right>$ sia un [[semigruppo]]
@@ -37,10 +37,10 @@ $\left< A, +, \cdot \right>$ sia anello
 
 ***
 
-> [!def]
+> [!definition]
 > Se $\left< A, +, \cdot \right>$ è un anello in cui esiste l'elemento neutro indicato con $\underline{1}$ rispetto all'operazione $\left< A, +, \cdot \right>$ è detto **anello con unità**
 
->[!def]
+>[!definition]
 >Se $\left< A, + , \cdot \right>$ è un anello in cui l'operazione è commutativa allora $\left< A, +, \cdot \right>$ è detto **anello commutativo**
 
 
@@ -76,7 +76,7 @@ ab' - ab = kan& \\
 allora $\left< \mathbb{Z}_{n}, \oplus, \otimes \right>$ è un anello
 
 
->[!def]
+>[!definition]
 >$\left< A, +, \cdot \right>$ anello
 >due elementi $a,b \in A$ si dicono **divisori dello zero** di $A$ se
 >$$ a \neq  \underline{0}\quad b \neq  \underline{0}\quad a\cdot b = 0 $$

@@ -2,7 +2,7 @@
 aliases: vettore
 ---
 # Vettori geometrici
->[!def] vettore applicato
+>[!definition] vettore applicato
 >Un vettore applicato è un segmento orientato e si rappresenta con una freccia
 
 
@@ -66,7 +66,7 @@ Da tutte queste definizioni possiamo tradurre l'[[Assioma delle parallele]] per 
 >I vettori sono stati utilizzati per la prima volta in fisica, ad esempio per una forza applicata su una particella, dove il punto di applicazione è la posizione della particella, il modulo l'intensità della forza, e la direzione ed il verso sono le rispettive della forza.
 
 # Vettore libero
->[!def] 
+>[!definition] 
 >Un vettore libero è una grandezza dotata di modulo, direzione, e verso. Si perde però l'informazione sul punto di applicazione.
 >I vettori liberi in realtà si possono definire come una [[relazione di equivalenza|classe di equivalenza]] dei vettori applicati, infatti due vettori applicati $\vec{AB}$ si definiscono equivalenti se hanno stesso modulo, direzione e verso.
 >

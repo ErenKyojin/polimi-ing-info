@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >Perchè si possa realizzare una trasformazione reversibile
 >- non devono agire forze dissipative
 >- deve essere una trasformazione quasi-statica

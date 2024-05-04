@@ -96,7 +96,7 @@ Nelle aree C, K ed S viene associato il file .exe come backing store con offset 
 
 ## Creazione di VMA
 
->[!def]
+>[!definition]
 >```C
 >#include <sys/map.h>
 >void *map(void *addr, size_t length, int port, int flags, int fd, off_t offset)

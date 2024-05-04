@@ -4,7 +4,7 @@ creation date: 2023-05-09 12:02
 modification date: 2023-05-09 12:02
 ---
 
->[!def] Problema dell'rodinamento
+>[!definition] Problema dell'rodinamento
 >**Input** Abbiamo una sequenza di $n$ numeri $\left< a_{1},a_{2},\dots,a_{n} \right>$
 >**Output** Vogliamo una permutazione $\left< a_{1}', a_{2}',\dots,a_{n}' \right>$ tale che $a_{1}' < a_{2}' < \dots < a_{n}'$
 

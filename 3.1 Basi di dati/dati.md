@@ -3,7 +3,7 @@ aliases: dato
 creation date: 2024-02-27
 ---
 
->[!def]
+>[!definition]
 >I dati, una volta interpretati e correlati opportunamente, forniscono [[informazione|informazioni]] che consentono di arrichire la nostra conoscienza del mondo
 
 

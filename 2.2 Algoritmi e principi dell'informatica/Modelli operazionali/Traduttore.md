@@ -19,7 +19,7 @@ x = 10100
 y = $\perp$ (termina a q1)
 
 
->[!def]
+>[!definition]
 >- T = <Q,I,$\delta$,q0,F,O,$\eta$>
 >	- <Q,I,$\delta$,q0,F> come per $A$ riconoscitore
 >	- O: alfabeto di uscita

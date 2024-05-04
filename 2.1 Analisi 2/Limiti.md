@@ -1,6 +1,6 @@
 # Limiti per funzioni di due variabili
 
->[!def]
+>[!definition]
 >$A \subseteq \mathbb{R}^2$ una funzione di due variabili a valori reali $f:A \to \mathbb{R}$ è una relazione che associa ad $(x,y) \in A$ un unico valore reale
 > $$ \begin{align}
 >f : A \subseteq \mathbb{R}^2 &\to \mathbb{R} \\
@@ -13,7 +13,7 @@ $$ grafico(f) = \{(x,y,z) \in \mathbb{R}^3 : (x,y) \in A, z = f(x)\} \subseteq \
 Per ogni $k \in \mathbb{R}$ l'insieme di livello di $f$ al livello $k$ 
 $$ I_{k} = \{(x,y) \in A \subseteq \mathbb{R}^2 : f(x,y) = k\} $$
 
->[!def] Definizione di limite
+>[!definition] Definizione di limite
 >Ripasso limiti 1 variabile:
 >$$\begin{align}
 >|x-x_{0}| < \delta &\iff (x_{0}- \delta; x_{0} + \delta) \\
@@ -25,7 +25,7 @@ $$ I_{k} = \{(x,y) \in A \subseteq \mathbb{R}^2 : f(x,y) = k\} $$
 > $$ \lim_{ (x,y) \to (0,0) }  \frac{x^2 - y^2}{x^2 + y^2} $$
 
 
->[!def] 
+>[!definition] 
 >siano $A \subseteq \mathbb{R}^2$ aperto,$\mathbf{x}_{0} \in A$
 > $$ f : A \setminus {\mathbf{x}_{0}} \to \mathbb{R} $$
 > diciamo che $f$ tende al limite $l \in \mathbb{R}$ per $\mathbf{x}$ che tende a $\mathbf{x}_{0}$ e scriviamo

@@ -3,7 +3,7 @@ aliases: URL
 creation date: 2024-02-27
 ---
 
-> [!def]
+> [!definition]
 > L'URL è un uri specifico con la proprietà che, se deferenziato, porta alla risorsa.
 
 stringa strutturata

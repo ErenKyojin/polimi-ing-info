@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Data una prova o un esperimento con esito positivo o negativo, ossia un prova di bernoulli. Posto $X=1$ quando l'esito è positivo e $X=0$ quando l'esito è negativo, diciamo che $X$ è una **variabile aleatoria di Bernoulli** o **Bernoulliana** se** $\exists p \in [0,1]$ tale che
 >$$ \begin{cases}
 >p(0) = P(X=0) = 1 - p \\
@@ -18,7 +18,7 @@ X \sim \Bi(n,p)
 $$
 
 Quindi
->[!def] 
+>[!definition] 
 >La densità discreta di una variabile aleatoria binomiale di parametri $(n,p)$ è data dalla
 >$$ \quad p(i) = \begin{pmatrix}
 n \\

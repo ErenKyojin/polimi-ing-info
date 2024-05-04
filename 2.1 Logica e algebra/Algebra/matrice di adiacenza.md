@@ -7,7 +7,7 @@ modification date: 2023-04-26 09:14
 
 # In elettrotecnica
 
-> [!def]
+> [!definition]
 > Dato un grafo con $n$ nodi e $l$ lati, possiamo definire la matrice di incidenza del grafo come una matrice $n \times l$. 
 > La $k$-esima riga indica il nodo $k$, la $j$-esima colonna indica il lato $j$, e possiamo riempire la matrice:
 > $$ a_{kj} = \begin{cases}

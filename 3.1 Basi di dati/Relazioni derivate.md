@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-16
 ---
 
-> [!def]
+> [!definition]
 > In una base di dati possiamo avere due tipi differenti di relazioni
 > - relazioni di base, ossia relazione autonome i cui valori non dipendono da altre relazioni
 > - relazioni derivate, i cui valori dipendono da un'altra relazione

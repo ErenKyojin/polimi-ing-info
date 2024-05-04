@@ -12,7 +12,7 @@ $$
 In questo caso $E,F$ sono detti indipendenti
 
 
->[!def]
+>[!definition]
 >$E,F$ eventi di $(\Omega,\mathcal{F},P)$ sono indipendenti se
 > $$
 > P(E \cap F) = P(E)P(F)
@@ -121,7 +121,7 @@ $$
 
 ## Indipendenza multipla
 
->[!def]
+>[!definition]
 >3 eventi $E,F,G$ sono indipendenti se e solo se:
 >1. $E$ ed $F$ sono indipendenti
 >2. $F$ e $G$ sono indipendenti
@@ -141,7 +141,7 @@ $$
 P(T_{1} \cap T_{2} \cap E ) & \neq P(T_{1})P(T_{2})P(E)
 > \end{align}$$
 
->[!def]
+>[!definition]
 >$n$ eventi $E_{1},E_{2},\dots,E_{n}$ sono indipendenti se e solo se qualunque sottoinsieme di indici $I \subseteq\{1,2,3,\dots,n\}$ si ha che $$P\left(\bigcap_{k \in I} E_{k}\right) = \prod_{k \in I} P(E_{k})$$
 >Abbiamo inoltre $2^n - (n - 1)$ condizioni diverse per avere l'indipendenza di $n$ elementi.
 >Per l'indipendenza a coppie sono solo $\begin{pmatrix}2\\n\end{pmatrix} \ll 2^n - (n +1)$ condizioni
@@ -176,7 +176,7 @@ Se $(E, F, G)$ sono indipendenti allora
 ## Indipendenza condizionale
 $A,B,F$ con $P(F) > 0$
 
->[!def]
+>[!definition]
 >DIco che $A,B$ sono condizionalmente indipendenti dato $F$ se $A,B$ sono indipendenti rispetto alla [[Probabilità condizionata]]. 
 > $$
 > P(F) = \left[ \frac{P(A\cap  B |F)}{P(F)} \right] 

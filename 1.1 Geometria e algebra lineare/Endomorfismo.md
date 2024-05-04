@@ -4,13 +4,13 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >Si definisce endomorfismo una funzione $f : A \to A$
 
 
 ### Endomorfismo di applicazioni lineari
 
->[!def]
+>[!definition]
 >Dato $V$ spazio vettoriale, un endomorfismo di $V$ è un'applicazione lineare $\mathcal{L} : V \to V$
 
 

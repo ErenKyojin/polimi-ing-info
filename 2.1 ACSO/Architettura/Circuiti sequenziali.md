@@ -1,6 +1,6 @@
 # Circuiti sequenziali
 
->[!def]
+>[!definition]
 >Un circuito digitale si dice sequenziale se le sue uscite dipendono anche dai alcuni o tutti valori passati
 
 Un circuito digitale sequenziale è dotato in ogni istante di:

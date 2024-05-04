@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >$P : \mathcal{F} \to \mathbb{R}$
 >Sia $\Omega$ uno [[spazio campionario]] probabilizzabile. Una probabilità $P$ su $(\Omega,\mathcal{F})$ è una funzione $P : \mathcal{F} \mapsto \mathbb{R}$ che soddisfa i seguenti assiomi
 >1. ad ogni [[evento]] associa un numero positivo 

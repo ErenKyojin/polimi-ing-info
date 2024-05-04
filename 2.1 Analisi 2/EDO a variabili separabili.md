@@ -1,6 +1,6 @@
 # EDO a variabili separabili
 
->[!def]
+>[!definition]
 >Una EDO del $1°$ ordine si dice a variabili separabili se
 >$$y'(t) = h(t) = g(y(t))$$
 >Con $h : J \subseteq \mathbb{R} \to \mathbb{R}, g : J \subseteq \mathbb{R} \to \mathbb{R}$

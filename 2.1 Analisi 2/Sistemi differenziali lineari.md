@@ -73,7 +73,7 @@ A =
 $$
 
 # DEF
->[!def] sistema differenziale lineare
+>[!definition] sistema differenziale lineare
 >Un sistema differenziale lineare di ordine $n$ a coefficienti costanti è:
 >$$ 
 >\begin{cases}
@@ -92,7 +92,7 @@ $$
 Il problema di Cauchy nei sistemi differenziali lineari assume un carattere più generale, approfondimento nel file relativo.
 
 # Soluzioni
->[!def]
+>[!definition]
 >Dato un sistema differenziale lineare $n \times n$, omogeneo, chiamo sistema fondamentale di soluzioni una famiglia di $n$ soluzioni linearmente indipendenti:
 >$$ y_{o_{1}}(t), \dots, y_{o_{n}}(t) $$
 >Base dello spazio vettoriale delle saoluzioni

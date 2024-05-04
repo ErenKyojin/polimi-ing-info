@@ -14,7 +14,7 @@ Il numero $s_n$ viene detto somma parziale (o ridotta) $n$-esima della serie e l
 Possiamo riscrivere questi termini in un unica scrittura sintetica:
 $$s_n = \sum_{k=0}^na_k\qquad\text{per }n = 0,1,2,...$$
 
->[!def] 
+>[!definition] 
 >diremo che la serie è convergente, divergente, irregolare se la successione $\{s_n\}$ delle sue somme parziali è convergente, divergente, irregolare rispettivamente. In particolare se $\{s_n\}$ è convergente $s_n \to s$ diremo che $s$ è somma della serie e scriveremo
 >$$\sum_{n = 0}^\infty a_n = s$$ 
 > In questo caso dunque vale la relazione

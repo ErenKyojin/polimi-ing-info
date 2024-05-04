@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-23
 ---
 
->[!def]
+>[!definition]
 >Hanno responsabilità solidale e illimitata per le obbligazioni sociali
 
 - ![[Società semplice#^b29411]]

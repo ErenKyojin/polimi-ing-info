@@ -38,12 +38,12 @@ alias: linguaggi
 >Tuttavia se A fosse l'insieme delle parole italiane, A* sarebbe un insieme di parole a caso concatenate, se vogliamo seguire una **logica** è necessario ottenerne un sottoinsieme tramite una grammatica formale
 
 
->[!def]
+>[!definition]
 >**Linguaggio**: $L$ sottoinsieme di $A^*$: $L \subseteq A^*$
 
 ## classi di linguaggi
 
->[!def]
+>[!definition]
 >Un linguaggio è detto **regolare** se viene riconosciuto da un [[Automa a stati finiti]]
 >$ab^na$ regolare
 >$a^nb^n$ irregolare 

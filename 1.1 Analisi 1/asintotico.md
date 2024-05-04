@@ -2,7 +2,7 @@
 #TODO successioni
 
 # Funzioni
->[!def]
+>[!definition]
 >Si dice che due [[Funzioni]] $f,g$ sono asintotiche per $x\to c$ se
 >$$\lim_{x\to c}\frac{f(x)}{g(x)} = 1$$
 >E si scrive $f\sim g$ per $x \to c$

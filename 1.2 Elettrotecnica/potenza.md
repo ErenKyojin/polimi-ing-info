@@ -1,4 +1,4 @@
->[!def] Potenza di una [[forza]]
+>[!definition] Potenza di una [[forza]]
 >La potenza istantanea $W$ di una forza $\vec{F}$ è la [[derivata]] temporale del [[Lavoro|lavoro]] compiuto dalla forza stessa
 >$$W = \frac{d\mathcal{L}}{dt} = \vec{F} \cdot \frac{d\vec{r}}{dt} = \vec{F} \cdot \vec{v}$$
 

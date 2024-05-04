@@ -4,7 +4,7 @@ creation date: 2023-05-09 19:19
 modification date: 2023-05-09 19:19
 ---
 
->[!def]  [[Linguaggio]] del primo ordine
+>[!definition]  [[Linguaggio]] del primo ordine
 >Per ovviare alle carenze espressive della [[Logica proposizionale]] introduciamo il linguaggio del primo ordine, con alfabeto composto da:
 > - Costanti: $a,b, \dots$ (al più un infinità numerabile e quindi spesso indicate con $a_{i}$)
 > - Variabili: $x,y, \dots$ (al più un infinità numerabile e quindi spesso indicate con $x_{i}$)

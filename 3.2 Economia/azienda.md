@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-19
 ---
 
->[!def]
+>[!definition]
 >Complessi dei beni organizzati dall'imprenditore per l'esercizio dell'impresa
 
 # ANKI

@@ -4,14 +4,14 @@ creation date: 2023-03-23 13:40
 modification date: 2023-03-23 13:40
 ---
 
->[!def] Principio di relatività galileiana
+>[!definition] Principio di relatività galileiana
 >Le leggi della meccanica assumono la stessa forma per tutti gli osservatori inerziali
 
 >[!remark] Conseguenza notevole del principio di relatività galileiano
 >Il principio di relatività galileiano esclude la possibilità di individuare un sistema di riferimento assoluto eseguendo esperimenti di meccanica. Tuttavia si è sempre provato a cercare un sistema assoluto. 
 >Fu Albert Einstein a risolvere questo problema, assumendo che la luce avesse una velocità uguale per tutti gli osservatori, questo portò al piú generale:
 
->[!def] Principio di relatività ristretta
+>[!definition] Principio di relatività ristretta
 >Tutte le leggi fisiche assumono la stessa forma per tutti gli osservatori inerziali
 
 >[!remark] Conseguenza notevole del principio di relatività ristretta

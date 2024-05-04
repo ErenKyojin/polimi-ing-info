@@ -32,11 +32,11 @@ Inoltre una relazione matematica $n$-aria distingue gli $n$ domini unicamente at
 
 Ed in effetti, le tabelle per il modello relazionale sfruttano la definizione di attributi per indicare i vari domini.
 
->[!def]
+>[!definition]
 >Sia $\mathcal{D}$ l'insieme dei domini, sia $\text{dom} : X \to \mathcal{D}$ funzione che associa ad ogni attributo $x \in X$ un dominio. Una relazione su $X$ è l'insieme di  [[tupla|tuple]] su $X$
 
 o, attraverso le definizioni date rispetto alle basi di dati
->[!def]
+>[!definition]
 >Una **relazione** o **istanza di relazione** su uno [[schema di relazione]] $R(X)$ è un insieme di tuple $r$ su $X$.
 >Si indica con la notazione $r(X)$
 

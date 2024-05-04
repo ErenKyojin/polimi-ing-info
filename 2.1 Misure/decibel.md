@@ -18,7 +18,7 @@ Possiamo scegliere un livello di potenza e usarlo come livello di riferimento
 
 $$P_{(\dB x)} = 10 \log_{10} \left(\frac{P}{P_{x}}\right)$$
 
-> [!def] nomenclatura
+> [!definition] nomenclatura
 > se usiamo sempre 1 mW di potenza allora $\dB m$
 > se usiamo sempre 1 W di potenza allora $\dB W$
 > 

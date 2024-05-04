@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Sia $(V,<,>)$ [[spazio euclideo]], $H$ un sottospazio vettoriale di $V$ e $\dim(H) = d < +\infty$. L'[[Algoritmo]] di Gram-Schmidt permette di determinarre una base ortogonale (e se necessario ortonormale) di $H$ a partire da una base qualsiasi di $H$. Gran-Schmidt implica che per ogni sottospazio $H \subseteq V$ con $\dim(H) < +\infty$ e $\forall \mathbf{v} \in V$ esiste ed è unico $\mathbf{v}_{H} \in H$ tale che $\mathbf{v} - \mathbf{v}_{H} \perp \mathbf{h} \in H$
 
 

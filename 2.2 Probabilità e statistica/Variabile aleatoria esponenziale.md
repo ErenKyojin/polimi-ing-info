@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-03
 ---
 
->[!def]
+>[!definition]
 >Una variabile aleatoria si dice esponenziale se la sua densità è data per qualche $\lambda > 0$ dalla formula:
 >$$ f(x) = \begin{cases}
 \lambda e^{-\lambda x} &x \geq 0 \\

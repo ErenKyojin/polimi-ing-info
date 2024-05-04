@@ -4,7 +4,7 @@ creation date: 2023-05-03 09:17
 modification date: 2023-05-03 09:17
 ---
 
->[!def]
+>[!definition]
 >In [[Logica proposizionale]] i connettivi sono gli elementi che connettono proposizioni atomiche per renderle complesse, consideriamo:
 > - Not $\sim$
 > - And $\land$

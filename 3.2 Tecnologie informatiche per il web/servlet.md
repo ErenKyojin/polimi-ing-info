@@ -14,7 +14,7 @@ Perchè usare Java?
 	- Possiamo quindi oggettificare HTTP
 - architetture network e enterprise
 
->[!def]
+>[!definition]
 >Un servlet è un estensione ad un server che ne migliora le funzionalità, gira su un processo persistente in un a JVM sul server
 >Vantaggi:
 >- supporto per java richiesto solo sul server

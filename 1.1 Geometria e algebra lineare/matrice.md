@@ -5,7 +5,7 @@ aliases:
   - "Nomenclatura"
 tags: []
 ---
->[!def]
+>[!definition]
 >Una matrice di tipo $(m,n)$ detta anche matrice $m \times n$ aa elementi in $\mathbb{K}$ è una tabella di elementi di $\mathbb{K}$ con $m$ righe e $n$ colonne
 > $$ A = \begin{bmatrix}
 >a_{11} &a_{12}  & \dots &a_{1n} \\
@@ -24,7 +24,7 @@ tags: []
 >Possiamo indicare l'elemento in posizione $i,j$ in una matrice $A \in M_{(m,n)}(\mathbb{K})$ come $[A]_{ij}$
 
 
->[!def]
+>[!definition]
 >Date due matrici $A = [a_{ij}]$ e $B = [b_{ij}]$, entrambe $\in M_{(m,n)}(\mathbb{K})$ diremo che $A = B$ se e solo se $a_{ij} = b_{ij}\ \forall i =1,\dots,m\ \forall j = 1,\dots,n$
 
 
@@ -74,7 +74,7 @@ $$ \begin{align}
 >Possiamo ottenere la [[matrice opposta]] di una matrice $A$ attraverso il prodotto: $-1 \cdot A = [-a_{ij}]$, si indica con $-A$
 
 
->[!def]
+>[!definition]
 >Diciamo che una matrice $A$ è combinazione lineare delle matrici $B_{1},\dots,B_{d} \in M_{(m,n)}(\mathbb{K})$ se esistono $x_{1},\dots,x_{d} \in \mathbb{K}$ tali che
 >$$ A = x_{1}B_{1} + x_{2}B_{2} + \dots + x_{d}B_{d} $$
 
@@ -238,7 +238,7 @@ Ad esempio $A = \begin{bmatrix}0 & -1 & 2\\1 & 0 & 0\\-2  & 0 & 0\end{bmatrix}$
 
 ![[pivot]]
 
->[!def]
+>[!definition]
 >Data una matrice $A = [a_{ij}] \in M_{\mathbb{K}}(m,n)$, siano $A_{1},A_{2},\dots,A_{m}$ le sue righe. Si dice che $A$ è **a scala** se:
 >1. se due righe $A_{i}$ e $A_{i+1}$ sono non nulle, il pivot di $A_{i+1}$ è a destra del pivot di $A_{i}$ 
 >2. Se $A_{i} = 0$ anche $A_{i + 1} = 0$ 

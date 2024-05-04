@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-29
 ---
 
->[!def]
+>[!definition]
 >Un accettore a stati finiti è una quintupla $\left< Q, I, \delta, q_{0}, F \right>$
 >Dove $Q$ è insieme finito di stati
 >I è alfabeto

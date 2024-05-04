@@ -3,7 +3,7 @@ aliases: funzione di distribuzione
 creation date: 2024-03-03
 ---
 
->[!def]
+>[!definition]
 >Sia $X$ una variabile aleatoria, definiamo la sua **funzione di ditribuzione** o **funzione di ripartizione** come $F_{X} : \mathbb{R} \to [0,1]$ 
 >$$ F_{X}(t) = P(X \leq t) $$
 >
@@ -16,7 +16,7 @@ creation date: 2024-03-03
 - $s < t \implies P(s < X \leq t) = F_{X}(t) - F_{X}(s)$
 
 
-> [!def]
+> [!definition]
 > Data $X$ variabile aleatoria binomiale di parametri $p,n$, la sua funzione di distribuzione è data dalla seguente:
 > $$ P\{ X \leq i \} = \sum_{k = 0}^i \begin{pmatrix}
 > n \\
@@ -32,7 +32,7 @@ creation date: 2024-03-03
 
 ^f9173c
 
-> [!def]
+> [!definition]
 > Sia $X$ variabile aleatoria continua, sia $f(x)$ la sua funzione di densità. La funzione di distribuzione è ricavabile tramite la relazione
 > $$ P\{ X < a \} = F(a) = \int _{-\infty}^{a} \! f(x) \, \mathrm{d}x  $$
 
@@ -40,7 +40,7 @@ creation date: 2024-03-03
 
 ## Funzione di ripartizione multidimensionale
 
-> [!def]
+> [!definition]
 > Sia $\mathbf{X} = (X_{1},\dots,X_{n})$ un [[Vettori aleatori|vettore aleatorio]] $n$-dimensionale definito su uno spazio di probabilità $(\Omega,\mathcal{F},P)$. È detta funzione di ripartizione di $X$ la funzione $F_{\mathbf{X}} = F_{(X_{1},\dots,X_{n})} : \mathbb{R}^n \to [0,1]$ definita per ogni $(x_{1},\dots,x_{n}) \in \mathbb{R}^n$ come $F_{(X_{1},\dots,X_{n})}(x_{1},\dots,x_{n}) := P(X_{1} \leq x_{1},\dots,X_{n} \leq x_{n})$
 
 >[!proposition]

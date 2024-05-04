@@ -3,5 +3,5 @@ aliases:
 creation date: 2024-02-19
 ---
 
-> [!def]
+> [!definition]
 >  $$\text{ utile } = \text{ ricavi } - \text{ costi }$$

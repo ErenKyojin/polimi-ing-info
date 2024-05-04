@@ -5,7 +5,7 @@ modification date: 2023-03-20 14:56
 ---
 
 Per le variabili aleatorie discrete:
->[!def]
+>[!definition]
 >Sia $X$ una variabile aleatoria discreta a valori in $S = \left\{ x_{k} : k \in I \right\}$ con $I \subset \mathbb{Z}$ e sia $p_{X}$ la sua densità. Se
 > $$
 > \sum_{k \in I} |x_{k}|p_{X}(x_{k}) < +\infty
@@ -47,6 +47,7 @@ Sia $X$ una variabile aleatoria definita sullo [[Spazio di probabilità]] $(\Ome
 5. Se $X$ è una variabile aleatore tale che $P(X \geq 0) = 1$ e $E(X)$ esiste, allora $E(X) \geq 0$. Se in aggiunta $E(X) = 0$ allora $P(X =0)=1$
 6. se $a,b \in \mathbb{R}$ sono tali che $P(a \leq X \leq b) = 1$allora $a \leq E(X) \leq b$
 7. siano $g$ e $h$ funzioni tali che $E(g(X))$ e $E(h(x))$ esistono. Se $P(h(X) \geq g(x)) = 1$ allora $E(h(X)) \geq E(g(x))$
+
 la prima proprietà ci dice che il valore atteso di una costante è la costante stessa, la seconda sottolinia un legame tra valore atteso e probabilità, la 3 e la 4 dicono come si comporta il valore atteso con operazioni lineari, la 5 è la positività del valore atteso e la 6 è l'internalità del valore atteso
 
 ### Valore atteso della somma di variabili aleatorie
@@ -71,7 +72,12 @@ E[X] &= \sum_{i} x_{i}P\{ X=x_{i} \} \\
 &=\sum_{s \in S} X(s)p(s)
 \end{align} $$
 >dove $S$ è l'unione di tutti gli eventi disgiunti $S_{1},S_{2},\dots$
+
+>[!corollary]
+>siano $X_{1},\dots,X_{n}$ variabili aleatorie
+>$$ E\left[ \sum_{i}X_{i} \right] = \sum_{i}E[X_{i}] $$
 >
+<<<<<<< HEAD
 >>[!cor]
 >>siano $X_{1},\dots,X_{n}$ variabili aleatorie
 >>$$ E\left[ \sum_{i}X_{i} \right] = \sum_{i}E[X_{i}] $$
@@ -79,6 +85,11 @@ E[X] &= \sum_{i} x_{i}P\{ X=x_{i} \} \\
 >>>[!dim]
 >>>poniamo $Z = X_{1} + X_{2} + \dots + X_{n} = \sum_{i} X_{i}$, avremo quindi
 >>>$$ \begin{align}
+=======
+>>[!dim]
+>>poniamo $Z = X_{1} + X_{2} + \dots + X_{n} = \sum_{i} X_{i}$, avremo quindi
+>>$$ \begin{align}
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 E[Z] &= \sum_{s \in S} Z(s)p(s) \\
 &= \sum_{s \in S} (X_{1}(s) + X_{2}(s) +\dots + X_{n}(s))p(s) \\
 &=\sum_{s \in S} X_{1}(s)p(s) + \sum_{s \in S} X_{2}(s)p(s) + \dots + \sum_{s \in S} X_{n}(s)p(s) \\
@@ -91,7 +102,7 @@ E[Z] &= \sum_{s \in S} Z(s)p(s) \\
 
 # Valore atteso di una [[Variabile aleatoria#^a0cf7e|variabile aleatoria continua]]
 
-> [!def]
+> [!definition]
 > Considerata una variabile aleatoria continua $X$ con funzione di densità $f(x)$, definiamo il valore atteso come 
 > $$ E[x] = \int _{-\infty}^{\infty} \! xf(x) \, \mathrm{d}x  $$ ^9f67c7
 
@@ -120,6 +131,7 @@ Siamo interessati a calcolare il valore atteso di una variabile $Y$ tale che $Y 
 
 
 >[!cor]
+<<<<<<< HEAD
 >$X_{1}$ e $X_{2}$ variabili aleatorie, allora $X_{1} + X_{2}$ ammette media
 >$$ E(X_{1} + X_{2}) = E(X_{1}) + E(X_{2}) $$
 
@@ -141,3 +153,19 @@ $$ E\left(\prod_{i=1}^n X_{i} \right)= \prod_{i=1}^n E(X_{i}) $$
 
 In particolare la varianza della somma di $n$ variabili aleatorie $X_{1},\dots,X_{n}$ è data dalla formula
 $$ \text{var}(X_{1} +\dots+X_{n})= \sum_{1}^n \text{var}(X_{i}) +2 \sum_{i=1}^{n-1} \sum_{j=i+1}^nE(X_{i} - E(X_{i})(X_{j} - E(X_{j})))$$
+=======
+>$X_{1}$ e $X_{2}$ variabili aleatorie definite sul medesimo spazio di probabilità e che ammettono media. ALlora $X_{1} + X_{2}$ ammette media e si ha
+>$$ E(X_{1} + X_{2}) = E(X_{1}) + E(X_{2}) $$
+
+in generale la media della somma di $n$ variabili aleatorie dipende unicamente dalle densità marginale.
+
+> [!corollary]
+> $X_{1}$ ed $X_{2}$ variabili aleatorie indipendenti che ammettono media. Allora anche $X_{1}X_{2}$ ammette media e
+> $$ E(X_{1}X_{2}) =E(X_{1})E(X_{2}) $$
+
+>[!corollary]
+>Se $X_{1}$ e $X_{2}$ hanno varianza finita, rispettivamente $\text{var}(X_{1}), \text{var}(X_{2})$ allora $X_{1} + X_{2}$ ha varianza finita e vale che
+>$$ \text{var}(X_{1} + X_{2}) = \text{var}(X_{1}) + \text{var}(X_{2}) + 2E[(X_{1} - E(X_{1}))(X_{2} - E(X_{2}))] $$
+>se inoltre $X_{1}$ ed $X_{2}$ sono indipendenti, allora
+>$$ \text{var}(X_{1} + X_{2}) = \text{var}(X_{1}) + \text{var}(X_{2})$$
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e

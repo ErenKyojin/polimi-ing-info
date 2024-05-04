@@ -20,7 +20,7 @@ E passiamo al limite (supponendo che esista) per $h\to0$. Cosa succede geometric
 >1. La retta limite si chiama anche retta tangente al grafico di $f$ in $x$ 
 2.la sua pendenza è data dalla tangente dell'angolo $\omega$ tra la tangente e l'asse delle ascisse e si chiama **derivata prima** di $f$ nel punto $x$
 
->[!def] Derivata
+>[!definition] Derivata
 >Sia $f : (a,b)\to\mathbb R$ si dice **derivabile** in $x_0 \in (a,b)$ se esiste finito $\lim_{h\to0}\frac{f(x_0+h)-f(x_0)}{h}$. Questo limite prende il nome di derivata prima (o derivata) di $f$ in $x_0$ e si indica come:
 >$$f'(x_0)\quad\frac{df}{dx}\bigg\vert_{x = x_0}\quad Df(x_0)\quad \dot{f}(x_0)\quad \frac{d}{dx}f(x)$$
 $$\fbox{$\lim_{h\to0}\frac{f(x_0+h)-f(x_0)}{h}=f'(x_0)$}$$

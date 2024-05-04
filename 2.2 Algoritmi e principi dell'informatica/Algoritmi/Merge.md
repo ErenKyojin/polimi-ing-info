@@ -4,7 +4,7 @@ creation date: 2023-05-02 11:03
 modification date: 2023-05-02 11:03
 ---
 
-> [!def]
+> [!definition]
 > 
 > ```clike
 > n1 := q - p + 1

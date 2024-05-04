@@ -1,5 +1,5 @@
 # Infiniti ed infinitesimi
->[!def]
+>[!definition]
 >si dice infinito ogni successione $a_n \to \pm \infty$
 >si dice infinitesimo ogni successione $a_n\to 0$
 
@@ -32,10 +32,10 @@ L \neq 0 &\Leftrightarrow \quad &a_n,b_n \text{ infinitesimi dello stesso ordine
 $$
 
 # Misurare infiniti ed infinitesimi
-> [!def] infinito campione
+> [!definition] infinito campione
 > $C_n = \{n\}$
 
->[!def] infinitesimo campione
+>[!definition] infinitesimo campione
 >$c_n =\{n\}$
 
 $$\lim \frac{a_n}{C_n^\alpha} = L \neq 0 \text{ e finito}$$

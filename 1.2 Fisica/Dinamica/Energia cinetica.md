@@ -4,7 +4,7 @@ creation date: 2023-03-25 18:14
 modification date: 2023-03-25 18:14
 ---
 
-> [!def]
+> [!definition]
 > Si definisce energia cinetica $E_{C}(P)$ di un [[Punto materiale]] di [[massa]] $m$ nella posizione $P$ l'[[Indice di stato fisico]]:
 > $$
 > E_{C}(P) = \frac{1}{2}mv^2_{P} + k

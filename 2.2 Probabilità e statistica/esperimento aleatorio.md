@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Un esperimento aleatorio è un esperimento non deterministico, ossia non possiamo essere certi a priori dei risultati. Ma è comunque possibile determinare tutti i possibili risultati, che sono detti [[caso elementare|casi elementari]]
 
 

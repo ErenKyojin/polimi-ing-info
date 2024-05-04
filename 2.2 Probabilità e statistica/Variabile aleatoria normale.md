@@ -32,7 +32,7 @@ $$
 \end{document}
 ```
 
->[!def]
+>[!definition]
 >Una [[Variabile aleatoria]] assolutamente continua $X$ con densità
 >$$ f(x) = \frac{1}{\sqrt{ 2\pi \sigma^2 }}e^{-(x-\mu)^2/2\sigma^2} $$
 >è detta **variabile aleatoria normale** o **gaussiana** di parametri $\mu$ e $\sigma^2$ e si indica $X \sim \mathcal{N}(\mu,\sigma^2)$

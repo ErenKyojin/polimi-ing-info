@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-19
 ---
 
->[!def]
+>[!definition]
 >Scioglimento volontario da parte dei soci, vengono venduti tutti i beni
 
 

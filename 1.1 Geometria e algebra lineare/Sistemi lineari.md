@@ -10,7 +10,7 @@ Lo studio dei sistemi lineari è fondamentale in quanto le equazioni lineari che
 
 per definire un **sistema lineare** è necessario prima definire un'[[equazione lineare]] 
 
->[!def]
+>[!definition]
 >Un sistema lineare di $m$ equazioni in $n$ incognite è un insieme di $m$ **equazioni lineari** in $x_{1},\dots,x_{n}$:
 >$$ \begin{cases}
 >a_{11}x_{1} + a_{12}x_{2} + \dots + a_{1n}x_{n} = b_{1} \\
@@ -20,7 +20,7 @@ per definire un **sistema lineare** è necessario prima definire un'[[equazione 
 >\end{cases} $$
 >con $a_{ij},b \in \mathbb{K}\ \forall i=1,\dots,m \land j = 1,\dots,n$  dove $i$ indica l'equazione e $j$ indica l'incognita
 
->[!def]
+>[!definition]
 >Una **soluzione** di un sistema lineare è una $n$-upla ordinata $(\bar{x}_{1},\bar{x}_{2},\dots,\bar{x}_{n}) \in \mathbb{K}^n$ le cui componenti soddisfino le equazioni lineari del sistema.
 >
 >Due sistemi lineari sono **equivalenti** se hanno lo stesso insieme di soluzioni

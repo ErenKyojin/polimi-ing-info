@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Sia $V$ [[spazio vettoriale]] su $\mathbb{K}$, diciamo che $\mathbf{v}$ è **combinazione lineare** di $\mathbf{v}_{1},\dots,\mathbf{v}_{d} \in V$ se esistono $t_{1}, \dots, t_{d} \in \mathbb{K} t.c.$ 
 >$$\mathbf{v} = t_{1}\mathbf{v}_{1} + \dots + t_{d}\mathbf{v}_{d}$$
 >Gli scalari $t_{1},\dots,t_{d}$ sono i coefficienti della combinazione lineare

@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 > Siano $\mathbf{v}$ e $\mathbf{w}$ vettori dello [[spazio euclideo]]. Esiste un unico vettore $\mathbf{v}_{\mathbf{w}}$ tale che:
 > 1. $\mathbf{v}_{\mathbf{w}}$ è parallelo a $\mathbf{w}$
 > 2. $\mathbf{v} -\mathbf{v}_{\mathbf{w}} \perp \mathbf{w}$

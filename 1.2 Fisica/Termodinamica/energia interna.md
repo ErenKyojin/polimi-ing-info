@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-> [!def]
+> [!definition]
 > L'energia interna è definita come una funzione di stato di un [[sistema termodinamico]]. In particolare
 > $$ U = U(p, V, T, m, \dots) $$
 > E

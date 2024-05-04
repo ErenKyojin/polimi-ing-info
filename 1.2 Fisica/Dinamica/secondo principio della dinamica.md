@@ -8,7 +8,7 @@ Come diretta conseguenza delle definizione di [[Forza risultante]] e [[Quantità
 $$
 \vec{F} = \frac{d\vec{p}}{dt}=\frac{d(m\cdot \vec{v})}{dt}= m\frac{d\vec{v}}{dt}=m\cdot \vec{a}   
 $$
->[!def] Secondo principio della [[Dinamica]] newtoniana
+>[!definition] Secondo principio della [[Dinamica]] newtoniana
 >La [[Forza risultante]] agente su di un punto materiale è il prodotto della [[massa]] del [[Punto materiale]] per la sua accelerazione
 
 >[!remark]

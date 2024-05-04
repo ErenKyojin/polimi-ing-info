@@ -4,7 +4,7 @@ creation date: 2023-05-10 09:56
 modification date: 2023-05-10 09:56
 ---
 
-> [!def]
+> [!definition]
 > Una variabile può apparire piú volte in una formula ed una sua occorrenza si dice libera o vincolata a seconda di come è collocata rispetto ai [[Quantificatori]] che quantificano la variabile in questione. Più precisamente diciamo che una occorrenza di una variabile $x$ è **llibera** se non è nel [[campo di azione]] di quantificatore che quantifichino $x$, altrimenti si dice **vincolata**. Pe convezione si dice vincolata anche l'occorrenza della variabile che compare nel quantificatore.
 
 
@@ -15,7 +15,7 @@ modification date: 2023-05-10 09:56
 >Tutte le occorrenze di $y$ sono vincolate, la prima e la seconda occorrenza di $x$ sono libere e le altre sono vincolate.
 
 
->[!def]
+>[!definition]
 >Un termine $t$ si dice **libero per una variabile** $x$ in una formula ben formata $\mathcal{A}$ se nessuna occorrenza libera di $x$ in $\mathcal{A}$ cade nel campo d'azione di un quantifiatore che quantifichi una variabile che compare in $t$.
 
 

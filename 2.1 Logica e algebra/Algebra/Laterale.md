@@ -3,7 +3,7 @@ aliases: laterale destro, laterale sinistro
 creation date: 2023-12-06
 ---
 
->[!def]
+>[!definition]
 >$\left< A, \cdot \right>$ [[gruppo]], $H \subseteq A$. Consideriamo $a \in A$, si definisce **laterale destro** di $H$ in $A$ il seguente insieme:
 >$$Ha = \{ ha : h \in H \}$$
 >In modo analogo si definisce il **laterale sinsitro** di $H$ in $A$
@@ -58,7 +58,7 @@ $\implies |A| = \ldots =|H| + |H| + |H| + |H| + \ldots + |H| = r |H|$
 
 ***
 
-> [!def]
+> [!definition]
 > $\left< A, \cdot \right>$ gruppo
 > Un sottogruppo $H$ di $A$ è detto **normale** in A, $H \vartriangleleft A$, se $\forall a \in A, \forall h \in H$ si ha $a^{-1}\cdot h\cdot a \in H$
 

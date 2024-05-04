@@ -1,6 +1,6 @@
 Particolari [[Serie]] dove abbiamo gli $x^n$ moltiplicati per coefficienti
 
->[!def]
+>[!definition]
 >Una serie di potenze è una [[Serie di funzioni]] della forma
 >$$ \sum_{n=0}^\infty  a_{n} (x - x_{0})^n = a_{0}+a_{1}(x-x_{0})+a_{2}(x-x_{0})^2+\dots + a_{n}(x-x_{0})^n+\dots$$
 >È una serie centrata in $x_{0}$ con $a_{n} \in \mathbb{R}$ detti coefficienti.
@@ -48,7 +48,7 @@ La somma di una serie di potenze è derivabile ad ogni ordine:
 
 
 # serie di potenze complesse
->[!def]
+>[!definition]
 > si dice serie di potenze complesse una serie del tipo:
 > $$ \sum_{n=0}^\infty a_{n}(z-z_{0})^n = a_{0} + a_{1}(z-z_{0})+a_{2}(z-z_{0})^2+\dots$$
 > 

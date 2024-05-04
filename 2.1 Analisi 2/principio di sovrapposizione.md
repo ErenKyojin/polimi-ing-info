@@ -2,7 +2,7 @@
 aliases: PSE
 ---
 # Principio di sovrapposizione
->[!def]
+>[!definition]
 >Sia $a : J \subset \mathbb{R}$ continua su $J$, l'applicazione lineare
 >$$y \overset{L}{\mapsto} L(y) = y' - a(t) \cdot y$$
 >Più esplicitamente, dati $c_{1}, c_{2} \in \mathbb{R}$

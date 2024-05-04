@@ -37,7 +37,7 @@
 >```
 
 
->[!def] Definizione importante
+>[!definition] Definizione importante
 >La serie di termini generali $f_{n}(x), x \in J$, converge, totalmente nell'intervallo non vuoto $I \subseteq J$ se esiste una successione numerica $a_{n} \geq 0$ tale che:
 >1. $|f_{n}(x)| \leq a_{n}\qquad \forall x \in I, \forall n = 0,1,2,3,\dots$
 >2. $\sum_{n=0}^\infty a_{n} < +\infty$ 

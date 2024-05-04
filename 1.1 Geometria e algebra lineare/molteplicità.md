@@ -1,6 +1,6 @@
 
 
->[!def]
+>[!definition]
 >Se $\lambda$ è autovalore di $A \in M)\mathbb{K}(n,n)$ allora indicheremo la sua molteplicità algebrica con $m_{a}(\lambda)$ e la sua molteplicità geometrica con $m_{g}(\lambda)$. Diremo che $\lambda$ è **semplice** se $m_{a}(\lambda)=1$, diremo che $\lambda$ è **regolare** se $m_{g}(\lambda) = m_{a}(\lambda)$. Se $\lambda$ è semplice allora è regolare infatti:
 > $$ 1 \leq m_{g}(\lambda) \leq m_{a}(\lambda) = 1 \implies mg(\lambda) = m_{a}(\lambda)=1 $$
 
@@ -21,7 +21,7 @@ Diremo che l'intero positivo $m$ è la molteplicità algebrica di $\widetilde{\l
 >
 >2. $p_{B}(\lambda) = (\lambda-1)^2(\lambda^4 - 1) = (\lambda-1)^3(\lambda+1)(\lambda-i)(\lambda+i)$. Gli autovalori di $B$ in $\mathbb{C}$ sono: $1$ con molteplicità algebrica $3$ e $-1,i,-i$ con molteplicità algebrica 1
 
->[!def]
+>[!definition]
 >Data $A \in M_{\mathbb{K}(n,n)}$ e $\lambda$ autovalore di $A$ l'[[Autovalori e Autovettori|autospazio]] di $A$ relativo a $\lambda$ ed il [[sottospazi vettoriali|sottospazio]]:
 > $$ V_{\lambda} = \ker(A - \lambda \mathbb{1}_{n}) = \left\{ \mathbf{v} \in \mathbb{K}^n | A\mathbf{v} = \lambda \mathbf{v} \right\}   $$
 > Inoltre la molteplicità geometrica $g_{\lambda}$ di $\lambda$ è la dimensione dell'autospazio $V_\lambda$ ovvero

@@ -4,7 +4,7 @@ creation date: 2024-02-20
 ---
 
 
-> [!def]
+> [!definition]
 > Se l'uscità $y(t)$ è determinata dall'ingresso al tempo $t$ e da tutto il suo andamento passato o futuro
 >
 >$$ \frac{d^n}{dt^n}y(t) + a_{n-1} \frac{d^{n-1}}{dt^{n-1}}y(t) + \dots + a_{1} \frac{d}{dt}y(t) + a_{0}y(t) = f(t)  $$

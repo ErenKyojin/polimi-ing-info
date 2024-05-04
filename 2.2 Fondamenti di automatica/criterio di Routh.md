@@ -4,10 +4,14 @@ Si basa sulla [[tabella di Routh]] che si costruiisce a partire dal polinomio ca
 
 
 
->[!def]
+>[!definition]
 >Il sistema dinamico con polinomio caratteristico $\Pi(s)$ è asintoticamente stabile $\iff$ tutti gli elementi della prima colonna della tabella sono concordi e non nulli.
 >
+<<<<<<< HEAD
 >>[!cor]
+=======
+>>[!corollary]
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >>Se nonci sono elementi nulli in prima colonna il numero di inversioni di segno su quella colonna è pari al numero di radici di $\Pi(s)$ con $Re> 0$
 
 >[!example] Esempio 1

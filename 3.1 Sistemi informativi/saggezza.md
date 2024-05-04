@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >La saggezza rappresenta una estensione della conoscenza, è l'esperienzaa **applicata** alla conoscenza per guidare il soggetto ad intraprendere l'azione più adatta in un determinato momento
 
 

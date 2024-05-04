@@ -4,7 +4,7 @@ creation date: 2023-03-23 13:34
 modification date: 2023-03-23 13:34
 ---
 
->[!def] Sistema di riferimento inerziale
+>[!definition] Sistema di riferimento inerziale
 >Un sistema di riferimento solidale con un punto materiale non soggetto ad interazione si dice un **sistema di riferimento inerziale**
 
 >[!remark] Proprietà dei sistemi di riferimento inerziali

@@ -4,7 +4,7 @@ creation date: 2023-05-11 16:13
 modification date: 2023-05-11 16:13
 ---
 
->[!def]
+>[!definition]
 >Una **struttura** (o interpretazione) è una coppia $\left< D,I \right>$ dove 
 >- $D$ è un [[insieme]] detto dominio
 >- $I$ è formato da tre [[Funzioni]] $I_{1},I_{2},I_{3}$ che associano rispettivamente ad ogni costante un elemento di $D$, ad ogni lettera funzionale con apice $n$ una operazione di arità $n$ su $D$, ad ogni lettera predicativa con apice $n$ una [[Relazioni|relazione]] di arità $n$ su $D$.
@@ -36,7 +36,7 @@ Fissato un assegnamento di valori in $D$ alle variabili, possiamo dire se per i 
 
 In questo modo la valutazione di una formula è sempre riportata alla valutazione di formule più semplici ed il procedimento si può iterare fino ad arrivare alla valutazione di formule atomiche.
 
->[!def]
+>[!definition]
 >Dati un [[Linguaggio]] del primo ordine, una sua interpretazione ed una [[formule ben formate|f.b.f.]] $\mathcal{A}$
 >- $\mathcal{A}$ si dice **soddisfacibile in quella interpretazione** se esiste una assegnamento di valori di variabili che soddisfa la f.b.f.
 >- $\mathcal{A}$ si dice **vera in quell'interpretazione** se ogni assegnamento di valori alle variabili soddisfa la f.b.f. $\mathcal{A}$.

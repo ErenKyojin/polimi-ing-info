@@ -62,7 +62,7 @@ alias: autovalori, autovettori, autospazi, autovalore, autovettore, autospazio
 >\end{cases} $$
 > il fatto che $S(r\mathbf{b}_{1}) = rS(\mathbf{b}_{1}) = r\mathbf{b}_{1} \forall r \in \mathbb{R}$ significa che la riflessione manda la retta $r$ in se stessa. Analogamente il fatto che $S(r\mathbf{b}_{2}) = rS(\mathbf{b}_{2}) = -r\mathbf{b}_{2} \forall r \in \mathbb{R}$ signfica che la riflessione manda la retta perpendicolare a $r$ e passante per l'origine in se stessa
 
->[!def]
+>[!definition]
 >Dato $V$ spazio vettoriale su $\mathbb{K}$, un [[Applicazioni lineari|applicazione lineare]] $\mathcal{L} : V \to V$ è detta endomorfismo
 
 
@@ -102,7 +102,7 @@ $$ \diag(\lambda_{1},\dots,\lambda_{n}) := \begin{bmatrix}
 >>
 
 
->[!def]
+>[!definition]
 >Sia $V$ [[Spazi vettoriali|spazio vettoriale]] su $\mathbb{K}$ e $\mathcal{L} : V \to V$ endomorfismo. Si dice che $v \in V$ è **autovettore** di $\mathcal{L}$ se
 >1. $\mathbf{v} \neq \mathbf{0}$
 >2. $\exists \lambda \in \mathbb{K}$ tale che $\mathcal{L}(\mathbf{v}) = \lambda \mathbf{v}$
@@ -113,7 +113,7 @@ $$ \diag(\lambda_{1},\dots,\lambda_{n}) := \begin{bmatrix}
 >nell'esempio ad inizio file $\mathbf{b}_{1}$ è autovettore per $S$ ($S(\mathbf{b}_{1}) = 1\mathbf{b}_{1}$) e $1$ è l'autovalore ad esso associato, anche $\mathbf{b}_{2}$ è autovettore per $S$ $(S (\mathbf{b}_{2}=-1 \mathbf{b}_{2}))$ e $-1$ è l'autovalore ad esso associato
 
 
->[!def]
+>[!definition]
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e $\mathcal{L} : V \to V$ endomorfismo.
 >Se $\lambda \in \mathbb{K}$ definiamo l'**autospazio** di $\mathcal{L}$ associato a $\lambda$:
 > $$ \begin{align}
@@ -127,7 +127,7 @@ Per deerminare autovalori e autovettori dobbiamo risolvere l'equazioni $$\mathca
 in $(\lambda,\mathbf{v})$. Se passiamo in coordinate si ha $x_{\mathcal{B}}(\mathcal{L}(\mathbf{v})) = x_{\mathcal{B}}(\lambda \mathbf{v}) \iff M_{\mathcal{B}}^\mathcal{B}(\mathcal{L})x_{\mathcal{B}}(\mathbf{v})=\lambda x_{\mathcal{B}}(\mathbf{v})$.
 Posto $A = M_{\mathcal{B}}^\mathcal{B}(\mathcal{L})$ e $\mathbf{x} = x_{\mathcal{B}}(\mathbf{v})$, il problema di determinare gli autovalori e gli autovettori di $\mathcal{L}$ è uguale a determinare $\lambda \in \mathbb{K}$ e $\mathbf{x} \in \mathbb{K}^n$ tale che $A\mathbf{x} = \lambda \mathbf{x}$
 
->[!def]
+>[!definition]
 >Data $A \in M_{\mathbb{K}(n,n)}$, un vettore $\mathbf{x} \in \mathbb{K}^n$ si dice autovettore di $A$ se:
 > 1. $\mathbf{x} \neq 0$
 > 2. $\exists \lambda \in \mathbb{K}$ tale che $A\mathbf{x} = \lambda \mathbf{x}\qquad (\iff (A - \lambda \mathbb{1}_{n}) \mathbf{x} = \mathbf{0})$

@@ -4,7 +4,7 @@ creation date: 2023-04-28 14:22
 modification date: 2023-04-28 14:22
 ---
 
-> [!def]
+> [!definition]
 > Data una relazione di equivalenza $\rho$ su A, l'[[insieme]] delle $\rho$-classi di $A$ si dice **insieme quoziente** di $A$ rispetto a $\rho$ e si indica con $A / \rho$. Quindi $A / \rho = \{ \rho_{A} | a \in A \}$.
 
 >[!remark] praticamente

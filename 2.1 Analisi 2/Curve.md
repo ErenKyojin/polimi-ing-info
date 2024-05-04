@@ -4,7 +4,7 @@
 Il sostegno della curva è la traccia nel piano o nello spazio lasciata dal punto.
 La parametrizzazione di una curva piana sono due funzioni di $t$ (In generale per $\mathbb{R}^n$ sono $n$ funzioni di $t$)
 
->[!def]
+>[!definition]
 >Una curva nello spazio è definita da:
 >- 3 funzioni **continue**:
 > $$ \begin{align}
@@ -125,7 +125,7 @@ Il viceversa non è vero, esistono infinite parametrizzazioni associate al medes
 
 Possiamo dare una definizione informale di parametrizzazioni equivalenti come due parametrizzazioni che hanno il medesimo sostegno percorso lo stesso numero di volte (eventualmente in verso opposto). Più formalmente:
 
->[!def]
+>[!definition]
 >due parametrizzazioni continue $\mathbf{r}(t) : I \to \mathbb{R}^3, \mathbf{v}(s) : J \to \mathbb{R}^3$
 >si dicono equivalenti se esiste $\phi(s) : J \to I$ continua e **[[Funzione biunivoca|biunivoca]]** tale che:
 > $$ \mathbf{v} (s) = \mathbf{r}(\phi(s)) = \mathbf{r} \circ \phi(s) : J \to \mathbb{R}^3 $$
@@ -278,7 +278,7 @@ $$ lunghezza(\gamma) = \int_{a}^b \! \,||\mathbf{r}'(t)|| \mathrm{d}t  $$
 
 
 # Curva regolare a tratti
->[!def]
+>[!definition]
 >Si dice regolare a tratti una curva $\mathbf{r} : I \to \mathbb{R}^3$ tale che:
 >1. $\mathbf{r}$ continua in $I$
 >2. Ad eccezzione di un numero finito di valori $a < t_{1} < t_{2} < \ldots < t_{k} < b$ la curva è regolare

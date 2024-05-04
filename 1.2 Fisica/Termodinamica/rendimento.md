@@ -3,7 +3,7 @@ aliases: rendimento di un
 creation date: 2023-12-22
 ---
 
->[!def]
+>[!definition]
 >Si definisce rendimento di un ciclo termico
 >$$ \eta = \frac{\mathcal{L}}{Q_{A}} = \frac{Q_{A} + Q_{C}}{Q_{A}} = 1+\frac{Q_{C}}{Q_{A}} = 1 - \frac{|Q_{C}|}{Q_{A}}$$
 

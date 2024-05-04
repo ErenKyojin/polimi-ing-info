@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >data $A \in M_{(m,n)}(\mathbb{K})$, il determinante di $A$ è la funzione:
 >
 > $$ \begin{align}

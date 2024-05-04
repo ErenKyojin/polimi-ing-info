@@ -19,7 +19,7 @@ x \cos y
 
 
 # Forme quadratiche
->[!def]
+>[!definition]
 >Sia $f \in C^2(A)$ chiamiamo forma quadratica indotta da $H_{f}(x_{0},y_{0})$
 >$q : \mathbb{R}^2 \to \mathbb{R}$
 > $$

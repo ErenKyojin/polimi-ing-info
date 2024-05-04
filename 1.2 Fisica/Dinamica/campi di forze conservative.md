@@ -3,7 +3,7 @@ aliases: campo di forza conservativa, campo conservativo, campi conservativi
 creation date: 2023-03-26 16:56
 modification date: 2023-03-26 16:56
 ---
->[!def]
+>[!definition]
 >Un [[Campo numerico|campo]] di forze che ammette [[Energia potenziale]] si dice **campo conservativo** e si dice che la [[forza]] corrispondente è una [[forze conservative|forza conservativa]]
 
 >[!remark]

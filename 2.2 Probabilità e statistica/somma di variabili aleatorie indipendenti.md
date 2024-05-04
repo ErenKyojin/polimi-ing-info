@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-25
 ---
 
->[!def]
+>[!definition]
 >Siano $X$ ed $Y$ variabili aleatorie continue ed indipendenti, la distribuzione di $X+Y$, con densità pari a $f_{X}$ ed $f_{Y}$ è pari a:
 >$$
 > \begin{align}

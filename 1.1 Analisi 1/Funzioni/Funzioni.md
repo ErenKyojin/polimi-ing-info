@@ -2,7 +2,7 @@
 Alias: funzione
 ---
 
->[!def]
+>[!definition]
 >Una [[Relazioni|relazione]] $f \subseteq A \times B$ tale che per ogni $a \in A$ esiste uno ed un solo $b \in B$ tale che $(a,b) \in f$ si dice **funzione** (o **applicazione**) da $A$ a $B$
 
 Si usa la notazione $f : A \to B$ e l'unico elemento $b$ associato ad $a$ dalla relazione $f$ si indica con $f(a)$ e chiamato immagine di $a$ mediante $f$, mentre l'elemento $a$ viene detto controimmagine di $b$. Sono utilizzate anche altre notazioni:

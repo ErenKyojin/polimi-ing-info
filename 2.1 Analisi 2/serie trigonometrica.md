@@ -1,5 +1,5 @@
 
->[!def]
+>[!definition]
 >Una serie trigonometrice è
 > $$ a_{0} + \sum_{n=1}^\infty (a_{n} \cos(nx) + b_{n} \sin(nx)) $$
 > con $a_{0},a_{n},b_{n} \in \mathbb{R}$

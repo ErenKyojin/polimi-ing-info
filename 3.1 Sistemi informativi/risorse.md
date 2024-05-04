@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-> [!def]
+> [!definition]
 > Risora è tutto ciò, fisico o meno, con cui un'[[organizzazioni|organizzazione]] opera per perseguire i propri obiettivi.
 
 Le risorse sono classificate come:

@@ -1,5 +1,5 @@
 
->[!def]
+>[!definition]
 >Data una [[funzione di trasferimento|FdT]] $G(s)$
 >$b$ sua restrizione al suo semiasse positivo $y^+$ si dice **RISPOSTA IN FREQUENZA** (RF) di $G(S)$
 
@@ -49,7 +49,7 @@ Piani complessi
 ```
 
 Si tratta di un asse [[Logaritmo]], pari distanza significa pari rapporto
->[!def]
+>[!definition]
 >$x|_{dB} := 20 \log_{10}|x|$
 >$100|_{dB} = 40;\quad 0.1|_{dB} = -20,$
 

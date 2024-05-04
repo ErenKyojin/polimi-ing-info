@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Sia $U \in M_{\mathbb{R}(n,n)}$ [[matrice]], $U$ si dice **ortogonale** se $U^TU = \mathbb{1}_{n}$
 
 >[!example]
@@ -36,7 +36,7 @@
 
 ## Matrici ortogonalmente [[diagonalizzabilità|diagonalizzabili]]
 
->[!def]
+>[!definition]
 >Sia $A \in M_{\mathbb{R},(n,n)}$ si dice che $A$ è ortogonalmente diagonalizzabile se esiste $U \in M_{\mathbb{R}(n,n)}$. Si dice che $A$ è ortogonalmente diagonalizzabile se esiste $U \in M_{\mathbb{R}(n,n)}$ ortogonale tale che $U^TAU = D$ ove $D$ è una [[diagonalizzabilità|matrice diagonale]] poichè $U^{-1} = U^{T}$ si ha che $U^TAU = U^{-1}AU$
 
 

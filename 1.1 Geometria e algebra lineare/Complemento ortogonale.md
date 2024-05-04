@@ -1,5 +1,5 @@
 
->[!def]
+>[!definition]
 >Sia $V$ [[spazio euclideo]] e $\dim(V) < +\infty$. Sia $H \subseteq V$ un sottospazio di $V$ allora il **complemento ortogonale** di $H$ in $V$ e $H^\perp = \left\{ \mathbf{v} \in V : <\mathbf{v},\mathbf{h}> = 0 \forall \mathbf{h} \in H \right\}$
 
 

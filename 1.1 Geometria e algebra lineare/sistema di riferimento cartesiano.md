@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Un sistema di riferimento $(0,\mathbf{i},\mathbf{j},\mathbf{k})$ si dice cartesiano se:
 >1. $\|\mathbf{i}\| = \|\mathbf{j}\| = \|\mathbf{k}\|=1$
 >2. $\mathbf{i} \perp \mathbf{j}, \mathbf{j} \perp \mathbf{k}, \mathbf{k} \perp \mathbf{i}$

@@ -1,4 +1,4 @@
-> [!def] definizione legale
+> [!definition] definizione legale
 > Attività economica organizzata svolta professionalmente al fine della produzione o dello scambio di beni o di servizi 
 
 Un impresa affinchè sia un attività deve essere

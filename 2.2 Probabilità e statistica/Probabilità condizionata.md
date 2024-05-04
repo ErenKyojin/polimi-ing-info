@@ -15,7 +15,7 @@ Come la probabilità varia nel tempo, col passare del tempo certi eventi del fut
 > $C = \left\{ \text{Esce un 6} \right\} \implies P(C)=\frac{11}{36}$ 
 > 
 
-> [!def]
+> [!definition]
 > 
 > Sia $(\Omega, \mathcal{F}, P)$ uno [[Spazio di probabilità]] e sia $F \in \mathcal{F}$ un evento tale che $P(F) > 0$. Dato un qualsiasi evento $E \in \mathcal{F}$ si chiama **probabilità condizionata** di $E$ dato $F$ il numero
 >  $$

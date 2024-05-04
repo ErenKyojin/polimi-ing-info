@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Dato $V$ spazio vettoriale su $\mathbb{K}$, diremo che i vetori $\mathbf{v}_{1},\dots, \mathbf{v}_{d} \in V$ sono **linearmente indipendenti** se l'unica loro [[Combinazioni lineari|combinazione lineare]] uguale al vetore nullo è quella in cui tutti i coefficienti sono nulli, quindi:
 > $$ t_{1}\mathbf{v}_{1} + \dots + t_{d}\mathbf{v}_{d} = \mathbf{0} \iff t_{1} = t_{2} = \dots = t_{d} = 0 $$
 > Diremo che i vettori: $\mathbf{v}_{1},\dots,\mathbf{v}_{d} \in V$ sono **linearmente dipendenti** se esiste una loro combinazione lineare a coefficienti non tutti nulli uguale al vettore nullo, quindi se:

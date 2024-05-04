@@ -3,7 +3,7 @@ aliases:
 creation date: 2023-11-29
 ---
 
->[!def]
+>[!definition]
 >Un semigruppo $\left< A, \cdot \right>$ è un insieme $A$ fornito di una legge di composizione interna, binaria e associativa
 
 - le matrici quadrate di ordine $n$ ad elementi positivi, preso rispetto al prodotto di matrici, è un semigruppo.

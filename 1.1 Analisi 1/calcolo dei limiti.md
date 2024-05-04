@@ -8,12 +8,20 @@ Approfondiamo proprietà fondamentali dei limiti e della continuità, verrà spe
 > 2. $f(x) \leq h(x)\leq g(x)$ definitivamente per $x\to c$
 > Allora anche $h(x)\to l$ per $x\to c$
 >
+<<<<<<< HEAD
 >>[!cor]
+=======
+>>[!corollary]
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >>1. per $x\to c, g(x)\to 0$
 >>2. $|h(x)|\leq g(x)$ definitivamente per $x\to c$
 >>Allora anche $h(x) \to 0$ per $x\to c$
 >
+<<<<<<< HEAD
 >>[!cor]
+=======
+>>[!corollary]
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >>se $f(x)\to 0$ per $x\to 0$ e $g(x)$ è limitata definitivamente da per $x \to c$, allora $f(x)g(x)\to 0$ per $x\to 0$
 >>
 

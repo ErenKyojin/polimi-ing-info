@@ -8,7 +8,7 @@ $$ f(x+T) = f(x) \qquad \forall x \in \mathbb{R}$$
 Se $f$ è periodica di periodo $T$ pari (dispari) in $\left[ -\frac{T}{2}, \frac{T}{2} \right]$ resta pari (dispari) su tutto $\mathbb{R}$
 
 
->[!def]
+>[!definition]
 >Chiamiamo armonica $n$-esime le funzioni
 > $$ \cos(nx), \sin(nx)\qquad x \in \mathbb{R} $$
 >

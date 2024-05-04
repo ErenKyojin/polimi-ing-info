@@ -1,4 +1,4 @@
-> [!def] definizione giuridica
+> [!definition] definizione giuridica
 > Imprenditore chi esercita professionalmente un'attivita' economica al fine della produzione o dello scambio di beni e servizi
 
 

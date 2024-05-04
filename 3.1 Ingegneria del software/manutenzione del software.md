@@ -3,7 +3,7 @@ aliases: manutenzione
 creation date: 2024-02-28
 ---
 
-> [!def]
+> [!definition]
 > Interventi sul software successivi al suo rilascio
 
 

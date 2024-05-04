@@ -4,7 +4,7 @@ creation date: 2023-12-05
 ---
 
 
-> [!def] 
+> [!definition] 
 > Date due strutture algebrica $\left< A_{1},\Omega_{2} \right>,\left< A_{2},\Omega_{2} \right>$ [[Strutture simili|simili]], si dice **omorfismo** di $\left< A_{1},\Omega_{1} \right>$ in $\left< A_{2},\Omega_{2} \right>$ una funzione $f$ di $A_{1}$ in $A_{2}$ che conserva le operazioni.
 > Un omorfismo $f$ si dice **monomorfismo** se $f$ è una funzione iniettiva
 > Un omorfismo $f$ si dice **epiformisfmo** se $f$ è una funzione suriettiva

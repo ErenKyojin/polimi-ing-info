@@ -1,5 +1,5 @@
 # Matrice esponenziale
->[!def]
+>[!definition]
 >Data $A \in M_{n,n} \mathbb{R}$ la matrice esponenziale $e^A$ è definita dalla serie:
 >$$ e^A = \sum_{k=0}^\infty \frac{A^k}{k!} = I_{n} + A + \frac{A^2}{2} + \frac{A^3}{3!}$$
 Che è convergente per ogni A

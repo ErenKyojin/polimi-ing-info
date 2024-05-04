@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >$A,B \in M_{\mathbb{K}}(n,n)$ si dice che $B$ è simile ad $A$ se esiste $P \in M_{\mathbb{K}(n,n)}$ invertibile tale che
 > $$ B = P^{-1}AP $$
 
@@ -91,7 +91,7 @@ Abbiamo peró un problema, visto che due matrici simili rappresentano la stessa 
 >[!remark]
 >In generale se $A$ e $B$ non sono diagonalizzabili non abbiamo dato condizione necessarie e sufficienti affinchè le due matrici siano simili. Tale problema viene affrontato e risolto dalla teoria di Jordan (non trattata qui). Tuttavia alcune matrici, dette blocchi di Jordan, sono introducibili e definite nel seguente modo:
 >
->>[!def]
+>>[!definition]
 >>Una blocco di jordan è una matrice $m\times m$ in cui sulla diagonale principale troviamo un valore $\lambda \in \mathbb{K}$ e sulle diagonali sopra a quella principale troviamo il valore $1$, in tutte le altre posizioni il valore è $0$
 >
 >>[!example]

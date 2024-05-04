@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-03
 ---
 
->[!def]
+>[!definition]
 >Una [[variabile aleatoria#^a0cf7e|variabile aleatoria continua]] è detta uniforme sull'intervallo $(\alpha, \beta)$ se la sua densità è:
 >$$ f(x) = \begin{cases}
 \frac{1}{\beta-\alpha}&\alpha \leq x \leq \beta \\

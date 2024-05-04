@@ -4,7 +4,7 @@ creation date: 2023-05-03 09:25
 modification date: 2023-05-03 09:25
 ---
 
-> [!def]
+> [!definition]
 > Le **formule ben formate** o **f.b.f.** sono sequenze di simboli con una buona struttura che si definiscono in maniera ricorsiva:
 > - Ogni lettere enunciativa è una f.b.f.
 > - Se $\mathcal{A}$ è una f.b.f anche $(\sim \mathcal{A})$ è una f.b.f.
@@ -117,7 +117,7 @@ Possiamo quindi definire gli [[insiemi adeguati]]
 
 # Nel [[linguaggio del primo ordine]]
 
->[!def]
+>[!definition]
 >- Ogni [[formule atomiche|formula atomica]] è una f.b.f.
 >- Se $\mathcal{A}$ è una f.b.f. anche $(\sim \mathcal{A}), (\forall x \mathcal{A}),(\exists x \mathcal{A})$ sono f.b.f.
 >- Se $\mathcal{A}$ e $\mathcal{B}$ sono f.b.f. anche $(\mathcal{A} \land \mathcal{B}),(\mathcal{A} \lor \mathcal{B}), (\mathcal{A} \implies \mathcal{B}), (\mathcal{A} \iff \mathcal{B})$ sono f.b.f.

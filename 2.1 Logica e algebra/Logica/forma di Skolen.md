@@ -4,7 +4,7 @@ creation date: 2023-05-11 19:49
 modification date: 2023-05-11 19:49
 ---
 
->[!def]
+>[!definition]
 >Una formula si dice in **forma di Skolem** se è in forma normale prenessa e non contiene [[Quantificatori]] esistenziali.
 >
 

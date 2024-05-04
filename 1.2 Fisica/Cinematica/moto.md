@@ -6,7 +6,7 @@ modification date: 2023-03-16 13:48
 
 Opposoto di quiete, sono entrambi concetti relativi dipendenti dal sistema di riferimento stesso. Per desrivere il moto di un [[Punto materiale]] occorre fissare un **sistema di riferimento** e disporre di un **orologio**
 
->[!def]
+>[!definition]
 >moto uniforme => moto in cui la [[Velocità scalare media]] è costante
 
 
@@ -89,7 +89,7 @@ $$
 ## Moto in [[coordinate polari]]
 Se il moto avviene in un piano le sole coordinate cartesiane $x$ ed $y$ sono sufficienti a descriverlo. Alternativamente possiamo utilizzare le [[coordinate polari]] nel [[piano]] che a volte risultano piú convenienti delle cartesiane.
 Le definiamo cosí:
->[!def]
+>[!definition]
 >- $r \equiv |\vec{r}| = \overline{OP}$ raggio vettore, distanza del punto $P$ dall'origine e numero reale positivo
 >- $\theta \equiv \angle(\vec{r},\hat{u}_{x})$ anomalia, angolo formato da $\vec{r}$ con $\hat{u}_{x}$ definito tra 0 e $2\pi$
 

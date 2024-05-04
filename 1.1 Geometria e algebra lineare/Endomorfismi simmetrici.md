@@ -6,7 +6,7 @@ Per una [[matrice]] $A \in M_{\mathbb{R}(n,n)}$ essere simmetrica equivale alla 
 otteniamo $A = A^T$
 
 
->[!def]
+>[!definition]
 >Sia $(V,<,>)$ uno spazio euclideo. Un endomorfismo $\mathcal{L} : V \to V$ si dice simmetrico se $<\mathcal{L}(\mathbf{v}),\mathbf{w}> = <\mathbf{v},\mathcal{L}(\mathbf{w})>$ per ogni $\mathbf{v},\mathbf{w} \in V$.
 > Gli endomorfismi simmetrici vengono anche chiamati operatori autoaggiunti
 

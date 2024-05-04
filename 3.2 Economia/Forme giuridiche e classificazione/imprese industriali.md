@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-23
 ---
 
->[!def]
+>[!definition]
 >Imprese industriali/manifatturiere: compiono trasformazioni tecniche dei beni
 
 ^6cff91

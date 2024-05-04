@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Un evento è un sottoinsieme di $\Omega$
 
 >[!danger]

@@ -10,7 +10,7 @@ Problema = [[insieme|Insieme]] $S \subseteq \mathbb{N} : x \in S$?
 
 Ricordando la [[Funzione caratteristica]] di un [[insieme]]
 
-> [!def]
+> [!definition]
 > Un insieme $S$ è ricorsivo o decidibile se e solo se la sua [[Funzioni|funzione]] caratteristica è calcolabile
 
 Dato l'insieme dei [[numeri naturali]], è un insieme ricorsivo?
@@ -24,7 +24,11 @@ Piú complicato è il concetto di [[Ricorsivamente enumerabile]]
 >
 >Quindi due semidecidibilità fanno una decidibilità, quando rispondere No equivale a rispondere si.
 >
+<<<<<<< HEAD
 >>[!cor]
+=======
+>>[!corollary]
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >>Gli insiemi decidibili sono chiusi rispetto al [[complemento]]
 >
 >>[!dim]

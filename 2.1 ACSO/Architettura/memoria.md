@@ -1,5 +1,5 @@
 # Memoria
->[!def] #elettronica
+>[!definition] #elettronica
 >Una memoria è una matrice di bit con indirizzi di riga e di colonna.
 
 Memoria indirizzabile al singolo byte ed è divisa in parole:
@@ -11,7 +11,7 @@ Visto che le istruzioni occupano 32 bit hanno indirizzi allineati alla parola, m
 
 ### Come assegnamo gli indirizzi ai byte?
 
->[!def] #### big endian
+>[!definition] #### big endian
 >
 >...|...|...|...|indirizzo
 >---|-|-|-|-|
@@ -27,7 +27,7 @@ Visto che le istruzioni occupano 32 bit hanno indirizzi allineati alla parola, m
 
 
 
->[!def] #### little endian
+>[!definition] #### little endian
 >
 >|...|...|...|...|indirizzo
 >---|---|---|---|---

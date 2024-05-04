@@ -3,7 +3,7 @@ aliases: ideali, sottoanello ideale, sottoanelli ideali
 creation date: 2023-12-06
 ---
 
->[!def]
+>[!definition]
 >Sia $\left< A, +, \cdot \right>$ un anello.
 >Un [[sottostrutture|sottoanello]] $I$ di $A$ è detto **ideale** di $A$ se
 >$$ \forall a \in A, \forall i \in I,\qquad a\cdot i \in I\quad e \quad i \cdot a \in I $$

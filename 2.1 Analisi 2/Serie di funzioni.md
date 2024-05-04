@@ -8,7 +8,7 @@ Partiamo da un esempio
 
 
 
->[!def]
+>[!definition]
 >Date dalle funzioni $f : J \subseteq \mathbb{R} \to \mathbb{R}, (n=0,1,2,3,\dots)$
 > La serie di funzioni di termine generale $f_{n}(x)$ è la successione delle somme parziali
 > $$ S_{0} (x) = f_{0}(x)\qquad S_{1}(x) = f_{0}(x) + f_{1}(x) \qquad \dots\qquad S_{k}^{(x)} = \sum_{n=0}^k f_{n}(x) \quad\dots$$

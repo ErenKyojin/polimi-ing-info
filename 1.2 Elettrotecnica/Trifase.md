@@ -6,7 +6,7 @@ modification date: 2023-06-16 12:12
 
 
 ## Tensione
-> [!def]
+> [!definition]
 > ![[Pasted image 20230616121955.png]]
 > 
 

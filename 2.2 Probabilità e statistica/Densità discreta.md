@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-02
 ---
 
->[!def]
+>[!definition]
 >Data una variabile aleatoria discreta $x$, possiamo definire la densità discreta $p(a)$ di $X$ come
 >$$ p(a) = P \{ X = a \} $$
 
@@ -14,7 +14,7 @@ creation date: 2024-03-02
 
 
 ## Densità discreta di un vettore aleatorio
->[!def]
+>[!definition]
 >Sia $\mathbf{X}$ [[vettore aleatorio]] discreto, è detta **densità discreta** di $\mathbf{X}$ la funzione
 >$$p_{\mathbf{X}}(\mathbf{x}) = p(X_{1}=x_{1},X_{2} = x_{2},\dots,X_{n}=x_{n})$$
 

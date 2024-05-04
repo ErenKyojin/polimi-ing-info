@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >uno schema di $n$ prove di bernoulli sono $n$ prove in cui
 >1. ogni prova può avere due esiti: successo o insuccesso, indichiamo con $E_{i}$ l'evento *"avrò successo all'i-esima prova"*
 >2. Tutte le prove hanno sempre la stessa probabilità di successo, $P(E_{i}) = q\quad \forall i=1,\dots,n$

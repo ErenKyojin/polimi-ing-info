@@ -4,13 +4,13 @@ aliases:
 creation date: 2023-03-02 16:50
 modification date: 2023-03-02 16:50
 ---
->[!def]  Legge fisica
+>[!definition]  Legge fisica
 > Una legge fisica è una relazione quantittiva tra grandezze fisiche, tradotta in un'equazione tra le misure delle grandezze considerate
 
 >[!remark]  Natura di una legge fisica
 >Le leggi fisiche per comodità vengono espresse da relazioni matematiche che riguardano le misure delle grandezze che sono legate dalle leggi stesse, l'uso delle misura al posto delle corrispondenti grandezze è puramente strumentale, la legge in se riguarda le grandezze e non dipende da come sono scelte le unità di misura. La formulazione di una legge fisica deve rispettare il seguento
 
->[!def] Principio di omogeneità
+>[!definition] Principio di omogeneità
 >Le equazioni che traducono leggi fisiche quantitative devono essere scrittein modo da risultare inidpendenti dalle unità di misura scelte per le diverse grandezze fisiche in gioco.
 
 

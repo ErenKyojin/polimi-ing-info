@@ -30,7 +30,7 @@ E quindi
 $$\text{Area } = \frac{1}{3}$$
 
 Possiamo ora costruire la [[somma di Cauchy-Riemann]] da cui otteniamo la seguente definizione
->[!def]
+>[!definition]
 >Diciamo che la funzione $f : [a,b] \to \mathbb{R}$ è integrabile in $[a,b]$ se detta $S_{n}$ una sua qualsiasi successione di Cauchy-Riemann, esiste finito il limite di $S_{n}$ e tale limite non dipende da come abbiamo scelto i punti $\xi_{j}$ ad ogni passo della costruzione iterativa. In tal caso si pone
 >$$\lim_{ n \to \infty } S_{n} = \int_{b}^a \! f(x)  \, dx $$
 
@@ -102,7 +102,7 @@ f \geq g \in[a,b]\Longrightarrow \int_{a}^b \!f(x) \, \d x \geq \int_{a}^b  \!g(
 
 La definizione di integrale non ci è utile al proprio calcolo. Per calcolare un integrale si usa il metodo per variazione di una primitiva:
 
->[!def]
+>[!definition]
 >Si dice che una funzione $G$, [[derivata|derivabile]] in $[a,b]$ è una primitiva di $f$ in $[a,b]$ se
 >$$
 >G'(x) = f(x) \quad\text{per ogni } x \in [a,b]
@@ -186,7 +186,7 @@ $$
 >$$\tag{INT1}\fbox{$\int_{a}^{b} \! f(x) \, \d x  = \lim_{ \varepsilon \to 0^{+} } \int_{a}^{b-\varepsilon} \! f(x)  \, \d x  $}$$
 >
 
->[!def]
+>[!definition]
 >Se il limite $\text{INT1}$ esiste finito allora $f$ si dice integrabile in $[a,b]$, alternativamente che l'integrale $\int_{a}^{b} \! f(x) \, \d x$ è [[polimi-ing-info/1.1 Analisi 1/Successioni/Convergenza|convergente]]
 >Se invece il limite $\text{INT1}$ è $+\infty$ o $-\infty$ si dice divergente.
 >Se il limite non esiste allora l'integrale non esiste.
@@ -271,7 +271,7 @@ $$
 >0<y < f(x) 
 >```
 
->[!def]
+>[!definition]
 >Se il limite sopra esiste finito allora $f$ si diceintegrabile in $[a,+\infty)$ oppure che l'integrale $\int_{a}^{+\infty} \! f(x) \, \d x$ è convergente. 
 >Se il limite sopra è $\pm \infty$ l'integrale si dirà divergente. Se invece il limite non esiste allora l'integrale non esiste.
 

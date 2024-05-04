@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-20
 ---
 
->[!def]
+>[!definition]
 >insieme di $n$ variabili che descrive la configurazione interna del sistema (rappresentata come vettore)
 >$$x(t) \in \mathbb{R}^n$$
 

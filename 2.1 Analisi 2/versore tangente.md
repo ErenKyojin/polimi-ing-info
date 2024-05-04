@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Data una [[Curve|curva]] regolare $\mathbf{r} : I \to \mathbb{R}^3$ definiamo $\forall t \in I$ il versore tangente
 > $$ \mathbf{T}(t) = \frac{\mathbf{r}'(t)}{||\mathbf{r}'(t)||}$$
 

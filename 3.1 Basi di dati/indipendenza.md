@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-05
 ---
 
->[!def]
+>[!definition]
 >L'indipendenza è una proprietà dei [[sistemi di gestione di basi di dati|DBMS]] che garantisce un alto livello di astrazione per l'accesso ai dati
 >
 

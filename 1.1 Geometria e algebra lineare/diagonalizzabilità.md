@@ -1,7 +1,7 @@
 ---
 alias: diagonalizzabile
 ---
->[!def]
+>[!definition]
 >$A \in M_{\mathbb{K}}(n,n)$ è diagonalizzabile su $\mathbb{K}$ se esiste $S \in M_{\mathbb{K}(n,n)}$ [[Matrice inversa|invertibile]] tale che $S^{-1}AS = \diag(\lambda_{1},\dots,\lambda_{n})$ dove $\lambda_{1},\dots,\lambda_{n} \in \mathbb{K}$
 
 
@@ -87,6 +87,24 @@ alias: diagonalizzabile
 
 
 >[!theorem] Condizione necessaria e sufficiente per la diagonalizzabilità
+<<<<<<< HEAD
+=======
+>Sia $A \in M_{\mathbb{K}(n,n)}$ allora $A$ è diagonalizzabile su $\mathbb{K}$ se e solo se
+>1. Il polinomio caratteristico di $A$ ha $n$ radici su $\mathbb{K}$ (contate con le loro [[molteplicità]] algebriche)
+>2. Ogni autovalore di $A$ è regolare
+>
+>>[!dim]
+>> Siano $\lambda_{1},\dots,\lambda_{r}$ autovalori distinti di $A$. Allora $A$ è diagonalizzabile $\iff A$ ammette una base di autovettori $\iff N = m_{g}(\lambda_{1}) + \ldots + m_{g}(\lambda_{r}) = n$ allora:
+>>  $$ \begin{align}
+>> &n = m_{g}(\lambda_{1}) + \dots + m_{g}(\lambda_{r}) \leq m_{a} (\lambda_{1}) + \dots + m_{a}(\lambda_{r}) \leq n  \\
+>> \implies &\begin{cases}
+>> m_{a}(\lambda_{1}) + \dots + m_{a}(\lambda_{r}) = n \\
+>> m_{a}(\lambda_{i}) = m_{g}(\lambda_{i}) \forall i = 1,\dots,n
+>>\end{cases}
+>>\end{align}$$
+>>Viceversa se $m_{a}(\lambda_{1}) + \dots + m_{a}(\lambda_{r}) = n$ e $m_{a}(\lambda_{i})=m_{g}(\lambda_{i}) \forall i = 1,\dots,r$ allota $N=m_{g}(\lambda_{1}) + \dots + m_{g}(\lambda_{r}) = n$
+>>$\CVD$>[!theorem] Condizione necessaria e sufficiente per la diagonalizzabilità
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >Sia $A \in M_{\mathbb{K}(n,n)}$ allora $A$ è diagonalizzabile su $\mathbb{K}$ se e solo se
 >1. Il polinomio caratteristico di $A$ ha $n$ radici su $\mathbb{K}$ (contate con le loro [[molteplicità]] algebriche)
 >2. Ogni autovalore di $A$ è regolare
@@ -103,6 +121,7 @@ alias: diagonalizzabile
 >>Viceversa se $m_{a}(\lambda_{1}) + \dots + m_{a}(\lambda_{r}) = n$ e $m_{a}(\lambda_{i})=m_{g}(\lambda_{i}) \forall i = 1,\dots,r$ allota $N=m_{g}(\lambda_{1}) + \dots + m_{g}(\lambda_{r}) = n$
 >>$\CVD$
 
+<<<<<<< HEAD
 >[!theorem] Condizione necessaria e sufficiente per la diagonalizzabilità
 >Sia $A \in M_{\mathbb{K}(n,n)}$ allora $A$ è diagonalizzabile su $\mathbb{K}$ se e solo se
 >1. Il polinomio caratteristico di $A$ ha $n$ radici su $\mathbb{K}$ (contate con le loro [[molteplicità]] algebriche)
@@ -120,6 +139,8 @@ alias: diagonalizzabile
 >>Viceversa se $m_{a}(\lambda_{1}) + \dots + m_{a}(\lambda_{r}) = n$ e $m_{a}(\lambda_{i})=m_{g}(\lambda_{i}) \forall i = 1,\dots,r$ allota $N=m_{g}(\lambda_{1}) + \dots + m_{g}(\lambda_{r}) = n$
 >>$\CVD$
 
+=======
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >[!example]
 >1. Verificare se $A = \begin{bmatrix}3 & 1\\0 & 3\end{bmatrix}$ è diagonalizzabile, calcoliamo il polinomio caratteristico $p_{\lambda}=\det(A - \lambda \mathbb{1}_{2})=(3-\lambda)^2$, quindi $\lambda=3$ è autovalore con molteplicità geometrica $2$. Quindi la prima proprietà del precedente teorema è soddisfatta. Tuttavia $3$ non è autovalore regolare, infatti:
 >  $m_{g}(3) = \dim(V_{3}) = \dim(\ker(A - 3\mathbb{1})) = \dim \left( \ker \left( \begin{bmatrix}0 &1\\0&0\end{bmatrix} \right) \right) = 2 - 1 = 1 \neq m_{a}(3) = 2$ quindi non esiste una base di $\mathbb{R}^2$ di autovettori di $A$. Possiamo calcolare esplicitamente l'autospazio di $3$.

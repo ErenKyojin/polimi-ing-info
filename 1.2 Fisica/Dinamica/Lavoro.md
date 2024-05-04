@@ -4,7 +4,7 @@ creation date: 2023-03-25 17:06
 modification date: 2023-03-25 17:06
 ---
 
->[!def] Lavoro elementare di una [[forza]]
+>[!definition] Lavoro elementare di una [[forza]]
 >Si dice che una forza compie un lavoro quando il [[Punto materiale]] al quale è applicata si sposta. Si definisce lavoro elementare $d\mathcal{L}$ di una forza $\vec{F}$ durante lo spostamente $d\vec{r}$ il [[prodotto scalare]]:
 > $$
 > d\mathcal{L} = \vec{F} \cdot d\vec{r} = F\ dr\cos \theta
@@ -51,7 +51,7 @@ modification date: 2023-03-25 17:06
 > d\mathcal{L} = \vec{F} \cdot d\vec{r} = \left( \sum_{i=1}^n \vec{F}_{i}\right) \cdot d\vec{r} = \sum_{i=1}^n (\vec{F}_{i} \cdot d\vec{r}) = \sum_{i=1}^n d\mathcal{L}_{i}
 >$$
 
->[!def] lavoro di una forza lungo un cammino finito
+>[!definition] lavoro di una forza lungo un cammino finito
 >Il lavoro $\mathcal{L}$ compiuto da una forza $\vec{F}$ nello spostamento dal punto $A$ al punto $B$ lungo la traiettoria $\gamma$ si definisce come l'**l'[[integrale]] di linea** del lavoro elementare lungo $\gamma$
 > $$
 > \mathcal{L} = \int _{A,\gamma}^B \!\vec{F} \cdot\, \mathrm{d}\vec{r} 

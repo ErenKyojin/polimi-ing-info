@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Siano $V$ e $W$ [[spazio euclideo|spazi euclidei]]. Un'applicazione $\mathcal{L} : V \to W$ è una **isometria** se $$\|\mathcal{L}(\mathbf{v})-\mathcal{L}(\mathbf{w})\|_{W} = \|\mathbf{v} - \mathbf{w}\|_{V}$$
 >Se $\mathcal{L}$ è lineare ed è una isometria diremo che $\mathcal{L}$ è una **isometria lineare**
 
@@ -33,7 +33,11 @@
 >>Quindi poichè $U$ preserva il prodotto scalare:
 >>$$ \delta_{ij} = \left< \mathbf{e}_{i},\mathbf{e}_{j} \right> = \left< U\mathbf{e}_{i}, U\mathbf{e}_{j} \right> = [U^T \cdot U]_{ij} \implies U^T U = \mathbb{1}_{n} $$
 >
+<<<<<<< HEAD
 >>[!cor]
+=======
+>>[!corollary]
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >>Sia $U \in M_{\mathbb{R}}(n,n)$ ortogonale allora, se $\lambda$ è autovalore reale di $U, \lambda =1$ o $\lambda = -1$
 
 

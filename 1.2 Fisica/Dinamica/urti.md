@@ -7,7 +7,7 @@ Con urto si indica una serie di fenomeni estremamente importanti nella fisica sp
 
 ## Urto tra punti materiali
 
->[!def]
+>[!definition]
 >Un urto è un'interazione breve e intensa tra punti materiali
 
 

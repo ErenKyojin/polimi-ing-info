@@ -1,6 +1,6 @@
 Dato un [[insieme]] $A$, teniamo a mente il concetto di [[cardinalità]] di questo [[insieme]], allora possiamo dare la seguente definizione:
 
->[!def]
+>[!definition]
 >Diremo che uno spazio vettoriale $V$ ha dimensione $n < +\infty$ (indicando $\dim(V) = n$) se esiste un insieme di $n$ [[vettori]] [[Dipendenza e indipendenza lineare|linearmente indipendenti]] ed ogni altro insieme linearmente indipendente ha cardinalità $\leq n$. Si dice che $V$ ha dimensione infinita se per ogni $m \in \mathbb{N}$ esiste un insieme linearmente indipendente di cardinalità $m$ 
 
 
@@ -105,12 +105,20 @@ t_{m}
 >>[!dim]
 >
 >
+<<<<<<< HEAD
 >>[!cor] corollario 1
+=======
+>>[!corollary] corollario 1
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >>Se $\dim(V)=n$ allora
 >>1. Un insieme di $n$ vettori linearmente indipendenti è una base
 >>2. Un insieme di $n$ che sono generatori per $V$ è una base
 >
+<<<<<<< HEAD
 >>[!cor] corollario 2
+=======
+>>[!corollary] corollario 2
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >>Siano $H \subseteq V$ spazi vettoriali di dimensione finita.
 >>Se $\dim(H) = \dim(V) = n$ allora $H = WV$
 >>
@@ -136,7 +144,11 @@ t_{m}
 >>Poichè $\mathcal{L}$ è lineare: $\mathcal{L}(H) = \Span\{\mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d})\}$.
 >>Essendo $\mathcal{L}$ iniettiva: $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_d) \right\}$ sono linearmente indipendenti. Quindi $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\}$ sono una base di $\mathcal{L}(H) \implies \dim(\mathcal{L}(H)) = d = \dim(H)$
 >
+<<<<<<< HEAD
 >>[!cor] corollario 3
+=======
+>>[!corollary] corollario 3
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >>1. Se $\dim(V) = n$ allora $V$ è [[Applicazioni lineari#Isomorfismi|isomorfo]] a $\mathbb{K}^n$.
 >>2. Se $\dim(V), \dim(W) < +\infty$ allora $V$ è isomorfo a $\mathbb{K}^n$ allora $V$ è isomorfo a $W$ se e solo se $\dim(V) = \dim(W)$11
 >>
@@ -198,7 +210,11 @@ Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ l
 >>Poichè $\mathcal{L}$ è lineare: $\mathcal{L}(H) = \Span\{\mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d})\}$.
 >>Essendo $\mathcal{L}$ iniettiva: $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_d) \right\}$ sono linearmente indipendenti. Quindi $\left\{ \mathcal{L}(\mathbf{v}_{1}),\dots,\mathcal{L}(\mathbf{v}_{d}) \right\}$ sono una base di $\mathcal{L}(H) \implies \dim(\mathcal{L}(H)) = d = \dim(H)$
 
+<<<<<<< HEAD
 >[!cor] corollario 3
+=======
+>[!corollary] corollario 3
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >1. Se $\dim(V) = n$ allora $V$ è [[Applicazioni lineari#Isomorfismi|isomorfo]] a $\mathbb{K}^n$.
 >>2. Se $\dim(V), \dim(W) < +\infty$ allora $V$ è isomorfo a $\mathbb{K}^n$ allora $V$ è isomorfo a $W$ se e solo se $\dim(V) = \dim(W)$11
 >

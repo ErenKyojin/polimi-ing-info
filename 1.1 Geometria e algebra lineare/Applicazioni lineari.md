@@ -11,7 +11,7 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 >2. $\mathcal{L}_{A}(t\mathbf{v}) = A\cdot(t\mathbf{v}) = tA\cdot\mathbf{v} = t\mathcal{L}_{A}(\mathbf{v}) \forall t \in \mathbb{K}\quad \forall \mathbf{v} \in \mathbb{K}^n$
 
 
->[!def]
+>[!definition]
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ diremo che una **funzione** $\mathcal{L} : V \to W$ è **lineare** se valgono le seguenti
 > 1. $\forall \mathbf{v}_{1}, \mathbf{v}_{2} \in V\quad \mathcal{L}(\underbrace{ \mathbf{v}_{1}+\mathbf{v}_{2} }_{ \text{somma in }V })= \underbrace{ \mathcal{L}(\mathbf{v}_{1})+\mathcal{L}(\mathbf{v}_{2}) }_{ \text{somma in }W }\quad$ detta additività
 > 2. $\forall t \in K, \forall \mathbf{v} \in V\quad \mathcal{L}(\underbrace{ t\cdot\mathbf{v} }_{ \text{prodotto in }V }) = \underbrace{ t\mathcal{L}(\mathbf{v}) }_{ \text{prodotto in }W }\quad$ detta omogeneità
@@ -45,7 +45,7 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 > $W = f = \{f : \mathbb{R} \to \mathbb{R}\}$ allora $D : V \to W$ è applicazione lineare
 
 ## immagine, controimmagine, fibra e kernel di un applicazione
->[!def]
+>[!definition]
 >Siano $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e sia $\mathcal{L} : V \to W$ un'applicazione lineare. Allora diremo che
 >- $\forall \mathbf{v} \in V, \mathcal{L}(\mathbf{v})$ è l'**immagine** di $\mathbf{v}$ tramite $\mathcal{L}$
 >- $\forall U \subseteq V, \mathcal{L}(U) = \{\mathcal{L}(\mathbf{u}) : \mathbf{u} \in U\}$ è l'**immagine** di $U$
@@ -53,7 +53,7 @@ Le applicazioni lineari sono [[relazione di funzione|funzioni]] tra [[Spazi vett
 >Se $H = \{\mathbf{w}\}$ allora $L^{-1}(\mathbf{w})=\{\mathbf{v} \in V : \mathcal{L}(\mathbf{v})=\mathbf{w}\}$ si chiama   **fibra** di $\mathcal{L}$ su $\mathbf{w}$
 
 
->[!def]
+>[!definition]
 >Dati $V$ e $W$ spazi vettoriali su $\mathbb{K}$ e $L:V \to W$ applicazione lineare, definiamo il **nucleo** di $\mathcal{L}$
 > $$ \text{Ker}(\mathcal{L}) = \mathcal{L}^{-1}(\mathbf{0}_{\mathbf{w}}) = \{\mathbf{v} \in V: \mathcal{L}(\mathbf{v})=\mathbf{0}_{\mathbf{w}}\} \subseteq V $$
 > e l'**immagine** di $\mathcal{L}$:
@@ -204,7 +204,7 @@ La fibra di $\mathcal{L}$ sopra $\mathbf{w}$ è $\mathcal{L}^{-1}(\mathbf{w}) = 
 
 
 ## Iniettività e suriettività
->[!def]
+>[!definition]
 >Dati due insiemi $A$ e $B$ diremo che una funzione $f : A \to B$ è **[[Funzione iniettiva|iniettiva]]** se $\forall a_{1},a_{2} \in A : f(a_{1})=f(a_{2}) \implies a_{1}=a_{2}$.
 >Diremo che una funzione $f:A \to B$ è **[[Funzione suriettiva|suriettiva]]** se $\forall b \in B\ \exists a \in A : f(a) = b$. Diremo che $f : A \to B$ è **invertibile** se esiste $f^{-1}: B \to A$ t.c.
 > $$ \begin{align}
@@ -352,7 +352,7 @@ Il rango della matrice è $3$ se $k \neq 0$ e $k \neq 1$
 >3. $\mathcal{G}$ è un isomorfismo
 
 
->[!def]
+>[!definition]
 >Sia $\mathcal{L} : V \to W$ un'[[Applicazioni lineari|applicazione lineare]]. Il [[rango]] $r(\mathcal{L})$ di $\mathcal{L}$ è la	[[Dimensione]] dell'immagine $\Im(\mathcal{L})$ di $\mathcal{L}$
 
 

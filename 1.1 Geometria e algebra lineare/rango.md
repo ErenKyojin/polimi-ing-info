@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Data $A \in M_{(m,n)}(\mathbb{K})$ si chiama rango di $A$ e si indica con $r(A)$ il numero di righe non nulle di una sua ridotta a scala $U$, ovvero il numero di pivot di $U$
 
 Il rango quindi è il numero di equazioni che hanno rilevanza nel sistema, le restanti sono sono superflue.
@@ -28,7 +28,7 @@ Associati ad $A$ abbiamo tre [[Spazi vettoriali]]:
 Abbiamo visto che la [[Dimensione]] $\dim(\ker(A)) = n - r(A)$ dal teorema di nullità piú rango. Vogliamo dimostrare che
 $$ \dim(\Row(A)) = \dim(\Col(A)) = r(A) $$
 
->[!def]
+>[!definition]
 >Data $A \in M_{\mathbb{K}(n,n)}$ definiamo il rango per righe di $A$: $\dim(\Row(A))$ ed il rango per colonne di $A$: $\dim(\Col(A))$
 
 >[!proposition] proposizione 1

@@ -6,7 +6,7 @@ modification date: 2023-03-30 13:12
 
 Coefficiente di correlazione lineare
 
->[!def]
+>[!definition]
 >Se $x,y$ che hanno varianza $\var(x), \var(y)$
  >la $\cov(x,y)$ è il numero
 >$$ E[(x,\mu x)(y-\mu y)] - \begin{cases}

@@ -31,7 +31,7 @@ Concludiamo dicendo che se si considerano due corpi puntiformi soggetti alla sol
 - Il rapporto tra tali variazioni è una costante caratteristica dei due corpi
 
 
->[!def] Massa inerziale
+>[!definition] Massa inerziale
 >La quantità $c_{21} (c_{31})$ può essere assunta come misura della massa inerziale, una grandezza scalare caratteristica del corpo $2(3)$ rispetto alla medesima grandezza del corpo 1, scelto come unità campione
 >
 >Dette ora $m_{1},m_{2}$ e $m_{3}$ le masse dei carrelli avremo:

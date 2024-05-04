@@ -3,7 +3,7 @@ alias
 ---
 # Equazioni differenziali ordinarie di primo ordine
 
->[!def]
+>[!definition]
 >Un'equazione differenziale del primo ordine è una relazione che coinvolge una funzione incognita $y(t)$ e la sua derivata prima $y'(t)$
 >
 >Espressa in forma normale:
@@ -45,7 +45,7 @@ Le [[soluzioni]] di un equazione differenziale di primo ordine si possono trovar
 
 # EDO del 1° ordine lineari
 
->[!def]
+>[!definition]
 >Una EDO del 1° ordine lineare in forma normale è
 >$$ y'(t) = a(t)y(t) + b(t) $$
 >Con $a,b : J \subset \mathbb{R} \to \mathbb{R}$ continue

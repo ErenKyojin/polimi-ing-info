@@ -1,4 +1,4 @@
->[!def] Grandezza fisica (classe di grandezze fisiche)
+>[!definition] Grandezza fisica (classe di grandezze fisiche)
 >Quando possiamo individuare un [[insieme]] di enti tra i quali possiamo stabilire:
 >- una relazione d'ordine
 >- un'operazione di somma e differenza tra enti
@@ -16,7 +16,7 @@
 
 Una grandezza fisica si definisce mediante un preciso procedimento operativo, indicando come la si puó misurare
 
->[!def] Procedimento di misura di una grandezza fisica
+>[!definition] Procedimento di misura di una grandezza fisica
 >Misurare una grandezza fisica significa mettere in atto un procedimento per caratterizzarla quantitavamente
 
 
@@ -74,7 +74,7 @@ Per altre grandezze, oltre ad associare un numero reale detto [[Modulo]] bisogna
 # Dimensioni di una grandezza fisica
 In fisica la dimensione ha un significato duplice:
 
->[!def] Dimensione di una grandezza fisica
+>[!definition] Dimensione di una grandezza fisica
 >La dimensione di una grandezza fisica è rappresentata dalla classe di appartenenza della grandezza in esame
 
 
@@ -83,13 +83,13 @@ In fisica la dimensione ha un significato duplice:
 >Allo stesso modo il volume di un edificio sarà con le dimensioni di una lunghezza al cubo, è utile formalizzare queste relazioni in equazioni dimensionali, sfruttando il simbolo dimensionale della grandezza fisica
 
 
->[!def]
+>[!definition]
 > Si definisce simbolo dimensionale di una grandezza il simbolo della grandezza fisica tra parentesi quadre, riferendosi all'esempio precedente:
 >  $$[\text{altezza}] = [\text{profondita'}] = [\text{perimetro}] = [\text{L}]\qquad [\text{volume}]=[L]^3$$
 
 
 Tuttavia ci puó essere una seconda definizione di dimensione in fisica:
->[!def]
+>[!definition]
 >Dimensione di una classe di grandezze fisicherispetto ad una data classe di grandezze fondamentali.
 >Si definisce dimensione di grandezze fisiche $G$ rispetto alla classe di grandezze fisiche fondamentale $A$, l'esponente della classe di grandezze fisiche fondamentali considerata nell'equazione che descrive il procedimento indiretto di misura di $G$
 

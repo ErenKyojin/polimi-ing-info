@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e sia $U \subseteq V$ con $U \neq \varnothing$, si dice che $U$ è **sottospazio vettoriale** di $V$ se $U$ è a sua volta spazio vettoriale e questo si verifica se e solo se:
 > 1. $\mathbf{0} \in U$
 > 2. $$\forall \mathbf{v}_{1}, \mathbf{v}_{2} \in U \implies \mathbf{v}_{1} + \mathbf{v}_{2} \in U$$ 
@@ -123,7 +123,7 @@ $$ \begin{align}
 >\end{align} $$
 
 
->[!def]
+>[!definition]
 >Sia $V$ spazio vettoriale su $\mathbb{K}$ e siano $H$ e $K$ sottospazi vettoriali di $V$ diremmo che $V$ è la somma diretta di $H$ e $K$ se
 > 1. $H + K = V$
 > 2. $H \cap K = \left\{ \mathbf{0}_{V} \right\}$

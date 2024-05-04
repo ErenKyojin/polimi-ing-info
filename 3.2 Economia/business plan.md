@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-19
 ---
 
-> [!def]
+> [!definition]
 > Descrizione e progettazione dell'impresa, atta a dimostrare che la propria idea è degna di nota e merita investimenti
 
 Contiene informazioni su:

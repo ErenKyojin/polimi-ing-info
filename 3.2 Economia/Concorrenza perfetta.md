@@ -18,7 +18,7 @@ In questo tipo di concorrenza le imprese sono dette *price-taker*
 
 Qual è la quantità di $q$ che mi permette di massimizare il profitto?
 
->[!def]
+>[!definition]
 >Curva di offerta individuale, esprime per ogni prezzo p la quantità q di prodotto che massimiza il profitto.
 
 Essendo le imprese price-taker, p non diprende dalla quantità $q$ della singola impresa

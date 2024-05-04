@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >Un sistema di riferimento $(O, \mathbf{u}_{1}, \mathbf{u}_{2}, \mathbf{u}_{3} )$ dello spazio Euclideo consiste di:
 > 1. un punto $O$ detto origine delle coordinate
 > 2. tre vettori liberi $\mathbf{u}_{1},\mathbf{u}_{2},\mathbf{u}_{3}$ che applicati ad $O$ danno tre punti $A,B$ e $C$ in modo tale che $O, A, B$ e $C$ non giacciono nello stesso piano.

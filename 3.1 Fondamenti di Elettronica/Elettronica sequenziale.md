@@ -46,7 +46,7 @@ Possiamo quindi definire i [[latch]].
 
 Riassumendo
 
->[!def]
+>[!definition]
 >**Bistabile**: circuito che ha due punti di equilibrio stabile, che rappresentano 1 o 0
 >**Latch**: Bistabile con un segnale di enable
 >**Flip-Flop**: Latch con un clock come ingresso del segnale di enable

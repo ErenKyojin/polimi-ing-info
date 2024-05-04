@@ -174,9 +174,10 @@ $$\begin{align}
 + &\int \dots \int_{\mathbb{R}^n} |x_{n}|f_{\mathbf{x}}(x_{1},\dots,x_{n}) \mathrm{d}x_{1} \dots \mathrm{d}x_{n} + \dots
 \end{align}$$
 
-$1^o$ addendo = $$\int _{\mathbb{R}} \!|x_{1}| \, = \left\{  
+$1^o$ addendo = 
+$$\int _{\mathbb{R}} \!|x_{1}| \, = \left\{  
 \int _{\mathbb{R}^{n-1}} \! f_{\mathbf{x}}(x_{1},x_{2},\dots,x_{n}) \, \mathrm{d}x_{2} ,\dots,\mathrm{d}x_{n}\right\} 
- $$
+$$
 $\implies \sum_{j} x_{j}$ ammette medie $E$ se e solo se ogni $x_{j}$ ammette media e $E\left( \sum_{j =1}^n x_{j} \right) = \sum_{j}E(x_{j})$
 SEMPRE
 
@@ -184,10 +185,11 @@ SEMPRE
 >$E\left( \sum_{j} \right)$ dipendesolo dalle marginali. Diverso è il discorso se ci interessa la varianza della somma, che in generale dipende dalla congiunta $f_{\mathbf{x}}$
 
 
------
 
 Continuo:
-$$E\left( \prod_{j =1}^n x_{j} \right) = \int \dots \int_{\mathbb{R}^n}    \!x_{1}\dots x_{n} f_{\mathbf{x}} \, \mathrm{d}\mathbf{x} $$ Discreto
+$$E\left( \prod_{j =1}^n x_{j} \right) = \int \dots \int_{\mathbb{R}^n}    \!x_{1}\dots x_{n} f_{\mathbf{x}} \, \mathrm{d}\mathbf{x} $$
+
+Discreto:
 $$= \underset{ \{ x \}  }{ \sum \dots \sum } x_{1}\dots x_{n} f_{\mathbf{x}}(\mathbf{x})$$
 
 #todo

@@ -3,7 +3,7 @@ aliases:
 creation date: 2023-12-22
 ---
 
-> [!def]
+> [!definition]
 > Si introduce analogamente al concetto di capacità termica per unità molare il calore molare di un gas:
 > $$ c = \frac{1}{n} \frac{\delta Q}{dT}\qquad [c]=\frac{cal}{mol K}  $$
 > 

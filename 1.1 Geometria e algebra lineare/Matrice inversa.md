@@ -11,7 +11,7 @@ con $\mathbb{1}_{n}$ [[matrice identità]] di ordine $n$
 
 Per farlo abbiamo determinare alcune cose:
 
->[!def]
+>[!definition]
 >Data $A \in M_{\mathbb{K}(n,n)}$ è invertibile a destra se esiste $B \in M_{\mathbb{K}(n,n)}$ t.c. $A \cdot B = \mathbb{1}_{n}$
 >
 >Diciamo invece che è invertibile a sinistra se esiste $C \in M_{\mathbb{K}(n,n)}$ t.c. $CA = \mathbb{1}_{n}$.

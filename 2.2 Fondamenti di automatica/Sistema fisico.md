@@ -3,7 +3,7 @@ aliases: sistema
 creation date: 2024-02-20
 ---
 
-> [!def]
+> [!definition]
 > Un sistema è un oggetto fisico che interagisce con il mondo attraverso $n$ variabili d'ingresso e $m$ variabili d'uscita
 
 

@@ -28,7 +28,7 @@ In modo sostanzialmente simile ai normali meccanismi linguistici, una grammatica
 Questo tipo di regole linguistiche descrive un oggetto principale come una sequenza di oggetti componenti. Ognuno di questi viene poi raffinato, rimpiazzandolo con altri oggetti più dettagliati fino a quando non si raggiunge una sequenza di elementi base.
 Le varie riscritture possono presentare alternativo, un soggetto può essere un nome, un pronome o altro, un'istruzione può essere di assegnamento, di lettura, di output...
 
->[!def] Definizione formale di grammatica
+>[!definition] Definizione formale di grammatica
 > $$
 > G = (V_{N},V_{T}, P,S)
 >$$

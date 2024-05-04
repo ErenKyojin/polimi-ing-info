@@ -7,7 +7,7 @@ modification date: 2023-07-07 09:14
 In un sistema di particelle abbiamo $3N$ gradi di libertà, dove $N$ è il numero di particelle.
 Inoltre abbiamo 6 equazioni scalari dalle equazioni della dinamica, e abbiamo quindi solo 7 condizioni.
 
->[!def] corpo rigido
+>[!definition] corpo rigido
 >
 >un corpo rigido è un sistema di punti nel quale le distanze relative fra i punti sono fisse
 >

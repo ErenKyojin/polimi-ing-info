@@ -23,7 +23,7 @@ graph LR
 
 
 ## Derivate parziali e gradiente
->[!def]
+>[!definition]
 >$A \subseteq \mathbb{R}^2$ aperto, $(x_{0},y_{0}) \in A\quad f : A \to \mathbb{R}$
 >Le derivate parziali di $f$ in $x_{0},y_{0}$ sono:
 >$$\begin{align}
@@ -48,7 +48,7 @@ In tutti gli altri casi posso concludere che $f$ è derivabile senza dover sfrut
 
 
 # Differenziabilità e piano tangente
->[!def]
+>[!definition]
 >$A \subseteq \mathbb{R}^2$ aperto $f : A \to \mathbb{R}$
 >Diciamo che $f$ è differenziabile in $\mathbf{x_{0}} = (x_{0},y_{0}) \in A$ se
 >1. $f$ è derivabile in $\mathbf{x_{0}}$
@@ -63,7 +63,7 @@ Scrittura equivalente ponendo $x=x_{0}+h$:
 $$ f(\mathbf{x}) = f(\mathbf{x_{0}}) + \langle \nabla f(\mathbf{x_{0}}, \mathbf{x}- \mathbf{x_{0}}) \rangle + o(||\mathbf{x}|-\mathbf{x_{0}}|) $$
 
 
->[!def] 
+>[!definition] 
 >se $f$ è differenziabile in $\mathbf{x_{0}} = (x_{0},y_{0})$ il piano tangente al grafico di $f$ in $(\mathbf{x_{0}},f(\mathbf{x_{0}}))$ è 
 > $$ z = f(\mathbf{x}_{0}) + \langle\nabla f(\mathbf{x_{0}}),\mathbf{x}-\mathbf{x_{0}}\rangle$$
  
@@ -81,7 +81,7 @@ f(1,2) &= 1   \\
 >\end{align} $$
 
 ## Stabilire differenziabilità
->[!def]
+>[!definition]
 >$A \subseteq \mathbb{R}^2$ aperto, $f:A \to \mathbb{R}$ derivabile.
 >Se $\frac{ \partial f }{ \partial x }$ e$\frac{ \partial f }{ \partial y }$ sono continue in $A$ diciamo che $f$ è di [[classe C]]$^1$ in A e scriviamo $f \in C^1(A)$
 
@@ -139,7 +139,7 @@ f \in C^1(A) \implies f &\text{ differenziabile in }A \implies f &\text{ derivab
 
 ### Derivate direzionali
 
->[!def]
+>[!definition]
 >$A \subseteq \mathbb{R}^2$ aperto, $\mathbf{x}_{0} = (x_{0},y_{0}) \in A$, $f : A \to \mathbb{R}$, $\mathbf{v} = (v_{1},v_{2})$ di norma unitaria cioè, $||\mathbf{v}|| = 1$
 >La derivata direzionale di $f$ in $\mathbf{x}_{0}$ nella direzione individuata da $\mathbf{v}$ è $$\frac{ \partial f }{ \partial \mathbf{v} } = \lim_{ t \to 0 } \frac{f(x_{0}+tv_{1}, y_{0}+tv_{2}) - f(x_{0},y_{0})}{t}$$
 >Se il limite esiste finito

@@ -4,7 +4,7 @@ Per l'ottimizzazione libera sono necessarie le [[derivate seconde]] e la [[matri
 
 ## Ottimizzazione 2D
 
->[!def]
+>[!definition]
 >Sia $A \subseteq \mathbb{R}^2$ sottonsieme qualsiasi (aperto / chiuso / ne aperto ne chiuso, limitato / illimitato)
 >$f : A \to \mathbb{R}$
 >Un punto $(x_{0},y_{0}) \in A$ si dice
@@ -28,7 +28,7 @@ Per l'ottimizzazione libera sono necessarie le [[derivate seconde]] e la [[matri
 Analogamente minimo girando le disuguaglianze
 
 
->[!def]
+>[!definition]
 >Se $x_{0},y_{0}$ è punto di massimo o di minimo, locale o globale per $f \in A$ allora è detto punto di estremo
 
 # Ottimizzazione libera
@@ -40,7 +40,7 @@ Se voglio determinare
 > $\partial A$ studio separatamente ([[ottimizzazione vincolata]])
 
 
->[!def] Ottimizzazione libera
+>[!definition] Ottimizzazione libera
 >Con ottimizzazione libera si intende ottimizzazione su un [[insieme]] aperto, ossia si applica il [[Teorema di fermat]] e non quello di [[polimi-ing-info/2.1 Analisi 2/Teorema di Weierstrass|weierstrass]]
 >
 

@@ -4,7 +4,7 @@ creation date: 2023-03-23 15:15
 modification date: 2023-03-23 15:15
 ---
 
->[!def]
+>[!definition]
 >Si dice forza risultante o totale agente su di un [[Punto materiale]] dotato di [[Quantità di moto]] 
 >$\vec{p}$ la grandezza vettoriale
 >$\vec{F} = \frac{d\vec{p}}{dt}$

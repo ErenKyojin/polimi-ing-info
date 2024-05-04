@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
-> [!def]
+> [!definition]
 > $a$ è soddisfacibile in un interpretazione se esiste un assegnamento di valori alle variabili che la soddisfa, in tal caso diciamo che esiste un [[modello]] per la fbf $a$
 
 # ANKI

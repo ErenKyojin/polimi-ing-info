@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-13
 ---
 
-> [!def]
+> [!definition]
 > Un join si dice completo se ciascuna tupla degli operandi del join contribuisce alla relazione finale
 
 

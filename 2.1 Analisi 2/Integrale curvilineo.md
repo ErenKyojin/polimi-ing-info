@@ -19,7 +19,7 @@ Rappresenti un filo avente densità di massa
 
 Introduciamo quindi l'integrale curvilineo:
 
->[!def]
+>[!definition]
 >$[a,b] \subset \mathbb{R}$ limitato
 >$\mathbf{r}:[a,b] \to \mathbb{R}^3$ curva regolare di sostegno $\gamma$
 >$f(\mathbf{(t)})$ continua, $t \in[a,b]$

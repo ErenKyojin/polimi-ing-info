@@ -4,7 +4,7 @@ creation date: 2023-04-28 14:56
 modification date: 2023-04-28 14:56
 ---
 
->[!def]
+>[!definition]
 >Il diagramma di Hasse è una versione semplificata del [[grafo di adiacenza]], utilizzato solitamente per [[relazione d'ordine|relazioni d'ordine]] su [[insieme|insiemi]] finiti.
 >Si ottiene a partire dal grafo di incidenza utilizzando alcune convenzioni:
 > - Non si rappresentano gli autoanelli (su ogni vertice ce n'è uno)

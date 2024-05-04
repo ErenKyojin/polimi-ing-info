@@ -1,5 +1,5 @@
 
-> [!def]
+> [!definition]
 > Dati due [[insieme|insiemi]] $A,B$ il prodotto cartesiano $A\times B$ è definito $$A\times B = \left\lbrace(a,b) | a \in A, b \in B\right\rbrace$$
 > 
 > In particolare 

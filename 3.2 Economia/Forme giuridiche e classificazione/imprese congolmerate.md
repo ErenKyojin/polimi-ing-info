@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-02-23
 ---
 
->[!def]
+>[!definition]
 >Imprese che producono servizi o prodotti scollegati tra loro
 
 ^e1918f

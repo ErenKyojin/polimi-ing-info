@@ -168,7 +168,7 @@ graph LR
 ```
 Partendo da $q_{1}$ e leggendo `ab` l'automa si trova in uno stato dell'insieme $\left\{ q_{4},q_{5},q_{6} \right\}$
 
->[!def]
+>[!definition]
 >Ridefiniamo uno stato per essere l'insieme dei possibili stati in cui si può trovare l'automa ND durante il suo funzionamento
 
 - Dato un FSA ND ne costruiamo automaticamente uno equivalente deterministico, quindi non sono piú efficaci a differenza degli automi a pila

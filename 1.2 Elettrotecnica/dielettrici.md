@@ -10,7 +10,7 @@ La polarizzazione $\bar{\mathcal{P}}$ di un dielettrico è definita come il mome
 $$ \mathcal{\bar{P}} = \chi_{e}\varepsilon_{0}\bar{E} $$
 dove $\chi_{e}$ è la **suscettibilità elettrica** del materiale e tipicamente è una quantità positiva. La suscettibilità elettrica descrive la risposta di un materiale ad un campo elettrico esterno.
 
->[!def]
+>[!definition]
 >La carica per unità di superficie di un pezzo di materiale polarizzato, è uguale alla componente di polarizzazione $\mathcal{\bar{P}}$ nella direzione normale alla superficie di un corpo
 
 
@@ -26,7 +26,7 @@ La ~~carica totale~~ rimane nulla, anche dividendo il materiale le sottoparti sa
 
 La ~~polarizzazione~~ $\mathcal{\bar{P}}$ di un dielettrico è definita come il ~~momento di dipolo~~ del mezzo per unità di ~~volume~~
 
->[!def]
+>[!definition]
 >la ~~carica~~ per unità di ~~superficie~~ di un pezzo di ~~materiale polarizzato~~ è uguale alla ~~componente di polarizzazione~~ $\mathcal{\bar{P}}$ nella direzione ~~normale~~ alla superficie di un corpo
 	
 

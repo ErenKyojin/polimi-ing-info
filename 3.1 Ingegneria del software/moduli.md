@@ -3,7 +3,7 @@ aliases: modulo
 creation date: 2024-02-28
 ---
 
->[!def]
+>[!definition]
 >Un modulo di un progetto è un sottoproblema del progetto stesso, risolvibile autonomamente dagli altri moduli
 >
 

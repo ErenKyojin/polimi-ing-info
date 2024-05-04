@@ -1,5 +1,5 @@
 # Soluzioni
->[!def]
+>[!definition]
 >Si chiama **integrale generale** l'[[insieme]] di tutte le soluzioni.
 >Si chiama **soluzione particolare** una specifica soluzione.
 
@@ -52,7 +52,7 @@ I grafici delle soluzioni riempiono il piano.
 
 
 # soluzioni costanti di EDO del 1° ordine
->[!def]
+>[!definition]
 >Data $$y'(t) = f(t, y(t))$$
 >Una soluzione costante è una funzione $y(t) = C,\quad\forall t$ che sia soluzione. 
 >

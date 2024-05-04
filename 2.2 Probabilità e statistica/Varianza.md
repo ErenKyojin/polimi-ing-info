@@ -17,7 +17,7 @@ p(Z = -100) = \frac{1}{2}
 \end{align} $$
 
 Hanno tutte lo stesso valore atteso, nonostante abbiano intuitivamente una distanza diversa dal valore atteso stesso.
->[!def]
+>[!definition]
 >Sia $X$ una [[variabile aleatoria]] discreta o assolutamente continua tale che esista $E(X)$ se inoltre esiste $E((X - E(X))^2)$ allora si pone:
 > $$
 >\var(X) := E((X - E(X))^2)
@@ -63,7 +63,7 @@ Vediamo 3 motivi validi per cui è opportuno dividere la somma degli $n$ scarti 
 
 ## Varianza per variabili continue
 
-> [!def]
+> [!definition]
 > Analogamente alla varianza per variabili aleatoriee discrete
 > $$\delta(X) = E[(X-\mu)^2] $$
 > $$ \delta(X) = E[X^2] - E[X]^2 $$ ^25665d

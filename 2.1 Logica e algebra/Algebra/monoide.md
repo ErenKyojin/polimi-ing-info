@@ -3,7 +3,7 @@ aliases:
 creation date: 2023-11-29
 ---
 
-> [!def]
+> [!definition]
 > Monoide è un semigruppo $\left< A, \cdot \right>$ dotato di elemento neutro rispetto all'operazione binaria
 
 

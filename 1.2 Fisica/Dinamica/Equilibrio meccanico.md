@@ -4,7 +4,7 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
->[!def]
+>[!definition]
 >La forza complessiva subita dal sistema (forza esterna) e quella complessiva sviluppata dal sistema verso l'esterno (forza interna) sono in equilibrio
 
 # ANKI

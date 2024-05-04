@@ -3,7 +3,7 @@ aliases:
 creation date: 2024-03-18
 ---
 
-> [!def]
+> [!definition]
 > Attività non correnti sono risorse utilizzate anche oltre l'esercizio contabile, con utilità pluriennale
 
 A sua volta diviso in

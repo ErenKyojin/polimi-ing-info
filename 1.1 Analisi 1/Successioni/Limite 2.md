@@ -2,7 +2,7 @@
 
 
 ## Limite destro e sinistro
->[!DEF]
+>[!definition]
 >- Limite destro
 >$a_n \rightarrow L^+$ se $a_n \rightarrow L \Longrightarrow a_n \geq L$ definitivamente
 > - Limite sinistro

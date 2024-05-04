@@ -8,7 +8,7 @@ $$
 Esiste un cambiamento di coordinate chhe trasferisce una forma quadratica in una del tipo $(*)$ forma quadratica data in una del tipo $(*)$?
 Sia $S \in M_{\mathbb{R}(n,n)}$ invertibile. Posto $\mathbf{x} = S\mathbf{y}$ si ha che
  $$ q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x} = (S\mathbf{y})^T A (S\mathbf{y}) = \mathbf{y}^T (S^TAS)\mathbf{y}B = \overline{q}(\mathbf{y})$$
->[!def]
+>[!definition]
 >Una matrice simmetrica $B \in M_{\mathbb{R}}(n,n)$ si dice congruente ad $A$ se esiste $S \in M_{\mathbb{R}(n,n)}$ invertibile tale che $B = S^TAS$
 
 
@@ -34,7 +34,11 @@ Sia $S \in M_{\mathbb{R}(n,n)}$ invertibile. Posto $\mathbf{x} = S\mathbf{y}$ si
 >> \lambda_{min} \lvert \lvert \mathbf{x} \rvert  \rvert ^2 \leq q(\mathbf{x}) \leq \lambda_{max}\lvert \lvert \mathbf{x} \rvert  \rvert ^2
 >>\end{align} $$
 >
+<<<<<<< HEAD
 >>[!cor]
+=======
+>>[!corollary]
+>>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
 >>Sia $A \in M_{\mathbb{R}(n,n)}$ simmetrica e $q(\mathbf{x}) = \mathbf{x}^TA\mathbf{x}$ allora
 >>1. $q(\mathbf{x})$ è definita positiva (rispettivamente definita negativa) se e solo se tutti gli autovalori di $A$ sono strettamente positivi (rispettivamente negativi)
 >>2. $q(\mathbf{x})$ è semidefinita positiva se e solo se gli autovalori di $A$ sono $\geq 0$ e uno di essi è nullo

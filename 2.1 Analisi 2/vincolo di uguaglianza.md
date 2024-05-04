@@ -23,7 +23,7 @@ cioè il vincolo è espresso come [[insieme]] di livello nullo di una funzione $
 \end{document}
 >```
 
->[!def]
+>[!definition]
 >Siano $A \subseteq \mathbb{R} ^2$ aperto, $f, F \in C^1(A)$
 >poniamo
 > $$ Z = \{(x,y) \in A : F(x,y) = 0\} $$

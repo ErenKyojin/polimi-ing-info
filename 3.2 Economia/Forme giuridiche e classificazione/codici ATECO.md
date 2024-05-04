@@ -4,7 +4,7 @@ creation date: 2024-02-23
 ---
 
 
-> [!def] 
+> [!definition] 
 >Codice che identifica attività produttive per definire i diversi [[Settori|Settori]]
 
 ^209dbb

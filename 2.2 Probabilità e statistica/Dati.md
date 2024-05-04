@@ -1,9 +1,9 @@
->[!def]
+>[!definition]
 >I dati sono il risultato di un [[esperimento aleatorio]]
 
 
 ## Sistemi informativi
->[!def]
+>[!definition]
 >Con il termine dato intendiamo una misura, quindi un elemento, che modella o descrive una porzione della realtà che si vuole rappresentare.
 
 

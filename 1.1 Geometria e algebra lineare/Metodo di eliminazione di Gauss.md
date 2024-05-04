@@ -6,7 +6,7 @@ modification date: 2023-04-27 14:14
 Il **Metodo di eliminazione di Gauss** (M.E.G.) afferma che attraverso due semplici operazioni elementari è sempre possibile ridurre a scala una matrice, in termini di sistemi è sempre possibile ridurre un sistema lineare ad un sistema lineare ridotto a scala **equivalente**
 
 
->[!def]
+>[!definition]
 >Le operazioni elementari sulle righe di una matrice sono
 >1. Sostituire a una riga la somma tra la riga stessa e il multiplo di un'altra riga
 >2. Scambiarsi di posto due righe

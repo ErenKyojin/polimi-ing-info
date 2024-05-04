@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >Una quadrica in $\mathbb{R}^n$ è il luogo dei punti di $\mathbb{R}^n$ che soddisfano un'equazione di secondo grado in $x_{1},\dots,x_{n}:$
 > $$ q(\mathbf{x}) = \sum_{i=1}^n a_{ii}x_{i}^2 + \sum_{1 \leq i \leq j \leq n}2a_{ij}x_{i}x_{j}  + \sum_{i = 1}^n 2b_{i}x_{i} + c=0, a_{ij} \in \mathbb{R}$$
 > e $a_{ij} \neq0$ per almeno una coppia di indici $i,j$
@@ -69,7 +69,7 @@ Data $\mathcal{2} = \left\{ \mathbf{x} \in \mathbb{R}^n : \mathbf{x}^TA\mathbf{x
 	* Se $r(A) = r([A|-\mathbf{b}])$ si trovano gli autovalori non nulli di $A$ e si calcola $\hat{c} = \mathbf{b}^T = \mathbf{w} +c$ con $\mathbf{w}$ soluzione di $A\mathbf{x} = -\mathbf{b}$. L'equazione è: $\lambda_{1}x_{1}^2 + \dots + \lambda_{r}x_{r}^2 + \hat{c} = 0$
 	* Se $r(A) < r([A|-\mathbf{b}])$ si trovano gli autovalori non nulli di $A$ e si calcola $p = \|\mathbf{b}_{H^\perp}\|$ dove $\mathbf{b}_{H^\perp}$ è la proiezione ortogonale di $\mathbf{b}$ sul $\ker(A)$. L'equazione è: $$\lambda_{1}x_{1}^2 + \dots + \lambda_{r}x_{r}^2 - 2px_{r+1} = 0$$
 
->[!def]
+>[!definition]
 >Una quadrica si dice degenere se $\det(B) =0$
 
 >[!remark]

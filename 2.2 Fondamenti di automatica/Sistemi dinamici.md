@@ -109,7 +109,7 @@ $$
 y(t) = g(x(t),u(t),t)
 \end{cases}$$
 ### linearità
->[!def]
+>[!definition]
 >$f$ e $g$ lineare in $x$ e $u$ allora il sitema dinamico è **lineare **
 
 >[!remark]- notazione
@@ -149,10 +149,10 @@ y(t) = Cx(t) + Du(t)
 
 ---
 
->[!def]
+>[!definition]
 >$f = f(x,u)$ e $g=g(x,u)$ il sistema dinamico è **tempo invariante** o **stazionario**.
 
->[!def]
+>[!definition]
 >$g = g(x,t)$ allora il sistema dinamico è **strettamente proprio**
 >
 >>[!warning]

@@ -14,7 +14,7 @@ $$\Rightarrow x(t) = X_m\cos(\omega t + \varphi) = Re\{\overline{x}e^{j\omega t}
 E allora la relazione tra dominio del tempo e dominio dei numeri complessi diventa
 $$x(t) = X_m\cos(\omega t + \varphi) \leftrightarrow X_me^{j\varphi} = \overline{x}$$
 
->[!def] FASORE
+>[!definition] FASORE
 >data una funzione $x(t) = X_m\cos(\omega t + \varphi)$ le associamo il numero complesso fasore $X_me^{j \varphi}$, per passare dagli uni agli altri la relazione sopra
 >
 >==oss==: nel passaggio da funzione a fasore si perde la [[pulsazione]] $\omega$ quindi dobbiamo lavorare sempre alla stessa pulsazione nel dominio dei fasori

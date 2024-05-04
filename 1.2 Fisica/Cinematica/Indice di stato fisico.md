@@ -1,4 +1,4 @@
-> [!def]
+> [!definition]
 > Quando la nostra percezione del mondo ci permette di individuare un [[Analisi 1/Insiemi numerici/Insieme|insieme]] di enti nel mondo tra i quali possiamo stabilire:
 > - una [[Relazione]] di [[Uguaglianza]] ma non di ordine
 > - una operazione di somma e di differenza

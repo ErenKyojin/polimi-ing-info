@@ -1,4 +1,4 @@
->[!def]
+>[!definition]
 >$\mathbf{v} \cdot \mathbf{w} = \|\mathbf{v}\| \cdot \|\mathbf{w}\| \cos(\alpha)$ se $\mathbf{v} \neq \mathbf{0}$ e $\mathbf{w} \neq \mathbf{0}$
 >Se $\mathbf{v} = \mathbf{0}$ o $\mathbf{w}=\mathbf{0}$ allora $\mathbf{v} \cdot \mathbf{w} = 0$ e si puó indicare con $<\mathbf{v},\mathbf{w}>$
 
