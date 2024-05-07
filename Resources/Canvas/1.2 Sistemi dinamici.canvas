@@ -12,31 +12,40 @@
     },
     {
       "id": "d4a04ceb9ea1fa24",
+      "type": "text",
+      "text": "Sistemi dinamici a tempo discreto",
       "x": -711,
       "y": -151,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "Sistemi dinamici a tempo discreto"
+      "height": 60
     },
     {
       "id": "873e572a38a77da7",
+      "type": "text",
+      "text": "Sistemi dinamici a tempo continuo",
       "x": 400,
       "y": -150,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "Sistemi dinamici a tempo continuo"
+      "height": 60
     },
     {
       "id": "023bbe24431c4607",
       "type": "text",
-      "text": "#### Nomenclatura\n- SISO: single input single output\n- linearità: se stato e uscità sono funzioni lineari\n- invariante: se stato e uscità dipendono solo da stato e ingresso\n- poprio se l'uscità dipende solo da stato e dal tempo (e dall'ingresso, ma solo attraverso lo stato)",
+      "text": "#### Nomenclatura\n- SISO: single input single output\n- linearità: se stato e uscità sono funzioni lineari\n- tempo invariante: se stato e uscità dipendono solo da stato e ingresso\n- poprio se l'uscità dipende solo da stato e dal tempo (e dall'ingresso, ma solo attraverso lo stato)",
       "borderStyle": "dashed",
       "x": -140,
       "y": 80,
       "width": 260,
-      "height": 480
+      "height": 440
+    },
+    {
+      "id": "444b19f534f3a504",
+      "x": 347,
+      "y": 91,
+      "width": 313,
+      "height": 169,
+      "type": "text",
+      "text": "#### rappresentazione di stato\ninsieme di $n$ variabili che descrive la configurazione interna del sistema, si rappresenta come un vettore. Si indica con $x(t) \\in \\mathbb{R}^n$"
     }
   ],
   "edges": [
@@ -59,6 +68,13 @@
       "fromNode": "331047609b9dac2a",
       "fromSide": "bottom",
       "toNode": "023bbe24431c4607",
+      "toSide": "top"
+    },
+    {
+      "id": "2be327a9caa26727",
+      "fromNode": "331047609b9dac2a",
+      "fromSide": "bottom",
+      "toNode": "444b19f534f3a504",
       "toSide": "top"
     }
   ],
