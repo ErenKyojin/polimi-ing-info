@@ -13,4 +13,7 @@ y(t) = Cx(t) + Du(t)
 >Rete elettrica
 
 
-Movimento dello stato e dell'uscita attraverso la [[Formula di lagrange]]
+[[Movimento]] dello stato e dell'uscita attraverso la [[Formula di lagrange]]
+
+>[!teorema]
+>Per ogni coppia di scalari alfa e beta
