@@ -44,5 +44,28 @@ $$ x_{n-1} = e^{a_{n-1}t}x_{n-1}(0) +\int_{0}^t  \!e^{a_{n-1} (t-\tau) }a_{n-1,n
 
 e si prosegue risolvendo all'indietro
 
-## Soluzione movimento liberom atrice $A$ diagonalizzabile
-Abbiamo quindi $A$ tale che $\dot{x} = Ax$ con autovalori $\lambda \in \mathbb{C}$ e $\mathbf{v} \in \mathbb{C}^n$ ed equazione caratteristica $\det(\lambda \mathbb{1} - A) = 0$
+## Soluzione movimento libero matrice $A$ diagonalizzabile
+Abbiamo quindi $A \in M_{n,n}$ tale che $\dot{x} = Ax$ con autovalori $\lambda \in \mathbb{C}$ e $\mathbf{v} \in \mathbb{C}^n$ ed equazione caratteristica $\det(\lambda \mathbb{1} - A) = 0$.
+
+Se ci sono $n$ autovettori $A$ è diagonalizzabile
+$z = TX$
+$$T^{-1} = \begin{bmatrix}
+\mathbf{v}_{1} | \mathbf{v}_{2} | \dots | \mathbf{v}_{n}
+\end{bmatrix}$$
+$\dot{z} = TAT^{-1} z$, notiamo che $TAT^{-1}$ è diagonalizzabile a sua volta
+$$\dot{z} = \begin{bmatrix}
+\lambda_{1}  &  &  & 0 \\
+ & \lambda_{2} &  \\  &  & \ddots\\
+
+0 &  &  & \lambda_{n}
+\end{bmatrix} \implies z(t) = \begin{bmatrix}
+e^{\lambda_{1}t}z_{1}(0) \\
+... \\
+e^{\lambda_{n}t}z_{n}(0)
+\end{bmatrix}$$
+
+
+Abbiamo risolto in zeta, ora dobbiamo tornare alla base $x$
+$x(t) = T^{-1}z(t)$, inoltre $z(t) = e^{\lambda t}z(0)$ (matrice della diagonale degli autovalori)
+$x(t) = T^{-1}e^{diag(\lambda) t} T x(0)$
+$x(t) = e^{At}x(0) x(0) \implies e^{At} = T^{-1}e^{diag(\lambda)t} T$
