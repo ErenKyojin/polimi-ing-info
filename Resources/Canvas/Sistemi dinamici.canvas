@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {
+      "id": "331047609b9dac2a",
+      "type": "text",
+      "text": "Un sistema è dinamico se non è sufficente conoscere l'ingresso per determinare l'uscita sullo stesso intervallo di tempo. Ossia un sistema che dipende dal anche dal proprio stato",
+      "shape": "predefined-process",
+      "x": -140,
+      "y": -220,
+      "width": 260,
+      "height": 200
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}

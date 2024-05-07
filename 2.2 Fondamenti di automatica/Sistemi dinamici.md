@@ -1,4 +1,4 @@
-![[Sistemi dinamici.canvas]]
+![[polimi-ing-info/2.2 Fondamenti di automatica/canvas/Sistemi dinamici.canvas]]
 Se conosco $u(t)$ sull'intervallo $[t_{0},t]$ queso mi basta per conoscere $y(t)$ su $[t_{0},t]$
 
 - Si $\implies$ sistema **non dinamico**
