@@ -22,10 +22,19 @@
       "id": "74dbfb65a52a5592",
       "x": -400,
       "y": 140,
-      "width": 260,
+      "width": 440,
       "height": 160,
       "type": "text",
-      "text": "#### Movimento forzato"
+      "text": "#### Movimento forzato\nCome progredisce il sistema quando lo stato iniziale è nullo"
+    },
+    {
+      "id": "6dde887a41e4f59f",
+      "x": 220,
+      "y": -340,
+      "width": 260,
+      "height": 100,
+      "type": "text",
+      "text": "Se $A$ è diagonalizzabile, sono detti **modi** i termini della matrice diagonale simile ad $A$"
     }
   ],
   "edges": [
@@ -41,6 +50,13 @@
       "fromNode": "6695b3d1ea9709d0",
       "fromSide": "right",
       "toNode": "74dbfb65a52a5592",
+      "toSide": "left"
+    },
+    {
+      "id": "27409fcb7e436a69",
+      "fromNode": "30b32c1575c37ded",
+      "fromSide": "right",
+      "toNode": "6dde887a41e4f59f",
       "toSide": "left"
     }
   ],
