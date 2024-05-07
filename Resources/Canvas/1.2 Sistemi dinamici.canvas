@@ -40,12 +40,12 @@
     },
     {
       "id": "444b19f534f3a504",
+      "type": "text",
+      "text": "#### rappresentazione di stato\ninsieme di $n$ variabili che descrive la configurazione interna del sistema, si rappresenta come un vettore. Si indica con $x(t) \\in \\mathbb{R}^n$",
       "x": 347,
       "y": 80,
       "width": 313,
-      "height": 169,
-      "type": "text",
-      "text": "#### rappresentazione di stato\ninsieme di $n$ variabili che descrive la configurazione interna del sistema, si rappresenta come un vettore. Si indica con $x(t) \\in \\mathbb{R}^n$"
+      "height": 169
     }
   ],
   "edges": [
