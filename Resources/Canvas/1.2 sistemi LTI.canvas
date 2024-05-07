@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "6695b3d1ea9709d0",
+      "x": -880,
+      "y": -80,
+      "width": 260,
+      "height": 80,
+      "type": "text",
+      "text": "[[Sistemi dinamici]] lineari tempo invarianti"
+    },
+    {
+      "id": "30b32c1575c37ded",
+      "x": -400,
+      "y": -400,
+      "width": 440,
+      "height": 220,
+      "type": "text",
+      "text": "#### Movimento libero\nOssia come progredisce il sistema quando l'ingresso è uguale a 0. È determinato dagli autovalori e dagli autovettori della matrice $A$ della rappresentazione di stato\n$$ x(t) = e^A x_{0} $$"
+    },
+    {
+      "id": "74dbfb65a52a5592",
+      "x": -400,
+      "y": 140,
+      "width": 260,
+      "height": 160,
+      "type": "text",
+      "text": "#### Movimento forzato"
+    }
+  ],
+  "edges": [
+    {
+      "id": "44d55505460c6ac3",
+      "fromNode": "6695b3d1ea9709d0",
+      "fromSide": "right",
+      "toNode": "30b32c1575c37ded",
+      "toSide": "left"
+    },
+    {
+      "id": "ab5875fa4c1d17ce",
+      "fromNode": "6695b3d1ea9709d0",
+      "fromSide": "right",
+      "toNode": "74dbfb65a52a5592",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}
