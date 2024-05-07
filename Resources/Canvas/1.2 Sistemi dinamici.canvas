@@ -61,9 +61,27 @@
       "x": -760,
       "y": 105,
       "width": 360,
-      "height": 60,
+      "height": 115,
       "type": "text",
-      "text": "Si dicono stati di equilibrio che"
+      "text": "Uno stato è detto di equilibrio se, dato un ingresso costante, non ci si allontana più di un certo $\\varepsilon$ dallo stato per tutti gli istanti di tempo successivi"
+    },
+    {
+      "id": "80dc83cff60e9c7d",
+      "x": -760,
+      "y": 249,
+      "width": 360,
+      "height": 111,
+      "type": "text",
+      "text": "in tempo continuo, se $x$ deve rimanere costante $\\bar{x}$, allora $\\dot{x}$ deve essere nulla, segue che gli stati di equilibrio sono $f(\\bar{x},\\bar{u})$"
+    },
+    {
+      "id": "64650f3cf1938aaa",
+      "x": -760,
+      "y": 380,
+      "width": 360,
+      "height": 100,
+      "type": "text",
+      "text": "In tempo discreto, $x(k+1) = x(k)$, quindi gli stati di equilibrio sono le soluzioni di\n$$ \\bar{x}=f(\\bar{x},\\bar{u}) $$"
     }
   ],
   "edges": [
