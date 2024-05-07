@@ -11,3 +11,6 @@ y(t) = Cx(t) + Du(t)
 
 >[!example]
 >Rete elettrica
+
+
+Movimento dello stato e dell'uscita attraverso la [[Formula di lagrange]]
