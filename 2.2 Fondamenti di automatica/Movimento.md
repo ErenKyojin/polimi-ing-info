@@ -11,6 +11,9 @@ Trovato il movimento libero
 - stabilità interna
 - proprietà del sistema
 
+Il movimento libero $x(t) =e^Ax_{0}$ è determinato da autovalori e autovettori di una matrice $A$
+Possiamo definire i [[modi di un sistema]]
+
 ## movimento forzato
 Condizioni iniziali nulle, quindi osserviamo come il sistema progredisce partendo da stato nullo
 
