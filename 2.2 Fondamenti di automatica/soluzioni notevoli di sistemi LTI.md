@@ -9,5 +9,25 @@ $\dot{x} = Ax \implies x(t) = e^{At}x_{0}, t_{0}=0$
 
 Se $A$ è diagonale abbiamo che
 $$\dot{x} = \begin{bmatrix}
-a_{11} &  
-\end{bmatrix}$$
+a_{11} & 0 & \dots & 0 \\
+0 & a_{22}  & \dots & 0 \\
+\vdots &\dots &\ddots &\vdots \\
+0 & \dots & \dots  & a_{nn}
+\end{bmatrix} x$$
+allora abbiamo che
+$$ e^{At} = \begin{bmatrix}
+e^{a_{11}t} &0  & \dots & 0 \\
+0 & e^{a_{22}t}  &\dots & 0 \\
+\vdots & \dots & \ddots & \vdots \\
+0 & \dots & \dots & e^{a_{nn}t}
+\end{bmatrix} \begin{bmatrix}
+x_{1}(0) \\
+\vdots \\
+x_{n}(0)
+\end{bmatrix} $$
+
+# Soluzione movimento libero matrice $A$ triangolare superiore
+$$ \dot{x} = \begin{bmatrix}
+a_{11}  & a_{12}  & \dots & a_{1n} \\
+0 & a_{22} &\dots &
+\end{bmatrix} $$
