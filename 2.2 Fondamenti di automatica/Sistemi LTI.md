@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: LTI, sistema LTI
 creation date: 2024-03-22
 ---
 
@@ -39,3 +39,5 @@ Inoltre $y = cx + du \implies y = CT^{-1}z + Du$
 $C' = CT^{-1}$
 $D' = D$
 La $D$ rimane la stessa in quanto non ha a che fare con lo stato
+
+# [[soluzioni notevoli di sistemi LTI]]
