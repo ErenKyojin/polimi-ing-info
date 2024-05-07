@@ -29,5 +29,15 @@ x_{n}(0)
 # Soluzione movimento libero matrice $A$ triangolare superiore
 $$ \dot{x} = \begin{bmatrix}
 a_{11}  & a_{12}  & \dots & a_{1n} \\
-0 & a_{22} &\dots &
+0 & a_{22} &\dots &a_{2n} \\
+\dots &\dots  & \vdots \\
+0 & \dots &0  & a_{nn} 
 \end{bmatrix} $$
+
+$\dot{x}_{n}$ indipendente da $\dot{x}_{1},\dots,\dot{x}_{n-1}$
+$x_{n}(t) = e^{a_{nn} t} x_{n}(0)$ scalare
+$\dot{x}_{n-1} = a_{n-1,n-1} x_{n-1} + a_{n-1,n} x_{n}$ dove $x_{n}$ è nota per il punto precedente ed è quindi un "ingresso virtuale"
+$$ \dot{x}_{n-1}= a_{n-1} x_{n-1} + a_{n-1,n} \cdot u^v(t) $$
+Diventa quindi un sistema forzato è possiamo quindi utilizzare la [[formula di lagrange]]
+
+$$ x_{n-1} = \int  \! \, \mathrm{d}x $$
