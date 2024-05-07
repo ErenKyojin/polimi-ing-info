@@ -9,8 +9,58 @@
       "y": -220,
       "width": 260,
       "height": 200
+    },
+    {
+      "id": "d4a04ceb9ea1fa24",
+      "x": -711,
+      "y": -151,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Sistemi dinamici a tempo discreto"
+    },
+    {
+      "id": "873e572a38a77da7",
+      "x": 400,
+      "y": -150,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Sistemi dinamici a tempo continuo"
+    },
+    {
+      "id": "023bbe24431c4607",
+      "type": "text",
+      "text": "#### Nomenclatura\n- SISO: single input single output\n- linearità: se stato e uscità sono funzioni lineari\n- invariante: se stato e uscità dipendono solo da stato e ingresso\n- poprio se l'uscità dipende solo da stato e dal tempo (e dall'ingresso, ma solo attraverso lo stato)",
+      "borderStyle": "dashed",
+      "x": -140,
+      "y": 80,
+      "width": 260,
+      "height": 480
     }
   ],
-  "edges": [],
+  "edges": [
+    {
+      "id": "2ec2de43c0d34098",
+      "fromNode": "331047609b9dac2a",
+      "fromSide": "right",
+      "toNode": "873e572a38a77da7",
+      "toSide": "left"
+    },
+    {
+      "id": "10527b0702a7f8f0",
+      "fromNode": "331047609b9dac2a",
+      "fromSide": "left",
+      "toNode": "d4a04ceb9ea1fa24",
+      "toSide": "right"
+    },
+    {
+      "id": "615e2b198d580721",
+      "fromNode": "331047609b9dac2a",
+      "fromSide": "bottom",
+      "toNode": "023bbe24431c4607",
+      "toSide": "top"
+    }
+  ],
   "metadata": {}
 }
