@@ -1,5 +1,5 @@
 ---
-aliases: problemi di controllo
+aliases: problemi di controllo, problema del controllo
 creation date: 2024-02-20
 ---
 
