@@ -1,5 +1,5 @@
 Domanda, Dato un sistema dinamico sottoposto ad ingresso $u = \begin{pmatrix}t\\k\end{pmatrix} = \bar{u}$ costante.
-$\exists$ quale $\bar{x}$ costante/i tale per cui
+$\exists$ qualche $\bar{x}$ costante/i tale per cui
  $$
 \begin{rcases}
 x(0) = \bar{x} \\
