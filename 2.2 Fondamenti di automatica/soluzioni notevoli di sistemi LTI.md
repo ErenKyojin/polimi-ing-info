@@ -32,7 +32,7 @@ a_{11}  & a_{12}  & \dots & a_{1n} \\
 0 & a_{22} &\dots &a_{2n} \\
 \dots &\dots  & \vdots \\
 0 & \dots &0  & a_{nn} 
-\end{bmatrix} $$
+\end{bmatrix} x $$
 
 $\dot{x}_{n}$ indipendente da $\dot{x}_{1},\dots,\dot{x}_{n-1}$
 $x_{n}(t) = e^{a_{nn} t} x_{n}(0)$ scalare
@@ -40,4 +40,9 @@ $\dot{x}_{n-1} = a_{n-1,n-1} x_{n-1} + a_{n-1,n} x_{n}$ dove $x_{n}$ è nota per
 $$ \dot{x}_{n-1}= a_{n-1} x_{n-1} + a_{n-1,n} \cdot u^v(t) $$
 Diventa quindi un sistema forzato è possiamo quindi utilizzare la [[formula di lagrange]]
 
-$$ x_{n-1} = \int  \! \, \mathrm{d}x $$
+$$ x_{n-1} = e^{a_{n-1}t}x_{n-1}(0) +\int_{0}^t  \!e^{a_{n-1} (t-\tau) }a_{n-1,n} x_{n}(\tau) \, \mathrm{d}\tau $$
+
+e si prosegue risolvendo all'indietro
+
+## Soluzione movimento liberom atrice $A$ diagonalizzabile
+Abbiamo quindi $A$ tale che $\dot{x} = Ax$ con autovalori $\lambda \in \mathbb{C}$ e $\mathbf{v} \in \mathbb{C}^n$ ed equazione caratteristica $\det(\lambda \mathbb{1} - A) = 0$
