@@ -46,4 +46,6 @@ $\rho(x,y)$ è detto [[coefficiente di correlazione lineare]]
 ## Covarianza per vettori aleatori
 
 Ricordando il [[Valore atteso#^da9cb5]] 
+
 >[!def]
+>Siano $X_{1},X_{2}$ due variabili aleatorie definite sul medesimo
