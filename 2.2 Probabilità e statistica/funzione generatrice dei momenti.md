@@ -19,4 +19,9 @@ La funzione generatrice di $X$ coinide con la [[trasformata di Laplace]] della d
 ## Funzione generatrice dei momenti per [[Vettori aleatori]]
 
 >[!def]
->$\mathbf{X}=(X_{1},\dots,X_{n})$ un vettore aleatorio per il quale esiste un rettangolo aperto di $\mathbb{R}^n\ J = J_{1} \times\dots \times J_{n}$
+>$\mathbf{X}=(X_{1},\dots,X_{n})$ un vettore aleatorio per il quale esiste un rettangolo aperto di $\mathbb{R}^n\ J = J_{1} \times\dots \times J_{n}$, che contiene $\mathbf{0}=(0,\dots,0)$ tale che $e^{t_{1}X_{1} + \dots+t_{n}X_{n}}$ ammetta media per ogni $\mathbf{t}=(t_{1},\dots,t_{n}) \in J$. Allora
+>$$m_{\mathbf{X}}(t) := E(e^{t_{1}X_{1} + \dots + t_{n}X_{n}})$$ 
+>definita per ogni $t \in I$ è detta funzione generatrice dei momenti di $\mathbf{X}$
+
+>[!proposition]
+>Siano $\mathbf{X},\mathbf{Y}$ due vettori aleatori che ammettono funzione generatrice dei momenti $m_{\mathbf{X}},m_{\mathbf{Y}}$ rispettivamente, siano $F_{\mathbf{X}}$ la funzione di ripartizione di $\mathbf{X}$ e $F_{\mathbf{Y}}$ quella di $\mathbf{Y}$. Allora $F_{\mathbf{X}}=F_{\mathbf{Y}}$ se $m_{X<}$
