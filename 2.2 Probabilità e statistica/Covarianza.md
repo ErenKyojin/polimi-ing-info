@@ -4,25 +4,21 @@ creation date: 2023-03-30 13:12
 modification date: 2023-03-30 13:12
 ---
 
-Coefficiente di correlazione lineare
+Ricordando il [[Valore atteso#^da9cb5]] 
 
->[!definition]
->Se $x,y$ che hanno varianza $\var(x), \var(y)$
- >la $\cov(x,y)$ è il numero
->$$ E[(x,\mu x)(y-\mu y)] - \begin{cases}
->\text{ dsg } \sum_{x}\sum_{y}(x-\mu_{x})(y - \mu_{y})f_{x,y}(,y) \\
->\text{os cont } \iint_{\mathbb{R}^2}(x - \mu x)(y - mu) f_{x,y}(x,y) \mathrm{d}x\mathrm{d}y
->\end{cases} $$
-
+>[!def]
+>Siano $X_{1},X_{2}$ due variabili aleatorie definite sul medesimo spazio di probabilità che ammettono varianza. La **covarianza** di $X_{1},X_{2}$ è
+>$$ \cov(X_{1},X_{2})=E[(X_{1}- E(X_{1}))(X_{2}-E(X_{2}))] $$
+>Definita la varianza possiamo definire anche il [[coefficiente di correlazione lineare]]
 
 ## Proprietà
-1. $\cov(x,y) = \cov(y,x)\quad ;\quad \cov \text{ è simmetrica}$
-2. $\cov(x,x) = \var(x)$
-3. $\cov(x,c) = E[(x-\mu x)(c - c)] = 0$ con $c$ costante
-4. $\cov(ax,by)= E[(ax - a\mu x)(by-b\mu y)]=E[(x - \mu x)(y - \mu y)]ab = ab\ \cov(x,y)$
-5. $\cov(ax, by + W) = E[a(x-\mu x)(by + W - bE(y) - E(W))] = aE[(x-\mu x)(b(y-\mu Y) + (W - \mu W))]$
-   $= ab\ \cov(x,y) + a\cov(x,w)$
-   Quindi $\cov(x,y)$ è un operatore bilineare
+1. $\cov(X,Y) = \cov(Y,X)\quad ;\quad \cov \text{ è simmetrica}$
+2. $\cov(X,X) = \var(X)$
+3. $\cov(X,c) = E[(X-\mu X)(c - c)] = 0$ con $c$ costante
+4. $\cov(aX,bY)= E[(aX - a\mu X)(bY-b\mu Y)]=E[(X - \mu X)(Y - \mu Y)]ab = ab\ \cov(X,Y)$
+5. $\cov(aX, bY + W) = E[a(x-\mu x)(by + W - bE(y) - E(W))] = aE[(X-\mu X)(b(Y-\mu Y) + (W - \mu W))]$
+   $= ab\ \cov(X,Y) + a\cov(X,W)$
+   Quindi $\cov(X,Y)$ è un operatore bilineare
    
 6. $E[(x-\mu x)(y - \mu y)] = E[xy - x\mu_{y} - \mu_{x}y + \mu_{x}\mu_{y}] = E(xy) - \mu_{y}E(x) - \cancel{ \mu_{x}E(y) } + \cancel{ \mu_{x}\mu_{y} }$
    quindi $\cov(x,y) = E(x,y) - E(x)E(y)$
@@ -43,9 +39,3 @@ $\rho(x,y)$ è detto [[coefficiente di correlazione lineare]]
 ![[Pasted image 20230330135642.png]]
 
 
-## Covarianza per vettori aleatori
-
-Ricordando il [[Valore atteso#^da9cb5]] 
-
->[!def]
->Siano $X_{1},X_{2}$ due variabili aleatorie definite sul medesimo
