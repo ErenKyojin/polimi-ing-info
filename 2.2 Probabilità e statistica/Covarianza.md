@@ -40,4 +40,4 @@ $\rho(x,y)$ è detto [[coefficiente di correlazione lineare]]
 
 ## Matrice di covarianza
 >[!def]
->
+>$\mathbf{X} = (X_{1},\dots,X_{n})$ vettore aleatorio, n-dimensionale tale che $\text{var}(X_{1}),\dots,\text{var}(X_{n})$ siano definite. Si chiama matrice di covarianza di $\mathbf{X}$ l
