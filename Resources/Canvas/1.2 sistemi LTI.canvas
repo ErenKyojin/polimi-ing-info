@@ -2,39 +2,49 @@
   "nodes": [
     {
       "id": "6695b3d1ea9709d0",
+      "type": "text",
+      "text": "[[Sistemi dinamici]] lineari tempo invarianti",
       "x": -880,
       "y": -80,
       "width": 260,
-      "height": 80,
-      "type": "text",
-      "text": "[[Sistemi dinamici]] lineari tempo invarianti"
-    },
-    {
-      "id": "30b32c1575c37ded",
-      "x": -400,
-      "y": -400,
-      "width": 440,
-      "height": 220,
-      "type": "text",
-      "text": "#### Movimento libero\nOssia come progredisce il sistema quando l'ingresso è uguale a 0. È determinato dagli autovalori e dagli autovettori della matrice $A$ della rappresentazione di stato\n$$ x(t) = e^A x_{0} $$"
+      "height": 80
     },
     {
       "id": "74dbfb65a52a5592",
+      "type": "text",
+      "text": "#### Movimento forzato\nCome progredisce il sistema quando lo stato iniziale è nullo",
       "x": -400,
       "y": 140,
       "width": 440,
-      "height": 160,
+      "height": 160
+    },
+    {
+      "id": "5e153cae693b7bb0",
       "type": "text",
-      "text": "#### Movimento forzato\nCome progredisce il sistema quando lo stato iniziale è nullo"
+      "text": "Sovrapposizione degli effetti",
+      "borderStyle": "dotted",
+      "x": -310,
+      "y": -70,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "30b32c1575c37ded",
+      "type": "text",
+      "text": "#### Movimento libero\nOssia come progredisce il sistema quando l'ingresso è uguale a 0. È determinato dagli autovalori e dagli autovettori della matrice $A$ della rappresentazione di stato\n$$ x(t) = e^A x_{0} $$",
+      "x": -400,
+      "y": -450,
+      "width": 440,
+      "height": 220
     },
     {
       "id": "6dde887a41e4f59f",
-      "x": 220,
-      "y": -340,
-      "width": 260,
-      "height": 100,
       "type": "text",
-      "text": "Se $A$ è diagonalizzabile, sono detti **modi** i termini della matrice diagonale simile ad $A$"
+      "text": "Se $A$ è diagonalizzabile, sono detti **modi** i termini della matrice diagonale simile ad $A$",
+      "x": 220,
+      "y": -390,
+      "width": 260,
+      "height": 100
     }
   ],
   "edges": [
@@ -58,6 +68,20 @@
       "fromSide": "right",
       "toNode": "6dde887a41e4f59f",
       "toSide": "left"
+    },
+    {
+      "id": "7efcd5cbccbae39d",
+      "fromNode": "74dbfb65a52a5592",
+      "fromSide": "top",
+      "toNode": "5e153cae693b7bb0",
+      "toSide": "bottom"
+    },
+    {
+      "id": "b20b65ae7e436069",
+      "fromNode": "30b32c1575c37ded",
+      "fromSide": "bottom",
+      "toNode": "5e153cae693b7bb0",
+      "toSide": "top"
     }
   ],
   "metadata": {}
