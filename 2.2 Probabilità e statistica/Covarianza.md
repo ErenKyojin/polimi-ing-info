@@ -41,3 +41,7 @@ $\rho(x,y)$ è detto [[coefficiente di correlazione lineare]]
 
 #### Quartetto di Anscombe
 ![[Pasted image 20230330135642.png]]
+
+
+## Covarianza per vettori aleatori
+[[Varianza]]
