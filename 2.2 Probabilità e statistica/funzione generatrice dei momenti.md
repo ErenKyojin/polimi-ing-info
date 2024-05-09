@@ -14,3 +14,9 @@ La funzione generatrice di $X$ coinide con la [[trasformata di Laplace]] della d
 >[!proposition]
 >Se $X$ ammette funzione generatrice dei momenti, allora esistono tutti i momenti di $X$ e vale che
 >$$ E(X) = m'_{X}(0), E(X^2) = m''_{X}(0),\dots $$
+
+
+## Funzione generatrice dei momenti per [[Vettori aleatori]]
+
+>[!def]
+>$\mathbf{X}=(X_{1},\dots,X_{n})$ un vettore aleatorio per il quale esiste un rettangolo aperto di $\mathbb{R}^n$
