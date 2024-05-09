@@ -40,4 +40,10 @@ $\rho(x,y)$ è detto [[coefficiente di correlazione lineare]]
 
 ## Matrice di covarianza
 >[!def]
->$\mathbf{X} = (X_{1},\dots,X_{n})$ vettore aleatorio, n-dimensionale tale che $\text{var}(X_{1}),\dots,\text{var}(X_{n})$ siano definite. Si chiama matrice di covarianza di $\mathbf{X}$ l
+>$\mathbf{X} = (X_{1},\dots,X_{n})$ vettore aleatorio, n-dimensionale tale che $\text{var}(X_{1}),\dots,\text{var}(X_{n})$ siano definite. Si chiama matrice di covarianza di $\mathbf{X}$ la matrice $C_{X} = (c_{ij})$ con $i,j=1,\dots,n$ e $c_{ij}=\cov(X_{i},X_{j})$
+
+>[!proposition]
+>Se $C_{X}$ è la matrice di covarianza di un vettore aleatorio $X$ allora
+>1. $C_{X}$ è simmetrica e semidefinita positiva
+>2. Se $A = (a_{ij})$ è una matrice $m\times n$ e $\mathbf{b}$ è un vettore di dimensione $m$ allora la matrice di covarianza di $Y=A\mathbf{X}+\mathbf{b}$ è
+>$$ C_{Y} = AC_{x}A^T $$
