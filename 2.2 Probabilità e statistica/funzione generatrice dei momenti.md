@@ -19,4 +19,4 @@ La funzione generatrice di $X$ coinide con la [[trasformata di Laplace]] della d
 ## Funzione generatrice dei momenti per [[Vettori aleatori]]
 
 >[!def]
->$\mathbf{X}=(X_{1},\dots,X_{n})$ un vettore aleatorio per il quale esiste un rettangolo aperto di $\mathbb{R}^n$
+>$\mathbf{X}=(X_{1},\dots,X_{n})$ un vettore aleatorio per il quale esiste un rettangolo aperto di $\mathbb{R}^n\ J = J_{1} \times\dots \times J_{n}$
