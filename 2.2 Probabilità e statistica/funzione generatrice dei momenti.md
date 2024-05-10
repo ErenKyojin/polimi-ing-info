@@ -24,4 +24,11 @@ La funzione generatrice di $X$ coinide con la [[trasformata di Laplace]] della d
 >definita per ogni $t \in I$ è detta funzione generatrice dei momenti di $\mathbf{X}$
 
 >[!proposition]
->Siano $\mathbf{X},\mathbf{Y}$ due vettori aleatori che ammettono funzione generatrice dei momenti $m_{\mathbf{X}},m_{\mathbf{Y}}$ rispettivamente, siano $F_{\mathbf{X}}$ la funzione di ripartizione di $\mathbf{X}$ e $F_{\mathbf{Y}}$ quella di $\mathbf{Y}$. Allora $F_{\mathbf{X}}=F_{\mathbf{Y}}$ se $m_{X<}$
+>Siano $\mathbf{X},\mathbf{Y}$ due vettori aleatori che ammettono funzione generatrice dei momenti $m_{\mathbf{X}},m_{\mathbf{Y}}$ rispettivamente, siano $F_{\mathbf{X}}$ la funzione di ripartizione di $\mathbf{X}$ e $F_{\mathbf{Y}}$ quella di $\mathbf{Y}$. Allora $F_{\mathbf{X}}=F_{\mathbf{Y}}$ se $m_{\mathbf{X}}=m_{\mathbf{Y}}$
+
+>[!proposition]
+>Sia $\mathbf{X}=(X_{1},\dots,X_{n})$ vettore aleatorio che ammette funzione generatrice dei momenti $m_{\mathbf{X}}$ e siano $m_{X_{i}}$ le funzioni generatrici dei momenti marginali. Allora le componenti di $\mathbf{X}$ sono indipendenti se $m_{\mathbf{X}}=m_{X_{1}} \cdot\dots \cdot m_{X_{2}}$
+
+
+>[!proposition]
+>Siano $X,Y$ due variabili aleatorie indipendenti che hanno funzione generatrice dei momenti $m_{X},m_{Y}$, rispettivamente. Dimostrate che la somma $X+Y$ ammette anche essa funzione generatrice dei momenti ed è data da $m_{X+Y}(s) = m_{X}(s)m_{Y}(s)$
