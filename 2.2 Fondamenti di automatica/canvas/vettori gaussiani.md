@@ -19,3 +19,5 @@ $$ f_{\mathbf{Z}}(z_{1},z_{2},\dots,z_{n}) = \frac{1}{(2\pi)^{n/2}}e^{-1/2 \sum_
 
 >[!definition]
 >Un vettore aleatorio $n$-dimensionale $\mathbf{X}$ è gaussiano (o gaussiano $n$-dimensionale o normale) se esiste una matrice $A \in M_{(n,m)}$ ed un vettore $\boldsymbol{\mu} \in \mathbb{R}^n$ ed un vettore gaussiano standard $m$-dimensionale $\mathbf{Z}$ tali che $\mathbf{X} = A\mathbf{Z} + \mu$
+
+La matrice $\mathbf{A}$ 
