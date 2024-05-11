@@ -21,9 +21,7 @@ Se $n \gg 0$ questa probabilità va a $1 \forall \varepsilon > 0$
 >[!legge] legge debole dei grandi numeri
 >Considerata $X_{1},X_{2},\dots$ una successione di variabili [[aleatorie indipendenti ed identicamente distribuite]] (i.i.d.) con media $\mu$ e varianza $\sigma^2$ finite. Sia $S_{n} = X_{1} + \dots + X_{n}$. Allora vale per ogni $\varepsilon > 0$
 >$$ \lim_{ n \to \infty } P\left( \left|\frac{S_{n}}{n}-\mu\right| >\varepsilon\right)  =0 $$ 
->
 >>[!dim]
->>dimostrazione
 >>$X_{i}$ sono iid quindi
 >>$$ \text{var}(S_{n}) = n \text{var}(X_{1})=n\sigma^2 $$
 >>quindi
@@ -31,8 +29,9 @@ Se $n \gg 0$ questa probabilità va a $1 \forall \varepsilon > 0$
 >>quindi
 >>$$E\left( \frac{S_{n}}{n} \right)=\mu$$
 >>Infine, dalla [[Disuguaglanza di Chebychev|disuguaglianza di Chebychev]]
->>P(mod)
->>`fine`
+>>$$P\left(\left| \frac{S_{n}}{n} - \mu \right| > \varepsilon\right) \leq \frac{\sigma^2}{n\varepsilon} \to 0\quad (n \to +\infty)$$
+>>$\CVD$
+
 
 
 La legge forte dei grandi numeri:
