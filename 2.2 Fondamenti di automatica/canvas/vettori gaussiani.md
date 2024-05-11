@@ -35,4 +35,10 @@ In generale vale la seguente
 
 
 >[!example] densità gaussiana bivariata
->$\mathbf{X}=(X_{1},X_{2})$ con matrice di covarianza $C=\begin{bmatrix}\sigma_{1}^2&\sigma_{1,2}\\ \sigma_{21}&\sigma_{2}^2\end{bmatrix}$
+>$\mathbf{X}=(X_{1},X_{2})$ con matrice di covarianza $C=\begin{bmatrix}\sigma_{1}^2&\sigma_{1,2}\\ \sigma_{21}&\sigma_{2}^2\end{bmatrix}$ e vettore delle medie $\boldsymbol{\mu} = \begin{bmatrix}\mu_{1}\\ \mu_{2}\end{bmatrix}$
+>$C$ è invertibile solo se il suo determinante è maggiore di zero, quindi se 
+>$$\sigma_{1}^2 \sigma_{2}^2\left( 1 - \frac{\sigma^2_{1,2}}{\sigma_{1}^2\sigma_{2}^2} \right)=\sigma_{1}^2\sigma_{2}^2(1-\rho_{1,2}^2) > 0$$
+>dove $\rho_{1,2}^2$ è il [[coefficiente di correlazione lineare]]
+>
+>Possiamo quindi calcolare la densità gaussiana bivariata
+>$f_{X_{1}X_{2}}(x_{1},x_{2})=\frac{1}{2\pi \sigma_{1}\sigma_{2} \sqrt{ 1 - \rho_{12} }}$
