@@ -41,4 +41,4 @@ In generale vale la seguente
 >dove $\rho_{1,2}^2$ è il [[coefficiente di correlazione lineare]]
 >
 >Possiamo quindi calcolare la densità gaussiana bivariata
->$f_{X_{1}X_{2}}(x_{1},x_{2})=\frac{1}{2\pi \sigma_{1}\sigma_{2} \sqrt{ 1 - \rho_{12} }}$
+>$$f_{X_{1}X_{2}}(x_{1},x_{2})=\frac{1}{2\pi \sigma_{1}\sigma_{2} \sqrt{ 1 - \rho_{12}^2 }}e^{-1/[2(1-\rho_{12}^2)]\left[  \left( \frac{x_{1}-\mu_{1}}{\sigma_{1}} \right) -2\rho_{12}\left( \frac{x_{1}-\mu_{1}}{\sigma_{2}} \right) + \left( \frac{x_{2}-\mu_{2}}{\sigma_{2}} \right)^2\right]}$$
