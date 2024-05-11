@@ -32,11 +32,12 @@ Se $n \gg 0$ questa probabilità va a $1 \forall \varepsilon > 0$
 >>$$P\left(\left| \frac{S_{n}}{n} - \mu \right| > \varepsilon\right) \leq \frac{\sigma^2}{n\varepsilon} \to 0\quad (n \to +\infty)$$
 >>$\CVD$
 
-La quantità $\frac{X_{1} + \dots + X_{n}}{n}$ è detta [[Media campionaria]] e si indica con $\bar{X}_{n}$
-
-La legge forte dei grandi numeri:
-$$
-P(\lim_{ n \to \infty } \bar{x}_{n} = \mu) = 1
-$$
+La quantità $\frac{X_{1} + \dots + X_{n}}{n}$ è detta [[Media campionaria]] e si indica con $\bar{X}_{n}$, quindi la legge debole dei grandi numeri indica che $P(| \bar{X}_{n} - \mu| \leq \varepsilon) \to 1$ per $n$ che tende a infinito.
 
 
+
+>[!legge] legge forte dei grandi numeri
+>La legge forte dei grandi numeri:
+>$$
+>P(\lim_{ n \to \infty } \bar{x}_{n} = \mu) = 1
+>$$
