@@ -20,4 +20,9 @@ $$ f_{\mathbf{Z}}(z_{1},z_{2},\dots,z_{n}) = \frac{1}{(2\pi)^{n/2}}e^{-1/2 \sum_
 >[!definition]
 >Un vettore aleatorio $n$-dimensionale $\mathbf{X}$ è gaussiano (o gaussiano $n$-dimensionale o normale) se esiste una matrice $A \in M_{(n,m)}$ ed un vettore $\boldsymbol{\mu} \in \mathbb{R}^n$ ed un vettore gaussiano standard $m$-dimensionale $\mathbf{Z}$ tali che $\mathbf{X} = A\mathbf{Z} + \mu$
 
-Non vi sono restrizioni sulla matrice $\mathbf{A}$.
+>[!remark]
+>Non vi sono restrizioni sulla matrice $\mathbf{A}$, questo implica che non sempre un vettore gaussiano ha densità di probabilità $f_{\mathbf{X}}$ su $\mathbb{R}^n$, ci sarebbe altrimenti il requisito di avere tutte le componenti  assolutamente continue.
+
+
+Ci sono però dei casi in cui la densità su $\mathbb{R}^n$ esiste, ad esempio se $A$ è quadrata $n\times n$ ed invertibile e $\mathbf{Z}$ è gaussiano standard $n$-dimensionale.
+Infatti se $A$ è invertibile e $\mathbf{X} = A\mathbf{Z} + \boldsymbol{\mu}$, $\mathbf{X}$ è una trasformazione affine di $A$ ed è quindi invertibile. $X$ sarà quindi assolutamente continuo con densità $f_{\mathbf{X}}$
