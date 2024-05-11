@@ -32,7 +32,7 @@ Se $n \gg 0$ questa probabilità va a $1 \forall \varepsilon > 0$
 >>$$P\left(\left| \frac{S_{n}}{n} - \mu \right| > \varepsilon\right) \leq \frac{\sigma^2}{n\varepsilon} \to 0\quad (n \to +\infty)$$
 >>$\CVD$
 
-
+La quantità $\frac{X_{1} + \dots + X_{n}}{n}$ è detta [[Media campionaria]] e si indica con $\bar{X}_{n}$
 
 La legge forte dei grandi numeri:
 $$
