@@ -8,4 +8,5 @@ Sappiamo per la [[legge dei grandi numeri]] che per $n$ grandi vale che $\bar{X}
 Se sono gaussiano è immediato che $\bar{X}_{n} \sim \mathcal{N}\left( \mu, \frac{\sigma^2}{n} \right)$
 
 >[!theorem] teorema centrale del limite
->
+>Sia $X_{1},X_{2},\dots$ una successione di variabili aleatorie i.i.d. con media $\mu$ e varianza $\sigma^2$, con $0 < \sigma^2 < +\infty$. Allora per ogni $x \in \mathbb{R}$:
+>$$ \lim_{ n \to \infty }  $$
