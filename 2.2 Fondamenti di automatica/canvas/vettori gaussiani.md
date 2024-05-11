@@ -25,4 +25,10 @@ $$ f_{\mathbf{Z}}(z_{1},z_{2},\dots,z_{n}) = \frac{1}{(2\pi)^{n/2}}e^{-1/2 \sum_
 
 
 Ci sono però dei casi in cui la densità su $\mathbb{R}^n$ esiste, ad esempio se $A$ è quadrata $n\times n$ ed invertibile e $\mathbf{Z}$ è gaussiano standard $n$-dimensionale.
-Infatti se $A$ è invertibile e $\mathbf{X} = A\mathbf{Z} + \boldsymbol{\mu}$, $\mathbf{X}$ è una trasformazione affine di $A$ ed è quindi invertibile. $X$ sarà quindi assolutamente continuo con densità $f_{\mathbf{X}}$
+Infatti se $A$ è invertibile e $\mathbf{X} = A\mathbf{Z} + \boldsymbol{\mu}$, $\mathbf{X}$ è una trasformazione affine di $A$ ed è quindi invertibile. $X$ sarà quindi assolutamente continuo con densità $f_{\mathbf{X}}(\mathbf{x})$.
+
+In generale vale la seguente
+
+>[!proposition]
+>Un vettore gaussiano $\mathbf{X} = A\mathbf{Z} + \boldsymbol{\mu}$ ha densità in $\mathbb{R}^n$ se e solo se la [[Covarianza#Matrice di covarianza|matrice di covarianza]] $C= AA^T$ non è singolare, e la densità è data da
+>$$ f_{\mathbf{X}}(\mathbf{x})=\frac{1}{\sqrt{ (2\pi)^n \det(C) }}e^{-1/2(\mathbf{x}-\boldsymbol{\mu})^TC^{-1}(\mathbf{x}-\boldsymbol{\mu})} $$
