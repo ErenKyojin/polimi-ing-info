@@ -23,14 +23,21 @@ Se $n \gg 0$ questa probabilità va a $1 \forall \varepsilon > 0$
 >$$ \lim_{ n \to \infty } P\left( \left|\frac{S_{n}}{n}-\mu\right| >\varepsilon\right)  =0 $$ 
 >
 >>[!dim]
+>>dimostrazione
 >>$X_{i}$ sono iid quindi
 >>$$ \text{var}(S_{n}) = n \text{var}(X_{1})=n\sigma^2 $$
 >>quindi
 >>$$ \text{var}\left( \frac{S_{n}}{n} \right)=\frac{1}{n^2}n\sigma^2 = \frac{\sigma^2}{n} $$
+>>quindi
+>>$$E\left( \frac{S_{n}}{n} \right)=\mu$$
+>>Infine, dalla [[Disuguaglanza di Chebychev|disuguaglianza di Chebychev]]
+>>P(mod)
+>>`fine`
 
 
 La legge forte dei grandi numeri:
 $$
 P(\lim_{ n \to \infty } \bar{x}_{n} = \mu) = 1
 $$
+
 
