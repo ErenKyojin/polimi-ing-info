@@ -42,3 +42,10 @@ In generale vale la seguente
 >
 >Possiamo quindi calcolare la densità gaussiana bivariata
 >$$f_{X_{1}X_{2}}(x_{1},x_{2})=\frac{1}{2\pi \sigma_{1}\sigma_{2} \sqrt{ 1 - \rho_{12}^2 }}e^{-1/[2(1-\rho_{12}^2)]\left[  \left( \frac{x_{1}-\mu_{1}}{\sigma_{1}} \right) -2\rho_{12}\left( \frac{x_{1}-\mu_{1}}{\sigma_{2}} \right) + \left( \frac{x_{2}-\mu_{2}}{\sigma_{2}} \right)^2\right]}$$
+
+## proprietà
+
+Sia $\mathbf{X} = A\mathbf{Z} + \boldsymbol{\mu}$ vettore gaussiano $n$-dimensionale e $C=AA^T$ la matrice di covarianza di $\mathbf{X}$, valgono le seguenti:
+1. $c_{ii} > 0 \implies$ $X_{i}$ gaussiana tale che $X_{i} \sim \mathcal{N}(\mu_{i},c_{ii})$, se $c_{ii}=0$ allora $P(X_{i}=\mu_{i})=1$
+2. Se $\mathbf{G}$ è una matrice $k \times n$, e $\mathbf{h} \in \mathbb{R}^k$ allora $\mathbf{Y} := G\mathbf{X} + \mathbf{h}$ è vettore gaussiano con vettore delle media $G\boldsymbol{\mu} + \mathbf{h}$ e matrice di covarianza $GCG^T$
+3. Se $X_{1},\dots,X_{n}$ sono correlate sono indipendenti
