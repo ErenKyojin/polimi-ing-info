@@ -22,12 +22,15 @@ Se $n \gg 0$ questa probabilità va a $1 \forall \varepsilon > 0$
 >Considerata $X_{1},X_{2},\dots$ una successione di variabili [[aleatorie indipendenti ed identicamente distribuite]] (i.i.d.) con media $\mu$ e varianza $\sigma^2$ finite. Sia $S_{n} = X_{1} + \dots + X_{n}$. Allora vale per ogni $\varepsilon > 0$
 >$$ \lim_{ n \to \infty } P\left( \left|\frac{S_{n}}{n}-\mu\right| >\varepsilon\right)  =0 $$ 
 >
->$$\begin{proof}
->aaaa
->\end{proof}$$
+>>[!dim]
+>>$X_{i}$ sono iid quindi
+>>$$ \text{var}(S_{n}) = n \text{var}(X_{1})=n\sigma^2 $$
+>>quindi
+>>$$ \text{var}\left( \frac{S_{n}}{n} \right)=\frac{1}{n^2}n\sigma^2 = \frac{\sigma^2}{n} $$
 
 
 La legge forte dei grandi numeri:
 $$
 P(\lim_{ n \to \infty } \bar{x}_{n} = \mu) = 1
 $$
+
