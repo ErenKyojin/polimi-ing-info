@@ -45,5 +45,7 @@ La quantità $\frac{X_{1} + \dots + X_{n}}{n}$ è detta [[Media campionaria]] e 
 Afferma quindi che per (quasi) tutte le successioni identificate da $\omega$, la probabilità che la media campionaria sia uguale al valore atteso è 1.
 
 >[!corollary]
->Sia $h$ fuunzione su $[0,1]$ tale che $\int_{0}^1 \!h(x) \, \mathrm{d}x <\infty$. Siano $U_{1},U_{2},\dots$ variabili aleatorie iid con densità uniforme su $[0,1]$ allora.
->$$ P\left( I_{1n} := \frac{1}{n} \sum_{j=1}^n h(U_{j}) \right) = \frac{ \int _{0}^1  \!h_{2}(x) \, \mathrm{d}x - \left( \int _{0}^1 \!h(x) \, \mathrm{d}x  \right)^2 }{h}$$
+>Sia $h$ funzione su $[0,1]$ tale che $\int_{0}^1 \!h(x) \, \mathrm{d}x <\infty$. Siano $U_{1},U_{2},\dots$ variabili aleatorie iid con densità uniforme su $[0,1]$ allora.
+>$$ P\left( I_{1n} := \frac{1}{n} \sum_{j=1}^n h(U_{j}) \to \int _{0}^1 \!h(x) \, \mathrm{d}x , n \to +\infty\right)=1 $$
+>>[!dim]
+>>È sufficiente osservare che $h(U_{1}),h(U_{2}),\dots$ sono i.i.d. con media finita $\int _{0}^1  \!h(x) \, \mathrm{d}x$
