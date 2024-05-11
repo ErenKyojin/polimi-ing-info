@@ -37,7 +37,9 @@ La quantità $\frac{X_{1} + \dots + X_{n}}{n}$ è detta [[Media campionaria]] e 
 
 
 >[!legge] legge forte dei grandi numeri
->La legge forte dei grandi numeri:
+>Data una successione di variabili aleatorie iid con media finita $\mu$ allora
 >$$
->P(\lim_{ n \to \infty } \bar{x}_{n} = \mu) = 1
+>P\left( \left\{ \omega : \lim_{ n \to \infty } \frac{\bar{S}_{n}(\omega)}{n} = \mu  \right\}\right) = 1
 >$$
+
+Afferma quindi che per (quasi) tutte le successioni identificate da $\omega$, la probabilità che la media campionaria sia uguale al valore atteso è 1.
