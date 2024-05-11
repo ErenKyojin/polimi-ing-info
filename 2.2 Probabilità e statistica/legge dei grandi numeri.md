@@ -19,7 +19,7 @@ Se $n \gg 0$ questa probabilità va a $1 \forall \varepsilon > 0$
 ---
 
 >[!legge] legge debole dei grandi numeri
->Considerata $X_{1},X_{2},\dots$ una successione di variabili [[aleatorie indipendenti ed identicamente distribuite]] (i.i.d.) con media $\mu$ e varianza $\sigma^2$ finite. Sia $S_{n} = X_{1} + \dots + X_{n}$. Allora vale per ogni $\varepsilon > 0$
+>Considerata $X_{1},X_{2},\dots$ una successione di variabili [[variabili aleatorie indipendenti ed identicamente distribuite]] ([[variabili aleatorie indipendenti ed identicamente distribuite|i.i.d.]]) con media $\mu$ e varianza $\sigma^2$ finite. Sia $S_{n} = X_{1} + \dots + X_{n}$. Allora vale per ogni $\varepsilon > 0$
 >$$ \lim_{ n \to \infty } P\left( \left|\frac{S_{n}}{n}-\mu\right| >\varepsilon\right)  =0 $$ 
 >>[!dim]
 >>$X_{i}$ sono iid quindi
@@ -48,4 +48,5 @@ Afferma quindi che per (quasi) tutte le successioni identificate da $\omega$, la
 >Sia $h$ funzione su $[0,1]$ tale che $\int_{0}^1 \!h(x) \, \mathrm{d}x <\infty$. Siano $U_{1},U_{2},\dots$ variabili aleatorie iid con densità uniforme su $[0,1]$ allora.
 >$$ P\left( I_{1n} := \frac{1}{n} \sum_{j=1}^n h(U_{j}) \to \int _{0}^1 \!h(x) \, \mathrm{d}x , n \to +\infty\right)=1 $$
 >>[!dim]
->>È sufficiente osservare che $h(U_{1}),h(U_{2}),\dots$ sono i.i.d. con media finita $\int _{0}^1  \!h(x) \, \mathrm{d}x$
+>>È sufficiente osservare che $h(U_{1}),h(U_{2}),\dots$ sono i.i.d. con media finita $\int _{0}^1  \!h(x) \, \mathrm{d}x$ ed applicare la legge dei grandi numeri
+
