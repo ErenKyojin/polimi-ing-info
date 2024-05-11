@@ -32,3 +32,7 @@ In generale vale la seguente
 >[!proposition]
 >Un vettore gaussiano $\mathbf{X} = A\mathbf{Z} + \boldsymbol{\mu}$ ha densità in $\mathbb{R}^n$ se e solo se la [[Covarianza#Matrice di covarianza|matrice di covarianza]] $C= AA^T$ non è singolare, e la densità è data da
 >$$ f_{\mathbf{X}}(\mathbf{x})=\frac{1}{\sqrt{ (2\pi)^n \det(C) }}e^{-1/2(\mathbf{x}-\boldsymbol{\mu})^TC^{-1}(\mathbf{x}-\boldsymbol{\mu})} $$
+
+
+>[!example] densità gaussiana bivariata
+>$\mathbf{X}=(X_{1},X_{2})$ con matrice di covarianza $C=\begin{bmatrix}\sigma_{1}^2&\sigma_{1,2}\\ \sigma_{21}&\sigma_{2}^2\end{bmatrix}$
