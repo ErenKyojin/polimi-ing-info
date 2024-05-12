@@ -1,0 +1,8 @@
+---
+aliases: 
+creation date: 2024-05-12
+---
+
+![[statistica.canvas|statistica]]
+
+Prima di un esperimento abbiamo un insieme di variabili aleatorie [[i.i.d.]] che possono assumere un insieme di valori, abbiamo le densità delle variabili aleatorie e dei parametri
