@@ -9,4 +9,6 @@ Prima di un esperimento abbiamo un insieme di variabili aleatorie [[variabili al
 
 ![[campione casuale#^052110]]
 
-[[realizzazione di un campione]]
+![[realizzazione di un campione#^98b596]]
+
+![[]]
