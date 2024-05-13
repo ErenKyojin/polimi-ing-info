@@ -6,7 +6,7 @@ modification date: 2023-07-07 09:14
 
 > [!definition]
 > Consideriamo una superficie di area S, la pressione è definita come
-> $$ p = \frac{F_{n}}{S} = |\vec{F} \cdot \frac{\hat{n}|}{S} $$
+> $$ p = \frac{F_{n}}{S} = \frac{|\vec{F} \cdot \hat{n}|}{S} $$
 > La pressione è uno scalare la qui unità di misura è $[p] = \frac{N}{m^2} = Pa$ ([[pascal]])
 >
 >Quindi la forza di superficie si può definire come $dF_n = p\ \d S$
