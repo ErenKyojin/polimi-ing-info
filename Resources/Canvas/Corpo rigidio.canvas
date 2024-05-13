@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"6983c68e55526621","type":"group","x":300,"y":-140,"width":290,"height":288,"label":"parametri"},
+		{"id":"f235882cd7aa35a0","type":"text","text":"Un corpo rigido è un sistema di punti materiali in cui le distanze relative fra tutti i punti sono costanti","x":-360,"y":-88,"width":250,"height":180},
+		{"id":"87902b8317ff241b","type":"text","text":"volume: $\\iiint_{V} dV$","x":320,"y":-60,"width":250,"height":60},
+		{"id":"44669ec94724a982","type":"text","text":"posizione cdm: $\\frac{1}{M}\\iiint_{V} \\vec{r},dm$","x":320,"y":0,"width":250,"height":60},
+		{"id":"ebc6de35db6b0fd4","type":"text","text":"massa: $\\iiint_{V} dm$","x":320,"y":-120,"width":250,"height":60},
+		{"id":"2624bc63b47ab6aa","x":320,"y":60,"width":250,"height":60,"type":"text","text":"densità: $\\frac{dm}{dV}$"}
+	],
+	"edges":[
+		{"id":"cf3bdf266145aa67","fromNode":"f235882cd7aa35a0","fromSide":"right","toNode":"6983c68e55526621","toSide":"left"}
+	]
+}

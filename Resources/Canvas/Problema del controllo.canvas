@@ -1,32 +1,10 @@
 {
-  "nodes": [
-    {
-      "id": "83c1b59be2254d64",
-      "type": "text",
-      "text": "[[Problema del controllo]]:\nApplicazione di un andamento desiderato ad un sistema fisico",
-      "x": -200,
-      "y": -240,
-      "width": 250,
-      "height": 120
-    },
-    {
-      "id": "c033b6a3e39c30fc",
-      "x": -235,
-      "y": -40,
-      "width": 320,
-      "height": 200,
-      "type": "text",
-      "text": "Per risolvere il problema è necessario\n1. riformularlo matematicamente\n2. Determinare un modello matematico che descriva il controllore\n3. realizzare il controllore"
-    }
-  ],
-  "edges": [
-    {
-      "id": "30475097fd48f5b8",
-      "fromNode": "83c1b59be2254d64",
-      "fromSide": "bottom",
-      "toNode": "c033b6a3e39c30fc",
-      "toSide": "top"
-    }
-  ],
-  "metadata": {}
+	"nodes":[
+		{"id":"83c1b59be2254d64","type":"text","text":"[[Problema del controllo]]:\nApplicazione di un andamento desiderato ad un sistema fisico","x":-200,"y":-240,"width":250,"height":120},
+		{"id":"c033b6a3e39c30fc","x":-235,"y":-40,"width":320,"height":200,"type":"text","text":"Per risolvere il problema è necessario\n1. riformularlo matematicamente\n2. Determinare un modello matematico che descriva il controllore\n3. realizzare il controllore"}
+	],
+	"edges":[
+		{"id":"30475097fd48f5b8","fromNode":"83c1b59be2254d64","fromSide":"bottom","toNode":"c033b6a3e39c30fc","toSide":"top"}
+	],
+	"metadata":{}
 }

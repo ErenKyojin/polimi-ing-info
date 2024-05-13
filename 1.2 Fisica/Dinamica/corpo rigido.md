@@ -23,8 +23,8 @@ Possiamo vedere il corpo rigido come un insieme di masse infinitesime con l'elem
  inoltre possiamo definire la ![[densità#^f03abb]]
 
 ## Moto dei corpi rigidi
-Per descrivere il moto di un corpo rigido bisogna descriver eposizione e orientamento di un sistema di riferimento $S'$ solidale con il corpo.
-Visto che il sistema $S'$ è solidale al corpo, che è inooltre rigido, ogni $\d m$ sarà fissato rispetto a $S'$, quindi basta descrivere il moto di $S'$ (ossia la posizione dell'origine $O'$ e l'orientamento di $x',y',z'$ rispetto a S)
+Per descrivere il moto di un corpo rigido bisogna descrivere posizione e orientamento di un sistema di riferimento $S'$ solidale con il corpo.
+Visto che il sistema $S'$ è solidale al corpo, che è inoltre rigido, ogni $\d m$ sarà fissato rispetto a $S'$, quindi basta descrivere il moto di $S'$ (ossia la posizione dell'origine $O'$ e l'orientamento di $x',y',z'$ rispetto a S)
 
 ##### [[legge di composizione delle velocità]]  in [[Cinematica]] relativa
 $$ \vec{v} = \vec{v}' + \vec{v}_{T} $$
