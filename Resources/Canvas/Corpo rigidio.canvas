@@ -9,7 +9,8 @@
 		{"id":"fc78195123152bc4","x":-900,"y":-179,"width":286,"height":359,"type":"text","text":"#### Sistema di riferimento\nDato che le distanze relative sono costanti, è sufficiente descrivere un sistema di riferimento $S'$ e studiare la posizione della sua origine rispetto ad $S$ oltre che all'orientamento di $x',y',z'$ rispetto ad $S$"},
 		{"id":"f5a8ff8a12ed1135","x":-882,"y":280,"width":250,"height":120,"type":"text","text":"### MOTO\n$$\\vec{v}=\\vec{v}_{cm}+ \\vec{\\omega} \\times (\\vec{r}-\\vec{r}_{CM})$$"},
 		{"id":"b1cd024f656c395a","x":-1240,"y":580,"width":287,"height":220,"type":"text","text":"#### Moto solo traslatorio\nossia $\\vec{v} = \\vec{v}_{CM}$.\nSi può [[corpo rigido#^81595b|dimostrare]] che il momento angolare di un moto solamente traslatorio è nullo"},
-		{"id":"c8cdc38b8caa8045","type":"text","text":"#### Moto solo traslatorio\nossia $\\vec{v} = \\vec{\\omega} \\times (\\vec{r}-\\vec{r}_{CM})$.\nPer comodità è utile posizionare le origini dei sistemi sull'asse di rotazione, e far coincidere uno degli assi cartesiani di ogni sistema con l'asse di rotazione. Quindi avremo\n$$\\vec{v}=\\vec{\\omega}\\times \\vec{r}_{CM}$$\n","x":-560,"y":580,"width":287,"height":300}
+		{"id":"c8cdc38b8caa8045","type":"text","text":"#### Moto solo traslatorio\nossia $\\vec{v} = \\vec{\\omega} \\times (\\vec{r}-\\vec{r}_{CM})$.\nPer comodità è utile posizionare le origini dei sistemi sull'asse di rotazione, e far coincidere uno degli assi cartesiani di ogni sistema con l'asse di rotazione. Quindi avremo\n$$\\vec{v}_{CM}=\\vec{\\omega}\\times \\vec{r}_{CM}$$\n","x":-560,"y":580,"width":287,"height":300},
+		{"id":"09f28459b669a661","x":-899,"y":1038,"width":339,"height":162,"type":"text","text":"#### prima equazione cardinale\na"}
 	],
 	"edges":[
 		{"id":"cf3bdf266145aa67","fromNode":"f235882cd7aa35a0","fromSide":"right","toNode":"6983c68e55526621","toSide":"left"},
