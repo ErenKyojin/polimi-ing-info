@@ -52,6 +52,9 @@ otteniamo quindi
 $$ \vec{v} = \vec{v}_{CM} + \vec{\omega} \times (\vec{r} - \vec{r}_{CM}) $$
 
 ### Moto solo traslatorio di un corpo rigido
+
+^81595b
+
 Nel caso di una sola traslazione avremo velocità angolare nulla, e come espressione avremo
 $$ \vec{v} = \vec{v}_{o'} + \vec{\omega} \times \vec{r}' = \vec{v}_{o'} $$
 Se $O'$ coincide con il centro di massa:
