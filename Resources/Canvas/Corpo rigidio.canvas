@@ -10,13 +10,14 @@
 		{"id":"f5a8ff8a12ed1135","x":-882,"y":280,"width":250,"height":120,"type":"text","text":"### MOTO\n$$\\vec{v}=\\vec{v}_{cm}+ \\vec{\\omega} \\times (\\vec{r}-\\vec{r}_{CM})$$"},
 		{"id":"b1cd024f656c395a","x":-1240,"y":580,"width":287,"height":220,"type":"text","text":"#### Moto solo traslatorio\nossia $\\vec{v} = \\vec{v}_{CM}$.\nSi può [[corpo rigido#^81595b|dimostrare]] che il momento angolare di un moto solamente traslatorio è nullo"},
 		{"id":"c8cdc38b8caa8045","type":"text","text":"#### Moto solo traslatorio\nossia $\\vec{v} = \\vec{\\omega} \\times (\\vec{r}-\\vec{r}_{CM})$.\nPer comodità è utile posizionare le origini dei sistemi sull'asse di rotazione, e far coincidere uno degli assi cartesiani di ogni sistema con l'asse di rotazione. Quindi avremo\n$$\\vec{v}_{CM}=\\vec{\\omega}\\times \\vec{r}_{CM}$$\n","x":-560,"y":580,"width":287,"height":300},
-		{"id":"09f28459b669a661","x":-899,"y":1038,"width":339,"height":162,"type":"text","text":"#### prima equazione cardinale\na"}
+		{"id":"09f28459b669a661","x":-220,"y":940,"width":339,"height":120,"type":"text","text":"#### prima equazione cardinale\n$$ \\vec{P}=Mv_{CM} = M(\\vec{\\omega} \\times \\vec{r}_{CM})$$"}
 	],
 	"edges":[
 		{"id":"cf3bdf266145aa67","fromNode":"f235882cd7aa35a0","fromSide":"right","toNode":"6983c68e55526621","toSide":"left"},
 		{"id":"07309443237d24e9","fromNode":"f235882cd7aa35a0","fromSide":"left","toNode":"fc78195123152bc4","toSide":"right"},
 		{"id":"9024c1c3f273f7ca","fromNode":"fc78195123152bc4","fromSide":"bottom","toNode":"f5a8ff8a12ed1135","toSide":"top"},
 		{"id":"67ff4d2bed8f2e7c","fromNode":"f5a8ff8a12ed1135","fromSide":"bottom","toNode":"b1cd024f656c395a","toSide":"top"},
-		{"id":"528757dc8a87f611","fromNode":"f5a8ff8a12ed1135","fromSide":"bottom","toNode":"c8cdc38b8caa8045","toSide":"top"}
+		{"id":"528757dc8a87f611","fromNode":"f5a8ff8a12ed1135","fromSide":"bottom","toNode":"c8cdc38b8caa8045","toSide":"top"},
+		{"id":"a2a71b5207689da0","fromNode":"c8cdc38b8caa8045","fromSide":"bottom","toNode":"09f28459b669a661","toSide":"left"}
 	]
 }
