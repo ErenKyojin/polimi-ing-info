@@ -1,6 +1,9 @@
 {
 	"nodes":[
-		{"id":"9a7cbff4b5fb9f14","type":"text","text":"#### Fluido\nMateriale liquido o areiforme.\nUn fluido liquido è incomprimibile","x":-120,"y":-40,"width":250,"height":180}
+		{"id":"9a7cbff4b5fb9f14","type":"text","text":"#### Fluido\nMateriale liquido o areiforme.\nUn fluido liquido è incomprimibile","x":-120,"y":-40,"width":250,"height":180},
+		{"id":"240716cc06acc802","x":360,"y":20,"width":250,"height":120,"type":"text","text":"Densità definita in maniera analoga ai solidi, $\\delta=\\frac{m}{V}$"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"9da17d7fcf09cb0e","fromNode":"9a7cbff4b5fb9f14","fromSide":"right","toNode":"240716cc06acc802","toSide":"left"}
+	]
 }

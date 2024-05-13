@@ -15,7 +15,6 @@ modification date: 2023-07-07 09:14
 - Al contrario un corpo rigido **non omogeneo** ha la densità funzione della posizione
 $$ M = \iiint_{V} \delta(\vec{r})\ \d V ; \frac{1}{m} \iiint_{V} \vec{r} \delta(\vec{r})\ \d V $$
 
-
 # ANKI
 
 ```anki
