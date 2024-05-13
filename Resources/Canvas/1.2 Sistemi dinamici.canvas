@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "id": "6e8fcb29b963a4a5",
+      "type": "group",
+      "x": -780,
+      "y": 80,
+      "width": 400,
+      "height": 600,
+      "label": "Equilibrio"
+    },
+    {
+      "id": "331047609b9dac2a",
+      "type": "text",
+      "text": "Un sistema è dinamico se non è sufficente conoscere l'ingresso per determinare l'uscita sullo stesso intervallo di tempo. Ossia un sistema che dipende dal anche dal proprio stato",
+      "shape": "predefined-process",
+      "x": -140,
+      "y": -220,
+      "width": 260,
+      "height": 200
+    },
+    {
+      "id": "d4a04ceb9ea1fa24",
+      "type": "text",
+      "text": "Sistemi dinamici a tempo discreto",
+      "x": -711,
+      "y": -151,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "873e572a38a77da7",
+      "type": "text",
+      "text": "Sistemi dinamici a tempo continuo",
+      "x": 400,
+      "y": -150,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "023bbe24431c4607",
+      "type": "text",
+      "text": "#### Nomenclatura\n- SISO: single input single output\n- linearità: se stato e uscità sono funzioni lineari\n- tempo invariante: se stato e uscità dipendono solo da stato e ingresso\n- poprio se l'uscità dipende solo da stato e dal tempo (e dall'ingresso, ma solo attraverso lo stato)",
+      "borderStyle": "dashed",
+      "x": -140,
+      "y": 80,
+      "width": 260,
+      "height": 440
+    },
+    {
+      "id": "444b19f534f3a504",
+      "type": "text",
+      "text": "#### rappresentazione di stato\ninsieme di $n$ variabili che descrive la configurazione interna del sistema, si rappresenta come un vettore. Si indica con $x(t) \\in \\mathbb{R}^n$",
+      "x": 347,
+      "y": 80,
+      "width": 313,
+      "height": 169
+    },
+    {
+      "id": "01f642ffef4cfb12",
+      "x": -760,
+      "y": 105,
+      "width": 360,
+      "height": 115,
+      "type": "text",
+      "text": "Uno stato è detto di equilibrio se, dato un ingresso costante, non ci si allontana più di un certo $\\varepsilon$ dallo stato per tutti gli istanti di tempo successivi"
+    },
+    {
+      "id": "80dc83cff60e9c7d",
+      "x": -760,
+      "y": 249,
+      "width": 360,
+      "height": 111,
+      "type": "text",
+      "text": "in tempo continuo, se $x$ deve rimanere costante $\\bar{x}$, allora $\\dot{x}$ deve essere nulla, segue che gli stati di equilibrio sono $f(\\bar{x},\\bar{u})$"
+    },
+    {
+      "id": "64650f3cf1938aaa",
+      "x": -760,
+      "y": 380,
+      "width": 360,
+      "height": 100,
+      "type": "text",
+      "text": "In tempo discreto, $x(k+1) = x(k)$, quindi gli stati di equilibrio sono le soluzioni di\n$$ \\bar{x}=f(\\bar{x},\\bar{u}) $$"
+    }
+  ],
+  "edges": [
+    {
+      "id": "2ec2de43c0d34098",
+      "fromNode": "331047609b9dac2a",
+      "fromSide": "right",
+      "toNode": "873e572a38a77da7",
+      "toSide": "left"
+    },
+    {
+      "id": "10527b0702a7f8f0",
+      "fromNode": "331047609b9dac2a",
+      "fromSide": "left",
+      "toNode": "d4a04ceb9ea1fa24",
+      "toSide": "right"
+    },
+    {
+      "id": "615e2b198d580721",
+      "fromNode": "331047609b9dac2a",
+      "fromSide": "bottom",
+      "toNode": "023bbe24431c4607",
+      "toSide": "top"
+    },
+    {
+      "id": "2be327a9caa26727",
+      "fromNode": "331047609b9dac2a",
+      "fromSide": "bottom",
+      "toNode": "444b19f534f3a504",
+      "toSide": "top"
+    },
+    {
+      "id": "f4efd4387555bfcc",
+      "fromNode": "331047609b9dac2a",
+      "fromSide": "bottom",
+      "toNode": "6e8fcb29b963a4a5",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

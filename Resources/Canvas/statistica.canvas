@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "id": "f7dd619300801e59",
+      "type": "text",
+      "text": "Statistica\nAnalisi del passato",
+      "shape": "oval",
+      "x": -140,
+      "y": -320,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "8e08ca9fbe3bd000",
+      "type": "text",
+      "text": "Inferenza\n(taratura del modello)",
+      "shape": "diamond",
+      "x": -140,
+      "y": -140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "838a6d137f686f93",
+      "type": "text",
+      "text": "Probabilità\nprevisione del futuro",
+      "shape": "oval",
+      "x": -140,
+      "y": 40,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "18489df85cd87665",
+      "fromNode": "f7dd619300801e59",
+      "fromSide": "bottom",
+      "toNode": "8e08ca9fbe3bd000",
+      "toSide": "top"
+    },
+    {
+      "id": "bc59c046d341ab8e",
+      "fromNode": "8e08ca9fbe3bd000",
+      "fromSide": "bottom",
+      "toNode": "838a6d137f686f93",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

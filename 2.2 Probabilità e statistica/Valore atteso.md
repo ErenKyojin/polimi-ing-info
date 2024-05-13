@@ -168,4 +168,9 @@ in generale la media della somma di $n$ variabili aleatorie dipende unicamente d
 >$$ \text{var}(X_{1} + X_{2}) = \text{var}(X_{1}) + \text{var}(X_{2}) + 2E[(X_{1} - E(X_{1}))(X_{2} - E(X_{2}))] $$
 >se inoltre $X_{1}$ ed $X_{2}$ sono indipendenti, allora
 >$$ \text{var}(X_{1} + X_{2}) = \text{var}(X_{1}) + \text{var}(X_{2})$$
+<<<<<<< HEAD
 >>>>>>> 7486fb84647c47b420bb0d6e0e5f4a17af269a8e
+=======
+
+^da9cb5
+>>>>>>> 84d0a3a7fa90a0a4c8a403c2acee1ad9840be1b3
