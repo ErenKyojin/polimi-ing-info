@@ -6,12 +6,12 @@
 		{"id":"44669ec94724a982","type":"text","text":"posizione cdm: $\\frac{1}{M}\\iiint_{V} \\vec{r},dm$","x":320,"y":0,"width":250,"height":60},
 		{"id":"ebc6de35db6b0fd4","type":"text","text":"massa: $\\iiint_{V} dm$","x":320,"y":-120,"width":250,"height":60},
 		{"id":"2624bc63b47ab6aa","type":"text","text":"densità: $\\frac{dm}{dV}$","x":320,"y":60,"width":250,"height":60},
-		{"id":"fc78195123152bc4","x":-900,"y":-179,"width":286,"height":359,"type":"text","text":"#### Sistema di riferimento\nDato che le distanze relative sono costanti, è sufficiente descrivere un sistema di riferimento $S'$ e studiare la posizione della sua origine rispetto ad $S$ oltre che all'orientamento di $x',y',z'$ rispetto ad $S$"},
-		{"id":"f5a8ff8a12ed1135","x":-882,"y":280,"width":250,"height":120,"type":"text","text":"### MOTO\n$$\\vec{v}=\\vec{v}_{cm}+ \\vec{\\omega} \\times (\\vec{r}-\\vec{r}_{CM})$$"},
-		{"id":"b1cd024f656c395a","x":-1240,"y":580,"width":287,"height":220,"type":"text","text":"#### Moto solo traslatorio\nossia $\\vec{v} = \\vec{v}_{CM}$.\nSi può [[corpo rigido#^81595b|dimostrare]] che il momento angolare di un moto solamente traslatorio è nullo"},
+		{"id":"fc78195123152bc4","type":"text","text":"#### Sistema di riferimento\nDato che le distanze relative sono costanti, è sufficiente descrivere un sistema di riferimento $S'$ e studiare la posizione della sua origine rispetto ad $S$ oltre che all'orientamento di $x',y',z'$ rispetto ad $S$","x":-900,"y":-179,"width":286,"height":359},
+		{"id":"f5a8ff8a12ed1135","type":"text","text":"### MOTO\n$$\\vec{v}=\\vec{v}_{cm}+ \\vec{\\omega} \\times (\\vec{r}-\\vec{r}_{CM})$$","x":-882,"y":280,"width":250,"height":120},
+		{"id":"b1cd024f656c395a","type":"text","text":"#### Moto solo traslatorio\nossia $\\vec{v} = \\vec{v}_{CM}$.\nSi può [[corpo rigido#^81595b|dimostrare]] che il momento angolare di un moto solamente traslatorio è nullo","x":-1240,"y":580,"width":287,"height":220},
 		{"id":"c8cdc38b8caa8045","type":"text","text":"#### Moto solo traslatorio\nossia $\\vec{v} = \\vec{\\omega} \\times (\\vec{r}-\\vec{r}_{CM})$.\nPer comodità è utile posizionare le origini dei sistemi sull'asse di rotazione, e far coincidere uno degli assi cartesiani di ogni sistema con l'asse di rotazione. Quindi avremo\n$$\\vec{v}_{CM}=\\vec{\\omega}\\times \\vec{r}_{CM}$$\n","x":-560,"y":580,"width":287,"height":300},
-		{"id":"09f28459b669a661","x":-220,"y":940,"width":339,"height":240,"type":"text","text":"#### prima equazione cardinale\n$$ \\vec{P}=Mv_{CM} = M(\\vec{\\omega} \\times \\vec{r}_{CM})$$\nNulla se non vi è rotazione, se il centro di massa coincide con l'origine o se in generale il centro di massa è sull'asse di rotazione"},
-		{"id":"b1ca87e377fec4c7","x":-220,"y":1220,"width":339,"height":60,"type":"text","text":"$\\vec{L}_{o} = \\iiint \\vec{r} \\times \\vec{v}\\ dm$ "}
+		{"id":"09f28459b669a661","type":"text","text":"#### prima equazione cardinale\n$$ \\vec{P}=Mv_{CM} = M(\\vec{\\omega} \\times \\vec{r}_{CM})$$\nNulla se non vi è rotazione, se il centro di massa coincide con l'origine o se in generale il centro di massa è sull'asse di rotazione","x":-220,"y":940,"width":339,"height":240},
+		{"id":"385ae8936c5b2034","type":"text","text":"$$ L_{O} = L_{\\parallell} $$","x":-220,"y":1260,"width":339,"height":63}
 	],
 	"edges":[
 		{"id":"cf3bdf266145aa67","fromNode":"f235882cd7aa35a0","fromSide":"right","toNode":"6983c68e55526621","toSide":"left"},
