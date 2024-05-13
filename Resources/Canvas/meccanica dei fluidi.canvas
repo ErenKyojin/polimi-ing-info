@@ -5,6 +5,7 @@
 		{"id":"71462ad95b5668b4","x":-740,"y":-60,"width":320,"height":220,"type":"text","text":"#### Pressione\nData una superficie $S$, la pressione è il rapporto tra il modulo della forza applicata in direzione normale alla superficie e la superficie stessa.\n$$ p = \\frac{F_{n}}{S} $$"}
 	],
 	"edges":[
-		{"id":"9da17d7fcf09cb0e","fromNode":"9a7cbff4b5fb9f14","fromSide":"right","toNode":"240716cc06acc802","toSide":"left"}
+		{"id":"9da17d7fcf09cb0e","fromNode":"9a7cbff4b5fb9f14","fromSide":"right","toNode":"240716cc06acc802","toSide":"left"},
+		{"id":"0e7004c6d22079ec","fromNode":"9a7cbff4b5fb9f14","fromSide":"left","toNode":"71462ad95b5668b4","toSide":"right"}
 	]
 }
