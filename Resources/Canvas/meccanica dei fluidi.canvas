@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"9a7cbff4b5fb9f14","type":"text","text":"#### Fluido\nMateriale liquido o areiforme","x":-120,"y":-40,"width":250,"height":120}
+		{"id":"9a7cbff4b5fb9f14","type":"text","text":"#### Fluido\nMateriale liquido o areiforme.\nUn fluido liquido è incomprimibile","x":-120,"y":-40,"width":250,"height":180}
 	],
 	"edges":[]
 }
