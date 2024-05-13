@@ -10,7 +10,7 @@ modification date: 2023-07-07 09:14
 >- Liquida, possiede [[volume]] proprio
 >- Aeriforme, la materia non possiede ne volume ne forma proprie
 >
->Un fluido è un materiale o liquido o solido,
+>Un fluido è un materiale o liquido o areiforme
 
 
 La [[densità]] di un fluido è definita come quella di un solido: $\delta = \frac{m}{V}$

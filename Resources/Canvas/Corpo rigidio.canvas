@@ -11,7 +11,7 @@
 		{"id":"b1cd024f656c395a","type":"text","text":"#### Moto solo traslatorio\nossia $\\vec{v} = \\vec{v}_{CM}$.\nSi può [[corpo rigido#^81595b|dimostrare]] che il momento angolare di un moto solamente traslatorio è nullo","x":-1240,"y":580,"width":287,"height":220},
 		{"id":"c8cdc38b8caa8045","type":"text","text":"#### Moto solo traslatorio\nossia $\\vec{v} = \\vec{\\omega} \\times (\\vec{r}-\\vec{r}_{CM})$.\nPer comodità è utile posizionare le origini dei sistemi sull'asse di rotazione, e far coincidere uno degli assi cartesiani di ogni sistema con l'asse di rotazione. Quindi avremo\n$$\\vec{v}_{CM}=\\vec{\\omega}\\times \\vec{r}_{CM}$$\n","x":-560,"y":580,"width":287,"height":300},
 		{"id":"09f28459b669a661","type":"text","text":"#### prima equazione cardinale\n$$ \\vec{P}=Mv_{CM} = M(\\vec{\\omega} \\times \\vec{r}_{CM})$$\nNulla se non vi è rotazione, se il centro di massa coincide con l'origine o se in generale il centro di massa è sull'asse di rotazione","x":-220,"y":940,"width":339,"height":240},
-		{"id":"385ae8936c5b2034","type":"text","text":"$$ L_{O} = L_{\\parallell} $$","x":-220,"y":1260,"width":339,"height":63}
+		{"id":"385ae8936c5b2034","type":"text","text":"$$ L_{O} = L_{\\parallel} + L_{\\perp} = I_{O}\\vec{\\omega} + \\omega \\iiint \\rho z \\ dm \\hat{u}_{z}$$","x":-220,"y":1260,"width":339,"height":80}
 	],
 	"edges":[
 		{"id":"cf3bdf266145aa67","fromNode":"f235882cd7aa35a0","fromSide":"right","toNode":"6983c68e55526621","toSide":"left"},
@@ -19,6 +19,7 @@
 		{"id":"9024c1c3f273f7ca","fromNode":"fc78195123152bc4","fromSide":"bottom","toNode":"f5a8ff8a12ed1135","toSide":"top"},
 		{"id":"67ff4d2bed8f2e7c","fromNode":"f5a8ff8a12ed1135","fromSide":"bottom","toNode":"b1cd024f656c395a","toSide":"top"},
 		{"id":"528757dc8a87f611","fromNode":"f5a8ff8a12ed1135","fromSide":"bottom","toNode":"c8cdc38b8caa8045","toSide":"top"},
-		{"id":"a2a71b5207689da0","fromNode":"c8cdc38b8caa8045","fromSide":"bottom","toNode":"09f28459b669a661","toSide":"left"}
+		{"id":"a2a71b5207689da0","fromNode":"c8cdc38b8caa8045","fromSide":"bottom","toNode":"09f28459b669a661","toSide":"left"},
+		{"id":"17472292d40ff3a0","fromNode":"c8cdc38b8caa8045","fromSide":"bottom","toNode":"385ae8936c5b2034","toSide":"left"}
 	]
 }
