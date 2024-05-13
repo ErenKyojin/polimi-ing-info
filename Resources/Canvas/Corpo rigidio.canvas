@@ -6,10 +6,12 @@
 		{"id":"44669ec94724a982","type":"text","text":"posizione cdm: $\\frac{1}{M}\\iiint_{V} \\vec{r},dm$","x":320,"y":0,"width":250,"height":60},
 		{"id":"ebc6de35db6b0fd4","type":"text","text":"massa: $\\iiint_{V} dm$","x":320,"y":-120,"width":250,"height":60},
 		{"id":"2624bc63b47ab6aa","type":"text","text":"densità: $\\frac{dm}{dV}$","x":320,"y":60,"width":250,"height":60},
-		{"id":"fc78195123152bc4","x":-900,"y":-179,"width":286,"height":359,"type":"text","text":"#### Sistema di riferimento\nDato che le distanze relative sono costanti, è sufficiente descrivere un sistema di riferimento $S'$ e studiare la posizione della sua origine rispetto ad $S$ oltre che all'orientamento di $x',y',z'$ rispetto ad $S$"}
+		{"id":"fc78195123152bc4","x":-900,"y":-179,"width":286,"height":359,"type":"text","text":"#### Sistema di riferimento\nDato che le distanze relative sono costanti, è sufficiente descrivere un sistema di riferimento $S'$ e studiare la posizione della sua origine rispetto ad $S$ oltre che all'orientamento di $x',y',z'$ rispetto ad $S$"},
+		{"id":"f5a8ff8a12ed1135","x":-883,"y":316,"width":250,"height":124,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"cf3bdf266145aa67","fromNode":"f235882cd7aa35a0","fromSide":"right","toNode":"6983c68e55526621","toSide":"left"},
-		{"id":"07309443237d24e9","fromNode":"f235882cd7aa35a0","fromSide":"left","toNode":"fc78195123152bc4","toSide":"right"}
+		{"id":"07309443237d24e9","fromNode":"f235882cd7aa35a0","fromSide":"left","toNode":"fc78195123152bc4","toSide":"right"},
+		{"id":"9024c1c3f273f7ca","fromNode":"fc78195123152bc4","fromSide":"bottom","toNode":"f5a8ff8a12ed1135","toSide":"top"}
 	]
 }

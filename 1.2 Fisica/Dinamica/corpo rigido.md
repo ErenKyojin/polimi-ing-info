@@ -27,7 +27,7 @@ Per descrivere il moto di un corpo rigido bisogna descrivere posizione e orienta
 Visto che il sistema $S'$ è solidale al corpo, che è inoltre rigido, ogni $\d m$ sarà fissato rispetto a $S'$, quindi basta descrivere il moto di $S'$ (ossia la posizione dell'origine $O'$ e l'orientamento di $x',y',z'$ rispetto a S)
 
 ##### [[legge di composizione delle velocità]]  in [[Cinematica]] relativa
-$$ \vec{v} = \vec{v}' + \vec{v}_{T} $$
+$$ \vec{v} = \vec{v}' + \vec{v}_{T} $$  
 con
 - $\vec{v}$ velocità del sistema
 - $\vec{v}'$ velocità nel sistema S
