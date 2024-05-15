@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"1046694e4c84c94e","x":-373,"y":-206,"width":250,"height":60,"type":"text","text":"Input"},
+		{"id":"39cbf24bbbf6e035","x":80,"y":-206,"width":52,"height":60,"type":"text","text":""},
+		{"id":"a61f2a49c502d2f6","x":320,"y":-206,"width":80,"height":60,"type":"text","text":""},
+		{"id":"8a647ed5fbf09315","type":"text","text":"Relu","x":560,"y":-206,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"c6980059e984a795","fromNode":"1046694e4c84c94e","fromSide":"right","toNode":"39cbf24bbbf6e035","toSide":"left","label":"Convoluzione"},
+		{"id":"37932046bf9536e1","fromNode":"39cbf24bbbf6e035","fromSide":"right","toNode":"a61f2a49c502d2f6","toSide":"left","label":"ReLU"},
+		{"id":"80695315fd5208bf","fromNode":"a61f2a49c502d2f6","fromSide":"right","toNode":"8a647ed5fbf09315","toSide":"left","label":"Max Pooling"}
+	]
+}
