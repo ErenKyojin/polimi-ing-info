@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "id": "9a8ad8a30afdd2a5",
+      "x": -320,
+      "y": -50,
+      "width": 180,
+      "height": 60,
+      "color": "4",
+      "type": "text",
+      "text": "C'era una volta"
+    },
+    {
+      "id": "0c6654671f107958",
+      "type": "text",
+      "text": "transformer",
+      "shape": "diamond",
+      "x": -100,
+      "y": -50,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "6d742c15a229cb74",
+      "type": "text",
+      "text": "C'era una volta una curiosa volpe che vive nel cuore di una foresta",
+      "x": 200,
+      "y": -100,
+      "width": 180,
+      "height": 160,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "bc880375cdf64ba2",
+      "fromNode": "9a8ad8a30afdd2a5",
+      "fromSide": "right",
+      "toNode": "0c6654671f107958",
+      "toSide": "left"
+    },
+    {
+      "id": "4a0c6054caf6f932",
+      "fromNode": "0c6654671f107958",
+      "fromSide": "right",
+      "toNode": "6d742c15a229cb74",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}
