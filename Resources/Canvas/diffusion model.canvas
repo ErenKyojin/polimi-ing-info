@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "id": "16fe42df7bacb0de",
+      "x": -240,
+      "y": -169,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Diffusion model"
+    },
+    {
+      "id": "94aac64a7f1b8965",
+      "x": 80,
+      "y": -169,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Pessimo risultato"
+    },
+    {
+      "id": "2b332f43c987aa33",
+      "x": -600,
+      "y": -318,
+      "width": 303,
+      "height": 358,
+      "type": "text",
+      "text": "NOISE"
+    },
+    {
+      "id": "c59804b308c9816c",
+      "x": -240,
+      "y": -400,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "text ecoder"
+    },
+    {
+      "id": "f9e40f5be03bcc8a",
+      "x": -578,
+      "y": -460,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Text input"
+    }
+  ],
+  "edges": [
+    {
+      "id": "a8d0529c997cb362",
+      "fromNode": "2b332f43c987aa33",
+      "fromSide": "right",
+      "toNode": "16fe42df7bacb0de",
+      "toSide": "left"
+    },
+    {
+      "id": "7a854fdb686a986f",
+      "fromNode": "16fe42df7bacb0de",
+      "fromSide": "right",
+      "toNode": "94aac64a7f1b8965",
+      "toSide": "left"
+    },
+    {
+      "id": "1be97a7dfdfa2a34",
+      "fromNode": "f9e40f5be03bcc8a",
+      "fromSide": "right",
+      "toNode": "c59804b308c9816c",
+      "toSide": "top"
+    },
+    {
+      "id": "e6803022b2b6636c",
+      "fromNode": "c59804b308c9816c",
+      "fromSide": "bottom",
+      "toNode": "16fe42df7bacb0de",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}
