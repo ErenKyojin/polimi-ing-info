@@ -1,0 +1,160 @@
+{
+  "nodes": [
+    {
+      "id": "5a76305f5880d165",
+      "type": "text",
+      "text": "Raw data source",
+      "x": -181,
+      "y": -137,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "add5cdcb38548ae2",
+      "type": "text",
+      "text": "Estrazione informazioni\n",
+      "x": -180,
+      "y": -45,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "3243883dfb19223d",
+      "type": "text",
+      "text": "Chunking",
+      "x": -180,
+      "y": 40,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "8313a274e4b41be6",
+      "type": "text",
+      "text": "Embedding",
+      "x": -181,
+      "y": 140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "a0e17621d217779c",
+      "type": "text",
+      "text": "Vector database",
+      "x": -180,
+      "y": 240,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "77d39de620d3061f",
+      "x": -181,
+      "y": 340,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "dati rilevnati"
+    },
+    {
+      "id": "c709b00b1b2b8d31",
+      "x": -181,
+      "y": 460,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "llm"
+    },
+    {
+      "id": "9ec1250265f45886",
+      "x": 556,
+      "y": 192,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "query"
+    },
+    {
+      "id": "c49bda0ba86b8e82",
+      "x": 220,
+      "y": 192,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "embedding"
+    },
+    {
+      "id": "e2cad7c63e86ee1f",
+      "x": -180,
+      "y": 580,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "risposta"
+    }
+  ],
+  "edges": [
+    {
+      "id": "65c428227fa46057",
+      "fromNode": "5a76305f5880d165",
+      "fromSide": "bottom",
+      "toNode": "add5cdcb38548ae2",
+      "toSide": "top"
+    },
+    {
+      "id": "934dba4eaa58b39c",
+      "fromNode": "9ec1250265f45886",
+      "fromSide": "left",
+      "toNode": "c49bda0ba86b8e82",
+      "toSide": "right"
+    },
+    {
+      "id": "9ab67efe7a281f9e",
+      "fromNode": "c49bda0ba86b8e82",
+      "fromSide": "left",
+      "toNode": "a0e17621d217779c",
+      "toSide": "right"
+    },
+    {
+      "id": "868368f3f9820b5b",
+      "fromNode": "add5cdcb38548ae2",
+      "fromSide": "bottom",
+      "toNode": "3243883dfb19223d",
+      "toSide": "top"
+    },
+    {
+      "id": "a46817d421e92229",
+      "fromNode": "3243883dfb19223d",
+      "fromSide": "bottom",
+      "toNode": "8313a274e4b41be6",
+      "toSide": "top"
+    },
+    {
+      "id": "2905febf6f9d9a04",
+      "fromNode": "8313a274e4b41be6",
+      "fromSide": "bottom",
+      "toNode": "a0e17621d217779c",
+      "toSide": "top"
+    },
+    {
+      "id": "962443c007bdf22a",
+      "fromNode": "a0e17621d217779c",
+      "fromSide": "bottom",
+      "toNode": "77d39de620d3061f",
+      "toSide": "top"
+    },
+    {
+      "id": "339f2be07fdccf77",
+      "fromNode": "77d39de620d3061f",
+      "fromSide": "bottom",
+      "toNode": "c709b00b1b2b8d31",
+      "toSide": "top"
+    },
+    {
+      "id": "2f64ddddc925b46f",
+      "fromNode": "c709b00b1b2b8d31",
+      "fromSide": "bottom",
+      "toNode": "e2cad7c63e86ee1f",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}
