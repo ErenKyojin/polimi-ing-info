@@ -10,15 +10,6 @@
       "label": "Transformer"
     },
     {
-      "id": "519695ed9d120e5c",
-      "x": -480,
-      "y": -100,
-      "width": 160,
-      "height": 60,
-      "type": "text",
-      "text": "EMBEDDING"
-    },
-    {
       "id": "f3287f5f54e8c47c",
       "x": -180,
       "y": -193,
@@ -62,6 +53,15 @@
       "height": 60,
       "type": "text",
       "text": "Input"
+    },
+    {
+      "id": "519695ed9d120e5c",
+      "x": -440,
+      "y": -100,
+      "width": 160,
+      "height": 60,
+      "type": "text",
+      "text": "EMBEDDING"
     }
   ],
   "edges": [
