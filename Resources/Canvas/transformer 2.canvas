@@ -4,8 +4,17 @@
       "id": "cac03ade3cb2cba0",
       "type": "group",
       "x": 320,
-      "y": -240,
-      "width": 300,
+      "y": -300,
+      "width": 320,
+      "height": 500,
+      "label": "distribuzione di probabilità"
+    },
+    {
+      "id": "26b809007c679cf5",
+      "type": "group",
+      "x": 1240,
+      "y": -300,
+      "width": 320,
       "height": 500,
       "label": "distribuzione di probabilità"
     },
@@ -29,20 +38,11 @@
       "height": 60
     },
     {
-      "id": "e3dd62aa27b8eac6",
-      "type": "text",
-      "text": "Nel - 20 %",
-      "x": 340,
-      "y": -110,
-      "width": 260,
-      "height": 60
-    },
-    {
       "id": "6d4bec37df715a08",
       "type": "text",
       "text": "Un - 15 %",
       "x": 340,
-      "y": -20,
+      "y": -80,
       "width": 260,
       "height": 60
     },
@@ -51,27 +51,118 @@
       "type": "text",
       "text": "a - 4 %",
       "x": 340,
-      "y": 80,
+      "y": 20,
       "width": 260,
       "height": 60
     },
     {
       "id": "cecdeb143d922a4c",
       "type": "text",
-      "text": "...",
+      "text": "... (una probabilità per tutto il vocabolario)",
       "x": 340,
-      "y": 180,
+      "y": 120,
       "width": 260,
       "height": 60
     },
     {
       "id": "15e391a4b92ff66f",
       "type": "text",
-      "text": "C'era - 60%",
+      "text": "in - 60%",
       "x": 340,
-      "y": -220,
+      "y": -280,
       "width": 260,
       "height": 60
+    },
+    {
+      "id": "e3dd62aa27b8eac6",
+      "type": "text",
+      "text": "Nel - 20 %",
+      "x": 340,
+      "y": -170,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "ab9f0d14942a3c13",
+      "type": "text",
+      "text": "C'era una volta in",
+      "x": 680,
+      "y": -80,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "b8bbabf657b4dd2e",
+      "type": "text",
+      "text": "un - 63%",
+      "x": 1260,
+      "y": -280,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "06c796f7f2ca4cb9",
+      "type": "text",
+      "text": "quella - 11 %",
+      "x": 1260,
+      "y": -80,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "b6a717b9f6b9da20",
+      "type": "text",
+      "text": "questa - 1 %",
+      "x": 1260,
+      "y": 20,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "c8520cf49520d022",
+      "type": "text",
+      "text": "... (una probabilità per tutto il vocabolario)",
+      "x": 1260,
+      "y": 120,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "35e26b7175fc2089",
+      "type": "text",
+      "text": "una - 16 %",
+      "x": 1260,
+      "y": -170,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "209a7659e4fd4982",
+      "type": "text",
+      "text": "Transformer",
+      "shape": "diamond",
+      "x": 1020,
+      "y": -80,
+      "width": 143,
+      "height": 60
+    },
+    {
+      "id": "2adb1b4ce9ab01c4",
+      "x": 1640,
+      "y": -80,
+      "width": 80,
+      "height": 60,
+      "type": "text",
+      "text": "..."
+    },
+    {
+      "id": "71e8f148d7762483",
+      "x": 1800,
+      "y": -80,
+      "width": 100,
+      "height": 60,
+      "type": "text",
+      "text": "EOS"
     }
   ],
   "edges": [
@@ -115,6 +206,41 @@
       "fromNode": "73db943af01956ae",
       "fromSide": "right",
       "toNode": "cecdeb143d922a4c",
+      "toSide": "left"
+    },
+    {
+      "id": "0203d00890fa74a7",
+      "fromNode": "cac03ade3cb2cba0",
+      "fromSide": "right",
+      "toNode": "ab9f0d14942a3c13",
+      "toSide": "left"
+    },
+    {
+      "id": "1ee713bb35433c9c",
+      "fromNode": "ab9f0d14942a3c13",
+      "fromSide": "right",
+      "toNode": "209a7659e4fd4982",
+      "toSide": "left"
+    },
+    {
+      "id": "e1009998fcbc7a10",
+      "fromNode": "209a7659e4fd4982",
+      "fromSide": "right",
+      "toNode": "26b809007c679cf5",
+      "toSide": "left"
+    },
+    {
+      "id": "a9e0a9f2c79314bf",
+      "fromNode": "26b809007c679cf5",
+      "fromSide": "right",
+      "toNode": "2adb1b4ce9ab01c4",
+      "toSide": "left"
+    },
+    {
+      "id": "ae953941678eb358",
+      "fromNode": "2adb1b4ce9ab01c4",
+      "fromSide": "right",
+      "toNode": "71e8f148d7762483",
       "toSide": "left"
     }
   ],

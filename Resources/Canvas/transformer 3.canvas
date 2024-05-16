@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "id": "cf0a919a275784c0",
+      "x": -500,
+      "y": -213,
+      "width": 1260,
+      "height": 287,
+      "type": "group",
+      "label": "Transformer"
+    },
+    {
+      "id": "519695ed9d120e5c",
+      "x": -480,
+      "y": -100,
+      "width": 160,
+      "height": 60,
+      "type": "text",
+      "text": "EMBEDDING"
+    },
+    {
+      "id": "f3287f5f54e8c47c",
+      "x": -180,
+      "y": -193,
+      "width": 159,
+      "height": 247,
+      "type": "text",
+      "text": "Transforming layer"
+    },
+    {
+      "id": "429520818a7b589c",
+      "type": "text",
+      "text": "Transforming layer",
+      "x": 100,
+      "y": -193,
+      "width": 159,
+      "height": 247
+    },
+    {
+      "id": "0ecb268b08992c42",
+      "type": "text",
+      "text": "Transforming layer",
+      "x": 380,
+      "y": -193,
+      "width": 159,
+      "height": 247
+    },
+    {
+      "id": "fded6aee46bef4ab",
+      "x": 640,
+      "y": -100,
+      "width": 100,
+      "height": 60,
+      "type": "text",
+      "text": "Testa LM"
+    },
+    {
+      "id": "ad1fd47ab552aea4",
+      "x": -840,
+      "y": -100,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Input"
+    }
+  ],
+  "edges": [
+    {
+      "id": "d88eda1d8ccca6b7",
+      "fromNode": "519695ed9d120e5c",
+      "fromSide": "right",
+      "toNode": "f3287f5f54e8c47c",
+      "toSide": "left"
+    },
+    {
+      "id": "13833ca7720ecf78",
+      "fromNode": "f3287f5f54e8c47c",
+      "fromSide": "right",
+      "toNode": "429520818a7b589c",
+      "toSide": "left"
+    },
+    {
+      "id": "feb6e2cf2dfb29dd",
+      "fromNode": "429520818a7b589c",
+      "fromSide": "right",
+      "toNode": "0ecb268b08992c42",
+      "toSide": "left",
+      "label": "..."
+    },
+    {
+      "id": "6ccae44d9a63d647",
+      "fromNode": "ad1fd47ab552aea4",
+      "fromSide": "right",
+      "toNode": "519695ed9d120e5c",
+      "toSide": "left"
+    },
+    {
+      "id": "e5f9fcfe6331f572",
+      "fromNode": "0ecb268b08992c42",
+      "fromSide": "right",
+      "toNode": "fded6aee46bef4ab",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}
