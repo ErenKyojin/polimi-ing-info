@@ -1,0 +1,131 @@
+{
+  "nodes": [
+    {
+      "id": "9b0a1a4dc537fad4",
+      "x": -600,
+      "y": -360,
+      "width": 220,
+      "height": 400,
+      "type": "group",
+      "label": "\\"
+    },
+    {
+      "id": "42b6067007e8b11f",
+      "type": "group",
+      "x": -40,
+      "y": -360,
+      "width": 220,
+      "height": 400,
+      "label": "\\"
+    },
+    {
+      "id": "8d058fac8eeb3576",
+      "type": "text",
+      "text": "Modello base",
+      "x": -900,
+      "y": -200,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "f530713101b41324",
+      "x": -320,
+      "y": -200,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Modello di linguaggio pre allenato"
+    },
+    {
+      "id": "c3e8fb3c9d75a73a",
+      "type": "text",
+      "text": "Lunghe tempistiche",
+      "x": -620,
+      "y": -140,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "32688b8cf2286e1d",
+      "x": 200,
+      "y": -200,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Modello regolato a piacimento"
+    },
+    {
+      "id": "0fd611dd1af4c5ff",
+      "x": -620,
+      "y": -340,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Costi alti"
+    },
+    {
+      "id": "921a175a16bc3f74",
+      "type": "text",
+      "text": "Costi bassi/nulli",
+      "x": -60,
+      "y": -320,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "3b2d6c98bde3a976",
+      "type": "text",
+      "text": "Computazioni complesse",
+      "x": -620,
+      "y": -260,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "b29b7276f378a036",
+      "type": "text",
+      "text": "Computazioni fattibili",
+      "x": -60,
+      "y": -120,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "54f0a1a56ce71ab2",
+      "type": "text",
+      "text": "Tanti dati richiesti",
+      "x": -620,
+      "y": -60,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "26916f82e2e6c031",
+      "type": "text",
+      "text": "Pochi dati richiesti",
+      "x": -60,
+      "y": -30,
+      "width": 260,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "f197ff0701248c56",
+      "fromNode": "8d058fac8eeb3576",
+      "fromSide": "right",
+      "toNode": "f530713101b41324",
+      "toSide": "left",
+      "label": "expensive"
+    },
+    {
+      "id": "accde47434e082a1",
+      "fromNode": "f530713101b41324",
+      "fromSide": "right",
+      "toNode": "32688b8cf2286e1d",
+      "toSide": "left",
+      "label": "cheap"
+    }
+  ],
+  "metadata": {}
+}

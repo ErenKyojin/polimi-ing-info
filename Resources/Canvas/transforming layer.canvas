@@ -1,0 +1,137 @@
+{
+  "nodes": [
+    {
+      "id": "fe3fa7ce10056269",
+      "type": "group",
+      "x": -488,
+      "y": -340,
+      "width": 928,
+      "height": 260,
+      "label": "Transforming layer"
+    },
+    {
+      "id": "ac08ab138fe306b6",
+      "type": "text",
+      "text": "Layer norm\n",
+      "x": -120,
+      "y": -180,
+      "width": 100,
+      "height": 80
+    },
+    {
+      "id": "c0e6923987db2dcb",
+      "type": "text",
+      "text": "Self-attention",
+      "x": -468,
+      "y": -320,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "47b16fe1d0aee3a9",
+      "type": "text",
+      "text": "\\+",
+      "shape": "circle",
+      "x": -208,
+      "y": -165,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "901d04639c17f551",
+      "type": "text",
+      "text": "Input",
+      "x": -680,
+      "y": -170,
+      "width": 100,
+      "height": 60
+    },
+    {
+      "id": "8b448e2d676503a9",
+      "type": "text",
+      "text": "FNN",
+      "x": 80,
+      "y": -320,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "1faddd802ad05be2",
+      "type": "text",
+      "text": "\\+",
+      "shape": "circle",
+      "x": 340,
+      "y": -165,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "88a6721d09fb2221",
+      "type": "text",
+      "text": "Output",
+      "x": 500,
+      "y": -170,
+      "width": 120,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e45db8a1047b96af",
+      "fromNode": "c0e6923987db2dcb",
+      "fromSide": "right",
+      "toNode": "47b16fe1d0aee3a9",
+      "toSide": "top"
+    },
+    {
+      "id": "bf15c57612744723",
+      "fromNode": "47b16fe1d0aee3a9",
+      "fromSide": "right",
+      "toNode": "ac08ab138fe306b6",
+      "toSide": "left"
+    },
+    {
+      "id": "6b2ae5e24a4508b0",
+      "fromNode": "ac08ab138fe306b6",
+      "fromSide": "right",
+      "toNode": "8b448e2d676503a9",
+      "toSide": "left"
+    },
+    {
+      "id": "1c91bb13b8e15f56",
+      "fromNode": "8b448e2d676503a9",
+      "fromSide": "right",
+      "toNode": "1faddd802ad05be2",
+      "toSide": "top"
+    },
+    {
+      "id": "a5788d9bfb771a24",
+      "fromNode": "ac08ab138fe306b6",
+      "fromSide": "right",
+      "toNode": "1faddd802ad05be2",
+      "toSide": "left"
+    },
+    {
+      "id": "2146f3a4650a2e2b",
+      "fromNode": "901d04639c17f551",
+      "fromSide": "right",
+      "toNode": "47b16fe1d0aee3a9",
+      "toSide": "left"
+    },
+    {
+      "id": "06443ce1c206eb2a",
+      "fromNode": "901d04639c17f551",
+      "fromSide": "right",
+      "toNode": "c0e6923987db2dcb",
+      "toSide": "left"
+    },
+    {
+      "id": "b323abcbe647f548",
+      "fromNode": "1faddd802ad05be2",
+      "fromSide": "right",
+      "toNode": "88a6721d09fb2221",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
+}
