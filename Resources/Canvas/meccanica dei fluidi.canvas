@@ -1,24 +1,6 @@
 {
   "nodes": [
     {
-      "id": "219b21592cb21914",
-      "type": "text",
-      "text": "##### Densità\n$\\delta = \\frac{m}{V}$",
-      "x": 403,
-      "y": -170,
-      "width": 260,
-      "height": 90
-    },
-    {
-      "id": "9b82c2344dbc2850",
-      "type": "text",
-      "text": "",
-      "x": 402,
-      "y": 141,
-      "width": 260,
-      "height": 119
-    },
-    {
       "id": "c76ee4d7acd1195f",
       "type": "text",
       "text": "##### Incomprimibilità\nUn fluido in fase liquida non può essere compresso",
@@ -44,6 +26,24 @@
       "height": 120,
       "type": "text",
       "text": "##### Forze di volume\n$$ d\\vec{F} = \\vec{P}\\d V $$"
+    },
+    {
+      "id": "219b21592cb21914",
+      "type": "text",
+      "text": "##### Densità\n$$\\delta = \\frac{m}{V}$$",
+      "x": 403,
+      "y": -200,
+      "width": 260,
+      "height": 120
+    },
+    {
+      "id": "9b82c2344dbc2850",
+      "type": "text",
+      "text": "##### Pressione\n$$ p= \\frac{F_{n}}{S} = \\left|\\vec{F} \\cdot \\frac{\\hat{n}}{S} \\right | $$\nSi misura in pascal $\\frac{N}{m^2}$",
+      "x": 403,
+      "y": 121,
+      "width": 260,
+      "height": 159
     }
   ],
   "edges": [
