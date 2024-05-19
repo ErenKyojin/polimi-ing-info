@@ -2,39 +2,39 @@
   "nodes": [
     {
       "id": "64fc0e009892d7ca",
+      "type": "text",
+      "text": "##### Fluido\nMateriale liquido o areiforme",
       "x": -140,
       "y": -40,
       "width": 260,
-      "height": 120,
-      "type": "text",
-      "text": "##### Fluido\nMateriale liquido o areiforme"
+      "height": 120
     },
     {
       "id": "219b21592cb21914",
+      "type": "text",
+      "text": "##### Densità\n$\\delta = \\frac{m}{V}$",
       "x": 403,
       "y": -170,
       "width": 260,
-      "height": 90,
-      "type": "text",
-      "text": "##### Densità\n$\\delta = \\frac{m}{V}$"
+      "height": 90
     },
     {
       "id": "9b82c2344dbc2850",
+      "type": "text",
+      "text": "",
       "x": 402,
       "y": 171,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": ""
+      "height": 60
     },
     {
       "id": "c76ee4d7acd1195f",
+      "type": "text",
+      "text": "##### Incomprimibilità\nUn fluido in fase liquida non può essere compresso",
       "x": -660,
       "y": 141,
       "width": 260,
-      "height": 119,
-      "type": "text",
-      "text": "##### Incomprimibilità\nUn fluido in fase liquida non può essere compresso"
+      "height": 119
     }
   ],
   "edges": [
