@@ -120,7 +120,7 @@ modification date: 2023-07-07 09:14
 - [ ] [[urti]] 
 
 ## Meccanica dei fluidi
-[[meccanica dei fluidi.canvas]]
+![[meccanica dei fluidi.canvas]]
 
 - [ ] [[Fluidi|Fluido]]
 - [ ] [[densità]]
@@ -129,3 +129,8 @@ modification date: 2023-07-07 09:14
 - [ ] [[Legge di stevino]]
 - [ ] [[Principio di Archimede]]
 - [ ] dinamica dei fluidi
+
+## Termodinamica
+![[Termodinamica.canvas|Termodinamica]]
+
+- [[Sistemi termodinamici|Sistema termodinamico]]
