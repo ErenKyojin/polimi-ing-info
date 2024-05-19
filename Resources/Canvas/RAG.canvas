@@ -47,48 +47,48 @@
     },
     {
       "id": "77d39de620d3061f",
+      "type": "text",
+      "text": "dati rilevnati",
       "x": -181,
       "y": 340,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "dati rilevnati"
+      "height": 60
     },
     {
       "id": "c709b00b1b2b8d31",
+      "type": "text",
+      "text": "llm",
       "x": -181,
       "y": 460,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "llm"
+      "height": 60
     },
     {
       "id": "9ec1250265f45886",
+      "type": "text",
+      "text": "query",
       "x": 556,
       "y": 192,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "query"
+      "height": 60
     },
     {
       "id": "c49bda0ba86b8e82",
+      "type": "text",
+      "text": "embedding",
       "x": 220,
       "y": 192,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "embedding"
+      "height": 60
     },
     {
       "id": "e2cad7c63e86ee1f",
+      "type": "text",
+      "text": "risposta",
       "x": -180,
       "y": 580,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "risposta"
+      "height": 60
     }
   ],
   "edges": [

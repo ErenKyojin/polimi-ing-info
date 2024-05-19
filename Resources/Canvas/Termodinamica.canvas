@@ -1,0 +1,125 @@
+{
+  "nodes": [
+    {
+      "id": "fb56f788248145e1",
+      "x": -580,
+      "y": 160,
+      "width": 260,
+      "height": 200,
+      "type": "text",
+      "text": "##### Ambiente\nAll'esterno dei confini del sistema termodinamico vi è l'**ambiente**. "
+    },
+    {
+      "id": "b239749dc574c103",
+      "x": -200,
+      "y": 160,
+      "width": 340,
+      "height": 200,
+      "type": "text",
+      "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente"
+    },
+    {
+      "id": "b507d83a51966d9f",
+      "type": "text",
+      "text": "##### Sistema termodinamico\nSistema formato da $N \\approx 10^{23}$ particelle, descritto tramite velocità, energia cinetica e grandezze meccaniche.",
+      "shape": "oval",
+      "x": -200,
+      "y": -160,
+      "width": 340,
+      "height": 200
+    },
+    {
+      "id": "3c4e3d6b7450d6ae",
+      "x": -1020,
+      "y": -160,
+      "width": 260,
+      "height": 130,
+      "type": "text",
+      "text": "##### Sistema isolato"
+    },
+    {
+      "id": "e492101b4bfc408f",
+      "x": -1400,
+      "y": -160,
+      "width": 260,
+      "height": 130,
+      "type": "text",
+      "text": "##### Sistema chiuso\nSistema che scambia energia con l'ambiente"
+    },
+    {
+      "id": "b35fe90c68ca83a6",
+      "x": -1740,
+      "y": -160,
+      "width": 260,
+      "height": 130,
+      "type": "text",
+      "text": "##### Sistema aperto\nSistema che scambia energia e materia con ambiente"
+    }
+  ],
+  "edges": [
+    {
+      "id": "8d4a1d5ccd81e897",
+      "fromNode": "b507d83a51966d9f",
+      "fromSide": "left",
+      "toNode": "fb56f788248145e1",
+      "toSide": "top"
+    },
+    {
+      "id": "96be455552ddc5c3",
+      "fromNode": "b507d83a51966d9f",
+      "fromSide": "bottom",
+      "toNode": "b239749dc574c103",
+      "toSide": "top"
+    },
+    {
+      "id": "66dedb8e39900feb",
+      "fromNode": "fb56f788248145e1",
+      "fromSide": "right",
+      "toNode": "b239749dc574c103",
+      "toSide": "left"
+    },
+    {
+      "id": "9cfd655fad5f2d9b",
+      "fromNode": "b507d83a51966d9f",
+      "fromSide": "left",
+      "toNode": "3c4e3d6b7450d6ae",
+      "toSide": "right"
+    },
+    {
+      "id": "fa467a4729e4aeb0",
+      "fromNode": "fb56f788248145e1",
+      "fromSide": "left",
+      "toNode": "3c4e3d6b7450d6ae",
+      "toSide": "bottom"
+    },
+    {
+      "id": "baea9c2b3c10dd4c",
+      "fromNode": "b507d83a51966d9f",
+      "fromSide": "left",
+      "toNode": "e492101b4bfc408f",
+      "toSide": "top"
+    },
+    {
+      "id": "79c9ef563e9987f5",
+      "fromNode": "fb56f788248145e1",
+      "fromSide": "left",
+      "toNode": "e492101b4bfc408f",
+      "toSide": "bottom"
+    },
+    {
+      "id": "3e770cc1397dedce",
+      "fromNode": "fb56f788248145e1",
+      "fromSide": "left",
+      "toNode": "b35fe90c68ca83a6",
+      "toSide": "bottom"
+    },
+    {
+      "id": "9fb60f579332fc36",
+      "fromNode": "b507d83a51966d9f",
+      "fromSide": "top",
+      "toNode": "b35fe90c68ca83a6",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}
