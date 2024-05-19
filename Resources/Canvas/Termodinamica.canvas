@@ -1,0 +1,15 @@
+{
+  "nodes": [
+    {
+      "id": "b507d83a51966d9f",
+      "x": -140,
+      "y": -120,
+      "width": 260,
+      "height": 140,
+      "type": "text",
+      "text": ""
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}
