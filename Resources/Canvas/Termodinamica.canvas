@@ -2,12 +2,13 @@
   "nodes": [
     {
       "id": "b507d83a51966d9f",
-      "x": -140,
-      "y": -120,
-      "width": 260,
-      "height": 140,
       "type": "text",
-      "text": ""
+      "text": "##### Sistema termodinamico\nSistema formato da $N \\approx 10^{23}$ particelle, descritto tramite velocità, energia cinetica e grandezze meccaniche.\nÈ racchiuso all'interno di confini defini",
+      "shape": "oval",
+      "x": -300,
+      "y": -200,
+      "width": 600,
+      "height": 400
     }
   ],
   "edges": [],
