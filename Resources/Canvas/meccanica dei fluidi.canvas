@@ -37,13 +37,42 @@
       "height": 120
     },
     {
+      "id": "920df1a7e3bb4542",
+      "x": 860,
+      "y": -60,
+      "width": 260,
+      "height": 160,
+      "color": "3",
+      "type": "text",
+      "text": "##### Principio di Pascal\nLa pressione in un fluido non soggetto a forze di volume è la stessa in tutti i suoi punti"
+    },
+    {
       "id": "9b82c2344dbc2850",
       "type": "text",
       "text": "##### Pressione\n$$ p= \\frac{F_{n}}{S} = \\left|\\vec{F} \\cdot \\frac{\\hat{n}}{S} \\right | $$\nSi misura in pascal $\\frac{N}{m^2}$",
       "x": 403,
-      "y": 121,
+      "y": 161,
       "width": 260,
       "height": 159
+    },
+    {
+      "id": "ea540e97b31fba9d",
+      "x": 860,
+      "y": 121,
+      "width": 480,
+      "height": 239,
+      "color": "3",
+      "type": "text",
+      "text": "##### Legge di Stevino\nLa differenza di pressione tra due punti di un fluido in equilibrio è data dalla pressione esercitata dalla colonna di fluido di altezza $h$, uguale alla differenza di quota tra i due punti:\n$$ p_{2} - p_{1} = \\delta gh $$\n"
+    },
+    {
+      "id": "59455f609f5e932a",
+      "x": 970,
+      "y": 500,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Superfici con la stessa pressione sono isobare"
     }
   ],
   "edges": [
@@ -74,6 +103,27 @@
       "fromSide": "right",
       "toNode": "35e907f343592613",
       "toSide": "left"
+    },
+    {
+      "id": "a0876683e14e68b4",
+      "fromNode": "35e907f343592613",
+      "fromSide": "right",
+      "toNode": "920df1a7e3bb4542",
+      "toSide": "left"
+    },
+    {
+      "id": "8fb5902c4c373685",
+      "fromNode": "9b82c2344dbc2850",
+      "fromSide": "right",
+      "toNode": "ea540e97b31fba9d",
+      "toSide": "left"
+    },
+    {
+      "id": "6fd34d7bd13d92f5",
+      "fromNode": "ea540e97b31fba9d",
+      "fromSide": "bottom",
+      "toNode": "59455f609f5e932a",
+      "toSide": "top"
     }
   ],
   "metadata": {}
