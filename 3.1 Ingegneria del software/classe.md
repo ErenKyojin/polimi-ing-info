@@ -38,3 +38,5 @@ Una classe è un tipo definito dall'utente che specifica anche le operazioni uti
 Come `int a` definisce una variabile di nome `a`, `Data d` definisce una variabile `d` sul quale è possibile fare le operazioni definite in `Data`
 
 [[Attributi]] di una classe
+
+In realtà quello che definiamo attraverso una classe non è una variabile, ma un [[oggetto]]
