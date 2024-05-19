@@ -35,7 +35,7 @@ Un programma in Java è un insieme di [[classe|classi]], il programma principale
 >```java
 >public class HelloWorld {
 >	public static void main(String args[]){
->			System.out.printLn("Hello World!");
+>			System.out.println("Hello World!");
 >	}
 >}
 >```
