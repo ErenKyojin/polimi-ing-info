@@ -1,15 +1,6 @@
 {
   "nodes": [
     {
-      "id": "64fc0e009892d7ca",
-      "type": "text",
-      "text": "##### Fluido\nMateriale liquido o areiforme",
-      "x": -140,
-      "y": -40,
-      "width": 260,
-      "height": 120
-    },
-    {
       "id": "219b21592cb21914",
       "type": "text",
       "text": "##### Densità\n$\\delta = \\frac{m}{V}$",
@@ -35,6 +26,24 @@
       "y": 141,
       "width": 260,
       "height": 119
+    },
+    {
+      "id": "64fc0e009892d7ca",
+      "type": "text",
+      "text": "##### Fluido\nMateriale liquido o areiforme",
+      "x": -140,
+      "y": -40,
+      "width": 260,
+      "height": 120
+    },
+    {
+      "id": "35e907f343592613",
+      "x": 403,
+      "y": -40,
+      "width": 260,
+      "height": 120,
+      "type": "text",
+      "text": "##### Forze di volume\n$$ d\\vec{F} = \\vec{P}\\d V $$"
     }
   ],
   "edges": [
@@ -58,6 +67,13 @@
       "fromSide": "left",
       "toNode": "c76ee4d7acd1195f",
       "toSide": "right"
+    },
+    {
+      "id": "3421e140241374b7",
+      "fromNode": "64fc0e009892d7ca",
+      "fromSide": "right",
+      "toNode": "35e907f343592613",
+      "toSide": "left"
     }
   ],
   "metadata": {}
