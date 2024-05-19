@@ -121,6 +121,7 @@ modification date: 2023-07-07 09:14
 
 ## Meccanica dei fluidi
 [[meccanica dei fluidi.canvas]]
+
 - [ ] [[Fluidi|Fluido]]
 - [ ] [[densità]]
 - [ ] [[Pressione]]

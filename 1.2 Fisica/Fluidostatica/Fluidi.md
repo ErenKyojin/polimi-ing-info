@@ -18,7 +18,7 @@ La densità di un fluido è diversa in base allo stato in cui si presenta, in pa
 - $\delta \approx 10^3 \frac{Kg}{m^3}$ fase liquida
 - $\delta \approx 1 \frac{Kg}{m^3}$ fase aeriforme
 
-Il fluido in fase liduida inoltre è **inomprimibile**.
+Il fluido in fase liduida inoltre è **incomprimibile**.
 
 Possiamo introurre per i fluidi, come per abbiamo fatto per i corpi rigidi, le approssimazioni infinitesime dei loro componenti: $\d m = \delta \d V$.
 È possibile considerare forze di volume $\d \vec{F}$ applicate all'elemento infinitesimo
