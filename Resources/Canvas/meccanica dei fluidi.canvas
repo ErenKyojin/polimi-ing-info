@@ -5,6 +5,7 @@
       "type": "text",
       "text": "##### Fluido\nMateriale liquido o areiforme",
       "shape": "oval",
+      "isStartNode": true,
       "x": -140,
       "y": -40,
       "width": 260,
