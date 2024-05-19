@@ -5,9 +5,9 @@
       "x": -140,
       "y": -40,
       "width": 260,
-      "height": 60,
+      "height": 120,
       "type": "text",
-      "text": ""
+      "text": "##### Fluido\nMateriale liquido o areiforme"
     }
   ],
   "edges": [],
