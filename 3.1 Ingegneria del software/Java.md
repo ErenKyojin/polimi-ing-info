@@ -29,4 +29,13 @@ Ma aggiungendo un livello di astrazione e di controllo superiore per i grandi pr
 - Polimorfismo e binding dinamico
 
 
-Un programma in Java è un insieme di [[classe|classi]], il programma principale è definito dal metodo di una classe chiamato `main()`
+Un programma in Java è un insieme di [[classe|classi]], il programma principale è definito dal metodo di una classe chiamato `main`
+
+>[!java] HelloWorld.java
+>```java
+>public class HelloWorld {
+>	public static void main(String args[]){
+>			System.out.printLn("Hello World!");
+>	}
+>}
+>```
