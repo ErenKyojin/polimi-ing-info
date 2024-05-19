@@ -26,3 +26,15 @@ In java ogni classe deve essere o una dichiarazione di tipo o una collezione di 
 La classe è come uno struct del C, ma
 - contiene anche funzioni
 - dati e funzioni sono incapsulati (private invisibili, public no)
+
+Solitamente una classe è definita come
+```
+<visiblità> class <nome classe> {
+	<definizioni di attributi, costruttori, metodi>
+}
+```
+
+Una classe è un tipo definito dall'utente che specifica anche le operazioni utilizzabili sul tipo stesso.
+Come `int a` definisce una variabile di nome `a`, `Data d` definisce una variabile `d` sul quale è possibile fare le operazioni definite in `Data`
+
+[[Attributi]] di una classe
