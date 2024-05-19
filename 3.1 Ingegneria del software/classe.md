@@ -40,3 +40,6 @@ Come `int a` definisce una variabile di nome `a`, `Data d` definisce una variabi
 [[Attributi]] di una classe
 
 In realtà quello che definiamo attraverso una classe non è una variabile, ma un [[oggetto]]
+
+[[metodo|metodi]]
+[[accesso]]

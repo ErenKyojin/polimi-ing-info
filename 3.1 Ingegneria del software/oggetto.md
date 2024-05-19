@@ -23,7 +23,12 @@ Ogni oggeto, in ogni istante dell'esecuzione del programma, possiede un certo st
 >	...
 >}
 >...
->Data 
+>
+>Data compleanno
+>compleanno giorno = 1
+>compleanno mese = 1
+>compleanno anno = 1970
+>
 >```
 >
->
+>la data 01/01/1970, contenuta nell'oggetto compleanno che è definito dai propri attributi
