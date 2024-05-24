@@ -12,7 +12,23 @@ Consideriamo una popolazione di elementi con dati numerici associati. Il valore 
 >Essendo dipendente dal valore delle variabili aleatorie, la media campionaria è una variabile aleatoria.
 
 ## Proprietà
-Essendo la media campionaria
+Essendo la media campionaria una variabile aleatoria, possiamo calcolarne la media e la varianza, in particolare abbiamo che
+
+
+>[!multi-column]
+>>[!media]
+>>$$\begin{align}
+>> E[\bar{X}] &= E\left[ \frac{X_{1} + X_{2}+\dots+ X_{n}}{n} \right] =  \\
+>>&= \frac{1}{ n}(E[X_{1}] + E[X_{2}] + \dots + E[X_{n}]) = \\
+>> &= \mu
+>>\end{align} $$
+>
+>>[!varianza]
+>>$$ \begin{align}
+>>\text{var}(\bar{X}) &= \text{var}\left( \frac{X_{1}+\dots + X_{n}}{n} \right) \\
+>>&=\frac{1}{n^2}[\text{var}(X_{1}) + \dots+\text{var}(X_{n})] \\
+>>&= \frac{n\sigma^2}{n^2} = \frac{\sigma^2}{n}
+>>\end{align} $$
 
 
 [[media teorica]]
