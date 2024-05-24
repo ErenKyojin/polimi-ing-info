@@ -11,6 +11,9 @@ Consideriamo una popolazione di elementi con dati numerici associati. Il valore 
 >$$ \bar{X} = \frac{X_{1} + X_{2} + \dots + X_{n}}{n}$$
 >Essendo dipendente dal valore delle variabili aleatorie, la media campionaria è una variabile aleatoria.
 
+
+[[media teorica]]
+
 ## Proprietà
 Essendo la media campionaria una variabile aleatoria, possiamo calcolarne la media e la varianza, in particolare abbiamo che
 
@@ -32,6 +35,8 @@ Essendo la media campionaria una variabile aleatoria, possiamo calcolarne la med
 
 Quindi la media campionaria sarà centrata sulla media della popolazione con una dispersione che tende a zero più è alto il numero di campioni scelti
 
-[[teorema centrale del limite]]
+### > [[teorema centrale del limite]]
 
-[[media teorica]]
+### Distribuzione approssimata
+Sia
+

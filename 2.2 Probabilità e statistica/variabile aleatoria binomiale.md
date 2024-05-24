@@ -86,4 +86,5 @@ $X$ variabile aleatoria binomiale:
 
 
 ## Approssimazioni
-Per $n$ grande, possiamo sfruttare il [[teorema centrale del limite#Applicazioni]] per trovare che una normale
+- Per $n$ grande, possiamo sfruttare il [[teorema centrale del limite#Applicazioni]] per trovare che una variabile aleatoria normale standard
+- Per $n$ gramde e $p$ piccolo, una [[Variabile aleatoria di Poisson]]
