@@ -30,7 +30,8 @@ Essendo la media campionaria una variabile aleatoria, possiamo calcolarne la med
 >>&= \frac{n\sigma^2}{n^2} = \frac{\sigma^2}{n}
 >>\end{align} $$
 
+Quindi la media campionaria sarà centrata sulla media della popolazione con una dispersione che tende a zero più è alto il numero di campioni scelti
+
+[[teorema centrale del limite]]
 
 [[media teorica]]
-
-
