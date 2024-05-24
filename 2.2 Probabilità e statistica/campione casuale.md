@@ -8,4 +8,4 @@ creation date: 2024-05-12
 
 ^052110
 
-Normalmente non sarà specificata apertamente la dsitribuzione $F$, sfrutteremi quindi i dati in nostro possesso per eseguire l'inferenaz
+Normalmente non sarà specificata apertamente la dsitribuzione $F$, sfrutteremi quindi i dati in nostro possesso per trovare la distribuzione attraverso l'[[inferenza]]
