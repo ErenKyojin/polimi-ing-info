@@ -34,3 +34,5 @@ dirac]] $h(t) = \delta(t)$.
 # Statistica
 
 ### Campionamento da una popolazione finita
+Consideriamo una popolazione di $N$ elementi, dove $p$ è la percentuale di popolazione che ha una certa caratteristica.
+Presi $n$ elementi da questa popolazione, definiamo un [[campionamento casuale]]
