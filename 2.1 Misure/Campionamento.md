@@ -26,8 +26,7 @@ Il segnale campionato si ottiene idealmente prelevando campioni in un tempo infi
 >
 >Se il segnale non ha una banda limitata a $f_{\max}$ possiamo usare un filtro passa basso.
 >
->In un [[campionamento ideale]] il segnale è moltiplicato per un treno di [[delta di
-dirac]] $h(t) = \delta(t)$. 
+>In un [[campionamento ideale]] il segnale è moltiplicato per un treno di [[delta di dirac]] $h(t) = \delta(t)$. 
 >
 >In un [[campionamento reale]] il segnale è moltiplicato per un treno di rettangoli $h(t) = \text{rect}(t / T_{w})$ in cui il singolo rettangolo ha durata finita $T_{W}$
 
@@ -41,3 +40,8 @@ $$ X_{i} = \begin{cases}
 1&\text{se } i \text{ ha la caratteristica} \\
 0&\text{altrimenti}
 \end{cases} $$
+La somma di questi termini
+$$X=X_{1} + X_{2} + \dots + X_{n}$$
+ha valore uguale al numero di campioni che hanno la caratteristica indagata, inoltre
+$$ \bar{X} = \frac{X}{n} $$
+è uguale alla percentuale del campione scelto che ha quella caratteristica
