@@ -35,4 +35,9 @@ dirac]] $h(t) = \delta(t)$.
 
 ### Campionamento da una popolazione finita
 Consideriamo una popolazione di $N$ elementi, dove $p$ è la percentuale di popolazione che ha una certa caratteristica.
-Presi $n$ elementi da questa popolazione, definiamo un [[campionamento casuale]]
+Presi $n$ elementi da questa popolazione, definiamo un [[campionamento casuale]].
+Scelto un campione di dimensione $n$ da una popolazione di dimensione $N$ definiamo, per $i=1,\dots,n$
+$$ X_{i} = \begin{cases}
+1&\text{se } i \text{ ha la caratteristica} \\
+0&\text{altrimenti}
+\end{cases} $$
