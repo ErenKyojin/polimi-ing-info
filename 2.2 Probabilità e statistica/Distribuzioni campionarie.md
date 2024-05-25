@@ -25,3 +25,8 @@ $$ \frac{\bar{X}-\mu}{\frac{\sigma}{\sqrt{ n }}} $$
 è una variabile aleatoria normale standard
 
 ### Distribuzione congiunta di $\bar{X}$ e $S^2$
+Consideriamo i valori $x_{1},\dots,x_{n}$, definiamo $y_{i} = x_{i} - \mu,i=1,\dots,n$.
+Avremo quindi $\bar{y} = \bar{x} - \mu$ segue che
+$$ \sum_{i=1}^n (y_{i} - \bar{y})^2 = \sum_{i=1}^n y_{i}^2 - n\bar{y}^2 $$
+allora
+$$ \sum_{i=1}^n(x_{i} - \bar{x})^2 = \sum_{i=1}^n (x_{i} - \mu) $$
