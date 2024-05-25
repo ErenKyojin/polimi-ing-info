@@ -30,3 +30,5 @@ Avremo quindi $\bar{y} = \bar{x} - \mu$ segue che
 $$ \sum_{i=1}^n (y_{i} - \bar{y})^2 = \sum_{i=1}^n y_{i}^2 - n\bar{y}^2 $$
 allora
 $$ \sum_{i=1}^n(x_{i} - \bar{x})^2 = \sum_{i=1}^n (x_{i} - \mu)^2 - n(\bar{x} - \mu)^2 $$
+Se $X_{1},\dots,X_{n}$ sono un campione da una popolazione normale con media $\mu$ e varianza $\sigma^2$, allora otteniamo dall'identità precedente che
+$$ \frac{1}{\sigma^2}\sum_{i=1}^n (X_{i} - \mu)^2= \frac{1}{\sigma^2} \left[ \sum_{i=1}^n (X_{i} - \bar{X})^2 +  n(\bar{X} - \mu)^2 \right]$$
