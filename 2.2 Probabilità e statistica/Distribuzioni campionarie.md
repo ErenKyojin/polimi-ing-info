@@ -37,4 +37,4 @@ $$
 \sum_{i=1}^n\left( \frac{X_{i}-\mu}{\sigma} \right) =\frac{\sum_{i=1}^n(X_{i} - \bar{X})^2}{\sigma^2} + \left[ \frac{\sqrt{ n }(\bar{X} - \mu)}{\sigma} \right]^2
 $$
 
-$\frac{X_{i} - \mu}{\sigma}$ sono [[variabili aleatorie indipendenti ed identicamente distribuite|iid]] normali standard. Segue che a destra dell'equazione abbiamo una variabile aleatoria [[distribuzione chi-quadro|chi-quadro]]
+$\frac{X_{i} - \mu}{\sigma}$ sono [[variabili aleatorie indipendenti ed identicamente distribuite|iid]] normali standard. Segue che a destra dell'equazione abbiamo una variabile aleatoria [[distribuzione chi-quadro|chi-quadro]], inoltre $\sqrt{ n }(\bar{X} - \mu)$
