@@ -1,12 +1,13 @@
 
 Stima della variazione dell'intera popolazione $\sigma^2(x)$ attraverso lo stimatore
 $$ \begin{align}
-s^2(x) = s^2(X_{i}) := \frac{1}{n-1}\sum_{i=1}^n (X_{i}-\bar{X})^2 \\
-\sigma^2(x) =\sigma_{x}^2 := E[(x-\mu)^2] = s^2(X) = s^2(X_{i})
+s^2(X) = s^2(X_{i}) := \frac{1}{n-1}\sum_{i=1}^n (X_{i}-\bar{X})^2 \\
+\sigma^2(X) =\sigma_{x}^2 := E[(X-\mu)^2] = s^2(X) = s^2(X_{i})
 \end{align} $$
 
-1/n-1 in quanto la variazione standard di un solo dato è 0.
+$\frac{1}{n-1}$ in quanto la variazione standard di un solo dato è 0.
 
+Definita la varianza campionaria possiamo definire la [[deviazione standard campionaria]]
 #### Alternative di calcolo per la varianza
 La varianza campionaria si può anche calcolare come la somma dei singoli valori elevati al quadrato meno $n$ volte il valor medio al quadrato, il tutto diviso $n-1$:
 $$ s^2(x) = \frac{1}{n-1} \sum_{k=1}^n (x_{k} - \bar{x})^2 = \frac{1}{n-1}\left[ \left( \sum_{k=1}^n x_{k}^2 \right) - n\bar{x}^2\right] $$
