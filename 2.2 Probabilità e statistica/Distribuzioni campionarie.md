@@ -38,4 +38,7 @@ $$
 $$
 
 $\frac{X_{i} - \mu}{\sigma}$ sono [[variabili aleatorie indipendenti ed identicamente distribuite|iid]] normali standard. Segue che a destra dell'equazione abbiamo una variabile aleatoria [[distribuzione chi-quadro|chi-quadro]], inoltre $\frac{\sqrt{ n }(\bar{X} - \mu)}{\sigma}$ è una variabile aleatoria normale standard, e quindi il suo quadrato è una variabile aleatoria chi-quadro con un grado di libertà.
-Sappiamo quindi che a sinistra dell'equazione abbiamo una variabile chi quadro con $n$ gradi di libertà, mentre a destra dell'equazione abbiamo due variabili aleatorie, di cui una chi quadro con 1 grado di libertà
+Sappiamo quindi che a sinistra dell'equazione abbiamo una variabile chi quadro con $n$ gradi di libertà, mentre a destra dell'equazione abbiamo due variabili aleatorie, di cui una chi quadro con 1 grado di libertà. Sappiamo che la somma di due variabili chi-quadro indipendenti è a sua volta una variabile chi quadro indipendente con come grado di libertà la somma dei gradi di libertà delle due variabili originali, vogliamo quindi dimostrare che il primo termine del lato destro dell'equazione sia una variabile chi-quadro con $n-1$ gradi di libertà.
+
+>[!theorem]
+>Sia $X_{1},\dots,X_{n}$ campione da una popolazione normale con media $\mu$ e varianza $\sigma^2$, allora $\bar{X}$ e $S^2$ sono variabili aleatorie indipendenti, con $\bar{X}$ normale con media $\mu$ e varianza $\frac{\sigma^2}{n}$ e $\frac{(n-1)S^2}{\sigma^2}$ chi-quadro con $n-1$ gradi di libertà
