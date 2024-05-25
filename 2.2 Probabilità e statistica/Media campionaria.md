@@ -38,5 +38,5 @@ Quindi la media campionaria sarà centrata sulla media della popolazione con una
 ### > [[teorema centrale del limite]]
 
 ### Distribuzione approssimata
-Sia
-
+Sia $X_{1},\dots,X_{n}$ un campione da una popolazione con media $\mu$ e varianza $\sigma^2$, possiamo sfruttare il teorema centrale del limite
+$\bar{X} = \sum_{i=1}^n \frac{X_{i}}{n}$
