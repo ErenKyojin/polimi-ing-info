@@ -47,4 +47,7 @@ Sappiamo quindi che a sinistra dell'equazione abbiamo una variabile chi quadro c
 Ci sono due conseguenza molto importanti del teorema, la prima è aver trovato la distribuzione di $\bar{X}$ e $S^2$ per popolazioni normali, la seconda è che queste due sono **indipendenti**.
 
 >[!corollary]
->Siano $X_{1},\dots,X_{n}$ campioni da una popolazione normale con media $\mu$, $\bar{X}$ denota 
+>Siano $X_{1},\dots,X_{n}$ campioni da una popolazione normale con media $\mu$, sia $\bar{X}$ la media campionaria e $S$ la deviazione standard, allora
+>$$ \frac{\sqrt{ n }(\bar{X} - \mu)}{S} \sim t_{n-1} $$
+>$\sqrt{ n }(\bar{X} - \mu) /S$ ha una distribuzione $t$ con $n-1$ gradi di libertà
+

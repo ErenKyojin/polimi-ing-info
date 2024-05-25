@@ -30,3 +30,7 @@ Il segnale campionato si ottiene idealmente prelevando campioni in un tempo infi
 dirac]] $h(t) = \delta(t)$. 
 >
 >In un [[campionamento reale]] il segnale è moltiplicato per un treno di rettangoli $h(t) = \text{rect}(t / T_{w})$ in cui il singolo rettangolo ha durata finita $T_{W}$
+
+# Statistica
+
+### Campionamento da una popolazione finita
