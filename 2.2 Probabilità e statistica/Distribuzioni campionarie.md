@@ -15,5 +15,7 @@ Sono rispettivamente [[Media campionaria|media campionaria]] e [[Varianza campio
 #### Distribuzione della media campionaria
 La somma di variabile aleatorie normali indipendenti è distribuita in modo normale, segue che $\bar{X}$ è normale con 
 $$ \begin{align}
-E[\bar{X}]=\sum_{i=1}^n E[X_{i}]
+E[\bar{X}]&=\sum_{i=1}^n \frac{E[X_{i}]}{n}=\mu \\
+\text{var}(\bar{X}) &= \frac{1}{n^2} \sum_{i=1}^n \text{var}(X_{i})=\frac{\sigma^2}{n}
 \end{align} $$
+$\bar{X}$ è
