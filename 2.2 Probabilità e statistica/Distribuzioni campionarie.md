@@ -18,4 +18,10 @@ $$ \begin{align}
 E[\bar{X}]&=\sum_{i=1}^n \frac{E[X_{i}]}{n}=\mu \\
 \text{var}(\bar{X}) &= \frac{1}{n^2} \sum_{i=1}^n \text{var}(X_{i})=\frac{\sigma^2}{n}
 \end{align} $$
-$\bar{X}$ è
+
+rispettivamente media e varianza.
+$\bar{X}$ è quindi normale con media uguale alla media della popolazione ma con varianza ridotta di un fattore $\frac{1}{n}$ segue che
+$$ \frac{\bar{X}-\mu}{\frac{\sigma}{\sqrt{ n }}} $$
+è una variabile aleatoria normale standard
+
+### Distribuzione congiunta di $\bar{X}$ e $S^2$
