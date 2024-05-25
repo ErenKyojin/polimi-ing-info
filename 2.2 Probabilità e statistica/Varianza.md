@@ -38,29 +38,6 @@ Se $X$ è una variabile aleatoria discreta con densità $p_{X}$ e media $E(X) = 
 >3. Se $X$ ammette varianza e $\beta \in \mathbb{R}$ allora $\var(X + \beta) = \var(X)$
 >4. Se $X$ ammette varianza allora $X^2$ ammette [[Valore atteso|media]] e $\var(X) = E(X^2)- E(X)^2$
 
-## Varianza campionaria
-Stima della variazione dell'intera popolazione $\sigma^2(x)$ attraverso lo stimatore
-$$ \begin{align}
-s^2(x) = s^2(x_{k}) := \frac{1}{n-1}\sum_{k=1}^n (x_{k}-\bar{x})^2 \\
-\sigma^2(x) =\sigma_{x}^2 := E[(x-\mu)^2] = s^2(x) = s^2(x_{k})
-\end{align} $$
-
-1/n-1 in quanto la variazione standard di un solo dato è 0.
-
-##### Alternative di calcolo per la varianza
-La varianza campionaria si può anche calcolare come la somma dei singoli valori elevati al quadrato meno $n$ volte il valor medio al quadrato, il tutto diviso $n-1$:
-$$ s^2(x) = \frac{1}{n-1} \sum_{k=1}^n (x_{k} - \bar{x})^2 = \frac{1}{n-1}\left[ \left( \sum_{k=1}^n x_{k}^2 \right) - n\bar{x}^2\right] $$
-
-
-##### gradi di libertà della stima
-Il denominatore $n-1 = \nu$ è il numero di gradi di libertà.
-Vediamo 3 motivi validi per cui è opportuno dividere la somma degli $n$ scarti quadratici che compre nell'espressione della varianza campionaria per $n-1$ e non per $n$
-
-1. Non ha senso calcolare la varianza per un campione che contenga solo un dato, in quel caso otterremo una forma indefinita $0 / 0$
-2. Nella formula di $s^2(x)$ calcoliamo gli scarti quadratici della media campionaria $\bar{x}$ nota e non dalla media della popolazione (ignota). Ne segue che degli $n$ scarti quadratici solo $n-1$ sono tra loro indipendenti
-3. Si dimostra che il valore atteso dalla varianza campionaria con $n-1$ al denominatore è la varianza della popolazione
-   $$ E \{ s^2 (x) \} = \sigma^2(x) $$
-
 ## Varianza per variabili continue
 
 > [!definition]
