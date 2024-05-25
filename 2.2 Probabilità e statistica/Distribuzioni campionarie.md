@@ -37,4 +37,5 @@ $$
 \sum_{i=1}^n\left( \frac{X_{i}-\mu}{\sigma} \right) =\frac{\sum_{i=1}^n(X_{i} - \bar{X})^2}{\sigma^2} + \left[ \frac{\sqrt{ n }(\bar{X} - \mu)}{\sigma} \right]^2
 $$
 
-$\frac{X_{i} - \mu}{\sigma}$ sono [[variabili aleatorie indipendenti ed identicamente distribuite|iid]] normali standard. Segue che a destra dell'equazione abbiamo una variabile aleatoria [[distribuzione chi-quadro|chi-quadro]], inoltre $\sqrt{ n }(\bar{X} - \mu)$
+$\frac{X_{i} - \mu}{\sigma}$ sono [[variabili aleatorie indipendenti ed identicamente distribuite|iid]] normali standard. Segue che a destra dell'equazione abbiamo una variabile aleatoria [[distribuzione chi-quadro|chi-quadro]], inoltre $\frac{\sqrt{ n }(\bar{X} - \mu)}{\sigma}$ è una variabile aleatoria normale standard, e quindi il suo quadrato è una variabile aleatoria chi-quadro con un grado di libertà.
+Sappiamo quindi che a sinistra dell'equazione abbiamo una variabile chi quadro con $n$ gradi di libertà, mentre a destra dell'equazione abbiamo due variabili aleatorie, di cui una chi quadro con 1 grado di libertà
