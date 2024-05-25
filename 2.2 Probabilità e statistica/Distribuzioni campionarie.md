@@ -41,4 +41,10 @@ $\frac{X_{i} - \mu}{\sigma}$ sono [[variabili aleatorie indipendenti ed identica
 Sappiamo quindi che a sinistra dell'equazione abbiamo una variabile chi quadro con $n$ gradi di libertà, mentre a destra dell'equazione abbiamo due variabili aleatorie, di cui una chi quadro con 1 grado di libertà. Sappiamo che la somma di due variabili chi-quadro indipendenti è a sua volta una variabile chi quadro indipendente con come grado di libertà la somma dei gradi di libertà delle due variabili originali, vogliamo quindi dimostrare che il primo termine del lato destro dell'equazione sia una variabile chi-quadro con $n-1$ gradi di libertà.
 
 >[!theorem]
->Sia $X_{1},\dots,X_{n}$ campione da una popolazione normale con media $\mu$ e varianza $\sigma^2$, allora $\bar{X}$ e $S^2$ sono variabili aleatorie indipendenti, con $\bar{X}$ normale con media $\mu$ e varianza $\frac{\sigma^2}{n}$ e $\frac{(n-1)S^2}{\sigma^2}$ chi-quadro con $n-1$ gradi di libertà
+>Sia $X_{1},\dots,X_{n}$ campione da una popolazione normale con media $\mu$ e varianza $\sigma^2$, allora $\bar{X}$ e $S^2$ sono variabili aleatorie indipendenti, con $\bar{X}$ normale con media $\mu$ e varianza $\frac{\sigma^2}{n}$ e $\frac{(n-1)S^2}{\sigma^2}$ chi-quadro con $n-1$ gradi di libertà.
+>
+
+Ci sono due conseguenza molto importanti del teorema, la prima è aver trovato la distribuzione di $\bar{X}$ e $S^2$ per popolazioni normali, la seconda è che queste due sono **indipendenti**.
+
+>[!corollary]
+>Siano $X_{1},\dots,X_{n}$ campioni da una popolazione normale con media $\mu$, $\bar{X}$ denota 
