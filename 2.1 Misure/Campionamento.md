@@ -44,4 +44,11 @@ La somma di questi termini
 $$X=X_{1} + X_{2} + \dots + X_{n}$$
 ha valore uguale al numero di campioni che hanno la caratteristica indagata, inoltre
 $$ \bar{X} = \frac{X}{n} $$
-è uguale alla percentuale del campione scelto che ha quella caratteristica
+è uguale alla percentuale del campione scelto che ha quella caratteristica.
+Consideriamo le probabilità associate ad $X$ e ad $\bar{X}$. Notiamo intanto che ognuno degli $N$ membri della popolazione ha la stessa probabilità di essere l'$i$-esimo membro del campione.
+$$ P \{ X_{i} = 1 \} = \frac{Np}{N} = p $$
+e allo stesso modo possiamo osservare
+$$ P\{ X_{i} = 0 \} = (1-p) $$
+
+>[!remark]
+>Notiamo come le [[Variabile aleatoria|variabili aleatorie]] $X_{i}$ non sono tra loro indipendenti. Infatti se sappiamo che una di esse è nel campione, la probabilità che una qualsiasi delle altre lo sia diminuisce
