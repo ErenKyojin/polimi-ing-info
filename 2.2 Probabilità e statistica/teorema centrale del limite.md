@@ -13,7 +13,7 @@ Se sono gaussiano è immediato che $\bar{X}_{n} \sim \mathcal{N}\left( \mu, \fra
 >
 >Quindi, a condizione di prendere un numero sufficiente di variabili nella sucessione, la funzione di ripartizione della standardizzata della media campionaria è approssimabile alla gaussiana standard con meadia $n \mu$ e varianza $n \sigma^2$
 
-
+Affinchè l'approssimazione sia valida, solitamente $n$ 
 ## Applicazioni
 Un'applicazione importante del teorema centrale del limite riguarda le [[variabile aleatoria binomiale|variabili aleatorie binomiali]], infatti consideriamo una binomiale $X$ di parametri $(n,p)$, possiamo vederla come
 $X = X_{1} + X_{2} + \dots + X_{n}$

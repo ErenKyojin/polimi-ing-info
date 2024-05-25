@@ -40,6 +40,6 @@ Quindi la media campionaria sarà centrata sulla media della popolazione con una
 ### Distribuzione approssimata
 Sia $X_{1},\dots,X_{n}$ un campione da una popolazione con media $\mu$ e varianza $\sigma^2$, possiamo sfruttare il teorema centrale del limite
 $$\bar{X} = \sum_{i=1}^n \frac{X_{i}}{n}$$
-Un multiplo di una variabile aleatoria normale è comunque normale, quindi per il teorema centrale del limite $\bar{X}$ sarà normale quando $n$ sarà sufficiente grande. Consideran
+Un multiplo di una variabile aleatoria normale è comunque normale, quindi per il teorema centrale del limite $\bar{X}$ sarà normale quando $n$ sarà sufficiente grande. 
 $$ \frac{\bar{X}-\mu}{\frac{\sigma}{\sqrt{ n }}} $$
 ha approssimativamente distribuzione normale standard.
