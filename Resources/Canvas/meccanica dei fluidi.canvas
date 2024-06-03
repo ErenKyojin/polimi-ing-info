@@ -1,16 +1,4 @@
 {
-<<<<<<< HEAD
-	"nodes":[
-		{"id":"9a7cbff4b5fb9f14","type":"text","text":"#### Fluido\nMateriale liquido o areiforme.\nUn fluido liquido è incomprimibile","x":-120,"y":-40,"width":250,"height":180},
-		{"id":"240716cc06acc802","type":"text","text":"Densità definita in maniera analoga ai solidi, $\\delta=\\frac{m}{V}$","x":360,"y":-10,"width":250,"height":120},
-		{"id":"71462ad95b5668b4","x":-740,"y":-60,"width":320,"height":220,"type":"text","text":"#### Pressione\nData una superficie $S$, la pressione è il rapporto tra il modulo della forza applicata in direzione normale alla superficie e la superficie stessa.\n$$ p = \\frac{F_{n}}{S} $$"},
-		{"id":"81a1bf5b6d93b575","x":360,"y":300,"width":250,"height":140,"type":"text","text":"Principio di Pascal\nUn fluido non sottoposto a forze di volume ha pressione costante in tutti i suoi punti"}
-	],
-	"edges":[
-		{"id":"9da17d7fcf09cb0e","fromNode":"9a7cbff4b5fb9f14","fromSide":"right","toNode":"240716cc06acc802","toSide":"left"},
-		{"id":"0e7004c6d22079ec","fromNode":"9a7cbff4b5fb9f14","fromSide":"left","toNode":"71462ad95b5668b4","toSide":"right"}
-	]
-=======
   "nodes": [
     {
       "id": "64fc0e009892d7ca",
@@ -25,12 +13,12 @@
     },
     {
       "id": "35e907f343592613",
+      "type": "text",
+      "text": "##### Forze di volume\n$$ d\\vec{F} = \\vec{P}\\d V $$",
       "x": 403,
       "y": -40,
       "width": 260,
-      "height": 120,
-      "type": "text",
-      "text": "##### Forze di volume\n$$ d\\vec{F} = \\vec{P}\\d V $$"
+      "height": 120
     },
     {
       "id": "219b21592cb21914",
@@ -43,13 +31,13 @@
     },
     {
       "id": "920df1a7e3bb4542",
+      "type": "text",
+      "text": "##### Principio di Pascal\nLa pressione in un fluido non soggetto a forze di volume è la stessa in tutti i suoi punti",
       "x": 860,
       "y": -60,
       "width": 260,
       "height": 160,
-      "color": "3",
-      "type": "text",
-      "text": "##### Principio di Pascal\nLa pressione in un fluido non soggetto a forze di volume è la stessa in tutti i suoi punti"
+      "color": "3"
     },
     {
       "id": "9b82c2344dbc2850",
@@ -62,32 +50,32 @@
     },
     {
       "id": "ea540e97b31fba9d",
+      "type": "text",
+      "text": "##### Legge di Stevino\nLa differenza di pressione tra due punti di un fluido in equilibrio è data dalla pressione esercitata dalla colonna di fluido di altezza $h$, uguale alla differenza di quota tra i due punti:\n$$ p_{2} - p_{1} = \\delta gh $$\n",
       "x": 860,
       "y": 121,
       "width": 480,
       "height": 239,
-      "color": "3",
-      "type": "text",
-      "text": "##### Legge di Stevino\nLa differenza di pressione tra due punti di un fluido in equilibrio è data dalla pressione esercitata dalla colonna di fluido di altezza $h$, uguale alla differenza di quota tra i due punti:\n$$ p_{2} - p_{1} = \\delta gh $$\n"
+      "color": "3"
     },
     {
       "id": "59455f609f5e932a",
+      "type": "text",
+      "text": "##### Superfici isobare\nSuperfici con la stessa pressione sono isobare",
       "x": 955,
       "y": 480,
       "width": 290,
-      "height": 120,
-      "type": "text",
-      "text": "##### Superfici isobare\nSuperfici con la stessa pressione sono isobare"
+      "height": 120
     },
     {
       "id": "542ccfc351587270",
+      "type": "text",
+      "text": "##### Principio di Archimede\nUn corpo immerso in un fludo riceve una spinta dal basso verso l'alto pari al peso del volume del fluido spostato. La spinta è applicata al centro di massa del fluido spostato, detto centro di spinta. ",
       "x": -220,
       "y": 388,
       "width": 420,
       "height": 245,
-      "color": "3",
-      "type": "text",
-      "text": "##### Principio di Archimede\nUn corpo immerso in un fludo riceve una spinta dal basso verso l'alto pari al peso del volume del fluido spostato. La spinta è applicata al centro di massa del fluido spostato, detto centro di spinta. "
+      "color": "3"
     },
     {
       "id": "c76ee4d7acd1195f",
@@ -97,6 +85,15 @@
       "y": -40,
       "width": 260,
       "height": 119
+    },
+    {
+      "id": "0ab08a9c3f66a3b2",
+      "x": -620,
+      "y": -780,
+      "width": 260,
+      "height": 511,
+      "type": "text",
+      "text": "#### Concetti chiave\n- Forze di volume e forze di pressione\n- "
     }
   ],
   "edges": [
@@ -158,5 +155,4 @@
     }
   ],
   "metadata": {}
->>>>>>> 7a81301a6d27b27381726e15dc5da549becea57a
 }

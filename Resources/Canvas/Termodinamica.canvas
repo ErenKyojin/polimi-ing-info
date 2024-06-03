@@ -2,21 +2,21 @@
   "nodes": [
     {
       "id": "fb56f788248145e1",
+      "type": "text",
+      "text": "##### Ambiente\nAll'esterno dei confini del sistema termodinamico vi è l'**ambiente**. ",
       "x": -580,
       "y": 160,
       "width": 260,
-      "height": 200,
-      "type": "text",
-      "text": "##### Ambiente\nAll'esterno dei confini del sistema termodinamico vi è l'**ambiente**. "
+      "height": 200
     },
     {
       "id": "b239749dc574c103",
+      "type": "text",
+      "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente",
       "x": -200,
       "y": 160,
       "width": 340,
-      "height": 200,
-      "type": "text",
-      "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente"
+      "height": 200
     },
     {
       "id": "b507d83a51966d9f",
@@ -30,30 +30,30 @@
     },
     {
       "id": "3c4e3d6b7450d6ae",
+      "type": "text",
+      "text": "##### Sistema isolato",
       "x": -1020,
       "y": -160,
       "width": 260,
-      "height": 130,
-      "type": "text",
-      "text": "##### Sistema isolato"
+      "height": 130
     },
     {
       "id": "e492101b4bfc408f",
+      "type": "text",
+      "text": "##### Sistema chiuso\nSistema che scambia energia con l'ambiente",
       "x": -1400,
       "y": -160,
       "width": 260,
-      "height": 130,
-      "type": "text",
-      "text": "##### Sistema chiuso\nSistema che scambia energia con l'ambiente"
+      "height": 130
     },
     {
       "id": "b35fe90c68ca83a6",
+      "type": "text",
+      "text": "##### Sistema aperto\nSistema che scambia energia e materia con ambiente",
       "x": -1740,
       "y": -160,
       "width": 260,
-      "height": 130,
-      "type": "text",
-      "text": "##### Sistema aperto\nSistema che scambia energia e materia con ambiente"
+      "height": 130
     }
   ],
   "edges": [
