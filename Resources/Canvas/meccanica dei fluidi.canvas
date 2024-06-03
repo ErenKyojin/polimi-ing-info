@@ -14,7 +14,7 @@
     {
       "id": "35e907f343592613",
       "type": "text",
-      "text": "##### Forze di volume\n$$ d\\vec{F} = \\vec{P}\\d V = \\delta \\vec{g}dV$$",
+      "text": "##### [[forze di volume|🔗]] Forze di volume\n$$ d\\vec{F} = \\vec{P}\\d V = \\delta \\vec{g}dV$$",
       "x": 403,
       "y": -40,
       "width": 260,
@@ -38,34 +38,6 @@
       "width": 260,
       "height": 160,
       "color": "3"
-    },
-    {
-      "id": "9b82c2344dbc2850",
-      "type": "text",
-      "text": "##### Pressione\n$$ p= \\frac{F_{n}}{S} = \\left|\\vec{F} \\cdot \\frac{\\hat{n}}{S} \\right | $$\nSi misura in pascal $\\frac{N}{m^2}$",
-      "x": 403,
-      "y": 161,
-      "width": 260,
-      "height": 159
-    },
-    {
-      "id": "ea540e97b31fba9d",
-      "type": "text",
-      "text": "##### Legge di Stevino\nLa differenza di pressione tra due punti di un fluido in equilibrio è data dalla pressione esercitata dalla colonna di fluido di altezza $h$, uguale alla differenza di quota tra i due punti:\n$$ p_{2} - p_{1} = \\delta gh $$\n",
-      "x": 860,
-      "y": 121,
-      "width": 480,
-      "height": 239,
-      "color": "3"
-    },
-    {
-      "id": "59455f609f5e932a",
-      "type": "text",
-      "text": "##### Superfici isobare\nSuperfici con la stessa pressione sono isobare",
-      "x": 955,
-      "y": 480,
-      "width": 290,
-      "height": 120
     },
     {
       "id": "542ccfc351587270",
@@ -94,6 +66,43 @@
       "y": -780,
       "width": 260,
       "height": 511
+    },
+    {
+      "id": "ea540e97b31fba9d",
+      "type": "text",
+      "text": "##### Legge di Stevino\nLa differenza di pressione tra due punti di un fluido in equilibrio è data dalla pressione esercitata dalla colonna di fluido di altezza $h$, uguale alla differenza di quota tra i due punti:\n$$ p_{2} - p_{1} = \\delta gh $$\n",
+      "x": 1317,
+      "y": 149,
+      "width": 480,
+      "height": 239,
+      "color": "3"
+    },
+    {
+      "id": "59455f609f5e932a",
+      "type": "text",
+      "text": "##### Superfici isobare\nSuperfici con la stessa pressione sono isobare",
+      "x": 1412,
+      "y": 508,
+      "width": 290,
+      "height": 120
+    },
+    {
+      "id": "2713679c2e714ea1",
+      "x": 403,
+      "y": 149,
+      "width": 260,
+      "height": 120,
+      "type": "text",
+      "text": "##### [[forze di superficie|🔗]] forze di superficie"
+    },
+    {
+      "id": "9b82c2344dbc2850",
+      "type": "text",
+      "text": "##### [[Pressione|🔗]] Pressione\n$$ p= \\frac{F_{n}}{S} = \\left|\\vec{F} \\cdot \\frac{\\hat{n}}{S} \\right | $$\nSi misura in pascal $\\frac{N}{m^2}$",
+      "x": 860,
+      "y": 130,
+      "width": 260,
+      "height": 159
     }
   ],
   "edges": [
@@ -102,13 +111,6 @@
       "fromNode": "64fc0e009892d7ca",
       "fromSide": "right",
       "toNode": "219b21592cb21914",
-      "toSide": "left"
-    },
-    {
-      "id": "b539fc0d7924b6e8",
-      "fromNode": "64fc0e009892d7ca",
-      "fromSide": "right",
-      "toNode": "9b82c2344dbc2850",
       "toSide": "left"
     },
     {
@@ -152,6 +154,13 @@
       "fromSide": "bottom",
       "toNode": "542ccfc351587270",
       "toSide": "top"
+    },
+    {
+      "id": "45f017e1efe98da4",
+      "fromNode": "64fc0e009892d7ca",
+      "fromSide": "right",
+      "toNode": "2713679c2e714ea1",
+      "toSide": "left"
     }
   ],
   "metadata": {}
