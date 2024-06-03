@@ -33,6 +33,8 @@ Quindi superfici isobare sono dette equipotenziali (e viceversa)
 ```anki
 id: 1705511621826
 deck: Fisica
+tags:
+- fluidostatica
 ---
 Legge di stevino
 ===
@@ -40,3 +42,4 @@ La differenza di pressione tra due punti di un fluido in equilibrio è data dall
 
 Le superfici con la medesima pressioen sono dette isobare
 ```
+

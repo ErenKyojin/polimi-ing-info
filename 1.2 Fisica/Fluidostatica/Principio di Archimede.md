@@ -24,6 +24,8 @@ Il principio di Archimede afferma che un corpo immerso in un fluido riceve una s
 ```anki
 id: 1705511621775
 deck: Fisica
+tags:
+- fluidostatica
 ---
 Principio di archimede
 ===

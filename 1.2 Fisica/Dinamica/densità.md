@@ -20,6 +20,8 @@ $$ M = \iiint_{V} \delta(\vec{r})\ \d V ; \frac{1}{m} \iiint_{V} \vec{r} \delta(
 ```anki
 id: 1705511622400
 deck: Fisica
+tags:
+- fluidostatica
 ---
 densità
 ===

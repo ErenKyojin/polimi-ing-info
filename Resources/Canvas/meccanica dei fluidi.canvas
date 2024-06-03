@@ -14,7 +14,7 @@
     {
       "id": "35e907f343592613",
       "type": "text",
-      "text": "##### Forze di volume\n$$ d\\vec{F} = \\vec{P}\\d V $$",
+      "text": "##### Forze di volume\n$$ d\\vec{F} = \\vec{P}\\d V = \\delta \\vec{g}dV$$",
       "x": 403,
       "y": -40,
       "width": 260,
@@ -70,7 +70,7 @@
     {
       "id": "542ccfc351587270",
       "type": "text",
-      "text": "##### [[princi]] Principio di Archimede\nUn corpo immerso in un fludo riceve una spinta dal basso verso l'alto pari al peso del volume del fluido spostato. La spinta è applicata al centro di massa del fluido spostato, detto centro di spinta. ",
+      "text": "##### [[Principio di Archimede|🔗]] Principio di Archimede\nUn corpo immerso in un fludo riceve una spinta dal basso verso l'alto pari al peso del volume del fluido spostato. La spinta è applicata al centro di massa del fluido spostato, detto centro di spinta. ",
       "x": -220,
       "y": 388,
       "width": 420,
