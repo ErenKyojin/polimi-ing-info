@@ -23,7 +23,7 @@
     {
       "id": "219b21592cb21914",
       "type": "text",
-      "text": "##### Densità\n$$\\delta = \\frac{m}{V}$$",
+      "text": "##### [[densità|🔗]]  Densità\n$$\\delta = \\frac{m}{V}$$",
       "x": 403,
       "y": -200,
       "width": 260,
@@ -70,7 +70,7 @@
     {
       "id": "542ccfc351587270",
       "type": "text",
-      "text": "##### Principio di Archimede\nUn corpo immerso in un fludo riceve una spinta dal basso verso l'alto pari al peso del volume del fluido spostato. La spinta è applicata al centro di massa del fluido spostato, detto centro di spinta. ",
+      "text": "##### [[princi]] Principio di Archimede\nUn corpo immerso in un fludo riceve una spinta dal basso verso l'alto pari al peso del volume del fluido spostato. La spinta è applicata al centro di massa del fluido spostato, detto centro di spinta. ",
       "x": -220,
       "y": 388,
       "width": 420,

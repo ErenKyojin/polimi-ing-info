@@ -37,6 +37,15 @@ tags:
 ---
 fluido
 ===
-
+Un fluido è una sostanza o liquida o gassosa, che può conservare la forma del contenitore in cui è inserito
 ```
-<% tp.file.cursor(3) %>
+
+
+```anki
+deck: fosoca
+tags:
+- fluidostatica
+---
+caratteristica dei fluidi in fase liquida è l'essere ~~incomprimibili~~
+```
+
