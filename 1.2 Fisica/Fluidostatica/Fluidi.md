@@ -26,3 +26,17 @@ $$ \d \vec{F} = \vec{P} \d V $$
 
 Consideriamo un elemento infinitesimo $\d m$ di fluido sottoposto alla propria forza peso, possiamo scrivere che
 $$ d \vec{F} = \delta \vec{g} d V $$
+
+
+# ANKI
+
+```anki
+deck: fisica
+tags:
+- fluidostatica
+---
+fluido
+===
+
+```
+<% tp.file.cursor(3) %>

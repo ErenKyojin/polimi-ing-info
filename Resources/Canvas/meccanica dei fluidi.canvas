@@ -3,7 +3,7 @@
     {
       "id": "64fc0e009892d7ca",
       "type": "text",
-      "text": "##### Fluido\nMateriale liquido o areiforme",
+      "text": "##### [[Fluidi|🔗]] Fluido \nMateriale liquido o areiforme",
       "shape": "oval",
       "isStartNode": true,
       "x": -140,
@@ -88,12 +88,12 @@
     },
     {
       "id": "0ab08a9c3f66a3b2",
+      "type": "text",
+      "text": "#### Concetti chiave\n- Forze di volume e forze di pressione\n- ",
       "x": -620,
       "y": -780,
       "width": 260,
-      "height": 511,
-      "type": "text",
-      "text": "#### Concetti chiave\n- Forze di volume e forze di pressione\n- "
+      "height": 511
     }
   ],
   "edges": [

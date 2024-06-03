@@ -1,6 +1,8 @@
 
 ```anki
 deck: <% tp.file.cursor(0) %>
+tags:
+- <%$
 ---
 <% tp.file.cursor(1) %>
 ===
