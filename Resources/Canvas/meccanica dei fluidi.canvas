@@ -88,12 +88,12 @@
     },
     {
       "id": "2713679c2e714ea1",
+      "type": "text",
+      "text": "##### [[forze di superficie|🔗]] forze di superficie",
       "x": 403,
       "y": 149,
       "width": 260,
-      "height": 120,
-      "type": "text",
-      "text": "##### [[forze di superficie|🔗]] forze di superficie"
+      "height": 120
     },
     {
       "id": "9b82c2344dbc2850",
