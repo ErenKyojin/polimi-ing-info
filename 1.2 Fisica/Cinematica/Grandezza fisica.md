@@ -1,3 +1,8 @@
+---
+alias: grandezze fisiche
+---
+
+
 >[!definition] Grandezza fisica (classe di grandezze fisiche)
 >Quando possiamo individuare un [[insieme]] di enti tra i quali possiamo stabilire:
 >- una relazione d'ordine
