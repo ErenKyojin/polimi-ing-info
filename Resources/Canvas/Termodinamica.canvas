@@ -29,33 +29,6 @@
       "height": 200
     },
     {
-      "id": "3c4e3d6b7450d6ae",
-      "type": "text",
-      "text": "##### Sistema isolato",
-      "x": -1020,
-      "y": -160,
-      "width": 260,
-      "height": 130
-    },
-    {
-      "id": "e492101b4bfc408f",
-      "type": "text",
-      "text": "##### Sistema chiuso\nSistema che scambia energia con l'ambiente",
-      "x": -1400,
-      "y": -160,
-      "width": 260,
-      "height": 130
-    },
-    {
-      "id": "b35fe90c68ca83a6",
-      "type": "text",
-      "text": "##### Sistema aperto\nSistema che scambia energia e materia con ambiente",
-      "x": -1740,
-      "y": -160,
-      "width": 260,
-      "height": 130
-    },
-    {
       "id": "5f18ae3e7c1553ba",
       "x": -450,
       "y": -560,
@@ -72,6 +45,33 @@
       "height": 160,
       "type": "text",
       "text": "##### Stato termodinamico\nStato descritto dalle coordinate termodinamiche, ad uno stato termodinamico corrispondono uno o più stati meccanici"
+    },
+    {
+      "id": "3c4e3d6b7450d6ae",
+      "type": "text",
+      "text": "##### Sistema isolato",
+      "x": -1100,
+      "y": -360,
+      "width": 260,
+      "height": 130
+    },
+    {
+      "id": "e492101b4bfc408f",
+      "type": "text",
+      "text": "##### Sistema chiuso\nSistema che scambia energia con l'ambiente",
+      "x": -1100,
+      "y": -140,
+      "width": 260,
+      "height": 130
+    },
+    {
+      "id": "b35fe90c68ca83a6",
+      "type": "text",
+      "text": "##### Sistema aperto\nSistema che scambia energia e materia con ambiente",
+      "x": -1100,
+      "y": 80,
+      "width": 260,
+      "height": 130
     }
   ],
   "edges": [
@@ -97,48 +97,6 @@
       "toSide": "left"
     },
     {
-      "id": "9cfd655fad5f2d9b",
-      "fromNode": "b507d83a51966d9f",
-      "fromSide": "left",
-      "toNode": "3c4e3d6b7450d6ae",
-      "toSide": "right"
-    },
-    {
-      "id": "fa467a4729e4aeb0",
-      "fromNode": "fb56f788248145e1",
-      "fromSide": "left",
-      "toNode": "3c4e3d6b7450d6ae",
-      "toSide": "bottom"
-    },
-    {
-      "id": "baea9c2b3c10dd4c",
-      "fromNode": "b507d83a51966d9f",
-      "fromSide": "left",
-      "toNode": "e492101b4bfc408f",
-      "toSide": "top"
-    },
-    {
-      "id": "79c9ef563e9987f5",
-      "fromNode": "fb56f788248145e1",
-      "fromSide": "left",
-      "toNode": "e492101b4bfc408f",
-      "toSide": "bottom"
-    },
-    {
-      "id": "3e770cc1397dedce",
-      "fromNode": "fb56f788248145e1",
-      "fromSide": "left",
-      "toNode": "b35fe90c68ca83a6",
-      "toSide": "bottom"
-    },
-    {
-      "id": "9fb60f579332fc36",
-      "fromNode": "b507d83a51966d9f",
-      "fromSide": "top",
-      "toNode": "b35fe90c68ca83a6",
-      "toSide": "top"
-    },
-    {
       "id": "ba3104b68ef74ebb",
       "fromNode": "b507d83a51966d9f",
       "fromSide": "top",
@@ -151,6 +109,51 @@
       "fromSide": "top",
       "toNode": "a1520f6f9a947672",
       "toSide": "bottom"
+    },
+    {
+      "id": "b2954f5bd4830bab",
+      "fromNode": "b507d83a51966d9f",
+      "fromSide": "left",
+      "toNode": "3c4e3d6b7450d6ae",
+      "toSide": "right"
+    },
+    {
+      "id": "fa778040d405fda3",
+      "fromNode": "b507d83a51966d9f",
+      "fromSide": "left",
+      "toNode": "e492101b4bfc408f",
+      "toSide": "right"
+    },
+    {
+      "id": "04e61fb67755e2f0",
+      "fromNode": "b507d83a51966d9f",
+      "fromSide": "left",
+      "toNode": "b35fe90c68ca83a6",
+      "toSide": "right"
+    },
+    {
+      "id": "b0afc729b0fc8bc0",
+      "fromNode": "fb56f788248145e1",
+      "fromSide": "left",
+      "toNode": "b35fe90c68ca83a6",
+      "toSide": "right",
+      "color": "4"
+    },
+    {
+      "id": "5dfc93f603ffe581",
+      "fromNode": "fb56f788248145e1",
+      "fromSide": "left",
+      "toNode": "e492101b4bfc408f",
+      "toSide": "right",
+      "color": "4"
+    },
+    {
+      "id": "f26548d17ea66643",
+      "fromNode": "fb56f788248145e1",
+      "fromSide": "left",
+      "toNode": "3c4e3d6b7450d6ae",
+      "toSide": "right",
+      "color": "4"
     }
   ],
   "metadata": {}
