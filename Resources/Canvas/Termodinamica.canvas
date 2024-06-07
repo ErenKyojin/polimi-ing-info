@@ -54,6 +54,24 @@
       "y": -160,
       "width": 260,
       "height": 130
+    },
+    {
+      "id": "5f18ae3e7c1553ba",
+      "x": -450,
+      "y": -560,
+      "width": 310,
+      "height": 200,
+      "type": "text",
+      "text": "##### Coordinate termodinamiche\nVariabili estensive ed intensive che descrivono il sistema\n"
+    },
+    {
+      "id": "a1520f6f9a947672",
+      "x": -450,
+      "y": -840,
+      "width": 310,
+      "height": 160,
+      "type": "text",
+      "text": "##### Stato termodinamico\nStato descritto dalle coordinate termodinamiche, ad uno stato termodinamico corrispondono uno o più stati meccanici"
     }
   ],
   "edges": [
@@ -119,6 +137,20 @@
       "fromSide": "top",
       "toNode": "b35fe90c68ca83a6",
       "toSide": "top"
+    },
+    {
+      "id": "ba3104b68ef74ebb",
+      "fromNode": "b507d83a51966d9f",
+      "fromSide": "top",
+      "toNode": "5f18ae3e7c1553ba",
+      "toSide": "bottom"
+    },
+    {
+      "id": "b742e4d27f9d3554",
+      "fromNode": "5f18ae3e7c1553ba",
+      "fromSide": "top",
+      "toNode": "a1520f6f9a947672",
+      "toSide": "bottom"
     }
   ],
   "metadata": {}

@@ -19,7 +19,7 @@ Un sistema termodinamico può essere:
 
 ![[coordinate termodinamice#^3304fb]]
 
-Un sistema termodinamico è descritto tramite una serie di [[Grandezza fisica|grandezze fisiche]] misurabili dette [[coordinate termodinamice]].
+Un sistema termodinamico è descritto tramite una serie di [[Grandezza fisica|grandezze fisiche]] misurabili dette [[coordinate termodinamice]] che ne definiscono lo [[stato termodinamico]]
 # ANKI
 
 ```anki
