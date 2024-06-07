@@ -7,18 +7,22 @@ modification date: 2023-07-07 09:14
 >[!definition] coordinate termodinamiche
 >un sistema termodinamico è descritto da variabili macroscopiche dette coordinate termodinamiche.
 >Esistono due tipi di coordinate termodinamiche:
->- Intensive: Sono di carattere locale e non dipendono dalle dimensioni
->	- Pressione
->	- Temperatura
+>- Intensive: Sono di carattere locale (dipendono dal punto di misurazione) e non dipendono dalle dimensioni
+>	- [[Pressione]]
+>	- [[Temperatura]]
 >	- ...
 >- Estensive: Carattere globale, proporzionali alle dimensioni e quindi con caratteristiche additiva
->	- massa
->	- volume
+>	- [[massa]]
+>	- [[volume]]
 >
->Se le coordinate termodinamiche sono costanti allora il sistema termodinamico si dice in [[Equilibrio]]
-
+>Se le coordinate termodinamiche sono costanti allora il sistema termodinamico si dice in 
 ^3304fb
 
+[[Equilibrio]]
+
+
+>[!esempio]
+>Lo stato di un gas ideale è descritto tramite pressione, volume e termperatura dall'[[equazione di stato dei gas perfetti]] 
 # ANKI
 
 
