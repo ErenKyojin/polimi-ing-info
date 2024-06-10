@@ -72,6 +72,15 @@
       "y": 80,
       "width": 260,
       "height": 130
+    },
+    {
+      "id": "23d856bd79c32be4",
+      "x": 40,
+      "y": -840,
+      "width": 260,
+      "height": 160,
+      "type": "text",
+      "text": "##### Stato di equilibrio"
     }
   ],
   "edges": [
@@ -154,6 +163,13 @@
       "toNode": "3c4e3d6b7450d6ae",
       "toSide": "right",
       "color": "4"
+    },
+    {
+      "id": "c13528b06bcf8fb3",
+      "fromNode": "a1520f6f9a947672",
+      "fromSide": "right",
+      "toNode": "23d856bd79c32be4",
+      "toSide": "left"
     }
   ],
   "metadata": {}
