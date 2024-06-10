@@ -30,21 +30,21 @@
     },
     {
       "id": "5f18ae3e7c1553ba",
+      "type": "text",
+      "text": "##### Coordinate termodinamiche\nVariabili estensive ed intensive che descrivono il sistema\n",
       "x": -450,
       "y": -560,
       "width": 310,
-      "height": 200,
-      "type": "text",
-      "text": "##### Coordinate termodinamiche\nVariabili estensive ed intensive che descrivono il sistema\n"
+      "height": 200
     },
     {
       "id": "a1520f6f9a947672",
+      "type": "text",
+      "text": "##### Stato termodinamico\nStato descritto dalle coordinate termodinamiche, ad uno stato termodinamico corrispondono uno o più stati meccanici",
       "x": -450,
       "y": -840,
       "width": 310,
-      "height": 160,
-      "type": "text",
-      "text": "##### Stato termodinamico\nStato descritto dalle coordinate termodinamiche, ad uno stato termodinamico corrispondono uno o più stati meccanici"
+      "height": 160
     },
     {
       "id": "3c4e3d6b7450d6ae",
