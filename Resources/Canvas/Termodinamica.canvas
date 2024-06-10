@@ -1,6 +1,15 @@
 {
   "nodes": [
     {
+      "id": "7146e359a1b3ad2d",
+      "x": -3240,
+      "y": -3280,
+      "width": 1215,
+      "height": 725,
+      "type": "group",
+      "label": "Cambiamenti di fase"
+    },
+    {
       "id": "a51d00b7a865f127",
       "type": "group",
       "x": -2480,
@@ -251,30 +260,30 @@
     },
     {
       "id": "e64d1b4df8dc4ec8",
+      "type": "text",
+      "text": "##### Trasferimento di calore di due corpi a contatto\nSappiamo che i calori sono\n$$ Q_{1} = -Q_{2} $$\nquindi\n$$ mc(T_{e} - T_{1}) = -mc(T_{e} - T_{2}) $$",
       "x": -3040,
       "y": -566,
       "width": 260,
-      "height": 251,
-      "type": "text",
-      "text": "##### Trasferimento di calore di due corpi a contatto\nSappiamo che i calori sono\n$$ Q_{1} = -Q_{2} $$\nquindi\n$$ mc(T_{e} - T_{1}) = -mc(T_{e} - T_{2}) $$"
+      "height": 251
     },
     {
       "id": "d1cde84877befb4d",
+      "type": "text",
+      "text": "##### Capacità termica\n$$C = mc$$",
       "x": -1880,
       "y": -90,
       "width": 260,
-      "height": 80,
-      "type": "text",
-      "text": "##### Capacità termica\n$$C = mc$$"
+      "height": 80
     },
     {
       "id": "830db8c5a7080642",
+      "type": "text",
+      "text": "##### Calore specifico molare\n$$c = \\frac{1}{n} \\frac{dQ}{dT}$$\n\n- $dQ = ncdT$\n- $Q = nc(T_{2} - T_{1})$\n- $Q = n\\int _{T_{1}}^{T_{2}} \\!< \\, \\mathrm{d}x$",
       "x": -1480,
       "y": -472,
       "width": 260,
-      "height": 225,
-      "type": "text",
-      "text": "##### Calore specifico molare\n$$c = \\frac{1}{n} \\frac{dQ}{dT}$$\n\n- $dQ = ncdT$\n- $Q = nc(T_{2} - T_{1})$\n- $Q = n\\int _{T_{1}}^{T_{2}} \\!< \\, \\mathrm{d}x$"
+      "height": 225
     },
     {
       "id": "21d0a34f938c6532",
@@ -290,18 +299,88 @@
       "type": "text",
       "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n",
       "x": -663,
-      "y": -2620,
+      "y": -2600,
       "width": 360,
-      "height": 440
+      "height": 400
     },
     {
-      "id": "2e0f75937bbeb90a",
+      "id": "f1c9088658348e88",
       "type": "text",
-      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n",
-      "x": -663,
-      "y": -3200,
-      "width": 360,
-      "height": 440
+      "text": "Solido",
+      "shape": "oval",
+      "x": -3220,
+      "y": -2934,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "942cd163fc8bc244",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -2985,
+      "y": -3260,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "bfaaa82aeb96b950",
+      "type": "text",
+      "text": "Liquido",
+      "shape": "oval",
+      "x": -2725,
+      "y": -2934,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "91cc51cc4c19ecf8",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -2330,
+      "y": -3260,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "97c8ffe16bcfa313",
+      "type": "text",
+      "text": "Gassoso",
+      "shape": "oval",
+      "x": -2305,
+      "y": -2934,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "eef96245d5ad01a6",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -2985,
+      "y": -2625,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "5846e94abe25ac1e",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -2330,
+      "y": -2625,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "0613b706aa2630a6",
+      "type": "text",
+      "text": "##### Cambiamenti di fase\nI cambiamenti di fase sono processi isotermi che avvengono a temperatura e pressione determinate.\nDurante un cambiamento di fase a pressione costante la temperatura rimane costante, il calore è utilizzato per compiere la trasformazione\n$$ Q = m\\lambda $$",
+      "x": -1740,
+      "y": -3119,
+      "width": 260,
+      "height": 399
     }
   ],
   "edges": [
@@ -568,6 +647,104 @@
       "fromSide": "right",
       "toNode": "830db8c5a7080642",
       "toSide": "left"
+    },
+    {
+      "id": "a5e4a3312ab74dbc",
+      "fromNode": "97c8ffe16bcfa313",
+      "fromSide": "bottom",
+      "toNode": "bfaaa82aeb96b950",
+      "toSide": "bottom",
+      "color": "5",
+      "label": "Condensazione"
+    },
+    {
+      "id": "15d83d2002f785cb",
+      "fromNode": "bfaaa82aeb96b950",
+      "fromSide": "bottom",
+      "toNode": "f1c9088658348e88",
+      "toSide": "bottom",
+      "color": "5",
+      "label": "Solidificazione"
+    },
+    {
+      "id": "89e73a976ca35780",
+      "fromNode": "bfaaa82aeb96b950",
+      "fromSide": "top",
+      "toNode": "97c8ffe16bcfa313",
+      "toSide": "top",
+      "color": "1",
+      "label": "Evaporazione"
+    },
+    {
+      "id": "269fcb6af7b7d89a",
+      "fromNode": "f1c9088658348e88",
+      "fromSide": "top",
+      "toNode": "942cd163fc8bc244",
+      "toSide": "left",
+      "toEnd": "none",
+      "color": "1"
+    },
+    {
+      "id": "b694d77488c85c78",
+      "fromNode": "942cd163fc8bc244",
+      "fromSide": "right",
+      "toNode": "91cc51cc4c19ecf8",
+      "toSide": "left",
+      "toEnd": "none",
+      "color": "1",
+      "label": "sublimazione"
+    },
+    {
+      "id": "b13f9782e979df9e",
+      "fromNode": "91cc51cc4c19ecf8",
+      "fromSide": "right",
+      "toNode": "97c8ffe16bcfa313",
+      "toSide": "top",
+      "toEnd": "none",
+      "color": "1"
+    },
+    {
+      "id": "30906a6d5ca469dc",
+      "fromNode": "eef96245d5ad01a6",
+      "fromSide": "right",
+      "toNode": "5846e94abe25ac1e",
+      "toSide": "left",
+      "toEnd": "none",
+      "color": "5",
+      "label": "brinamento"
+    },
+    {
+      "id": "0bb9825df2f56c43",
+      "fromNode": "97c8ffe16bcfa313",
+      "fromSide": "bottom",
+      "toNode": "5846e94abe25ac1e",
+      "toSide": "right",
+      "toEnd": "none",
+      "color": "5"
+    },
+    {
+      "id": "92b7fa7e8f3c8454",
+      "fromNode": "eef96245d5ad01a6",
+      "fromSide": "left",
+      "toNode": "f1c9088658348e88",
+      "toSide": "bottom",
+      "color": "5"
+    },
+    {
+      "id": "8bec63ab45e2baa3",
+      "fromNode": "f1c9088658348e88",
+      "fromSide": "top",
+      "toNode": "bfaaa82aeb96b950",
+      "toSide": "top",
+      "color": "1",
+      "label": "Fusione"
+    },
+    {
+      "id": "e3db1699b4e82a32",
+      "fromNode": "0613b706aa2630a6",
+      "fromSide": "left",
+      "toNode": "7146e359a1b3ad2d",
+      "toSide": "right"
     }
   ],
   "metadata": {}
