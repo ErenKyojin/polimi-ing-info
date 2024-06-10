@@ -5,7 +5,7 @@
       "type": "text",
       "text": "##### Sistema termodinamico\nSistema formato da $N \\approx 10^{23}$ particelle, descritto tramite velocità, energia cinetica e grandezze meccaniche.",
       "shape": "oval",
-      "isStartNode": false,
+      "isStartNode": true,
       "x": -200,
       "y": -160,
       "width": 340,
@@ -61,7 +61,7 @@
       "id": "a1520f6f9a947672",
       "type": "text",
       "text": "##### Stato termodinamico\nStato descritto dalle coordinate termodinamiche, ad uno stato termodinamico corrispondono uno o più stati meccanici",
-      "isStartNode": true,
+      "isStartNode": false,
       "x": -690,
       "y": -740,
       "width": 310,
@@ -168,23 +168,16 @@
     },
     {
       "id": "289cd0dc846d22c5",
+      "type": "text",
+      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$\n- L'energia interna $\\Delta U$ è una funzione di stato, sempre uguali per trasformazioni tra due stati di equilibrio\n- L'energia fornita o come calore o come lavoro viene immagazzinata nel sistema nella forma di energia interna\n- L'energia non dipende dallo stato di moto del sistema ma da temperatura pressione e volume del sistema stesso.",
       "x": -1580,
       "y": -1400,
       "width": 460,
       "height": 360,
-      "color": "3",
-      "type": "text",
-      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$\n- L'energia interna $\\Delta U$ è una funzione di stato, sempre uguali per trasformazioni tra due stati di equilibrio\n- L'energia fornita o come calore o come lavoro viene immagazzinata nel sistema nella forma di energia interna\n- L'energia non dipende dallo stato di moto del sistema ma da temperatura pressione e volume del sistema stesso."
+      "color": "3"
     }
   ],
   "edges": [
-    {
-      "id": "96be455552ddc5c3",
-      "fromNode": "b507d83a51966d9f",
-      "fromSide": "bottom",
-      "toNode": "b239749dc574c103",
-      "toSide": "top"
-    },
     {
       "id": "ba3104b68ef74ebb",
       "fromNode": "b507d83a51966d9f",
@@ -341,6 +334,13 @@
       "fromSide": "left",
       "toNode": "289cd0dc846d22c5",
       "toSide": "right"
+    },
+    {
+      "id": "96be455552ddc5c3",
+      "fromNode": "b507d83a51966d9f",
+      "fromSide": "bottom",
+      "toNode": "b239749dc574c103",
+      "toSide": "top"
     }
   ],
   "metadata": {}
