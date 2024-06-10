@@ -226,7 +226,7 @@
       "type": "text",
       "text": "S",
       "shape": "circle",
-      "x": -2424,
+      "x": -2420,
       "y": -1320,
       "width": 200,
       "height": 200
@@ -403,7 +403,8 @@
       "fromSide": "top",
       "toNode": "0e3f0183674a0519",
       "toSide": "bottom",
-      "color": "4"
+      "color": "4",
+      "label": "prod"
     },
     {
       "id": "ed660076129d31bc",
@@ -411,7 +412,8 @@
       "fromSide": "bottom",
       "toNode": "189c0247b8c3bb8d",
       "toSide": "top",
-      "color": "1"
+      "color": "1",
+      "label": "abs"
     },
     {
       "id": "7c330124a2f8d7b0",
@@ -419,7 +421,8 @@
       "fromSide": "bottom",
       "toNode": "e820fe4f1997ad82",
       "toSide": "top",
-      "color": "4"
+      "color": "4",
+      "label": "prod"
     },
     {
       "id": "31c8c732ff339c04",
@@ -427,7 +430,8 @@
       "fromSide": "top",
       "toNode": "189c0247b8c3bb8d",
       "toSide": "bottom",
-      "color": "1"
+      "color": "1",
+      "label": "abs"
     },
     {
       "id": "7c4fb3550dead188",
