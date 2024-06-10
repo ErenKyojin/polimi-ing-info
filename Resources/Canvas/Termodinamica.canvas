@@ -1,24 +1,6 @@
 {
   "nodes": [
     {
-      "id": "fb56f788248145e1",
-      "type": "text",
-      "text": "##### Ambiente\nAll'esterno dei confini del sistema termodinamico vi è l'**ambiente**. ",
-      "x": -580,
-      "y": 160,
-      "width": 260,
-      "height": 200
-    },
-    {
-      "id": "b239749dc574c103",
-      "type": "text",
-      "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente",
-      "x": -200,
-      "y": 160,
-      "width": 340,
-      "height": 200
-    },
-    {
       "id": "b507d83a51966d9f",
       "type": "text",
       "text": "##### Sistema termodinamico\nSistema formato da $N \\approx 10^{23}$ particelle, descritto tramite velocità, energia cinetica e grandezze meccaniche.",
@@ -27,24 +9,6 @@
       "y": -160,
       "width": 340,
       "height": 200
-    },
-    {
-      "id": "5f18ae3e7c1553ba",
-      "type": "text",
-      "text": "##### Coordinate termodinamiche\nVariabili estensive ed intensive che descrivono il sistema\n",
-      "x": -450,
-      "y": -560,
-      "width": 310,
-      "height": 120
-    },
-    {
-      "id": "a1520f6f9a947672",
-      "type": "text",
-      "text": "##### Stato termodinamico\nStato descritto dalle coordinate termodinamiche, ad uno stato termodinamico corrispondono uno o più stati meccanici",
-      "x": -450,
-      "y": -840,
-      "width": 310,
-      "height": 160
     },
     {
       "id": "3c4e3d6b7450d6ae",
@@ -74,13 +38,67 @@
       "height": 130
     },
     {
+      "id": "6fa4886de29ae25a",
+      "x": -170,
+      "y": -1120,
+      "width": 280,
+      "height": 180,
+      "type": "text",
+      "text": "##### Equazione di stato\nIn uno stato di equilibrio esiste relazione tra coordinate termodinamiche, espressa come equazione di stato"
+    },
+    {
+      "id": "6ed75884c347043f",
+      "x": 360,
+      "y": -856,
+      "width": 320,
+      "height": 393,
+      "type": "text",
+      "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche"
+    },
+    {
       "id": "23d856bd79c32be4",
       "type": "text",
       "text": "##### Stato di equilibrio\nUn sistema è detto in stato di equilibrio quando le coordinate termodinamiche che lo descrivono sono costanti nel tempo.\nPer l'equilibrio termico devono verificarsi\n- equilibrio meccanico\n- equilibrio chimico\n- equilibrio termico",
-      "x": 40,
-      "y": -927,
+      "x": -200,
+      "y": -808,
+      "width": 340,
+      "height": 297
+    },
+    {
+      "id": "5f18ae3e7c1553ba",
+      "type": "text",
+      "text": "##### Coordinate termodinamiche\nVariabili estensive ed intensive che descrivono il sistema\n",
+      "x": -690,
+      "y": -420,
+      "width": 310,
+      "height": 120
+    },
+    {
+      "id": "a1520f6f9a947672",
+      "type": "text",
+      "text": "##### Stato termodinamico\nStato descritto dalle coordinate termodinamiche, ad uno stato termodinamico corrispondono uno o più stati meccanici",
+      "x": -690,
+      "y": -740,
+      "width": 310,
+      "height": 160
+    },
+    {
+      "id": "b239749dc574c103",
+      "type": "text",
+      "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente",
+      "x": -200,
+      "y": 260,
+      "width": 340,
+      "height": 200
+    },
+    {
+      "id": "fb56f788248145e1",
+      "type": "text",
+      "text": "##### Ambiente\nAll'esterno dei confini del sistema termodinamico vi è l'**ambiente**. ",
+      "x": -580,
+      "y": 260,
       "width": 260,
-      "height": 335
+      "height": 200
     }
   ],
   "edges": [
@@ -177,6 +195,20 @@
       "fromSide": "right",
       "toNode": "23d856bd79c32be4",
       "toSide": "bottom"
+    },
+    {
+      "id": "540115bf64e19454",
+      "fromNode": "23d856bd79c32be4",
+      "fromSide": "top",
+      "toNode": "6fa4886de29ae25a",
+      "toSide": "bottom"
+    },
+    {
+      "id": "6be2573bb252b3a5",
+      "fromNode": "23d856bd79c32be4",
+      "fromSide": "right",
+      "toNode": "6ed75884c347043f",
+      "toSide": "left"
     }
   ],
   "metadata": {}
