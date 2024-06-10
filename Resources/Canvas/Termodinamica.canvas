@@ -38,24 +38,6 @@
       "height": 130
     },
     {
-      "id": "6fa4886de29ae25a",
-      "x": -170,
-      "y": -1120,
-      "width": 280,
-      "height": 180,
-      "type": "text",
-      "text": "##### Equazione di stato\nIn uno stato di equilibrio esiste relazione tra coordinate termodinamiche, espressa come equazione di stato"
-    },
-    {
-      "id": "6ed75884c347043f",
-      "x": 360,
-      "y": -856,
-      "width": 320,
-      "height": 393,
-      "type": "text",
-      "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche"
-    },
-    {
       "id": "23d856bd79c32be4",
       "type": "text",
       "text": "##### Stato di equilibrio\nUn sistema è detto in stato di equilibrio quando le coordinate termodinamiche che lo descrivono sono costanti nel tempo.\nPer l'equilibrio termico devono verificarsi\n- equilibrio meccanico\n- equilibrio chimico\n- equilibrio termico",
@@ -87,7 +69,7 @@
       "type": "text",
       "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente",
       "x": -200,
-      "y": 260,
+      "y": 210,
       "width": 340,
       "height": 200
     },
@@ -96,19 +78,48 @@
       "type": "text",
       "text": "##### Ambiente\nAll'esterno dei confini del sistema termodinamico vi è l'**ambiente**. ",
       "x": -580,
-      "y": 260,
+      "y": 210,
       "width": 260,
       "height": 200
+    },
+    {
+      "id": "6fa4886de29ae25a",
+      "type": "text",
+      "text": "##### Equazione di stato\nIn uno stato di equilibrio esiste relazione tra coordinate termodinamiche, espressa come equazione di stato",
+      "x": -170,
+      "y": -1140,
+      "width": 280,
+      "height": 180
+    },
+    {
+      "id": "6ed75884c347043f",
+      "type": "text",
+      "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
+      "x": 320,
+      "y": -1246,
+      "width": 320,
+      "height": 393
+    },
+    {
+      "id": "a770540933eccddf",
+      "type": "text",
+      "text": "##### Equilibrio termico\nDue sistemi sono in equilibrio termico quando hanno la stessa temperatura",
+      "x": 350,
+      "y": -764,
+      "width": 260,
+      "height": 209
+    },
+    {
+      "id": "0a0bbf6cbeb2f59a",
+      "x": 780,
+      "y": -1246,
+      "width": 300,
+      "height": 393,
+      "type": "text",
+      "text": "##### Ottenimento equilibrio termico\nPer ottenere l'equilibrio termico per due corpi si possono mettere a contatto tramite una parete **diatermica**, una parete detta invece adiabatica non permetterebbe il raggiungimento dell'equilibrio e le temperature."
     }
   ],
   "edges": [
-    {
-      "id": "8d4a1d5ccd81e897",
-      "fromNode": "b507d83a51966d9f",
-      "fromSide": "left",
-      "toNode": "fb56f788248145e1",
-      "toSide": "top"
-    },
     {
       "id": "96be455552ddc5c3",
       "fromNode": "b507d83a51966d9f",
@@ -208,6 +219,27 @@
       "fromNode": "23d856bd79c32be4",
       "fromSide": "right",
       "toNode": "6ed75884c347043f",
+      "toSide": "left"
+    },
+    {
+      "id": "80b6b8022dcb3688",
+      "fromNode": "b507d83a51966d9f",
+      "fromSide": "bottom",
+      "toNode": "fb56f788248145e1",
+      "toSide": "top"
+    },
+    {
+      "id": "ea04109ffc8c57c9",
+      "fromNode": "23d856bd79c32be4",
+      "fromSide": "right",
+      "toNode": "a770540933eccddf",
+      "toSide": "left"
+    },
+    {
+      "id": "ba7ec7eb546974a2",
+      "fromNode": "a770540933eccddf",
+      "fromSide": "right",
+      "toNode": "0a0bbf6cbeb2f59a",
       "toSide": "left"
     }
   ],
