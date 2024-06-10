@@ -233,12 +233,12 @@
     },
     {
       "id": "863c7cc4559cc1e3",
-      "x": -180,
-      "y": -1920,
-      "width": 300,
-      "height": 184,
+      "x": -260,
+      "y": -2000,
+      "width": 360,
+      "height": 360,
       "type": "text",
-      "text": "##### Trasformazioni adiabatiche"
+      "text": "##### Trasformazioni adiabatiche\nIn una trasformazione adiabatica il calore scambiato è nullo, ossia $Q = 0$.\nUn sistema che compie solo trasformazioni adiabatiche è detto sistema adiabatico\nPer il primo principio\n$$ \\Delta U = -\\mathcal{L} $$"
     }
   ],
   "edges": [
