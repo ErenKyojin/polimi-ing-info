@@ -130,11 +130,29 @@
     {
       "id": "5147e5e538e6f38a",
       "x": 305,
-      "y": -525,
+      "y": -512,
       "width": 350,
-      "height": 385,
+      "height": 425,
       "type": "text",
-      "text": "##### Termometri\nNecessaria una grandezza $X$ che varia in base alla temperatura, questa grandezza è la caratteristica termometrica, e attraverso la funzione termometrica possiamo ottenere la temperatura.\nServe poi un sistema in equilibrio facilmente riproducibile, si sceglie solitamente il punto triplo dell'acqua a $273.16 \\text{ K}$. \nSe il termometro al punto triplo assume il valore $$"
+      "text": "##### Termometri\nNecessaria una grandezza $X$ che varia in base alla temperatura, questa grandezza è la caratteristica termometrica, e attraverso la funzione termometrica possiamo ottenere la temperatura.\nServe poi un sistema in equilibrio facilmente riproducibile, si sceglie solitamente il punto triplo dell'acqua a $273.16 \\text{ K}$. \nSe il termometro al punto triplo assume il valore $X_{p}$, la temperatura $T$ del termometro sarà:\n$$ T = 273.16 \\frac{X}{X_{p}} \\text{ K} $$"
+    },
+    {
+      "id": "d1ee802bd55f1780",
+      "x": 810,
+      "y": -209,
+      "width": 260,
+      "height": 99,
+      "type": "text",
+      "text": "##### Scala  Fahrenheit\n$$ t(^o\\text{F}) = \\frac{9}{5} T(\\text{K}) - 459.67 $$"
+    },
+    {
+      "id": "be3e96a9ee357f25",
+      "x": 810,
+      "y": -480,
+      "width": 260,
+      "height": 91,
+      "type": "text",
+      "text": "##### Scala celsius\n$$t(^o \\text{C}) = T(\\text{K}) - 273.15$$"
     }
   ],
   "edges": [
@@ -272,6 +290,20 @@
       "fromNode": "23d856bd79c32be4",
       "fromSide": "right",
       "toNode": "5147e5e538e6f38a",
+      "toSide": "left"
+    },
+    {
+      "id": "b622fb48e168907e",
+      "fromNode": "5147e5e538e6f38a",
+      "fromSide": "right",
+      "toNode": "be3e96a9ee357f25",
+      "toSide": "left"
+    },
+    {
+      "id": "82bed6398a765e9e",
+      "fromNode": "5147e5e538e6f38a",
+      "fromSide": "right",
+      "toNode": "d1ee802bd55f1780",
       "toSide": "left"
     }
   ],
