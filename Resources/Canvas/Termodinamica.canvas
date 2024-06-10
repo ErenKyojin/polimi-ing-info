@@ -241,15 +241,6 @@
       "height": 440
     },
     {
-      "id": "3e492fd47311be3d",
-      "type": "text",
-      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n",
-      "x": -663,
-      "y": -2620,
-      "width": 360,
-      "height": 440
-    },
-    {
       "id": "7307961fc0e3e8db",
       "type": "text",
       "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico.\n\nVale inoltre la relazione infinitesimale\n$$ dQ = mcdT $$\nquindi\n$$ Q = \\int dQ = m \\int _{T_{1}}^{T_{2}} \\! c(T) \\, \\mathrm{d}T $$",
@@ -257,24 +248,6 @@
       "y": -680,
       "width": 300,
       "height": 480
-    },
-    {
-      "id": "d1cde84877befb4d",
-      "x": -1880,
-      "y": -220,
-      "width": 260,
-      "height": 80,
-      "type": "text",
-      "text": "##### Capacità termica\n$$C = mc$$"
-    },
-    {
-      "id": "21d0a34f938c6532",
-      "type": "text",
-      "text": "##### Calore specifico\n$$ c = \\frac{1}{m} \\frac{dQ}{dT}  $$",
-      "x": -1880,
-      "y": -390,
-      "width": 260,
-      "height": 100
     },
     {
       "id": "e64d1b4df8dc4ec8",
@@ -286,13 +259,49 @@
       "text": "##### Trasferimento di calore di due corpi a contatto\nSappiamo che i calori sono\n$$ Q_{1} = -Q_{2} $$\nquindi\n$$ mc(T_{e} - T_{1}) = -mc(T_{e} - T_{2}) $$"
     },
     {
+      "id": "d1cde84877befb4d",
+      "x": -1880,
+      "y": -90,
+      "width": 260,
+      "height": 80,
+      "type": "text",
+      "text": "##### Capacità termica\n$$C = mc$$"
+    },
+    {
       "id": "830db8c5a7080642",
       "x": -1480,
-      "y": -452,
+      "y": -472,
       "width": 260,
       "height": 225,
       "type": "text",
       "text": "##### Calore specifico molare\n$$c = \\frac{1}{n} \\frac{dQ}{dT}$$\n\n- $dQ = ncdT$\n- $Q = nc(T_{2} - T_{1})$\n- $Q = n\\int _{T_{1}}^{T_{2}} \\!< \\, \\mathrm{d}x$"
+    },
+    {
+      "id": "21d0a34f938c6532",
+      "type": "text",
+      "text": "##### Calore specifico\n$$ c = \\frac{1}{m} \\frac{dQ}{dT}  $$\nquando il lavoro è nullo\n$$ c= \\frac{1}{m } \\frac{dU}{dT} $$",
+      "x": -1880,
+      "y": -466,
+      "width": 260,
+      "height": 213
+    },
+    {
+      "id": "3e492fd47311be3d",
+      "type": "text",
+      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n",
+      "x": -663,
+      "y": -2620,
+      "width": 360,
+      "height": 440
+    },
+    {
+      "id": "2e0f75937bbeb90a",
+      "type": "text",
+      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n",
+      "x": -663,
+      "y": -3200,
+      "width": 360,
+      "height": 440
     }
   ],
   "edges": [
