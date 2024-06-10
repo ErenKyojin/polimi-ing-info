@@ -21,15 +21,6 @@
       "height": 200
     },
     {
-      "id": "3c4e3d6b7450d6ae",
-      "type": "text",
-      "text": "##### Sistema isolato",
-      "x": -1100,
-      "y": -360,
-      "width": 260,
-      "height": 130
-    },
-    {
       "id": "e492101b4bfc408f",
       "type": "text",
       "text": "##### Sistema chiuso\nSistema che scambia energia con l'ambiente",
@@ -149,15 +140,6 @@
       "height": 91
     },
     {
-      "id": "e812c385eec6db1b",
-      "type": "text",
-      "text": "##### Equivalenza tra calore e lavoro in sistema adiabatico\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$",
-      "x": -817,
-      "y": -1420,
-      "width": 557,
-      "height": 400
-    },
-    {
       "id": "6ed75884c347043f",
       "type": "text",
       "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
@@ -230,6 +212,24 @@
       "y": -1320,
       "width": 200,
       "height": 200
+    },
+    {
+      "id": "3c4e3d6b7450d6ae",
+      "type": "text",
+      "text": "##### Sistema isolato\nSistema che non scambia ne energia ne materia con l'ambiente",
+      "x": -1100,
+      "y": -360,
+      "width": 260,
+      "height": 140
+    },
+    {
+      "id": "e812c385eec6db1b",
+      "type": "text",
+      "text": "##### Equivalenza tra calore e lavoro in sistema adiabatico\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$",
+      "x": -860,
+      "y": -1420,
+      "width": 557,
+      "height": 400
     }
   ],
   "edges": [
@@ -274,7 +274,7 @@
       "fromSide": "left",
       "toNode": "b35fe90c68ca83a6",
       "toSide": "right",
-      "color": "#7b7474"
+      "color": "6"
     },
     {
       "id": "5dfc93f603ffe581",
@@ -282,7 +282,7 @@
       "fromSide": "left",
       "toNode": "e492101b4bfc408f",
       "toSide": "right",
-      "color": "#7b7474"
+      "color": "6"
     },
     {
       "id": "f26548d17ea66643",
@@ -290,7 +290,7 @@
       "fromSide": "left",
       "toNode": "3c4e3d6b7450d6ae",
       "toSide": "right",
-      "color": "#7b7474"
+      "color": "6"
     },
     {
       "id": "c13528b06bcf8fb3",
