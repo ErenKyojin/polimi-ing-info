@@ -92,15 +92,6 @@
       "height": 180
     },
     {
-      "id": "6ed75884c347043f",
-      "type": "text",
-      "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
-      "x": 320,
-      "y": -1246,
-      "width": 320,
-      "height": 393
-    },
-    {
       "id": "a770540933eccddf",
       "type": "text",
       "text": "##### Equilibrio termico\nDue sistemi sono in equilibrio termico quando hanno la stessa temperatura",
@@ -153,6 +144,24 @@
       "height": 91,
       "type": "text",
       "text": "##### Scala celsius\n$$t(^o \\text{C}) = T(\\text{K}) - 273.15$$"
+    },
+    {
+      "id": "6ed75884c347043f",
+      "type": "text",
+      "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
+      "x": 305,
+      "y": -1800,
+      "width": 320,
+      "height": 414
+    },
+    {
+      "id": "e812c385eec6db1b",
+      "x": -817,
+      "y": -1386,
+      "width": 565,
+      "height": 246,
+      "type": "text",
+      "text": "Joule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato."
     }
   ],
   "edges": [
@@ -251,13 +260,6 @@
       "toSide": "bottom"
     },
     {
-      "id": "6be2573bb252b3a5",
-      "fromNode": "23d856bd79c32be4",
-      "fromSide": "right",
-      "toNode": "6ed75884c347043f",
-      "toSide": "left"
-    },
-    {
       "id": "80b6b8022dcb3688",
       "fromNode": "b507d83a51966d9f",
       "fromSide": "bottom",
@@ -305,6 +307,20 @@
       "fromSide": "right",
       "toNode": "d1ee802bd55f1780",
       "toSide": "left"
+    },
+    {
+      "id": "6fd1cebf9d124ded",
+      "fromNode": "23d856bd79c32be4",
+      "fromSide": "right",
+      "toNode": "6ed75884c347043f",
+      "toSide": "bottom"
+    },
+    {
+      "id": "34540d76f8ba521a",
+      "fromNode": "6ed75884c347043f",
+      "fromSide": "left",
+      "toNode": "e812c385eec6db1b",
+      "toSide": "right"
     }
   ],
   "metadata": {}
