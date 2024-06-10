@@ -111,12 +111,31 @@
     },
     {
       "id": "0a0bbf6cbeb2f59a",
+      "type": "text",
+      "text": "##### Ottenimento equilibrio termico\nPer ottenere l'equilibrio termico per due corpi si possono mettere a contatto tramite una parete **diatermica**, una parete detta invece **adiabatica** non permetterebbe il raggiungimento dell'equilibrio e le temperature dei corpi rimarrebbero invariate.\nSe la parete è diatermica i corpi sono detti a contatto termico",
       "x": 780,
       "y": -1246,
-      "width": 300,
-      "height": 393,
+      "width": 320,
+      "height": 393
+    },
+    {
+      "id": "40ffb2f7abad818f",
       "type": "text",
-      "text": "##### Ottenimento equilibrio termico\nPer ottenere l'equilibrio termico per due corpi si possono mettere a contatto tramite una parete **diatermica**, una parete detta invece adiabatica non permetterebbe il raggiungimento dell'equilibrio e le temperature."
+      "text": "##### Sistema adiabatico\nSistema circondato da pareti adiabatiche",
+      "x": 810,
+      "y": -729,
+      "width": 260,
+      "height": 140
+    },
+    {
+      "id": "4538fadb1ca88b7d",
+      "type": "text",
+      "text": "### Termometri",
+      "shape": "oval",
+      "x": -200,
+      "y": 880,
+      "width": 340,
+      "height": 200
     }
   ],
   "edges": [
@@ -241,6 +260,13 @@
       "fromSide": "right",
       "toNode": "0a0bbf6cbeb2f59a",
       "toSide": "left"
+    },
+    {
+      "id": "361c46f4a4a9fc95",
+      "fromNode": "0a0bbf6cbeb2f59a",
+      "fromSide": "bottom",
+      "toNode": "40ffb2f7abad818f",
+      "toSide": "top"
     }
   ],
   "metadata": {}
