@@ -2,11 +2,11 @@
   "nodes": [
     {
       "id": "7146e359a1b3ad2d",
+      "type": "group",
       "x": -3240,
       "y": -3280,
       "width": 1215,
       "height": 725,
-      "type": "group",
       "label": "Cambiamenti di fase"
     },
     {
@@ -376,11 +376,29 @@
     {
       "id": "0613b706aa2630a6",
       "type": "text",
-      "text": "##### Cambiamenti di fase\nI cambiamenti di fase sono processi isotermi che avvengono a temperatura e pressione determinate.\nDurante un cambiamento di fase a pressione costante la temperatura rimane costante, il calore è utilizzato per compiere la trasformazione\n$$ Q = m\\lambda $$",
+      "text": "##### Cambiamenti di fase\nI cambiamenti di fase sono processi isotermi che avvengono a temperatura e pressione determinate.\nDurante un cambiamento di fase a pressione costante la temperatura rimane costante, il calore è utilizzato per compiere la trasformazione\n$$ Q = m\\lambda $$\n\nI cambiamenti di fase sono trasformazioni praticamente reversibili",
       "x": -1740,
-      "y": -3119,
+      "y": -3120,
+      "width": 280,
+      "height": 409
+    },
+    {
+      "id": "7e9a2a3bc0337566",
+      "type": "text",
+      "text": "##### Calori latenti\nQuantità di calore per unità di massa $\\lambda$.\nI calori latenti sono fissati per ogni cambiamento di fase e materiale eccetto per le evaporazione, in cui è una funzione della temperatura e si annulla alla temperatura critica.\n",
+      "x": -1730,
+      "y": -2530,
       "width": 260,
-      "height": 399
+      "height": 330
+    },
+    {
+      "id": "24a95b49f6b8fd89",
+      "x": -2480,
+      "y": -50,
+      "width": 260,
+      "height": 298,
+      "type": "text",
+      "text": "##### Sorgenti di calore\nUna sorgente di calore è un corpo con capacità termica virtualmente infinita, un sistema a contatto con una sorgente tramite una parete diatermica assume eventualmente la sua temperatura"
     }
   ],
   "edges": [
@@ -744,6 +762,27 @@
       "fromNode": "0613b706aa2630a6",
       "fromSide": "left",
       "toNode": "7146e359a1b3ad2d",
+      "toSide": "right"
+    },
+    {
+      "id": "2d923e7186a0fb76",
+      "fromNode": "7e9a2a3bc0337566",
+      "fromSide": "top",
+      "toNode": "0613b706aa2630a6",
+      "toSide": "bottom"
+    },
+    {
+      "id": "235aebb876c87b2e",
+      "fromNode": "3e492fd47311be3d",
+      "fromSide": "left",
+      "toNode": "0613b706aa2630a6",
+      "toSide": "right"
+    },
+    {
+      "id": "216031ba991af204",
+      "fromNode": "d1cde84877befb4d",
+      "fromSide": "bottom",
+      "toNode": "24a95b49f6b8fd89",
       "toSide": "right"
     }
   ],
