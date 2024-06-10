@@ -434,12 +434,30 @@
       "width": 260,
       "height": 180,
       "type": "text",
-      "text": "##### Dilatazione termina\nUn corpo a pressione costante aumenta di volume in base alla temperatura"
+      "text": "##### Dilatazione termica\nUn corpo a pressione costante aumenta di volume in base alla temperatura"
     },
     {
       "id": "858e0244978a9f6c",
-      "x": 1324,
-      "y": 23,
+      "x": 1320,
+      "y": -37,
+      "width": 416,
+      "height": 237,
+      "type": "text",
+      "text": "##### Dilatazione lineare\n$$ \\Delta l = \\lambda l \\Delta T \\implies l + \\Delta l = l(1 + \\lambda \\Delta T) $$\ndove $\\lambda$ è il coefficiente di dilatazione lineare, caratteristico del materiale e funzione della temperatura\n$$ \\lambda = \\frac{1}{l} \\frac{\\Delta l}{\\Delta T} $$"
+    },
+    {
+      "id": "95010675100fd70d",
+      "type": "text",
+      "text": "##### Dilatazione cubica\n$$V + \\Delta V $$\ncon \n$$ \\Delta V = V3 \\lambda \\Delta T = V \\alpha \\Delta T $$\ncon $\\alpha$ coefficiente di dilatazione cubica\n$$ \\alpha = \\frac{1}{V} \\frac{\\Delta V}{\\Delta T} $$",
+      "x": 1320,
+      "y": 320,
+      "width": 416,
+      "height": 260
+    },
+    {
+      "id": "f339360b339160db",
+      "x": -2941,
+      "y": -947,
       "width": 260,
       "height": 60,
       "type": "text",
@@ -864,6 +882,20 @@
       "fromSide": "right",
       "toNode": "858e0244978a9f6c",
       "toSide": "left"
+    },
+    {
+      "id": "ec5ece36fc92ec8a",
+      "fromNode": "4606d23c4df58ecc",
+      "fromSide": "right",
+      "toNode": "95010675100fd70d",
+      "toSide": "left"
+    },
+    {
+      "id": "c3171a92d8261bdf",
+      "fromNode": "7307961fc0e3e8db",
+      "fromSide": "top",
+      "toNode": "f339360b339160db",
+      "toSide": "bottom"
     }
   ],
   "metadata": {}
