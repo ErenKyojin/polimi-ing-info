@@ -456,12 +456,12 @@
     },
     {
       "id": "f339360b339160db",
-      "x": -2941,
-      "y": -947,
-      "width": 260,
-      "height": 60,
+      "x": -3029,
+      "y": -1098,
+      "width": 280,
+      "height": 260,
       "type": "text",
-      "text": ""
+      "text": "##### Caloria\nQuantità di calore per aumentare da $14.5\\textdegree \\text{C}$ a $15.5 \\textdegree \\text{C}$ un chilogrammo d'acqua\n\n$$1 \\text{ Cal} = 4168.8 \\text{ J}$$\n\n1 Cal = 1 kcal\n1 cal = 0.001 kcal\n\n"
     }
   ],
   "edges": [
