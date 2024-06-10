@@ -230,6 +230,15 @@
       "y": -1420,
       "width": 557,
       "height": 400
+    },
+    {
+      "id": "863c7cc4559cc1e3",
+      "x": -180,
+      "y": -1920,
+      "width": 300,
+      "height": 184,
+      "type": "text",
+      "text": "##### Trasformazioni adiabatiche"
     }
   ],
   "edges": [
@@ -438,6 +447,13 @@
       "fromNode": "289cd0dc846d22c5",
       "fromSide": "left",
       "toNode": "a51d00b7a865f127",
+      "toSide": "right"
+    },
+    {
+      "id": "fcded949847a9ce4",
+      "fromNode": "6ed75884c347043f",
+      "fromSide": "top",
+      "toNode": "863c7cc4559cc1e3",
       "toSide": "right"
     }
   ],
