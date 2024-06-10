@@ -35,7 +35,7 @@
       "x": -450,
       "y": -560,
       "width": 310,
-      "height": 200
+      "height": 120
     },
     {
       "id": "a1520f6f9a947672",
@@ -75,12 +75,12 @@
     },
     {
       "id": "23d856bd79c32be4",
-      "x": 40,
-      "y": -840,
-      "width": 260,
-      "height": 160,
       "type": "text",
-      "text": "##### Stato di equilibrio"
+      "text": "##### Stato di equilibrio\nUn sistema è detto in stato di equilibrio quando le coordinate termodinamiche che lo descrivono sono costanti nel tempo.\nPer l'equilibrio termico devono verificarsi\n- equilibrio meccanico\n- equilibrio chimico\n- equilibrio termico",
+      "x": 40,
+      "y": -927,
+      "width": 260,
+      "height": 335
     }
   ],
   "edges": [
@@ -170,6 +170,13 @@
       "fromSide": "right",
       "toNode": "23d856bd79c32be4",
       "toSide": "left"
+    },
+    {
+      "id": "d27aab2a93dc320c",
+      "fromNode": "5f18ae3e7c1553ba",
+      "fromSide": "right",
+      "toNode": "23d856bd79c32be4",
+      "toSide": "bottom"
     }
   ],
   "metadata": {}
