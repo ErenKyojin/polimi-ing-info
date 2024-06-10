@@ -274,7 +274,7 @@
       "fromSide": "left",
       "toNode": "b35fe90c68ca83a6",
       "toSide": "right",
-      "color": "4"
+      "color": "#7b7474"
     },
     {
       "id": "5dfc93f603ffe581",
@@ -282,7 +282,7 @@
       "fromSide": "left",
       "toNode": "e492101b4bfc408f",
       "toSide": "right",
-      "color": "4"
+      "color": "#7b7474"
     },
     {
       "id": "f26548d17ea66643",
@@ -290,7 +290,7 @@
       "fromSide": "left",
       "toNode": "3c4e3d6b7450d6ae",
       "toSide": "right",
-      "color": "4"
+      "color": "#7b7474"
     },
     {
       "id": "c13528b06bcf8fb3",
