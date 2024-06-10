@@ -146,15 +146,6 @@
       "text": "##### Scala celsius\n$$t(^o \\text{C}) = T(\\text{K}) - 273.15$$"
     },
     {
-      "id": "6ed75884c347043f",
-      "type": "text",
-      "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
-      "x": 305,
-      "y": -1800,
-      "width": 320,
-      "height": 414
-    },
-    {
       "id": "e812c385eec6db1b",
       "x": -817,
       "y": -1420,
@@ -162,6 +153,15 @@
       "height": 400,
       "type": "text",
       "text": "##### Equivalenza tra calore e lavoro\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$"
+    },
+    {
+      "id": "6ed75884c347043f",
+      "type": "text",
+      "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
+      "x": 320,
+      "y": -1660,
+      "width": 320,
+      "height": 414
     }
   ],
   "edges": [
