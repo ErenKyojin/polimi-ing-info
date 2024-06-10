@@ -259,15 +259,6 @@
       "height": 480
     },
     {
-      "id": "e64d1b4df8dc4ec8",
-      "type": "text",
-      "text": "##### Trasferimento di calore di due corpi a contatto\nSappiamo che i calori sono\n$$ Q_{1} = -Q_{2} $$\nquindi\n$$ mc(T_{e} - T_{1}) = -mc(T_{e} - T_{2}) $$",
-      "x": -3040,
-      "y": -566,
-      "width": 260,
-      "height": 251
-    },
-    {
       "id": "d1cde84877befb4d",
       "type": "text",
       "text": "##### Capacità termica\n$$C = mc$$",
@@ -394,11 +385,65 @@
     {
       "id": "24a95b49f6b8fd89",
       "x": -2480,
-      "y": -50,
+      "y": -10,
       "width": 260,
       "height": 298,
       "type": "text",
       "text": "##### Sorgenti di calore\nUna sorgente di calore è un corpo con capacità termica virtualmente infinita, un sistema a contatto con una sorgente tramite una parete diatermica assume eventualmente la sua temperatura"
+    },
+    {
+      "id": "e64d1b4df8dc4ec8",
+      "type": "text",
+      "text": "##### Trasferimento di calore di due corpi a contatto\nSappiamo che i calori sono\n$$ Q_{1} = -Q_{2} $$\nquindi\n$$ mc(T_{e} - T_{1}) = -mc(T_{e} - T_{2}) $$",
+      "x": -3020,
+      "y": -135,
+      "width": 260,
+      "height": 251
+    },
+    {
+      "id": "29172847079db0cd",
+      "x": -3029,
+      "y": -658,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Convezione"
+    },
+    {
+      "id": "1db8182bd1f48f19",
+      "x": -3029,
+      "y": -470,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Irraggiamento"
+    },
+    {
+      "id": "8674379f06291eb8",
+      "x": -3029,
+      "y": -290,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "Conduzione"
+    },
+    {
+      "id": "4606d23c4df58ecc",
+      "x": 810,
+      "y": 180,
+      "width": 260,
+      "height": 180,
+      "type": "text",
+      "text": "##### Dilatazione termina\nUn corpo a pressione costante aumenta di volume in base alla temperatura"
+    },
+    {
+      "id": "858e0244978a9f6c",
+      "x": 1324,
+      "y": 23,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": ""
     }
   ],
   "edges": [
@@ -653,13 +698,6 @@
       "toSide": "left"
     },
     {
-      "id": "baccb98ae73dcfdf",
-      "fromNode": "7307961fc0e3e8db",
-      "fromSide": "left",
-      "toNode": "e64d1b4df8dc4ec8",
-      "toSide": "right"
-    },
-    {
       "id": "64f619703a5488a3",
       "fromNode": "21d0a34f938c6532",
       "fromSide": "right",
@@ -784,6 +822,48 @@
       "fromSide": "bottom",
       "toNode": "24a95b49f6b8fd89",
       "toSide": "right"
+    },
+    {
+      "id": "f7fa7c05f15b9825",
+      "fromNode": "7307961fc0e3e8db",
+      "fromSide": "bottom",
+      "toNode": "e64d1b4df8dc4ec8",
+      "toSide": "right"
+    },
+    {
+      "id": "be89e475617363bd",
+      "fromNode": "7307961fc0e3e8db",
+      "fromSide": "left",
+      "toNode": "8674379f06291eb8",
+      "toSide": "right"
+    },
+    {
+      "id": "ce9ba2d9b37ed76c",
+      "fromNode": "7307961fc0e3e8db",
+      "fromSide": "left",
+      "toNode": "1db8182bd1f48f19",
+      "toSide": "right"
+    },
+    {
+      "id": "3a9ad99d338efb75",
+      "fromNode": "7307961fc0e3e8db",
+      "fromSide": "left",
+      "toNode": "29172847079db0cd",
+      "toSide": "right"
+    },
+    {
+      "id": "a796de77c7f8b44a",
+      "fromNode": "5147e5e538e6f38a",
+      "fromSide": "bottom",
+      "toNode": "4606d23c4df58ecc",
+      "toSide": "left"
+    },
+    {
+      "id": "5f318e88a32f0655",
+      "fromNode": "4606d23c4df58ecc",
+      "fromSide": "right",
+      "toNode": "858e0244978a9f6c",
+      "toSide": "left"
     }
   ],
   "metadata": {}
