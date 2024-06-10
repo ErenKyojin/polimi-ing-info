@@ -252,11 +252,11 @@
     {
       "id": "7307961fc0e3e8db",
       "type": "text",
-      "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico.\n\nVale inoltre la relazione infinitesimale\n$$ dQ = mcdT $$",
-      "x": -2460,
-      "y": -642,
-      "width": 260,
-      "height": 402
+      "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico.\n\nVale inoltre la relazione infinitesimale\n$$ dQ = mcdT $$\nquindi\n$$ Q = \\int dQ = m \\int _{T_{1}}^{T_{2}} \\! c(T) \\, \\mathrm{d}T $$",
+      "x": -2500,
+      "y": -680,
+      "width": 300,
+      "height": 480
     },
     {
       "id": "d1cde84877befb4d",
@@ -284,6 +284,15 @@
       "height": 251,
       "type": "text",
       "text": "##### Trasferimento di calore di due corpi a contatto\nSappiamo che i calori sono\n$$ Q_{1} = -Q_{2} $$\nquindi\n$$ mc(T_{e} - T_{1}) = -mc(T_{e} - T_{2}) $$"
+    },
+    {
+      "id": "830db8c5a7080642",
+      "x": -1480,
+      "y": -465,
+      "width": 260,
+      "height": 250,
+      "type": "text",
+      "text": "##### Calore specifico molare\n$$c = \\frac{1}{n} \\frac{dQ}{dT}$$\n\n- $dQ = ncdT$\n- $Q = nc(T_{2} - T_{1})$\n- $Q = n\\int _{T_{1}}^{T_{2}} \\!< \\, \\mathrm{d}x$"
     }
   ],
   "edges": [
@@ -543,6 +552,13 @@
       "fromSide": "left",
       "toNode": "e64d1b4df8dc4ec8",
       "toSide": "right"
+    },
+    {
+      "id": "64f619703a5488a3",
+      "fromNode": "21d0a34f938c6532",
+      "fromSide": "right",
+      "toNode": "830db8c5a7080642",
+      "toSide": "left"
     }
   ],
   "metadata": {}
