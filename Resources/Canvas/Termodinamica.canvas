@@ -233,21 +233,30 @@
     },
     {
       "id": "863c7cc4559cc1e3",
-      "x": -761,
+      "type": "text",
+      "text": "##### Trasformazioni adiabatiche\nIn una trasformazione adiabatica il calore scambiato è nullo, ossia $Q = 0$.\nUn sistema che compie solo trasformazioni adiabatiche è detto sistema adiabatico\nPer il primo principio\n$$ \\Delta U = -\\mathcal{L} $$\nEventuali scambi energetici possono essere solo di natura meccanica.\n\nTrasformazioni veramente adiabatiche sono virtualmente impossibili, è considerata una adiabatica una trasformazione che avviene rapidamente (impedendo gli scambi di calore)",
+      "x": -663,
       "y": -2040,
       "width": 360,
-      "height": 440,
-      "type": "text",
-      "text": "##### Trasformazioni adiabatiche\nIn una trasformazione adiabatica il calore scambiato è nullo, ossia $Q = 0$.\nUn sistema che compie solo trasformazioni adiabatiche è detto sistema adiabatico\nPer il primo principio\n$$ \\Delta U = -\\mathcal{L} $$\nEventuali scambi energetici possono essere solo di natura meccanica.\n\nTrasformazioni veramente adiabatiche sono virtualmente impossibili, è considerata una adiabatica una trasformazione che avviene rapidamente (impedendo gli scambi di calore)"
+      "height": 440
     },
     {
       "id": "3e492fd47311be3d",
       "type": "text",
-      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n",
-      "x": -761,
+      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n",
+      "x": -663,
       "y": -2620,
       "width": 360,
       "height": 440
+    },
+    {
+      "id": "7307961fc0e3e8db",
+      "type": "text",
+      "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico",
+      "x": -2450,
+      "y": -642,
+      "width": 260,
+      "height": 352
     }
   ],
   "edges": [
@@ -472,6 +481,20 @@
       "toNode": "863c7cc4559cc1e3",
       "toSide": "left",
       "color": "6"
+    },
+    {
+      "id": "94cfc8a0b3197e97",
+      "fromNode": "6ed75884c347043f",
+      "fromSide": "top",
+      "toNode": "3e492fd47311be3d",
+      "toSide": "right"
+    },
+    {
+      "id": "233d3699184782ec",
+      "fromNode": "289cd0dc846d22c5",
+      "fromSide": "bottom",
+      "toNode": "7307961fc0e3e8db",
+      "toSide": "right"
     }
   ],
   "metadata": {}
