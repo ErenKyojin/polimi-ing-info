@@ -176,16 +176,6 @@
       "height": 200
     },
     {
-      "id": "289cd0dc846d22c5",
-      "type": "text",
-      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$\n- L'energia interna $\\Delta U$ è una funzione di stato, sempre uguali per trasformazioni tra due stati di equilibrio\n- L'energia fornita o come calore o come lavoro viene immagazzinata nel sistema nella forma di energia interna\n- L'energia non dipende dallo stato di moto del sistema ma da temperatura pressione e volume del sistema stesso.\n- Calore trasferimento di energia microscopico (un sistema non possiede energia, due sistemi possono scambiarsi energia)\n- Per una trasformazione ciclica, ossia con stato iniziale coincidente con stato finale, si ha $$\\Delta U =0 \\implies Q = \\mathcal{L}$$\n- In forma differenziale $$ dQ = dU + d\\mathcal{L} $$\n\t  - $\\Delta U = \\int _{A}^B \\! dU = U_{B} - U_{A}$\n\t  - $Q_{AB} = \\int _{A}^B \\! \\, \\mathrm{d}Q$\n- $[ U] = [Q] = [\\mathcal{L}] = \\text{J}$",
-      "x": -1580,
-      "y": -1580,
-      "width": 460,
-      "height": 720,
-      "color": "3"
-    },
-    {
       "id": "0e3f0183674a0519",
       "type": "text",
       "text": "$\\mathcal{L} > 0$",
@@ -222,14 +212,24 @@
       "height": 64
     },
     {
+      "id": "289cd0dc846d22c5",
+      "type": "text",
+      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$\n- L'energia interna $\\Delta U$ è una funzione di stato, sempre uguali per trasformazioni tra due stati di equilibrio\n- L'energia fornita o come calore o come lavoro viene immagazzinata nel sistema nella forma di energia interna\n- L'energia non dipende dallo stato di moto del sistema ma da temperatura pressione e volume del sistema stesso.\n- Calore trasferimento di energia microscopico (un sistema non possiede energia, due sistemi possono scambiarsi energia)\n- Per una trasformazione ciclica, ossia con stato iniziale coincidente con stato finale, si ha $$\\Delta U =0 \\implies Q = \\mathcal{L}$$\n- In forma differenziale $$ dQ = dU + d\\mathcal{L} $$\n\t  - $\\Delta U = \\int _{A}^B \\! dU = U_{B} - U_{A}$\n\t  - $Q_{AB} = \\int _{A}^B \\! \\, \\mathrm{d}Q$\n- $[ U] = [Q] = [\\mathcal{L}] = \\text{J}$",
+      "x": -1580,
+      "y": -1545,
+      "width": 460,
+      "height": 650,
+      "color": "3"
+    },
+    {
       "id": "189c0247b8c3bb8d",
       "type": "text",
       "text": "S",
       "shape": "circle",
       "x": -2424,
-      "y": -1290,
+      "y": -1320,
       "width": 200,
-      "height": 170
+      "height": 200
     }
   ],
   "edges": [
