@@ -157,11 +157,11 @@
     {
       "id": "e812c385eec6db1b",
       "x": -817,
-      "y": -1386,
-      "width": 565,
-      "height": 336,
+      "y": -1420,
+      "width": 557,
+      "height": 400,
       "type": "text",
-      "text": "Joule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $Q = -W$"
+      "text": "##### Equivalenza tra calore e lavoro\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$"
     }
   ],
   "edges": [
