@@ -288,9 +288,9 @@
     {
       "id": "830db8c5a7080642",
       "x": -1480,
-      "y": -465,
+      "y": -452,
       "width": 260,
-      "height": 250,
+      "height": 225,
       "type": "text",
       "text": "##### Calore specifico molare\n$$c = \\frac{1}{n} \\frac{dQ}{dT}$$\n\n- $dQ = ncdT$\n- $Q = nc(T_{2} - T_{1})$\n- $Q = n\\int _{T_{1}}^{T_{2}} \\!< \\, \\mathrm{d}x$"
     }
