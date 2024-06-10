@@ -233,12 +233,21 @@
     },
     {
       "id": "863c7cc4559cc1e3",
-      "x": -640,
-      "y": -1980,
+      "x": -761,
+      "y": -2040,
       "width": 360,
-      "height": 360,
+      "height": 440,
       "type": "text",
-      "text": "##### Trasformazioni adiabatiche\nIn una trasformazione adiabatica il calore scambiato è nullo, ossia $Q = 0$.\nUn sistema che compie solo trasformazioni adiabatiche è detto sistema adiabatico\nPer il primo principio\n$$ \\Delta U = -\\mathcal{L} $$\nEventuali scambi energetici possono essere solo di natura meccanica.\n\nTrasformazioni veramente adiabatiche sono impossibili"
+      "text": "##### Trasformazioni adiabatiche\nIn una trasformazione adiabatica il calore scambiato è nullo, ossia $Q = 0$.\nUn sistema che compie solo trasformazioni adiabatiche è detto sistema adiabatico\nPer il primo principio\n$$ \\Delta U = -\\mathcal{L} $$\nEventuali scambi energetici possono essere solo di natura meccanica.\n\nTrasformazioni veramente adiabatiche sono virtualmente impossibili, è considerata una adiabatica una trasformazione che avviene rapidamente (impedendo gli scambi di calore)"
+    },
+    {
+      "id": "3e492fd47311be3d",
+      "type": "text",
+      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n",
+      "x": -761,
+      "y": -2620,
+      "width": 360,
+      "height": 440
     }
   ],
   "edges": [
