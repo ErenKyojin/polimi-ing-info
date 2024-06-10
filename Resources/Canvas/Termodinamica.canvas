@@ -5,6 +5,7 @@
       "type": "text",
       "text": "##### Sistema termodinamico\nSistema formato da $N \\approx 10^{23}$ particelle, descritto tramite velocità, energia cinetica e grandezze meccaniche.",
       "shape": "oval",
+      "isStartNode": false,
       "x": -200,
       "y": -160,
       "width": 340,
@@ -50,6 +51,7 @@
       "id": "5f18ae3e7c1553ba",
       "type": "text",
       "text": "##### Coordinate termodinamiche\nVariabili estensive ed intensive che descrivono il sistema\n",
+      "isStartNode": false,
       "x": -690,
       "y": -420,
       "width": 310,
@@ -59,6 +61,7 @@
       "id": "a1520f6f9a947672",
       "type": "text",
       "text": "##### Stato termodinamico\nStato descritto dalle coordinate termodinamiche, ad uno stato termodinamico corrispondono uno o più stati meccanici",
+      "isStartNode": true,
       "x": -690,
       "y": -740,
       "width": 310,
@@ -166,12 +169,12 @@
     {
       "id": "289cd0dc846d22c5",
       "x": -1580,
-      "y": -1287,
+      "y": -1400,
       "width": 460,
-      "height": 135,
+      "height": 360,
       "color": "3",
       "type": "text",
-      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$"
+      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$\n- L'energia interna $\\Delta U$ è una funzione di stato, sempre uguali per trasformazioni tra due stati di equilibrio\n- L'energia fornita o come calore o come lavoro viene immagazzinata nel sistema nella forma di energia interna\n- L'energia non dipende dallo stato di moto del sistema ma da temperatura pressione e volume del sistema stesso."
     }
   ],
   "edges": [
