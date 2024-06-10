@@ -130,12 +130,12 @@
     {
       "id": "4538fadb1ca88b7d",
       "type": "text",
-      "text": "### Termometri",
-      "shape": "oval",
-      "x": -200,
-      "y": 880,
-      "width": 340,
-      "height": 200
+      "text": "##### Termometri\nNecessaria una grandezza $X$ che varia in base alla temperatura, questa grandezza è la caratteristica termometrica, e attraverso la funzione termometrica possiamo ottenere la temperatura.\nServe poi un sistema in equilibrio facilmente riproducibile, si sceglie solitamente il punto triplo dell'acqua a $273.16 \\SI{100}{\\meter}$",
+      "shape": "centered-rectangle",
+      "x": 280,
+      "y": -395,
+      "width": 400,
+      "height": 335
     }
   ],
   "edges": [
@@ -267,6 +267,13 @@
       "fromSide": "bottom",
       "toNode": "40ffb2f7abad818f",
       "toSide": "top"
+    },
+    {
+      "id": "52fb6045cbad0681",
+      "fromNode": "23d856bd79c32be4",
+      "fromSide": "right",
+      "toNode": "4538fadb1ca88b7d",
+      "toSide": "left"
     }
   ],
   "metadata": {}
