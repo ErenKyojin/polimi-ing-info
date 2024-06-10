@@ -65,15 +65,6 @@
       "height": 160
     },
     {
-      "id": "b239749dc574c103",
-      "type": "text",
-      "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente",
-      "x": -200,
-      "y": 210,
-      "width": 340,
-      "height": 200
-    },
-    {
       "id": "fb56f788248145e1",
       "type": "text",
       "text": "##### Ambiente\nAll'esterno dei confini del sistema termodinamico vi è l'**ambiente**. ",
@@ -120,39 +111,39 @@
     },
     {
       "id": "5147e5e538e6f38a",
+      "type": "text",
+      "text": "##### Termometri\nNecessaria una grandezza $X$ che varia in base alla temperatura, questa grandezza è la caratteristica termometrica, e attraverso la funzione termometrica possiamo ottenere la temperatura.\nServe poi un sistema in equilibrio facilmente riproducibile, si sceglie solitamente il punto triplo dell'acqua a $273.16 \\text{ K}$. \nSe il termometro al punto triplo assume il valore $X_{p}$, la temperatura $T$ del termometro sarà:\n$$ T = 273.16 \\frac{X}{X_{p}} \\text{ K} $$",
       "x": 305,
       "y": -512,
       "width": 350,
-      "height": 425,
-      "type": "text",
-      "text": "##### Termometri\nNecessaria una grandezza $X$ che varia in base alla temperatura, questa grandezza è la caratteristica termometrica, e attraverso la funzione termometrica possiamo ottenere la temperatura.\nServe poi un sistema in equilibrio facilmente riproducibile, si sceglie solitamente il punto triplo dell'acqua a $273.16 \\text{ K}$. \nSe il termometro al punto triplo assume il valore $X_{p}$, la temperatura $T$ del termometro sarà:\n$$ T = 273.16 \\frac{X}{X_{p}} \\text{ K} $$"
+      "height": 425
     },
     {
       "id": "d1ee802bd55f1780",
+      "type": "text",
+      "text": "##### Scala  Fahrenheit\n$$ t(^o\\text{F}) = \\frac{9}{5} T(\\text{K}) - 459.67 $$",
       "x": 810,
       "y": -209,
       "width": 260,
-      "height": 99,
-      "type": "text",
-      "text": "##### Scala  Fahrenheit\n$$ t(^o\\text{F}) = \\frac{9}{5} T(\\text{K}) - 459.67 $$"
+      "height": 99
     },
     {
       "id": "be3e96a9ee357f25",
+      "type": "text",
+      "text": "##### Scala celsius\n$$t(^o \\text{C}) = T(\\text{K}) - 273.15$$",
       "x": 810,
       "y": -480,
       "width": 260,
-      "height": 91,
-      "type": "text",
-      "text": "##### Scala celsius\n$$t(^o \\text{C}) = T(\\text{K}) - 273.15$$"
+      "height": 91
     },
     {
       "id": "e812c385eec6db1b",
+      "type": "text",
+      "text": "##### Equivalenza tra calore e lavoro\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$",
       "x": -817,
       "y": -1420,
       "width": 557,
-      "height": 400,
-      "type": "text",
-      "text": "##### Equivalenza tra calore e lavoro\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$"
+      "height": 400
     },
     {
       "id": "6ed75884c347043f",
@@ -162,6 +153,25 @@
       "y": -1660,
       "width": 320,
       "height": 414
+    },
+    {
+      "id": "b239749dc574c103",
+      "type": "text",
+      "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente",
+      "x": -200,
+      "y": 440,
+      "width": 340,
+      "height": 200
+    },
+    {
+      "id": "289cd0dc846d22c5",
+      "x": -1580,
+      "y": -1287,
+      "width": 460,
+      "height": 135,
+      "color": "3",
+      "type": "text",
+      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$"
     }
   ],
   "edges": [
@@ -171,13 +181,6 @@
       "fromSide": "bottom",
       "toNode": "b239749dc574c103",
       "toSide": "top"
-    },
-    {
-      "id": "66dedb8e39900feb",
-      "fromNode": "fb56f788248145e1",
-      "fromSide": "right",
-      "toNode": "b239749dc574c103",
-      "toSide": "left"
     },
     {
       "id": "ba3104b68ef74ebb",
@@ -320,6 +323,20 @@
       "fromNode": "6ed75884c347043f",
       "fromSide": "left",
       "toNode": "e812c385eec6db1b",
+      "toSide": "right"
+    },
+    {
+      "id": "2321d752c6386857",
+      "fromNode": "fb56f788248145e1",
+      "fromSide": "bottom",
+      "toNode": "b239749dc574c103",
+      "toSide": "left"
+    },
+    {
+      "id": "53b27c911bf00638",
+      "fromNode": "e812c385eec6db1b",
+      "fromSide": "left",
+      "toNode": "289cd0dc846d22c5",
       "toSide": "right"
     }
   ],
