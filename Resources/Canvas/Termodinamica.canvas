@@ -252,11 +252,38 @@
     {
       "id": "7307961fc0e3e8db",
       "type": "text",
-      "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico",
-      "x": -2450,
+      "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico.\n\nVale inoltre la relazione infinitesimale\n$$ dQ = mcdT $$",
+      "x": -2460,
       "y": -642,
       "width": 260,
-      "height": 352
+      "height": 402
+    },
+    {
+      "id": "d1cde84877befb4d",
+      "x": -1880,
+      "y": -220,
+      "width": 260,
+      "height": 80,
+      "type": "text",
+      "text": "##### Capacità termica\n$$C = mc$$"
+    },
+    {
+      "id": "21d0a34f938c6532",
+      "type": "text",
+      "text": "##### Calore specifico\n$$ c = \\frac{1}{m} \\frac{dQ}{dT}  $$",
+      "x": -1880,
+      "y": -390,
+      "width": 260,
+      "height": 100
+    },
+    {
+      "id": "e64d1b4df8dc4ec8",
+      "x": -3040,
+      "y": -566,
+      "width": 260,
+      "height": 251,
+      "type": "text",
+      "text": "##### Trasferimento di calore di due corpi a contatto\nSappiamo che i calori sono\n$$ Q_{1} = -Q_{2} $$\nquindi\n$$ mc(T_{e} - T_{1}) = -mc(T_{e} - T_{2}) $$"
     }
   ],
   "edges": [
@@ -494,6 +521,27 @@
       "fromNode": "289cd0dc846d22c5",
       "fromSide": "bottom",
       "toNode": "7307961fc0e3e8db",
+      "toSide": "right"
+    },
+    {
+      "id": "a95919afe3c874ab",
+      "fromNode": "7307961fc0e3e8db",
+      "fromSide": "right",
+      "toNode": "d1cde84877befb4d",
+      "toSide": "left"
+    },
+    {
+      "id": "f5e59a69138f8b4b",
+      "fromNode": "7307961fc0e3e8db",
+      "fromSide": "right",
+      "toNode": "21d0a34f938c6532",
+      "toSide": "left"
+    },
+    {
+      "id": "baccb98ae73dcfdf",
+      "fromNode": "7307961fc0e3e8db",
+      "fromSide": "left",
+      "toNode": "e64d1b4df8dc4ec8",
       "toSide": "right"
     }
   ],
