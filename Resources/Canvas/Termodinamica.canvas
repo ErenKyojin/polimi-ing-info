@@ -185,15 +185,6 @@
       "height": 64
     },
     {
-      "id": "3ad9991b0a6b355c",
-      "type": "text",
-      "text": "$\\mathcal{L} < 0$",
-      "x": -2460,
-      "y": -1000,
-      "width": 96,
-      "height": 64
-    },
-    {
       "id": "e820fe4f1997ad82",
       "type": "text",
       "text": "$Q < 0$",
@@ -211,16 +202,6 @@
       "width": 460,
       "height": 650,
       "color": "3"
-    },
-    {
-      "id": "189c0247b8c3bb8d",
-      "type": "text",
-      "text": "S",
-      "shape": "circle",
-      "x": -2420,
-      "y": -1320,
-      "width": 200,
-      "height": 200
     },
     {
       "id": "3c4e3d6b7450d6ae",
@@ -248,15 +229,6 @@
       "y": -2040,
       "width": 360,
       "height": 440
-    },
-    {
-      "id": "7307961fc0e3e8db",
-      "type": "text",
-      "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico.\n\nVale inoltre la relazione infinitesimale\n$$ dQ = mcdT $$\nquindi\n$$ Q = \\int dQ = m \\int _{T_{1}}^{T_{2}} \\! c(T) \\, \\mathrm{d}T $$",
-      "x": -2500,
-      "y": -680,
-      "width": 300,
-      "height": 480
     },
     {
       "id": "d1cde84877befb4d",
@@ -384,12 +356,12 @@
     },
     {
       "id": "24a95b49f6b8fd89",
+      "type": "text",
+      "text": "##### Sorgenti di calore\nUna sorgente di calore è un corpo con capacità termica virtualmente infinita, un sistema a contatto con una sorgente tramite una parete diatermica assume eventualmente la sua temperatura",
       "x": -2480,
       "y": -10,
       "width": 260,
-      "height": 298,
-      "type": "text",
-      "text": "##### Sorgenti di calore\nUna sorgente di calore è un corpo con capacità termica virtualmente infinita, un sistema a contatto con una sorgente tramite una parete diatermica assume eventualmente la sua temperatura"
+      "height": 298
     },
     {
       "id": "e64d1b4df8dc4ec8",
@@ -401,49 +373,40 @@
       "height": 251
     },
     {
-      "id": "29172847079db0cd",
-      "x": -3029,
-      "y": -658,
-      "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "Convezione"
-    },
-    {
       "id": "1db8182bd1f48f19",
+      "type": "text",
+      "text": "Irraggiamento",
       "x": -3029,
       "y": -470,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "Irraggiamento"
+      "height": 60
     },
     {
       "id": "8674379f06291eb8",
+      "type": "text",
+      "text": "Conduzione",
       "x": -3029,
       "y": -290,
       "width": 260,
-      "height": 60,
-      "type": "text",
-      "text": "Conduzione"
+      "height": 60
     },
     {
       "id": "4606d23c4df58ecc",
+      "type": "text",
+      "text": "##### Dilatazione termica\nUn corpo a pressione costante aumenta di volume in base alla temperatura",
       "x": 810,
       "y": 180,
       "width": 260,
-      "height": 180,
-      "type": "text",
-      "text": "##### Dilatazione termica\nUn corpo a pressione costante aumenta di volume in base alla temperatura"
+      "height": 180
     },
     {
       "id": "858e0244978a9f6c",
+      "type": "text",
+      "text": "##### Dilatazione lineare\n$$ \\Delta l = \\lambda l \\Delta T \\implies l + \\Delta l = l(1 + \\lambda \\Delta T) $$\ndove $\\lambda$ è il coefficiente di dilatazione lineare, caratteristico del materiale e funzione della temperatura\n$$ \\lambda = \\frac{1}{l} \\frac{\\Delta l}{\\Delta T} $$",
       "x": 1320,
       "y": -37,
       "width": 416,
-      "height": 237,
-      "type": "text",
-      "text": "##### Dilatazione lineare\n$$ \\Delta l = \\lambda l \\Delta T \\implies l + \\Delta l = l(1 + \\lambda \\Delta T) $$\ndove $\\lambda$ è il coefficiente di dilatazione lineare, caratteristico del materiale e funzione della temperatura\n$$ \\lambda = \\frac{1}{l} \\frac{\\Delta l}{\\Delta T} $$"
+      "height": 237
     },
     {
       "id": "95010675100fd70d",
@@ -456,12 +419,49 @@
     },
     {
       "id": "f339360b339160db",
+      "type": "text",
+      "text": "##### Caloria\nQuantità di calore per aumentare da $14.5\\textdegree \\text{C}$ a $15.5 \\textdegree \\text{C}$ un chilogrammo d'acqua\n\n$$1 \\text{ Cal} = 4168.8 \\text{ J}$$\n\n1 Cal = 1 kcal\n1 cal = 0.001 kcal\n\n",
       "x": -3029,
       "y": -1098,
       "width": 280,
-      "height": 260,
+      "height": 260
+    },
+    {
+      "id": "3ad9991b0a6b355c",
       "type": "text",
-      "text": "##### Caloria\nQuantità di calore per aumentare da $14.5\\textdegree \\text{C}$ a $15.5 \\textdegree \\text{C}$ un chilogrammo d'acqua\n\n$$1 \\text{ Cal} = 4168.8 \\text{ J}$$\n\n1 Cal = 1 kcal\n1 cal = 0.001 kcal\n\n"
+      "text": "$\\mathcal{L} < 0$",
+      "x": -2460,
+      "y": -1000,
+      "width": 96,
+      "height": 64
+    },
+    {
+      "id": "189c0247b8c3bb8d",
+      "type": "text",
+      "text": "S",
+      "shape": "circle",
+      "x": -2420,
+      "y": -1320,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "id": "7307961fc0e3e8db",
+      "type": "text",
+      "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico.\n\nVale inoltre la relazione infinitesimale\n$$ dQ = mcdT $$\nquindi\n$$ Q = \\int dQ = m \\int _{T_{1}}^{T_{2}} \\! c(T) \\, \\mathrm{d}T $$",
+      "x": -2500,
+      "y": -680,
+      "width": 300,
+      "height": 480
+    },
+    {
+      "id": "29172847079db0cd",
+      "type": "text",
+      "text": "Convezione",
+      "x": -3029,
+      "y": -658,
+      "width": 260,
+      "height": 60
     }
   ],
   "edges": [
