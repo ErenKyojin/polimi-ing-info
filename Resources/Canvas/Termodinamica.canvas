@@ -475,22 +475,40 @@
     },
     {
       "id": "e49fb4e022174e0b",
+      "type": "text",
+      "text": "##### Variabili termodinamiche per GAS\nPressione\nVolume\nTemperatura",
       "x": -1320,
       "y": 420,
       "width": 321,
-      "height": 220,
-      "type": "text",
-      "text": "##### Variabili termodinamiche per GAS\nPressione\nVolume\nTemperatura"
+      "height": 220
     },
     {
       "id": "636f7e217b8eeecc",
+      "type": "text",
+      "text": "##### Legge isoterma di Boyle\nGas in equilibrio termodinamico, ad una pressione $p$ e un volume $V$. Con una temperatura T. mantenendo costante $T$ e facendo variare $p$ e $v$ vale che:\n$$ pV= \\cost $$\n**a temperatura costante la pressione è inversalmente proprzionale al volume**",
       "x": -1354,
       "y": 900,
       "width": 390,
       "height": 280,
-      "color": "3",
+      "color": "3"
+    },
+    {
+      "id": "ac2f91c3d8fa81b2",
       "type": "text",
-      "text": "##### Legge isoterma di Boyle\nGas in equilibrio termodinamico, ad una pressione $p$ e un volume $V$. Con una temperatura T. mantenendo costante $T$ e facendo variare $p$ e $v$ vale che:\n$$ pV= \\cost $$\n**a temperatura costante la pressione è inversalmente proprzionale al volume**"
+      "text": "Isoterme",
+      "x": -2049,
+      "y": 1333,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "76a7152da26807cb",
+      "type": "text",
+      "text": "##### Piano di Clapeyron\nVolume sull'asse delle ascisse e pressione sull'asse delle ordinate",
+      "x": -2060,
+      "y": 965,
+      "width": 280,
+      "height": 150
     }
   ],
   "edges": [
@@ -947,6 +965,20 @@
       "fromSide": "bottom",
       "toNode": "636f7e217b8eeecc",
       "toSide": "top"
+    },
+    {
+      "id": "0fec3bf507adad06",
+      "fromNode": "76a7152da26807cb",
+      "fromSide": "bottom",
+      "toNode": "ac2f91c3d8fa81b2",
+      "toSide": "top"
+    },
+    {
+      "id": "55e1817a53e5cffa",
+      "fromNode": "636f7e217b8eeecc",
+      "fromSide": "left",
+      "toNode": "76a7152da26807cb",
+      "toSide": "right"
     }
   ],
   "metadata": {}
