@@ -531,6 +531,15 @@
       "color": "3"
     },
     {
+      "id": "aa3a7469bbdf8ed3",
+      "type": "text",
+      "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}\\ ^o\\text{C}^{-1} $$",
+      "x": 3440,
+      "y": 1400,
+      "width": 280,
+      "height": 200
+    },
+    {
       "id": "748818d11c6ad33e",
       "type": "text",
       "text": "##### Legge isobara di Gay-Lussac\nSe la pressione di un gas durante una trasformazione rimane costante questa è detta **isobara**, il volume varia linearmente con la temperatura\n$$ V = V_{0} (1 + \\alpha t) $$\n$t$ in celsius",
@@ -572,19 +581,19 @@
       "id": "981ef73f0b3615ac",
       "type": "text",
       "text": "##### Mole\nQuantità di materia che contiene tante entità elementari quanti atomi vi sono in $0.012 \\text{ Kg}$ dell'isotopo $^{12} \\text{C}$ di carbonio.\nUna chilomole è pari a $10^{13}$ moli ",
-      "x": 3320,
+      "x": 3280,
       "y": 2400,
-      "width": 300,
+      "width": 360,
       "height": 240
     },
     {
-      "id": "aa3a7469bbdf8ed3",
+      "id": "bd701d0a345bb772",
+      "x": 3280,
+      "y": 2880,
+      "width": 360,
+      "height": 191,
       "type": "text",
-      "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}\\ ^o\\text{C}^{-1} $$",
-      "x": 3440,
-      "y": 1400,
-      "width": 280,
-      "height": 200
+      "text": "##### Equazione di stato del gas ideale\n$n$ moli di un gas alla pressione atmosferica $p_{0}$"
     }
   ],
   "edges": [
@@ -1126,6 +1135,13 @@
       "fromSide": "right",
       "toNode": "98299aed9afa52d8",
       "toSide": "left"
+    },
+    {
+      "id": "1a3fdf325b73617a",
+      "fromNode": "981ef73f0b3615ac",
+      "fromSide": "bottom",
+      "toNode": "bd701d0a345bb772",
+      "toSide": "top"
     }
   ],
   "metadata": {}
