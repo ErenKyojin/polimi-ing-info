@@ -523,12 +523,40 @@
     {
       "id": "748818d11c6ad33e",
       "type": "text",
-      "text": "##### Legge isobara di Gay-Lussac\nSe la pressione di un gas durante una trasformazione rimane costante ",
+      "text": "##### Legge isobara di Gay-Lussac\nSe la pressione di un gas durante una trasformazione rimane costante questa è detta **isobara**, il volume varia linearmente con la temperatura\n$$ V = V_{0} (1 + \\alpha t) $$\n$t$ in celsius",
       "x": 2960,
-      "y": 944,
+      "y": 920,
       "width": 480,
-      "height": 195,
+      "height": 240,
       "color": "3"
+    },
+    {
+      "id": "3fab6ac0419489d0",
+      "type": "text",
+      "text": "##### Legge isocora di Gay-Lussac\nSe si mantiene costante il volume di un gas, la trasformazion è detta **isocora** e la pressione risulta funzione lineare della temperatura\n$$ p = p_{0}(1 + \\beta t) $$\n",
+      "x": 3720,
+      "y": 920,
+      "width": 480,
+      "height": 240,
+      "color": "3"
+    },
+    {
+      "id": "35d8e6e7936bb65e",
+      "x": 2640,
+      "y": 1820,
+      "width": 400,
+      "height": 180,
+      "type": "text",
+      "text": "##### Gas ideali\nTutti i gas in alcune condizioni si comportano allo stesso modo, in particolar modo in condizioni di bassa pressione ed alta temperatura. In questi casi i gas sono detti **gas ideali**"
+    },
+    {
+      "id": "aa3a7469bbdf8ed3",
+      "x": 3440,
+      "y": 1400,
+      "width": 280,
+      "height": 160,
+      "type": "text",
+      "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}  $$"
     }
   ],
   "edges": [
@@ -1014,6 +1042,41 @@
       "fromSide": "right",
       "toNode": "ac2f91c3d8fa81b2",
       "toSide": "left"
+    },
+    {
+      "id": "2b0ac1a7e5bd62ec",
+      "fromNode": "2d9f2253320c7f35",
+      "fromSide": "right",
+      "toNode": "748818d11c6ad33e",
+      "toSide": "top"
+    },
+    {
+      "id": "d8f8ca320a969cf2",
+      "fromNode": "2d9f2253320c7f35",
+      "fromSide": "right",
+      "toNode": "3fab6ac0419489d0",
+      "toSide": "top"
+    },
+    {
+      "id": "8b50bb1eb11de3d2",
+      "fromNode": "35d8e6e7936bb65e",
+      "fromSide": "right",
+      "toNode": "aa3a7469bbdf8ed3",
+      "toSide": "bottom"
+    },
+    {
+      "id": "64684fcf0dec4f1b",
+      "fromNode": "748818d11c6ad33e",
+      "fromSide": "bottom",
+      "toNode": "aa3a7469bbdf8ed3",
+      "toSide": "left"
+    },
+    {
+      "id": "a1101cd840bb4922",
+      "fromNode": "3fab6ac0419489d0",
+      "fromSide": "bottom",
+      "toNode": "aa3a7469bbdf8ed3",
+      "toSide": "right"
     }
   ],
   "metadata": {}
