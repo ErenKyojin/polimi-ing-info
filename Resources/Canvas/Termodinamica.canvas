@@ -493,22 +493,42 @@
       "color": "3"
     },
     {
-      "id": "ac2f91c3d8fa81b2",
-      "type": "text",
-      "text": "Isoterme",
-      "x": -2049,
-      "y": 1333,
-      "width": 260,
-      "height": 60
-    },
-    {
       "id": "76a7152da26807cb",
       "type": "text",
       "text": "##### Piano di Clapeyron\nVolume sull'asse delle ascisse e pressione sull'asse delle ordinate",
-      "x": -2060,
+      "x": -640,
       "y": 965,
       "width": 280,
       "height": 150
+    },
+    {
+      "id": "2d9f2253320c7f35",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": 1720,
+      "y": -1497,
+      "width": 88,
+      "height": 88
+    },
+    {
+      "id": "ac2f91c3d8fa81b2",
+      "type": "text",
+      "text": "##### Isoterma\nSe il gas cambia pressione e volume ma la temperatura rimane costante\n$$ p_{1}V_{1} = p_{2}V_{2} $$\nRamo di iperbole sul piano di clapeyron",
+      "x": 2077,
+      "y": 944,
+      "width": 480,
+      "height": 195
+    },
+    {
+      "id": "748818d11c6ad33e",
+      "type": "text",
+      "text": "##### Legge isobara di Gay-Lussac\nSe la pressione di un gas durante una trasformazione rimane costante ",
+      "x": 2960,
+      "y": 944,
+      "width": 480,
+      "height": 195,
+      "color": "3"
     }
   ],
   "edges": [
@@ -967,18 +987,33 @@
       "toSide": "top"
     },
     {
-      "id": "0fec3bf507adad06",
-      "fromNode": "76a7152da26807cb",
-      "fromSide": "bottom",
+      "id": "f34700855b92c849",
+      "fromNode": "636f7e217b8eeecc",
+      "fromSide": "right",
+      "toNode": "76a7152da26807cb",
+      "toSide": "left"
+    },
+    {
+      "id": "6f9b9bf6b7b2b3c3",
+      "fromNode": "6ed75884c347043f",
+      "fromSide": "right",
+      "toNode": "2d9f2253320c7f35",
+      "toSide": "left",
+      "toEnd": "none"
+    },
+    {
+      "id": "6b679ee7832ee52c",
+      "fromNode": "2d9f2253320c7f35",
+      "fromSide": "right",
       "toNode": "ac2f91c3d8fa81b2",
       "toSide": "top"
     },
     {
-      "id": "55e1817a53e5cffa",
-      "fromNode": "636f7e217b8eeecc",
-      "fromSide": "left",
-      "toNode": "76a7152da26807cb",
-      "toSide": "right"
+      "id": "223ff16965373bbe",
+      "fromNode": "76a7152da26807cb",
+      "fromSide": "right",
+      "toNode": "ac2f91c3d8fa81b2",
+      "toSide": "left"
     }
   ],
   "metadata": {}
