@@ -531,15 +531,6 @@
       "color": "3"
     },
     {
-      "id": "aa3a7469bbdf8ed3",
-      "type": "text",
-      "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}\\ ^o\\text{C}^{-1} $$",
-      "x": 3440,
-      "y": 1400,
-      "width": 280,
-      "height": 200
-    },
-    {
       "id": "748818d11c6ad33e",
       "type": "text",
       "text": "##### Legge isobara di Gay-Lussac\nSe la pressione di un gas durante una trasformazione rimane costante questa è detta **isobara**, il volume varia linearmente con la temperatura\n$$ V = V_{0} (1 + \\alpha t) $$\n$t$ in celsius",
@@ -585,6 +576,15 @@
       "y": 2400,
       "width": 300,
       "height": 240
+    },
+    {
+      "id": "aa3a7469bbdf8ed3",
+      "type": "text",
+      "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}\\ ^o\\text{C}^{-1} $$",
+      "x": 3440,
+      "y": 1400,
+      "width": 280,
+      "height": 200
     }
   ],
   "edges": [
