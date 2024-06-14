@@ -475,12 +475,22 @@
     },
     {
       "id": "e49fb4e022174e0b",
-      "x": -1291,
+      "x": -1320,
       "y": 420,
-      "width": 260,
+      "width": 321,
       "height": 220,
       "type": "text",
-      "text": "##### Variabili termodinamiche per GAS\n"
+      "text": "##### Variabili termodinamiche per GAS\nPressione\nVolume\nTemperatura"
+    },
+    {
+      "id": "636f7e217b8eeecc",
+      "x": -1354,
+      "y": 900,
+      "width": 390,
+      "height": 280,
+      "color": "3",
+      "type": "text",
+      "text": "##### Legge isoterma di Boyle\nGas in equilibrio termodinamico, ad una pressione $p$ e un volume $V$. Con una temperatura T. mantenendo costante $T$ e facendo variare $p$ e $v$ vale che:\n$$ pV= \\cost $$\n**a temperatura costante la pressione è inversalmente proprzionale al volume**"
     }
   ],
   "edges": [
@@ -930,6 +940,13 @@
       "toNode": "f0b5dfdd5e0a01c5",
       "toSide": "right",
       "toEnd": "none"
+    },
+    {
+      "id": "8ecbb84c45635dcb",
+      "fromNode": "e49fb4e022174e0b",
+      "fromSide": "bottom",
+      "toNode": "636f7e217b8eeecc",
+      "toSide": "top"
     }
   ],
   "metadata": {}
