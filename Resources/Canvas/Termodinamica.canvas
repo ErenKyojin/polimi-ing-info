@@ -521,16 +521,6 @@
       "height": 195
     },
     {
-      "id": "748818d11c6ad33e",
-      "type": "text",
-      "text": "##### Legge isobara di Gay-Lussac\nSe la pressione di un gas durante una trasformazione rimane costante questa è detta **isobara**, il volume varia linearmente con la temperatura\n$$ V = V_{0} (1 + \\alpha t) $$\n$t$ in celsius",
-      "x": 2960,
-      "y": 920,
-      "width": 480,
-      "height": 240,
-      "color": "3"
-    },
-    {
       "id": "3fab6ac0419489d0",
       "type": "text",
       "text": "##### Legge isocora di Gay-Lussac\nSe si mantiene costante il volume di un gas, la trasformazion è detta **isocora** e la pressione risulta funzione lineare della temperatura\n$$ p = p_{0}(1 + \\beta t) $$\n",
@@ -554,9 +544,38 @@
       "x": 3440,
       "y": 1400,
       "width": 280,
-      "height": 160,
+      "height": 200,
       "type": "text",
-      "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}  $$"
+      "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}\\ ^o\\text{C}^{-1} $$"
+    },
+    {
+      "id": "748818d11c6ad33e",
+      "type": "text",
+      "text": "##### Legge isobara di Gay-Lussac\nSe la pressione di un gas durante una trasformazione rimane costante questa è detta **isobara**, il volume varia linearmente con la temperatura\n$$ V = V_{0} (1 + \\alpha t) $$\n$t$ in celsius",
+      "x": 2960,
+      "y": 920,
+      "width": 480,
+      "height": 240,
+      "color": "3"
+    },
+    {
+      "id": "4f09b4357e48e995",
+      "type": "text",
+      "text": "##### Legge di Avogadro\nVolumi eguali di gas con comportamento ideale diversi alla stessa temperatura  e pressione contengono lo stesso numero di molecole",
+      "x": 2699,
+      "y": 2400,
+      "width": 283,
+      "height": 240,
+      "color": "3"
+    },
+    {
+      "id": "981ef73f0b3615ac",
+      "x": 3360,
+      "y": 2490,
+      "width": 260,
+      "height": 60,
+      "type": "text",
+      "text": "##### Mole\nQuantità di materia che contiene tante entità elementari quanti atomi in 0.0"
     }
   ],
   "edges": [
@@ -1077,6 +1096,13 @@
       "fromSide": "bottom",
       "toNode": "aa3a7469bbdf8ed3",
       "toSide": "right"
+    },
+    {
+      "id": "75b90dd905e286a6",
+      "fromNode": "35d8e6e7936bb65e",
+      "fromSide": "bottom",
+      "toNode": "4f09b4357e48e995",
+      "toSide": "top"
     }
   ],
   "metadata": {}
