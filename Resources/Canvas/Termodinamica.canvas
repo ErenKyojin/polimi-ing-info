@@ -19,86 +19,15 @@
       "label": "Convenzione sui segni"
     },
     {
-      "id": "6fa4886de29ae25a",
+      "id": "b507d83a51966d9f",
       "type": "text",
-      "text": "##### Equazione di stato\nIn uno stato di equilibrio esiste relazione tra coordinate termodinamiche, espressa come equazione di stato",
-      "x": -170,
-      "y": -1140,
-      "width": 280,
-      "height": 180
-    },
-    {
-      "id": "0a0bbf6cbeb2f59a",
-      "type": "text",
-      "text": "##### Ottenimento equilibrio termico\nPer ottenere l'equilibrio termico per due corpi si possono mettere a contatto tramite una parete **diatermica**, una parete detta invece **adiabatica** non permetterebbe il raggiungimento dell'equilibrio e le temperature dei corpi rimarrebbero invariate.\nSe la parete è diatermica i corpi sono detti a contatto termico",
-      "x": 780,
-      "y": -1246,
-      "width": 320,
-      "height": 393
-    },
-    {
-      "id": "6ed75884c347043f",
-      "type": "text",
-      "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
-      "x": 320,
-      "y": -1660,
-      "width": 320,
-      "height": 414
-    },
-    {
-      "id": "0e3f0183674a0519",
-      "type": "text",
-      "text": "$\\mathcal{L} > 0$",
-      "x": -2460,
-      "y": -1500,
-      "width": 96,
-      "height": 64
-    },
-    {
-      "id": "3d91642ace591c25",
-      "type": "text",
-      "text": "$Q > 0$",
-      "x": -2284,
-      "y": -1500,
-      "width": 97,
-      "height": 64
-    },
-    {
-      "id": "e820fe4f1997ad82",
-      "type": "text",
-      "text": "$Q < 0$",
-      "x": -2284,
-      "y": -1000,
-      "width": 97,
-      "height": 64
-    },
-    {
-      "id": "289cd0dc846d22c5",
-      "type": "text",
-      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$\n- L'energia interna $\\Delta U$ è una funzione di stato, sempre uguali per trasformazioni tra due stati di equilibrio\n- L'energia fornita o come calore o come lavoro viene immagazzinata nel sistema nella forma di energia interna\n- L'energia non dipende dallo stato di moto del sistema ma da temperatura pressione e volume del sistema stesso.\n- Calore trasferimento di energia microscopico (un sistema non possiede energia, due sistemi possono scambiarsi energia)\n- Per una trasformazione ciclica, ossia con stato iniziale coincidente con stato finale, si ha $$\\Delta U =0 \\implies Q = \\mathcal{L}$$\n- In forma differenziale $$ dQ = dU + d\\mathcal{L} $$\n\t  - $\\Delta U = \\int _{A}^B \\! dU = U_{B} - U_{A}$\n\t  - $Q_{AB} = \\int _{A}^B \\! \\, \\mathrm{d}Q$\n- $[ U] = [Q] = [\\mathcal{L}] = \\text{J}$",
-      "x": -1580,
-      "y": -1545,
-      "width": 460,
-      "height": 650,
-      "color": "3"
-    },
-    {
-      "id": "e812c385eec6db1b",
-      "type": "text",
-      "text": "##### Equivalenza tra calore e lavoro in sistema adiabatico\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$",
-      "x": -860,
-      "y": -1420,
-      "width": 557,
-      "height": 400
-    },
-    {
-      "id": "863c7cc4559cc1e3",
-      "type": "text",
-      "text": "##### Trasformazioni adiabatiche\nIn una trasformazione adiabatica il calore scambiato è nullo, ossia $Q = 0$.\nUn sistema che compie solo trasformazioni adiabatiche è detto sistema adiabatico\nPer il primo principio\n$$ \\Delta U = -\\mathcal{L} $$\nEventuali scambi energetici possono essere solo di natura meccanica.\n\nTrasformazioni veramente adiabatiche sono virtualmente impossibili, è considerata una adiabatica una trasformazione che avviene rapidamente (impedendo gli scambi di calore)",
-      "x": -663,
-      "y": -2040,
-      "width": 360,
-      "height": 440
+      "text": "##### Sistema termodinamico\nSistema formato da $N \\approx 10^{23}$ particelle, descritto tramite velocità, energia cinetica e grandezze meccaniche.",
+      "shape": "oval",
+      "isStartNode": true,
+      "x": -200,
+      "y": -160,
+      "width": 340,
+      "height": 200
     },
     {
       "id": "3e492fd47311be3d",
@@ -189,95 +118,22 @@
       "height": 409
     },
     {
-      "id": "7e9a2a3bc0337566",
+      "id": "0e3f0183674a0519",
       "type": "text",
-      "text": "##### Calori latenti\nQuantità di calore per unità di massa $\\lambda$.\nI calori latenti sono fissati per ogni cambiamento di fase e materiale eccetto per le evaporazione, in cui è una funzione della temperatura e si annulla alla temperatura critica.\n",
-      "x": -1730,
-      "y": -2530,
-      "width": 260,
-      "height": 330
-    },
-    {
-      "id": "24a95b49f6b8fd89",
-      "type": "text",
-      "text": "##### Sorgenti di calore\nUna sorgente di calore è un corpo con capacità termica virtualmente infinita, un sistema a contatto con una sorgente tramite una parete diatermica assume eventualmente la sua temperatura",
-      "x": -2480,
-      "y": -10,
-      "width": 260,
-      "height": 298
-    },
-    {
-      "id": "e64d1b4df8dc4ec8",
-      "type": "text",
-      "text": "##### Trasferimento di calore di due corpi a contatto\nSappiamo che i calori sono\n$$ Q_{1} = -Q_{2} $$\nquindi\n$$ mc(T_{e} - T_{1}) = -mc(T_{e} - T_{2}) $$",
-      "x": -3020,
-      "y": -135,
-      "width": 260,
-      "height": 251
-    },
-    {
-      "id": "1db8182bd1f48f19",
-      "type": "text",
-      "text": "Irraggiamento",
-      "x": -3029,
-      "y": -470,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "8674379f06291eb8",
-      "type": "text",
-      "text": "Conduzione",
-      "x": -3029,
-      "y": -290,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "858e0244978a9f6c",
-      "type": "text",
-      "text": "##### Dilatazione lineare\n$$ \\Delta l = \\lambda l \\Delta T \\implies l + \\Delta l = l(1 + \\lambda \\Delta T) $$\ndove $\\lambda$ è il coefficiente di dilatazione lineare, caratteristico del materiale e funzione della temperatura\n$$ \\lambda = \\frac{1}{l} \\frac{\\Delta l}{\\Delta T} $$",
-      "x": 1320,
-      "y": -37,
-      "width": 416,
-      "height": 237
-    },
-    {
-      "id": "95010675100fd70d",
-      "type": "text",
-      "text": "##### Dilatazione cubica\n$$V + \\Delta V $$\ncon \n$$ \\Delta V = V3 \\lambda \\Delta T = V \\alpha \\Delta T $$\ncon $\\alpha$ coefficiente di dilatazione cubica\n$$ \\alpha = \\frac{1}{V} \\frac{\\Delta V}{\\Delta T} $$",
-      "x": 1320,
-      "y": 320,
-      "width": 416,
-      "height": 260
-    },
-    {
-      "id": "f339360b339160db",
-      "type": "text",
-      "text": "##### Caloria\nQuantità di calore per aumentare da $14.5\\textdegree \\text{C}$ a $15.5 \\textdegree \\text{C}$ un chilogrammo d'acqua\n\n$$1 \\text{ Cal} = 4168.8 \\text{ J}$$\n\n1 Cal = 1 kcal\n1 cal = 0.001 kcal\n\n",
-      "x": -3029,
-      "y": -1098,
-      "width": 280,
-      "height": 260
-    },
-    {
-      "id": "3ad9991b0a6b355c",
-      "type": "text",
-      "text": "$\\mathcal{L} < 0$",
+      "text": "$\\mathcal{L} > 0$",
       "x": -2460,
-      "y": -1000,
+      "y": -1500,
       "width": 96,
       "height": 64
     },
     {
-      "id": "189c0247b8c3bb8d",
+      "id": "3d91642ace591c25",
       "type": "text",
-      "text": "S",
-      "shape": "circle",
-      "x": -2420,
-      "y": -1320,
-      "width": 200,
-      "height": 200
+      "text": "$Q > 0$",
+      "x": -2284,
+      "y": -1500,
+      "width": 97,
+      "height": 64
     },
     {
       "id": "7307961fc0e3e8db",
@@ -287,26 +143,6 @@
       "y": -680,
       "width": 300,
       "height": 480
-    },
-    {
-      "id": "29172847079db0cd",
-      "type": "text",
-      "text": "Convezione",
-      "x": -3029,
-      "y": -658,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "b507d83a51966d9f",
-      "type": "text",
-      "text": "##### Sistema termodinamico\nSistema formato da $N \\approx 10^{23}$ particelle, descritto tramite velocità, energia cinetica e grandezze meccaniche.",
-      "shape": "oval",
-      "isStartNode": true,
-      "x": -200,
-      "y": -160,
-      "width": 340,
-      "height": 200
     },
     {
       "id": "23d856bd79c32be4",
@@ -336,6 +172,179 @@
       "y": -740,
       "width": 310,
       "height": 160
+    },
+    {
+      "id": "3c4e3d6b7450d6ae",
+      "type": "text",
+      "text": "##### Sistema isolato\nSistema che non scambia ne energia ne materia con l'ambiente",
+      "x": -1100,
+      "y": -360,
+      "width": 260,
+      "height": 140
+    },
+    {
+      "id": "830db8c5a7080642",
+      "type": "text",
+      "text": "##### Calore specifico molare\n$$c = \\frac{1}{n} \\frac{dQ}{dT}$$\n\n- $dQ = ncdT$\n- $Q = nc(T_{2} - T_{1})$\n- $Q = n\\int _{T_{1}}^{T_{2}} \\!< \\, \\mathrm{d}x$",
+      "x": -1480,
+      "y": -472,
+      "width": 260,
+      "height": 225
+    },
+    {
+      "id": "21d0a34f938c6532",
+      "type": "text",
+      "text": "##### Calore specifico\n$$ c = \\frac{1}{m} \\frac{dQ}{dT}  $$\nquando il lavoro è nullo\n$$ c= \\frac{1}{m } \\frac{dU}{dT} $$",
+      "x": -1880,
+      "y": -466,
+      "width": 260,
+      "height": 213
+    },
+    {
+      "id": "e820fe4f1997ad82",
+      "type": "text",
+      "text": "$Q < 0$",
+      "x": -2284,
+      "y": -1000,
+      "width": 97,
+      "height": 64
+    },
+    {
+      "id": "289cd0dc846d22c5",
+      "type": "text",
+      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$\n- L'energia interna $\\Delta U$ è una funzione di stato, sempre uguali per trasformazioni tra due stati di equilibrio\n- L'energia fornita o come calore o come lavoro viene immagazzinata nel sistema nella forma di energia interna\n- L'energia non dipende dallo stato di moto del sistema ma da temperatura pressione e volume del sistema stesso.\n- Calore trasferimento di energia microscopico (un sistema non possiede energia, due sistemi possono scambiarsi energia)\n- Per una trasformazione ciclica, ossia con stato iniziale coincidente con stato finale, si ha $$\\Delta U =0 \\implies Q = \\mathcal{L}$$\n- In forma differenziale $$ dQ = dU + d\\mathcal{L} $$\n\t  - $\\Delta U = \\int _{A}^B \\! dU = U_{B} - U_{A}$\n\t  - $Q_{AB} = \\int _{A}^B \\! \\, \\mathrm{d}Q$\n- $[ U] = [Q] = [\\mathcal{L}] = \\text{J}$",
+      "x": -1580,
+      "y": -1545,
+      "width": 460,
+      "height": 650,
+      "color": "3"
+    },
+    {
+      "id": "e812c385eec6db1b",
+      "type": "text",
+      "text": "##### Equivalenza tra calore e lavoro in sistema adiabatico\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$",
+      "x": -860,
+      "y": -1420,
+      "width": 557,
+      "height": 400
+    },
+    {
+      "id": "189c0247b8c3bb8d",
+      "type": "text",
+      "text": "S",
+      "shape": "circle",
+      "x": -2420,
+      "y": -1320,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "id": "863c7cc4559cc1e3",
+      "type": "text",
+      "text": "##### Trasformazioni adiabatiche\nIn una trasformazione adiabatica il calore scambiato è nullo, ossia $Q = 0$.\nUn sistema che compie solo trasformazioni adiabatiche è detto sistema adiabatico\nPer il primo principio\n$$ \\Delta U = -\\mathcal{L} $$\nEventuali scambi energetici possono essere solo di natura meccanica.\n\nTrasformazioni veramente adiabatiche sono virtualmente impossibili, è considerata una adiabatica una trasformazione che avviene rapidamente (impedendo gli scambi di calore)",
+      "x": -663,
+      "y": -2040,
+      "width": 360,
+      "height": 440
+    },
+    {
+      "id": "3ad9991b0a6b355c",
+      "type": "text",
+      "text": "$\\mathcal{L} < 0$",
+      "x": -2460,
+      "y": -1000,
+      "width": 96,
+      "height": 64
+    },
+    {
+      "id": "e64d1b4df8dc4ec8",
+      "type": "text",
+      "text": "##### Trasferimento di calore di due corpi a contatto\nSappiamo che i calori sono\n$$ Q_{1} = -Q_{2} $$\nquindi\n$$ mc(T_{e} - T_{1}) = -mc(T_{e} - T_{2}) $$",
+      "x": -3020,
+      "y": -135,
+      "width": 260,
+      "height": 251
+    },
+    {
+      "id": "1db8182bd1f48f19",
+      "type": "text",
+      "text": "Irraggiamento",
+      "x": -3029,
+      "y": -470,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "8674379f06291eb8",
+      "type": "text",
+      "text": "Conduzione",
+      "x": -3029,
+      "y": -290,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "f339360b339160db",
+      "type": "text",
+      "text": "##### Caloria\nQuantità di calore per aumentare da $14.5\\textdegree \\text{C}$ a $15.5 \\textdegree \\text{C}$ un chilogrammo d'acqua\n\n$$1 \\text{ Cal} = 4168.8 \\text{ J}$$\n\n1 Cal = 1 kcal\n1 cal = 0.001 kcal\n\n",
+      "x": -3029,
+      "y": -1098,
+      "width": 280,
+      "height": 260
+    },
+    {
+      "id": "29172847079db0cd",
+      "type": "text",
+      "text": "Convezione",
+      "x": -3029,
+      "y": -658,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "e492101b4bfc408f",
+      "type": "text",
+      "text": "##### Sistema chiuso\nSistema che scambia energia con l'ambiente",
+      "x": -1100,
+      "y": -140,
+      "width": 260,
+      "height": 130
+    },
+    {
+      "id": "d1cde84877befb4d",
+      "type": "text",
+      "text": "##### Capacità termica\n$$C = mc$$",
+      "x": -1880,
+      "y": -90,
+      "width": 260,
+      "height": 80
+    },
+    {
+      "id": "0a0bbf6cbeb2f59a",
+      "type": "text",
+      "text": "##### Ottenimento equilibrio termico\nPer ottenere l'equilibrio termico per due corpi si possono mettere a contatto tramite una parete **diatermica**, una parete detta invece **adiabatica** non permetterebbe il raggiungimento dell'equilibrio e le temperature dei corpi rimarrebbero invariate.\nSe la parete è diatermica i corpi sono detti a contatto termico",
+      "x": 780,
+      "y": -1246,
+      "width": 320,
+      "height": 393
+    },
+    {
+      "id": "6ed75884c347043f",
+      "type": "text",
+      "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
+      "x": 320,
+      "y": -1660,
+      "width": 320,
+      "height": 414
+    },
+    {
+      "id": "24a95b49f6b8fd89",
+      "type": "text",
+      "text": "##### Sorgenti di calore\nUna sorgente di calore è un corpo con capacità termica virtualmente infinita, un sistema a contatto con una sorgente tramite una parete diatermica assume eventualmente la sua temperatura",
+      "x": -2480,
+      "y": -10,
+      "width": 260,
+      "height": 298
     },
     {
       "id": "fb56f788248145e1",
@@ -374,15 +383,6 @@
       "height": 91
     },
     {
-      "id": "b239749dc574c103",
-      "type": "text",
-      "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente",
-      "x": -200,
-      "y": 440,
-      "width": 340,
-      "height": 200
-    },
-    {
       "id": "4606d23c4df58ecc",
       "type": "text",
       "text": "##### Dilatazione termica\nUn corpo a pressione costante aumenta di volume in base alla temperatura",
@@ -390,15 +390,6 @@
       "y": 180,
       "width": 260,
       "height": 180
-    },
-    {
-      "id": "e492101b4bfc408f",
-      "type": "text",
-      "text": "##### Sistema chiuso\nSistema che scambia energia con l'ambiente",
-      "x": -1100,
-      "y": -140,
-      "width": 260,
-      "height": 130
     },
     {
       "id": "b35fe90c68ca83a6",
@@ -410,15 +401,6 @@
       "height": 130
     },
     {
-      "id": "a770540933eccddf",
-      "type": "text",
-      "text": "##### Equilibrio termico\nDue sistemi sono in equilibrio termico quando hanno la stessa temperatura",
-      "x": 350,
-      "y": -764,
-      "width": 260,
-      "height": 209
-    },
-    {
       "id": "40ffb2f7abad818f",
       "type": "text",
       "text": "##### Sistema adiabatico\nSistema circondato da pareti adiabatiche",
@@ -428,40 +410,77 @@
       "height": 140
     },
     {
-      "id": "3c4e3d6b7450d6ae",
+      "id": "6fa4886de29ae25a",
       "type": "text",
-      "text": "##### Sistema isolato\nSistema che non scambia ne energia ne materia con l'ambiente",
-      "x": -1100,
-      "y": -360,
-      "width": 260,
-      "height": 140
+      "text": "##### Equazione di stato\nIn uno stato di equilibrio esiste relazione tra coordinate termodinamiche, espressa come equazione di stato",
+      "x": -170,
+      "y": -1140,
+      "width": 280,
+      "height": 180
     },
     {
-      "id": "d1cde84877befb4d",
+      "id": "7e9a2a3bc0337566",
       "type": "text",
-      "text": "##### Capacità termica\n$$C = mc$$",
-      "x": -1880,
-      "y": -90,
+      "text": "##### Calori latenti\nQuantità di calore per unità di massa $\\lambda$.\nI calori latenti sono fissati per ogni cambiamento di fase e materiale eccetto per le evaporazione, in cui è una funzione della temperatura e si annulla alla temperatura critica.\n",
+      "x": -1730,
+      "y": -2530,
       "width": 260,
-      "height": 80
+      "height": 330
     },
     {
-      "id": "830db8c5a7080642",
+      "id": "858e0244978a9f6c",
       "type": "text",
-      "text": "##### Calore specifico molare\n$$c = \\frac{1}{n} \\frac{dQ}{dT}$$\n\n- $dQ = ncdT$\n- $Q = nc(T_{2} - T_{1})$\n- $Q = n\\int _{T_{1}}^{T_{2}} \\!< \\, \\mathrm{d}x$",
-      "x": -1480,
-      "y": -472,
-      "width": 260,
-      "height": 225
+      "text": "##### Dilatazione lineare\n$$ \\Delta l = \\lambda l \\Delta T \\implies l + \\Delta l = l(1 + \\lambda \\Delta T) $$\ndove $\\lambda$ è il coefficiente di dilatazione lineare, caratteristico del materiale e funzione della temperatura\n$$ \\lambda = \\frac{1}{l} \\frac{\\Delta l}{\\Delta T} $$",
+      "x": 1320,
+      "y": -37,
+      "width": 416,
+      "height": 237
     },
     {
-      "id": "21d0a34f938c6532",
+      "id": "95010675100fd70d",
       "type": "text",
-      "text": "##### Calore specifico\n$$ c = \\frac{1}{m} \\frac{dQ}{dT}  $$\nquando il lavoro è nullo\n$$ c= \\frac{1}{m } \\frac{dU}{dT} $$",
-      "x": -1880,
-      "y": -466,
+      "text": "##### Dilatazione cubica\n$$V + \\Delta V $$\ncon \n$$ \\Delta V = V3 \\lambda \\Delta T = V \\alpha \\Delta T $$\ncon $\\alpha$ coefficiente di dilatazione cubica\n$$ \\alpha = \\frac{1}{V} \\frac{\\Delta V}{\\Delta T} $$",
+      "x": 1320,
+      "y": 320,
+      "width": 416,
+      "height": 260
+    },
+    {
+      "id": "b239749dc574c103",
+      "type": "text",
+      "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente",
+      "x": -200,
+      "y": 440,
+      "width": 340,
+      "height": 200
+    },
+    {
+      "id": "a770540933eccddf",
+      "type": "text",
+      "text": "##### Equilibrio termico\nDue sistemi sono in equilibrio termico quando hanno la stessa temperatura",
+      "x": 350,
+      "y": -764,
       "width": 260,
-      "height": 213
+      "height": 209
+    },
+    {
+      "id": "f0b5dfdd5e0a01c5",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -1191,
+      "y": -692,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "e49fb4e022174e0b",
+      "x": -1291,
+      "y": 420,
+      "width": 260,
+      "height": 220,
+      "type": "text",
+      "text": "##### Variabili termodinamiche per GAS\n"
     }
   ],
   "edges": [
@@ -896,6 +915,21 @@
       "fromSide": "top",
       "toNode": "f339360b339160db",
       "toSide": "bottom"
+    },
+    {
+      "id": "5f5cfd6275322b69",
+      "fromNode": "f0b5dfdd5e0a01c5",
+      "fromSide": "bottom",
+      "toNode": "e49fb4e022174e0b",
+      "toSide": "top"
+    },
+    {
+      "id": "952f0549de5450a5",
+      "fromNode": "5f18ae3e7c1553ba",
+      "fromSide": "left",
+      "toNode": "f0b5dfdd5e0a01c5",
+      "toSide": "right",
+      "toEnd": "none"
     }
   ],
   "metadata": {}

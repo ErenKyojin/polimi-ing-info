@@ -133,6 +133,8 @@ modification date: 2023-07-07 09:14
 ## Termodinamica
 ![[Termodinamica.canvas|Termodinamica]]
 
+
+
 - [ ] [[Sistemi termodinamici|Sistema termodinamico]]
 - [ ] [[]]
 
