@@ -531,22 +531,13 @@
       "color": "3"
     },
     {
-      "id": "35d8e6e7936bb65e",
-      "x": 2640,
-      "y": 1820,
-      "width": 400,
-      "height": 180,
-      "type": "text",
-      "text": "##### Gas ideali\nTutti i gas in alcune condizioni si comportano allo stesso modo, in particolar modo in condizioni di bassa pressione ed alta temperatura. In questi casi i gas sono detti **gas ideali**"
-    },
-    {
       "id": "aa3a7469bbdf8ed3",
+      "type": "text",
+      "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}\\ ^o\\text{C}^{-1} $$",
       "x": 3440,
       "y": 1400,
       "width": 280,
-      "height": 200,
-      "type": "text",
-      "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}\\ ^o\\text{C}^{-1} $$"
+      "height": 200
     },
     {
       "id": "748818d11c6ad33e",
@@ -557,6 +548,24 @@
       "width": 480,
       "height": 240,
       "color": "3"
+    },
+    {
+      "id": "98299aed9afa52d8",
+      "type": "text",
+      "text": "##### Volume molare\nUna mole di un gas qualsiasi occupa sempre lo stesso volume a pressione atmosferica e zero gradi celsius il volume vare\n$$ V_{m} = 0.022414 \\ \\text{m}^3 = 22.414 \\text{ l}$$",
+      "x": 3980,
+      "y": 2400,
+      "width": 260,
+      "height": 240
+    },
+    {
+      "id": "35d8e6e7936bb65e",
+      "type": "text",
+      "text": "##### Gas ideali\nTutti i gas in alcune condizioni si comportano allo stesso modo, in particolar modo in condizioni di bassa pressione ed alta temperatura. In questi casi i gas sono detti **gas ideali**",
+      "x": 2640,
+      "y": 1820,
+      "width": 400,
+      "height": 180
     },
     {
       "id": "4f09b4357e48e995",
@@ -570,12 +579,12 @@
     },
     {
       "id": "981ef73f0b3615ac",
-      "x": 3360,
-      "y": 2490,
-      "width": 260,
-      "height": 60,
       "type": "text",
-      "text": "##### Mole\nQuantità di materia che contiene tante entità elementari quanti atomi in 0.0"
+      "text": "##### Mole\nQuantità di materia che contiene tante entità elementari quanti atomi vi sono in $0.012 \\text{ Kg}$ dell'isotopo $^{12} \\text{C}$ di carbonio.\nUna chilomole è pari a $10^{13}$ moli ",
+      "x": 3320,
+      "y": 2400,
+      "width": 300,
+      "height": 240
     }
   ],
   "edges": [
@@ -1103,6 +1112,20 @@
       "fromSide": "bottom",
       "toNode": "4f09b4357e48e995",
       "toSide": "top"
+    },
+    {
+      "id": "3ccbc61fcce156c4",
+      "fromNode": "4f09b4357e48e995",
+      "fromSide": "right",
+      "toNode": "981ef73f0b3615ac",
+      "toSide": "left"
+    },
+    {
+      "id": "63797b909b5f7a89",
+      "fromNode": "981ef73f0b3615ac",
+      "fromSide": "right",
+      "toNode": "98299aed9afa52d8",
+      "toSide": "left"
     }
   ],
   "metadata": {}
