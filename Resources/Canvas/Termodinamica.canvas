@@ -335,15 +335,6 @@
       "color": "3"
     },
     {
-      "id": "76a7152da26807cb",
-      "type": "text",
-      "text": "##### Piano di Clapeyron\nVolume sull'asse delle ascisse e pressione sull'asse delle ordinate",
-      "x": -640,
-      "y": 965,
-      "width": 280,
-      "height": 150
-    },
-    {
       "id": "3e492fd47311be3d",
       "type": "text",
       "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n\n\n",
@@ -634,22 +625,51 @@
       "height": 60
     },
     {
+      "id": "76a7152da26807cb",
+      "type": "text",
+      "text": "##### Piano di Clapeyron\nVolume sull'asse delle ascisse e pressione sull'asse delle ordinate",
+      "x": 530,
+      "y": 967,
+      "width": 280,
+      "height": 150
+    },
+    {
+      "id": "438d9397c4bbad1b",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": 1155,
+      "y": 736,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "6b75365f477a4435",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": 1176,
+      "y": -2745,
+      "width": 50,
+      "height": 50
+    },
+    {
       "id": "e926965490f7d9df",
+      "type": "text",
+      "text": "##### Compressione ed espansione di un Gas\nIn una trasformazione finita tra due stati $A$ e $B$ il lavoro scambiato da un gas in espansione o in compressione è dato dall'integrale\n$$ \\mathcal{L} = \\int _{A}^B \\!p(V) \\, \\mathrm{d}V  $$\n\nQuesta formula vale unicamente se la formula è reversibile o se la pressione esterna è nota. (Questi sono gli unici casi in cui la pressione è determinata in ogni stato intermedio)",
       "x": 280,
       "y": -2880,
       "width": 400,
-      "height": 320,
-      "type": "text",
-      "text": "##### Compressione ed espansione di un Gas\nIn una trasformazione finita tra due stati $A$ e $B$ il lavoro scambiato da un gas in espansione o in compressione è dato dall'integrale\n$$ \\mathcal{L} = \\int _{A}^B \\!p(V) \\, \\mathrm{d}V  $$\n\nQuesta formula vale unicamente se la formula è reversibile o se la pressione esterna è nota. (Questi sono gli unici casi in cui la pressione è determinata in ogni stato intermedio)"
+      "height": 320
     },
     {
-      "id": "2289fb7c0a720648",
-      "x": 351,
-      "y": -3280,
-      "width": 260,
-      "height": 157,
+      "id": "d46183b603db3db3",
       "type": "text",
-      "text": ""
+      "text": "##### Lavoro sul piano di Clapeyron\nData una trasformazione attraverso stati di equilibrio, rappresentata come una linea continua sul piano di Clapeyron. Il lavoro è rappresentante come l'area sottostante alla linea. Se la trasformazione è ciclica il lavoro è l'area interna al poligono disegnato dalla curva.\nSe la trasformazione è percorsa in senso orario è positivo, negativo altrimenti",
+      "x": 280,
+      "y": -3680,
+      "width": 400,
+      "height": 320
     }
   ],
   "edges": [
@@ -1264,11 +1284,20 @@
       "toSide": "bottom"
     },
     {
-      "id": "22b5ee8318049285",
-      "fromNode": "e926965490f7d9df",
+      "id": "66ed95c3d619c06e",
+      "fromNode": "76a7152da26807cb",
       "fromSide": "top",
-      "toNode": "2289fb7c0a720648",
-      "toSide": "bottom"
+      "toNode": "438d9397c4bbad1b",
+      "toSide": "bottom",
+      "toEnd": "none"
+    },
+    {
+      "id": "9707f1461b27bf3e",
+      "fromNode": "438d9397c4bbad1b",
+      "fromSide": "top",
+      "toNode": "6b75365f477a4435",
+      "toSide": "bottom",
+      "toEnd": "none"
     }
   ],
   "metadata": {}
