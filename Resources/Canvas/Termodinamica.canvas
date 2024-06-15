@@ -428,24 +428,6 @@
       "height": 330
     },
     {
-      "id": "858e0244978a9f6c",
-      "type": "text",
-      "text": "##### Dilatazione lineare\n$$ \\Delta l = \\lambda l \\Delta T \\implies l + \\Delta l = l(1 + \\lambda \\Delta T) $$\ndove $\\lambda$ è il coefficiente di dilatazione lineare, caratteristico del materiale e funzione della temperatura\n$$ \\lambda = \\frac{1}{l} \\frac{\\Delta l}{\\Delta T} $$",
-      "x": 1320,
-      "y": -37,
-      "width": 416,
-      "height": 237
-    },
-    {
-      "id": "95010675100fd70d",
-      "type": "text",
-      "text": "##### Dilatazione cubica\n$$V + \\Delta V $$\ncon \n$$ \\Delta V = V3 \\lambda \\Delta T = V \\alpha \\Delta T $$\ncon $\\alpha$ coefficiente di dilatazione cubica\n$$ \\alpha = \\frac{1}{V} \\frac{\\Delta V}{\\Delta T} $$",
-      "x": 1320,
-      "y": 320,
-      "width": 416,
-      "height": 260
-    },
-    {
       "id": "b239749dc574c103",
       "type": "text",
       "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente",
@@ -512,25 +494,6 @@
       "height": 88
     },
     {
-      "id": "ac2f91c3d8fa81b2",
-      "type": "text",
-      "text": "##### Isoterma\nSe il gas cambia pressione e volume ma la temperatura rimane costante\n$$ p_{1}V_{1} = p_{2}V_{2} $$\nRamo di iperbole sul piano di clapeyron",
-      "x": 2077,
-      "y": 944,
-      "width": 480,
-      "height": 195
-    },
-    {
-      "id": "3fab6ac0419489d0",
-      "type": "text",
-      "text": "##### Legge isocora di Gay-Lussac\nSe si mantiene costante il volume di un gas, la trasformazion è detta **isocora** e la pressione risulta funzione lineare della temperatura\n$$ p = p_{0}(1 + \\beta t) $$\n",
-      "x": 3720,
-      "y": 920,
-      "width": 480,
-      "height": 240,
-      "color": "3"
-    },
-    {
       "id": "aa3a7469bbdf8ed3",
       "type": "text",
       "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}\\ ^o\\text{C}^{-1} $$",
@@ -592,16 +555,63 @@
       "text": "##### Volume molare\nUna mole di un gas qualsiasi occupa sempre lo stesso volume a pressione atmosferica e zero gradi celsius il volume vare\n$$ V_{m} = 0.022414 \\ \\text{m}^3 = 22.414 \\text{ l}$$",
       "x": 3980,
       "y": 2400,
-      "width": 260,
+      "width": 280,
       "height": 240
+    },
+    {
+      "id": "3fab6ac0419489d0",
+      "type": "text",
+      "text": "##### Legge isocora di Gay-Lussac\nSe si mantiene costante il volume di un gas, la trasformazion è detta **isocora** e la pressione risulta funzione lineare della temperatura\n$$ p = p_{0}(1 + \\beta t) $$\n",
+      "x": 3720,
+      "y": 920,
+      "width": 480,
+      "height": 240,
+      "color": "3"
+    },
+    {
+      "id": "ac2f91c3d8fa81b2",
+      "type": "text",
+      "text": "##### Isoterma\nSe il gas cambia pressione e volume ma la temperatura rimane costante\n$$ p_{1}V_{1} = p_{2}V_{2} $$\nRamo di iperbole sul piano di clapeyron",
+      "x": 2077,
+      "y": 944,
+      "width": 480,
+      "height": 195
+    },
+    {
+      "id": "26ef9038f868c3ef",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": 4440,
+      "y": 1475,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "95010675100fd70d",
+      "type": "text",
+      "text": "##### Dilatazione cubica\n$$V + \\Delta V $$\ncon \n$$ \\Delta V = V3 \\lambda \\Delta T = V \\alpha \\Delta T $$\ncon $\\alpha$ coefficiente di dilatazione cubica\n$$ \\alpha = \\frac{1}{V} \\frac{\\Delta V}{\\Delta T} $$",
+      "x": 1320,
+      "y": 320,
+      "width": 416,
+      "height": 260
+    },
+    {
+      "id": "858e0244978a9f6c",
+      "type": "text",
+      "text": "##### Dilatazione lineare\n$$ \\Delta l = \\lambda l \\Delta T \\implies l + \\Delta l = l(1 + \\lambda \\Delta T) $$\ndove $\\lambda$ è il coefficiente di dilatazione lineare, caratteristico del materiale e funzione della temperatura\n$$ \\lambda = \\frac{1}{l} \\frac{\\Delta l}{\\Delta T} $$",
+      "x": 1320,
+      "y": -37,
+      "width": 416,
+      "height": 237
     },
     {
       "id": "48967e99c85ee9c0",
       "type": "text",
-      "text": "##### Costante del gas ideale\n$$ R = p_{0}V_{m}\\alpha =  $$",
-      "x": 3980,
+      "text": "##### Costante del gas ideale\n$$ R = p_{0}V_{m}\\alpha   $$\n$p_{0}V_{m}\\alpha$ costante, quindi\n$$ \\begin{align}\nR &= 1.01325 \\cdot 10^5 \\cdot 0.022414 \\cdot \\frac{1}{273.15} = \\\\\n&=8.314 \\text{ J/mole K}\n\\end{align}$$",
+      "x": 3970,
       "y": 2856,
-      "width": 260,
+      "width": 300,
       "height": 240
     }
   ],
@@ -1158,6 +1168,27 @@
       "fromSide": "bottom",
       "toNode": "48967e99c85ee9c0",
       "toSide": "top"
+    },
+    {
+      "id": "3ae987ef16a903d3",
+      "fromNode": "aa3a7469bbdf8ed3",
+      "fromSide": "right",
+      "toNode": "26ef9038f868c3ef",
+      "toSide": "left"
+    },
+    {
+      "id": "efefc39332ec5b81",
+      "fromNode": "26ef9038f868c3ef",
+      "fromSide": "bottom",
+      "toNode": "48967e99c85ee9c0",
+      "toSide": "right"
+    },
+    {
+      "id": "4f2c75f5b95a82b6",
+      "fromNode": "48967e99c85ee9c0",
+      "fromSide": "left",
+      "toNode": "bd701d0a345bb772",
+      "toSide": "right"
     }
   ],
   "metadata": {}
