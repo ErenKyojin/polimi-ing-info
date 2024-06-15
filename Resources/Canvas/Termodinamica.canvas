@@ -663,24 +663,6 @@
       "height": 80
     },
     {
-      "id": "b80d7cdcf3f666b3",
-      "x": -1844,
-      "y": -1980,
-      "width": 260,
-      "height": 173,
-      "type": "text",
-      "text": "##### Calore in un isocora\n$$ dQ = nc_{V} \\dd t $$"
-    },
-    {
-      "id": "8a533803634ccd95",
-      "type": "text",
-      "text": "##### Calore in un isobara\n$$ dQ = nc_{p}\\dd t $$",
-      "x": -1191,
-      "y": -1980,
-      "width": 260,
-      "height": 173
-    },
-    {
       "id": "7e9a2a3bc0337566",
       "type": "text",
       "text": "##### Calori latenti\nQuantità di calore per unità di massa $\\lambda$.\nI calori latenti sono fissati per ogni cambiamento di fase e materiale eccetto per le evaporazione, in cui è una funzione della temperatura e si annulla alla temperatura critica.\n",
@@ -690,13 +672,40 @@
       "height": 330
     },
     {
-      "id": "7356060b187a728d",
+      "id": "8a533803634ccd95",
+      "type": "text",
+      "text": "##### Calore in un isobara\n$$ dQ = nc_{p}\\dd T $$\nSe $c_{p}$ costante, il caolre scambiato per una differenza di temperatura $\\Delta T$ si avrà\n$$ Q_{p} = nc_{p} \\dd T $$",
       "x": -1120,
-      "y": -2400,
+      "y": -2040,
+      "width": 260,
+      "height": 233
+    },
+    {
+      "id": "b80d7cdcf3f666b3",
+      "x": -1840,
+      "y": -2040,
+      "width": 260,
+      "height": 233,
+      "type": "text",
+      "text": "##### Calore in un isocora\n$$ dQ = nc_{V} \\dd T $$\nSe $c_{V}$ costante, il calore scambiato per una variazione di $\\Delta T$ di temperatura si avrà\n$$ Q_{V} = nc_{V} \\dd T $$"
+    },
+    {
+      "id": "7356060b187a728d",
+      "x": -1480,
+      "y": -2145,
       "width": 260,
       "height": 165,
       "type": "text",
-      "text": ""
+      "text": "###### Calore specifico molare a pressione costante\n$$ c_{p} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{p} $$"
+    },
+    {
+      "id": "f96e7e8864d4e4a5",
+      "type": "text",
+      "text": "###### Calore specifico molare a volume costante\n$$ c_{V} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{V} $$",
+      "x": -2187,
+      "y": -2145,
+      "width": 260,
+      "height": 165
     }
   ],
   "edges": [
@@ -1357,11 +1366,18 @@
       "label": "Isobara"
     },
     {
-      "id": "170e5ce472c47dd6",
+      "id": "87fd3b560d1abe2a",
       "fromNode": "7356060b187a728d",
       "fromSide": "bottom",
       "toNode": "8a533803634ccd95",
-      "toSide": "top"
+      "toSide": "left"
+    },
+    {
+      "id": "5fcaa41e669357ef",
+      "fromNode": "f96e7e8864d4e4a5",
+      "fromSide": "bottom",
+      "toNode": "b80d7cdcf3f666b3",
+      "toSide": "left"
     }
   ],
   "metadata": {}
