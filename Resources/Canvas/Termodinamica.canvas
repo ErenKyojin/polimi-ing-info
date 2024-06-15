@@ -719,12 +719,12 @@
     },
     {
       "id": "763535902bbe99bc",
-      "x": 1620,
-      "y": 1740,
+      "x": 1640,
+      "y": 1700,
       "width": 480,
-      "height": 420,
+      "height": 500,
       "type": "text",
-      "text": "##### Energia interna del gas ideale in espansione libera\nDall'esperimento di Joule sull'espansione libera, osserviamo che l'energia interna di un gas in espansione liberà non cambia\n$$ \\Delta U = Q - \\mathcal{L} = 0 $$\n\nEssendo l'energia interna funzione di temperatura, pressione e volume ed essendo pressione e volume costanti e la trasformazione isoterma, l'energia interna deve essere funzione solamente della temperatura, in particolare\n$$ \\Delta U = U_{B} - U_{A} = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T  $$\nse $c_{V}$ costante con la temperatura $\\Delta U = nc_{V} \\Delta T$"
+      "text": "##### Energia interna del gas ideale in espansione libera\nDall'esperimento di Joule sull'espansione libera, osserviamo che l'energia interna di un gas in espansione liberà non cambia\n$$ \\Delta U = Q - \\mathcal{L} = 0 $$\n\nEssendo l'energia interna funzione di temperatura, pressione e volume ed essendo pressione e volume costanti e la trasformazione isoterma, l'energia interna deve essere funzione solamente della temperatura, in particolare\n$$ \\Delta U = U_{B} - U_{A} = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T  $$\nse $c_{V}$ costante con la temperatura $\\Delta U = nc_{V} \\Delta T$\n\nIn forma infinitesimale\n$$ dU = nc_{V} \\dd T $$"
     }
   ],
   "edges": [
