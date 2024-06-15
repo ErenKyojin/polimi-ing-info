@@ -102,16 +102,6 @@
       "height": 200
     },
     {
-      "id": "26ef9038f868c3ef",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": 4440,
-      "y": 1475,
-      "width": 50,
-      "height": 50
-    },
-    {
       "id": "748818d11c6ad33e",
       "type": "text",
       "text": "##### Legge isobara di Gay-Lussac\nSe la pressione di un gas durante una trasformazione rimane costante questa è detta **isobara**, il volume varia linearmente con la temperatura\n$$ V = V_{0} (1 + \\alpha t) $$\n$t$ in celsius",
@@ -718,13 +708,23 @@
       "text": "Il calore necessario da cedere ad una mole di gas ideale per aumentare la sua temperatura di $\\Delta T$ è maggiore a pressione costante rispetto che a volume costante, questo perchè a pressione costante il gas compie un lavoro."
     },
     {
-      "id": "ed6673de462fa1f1",
-      "x": 1459,
-      "y": 1921,
-      "width": 260,
-      "height": 60,
+      "id": "26ef9038f868c3ef",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": 4360,
+      "y": 2175,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "763535902bbe99bc",
+      "x": 1760,
+      "y": 1740,
+      "width": 340,
+      "height": 420,
       "type": "text",
-      "text": ""
+      "text": "##### Energia interna del gas ideale in espansione libera\nDall'esperimento di Joule sull'espansione libera, osserviamo che l'energia interna di un gas in espansione liberà non cambia\n$$ \\Delta U = Q - \\mathcal{L} = 0 $$\n\nEssendo l'energia interna funzione di temperatura, pressione e volume ed essendo pressione e volume costanti e la trasformazione isoterma, l'energia interna deve essere funzione solamente della temperatura."
     }
   ],
   "edges": [
@@ -1137,14 +1137,16 @@
       "fromNode": "4606d23c4df58ecc",
       "fromSide": "right",
       "toNode": "858e0244978a9f6c",
-      "toSide": "left"
+      "toSide": "left",
+      "color": "6"
     },
     {
       "id": "ec5ece36fc92ec8a",
       "fromNode": "4606d23c4df58ecc",
       "fromSide": "right",
       "toNode": "95010675100fd70d",
-      "toSide": "left"
+      "toSide": "left",
+      "color": "6"
     },
     {
       "id": "c3171a92d8261bdf",
@@ -1414,12 +1416,11 @@
       "toSide": "right"
     },
     {
-      "id": "721131a251a94fe2",
+      "id": "ed48ae5eb87b1de3",
       "fromNode": "35d8e6e7936bb65e",
       "fromSide": "left",
-      "toNode": "ed6673de462fa1f1",
-      "toSide": "right",
-      "color": "6"
+      "toNode": "763535902bbe99bc",
+      "toSide": "right"
     }
   ],
   "metadata": {}
