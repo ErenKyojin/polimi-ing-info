@@ -699,16 +699,6 @@
       "height": 283
     },
     {
-      "id": "76a920552d1a0e35",
-      "type": "text",
-      "text": "Il calore necessario da cedere ad una mole di gas ideale per aumentare la sua temperatura di $\\Delta T$ è maggiore a pressione costante rispetto che a volume costante, questo perchè a pressione costante il gas compie un lavoro.",
-      "x": -1660,
-      "y": -2144,
-      "width": 260,
-      "height": 273,
-      "color": "3"
-    },
-    {
       "id": "8a533803634ccd95",
       "type": "text",
       "text": "##### Calore in un isobara\n$$ dQ = nc_{p}\\dd T $$\nSe $c_{p}$ costante, il caolre scambiato per una differenza di temperatura $\\Delta T$ si avrà\n$$ Q_{p} = nc_{p} \\dd T $$\nAltrimenti si ha\n$$ Q_{V} = n\\int _{T_{A}}^{T_{B}} \\! c_{p} \\, \\mathrm{d}T  $$\n\nUtilizzando il primo principio\n$$ Q_{p} = \\Delta U + p \\Delta V $$\no\n$$ \\Delta U = n $$",
@@ -727,13 +717,33 @@
       "height": 516
     },
     {
-      "id": "5293986bdc78e3ef",
-      "x": 980,
-      "y": 1780,
-      "width": 420,
-      "height": 340,
+      "id": "1ea0b89d7a516a55",
+      "x": -2715,
+      "y": -2213,
+      "width": 395,
+      "height": 411,
       "type": "text",
-      "text": "##### Trasformazioni di gas ideali\n\n$$ d Q = nc_{V} \\dd T + \\dd W \\implies Q = n\\int _{T_{B}}^{T_{A}} \\! c_{V}  \\, \\mathrm{d}T + W  $$\nin particolare se $c_{V}$ costante rispetto alla temperatura\n$$ Q = nc_{V} \\Delta T + W $$ \n\nSe la trasformazione reversibile\n$$ \\dd Q = nc_{V} \\dd T + pdV \\implies Q = n $$"
+      "text": "##### Trasformazione isocora di gas ideali\n$$ d Q = nc_{V} \\dd T + \\dd W \\implies Q = n\\int _{T_{B}}^{T_{A}} \\! c_{V}  \\, \\mathrm{d}T + W  $$\nin particolare se $c_{V}$ costante rispetto alla temperatura\n$$ Q = nc_{V} \\Delta T + W $$ \n\nSe la trasformazione reversibile\n$$ \\dd Q = nc_{V} \\dd T + pdV \\implies Q = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T + \\int _{V_{A}}^\n{V_{B}} \\!p \\, \\mathrm{d} V   $$\nE, se $c_{V}$ costante\n\n$$ Q = nc_{V} \\dd T + \\int _{V_{A}}^{V_{B}} \\! p \\, \\mathrm{d}V$$"
+    },
+    {
+      "id": "76a920552d1a0e35",
+      "type": "text",
+      "text": "Il calore necessario da cedere ad una mole di gas ideale per aumentare la sua temperatura di $\\Delta T$ è maggiore a pressione costante rispetto che a volume costante, questo perchè a pressione costante il gas compie un lavoro.",
+      "x": -1660,
+      "y": -2144,
+      "width": 260,
+      "height": 273,
+      "color": "3"
+    },
+    {
+      "id": "7e1d7e98d978c443",
+      "type": "text",
+      "text": "##### Relazione di Mayer\n$$ c_{p} - c_{V} = R $$",
+      "x": -1635,
+      "y": -2869,
+      "width": 260,
+      "height": 129,
+      "color": "3"
     }
   ],
   "edges": [
@@ -1433,10 +1443,24 @@
       "toSide": "right"
     },
     {
-      "id": "0f97e8cd7424bcb4",
-      "fromNode": "763535902bbe99bc",
+      "id": "e46c6b0bf35d17ca",
+      "fromNode": "b80d7cdcf3f666b3",
       "fromSide": "left",
-      "toNode": "5293986bdc78e3ef",
+      "toNode": "1ea0b89d7a516a55",
+      "toSide": "right"
+    },
+    {
+      "id": "4b91d874fb2673af",
+      "fromNode": "f96e7e8864d4e4a5",
+      "fromSide": "top",
+      "toNode": "7e1d7e98d978c443",
+      "toSide": "left"
+    },
+    {
+      "id": "6e555112492c1b44",
+      "fromNode": "7356060b187a728d",
+      "fromSide": "top",
+      "toNode": "7e1d7e98d978c443",
       "toSide": "right"
     }
   ],
