@@ -550,15 +550,6 @@
       "color": "3"
     },
     {
-      "id": "98299aed9afa52d8",
-      "type": "text",
-      "text": "##### Volume molare\nUna mole di un gas qualsiasi occupa sempre lo stesso volume a pressione atmosferica e zero gradi celsius il volume vare\n$$ V_{m} = 0.022414 \\ \\text{m}^3 = 22.414 \\text{ l}$$",
-      "x": 3980,
-      "y": 2400,
-      "width": 260,
-      "height": 240
-    },
-    {
       "id": "35d8e6e7936bb65e",
       "type": "text",
       "text": "##### Gas ideali\nTutti i gas in alcune condizioni si comportano allo stesso modo, in particolar modo in condizioni di bassa pressione ed alta temperatura. In questi casi i gas sono detti **gas ideali**",
@@ -593,7 +584,25 @@
       "width": 360,
       "height": 191,
       "type": "text",
-      "text": "##### Equazione di stato del gas ideale\n$n$ moli di un gas alla pressione atmosferica $p_{0}$"
+      "text": "##### Equazione di stato del gas ideale\n$n$ moli di un gas alla pressione atmosferica $p_{0}$\n$$ pV = nRT $$"
+    },
+    {
+      "id": "98299aed9afa52d8",
+      "type": "text",
+      "text": "##### Volume molare\nUna mole di un gas qualsiasi occupa sempre lo stesso volume a pressione atmosferica e zero gradi celsius il volume vare\n$$ V_{m} = 0.022414 \\ \\text{m}^3 = 22.414 \\text{ l}$$",
+      "x": 3980,
+      "y": 2400,
+      "width": 260,
+      "height": 240
+    },
+    {
+      "id": "48967e99c85ee9c0",
+      "type": "text",
+      "text": "##### Costante del gas ideale\n$$ R = p_{0}V_{m}\\alpha =  $$",
+      "x": 3980,
+      "y": 2856,
+      "width": 260,
+      "height": 240
     }
   ],
   "edges": [
@@ -1141,6 +1150,13 @@
       "fromNode": "981ef73f0b3615ac",
       "fromSide": "bottom",
       "toNode": "bd701d0a345bb772",
+      "toSide": "top"
+    },
+    {
+      "id": "d2a119a59c92329f",
+      "fromNode": "98299aed9afa52d8",
+      "fromSide": "bottom",
+      "toNode": "48967e99c85ee9c0",
       "toSide": "top"
     }
   ],
