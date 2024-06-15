@@ -626,12 +626,12 @@
     },
     {
       "id": "75693bb4320949b0",
-      "x": 3990,
-      "y": 3351,
-      "width": 260,
-      "height": 60,
+      "x": 3970,
+      "y": 3360,
+      "width": 300,
+      "height": 240,
       "type": "text",
-      "text": ""
+      "text": "##### Costante di boltzman\n$$ k_{B} = \\frac{R}{N_{A}} = 1.3807 \\cdot 10^{-23} \\text{ J/K} $$"
     }
   ],
   "edges": [
@@ -1193,7 +1193,8 @@
       "fromNode": "aa3a7469bbdf8ed3",
       "fromSide": "right",
       "toNode": "26ef9038f868c3ef",
-      "toSide": "left"
+      "toSide": "left",
+      "color": "6"
     },
     {
       "id": "efefc39332ec5b81",
