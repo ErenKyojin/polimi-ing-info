@@ -665,7 +665,7 @@
     {
       "id": "d46183b603db3db3",
       "type": "text",
-      "text": "##### Lavoro sul piano di Clapeyron\nData una trasformazione attraverso stati di equilibrio, rappresentata come una linea continua sul piano di Clapeyron. Il lavoro è rappresentante come l'area sottostante alla linea. Se la trasformazione è ciclica il lavoro è l'area interna al poligono disegnato dalla curva.\nSe la trasformazione è percorsa in senso orario è positivo, negativo altrimenti",
+      "text": "##### Lavoro sul piano di Clapeyron\nData una trasformazione attraverso stati di equilibrio, rappresentata come una linea continua sul piano di Clapeyron. Il lavoro è rappresentante come l'area sottostante alla linea. Se la trasformazione è ciclica il lavoro è l'area interna al poligono disegnato dalla curva.\nSe la trasformazione è percorsa in senso orario è positivo, negativo altrimenti.\n\nA parità di stati il lavoro",
       "x": 280,
       "y": -3680,
       "width": 400,
