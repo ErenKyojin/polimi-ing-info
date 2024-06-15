@@ -635,12 +635,21 @@
     },
     {
       "id": "e926965490f7d9df",
-      "x": 350,
-      "y": -2920,
-      "width": 260,
-      "height": 200,
+      "x": 280,
+      "y": -2880,
+      "width": 400,
+      "height": 320,
       "type": "text",
-      "text": "##### Compressione ed espansione di un Gas\nIn una trasformazione finita tra due stati $A$ e $B$ il lavoro scambiato da un gas in espansione o in compressione è dato dall'integrale\n$$ \\mathcal{L} = \\int _{A}^B \\!p(V) \\, \\mathrm{d}V  $$"
+      "text": "##### Compressione ed espansione di un Gas\nIn una trasformazione finita tra due stati $A$ e $B$ il lavoro scambiato da un gas in espansione o in compressione è dato dall'integrale\n$$ \\mathcal{L} = \\int _{A}^B \\!p(V) \\, \\mathrm{d}V  $$\n\nQuesta formula vale unicamente se la formula è reversibile o se la pressione esterna è nota. (Questi sono gli unici casi in cui la pressione è determinata in ogni stato intermedio)"
+    },
+    {
+      "id": "2289fb7c0a720648",
+      "x": 351,
+      "y": -3280,
+      "width": 260,
+      "height": 157,
+      "type": "text",
+      "text": ""
     }
   ],
   "edges": [
@@ -1239,6 +1248,27 @@
       "fromSide": "bottom",
       "toNode": "75693bb4320949b0",
       "toSide": "top"
+    },
+    {
+      "id": "7f046fb159badc85",
+      "fromNode": "3e492fd47311be3d",
+      "fromSide": "top",
+      "toNode": "e926965490f7d9df",
+      "toSide": "left"
+    },
+    {
+      "id": "1192b38626bb2340",
+      "fromNode": "6ed75884c347043f",
+      "fromSide": "top",
+      "toNode": "e926965490f7d9df",
+      "toSide": "bottom"
+    },
+    {
+      "id": "22b5ee8318049285",
+      "fromNode": "e926965490f7d9df",
+      "fromSide": "top",
+      "toNode": "2289fb7c0a720648",
+      "toSide": "bottom"
     }
   ],
   "metadata": {}
