@@ -724,7 +724,7 @@
       "width": 340,
       "height": 420,
       "type": "text",
-      "text": "##### Energia interna del gas ideale in espansione libera\nDall'esperimento di Joule sull'espansione libera, osserviamo che l'energia interna di un gas in espansione liberà non cambia\n$$ \\Delta U = Q - \\mathcal{L} = 0 $$\n\nEssendo l'energia interna funzione di temperatura, pressione e volume ed essendo pressione e volume costanti e la trasformazione isoterma, l'energia interna deve essere funzione solamente della temperatura."
+      "text": "##### Energia interna del gas ideale in espansione libera\nDall'esperimento di Joule sull'espansione libera, osserviamo che l'energia interna di un gas in espansione liberà non cambia\n$$ \\Delta U = Q - \\mathcal{L} = 0 $$\n\nEssendo l'energia interna funzione di temperatura, pressione e volume ed essendo pressione e volume costanti e la trasformazione isoterma, l'energia interna deve essere funzione solamente della temperatura, in particolare"
     }
   ],
   "edges": [
