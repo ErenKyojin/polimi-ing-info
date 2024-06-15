@@ -3,8 +3,8 @@
     {
       "id": "7146e359a1b3ad2d",
       "type": "group",
-      "x": -3240,
-      "y": -3280,
+      "x": -2440,
+      "y": -3780,
       "width": 1215,
       "height": 725,
       "label": "Cambiamenti di fase"
@@ -381,15 +381,6 @@
       "height": 64
     },
     {
-      "id": "0613b706aa2630a6",
-      "type": "text",
-      "text": "##### Cambiamenti di fase\nI cambiamenti di fase sono processi isotermi che avvengono a temperatura e pressione determinate.\nDurante un cambiamento di fase a pressione costante la temperatura rimane costante, il calore è utilizzato per compiere la trasformazione\n$$ Q = m\\lambda $$\n\nI cambiamenti di fase sono trasformazioni praticamente reversibili",
-      "x": -1740,
-      "y": -3120,
-      "width": 280,
-      "height": 409
-    },
-    {
       "id": "830db8c5a7080642",
       "type": "text",
       "text": "##### Calore specifico molare\n$$c = \\frac{1}{n} \\frac{dQ}{dT}$$\n\n- $dQ = ncdT$\n- $Q = nc(T_{2} - T_{1})$\n- $Q = n\\int _{T_{1}}^{T_{2}} \\!< \\, \\mathrm{d}x$",
@@ -406,26 +397,6 @@
       "y": -466,
       "width": 260,
       "height": 213
-    },
-    {
-      "id": "97c8ffe16bcfa313",
-      "type": "text",
-      "text": "Gassoso",
-      "shape": "oval",
-      "x": -2305,
-      "y": -2934,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "5846e94abe25ac1e",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -2330,
-      "y": -2625,
-      "width": 50,
-      "height": 50
     },
     {
       "id": "3d91642ace591c25",
@@ -474,26 +445,6 @@
       "height": 298
     },
     {
-      "id": "bfaaa82aeb96b950",
-      "type": "text",
-      "text": "Liquido",
-      "shape": "oval",
-      "x": -2725,
-      "y": -2934,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "91cc51cc4c19ecf8",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -2330,
-      "y": -3260,
-      "width": 50,
-      "height": 50
-    },
-    {
       "id": "0e3f0183674a0519",
       "type": "text",
       "text": "$\\mathcal{L} > 0$",
@@ -510,36 +461,6 @@
       "y": -1000,
       "width": 96,
       "height": 64
-    },
-    {
-      "id": "f1c9088658348e88",
-      "type": "text",
-      "text": "Solido",
-      "shape": "oval",
-      "x": -3220,
-      "y": -2934,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "942cd163fc8bc244",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -2985,
-      "y": -3260,
-      "width": 50,
-      "height": 50
-    },
-    {
-      "id": "eef96245d5ad01a6",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -2985,
-      "y": -2625,
-      "width": 50,
-      "height": 50
     },
     {
       "id": "e64d1b4df8dc4ec8",
@@ -643,24 +564,6 @@
       "height": 80
     },
     {
-      "id": "7e9a2a3bc0337566",
-      "type": "text",
-      "text": "##### Calori latenti\nQuantità di calore per unità di massa $\\lambda$.\nI calori latenti sono fissati per ogni cambiamento di fase e materiale eccetto per le evaporazione, in cui è una funzione della temperatura e si annulla alla temperatura critica.\n",
-      "x": -1730,
-      "y": -3640,
-      "width": 260,
-      "height": 330
-    },
-    {
-      "id": "b80d7cdcf3f666b3",
-      "x": -2133,
-      "y": -2200,
-      "width": 390,
-      "height": 393,
-      "type": "text",
-      "text": "##### Calore in un isocora\n$$ dQ = nc_{V} \\dd T $$\nSe $c_{V}$ costante, il calore scambiato per una variazione di $\\Delta T$ di temperatura si avrà\n$$ Q_{V} = nc_{V} \\dd T $$\n\nAltrimenti si ha\n$$ Q_{V} = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T  $$\n\nInoltre applicando il primo principio\n$$ Q_{V} = nc_{V} \\Delta T = \\Delta U $$"
-    },
-    {
       "id": "8a533803634ccd95",
       "type": "text",
       "text": "##### Calore in un isobara\n$$ dQ = nc_{p}\\dd T $$\nSe $c_{p}$ costante, il caolre scambiato per una differenza di temperatura $\\Delta T$ si avrà\n$$ Q_{p} = nc_{p} \\dd T $$\nAltrimenti si ha\n$$ Q_{V} = n\\int _{T_{A}}^{T_{B}} \\! c_{p} \\, \\mathrm{d}T  $$\n\nUtilizzando il primo principio\n$$ Q_{p} = \\Delta U + p \\Delta V $$",
@@ -680,32 +583,14 @@
       "color": "3"
     },
     {
-      "id": "f96e7e8864d4e4a5",
-      "type": "text",
-      "text": "###### Calore specifico molare a volume costante\n$$ c_{V} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{V} $$\n",
-      "x": -2133,
-      "y": -2482,
-      "width": 260,
-      "height": 165
-    },
-    {
-      "id": "7356060b187a728d",
-      "x": -1153,
-      "y": -2482,
-      "width": 260,
-      "height": 165,
-      "type": "text",
-      "text": "###### Calore specifico molare a pressione costante\n$$ c_{p} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{p} $$"
-    },
-    {
       "id": "76a920552d1a0e35",
+      "type": "text",
+      "text": "Il calore necessario da cedere ad una mole di gas ideale per aumentare la sua temperatura di $\\Delta T$ è maggiore a pressione costante rispetto che a volume costante, questo perchè a pressione costante il gas compie un lavoro.",
       "x": -1643,
       "y": -2140,
       "width": 260,
       "height": 273,
-      "color": "3",
-      "type": "text",
-      "text": "Il calore necessario da cedere ad una mole di gas ideale per aumentare la sua temperatura di $\\Delta T$ è maggiore a pressione costante rispetto che a volume costante, questo perchè a pressione costante il gas compie un lavoro."
+      "color": "3"
     },
     {
       "id": "26ef9038f868c3ef",
@@ -718,13 +603,137 @@
       "height": 50
     },
     {
-      "id": "763535902bbe99bc",
-      "x": 1640,
-      "y": 1700,
-      "width": 480,
-      "height": 500,
+      "id": "f96e7e8864d4e4a5",
       "type": "text",
-      "text": "##### Energia interna del gas ideale in espansione libera\nDall'esperimento di Joule sull'espansione libera, osserviamo che l'energia interna di un gas in espansione liberà non cambia\n$$ \\Delta U = Q - \\mathcal{L} = 0 $$\n\nEssendo l'energia interna funzione di temperatura, pressione e volume ed essendo pressione e volume costanti e la trasformazione isoterma, l'energia interna deve essere funzione solamente della temperatura, in particolare\n$$ \\Delta U = U_{B} - U_{A} = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T  $$\nse $c_{V}$ costante con la temperatura $\\Delta U = nc_{V} \\Delta T$\n\nIn forma infinitesimale\n$$ dU = nc_{V} \\dd T $$"
+      "text": "###### Calore specifico molare a volume costante\n$$ c_{V} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{V} $$\n\nDalla energia interna di un'espansione libera ricaviamo\n$$ c_{V} = \\frac{dU}{dT} $$",
+      "x": -1873,
+      "y": -2600,
+      "width": 260,
+      "height": 283
+    },
+    {
+      "id": "7356060b187a728d",
+      "type": "text",
+      "text": "###### Calore specifico molare a pressione costante\n$$ c_{p} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{p} $$",
+      "x": -1413,
+      "y": -2600,
+      "width": 260,
+      "height": 283
+    },
+    {
+      "id": "763535902bbe99bc",
+      "type": "text",
+      "text": "##### Energia interna del gas ideale in espansione libera\nDall'esperimento di Joule sull'espansione libera, osserviamo che l'energia interna di un gas in espansione liberà non cambia\n$$ \\Delta U = Q - \\mathcal{L} = 0 $$\n\nEssendo l'energia interna funzione di temperatura, pressione e volume ed essendo pressione e volume costanti e la trasformazione isoterma, l'energia interna deve essere funzione solamente della temperatura.",
+      "x": 1640,
+      "y": 1780,
+      "width": 480,
+      "height": 340
+    },
+    {
+      "id": "0613b706aa2630a6",
+      "type": "text",
+      "text": "##### Cambiamenti di fase\nI cambiamenti di fase sono processi isotermi che avvengono a temperatura e pressione determinate.\nDurante un cambiamento di fase a pressione costante la temperatura rimane costante, il calore è utilizzato per compiere la trasformazione\n$$ Q = m\\lambda $$\n\nI cambiamenti di fase sono trasformazioni praticamente reversibili",
+      "x": -1088,
+      "y": -3214,
+      "width": 280,
+      "height": 409
+    },
+    {
+      "id": "7e9a2a3bc0337566",
+      "type": "text",
+      "text": "##### Calori latenti\nQuantità di calore per unità di massa $\\lambda$.\nI calori latenti sono fissati per ogni cambiamento di fase e materiale eccetto per le evaporazione, in cui è una funzione della temperatura e si annulla alla temperatura critica.\n",
+      "x": -1078,
+      "y": -3705,
+      "width": 260,
+      "height": 330
+    },
+    {
+      "id": "f1c9088658348e88",
+      "type": "text",
+      "text": "Solido",
+      "shape": "oval",
+      "x": -2420,
+      "y": -3434,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "942cd163fc8bc244",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -2185,
+      "y": -3760,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "eef96245d5ad01a6",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -2185,
+      "y": -3125,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "bfaaa82aeb96b950",
+      "type": "text",
+      "text": "Liquido",
+      "shape": "oval",
+      "x": -1925,
+      "y": -3434,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "91cc51cc4c19ecf8",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -1530,
+      "y": -3760,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "5846e94abe25ac1e",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -1530,
+      "y": -3125,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "97c8ffe16bcfa313",
+      "type": "text",
+      "text": "Gassoso",
+      "shape": "oval",
+      "x": -1505,
+      "y": -3434,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "b80d7cdcf3f666b3",
+      "type": "text",
+      "text": "##### Calore in un isocora\n$$ dQ = nc_{V} \\dd T $$\nSe $c_{V}$ costante, il calore scambiato per una variazione di $\\Delta T$ di temperatura si avrà\n$$ Q_{V} = nc_{V} \\dd T $$\n\nAltrimenti si ha\n$$ Q_{V} = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T  $$\n\nInoltre applicando il primo principio\n$$ Q_{V} = nc_{V} \\Delta T = \\Delta U $$",
+      "x": -2133,
+      "y": -2200,
+      "width": 390,
+      "height": 393
+    },
+    {
+      "id": "5da8ebe5b3dcb0ba",
+      "type": "text",
+      "text": "Primo principio applicato ad un isocora",
+      "x": -2944,
+      "y": -2200,
+      "width": 390,
+      "height": 393
     }
   ],
   "edges": [
@@ -1420,6 +1429,20 @@
       "fromNode": "35d8e6e7936bb65e",
       "fromSide": "left",
       "toNode": "763535902bbe99bc",
+      "toSide": "right"
+    },
+    {
+      "id": "733e7dc2e12ccb39",
+      "fromNode": "b80d7cdcf3f666b3",
+      "fromSide": "left",
+      "toNode": "5da8ebe5b3dcb0ba",
+      "toSide": "right"
+    },
+    {
+      "id": "9e3d549f4546fd79",
+      "fromNode": "289cd0dc846d22c5",
+      "fromSide": "top",
+      "toNode": "5da8ebe5b3dcb0ba",
       "toSide": "right"
     }
   ],
