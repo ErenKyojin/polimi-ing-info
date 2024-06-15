@@ -739,9 +739,9 @@
       "id": "7e1d7e98d978c443",
       "type": "text",
       "text": "##### Relazione di Mayer\n$$ c_{p} - c_{V} = R $$",
-      "x": -1635,
+      "x": -1640,
       "y": -2869,
-      "width": 260,
+      "width": 240,
       "height": 129,
       "color": "3"
     }
