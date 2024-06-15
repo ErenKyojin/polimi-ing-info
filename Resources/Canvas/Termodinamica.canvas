@@ -674,7 +674,7 @@
     {
       "id": "8a533803634ccd95",
       "type": "text",
-      "text": "##### Calore in un isobara\n$$ dQ = nc_{p}\\dd T $$\nSe $c_{p}$ costante, il caolre scambiato per una differenza di temperatura $\\Delta T$ si avrà\n$$ Q_{p} = nc_{p} \\dd T $$\nAltrimenti si ha\n$$ Q_{V} = n\\int _{T_{A}}^{T_{B}} \\! c_{p} \\, \\mathrm{d}T  $$",
+      "text": "##### Calore in un isobara\n$$ dQ = nc_{p}\\dd T $$\nSe $c_{p}$ costante, il caolre scambiato per una differenza di temperatura $\\Delta T$ si avrà\n$$ Q_{p} = nc_{p} \\dd T $$\nAltrimenti si ha\n$$ Q_{V} = n\\int _{T_{A}}^{T_{B}} \\! c_{p} \\, \\mathrm{d}T  $$\n\nUtilizzando il primo principio\n$$ Q_{p} = \\Delta U + p \\Delta V $$",
       "x": -1120,
       "y": -2040,
       "width": 260,
@@ -687,7 +687,7 @@
       "width": 260,
       "height": 233,
       "type": "text",
-      "text": "##### Calore in un isocora\n$$ dQ = nc_{V} \\dd T $$\nSe $c_{V}$ costante, il calore scambiato per una variazione di $\\Delta T$ di temperatura si avrà\n$$ Q_{V} = nc_{V} \\dd T $$\n\nAltrimenti si ha\n$$ Q_{V} = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T  $$\n\nInoltre applicando il primo principio\n$$  $$"
+      "text": "##### Calore in un isocora\n$$ dQ = nc_{V} \\dd T $$\nSe $c_{V}$ costante, il calore scambiato per una variazione di $\\Delta T$ di temperatura si avrà\n$$ Q_{V} = nc_{V} \\dd T $$\n\nAltrimenti si ha\n$$ Q_{V} = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T  $$\n\nInoltre applicando il primo principio\n$$ Q_{V} = nc_{V} \\Delta T = \\Delta U $$"
     },
     {
       "id": "7356060b187a728d",
