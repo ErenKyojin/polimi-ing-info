@@ -346,7 +346,7 @@
     {
       "id": "3e492fd47311be3d",
       "type": "text",
-      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n",
+      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n\n\n",
       "x": -663,
       "y": -2600,
       "width": 360,
@@ -632,6 +632,15 @@
       "y": -658,
       "width": 260,
       "height": 60
+    },
+    {
+      "id": "e926965490f7d9df",
+      "x": 350,
+      "y": -2920,
+      "width": 260,
+      "height": 200,
+      "type": "text",
+      "text": "##### Compressione ed espansione di un Gas\nIn una trasformazione finita tra due stati $A$ e $B$ il lavoro scambiato da un gas in espansione o in compressione è dato dall'integrale\n$$ \\mathcal{L} = \\int _{A}^B \\!p(V) \\, \\mathrm{d}V  $$"
     }
   ],
   "edges": [
