@@ -410,15 +410,6 @@
       "height": 409
     },
     {
-      "id": "d1cde84877befb4d",
-      "type": "text",
-      "text": "##### Capacità termica\n$$C = mc$$",
-      "x": -1880,
-      "y": -90,
-      "width": 260,
-      "height": 80
-    },
-    {
       "id": "830db8c5a7080642",
       "type": "text",
       "text": "##### Calore specifico molare\n$$c = \\frac{1}{n} \\frac{dQ}{dT}$$\n\n- $dQ = ncdT$\n- $Q = nc(T_{2} - T_{1})$\n- $Q = n\\int _{T_{1}}^{T_{2}} \\!< \\, \\mathrm{d}x$",
@@ -435,15 +426,6 @@
       "y": -466,
       "width": 260,
       "height": 213
-    },
-    {
-      "id": "7e9a2a3bc0337566",
-      "type": "text",
-      "text": "##### Calori latenti\nQuantità di calore per unità di massa $\\lambda$.\nI calori latenti sono fissati per ogni cambiamento di fase e materiale eccetto per le evaporazione, in cui è una funzione della temperatura e si annulla alla temperatura critica.\n",
-      "x": -1730,
-      "y": -2530,
-      "width": 260,
-      "height": 330
     },
     {
       "id": "97c8ffe16bcfa313",
@@ -665,11 +647,56 @@
     {
       "id": "d46183b603db3db3",
       "type": "text",
-      "text": "##### Lavoro sul piano di Clapeyron\nData una trasformazione attraverso stati di equilibrio, rappresentata come una linea continua sul piano di Clapeyron. Il lavoro è rappresentante come l'area sottostante alla linea. Se la trasformazione è ciclica il lavoro è l'area interna al poligono disegnato dalla curva.\nSe la trasformazione è percorsa in senso orario è positivo, negativo altrimenti.\n\nA parità di stati il lavoro",
+      "text": "##### Lavoro sul piano di Clapeyron\nData una trasformazione attraverso stati di equilibrio, rappresentata come una linea continua sul piano di Clapeyron. Il lavoro è rappresentante come l'area sottostante alla linea. Se la trasformazione è ciclica il lavoro è l'area interna al poligono disegnato dalla curva.\nSe la trasformazione è percorsa in senso orario è positivo, negativo altrimenti.\n\nA parità di stati iniziali e finali il lavoro dipende comunque dalla trasformazione",
       "x": 280,
       "y": -3680,
       "width": 400,
       "height": 320
+    },
+    {
+      "id": "d1cde84877befb4d",
+      "type": "text",
+      "text": "##### Capacità termica\n$$C = mc$$",
+      "x": -1880,
+      "y": -90,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "b80d7cdcf3f666b3",
+      "x": -1844,
+      "y": -1980,
+      "width": 260,
+      "height": 173,
+      "type": "text",
+      "text": "##### Calore in un isocora\n$$ dQ = nc_{V} \\dd t $$"
+    },
+    {
+      "id": "8a533803634ccd95",
+      "type": "text",
+      "text": "##### Calore in un isobara\n$$ dQ = nc_{p}\\dd t $$",
+      "x": -1191,
+      "y": -1980,
+      "width": 260,
+      "height": 173
+    },
+    {
+      "id": "7e9a2a3bc0337566",
+      "type": "text",
+      "text": "##### Calori latenti\nQuantità di calore per unità di massa $\\lambda$.\nI calori latenti sono fissati per ogni cambiamento di fase e materiale eccetto per le evaporazione, in cui è una funzione della temperatura e si annulla alla temperatura critica.\n",
+      "x": -1730,
+      "y": -2565,
+      "width": 260,
+      "height": 330
+    },
+    {
+      "id": "7356060b187a728d",
+      "x": -1120,
+      "y": -2400,
+      "width": 260,
+      "height": 165,
+      "type": "text",
+      "text": ""
     }
   ],
   "edges": [
@@ -1312,6 +1339,29 @@
       "fromSide": "top",
       "toNode": "d46183b603db3db3",
       "toSide": "right"
+    },
+    {
+      "id": "657b8bbbd1f7b0ff",
+      "fromNode": "289cd0dc846d22c5",
+      "fromSide": "top",
+      "toNode": "b80d7cdcf3f666b3",
+      "toSide": "bottom",
+      "label": "Isocora"
+    },
+    {
+      "id": "8490e5b0c6e7999d",
+      "fromNode": "289cd0dc846d22c5",
+      "fromSide": "top",
+      "toNode": "8a533803634ccd95",
+      "toSide": "bottom",
+      "label": "Isobara"
+    },
+    {
+      "id": "170e5ce472c47dd6",
+      "fromNode": "7356060b187a728d",
+      "fromSide": "bottom",
+      "toNode": "8a533803634ccd95",
+      "toSide": "top"
     }
   ],
   "metadata": {}
