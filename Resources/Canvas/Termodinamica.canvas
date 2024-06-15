@@ -117,52 +117,6 @@
       "color": "3"
     },
     {
-      "id": "35d8e6e7936bb65e",
-      "type": "text",
-      "text": "##### Gas ideali\nTutti i gas in alcune condizioni si comportano allo stesso modo, in particolar modo in condizioni di bassa pressione ed alta temperatura. In questi casi i gas sono detti **gas ideali**\n\n>[!def]\n>gas ideale sistema in cui le coordinate termodinamiche in uno stato di equilibrio obbediscono alla equazione di stato del gas ideale \n>$$ pV = nRT $$\n\nIn un gas ideale in equilibrio sono indipendenti solo due variabili termodinamiche, la terza si ricava",
-      "x": 2640,
-      "y": 1820,
-      "width": 400,
-      "height": 380
-    },
-    {
-      "id": "4f09b4357e48e995",
-      "type": "text",
-      "text": "##### Legge di Avogadro\nVolumi eguali di gas con comportamento ideale diversi alla stessa temperatura  e pressione contengono lo stesso numero di molecole",
-      "x": 2699,
-      "y": 2400,
-      "width": 283,
-      "height": 240,
-      "color": "3"
-    },
-    {
-      "id": "981ef73f0b3615ac",
-      "type": "text",
-      "text": "##### Mole\nQuantità di materia che contiene tante entità elementari quanti atomi vi sono in $0.012 \\text{ Kg}$ dell'isotopo $^{12} \\text{C}$ di carbonio.\nUna chilomole è pari a $10^{13}$ moli ",
-      "x": 3280,
-      "y": 2400,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "bd701d0a345bb772",
-      "x": 3280,
-      "y": 2880,
-      "width": 360,
-      "height": 191,
-      "type": "text",
-      "text": "##### Equazione di stato del gas ideale\n$n$ moli di un gas alla pressione atmosferica $p_{0}$\n$$ pV = nRT $$"
-    },
-    {
-      "id": "98299aed9afa52d8",
-      "type": "text",
-      "text": "##### Volume molare\nUna mole di un gas qualsiasi occupa sempre lo stesso volume a pressione atmosferica e zero gradi celsius il volume vare\n$$ V_{m} = 0.022414 \\ \\text{m}^3 = 22.414 \\text{ l}$$",
-      "x": 3980,
-      "y": 2400,
-      "width": 280,
-      "height": 240
-    },
-    {
       "id": "3fab6ac0419489d0",
       "type": "text",
       "text": "##### Legge isocora di Gay-Lussac\nSe si mantiene costante il volume di un gas, la trasformazion è detta **isocora** e la pressione risulta funzione lineare della temperatura\n$$ p = p_{0}(1 + \\beta t) $$\n",
@@ -198,15 +152,6 @@
       "y": -37,
       "width": 416,
       "height": 237
-    },
-    {
-      "id": "48967e99c85ee9c0",
-      "type": "text",
-      "text": "##### Costante del gas ideale\n$$ R = p_{0}V_{m}\\alpha   $$\n$p_{0}V_{m}\\alpha$ costante, quindi\n$$ \\begin{align}\nR &= 1.01325 \\cdot 10^5 \\cdot 0.022414 \\cdot \\frac{1}{273.15} = \\\\\n&=8.314 \\text{ J/mole K}\n\\end{align}$$",
-      "x": 3970,
-      "y": 2856,
-      "width": 300,
-      "height": 240
     },
     {
       "id": "26ef9038f868c3ef",
@@ -626,12 +571,67 @@
     },
     {
       "id": "75693bb4320949b0",
+      "type": "text",
+      "text": "##### Costante di boltzman\n$$ k_{B} = \\frac{R}{N_{A}} = 1.3807 \\cdot 10^{-23} \\text{ J/K} $$",
       "x": 3970,
       "y": 3360,
       "width": 300,
-      "height": 240,
+      "height": 240
+    },
+    {
+      "id": "35d8e6e7936bb65e",
       "type": "text",
-      "text": "##### Costante di boltzman\n$$ k_{B} = \\frac{R}{N_{A}} = 1.3807 \\cdot 10^{-23} \\text{ J/K} $$"
+      "text": "##### Gas ideali\nTutti i gas in alcune condizioni si comportano allo stesso modo, in particolar modo in condizioni di bassa pressione ed alta temperatura. In questi casi i gas sono detti **gas ideali**\n\n>[!def]\n>gas ideale sistema in cui le coordinate termodinamiche in uno stato di equilibrio obbediscono alla equazione di stato del gas ideale \n>$$ pV = nRT $$\n\nIn un gas ideale in equilibrio sono indipendenti solo due variabili termodinamiche, la terza si ricava",
+      "x": 2640,
+      "y": 1820,
+      "width": 400,
+      "height": 380
+    },
+    {
+      "id": "4f09b4357e48e995",
+      "type": "text",
+      "text": "##### Legge di Avogadro\nVolumi eguali di gas con comportamento ideale diversi alla stessa temperatura  e pressione contengono lo stesso numero di molecole",
+      "x": 2699,
+      "y": 2400,
+      "width": 283,
+      "height": 240,
+      "color": "3"
+    },
+    {
+      "id": "981ef73f0b3615ac",
+      "type": "text",
+      "text": "##### Mole\nQuantità di materia che contiene tante entità elementari quanti atomi vi sono in $0.012 \\text{ Kg}$ dell'isotopo $^{12} \\text{C}$ di carbonio.\nUna chilomole è pari a $10^{13}$ moli ",
+      "x": 3280,
+      "y": 2400,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "bd701d0a345bb772",
+      "type": "text",
+      "text": "##### Equazione di stato del gas ideale\n$n$ moli di un gas alla pressione atmosferica $p_{0}$\n$$ pV = nRT $$",
+      "x": 3280,
+      "y": 2880,
+      "width": 360,
+      "height": 191
+    },
+    {
+      "id": "98299aed9afa52d8",
+      "type": "text",
+      "text": "##### Volume molare\nUna mole di un gas qualsiasi occupa sempre lo stesso volume a pressione atmosferica e zero gradi celsius il volume vare\n$$ V_{m} = 0.022414 \\ \\text{m}^3 = 22.414 \\text{ l}$$",
+      "x": 3980,
+      "y": 2400,
+      "width": 280,
+      "height": 240
+    },
+    {
+      "id": "48967e99c85ee9c0",
+      "type": "text",
+      "text": "##### Costante del gas ideale\n$$ R = p_{0}V_{m}\\alpha   $$\n$p_{0}V_{m}\\alpha$ costante, quindi\n$$ \\begin{align}\nR &= 1.01325 \\cdot 10^5 \\cdot 0.022414 \\cdot \\frac{1}{273.15} = \\\\\n&=8.314 \\text{ J/mole K}\n\\end{align}$$",
+      "x": 3970,
+      "y": 2856,
+      "width": 300,
+      "height": 240
     }
   ],
   "edges": [
