@@ -1298,6 +1298,20 @@
       "toNode": "6b75365f477a4435",
       "toSide": "bottom",
       "toEnd": "none"
+    },
+    {
+      "id": "3434e0394a4f3ad5",
+      "fromNode": "e926965490f7d9df",
+      "fromSide": "top",
+      "toNode": "d46183b603db3db3",
+      "toSide": "bottom"
+    },
+    {
+      "id": "f1d9687e802f7451",
+      "fromNode": "6b75365f477a4435",
+      "fromSide": "top",
+      "toNode": "d46183b603db3db3",
+      "toSide": "right"
     }
   ],
   "metadata": {}
