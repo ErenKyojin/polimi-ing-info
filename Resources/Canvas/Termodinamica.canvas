@@ -804,11 +804,11 @@
     {
       "id": "372dfd0f797357d1",
       "x": 920,
-      "y": 1770,
+      "y": 1680,
       "width": 380,
-      "height": 360,
+      "height": 560,
       "type": "text",
-      "text": "##### Trasformazioni adiabatiche\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ W_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo.\n"
+      "text": "##### Trasformazioni adiabatiche\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ W_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo, $T_{B} < T_{A}$.\nSe **compressione** adiabatica $\\mathcal{L}_{AB}$ negativo e $\\Delta U$ positivo, $T_{B} > T_{A}$\n\nSe adiabatica reversibile\n$$ \\dd U + \\dd W = nc_{V} \\dd T + p\\dd V = 0 $$\npossiamo sfruttare l'equazione di stato in qualsiasi stato intermedio\n$$ nc_{V} \\dd T + \\frac{nRT}{V} \\dd V = 0 $$"
     }
   ],
   "edges": [
