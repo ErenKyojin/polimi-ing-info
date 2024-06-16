@@ -716,16 +716,6 @@
       "color": "3"
     },
     {
-      "id": "7e1d7e98d978c443",
-      "type": "text",
-      "text": "##### Relazione di Mayer\n$$ c_{p} - c_{V} = R $$",
-      "x": -1640,
-      "y": -2869,
-      "width": 240,
-      "height": 129,
-      "color": "3"
-    },
-    {
       "id": "eef96245d5ad01a6",
       "type": "file",
       "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
@@ -744,6 +734,26 @@
       "y": -3125,
       "width": 50,
       "height": 50
+    },
+    {
+      "id": "7e1d7e98d978c443",
+      "type": "text",
+      "text": "##### Relazione di Mayer\n$$ c_{p} - c_{V} = R $$",
+      "x": -1640,
+      "y": -2869,
+      "width": 240,
+      "height": 129,
+      "color": "3"
+    },
+    {
+      "id": "f58782dfb6bc6e0c",
+      "type": "text",
+      "text": "##### Rapporto tra calori specifici\n$$ \\gamma = \\frac{c_{p}}{c_{V}} $$",
+      "x": -1640,
+      "y": -2342,
+      "width": 240,
+      "height": 129,
+      "color": "3"
     }
   ],
   "edges": [
