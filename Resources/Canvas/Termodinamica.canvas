@@ -840,11 +840,20 @@
     {
       "id": "b506a5e3678b31ef",
       "type": "text",
-      "text": "##### Trasformazioni isobare dei gas perfetti\n",
+      "text": "##### Trasformazioni isobare dei gas perfetti\nIn una isobara, per l'equazione di stato\n$$ \\frac{V_{A}}{T_{A}} = \\frac{V_{B}}{T_{B}} \\implies \\frac{V_{A}}{V_{B}} = \\frac{T_{A}}{T_{B}} $$\n\nsi scambiano sia calore che lavoro\n$$ \\begin{align}\nQ = nc_{p} (T_{B} - T_{A}) \\\\\n\\mathcal{L} = nR(T_{B} - T_{A})\n\\end{align} $$",
       "x": 700,
       "y": 3460,
       "width": 520,
       "height": 360
+    },
+    {
+      "id": "8f984e4c0246c20d",
+      "x": -60,
+      "y": 3460,
+      "width": 393,
+      "height": 360,
+      "type": "text",
+      "text": "#### Entalpia\nfunzione di stato (in quanto funzione unicamente di coordinate termodinamiche)\n$$ H = U + pV $$\nvale per una trasformazione infinitesima\n$$ dH = nc_{p} \\dd T $$\n\ne per una trasformazione finita, attraverso la relazione di mayer\n$$ \\Delta H = n \\int _{T_{A}}^{T_{B}} \\! c_{P}\\, \\mathrm{d}T  $$\ne, se $c_{p}$ costante\n$$ \\Delta H = nc_{p}(T_{}) $$"
     }
   ],
   "edges": [
@@ -1648,6 +1657,13 @@
       "fromNode": "e633a920b7fe8fee",
       "fromSide": "left",
       "toNode": "b506a5e3678b31ef",
+      "toSide": "right"
+    },
+    {
+      "id": "315120371447cb88",
+      "fromNode": "b506a5e3678b31ef",
+      "fromSide": "left",
+      "toNode": "8f984e4c0246c20d",
       "toSide": "right"
     }
   ],
