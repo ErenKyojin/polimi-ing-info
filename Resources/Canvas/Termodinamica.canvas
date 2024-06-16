@@ -1,6 +1,15 @@
 {
   "nodes": [
     {
+      "id": "7ab8dd8ad7ca9266",
+      "type": "group",
+      "x": -540,
+      "y": 4420,
+      "width": 1715,
+      "height": 720,
+      "label": "Trasformazioni cicliche"
+    },
+    {
       "id": "7146e359a1b3ad2d",
       "type": "group",
       "x": -2440,
@@ -551,15 +560,6 @@
       "height": 60
     },
     {
-      "id": "95010675100fd70d",
-      "type": "text",
-      "text": "##### Dilatazione cubica\n$$V + \\Delta V $$\ncon \n$$ \\Delta V = V3 \\lambda \\Delta T = V \\alpha \\Delta T $$\ncon $\\alpha$ coefficiente di dilatazione cubica\n$$ \\alpha = \\frac{1}{V} \\frac{\\Delta V}{\\Delta T} $$",
-      "x": 1320,
-      "y": 320,
-      "width": 416,
-      "height": 260
-    },
-    {
       "id": "858e0244978a9f6c",
       "type": "text",
       "text": "##### Dilatazione lineare\n$$ \\Delta l = \\lambda l \\Delta T \\implies l + \\Delta l = l(1 + \\lambda \\Delta T) $$\ndove $\\lambda$ è il coefficiente di dilatazione lineare, caratteristico del materiale e funzione della temperatura\n$$ \\lambda = \\frac{1}{l} \\frac{\\Delta l}{\\Delta T} $$",
@@ -567,15 +567,6 @@
       "y": -37,
       "width": 416,
       "height": 237
-    },
-    {
-      "id": "4606d23c4df58ecc",
-      "type": "text",
-      "text": "##### Dilatazione termica\nUn corpo a pressione costante aumenta di volume in base alla temperatura",
-      "x": 810,
-      "y": 180,
-      "width": 260,
-      "height": 180
     },
     {
       "id": "b239749dc574c103",
@@ -632,6 +623,276 @@
       "height": 80
     },
     {
+      "id": "636f7e217b8eeecc",
+      "type": "text",
+      "text": "##### Legge isoterma di Boyle\nGas in equilibrio termodinamico, ad una pressione $p$ e un volume $V$. Con una temperatura T. mantenendo costante $T$ e facendo variare $p$ e $v$ vale che:\n$$ pV= \\cost $$\n**a temperatura costante la pressione è inversalmente proprzionale al volume**",
+      "x": -1354,
+      "y": 900,
+      "width": 390,
+      "height": 280,
+      "color": "3"
+    },
+    {
+      "id": "26ef9038f868c3ef",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": 4360,
+      "y": 2175,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "b506a5e3678b31ef",
+      "type": "text",
+      "text": "##### Trasformazioni isobare dei gas perfetti\nIn una isobara, per l'equazione di stato\n$$ \\frac{V_{A}}{T_{A}} = \\frac{V_{B}}{T_{B}} \\implies \\frac{V_{A}}{V_{B}} = \\frac{T_{A}}{T_{B}} $$\n\nsi scambiano sia calore che lavoro\n$$ \\begin{align}\nQ = nc_{p} (T_{B} - T_{A}) \\\\\n\\mathcal{L} = nR(T_{B} - T_{A})\n\\end{align} $$",
+      "x": 700,
+      "y": 3460,
+      "width": 520,
+      "height": 360
+    },
+    {
+      "id": "dc65410f668ced0f",
+      "type": "text",
+      "text": "##### Trasformazioni generiche dei gas perfetti\nPossiamo sfruttare il primo principio\n$$ \\dd Q = \\dd U + d\\mathcal{L} += nc_{V } \\dd T + d \\mathcal{L}$$\n\nCerchiamo di indagare sulla eventuale reversibilità \nSe reversibile sfruttiamo l'equazione di stato $pV = nRT$ e $d\\mathcal{L} = p\\dd V$, il lavoro inoltre si può indagare per via geometrica",
+      "x": 700,
+      "y": 3940,
+      "width": 520,
+      "height": 360
+    },
+    {
+      "id": "de33eee6681cc010",
+      "type": "text",
+      "text": "##### Macchina Frigorifera\nSe in un ciclo viene assorbito lavoro esterno e estratto calore il ciclo è detto **ciclo frigorifero** e il dispositivo che opera questo ciclo è detto **macchina frigorifera**",
+      "x": 765,
+      "y": 4880,
+      "width": 390,
+      "height": 240,
+      "color": "1"
+    },
+    {
+      "id": "8dc781281c8378b7",
+      "type": "text",
+      "text": "##### Macchina termica\nSe in un ciclo viene assorbito calore e prodotto lavoro il ciclo è detto **ciclo termico** e il dispositivo che opera questo ciclo è detto **macchina termica**",
+      "x": 765,
+      "y": 4440,
+      "width": 390,
+      "height": 240,
+      "color": "1"
+    },
+    {
+      "id": "a45436e98b12dc8e",
+      "type": "text",
+      "text": "##### Ciclo di Carnot\n1. espansione isoterma reversibile\n2. espansione adiabatica reversibile\n3. compressione isoterma reversibile\n4. compressione adiabatica reversibile\n\nha rendimento $$\\eta = 1 - \\frac{T_{1}}{T_{2}}$$, che dipende unicamente dalle temperature a cui avvengono gli scambi isotermi di calore",
+      "x": 538,
+      "y": 5597,
+      "width": 455,
+      "height": 363
+    },
+    {
+      "id": "9b2988e8e79b6601",
+      "type": "text",
+      "text": "##### Calori nelle trasformazioni cicliche\n$$ Q = Q_{A} + Q_{C} $$\n$Q_{A}$ e $Q_{C}$ rispettivamente calori assorbiti e calori ceduti",
+      "x": 203,
+      "y": 4520,
+      "width": 260,
+      "height": 210
+    },
+    {
+      "id": "c6a855204a65ba0b",
+      "type": "text",
+      "text": "##### Lavori nelle trasformazioni cicliche\n$$ \\mathcal{L} = \\mathcal{L}_{F} + \\mathcal{L}_{S} $$\n$\\mathcal{L}_{F}$ e $\\mathcal{L}_{S}$ rispettivamente lavori compiuti e lavori subiti",
+      "x": 203,
+      "y": 4820,
+      "width": 260,
+      "height": 200
+    },
+    {
+      "id": "94f94455cec17b27",
+      "type": "text",
+      "text": "##### Ciclo di Stirling\n1. espansione isoterma reversibile\n2. isocora reversibile\n3. compressione isoterma reversibile\n4. isocora reversibile",
+      "x": -387,
+      "y": 5597,
+      "width": 455,
+      "height": 363
+    },
+    {
+      "id": "e4c80dcfaa7e6a65",
+      "type": "text",
+      "text": "##### Rendimento\nPer una macchina termica si definisce il rendimento\n$$ \\eta = \\frac{\\mathcal{L}}{Q_{A}} = 1 - \\frac{|Q_{C}|}{Q_{A}} $$\nossia la percentuale di calore assorbito trasformata in lavoro, sperimentalmente\n$$ 0 \\leq \\eta < 1 $$\nquindi $Q_{C} \\neq 0$, non viene mai trasformato tutto il calore in lavoro",
+      "x": -520,
+      "y": 4600,
+      "width": 360,
+      "height": 340,
+      "color": "1"
+    },
+    {
+      "id": "8f984e4c0246c20d",
+      "type": "text",
+      "text": "##### Entalpia\nfunzione di stato (in quanto funzione unicamente di coordinate termodinamiche)\n$$ H = U + pV $$\nvale per una trasformazione infinitesima\n$$ dH = nc_{p} \\dd T $$\n\ne per una trasformazione finita, attraverso la relazione di mayer\n$$ \\Delta H = n \\int _{T_{A}}^{T_{B}} \\! c_{P}\\, \\mathrm{d}T  $$\ne, se $c_{p}$ costante\n$$ \\Delta H = nc_{p}(T_{B} - T_{A}) $$",
+      "x": -160,
+      "y": 3460,
+      "width": 493,
+      "height": 440,
+      "color": "1"
+    },
+    {
+      "id": "dd43d78c7e7d9ae1",
+      "type": "text",
+      "text": "##### Trasformazioni isocore dei gas perfetti\n$V$ costante e $\\mathcal{L} = 0$, per il primo principio, se $c_{V}$ costante\n$$ Q = \\Delta U = nc_{V}(T_{B} - T_{A}) $$\n$V$ costante $\\implies$ $$\\frac{p_{A}}{T_{A}} = \\frac{p_{B}}{T_{B}} \\implies \\frac{p_{A}}{p_{B}} = \\frac{T_{A}}{T_{B}}$$",
+      "x": 700,
+      "y": 2951,
+      "width": 520,
+      "height": 360
+    },
+    {
+      "id": "1d83d3351d18c113",
+      "type": "text",
+      "text": "##### Calore di isobare e isocore\nPer una generica trasformazione di Gas ideale energia interna ed entalpia dipendono solo dalla temperatura iniziale e finale, il calore invece dipende dalla trasformazione:\n- isocora: $$ Q = \\Delta U $$\n- isobara: $$ Q = \\Delta H $$\n\nInoltre\n$$ c_{V} = \\frac{1}{n} \\frac{\\dd U}{\\dd T} \\quad,\\quad  c_{p} = \\frac{1}{n} \\frac{\\dd H}{\\dd T} $$",
+      "x": -160,
+      "y": 2900,
+      "width": 493,
+      "height": 411
+    },
+    {
+      "id": "88baeb62e2f48567",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": 2400,
+      "y": 2951,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "f714c8ef36005e79",
+      "type": "text",
+      "text": "##### Trasformazioni isoterme dei gas perfetti\nAbbiamo\n$$ \\Delta U = 0\\quad,\\quad Q = W\\quad,\\quad p_{A}V_{A} = p_{B}V_{B} $$\n\nSe è un **espansione** isoterma, si ha $\\mathcal{L}_{AB} > 0$ e $Q_{AB}> 0$. \nSe è una **compressione** isoterma, si ha $\\mathcal{L}_{AB} < 0$ e $Q_{AB} < 0$\n\nSe è isoterma reversibile\n$$ \\mathcal{L}_{AB} = \\int _{A}^B \\! p \\, \\mathrm{d}V = nRT \\ln \\frac{V_{B}}{V_{A}}  $$\nDa cui si ricava immediatamente il calore scambiato",
+      "x": 700,
+      "y": 2400,
+      "width": 520,
+      "height": 360
+    },
+    {
+      "id": "372dfd0f797357d1",
+      "type": "text",
+      "text": "##### Trasformazioni adiabatiche dei gas ideali\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ \\mathcal{L}_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo, $T_{B} < T_{A}$.\nSe **compressione** adiabatica $\\mathcal{L}_{AB}$ negativo e $\\Delta U$ positivo, $T_{B} > T_{A}$\n\nSe adiabatica reversibile\n$$ \\dd U + d\\mathcal{L} = nc_{V} \\dd T + p\\dd V = 0 $$\npossiamo sfruttare l'equazione di stato in qualsiasi stato intermedio\n$$ nc_{V} \\dd T + \\frac{nRT}{V} \\dd V = 0 $$\nda cui, applicando la relazione  di mayer\n$$ (\\gamma - 1)\\ln \\frac{V_{B}}{V_{A}} = \\ln \\frac{T_{A}}{T_{B}}  \\implies T_{A}V_{A}^{\\gamma - 1} = T_{B}V_{B}^{\\gamma-1}$$\ninoltre se $c_{V}$ è costante possiamo applicare mayer anche al lavoro\n$$ \\mathcal{L}_{AB}=\\frac{1}{\\gamma- 1}(p_{A}V_{A} - p_{B}V_{B}) $$",
+      "x": 700,
+      "y": 1640,
+      "width": 520,
+      "height": 620
+    },
+    {
+      "id": "e633a920b7fe8fee",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": 1935,
+      "y": 1925,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "1c1d302fb5bdbe76",
+      "type": "text",
+      "text": "##### Equazione di trasformazione adiabatica reversibile dei gas ideali\n\n$$ TV^{\\gamma -1} = \\cost$$ \n$$pV^{\\gamma} = \\cost $$ \n$$Tp^{(1-\\gamma)/\\gamma} = \\cost$$",
+      "x": -200,
+      "y": 1850,
+      "width": 430,
+      "height": 200
+    },
+    {
+      "id": "763535902bbe99bc",
+      "type": "text",
+      "text": "##### Energia interna del gas ideale in espansione libera\nDall'esperimento di Joule sull'espansione libera, osserviamo che l'energia interna di un gas in espansione liberà non cambia\n$$ \\Delta U = Q - \\mathcal{L} = 0 $$\n\nEssendo l'energia interna funzione di temperatura, pressione e volume ed essendo pressione e volume costanti e la trasformazione isoterma, l'energia interna deve essere funzione solamente della temperatura.",
+      "x": 1960,
+      "y": 1260,
+      "width": 480,
+      "height": 340
+    },
+    {
+      "id": "35d8e6e7936bb65e",
+      "type": "text",
+      "text": "##### Gas ideali\nTutti i gas in alcune condizioni si comportano allo stesso modo, in particolar modo in condizioni di bassa pressione ed alta temperatura. In questi casi i gas sono detti **gas ideali**\n\n>[!def]\n>gas ideale sistema in cui le coordinate termodinamiche in uno stato di equilibrio obbediscono alla equazione di stato del gas ideale \n>$$ pV = nRT $$\n\nIn un gas ideale in equilibrio sono indipendenti solo due variabili termodinamiche, la terza si ricava",
+      "x": 2640,
+      "y": 1700,
+      "width": 400,
+      "height": 500
+    },
+    {
+      "id": "4f09b4357e48e995",
+      "type": "text",
+      "text": "##### Legge di Avogadro\nVolumi eguali di gas con comportamento ideale diversi alla stessa temperatura  e pressione contengono lo stesso numero di molecole",
+      "x": 2699,
+      "y": 2400,
+      "width": 283,
+      "height": 240,
+      "color": "3"
+    },
+    {
+      "id": "aa3a7469bbdf8ed3",
+      "type": "text",
+      "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}\\ ^o\\text{C}^{-1} $$",
+      "x": 3440,
+      "y": 1400,
+      "width": 280,
+      "height": 200
+    },
+    {
+      "id": "981ef73f0b3615ac",
+      "type": "text",
+      "text": "##### Mole\nQuantità di materia che contiene tante entità elementari quanti atomi vi sono in $0.012 \\text{ Kg}$ dell'isotopo $^{12} \\text{C}$ di carbonio.\nUna chilomole è pari a $10^{13}$ moli ",
+      "x": 3280,
+      "y": 2400,
+      "width": 360,
+      "height": 240
+    },
+    {
+      "id": "bd701d0a345bb772",
+      "type": "text",
+      "text": "##### Equazione di stato del gas ideale\n$n$ moli di un gas alla pressione atmosferica $p_{0}$\n$$ pV = nRT $$",
+      "x": 3280,
+      "y": 2880,
+      "width": 360,
+      "height": 191
+    },
+    {
+      "id": "98299aed9afa52d8",
+      "type": "text",
+      "text": "##### Volume molare\nUna mole di un gas qualsiasi occupa sempre lo stesso volume a pressione atmosferica e zero gradi celsius il volume vare\n$$ V_{m} = 0.022414 \\ \\text{m}^3 = 22.414 \\text{ l}$$",
+      "x": 3980,
+      "y": 2400,
+      "width": 280,
+      "height": 240
+    },
+    {
+      "id": "48967e99c85ee9c0",
+      "type": "text",
+      "text": "##### Costante del gas ideale\n$$ R = p_{0}V_{m}\\alpha   $$\n$p_{0}V_{m}\\alpha$ costante, quindi\n$$ \\begin{align}\nR &= 1.01325 \\cdot 10^5 \\cdot 0.022414 \\cdot \\frac{1}{273.15} = \\\\\n&=8.314 \\text{ J/mole K}\n\\end{align}$$",
+      "x": 3970,
+      "y": 2856,
+      "width": 300,
+      "height": 240
+    },
+    {
+      "id": "75693bb4320949b0",
+      "type": "text",
+      "text": "##### Costante di boltzman\n$$ k_{B} = \\frac{R}{N_{A}} = 1.3807 \\cdot 10^{-23} \\text{ J/K} $$",
+      "x": 3970,
+      "y": 3360,
+      "width": 300,
+      "height": 240
+    },
+    {
+      "id": "65fe04696d389c75",
+      "x": 1935,
+      "y": 2700,
+      "width": 260,
+      "height": 301,
+      "type": "text",
+      "text": ""
+    },
+    {
       "id": "748818d11c6ad33e",
       "type": "text",
       "text": "##### Legge isobara di Gay-Lussac\nSe la pressione di un gas durante una trasformazione rimane costante questa è detta **isobara**, il volume varia linearmente con la temperatura\n$$ V = V_{0} (1 + \\alpha t) $$\n$t$ in celsius",
@@ -661,16 +922,6 @@
       "height": 195
     },
     {
-      "id": "636f7e217b8eeecc",
-      "type": "text",
-      "text": "##### Legge isoterma di Boyle\nGas in equilibrio termodinamico, ad una pressione $p$ e un volume $V$. Con una temperatura T. mantenendo costante $T$ e facendo variare $p$ e $v$ vale che:\n$$ pV= \\cost $$\n**a temperatura costante la pressione è inversalmente proprzionale al volume**",
-      "x": -1354,
-      "y": 900,
-      "width": 390,
-      "height": 280,
-      "color": "3"
-    },
-    {
       "id": "76a7152da26807cb",
       "type": "text",
       "text": "##### Piano di Clapeyron\nVolume sull'asse delle ascisse e pressione sull'asse delle ordinate",
@@ -690,227 +941,22 @@
       "height": 50
     },
     {
-      "id": "aa3a7469bbdf8ed3",
+      "id": "95010675100fd70d",
       "type": "text",
-      "text": "##### Isobare e isocore di gas ideali\nle costanti $\\alpha, \\beta$ assumono lo stesso valore pari a \n$$ \\alpha = \\beta = \\frac{1}{273.15}\\ ^o\\text{C}^{-1} $$",
-      "x": 3440,
-      "y": 1400,
-      "width": 280,
-      "height": 200
+      "text": "##### Dilatazione cubica\n$$V + \\Delta V $$\ncon \n$$ \\Delta V = V3 \\lambda \\Delta T = V \\alpha \\Delta T $$\ncon $\\alpha$ coefficiente di dilatazione cubica\n$$ \\alpha = \\frac{1}{V} \\frac{\\Delta V}{\\Delta T} $$",
+      "x": 1320,
+      "y": 320,
+      "width": 416,
+      "height": 260
     },
     {
-      "id": "35d8e6e7936bb65e",
+      "id": "4606d23c4df58ecc",
       "type": "text",
-      "text": "##### Gas ideali\nTutti i gas in alcune condizioni si comportano allo stesso modo, in particolar modo in condizioni di bassa pressione ed alta temperatura. In questi casi i gas sono detti **gas ideali**\n\n>[!def]\n>gas ideale sistema in cui le coordinate termodinamiche in uno stato di equilibrio obbediscono alla equazione di stato del gas ideale \n>$$ pV = nRT $$\n\nIn un gas ideale in equilibrio sono indipendenti solo due variabili termodinamiche, la terza si ricava",
-      "x": 2640,
-      "y": 1700,
-      "width": 400,
-      "height": 500
-    },
-    {
-      "id": "26ef9038f868c3ef",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": 4360,
-      "y": 2175,
-      "width": 50,
-      "height": 50
-    },
-    {
-      "id": "4f09b4357e48e995",
-      "type": "text",
-      "text": "##### Legge di Avogadro\nVolumi eguali di gas con comportamento ideale diversi alla stessa temperatura  e pressione contengono lo stesso numero di molecole",
-      "x": 2699,
-      "y": 2400,
-      "width": 283,
-      "height": 240,
-      "color": "3"
-    },
-    {
-      "id": "981ef73f0b3615ac",
-      "type": "text",
-      "text": "##### Mole\nQuantità di materia che contiene tante entità elementari quanti atomi vi sono in $0.012 \\text{ Kg}$ dell'isotopo $^{12} \\text{C}$ di carbonio.\nUna chilomole è pari a $10^{13}$ moli ",
-      "x": 3280,
-      "y": 2400,
-      "width": 360,
-      "height": 240
-    },
-    {
-      "id": "98299aed9afa52d8",
-      "type": "text",
-      "text": "##### Volume molare\nUna mole di un gas qualsiasi occupa sempre lo stesso volume a pressione atmosferica e zero gradi celsius il volume vare\n$$ V_{m} = 0.022414 \\ \\text{m}^3 = 22.414 \\text{ l}$$",
-      "x": 3980,
-      "y": 2400,
-      "width": 280,
-      "height": 240
-    },
-    {
-      "id": "bd701d0a345bb772",
-      "type": "text",
-      "text": "##### Equazione di stato del gas ideale\n$n$ moli di un gas alla pressione atmosferica $p_{0}$\n$$ pV = nRT $$",
-      "x": 3280,
-      "y": 2880,
-      "width": 360,
-      "height": 191
-    },
-    {
-      "id": "48967e99c85ee9c0",
-      "type": "text",
-      "text": "##### Costante del gas ideale\n$$ R = p_{0}V_{m}\\alpha   $$\n$p_{0}V_{m}\\alpha$ costante, quindi\n$$ \\begin{align}\nR &= 1.01325 \\cdot 10^5 \\cdot 0.022414 \\cdot \\frac{1}{273.15} = \\\\\n&=8.314 \\text{ J/mole K}\n\\end{align}$$",
-      "x": 3970,
-      "y": 2856,
-      "width": 300,
-      "height": 240
-    },
-    {
-      "id": "75693bb4320949b0",
-      "type": "text",
-      "text": "##### Costante di boltzman\n$$ k_{B} = \\frac{R}{N_{A}} = 1.3807 \\cdot 10^{-23} \\text{ J/K} $$",
-      "x": 3970,
-      "y": 3360,
-      "width": 300,
-      "height": 240
-    },
-    {
-      "id": "763535902bbe99bc",
-      "type": "text",
-      "text": "##### Energia interna del gas ideale in espansione libera\nDall'esperimento di Joule sull'espansione libera, osserviamo che l'energia interna di un gas in espansione liberà non cambia\n$$ \\Delta U = Q - \\mathcal{L} = 0 $$\n\nEssendo l'energia interna funzione di temperatura, pressione e volume ed essendo pressione e volume costanti e la trasformazione isoterma, l'energia interna deve essere funzione solamente della temperatura.",
-      "x": 1960,
-      "y": 1260,
-      "width": 480,
-      "height": 340
-    },
-    {
-      "id": "88baeb62e2f48567",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": 2400,
-      "y": 2951,
-      "width": 50,
-      "height": 50
-    },
-    {
-      "id": "e633a920b7fe8fee",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": 1935,
-      "y": 1925,
-      "width": 50,
-      "height": 50
-    },
-    {
-      "id": "1c1d302fb5bdbe76",
-      "type": "text",
-      "text": "##### Equazione di trasformazione adiabatica reversibile dei gas ideali\n\n$$ TV^{\\gamma -1} = \\cost$$ \n$$pV^{\\gamma} = \\cost $$ \n$$Tp^{(1-\\gamma)/\\gamma} = \\cost$$",
-      "x": -200,
-      "y": 1850,
-      "width": 430,
-      "height": 200
-    },
-    {
-      "id": "372dfd0f797357d1",
-      "type": "text",
-      "text": "##### Trasformazioni adiabatiche dei gas ideali\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ \\mathcal{L}_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo, $T_{B} < T_{A}$.\nSe **compressione** adiabatica $\\mathcal{L}_{AB}$ negativo e $\\Delta U$ positivo, $T_{B} > T_{A}$\n\nSe adiabatica reversibile\n$$ \\dd U + d\\mathcal{L} = nc_{V} \\dd T + p\\dd V = 0 $$\npossiamo sfruttare l'equazione di stato in qualsiasi stato intermedio\n$$ nc_{V} \\dd T + \\frac{nRT}{V} \\dd V = 0 $$\nda cui, applicando la relazione  di mayer\n$$ (\\gamma - 1)\\ln \\frac{V_{B}}{V_{A}} = \\ln \\frac{T_{A}}{T_{B}}  \\implies T_{A}V_{A}^{\\gamma - 1} = T_{B}V_{B}^{\\gamma-1}$$\ninoltre se $c_{V}$ è costante possiamo applicare mayer anche al lavoro\n$$ \\mathcal{L}_{AB}=\\frac{1}{\\gamma- 1}(p_{A}V_{A} - p_{B}V_{B}) $$",
-      "x": 700,
-      "y": 1640,
-      "width": 520,
-      "height": 620
-    },
-    {
-      "id": "f714c8ef36005e79",
-      "type": "text",
-      "text": "##### Trasformazioni isoterme dei gas perfetti\nAbbiamo\n$$ \\Delta U = 0\\quad,\\quad Q = W\\quad,\\quad p_{A}V_{A} = p_{B}V_{B} $$\n\nSe è un **espansione** isoterma, si ha $\\mathcal{L}_{AB} > 0$ e $Q_{AB}> 0$. \nSe è una **compressione** isoterma, si ha $\\mathcal{L}_{AB} < 0$ e $Q_{AB} < 0$\n\nSe è isoterma reversibile\n$$ \\mathcal{L}_{AB} = \\int _{A}^B \\! p \\, \\mathrm{d}V = nRT \\ln \\frac{V_{B}}{V_{A}}  $$\nDa cui si ricava immediatamente il calore scambiato",
-      "x": 700,
-      "y": 2400,
-      "width": 520,
-      "height": 360
-    },
-    {
-      "id": "dd43d78c7e7d9ae1",
-      "type": "text",
-      "text": "##### Trasformazioni isocore dei gas perfetti\n$V$ costante e $\\mathcal{L} = 0$, per il primo principio, se $c_{V}$ costante\n$$ Q = \\Delta U = nc_{V}(T_{B} - T_{A}) $$\n$V$ costante $\\implies$ $$\\frac{p_{A}}{T_{A}} = \\frac{p_{B}}{T_{B}} \\implies \\frac{p_{A}}{p_{B}} = \\frac{T_{A}}{T_{B}}$$",
-      "x": 700,
-      "y": 2951,
-      "width": 520,
-      "height": 360
-    },
-    {
-      "id": "1d83d3351d18c113",
-      "type": "text",
-      "text": "##### Calore di isobare e isocore\nPer una generica trasformazione di Gas ideale energia interna ed entalpia dipendono solo dalla temperatura iniziale e finale, il calore invece dipende dalla trasformazione:\n- isocora: $$ Q = \\Delta U $$\n- isobara: $$ Q = \\Delta H $$\n\nInoltre\n$$ c_{V} = \\frac{1}{n} \\frac{\\dd U}{\\dd T} \\quad,\\quad  c_{p} = \\frac{1}{n} \\frac{\\dd H}{\\dd T} $$",
-      "x": -160,
-      "y": 2900,
-      "width": 493,
-      "height": 411
-    },
-    {
-      "id": "b506a5e3678b31ef",
-      "type": "text",
-      "text": "##### Trasformazioni isobare dei gas perfetti\nIn una isobara, per l'equazione di stato\n$$ \\frac{V_{A}}{T_{A}} = \\frac{V_{B}}{T_{B}} \\implies \\frac{V_{A}}{V_{B}} = \\frac{T_{A}}{T_{B}} $$\n\nsi scambiano sia calore che lavoro\n$$ \\begin{align}\nQ = nc_{p} (T_{B} - T_{A}) \\\\\n\\mathcal{L} = nR(T_{B} - T_{A})\n\\end{align} $$",
-      "x": 700,
-      "y": 3460,
-      "width": 520,
-      "height": 360
-    },
-    {
-      "id": "dc65410f668ced0f",
-      "type": "text",
-      "text": "##### Trasformazioni generiche dei gas perfetti\nPossiamo sfruttare il primo principio\n$$ \\dd Q = \\dd U + d\\mathcal{L} += nc_{V } \\dd T + d \\mathcal{L}$$\n\nCerchiamo di indagare sulla eventuale reversibilità \nSe reversibile sfruttiamo l'equazione di stato $pV = nRT$ e $d\\mathcal{L} = p\\dd V$, il lavoro inoltre si può indagare per via geometrica",
-      "x": 700,
-      "y": 3940,
-      "width": 520,
-      "height": 360
-    },
-    {
-      "id": "8f984e4c0246c20d",
-      "type": "text",
-      "text": "##### Entalpia\nfunzione di stato (in quanto funzione unicamente di coordinate termodinamiche)\n$$ H = U + pV $$\nvale per una trasformazione infinitesima\n$$ dH = nc_{p} \\dd T $$\n\ne per una trasformazione finita, attraverso la relazione di mayer\n$$ \\Delta H = n \\int _{T_{A}}^{T_{B}} \\! c_{P}\\, \\mathrm{d}T  $$\ne, se $c_{p}$ costante\n$$ \\Delta H = nc_{p}(T_{B} - T_{A}) $$",
-      "x": -160,
-      "y": 3460,
-      "width": 493,
-      "height": 440,
-      "color": "1"
-    },
-    {
-      "id": "de33eee6681cc010",
-      "type": "text",
-      "text": "##### Macchina Frigorifera\nSe in un ciclo viene assorbito lavoro esterno e estratto calore il ciclo è detto **ciclo frigorifero** e il dispositivo che opera questo ciclo è detto **macchina frigorifera**",
-      "x": 765,
-      "y": 4880,
-      "width": 390,
-      "height": 240,
-      "color": "1"
-    },
-    {
-      "id": "c6a855204a65ba0b",
-      "type": "text",
-      "text": "##### Lavori nelle trasformazioni cicliche\n$$ \\mathcal{L} = \\mathcal{L}_{F} + \\mathcal{L}_{S} $$\n$\\mathcal{L}_{F}$ e $\\mathcal{L}_{S}$ rispettivamente lavori compiuti e lavori subiti",
-      "x": 203,
-      "y": 4800,
+      "text": "##### Dilatazione termica\nUn corpo a pressione costante aumenta di volume in base alla temperatura",
+      "x": 810,
+      "y": 180,
       "width": 260,
-      "height": 230
-    },
-    {
-      "id": "8dc781281c8378b7",
-      "type": "text",
-      "text": "##### Macchina termica\nSe in un ciclo viene assorbito calore e prodotto lavoro il ciclo è detto **ciclo termico** e il dispositivo che opera questo ciclo è detto **macchina termica**",
-      "x": 765,
-      "y": 4440,
-      "width": 390,
-      "height": 240,
-      "color": "1"
-    },
-    {
-      "id": "9b2988e8e79b6601",
-      "type": "text",
-      "text": "##### Calori nelle trasformazioni cicliche\n$$ Q = Q_{A} + Q_{C} $$\n$Q_{A}$ e $Q_{C}$ rispettivamente calori assorbiti e calori ceduti",
-      "x": 203,
-      "y": 4530,
-      "width": 260,
-      "height": 210
+      "height": 180
     }
   ],
   "edges": [
@@ -1490,7 +1536,8 @@
       "fromNode": "bd701d0a345bb772",
       "fromSide": "left",
       "toNode": "88baeb62e2f48567",
-      "toSide": "right"
+      "toSide": "right",
+      "toEnd": "none"
     },
     {
       "id": "d19416fd5a13ab1b",
@@ -1714,7 +1761,8 @@
       "fromSide": "left",
       "toNode": "e633a920b7fe8fee",
       "toSide": "right",
-      "toEnd": "none"
+      "toEnd": "none",
+      "color": "5"
     },
     {
       "id": "5836db90db9d3778",
@@ -1781,6 +1829,56 @@
       "fromSide": "left",
       "toNode": "c6a855204a65ba0b",
       "toSide": "right",
+      "color": "6"
+    },
+    {
+      "id": "5fd75a2929ad8e96",
+      "fromNode": "9b2988e8e79b6601",
+      "fromSide": "left",
+      "toNode": "e4c80dcfaa7e6a65",
+      "toSide": "right"
+    },
+    {
+      "id": "b44584118e3e6ffe",
+      "fromNode": "c6a855204a65ba0b",
+      "fromSide": "left",
+      "toNode": "e4c80dcfaa7e6a65",
+      "toSide": "right"
+    },
+    {
+      "id": "4011ad194200aab3",
+      "fromNode": "8dc781281c8378b7",
+      "fromSide": "top",
+      "toNode": "e4c80dcfaa7e6a65",
+      "toSide": "top"
+    },
+    {
+      "id": "d82cd097300e360c",
+      "fromNode": "e633a920b7fe8fee",
+      "fromSide": "left",
+      "toNode": "7ab8dd8ad7ca9266",
+      "toSide": "right"
+    },
+    {
+      "id": "3e4d0de0e45cd31d",
+      "fromNode": "7ab8dd8ad7ca9266",
+      "fromSide": "bottom",
+      "toNode": "a45436e98b12dc8e",
+      "toSide": "top"
+    },
+    {
+      "id": "096d70c3e9109ac0",
+      "fromNode": "7ab8dd8ad7ca9266",
+      "fromSide": "bottom",
+      "toNode": "94f94455cec17b27",
+      "toSide": "top"
+    },
+    {
+      "id": "0e86fceb9f923c99",
+      "fromNode": "35d8e6e7936bb65e",
+      "fromSide": "bottom",
+      "toNode": "65fe04696d389c75",
+      "toSide": "top",
       "color": "6"
     }
   ],
