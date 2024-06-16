@@ -822,7 +822,7 @@
     {
       "id": "f714c8ef36005e79",
       "type": "text",
-      "text": "##### Trasformazioni isoterme dei gas perfetti",
+      "text": "##### Trasformazioni isoterme dei gas perfetti\nAbbiamo\n$$ \\Delta U = 0\\quad,\\quad Q = W\\quad,\\quad p_{A}V_{A} = p_{B}V_{B} $$\n\nSe è un **espansione** isoterma, si ha $\\mathcal{L}_{AB} > 0$ e $Q_{AB}> 0$. \nSe è una **compressione** isoterma, si ha $L$",
       "x": 700,
       "y": 2400,
       "width": 520,
