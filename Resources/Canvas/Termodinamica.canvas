@@ -10,6 +10,15 @@
       "label": "Cambiamenti di fase"
     },
     {
+      "id": "3890908e0d09f0a1",
+      "x": -1893,
+      "y": -2980,
+      "width": 760,
+      "height": 696,
+      "type": "group",
+      "label": "calore specifico molare"
+    },
+    {
       "id": "a51d00b7a865f127",
       "type": "group",
       "x": -2480,
@@ -344,15 +353,6 @@
       "height": 160
     },
     {
-      "id": "e812c385eec6db1b",
-      "type": "text",
-      "text": "##### Equivalenza tra calore e lavoro in sistema adiabatico\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$",
-      "x": -860,
-      "y": -1420,
-      "width": 557,
-      "height": 400
-    },
-    {
       "id": "f0b5dfdd5e0a01c5",
       "type": "file",
       "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
@@ -379,15 +379,6 @@
       "y": -466,
       "width": 260,
       "height": 213
-    },
-    {
-      "id": "3d91642ace591c25",
-      "type": "text",
-      "text": "$Q > 0$",
-      "x": -2284,
-      "y": -1500,
-      "width": 97,
-      "height": 64
     },
     {
       "id": "e820fe4f1997ad82",
@@ -425,15 +416,6 @@
       "y": -10,
       "width": 260,
       "height": 298
-    },
-    {
-      "id": "0e3f0183674a0519",
-      "type": "text",
-      "text": "$\\mathcal{L} > 0$",
-      "x": -2460,
-      "y": -1500,
-      "width": 96,
-      "height": 64
     },
     {
       "id": "3ad9991b0a6b355c",
@@ -546,16 +528,6 @@
       "height": 80
     },
     {
-      "id": "289cd0dc846d22c5",
-      "type": "text",
-      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$\n- L'energia interna $\\Delta U$ è una funzione di stato, sempre uguali per trasformazioni tra due stati di equilibrio\n- L'energia fornita o come calore o come lavoro viene immagazzinata nel sistema nella forma di energia interna\n- L'energia non dipende dallo stato di moto del sistema ma da temperatura pressione e volume del sistema stesso.\n- Calore trasferimento di energia microscopico (un sistema non possiede energia, due sistemi possono scambiarsi energia)\n- Per una trasformazione ciclica, ossia con stato iniziale coincidente con stato finale, si ha $$\\Delta U =0 \\implies Q = \\mathcal{L}$$\n- In forma differenziale $$ dQ = dU + d\\mathcal{L} $$\n\t  - $\\Delta U = \\int _{A}^B \\! dU = U_{B} - U_{A}$\n\t  - $Q_{AB} = \\int _{A}^B \\! \\, \\mathrm{d}Q$\n- $[ U] = [Q] = [\\mathcal{L}] = \\text{J}$",
-      "x": -1743,
-      "y": -1545,
-      "width": 460,
-      "height": 650,
-      "color": "3"
-    },
-    {
       "id": "26ef9038f868c3ef",
       "type": "file",
       "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
@@ -661,24 +633,6 @@
       "height": 409
     },
     {
-      "id": "7356060b187a728d",
-      "type": "text",
-      "text": "###### Calore specifico molare a pressione costante\n$$ c_{p} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{p} $$",
-      "x": -1413,
-      "y": -2683,
-      "width": 260,
-      "height": 283
-    },
-    {
-      "id": "f96e7e8864d4e4a5",
-      "type": "text",
-      "text": "###### Calore specifico molare a volume costante\n$$ c_{V} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{V} $$\n\nDal primo principio applicato all'isocora\n$$ c_{V} = \\frac{dU}{dT} $$",
-      "x": -1873,
-      "y": -2683,
-      "width": 260,
-      "height": 283
-    },
-    {
       "id": "8a533803634ccd95",
       "type": "text",
       "text": "##### Calore in un isobara\n$$ dQ = nc_{p}\\dd T $$\nSe $c_{p}$ costante, il caolre scambiato per una differenza di temperatura $\\Delta T$ si avrà\n$$ Q_{p} = nc_{p} \\dd T $$\nAltrimenti si ha\n$$ Q_{V} = n\\int _{T_{A}}^{T_{B}} \\! c_{p} \\, \\mathrm{d}T  $$\n\nUtilizzando il primo principio\n$$ Q_{p} = \\Delta U + p \\Delta V $$\no\n$$ \\Delta U = n $$",
@@ -736,24 +690,88 @@
       "height": 50
     },
     {
-      "id": "7e1d7e98d978c443",
+      "id": "289cd0dc846d22c5",
       "type": "text",
-      "text": "##### Relazione di Mayer\n$$ c_{p} - c_{V} = R $$",
-      "x": -1640,
-      "y": -2869,
-      "width": 240,
-      "height": 129,
+      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$\n- L'energia interna $\\Delta U$ è una funzione di stato, sempre uguali per trasformazioni tra due stati di equilibrio\n- L'energia fornita o come calore o come lavoro viene immagazzinata nel sistema nella forma di energia interna\n- L'energia non dipende dallo stato di moto del sistema ma da temperatura pressione e volume del sistema stesso.\n- Calore trasferimento di energia microscopico (un sistema non possiede energia, due sistemi possono scambiarsi energia)\n- Per una trasformazione ciclica, ossia con stato iniziale coincidente con stato finale, si ha $$\\Delta U =0 \\implies Q = \\mathcal{L}$$\n- In forma differenziale $$ dQ = dU + d\\mathcal{L} $$\n\t  - $\\Delta U = \\int _{A}^B \\! dU = U_{B} - U_{A}$\n\t  - $Q_{AB} = \\int _{A}^B \\! \\, \\mathrm{d}Q$\n- $[ U] = [Q] = [\\mathcal{L}] = \\text{J}$",
+      "x": -1743,
+      "y": -1545,
+      "width": 460,
+      "height": 650,
       "color": "3"
+    },
+    {
+      "id": "3d91642ace591c25",
+      "type": "text",
+      "text": "$Q > 0$",
+      "x": -2284,
+      "y": -1500,
+      "width": 97,
+      "height": 64
+    },
+    {
+      "id": "0e3f0183674a0519",
+      "type": "text",
+      "text": "$\\mathcal{L} > 0$",
+      "x": -2460,
+      "y": -1500,
+      "width": 96,
+      "height": 64
+    },
+    {
+      "id": "e812c385eec6db1b",
+      "type": "text",
+      "text": "##### Equivalenza tra calore e lavoro in sistema adiabatico\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$",
+      "x": -860,
+      "y": -1420,
+      "width": 557,
+      "height": 400
     },
     {
       "id": "f58782dfb6bc6e0c",
       "type": "text",
       "text": "##### Rapporto tra calori specifici\n$$ \\gamma = \\frac{c_{p}}{c_{V}} $$",
       "x": -1640,
-      "y": -2342,
+      "y": -2433,
       "width": 240,
       "height": 129,
       "color": "3"
+    },
+    {
+      "id": "7356060b187a728d",
+      "type": "text",
+      "text": "###### Calore specifico molare a pressione costante\n$$ c_{p} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{p} $$",
+      "x": -1413,
+      "y": -2774,
+      "width": 260,
+      "height": 283
+    },
+    {
+      "id": "7e1d7e98d978c443",
+      "type": "text",
+      "text": "##### Relazione di Mayer\n$$ c_{p} - c_{V} = R $$",
+      "x": -1640,
+      "y": -2960,
+      "width": 240,
+      "height": 129,
+      "color": "3"
+    },
+    {
+      "id": "f96e7e8864d4e4a5",
+      "type": "text",
+      "text": "###### Calore specifico molare a volume costante\n$$ c_{V} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{V} $$\n\nDal primo principio applicato all'isocora\n$$ c_{V} = \\frac{dU}{dT} $$",
+      "x": -1873,
+      "y": -2774,
+      "width": 260,
+      "height": 283
+    },
+    {
+      "id": "380c48e0d7740955",
+      "x": -2624,
+      "y": -2939,
+      "width": 364,
+      "height": 60,
+      "type": "text",
+      "text": "##### Calori specifici di gas biatomici"
     }
   ],
   "edges": [
@@ -1471,6 +1489,20 @@
       "fromNode": "7356060b187a728d",
       "fromSide": "top",
       "toNode": "7e1d7e98d978c443",
+      "toSide": "right"
+    },
+    {
+      "id": "152942c364213cce",
+      "fromNode": "f96e7e8864d4e4a5",
+      "fromSide": "bottom",
+      "toNode": "f58782dfb6bc6e0c",
+      "toSide": "left"
+    },
+    {
+      "id": "a45dca4468fb00e2",
+      "fromNode": "7356060b187a728d",
+      "fromSide": "bottom",
+      "toNode": "f58782dfb6bc6e0c",
       "toSide": "right"
     }
   ],
