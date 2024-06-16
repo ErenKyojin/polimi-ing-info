@@ -838,6 +838,15 @@
       "height": 360
     },
     {
+      "id": "1d83d3351d18c113",
+      "type": "text",
+      "text": "##### Calore di isobare e isocore\nPer una generica trasformazione di Gas ideale energia interna ed entalpia dipendono solo dalla temperatura iniziale e finale, il calore invece dipende dalla trasformazione:\n- isocora: $$ Q = \\Delta U $$\n- isobara: $$ Q = \\Delta H $$\n\nInoltre\n$$ c_{V} = \\frac{1}{n} \\frac{\\dd U}{\\dd T} \\quad,\\quad  c_{p} = \\frac{1}{n} \\frac{\\dd H}{\\dd T} $$",
+      "x": -160,
+      "y": 2900,
+      "width": 493,
+      "height": 411
+    },
+    {
       "id": "b506a5e3678b31ef",
       "type": "text",
       "text": "##### Trasformazioni isobare dei gas perfetti\nIn una isobara, per l'equazione di stato\n$$ \\frac{V_{A}}{T_{A}} = \\frac{V_{B}}{T_{B}} \\implies \\frac{V_{A}}{V_{B}} = \\frac{T_{A}}{T_{B}} $$\n\nsi scambiano sia calore che lavoro\n$$ \\begin{align}\nQ = nc_{p} (T_{B} - T_{A}) \\\\\n\\mathcal{L} = nR(T_{B} - T_{A})\n\\end{align} $$",
@@ -847,23 +856,61 @@
       "height": 360
     },
     {
+      "id": "dc65410f668ced0f",
+      "type": "text",
+      "text": "##### Trasformazioni generiche dei gas perfetti\nPossiamo sfruttare il primo principio\n$$ \\dd Q = \\dd U + d\\mathcal{L} += nc_{V } \\dd T + d \\mathcal{L}$$\n\nCerchiamo di indagare sulla eventuale reversibilità \nSe reversibile sfruttiamo l'equazione di stato $pV = nRT$ e $d\\mathcal{L} = p\\dd V$, il lavoro inoltre si può indagare per via geometrica",
+      "x": 700,
+      "y": 3940,
+      "width": 520,
+      "height": 360
+    },
+    {
       "id": "8f984e4c0246c20d",
       "type": "text",
       "text": "##### Entalpia\nfunzione di stato (in quanto funzione unicamente di coordinate termodinamiche)\n$$ H = U + pV $$\nvale per una trasformazione infinitesima\n$$ dH = nc_{p} \\dd T $$\n\ne per una trasformazione finita, attraverso la relazione di mayer\n$$ \\Delta H = n \\int _{T_{A}}^{T_{B}} \\! c_{P}\\, \\mathrm{d}T  $$\ne, se $c_{p}$ costante\n$$ \\Delta H = nc_{p}(T_{B} - T_{A}) $$",
       "x": -160,
-      "y": 3420,
+      "y": 3460,
       "width": 493,
       "height": 440,
       "color": "1"
     },
     {
-      "id": "1d83d3351d18c113",
+      "id": "de33eee6681cc010",
       "type": "text",
-      "text": "##### Calore di isobare e isocore\nPer una generica trasformazione di Gas ideale energia interna ed entalpia dipendono solo dalla temperatura iniziale e finale, il calore invece dipende dalla trasformazione:\n- isocora: $$ Q = \\Delta U $$\n- isobara: $$ Q = \\Delta H $$\n\nInoltre\n$$ c_{V} = \\frac{1}{n} \\frac{\\dd U}{\\dd T} \\quad,\\quad  c_{p} = \\frac{1}{n} \\frac{\\dd H}{\\dd T} $$",
-      "x": -160,
-      "y": 2900,
-      "width": 493,
-      "height": 411
+      "text": "##### Macchina Frigorifera\nSe in un ciclo viene assorbito lavoro esterno e estratto calore il ciclo è detto **ciclo frigorifero** e il dispositivo che opera questo ciclo è detto **macchina frigorifera**",
+      "x": 765,
+      "y": 4880,
+      "width": 390,
+      "height": 240,
+      "color": "1"
+    },
+    {
+      "id": "c6a855204a65ba0b",
+      "type": "text",
+      "text": "##### Lavori nelle trasformazioni cicliche\n$$ \\mathcal{L} = \\mathcal{L}_{F} + \\mathcal{L}_{S} $$\n$\\mathcal{L}_{F}$ e $\\mathcal{L}_{S}$ rispettivamente lavori compiuti e lavori subiti",
+      "x": 203,
+      "y": 4800,
+      "width": 260,
+      "height": 230
+    },
+    {
+      "id": "8dc781281c8378b7",
+      "type": "text",
+      "text": "##### Macchina termica\nSe in un ciclo viene assorbito calore e prodotto lavoro il ciclo è detto **ciclo termico** e il dispositivo che opera questo ciclo è detto **macchina termica**",
+      "x": 765,
+      "y": 4440,
+      "width": 390,
+      "height": 240,
+      "color": "1"
+    },
+    {
+      "id": "9b2988e8e79b6601",
+      "type": "text",
+      "text": "##### Calori nelle trasformazioni cicliche\n$$ Q = Q_{A} + Q_{C} $$\n$Q_{A}$ e $Q_{C}$ rispettivamente calori assorbiti e calori ceduti",
+      "x": 203,
+      "y": 4530,
+      "width": 260,
+      "height": 210
     }
   ],
   "edges": [
@@ -1627,46 +1674,10 @@
       "toSide": "right"
     },
     {
-      "id": "91c0680d4756b07d",
-      "fromNode": "35d8e6e7936bb65e",
-      "fromSide": "left",
-      "toNode": "e633a920b7fe8fee",
-      "toSide": "right",
-      "toEnd": "none"
-    },
-    {
-      "id": "5836db90db9d3778",
-      "fromNode": "e633a920b7fe8fee",
-      "fromSide": "left",
-      "toNode": "372dfd0f797357d1",
-      "toSide": "right"
-    },
-    {
       "id": "50d55873eec4c561",
       "fromNode": "372dfd0f797357d1",
       "fromSide": "left",
       "toNode": "1c1d302fb5bdbe76",
-      "toSide": "right"
-    },
-    {
-      "id": "2c64ce3e96dcae2f",
-      "fromNode": "e633a920b7fe8fee",
-      "fromSide": "left",
-      "toNode": "f714c8ef36005e79",
-      "toSide": "right"
-    },
-    {
-      "id": "e00b67b21f100275",
-      "fromNode": "e633a920b7fe8fee",
-      "fromSide": "left",
-      "toNode": "dd43d78c7e7d9ae1",
-      "toSide": "right"
-    },
-    {
-      "id": "b7fadd537a8f7afe",
-      "fromNode": "e633a920b7fe8fee",
-      "fromSide": "left",
-      "toNode": "b506a5e3678b31ef",
       "toSide": "right"
     },
     {
@@ -1696,6 +1707,81 @@
       "fromSide": "top",
       "toNode": "1d83d3351d18c113",
       "toSide": "bottom"
+    },
+    {
+      "id": "91c0680d4756b07d",
+      "fromNode": "35d8e6e7936bb65e",
+      "fromSide": "left",
+      "toNode": "e633a920b7fe8fee",
+      "toSide": "right",
+      "toEnd": "none"
+    },
+    {
+      "id": "5836db90db9d3778",
+      "fromNode": "e633a920b7fe8fee",
+      "fromSide": "left",
+      "toNode": "372dfd0f797357d1",
+      "toSide": "right"
+    },
+    {
+      "id": "2c64ce3e96dcae2f",
+      "fromNode": "e633a920b7fe8fee",
+      "fromSide": "left",
+      "toNode": "f714c8ef36005e79",
+      "toSide": "right"
+    },
+    {
+      "id": "e00b67b21f100275",
+      "fromNode": "e633a920b7fe8fee",
+      "fromSide": "left",
+      "toNode": "dd43d78c7e7d9ae1",
+      "toSide": "right"
+    },
+    {
+      "id": "b7fadd537a8f7afe",
+      "fromNode": "e633a920b7fe8fee",
+      "fromSide": "left",
+      "toNode": "b506a5e3678b31ef",
+      "toSide": "right"
+    },
+    {
+      "id": "ba78b25a4e64e0fd",
+      "fromNode": "e633a920b7fe8fee",
+      "fromSide": "left",
+      "toNode": "dc65410f668ced0f",
+      "toSide": "right"
+    },
+    {
+      "id": "bdfc3c6f58d3b4f7",
+      "fromNode": "8dc781281c8378b7",
+      "fromSide": "left",
+      "toNode": "9b2988e8e79b6601",
+      "toSide": "right",
+      "color": "6"
+    },
+    {
+      "id": "ac00d68285f0f9d8",
+      "fromNode": "de33eee6681cc010",
+      "fromSide": "left",
+      "toNode": "9b2988e8e79b6601",
+      "toSide": "right",
+      "color": "4"
+    },
+    {
+      "id": "6c71ce3f21d5ef9b",
+      "fromNode": "de33eee6681cc010",
+      "fromSide": "left",
+      "toNode": "c6a855204a65ba0b",
+      "toSide": "right",
+      "color": "4"
+    },
+    {
+      "id": "a060ce94198141b0",
+      "fromNode": "8dc781281c8378b7",
+      "fromSide": "left",
+      "toNode": "c6a855204a65ba0b",
+      "toSide": "right",
+      "color": "6"
     }
   ],
   "metadata": {}
