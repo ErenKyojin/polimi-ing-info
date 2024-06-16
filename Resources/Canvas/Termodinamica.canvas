@@ -121,16 +121,6 @@
       "height": 50
     },
     {
-      "id": "289cd0dc846d22c5",
-      "type": "text",
-      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$\n- L'energia interna $\\Delta U$ è una funzione di stato, sempre uguali per trasformazioni tra due stati di equilibrio\n- L'energia fornita o come calore o come lavoro viene immagazzinata nel sistema nella forma di energia interna\n- L'energia non dipende dallo stato di moto del sistema ma da temperatura pressione e volume del sistema stesso.\n- Calore trasferimento di energia microscopico (un sistema non possiede energia, due sistemi possono scambiarsi energia)\n- Per una trasformazione ciclica, ossia con stato iniziale coincidente con stato finale, si ha $$\\Delta U =0 \\implies Q = \\mathcal{L}$$\n- In forma differenziale $$ dQ = dU + d\\mathcal{L} $$\n\t  - $\\Delta U = \\int _{A}^B \\! dU = U_{B} - U_{A}$\n\t  - $Q_{AB} = \\int _{A}^B \\! \\, \\mathrm{d}Q$\n- $[ U] = [Q] = [\\mathcal{L}] = \\text{J}$",
-      "x": -1743,
-      "y": -1545,
-      "width": 460,
-      "height": 650,
-      "color": "3"
-    },
-    {
       "id": "3d91642ace591c25",
       "type": "text",
       "text": "$Q > 0$",
@@ -310,24 +300,6 @@
       "height": 260
     },
     {
-      "id": "40ffb2f7abad818f",
-      "type": "text",
-      "text": "##### Sistema adiabatico\nSistema circondato da pareti adiabatiche",
-      "x": 810,
-      "y": -729,
-      "width": 260,
-      "height": 140
-    },
-    {
-      "id": "0a0bbf6cbeb2f59a",
-      "type": "text",
-      "text": "##### Ottenimento equilibrio termico\nPer ottenere l'equilibrio termico per due corpi si possono mettere a contatto tramite una parete **diatermica**, una parete detta invece **adiabatica** non permetterebbe il raggiungimento dell'equilibrio e le temperature dei corpi rimarrebbero invariate.\nSe la parete è diatermica i corpi sono detti a contatto termico",
-      "x": 780,
-      "y": -1246,
-      "width": 320,
-      "height": 393
-    },
-    {
       "id": "6ed75884c347043f",
       "type": "text",
       "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
@@ -335,34 +307,6 @@
       "y": -1660,
       "width": 320,
       "height": 414
-    },
-    {
-      "id": "a770540933eccddf",
-      "type": "text",
-      "text": "##### Equilibrio termico\nDue sistemi sono in equilibrio termico quando hanno la stessa temperatura",
-      "x": 350,
-      "y": -764,
-      "width": 260,
-      "height": 209
-    },
-    {
-      "id": "23d856bd79c32be4",
-      "type": "text",
-      "text": "##### Stato di equilibrio\nUn sistema è detto in stato di equilibrio quando le coordinate termodinamiche che lo descrivono sono costanti nel tempo.\nPer l'equilibrio termico devono verificarsi\n- equilibrio meccanico\n- equilibrio chimico\n- equilibrio termico",
-      "x": -200,
-      "y": -808,
-      "width": 340,
-      "height": 297
-    },
-    {
-      "id": "a1520f6f9a947672",
-      "type": "text",
-      "text": "##### Stato termodinamico\nStato descritto dalle coordinate termodinamiche, ad uno stato termodinamico corrispondono uno o più stati meccanici",
-      "isStartNode": false,
-      "x": -690,
-      "y": -740,
-      "width": 310,
-      "height": 160
     },
     {
       "id": "e820fe4f1997ad82",
@@ -399,52 +343,6 @@
       "y": -3680,
       "width": 400,
       "height": 360
-    },
-    {
-      "id": "5147e5e538e6f38a",
-      "type": "text",
-      "text": "##### Termometri\nNecessaria una grandezza $X$ che varia in base alla temperatura, questa grandezza è la caratteristica termometrica, e attraverso la funzione termometrica possiamo ottenere la temperatura.\nServe poi un sistema in equilibrio facilmente riproducibile, si sceglie solitamente il punto triplo dell'acqua a $273.16 \\text{ K}$. \nSe il termometro al punto triplo assume il valore $X_{p}$, la temperatura $T$ del termometro sarà:\n$$ T = 273.16 \\frac{X}{X_{p}} \\text{ K} $$",
-      "x": 305,
-      "y": -512,
-      "width": 350,
-      "height": 425
-    },
-    {
-      "id": "be3e96a9ee357f25",
-      "type": "text",
-      "text": "##### Scala celsius\n$$t(^o \\text{C}) = T(\\text{K}) - 273.15$$",
-      "x": 810,
-      "y": -480,
-      "width": 260,
-      "height": 91
-    },
-    {
-      "id": "f0b5dfdd5e0a01c5",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -1191,
-      "y": -692,
-      "width": 64,
-      "height": 64
-    },
-    {
-      "id": "830db8c5a7080642",
-      "type": "text",
-      "text": "##### Calore specifico molare\n$$c = \\frac{1}{n} \\frac{dQ}{dT}$$\n\n- $dQ = ncdT$\n- $Q = nc(T_{2} - T_{1})$\n- $Q = n\\int _{T_{1}}^{T_{2}} \\!< \\, \\mathrm{d}x$",
-      "x": -1480,
-      "y": -472,
-      "width": 260,
-      "height": 225
-    },
-    {
-      "id": "21d0a34f938c6532",
-      "type": "text",
-      "text": "##### Calore specifico\n$$ c = \\frac{1}{m} \\frac{dQ}{dT}  $$\nquando il lavoro è nullo\n$$ c= \\frac{1}{m } \\frac{dU}{dT} $$",
-      "x": -1880,
-      "y": -466,
-      "width": 260,
-      "height": 213
     },
     {
       "id": "7307961fc0e3e8db",
@@ -484,25 +382,6 @@
       "height": 50
     },
     {
-      "id": "5f18ae3e7c1553ba",
-      "type": "text",
-      "text": "##### Coordinate termodinamiche\nVariabili estensive ed intensive che descrivono il sistema\n",
-      "isStartNode": false,
-      "x": -690,
-      "y": -420,
-      "width": 310,
-      "height": 120
-    },
-    {
-      "id": "3c4e3d6b7450d6ae",
-      "type": "text",
-      "text": "##### Sistema isolato\nSistema che non scambia ne energia ne materia con l'ambiente",
-      "x": -1100,
-      "y": -360,
-      "width": 260,
-      "height": 140
-    },
-    {
       "id": "2d9f2253320c7f35",
       "type": "file",
       "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
@@ -511,35 +390,6 @@
       "y": -1497,
       "width": 88,
       "height": 88
-    },
-    {
-      "id": "d1ee802bd55f1780",
-      "type": "text",
-      "text": "##### Scala  Fahrenheit\n$$ t(^o\\text{F}) = \\frac{9}{5} T(\\text{K}) - 459.67 $$",
-      "x": 810,
-      "y": -209,
-      "width": 260,
-      "height": 99
-    },
-    {
-      "id": "b507d83a51966d9f",
-      "type": "text",
-      "text": "##### Sistema termodinamico\nSistema formato da $N \\approx 10^{23}$ particelle, descritto tramite velocità, energia cinetica e grandezze meccaniche.",
-      "shape": "oval",
-      "isStartNode": true,
-      "x": -200,
-      "y": -160,
-      "width": 340,
-      "height": 200
-    },
-    {
-      "id": "e492101b4bfc408f",
-      "type": "text",
-      "text": "##### Sistema chiuso\nSistema che scambia energia con l'ambiente",
-      "x": -1100,
-      "y": -140,
-      "width": 260,
-      "height": 130
     },
     {
       "id": "e64d1b4df8dc4ec8",
@@ -560,51 +410,6 @@
       "height": 60
     },
     {
-      "id": "858e0244978a9f6c",
-      "type": "text",
-      "text": "##### Dilatazione lineare\n$$ \\Delta l = \\lambda l \\Delta T \\implies l + \\Delta l = l(1 + \\lambda \\Delta T) $$\ndove $\\lambda$ è il coefficiente di dilatazione lineare, caratteristico del materiale e funzione della temperatura\n$$ \\lambda = \\frac{1}{l} \\frac{\\Delta l}{\\Delta T} $$",
-      "x": 1320,
-      "y": -37,
-      "width": 416,
-      "height": 237
-    },
-    {
-      "id": "b239749dc574c103",
-      "type": "text",
-      "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente",
-      "x": -200,
-      "y": 440,
-      "width": 340,
-      "height": 200
-    },
-    {
-      "id": "fb56f788248145e1",
-      "type": "text",
-      "text": "##### Ambiente\nAll'esterno dei confini del sistema termodinamico vi è l'**ambiente**. ",
-      "x": -580,
-      "y": 210,
-      "width": 260,
-      "height": 200
-    },
-    {
-      "id": "b35fe90c68ca83a6",
-      "type": "text",
-      "text": "##### Sistema aperto\nSistema che scambia energia e materia con ambiente",
-      "x": -1100,
-      "y": 80,
-      "width": 260,
-      "height": 130
-    },
-    {
-      "id": "e49fb4e022174e0b",
-      "type": "text",
-      "text": "##### Variabili termodinamiche per GAS\nPressione\nVolume\nTemperatura",
-      "x": -1320,
-      "y": 420,
-      "width": 321,
-      "height": 220
-    },
-    {
       "id": "24a95b49f6b8fd89",
       "type": "text",
       "text": "##### Sorgenti di calore\nUna sorgente di calore è un corpo con capacità termica virtualmente infinita, un sistema a contatto con una sorgente tramite una parete diatermica assume eventualmente la sua temperatura",
@@ -612,35 +417,6 @@
       "y": -10,
       "width": 260,
       "height": 298
-    },
-    {
-      "id": "d1cde84877befb4d",
-      "type": "text",
-      "text": "##### Capacità termica\n$$C = mc$$",
-      "x": -1880,
-      "y": -90,
-      "width": 280,
-      "height": 80
-    },
-    {
-      "id": "636f7e217b8eeecc",
-      "type": "text",
-      "text": "##### Legge isoterma di Boyle\nGas in equilibrio termodinamico, ad una pressione $p$ e un volume $V$. Con una temperatura T. mantenendo costante $T$ e facendo variare $p$ e $v$ vale che:\n$$ pV= \\cost $$\n**a temperatura costante la pressione è inversalmente proprzionale al volume**",
-      "x": -1354,
-      "y": 900,
-      "width": 390,
-      "height": 280,
-      "color": "3"
-    },
-    {
-      "id": "26ef9038f868c3ef",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": 4360,
-      "y": 2175,
-      "width": 50,
-      "height": 50
     },
     {
       "id": "b506a5e3678b31ef",
@@ -885,12 +661,13 @@
     },
     {
       "id": "65fe04696d389c75",
+      "type": "text",
+      "text": "##### Gas reale\nI gas generalmente non seguono tutte le regole derivate dai gas perfetti.",
+      "isStartNode": false,
       "x": 1935,
       "y": 2700,
       "width": 260,
-      "height": 301,
-      "type": "text",
-      "text": "##### Gas reale\nI gas generalmente non seguono tutte le regole derivanti"
+      "height": 180
     },
     {
       "id": "748818d11c6ad33e",
@@ -957,6 +734,248 @@
       "y": 180,
       "width": 260,
       "height": 180
+    },
+    {
+      "id": "26ef9038f868c3ef",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": 4360,
+      "y": 2175,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "b239749dc574c103",
+      "type": "text",
+      "text": "##### Universo termodinamico\nUnione del sistema termodinamico con l'ambiente",
+      "x": -200,
+      "y": 440,
+      "width": 340,
+      "height": 200
+    },
+    {
+      "id": "fb56f788248145e1",
+      "type": "text",
+      "text": "##### Ambiente\nAll'esterno dei confini del sistema termodinamico vi è l'**ambiente**. ",
+      "x": -580,
+      "y": 210,
+      "width": 260,
+      "height": 200
+    },
+    {
+      "id": "e49fb4e022174e0b",
+      "type": "text",
+      "text": "##### Variabili termodinamiche per GAS\nPressione\nVolume\nTemperatura",
+      "x": -1320,
+      "y": 420,
+      "width": 321,
+      "height": 220
+    },
+    {
+      "id": "636f7e217b8eeecc",
+      "type": "text",
+      "text": "##### Legge isoterma di Boyle\nGas in equilibrio termodinamico, ad una pressione $p$ e un volume $V$. Con una temperatura T. mantenendo costante $T$ e facendo variare $p$ e $v$ vale che:\n$$ pV= \\cost $$\n**a temperatura costante la pressione è inversalmente proprzionale al volume**",
+      "x": -1354,
+      "y": 900,
+      "width": 390,
+      "height": 280,
+      "color": "3"
+    },
+    {
+      "id": "b507d83a51966d9f",
+      "type": "text",
+      "text": "##### Sistema termodinamico\nSistema formato da $N \\approx 10^{23}$ particelle, descritto tramite velocità, energia cinetica e grandezze meccaniche.",
+      "shape": "oval",
+      "isStartNode": false,
+      "x": -200,
+      "y": -160,
+      "width": 340,
+      "height": 200
+    },
+    {
+      "id": "858e0244978a9f6c",
+      "type": "text",
+      "text": "##### Dilatazione lineare\n$$ \\Delta l = \\lambda l \\Delta T \\implies l + \\Delta l = l(1 + \\lambda \\Delta T) $$\ndove $\\lambda$ è il coefficiente di dilatazione lineare, caratteristico del materiale e funzione della temperatura\n$$ \\lambda = \\frac{1}{l} \\frac{\\Delta l}{\\Delta T} $$",
+      "x": 1320,
+      "y": -37,
+      "width": 416,
+      "height": 237
+    },
+    {
+      "id": "b35fe90c68ca83a6",
+      "type": "text",
+      "text": "##### Sistema aperto\nSistema che scambia energia e materia con ambiente",
+      "x": -1100,
+      "y": 80,
+      "width": 260,
+      "height": 130
+    },
+    {
+      "id": "5147e5e538e6f38a",
+      "type": "text",
+      "text": "##### Termometri\nNecessaria una grandezza $X$ che varia in base alla temperatura, questa grandezza è la caratteristica termometrica, e attraverso la funzione termometrica possiamo ottenere la temperatura.\nServe poi un sistema in equilibrio facilmente riproducibile, si sceglie solitamente il punto triplo dell'acqua a $273.16 \\text{ K}$. \nSe il termometro al punto triplo assume il valore $X_{p}$, la temperatura $T$ del termometro sarà:\n$$ T = 273.16 \\frac{X}{X_{p}} \\text{ K} $$",
+      "x": 305,
+      "y": -512,
+      "width": 350,
+      "height": 425
+    },
+    {
+      "id": "d1ee802bd55f1780",
+      "type": "text",
+      "text": "##### Scala  Fahrenheit\n$$ t(^o\\text{F}) = \\frac{9}{5} T(\\text{K}) - 459.67 $$",
+      "x": 810,
+      "y": -209,
+      "width": 260,
+      "height": 99
+    },
+    {
+      "id": "e492101b4bfc408f",
+      "type": "text",
+      "text": "##### Sistema chiuso\nSistema che scambia energia con l'ambiente",
+      "x": -1100,
+      "y": -140,
+      "width": 260,
+      "height": 130
+    },
+    {
+      "id": "d1cde84877befb4d",
+      "type": "text",
+      "text": "##### Capacità termica\n$$C = mc$$",
+      "x": -1880,
+      "y": -90,
+      "width": 280,
+      "height": 80
+    },
+    {
+      "id": "830db8c5a7080642",
+      "type": "text",
+      "text": "##### Calore specifico molare\n$$c = \\frac{1}{n} \\frac{dQ}{dT}$$\n\n- $dQ = ncdT$\n- $Q = nc(T_{2} - T_{1})$\n- $Q = n\\int _{T_{1}}^{T_{2}} \\!< \\, \\mathrm{d}x$",
+      "x": -1480,
+      "y": -472,
+      "width": 260,
+      "height": 225
+    },
+    {
+      "id": "21d0a34f938c6532",
+      "type": "text",
+      "text": "##### Calore specifico\n$$ c = \\frac{1}{m} \\frac{dQ}{dT}  $$\nquando il lavoro è nullo\n$$ c= \\frac{1}{m } \\frac{dU}{dT} $$",
+      "x": -1880,
+      "y": -466,
+      "width": 260,
+      "height": 213
+    },
+    {
+      "id": "3c4e3d6b7450d6ae",
+      "type": "text",
+      "text": "##### Sistema isolato\nSistema che non scambia ne energia ne materia con l'ambiente",
+      "x": -1100,
+      "y": -360,
+      "width": 260,
+      "height": 140
+    },
+    {
+      "id": "5f18ae3e7c1553ba",
+      "type": "text",
+      "text": "##### Coordinate termodinamiche\nVariabili estensive ed intensive che descrivono il sistema\n",
+      "isStartNode": false,
+      "x": -690,
+      "y": -420,
+      "width": 310,
+      "height": 120
+    },
+    {
+      "id": "a770540933eccddf",
+      "type": "text",
+      "text": "##### Equilibrio termico\nDue sistemi sono in equilibrio termico quando hanno la stessa temperatura",
+      "x": 350,
+      "y": -764,
+      "width": 260,
+      "height": 209
+    },
+    {
+      "id": "23d856bd79c32be4",
+      "type": "text",
+      "text": "##### Stato di equilibrio\nUn sistema è detto in stato di equilibrio quando le coordinate termodinamiche che lo descrivono sono costanti nel tempo.\nPer l'equilibrio termico devono verificarsi\n- equilibrio meccanico\n- equilibrio chimico\n- equilibrio termico",
+      "x": -200,
+      "y": -808,
+      "width": 340,
+      "height": 297
+    },
+    {
+      "id": "be3e96a9ee357f25",
+      "type": "text",
+      "text": "##### Scala celsius\n$$t(^o \\text{C}) = T(\\text{K}) - 273.15$$",
+      "x": 810,
+      "y": -480,
+      "width": 260,
+      "height": 91
+    },
+    {
+      "id": "40ffb2f7abad818f",
+      "type": "text",
+      "text": "##### Sistema adiabatico\nSistema circondato da pareti adiabatiche",
+      "x": 810,
+      "y": -729,
+      "width": 260,
+      "height": 140
+    },
+    {
+      "id": "a1520f6f9a947672",
+      "type": "text",
+      "text": "##### Stato termodinamico\nStato descritto dalle coordinate termodinamiche, ad uno stato termodinamico corrispondono uno o più stati meccanici",
+      "isStartNode": false,
+      "x": -690,
+      "y": -740,
+      "width": 310,
+      "height": 160
+    },
+    {
+      "id": "f0b5dfdd5e0a01c5",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -1191,
+      "y": -692,
+      "width": 64,
+      "height": 64
+    },
+    {
+      "id": "0a0bbf6cbeb2f59a",
+      "type": "text",
+      "text": "##### Ottenimento equilibrio termico\nPer ottenere l'equilibrio termico per due corpi si possono mettere a contatto tramite una parete **diatermica**, una parete detta invece **adiabatica** non permetterebbe il raggiungimento dell'equilibrio e le temperature dei corpi rimarrebbero invariate.\nSe la parete è diatermica i corpi sono detti a contatto termico",
+      "x": 780,
+      "y": -1246,
+      "width": 320,
+      "height": 393
+    },
+    {
+      "id": "289cd0dc846d22c5",
+      "type": "text",
+      "text": "##### Primo principio della termodinamica\n$$ Q - \\mathcal{L} = \\Delta U $$\n$$ Q = \\Delta U + \\mathcal{L} $$\n- L'energia interna $\\Delta U$ è una funzione di stato, sempre uguali per trasformazioni tra due stati di equilibrio\n- L'energia fornita o come calore o come lavoro viene immagazzinata nel sistema nella forma di energia interna\n- L'energia non dipende dallo stato di moto del sistema ma da temperatura pressione e volume del sistema stesso.\n- Calore trasferimento di energia microscopico (un sistema non possiede energia, due sistemi possono scambiarsi energia)\n- Per una trasformazione ciclica, ossia con stato iniziale coincidente con stato finale, si ha $$\\Delta U =0 \\implies Q = \\mathcal{L}$$\n- In forma differenziale $$ dQ = dU + d\\mathcal{L} $$\n\t  - $\\Delta U = \\int _{A}^B \\! dU = U_{B} - U_{A}$\n\t  - $Q_{AB} = \\int _{A}^B \\! \\, \\mathrm{d}Q$\n- $[ U] = [Q] = [\\mathcal{L}] = \\text{J}$",
+      "x": -1743,
+      "y": -1545,
+      "width": 460,
+      "height": 650,
+      "color": "3"
+    },
+    {
+      "id": "740ce47a6df29c8e",
+      "x": 2320,
+      "y": 3140,
+      "width": 400,
+      "height": 220,
+      "type": "text",
+      "text": "##### Sviluppo del viriale\napprossima il prodotto $pV$\n$$ \\frac{pV}{nRT} = 1 + c_{1} p + c_{2}p^2 + \\dots $$\n$c_{i}$ funzioni della temperatura"
+    },
+    {
+      "id": "110af6755e1a855a",
+      "type": "text",
+      "text": "##### Espansione di Joule-Thompson",
+      "x": 2320,
+      "y": 3420,
+      "width": 400,
+      "height": 220
     }
   ],
   "edges": [
@@ -1880,6 +1899,20 @@
       "toNode": "65fe04696d389c75",
       "toSide": "top",
       "color": "6"
+    },
+    {
+      "id": "6c1beb7ea3974e55",
+      "fromNode": "65fe04696d389c75",
+      "fromSide": "bottom",
+      "toNode": "740ce47a6df29c8e",
+      "toSide": "left"
+    },
+    {
+      "id": "e3f45bf16f4dd938",
+      "fromNode": "65fe04696d389c75",
+      "fromSide": "bottom",
+      "toNode": "110af6755e1a855a",
+      "toSide": "left"
     }
   ],
   "metadata": {}
