@@ -971,11 +971,11 @@
     {
       "id": "110af6755e1a855a",
       "type": "text",
-      "text": "##### Espansione di Joule-Thompson",
+      "text": "##### Equazione di Van Der waals\nEquazione semiempirica che approssima il comportamento di un gas reale vicino alle transizioni gas-liquido\n$$ \\left( p + a \\frac{n^2}{V^2} \\right)(V - nb ) = nRT $$\na e b coefficienti del gas",
       "x": 2320,
       "y": 3420,
       "width": 400,
-      "height": 220
+      "height": 260
     }
   ],
   "edges": [
