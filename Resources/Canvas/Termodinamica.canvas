@@ -836,6 +836,15 @@
       "y": 2951,
       "width": 520,
       "height": 360
+    },
+    {
+      "id": "b506a5e3678b31ef",
+      "type": "text",
+      "text": "##### Trasformazioni isobare dei gas perfetti\n",
+      "x": 700,
+      "y": 3460,
+      "width": 520,
+      "height": 360
     }
   ],
   "edges": [
@@ -1632,6 +1641,13 @@
       "fromNode": "e633a920b7fe8fee",
       "fromSide": "left",
       "toNode": "dd43d78c7e7d9ae1",
+      "toSide": "right"
+    },
+    {
+      "id": "b7fadd537a8f7afe",
+      "fromNode": "e633a920b7fe8fee",
+      "fromSide": "left",
+      "toNode": "b506a5e3678b31ef",
       "toSide": "right"
     }
   ],
