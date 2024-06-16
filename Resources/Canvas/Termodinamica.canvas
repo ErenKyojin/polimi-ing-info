@@ -802,15 +802,6 @@
       "height": 50
     },
     {
-      "id": "372dfd0f797357d1",
-      "x": 700,
-      "y": 1660,
-      "width": 520,
-      "height": 580,
-      "type": "text",
-      "text": "##### Trasformazioni adiabatiche dei gas ideali\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ W_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo, $T_{B} < T_{A}$.\nSe **compressione** adiabatica $\\mathcal{L}_{AB}$ negativo e $\\Delta U$ positivo, $T_{B} > T_{A}$\n\nSe adiabatica reversibile\n$$ \\dd U + \\dd W = nc_{V} \\dd T + p\\dd V = 0 $$\npossiamo sfruttare l'equazione di stato in qualsiasi stato intermedio\n$$ nc_{V} \\dd T + \\frac{nRT}{V} \\dd V = 0 $$\nda cui, applicando la relazione  di mayer\n$$ (\\gamma - 1)\\ln \\frac{V_{B}}{V_{A}} = \\ln \\frac{T_{A}}{T_{B}}  \\implies T_{A}V_{A}^{\\gamma - 1} = T_{B}V_{B}^{\\gamma-1}$$\n"
-    },
-    {
       "id": "1c1d302fb5bdbe76",
       "x": -200,
       "y": 1850,
@@ -818,6 +809,24 @@
       "height": 200,
       "type": "text",
       "text": "##### Equazione di trasformazione adiabatica reversibile dei gas ideali\n\n$$ TV^{\\gamma -1} = \\cost$$ \n$$pV^{\\gamma} = \\cost $$ \n$$Tp^{(1-\\gamma)/\\gamma} = \\cost$$"
+    },
+    {
+      "id": "372dfd0f797357d1",
+      "x": 700,
+      "y": 1640,
+      "width": 520,
+      "height": 620,
+      "type": "text",
+      "text": "##### Trasformazioni adiabatiche dei gas ideali\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ \\mathcal{L}_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo, $T_{B} < T_{A}$.\nSe **compressione** adiabatica $\\mathcal{L}_{AB}$ negativo e $\\Delta U$ positivo, $T_{B} > T_{A}$\n\nSe adiabatica reversibile\n$$ \\dd U + \\dd W = nc_{V} \\dd T + p\\dd V = 0 $$\npossiamo sfruttare l'equazione di stato in qualsiasi stato intermedio\n$$ nc_{V} \\dd T + \\frac{nRT}{V} \\dd V = 0 $$\nda cui, applicando la relazione  di mayer\n$$ (\\gamma - 1)\\ln \\frac{V_{B}}{V_{A}} = \\ln \\frac{T_{A}}{T_{B}}  \\implies T_{A}V_{A}^{\\gamma - 1} = T_{B}V_{B}^{\\gamma-1}$$\ninoltre se $c_{V}$ è costante possiamo applicare mayer anche al lavoro\n$$ \\mathcal{L}_{AB}=\\frac{1}{\\gamma- 1}(p_{A}V_{A} - p_{B}V_{B}) $$"
+    },
+    {
+      "id": "f714c8ef36005e79",
+      "type": "text",
+      "text": "##### Trasformazioni isoterme dei gas perfetti",
+      "x": 700,
+      "y": 2400,
+      "width": 520,
+      "height": 620
     }
   ],
   "edges": [
@@ -1600,6 +1609,13 @@
       "fromNode": "372dfd0f797357d1",
       "fromSide": "left",
       "toNode": "1c1d302fb5bdbe76",
+      "toSide": "right"
+    },
+    {
+      "id": "2c64ce3e96dcae2f",
+      "fromNode": "e633a920b7fe8fee",
+      "fromSide": "left",
+      "toNode": "f714c8ef36005e79",
       "toSide": "right"
     }
   ],
