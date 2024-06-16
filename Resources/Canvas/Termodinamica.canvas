@@ -661,26 +661,6 @@
       "height": 409
     },
     {
-      "id": "eef96245d5ad01a6",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -2185,
-      "y": -3125,
-      "width": 50,
-      "height": 50
-    },
-    {
-      "id": "5846e94abe25ac1e",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -1530,
-      "y": -3125,
-      "width": 50,
-      "height": 50
-    },
-    {
       "id": "7356060b187a728d",
       "type": "text",
       "text": "###### Calore specifico molare a pressione costante\n$$ c_{p} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{p} $$",
@@ -744,6 +724,26 @@
       "width": 240,
       "height": 129,
       "color": "3"
+    },
+    {
+      "id": "eef96245d5ad01a6",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -2185,
+      "y": -3125,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "5846e94abe25ac1e",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -1530,
+      "y": -3125,
+      "width": 50,
+      "height": 50
     }
   ],
   "edges": [
