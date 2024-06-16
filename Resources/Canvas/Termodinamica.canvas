@@ -803,12 +803,21 @@
     },
     {
       "id": "372dfd0f797357d1",
-      "x": 920,
-      "y": 1680,
-      "width": 380,
-      "height": 560,
+      "x": 700,
+      "y": 1660,
+      "width": 520,
+      "height": 580,
       "type": "text",
-      "text": "##### Trasformazioni adiabatiche\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ W_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo, $T_{B} < T_{A}$.\nSe **compressione** adiabatica $\\mathcal{L}_{AB}$ negativo e $\\Delta U$ positivo, $T_{B} > T_{A}$\n\nSe adiabatica reversibile\n$$ \\dd U + \\dd W = nc_{V} \\dd T + p\\dd V = 0 $$\npossiamo sfruttare l'equazione di stato in qualsiasi stato intermedio\n$$ nc_{V} \\dd T + \\frac{nRT}{V} \\dd V = 0 $$"
+      "text": "##### Trasformazioni adiabatiche dei gas ideali\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ W_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo, $T_{B} < T_{A}$.\nSe **compressione** adiabatica $\\mathcal{L}_{AB}$ negativo e $\\Delta U$ positivo, $T_{B} > T_{A}$\n\nSe adiabatica reversibile\n$$ \\dd U + \\dd W = nc_{V} \\dd T + p\\dd V = 0 $$\npossiamo sfruttare l'equazione di stato in qualsiasi stato intermedio\n$$ nc_{V} \\dd T + \\frac{nRT}{V} \\dd V = 0 $$\nda cui, applicando la relazione  di mayer\n$$ (\\gamma - 1)\\ln \\frac{V_{B}}{V_{A}} = \\ln \\frac{T_{A}}{T_{B}}  \\implies T_{A}V_{A}^{\\gamma - 1} = T_{B}V_{B}^{\\gamma-1}$$\n"
+    },
+    {
+      "id": "1c1d302fb5bdbe76",
+      "x": -200,
+      "y": 1850,
+      "width": 430,
+      "height": 200,
+      "type": "text",
+      "text": "##### Equazione di trasformazione adiabatica reversibile dei gas ideali\n\n$$ TV^{\\gamma -1} = \\cost$$ \n$$pV^{\\gamma} = \\cost $$ \n$$Tp^{(1-\\gamma)/\\gamma} = \\cost$$"
     }
   ],
   "edges": [
@@ -1584,6 +1593,13 @@
       "fromNode": "e633a920b7fe8fee",
       "fromSide": "left",
       "toNode": "372dfd0f797357d1",
+      "toSide": "right"
+    },
+    {
+      "id": "50d55873eec4c561",
+      "fromNode": "372dfd0f797357d1",
+      "fromSide": "left",
+      "toNode": "1c1d302fb5bdbe76",
       "toSide": "right"
     }
   ],
