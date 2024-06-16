@@ -325,15 +325,6 @@
       "color": "3"
     },
     {
-      "id": "3e492fd47311be3d",
-      "type": "text",
-      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n\n\n",
-      "x": -663,
-      "y": -2600,
-      "width": 360,
-      "height": 400
-    },
-    {
       "id": "3c4e3d6b7450d6ae",
       "type": "text",
       "text": "##### Sistema isolato\nSistema che non scambia ne energia ne materia con l'ambiente",
@@ -360,15 +351,6 @@
       "y": -1420,
       "width": 557,
       "height": 400
-    },
-    {
-      "id": "863c7cc4559cc1e3",
-      "type": "text",
-      "text": "##### Trasformazioni adiabatiche\nIn una trasformazione adiabatica il calore scambiato è nullo, ossia $Q = 0$.\nUn sistema che compie solo trasformazioni adiabatiche è detto sistema adiabatico\nPer il primo principio\n$$ \\Delta U = -\\mathcal{L} $$\nEventuali scambi energetici possono essere solo di natura meccanica.\n\nTrasformazioni veramente adiabatiche sono virtualmente impossibili, è considerata una adiabatica una trasformazione che avviene rapidamente (impedendo gli scambi di calore)",
-      "x": -663,
-      "y": -2040,
-      "width": 360,
-      "height": 440
     },
     {
       "id": "f0b5dfdd5e0a01c5",
@@ -593,15 +575,6 @@
       "height": 340
     },
     {
-      "id": "0613b706aa2630a6",
-      "type": "text",
-      "text": "##### Cambiamenti di fase\nI cambiamenti di fase sono processi isotermi che avvengono a temperatura e pressione determinate.\nDurante un cambiamento di fase a pressione costante la temperatura rimane costante, il calore è utilizzato per compiere la trasformazione\n$$ Q = m\\lambda $$\n\nI cambiamenti di fase sono trasformazioni praticamente reversibili",
-      "x": -1088,
-      "y": -3214,
-      "width": 280,
-      "height": 409
-    },
-    {
       "id": "7e9a2a3bc0337566",
       "type": "text",
       "text": "##### Calori latenti\nQuantità di calore per unità di massa $\\lambda$.\nI calori latenti sono fissati per ogni cambiamento di fase e materiale eccetto per le evaporazione, in cui è una funzione della temperatura e si annulla alla temperatura critica.\n",
@@ -631,16 +604,6 @@
       "height": 50
     },
     {
-      "id": "eef96245d5ad01a6",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -2185,
-      "y": -3125,
-      "width": 50,
-      "height": 50
-    },
-    {
       "id": "bfaaa82aeb96b950",
       "type": "text",
       "text": "Liquido",
@@ -661,16 +624,6 @@
       "height": 50
     },
     {
-      "id": "5846e94abe25ac1e",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -1530,
-      "y": -3125,
-      "width": 50,
-      "height": 50
-    },
-    {
       "id": "97c8ffe16bcfa313",
       "type": "text",
       "text": "Gassoso",
@@ -679,6 +632,53 @@
       "y": -3434,
       "width": 260,
       "height": 60
+    },
+    {
+      "id": "3e492fd47311be3d",
+      "type": "text",
+      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n\n\n",
+      "x": -663,
+      "y": -2600,
+      "width": 360,
+      "height": 400
+    },
+    {
+      "id": "863c7cc4559cc1e3",
+      "type": "text",
+      "text": "##### Trasformazioni adiabatiche\nIn una trasformazione adiabatica il calore scambiato è nullo, ossia $Q = 0$.\nUn sistema che compie solo trasformazioni adiabatiche è detto sistema adiabatico\nPer il primo principio\n$$ \\Delta U = -\\mathcal{L} $$\nEventuali scambi energetici possono essere solo di natura meccanica.\n\nTrasformazioni veramente adiabatiche sono virtualmente impossibili, è considerata una adiabatica una trasformazione che avviene rapidamente (impedendo gli scambi di calore)",
+      "x": -663,
+      "y": -2040,
+      "width": 360,
+      "height": 440
+    },
+    {
+      "id": "0613b706aa2630a6",
+      "type": "text",
+      "text": "##### Cambiamenti di fase\nI cambiamenti di fase sono processi isotermi che avvengono a temperatura e pressione determinate.\nDurante un cambiamento di fase a pressione costante la temperatura rimane costante, il calore è utilizzato per compiere la trasformazione\n$$ Q = m\\lambda $$\n\nI cambiamenti di fase sono trasformazioni praticamente reversibili",
+      "x": -1088,
+      "y": -3214,
+      "width": 280,
+      "height": 409
+    },
+    {
+      "id": "eef96245d5ad01a6",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -2185,
+      "y": -3125,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "5846e94abe25ac1e",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -1530,
+      "y": -3125,
+      "width": 50,
+      "height": 50
     },
     {
       "id": "7356060b187a728d",
@@ -718,12 +718,12 @@
     },
     {
       "id": "1ea0b89d7a516a55",
+      "type": "text",
+      "text": "##### Trasformazione isocora di gas ideali\n$$ d Q = nc_{V} \\dd T + \\dd W \\implies Q = n\\int _{T_{B}}^{T_{A}} \\! c_{V}  \\, \\mathrm{d}T + W  $$\nin particolare se $c_{V}$ costante rispetto alla temperatura\n$$ Q = nc_{V} \\Delta T + W $$ \n\nSe la trasformazione reversibile\n$$ \\dd Q = nc_{V} \\dd T + pdV \\implies Q = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T + \\int _{V_{A}}^\n{V_{B}} \\!p \\, \\mathrm{d} V   $$\nE, se $c_{V}$ costante\n\n$$ Q = nc_{V} \\dd T + \\int _{V_{A}}^{V_{B}} \\! p \\, \\mathrm{d}V$$",
       "x": -2715,
       "y": -2213,
       "width": 395,
-      "height": 411,
-      "type": "text",
-      "text": "##### Trasformazione isocora di gas ideali\n$$ d Q = nc_{V} \\dd T + \\dd W \\implies Q = n\\int _{T_{B}}^{T_{A}} \\! c_{V}  \\, \\mathrm{d}T + W  $$\nin particolare se $c_{V}$ costante rispetto alla temperatura\n$$ Q = nc_{V} \\Delta T + W $$ \n\nSe la trasformazione reversibile\n$$ \\dd Q = nc_{V} \\dd T + pdV \\implies Q = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T + \\int _{V_{A}}^\n{V_{B}} \\!p \\, \\mathrm{d} V   $$\nE, se $c_{V}$ costante\n\n$$ Q = nc_{V} \\dd T + \\int _{V_{A}}^{V_{B}} \\! p \\, \\mathrm{d}V$$"
+      "height": 411
     },
     {
       "id": "76a920552d1a0e35",
