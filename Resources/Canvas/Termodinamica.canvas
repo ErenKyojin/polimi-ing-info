@@ -28,6 +28,15 @@
       "label": "calore specifico molare"
     },
     {
+      "id": "66f1fed0ba02ca92",
+      "x": -4720,
+      "y": -1320,
+      "width": 1400,
+      "height": 260,
+      "type": "group",
+      "label": "Secondo principio della dinamica"
+    },
+    {
       "id": "a51d00b7a865f127",
       "type": "group",
       "x": -2480,
@@ -35,388 +44,6 @@
       "width": 313,
       "height": 604,
       "label": "Convenzione sui segni"
-    },
-    {
-      "id": "3e492fd47311be3d",
-      "type": "text",
-      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n\n\n",
-      "x": -663,
-      "y": -2600,
-      "width": 360,
-      "height": 400
-    },
-    {
-      "id": "863c7cc4559cc1e3",
-      "type": "text",
-      "text": "##### Trasformazioni adiabatiche\nIn una trasformazione adiabatica il calore scambiato è nullo, ossia $Q = 0$.\nUn sistema che compie solo trasformazioni adiabatiche è detto sistema adiabatico\nPer il primo principio\n$$ \\Delta U = -\\mathcal{L} $$\nEventuali scambi energetici possono essere solo di natura meccanica.\n\nTrasformazioni veramente adiabatiche sono virtualmente impossibili, è considerata una adiabatica una trasformazione che avviene rapidamente (impedendo gli scambi di calore)",
-      "x": -663,
-      "y": -2040,
-      "width": 360,
-      "height": 440
-    },
-    {
-      "id": "0613b706aa2630a6",
-      "type": "text",
-      "text": "##### Cambiamenti di fase\nI cambiamenti di fase sono processi isotermi che avvengono a temperatura e pressione determinate.\nDurante un cambiamento di fase a pressione costante la temperatura rimane costante, il calore è utilizzato per compiere la trasformazione\n$$ Q = m\\lambda $$\n\nI cambiamenti di fase sono trasformazioni praticamente reversibili",
-      "x": -1088,
-      "y": -3214,
-      "width": 280,
-      "height": 409
-    },
-    {
-      "id": "8a533803634ccd95",
-      "type": "text",
-      "text": "##### Calore in un isobara\n$$ dQ = nc_{p}\\dd T $$\nSe $c_{p}$ costante, il caolre scambiato per una differenza di temperatura $\\Delta T$ si avrà\n$$ Q_{p} = nc_{p} \\dd T $$\nAltrimenti si ha\n$$ Q_{V} = n\\int _{T_{A}}^{T_{B}} \\! c_{p} \\, \\mathrm{d}T  $$\n\nUtilizzando il primo principio\n$$ Q_{p} = \\Delta U + p \\Delta V $$\no\n$$ \\Delta U = n $$",
-      "x": -1283,
-      "y": -2265,
-      "width": 390,
-      "height": 516
-    },
-    {
-      "id": "b80d7cdcf3f666b3",
-      "type": "text",
-      "text": "##### Calore in un isocora\n$$ dQ = nc_{V} \\dd T $$\nSe $c_{V}$ costante, il calore scambiato per una variazione di $\\Delta T$ di temperatura si avrà\n$$ Q_{V} = nc_{V} \\dd T $$\n\nAltrimenti si ha\n$$ Q_{V} = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T  $$\n\nInoltre applicando il primo principio\n$$ Q_{V} = nc_{V} \\Delta T = \\Delta U $$\no\n$$ \\Delta U = nc_{V} \\int _{T_{A}}^{T_{B}} \\! c_{V} \\, \\mathrm{d}T $$\n\nIn forma infinitesimale\n$dU = nc_{V} \\dd T$",
-      "x": -2133,
-      "y": -2265,
-      "width": 390,
-      "height": 516
-    },
-    {
-      "id": "1ea0b89d7a516a55",
-      "type": "text",
-      "text": "##### Trasformazione isocora di gas ideali\n$$ d Q = nc_{V} \\dd T + \\dd W \\implies Q = n\\int _{T_{B}}^{T_{A}} \\! c_{V}  \\, \\mathrm{d}T + W  $$\nin particolare se $c_{V}$ costante rispetto alla temperatura\n$$ Q = nc_{V} \\Delta T + W $$ \n\nSe la trasformazione reversibile\n$$ \\dd Q = nc_{V} \\dd T + pdV \\implies Q = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T + \\int _{V_{A}}^\n{V_{B}} \\!p \\, \\mathrm{d} V   $$\nE, se $c_{V}$ costante\n\n$$ Q = nc_{V} \\dd T + \\int _{V_{A}}^{V_{B}} \\! p \\, \\mathrm{d}V$$",
-      "x": -2715,
-      "y": -2213,
-      "width": 395,
-      "height": 411
-    },
-    {
-      "id": "76a920552d1a0e35",
-      "type": "text",
-      "text": "Il calore necessario da cedere ad una mole di gas ideale per aumentare la sua temperatura di $\\Delta T$ è maggiore a pressione costante rispetto che a volume costante, questo perchè a pressione costante il gas compie un lavoro.",
-      "x": -1660,
-      "y": -2144,
-      "width": 260,
-      "height": 273,
-      "color": "3"
-    },
-    {
-      "id": "eef96245d5ad01a6",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -2185,
-      "y": -3125,
-      "width": 50,
-      "height": 50
-    },
-    {
-      "id": "5846e94abe25ac1e",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -1530,
-      "y": -3125,
-      "width": 50,
-      "height": 50
-    },
-    {
-      "id": "3d91642ace591c25",
-      "type": "text",
-      "text": "$Q > 0$",
-      "x": -2284,
-      "y": -1500,
-      "width": 97,
-      "height": 64
-    },
-    {
-      "id": "0e3f0183674a0519",
-      "type": "text",
-      "text": "$\\mathcal{L} > 0$",
-      "x": -2460,
-      "y": -1500,
-      "width": 96,
-      "height": 64
-    },
-    {
-      "id": "e812c385eec6db1b",
-      "type": "text",
-      "text": "##### Equivalenza tra calore e lavoro in sistema adiabatico\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$",
-      "x": -860,
-      "y": -1420,
-      "width": 557,
-      "height": 400
-    },
-    {
-      "id": "f58782dfb6bc6e0c",
-      "type": "text",
-      "text": "##### Rapporto tra calori specifici\n$$ \\gamma = \\frac{c_{p}}{c_{V}} $$",
-      "x": -1640,
-      "y": -2433,
-      "width": 240,
-      "height": 129,
-      "color": "3"
-    },
-    {
-      "id": "7356060b187a728d",
-      "type": "text",
-      "text": "###### Calore specifico molare a pressione costante\n$$ c_{p} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{p} $$",
-      "x": -1413,
-      "y": -2774,
-      "width": 260,
-      "height": 283
-    },
-    {
-      "id": "7e1d7e98d978c443",
-      "type": "text",
-      "text": "##### Relazione di Mayer\n$$ c_{p} - c_{V} = R $$",
-      "x": -1640,
-      "y": -2960,
-      "width": 240,
-      "height": 129,
-      "color": "3"
-    },
-    {
-      "id": "f96e7e8864d4e4a5",
-      "type": "text",
-      "text": "###### Calore specifico molare a volume costante\n$$ c_{V} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{V} $$\n\nDal primo principio applicato all'isocora\n$$ c_{V} = \\frac{dU}{dT} $$",
-      "x": -1873,
-      "y": -2774,
-      "width": 260,
-      "height": 283
-    },
-    {
-      "id": "380c48e0d7740955",
-      "type": "text",
-      "text": "##### Calori specifici di gas ideali monoatomici\n$$ C_{V} = \\frac{3}{2}R, C_{p} = \\frac{5}{2} R, \\gamma = \\frac{5}{3} $$",
-      "x": -2715,
-      "y": -2841,
-      "width": 455,
-      "height": 134
-    },
-    {
-      "id": "9d4f3908cace6f35",
-      "type": "text",
-      "text": "##### Calori specifici di gas ideali biatomici\nPer alcuni gas come azoto e ossigeno\n$$ C_{V} = \\frac{5}{2}R, C_{p} = \\frac{7}{2} R, \\gamma = \\frac{7}{5} $$\n\nPer altri come fluoro, cloro e bromo invece i calori specifici variano con la temperatura",
-      "x": -2715,
-      "y": -2600,
-      "width": 455,
-      "height": 232
-    },
-    {
-      "id": "3b43d8a07fb09284",
-      "type": "text",
-      "text": "##### Relazioni per trasformazioni\nPer qualsiasi trasformazione:\n$$ \\Delta U = nc_{V}\\Delta T $$ \n\nPer isocore:\n$$ Q = nc_{V} \\Delta T $$\n\nper isobare\n$$ Q = nc_{p}\\Delta T $$",
-      "x": -3440,
-      "y": -2774,
-      "width": 360,
-      "height": 290
-    },
-    {
-      "id": "f1c9088658348e88",
-      "type": "text",
-      "text": "Solido",
-      "shape": "oval",
-      "x": -2420,
-      "y": -3434,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "bfaaa82aeb96b950",
-      "type": "text",
-      "text": "Liquido",
-      "shape": "oval",
-      "x": -1925,
-      "y": -3434,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "97c8ffe16bcfa313",
-      "type": "text",
-      "text": "Gassoso",
-      "shape": "oval",
-      "x": -1505,
-      "y": -3434,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "7e9a2a3bc0337566",
-      "type": "text",
-      "text": "##### Calori latenti\nQuantità di calore per unità di massa $\\lambda$.\nI calori latenti sono fissati per ogni cambiamento di fase e materiale eccetto per le evaporazione, in cui è una funzione della temperatura e si annulla alla temperatura critica.\n",
-      "x": -1078,
-      "y": -3705,
-      "width": 260,
-      "height": 330
-    },
-    {
-      "id": "942cd163fc8bc244",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -2185,
-      "y": -3760,
-      "width": 50,
-      "height": 50
-    },
-    {
-      "id": "91cc51cc4c19ecf8",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": -1530,
-      "y": -3760,
-      "width": 50,
-      "height": 50
-    },
-    {
-      "id": "6fa4886de29ae25a",
-      "type": "text",
-      "text": "##### Equazione di stato\nIn uno stato di equilibrio esiste relazione tra coordinate termodinamiche, espressa come equazione di stato",
-      "x": -170,
-      "y": -1140,
-      "width": 280,
-      "height": 180
-    },
-    {
-      "id": "189c0247b8c3bb8d",
-      "type": "text",
-      "text": "S",
-      "shape": "circle",
-      "x": -2420,
-      "y": -1320,
-      "width": 200,
-      "height": 200
-    },
-    {
-      "id": "f339360b339160db",
-      "type": "text",
-      "text": "##### Caloria\nQuantità di calore per aumentare da $14.5\\textdegree \\text{C}$ a $15.5 \\textdegree \\text{C}$ un chilogrammo d'acqua\n\n$$1 \\text{ Cal} = 4168.8 \\text{ J}$$\n\n1 Cal = 1 kcal\n1 cal = 0.001 kcal\n\n",
-      "x": -3029,
-      "y": -1098,
-      "width": 280,
-      "height": 260
-    },
-    {
-      "id": "6ed75884c347043f",
-      "type": "text",
-      "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
-      "x": 320,
-      "y": -1660,
-      "width": 320,
-      "height": 414
-    },
-    {
-      "id": "e820fe4f1997ad82",
-      "type": "text",
-      "text": "$Q < 0$",
-      "x": -2284,
-      "y": -1000,
-      "width": 97,
-      "height": 64
-    },
-    {
-      "id": "3ad9991b0a6b355c",
-      "type": "text",
-      "text": "$\\mathcal{L} < 0$",
-      "x": -2460,
-      "y": -1000,
-      "width": 96,
-      "height": 64
-    },
-    {
-      "id": "e926965490f7d9df",
-      "type": "text",
-      "text": "##### Compressione ed espansione di un Gas\nIn una trasformazione finita tra due stati $A$ e $B$ il lavoro scambiato da un gas in espansione o in compressione è dato dall'integrale\n$$ \\mathcal{L} = \\int _{A}^B \\!p(V) \\, \\mathrm{d}V  $$\n\nQuesta formula vale unicamente se la formula è reversibile o se la pressione esterna è nota. (Questi sono gli unici casi in cui la pressione è determinata in ogni stato intermedio)",
-      "x": 280,
-      "y": -2880,
-      "width": 400,
-      "height": 320
-    },
-    {
-      "id": "d46183b603db3db3",
-      "type": "text",
-      "text": "##### Lavoro sul piano di Clapeyron\nData una trasformazione attraverso stati di equilibrio, rappresentata come una linea continua sul piano di Clapeyron. Il lavoro è rappresentante come l'area sottostante alla linea. Se la trasformazione è ciclica il lavoro è l'area interna al poligono disegnato dalla curva.\nSe la trasformazione è percorsa in senso orario è positivo, negativo altrimenti.\n\nA parità di stati iniziali e finali il lavoro dipende comunque dalla trasformazione",
-      "x": 280,
-      "y": -3680,
-      "width": 400,
-      "height": 360
-    },
-    {
-      "id": "7307961fc0e3e8db",
-      "type": "text",
-      "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico.\n\nVale inoltre la relazione infinitesimale\n$$ dQ = mcdT $$\nquindi\n$$ Q = \\int dQ = m \\int _{T_{1}}^{T_{2}} \\! c(T) \\, \\mathrm{d}T $$",
-      "x": -2500,
-      "y": -680,
-      "width": 300,
-      "height": 480
-    },
-    {
-      "id": "1db8182bd1f48f19",
-      "type": "text",
-      "text": "Irraggiamento",
-      "x": -3029,
-      "y": -470,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "29172847079db0cd",
-      "type": "text",
-      "text": "Convezione",
-      "x": -3029,
-      "y": -658,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "6b75365f477a4435",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": 1176,
-      "y": -2745,
-      "width": 50,
-      "height": 50
-    },
-    {
-      "id": "2d9f2253320c7f35",
-      "type": "file",
-      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
-      "isSticker": true,
-      "x": 1720,
-      "y": -1497,
-      "width": 88,
-      "height": 88
-    },
-    {
-      "id": "e64d1b4df8dc4ec8",
-      "type": "text",
-      "text": "##### Trasferimento di calore di due corpi a contatto\nSappiamo che i calori sono\n$$ Q_{1} = -Q_{2} $$\nquindi\n$$ mc(T_{e} - T_{1}) = -mc(T_{e} - T_{2}) $$",
-      "x": -3020,
-      "y": -135,
-      "width": 260,
-      "height": 251
-    },
-    {
-      "id": "8674379f06291eb8",
-      "type": "text",
-      "text": "Conduzione",
-      "x": -3029,
-      "y": -290,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "24a95b49f6b8fd89",
-      "type": "text",
-      "text": "##### Sorgenti di calore\nUna sorgente di calore è un corpo con capacità termica virtualmente infinita, un sistema a contatto con una sorgente tramite una parete diatermica assume eventualmente la sua temperatura",
-      "x": -2480,
-      "y": -10,
-      "width": 260,
-      "height": 298
     },
     {
       "id": "b506a5e3678b31ef",
@@ -976,6 +603,406 @@
       "y": 3420,
       "width": 400,
       "height": 260
+    },
+    {
+      "id": "6fa4886de29ae25a",
+      "type": "text",
+      "text": "##### Equazione di stato\nIn uno stato di equilibrio esiste relazione tra coordinate termodinamiche, espressa come equazione di stato",
+      "x": -170,
+      "y": -1140,
+      "width": 280,
+      "height": 180
+    },
+    {
+      "id": "e812c385eec6db1b",
+      "type": "text",
+      "text": "##### Equivalenza tra calore e lavoro in sistema adiabatico\nJoule notò, provando ad aumentare la temperatura dell'acqua con metodi differenti, che il cambio di temperaturà è proporzionale al lavoro speso indipendentemente dal metodo utilizzato.\n$$ \\mathcal{L}_{ad} = -\\Delta U = U_{\\text{in}} - U_{\\text{fin}} $$\n$U$ dipende dallo stato del sistema, con $\\mathcal{L}$ assunto positivo se il lavoro è prodotto dal sistema, altrimenti $\\mathcal{L}$ è negativo e $U$ aumenta.\nIl cambiamento di stato è ottenibile anche tramite scambio di calore, quindi possiamo scrivere\n$$ Q = \\Delta U $$\n$Q$ assunto positivo se il calore è ceduto dal sistema all'ambiente, quindi $$Q = -\\mathcal{L}$$",
+      "x": -860,
+      "y": -1420,
+      "width": 557,
+      "height": 400
+    },
+    {
+      "id": "f339360b339160db",
+      "type": "text",
+      "text": "##### Caloria\nQuantità di calore per aumentare da $14.5\\textdegree \\text{C}$ a $15.5 \\textdegree \\text{C}$ un chilogrammo d'acqua\n\n$$1 \\text{ Cal} = 4168.8 \\text{ J}$$\n\n1 Cal = 1 kcal\n1 cal = 0.001 kcal\n\n",
+      "x": -3029,
+      "y": -1098,
+      "width": 280,
+      "height": 260
+    },
+    {
+      "id": "6ed75884c347043f",
+      "type": "text",
+      "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
+      "x": 320,
+      "y": -1660,
+      "width": 320,
+      "height": 414
+    },
+    {
+      "id": "3ad9991b0a6b355c",
+      "type": "text",
+      "text": "$\\mathcal{L} < 0$",
+      "x": -2460,
+      "y": -1000,
+      "width": 96,
+      "height": 64
+    },
+    {
+      "id": "7307961fc0e3e8db",
+      "type": "text",
+      "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico.\n\nVale inoltre la relazione infinitesimale\n$$ dQ = mcdT $$\nquindi\n$$ Q = \\int dQ = m \\int _{T_{1}}^{T_{2}} \\! c(T) \\, \\mathrm{d}T $$",
+      "x": -2500,
+      "y": -680,
+      "width": 300,
+      "height": 480
+    },
+    {
+      "id": "1db8182bd1f48f19",
+      "type": "text",
+      "text": "Irraggiamento",
+      "x": -3029,
+      "y": -470,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "29172847079db0cd",
+      "type": "text",
+      "text": "Convezione",
+      "x": -3029,
+      "y": -658,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "2d9f2253320c7f35",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": 1720,
+      "y": -1497,
+      "width": 88,
+      "height": 88
+    },
+    {
+      "id": "e64d1b4df8dc4ec8",
+      "type": "text",
+      "text": "##### Trasferimento di calore di due corpi a contatto\nSappiamo che i calori sono\n$$ Q_{1} = -Q_{2} $$\nquindi\n$$ mc(T_{e} - T_{1}) = -mc(T_{e} - T_{2}) $$",
+      "x": -3020,
+      "y": -135,
+      "width": 260,
+      "height": 251
+    },
+    {
+      "id": "8674379f06291eb8",
+      "type": "text",
+      "text": "Conduzione",
+      "x": -3029,
+      "y": -290,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "24a95b49f6b8fd89",
+      "type": "text",
+      "text": "##### Sorgenti di calore\nUna sorgente di calore è un corpo con capacità termica virtualmente infinita, un sistema a contatto con una sorgente tramite una parete diatermica assume eventualmente la sua temperatura",
+      "x": -2480,
+      "y": -10,
+      "width": 260,
+      "height": 298
+    },
+    {
+      "id": "863c7cc4559cc1e3",
+      "type": "text",
+      "text": "##### Trasformazioni adiabatiche\nIn una trasformazione adiabatica il calore scambiato è nullo, ossia $Q = 0$.\nUn sistema che compie solo trasformazioni adiabatiche è detto sistema adiabatico\nPer il primo principio\n$$ \\Delta U = -\\mathcal{L} $$\nEventuali scambi energetici possono essere solo di natura meccanica.\n\nTrasformazioni veramente adiabatiche sono virtualmente impossibili, è considerata una adiabatica una trasformazione che avviene rapidamente (impedendo gli scambi di calore)",
+      "x": -663,
+      "y": -2040,
+      "width": 360,
+      "height": 440
+    },
+    {
+      "id": "8a533803634ccd95",
+      "type": "text",
+      "text": "##### Calore in un isobara\n$$ dQ = nc_{p}\\dd T $$\nSe $c_{p}$ costante, il caolre scambiato per una differenza di temperatura $\\Delta T$ si avrà\n$$ Q_{p} = nc_{p} \\dd T $$\nAltrimenti si ha\n$$ Q_{V} = n\\int _{T_{A}}^{T_{B}} \\! c_{p} \\, \\mathrm{d}T  $$\n\nUtilizzando il primo principio\n$$ Q_{p} = \\Delta U + p \\Delta V $$\no\n$$ \\Delta U = n $$",
+      "x": -1283,
+      "y": -2265,
+      "width": 390,
+      "height": 516
+    },
+    {
+      "id": "b80d7cdcf3f666b3",
+      "type": "text",
+      "text": "##### Calore in un isocora\n$$ dQ = nc_{V} \\dd T $$\nSe $c_{V}$ costante, il calore scambiato per una variazione di $\\Delta T$ di temperatura si avrà\n$$ Q_{V} = nc_{V} \\dd T $$\n\nAltrimenti si ha\n$$ Q_{V} = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T  $$\n\nInoltre applicando il primo principio\n$$ Q_{V} = nc_{V} \\Delta T = \\Delta U $$\no\n$$ \\Delta U = nc_{V} \\int _{T_{A}}^{T_{B}} \\! c_{V} \\, \\mathrm{d}T $$\n\nIn forma infinitesimale\n$dU = nc_{V} \\dd T$",
+      "x": -2133,
+      "y": -2265,
+      "width": 390,
+      "height": 516
+    },
+    {
+      "id": "3d91642ace591c25",
+      "type": "text",
+      "text": "$Q > 0$",
+      "x": -2284,
+      "y": -1500,
+      "width": 97,
+      "height": 64
+    },
+    {
+      "id": "0e3f0183674a0519",
+      "type": "text",
+      "text": "$\\mathcal{L} > 0$",
+      "x": -2460,
+      "y": -1500,
+      "width": 96,
+      "height": 64
+    },
+    {
+      "id": "189c0247b8c3bb8d",
+      "type": "text",
+      "text": "S",
+      "shape": "circle",
+      "x": -2420,
+      "y": -1320,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "id": "e820fe4f1997ad82",
+      "type": "text",
+      "text": "$Q < 0$",
+      "x": -2284,
+      "y": -1000,
+      "width": 97,
+      "height": 64
+    },
+    {
+      "id": "1ea0b89d7a516a55",
+      "type": "text",
+      "text": "##### Trasformazione isocora di gas ideali\n$$ d Q = nc_{V} \\dd T + \\dd W \\implies Q = n\\int _{T_{B}}^{T_{A}} \\! c_{V}  \\, \\mathrm{d}T + W  $$\nin particolare se $c_{V}$ costante rispetto alla temperatura\n$$ Q = nc_{V} \\Delta T + W $$ \n\nSe la trasformazione reversibile\n$$ \\dd Q = nc_{V} \\dd T + pdV \\implies Q = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T + \\int _{V_{A}}^\n{V_{B}} \\!p \\, \\mathrm{d} V   $$\nE, se $c_{V}$ costante\n\n$$ Q = nc_{V} \\dd T + \\int _{V_{A}}^{V_{B}} \\! p \\, \\mathrm{d}V$$",
+      "x": -2715,
+      "y": -2213,
+      "width": 395,
+      "height": 411
+    },
+    {
+      "id": "76a920552d1a0e35",
+      "type": "text",
+      "text": "Il calore necessario da cedere ad una mole di gas ideale per aumentare la sua temperatura di $\\Delta T$ è maggiore a pressione costante rispetto che a volume costante, questo perchè a pressione costante il gas compie un lavoro.",
+      "x": -1660,
+      "y": -2144,
+      "width": 260,
+      "height": 273,
+      "color": "3"
+    },
+    {
+      "id": "3e492fd47311be3d",
+      "type": "text",
+      "text": "##### Trasformazioni reversibili e irreversibili\nUna trasformazione è reversibile se passa attraverso infiniti stati di equilibrio e senza alcuna forza dissipativa, altrimenti è detta non reversibile.\n\nUna trasformazione reversibile può essere interrotta ed invertita in qualsiasi momento.\n\nL'energia interna, il calore e il lavoro della trasformazione inversa saranno tutti uguali in modulo e di segno opposto rispetto all'originale.\n\n\n",
+      "x": -663,
+      "y": -2600,
+      "width": 360,
+      "height": 400
+    },
+    {
+      "id": "0613b706aa2630a6",
+      "type": "text",
+      "text": "##### Cambiamenti di fase\nI cambiamenti di fase sono processi isotermi che avvengono a temperatura e pressione determinate.\nDurante un cambiamento di fase a pressione costante la temperatura rimane costante, il calore è utilizzato per compiere la trasformazione\n$$ Q = m\\lambda $$\n\nI cambiamenti di fase sono trasformazioni praticamente reversibili",
+      "x": -1088,
+      "y": -3214,
+      "width": 280,
+      "height": 409
+    },
+    {
+      "id": "eef96245d5ad01a6",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -2185,
+      "y": -3125,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "5846e94abe25ac1e",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -1530,
+      "y": -3125,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "7356060b187a728d",
+      "type": "text",
+      "text": "###### Calore specifico molare a pressione costante\n$$ c_{p} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{p} $$",
+      "x": -1413,
+      "y": -2774,
+      "width": 260,
+      "height": 283
+    },
+    {
+      "id": "7e1d7e98d978c443",
+      "type": "text",
+      "text": "##### Relazione di Mayer\n$$ c_{p} - c_{V} = R $$",
+      "x": -1640,
+      "y": -2960,
+      "width": 240,
+      "height": 129,
+      "color": "3"
+    },
+    {
+      "id": "e926965490f7d9df",
+      "type": "text",
+      "text": "##### Compressione ed espansione di un Gas\nIn una trasformazione finita tra due stati $A$ e $B$ il lavoro scambiato da un gas in espansione o in compressione è dato dall'integrale\n$$ \\mathcal{L} = \\int _{A}^B \\!p(V) \\, \\mathrm{d}V  $$\n\nQuesta formula vale unicamente se la formula è reversibile o se la pressione esterna è nota. (Questi sono gli unici casi in cui la pressione è determinata in ogni stato intermedio)",
+      "x": 280,
+      "y": -2880,
+      "width": 400,
+      "height": 320
+    },
+    {
+      "id": "d46183b603db3db3",
+      "type": "text",
+      "text": "##### Lavoro sul piano di Clapeyron\nData una trasformazione attraverso stati di equilibrio, rappresentata come una linea continua sul piano di Clapeyron. Il lavoro è rappresentante come l'area sottostante alla linea. Se la trasformazione è ciclica il lavoro è l'area interna al poligono disegnato dalla curva.\nSe la trasformazione è percorsa in senso orario è positivo, negativo altrimenti.\n\nA parità di stati iniziali e finali il lavoro dipende comunque dalla trasformazione",
+      "x": 280,
+      "y": -3680,
+      "width": 400,
+      "height": 360
+    },
+    {
+      "id": "f58782dfb6bc6e0c",
+      "type": "text",
+      "text": "##### Rapporto tra calori specifici\n$$ \\gamma = \\frac{c_{p}}{c_{V}} $$",
+      "x": -1640,
+      "y": -2433,
+      "width": 240,
+      "height": 129,
+      "color": "3"
+    },
+    {
+      "id": "f96e7e8864d4e4a5",
+      "type": "text",
+      "text": "###### Calore specifico molare a volume costante\n$$ c_{V} = \\frac{1}{n} \\left( \\frac{dQ}{dT} \\right)_{V} $$\n\nDal primo principio applicato all'isocora\n$$ c_{V} = \\frac{dU}{dT} $$",
+      "x": -1873,
+      "y": -2774,
+      "width": 260,
+      "height": 283
+    },
+    {
+      "id": "380c48e0d7740955",
+      "type": "text",
+      "text": "##### Calori specifici di gas ideali monoatomici\n$$ C_{V} = \\frac{3}{2}R, C_{p} = \\frac{5}{2} R, \\gamma = \\frac{5}{3} $$",
+      "x": -2715,
+      "y": -2841,
+      "width": 455,
+      "height": 134
+    },
+    {
+      "id": "9d4f3908cace6f35",
+      "type": "text",
+      "text": "##### Calori specifici di gas ideali biatomici\nPer alcuni gas come azoto e ossigeno\n$$ C_{V} = \\frac{5}{2}R, C_{p} = \\frac{7}{2} R, \\gamma = \\frac{7}{5} $$\n\nPer altri come fluoro, cloro e bromo invece i calori specifici variano con la temperatura",
+      "x": -2715,
+      "y": -2600,
+      "width": 455,
+      "height": 232
+    },
+    {
+      "id": "f1c9088658348e88",
+      "type": "text",
+      "text": "Solido",
+      "shape": "oval",
+      "x": -2420,
+      "y": -3434,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "bfaaa82aeb96b950",
+      "type": "text",
+      "text": "Liquido",
+      "shape": "oval",
+      "x": -1925,
+      "y": -3434,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "97c8ffe16bcfa313",
+      "type": "text",
+      "text": "Gassoso",
+      "shape": "oval",
+      "x": -1505,
+      "y": -3434,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "7e9a2a3bc0337566",
+      "type": "text",
+      "text": "##### Calori latenti\nQuantità di calore per unità di massa $\\lambda$.\nI calori latenti sono fissati per ogni cambiamento di fase e materiale eccetto per le evaporazione, in cui è una funzione della temperatura e si annulla alla temperatura critica.\n",
+      "x": -1078,
+      "y": -3705,
+      "width": 260,
+      "height": 330
+    },
+    {
+      "id": "942cd163fc8bc244",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -2185,
+      "y": -3760,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "91cc51cc4c19ecf8",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": -1530,
+      "y": -3760,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "3b43d8a07fb09284",
+      "type": "text",
+      "text": "##### Relazioni per trasformazioni\nPer qualsiasi trasformazione:\n$$ \\Delta U = nc_{V}\\Delta T $$ \n\nPer isocore:\n$$ Q = nc_{V} \\Delta T $$\n\nper isobare\n$$ Q = nc_{p}\\Delta T $$",
+      "x": -3440,
+      "y": -2774,
+      "width": 360,
+      "height": 290
+    },
+    {
+      "id": "6b75365f477a4435",
+      "type": "file",
+      "file": "polimi-ing-info/Resources/canvas icons/bullet.png",
+      "isSticker": true,
+      "x": 1176,
+      "y": -2745,
+      "width": 50,
+      "height": 50
+    },
+    {
+      "id": "779f9bdfe808fd0b",
+      "x": -4700,
+      "y": -1300,
+      "width": 600,
+      "height": 220,
+      "type": "text",
+      "text": "##### Secondo principio della dinamica - Enunciato di Kelvin-Planck\nÈ impossibile realizzare un processo che abbia come **unico** risultato la trasformazione in lavoro del calore fornito da una sorgente a temperatura uniforme"
+    },
+    {
+      "id": "0a0c41a11c34a897",
+      "type": "text",
+      "text": "##### Secondo principio della dinamica - Enunciato di Clausius\nÈ impossibile realizzare un processo che abbia come **unico** risultato il trasferimento di una quantità di calore da un corpo ad un altro di temperatura maggiore",
+      "x": -3940,
+      "y": -1300,
+      "width": 600,
+      "height": 220
     }
   ],
   "edges": [
