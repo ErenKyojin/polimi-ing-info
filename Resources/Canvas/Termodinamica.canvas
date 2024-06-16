@@ -11,11 +11,11 @@
     },
     {
       "id": "3890908e0d09f0a1",
+      "type": "group",
       "x": -1893,
       "y": -2980,
       "width": 760,
       "height": 696,
-      "type": "group",
       "label": "calore specifico molare"
     },
     {
@@ -188,12 +188,12 @@
     },
     {
       "id": "380c48e0d7740955",
+      "type": "text",
+      "text": "##### Calori specifici di gas ideali monoatomici\n$$ C_{V} = \\frac{3}{2}R, C_{p} = \\frac{5}{2} R, \\gamma = \\frac{5}{3} $$",
       "x": -2715,
       "y": -2841,
       "width": 455,
-      "height": 134,
-      "type": "text",
-      "text": "##### Calori specifici di gas ideali monoatomici\n$$ C_{V} = \\frac{3}{2}R, C_{p} = \\frac{5}{2} R, \\gamma = \\frac{5}{3} $$"
+      "height": 134
     },
     {
       "id": "9d4f3908cace6f35",
@@ -206,12 +206,12 @@
     },
     {
       "id": "3b43d8a07fb09284",
+      "type": "text",
+      "text": "##### Relazioni per trasformazioni\nPer qualsiasi trasformazione:\n$$ \\Delta U = nc_{V}\\Delta T $$ \n\nPer isocore:\n$$ Q = nc_{V} \\Delta T $$\n\nper isobare\n$$ Q = nc_{p}\\Delta T $$",
       "x": -3440,
       "y": -2774,
       "width": 360,
-      "height": 290,
-      "type": "text",
-      "text": "##### Relazioni per trasformazioni\nPer qualsiasi trasformazione:\n$$ \\Delta U = nc_{V}\\Delta T $$ \n\nPer isocore:\n$$ Q = nc_{V} \\Delta T $$\n\nper isobare\n$$ Q = nc_{p}\\Delta T $$"
+      "height": 290
     },
     {
       "id": "f1c9088658348e88",
@@ -803,21 +803,21 @@
     },
     {
       "id": "1c1d302fb5bdbe76",
+      "type": "text",
+      "text": "##### Equazione di trasformazione adiabatica reversibile dei gas ideali\n\n$$ TV^{\\gamma -1} = \\cost$$ \n$$pV^{\\gamma} = \\cost $$ \n$$Tp^{(1-\\gamma)/\\gamma} = \\cost$$",
       "x": -200,
       "y": 1850,
       "width": 430,
-      "height": 200,
-      "type": "text",
-      "text": "##### Equazione di trasformazione adiabatica reversibile dei gas ideali\n\n$$ TV^{\\gamma -1} = \\cost$$ \n$$pV^{\\gamma} = \\cost $$ \n$$Tp^{(1-\\gamma)/\\gamma} = \\cost$$"
+      "height": 200
     },
     {
       "id": "372dfd0f797357d1",
+      "type": "text",
+      "text": "##### Trasformazioni adiabatiche dei gas ideali\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ \\mathcal{L}_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo, $T_{B} < T_{A}$.\nSe **compressione** adiabatica $\\mathcal{L}_{AB}$ negativo e $\\Delta U$ positivo, $T_{B} > T_{A}$\n\nSe adiabatica reversibile\n$$ \\dd U + d\\mathcal{L} = nc_{V} \\dd T + p\\dd V = 0 $$\npossiamo sfruttare l'equazione di stato in qualsiasi stato intermedio\n$$ nc_{V} \\dd T + \\frac{nRT}{V} \\dd V = 0 $$\nda cui, applicando la relazione  di mayer\n$$ (\\gamma - 1)\\ln \\frac{V_{B}}{V_{A}} = \\ln \\frac{T_{A}}{T_{B}}  \\implies T_{A}V_{A}^{\\gamma - 1} = T_{B}V_{B}^{\\gamma-1}$$\ninoltre se $c_{V}$ è costante possiamo applicare mayer anche al lavoro\n$$ \\mathcal{L}_{AB}=\\frac{1}{\\gamma- 1}(p_{A}V_{A} - p_{B}V_{B}) $$",
       "x": 700,
       "y": 1640,
       "width": 520,
-      "height": 620,
-      "type": "text",
-      "text": "##### Trasformazioni adiabatiche dei gas ideali\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ \\mathcal{L}_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo, $T_{B} < T_{A}$.\nSe **compressione** adiabatica $\\mathcal{L}_{AB}$ negativo e $\\Delta U$ positivo, $T_{B} > T_{A}$\n\nSe adiabatica reversibile\n$$ \\dd U + d\\mathcal{L} = nc_{V} \\dd T + p\\dd V = 0 $$\npossiamo sfruttare l'equazione di stato in qualsiasi stato intermedio\n$$ nc_{V} \\dd T + \\frac{nRT}{V} \\dd V = 0 $$\nda cui, applicando la relazione  di mayer\n$$ (\\gamma - 1)\\ln \\frac{V_{B}}{V_{A}} = \\ln \\frac{T_{A}}{T_{B}}  \\implies T_{A}V_{A}^{\\gamma - 1} = T_{B}V_{B}^{\\gamma-1}$$\ninoltre se $c_{V}$ è costante possiamo applicare mayer anche al lavoro\n$$ \\mathcal{L}_{AB}=\\frac{1}{\\gamma- 1}(p_{A}V_{A} - p_{B}V_{B}) $$"
+      "height": 620
     },
     {
       "id": "f714c8ef36005e79",
@@ -848,12 +848,22 @@
     },
     {
       "id": "8f984e4c0246c20d",
-      "x": -60,
-      "y": 3460,
-      "width": 393,
-      "height": 360,
       "type": "text",
-      "text": "#### Entalpia\nfunzione di stato (in quanto funzione unicamente di coordinate termodinamiche)\n$$ H = U + pV $$\nvale per una trasformazione infinitesima\n$$ dH = nc_{p} \\dd T $$\n\ne per una trasformazione finita, attraverso la relazione di mayer\n$$ \\Delta H = n \\int _{T_{A}}^{T_{B}} \\! c_{P}\\, \\mathrm{d}T  $$\ne, se $c_{p}$ costante\n$$ \\Delta H = nc_{p}(T_{}) $$"
+      "text": "##### Entalpia\nfunzione di stato (in quanto funzione unicamente di coordinate termodinamiche)\n$$ H = U + pV $$\nvale per una trasformazione infinitesima\n$$ dH = nc_{p} \\dd T $$\n\ne per una trasformazione finita, attraverso la relazione di mayer\n$$ \\Delta H = n \\int _{T_{A}}^{T_{B}} \\! c_{P}\\, \\mathrm{d}T  $$\ne, se $c_{p}$ costante\n$$ \\Delta H = nc_{p}(T_{B} - T_{A}) $$",
+      "x": -160,
+      "y": 3420,
+      "width": 493,
+      "height": 440,
+      "color": "1"
+    },
+    {
+      "id": "1d83d3351d18c113",
+      "type": "text",
+      "text": "##### Calore di isobare e isocore\nPer una generica trasformazione di Gas ideale energia interna ed entalpia dipendono solo dalla temperatura iniziale e finale, il calore invece dipende dalla trasformazione:\n- isocora: $$ Q = \\Delta U $$\n- isobara: $$ Q = \\Delta H $$\n\nInoltre\n$$ c_{V} = \\frac{1}{n} \\frac{\\dd U}{\\dd T} \\quad,\\quad  c_{p} = \\frac{1}{n} \\frac{\\dd H}{\\dd T} $$",
+      "x": -160,
+      "y": 2900,
+      "width": 493,
+      "height": 411
     }
   ],
   "edges": [
@@ -1665,6 +1675,27 @@
       "fromSide": "left",
       "toNode": "8f984e4c0246c20d",
       "toSide": "right"
+    },
+    {
+      "id": "d393d072fc174140",
+      "fromNode": "dd43d78c7e7d9ae1",
+      "fromSide": "left",
+      "toNode": "1d83d3351d18c113",
+      "toSide": "right"
+    },
+    {
+      "id": "94fddad5dfd213f7",
+      "fromNode": "b506a5e3678b31ef",
+      "fromSide": "left",
+      "toNode": "1d83d3351d18c113",
+      "toSide": "right"
+    },
+    {
+      "id": "24385541707e7d7f",
+      "fromNode": "8f984e4c0246c20d",
+      "fromSide": "top",
+      "toNode": "1d83d3351d18c113",
+      "toSide": "bottom"
     }
   ],
   "metadata": {}
