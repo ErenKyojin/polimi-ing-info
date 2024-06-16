@@ -803,12 +803,12 @@
     },
     {
       "id": "372dfd0f797357d1",
-      "x": 980,
+      "x": 920,
       "y": 1770,
-      "width": 320,
+      "width": 380,
       "height": 360,
       "type": "text",
-      "text": "##### Trasformazioni adiabatiche\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ W_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\n"
+      "text": "##### Trasformazioni adiabatiche\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ W_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo.\n"
     }
   ],
   "edges": [
