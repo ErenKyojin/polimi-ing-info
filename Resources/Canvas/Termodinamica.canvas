@@ -817,7 +817,7 @@
       "width": 520,
       "height": 620,
       "type": "text",
-      "text": "##### Trasformazioni adiabatiche dei gas ideali\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ \\mathcal{L}_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo, $T_{B} < T_{A}$.\nSe **compressione** adiabatica $\\mathcal{L}_{AB}$ negativo e $\\Delta U$ positivo, $T_{B} > T_{A}$\n\nSe adiabatica reversibile\n$$ \\dd U + \\dd W = nc_{V} \\dd T + p\\dd V = 0 $$\npossiamo sfruttare l'equazione di stato in qualsiasi stato intermedio\n$$ nc_{V} \\dd T + \\frac{nRT}{V} \\dd V = 0 $$\nda cui, applicando la relazione  di mayer\n$$ (\\gamma - 1)\\ln \\frac{V_{B}}{V_{A}} = \\ln \\frac{T_{A}}{T_{B}}  \\implies T_{A}V_{A}^{\\gamma - 1} = T_{B}V_{B}^{\\gamma-1}$$\ninoltre se $c_{V}$ è costante possiamo applicare mayer anche al lavoro\n$$ \\mathcal{L}_{AB}=\\frac{1}{\\gamma- 1}(p_{A}V_{A} - p_{B}V_{B}) $$"
+      "text": "##### Trasformazioni adiabatiche dei gas ideali\nGas in un contenitore con pareti adiabatiche, può scambiare unicamente lavoro, dal primo principio si ha\n$$ \\mathcal{L}_{AB} = -\\Delta U = -nc_{V}(T_{B} - T_{A}) $$\ntra due stati di equilibrio A,B.\n\nSe **espansione** adiabatica $\\mathcal{L}_{AB}$ positivo e $\\Delta U$ negativo, $T_{B} < T_{A}$.\nSe **compressione** adiabatica $\\mathcal{L}_{AB}$ negativo e $\\Delta U$ positivo, $T_{B} > T_{A}$\n\nSe adiabatica reversibile\n$$ \\dd U + d\\mathcal{L} = nc_{V} \\dd T + p\\dd V = 0 $$\npossiamo sfruttare l'equazione di stato in qualsiasi stato intermedio\n$$ nc_{V} \\dd T + \\frac{nRT}{V} \\dd V = 0 $$\nda cui, applicando la relazione  di mayer\n$$ (\\gamma - 1)\\ln \\frac{V_{B}}{V_{A}} = \\ln \\frac{T_{A}}{T_{B}}  \\implies T_{A}V_{A}^{\\gamma - 1} = T_{B}V_{B}^{\\gamma-1}$$\ninoltre se $c_{V}$ è costante possiamo applicare mayer anche al lavoro\n$$ \\mathcal{L}_{AB}=\\frac{1}{\\gamma- 1}(p_{A}V_{A} - p_{B}V_{B}) $$"
     },
     {
       "id": "f714c8ef36005e79",
@@ -826,7 +826,16 @@
       "x": 700,
       "y": 2400,
       "width": 520,
-      "height": 620
+      "height": 360
+    },
+    {
+      "id": "dd43d78c7e7d9ae1",
+      "type": "text",
+      "text": "##### Trasformazioni isocore dei gas perfetti\n$V$ costante e $\\mathcal{L} = 0$, per il primo principio, se $c_{V}$ costante\n$$ Q = \\Delta U = nc_{V}(T_{B} - T_{A}) $$\n$V$ costante $\\implies$ $$\\frac{p_{A}}{T_{A}} = \\frac{p_{B}}{T_{B}} \\implies \\frac{p_{A}}{p_{B}} = \\frac{T_{A}}{T_{B}}$$",
+      "x": 700,
+      "y": 2951,
+      "width": 520,
+      "height": 360
     }
   ],
   "edges": [
@@ -1616,6 +1625,13 @@
       "fromNode": "e633a920b7fe8fee",
       "fromSide": "left",
       "toNode": "f714c8ef36005e79",
+      "toSide": "right"
+    },
+    {
+      "id": "e00b67b21f100275",
+      "fromNode": "e633a920b7fe8fee",
+      "fromSide": "left",
+      "toNode": "dd43d78c7e7d9ae1",
       "toSide": "right"
     }
   ],
