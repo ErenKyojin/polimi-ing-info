@@ -10,6 +10,24 @@
       "label": "Trasformazioni cicliche"
     },
     {
+      "id": "66f1fed0ba02ca92",
+      "type": "group",
+      "x": -4720,
+      "y": -1320,
+      "width": 1400,
+      "height": 260,
+      "label": "Secondo principio della dinamica"
+    },
+    {
+      "id": "a51d00b7a865f127",
+      "type": "group",
+      "x": -2480,
+      "y": -1520,
+      "width": 313,
+      "height": 604,
+      "label": "Convenzione sui segni"
+    },
+    {
       "id": "7146e359a1b3ad2d",
       "type": "group",
       "x": -2440,
@@ -26,24 +44,6 @@
       "width": 760,
       "height": 696,
       "label": "calore specifico molare"
-    },
-    {
-      "id": "66f1fed0ba02ca92",
-      "x": -4720,
-      "y": -1320,
-      "width": 1400,
-      "height": 260,
-      "type": "group",
-      "label": "Secondo principio della dinamica"
-    },
-    {
-      "id": "a51d00b7a865f127",
-      "type": "group",
-      "x": -2480,
-      "y": -1520,
-      "width": 313,
-      "height": 604,
-      "label": "Convenzione sui segni"
     },
     {
       "id": "b506a5e3678b31ef",
@@ -588,12 +588,12 @@
     },
     {
       "id": "740ce47a6df29c8e",
+      "type": "text",
+      "text": "##### Sviluppo del viriale\napprossima il prodotto $pV$\n$$ \\frac{pV}{nRT} = 1 + c_{1} p + c_{2}p^2 + \\dots $$\n$c_{i}$ funzioni della temperatura",
       "x": 2320,
       "y": 3140,
       "width": 400,
-      "height": 220,
-      "type": "text",
-      "text": "##### Sviluppo del viriale\napprossima il prodotto $pV$\n$$ \\frac{pV}{nRT} = 1 + c_{1} p + c_{2}p^2 + \\dots $$\n$c_{i}$ funzioni della temperatura"
+      "height": 220
     },
     {
       "id": "110af6755e1a855a",
@@ -623,15 +623,6 @@
       "height": 400
     },
     {
-      "id": "f339360b339160db",
-      "type": "text",
-      "text": "##### Caloria\nQuantità di calore per aumentare da $14.5\\textdegree \\text{C}$ a $15.5 \\textdegree \\text{C}$ un chilogrammo d'acqua\n\n$$1 \\text{ Cal} = 4168.8 \\text{ J}$$\n\n1 Cal = 1 kcal\n1 cal = 0.001 kcal\n\n",
-      "x": -3029,
-      "y": -1098,
-      "width": 280,
-      "height": 260
-    },
-    {
       "id": "6ed75884c347043f",
       "type": "text",
       "text": "##### Trasformazione termodinamica\nDati due stati di equilibrio, il passaggio di un sistema tra i due viene detta trasformazione termidoniamica del sistema. Gli stati intermedi non sono necessariamente di equilibrio.\nConsidereremo inoltre trasformazioni infinitesime tra stati prossimi, sfruttiamo quindi il calcolo infinitesimale sulla coordinate termodinamiche",
@@ -639,42 +630,6 @@
       "y": -1660,
       "width": 320,
       "height": 414
-    },
-    {
-      "id": "3ad9991b0a6b355c",
-      "type": "text",
-      "text": "$\\mathcal{L} < 0$",
-      "x": -2460,
-      "y": -1000,
-      "width": 96,
-      "height": 64
-    },
-    {
-      "id": "7307961fc0e3e8db",
-      "type": "text",
-      "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico.\n\nVale inoltre la relazione infinitesimale\n$$ dQ = mcdT $$\nquindi\n$$ Q = \\int dQ = m \\int _{T_{1}}^{T_{2}} \\! c(T) \\, \\mathrm{d}T $$",
-      "x": -2500,
-      "y": -680,
-      "width": 300,
-      "height": 480
-    },
-    {
-      "id": "1db8182bd1f48f19",
-      "type": "text",
-      "text": "Irraggiamento",
-      "x": -3029,
-      "y": -470,
-      "width": 260,
-      "height": 60
-    },
-    {
-      "id": "29172847079db0cd",
-      "type": "text",
-      "text": "Convezione",
-      "x": -3029,
-      "y": -658,
-      "width": 260,
-      "height": 60
     },
     {
       "id": "2d9f2253320c7f35",
@@ -739,52 +694,6 @@
       "y": -2265,
       "width": 390,
       "height": 516
-    },
-    {
-      "id": "3d91642ace591c25",
-      "type": "text",
-      "text": "$Q > 0$",
-      "x": -2284,
-      "y": -1500,
-      "width": 97,
-      "height": 64
-    },
-    {
-      "id": "0e3f0183674a0519",
-      "type": "text",
-      "text": "$\\mathcal{L} > 0$",
-      "x": -2460,
-      "y": -1500,
-      "width": 96,
-      "height": 64
-    },
-    {
-      "id": "189c0247b8c3bb8d",
-      "type": "text",
-      "text": "S",
-      "shape": "circle",
-      "x": -2420,
-      "y": -1320,
-      "width": 200,
-      "height": 200
-    },
-    {
-      "id": "e820fe4f1997ad82",
-      "type": "text",
-      "text": "$Q < 0$",
-      "x": -2284,
-      "y": -1000,
-      "width": 97,
-      "height": 64
-    },
-    {
-      "id": "1ea0b89d7a516a55",
-      "type": "text",
-      "text": "##### Trasformazione isocora di gas ideali\n$$ d Q = nc_{V} \\dd T + \\dd W \\implies Q = n\\int _{T_{B}}^{T_{A}} \\! c_{V}  \\, \\mathrm{d}T + W  $$\nin particolare se $c_{V}$ costante rispetto alla temperatura\n$$ Q = nc_{V} \\Delta T + W $$ \n\nSe la trasformazione reversibile\n$$ \\dd Q = nc_{V} \\dd T + pdV \\implies Q = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T + \\int _{V_{A}}^\n{V_{B}} \\!p \\, \\mathrm{d} V   $$\nE, se $c_{V}$ costante\n\n$$ Q = nc_{V} \\dd T + \\int _{V_{A}}^{V_{B}} \\! p \\, \\mathrm{d}V$$",
-      "x": -2715,
-      "y": -2213,
-      "width": 395,
-      "height": 411
     },
     {
       "id": "76a920552d1a0e35",
@@ -987,15 +896,6 @@
       "height": 50
     },
     {
-      "id": "779f9bdfe808fd0b",
-      "x": -4700,
-      "y": -1300,
-      "width": 600,
-      "height": 220,
-      "type": "text",
-      "text": "##### Secondo principio della dinamica - Enunciato di Kelvin-Planck\nÈ impossibile realizzare un processo che abbia come **unico** risultato la trasformazione in lavoro del calore fornito da una sorgente a temperatura uniforme"
-    },
-    {
       "id": "0a0c41a11c34a897",
       "type": "text",
       "text": "##### Secondo principio della dinamica - Enunciato di Clausius\nÈ impossibile realizzare un processo che abbia come **unico** risultato il trasferimento di una quantità di calore da un corpo ad un altro di temperatura maggiore",
@@ -1003,6 +903,106 @@
       "y": -1300,
       "width": 600,
       "height": 220
+    },
+    {
+      "id": "f339360b339160db",
+      "type": "text",
+      "text": "##### Caloria\nQuantità di calore per aumentare da $14.5\\textdegree \\text{C}$ a $15.5 \\textdegree \\text{C}$ un chilogrammo d'acqua\n\n$$1 \\text{ Cal} = 4168.8 \\text{ J}$$\n\n1 Cal = 1 kcal\n1 cal = 0.001 kcal\n\n",
+      "x": -3029,
+      "y": -1098,
+      "width": 280,
+      "height": 260
+    },
+    {
+      "id": "3ad9991b0a6b355c",
+      "type": "text",
+      "text": "$\\mathcal{L} < 0$",
+      "x": -2460,
+      "y": -1000,
+      "width": 96,
+      "height": 64
+    },
+    {
+      "id": "29172847079db0cd",
+      "type": "text",
+      "text": "Convezione",
+      "x": -3029,
+      "y": -658,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "3d91642ace591c25",
+      "type": "text",
+      "text": "$Q > 0$",
+      "x": -2284,
+      "y": -1500,
+      "width": 97,
+      "height": 64
+    },
+    {
+      "id": "0e3f0183674a0519",
+      "type": "text",
+      "text": "$\\mathcal{L} > 0$",
+      "x": -2460,
+      "y": -1500,
+      "width": 96,
+      "height": 64
+    },
+    {
+      "id": "189c0247b8c3bb8d",
+      "type": "text",
+      "text": "S",
+      "shape": "circle",
+      "x": -2420,
+      "y": -1320,
+      "width": 200,
+      "height": 200
+    },
+    {
+      "id": "e820fe4f1997ad82",
+      "type": "text",
+      "text": "$Q < 0$",
+      "x": -2284,
+      "y": -1000,
+      "width": 97,
+      "height": 64
+    },
+    {
+      "id": "1ea0b89d7a516a55",
+      "type": "text",
+      "text": "##### Trasformazione isocora di gas ideali\n$$ d Q = nc_{V} \\dd T + \\dd W \\implies Q = n\\int _{T_{B}}^{T_{A}} \\! c_{V}  \\, \\mathrm{d}T + W  $$\nin particolare se $c_{V}$ costante rispetto alla temperatura\n$$ Q = nc_{V} \\Delta T + W $$ \n\nSe la trasformazione reversibile\n$$ \\dd Q = nc_{V} \\dd T + pdV \\implies Q = n \\int _{T_{A}}^{T_{B}} \\!c_{V} \\, \\mathrm{d}T + \\int _{V_{A}}^\n{V_{B}} \\!p \\, \\mathrm{d} V   $$\nE, se $c_{V}$ costante\n\n$$ Q = nc_{V} \\dd T + \\int _{V_{A}}^{V_{B}} \\! p \\, \\mathrm{d}V$$",
+      "x": -2715,
+      "y": -2213,
+      "width": 395,
+      "height": 411
+    },
+    {
+      "id": "779f9bdfe808fd0b",
+      "type": "text",
+      "text": "##### Secondo principio della dinamica - Enunciato di Kelvin-Planck\nÈ impossibile realizzare un processo che abbia come **unico** risultato la trasformazione in lavoro del calore fornito da una sorgente a temperatura uniforme",
+      "x": -4700,
+      "y": -1300,
+      "width": 600,
+      "height": 220
+    },
+    {
+      "id": "7307961fc0e3e8db",
+      "type": "text",
+      "text": "##### Calorimetria\nAttraverso misure sperimentali troviamo la formula per il calore scambiato da un corpo date temperatura iniziale, finale e massa del corpo.\n$$ Q = mc(T_{\\text{fin} } - \\text{T}_{\\text{in}}) $$\ndove $c$ è il calore specifico.\n\nVale inoltre la relazione infinitesimale\n$$ dQ = mcdT $$\nquindi\n$$ Q = \\int dQ = m \\int _{T_{1}}^{T_{2}} \\! c(T) \\, \\mathrm{d}T $$",
+      "x": -2500,
+      "y": -680,
+      "width": 300,
+      "height": 480
+    },
+    {
+      "id": "1db8182bd1f48f19",
+      "type": "text",
+      "text": "Irraggiamento",
+      "x": -3029,
+      "y": -470,
+      "width": 260,
+      "height": 60
     }
   ],
   "edges": [
