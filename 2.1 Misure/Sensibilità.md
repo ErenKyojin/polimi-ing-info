@@ -7,7 +7,7 @@ modification date: 2023-07-07 09:14
 > [!definition]
 > La sensibilità è il rapporto tra la variazione della grandezza di uscita e la corrispondente variazione della grandezza d'ingresso.
 
-Se costruiamo un grafico con l'ingresso sull'asse delle [[ascisse]] e con le uscite sull'asse delle [[ordinate]].
+
 # ANKI
 
 ```anki
