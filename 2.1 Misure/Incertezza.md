@@ -108,6 +108,10 @@ Intervallo -> PDF -> $\mu, \sigma$
 \draw[ultra thick] (2.5,-2.9) -- ++ (.5,0);
 \draw[ultra thick] plot [smooth] coordinates {(0.5,-2.9) (0.7,-1.4) (1.5,-1) (2.3, -1.4) (2.5,-2.9) };
 
+\draw[ultra thick,orange] (0,-1) -- ++ (.5,0);
+\draw[ultra thick,orange] (2.5,-1) -- ++ (.5,0);
+\draw[ultra thick,orange] plot [smooth] coordinates {(0.5,-1) (0.7,-2.5) (1.5,-2.9) (2.3, -2.5) (2.5,-1) };
+
 \draw(5,-3) -- ++ (3,0);
 \draw[dashed] (5.5,-3) -- ++ (0,2);
 \draw[dashed] (7.5,-3) -- ++ (0,2);
