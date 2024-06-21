@@ -26,3 +26,6 @@ Abbiamo quindi in queste condizioni e la sua equazione caratteristica diventa $I
 >[!amplificatore operazionale]
 >![[Pasted image 20220607170042.png]]
 >$i_-,$ $i_+$, $v_i = 0$
+
+
+Un amplificatore operazionale chiuso dal meno all'uscità è detto buffer.
