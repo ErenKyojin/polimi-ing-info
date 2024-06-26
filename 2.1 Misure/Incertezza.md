@@ -212,5 +212,6 @@ $$ u^2_{r}(y) = \sqrt{ \sum_{i=1}^n n_{i}^2 u_{r}^2(x_{i}) } $$
 > Ci risparmiamo il calcolo dei coefficienti di stabilità!
 
 ### Gradi di libertà
-Deviazione standard dell'incertezza
+Ogni stima di incertezza è a sua volta incerta, esprimibile attraverso i suoi gradi di libertà $\nu$. Possiamo quindi trovare la deviazione standard di un incertezza come.
+$$ \sigma[u(x)] \approx \frac{u(x)}{\sqrt{ 2 \nu  }} $$
  
