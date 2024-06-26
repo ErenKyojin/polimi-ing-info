@@ -197,4 +197,16 @@ $$ u_{C}(x_{I}) = \sqrt{ \frac{s^2(x_{i})}{n} + u_{B}^2(x_{i}) } $$
 
 
 ### Casi particolari di relazioni funzionali
-Se il misurando  somma o differenza delle $x_{i}$
+Se il misurando è somma o differenza delle $x_{i}$
+$$ y = n_{1}\bar{x}_{1} \pm \dots \pm n_{i}\bar{x}_{i} \pm \dots \pm n_{n}\bar{x}_{n} $$
+allora l'incertezza composta è
+$$ u^2_{c}(y) = \sum_{i=1}^N  n_{i}^2 u^2(x_{i})$$
+
+
+Se il misurando è prodotto o rapporto delle $x_{i}$
+$$ y = \bar{x}_{1}^{n_{1}} \cdot \bar{x}_{2}^{n_{2}} \cdot \ldots \cdot \bar{x}_{i}^{n_{i}} \cdot \ldots \cdot \bar{x}_{n}^{n_{n}}$$
+allora, l'incertezza relativa è
+$$ u^2_{r}(y) = \sqrt{ \sum_{i=1}^n n_{i}^2 u_{r}^2(x_{i}) } $$
+
+> [!oss]
+> Ci risparmiamo il calcolo dei coefficienti di stabilità!
