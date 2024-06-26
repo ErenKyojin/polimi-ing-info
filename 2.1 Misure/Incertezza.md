@@ -194,3 +194,7 @@ $$ u_{C}(y) = \sqrt{ \sum_{i = 1}^N  c_{i}^2 u^2(x_{i}) + 2 \sum_{i = 1}^N \sum_
 
 In generale ciascuna incertezza $u(x_{i})$è:
 $$ u_{C}(x_{I}) = \sqrt{ \frac{s^2(x_{i})}{n} + u_{B}^2(x_{i}) } $$
+
+
+### Casi particolari di relazioni funzionali
+Se il misurando  somma o differenza delle $x_{i}$
