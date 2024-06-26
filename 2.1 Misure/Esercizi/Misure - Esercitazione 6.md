@@ -23,4 +23,11 @@ Nel caso di un voltmetro integratore a doppia rampa con dinamica bipolare, se la
 ```
 
 
-##### Espressione dell'incertezza associata ad una misura ideale o teorica a
+##### c. Espressione dell'incertezza associata ad una misura ideale o teorica effettuare con questo strumento. Inoltre se all'ingresso del voltmetro integratore, accanto alla tensione continua incognita $V_{x} = 2V$ si aggiungono due distrurbi. Uno alla seconda armonica della frequenza di rete e uno alla freuqenza $f_{d_{2}} = 425 Hz$. Determinare il minimo tempo d'integrazione $T_{i,min}$ affinche entrambi i disturbi siano interamente eliminati
+
+```handwritten-ink
+{
+	"versionAtEmbed": "0.2.2",
+	"filepath": "polimi-ing-info/Resources/Allegati/Ink/Writing/2024.5.26 - 18.23pm.writing"
+}
+```
