@@ -61,3 +61,25 @@ Nel caso di un voltmetro integratore a doppia rampa con dinamica bipolare, se la
 	"filepath": "polimi-ing-info/Resources/Allegati/Ink/Writing/2024.5.26 - 18.48pm.writing"
 }
 ```
+
+##### c. Qual é il tempo massimo di conversione di questo voltmetro
+
+
+```handwritten-ink
+{
+	"versionAtEmbed": "0.2.2",
+	"filepath": "polimi-ing-info/Resources/Allegati/Ink/Writing/2024.5.26 - 18.54pm.writing"
+}
+```
+
+
+# Esercizio 3 - approssimazioni successive
+Aiutandovi con il disegno dello schema a blocchi dello strumento, illustrate in dettaglio il principio di funzionamento del voltmetro ad approssimazioni successive. Indicate i pregi e i difetti di questa struttura di conversione A/D rispetto ad altre che conoscete.
+
+
+```handwritten-ink
+{
+	"versionAtEmbed": "0.2.2",
+	"filepath": "polimi-ing-info/Resources/Allegati/Ink/Writing/2024.5.26 - 18.59pm.writing"
+}
+```
