@@ -83,3 +83,5 @@ Aiutandovi con il disegno dello schema a blocchi dello strumento, illustrate in 
 	"filepath": "polimi-ing-info/Resources/Allegati/Ink/Writing/2024.5.26 - 18.59pm.writing"
 }
 ```
+Si pone circa a metá rispetto alle altre possibilitá, sia come frequenza (100 ksa - 10Msa) che come accuratezza (12 bit - 20 bit).
+Piu accurato dei flash ma piu lento, piu veloce di un doppia rampa ma meno accurato
