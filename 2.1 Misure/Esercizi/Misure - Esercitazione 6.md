@@ -43,5 +43,21 @@ Nel caso di un voltmetro integratore a doppia rampa con dinamica bipolare, se la
 ```
 
 # Esercizio 2 - doppia rampa
-Progettare un voltmetro a doppia rampa che abbia le seguenti caratteristiche: portata $5V$, risoluzione di tensione $\Delta V  =1 mV$. Tempo d'integrazione tale da rigettare completamente i disturbi alla frequenza di $50 Hz$ e ai suoi multipli. Il voltmetro dovr funzionare con una tensione di riferimento pari a $V_{r} = \pm 5 V$
+##### a. Progettare un voltmetro a doppia rampa che abbia le seguenti caratteristiche: portata $5V$, risoluzione di tensione $\Delta V  =1 mV$. Tempo d'integrazione tale da rigettare completamente i disturbi alla frequenza di $50 Hz$ e ai suoi multipli. Il voltmetro dovr funzionare con una tensione di riferimento pari a $V_{r} = \pm 5 V$
 
+
+```handwritten-ink
+{
+	"versionAtEmbed": "0.2.2",
+	"filepath": "polimi-ing-info/Resources/Allegati/Ink/Writing/2024.5.26 - 18.42pm.writing"
+}
+```
+
+##### b. Determinare la costante di tempo dell'integratore (RC) se il valore minimo della tensione all'uscita dell'integratore é pari a $-10 V$
+
+```handwritten-ink
+{
+	"versionAtEmbed": "0.2.2",
+	"filepath": "polimi-ing-info/Resources/Allegati/Ink/Writing/2024.5.26 - 18.48pm.writing"
+}
+```
