@@ -210,3 +210,7 @@ $$ u^2_{r}(y) = \sqrt{ \sum_{i=1}^n n_{i}^2 u_{r}^2(x_{i}) } $$
 
 > [!oss]
 > Ci risparmiamo il calcolo dei coefficienti di stabilità!
+
+### Gradi di libertà
+Deviazione standard dell'incertezza
+ 

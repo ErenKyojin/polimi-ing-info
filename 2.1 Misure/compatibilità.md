@@ -18,4 +18,5 @@ $$ x = \bar{x}_{MP} = \frac{\left( \sum_{i}^N \frac{x_{i}}{u^2(x_{i})} \right)}{
 
 $w_{i} =\dfrac{1}{u^2(x_{i})}$
 
-#### Ince
+#### Incertezza della media pesata
+$$ u^2 (\bar{x}_{MP}) = \frac{1}{\sum_{i=1}^N \frac{1}{u^2 (x_{i})}} = \frac{1}{\sum_{i}^n w_{i}}  $$
