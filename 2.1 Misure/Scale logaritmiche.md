@@ -10,3 +10,6 @@ dove $Z_{0}$ è valore di riferimento
 
 ### Diagramma semilogaritmico
 Un asse cartesiano e asse logaritmico, esempio di diagramma semilogaritmico sono i [[diagrammi di Bode]]
+
+### Diagramma bilogaritmici
+Entrambi gli assi logaritmici

@@ -23,3 +23,5 @@ Utile per quando facciamo interpolazione di punti di misura. Possiamo porre l'in
 ### [[Diagramma polare]]
 
 ### [[Scale logaritmiche]]
+
+### [[interpolazione]]
