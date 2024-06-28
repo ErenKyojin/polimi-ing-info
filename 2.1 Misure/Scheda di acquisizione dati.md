@@ -27,6 +27,9 @@ Ogni segnale ha come riferimento una propria tensione, e l'acquisizione è data 
 - ✅**vantaggi**: Si annualano i disturbi presenti su entrambi i riferimenti di tensione
 - ❎**svantaggi**: necessario occupare due canali in ingresso. 
 
+>[!esempio]
+>Single 
+
 ### Frequenza di campionamento
 Indica la frequenza massima **per un singolo segnale**!
 Se dobbiamo lavorare con più segnali dobbiamo dividere per il numero di segnali

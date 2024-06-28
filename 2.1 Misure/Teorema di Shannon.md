@@ -11,4 +11,12 @@ Ossia per ricostruire un segnale bisogna campionarlo almeno al doppio della freq
 
 se $f_{\max} > F_{N}$ si avrà [[aliasing]] o equivocazione spaziale
 
-Raramente si lavora al limite di campionamento di Shannon in quanto si è comunque più proni ad errori, spesso conviene stare molto "larghi" coi campioni a meno di limiti hardware o software (specialmente con interpolazione lineare)
+Raramente si lavora al limite di campionamento di Shannon in quanto si è comunque più proni ad errori, spesso conviene stare molto "larghi" coi campioni a meno di limiti hardware o software (specialmente con interpolazione lineare).
+
+Per ricostruire un onda quadra dobbiamo arrivare almeno alla terza armonica
+
+$f_{0}$ frequenza dell'onda quadra
+$3f_{0}$ seconda armonica
+$5f_{0}$ terza armonica => per shannon $2 * 5f_{0} = 10f_{0}$ 
+
+quindi dobbiamo campionare a 10 volte la frequenza dell'onda quadra.
