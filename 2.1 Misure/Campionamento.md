@@ -10,11 +10,13 @@ graph LR
 
 ```
 
-Col campionatore sample & hold abbiamo la discretizzazione nel tempo
-Col quantizzatore in ampiezza c'è una discretizzazinoe in ampiezza
+- Col campionatore sample & hold abbiamo la discretizzazione nel tempo (misura ogni tot secondi)
+- Col quantizzatore in ampiezza c'è una discretizzazione in ampiezza
 
 >[!remark]
 >Sempre in quest'ordine!
+
+Lavoriamo sempre attraverso uno spettro del segnale in ingresso, ossia una somma di sinusoidi.
 
 ##### Discretizzazione nel tempo
 Il segnale campionato si ottiene idealmente prelevando campioni in un tempo infinitesimo, in realtà occorre un tempo finito $(T_{W}) \neq 0$ per prelevare da $v(t)$ il segnale campionato $v(t_{k})$ e per quantizzarlo
@@ -29,6 +31,10 @@ Il segnale campionato si ottiene idealmente prelevando campioni in un tempo infi
 >In un [[campionamento ideale]] il segnale è moltiplicato per un treno di [[delta di dirac]] $h(t) = \delta(t)$. 
 >
 >In un [[campionamento reale]] il segnale è moltiplicato per un treno di rettangoli $h(t) = \text{rect}(t / T_{w})$ in cui il singolo rettangolo ha durata finita $T_{W}$
+
+#### Interpolazione
+Solitamente si sfrutta l'interpolazione lineare se non è necessario mantere le derivate, altrimenti si usa l'interpolazione a [[seno cardinale]]
+
 
 # Statistica
 

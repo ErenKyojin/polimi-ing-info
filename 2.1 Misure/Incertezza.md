@@ -214,4 +214,8 @@ $$ u^2_{r}(y) = \sqrt{ \sum_{i=1}^n n_{i}^2 u_{r}^2(x_{i}) } $$
 ### Gradi di libertà
 Ogni stima di incertezza è a sua volta incerta, esprimibile attraverso i suoi gradi di libertà $\nu$. Possiamo quindi trovare la deviazione standard di un incertezza come.
 $$ \sigma[u(x)] \approx \frac{u(x)}{\sqrt{ 2 \nu  }} $$
+
+
+#### Formula di Welch-Satterwaite per gradi effettivi di libertà
+$$ \nu_{C} = \nu_{eff} = \frac{u_{c}^g(y)}{\sum_{i=1}^n \frac{u_{i}^g}{\nu_{i}}} \leq \sum_{i=1}^n \nu_{i}$$
  
