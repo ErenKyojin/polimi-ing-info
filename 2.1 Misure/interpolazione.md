@@ -24,4 +24,6 @@ per trovare i parametri $a,b,c, d$
 - $S(x_i)' = \cost$
 - $S(x_{n})'=\cost$
 
-### Inter
+### Interpolazione attraverso seno cardinale
+
+Ricostruzione dei segnali dnel tempo attraverso [[seno cardinale]]

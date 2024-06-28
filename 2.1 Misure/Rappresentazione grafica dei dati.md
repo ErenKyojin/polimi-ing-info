@@ -25,3 +25,5 @@ Utile per quando facciamo interpolazione di punti di misura. Possiamo porre l'in
 ### [[Scale logaritmiche]]
 
 ### [[interpolazione]]
+
+### [[Regressione]]
