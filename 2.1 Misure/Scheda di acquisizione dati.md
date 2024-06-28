@@ -40,4 +40,13 @@ $$ f_{samp,max} = \frac{f_{max,ADC}}{N_{segnali}} $$
 La dinamica ADC indica la differenza di tensione massima con cui può lavorare la scheda, questo è un parametro fisso di ogni scheda, se vogliamo lavorare con segnali di ordini maggiori o minori della dinamica offerta dobbiamo sfruttare il guadagno, che moltiplicheremo al potenziale
 $$ G = \frac{D_{ADC}}{D_{segnale}} $$
 
-I guadagni sono tendenzialmente preimpostati, e sono applicabili
+I guadagni possibili sono tendenzialmente preimpostati, e sono applicabili ad ogni segnale separatamente.
+
+>[!esempio] Una scheda può avere valori possibili di guadagni: `[G = 100, g = 10, G = 1, G = 0.5]`
+
+### Risoluzione dell'ADC
+Numero di bit che usa l'ADC
+$$\Delta V = \frac{D_{ADC}}{G \cdot 2^n} \qquad \qquad \delta = \frac{1}{N} = \frac{1}{2^n}$$
+
+- $N$ numero di livelli
+- $n$ numero di bit
