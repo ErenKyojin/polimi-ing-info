@@ -28,7 +28,8 @@ Ogni segnale ha come riferimento una propria tensione, e l'acquisizione è data 
 - ❎**svantaggi**: necessario occupare due canali in ingresso. 
 
 >[!esempio]
->Single 
+>batterie richiedono modalità differenziale.
+>una termocoppia richiede modalità differenziale.
 
 ### Frequenza di campionamento
 Indica la frequenza massima **per un singolo segnale**!
