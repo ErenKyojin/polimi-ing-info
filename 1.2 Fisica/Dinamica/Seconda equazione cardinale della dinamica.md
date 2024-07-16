@@ -20,13 +20,13 @@ $$
 # ANKI
 
 ```anki
+id: 1721122472061
 deck: fisica
 tags:
-- dinamica
+  - dinamica
 ---
 Seconda equazione cardinale della dinamica
 ===
 In un sistema di riferimento inerziale, la derivata temporale del momento angolare di un punto materiale $P$ rispetto ad un dato polo fisso $O$ è pari al momento della risultante delle forze applicate a $P$ rispetto al medesimo polo $O$
 $$ \vec{\tau_O} = \frac{d\vec{L}_O}{dt} $$
 ```
-<% tp.file.cursor(4) %>
