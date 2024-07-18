@@ -45,7 +45,7 @@ deck: Fisica
 Calore
 ===
 Quando un sistema passa da $T_1$ a $T_2$ possiamo scrivere
-$$ Q = \int_{T_1}^{T_2} \! c(T) \, \mathrm{d}T $$
+$$ Q = m\int_{T_1}^{T_2} \! c(T) \, \mathrm{d}T $$
 Se possiamo considerarlo costante, diventa
 $$ Q = mc(T_2 - T_1) = mc\Delta t $$
 Si può misurare in calorie
