@@ -72,20 +72,6 @@ Si definisce trasformazione adiabatica una trasformazione termodinamica senza al
 ```
 
 
-```anki
-id: 1705831183202
-deck: Fisica
----
-Lavoro adiabatico
-===
-Consideriamo un sistema termodinamico isolato termicamente, il lavoro dipende solo dagli stati iniziale e finale
-convenzionalmente definiamo
-- $\mathcal{L} > 0$ lavoro eseguito dal sistema
-- $\mathcal{L} < 0$ lavoro fornito al sistema
-definita l'energia interna U del sistema possiamo affermare che
-$$ Q = - \mathcal{L}_{\text{adiabatico}} $$
-```
-
 
 ```anki
 id: 1705831185827
