@@ -4,6 +4,13 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
+>[!tldr]
+>$Q = 0$
+>$\Delta U = -\mathcal{L}$
+>$\mathcal{L} = nc_{V} (T_{A} - T_{B})$
+>$\Delta S = 0$
+>Irreversibile se l'entropia dell'ambiente è maggiore di zero.
+
 Si definisce trasformazione adiabatica una [[trasformazioni termodinamiche|trasformazione termodinamica]] senza alcuna interazione termica (ossia senza scambio di calore)
 
 
@@ -57,7 +64,9 @@ pT^{\gamma/(1-\gamma)}&=\cost
 In una trasformazione adiabatica non c'è scambio di calore tra sistema e ambiente, abbiamo quindi due casi:
 
 - $\Delta S_{\text{sist}} = \Delta S_{\text{amb}} =0$ trasformazione reversibile
-- $\Delta S_{\text{sist}} > 0, \Delta S_{\text{amb}} \geq 0$ trasformazione irreversibile
+- $\Delta S_{\text{sist}} > 0, \Delta S_{\text{amb}} > 0$ trasformazione irreversibile
+
+
 
 # ANKI
 
