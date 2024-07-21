@@ -5,6 +5,7 @@ modification date: 2023-07-07 09:14
 ---
 
 >[!tldr]
+>$V =\cost$
 >$\mathcal{L} =0$
 >$\Delta U = Q = nc_{V}\Delta T$
 

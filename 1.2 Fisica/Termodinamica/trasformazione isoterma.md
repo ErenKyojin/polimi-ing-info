@@ -4,6 +4,13 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
+>[!tldr]
+>$T = \cost$
+>$\Delta U = nc_{V}\Delta T$
+>$Q = \mathcal{L} = nRT \ln\left( \frac{V_{f}}{V_{i}} \right)$
+>temperature minori implicano una maggiore vicinanza dell'iperbole agli assi
+>
+
 >[!definition]
 >Si definisce trasformazione isoterma una [[trasformazioni termodinamiche|trasformazione termodinamica]] che mantiene la temperatura costante
 

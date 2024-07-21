@@ -4,6 +4,12 @@ creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
 
+>[!tldr]
+>$p = \cost$
+>$\Delta U = nc_{V }\Delta T$
+>$\mathcal{L} = nR(T_{f} - T_{i})$
+>$Q = nc_{p} (T_{f} - T_{i})$
+
 
 > [!definition] 
 > Si definisce trasformazione isobara una [[trasformazioni termodinamiche|trasformazione termodinamica]] che mantiene la pressione costante
