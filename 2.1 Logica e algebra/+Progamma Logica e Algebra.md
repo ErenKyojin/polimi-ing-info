@@ -3,8 +3,7 @@ aliases:
 creation date: 2023-07-07 09:14
 modification date: 2023-07-07 09:14
 ---
-# Algebra
-#### - [[Relazioni]]
+# Algebra 1 - [[Relazioni]]
 ***
 - [ ] [[relazioni binarie]]
 - [ ] prodotto di relazioni
@@ -54,3 +53,20 @@ modification date: 2023-07-07 09:14
 - [ ] forma normale prenessa
 - [ ] [[forma di Skolem]]
 ***
+- [ ] [[Teoria formale K]]
+- [ ] teorie del primo ordine
+- [ ] teorie del primo ordine con identità
+- [ ] modelli di una teoria
+- [ ] teoremi di deduzione, [[teorema di correttezza e completezza forte]], indecibilità
+
+
+# Algebra 2 - strutture algebriche
+- [ ] Principali strutture algebriche
+	- [ ] [[semigruppo|semigruppi]]
+	- [ ] [[monoide|monoidi]]
+	- [ ] [[gruppo|gruppi]]
+	- [ ] [[Anello|anelli]]
+	- [ ] [[corpo|corpi]]
+	- [ ] [[campo|campi]]
+- [ ] [[sottos]]
+- [ ] [[Relazioni di congruenza]]
