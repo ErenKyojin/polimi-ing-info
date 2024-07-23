@@ -46,3 +46,4 @@ modification date: 2023-07-07 09:14
 - [ ] risoluzione e raffinamenti
 
 #### - [[linguaggio del primo ordine|logica del primo ordine]]
+- [ ] linguaggio del primo ordine, fbf e termini, variabili libere e vincolate.
