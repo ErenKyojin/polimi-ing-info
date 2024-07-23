@@ -5,6 +5,7 @@ modification date: 2023-07-07 09:14
 ---
 # Algebra
 #### - [[Relazioni]]
+***
 - [ ] [[relazioni binarie]]
 - [ ] prodotto di relazioni
 - [ ] proprietà delle relazioni binarie
@@ -14,7 +15,20 @@ modification date: 2023-07-07 09:14
 	- [ ] transitività
 	- [ ] antisimmetria
 - [ ] [[P chiusura]] rispetto ad un insieme di proprietà
+***
 - [ ] [[relazione di equivalenza]]
 - [ ] [[insieme quoziente]]
 - [ ] [[nucleo]] di un applicazione
 - [ ] [[primo teorema di fattorizzazione delle applicazioni]]
+- [ ]  cardinalità di un insieme e [[Teorema di cantor]]
+***
+- [ ] [[relazione d'ordine]]
+- [ ] [[reticolo]]
+***
+- [ ] [[operazione|operazioni]] interne ed esterne
+- [ ] proprietà delle operazioni
+- [ ] unità e inverso di un elemento rispettto ad una operazione binaria
+
+# Logica proposizionale
+
+ 
