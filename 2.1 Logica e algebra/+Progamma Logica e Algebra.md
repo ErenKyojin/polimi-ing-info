@@ -68,5 +68,11 @@ modification date: 2023-07-07 09:14
 	- [ ] [[Anello|anelli]]
 	- [ ] [[corpo|corpi]]
 	- [ ] [[campo|campi]]
-- [ ] [[sottos]]
-- [ ] [[Relazioni di congruenza]]
+***
+- [ ] [[sottostrutture]], criteri relativi
+***
+- [ ] [[Relazioni di congruenza]], strutture quozienti.
+- [ ] [[Classi di resto modulo n]]
+- [ ] aritmetica modulare
+***
+- [ ] 
