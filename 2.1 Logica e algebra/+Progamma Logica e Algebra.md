@@ -29,6 +29,9 @@ modification date: 2023-07-07 09:14
 - [ ] proprietà delle operazioni
 - [ ] unità e inverso di un elemento rispettto ad una operazione binaria
 
-# Logica proposizionale
-
- 
+# Logica
+#### - [[Logica proposizionale]]
+- [ ] [[formule ben formate]]
+- [ ] valutazione di una formula
+- [ ] [[tautologia|tautologie]] e contraddizioni
+- [ ] Deduzione ed equivalenza semantica
