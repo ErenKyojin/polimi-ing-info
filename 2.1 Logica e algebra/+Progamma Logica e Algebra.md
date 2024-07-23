@@ -35,4 +35,14 @@ modification date: 2023-07-07 09:14
 - [ ] valutazione di una formula
 - [ ] [[tautologia|tautologie]] e contraddizioni
 - [ ] [[Deduzione semantica]] ed equivalenza semantica
-- [ ] forme normali
+- [ ] forme normali disgiuntive e congiuntive
+***
+- [ ] [[teoria formale]]
+- [ ] [[teoria L]]
+- [ ] [[teorema di deduzione semantica]]
+- [ ] [[teorema di deduzione sintattica]]
+- [ ] [[teorema di correttezza e completezza forte]]
+- [ ] [[Ricorsivo|decidibilità]]
+- [ ] risoluzione e raffinamenti
+
+#### - [[linguaggio del primo ordine|logica del primo ordine]]
