@@ -68,7 +68,7 @@ $R \subseteq A_{1} \times A_{2}$, $T \subseteq A_{2} \times A_{3}$ definiamo:
 ### - [[relazione d'ordine]]
 ### - [[Funzioni]]
 
-
+# ANKI
 ```anki
 id: 1700559638152
 deck: LeA
