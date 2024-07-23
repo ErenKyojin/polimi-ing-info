@@ -75,4 +75,7 @@ modification date: 2023-07-07 09:14
 - [ ] [[Classi di resto modulo n]]
 - [ ] aritmetica modulare
 ***
-- [ ] 
+- [ ] [[Strutture simili]]
+- [ ] [[Omomorfismo|Omomorfismi]] e isomorfismi fra strutture simili
+- [ ] kenel di un omomorfismo
+- [ ] teorema di fattorizzazione degli omomorfismi
