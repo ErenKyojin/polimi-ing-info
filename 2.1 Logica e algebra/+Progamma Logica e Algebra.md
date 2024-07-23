@@ -34,4 +34,5 @@ modification date: 2023-07-07 09:14
 - [ ] [[formule ben formate]]
 - [ ] valutazione di una formula
 - [ ] [[tautologia|tautologie]] e contraddizioni
-- [ ] Deduzione ed equivalenza semantica
+- [ ] [[Deduzione semantica]] ed equivalenza semantica
+- [ ] forme normali
