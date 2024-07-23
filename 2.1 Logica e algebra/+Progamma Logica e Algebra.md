@@ -47,3 +47,10 @@ modification date: 2023-07-07 09:14
 
 #### - [[linguaggio del primo ordine|logica del primo ordine]]
 - [ ] linguaggio del primo ordine, fbf e termini, variabili libere e vincolate.
+- [ ] [[formula chiusa]]
+- [ ] valutazione di una formula, interpretazione.
+- [ ] formule soddisfacibili, vere, false in interpretazione
+- [ ] formule logicamente valide
+- [ ] forma normale prenessa
+- [ ] [[forma di Skolem]]
+***
