@@ -23,4 +23,5 @@ deck: LeA
 # Classi di equivalenza
 ===
 Data una relazione di equivalenza $\rho$ su un insieme $A$ per ogni $a \in A$ chiamiamo classe di equivalenza rispetto a $\rho$, avente come rappresentante $a$, o più semplicemente $\rho$-classe di $a$ l'insieme.
+$$ \rho_a = \{ x \in A | (a,x) \in \rho \} $$
 ```
