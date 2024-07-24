@@ -26,8 +26,8 @@ deck: LeA
 ---
 # Relazione inversa
 ===
-Si dice relazione inversa di $R \subseteq A_1 
-\times A_2$ la relazione $R^{-1} 
+Si dice relazione inversa di $R \subseteq A_{1} 
+\times A_{2}$ la relazione $R^{-1} 
 \subseteq A_2 \times A_1$ definita da $R^{-1} = \{(a_2,a_1) | (a_1,a_2) \in R\}$.
 
 Se si tratta di insiemi finiti, il grado di incidenza di $R^{-1}$ si ottiene invertendo la direzione delle frecce del grado di $R$, la matrice di incidenza si ottiene con la trasposizione di $R$
