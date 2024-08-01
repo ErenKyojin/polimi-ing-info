@@ -4,7 +4,7 @@ creation date: 2024-02-21
 ---
 
 > [!definition]
-> Definita nell'architettura W3C[^1] come uno spazio informativo i cui oggetti d'interessi, a cui ci si riferisce come risorse, sono identificate da identificatori globali chiamati [[uniform resource identifiers]]
+> Definita nell'architettura W3C[^1] come uno spazio informativo i cui oggetti d'interesse, a cui ci si riferisce come risorse, sono identificate da identificatori globali chiamati [[uniform resource identifiers]]
 >
 
 

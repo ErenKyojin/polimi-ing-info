@@ -26,7 +26,7 @@ Opzionalmente: modelli e metologia, Domain Specific Modelling Languages, Web mod
 - ...
 - ...
 
-Piero fraternali mio padre totale
+
 - [ ] [[internet]]
 - [ ] [[web]]
 - [ ] [[architettura#Architettura web]]
