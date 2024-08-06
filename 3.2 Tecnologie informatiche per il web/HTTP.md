@@ -88,4 +88,8 @@ Principalmente sviluppato per l'ottimizzazione di performance. HTTP1.1 fa pipeli
 
 
 >[!tldr]
->Protocollo semplice, trasparente, ...
+>Protocollo semplice, trasparente e globale, si limita a:
+>- Identificare risorse tramite URI/URL
+>- Formulare richieste
+>- Formulare risposte
+>
