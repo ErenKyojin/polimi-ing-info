@@ -50,8 +50,28 @@
       "type": "text",
       "text": "Applicazioni",
       "styleAttributes": {},
-      "x": 40,
+      "x": 60,
       "y": 120,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "04348b5105ae1326",
+      "type": "text",
+      "text": "Basi di dati",
+      "styleAttributes": {},
+      "x": 640,
+      "y": -300,
+      "width": 260,
+      "height": 60
+    },
+    {
+      "id": "54f8fc5e7d4a1f78",
+      "type": "text",
+      "text": "Altri application server",
+      "styleAttributes": {},
+      "x": 640,
+      "y": 90,
       "width": 260,
       "height": 60
     }
@@ -64,6 +84,30 @@
       "fromSide": "top",
       "toNode": "b538a9f17d1e4960",
       "toSide": "bottom"
+    },
+    {
+      "id": "ded4333499a77132",
+      "styleAttributes": {},
+      "fromNode": "54f8fc5e7d4a1f78",
+      "fromSide": "top",
+      "toNode": "b538a9f17d1e4960",
+      "toSide": "right"
+    },
+    {
+      "id": "4571db4746083e50",
+      "styleAttributes": {},
+      "fromNode": "04348b5105ae1326",
+      "fromSide": "bottom",
+      "toNode": "b538a9f17d1e4960",
+      "toSide": "right"
+    },
+    {
+      "id": "c1c1c97884376ca3",
+      "styleAttributes": {},
+      "fromNode": "ef24d642d77390ba",
+      "fromSide": "right",
+      "toNode": "0367ae46fa312aae",
+      "toSide": "left"
     }
   ],
   "metadata": {}
