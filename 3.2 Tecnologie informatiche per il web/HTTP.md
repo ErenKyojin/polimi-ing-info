@@ -38,15 +38,22 @@ Programma intermediario sia server sia client che ha il fine di fare richieste d
 
 
 ### Gateway HTTP
-Server che fa da intermediario per qualche altro server, a differenza del proxy riceve le richieste come se fosse l'origine, non si può sapere se si sta comunicando con un gateaway
+Server che fa da intermediario per qualche altro server, a differenza del proxy riceve le richieste come se fosse l'origine, non è possibile sapere se si sta comunicando con un gateaway
 
 >[!question] Come troviamo le risorse?
 >[[uniform resource identifiers|URI]] e in modo più specifico [[Uniform Resource Locator|URL]]
 
+# Comunicazione HTTP
 ![[Richiesta HTTP]]
+
+![[Risposta HTTP]]
 
 ![[Headers HTTP]]
 
+È possibile analizzare su piattaforme desktop comunicazioni HTTP attraverso il software curl
+
+>[!note]- approfondimento - curl
+>https://curl.se/docs/httpscripting.html
 
 ## HTTP 1.1
 - [[tunnel]]
