@@ -3,13 +3,19 @@ aliases: HyperText Transfer Protocol
 creation date: 2024-02-27
 ---
 
-Livello di protocollo per lo scambio di documenti ipertestuali definito dallo standard w3
+Livello di protocollo per lo scambio di documenti ipertestuali definito dallo standard w3, Architettura di tipo client server
 
 
 ### HTTP come un sistema client server
 Enumera i seguenti
-- Client, un programma sulla macchina dove interagisce l'utente il cui scopo è il mandare richieste al server per l'acquisizione di risorse
+- Client, un programma sulla macchina dove interagisce l'utente il cui scopo è il mandare richieste al server per l'acquisizione di risorse (ossia i [[browser]])
+	- manda richieste ad un sever
+	- riceve la risposta e la interpreta
+	- visualizza le risorse
 - Server, formula le risposte alle richieste provenienti dal client
+	- accesso alla rete attraverso http
+	- accesso a risorse in storage secondario
+	- generazione e consegna di risposte http per i client
 - User agent, il client che inizializza la richiesta, solitamente il [[browser]]
 - Server di origine, il server dove risiede o viene creata la risorsa 
 	- il server che detiene la copia originale della risorsa, potrebbe essere che la risposta non avviene direttamente a partire da quel server ma da uno che possiede una copia della risorsa
